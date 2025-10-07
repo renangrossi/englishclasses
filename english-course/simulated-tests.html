@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulated Tests - English Course</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header role="banner">
+        <h1>Renan the Teacher's English Course</h1>
+        <nav role="navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#A1">A1</a></li>
+                <li><a href="index.html#A2">A2</a></li>
+                <li><a href="index.html#B1">B1</a></li>
+                <li><a href="index.html#B2">B2</a></li>
+                <li><a href="index.html#C1">C1</a></li>
+                <li><a href="index.html#C2">C2</a></li>
+                <li><a href="exercises.html">Exercises</a></li>
+                <li><a href="simulated-tests.html" aria-current="page">Simulated Tests</a></li>
+                <li><a href="extras.html">Extras</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <section id="ielts" aria-labelledby="ielts-heading">
+            <div class="section-image">
+                <img src="/home/arcolinux/Documents/curso-ingles/Stuart Brown On-the-X MH-6M Little Bird of 160th SOAR.jpg" alt="The Boxers (1954) by William George">
+            </div>
+            <h2 id="ielts-heading">IELTS Academic - Full Simulation</h2>
+            <p>The International English Language Testing System (IELTS) is the world’s most popular English proficiency test. It is widely used for university admissions, immigration, and professional registration, focusing on academic and general training modules.</p>
+            <div class="materiais-container">
+                <div class="material-item">
+                    <span class="roman-numeral">I</span>
+                    <h3>IELTS Academic - Full Simulation</h3>
+                    <p>Includes Listening scripts, Reading passages with questions, Writing prompts, Speaking prompts, answer sheets, and full answer key.</p>
+                    <div class="cta-buttons">
+                        <a href="/media/valusia/English/CEFR/Simulated Tests/IELTS Academic Simulated Test.docx" target="_blank" class="cta-button">Open Word</a>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section id="toefl" aria-labelledby="toefl-heading">
+            <h2 id="toefl-heading">TOEFL iBT - Full Simulation</h2>
+            <p>TOEFL iBT (Test of English as a Foreign Language internet-Based Test) is mainly used for university admissions in the United States and Canada, assessing academic English skills through reading, listening, speaking, and writing.</p>
+            <div class="materiais-container">
+                <div class="material-item">
+                    <span class="roman-numeral">II</span>
+                    <h3>TOEFL iBT - Full Simulation</h3>
+                    <p>Includes cover/instructions, Reading passages with questions, Listening scripts & recording instructions, Speaking tasks with integrated texts, Writing tasks, answer sheets, and full answer key.</p>
+                    <div class="cta-buttons">
+                        <a href="/media/valusia/English/CEFR/Simulated Tests/TOEFL iBT SIMULATED TEST.docx" target="_blank" class="cta-button">Open Word</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="toeic" aria-labelledby="toeic-heading">
+            <h2 id="toeic-heading">TOEIC Listening & Reading - Full Simulation</h2>
+            <p>TOEIC (Test of English for International Communication) primarily evaluates English skills in a workplace context, emphasizing business communication.</p>
+            <div class="materiais-container">
+                <div class="material-item">
+                    <span class="roman-numeral">III</span>
+                    <h3>TOEIC Listening & Reading - Full Simulation</h3>
+                    <p>Includes Listening scripts/instructions and sample audio items, Reading items for Parts 5–7, full 200-question structure, answer sheets, and scoring notes.</p>
+                    <div class="cta-buttons">
+                        <a href="/media/valusia/English/CEFR/Simulated Tests/TOEIC Listening & Reading — Full Simulated Test.docx" target="_blank" class="cta-button">Open Word</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button id="back-to-top" aria-label="Back to Top">↑</button>
+    <footer>
+        <p>&copy; 2025 Renan The Teacher English Course. All rights reserved.</p>
+    </footer>
+
+    <script>
+    document.querySelectorAll('a[href^="index.html#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const href = this.getAttribute('href');
+            if (href === 'index.html#home') {
+                window.location.href = 'index.html';
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                window.location.href = href;
+                setTimeout(() => {
+                    const target = document.querySelector(href.split('#')[1]);
+                    if (target) {
+                        const headerHeight = document.querySelector('header').offsetHeight;
+                        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+                        window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                    }
+                }, 100);
+            }
+        });
+    });
+
+    const backToTopButton = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+        backToTopButton.style.display = window.scrollY > 300 ? 'block' : 'none';
+    });
+    backToTopButton.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+</script>
+</body>
+</html>

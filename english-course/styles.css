@@ -1,0 +1,519 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set Arial as default font, except for titles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #333;
+    background-color: #FFFFFF;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* Center CTAs in material-item */
+.material-item .cta-buttons {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+/* Extras page specific styles */
+.extras-page .video-wrapper iframe,
+.extras-page .video-wrapper video,
+.extras-page .image-content img {
+    width: 100% !important;
+    max-width: 350px;
+    height: auto !important;
+    aspect-ratio: 16/9;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Header styling */
+header {
+    background-color: #3C3B6E;
+    color: #FFFFFF;
+    padding: clamp(0.8em, 3vw, 1em);
+    text-align: center;
+    margin-bottom: clamp(15px, 4vw, 20px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0.95;
+}
+
+header h1 {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    font-size: clamp(1.8em, 5vw, 2.7em);
+    margin-bottom: clamp(0.4em, 2vw, 0.5em);
+    font-weight: 900;
+    letter-spacing: 0.05em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: clamp(0.5em, 2vw, 0.8em);
+}
+
+nav ul li {
+    margin: 0 clamp(0.5em, 2vw, 0.8em);
+}
+
+nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: clamp(0.9em, 2.5vw, 1.1em);
+    transition: color 0.3s ease;
+}
+
+nav ul li a[aria-current="page"] {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: clamp(0.95em, 2.7vw, 1.15em);
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    text-decoration: underline;
+    color: #BF0A30;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 2.5em;
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 8px;
+    padding-top: 60px;
+}
+
+section h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.9em;
+    color: #3C3B6E;
+    margin-bottom: 0.6em;
+    font-weight: 600;
+}
+
+/* Welcome message spacing */
+#home p.spacing {
+    margin-bottom: 2em;
+    font-size: 1.05em;
+}
+
+/* Proportional spacing after "Enjoy the ride!" */
+#home p:last-of-type {
+    margin-bottom: 3em;
+}
+
+/* Section image styling */
+.section-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto 1.5em;
+}
+
+.section-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+    aspect-ratio: 16/9;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Materials container */
+.materiais-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5em;
+    padding: 1.5em;
+    justify-items: center;
+    overflow-x: hidden;
+}
+
+/* Reduce spacing for materials container on all pages except extras */
+body:not(.extras-page) .materiais-container {
+    gap: 0.8em;
+}
+
+/* Specific styling for materials container in extras.html */
+#extras .materiais-container {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5em;
+    justify-items: center;
+    overflow-x: hidden;
+}
+
+/* Material item styling */
+.material-item {
+    position: relative;
+    background-color: #BF0A30;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    transition: transform 0.2s ease;
+    align-items: center;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+/* Optimize material-item size for all pages except extras */
+body:not(.extras-page) .material-item {
+    max-width: 350px;
+    margin: 5px auto;
+    padding: 1.2em;
+    min-height: 350px;
+}
+
+/* Adjust title padding for non-extras pages to account for Roman numerals */
+body:not(.extras-page) .material-item h3 {
+    padding-top: 1.5em;
+}
+
+/* Adjust title padding for extras page (no Roman numerals) */
+.extras-page .material-item h3 {
+    padding-top: 0.5em;
+}
+
+/* Original shake effect on hover */
+.material-item:hover,
+.material-item:focus {
+    transform: translateY(-5px);
+}
+
+/* Styling for video/image items in extras.html */
+#extras .material-item.video-item,
+#extras .material-item.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+/* Video/image content layout */
+#extras .material-item.video-item .video-content,
+#extras .material-item.image-item .image-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1; /* Allow content to take available space */
+}
+
+/* Adjust video/image wrapper to align closely with title */
+#extras .video-wrapper,
+#extras .image-content .image-wrapper {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 0.5em; /* Minimal spacing below title for alignment */
+}
+
+#extras .video-wrapper iframe,
+#extras .video-wrapper video,
+#extras .image-content img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Center description vertically in remaining space */
+#extras .video-content .content-wrapper,
+#extras .image-content .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    padding: 0.5em; /* Reduced padding for tighter spacing */
+    width: 100%;
+    flex-grow: 1; /* Take up remaining space */
+    min-height: 100px; /* Ensure enough space for description */
+}
+
+#extras .video-content .content-wrapper p,
+#extras .image-content .content-wrapper p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95em;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0.3em 0;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+#extras .video-content p a,
+#extras .image-content p a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    max-width: 100%;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/* Title styling */
+.material-item h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.3em;
+    color: #FFFFFF;
+    margin-bottom: 0.6em;
+    text-align: center;
+    width: 100%;
+}
+
+/* General description styling */
+.material-item p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95em;
+    color: #FFFFFF;
+    margin: 0.6em 0;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+/* Unavailable material styling */
+.material-item p.unavailable {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFD1D1;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* CTA button styling */
+.material-item .cta-button {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.3em 0;
+    padding: 0.6em 1.2em;
+    background-color: #3C3B6E;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    tabindex: 0;
+}
+
+.material-item .cta-button:hover,
+.material-item .cta-button:focus {
+    background-color: #6060A0;
+    transform: scale(1.05);
+    outline: 2px solid #FFFFFF;
+}
+
+/* Roman numeral styling (only for non-extras pages) */
+body:not(.extras-page) .roman-numeral {
+    font-family: 'Times New Roman', Georgia, Arial, sans-serif;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 0.85em;
+}
+
+/* Back-to-top button */
+#back-to-top {
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3C3B6E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    z-index: 2000;
+}
+
+#back-to-top:hover,
+#back-to-top:focus {
+    background-color: #6060A0;
+    transform: scale(1.1);
+    outline: 2px solid #FFFFFF;
+}
+
+/* Footer styling */
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1.2em 0;
+    background-color: #3C3B6E;
+    color: #FFFFFF;
+    margin-top: 2.5em;
+    border-radius: 8px;
+}
+
+/* Responsive design for tablets */
+@media (max-width: 768px) {
+    .materiais-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5em;
+        justify-items: center;
+    }
+
+    body:not(.extras-page) .materiais-container {
+        gap: 0.6em;
+    }
+
+    body:not(.extras-page) .material-item {
+        max-width: 300px;
+        margin: 5px auto;
+        min-height: 350px;
+    }
+
+    #extras .video-wrapper,
+    #extras .image-content img {
+        max-width: 300px;
+        height: auto;
+        aspect-ratio: 16/9;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .material-item {
+        min-height: 350px;
+        padding: 1.2em;
+    }
+}
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    header {
+        position: sticky;
+        top: 0;
+        padding: clamp(0.6em, 3vw, 0.8em);
+    }
+
+    header h1 {
+        font-size: clamp(1.4em, 4.5vw, 1.8em);
+        margin-bottom: clamp(0.3em, 2vw, 0.4em);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: clamp(0.3em, 2vw, 0.5em);
+        padding: clamp(0.4em, 2vw, 0.5em);
+    }
+
+    nav ul li {
+        margin: 0 clamp(0.3em, 2vw, 0.5em);
+    }
+
+    nav ul li a {
+        font-size: clamp(0.7em, 2.2vw, 0.8em);
+    }
+
+    main {
+        margin-top: 0;
+    }
+
+    .section-image {
+        max-width: clamp(250px, 85vw, 300px);
+        height: clamp(140px, 45vw, 280px);
+    }
+
+    .materiais-container {
+        grid-template-columns: 1fr;
+        gap: clamp(0.8em, 3vw, 1.2em);
+        justify-items: center;
+        overflow-x: hidden;
+    }
+
+    #extras .materiais-container {
+        grid-template-columns: 1fr;
+        gap: clamp(0.8em, 3vw, 1.2em);
+        justify-items: center;
+        overflow-x: hidden;
+    }
+
+    .material-item {
+        max-width: clamp(250px, 85vw, 300px);
+        min-height: clamp(250px, 70vw, 320px);
+        padding: clamp(0.6em, 2vw, 1em);
+        margin: 0 auto;
+    }
+
+    body:not(.extras-page) .material-item {
+        max-width: clamp(250px, 85vw, 300px);
+        margin: 5px auto;
+        min-height: clamp(250px, 70vw, 320px);
+    }
+
+    #extras .material-item.video-item,
+    #extras .material-item.image-item {
+        max-width: clamp(250px, 85vw, 300px);
+        margin: 0 auto;
+    }
+
+    #extras .video-wrapper,
+    #extras .image-content img {
+        width: 100%;
+        max-width: clamp(250px, 85vw, 300px);
+        height: auto;
+        aspect-ratio: 16/9;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #extras .video-content .content-wrapper,
+    #extras .image-content .content-wrapper {
+        padding: clamp(0.4em, 2vw, 0.6em);
+    }
+
+    #extras .video-content .content-wrapper p,
+    #extras .image-content .content-wrapper p {
+        font-size: clamp(0.8em, 2vw, 0.85em);
+    }
+
+    section h2 {
+        font-size: clamp(1.4em, 4vw, 1.6em);
+    }
+
+    .material-item h3 {
+        font-size: clamp(1.1em, 3vw, 1.2em);
+    }
+
+    .material-item p {
+        font-size: clamp(0.8em, 2vw, 0.85em);
+    }
+
+    .material-item .cta-button {
+        font-size: clamp(0.8em, 2vw, 0.85em);
+        padding: clamp(0.4em, 1.5vw, 0.5em) clamp(0.8em, 2.5vw, 1em);
+    }
+}

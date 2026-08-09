@@ -503,7 +503,16 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
    --------------------------------------------------------------------- */
 .section {
   padding: var(--space-2xl) var(--space-md);
+  /* Default assumes both the sticky header AND a sticky .level-toc
+     sub-nav sit above the section (true on level/hub/test-yourself
+     pages). Pages without a .level-toc (like the homepage) override
+     this just below to the header height alone — otherwise sections
+     land with a large, unexplained gap above them, well clear of the
+     header they're actually meant to sit right under. */
   scroll-margin-top: var(--sticky-offset);
+}
+body:not(:has(.level-toc)) .section {
+  scroll-margin-top: calc(var(--header-height) + var(--space-sm));
 }
 .section--tight { padding: var(--space-xl) var(--space-md); }
 .section--surface { background: var(--color-surface); }

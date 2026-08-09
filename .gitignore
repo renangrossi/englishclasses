@@ -5,3 +5,6 @@ controle-de-aulas-linux.xlsx
 controle-de-aulas-windows.xlsx
 lista_arquivos.txt
 */lista_arquivos.txt
+
+# Local Claude Code session config
+.claude/

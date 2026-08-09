@@ -97,9 +97,15 @@
   caption-side: top;
 }
 .ref-table th, .ref-table td {
-  padding: 0.6em 0.9em;
+  padding: 0.7em 1.5em 0.7em 0;
   border-bottom: 1px solid var(--color-border);
   text-align: left;
+}
+.ref-table th:first-child, .ref-table td:first-child {
+  padding-left: 0.9em;
+}
+.ref-table th:last-child, .ref-table td:last-child {
+  padding-right: 0.9em;
 }
 .ref-table thead th {
   background: var(--color-surface);

@@ -25,6 +25,7 @@
 <link rel="stylesheet" href="assets/css/components.css">
 <link rel="stylesheet" href="assets/css/layout.css">
 <link rel="stylesheet" href="assets/css/dark-mode.css">
+<link rel="stylesheet" href="assets/css/ai-teacher.css">
 <link rel="stylesheet" href="assets/css/search.css">
 
 <script>
@@ -644,8 +645,36 @@
     <button type="button" class="back-to-top" data-back-to-top aria-label="Back to top">
         <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
     </button>
+    <button type="button" class="ai-teacher-toggle" data-ai-teacher-toggle aria-label="Ask the AI English Teacher" aria-expanded="false" aria-haspopup="dialog">
+        <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+        <span class="ai-teacher-toggle__label">AI Teacher</span>
+    </button>
+    <div class="ai-teacher-panel" data-ai-teacher-panel hidden role="dialog" aria-label="AI English Teacher chat" aria-modal="false">
+        <div class="ai-teacher-panel__bar">
+            <div class="ai-teacher-panel__brand">
+                <svg class="ai-teacher-panel__brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+                <div>
+                    <strong>AI English Teacher</strong>
+                    <span>Ask a grammar, vocabulary or exercise question</span>
+                </div>
+            </div>
+            <button type="button" class="ai-teacher-panel__close" data-ai-teacher-close aria-label="Close AI Teacher"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+        </div>
+        <div class="ai-teacher-panel__messages" data-ai-teacher-messages role="log" aria-live="polite">
+            <div class="ai-teacher-msg ai-teacher-msg--bot">
+                <p>Hi! I'm your English course assistant. Ask me about grammar, vocabulary, an exercise, or anything else related to learning English &mdash; for example, <em>&ldquo;What's the difference between present perfect and past simple?&rdquo;</em> or <em>&ldquo;Give me a B1 exercise about conditionals.&rdquo;</em></p>
+            </div>
+        </div>
+        <form class="ai-teacher-panel__form" data-ai-teacher-form>
+            <label for="ai-teacher-input" class="visually-hidden">Your question</label>
+            <textarea id="ai-teacher-input" data-ai-teacher-input rows="1" maxlength="600" placeholder="Type your question&hellip;" required></textarea>
+            <button type="submit" class="ai-teacher-panel__send" data-ai-teacher-send aria-label="Send question"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></button>
+        </form>
+        <p class="ai-teacher-panel__hint" data-ai-teacher-hint>Answers come from an AI model and may occasionally be wrong &mdash; always double-check against your lesson material. Nothing you type is stored after you close this window.</p>
+    </div>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/search.js"></script>
+    <script src="assets/js/ai-teacher.js" data-ai-endpoint="https://ai-teacher.YOUR-SUBDOMAIN.workers.dev"></script>
     
 </body>
 </html>

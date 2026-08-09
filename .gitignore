@@ -1,0 +1,7 @@
+# Ignore specific unwanted files and directories
+old/
+students/
+controle-de-aulas-linux.xlsx
+controle-de-aulas-windows.xlsx
+lista_arquivos.txt
+*/lista_arquivos.txt

@@ -11,8 +11,8 @@
  *   2. Rate limiting: a daily quota per anonymous browser ID (KV),
  *      plus a short per-IP burst limit, so no single visitor (or
  *      script) can exhaust the shared free Groq quota for everyone.
- *   3. Call Groq (llama-3.3-70b-versatile primary, falling back to
- *      llama-3.1-8b-instant if the primary model's daily quota is
+ *   3. Call Groq (openai/gpt-oss-120b primary, falling back to
+ *      openai/gpt-oss-20b if the primary model's daily quota is
  *      already used up) with a scoped English-teacher system prompt.
  *   4. Return only the reply text to the browser — nothing else.
  *
@@ -25,7 +25,7 @@
 const ALLOWED_ORIGIN = "https://renangrossi.github.io";
 
 // Anonymous, per-browser daily quota. Tune to taste; the whole
-// Groq free tier for the 70B model is ~1,000 requests/day shared
+// Groq free tier for the 120B model is ~1,000 requests/day shared
 // across every visitor, so keep this modest.
 const DAILY_LIMIT_PER_ANON = 20;
 
@@ -40,8 +40,8 @@ const MAX_HISTORY_MESSAGES = 12; // 6 user/assistant turns
 const MAX_REPLY_TOKENS = 350; // keeps answers focused and keeps costs/latency low
 
 const GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";
-const PRIMARY_MODEL = "llama-3.3-70b-versatile";
-const FALLBACK_MODEL = "llama-3.1-8b-instant";
+const PRIMARY_MODEL = "openai/gpt-oss-120b";
+const FALLBACK_MODEL = "openai/gpt-oss-20b";
 
 const SYSTEM_PROMPT = `You are the AI English Teacher for "Renan the Teacher's English Course," a CEFR-aligned (A1-C2) English learning website.
 
@@ -104,7 +104,7 @@ async function callGroq(env, model, messages) {
     body: JSON.stringify({
       model: model,
       messages: messages,
-      max_tokens: MAX_REPLY_TOKENS,
+      max_completion_tokens: MAX_REPLY_TOKENS,
       temperature: 0.4,
     }),
   });
@@ -180,7 +180,7 @@ export default {
       }
       if (!res.ok) {
         var errText = await res.text();
-        console.error("Groq error:", res.status, errText);
+        console.error("GROQ_BODY: " + res.status + " " + errText);
         return jsonResponse({ error: "AI provider error" }, 502, origin);
       }
       var data = await res.json();
@@ -194,3 +194,6 @@ export default {
     }
   },
 };
+
+
+

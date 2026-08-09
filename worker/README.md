@@ -87,11 +87,17 @@ After editing, redeploy with `wrangler deploy`.
 
 ## Free-tier reality check
 
-Groq's `llama-3.3-70b-versatile` free tier is roughly 1,000 requests/day
+Groq's `openai/gpt-oss-120b` free tier is roughly 1,000 requests/day
 **shared across every visitor to your site**, not per-student. The
-Worker automatically falls back to the faster, higher-quota
-`llama-3.1-8b-instant` model (about 14,400 requests/day) if the
-primary model's daily quota is exhausted, so the feature keeps working
-at slightly lower quality rather than going down entirely. The
+Worker automatically falls back to the `openai/gpt-oss-20b` model
+(same ~1,000 requests/day, but a separate quota pool) if the primary
+model's daily quota is exhausted, so the feature keeps working at
+slightly lower quality rather than going down entirely. The
 per-browser daily cap (`DAILY_LIMIT_PER_ANON`) exists specifically to
 stop one visitor from using up the whole day's shared quota.
+
+Note: as of this writing, `llama-3.3-70b-versatile` and
+`llama-3.1-8b-instant` (the models originally used here) are on
+Groq's deprecation schedule (shutdown 08/16/26) — see
+[console.groq.com/docs/deprecations](https://console.groq.com/docs/deprecations)
+if you need to change models again in the future.

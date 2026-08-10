@@ -48,6 +48,24 @@
     }
   }
 
+  // Cheap, page-derived context so the Worker can ground answers in
+  // the real course structure — no page markup changes needed. The
+  // level comes from the URL (levels/a1/..., levels/a2.html, ...);
+  // the "lesson" name is just the first segment of <title> (e.g.
+  // "Adjectives — A1 English Grammar — Renan the Teacher" -> "Adjectives").
+  // The Worker re-validates all of this against its own course
+  // catalog before ever using it — nothing here is trusted as-is.
+  var courseContext = (function () {
+    var path = window.location.pathname;
+    var levelMatch = path.match(/\/levels\/(a1|a2|b1|b2|c1|c2)(?:[\/.]|$)/i);
+    var titleParts = (document.title || "").split("—"); // split on em dash "—"
+    return {
+      currentLevel: levelMatch ? levelMatch[1].toUpperCase() : "",
+      currentLesson: titleParts[0] ? titleParts[0].trim() : "",
+      currentLessonUrl: path,
+    };
+  })();
+
   function toggleOpen(open) {
     var willOpen = open !== undefined ? open : panel.hidden;
     panel.hidden = !willOpen;
@@ -79,12 +97,77 @@
   // Very small, safe subset of markdown-ish formatting the model
   // tends to use (bold, line breaks, simple numbered/bulleted lists)
   // rendered without any HTML injection risk, since we escape first.
+  //
+  // Markdown tables get special handling: the system prompt discourages
+  // them, but if the model produces one anyway (well-formed, malformed,
+  // or truncated), a raw "| a | b |" row is unreadable in a narrow chat
+  // bubble. Rather than trying to render an actual <table> (which isn't
+  // valid inside the <p> these messages live in), every pipe-delimited
+  // row is converted into a short bullet line instead \u2014 this guarantees
+  // the student never sees broken/raw Markdown syntax.
+  function isTableSeparatorRow(line) {
+    return /^\|?\s*:?-{2,}:?\s*(\|\s*:?-{2,}:?\s*)*\|?$/.test(line.trim());
+  }
+
+  function splitTableRow(line) {
+    var t = line.trim().replace(/^\|/, "").replace(/\|$/, "");
+    return t.split("|").map(function (c) { return c.trim(); }).filter(function (c) { return c.length > 0; });
+  }
+
+  function inlineBold(s) {
+    return s.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  }
+
+  // The system prompt asks the model to avoid "#" heading syntax, but
+  // as a safety net (same reasoning as the table handling above): if
+  // it slips one in anyway, never show the raw "### Heading" text —
+  // render it as a bold line instead, since <p> can't hold real
+  // heading elements and a literal "###" reads as broken Markdown.
+  function formatLine(line) {
+    var heading = line.match(/^#{1,6}\s+(.*)$/);
+    if (heading) return "<strong>" + inlineBold(heading[1]) + "</strong>";
+    return inlineBold(line);
+  }
+
   function renderBotText(raw) {
     var safe = escapeHtml(raw);
-    safe = safe.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
-    safe = safe.replace(/\n\s*[-*]\s+/g, "\n\u2022 ");
-    safe = safe.replace(/\n/g, "<br>");
-    return safe;
+    var lines = safe.split("\n");
+    var out = [];
+    var i = 0;
+    while (i < lines.length) {
+      var line = lines[i];
+      if (/^-{3,}$/.test(line.trim())) {
+        // Bare "---" horizontal-rule Markdown — drop it rather than
+        // showing literal dashes; surrounding blank lines already
+        // give enough visual separation in a chat bubble.
+        i++;
+        continue;
+      }
+      if (line.indexOf("|") !== -1 && line.trim() !== "") {
+        var block = [];
+        var j = i;
+        while (j < lines.length && lines[j].indexOf("|") !== -1 && lines[j].trim() !== "") {
+          block.push(lines[j]);
+          j++;
+        }
+        block.forEach(function (rowLine, idx) {
+          if (idx === 1 && isTableSeparatorRow(rowLine)) return; // drop the "---|---" row
+          var cells = splitTableRow(rowLine);
+          if (cells.length === 0) return;
+          var label = cells[0].replace(/\*\*/g, "");
+          var rest = cells.slice(1).map(inlineBold);
+          out.push("\u2022 <strong>" + label + "</strong>" + (rest.length ? " \u2014 " + rest.join(" \u2014 ") : ""));
+        });
+        i = j;
+        continue;
+      }
+      out.push(formatLine(line));
+      i++;
+    }
+    var html = out.join("\n");
+    html = html.replace(/\n\s*[-*]\s+/g, "\n\u2022 ");
+    html = html.replace(/\n/g, "<br>");
+    return html;
   }
 
   function addMessage(role, text) {
@@ -139,6 +222,9 @@
         history: history.slice(0, -1),
         anonId: getAnonId(),
         page: window.location.pathname,
+        currentLevel: courseContext.currentLevel,
+        currentLesson: courseContext.currentLesson,
+        currentLessonUrl: courseContext.currentLessonUrl,
       }),
     })
       .then(function (res) {

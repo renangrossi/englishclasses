@@ -1,0 +1,458 @@
+{
+  "levels": [
+    {
+      "code": "A1",
+      "name": "Beginner",
+      "url": "levels/a1.html"
+    },
+    {
+      "code": "A2",
+      "name": "Elementary",
+      "url": "levels/a2.html"
+    },
+    {
+      "code": "B1",
+      "name": "Intermediate",
+      "url": "levels/b1.html"
+    },
+    {
+      "code": "B2",
+      "name": "Upper Intermediate",
+      "url": "levels/b2.html"
+    },
+    {
+      "code": "C1",
+      "name": "Advanced",
+      "url": "levels/c1.html"
+    },
+    {
+      "code": "C2",
+      "name": "Proficient",
+      "url": "levels/c2.html"
+    }
+  ],
+  "resources": [
+    {
+      "level": "A1",
+      "title": "Basic Greetings and Introductions",
+      "url": "levels/a1/basic-greetings-and-introductions.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Numbers (Cardinal and Ordinal)",
+      "url": "levels/a1/numbers-cardinal-and-ordinal.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Subject and Object Pronouns",
+      "url": "levels/a1/subject-and-object-pronouns.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Possessive Pronouns (with Subject & Object Review)",
+      "url": "levels/a1/possessive-pronouns-with-subject-object-review.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Articles: A, An, The",
+      "url": "levels/a1/articles-a-an-the.html",
+      "type": "lesson",
+      "aliases": [
+        "a an the",
+        "definite indefinite article"
+      ]
+    },
+    {
+      "level": "A1",
+      "title": "Demonstrative Pronouns",
+      "url": "levels/a1/demonstrative-pronouns.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Nouns",
+      "url": "levels/a1/nouns.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Adjectives",
+      "url": "levels/a1/adjectives.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Prepositions of Place and Time",
+      "url": "levels/a1/prepositions-of-place-and-time.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Conjunctions: And, But, Or",
+      "url": "levels/a1/conjunctions-and-but-or.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "To Be (Am, Is, Are)",
+      "url": "levels/a1/to-be-am-is-are.html",
+      "type": "lesson",
+      "aliases": [
+        "be verb",
+        "am is are",
+        "verb to be"
+      ]
+    },
+    {
+      "level": "A1",
+      "title": "Simple Present I",
+      "url": "levels/a1/simple-present-i.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Have / Has",
+      "url": "levels/a1/have-has.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Yes/No Questions",
+      "url": "levels/a1/yes-no-questions.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Wh- Questions (Who, What, Where, When, Why, How)",
+      "url": "levels/a1/wh-questions-who-what-where-when-why-how.html",
+      "type": "lesson",
+      "aliases": [
+        "wh questions",
+        "question words"
+      ]
+    },
+    {
+      "level": "A1",
+      "title": "There Is / There Are",
+      "url": "levels/a1/there-is-there-are.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Present Continuous I",
+      "url": "levels/a1/present-continuous-i.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Imperatives (Review and Expand)",
+      "url": "levels/a1/imperatives-review-and-expand.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Possessive Pronouns",
+      "url": "levels/a1/possessive-pronouns.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Imperatives",
+      "url": "levels/a1/imperatives.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Present Simple and Continuous Review",
+      "url": "cefr/a2-elementary/a-present-simple-and-continuous-review.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "A2",
+      "title": "Adverbs of Frequency",
+      "url": "cefr/a2-elementary/b-adverbs-of-frequency.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "A2",
+      "title": "Quantifiers",
+      "url": "cefr/a2-elementary/c-quantifiers.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "A2",
+      "title": "Comparatives and Superlatives I",
+      "url": "cefr/a2-elementary/d-comparatives-and-superlatives-i.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "A2",
+      "title": "Prepositions of Place and Movement",
+      "url": "cefr/a2-elementary/e-prepositions-of-place-and-movement.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "A2",
+      "title": "Past Simple and Continuous",
+      "url": "cefr/a2-elementary/f-past-simple-and-continuous.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "A2",
+      "title": "Can, Could, May",
+      "url": "cefr/a2-elementary/g-can-could-may.pdf",
+      "type": "worksheet",
+      "format": "pdf",
+      "aliases": [
+        "modal verbs",
+        "modals"
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Zero and First Conditionals",
+      "url": "cefr/a2-elementary/l-zero-and-first-conditionals.pdf",
+      "type": "worksheet",
+      "format": "pdf",
+      "aliases": [
+        "if clauses",
+        "conditional sentences"
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Who, Which, That",
+      "url": "cefr/a2-elementary/n-who-which-that.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "A2",
+      "title": "Connectors",
+      "url": "cefr/a2-elementary/o-connectors.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "A2",
+      "title": "Simple Past vs. Past Continuous",
+      "url": "cefr/a2-elementary/p-simple-past-vs.-past-continuous.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "A2",
+      "title": "Simple Past I",
+      "url": "cefr/a2-elementary/q-simple-past-i.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "A2",
+      "title": "Simple Past II",
+      "url": "cefr/a2-elementary/q-simple-past-ii.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "A2",
+      "title": "Can, Could, May",
+      "url": "cefr/a2-elementary/r-can-could-may.pdf",
+      "type": "worksheet",
+      "format": "pdf",
+      "aliases": [
+        "modal verbs",
+        "modals"
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Question Tags",
+      "url": "cefr/a2-elementary/s-question-tags.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B1",
+      "title": "Present Perfect vs. Present Perfect Continuous",
+      "url": "cefr/b1-intermediate/a-present-perfect-vs.-present-perfect-continuous.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B1",
+      "title": "Present Perfect Continuous",
+      "url": "cefr/b1-intermediate/b-present-perfect-continuous.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B1",
+      "title": "Past Simple vs. Past Perfect",
+      "url": "cefr/b1-intermediate/c-past-simple-vs-past-perfect.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B1",
+      "title": "Past Perfect and Perfect Continuous",
+      "url": "cefr/b1-intermediate/d-past-perfect-and-perfect-continuous.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B1",
+      "title": "Future Continuous and Future Perfect",
+      "url": "cefr/b1-intermediate/e-future-continuous-and-future-perfect.docx",
+      "type": "worksheet",
+      "format": "docx"
+    },
+    {
+      "level": "B1",
+      "title": "Must, Might, Should",
+      "url": "cefr/b1-intermediate/f-must-might-should.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B1",
+      "title": "Second and Third Conditionals",
+      "url": "cefr/b1-intermediate/g-2nd-and-3rd-conditionals.pdf",
+      "type": "worksheet",
+      "format": "pdf",
+      "aliases": [
+        "if clauses",
+        "conditional sentences",
+        "unreal conditionals"
+      ]
+    },
+    {
+      "level": "B1",
+      "title": "Future Forms: Will / Going To",
+      "url": "cefr/b1-intermediate/h-future-forms-will-going-to.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B1",
+      "title": "Passive Voice",
+      "url": "cefr/b1-intermediate/h-passive-voice.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B1",
+      "title": "Present Perfect",
+      "url": "cefr/b1-intermediate/i-present-perfect.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B1",
+      "title": "Past Simple vs. Present Perfect I",
+      "url": "cefr/b1-intermediate/j-past-simple-vs.-present-perfect-i.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B1",
+      "title": "Past Simple vs. Present Perfect II",
+      "url": "cefr/b1-intermediate/j-past-simple-vs.-present-perfect-ii.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B1",
+      "title": "Future Continuous",
+      "url": "cefr/b1-intermediate/k-future-continuous.docx",
+      "type": "worksheet",
+      "format": "docx"
+    },
+    {
+      "level": "B1",
+      "title": "Would",
+      "url": "cefr/b1-intermediate/m-would.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B2",
+      "title": "B2 Grammar Exercises I",
+      "url": "cefr/b2-upper-intermediate/b2-grammar-exercises-i.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B2",
+      "title": "B2 Grammar Exercises II",
+      "url": "cefr/b2-upper-intermediate/b2-grammar-exercises-ii.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "B2",
+      "title": "Used To / When / While",
+      "url": "cefr/b2-upper-intermediate/used-to-when-while.pdf",
+      "type": "worksheet",
+      "format": "pdf"
+    },
+    {
+      "level": "A1",
+      "title": "A1 Test Yourself (full review)",
+      "url": "levels/a1/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "A2",
+      "title": "A2 Test Yourself (full review)",
+      "url": "levels/a2/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "B1",
+      "title": "B1 Test Yourself (full review)",
+      "url": "levels/b1/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": null,
+      "title": "Practice Exercises",
+      "url": "exercises.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Dictionary & Reference",
+      "url": "dictionary.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Placement Test",
+      "url": "placement-test.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Simulated Exams",
+      "url": "simulated-exams.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Extras",
+      "url": "extras.html",
+      "type": "page"
+    }
+  ]
+}

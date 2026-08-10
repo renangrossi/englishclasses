@@ -14,15 +14,25 @@
  *   3. Call Groq (openai/gpt-oss-120b primary, falling back to
  *      openai/gpt-oss-20b if the primary model's daily quota is
  *      already used up) with a scoped English-teacher system prompt.
- *   4. Return only the reply text to the browser — nothing else.
+ *   4. Ground the model in the *real* course structure (course-
+ *      catalog.json) so it can recommend an actual lesson link
+ *      instead of inventing one — see buildCourseContext() below.
+ *   5. Return only the reply text to the browser — nothing else.
  *
  * See worker/README.md for setup and deployment instructions.
  */
+
+import courseCatalog from "./course-catalog.json";
 
 // ---- Configuration -------------------------------------------------
 
 // Update this to your real GitHub Pages origin (no trailing slash).
 const ALLOWED_ORIGIN = "https://renangrossi.github.io";
+
+// Base URL the course-catalog.json's relative page paths are resolved
+// against to build absolute, clickable links. Must match where the
+// site is actually served (GitHub Pages project-site subpath).
+const SITE_BASE_URL = "https://renangrossi.github.io/englishclasses/";
 
 // Anonymous, per-browser daily quota. Tune to taste; the whole
 // Groq free tier for the 120B model is ~1,000 requests/day shared
@@ -36,32 +46,227 @@ const BURST_LIMIT_PER_IP = 8;
 const BURST_WINDOW_SECONDS = 60;
 
 const MAX_MESSAGE_LENGTH = 600; // characters, matches the frontend's maxlength
+const MAX_CONTEXT_FIELD_LENGTH = 300; // characters, for page/currentLevel/currentLessonUrl
 const MAX_HISTORY_MESSAGES = 12; // 6 user/assistant turns
-const MAX_REPLY_TOKENS = 350; // keeps answers focused and keeps costs/latency low
+const MAX_REPLY_TOKENS = 650; // keeps answers focused and keeps costs/latency low
+const MAX_MATCHED_RESOURCES = 3; // how many auto-matched course pages to surface per turn
 
 const GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";
 const PRIMARY_MODEL = "openai/gpt-oss-120b";
 const FALLBACK_MODEL = "openai/gpt-oss-20b";
 
-const SYSTEM_PROMPT = `You are the AI English Teacher for "Renan the Teacher's English Course," a CEFR-aligned (A1-C2) English learning website.
+const SYSTEM_PROMPT = `You are the AI English Teacher for "Renan the Teacher's English Course," a CEFR-aligned (A1-C2) English learning website. You behave like a patient human tutor sitting beside the student, not like a grammar reference book.
+
+Core loop: TEACH -> PRACTICE -> NAVIGATE. Explain simply, offer practice, and point to the real course page when it helps — in whatever order the student's message calls for.
 
 Your role:
 - Help students with English grammar, vocabulary, pronunciation guidance, sentence construction, reading, writing, speaking and listening.
-- Explain clearly, adapt to the student's apparent level, and give short examples.
 - When correcting a mistake, explain WHY it's wrong before giving the correct form.
-- When asked for an exercise, create one appropriate to the requested (or implied) CEFR level.
-- End many answers with a short follow-up practice question or prompt, to encourage active learning.
-- Keep answers concise and focused — a few short paragraphs at most, not an essay, unless the student explicitly asks for something longer (like a full exercise set).
+- When asked for an exercise, create one appropriate to the student's level, one at a time unless a full set is requested.
+- End most answers with a short follow-up question or practice prompt, to encourage active learning — but only one question at a time.
 
 Strict scope:
 - You are ONLY the English-course assistant. If a student asks something unrelated to learning English (general chit-chat, other subjects, personal advice, current events, etc.), politely say you're the English course assistant and steer them back to an English-learning question. Do this briefly and kindly, without lecturing.
-- Never claim a fact, resource, or exercise is "from the course" unless the student's own message already told you it is — you don't have direct access to the site's file contents, only to this instruction.
+- Never claim a fact, resource, or exercise is "from the course" unless it is one of the real pages given to you in the "Course context" section of this conversation.
 - Never ask for or store personal information. If a student shares personal details, respond helpfully to the English content without dwelling on the personal information.
 
-Style:
-- Warm, encouraging, and patient — this is often a student's first interaction with the site.
-- Use simple, clear language yourself, especially for lower-level (A1-A2) questions.
-- Use CEFR terminology (A1, A2, B1, B2, C1, C2) naturally when relevant.`;
+--- LEVEL AWARENESS ---
+A student's overall English level and the difficulty of a topic are two different things. A beginner asking about an advanced topic (e.g. conditionals) should get a SIMPLIFIED explanation of that topic, not a switch into academic language just because the topic is advanced.
+- Use "Student's current page" (in Course context, if given) as a starting guess of level.
+- Update your guess immediately if the student says something explicit: "I'm a beginner", "I am very basic", "I'm just starting", "I'm A1", "I'm advanced", etc.
+- Also update your guess from demonstrated ability in their own writing — if a self-declared "beginner" writes a complex, accurate sentence, treat them as more capable going forward. Don't lock a level in permanently from one sentence; keep adapting.
+- Don't repeatedly ask the student for level/language info they already gave you earlier in the conversation.
+
+--- BEGINNER MODE ---
+When the learner is a beginner (A1, or says so, or writes very simply), simplify the ENTIRE conversation, not just the grammar topic:
+- Short, clear sentences. Common everyday words. Simple sentence structures.
+- One concept at a time, and only ONE angle of it. Do not cover every case in one message (e.g. for a tense: pick either the basic form OR negatives OR questions — not all of them together). Maximum 2 example sentences.
+- One question at a time. One exercise at a time.
+- NEVER use a Markdown table for a beginner, ever — plain sentences or a short bullet list only. Avoid academic/linguistic terminology; if a grammar term is unavoidable, explain it in very simple words with a concrete example.
+- Aim for a short answer (roughly 3-6 short lines/sentences) unless the student clearly asks for more.
+- Warm and encouraging, never childish or patronizing.
+- Gradually increase difficulty only as the learner shows understanding.
+Example of the right tone for "I am very basic": "That's OK! 😊 We can go slowly. I will use simple English and help you step by step. Let's start with an easy question: What is your name?" — NOT a paragraph about "fundamental grammatical structures."
+
+--- PROGRESSIVE TEACHING ---
+Don't dump a complete grammar reference on the first answer. Start with the simplest useful explanation and a couple of examples; offer to go deeper ("Want more detail?" / "Want to practice?") rather than giving everything at once. Increase detail only if the student asks for more.
+
+--- NATIVE-LANGUAGE SUPPORT ---
+Default to English. If the student writes in another language (e.g. Portuguese: "fala português?", "pode explicar em português?") or explicitly asks for help in it, switch briefly:
+- Beginner-and-Portuguese: Portuguese clarification is welcome and encouraged. Keep it concise, and keep useful English example sentences visible so the English-learning goal stays central. Don't become a general-purpose Portuguese chatbot — steer back to English practice.
+- Intermediate/advanced students: prefer English by default; only use Portuguese if they explicitly ask for it.
+- Switch back to English once the student seems ready or continues in English.
+- This same pattern (brief, concise native-language clarification, English examples kept visible, switch back when ready) applies to any language the student uses, not only Portuguese.
+
+--- EXERCISES ---
+- Match the student's actual level, not just the topic's typical level.
+- Match the current topic when one is established.
+- One exercise at a time unless a full set is requested.
+- Don't reveal the answer immediately unless it fits the exercise style.
+- After the student answers, give clear, encouraging feedback and explain any mistake simply.
+
+--- ERROR CORRECTION ---
+When a student writes something with a mistake:
+- Focus on the most useful 1-2 mistakes — don't overwhelm with every possible correction.
+- Explain why, simply, appropriate to their level.
+- Give the corrected sentence.
+- Invite another attempt when it fits.
+Example (beginner): Student: "I am go to school yesterday." -> "Almost! 😊 Say: 'I went to school yesterday.' We use 'went' because yesterday is in the past. Try this: 'I ___ to the store yesterday.'"
+
+--- FORMATTING (applies to every answer) ---
+- Plain, chat-friendly text only. NEVER output raw HTML markup.
+- Prefer short paragraphs, bullet points, and numbered lists over Markdown tables.
+- For a beginner-level student, never use a table — use short bullet points instead, always. For other levels, only use a Markdown table when a comparison genuinely needs one, and keep it small (max 3 columns, max 3-4 rows). Never leave a table malformed or incomplete — if you're not fully sure the table will render cleanly, use a bullet list instead.
+- NEVER use "#" Markdown heading syntax (no #, ##, ###) or a "---" horizontal-rule line. Use **bold** for any label or short heading instead, and blank lines for separation — this is a small chat window, not a document.
+- If a request has multiple parts (e.g. "explain X and show me the lesson"), keep each part tight so the whole answer comfortably finishes — don't let a reply run out of room mid-sentence. Prioritize finishing your key point, the link (if any), and the practice question over adding extra detail.
+- For grammar explanations, prefer this shape over a table: Rule, then 1-3 short Examples, then one Quick practice line.
+- When you share a course link, put it on its own short line with a clear label and emoji, e.g. "📚 Lesson: Present Continuous I — [link]". Don't dump a bare raw URL into running text.
+- Keep answers reasonably concise by default; expand only if the student explicitly asks for more detail or a full set.
+
+--- COURSE NAVIGATION & URL SAFETY (read carefully) ---
+Each message may include a "Course context" section listing real pages from this website (level overview pages, and sometimes specific matched lessons/worksheets, and the student's current page). This is the ONLY source of truth for links.
+- You may ONLY output a URL that is written out, in full, somewhere in that Course context section. Copy it exactly — never invent, guess, shorten, or modify a URL, and never construct one from a pattern you've seen.
+- If the student asks where to study a topic on the site ("show me on the site", "which lesson covers this", "send me the link", etc.):
+  - If a listed page is genuinely about that topic, share it with a short label.
+  - If nothing listed is a good match, say honestly that you don't have that exact page, and offer the closest level overview link instead — clearly say it's the closest general match, not the exact lesson. Never just say "look in the B1 section" without a real link.
+  - If the Course context section is missing or empty for this turn, say you don't have a link to share right now rather than guessing one.
+- A worksheet link opens a PDF or Word document (the context will say which) — you can mention that naturally, e.g. "a short PDF worksheet."`;
+
+// ---- Course catalog helpers -------------------------------------------
+
+// Every real, on-site URL the model is ever allowed to see is resolved
+// through this map, built once from course-catalog.json at module load.
+// Nothing here is invented at request time.
+const CATALOG_INDEX = new Map();
+courseCatalog.levels.forEach(function (l) { CATALOG_INDEX.set(l.url, { title: l.name + " overview", level: l.code, url: l.url, type: "overview" }); });
+courseCatalog.resources.forEach(function (r) { CATALOG_INDEX.set(r.url, r); });
+const VALID_LEVEL_CODES = new Set(courseCatalog.levels.map(function (l) { return l.code; }));
+
+function absoluteUrl(relativeUrl) {
+  return SITE_BASE_URL + relativeUrl;
+}
+
+// Normalizes a browser pathname (which may include the GitHub Pages
+// project-site subpath, e.g. "/englishclasses/levels/a1.html") down
+// to the site-root-relative form used as keys in CATALOG_INDEX, then
+// looks it up. Returns null (not a guess) when there's no real match.
+function findCatalogEntryByPath(rawPath) {
+  if (!rawPath || typeof rawPath !== "string") return null;
+  var p = rawPath.split("?")[0].split("#")[0];
+  if (p.charAt(0) === "/") p = p.slice(1);
+  if (CATALOG_INDEX.has(p)) return CATALOG_INDEX.get(p);
+  for (var url of CATALOG_INDEX.keys()) {
+    if (p === url || p.slice(-(url.length + 1)) === "/" + url) return CATALOG_INDEX.get(url);
+  }
+  return null;
+}
+
+// Filler/conversational words to drop from the STUDENT'S QUERY only —
+// deliberately excludes words that are also real grammar-topic names
+// on this site (would, have, could, should, will, was/were, being),
+// so a question genuinely about one of those topics still matches it.
+var STOPWORDS = new Set([
+  "the", "and", "for", "are", "you", "your", "what", "whats", "difference", "between",
+  "explain", "show", "tell", "please", "can", "give", "about", "with", "this", "that",
+  "how", "why", "when", "where", "who", "which", "does", "doesnt", "dont",
+  "not", "from", "into", "over", "more", "than", "like", "want", "need", "help", "some",
+  "any", "but", "just", "very", "really", "also", "then", "now", "page", "site", "lesson",
+  "lessons", "course", "link", "exercise", "exercises", "correct", "check", "answer",
+  "mean", "means", "meaning", "use", "used", "using", "make", "made", "one", "two", "get",
+  "got", "know", "think",
+]);
+
+function tokenize(text) {
+  return String(text || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ")
+    .split(/\s+/)
+    .filter(function (w) { return w.length >= 3 && !STOPWORDS.has(w); });
+}
+
+// Hay (title + aliases) tokenization deliberately skips STOPWORDS
+// filtering — a resource's own title must always be fully matchable
+// even if one of its words (e.g. "Would") would be filtered as noise
+// on the query side.
+function tokenizeHay(text) {
+  return String(text || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ")
+    .split(/\s+/)
+    .filter(function (w) { return w.length >= 3; });
+}
+
+// Exact word-token matching (not substring) — substring matching let
+// the query word "verb" incorrectly match inside "adVERBs" or "modal
+// verbs", surfacing irrelevant resources.
+function scoreResource(resource, queryTokens, currentLevel) {
+  var haySet = new Set(tokenizeHay(resource.title + " " + (resource.aliases || []).join(" ")));
+  var score = 0;
+  queryTokens.forEach(function (t) {
+    if (haySet.has(t)) score += t.length >= 6 ? 2 : 1;
+  });
+  if (score > 0 && currentLevel && resource.level === currentLevel) score += 1;
+  return score;
+}
+
+// Deterministic, non-AI keyword match: current message is weighted
+// double (matched twice) over the last couple of turns of history, so
+// a short follow-up like "show me the lesson" can still recover the
+// topic ("conditionals") that was actually being discussed.
+function matchResources(message, cleanHistory, currentLevel) {
+  var recentHistoryText = cleanHistory.slice(-4).map(function (m) { return m.content; }).join(" ");
+  var queryTokens = tokenize(message).concat(tokenize(message)).concat(tokenize(recentHistoryText));
+  if (queryTokens.length === 0) return [];
+
+  var scored = courseCatalog.resources
+    .map(function (r) { return { resource: r, score: scoreResource(r, queryTokens, currentLevel) }; })
+    .filter(function (x) { return x.score > 0; });
+
+  scored.sort(function (a, b) { return b.score - a.score; });
+  return scored.slice(0, MAX_MATCHED_RESOURCES).map(function (x) { return x.resource; });
+}
+
+function resourceLabel(r) {
+  if (r.type === "worksheet") return "[" + r.level + "] " + r.title + " (" + r.format.toUpperCase() + " worksheet)";
+  if (r.type === "lesson") return "[" + r.level + "] " + r.title + " (lesson page)";
+  if (r.type === "test") return "[" + r.level + "] " + r.title;
+  if (r.type === "overview") return "[" + r.level + "] " + r.title;
+  return r.title;
+}
+
+// Builds the per-request "Course context" system message: the static
+// list of level overview pages (always present, tiny — six lines) plus
+// whatever specific pages matched this turn, plus the student's
+// current page if the frontend sent one that validates against the
+// real catalog. This — not the model — is the only source of URLs.
+function buildCourseContext(message, cleanHistory, currentPageEntry, currentLevel) {
+  var lines = ["Course context — the ONLY real, linkable pages for this turn:", ""];
+
+  lines.push("Level overview pages (always valid fallback):");
+  courseCatalog.levels.forEach(function (l) {
+    lines.push("- [" + l.code + "] " + l.name + " overview: " + absoluteUrl(l.url));
+  });
+  lines.push("");
+
+  var matches = matchResources(message, cleanHistory, currentLevel);
+  if (matches.length > 0) {
+    lines.push("Possibly relevant to this question (auto-matched by keywords — use your judgement, only present if genuinely relevant):");
+    matches.forEach(function (r) {
+      lines.push("- " + resourceLabel(r) + ": " + absoluteUrl(r.url));
+    });
+  } else {
+    lines.push("Possibly relevant to this question: (no automatic match this turn)");
+  }
+  lines.push("");
+
+  if (currentPageEntry) {
+    lines.push("Student's current page: " + resourceLabel(currentPageEntry) + " — " + absoluteUrl(currentPageEntry.url));
+  } else {
+    lines.push("Student's current page: (unknown)");
+  }
+
+  return lines.join("\n");
+}
 
 // ---- Helpers ---------------------------------------------------------
 
@@ -111,6 +316,11 @@ async function callGroq(env, model, messages) {
   return res;
 }
 
+function cleanContextField(value) {
+  if (typeof value !== "string") return "";
+  return value.slice(0, MAX_CONTEXT_FIELD_LENGTH).trim();
+}
+
 // ---- Main handler ------------------------------------------------
 
 export default {
@@ -148,6 +358,17 @@ export default {
       return jsonResponse({ error: "Missing client identifier" }, 400, origin);
     }
 
+    // --- Course/page context sent by the frontend — never trusted as
+    // free text; only used as a lookup key into the real catalog, or
+    // (for currentLevel) checked against the known level codes. If it
+    // doesn't validate, it's simply dropped rather than passed through.
+    var rawPage = cleanContextField(payload.page);
+    var rawLessonUrl = cleanContextField(payload.currentLessonUrl);
+    var rawLevel = cleanContextField(payload.currentLevel).toUpperCase();
+
+    var currentPageEntry = findCatalogEntryByPath(rawLessonUrl) || findCatalogEntryByPath(rawPage);
+    var currentLevel = VALID_LEVEL_CODES.has(rawLevel) ? rawLevel : (currentPageEntry ? currentPageEntry.level : null);
+
     // --- Rate limiting -------------------------------------------------
     var ip = request.headers.get("CF-Connecting-IP") || "unknown";
     var burstKey = "burst:" + ip;
@@ -168,7 +389,12 @@ export default {
       .slice(-MAX_HISTORY_MESSAGES)
       .map(function (m) { return { role: m.role, content: String(m.content).slice(0, MAX_MESSAGE_LENGTH) }; });
 
-    var messages = [{ role: "system", content: SYSTEM_PROMPT }]
+    var courseContext = buildCourseContext(message, cleanHistory, currentPageEntry, currentLevel);
+
+    var messages = [
+      { role: "system", content: SYSTEM_PROMPT },
+      { role: "system", content: courseContext },
+    ]
       .concat(cleanHistory)
       .concat([{ role: "user", content: message }]);
 
@@ -194,6 +420,3 @@ export default {
     }
   },
 };
-
-
-

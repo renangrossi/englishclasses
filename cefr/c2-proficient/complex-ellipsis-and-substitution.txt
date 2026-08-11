@@ -1,0 +1,129 @@
+--------------------------------------------------
+LEVEL: C2
+TOPIC: Complex Ellipsis and Substitution
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+Ellipsis (omitting words that are recoverable from context) and substitution (replacing repeated words with a short pro-form) make advanced English tighter and more natural, avoiding clumsy repetition.
+
+a) Ellipsis in reduced clauses — omitting a repeated subject, auxiliary, or verb when the meaning stays clear.
+   - After "and/but/or" in parallel structures: She ordered coffee and [she ordered] a croissant.
+   - In comparative/contrastive clauses: He works harder than she [works]. / Some like tea; others [like] coffee.
+   - After auxiliaries, when the main verb is recoverable: He hasn't finished yet, but he will [finish] soon.
+   - In subordinate clauses with the same subject as the main clause: While [he was] waiting, he read the newspaper.
+
+b) Omission patterns common in academic and literary writing — dropping relative pronouns and "that" in defining clauses, and omitting "which is/who is" before a reduced participle or adjective phrase.
+   The book [that] I mentioned is finally out. / The results, [which were] published last year, remain controversial.
+
+c) Pro-forms in complex texts — using "do so," "one," "the same," "such," or simple auxiliaries to stand in for a whole verb phrase or idea already mentioned, avoiding repetition across sentences.
+   He asked her to leave, and she did so immediately. (= she left immediately)
+   If you need a pen, take one from my desk. (= a pen, not a specific one already mentioned)
+   The results confirmed the hypothesis; subsequent studies have done the same.
+
+These devices are essential for sounding genuinely native-like: overusing full repetition, even when grammatically correct, sounds stilted at C2.
+
+2. EXAMPLES
+
+1. She likes jazz, and her brother does too.
+2. He hasn't called yet, but he probably will soon.
+3. Some prefer working from home; others don't.
+4. While waiting for the bus, she finished her book.
+5. The report [that] we discussed yesterday has been revised.
+6. The proposal, [which was] submitted last month, is still under review.
+7. He asked me to stay quiet, and I did so, reluctantly.
+8. If you need an umbrella, take one from the stand by the door.
+9. The first study confirmed the theory; the second one did the same.
+10. She can speak French fluently, and so can her sister.
+11. He wanted to leave early, but couldn't.
+12. Whatever the outcome, we'll accept it.
+
+3. COMMON MISTAKES
+
+1. Incorrect: She likes jazz, and her brother does it too.
+   Correct: She likes jazz, and her brother does too. (or: ...and so does her brother.)
+   Why: "Does too" alone functions as the substitute verb phrase — adding "it" creates redundancy.
+
+2. Incorrect: He hasn't called yet, but he will do it soon.
+   Correct: He hasn't called yet, but he will soon. / ...but he will do so soon.
+   Why: Use the bare auxiliary or "do so," not "will do it," which is redundant/informal here.
+
+3. Incorrect: While she was waiting, was reading a magazine.
+   Correct: While waiting, she was reading a magazine. / While she was waiting, she was reading a magazine.
+   Why: If you omit the subject after "while," you must also omit "was" (ellipsis applies to subject + auxiliary together); otherwise, keep both.
+
+4. Incorrect: If you need a pen, take the one from my desk. (when no specific pen has been mentioned)
+   Correct: If you need a pen, take one from my desk.
+   Why: "One" (indefinite substitution) is used for an unspecified item; "the one" implies a specific, previously identified item.
+
+5. Incorrect: He asked her to apologize, and she did so it.
+   Correct: He asked her to apologize, and she did so.
+   Why: "Did so" already replaces the whole verb phrase — don't add another object after it.
+
+4. EXERCISES
+
+A. Gap-fill (complete with the correct ellipsis/substitution or write "—" if a word should be omitted)
+1. He plays the guitar, and his sister ___ too.
+2. She hasn't finished the report, but she ___ by Friday.
+3. ___ waiting for the results, they kept refreshing the page.
+4. If you need a chair, grab ___ from the next room.
+5. The plan worked in the first city; it ___ in the second.
+6. He told them to wait, and they ___.
+7. Some people love spicy food; ___ can't stand it.
+8. The book ___ you recommended was excellent.
+
+B. Rewrite / Transformation (rewrite each pair using ellipsis or substitution to avoid repetition)
+1. My father can cook well. My mother can cook well too.
+2. He hasn't decided yet, but he will decide soon.
+3. She was reading while she was waiting for the train.
+4. The first experiment succeeded. The second experiment succeeded too.
+5. If you want a coffee, take a coffee from the machine.
+6. He told me to relax, and I relaxed.
+
+C. Error Correction
+1. She likes hiking, and her friend does it too.
+2. While she was cooking, was listening to music.
+3. He asked me to stop, and I did so it.
+4. If you need a towel, take the one from the shelf. (no towel mentioned before)
+5. He hasn't replied yet, but he will do it tomorrow.
+6. The first plan failed; the second plan did the same it.
+
+D. Guided Production
+1. Write two sentences about two people with a shared habit, using "does/did too" or "so does/did."
+2. Write one sentence with a reduced clause after "while" or "when," omitting the repeated subject.
+3. Write one sentence using "do so" to substitute for a whole action already mentioned.
+4. Write one sentence using indefinite "one" to substitute for an unspecified item.
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. does
+2. will (or: will have finished)
+3. While (with subject/auxiliary omitted: While waiting for...)
+4. one
+5. did (also worked / did so)
+6. did
+7. others
+8. — (that/which omitted: The book you recommended...)
+
+B. Rewrite / Transformation
+1. My father can cook well, and so can my mother. / ...and my mother can too.
+2. He hasn't decided yet, but he will soon.
+3. She was reading while waiting for the train.
+4. The first experiment succeeded, and so did the second.
+5. If you want a coffee, take one from the machine.
+6. He told me to relax, and I did.
+
+C. Error Correction
+1. She likes hiking, and her friend does too.
+2. While cooking, she was listening to music. / While she was cooking, she was listening to music.
+3. He asked me to stop, and I did so.
+4. If you need a towel, take one from the shelf.
+5. He hasn't replied yet, but he will soon. / ...but he will do so tomorrow.
+6. The first plan failed; the second did the same.
+
+D. Guided Production (sample answers)
+1. My brother loves horror films, and so do I. My sister, on the other hand, does not.
+2. When traveling alone, I always feel more observant of my surroundings.
+3. The manager asked everyone to submit their reports early, and most people did so without complaint.
+4. If you ever need a notebook, just grab one from the supply cabinet.

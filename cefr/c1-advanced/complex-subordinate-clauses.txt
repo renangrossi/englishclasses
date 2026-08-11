@@ -1,0 +1,134 @@
+--------------------------------------------------
+LEVEL: C1
+TOPIC: Complex Subordinate Clauses
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+Subordinate clauses let you link a main idea to a secondary one with precision. At C1 you need to control three families beyond simple "because" / "although":
+
+a) Concessive clauses (contrast) — even though, although, though, whereas, while, in spite of / despite (+ noun or -ing).
+   - "Even though / although / though" + clause show a surprising contrast: Even though it was raining, we went for a walk.
+   - "Whereas / while" contrast two facts neutrally, often side by side: She loves cities, whereas he prefers the countryside.
+   - "In spite of / despite" + noun/gerund (never a full clause directly): Despite the rain, we went for a walk. / Despite working hard, she failed.
+
+b) Purpose clauses — so as to, in order to/that, for the purpose of.
+   - "So as to" / "in order to" + bare infinitive express purpose formally: We left early so as to avoid the traffic.
+   - "In order that" / "so that" + clause (with can/could/will/would) are used when the subject changes: I gave her my number so that she could contact me.
+
+c) Result clauses — such...that, so...that.
+   - "So" + adjective/adverb + "that": The exam was so difficult that half the class failed.
+   - "Such" + (a/an) + adjective + noun + "that": It was such a difficult exam that half the class failed.
+
+Register note: "in order that," "so as to," and "whereas" belong to formal/written English; "so," "although," and "but" are fine in speech.
+
+2. EXAMPLES
+
+1. Even though she was exhausted, she finished the marathon.
+2. Whereas the north of the country is mountainous, the south is flat.
+3. Despite having no experience, he got the job.
+4. In spite of the criticism, the director refused to change the ending.
+5. We arrived early so as to get good seats.
+6. She whispered so that no one else would hear.
+7. He studied hard in order to pass the bar exam.
+8. The music was so loud that we couldn't hear each other talk.
+9. It was such a compelling argument that the jury changed its mind.
+10. While I understand your concerns, I still disagree with the decision.
+11. The report was so poorly written that it had to be redone.
+12. He left the company in order that his rival could take over.
+
+3. COMMON MISTAKES
+
+1. Incorrect: Despite he was tired, he kept working.
+   Correct: Despite being tired, he kept working. / Although he was tired, he kept working.
+   Why: "Despite/in spite of" take a noun or gerund, not a subject + verb clause.
+
+2. Incorrect: The film was such interesting that I watched it twice.
+   Correct: The film was so interesting that I watched it twice.
+   Why: "So" goes with an adjective alone; "such" needs a noun (such an interesting film).
+
+3. Incorrect: She works hard so as she can support her family.
+   Correct: She works hard so that she can support her family. / She works hard in order to support her family.
+   Why: "So as to" takes an infinitive, not a clause; use "so that" for a full clause with a modal.
+
+4. Incorrect: Whereas he is generous, but she is quite mean.
+   Correct: Whereas he is generous, she is quite mean.
+   Why: Don't combine "whereas" with "but" — the contrast is already built into "whereas."
+
+5. Incorrect: It was so a boring lecture that half the room fell asleep.
+   Correct: It was such a boring lecture that half the room fell asleep.
+   Why: With "adjective + noun," use "such (a/an)," not "so."
+
+4. EXERCISES
+
+A. Gap-fill (so, such, whereas, despite, in order to/that, so as to)
+1. ___ the traffic, we arrived right on time.
+2. He whispered the plan ___ no one would overhear.
+3. It was ___ a long meeting that people started checking their phones.
+4. The coffee here is excellent, ___ the tea is rather weak.
+5. She left the party early ___ catch the last train.
+6. The instructions were ___ confusing that nobody followed them correctly.
+7. He trained every day ___ improve his stamina.
+8. ___ having a fever, she still went to work.
+9. He spoke slowly and clearly ___ everyone in the room could understand.
+10. It was ___ a generous offer that we couldn't refuse it.
+
+B. Rewrite / Transformation
+1. He is rich, but he lives very simply. (rewrite with "whereas")
+2. She failed the exam, but she didn't lose confidence. (rewrite with "even though")
+3. He turned down the promotion. He wanted more free time. (join with "in order to")
+4. It rained heavily. We still finished the hike. (join with "despite")
+5. The test was extremely hard. Nobody finished it in time. (join with "so...that")
+6. He apologized publicly. He wanted to repair his reputation. (join with "so that")
+7. It was a very persuasive speech. It changed several votes. (join with "such...that")
+
+C. Error Correction
+1. Despite he arrived late, no one seemed to mind.
+2. It was so an emotional film that everyone cried.
+3. She practiced every day so as she could improve faster.
+4. Whereas I respect his opinion, but I think he's wrong.
+5. The meeting was such long that we had to order dinner.
+6. In spite of he lost the match, he stayed positive.
+
+D. Guided Production
+1. Write one sentence about your own life using "even though."
+2. Write one sentence using "whereas" to contrast two people or places you know.
+3. Write one sentence using "so...that" describing a memorable experience.
+4. Write one sentence using "in order to" about a goal you're working toward.
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. Despite/In spite of
+2. so that
+3. such
+4. whereas
+5. so as to / in order to
+6. so
+7. so as to / in order to
+8. Despite/In spite of
+9. so that
+10. such
+
+B. Rewrite / Transformation
+1. He is rich, whereas he lives very simply.
+2. Even though she failed the exam, she didn't lose confidence.
+3. He turned down the promotion in order to have more free time.
+4. Despite the heavy rain, we still finished the hike.
+5. The test was so hard that nobody finished it in time.
+6. He apologized publicly so that he could repair his reputation.
+7. It was such a persuasive speech that it changed several votes.
+
+C. Error Correction
+1. Despite arriving late / Although he arrived late, no one seemed to mind.
+2. It was such an emotional film that everyone cried.
+3. She practiced every day so as to improve faster / so that she could improve faster.
+4. Whereas I respect his opinion, I think he's wrong. (remove "but")
+5. The meeting was so long that we had to order dinner.
+6. In spite of losing the match / Although he lost the match, he stayed positive.
+
+D. Guided Production (sample answers)
+1. Even though I was scared of heights, I went skydiving for my birthday.
+2. My sister loves spontaneous trips, whereas I prefer planning every detail in advance.
+3. The concert was so loud that my ears were ringing for hours afterward.
+4. I've been saving money in order to travel around South America next year.

@@ -1,0 +1,125 @@
+--------------------------------------------------
+LEVEL: C2
+TOPIC: Native-Like Use of Modality and Attitude
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+C2 modality goes beyond certainty/possibility to convey fine shades of tentativeness, concession, politeness and layered epistemic stance — how confident, cautious or diplomatic the speaker wants to sound.
+
+a) Subtle modal shading
+   - Tentativeness/hedging: might, could, would seem to, it could be said that, one might argue.
+     It would seem that the strategy has largely failed. (softer, more diplomatic than "The strategy has failed")
+   - Concession within modality: may/might + well (acknowledging a point is likely true, often before contrasting it): She might well be right, but I still have reservations.
+   - Politeness distancing: would/could/might used to soften requests, suggestions or opinions, creating social distance and respect.
+     Might I suggest an alternative approach? (very formal/polite) vs. Can I suggest...? (neutral)
+
+b) Layered modality — combining more than one modal expression (typically a modal + a modal-like verb phrase such as "expected to," "supposed to," "meant to") to express a nuanced, sometimes ironic, stance on an obligation or expectation that itself involves uncertainty.
+   He might have been expected to apologize, but he never did. (= it would have been reasonable to expect an apology, though uncertainty/distance is baked in)
+   She should, in theory, have been informed beforehand.
+
+c) Epistemic stance markers — phrases that signal how the writer/speaker is framing their own certainty, common in academic and diplomatic register.
+   It is conceivable that... / There is reason to believe that... / One cannot rule out the possibility that... / It stands to reason that...
+
+Native-like control means choosing the modal combination that matches exactly how certain, cautious, or polite you intend to sound — not just whether something is possible or necessary.
+
+2. EXAMPLES
+
+1. It would seem that the negotiations have reached a stalemate.
+2. She might well be the most qualified candidate, but the panel remains divided.
+3. Might I suggest we revisit this proposal at a later date?
+4. He might have been expected to resign after the scandal, yet he remains in office.
+5. One cannot rule out the possibility that the results were affected by bias.
+6. There is reason to believe that the original estimate was overly optimistic.
+7. It could be argued that the reform, while well-intentioned, was poorly executed.
+8. She should, in theory, have received the documents by now.
+9. It stands to reason that costs would rise given the current shortages.
+10. He may well have a point, but the timing of his objection is questionable.
+
+3. COMMON MISTAKES
+
+1. Incorrect: It would seem the strategy fails.
+   Correct: It would seem that the strategy has failed.
+   Why: This hedged structure typically requires "that" before the clause, and the verb tense should match the intended time frame (here, a completed failure).
+
+2. Incorrect: She might well being right.
+   Correct: She might well be right.
+   Why: After "might well," use the bare infinitive ("be"), not the gerund.
+
+3. Incorrect: He might have expected to apologize.
+   Correct: He might have been expected to apologize.
+   Why: "Be expected to" is a passive structure (others expected it of him); dropping "been" changes the meaning to "he expected himself."
+
+4. Incorrect: It cannot rule out the possibility that costs will rise.
+   Correct: One cannot rule out the possibility that costs will rise.
+   Why: The impersonal subject here is "one" (or "we"), not "it" — "it" doesn't fit this fixed epistemic phrase.
+
+5. Incorrect: Might I to suggest an alternative?
+   Correct: Might I suggest an alternative?
+   Why: After the inverted modal "Might I," use the bare infinitive directly, without "to."
+
+4. EXERCISES
+
+A. Gap-fill (complete with the correct modal/epistemic phrase)
+1. It would ___ (seem) that the plan has stalled entirely.
+2. She might ___ (well) be correct, but I'd like more evidence.
+3. ___ I suggest we postpone the decision until next week? (very formal request)
+4. He ___ (might/expect) to know better, given his experience.
+5. There is reason ___ (believe) the figures were manipulated.
+6. It ___ (stand/reason) that demand would fall as prices rose.
+7. One cannot ___ (rule out) the possibility of further delays.
+8. She should, in theory, ___ (already/inform) of the changes.
+
+B. Rewrite / Transformation (rewrite each direct statement with the appropriate hedged/modal tone)
+1. The results are wrong. (make it tentative/hedged)
+2. Costs will definitely rise. (make it a cautious epistemic claim, not a certainty)
+3. Can I suggest a different approach? (make it more formal/polite)
+4. He should have apologized. (add a layer of distance — "might have been expected to")
+5. Bias affected the results. (rewrite as a possibility that can't be excluded, using "one cannot rule out...")
+
+C. Error Correction
+1. It would seem the negotiations collapse.
+2. She might well being the best candidate.
+3. He might have expect an apology from her.
+4. It cannot rule out the possibility of a delay.
+5. Might I to ask a question?
+6. There is reason believe the data is flawed.
+
+D. Guided Production
+1. Write one sentence using "It would seem that..." to hedge an opinion about current events.
+2. Write one sentence using "might well" to concede a point before disagreeing with it.
+3. Write one sentence using "One cannot rule out the possibility that..." about an uncertain outcome.
+4. Write one very formal, polite request using inverted "Might I...?"
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. seem
+2. well
+3. Might
+4. might have been expected
+5. to believe
+6. stands to reason
+7. rule out
+8. have already been informed
+
+B. Rewrite / Transformation
+1. It would seem that the results are incorrect.
+2. There is reason to believe that costs will rise.
+3. Might I suggest a different approach?
+4. He might have been expected to apologize.
+5. One cannot rule out the possibility that bias affected the results.
+
+C. Error Correction
+1. It would seem that the negotiations have collapsed.
+2. She might well be the best candidate.
+3. He might have expected an apology from her.
+4. One cannot rule out the possibility of a delay.
+5. Might I ask a question?
+6. There is reason to believe the data is flawed.
+
+D. Guided Production (sample answers)
+1. It would seem that remote work has permanently changed employer expectations.
+2. He might well be telling the truth, but I still think we should verify his story.
+3. One cannot rule out the possibility that the delay will affect the entire launch schedule.
+4. Might I ask you to reconsider your decision before the meeting concludes?

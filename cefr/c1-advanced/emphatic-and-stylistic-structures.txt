@@ -1,0 +1,130 @@
+--------------------------------------------------
+LEVEL: C1
+TOPIC: Emphatic and Stylistic Structures
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+Cleft sentences split one idea into two clauses to put spotlight on a specific piece of information. They are a hallmark of fluent, natural-sounding advanced English.
+
+a) It-clefts — "It is/was + the emphasized element + who/that + rest of the sentence." Used to highlight a subject, object, time or place.
+   Neutral: Sarah broke the vase.
+   Emphasized: It was Sarah who broke the vase. (emphasis on who did it)
+   It was the vase that Sarah broke. (emphasis on what was broken)
+   It was yesterday that Sarah broke the vase. (emphasis on when)
+
+b) Pseudo-clefts (wh-clefts) — start with a wh-word (what, where, why, how, the thing/reason/place that...) + be + the emphasized element. Used to highlight an action, reason, or entire idea, often at the end for maximum impact.
+   What I found surprising was his reaction. (= His reaction was what I found surprising.)
+   What bothers me most is his constant lateness.
+   The thing that annoys me is his tone.
+   Where we went wrong was underestimating the competition.
+
+c) All-cleft (a variation): All + relative clause + is/was + emphasized element, used to minimize/emphasize simplicity.
+   All I want is a bit of peace and quiet.
+
+Use clefts to control which part of a sentence the listener/reader focuses on — a key stylistic tool in speeches, essays, and persuasive writing.
+
+2. EXAMPLES
+
+1. It was her honesty that impressed the interviewers most.
+2. It is the lack of funding that's holding the project back.
+3. What surprised me most was how calm she stayed.
+4. What we need now is a clear plan of action.
+5. It was in Lisbon that they first met.
+6. The reason I called was to check on you.
+7. What annoys me is when people interrupt.
+8. It was not the money but the recognition that motivated him.
+9. All she wants is a bit of appreciation for her work.
+10. What made the difference was their attention to detail.
+11. It was only after the accident that he changed his habits.
+12. Where the plan failed was in its complete lack of funding.
+
+3. COMMON MISTAKES
+
+1. Incorrect: It was Sarah that broke who the vase.
+   Correct: It was Sarah who broke the vase.
+   Why: Choose either "who" (for people) or "that," and place it right after the emphasized element — don't split or double it.
+
+2. Incorrect: What I found it surprising was his reaction.
+   Correct: What I found surprising was his reaction.
+   Why: Don't add a redundant object pronoun ("it") — the wh-clause already functions as the subject.
+
+3. Incorrect: What bothers me most it's his constant lateness.
+   Correct: What bothers me most is his constant lateness.
+   Why: Use "is/was" directly, not a contracted "it's," which duplicates the subject.
+
+4. Incorrect: It was her the one who impressed the interviewers.
+   Correct: It was her/she who impressed the interviewers. / She was the one who impressed the interviewers.
+   Why: Don't mix the it-cleft and the "the one who" structure in the same sentence — pick one pattern.
+
+5. Incorrect: All what I want is some peace and quiet.
+   Correct: All I want is some peace and quiet.
+   Why: "All" already functions like "the only thing that," so don't add "what" as well.
+
+4. EXERCISES
+
+A. Gap-fill (complete the cleft sentence)
+1. It ___ my brother who fixed the car, not me.
+2. What really impressed the judges ___ her confidence on stage.
+3. It was ___ the noise, not the crowd, that bothered him most.
+4. The reason she left early ___ to catch her flight.
+5. All he wants ___ a quiet place to work.
+6. It was only when I moved abroad ___ I understood my parents better.
+7. What we should focus on ___ the customer experience, not just the price.
+8. It ___ during the interview, not the written test, that he stood out.
+
+B. Rewrite / Transformation (rewrite each sentence as a cleft sentence, emphasizing the underlined part)
+1. Her attitude, not her skills, worried the manager. (it-cleft)
+2. I really admire his patience. (pseudo-cleft with "What")
+3. We met in Barcelona, not Madrid. (it-cleft)
+4. She wants nothing more than some recognition. (all-cleft)
+5. His lack of preparation caused the failure. (pseudo-cleft with "What")
+6. I called to apologize, not to argue. (it-cleft, emphasizing the reason)
+
+C. Error Correction
+1. It was John that he lost the keys.
+2. What I need it is more time.
+3. All what matters to her is her family.
+4. It the manager was who approved the budget.
+5. What surprised us it was the ending of the film.
+6. It was not the price the thing that bothered me.
+
+D. Guided Production
+1. Write one it-cleft sentence emphasizing who did something.
+2. Write one pseudo-cleft sentence starting with "What..." about something that matters to you.
+3. Write one it-cleft sentence emphasizing when or where something happened.
+4. Write one all-cleft sentence ("All I want/need is...").
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. was
+2. was
+3. the noise
+4. was
+5. is
+6. that
+7. is
+8. was
+
+B. Rewrite / Transformation
+1. It was her attitude, not her skills, that worried the manager.
+2. What I really admire is his patience.
+3. It was in Barcelona, not Madrid, that we met.
+4. All she wants is some recognition.
+5. What caused the failure was his lack of preparation.
+6. It was to apologize, not to argue, that I called.
+
+C. Error Correction
+1. It was John who lost the keys.
+2. What I need is more time.
+3. All that matters to her is her family.
+4. It was the manager who approved the budget.
+5. What surprised us was the ending of the film.
+6. It was not the price but the way it was handled that bothered me.
+
+D. Guided Production (sample answers)
+1. It was my grandmother who taught me how to cook.
+2. What matters most to me is spending time with the people I love.
+3. It was on a rainy afternoon in Porto that I fell in love with the city.
+4. All I need is a strong cup of coffee to start my day.

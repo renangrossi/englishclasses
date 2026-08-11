@@ -1,0 +1,119 @@
+--------------------------------------------------
+LEVEL: C2
+TOPIC: Mastery of Register
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+Register is the level of formality and the specific conventions of grammar and vocabulary appropriate to a context. C2 speakers can recast the same content across academic, legal, journalistic, casual and technical styles at will.
+
+a) Academic register — nominalization, passive voice, hedging modals, precise connectors, avoidance of contractions and first person where possible.
+   Casual: We found that people work better in teams.
+   Academic: The findings indicate that collaborative work environments enhance productivity.
+
+b) Legal register — highly formal, precise, often uses archaic connectors (hereinafter, notwithstanding, pursuant to, shall for obligation), long compound sentences, and avoids ambiguity through repetition of exact terms rather than pronouns.
+   The Tenant shall, pursuant to Clause 4 of this Agreement, provide written notice no fewer than thirty (30) days prior to termination.
+
+c) Journalistic register — concise, front-loaded with the most important information (lead paragraph), attributed claims ("according to," "sources say"), active voice for readability, short paragraphs.
+   Officials confirmed on Tuesday that the bridge would remain closed for repairs, according to a statement released by the transport authority.
+
+d) Casual/conversational register — contractions, phrasal verbs, ellipsis, informal connectors (so, anyway, kind of), direct address, shorter sentences.
+   So basically, they're closing the bridge for repairs — no idea for how long, though.
+
+e) Technical register — precise domain-specific terminology, imperative mood for instructions, passive voice for procedures, minimal hedging.
+   Insert the cable into port A before powering on the device. Do not exceed the rated voltage.
+
+Recasting the same information across these registers means adjusting: sentence length and complexity, verb voice (active/passive), vocabulary formality, use of contractions/pronouns, and how directly claims are attributed or hedged.
+
+2. EXAMPLES
+
+1. Academic: The data suggest a strong correlation between sleep quality and cognitive performance.
+2. Legal: The Purchaser shall remit payment in full within thirty (30) days of the invoice date.
+3. Journalistic: Sales fell sharply in the third quarter, the company revealed on Monday.
+4. Casual: Sales basically tanked last quarter — nobody really knows why yet.
+5. Technical: Ensure the device is disconnected from the power supply before servicing.
+6. Academic: It could be argued that the policy failed to address the underlying causes of inequality.
+7. Legal: Notwithstanding the foregoing, either party may terminate this Agreement upon written notice.
+8. Journalistic: Residents were left without power for several hours after Tuesday's storm, officials said.
+9. Casual: We were literally stuck without power for hours after that storm — it was chaos.
+10. Technical: Do not operate the equipment if the safety guard is missing or damaged.
+
+3. COMMON MISTAKES
+
+1. Incorrect (academic): I think the results are pretty surprising.
+   Correct: The results are somewhat unexpected. / It could be argued that the results are surprising.
+   Why: Academic register avoids first-person opinion markers ("I think") and casual intensifiers ("pretty") — use hedged, impersonal phrasing instead.
+
+2. Incorrect (legal): The company will has to pay the fine.
+   Correct: The Company shall be liable to pay the fine.
+   Why: Legal register uses "shall" for binding obligation, formal capitalized defined terms (the Company), and correct modal grammar.
+
+3. Incorrect (journalistic): It is reported by some sources, allegedly, that the mayor did resign, according to reports.
+   Correct: The mayor resigned on Tuesday, according to sources close to city hall.
+   Why: Journalistic style avoids redundant hedging/attribution stacked together — attribute once, clearly and concisely.
+
+4. Incorrect (technical): You should maybe try disconnecting the cable if it feels warm.
+   Correct: Disconnect the cable immediately if it becomes warm to the touch.
+   Why: Technical/instructional register uses direct imperatives, not hedged suggestions.
+
+5. Incorrect (casual): I would like to inform you that I am unable to attend due to a prior commitment.
+   Correct (casual): Sorry, can't make it — something else came up.
+   Why: This overly formal phrasing is mismatched with a casual context; casual register favors contractions and short, direct phrasing.
+
+4. EXERCISES
+
+A. Gap-fill (choose the word/phrase that fits the register indicated)
+1. (Legal) The Tenant ___ (will/shall) vacate the premises by the end of the lease term.
+2. (Academic) The findings ___ (show/kinda show) a clear pattern across all groups studied.
+3. (Journalistic) The company confirmed the layoffs ___ (in a statement/basically) released on Friday.
+4. (Casual) ___ (I regret to inform you/Sorry), I can't make it tonight.
+5. (Technical) ___ (Please consider disconnecting/Disconnect) the power source before opening the case.
+
+B. Rewrite / Transformation (rewrite the sentence in the register indicated)
+1. "The plan didn't work out." → Rewrite in academic register.
+2. "The tenant needs to pay rent by the 1st of the month or else." → Rewrite in legal register.
+3. "The mayor said the roads will be fixed soon." → Rewrite in journalistic register (add attribution/lead style).
+4. "One must exercise caution when the device is in operation." → Rewrite in casual register.
+5. "We think the marketing campaign kind of failed." → Rewrite in academic register.
+
+C. Error Correction (identify the register mismatch and fix it)
+1. (Legal contract) The Buyer will maybe pay within 30 days.
+2. (Academic essay) I feel like the evidence is pretty convincing, honestly.
+3. (Technical manual) You might want to think about turning off the machine before cleaning it.
+4. (Journalism) It is alleged, allegedly, according to some reports, that the CEO may have resigned.
+5. (Casual text to a friend) I regret to inform you that I am running late.
+
+D. Guided Production
+1. Take a piece of casual news you'd share with a friend (e.g., "my flight got cancelled") and rewrite it in journalistic register.
+2. Rewrite the same idea in academic register, using nominalization and hedging.
+3. Rewrite the same idea in technical/instructional register, as if writing a procedure.
+4. Rewrite the same idea in legal register, as if it were a clause in a contract.
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. shall
+2. show
+3. in a statement
+4. Sorry
+5. Disconnect
+
+B. Rewrite / Transformation (sample answers)
+1. The plan did not achieve its intended outcomes.
+2. The Tenant shall remit rent payment no later than the first day of each calendar month; failure to do so shall constitute a breach of this Agreement.
+3. The roads will be repaired soon, the mayor said on Tuesday.
+4. Careful — this thing's running, so watch out.
+5. It could be argued that the marketing campaign did not meet its objectives.
+
+C. Error Correction
+1. The Buyer shall pay within thirty (30) days.
+2. The evidence appears to be convincing.
+3. Turn off the machine before cleaning it.
+4. The CEO is reported to have resigned, according to sources.
+5. Running late, sorry!
+
+D. Guided Production (sample answers)
+1. Journalistic: Passengers faced significant delays on Tuesday after an unexpected cancellation disrupted several flights, according to airline officials.
+2. Academic: The cancellation of the flight resulted in considerable disruption to the traveler's itinerary.
+3. Technical: In the event of flight cancellation, proceed to the nearest service desk and present your booking confirmation.
+4. Legal: In the event that the Carrier cancels the scheduled flight, the Passenger shall be entitled to rebooking or a full refund, at the Passenger's discretion.

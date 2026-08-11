@@ -1,0 +1,128 @@
+--------------------------------------------------
+LEVEL: C2
+TOPIC: Full Command of All Tenses and Aspects
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+At C2, tense and aspect choices become a stylistic and rhetorical tool, not just a way to place events in time. Mastery involves subtle contrasts and deliberate shifts.
+
+a) Habitual past in narrative — "used to" and "would" both describe repeated past actions, but "would" cannot describe past states (be, have, know, like) and is often preferred in literary narration for its rhythm.
+   Every summer, we would drive to the coast and would stay in my aunt's cottage. (not: we would have a cottage — states need "used to" or simple past: we used to have / had a cottage)
+
+b) Iterative and habitual aspect — the present/past continuous with "always/constantly/forever" expresses a repeated, often irritating or characteristic, action, adding emotional color beyond a neutral simple tense.
+   She's always leaving her keys somewhere. (mild irritation/characteristic trait) vs. She always leaves her keys somewhere. (a neutral fact)
+
+c) Tense-shifting for rhetorical effect — skilled writers and speakers deliberately break "expected" tense sequencing:
+   - Historic present: switching to the present tense mid-narrative to make a past event feel vivid and immediate. "So I'm standing there, and suddenly the phone rings."
+   - Future framed as inevitable/already decided: present continuous or simple present for scheduled/fated future events, adding certainty. "The results are announced next week." / "By this time next year, she retires."
+   - Past perfect for retrospective narrative distance, even beyond its normal "earlier action" function, to create a reflective, looking-back tone in memoir-style writing.
+
+Precision here comes from choosing aspect (simple / continuous / perfect / perfect continuous) to signal not just when, but how the speaker frames an event — as a fact, a process, a completed result, or an ongoing/repeated experience.
+
+2. EXAMPLES
+
+1. Every winter, we would gather around the fire and tell stories until midnight.
+2. He's always interrupting people — it's one of his more irritating habits.
+3. So I'm walking down the street, minding my own business, when this car suddenly stops right in front of me.
+4. By the time she turns thirty, she will have already published three novels.
+5. The committee meets again on Thursday to finalize the budget.
+6. I had lived in six countries by the time I turned twenty-five.
+7. She used to hate coffee, but now she can't start her day without it.
+8. He's forever losing his phone somewhere in the house.
+9. Looking back, I had never really understood what my father sacrificed for us.
+10. The train departs at platform four in ten minutes.
+11. They had been arguing for hours before either of them said anything productive.
+12. I'll have finished the report by the time you're back from lunch.
+
+3. COMMON MISTAKES
+
+1. Incorrect: When I was a child, I would have a dog named Max.
+   Correct: When I was a child, I used to have / had a dog named Max.
+   Why: "Would" cannot describe a past state (have, be, own, like) — only repeated actions.
+
+2. Incorrect: She always is losing her umbrella.
+   Correct: She's always losing her umbrella.
+   Why: With "always" for emphasis/irritation, use the continuous form and place "always" between the auxiliary and the main verb.
+
+3. Incorrect: Yesterday, I am walking home when I see an old friend.
+   Correct: Yesterday, I was walking home when I saw an old friend. (or, for stylistic historic present, keep the whole narrative consistently in the present: I'm walking home when I see an old friend.)
+   Why: Don't mix a past time marker ("yesterday") with the historic present without full commitment to the technique — it must be applied consistently, not just to one verb.
+
+4. Incorrect: By next year, she will finish her degree.
+   Correct: By next year, she will have finished her degree.
+   Why: For a completed action by a future point, the future perfect is required, not the simple future.
+
+5. Incorrect: I had never understand what he meant until years later.
+   Correct: I had never understood what he meant until years later.
+   Why: The past perfect requires the past participle ("understood"), not the base form.
+
+4. EXERCISES
+
+A. Gap-fill (choose the correct tense/aspect)
+1. Every Sunday, my grandfather ___ (take) us fishing at dawn.
+2. He's ___ (always/complain) about the weather, no matter what it's like.
+3. By the time the film starts, we ___ (already/eat) dinner.
+4. So there I ___ (stand), completely frozen, when the alarm goes off.
+5. The conference ___ (begin) at nine sharp tomorrow, according to the schedule.
+6. She ___ (live) in Paris for a decade before she finally moved back home.
+7. As a teenager, I ___ (spend/would) hours reading in my room. (identify if "would" fits — rewrite if not)
+8. By the end of this year, they ___ (be) married for twenty years.
+9. He ___ (constantly/change) his mind, which drives the whole team crazy.
+10. Looking back now, I ___ (never/realize) how young we all were.
+
+B. Rewrite / Transformation (rewrite to add the requested nuance)
+1. My uncle told stories every evening. (rewrite with "would" for habitual past narrative)
+2. He interrupts people. It's really annoying. (rewrite as one sentence with continuous + "always," showing irritation)
+3. The exam finishes at noon. (rewrite as a scheduled future event using present continuous)
+4. I finished the project before the deadline arrived. (rewrite using future perfect, imagining you're speaking before the deadline)
+5. Describe a past event as if it's happening now, for dramatic effect: "I opened the door and saw a stranger standing there." (rewrite in the historic present)
+
+C. Error Correction
+1. When I was young, I would live in a small village.
+2. She always is checking her phone during meetings.
+3. Tomorrow at this time, I will finish the marathon.
+4. I had never saw such a beautiful sunset before that trip.
+5. By 2030, this company will produce twice as much as it does now, they predict. (identify tense issue and fix)
+6. He's constantly forgets where he left his keys.
+
+D. Guided Production
+1. Write two or three sentences narrating a childhood memory using "would" for habitual past actions.
+2. Write one sentence using present continuous + "always/constantly/forever" to describe an irritating habit of someone you know.
+3. Write one sentence using the historic present to make a short anecdote feel vivid.
+4. Write one sentence using the future perfect to describe something that will be completed by a specific future point.
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. would take / used to take
+2. always complaining
+3. will already have eaten
+4. am standing / 'm standing
+5. begins
+6. had lived
+7. would spend (fits, since "spend hours reading" is a repeated action, not a state)
+8. will have been
+9. constantly changing / is constantly changing
+10. had never realized
+
+B. Rewrite / Transformation
+1. My uncle would tell stories every evening.
+2. He's always interrupting people — it's really annoying.
+3. The exam is finishing at noon. (more natural as scheduled event: "The exam finishes at noon" also acceptable; continuous emphasizes the fixed arrangement)
+4. I will have finished the project before the deadline arrives.
+5. I open the door and see a stranger standing there.
+
+C. Error Correction
+1. When I was young, I lived / used to live in a small village.
+2. She's always checking her phone during meetings.
+3. Tomorrow at this time, I will be finishing / will have finished the marathon. (depending on intended meaning: in progress vs completed)
+4. I had never seen such a beautiful sunset before that trip.
+5. By 2030, this company will be producing twice as much as it does now, they predict. (or "will produce" if treated as a simple prediction — "will be producing" better shows an ongoing state at that future point)
+6. He's constantly forgetting where he left his keys.
+
+D. Guided Production (sample answers)
+1. Every August, my grandparents would take the whole family to the lake. We would swim all morning and would fall asleep on the porch by nine.
+2. My roommate is forever leaving dirty dishes in the sink.
+3. So I'm sitting in the waiting room, completely calm, and then they call my name three hours early.
+4. By the time you land, I will have already picked up the keys to the apartment.

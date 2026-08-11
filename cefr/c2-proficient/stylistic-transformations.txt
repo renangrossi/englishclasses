@@ -1,0 +1,125 @@
+--------------------------------------------------
+LEVEL: C2
+TOPIC: Stylistic Transformations
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+At C2, you can re-express the same underlying idea in multiple grammatical forms, shifting tone and register without changing the core meaning. This is a key skill for editing your own writing and adapting to different audiences.
+
+a) Active to passive rephrasing at high nuance — beyond the basic transformation, choose active or passive deliberately based on what should be emphasized, and how formal/impersonal the text should sound.
+   Active (direct, agent-focused): The board rejected the proposal.
+   Passive (formal, result-focused, agent optional): The proposal was rejected (by the board). / The proposal was rejected, a decision that surprised many. (agent omitted entirely — common in formal/academic writing when the actor is unknown or unimportant)
+
+b) Multiple ways to re-express the same idea with tone changes — the same content can be delivered as a blunt statement, a hedged academic claim, a formal announcement, or a rhetorical question, depending on audience and purpose.
+   Blunt: The plan failed.
+   Hedged/academic: It could be argued that the plan did not achieve its intended outcomes.
+   Formal/official: The initiative did not meet its stated objectives.
+   Rhetorical: Can anyone really claim that this plan succeeded?
+
+c) Grammar-driven style shifts — using specific grammatical choices to signal register:
+   - Nominalization + passive = formal/academic/legal ("The implementation of the policy was delayed" vs. "They delayed implementing the policy").
+   - Modal hedging (may, might, could, it would seem that) = cautious, academic tone.
+   - Contractions, phrasal verbs, and direct imperatives = informal/conversational tone.
+   - Cleft sentences and fronting = emphatic, persuasive, rhetorical tone.
+
+Mastering these transformations means you can take one idea and dial its formality, distance, and emphasis up or down at will.
+
+2. EXAMPLES
+
+1. The committee approved the budget. → The budget was approved (by the committee).
+2. They messed up the schedule badly. → The scheduling was severely mismanaged.
+3. I think the plan won't work. → It could be argued that the plan is unlikely to succeed.
+4. We're cutting costs next quarter. → Cost reductions will be implemented in the next quarter.
+5. Nobody knows exactly why the project failed. → The precise cause of the project's failure remains unclear.
+6. He clearly lied to the board. → It would appear that the information presented to the board was not entirely accurate.
+7. Fix this now! → This issue requires immediate attention.
+8. The team is incredibly talented. → The team's talent is beyond question.
+9. Sales dropped a lot last quarter. → A significant decline in sales was recorded last quarter.
+10. Everyone agrees the policy failed. → There is broad consensus that the policy did not achieve its objectives.
+
+3. COMMON MISTAKES
+
+1. Incorrect: The proposal was rejected by they.
+   Correct: The proposal was rejected by them.
+   Why: After "by" in a passive sentence, use the object pronoun ("them"), not the subject pronoun.
+
+2. Incorrect: It could be argue that the plan failed.
+   Correct: It could be argued that the plan failed.
+   Why: The passive hedge needs the past participle ("argued"), not the base form.
+
+3. Incorrect: The implementation of the policy delayed.
+   Correct: The implementation of the policy was delayed.
+   Why: Nominalized subjects still need a full passive verb ("was delayed"), not just the past participle alone.
+
+4. Incorrect: A significant decline of sales was recorded.
+   Correct: A significant decline in sales was recorded.
+   Why: "Decline" collocates with "in," not "of," when referring to a drop in a measurable quantity.
+
+5. Incorrect: There is broad consensus what the policy failed.
+   Correct: There is broad consensus that the policy failed.
+   Why: "Consensus" is followed by "that + clause," not "what."
+
+4. EXERCISES
+
+A. Gap-fill (complete the more formal/academic rephrasing)
+1. They lost a lot of money. → A substantial ___ (loss) was incurred.
+2. Nobody really knows why it happened. → The reason ___ remains unclear.
+3. I think the results are wrong. → It ___ be argued that the results are flawed.
+4. We will announce the decision tomorrow. → The decision ___ (announce) tomorrow.
+5. Everyone agrees this is a problem. → There is broad ___ that this is a problem.
+6. The team messed up the launch. → The launch ___ (severely mismanage).
+
+B. Rewrite / Transformation (rewrite each blunt/informal sentence in a more formal, hedged, or passive register)
+1. The manager screwed up the budget.
+2. I'm pretty sure the plan won't work.
+3. They're cutting jobs next month.
+4. The report is full of mistakes.
+5. Nobody bothered to check the numbers.
+6. Fix the website — it's broken.
+
+C. Error Correction
+1. It could be argue that the results are inconclusive.
+2. The decision was announcing yesterday.
+3. There is broad consensus what needs to change.
+4. A sharp decline of revenue was reported.
+5. The proposal was rejected by they.
+6. The implementation delayed for months.
+
+D. Guided Production
+1. Take a blunt, informal sentence you might say to a friend, and rewrite it in formal/academic register.
+2. Write one sentence using nominalization + passive to describe a change or event (e.g., in the news, at work).
+3. Write one hedged academic sentence using "It could be argued that..." about a topic you have an opinion on.
+4. Write the same idea twice: once as a direct statement, once as a rhetorical question with the same underlying meaning.
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. loss
+2. why it happened / for this
+3. could
+4. will be announced
+5. consensus
+6. was severely mismanaged
+
+B. Rewrite / Transformation (sample answers)
+1. The budget was significantly mismanaged by the manager. / Serious mismanagement of the budget occurred under the manager's supervision.
+2. It could be argued that the plan is unlikely to succeed.
+3. Job cuts will be implemented next month.
+4. The report contains a considerable number of errors.
+5. The figures were not adequately checked.
+6. The website requires immediate attention, as it is currently non-functional.
+
+C. Error Correction
+1. It could be argued that the results are inconclusive.
+2. The decision was announced yesterday.
+3. There is broad consensus about what needs to change. / ...on what needs to change.
+4. A sharp decline in revenue was reported.
+5. The proposal was rejected by them.
+6. The implementation was delayed for months.
+
+D. Guided Production (sample answers)
+1. Informal: "This meeting was a total waste of time." → Formal: "The meeting did not yield any substantive outcomes."
+2. The postponement of the launch was announced without prior notice, catching many stakeholders off guard.
+3. It could be argued that remote work has fundamentally changed how companies measure productivity.
+4. Direct: "The policy failed." / Rhetorical: "Can this policy really be considered a success by any reasonable measure?"

@@ -1,0 +1,135 @@
+--------------------------------------------------
+LEVEL: C1
+TOPIC: Inversion for Emphasis
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+When a negative or restrictive adverbial (never, rarely, only after, not until, no sooner, little, hardly, seldom) is moved to the front of a sentence for emphasis, the subject and auxiliary verb invert, just like in a question. This is a formal, literary, and often dramatic structure.
+
+Pattern: Negative/restrictive adverbial + auxiliary + subject + main verb
+   Never have I seen such chaos. (= I have never seen such chaos.)
+
+Common triggers:
+- Never / Rarely / Seldom + auxiliary + subject: Never have I felt so proud.
+- Only after / Only when / Only then + auxiliary + subject: Only after the meeting did she explain her decision.
+- Not until + time/event + auxiliary + subject: Not until midnight did the power come back on.
+- No sooner...than / Hardly...when: No sooner had we sat down than the phone rang.
+- Little (= not at all, contrary to expectation) + auxiliary + subject: Little did he know what awaited him.
+- Under no circumstances / On no account + auxiliary + subject: Under no circumstances should you sign that document.
+
+Grammar mechanics: if there's no auxiliary in the original sentence (e.g., simple present/past), add "do/does/did":
+   Rarely do we get a chance like this. (= We rarely get a chance like this.)
+
+This structure is used in formal writing, speeches, and literary narration to add emphasis or drama — it is not used in everyday casual conversation.
+
+2. EXAMPLES
+
+1. Never have I witnessed such generosity.
+2. Rarely does he arrive on time for a meeting.
+3. Only after the results came in did we realize our mistake.
+4. Not until she apologized did he forgive her.
+5. No sooner had the plane landed than the passengers began applauding.
+6. Little did they know the storm was about to hit.
+7. Under no circumstances should you share this password.
+8. Seldom have I felt so nervous before a presentation.
+9. Hardly had I opened the door when the dog ran out.
+10. Only when I moved abroad did I appreciate my hometown.
+11. On no account must the alarm be disabled.
+12. Not only did he win the race, but he also broke the record.
+
+3. COMMON MISTAKES
+
+1. Incorrect: Never I have seen such a mess.
+   Correct: Never have I seen such a mess.
+   Why: The auxiliary must come before the subject after the fronted negative adverbial — it's an inversion, not just a reordering of the adverbial.
+
+2. Incorrect: Rarely he comes to visit us.
+   Correct: Rarely does he come to visit us.
+   Why: With no auxiliary in the original sentence, you must add "do/does/did" to invert correctly.
+
+3. Incorrect: No sooner we had arrived than it started raining.
+   Correct: No sooner had we arrived than it started raining.
+   Why: The auxiliary ("had") must move before the subject; "no sooner" always pairs with "than," and "hardly/scarcely" pairs with "when."
+
+4. Incorrect: Only after he apologized, she forgave him.
+   Correct: Only after he apologized did she forgive him.
+   Why: The main clause after a fronted "only" expression must also invert; a comma alone isn't enough.
+
+5. Incorrect: Little he knew what was coming.
+   Correct: Little did he know what was coming.
+   Why: "Little" as a fronted negative adverbial also triggers inversion with "do/does/did."
+
+4. EXERCISES
+
+A. Gap-fill (complete with the correct inverted form)
+1. Never ___ (I / see) such a beautiful sunset.
+2. Rarely ___ (she / complain) about her workload.
+3. Not until the last minute ___ (he / decide) to come.
+4. No sooner ___ (we / sit down) than the waiter arrived.
+5. Only after months of practice ___ (she / master) the piece.
+6. Little ___ (he / realize) how much trouble he was in.
+7. Under no circumstances ___ (you / leave) the door unlocked.
+8. Seldom ___ (they / agree) on anything.
+9. Hardly ___ (I / finish) speaking when the room erupted in applause.
+10. Only when the lights came back on ___ (we / realize) how dark it had been.
+
+B. Rewrite / Transformation (rewrite each sentence using inversion)
+1. I have never felt so relieved. → Never ___
+2. She rarely asks for help. → Rarely ___
+3. We had barely started the meeting when the fire alarm went off. → Hardly ___
+4. He didn't understand the risk until it was too late. → Not until ___
+5. They realized their error only after the client complained. → Only after ___
+6. He didn't know that his plan would backfire. → Little ___
+7. You must not, under any circumstances, ignore this warning. → Under no circumstances ___
+
+C. Error Correction
+1. Never I have worked so hard for something.
+2. Rarely we see such dedication.
+3. No sooner she had left than it started to snow.
+4. Only after the show finished, we went backstage.
+5. Little she suspected what was about to happen.
+6. Not until dawn arrived the rescue team.
+
+D. Guided Production
+1. Write one sentence using "Never have I..." about a personal experience.
+2. Write one sentence using "Only after..." about something you learned the hard way.
+3. Write one sentence using "No sooner...than" to describe two events happening close together.
+4. Write one sentence using "Not until..." about a turning point in your life.
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. have I seen
+2. does she complain
+3. did he decide
+4. had we sat down
+5. did she master
+6. did he realize
+7. must you leave (or should you leave)
+8. do they agree
+9. had I finished
+10. did we realize
+
+B. Rewrite / Transformation
+1. Never have I felt so relieved.
+2. Rarely does she ask for help.
+3. Hardly had we started the meeting when the fire alarm went off.
+4. Not until it was too late did he understand the risk.
+5. Only after the client complained did they realize their error.
+6. Little did he know that his plan would backfire.
+7. Under no circumstances must you ignore this warning.
+
+C. Error Correction
+1. Never have I worked so hard for something.
+2. Rarely do we see such dedication.
+3. No sooner had she left than it started to snow.
+4. Only after the show finished did we go backstage.
+5. Little did she suspect what was about to happen.
+6. Not until dawn did the rescue team arrive.
+
+D. Guided Production (sample answers)
+1. Never have I felt so out of place as on my first day at university.
+2. Only after I lost my luggage twice did I start packing a change of clothes in my carry-on.
+3. No sooner had I sat down to relax than my phone started ringing.
+4. Not until I moved away from home did I truly appreciate my family.

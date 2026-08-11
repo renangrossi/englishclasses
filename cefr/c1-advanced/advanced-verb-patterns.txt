@@ -1,0 +1,136 @@
+--------------------------------------------------
+LEVEL: C1
+TOPIC: Advanced Verb Patterns
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+C1 English requires precise control of complex verb patterns that go beyond simple "verb + infinitive" or "verb + gerund" choices.
+
+a) Verb + object + infinitive/gerund variations — some verbs change meaning depending on the pattern that follows.
+   - remember/forget + to-infinitive (a task you need/needed to do) vs. + gerund (a memory of something already done)
+     I remembered to lock the door. (I did it, then remembered.) / I remember locking the door. (I have a memory of doing it.)
+   - stop + to-infinitive (pause in order to do something else) vs. + gerund (quit doing something)
+     He stopped to smoke. (paused his activity in order to smoke) / He stopped smoking. (quit the habit)
+   - try + to-infinitive (make an effort) vs. + gerund (experiment with something as a possible solution)
+     I tried to open the jar. (made an effort) / I tried using hot water to open the jar. (experimented with a method)
+
+b) Perfect infinitives and perfect gerunds — used to refer to an earlier action relative to the main verb.
+   - Perfect infinitive: seem/appear/claim/pretend + to have + past participle
+     He claims to have met the president. (= he claims that he met the president, earlier)
+   - Perfect gerund: after prepositions or certain verbs, to emphasize completion before another point in time.
+     She admitted having lied about her age.
+
+c) Causatives — have/get + object + past participle, used when someone else performs an action for you (arranged by you).
+   have something done: I had my car repaired. (I arranged for someone to repair it.)
+   get something done: I got my hair cut. (more informal/dynamic version of "have")
+   Compare with "make/have + person + bare infinitive" (to force/arrange for a person to do something): The manager had the staff redo the report.
+
+2. EXAMPLES
+
+1. Did you remember to send the invoice?
+2. I remember meeting him at a conference years ago.
+3. She stopped to answer her phone in the middle of the meeting.
+4. He finally stopped biting his nails after years of trying.
+5. Try turning it off and on again — it usually fixes the problem.
+6. He seems to have forgotten our appointment.
+7. She claims to have finished the report already.
+8. They admitted having made a mistake in the calculations.
+9. I had my kitchen renovated last spring.
+10. We got the documents translated before the meeting.
+11. He had his assistant confirm all the bookings.
+12. She pretended not to have noticed the comment.
+
+3. COMMON MISTAKES
+
+1. Incorrect: I remember to lock the door yesterday, so it's definitely locked.
+   Correct: I remember locking the door yesterday, so it's definitely locked.
+   Why: This describes a memory of a completed action, so it needs the gerund, not the to-infinitive.
+
+2. Incorrect: He stopped to smoke five years ago.
+   Correct: He stopped smoking five years ago.
+   Why: "Stopped to smoke" would mean he paused another activity in order to smoke — the intended meaning here is quitting the habit, which needs the gerund.
+
+3. Incorrect: He seems to met her before.
+   Correct: He seems to have met her before.
+   Why: To refer to an earlier event, the perfect infinitive "to have + past participle" is required.
+
+4. Incorrect: I had my car to fix last week.
+   Correct: I had my car fixed last week.
+   Why: The causative "have something done" uses the past participle, not a to-infinitive.
+
+5. Incorrect: She admitted to lying to the police, before that day.
+   Correct: She admitted to having lied to the police before that day.
+   Why: To show the lying happened earlier than the admission, the perfect gerund is needed after "admitted to."
+
+4. EXERCISES
+
+A. Gap-fill (choose infinitive or gerund, simple or perfect, as needed)
+1. Please remember ___ (turn off) the lights before you leave.
+2. I'll never forget ___ (see) the northern lights for the first time.
+3. We stopped ___ (take) photos at the viewpoint before continuing the hike.
+4. He finally stopped ___ (interrupt) people in meetings.
+5. She claims ___ (invent) the recipe herself, years ago.
+6. They seem ___ (know) each other already.
+7. I had my suit ___ (tailor) for the wedding.
+8. We got the roof ___ (repair) before winter.
+9. He pretended ___ (not/notice) the mistake in the report.
+10. Try ___ (restart) the router if the connection drops.
+
+B. Rewrite / Transformation
+1. Someone repaired my laptop for me last week. (rewrite with a causative) → I had ___
+2. It's possible that he already left. He seems... → He seems ___
+3. She confessed that she had broken the vase. → She admitted ___
+4. Someone is cutting our lawn every Friday now. (rewrite with a causative) → We get ___
+5. I have a clear memory of visiting that castle as a child. → I remember ___
+6. He paused his work in order to answer the phone. → He stopped ___
+
+C. Error Correction
+1. I remember to visit Paris when I was ten.
+2. She stopped answering the door — I think she's finally home again.
+3. He claims meeting the queen once.
+4. I had my hair to cut yesterday.
+5. They admitted to lose the documents last year.
+6. Try to turning the dial slowly.
+
+D. Guided Production
+1. Write one sentence with "remember" (gerund) about a childhood memory.
+2. Write one sentence with a causative ("have/get something done") about a service you've arranged.
+3. Write one sentence with "seems/claims to have + past participle."
+4. Write one sentence contrasting "stop + to-infinitive" and "stop + gerund" (two clauses).
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. to turn off
+2. seeing
+3. to take
+4. interrupting
+5. to have invented
+6. to know
+7. tailored
+8. repaired
+9. not to have noticed
+10. restarting
+
+B. Rewrite / Transformation
+1. I had my laptop repaired last week.
+2. He seems to have already left.
+3. She admitted having broken the vase. / She admitted to having broken the vase.
+4. We get our lawn cut every Friday now.
+5. I remember visiting that castle as a child.
+6. He stopped to answer the phone.
+
+C. Error Correction
+1. I remember visiting Paris when I was ten.
+2. She stopped answering the door — I think she's finally home again. (correct as written)
+3. He claims to have met the queen once.
+4. I had my hair cut yesterday.
+5. They admitted to having lost the documents last year.
+6. Try turning the dial slowly.
+
+D. Guided Production (sample answers)
+1. I remember building sandcastles on the beach every summer with my grandfather.
+2. I got my apartment painted right before I moved in.
+3. She claims to have run a marathon without any training at all.
+4. I stopped to check my phone, and later I finally stopped checking it every five minutes.

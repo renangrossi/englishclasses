@@ -1,0 +1,116 @@
+--------------------------------------------------
+LEVEL: C2
+TOPIC: Highly Complex Sentence Architecture
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+C2 academic and literary writing often uses long sentences that nest several subordinate clauses, front entire clauses for emphasis, and pack dense noun phrases — all while remaining grammatically clear.
+
+a) Nested subordinate clauses — a main clause can contain a relative clause, which itself contains another clause, building layers of information.
+   The report, which the committee — most of whom had opposed the original plan — reluctantly approved, outlined a strategy that few believed would work.
+
+b) Multi-clause fronting — moving an entire subordinate clause (or more than one) to the front of the sentence for emphasis, cohesion with the previous sentence, or rhythm.
+   Although the data seemed conclusive, and although several experts had endorsed the findings, the board remained unconvinced.
+   What had once seemed an impossible goal, given the constraints they faced, now looked entirely achievable.
+
+c) High-density noun phrases and academic phrasing — combining nominalization, multiple modifiers and embedded clauses into a single compact subject or object.
+   The steady erosion of public trust in institutions once considered unimpeachable has reshaped modern political discourse.
+
+Key architectural principles at C2:
+- Use dashes or parentheses to insert a clause without breaking the main sentence's flow.
+- Keep the main verb clearly identifiable even in a long sentence — readers should never lose track of the core subject-verb relationship.
+- Balance clause length: extremely long sentences need at least one shorter sentence nearby to maintain readability.
+
+2. EXAMPLES
+
+1. The proposal, which had been debated for months and which several board members privately opposed, was finally approved.
+2. Although the results were promising, and although the funding had already been secured, the project was ultimately shelved.
+3. What had once been dismissed as a fringe theory is now widely accepted within the scientific community.
+4. The gradual decline in voter turnout, a trend observed across most Western democracies, has troubled political scientists for decades.
+5. Having reviewed the evidence — evidence that, incidentally, contradicted the official account — the judge dismissed the case.
+6. That she succeeded despite every obstacle placed in her path is a testament to her resilience.
+7. The very policies designed to protect small businesses have, ironically, made survival harder for many of them.
+8. Whatever conclusions one draws from the data, and however one interprets the underlying trends, the overall pattern remains undeniable.
+9. It was not until the final report was published, months after the initial allegations surfaced, that the full scale of the scandal became clear.
+10. The committee's decision, reached only after weeks of heated debate, satisfied almost no one.
+
+3. COMMON MISTAKES
+
+1. Incorrect: The report, which the committee approved it, outlined a new strategy.
+   Correct: The report, which the committee approved, outlined a new strategy.
+   Why: Don't repeat the object with a redundant pronoun ("it") once a relative pronoun ("which") already fills that role.
+
+2. Incorrect: Although the data seemed conclusive, but the board remained unconvinced.
+   Correct: Although the data seemed conclusive, the board remained unconvinced.
+   Why: "Although" and "but" cannot both introduce the contrast — choose one.
+
+3. Incorrect: What had once seemed impossible, now looked achievable it.
+   Correct: What had once seemed impossible now looked achievable.
+   Why: No comma is needed between a fronted "what" clause functioning as the subject and the main verb; and don't add a redundant "it" at the end.
+
+4. Incorrect: The decline in trust, that scholars have studied extensively, reshaped politics.
+   Correct: The decline in trust, which scholars have studied extensively, reshaped politics.
+   Why: In a non-defining (comma-separated) relative clause, use "which," not "that."
+
+5. Incorrect: Having reviewed the evidence, the case were dismissed by the judge.
+   Correct: Having reviewed the evidence, the judge dismissed the case.
+   Why: The subject right after a participle clause ("Having reviewed...") must be the one performing that action — here, the judge, not the case.
+
+4. EXERCISES
+
+A. Gap-fill (choose which, that, or leave blank as appropriate for defining/non-defining clauses)
+1. The theory, ___ was first proposed decades ago, has recently gained new support.
+2. The report ___ she submitted last week contained several errors. (defining, no comma)
+3. Her argument, ___ few could refute, changed the course of the debate.
+4. The findings ___ the team published were later called into question.
+5. The policy, ___ had been in place for over a decade, was finally repealed.
+
+B. Rewrite / Transformation (combine the short sentences into one complex sentence using the technique indicated)
+1. The plan was risky. Everyone knew this. The board approved it anyway. (use a fronted concessive clause)
+2. Trust in institutions has declined. This is a trend across many countries. It worries sociologists. (embed the second sentence as a non-defining relative clause / appositive)
+3. The scientists reviewed the data. The data had been collected over ten years. They reached a surprising conclusion. (use a participle clause + embedded relative clause)
+4. Nobody expected the merger to succeed. It succeeded anyway. This surprised the entire industry. (use a "that" nominal clause as the subject: "That...")
+
+C. Error Correction
+1. The proposal, that had taken months to draft, was rejected in minutes.
+2. Although the evidence was strong, but the jury hesitated.
+3. Having finished the analysis, the results were presented by the team.
+4. The decline, that experts had predicted for years, finally arrived.
+5. What seemed impossible at first, it became routine within months.
+6. The scandal, which it destroyed his career, was never fully explained.
+
+D. Guided Production
+1. Write one long sentence with a nested non-defining relative clause about a topic you know well (e.g., work, a hobby, current events).
+2. Write one sentence that fronts a full concessive clause ("Although...") before the main clause.
+3. Write one sentence with a "That..." clause functioning as the subject.
+4. Write one sentence using a participle clause ("Having + past participle...") followed correctly by its logical subject.
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. which
+2. (no relative pronoun needed; "that" also acceptable: that she submitted last week)
+3. which
+4. (no relative pronoun needed / that)
+5. which
+
+B. Rewrite / Transformation
+1. Although the plan was risky, and everyone knew this, the board approved it anyway.
+2. Trust in institutions has declined, a trend observed across many countries, worrying sociologists. (or: ...a trend across many countries that worries sociologists.)
+3. Having reviewed data collected over ten years, the scientists reached a surprising conclusion.
+4. That nobody expected the merger to succeed, and yet it did, surprised the entire industry. (or: That the merger succeeded despite nobody expecting it surprised the entire industry.)
+
+C. Error Correction
+1. The proposal, which had taken months to draft, was rejected in minutes.
+2. Although the evidence was strong, the jury hesitated.
+3. Having finished the analysis, the team presented the results.
+4. The decline, which experts had predicted for years, finally arrived.
+5. What seemed impossible at first became routine within months.
+6. The scandal, which destroyed his career, was never fully explained.
+
+D. Guided Production (sample answers)
+1. My grandmother's recipe book, which she compiled over fifty years and which none of us dared to modify, remains the closest thing our family has to a sacred text.
+2. Although the team had prepared for every possible scenario, the actual crisis unfolded in a way nobody had anticipated.
+3. That she managed to finish the project alone, without any support from management, says a great deal about her determination.
+4. Having spent the entire weekend rehearsing, the cast felt ready for opening night.

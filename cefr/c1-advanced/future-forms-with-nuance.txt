@@ -1,0 +1,131 @@
+--------------------------------------------------
+LEVEL: C1
+TOPIC: Future Forms with Nuance
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+Beyond "will" and "going to," C1 English uses more nuanced future structures, especially for narrative writing and describing plans that existed at a particular past moment.
+
+a) Future-in-the-past — used to talk about something that was going to happen (or was planned/expected to happen) viewed from a point in the past. This is essential for storytelling.
+   - was/were going to + bare infinitive: She was going to call me, but she forgot.
+   - would + bare infinitive: He didn't know it yet, but this decision would change his life forever.
+   - was/were about to + bare infinitive: I was about to leave when the phone rang.
+   - was/were to + bare infinitive (formal/literary, often for events later described as fated or officially scheduled): They were to meet again only years later.
+
+b) Complex future reference in narratives — combining future-in-the-past with other tenses to build a timeline within a story, often mixing:
+   - past simple for the main narrative events,
+   - past continuous for background,
+   - future-in-the-past for what was still to come,
+   - past perfect for what had already happened before the story's "now."
+   By the time she boarded the plane, she had already decided she wasn't coming back. She was going to start a completely new life.
+
+c) Nuance differences:
+   - "was going to" often implies the plan changed or didn't happen (unfulfilled).
+   - "would" (future-in-the-past) is common in narration for planned or inevitable future events, often without any sense of failure.
+   - "was about to" emphasizes something on the very brink of happening, often interrupted.
+
+2. EXAMPLES
+
+1. She was going to study abroad, but the scholarship fell through.
+2. Little did he know that this stranger would become his best friend.
+3. I was about to knock when the door swung open.
+4. The treaty, signed in 1919, was to shape the next century of European politics.
+5. He promised he would call as soon as he landed.
+6. We were going to have a picnic, but it started raining.
+7. She had no idea that the interview would change her career forever.
+8. Just as I was about to give up, I found the missing file.
+9. The young officer, then unknown, was later to become a national hero.
+10. He said he would finish the project by Friday.
+11. They were going to sell the house, but they changed their minds at the last moment.
+12. As she packed her bags, she realized she was about to leave her old life behind.
+
+3. COMMON MISTAKES
+
+1. Incorrect: She was going to called me later that day.
+   Correct: She was going to call me later that day.
+   Why: "Was going to" is always followed by the bare infinitive, not the past form.
+
+2. Incorrect: He didn't know that this decision will change everything.
+   Correct: He didn't know that this decision would change everything.
+   Why: Inside a past narrative, future-in-the-past requires "would," not "will."
+
+3. Incorrect: I was about to leaving when she called.
+   Correct: I was about to leave when she called.
+   Why: "Was about to" takes the bare infinitive, not the gerund.
+
+4. Incorrect: They was going to travel next month.
+   Correct: They were going to travel next month.
+   Why: Subject-verb agreement — "they" needs "were," not "was."
+
+5. Incorrect: The treaty was signing to shape the future.
+   Correct: The treaty was to shape the future.
+   Why: "Was/were to + infinitive" (formal, meaning "was destined/scheduled to") doesn't take a gerund.
+
+4. EXERCISES
+
+A. Gap-fill (was/were going to, would, was/were about to, was/were to)
+1. He ___ (leave) the room when the lights suddenly went out.
+2. She had no idea that this trip ___ (change) her outlook on life.
+3. We ___ (visit) the museum, but it was closed for renovation.
+4. The young painter, still unknown at the time, ___ (become) world-famous within a decade.
+5. I ___ (call) you, but my phone died before I could.
+6. He promised that he ___ (write) every week while he was away.
+7. Just as she ___ (open) the letter, the phone rang.
+8. They ___ (get married) that summer, but the wedding was postponed.
+
+B. Rewrite / Transformation (rewrite the underlined idea using future-in-the-past)
+1. His plan was to open a restaurant, but he never did. (use "was going to")
+2. At the time, nobody knew that the invention would change the world. (rewrite with "would," keeping the meaning)
+3. I was on the verge of leaving when I heard the news. (rewrite with "was about to")
+4. It was later revealed that the two rivals would become close friends. (rewrite with "were to")
+5. She planned to quit her job that year, but she got a promotion instead. (use "was going to")
+6. We were on the point of signing the contract when the deal collapsed. (rewrite with "were about to")
+
+C. Error Correction
+1. She was going to visited her grandmother, but it snowed all week.
+2. He didn't realize that this mistake will cost him his job.
+3. I were about to leave when the taxi arrived.
+4. The general, then a young soldier, was to becoming a national symbol.
+5. They was going to cancel the trip.
+6. As I was about to signing the form, I noticed the error.
+
+D. Guided Production
+1. Write one sentence using "was/were going to" about a plan that didn't happen.
+2. Write one sentence using "would" as future-in-the-past inside a short narrative.
+3. Write one sentence using "was/were about to" describing an interrupted moment.
+4. Write two connected sentences telling a short story that mixes past simple, past perfect and future-in-the-past.
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. was about to leave
+2. would change
+3. were going to visit
+4. would become
+5. was going to call
+6. would write
+7. was about to open
+8. were going to get married
+
+B. Rewrite / Transformation
+1. He was going to open a restaurant, but he never did.
+2. At the time, nobody knew that the invention would change the world.
+3. I was about to leave when I heard the news.
+4. It was later revealed that the two rivals were to become close friends.
+5. She was going to quit her job that year, but she got a promotion instead.
+6. We were about to sign the contract when the deal collapsed.
+
+C. Error Correction
+1. She was going to visit her grandmother, but it snowed all week.
+2. He didn't realize that this mistake would cost him his job.
+3. I was about to leave when the taxi arrived.
+4. The general, then a young soldier, was to become a national symbol.
+5. They were going to cancel the trip.
+6. As I was about to sign the form, I noticed the error.
+
+D. Guided Production (sample answers)
+1. We were going to spend the summer in Portugal, but our plans changed after the job offer.
+2. She had no idea, as she signed the lease, that this apartment would become her home for the next ten years.
+3. I was about to fall asleep when I heard a strange noise downstairs.
+4. By the time the sun rose, she had already packed her bags. She was going to start a new chapter, far from everything she had ever known.

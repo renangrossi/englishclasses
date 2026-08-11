@@ -1,0 +1,135 @@
+--------------------------------------------------
+LEVEL: C1
+TOPIC: Advanced Passive Structures
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+Beyond the basic "be + past participle" passive, C1 English uses three advanced passive patterns:
+
+a) Passive reporting structures — used to report general beliefs, rumors or claims without naming the source.
+   - It + is/was + reporting verb (said, believed, thought, reported, understood, rumored, alleged) + that-clause
+     e.g. It is believed that the fire started in the kitchen.
+   - Subject + is/was + reporting verb + to-infinitive (simple infinitive for the same time; perfect infinitive "to have + past participle" for an earlier time)
+     e.g. He is believed to be abroad. / He is believed to have left the country.
+
+b) Passive with modals — modal + be + past participle for present/future obligation or possibility; modal + have been + past participle (modal perfect passive) for something that should/might/must have happened (or not) in the past.
+   e.g. The report must be submitted by Friday.
+   e.g. The deadline should have been extended.
+
+c) Get-passive — get + past participle, mainly in informal/spoken registers. It often adds a sense of something happening suddenly, unexpectedly, or with some difficulty/responsibility involved, and it can sound more dynamic than the neutral be-passive.
+   e.g. Our flight got cancelled at the last minute.
+   Compare: The flight was cancelled. (neutral, factual) vs. The flight got cancelled. (something happened to us, more personal/dramatic)
+
+Use the reporting passive to distance yourself from a claim (useful in journalism and academic writing), the modal passive to talk about obligations/expectations, and the get-passive for informal, event-focused narration.
+
+2. EXAMPLES
+
+1. He is said to have worked as a spy during the war.
+2. It is thought that the vase dates back to the Ming dynasty.
+3. She is rumored to be leaving the company next month.
+4. The missing files are believed to have been destroyed.
+5. All applications must be reviewed before Friday.
+6. The bridge should have been repaired years ago.
+7. My laptop got stolen on the train yesterday.
+8. He got promoted after just one year in the role.
+9. It is widely reported that the negotiations collapsed.
+10. The contract is understood to have been signed under pressure.
+11. Mistakes like this shouldn't be tolerated in a hospital.
+12. Their car got towed while they were at the concert.
+
+3. COMMON MISTAKES
+
+1. Incorrect: He is said writing the letter himself.
+   Correct: He is said to have written the letter himself.
+   Why: The reporting passive needs a to-infinitive; a completed past action needs the perfect infinitive "to have + past participle."
+
+2. Incorrect: The task should finished by now.
+   Correct: The task should have been finished by now.
+   Why: The modal perfect passive requires "have been," not just "been" or the bare verb.
+
+3. Incorrect: The window got broke during the storm.
+   Correct: The window got broken during the storm.
+   Why: Get-passive still needs the past participle (broken), not the past simple form (broke).
+
+4. Incorrect: It is said he was rich, that he owned three houses.
+   Correct: It is said that he was rich and owned three houses.
+   Why: Don't mix the that-clause pattern with a stray comma splice; join ideas with "and" or restructure into one clean that-clause.
+
+5. Incorrect: The report is said to written by an intern.
+   Correct: The report is said to have been written by an intern.
+   Why: Missing "have been" — needed for a passive action that happened before now.
+
+4. EXERCISES
+
+A. Gap-fill (choose the correct passive form)
+1. The suspect ___ (believe / hide) somewhere near the border.
+2. All safety checks ___ (must / complete) before takeoff.
+3. Her necklace ___ (get / steal) at the airport last week.
+4. The ancient manuscript ___ (think / write) in the 9th century.
+5. The bridge ___ (should / repair) months ago, but nothing was done.
+6. It ___ (report / that) the CEO resigned suddenly.
+7. He ___ (rumor / offer) a position at a rival firm.
+8. Our tickets ___ (get / upgrade) at the last minute.
+9. The results ___ (must / announce) by noon tomorrow.
+10. The painting ___ (allege / steal) from the museum in 1990.
+
+B. Rewrite / Transformation (rewrite using the passive reporting structure)
+1. People say that the company is losing money. → The company ___
+2. They believe he escaped through the back door. → He ___
+3. Everyone thinks the singer wrote the song herself. → The singer ___
+4. People understood that the deal had fallen through. → It ___
+5. Journalists reported that the minister had lied. → The minister ___
+6. They say the castle is haunted. → The castle ___
+7. People assume the twins are identical. → The twins ___
+
+C. Error Correction (find and correct one error in each sentence)
+1. The building is thought to demolished next year.
+2. He is said having escaped through the roof.
+3. The proposal should approved before the deadline.
+4. My phone got steal on the bus this morning.
+5. It is believe that the treaty will be signed soon.
+6. The files must has been deleted by mistake.
+
+D. Guided Production (write your own sentences)
+1. Write one sentence using "is said to have + past participle" about a historical figure.
+2. Write one sentence using a modal perfect passive (e.g., "should have been") about a mistake at work.
+3. Write one sentence using the get-passive about something unexpected that happened to you.
+4. Write one sentence using "It is widely believed that..." about a current news topic.
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. is believed to be hiding
+2. must be completed
+3. got stolen
+4. is thought to have been written
+5. should have been repaired
+6. is reported that
+7. is rumored to have been offered
+8. got upgraded
+9. must be announced
+10. is alleged to have been stolen
+
+B. Rewrite / Transformation
+1. The company is said to be losing money.
+2. He is believed to have escaped through the back door.
+3. The singer is thought to have written the song herself.
+4. It was understood that the deal had fallen through.
+5. The minister is reported to have lied.
+6. The castle is said to be haunted.
+7. The twins are assumed to be identical.
+
+C. Error Correction
+1. The building is thought to be demolished next year. → ...to be demolished... (needs "be" for the passive infinitive)
+2. He is said to have escaped through the roof. (needs "to have," not "having")
+3. The proposal should be approved before the deadline. (needs "be approved")
+4. My phone got stolen on the bus this morning. (past participle "stolen," not "steal")
+5. It is believed that the treaty will be signed soon. (needs "believed," not "believe")
+6. The files must have been deleted by mistake. (needs "have been," not "has been," after a modal)
+
+D. Guided Production (sample answers)
+1. Julius Caesar is said to have been stabbed by his closest allies.
+2. The contract should have been checked more carefully before we signed it.
+3. I got caught in a huge storm on my way home and arrived completely soaked.
+4. It is widely believed that remote work is here to stay.

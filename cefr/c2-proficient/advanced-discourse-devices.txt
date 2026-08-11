@@ -1,0 +1,123 @@
+--------------------------------------------------
+LEVEL: C2
+TOPIC: Advanced Discourse Devices
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+Discourse devices connect ideas across sentences and paragraphs, guiding the reader through an argument. At C2, these go well beyond "however" and "therefore."
+
+a) Formal sentence-level connectors
+   - notwithstanding (= despite, often placed after the noun it refers to, or at the start of a clause): The plan, criticism notwithstanding, went ahead. / Notwithstanding the criticism, the plan went ahead.
+   - nevertheless / nonetheless (= despite what was just said): The evidence was weak. Nevertheless, the jury convicted him.
+   - moreover / furthermore (= adding a stronger supporting point): The policy is expensive. Moreover, it has proven ineffective.
+   - on which point / in this connection / to this end (= referring back to something just mentioned, moving the argument forward): The report calls for reform. On which point, several committee members disagreed.
+
+b) Discourse markers structuring formal writing
+   - that said / that having been said (= acknowledging a point before pivoting)
+   - insofar as (= to the extent that): The plan is sound, insofar as it addresses short-term needs.
+   - by the same token (= applying the same logic to a related point)
+   - conversely (= introducing a contrasting point using parallel logic)
+
+c) Cohesive devices across paragraphs — devices that create flow at a larger scale:
+   - Resumptive/summative nouns referring back to a previous idea: this trend, such measures, this development, the aforementioned issue.
+   - Signposting phrases that guide the reader through an argument's structure: it is worth noting that, this raises the question of, having established X, it follows that Y.
+
+Register note: notwithstanding, insofar as, and on which point belong to formal academic/legal writing; nevertheless and moreover are common in both formal writing and careful speech.
+
+2. EXAMPLES
+
+1. The proposal, controversy notwithstanding, was approved by a narrow margin.
+2. The results were inconclusive. Nevertheless, the researchers pressed ahead with further trials.
+3. The scheme is costly. Moreover, it fails to address the root cause of the problem.
+4. The policy succeeded insofar as it reduced emissions, though it did little to boost the economy.
+5. That said, not every critic dismissed the plan outright.
+6. Conversely, smaller firms benefited significantly from the same regulation.
+7. Such measures, however well-intentioned, often produce unintended consequences.
+8. This development raises important questions about the future of the industry.
+9. By the same token, if we accept this argument, we must also accept its implications.
+10. It is worth noting that the study's sample size was relatively small.
+
+3. COMMON MISTAKES
+
+1. Incorrect: Notwithstanding of the criticism, they proceeded.
+   Correct: Notwithstanding the criticism, they proceeded.
+   Why: "Notwithstanding" is followed directly by a noun phrase — no preposition ("of") is needed.
+
+2. Incorrect: The evidence was weak, nevertheless the jury convicted him.
+   Correct: The evidence was weak. Nevertheless, the jury convicted him. (or with a semicolon: ...weak; nevertheless, the jury convicted him.)
+   Why: "Nevertheless" is a discourse adverb, not a coordinating conjunction — it needs a full stop or semicolon before it, and typically a comma after.
+
+3. Incorrect: The plan worked insofar it addressed the budget.
+   Correct: The plan worked insofar as it addressed the budget.
+   Why: The full connector is "insofar as," never "insofar" alone.
+
+4. Incorrect: Moreover of the cost, the plan was poorly timed.
+   Correct: Moreover, the plan was poorly timed. (as a separate point) — or: In addition to the cost, the plan was poorly timed.
+   Why: "Moreover" doesn't take an object with "of" — it introduces a new independent point, not a phrase.
+
+5. Incorrect: By the same token, however, we should also consider...
+   Correct: By the same token, we should also consider... (choose one connector; don't stack contrasting ones)
+   Why: "By the same token" extends the same logic; pairing it with "however" (which signals contrast) sends a contradictory signal.
+
+4. EXERCISES
+
+A. Gap-fill (notwithstanding, nevertheless, moreover, insofar as, conversely, that said)
+1. The results were disappointing. ___, the team refused to give up.
+2. ___ the objections raised, the vote proceeded as planned.
+3. The measure worked ___ it slowed inflation, but not much further.
+4. The city center suffers from pollution. ___, air quality has improved in the suburbs.
+5. The design is elegant. ___, it is also remarkably functional.
+6. The plan has serious flaws. ___, it remains the best option on the table.
+
+B. Rewrite / Transformation (combine the two sentences using the connector indicated)
+1. The theory is elegant. It lacks solid evidence. (use "nevertheless")
+2. Costs are high. The project is behind schedule. (use "moreover")
+3. There was strong opposition. The bill passed. (use "notwithstanding," starting the sentence with it)
+4. The policy reduced unemployment. It only did so in urban areas. (use "insofar as")
+5. Large firms struggled with the new tax. Small firms actually benefited. (use "conversely")
+
+C. Error Correction
+1. Notwithstanding of the delays, the project finished on time.
+2. The plan is flawed, nevertheless we should still consider it.
+3. It worked insofar it met the short-term goal.
+4. Moreover of these issues, there is the question of cost.
+5. That said however, the results were still impressive.
+6. By the same token but, we must reconsider the whole approach.
+
+D. Guided Production
+1. Write one sentence using "notwithstanding" in formal register about a decision or event.
+2. Write one sentence using "insofar as" to qualify a claim.
+3. Write two connected sentences using "Moreover" to add a supporting point to an argument.
+4. Write one sentence using "that said" to pivot after acknowledging a counterpoint.
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. Nevertheless
+2. Notwithstanding
+3. insofar as
+4. Conversely
+5. Moreover
+6. That said
+
+B. Rewrite / Transformation
+1. The theory is elegant; nevertheless, it lacks solid evidence.
+2. Costs are high. Moreover, the project is behind schedule.
+3. Notwithstanding strong opposition, the bill passed.
+4. The policy reduced unemployment insofar as it did so in urban areas.
+5. Large firms struggled with the new tax. Conversely, small firms actually benefited.
+
+C. Error Correction
+1. Notwithstanding the delays, the project finished on time.
+2. The plan is flawed; nevertheless, we should still consider it.
+3. It worked insofar as it met the short-term goal.
+4. In addition to these issues, there is the question of cost. / Moreover, there is the question of cost.
+5. That said, the results were still impressive. (remove "however")
+6. By the same token, we must reconsider the whole approach. (remove "but")
+
+D. Guided Production (sample answers)
+1. Notwithstanding the initial backlash, the reform ultimately proved popular with voters.
+2. The new policy succeeded insofar as it reduced costs, though it did little to improve service quality.
+3. The current system is outdated. Moreover, it is far more expensive to maintain than any proposed alternative.
+4. That said, I still think the plan deserves a fair trial before we abandon it entirely.

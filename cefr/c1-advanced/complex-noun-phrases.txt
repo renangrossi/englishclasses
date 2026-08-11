@@ -1,0 +1,129 @@
+--------------------------------------------------
+LEVEL: C1
+TOPIC: Complex Noun Phrases
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+C1 writing and speech often packs a lot of information into a single noun phrase instead of spreading it across several short sentences. Four tools make this possible:
+
+a) Multiple modifiers — stacking adjectives, participles, and prepositional phrases before and after a noun.
+   a rapidly growing, community-led initiative to reduce plastic waste
+
+b) Nominalization — turning a verb or adjective into a noun (often with -tion, -ment, -ness, -ity) to make writing more compact, formal and objective. This is very common in academic and journalistic style.
+   They decided to reduce costs. → Their decision to reduce costs...
+   The company failed unexpectedly. → The company's unexpected failure...
+
+c) Expanded relative clauses — relative clauses with extra detail, sometimes non-defining (set off by commas) and stacked with other modifiers.
+   The report, which was released last Friday and which contradicts earlier findings, sparked controversy.
+
+d) Reduced relative clauses — relative clauses shortened by dropping the relative pronoun and auxiliary, using a participle instead.
+   The man who is standing by the door → The man standing by the door
+   The results that were published last year → The results published last year
+
+Reduced relative clauses use the -ing form for active meaning (the man standing...) and the past participle for passive meaning (the results published...). They make sentences more compact and are especially common in written and journalistic English.
+
+2. EXAMPLES
+
+1. The recently renovated, award-winning museum attracts thousands of visitors a year.
+2. Her decision to resign surprised everyone on the board.
+3. The rapid deterioration of the local ecosystem alarmed environmentalists.
+4. The proposal, which had been debated for months, was finally rejected.
+5. The scientist leading the research presented her findings yesterday.
+6. Documents found at the scene confirmed the timeline of events.
+7. The government's growing concern about inflation shaped its policy.
+8. A heavily criticized, poorly funded healthcare system struggled to cope.
+9. The book, written during the author's exile, became an instant classic.
+10. Employees affected by the layoffs will receive severance packages.
+11. The committee's reluctance to act delayed the reforms significantly.
+12. The bridge connecting the two islands took a decade to build.
+
+3. COMMON MISTAKES
+
+1. Incorrect: The man who standing by the door is my uncle.
+   Correct: The man standing by the door is my uncle.
+   Why: A reduced relative clause drops both the relative pronoun ("who") and the auxiliary ("is") — keep only the participle.
+
+2. Incorrect: The report wrote last year was inaccurate.
+   Correct: The report written last year was inaccurate.
+   Why: For a passive meaning, use the past participle (written), not the past simple (wrote).
+
+3. Incorrect: His decide to leave shocked the team.
+   Correct: His decision to leave shocked the team.
+   Why: Nominalization requires the noun form of the verb ("decision"), not the bare verb.
+
+4. Incorrect: The company success unexpected surprised analysts.
+   Correct: The company's unexpected success surprised analysts.
+   Why: Word order matters — possessive + adjective + noun, not noun + adjective in that order.
+
+5. Incorrect: The employees affecting by the cuts were notified.
+   Correct: The employees affected by the cuts were notified.
+   Why: "Affected" (past participle, passive meaning: they were affected) is needed, not "affecting" (active meaning).
+
+4. EXERCISES
+
+A. Gap-fill (reduce the relative clause or choose the correct participle)
+1. The man ___ (who is sitting) in the corner is my old professor.
+2. Photos ___ (that were taken) during the trip are on my laptop.
+3. Employees ___ (who are working) overtime will be compensated.
+4. The bridge ___ (that was built) in 1930 is still in use today.
+5. Anyone ___ (who is interested) in the position should apply by Friday.
+6. The letter ___ (that was sent) last week never arrived.
+7. Students ___ (who are studying) abroad often report culture shock.
+8. The car ___ (that was parked) outside was towed.
+
+B. Rewrite / Transformation (turn the underlined verb/adjective into a noun — nominalization)
+1. The city decided to build a new stadium. (rewrite starting with "The city's decision...")
+2. They failed to reach an agreement, which frustrated everyone. (start with "Their failure...")
+3. He was absent frequently, which concerned his teachers. (start with "His frequent absence...")
+4. She was promoted quickly, which surprised her colleagues. (start with "Her quick promotion...")
+5. The prices increased suddenly, which shocked consumers. (start with "The sudden increase...")
+6. They refused to comment, which raised suspicion. (start with "Their refusal...")
+
+C. Error Correction
+1. The team leading by Maria won the award.
+2. The novel wrote by an unknown author became a bestseller.
+3. His refuse to apologize made things worse.
+4. The workers affecting by the strike stayed home.
+5. The results announcing yesterday shocked everyone.
+6. Her improve in performance was noticeable.
+
+D. Guided Production
+1. Write one sentence with a reduced relative clause describing a person (using -ing).
+2. Write one sentence with a reduced relative clause describing an object (using a past participle).
+3. Write one sentence using nominalization to describe a decision or change in your life.
+4. Write one sentence with a noun phrase that stacks at least two modifiers before the noun.
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. sitting
+2. taken
+3. working
+4. built
+5. interested
+6. sent
+7. studying
+8. parked
+
+B. Rewrite / Transformation
+1. The city's decision to build a new stadium was welcomed by residents.
+2. Their failure to reach an agreement frustrated everyone.
+3. His frequent absence concerned his teachers.
+4. Her quick promotion surprised her colleagues.
+5. The sudden increase in prices shocked consumers.
+6. Their refusal to comment raised suspicion.
+
+C. Error Correction
+1. The team led by Maria won the award.
+2. The novel written by an unknown author became a bestseller.
+3. His refusal to apologize made things worse.
+4. The workers affected by the strike stayed home.
+5. The results announced yesterday shocked everyone.
+6. Her improvement in performance was noticeable.
+
+D. Guided Production (sample answers)
+1. The woman waiting at the bus stop looked exactly like my cousin.
+2. The letter delivered this morning changed everything.
+3. My decision to change careers was the best choice I've ever made.
+4. A quietly confident, highly experienced negotiator led the talks.

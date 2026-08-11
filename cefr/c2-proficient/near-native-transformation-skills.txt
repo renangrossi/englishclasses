@@ -1,0 +1,118 @@
+--------------------------------------------------
+LEVEL: C2
+TOPIC: Near-Native Transformation Skills
+--------------------------------------------------
+
+1. BRIEF EXPLANATION
+
+The final C2 skill is the ability to rewrite entire passages — not just single sentences — while preserving meaning, tone, and logical structure, and to handle ambiguity and pragmatic nuance purely through grammatical choices.
+
+a) Rewriting whole passages while preserving meaning — this requires holding the overall argument/narrative structure in mind while changing sentence boundaries, combining or splitting sentences, switching active/passive, and varying connectors, without losing or distorting the original content.
+   Original: The company grew quickly. It hired hundreds of new staff. This led to problems with training.
+   Rewritten: As the company expanded rapidly, hiring hundreds of new staff in a short period, significant training problems inevitably followed.
+
+b) Handling ambiguity through grammar — deliberately using structures that preserve useful ambiguity (common in diplomacy, negotiation, and careful writing) or, conversely, eliminating unwanted ambiguity through precise grammar.
+   - Vague/deliberately non-committal: Mistakes were made. (passive with no agent — avoids assigning blame)
+   - Precise/unambiguous: The finance team made several mistakes in the Q3 report. (active, agent specified)
+   - Ambiguous modifier placement: Visiting relatives can be tiring. (unclear: relatives who visit you, or you visiting them?) → clarified: Relatives who come to visit can be tiring. / Going to visit relatives can be tiring.
+
+c) Pragmatic nuance through grammar — choices that signal social meaning beyond literal content: tentative language to soften criticism, passive voice to depersonalize blame, modal stacking to signal diplomatic uncertainty, or fronting to control what the listener focuses on first.
+   Direct/blunt: You made a mistake in the report.
+   Diplomatically softened: There may have been a small oversight in the report — perhaps worth double-checking.
+
+Near-native fluency means using these tools deliberately and invisibly: the reader/listener feels the tone and clarity you intend, without noticing the grammatical machinery behind it.
+
+2. EXAMPLES
+
+1. Original: "Sales dropped. We don't know why. We're investigating." → Rewritten: Sales have dropped for reasons that remain unclear, and the matter is currently under investigation.
+2. Mistakes were made during the transition period. (deliberately vague, no blame assigned)
+3. The finance team failed to reconcile the accounts before the deadline. (precise, agent specified)
+4. There may have been some miscommunication regarding the deadline — it might be worth revisiting. (softened criticism)
+5. Flying planes can be dangerous. (ambiguous: are the planes flying, or is someone flying them?)
+6. Planes that are flying in bad weather can be dangerous. (clarified)
+7. The proposal, though promising in theory, faced significant practical obstacles that ultimately proved insurmountable.
+8. It is not that the plan was poorly designed; rather, external circumstances changed unexpectedly.
+9. Whatever one's view of the decision, its consequences are now unavoidable.
+10. The report could perhaps have been clearer in places, though its overall conclusions remain sound.
+
+3. COMMON MISTAKES
+
+1. Incorrect: Sales dropped, we don't know why, we investigate it now.
+   Correct: Sales have dropped for reasons that remain unclear, and the matter is currently being investigated.
+   Why: Combining short, disconnected clauses with commas (a comma splice) reads as informal and unclear at C2 — use proper connectors and consistent tense/aspect.
+
+2. Incorrect: Mistake was made during the transition.
+   Correct: Mistakes were made during the transition.
+   Why: Subject-verb agreement — "mistakes" (plural) needs "were," not "was."
+
+3. Incorrect: There may had been some miscommunication.
+   Correct: There may have been some miscommunication.
+   Why: After "may," always use "have," not "had."
+
+4. Incorrect: Flying planes are dangerous when badly maintained. (still ambiguous if not intended)
+   Correct (if referring to aircraft): Aircraft that are poorly maintained can be dangerous.
+   Why: Leaving "flying planes" as a modifier keeps the structural ambiguity between "planes that fly" and "the act of flying planes" — clarify explicitly if precision matters.
+
+5. Incorrect: It is not the plan was poorly designed, rather circumstances changed.
+   Correct: It is not that the plan was poorly designed; rather, circumstances changed.
+   Why: The "It is not that..." structure requires "that" to introduce the clause, and "rather" needs correct punctuation (semicolon or period) before it.
+
+4. EXERCISES
+
+A. Gap-fill (complete the more nuanced/precise version)
+1. Errors ___ (make) during the audit, and the team is now reviewing the process. (deliberately vague)
+2. The intern ___ (fail) to file the documents on time. (precise, agent specified)
+3. There ___ (may/be) a misunderstanding about the schedule — worth checking.
+4. Whatever ___ (one/think) of the plan, it is now official policy.
+5. It is not that the idea was flawed; ___, the timing was wrong.
+
+B. Rewrite / Transformation (rewrite each short passage into one smooth C2-level sentence or two, preserving meaning)
+1. "The team worked overtime. They finished the project. It was still late." (combine smoothly, preserving contrast)
+2. "He made a mistake. Nobody blamed him. Everyone understood the pressure he was under." (combine, softening tone)
+3. "Costs are rising. We're not sure why. It's a concern for management." (combine with appropriate hedging)
+4. Rewrite "You broke the agreement" to avoid direct blame, using a passive or impersonal structure.
+5. Rewrite "Old people who drive slowly are annoying" to remove the ambiguity about who is being described.
+
+C. Error Correction
+1. Mistake was made and nobody know why.
+2. There may had been a delay in the shipment.
+3. It is not the plan failed, rather the market changed.
+4. Flying planes is dangerous. (identify the ambiguity and offer a precise rewrite for "the act of piloting is dangerous")
+5. Whatever one think, the decision stands.
+6. Sales dropped, we investigate now, no clear cause yet.
+
+D. Guided Production
+1. Take three short, simple sentences about a real or imagined event and rewrite them as one smooth, cohesive C2-level sentence.
+2. Write one sentence using a deliberately vague/agentless passive to describe a problem without assigning blame.
+3. Write one sentence that softens a piece of criticism using modal hedging (may/might/could have).
+4. Write one sentence containing a modifier placement that could be ambiguous, then rewrite it to remove the ambiguity.
+
+5. ANSWER KEY
+
+A. Gap-fill
+1. were made
+2. failed
+3. may have been
+4. one thinks / one may think
+5. rather
+
+B. Rewrite / Transformation (sample answers)
+1. Although the team worked overtime and managed to finish the project, it was still delivered late.
+2. He made a mistake, but nobody blamed him, given the pressure he had been under.
+3. Costs have been rising for reasons that remain unclear, which is a growing concern for management.
+4. The agreement was not honored. / The terms of the agreement were broken.
+5. Elderly drivers who drive slowly can be frustrating to other road users. (clarifying it's about people who are old and drive slowly, not "old people" in general who happen to drive slowly)
+
+C. Error Correction
+1. Mistakes were made, and nobody knows why.
+2. There may have been a delay in the shipment.
+3. It is not that the plan failed; rather, the market changed.
+4. Piloting planes can be dangerous. (clarified from the ambiguous "Flying planes is dangerous")
+5. Whatever one thinks, the decision stands.
+6. Sales have dropped; we are investigating now, though there is no clear cause yet.
+
+D. Guided Production (sample answers)
+1. Simple: "We planned the trip. The weather turned bad. We still had a great time." → Combined: Although the weather turned unexpectedly bad, the trip we had carefully planned still turned out to be a great experience.
+2. Several errors were introduced during the system update, and the team is now working to resolve them.
+3. The report could perhaps have been a little more detailed in places.
+4. Ambiguous: "Visiting colleagues can be exhausting." → Clear: Colleagues who visit unannounced can be exhausting. (or: Going to visit colleagues can be exhausting, depending on intended meaning)

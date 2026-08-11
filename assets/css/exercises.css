@@ -113,6 +113,8 @@
 .blank-input:focus-visible { background: var(--parchment-300); }
 .blank-input.is-correct { border-bottom-color: var(--color-success); background: var(--color-success-bg); }
 .blank-input.is-incorrect { border-bottom-color: var(--color-danger); background: var(--color-danger-bg); text-decoration: line-through; text-decoration-color: var(--color-danger); }
+select.blank-input { cursor: pointer; padding-right: 1.4em; }
+select.blank-input:disabled { cursor: default; opacity: 0.85; }
 
 /* Typing / correction — single line answers */
 .answer-input {

@@ -32,6 +32,14 @@
  *   "passage": "Optional HTML passage, used by reading-comprehension.",
  *   "items": [ ...type-specific items, see renderers below... ]
  * }
+ *
+ * Every item's "explanation" is shown after grading regardless of whether
+ * the answer was correct — write it as a short rule/reason a student can
+ * learn from, not just "Correct answer."
+ *
+ * fill-blank items render a <select> dropdown per blank when "options" is
+ * given (see renderFillBlank below for the exact shape), and fall back to
+ * a free-text <input> for any blank without options.
  */
 (function () {
   "use strict";
@@ -382,6 +390,16 @@
   // ---- fill-blank ----
   // item.prompt uses "___" to mark each blank. item.answers is an array
   // (one entry per blank), each entry a string or array of accepted strings.
+  //
+  // Each blank renders as a <select> when the item supplies options for it,
+  // and falls back to a free-text <input> otherwise (kept for any item that
+  // hasn't been migrated to a dropdown yet). Options can be given two ways:
+  //   - "options": ["friend", "friends", "friendly"]   (single blank)
+  //   - "options": [["is","are"], ["have","has"]]       (one array per blank)
+  // The correct answer's position is shuffled per render so it isn't always
+  // first. Grading is unchanged — it still matches the control's value
+  // against item.answers[i], which works identically for <input> and
+  // <select> since both expose a plain .value.
   function renderFillBlank(item, index) {
     var wrap = itemShell(index, null);
     var sentence = el("p", { class: "blank-sentence exercise-item__prompt" });
@@ -389,20 +407,43 @@
     sentence.appendChild(num);
 
     var parts = String(item.prompt).split("___");
+    var numBlanks = parts.length - 1;
+
+    function optionsForBlank(i) {
+      if (!item.options || !item.options.length) return null;
+      // Per-blank arrays: "options": [["a","b"], ["c","d"]]
+      if (Array.isArray(item.options[0])) return item.options[i] || null;
+      // Flat array applies to a single-blank item: "options": ["a","b","c"]
+      return numBlanks === 1 ? item.options : null;
+    }
+
     var inputs = [];
     parts.forEach(function (part, i) {
       sentence.appendChild(document.createTextNode(part));
-      if (i < parts.length - 1) {
-        var input = el("input", {
-          type: "text",
-          class: "blank-input",
-          "aria-label": "Blank " + (i + 1) + " of " + (parts.length - 1),
-          autocomplete: "off",
-          autocapitalize: "off",
-          spellcheck: "false",
-        });
-        inputs.push(input);
-        sentence.appendChild(input);
+      if (i < numBlanks) {
+        var blankOptions = optionsForBlank(i);
+        var control;
+        if (blankOptions && blankOptions.length) {
+          control = el("select", {
+            class: "blank-input",
+            "aria-label": "Blank " + (i + 1) + " of " + numBlanks,
+          });
+          control.appendChild(el("option", { value: "", text: "Choose…" }));
+          shuffled(blankOptions).forEach(function (opt) {
+            control.appendChild(el("option", { value: opt, text: opt }));
+          });
+        } else {
+          control = el("input", {
+            type: "text",
+            class: "blank-input",
+            "aria-label": "Blank " + (i + 1) + " of " + numBlanks,
+            autocomplete: "off",
+            autocapitalize: "off",
+            spellcheck: "false",
+          });
+        }
+        inputs.push(control);
+        sentence.appendChild(control);
       }
     });
     wrap.appendChild(sentence);

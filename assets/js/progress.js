@@ -1,0 +1,612 @@
+/*!
+ * Renan the Teacher — Gamification / Progress Tracker
+ * ------------------------------------------------------------------
+ * Phase 1: fully offline, localStorage-only. No account, no server,
+ * works the same on GitHub Pages as anywhere else. Nothing here ever
+ * sends data off the student's own browser.
+ *
+ * Responsibilities:
+ *   1. Award XP for exercise blocks (via the "exercise:submitted"
+ *      event exercises.js already dispatches, plus a direct call —
+ *      see the bottom of exercises.js's submit handler).
+ *   2. Track a calendar-day streak.
+ *   3. Unlock data-driven badges.
+ *   4. Render a compact header widget + short "+XP" toasts.
+ *   5. Detect "whole page" completion (Test Yourself sections, the
+ *      Placement Test) by comparing the exercises present on the
+ *      current page against what's already been recorded, and award
+ *      the larger one-off bonus for finishing all of them.
+ *
+ * Public API (window.ProgressTracker):
+ *   recordExerciseResult({ level, exerciseId, correct, total, perfect })
+ *   recordTestProgress({ type, level })   // "test-yourself" | "placement"
+ *   getState()                            // read-only snapshot
+ *   resetProgress()                       // wipes local progress (used by progress.html)
+ *   XP, BADGES                            // config, read here or from progress.html
+ *
+ * See docs/gamification.md for the localStorage schema, how to tune
+ * XP values, add a badge, and the plan for optional Phase 2 sync.
+ * ------------------------------------------------------------------ */
+(function () {
+  "use strict";
+
+  var STORAGE_KEY = "rt_progress";
+  var SCHEMA_VERSION = 1;
+
+  /* ------------------------------------------------------------- *
+   * XP table — the single place to tune point values.
+   * ------------------------------------------------------------- */
+  var XP = {
+    exercise: 10,       // submitting an exercise block, first time (any score)
+    perfectBonus: 5,    // extra, only if that first submission was 100%
+    testYourself: 25,   // completing every exercise block on a Test Yourself page
+    placement: 40,      // completing the Placement Test
+    dailyBonus: 5,       // first activity of a new calendar day (on top of streak +1)
+  };
+
+  var LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
+  var LEVEL_NAMES = {
+    A1: "Beginner", A2: "Elementary", B1: "Intermediate",
+    B2: "Upper Intermediate", C1: "Advanced", C2: "Proficient",
+  };
+
+  // How many exercise blocks actually exist per level (level overview
+  // page + every individual lesson page combined) at the time this was
+  // written — A1 has its own set of 21 lesson pages on top of the
+  // level page, so it has roughly 3x the exercises of any other level.
+  // "Explorer" thresholds below are ~30% of that total, so the badge
+  // means about the same amount of real effort at every level instead
+  // of penalizing students on the levels with less standalone content.
+  var LEVEL_EXERCISE_COUNTS = { A1: 117, A2: 36, B1: 36, B2: 33, C1: 37, C2: 36 };
+  function explorerThreshold(level) {
+    var total = LEVEL_EXERCISE_COUNTS[level] || 36;
+    return Math.max(6, Math.round(total * 0.3));
+  }
+
+  /* ------------------------------------------------------------- *
+   * Badge definitions — data-driven. `check(state)` returns true
+   * once the badge should be (or stay) unlocked. Adding a badge is
+   * adding one object here; see docs/gamification.md.
+   * ------------------------------------------------------------- */
+  var BADGES = [
+    {
+      id: "first_steps", icon: "🌱", name: "First Steps",
+      desc: "Complete your first exercise.",
+      check: function (s) { return countExercisesDone(s) >= 1; },
+    },
+    {
+      id: "perfectionist", icon: "🎯", name: "Perfectionist",
+      desc: "Score 100% on an exercise.",
+      check: function (s) { return countPerfect(s) >= 1; },
+    },
+    {
+      id: "streak_3", icon: "🔥", name: "3-Day Streak",
+      desc: "Practice on 3 days in a row.",
+      check: function (s) { return s.streak.count >= 3; },
+    },
+    {
+      id: "streak_7", icon: "🔥", name: "7-Day Streak",
+      desc: "Practice on 7 days in a row.",
+      check: function (s) { return s.streak.count >= 7; },
+    },
+    {
+      id: "placement_done", icon: "🧭", name: "Know Your Level",
+      desc: "Complete the Placement Test.",
+      check: function (s) { return !!s.pagesCompleted.placement; },
+    },
+  ].concat(LEVELS.map(function (level) {
+    var threshold = explorerThreshold(level);
+    return {
+      id: level.toLowerCase() + "_explorer",
+      icon: "🏅",
+      name: level + " Explorer",
+      desc: "Complete " + threshold + " exercises at " + level + " (" + LEVEL_NAMES[level] + ").",
+      level: level,
+      threshold: threshold,
+      check: function (s) {
+        return ((s.levelStats[level] && s.levelStats[level].exercisesDone) || 0) >= threshold;
+      },
+    };
+  }));
+
+  function countExercisesDone(state) {
+    var n = 0;
+    for (var id in state.exercises) if (state.exercises.hasOwnProperty(id)) n++;
+    return n;
+  }
+  function countPerfect(state) {
+    var n = 0;
+    for (var id in state.exercises) {
+      if (state.exercises.hasOwnProperty(id) && state.exercises[id].perfect) n++;
+    }
+    return n;
+  }
+
+  /* ------------------------------------------------------------- *
+   * Storage
+   * ------------------------------------------------------------- */
+  function defaultState() {
+    var levelStats = {};
+    LEVELS.forEach(function (l) { levelStats[l] = { xp: 0, exercisesDone: 0 }; });
+    return {
+      version: SCHEMA_VERSION,
+      xp: 0,
+      streak: { count: 0, lastActiveDate: "" },
+      badges: [],
+      exercises: {},
+      levelStats: levelStats,
+      pagesCompleted: {}, // e.g. { "test-yourself:A1": true, "placement": true }
+    };
+  }
+
+  // Local storage can throw (private browsing, quota, disabled) —
+  // every call is wrapped so a storage failure never breaks grading
+  // or the rest of the page.
+  function loadState() {
+    try {
+      var raw = window.localStorage.getItem(STORAGE_KEY);
+      if (!raw) return defaultState();
+      var parsed = JSON.parse(raw);
+      if (!parsed || parsed.version !== SCHEMA_VERSION) return defaultState();
+      // Merge onto a fresh default so any fields added later (or a level
+      // added to LEVELS) are always present, even for an older save.
+      var base = defaultState();
+      base.xp = typeof parsed.xp === "number" ? parsed.xp : 0;
+      base.streak = parsed.streak || base.streak;
+      base.badges = Array.isArray(parsed.badges) ? parsed.badges : [];
+      base.exercises = parsed.exercises || {};
+      base.pagesCompleted = parsed.pagesCompleted || {};
+      Object.keys(parsed.levelStats || {}).forEach(function (l) {
+        if (base.levelStats[l]) base.levelStats[l] = parsed.levelStats[l];
+      });
+      return base;
+    } catch (e) {
+      return defaultState();
+    }
+  }
+
+  function saveState(state) {
+    try {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) {
+      // Storage full/blocked — progress just won't persist this run.
+    }
+  }
+
+  /* ------------------------------------------------------------- *
+   * Streak (calendar day, based on the student's own device clock)
+   * ------------------------------------------------------------- */
+  function todayStr() {
+    var d = new Date();
+    var m = String(d.getMonth() + 1).padStart(2, "0");
+    var day = String(d.getDate()).padStart(2, "0");
+    return d.getFullYear() + "-" + m + "-" + day;
+  }
+  function daysBetween(a, b) {
+    var msPerDay = 24 * 60 * 60 * 1000;
+    var da = new Date(a + "T00:00:00");
+    var db = new Date(b + "T00:00:00");
+    return Math.round((db - da) / msPerDay);
+  }
+
+  // Returns { isNewDay: bool } and mutates state.streak in place.
+  function touchStreak(state) {
+    var today = todayStr();
+    if (state.streak.lastActiveDate === today) return { isNewDay: false };
+    var gap = state.streak.lastActiveDate ? daysBetween(state.streak.lastActiveDate, today) : null;
+    if (gap === 1) {
+      state.streak.count += 1;
+    } else {
+      state.streak.count = 1; // first-ever activity, or the streak was broken
+    }
+    state.streak.lastActiveDate = today;
+    return { isNewDay: true };
+  }
+
+  /* ------------------------------------------------------------- *
+   * XP + badge helpers
+   * ------------------------------------------------------------- */
+  var pendingToasts = [];
+
+  function awardXp(state, amount, level, label) {
+    if (amount <= 0) return;
+    state.xp += amount;
+    if (level && state.levelStats[level]) state.levelStats[level].xp += amount;
+    pendingToasts.push({ kind: "xp", text: "+" + amount + " XP" + (label ? " · " + label : "") });
+  }
+
+  function evaluateBadges(state) {
+    BADGES.forEach(function (b) {
+      if (state.badges.indexOf(b.id) !== -1) return;
+      if (b.check(state)) {
+        state.badges.push(b.id);
+        pendingToasts.push({ kind: "badge", text: "Badge unlocked: " + b.name, icon: b.icon });
+      }
+    });
+  }
+
+  /* ------------------------------------------------------------- *
+   * Page inventory — which exercise-block ids live on THIS page, so
+   * we can tell when a Test Yourself page or the Placement Test has
+   * been fully completed (every block on it has a recorded result),
+   * without any extra per-page wiring.
+   * ------------------------------------------------------------- */
+  function detectPageKind() {
+    var path = window.location.pathname;
+    if (/test-yourself\.html$/.test(path)) return "test-yourself";
+    if (/placement-test\.html$/.test(path)) return "placement";
+    return "lesson";
+  }
+
+  function pageInventory() {
+    var ids = [];
+    document.querySelectorAll(".exercise-block script.exercise-data").forEach(function (scriptEl) {
+      try {
+        var data = JSON.parse(scriptEl.textContent);
+        if (data && data.id && data.type !== "writing") ids.push(data.id);
+      } catch (e) { /* ignore malformed block, doesn't block the rest */ }
+    });
+    return ids;
+  }
+
+  function maybeCompletePage(state, pageKind, level, inventory) {
+    if (pageKind === "lesson" || !inventory.length) return;
+    var key = pageKind === "placement" ? "placement" : "test-yourself:" + (level || "");
+    if (state.pagesCompleted[key]) return;
+    var allDone = inventory.every(function (id) { return !!state.exercises[id]; });
+    if (!allDone) return;
+    recordTestProgressInternal(state, { type: pageKind, level: level });
+  }
+
+  function recordTestProgressInternal(state, opts) {
+    var type = opts.type;
+    var level = opts.level;
+    var key = type === "placement" ? "placement" : "test-yourself:" + (level || "");
+    if (state.pagesCompleted[key]) return; // already awarded, never twice
+    state.pagesCompleted[key] = true;
+    if (type === "placement") {
+      awardXp(state, XP.placement, null, "Placement Test complete");
+    } else {
+      awardXp(state, XP.testYourself, level, (level || "") + " Test Yourself complete");
+    }
+    evaluateBadges(state);
+  }
+
+  /* ------------------------------------------------------------- *
+   * Public API
+   * ------------------------------------------------------------- */
+  function recordExerciseResult(opts) {
+    opts = opts || {};
+    var exerciseId = opts.exerciseId;
+    if (!exerciseId) return getState();
+    var level = (opts.level || "").toUpperCase();
+    var total = typeof opts.total === "number" ? opts.total : 0;
+    var correct = typeof opts.correct === "number" ? opts.correct : 0;
+    var perfect = typeof opts.perfect === "boolean" ? opts.perfect : (total > 0 && correct === total);
+
+    var state = loadState();
+    touchStreakAndDailyBonus(state);
+
+    var existing = state.exercises[exerciseId];
+    if (!existing) {
+      // First time this exact exercise block has ever been submitted
+      // (in this browser) — award XP once, then remember it forever.
+      awardXp(state, XP.exercise, level, "Exercise complete");
+      if (perfect) awardXp(state, XP.perfectBonus, level, "Perfect score");
+      state.exercises[exerciseId] = { bestCorrect: correct, total: total, xpAwarded: true, perfect: perfect };
+      if (level && state.levelStats[level]) state.levelStats[level].exercisesDone += 1;
+    } else {
+      // Retry: never re-award XP, just keep the best result on file
+      // so badges/stats reflect genuine best performance.
+      existing.bestCorrect = Math.max(existing.bestCorrect, correct);
+      existing.total = total || existing.total;
+      existing.perfect = existing.perfect || perfect;
+    }
+
+    evaluateBadges(state);
+
+    var pageKind = detectPageKind();
+    if (pageKind !== "lesson") maybeCompletePage(state, pageKind, level, pageInventory());
+
+    saveState(state);
+    flushUI(state);
+    return getStateFrom(state);
+  }
+
+  function recordTestProgress(opts) {
+    opts = opts || {};
+    var state = loadState();
+    touchStreakAndDailyBonus(state);
+    recordTestProgressInternal(state, opts);
+    saveState(state);
+    flushUI(state);
+    return getStateFrom(state);
+  }
+
+  function touchStreakAndDailyBonus(state) {
+    var wasCount = state.streak.count;
+    var res = touchStreak(state);
+    if (res.isNewDay) {
+      pendingToasts.push({ kind: "streak", text: "Day " + state.streak.count + " streak!" });
+      if (XP.dailyBonus > 0 && wasCount > 0) awardXp(state, XP.dailyBonus, null, "Daily bonus");
+    }
+  }
+
+  function getStateFrom(state) {
+    return JSON.parse(JSON.stringify(state));
+  }
+  function getState() {
+    return getStateFrom(loadState());
+  }
+
+  function resetProgress() {
+    try { window.localStorage.removeItem(STORAGE_KEY); } catch (e) { /* ignore */ }
+    flushUI(loadState());
+  }
+
+  /* ------------------------------------------------------------- *
+   * UI — header widget (button + dropdown panel) and toasts.
+   * Injected purely in JS so no per-page markup is needed beyond the
+   * <script> tag; styling lives in assets/css/components.css under
+   * "Progress / gamification widget".
+   * ------------------------------------------------------------- */
+  var els = null; // lazily built DOM refs
+
+  function el(tag, attrs, children) {
+    var node = document.createElement(tag);
+    attrs = attrs || {};
+    Object.keys(attrs).forEach(function (k) {
+      if (k === "class") node.className = attrs[k];
+      else if (k === "html") node.innerHTML = attrs[k];
+      else if (k === "text") node.textContent = attrs[k];
+      else node.setAttribute(k, attrs[k]);
+    });
+    (children || []).forEach(function (c) { if (c) node.appendChild(c); });
+    return node;
+  }
+
+  function flameIcon() {
+    var s = el("span", { "aria-hidden": "true", class: "progress-toggle__flame" });
+    s.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2s6 5.5 6 11a6 6 0 1 1-12 0c0-1.6.7-2.8 1.5-4 .3 1.2 1 1.8 1.7 1.8C10.2 10.8 9.5 8 12 2Z"/></svg>';
+    return s;
+  }
+
+  function buildWidget() {
+    var navUtility = document.querySelector(".nav-utility");
+
+    var toggle = el("button", {
+      type: "button",
+      class: "progress-toggle",
+      "aria-haspopup": "dialog",
+      "aria-expanded": "false",
+      "aria-label": "Your progress: XP, streak and badges",
+    });
+    var xpEl = el("span", { class: "progress-toggle__xp", text: "0 XP" });
+    toggle.appendChild(flameIcon());
+    var streakEl = el("span", { class: "progress-toggle__streak", text: "0" });
+    toggle.appendChild(streakEl);
+    toggle.appendChild(el("span", { class: "progress-toggle__dot", "aria-hidden": "true", text: "·" }));
+    toggle.appendChild(xpEl);
+
+    var panel = el("div", { class: "progress-panel", role: "dialog", "aria-label": "Your progress" });
+    panel.hidden = true;
+
+    if (navUtility) {
+      navUtility.insertBefore(toggle, navUtility.firstChild);
+      navUtility.parentNode.style.position = navUtility.parentNode.style.position || "relative";
+      document.body.appendChild(panel);
+    } else {
+      // Defensive fallback for any page without the standard header.
+      toggle.classList.add("progress-toggle--floating");
+      document.body.appendChild(toggle);
+      document.body.appendChild(panel);
+    }
+
+    function positionPanel() {
+      var r = toggle.getBoundingClientRect();
+      panel.style.position = "fixed";
+      panel.style.top = Math.round(r.bottom + 8) + "px";
+      var right = Math.max(8, window.innerWidth - r.right);
+      panel.style.right = Math.round(right) + "px";
+      panel.style.left = "auto";
+    }
+
+    function open() {
+      renderPanel(loadState()); // always fresh, never stale content
+      panel.hidden = false;
+      positionPanel();
+      toggle.setAttribute("aria-expanded", "true");
+      document.addEventListener("click", onDocClick, true);
+      window.addEventListener("resize", positionPanel);
+    }
+    function close() {
+      panel.hidden = true;
+      toggle.setAttribute("aria-expanded", "false");
+      document.removeEventListener("click", onDocClick, true);
+      window.removeEventListener("resize", positionPanel);
+    }
+    function onDocClick(e) {
+      if (panel.contains(e.target) || toggle.contains(e.target)) return;
+      close();
+    }
+    toggle.addEventListener("click", function () {
+      if (panel.hidden) open(); else close();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !panel.hidden) close();
+    });
+
+    var toastHost = el("div", { class: "xp-toast-host", "aria-live": "polite" });
+    document.body.appendChild(toastHost);
+
+    els = { toggle: toggle, xpEl: xpEl, streakEl: streakEl, panel: panel, toastHost: toastHost };
+  }
+
+  function badgeGridHtml(state) {
+    return BADGES.map(function (b) {
+      var earned = state.badges.indexOf(b.id) !== -1;
+      return (
+        '<li class="badge-chip' + (earned ? " is-earned" : "") + '" title="' + escapeHtml(b.desc) + '">' +
+        '<span class="badge-chip__icon" aria-hidden="true">' + (earned ? b.icon : "🔒") + "</span>" +
+        '<span class="badge-chip__name">' + escapeHtml(b.name) + "</span>" +
+        "</li>"
+      );
+    }).join("");
+  }
+
+  function escapeHtml(s) {
+    var d = document.createElement("div");
+    d.textContent = String(s || "");
+    return d.innerHTML;
+  }
+
+  function renderPanel(state) {
+    if (!els) return;
+    var earnedCount = state.badges.length;
+    var levelRows = LEVELS.map(function (l) {
+      var ls = state.levelStats[l] || { xp: 0, exercisesDone: 0 };
+      var threshold = explorerThreshold(l);
+      var pct = Math.min(100, Math.round((ls.exercisesDone / threshold) * 100));
+      return (
+        '<div class="progress-panel__level-row">' +
+        '<div class="progress-label"><span>' + l + "</span><span>" + ls.exercisesDone + " done · " + ls.xp + " XP</span></div>" +
+        '<div class="progress-track"><div class="progress-track__fill" style="width:' + pct + '%"></div></div>' +
+        "</div>"
+      );
+    }).join("");
+
+    els.panel.innerHTML =
+      '<div class="progress-panel__head">' +
+      '<div><strong>' + state.xp + ' XP</strong><span class="progress-panel__streak-label">🔥 ' + state.streak.count + '-day streak</span></div>' +
+      '<button type="button" class="progress-panel__close" aria-label="Close">' +
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>' +
+      "</div>" +
+      '<p class="progress-panel__hint">Progress saves to this browser only — refresh-safe, no account needed.</p>' +
+      '<div class="progress-panel__levels">' + levelRows + "</div>" +
+      '<p class="progress-panel__badges-label">Badges — ' + earnedCount + " of " + BADGES.length + " earned</p>" +
+      '<ul class="badge-grid">' + badgeGridHtml(state) + "</ul>" +
+      '<a class="btn btn--ghost btn--small progress-panel__link" href="' + progressPageHref() + '">View full progress</a>';
+
+    var closeBtn = els.panel.querySelector(".progress-panel__close");
+    if (closeBtn) closeBtn.addEventListener("click", function () {
+      els.panel.hidden = true;
+      els.toggle.setAttribute("aria-expanded", "false");
+    });
+  }
+
+  function progressPageHref() {
+    // Works whether this page is at the site root, one level deep
+    // (levels/a1.html) or two levels deep (levels/a1/xyz.html).
+    var depth = (window.location.pathname.match(/\/levels\/[^/]+\/[^/]+$/)) ? 2
+      : (window.location.pathname.match(/\/levels\/[^/]+$/)) ? 1 : 0;
+    return (depth === 2 ? "../../" : depth === 1 ? "../" : "") + "progress.html";
+  }
+
+  function renderToggle(state) {
+    if (!els) return;
+    els.xpEl.textContent = state.xp + " XP";
+    els.streakEl.textContent = String(state.streak.count);
+    els.toggle.classList.toggle("has-streak", state.streak.count > 0);
+  }
+
+  function showToast(item) {
+    if (!els) return;
+    var node = el("div", { class: "xp-toast xp-toast--" + item.kind });
+    if (item.icon) node.appendChild(el("span", { class: "xp-toast__icon", "aria-hidden": "true", text: item.icon }));
+    node.appendChild(el("span", { text: item.text }));
+    els.toastHost.appendChild(node);
+    requestAnimationFrame(function () { node.classList.add("is-visible"); });
+    setTimeout(function () {
+      node.classList.remove("is-visible");
+      setTimeout(function () { node.remove(); }, 350);
+    }, 2400);
+  }
+
+  function flushUI(state) {
+    if (!els) return; // widget not on this page for some reason
+    renderToggle(state);
+    if (!els.panel.hidden) renderPanel(state);
+    var queue = pendingToasts;
+    pendingToasts = [];
+    queue.forEach(function (item, i) {
+      setTimeout(function () { showToast(item); }, i * 260);
+    });
+  }
+
+  /* ------------------------------------------------------------- *
+   * Full progress page (progress.html) — optional; only does
+   * anything if that page's specific containers are present, so this
+   * is a harmless no-op everywhere else.
+   * ------------------------------------------------------------- */
+  function renderProgressPage() {
+    var summaryEl = document.getElementById("progress-summary");
+    var levelsEl = document.getElementById("progress-levels");
+    var badgesEl = document.getElementById("progress-badges");
+    if (!summaryEl && !levelsEl && !badgesEl) return;
+
+    function render() {
+      var state = loadState();
+      if (summaryEl) {
+        summaryEl.innerHTML =
+          '<div class="progress-stat"><strong>' + state.xp + '</strong><span>Total XP</span></div>' +
+          '<div class="progress-stat"><strong>' + state.streak.count + '</strong><span>Day streak</span></div>' +
+          '<div class="progress-stat"><strong>' + state.badges.length + " / " + BADGES.length + '</strong><span>Badges earned</span></div>' +
+          '<div class="progress-stat"><strong>' + countExercisesDone(state) + '</strong><span>Exercises completed</span></div>';
+      }
+      if (levelsEl) {
+        levelsEl.innerHTML = LEVELS.map(function (l) {
+          var ls = state.levelStats[l] || { xp: 0, exercisesDone: 0 };
+          var threshold = explorerThreshold(l);
+          var pct = Math.min(100, Math.round((ls.exercisesDone / threshold) * 100));
+          return (
+            '<div class="progress-panel__level-row">' +
+            '<div class="progress-label"><span>' + l + " — " + LEVEL_NAMES[l] + "</span><span>" + ls.exercisesDone + " done · " + ls.xp + " XP</span></div>" +
+            '<div class="progress-track"><div class="progress-track__fill" style="width:' + pct + '%"></div></div>' +
+            "</div>"
+          );
+        }).join("");
+      }
+      if (badgesEl) {
+        badgesEl.innerHTML = badgeGridHtml(state);
+      }
+    }
+
+    render();
+
+    var resetBtn = document.getElementById("progress-reset-btn");
+    if (resetBtn) {
+      resetBtn.addEventListener("click", function () {
+        if (window.confirm("Reset all XP, streak and badges on this device? This can't be undone.")) {
+          resetProgress();
+          render();
+        }
+      });
+    }
+  }
+
+  /* ------------------------------------------------------------- *
+   * Boot
+   * ------------------------------------------------------------- */
+  function init() {
+    buildWidget();
+    renderToggle(loadState());
+    renderProgressPage();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+
+  window.ProgressTracker = {
+    recordExerciseResult: recordExerciseResult,
+    recordTestProgress: recordTestProgress,
+    getState: getState,
+    resetProgress: resetProgress,
+    XP: XP,
+    BADGES: BADGES,
+    LEVELS: LEVELS,
+    explorerThreshold: explorerThreshold,
+  };
+})();

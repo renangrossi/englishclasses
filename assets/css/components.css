@@ -521,6 +521,16 @@ body:not(:has(.level-toc)) .section {
 .section--primary .eyebrow { color: var(--gold-300); }
 .section--primary .eyebrow::before { background: var(--gold-300); }
 
+/* Tighter internal rhythm for a run of related sections (currently the
+   Listening area's Core / Extra / Beyond-the-Course blocks) so they
+   read as one continuous flow instead of separate page sections. Only
+   the shared seam between two .section--listen siblings is tightened —
+   the section before the first one and after the last one keep the
+   site's normal section padding, so unrelated sections elsewhere on
+   the page (Vocabulary, Reading, Writing, etc.) are unaffected. */
+.section--listen + .section--listen { padding-top: var(--space-md); }
+.section--listen:has(+ .section--listen) { padding-bottom: var(--space-md); }
+
 .section__inner {
   max-width: var(--content-max);
   margin: 0 auto;

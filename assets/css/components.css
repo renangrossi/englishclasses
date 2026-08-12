@@ -920,3 +920,174 @@ body:not(:has(.level-toc)) .section {
 
 .lesson-card__title-link { color: inherit; }
 .lesson-card__title-link:hover { color: var(--color-accent); text-decoration: underline; }
+
+/* ---------------------------------------------------------------------
+   Progress / gamification widget (assets/js/progress.js)
+   A compact header pill (XP + streak) that opens a small panel with
+   badges and per-level progress. Injected entirely from JS, so no
+   markup is required on individual pages beyond the <script> tag.
+   --------------------------------------------------------------------- */
+.progress-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  height: 40px;
+  padding: 0 0.8em;
+  border-radius: 999px;
+  border: 1px solid rgba(228, 200, 135, 0.4);
+  background: transparent;
+  color: var(--gold-300);
+  font-family: var(--font-body);
+  font-size: var(--step--1);
+  font-weight: 600;
+  cursor: pointer;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.progress-toggle:hover { background: rgba(228, 200, 135, 0.12); }
+.progress-toggle__flame { width: 16px; height: 16px; display: inline-flex; color: var(--color-text-on-dark-muted); }
+.progress-toggle__flame svg { width: 100%; height: 100%; }
+.progress-toggle.has-streak .progress-toggle__flame { color: var(--color-gold); }
+.progress-toggle__dot { opacity: 0.5; }
+.progress-toggle--floating {
+  position: fixed;
+  right: var(--space-md);
+  bottom: calc(var(--space-md) + 60px);
+  z-index: 899;
+  background: var(--color-primary-strong);
+  box-shadow: var(--shadow-md);
+}
+
+.progress-panel {
+  z-index: 902;
+  width: min(320px, calc(100vw - 2 * var(--space-md)));
+  max-height: min(520px, 75vh);
+  overflow-y: auto;
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: var(--space-md);
+}
+.progress-panel[hidden] { display: none; }
+.progress-panel__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-sm);
+}
+.progress-panel__head strong { font-family: var(--font-display); font-size: var(--step-1); color: var(--color-text); display: block; }
+.progress-panel__streak-label { display: block; font-size: var(--step--1); color: var(--color-text-muted); margin-top: 0.2em; }
+.progress-panel__close {
+  flex-shrink: 0;
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text-muted);
+  display: inline-flex; align-items: center; justify-content: center;
+  cursor: pointer;
+}
+.progress-panel__close svg { width: 13px; height: 13px; }
+.progress-panel__hint { font-size: 0.78rem; color: var(--color-text-muted); margin: 0.5em 0 var(--space-sm); }
+.progress-panel__levels { display: flex; flex-direction: column; gap: 0.6em; margin-bottom: var(--space-sm); }
+.progress-panel__level-row .progress-track { height: 6px; }
+.progress-panel__badges-label { font-size: var(--step--1); font-weight: 700; color: var(--color-text); margin: var(--space-sm) 0 0.5em; }
+.progress-panel__link { margin-top: var(--space-sm); width: 100%; justify-content: center; }
+
+.badge-grid {
+  list-style: none;
+  margin: 0; padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5em;
+}
+.badge-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25em;
+  padding: 0.5em 0.3em;
+  border-radius: var(--radius-md);
+  border: var(--border-hairline);
+  background: var(--color-surface);
+  text-align: center;
+  opacity: 0.55;
+}
+/* Earned chips use a constant light parchment fill (the "you earned
+   this" highlight should look the same in both themes), so their text
+   is pinned to a constant dark ink rather than the theme-variable
+   --color-text -- otherwise dark mode's light text would disappear
+   against this always-light background. */
+.badge-chip.is-earned { opacity: 1; border-color: var(--color-gold); background: var(--parchment-200); }
+.badge-chip__icon { font-size: 1.3rem; line-height: 1; }
+.badge-chip__name { font-size: 0.68rem; color: var(--color-text-muted); line-height: 1.25; }
+.badge-chip.is-earned .badge-chip__name { color: var(--ink-900); }
+
+.xp-toast-host {
+  position: fixed;
+  top: calc(var(--header-height) + var(--space-sm));
+  right: var(--space-md);
+  z-index: 950;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.4em;
+  pointer-events: none;
+}
+.xp-toast {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.55em 0.9em;
+  border-radius: 999px;
+  background: var(--color-primary-strong);
+  color: var(--gold-300);
+  font-size: var(--step--1);
+  font-weight: 700;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-gold);
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: opacity var(--duration-base) var(--ease-standard), transform var(--duration-base) var(--ease-standard);
+}
+.xp-toast.is-visible { opacity: 1; transform: translateY(0); }
+/* Badge toast reuses the same constant navy/gold pairing as the base
+   toast (both are always readable, in either theme) rather than
+   --color-accent-strong, which flips to a light pink in dark mode and
+   would lose contrast against light toast text. A thicker gold border
+   is enough to make it read as a bigger, celebratory moment. */
+.xp-toast--badge { border-width: 2px; }
+.xp-toast__icon { font-size: 1rem; }
+@media (max-width: 560px) {
+  .progress-toggle__dot { display: none; }
+  .xp-toast-host { left: var(--space-sm); right: var(--space-sm); align-items: stretch; }
+  .xp-toast { justify-content: center; }
+}
+
+/* progress.html — full page (reuses .progress-track / .progress-label
+   from exercises.css and .badge-grid / .badge-chip above) */
+.progress-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--space-sm);
+}
+.progress-stat {
+  text-align: center;
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  border: var(--border-hairline);
+  background: var(--color-surface-raised);
+}
+.progress-stat strong { display: block; font-family: var(--font-display); font-size: var(--step-3); color: var(--color-accent); }
+.progress-stat span { display: block; font-size: var(--step--1); color: var(--color-text-muted); margin-top: 0.2em; }
+
+.progress-levels-list { display: flex; flex-direction: column; gap: var(--space-md); }
+
+.badge-grid--page {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: var(--space-sm);
+}
+.badge-grid--page .badge-chip { padding: var(--space-sm); }
+.badge-grid--page .badge-chip__icon { font-size: 1.8rem; }
+.badge-grid--page .badge-chip__name { font-size: var(--step--1); }

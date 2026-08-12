@@ -800,6 +800,21 @@
         bubbles: true,
         detail: { id: data.id, results: lastResults },
       }));
+
+      // Gamification (assets/js/progress.js) — optional by design: if
+      // that script hasn't loaded on a given page, grading above still
+      // works exactly the same, nothing here is required for it.
+      if (window.ProgressTracker && typeof window.ProgressTracker.recordExerciseResult === "function") {
+        var correctCount = lastResults.filter(function (r) { return r.correct; }).length;
+        var total = lastResults.length;
+        window.ProgressTracker.recordExerciseResult({
+          exerciseId: data.id,
+          level: document.body.getAttribute("data-level-code") || "",
+          correct: correctCount,
+          total: total,
+          perfect: total > 0 && correctCount === total,
+        });
+      }
     });
 
     printBtn.addEventListener("click", function () {

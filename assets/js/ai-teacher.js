@@ -118,6 +118,26 @@
     return s.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   }
 
+  // Turns Markdown links [Label](url) into real, clickable <a> elements,
+  // and — as a safety net in case the model ever slips a bare URL through
+  // despite the system prompt telling it not to — auto-links plain
+  // http(s) URLs too, so a student never sees a raw, unclickable path.
+  // A single regex/replace pass avoids double-wrapping a URL that was
+  // already turned into an <a> by the Markdown-link branch.
+  function inlineLinks(s) {
+    return s.replace(/\[([^\[\]]+)\]\((https?:\/\/[^\s()]+)\)|(https?:\/\/[^\s<>"']+)/g,
+      function (match, label, mdUrl, bareUrl) {
+        if (label && mdUrl) {
+          return '<a href="' + mdUrl + '" target="_blank" rel="noopener noreferrer">' + label + "</a>";
+        }
+        // Trim trailing punctuation (., , ; : ! ? ) ]) that's almost
+        // always sentence punctuation, not part of the URL itself.
+        var trimmed = bareUrl.replace(/[.,;:!?)\]]+$/, "");
+        var trailing = bareUrl.slice(trimmed.length);
+        return '<a href="' + trimmed + '" target="_blank" rel="noopener noreferrer">' + trimmed + "</a>" + trailing;
+      });
+  }
+
   // The system prompt asks the model to avoid "#" heading syntax, but
   // as a safety net (same reasoning as the table handling above): if
   // it slips one in anyway, never show the raw "### Heading" text —
@@ -125,8 +145,8 @@
   // heading elements and a literal "###" reads as broken Markdown.
   function formatLine(line) {
     var heading = line.match(/^#{1,6}\s+(.*)$/);
-    if (heading) return "<strong>" + inlineBold(heading[1]) + "</strong>";
-    return inlineBold(line);
+    if (heading) return "<strong>" + inlineLinks(inlineBold(heading[1])) + "</strong>";
+    return inlineLinks(inlineBold(line));
   }
 
   function renderBotText(raw) {
@@ -154,8 +174,8 @@
           if (idx === 1 && isTableSeparatorRow(rowLine)) return; // drop the "---|---" row
           var cells = splitTableRow(rowLine);
           if (cells.length === 0) return;
-          var label = cells[0].replace(/\*\*/g, "");
-          var rest = cells.slice(1).map(inlineBold);
+          var label = inlineLinks(cells[0].replace(/\*\*/g, ""));
+          var rest = cells.slice(1).map(function (c) { return inlineLinks(inlineBold(c)); });
           out.push("\u2022 <strong>" + label + "</strong>" + (rest.length ? " \u2014 " + rest.join(" \u2014 ") : ""));
         });
         i = j;

@@ -654,28 +654,80 @@
     return node;
   }
 
-  function flameIcon() {
-    var s = el("span", { "aria-hidden": "true", class: "progress-toggle__flame" });
+  function flameIcon(flameClass) {
+    var s = el("span", { "aria-hidden": "true", class: flameClass });
     s.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2s6 5.5 6 11a6 6 0 1 1-12 0c0-1.6.7-2.8 1.5-4 .3 1.2 1 1.8 1.7 1.8C10.2 10.8 9.5 8 12 2Z"/></svg>';
     return s;
   }
 
+  // Closes the mobile off-canvas nav (#primary-nav, toggled by main.js's
+  // [data-nav-toggle]) — used when the "Progress" row inside that menu
+  // is tapped, so the panel opens over a clean page instead of behind
+  // the still-open menu. Reads the same elements/classes main.js's
+  // initMobileNav() uses rather than sharing state with it, since the
+  // two files are independent and main.js exposes nothing globally.
+  function closeMobileNav() {
+    var nav = document.getElementById("primary-nav");
+    var navToggle = document.querySelector("[data-nav-toggle]");
+    if (nav) nav.classList.remove("is-open");
+    if (navToggle) navToggle.setAttribute("aria-expanded", "false");
+    document.body.style.overflow = "";
+  }
+
   function buildWidget() {
     var navUtility = document.querySelector(".nav-utility");
+    var navList = document.querySelector("#primary-nav .primary-nav__list");
+    var dictLink = navList && navList.querySelector('a[href$="dictionary.html"]');
+    var dictItem = dictLink ? dictLink.closest("li") : null;
 
+    // Desktop header pill — unchanged in spirit, but now hidden on
+    // mobile widths (see .progress-toggle--pill in components.css) so
+    // it never competes with search/theme/hamburger for room there;
+    // the mobile-menu row below takes over at that width instead.
     var toggle = el("button", {
       type: "button",
-      class: "progress-toggle",
+      class: "progress-toggle progress-toggle--pill",
       "aria-haspopup": "dialog",
       "aria-expanded": "false",
       "aria-label": "Your progress: XP, streak and badges",
     });
     var xpEl = el("span", { class: "progress-toggle__xp", text: "0 XP" });
-    toggle.appendChild(flameIcon());
+    toggle.appendChild(flameIcon("progress-toggle__flame"));
     var streakEl = el("span", { class: "progress-toggle__streak", text: "0" });
     toggle.appendChild(streakEl);
     toggle.appendChild(el("span", { class: "progress-toggle__dot", "aria-hidden": "true", text: "·" }));
     toggle.appendChild(xpEl);
+
+    // Mobile menu row — lives inside #primary-nav's own list, right
+    // after Dictionary, so on mobile (where the pill above is hidden)
+    // Progress/XP is just another item in the ☰ menu instead of a
+    // separate header control. Built once here and reused across the
+    // "no progress yet" (hidden) and "has progress" (visible) states —
+    // see renderToggle() — so its position in the menu never changes,
+    // only its visibility does (the mobile-placement regression this
+    // fixes: the pill used to be the only control, and it lived in the
+    // cramped header bar on every width).
+    var menuItem = null, menuToggle = null, menuStreakEl = null, menuXpEl = null;
+    if (dictItem) {
+      menuToggle = el("button", {
+        type: "button",
+        class: "progress-menu-toggle",
+        "aria-haspopup": "dialog",
+        "aria-expanded": "false",
+      });
+      menuToggle.appendChild(el("span", { class: "progress-menu-toggle__label", text: "Progress" }));
+      var stat = el("span", { class: "progress-menu-toggle__stat" });
+      stat.appendChild(flameIcon("progress-menu-toggle__flame"));
+      menuStreakEl = el("span", { class: "progress-menu-toggle__streak", text: "0" });
+      stat.appendChild(menuStreakEl);
+      stat.appendChild(el("span", { class: "progress-menu-toggle__dot", "aria-hidden": "true", text: "·" }));
+      menuXpEl = el("span", { class: "progress-menu-toggle__xp", text: "0 XP" });
+      stat.appendChild(menuXpEl);
+      menuToggle.appendChild(stat);
+
+      menuItem = el("li", { class: "primary-nav__item primary-nav__item--progress" }, [menuToggle]);
+      dictItem.insertAdjacentElement("afterend", menuItem);
+    }
 
     var panel = el("div", { class: "progress-panel", role: "dialog", "aria-label": "Your progress" });
     panel.hidden = true;
@@ -687,11 +739,13 @@
     } else {
       // Defensive fallback for any page without the standard header.
       toggle.classList.add("progress-toggle--floating");
+      toggle.classList.remove("progress-toggle--pill");
       document.body.appendChild(toggle);
       document.body.appendChild(panel);
     }
 
     function positionPanel() {
+      panel.classList.remove("progress-panel--sheet");
       var r = toggle.getBoundingClientRect();
       panel.style.position = "fixed";
       panel.style.top = Math.round(r.bottom + 8) + "px";
@@ -700,27 +754,52 @@
       panel.style.left = "auto";
     }
 
-    function open() {
+    // The mobile menu row sits inside #primary-nav, which closeMobileNav()
+    // hides immediately — anchoring the panel to its (about to vanish)
+    // position wouldn't work, so it's shown as a centered "sheet"
+    // instead (see .progress-panel--sheet in components.css).
+    function positionPanelAsSheet() {
+      panel.style.position = "";
+      panel.style.top = "";
+      panel.style.right = "";
+      panel.style.left = "";
+      panel.classList.add("progress-panel--sheet");
+    }
+
+    function open(fromMenu) {
       renderPanel(loadState()); // always fresh, never stale content
       panel.hidden = false;
-      positionPanel();
+      if (fromMenu) {
+        closeMobileNav();
+        positionPanelAsSheet();
+      } else {
+        positionPanel();
+        window.addEventListener("resize", positionPanel);
+      }
       toggle.setAttribute("aria-expanded", "true");
+      if (menuToggle) menuToggle.setAttribute("aria-expanded", "true");
       document.addEventListener("click", onDocClick, true);
-      window.addEventListener("resize", positionPanel);
     }
     function close() {
       panel.hidden = true;
       toggle.setAttribute("aria-expanded", "false");
+      if (menuToggle) menuToggle.setAttribute("aria-expanded", "false");
       document.removeEventListener("click", onDocClick, true);
       window.removeEventListener("resize", positionPanel);
     }
     function onDocClick(e) {
       if (panel.contains(e.target) || toggle.contains(e.target)) return;
+      if (menuToggle && menuToggle.contains(e.target)) return;
       close();
     }
     toggle.addEventListener("click", function () {
-      if (panel.hidden) open(); else close();
+      if (panel.hidden) open(false); else close();
     });
+    if (menuToggle) {
+      menuToggle.addEventListener("click", function () {
+        if (panel.hidden) open(true); else close();
+      });
+    }
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape" && !panel.hidden) close();
     });
@@ -728,7 +807,11 @@
     var toastHost = el("div", { class: "xp-toast-host", "aria-live": "polite" });
     document.body.appendChild(toastHost);
 
-    els = { toggle: toggle, xpEl: xpEl, streakEl: streakEl, panel: panel, toastHost: toastHost };
+    els = {
+      toggle: toggle, xpEl: xpEl, streakEl: streakEl,
+      menuItem: menuItem, menuToggle: menuToggle, menuStreakEl: menuStreakEl, menuXpEl: menuXpEl,
+      panel: panel, toastHost: toastHost, close: close,
+    };
   }
 
   function badgeGridHtml(state) {
@@ -817,19 +900,28 @@
     els.xpEl.textContent = state.xp + " XP";
     els.streakEl.textContent = String(state.streak.count);
     els.toggle.classList.toggle("has-streak", state.streak.count > 0);
-    // The pill is mounted on every page with the standard header (see
-    // the <script> tags added alongside main.js), but stays hidden
-    // until the student has any real progress, so it doesn't clutter
-    // purely informational pages for a brand-new visitor. Once shown,
-    // it never disappears again on navigation/reload — only a reset
-    // (resetProgress) or clearing storage takes it back to "no
-    // progress yet" and hides it.
+    // The pill/menu row are mounted on every page with the standard
+    // header (see the <script> tags added alongside main.js), but stay
+    // hidden until the student has any real progress, so they don't
+    // clutter purely informational pages for a brand-new visitor. Once
+    // shown, they never disappear again on navigation/reload — only a
+    // reset (resetProgress) or clearing storage takes it back to "no
+    // progress yet" and hides them. Visibility changes here; DOM
+    // position never does — the mobile row is always the item right
+    // after Dictionary in #primary-nav, whether hidden or shown.
     var active = hasProgress(state);
     els.toggle.hidden = !active;
-    if (!active && !els.panel.hidden) {
-      els.panel.hidden = true;
-      els.toggle.setAttribute("aria-expanded", "false");
+    if (els.menuItem) els.menuItem.hidden = !active;
+    if (els.menuStreakEl) els.menuStreakEl.textContent = String(state.streak.count);
+    if (els.menuXpEl) els.menuXpEl.textContent = state.xp + " XP";
+    if (els.menuToggle) {
+      els.menuToggle.classList.toggle("has-streak", state.streak.count > 0);
+      els.menuToggle.setAttribute(
+        "aria-label",
+        "Your progress: " + state.xp + " XP, " + state.streak.count + "-day streak"
+      );
     }
+    if (!active && !els.panel.hidden) els.close();
   }
 
   var prefersReducedMotion = function () {

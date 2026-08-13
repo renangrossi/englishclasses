@@ -13,6 +13,15 @@ html {
      jumps to — or is already reading, when the browser re-flows the
      page on zoom — doesn't end up hidden underneath them. */
   scroll-padding-top: var(--sticky-offset);
+  /* Reserves the scrollbar's own width permanently (on browsers that
+     support it — no-op elsewhere, incl. iOS Safari's overlay
+     scrollbars, which never needed this) instead of only when a
+     scrollbar is actually present. Without it, anything that
+     temporarily removes the page scrollbar (main.js's mobile-nav
+     overflow:hidden, search.js's overlay) makes the page a scrollbar's
+     width wider for as long as it's open, visibly nudging the header/
+     content sideways and back — the "width jump" this avoids. */
+  scrollbar-gutter: stable;
 }
 
 @media (prefers-reduced-motion: reduce) {

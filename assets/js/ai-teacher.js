@@ -226,13 +226,56 @@
     };
   })();
 
+  // On small phones, locks the *page* behind the fixed-position panel
+  // while it's open, so a scroll/rubber-band gesture that starts on
+  // the panel's message list can't drag the underlying page (and,
+  // with it, the visual viewport's scale/position) along with it —
+  // one more contributor to the "loses proportions after opening"
+  // report alongside the 16px input fix in ai-teacher.css. Scoped to
+  // small viewports only (matchMedia below) so desktop, where the
+  // panel sits beside the page rather than over it, is unaffected —
+  // see docs on window.__rtPanelLock in dict-widget.js, which shares
+  // this same counter so the Dictionary widget and AI Teacher never
+  // fight over who "owns" the lock if a student somehow opens both.
+  var lockedBodyScroll = false;
+  function lockBodyScrollForPanel() {
+    if (!(window.matchMedia && window.matchMedia("(max-width: 640px)").matches)) return;
+    window.__rtPanelLock = (window.__rtPanelLock || 0) + 1;
+    lockedBodyScroll = true;
+    if (window.__rtPanelLock > 1) return; // another panel already holds the lock
+    window.__rtPanelLockY = window.scrollY || window.pageYOffset || 0;
+    var s = document.body.style;
+    s.position = "fixed";
+    s.top = "-" + window.__rtPanelLockY + "px";
+    s.left = "0";
+    s.right = "0";
+    s.width = "100%";
+  }
+  function unlockBodyScrollForPanel() {
+    if (!lockedBodyScroll) return;
+    lockedBodyScroll = false;
+    window.__rtPanelLock = Math.max(0, (window.__rtPanelLock || 1) - 1);
+    if (window.__rtPanelLock > 0) return; // still held by another panel
+    var y = window.__rtPanelLockY || 0;
+    var s = document.body.style;
+    s.position = "";
+    s.top = "";
+    s.left = "";
+    s.right = "";
+    s.width = "";
+    window.scrollTo(0, y);
+  }
+
   function toggleOpen(open) {
     var willOpen = open !== undefined ? open : panel.hidden;
     panel.hidden = !willOpen;
     toggle.setAttribute("aria-expanded", String(willOpen));
     if (willOpen) {
+      lockBodyScrollForPanel();
       input.focus();
       messagesBox.scrollTop = messagesBox.scrollHeight;
+    } else {
+      unlockBodyScrollForPanel();
     }
   }
 

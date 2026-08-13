@@ -292,6 +292,22 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
   .nav-drop.is-open .nav-drop__menu { display: block; }
 }
 
+/* Progress/XP control — split by width. Below 900px it lives as a row
+   inside the ☰ menu (.primary-nav__item--progress, built by
+   progress.js right after the Dictionary link); above 900px it's the
+   compact header pill instead (.progress-toggle--pill, in
+   .nav-utility). Both are always mounted in the DOM in their fixed
+   spot — only one is ever visible at a time, and neither moves when
+   XP is first earned (see progress.js's renderToggle()/hasProgress()
+   for the separate "is there any progress yet" visibility check this
+   combines with). */
+@media (max-width: 900px) {
+  .progress-toggle--pill { display: none !important; }
+}
+@media (min-width: 901px) {
+  .primary-nav__item--progress { display: none !important; }
+}
+
 /* ---------------------------------------------------------------------
    Breadcrumbs
    --------------------------------------------------------------------- */
@@ -974,11 +990,52 @@ body:not(:has(.level-toc)) .section {
   box-shadow: var(--shadow-md);
 }
 
+/* Mobile menu row — "Progress" label + a "🔥 1 · 65 XP"-style stat,
+   styled to match the other full-width rows in the mobile ☰ menu
+   (.primary-nav a / .nav-drop__toggle in the media query above), since
+   it lives in the same <li> list rather than the circular header pill
+   this reuses none of. Not media-query-gated itself: the parent
+   .primary-nav__item--progress is display:none above 900px (see
+   above), so this only ever renders at mobile widths regardless. */
+.progress-menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: 1em 0.2em;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+  color: var(--color-text-on-dark-muted);
+  font-size: var(--step-0);
+  text-align: left;
+}
+.progress-menu-toggle:hover,
+.progress-menu-toggle:focus-visible { color: var(--color-text-on-dark); }
+.progress-menu-toggle__label { font-weight: 600; }
+.progress-menu-toggle__stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  flex-shrink: 0;
+  font-size: var(--step--1);
+  font-weight: 700;
+  color: var(--gold-300);
+  white-space: nowrap;
+}
+.progress-menu-toggle__flame { width: 15px; height: 15px; display: inline-flex; color: var(--color-text-on-dark-muted); }
+.progress-menu-toggle__flame svg { width: 100%; height: 100%; }
+.progress-menu-toggle.has-streak .progress-menu-toggle__flame { color: var(--color-gold); }
+.progress-menu-toggle__dot { opacity: 0.6; }
+
 .progress-panel {
   z-index: 902;
   width: min(320px, calc(100vw - 2 * var(--space-md)));
   max-height: min(520px, 75vh);
   overflow-y: auto;
+  overscroll-behavior: contain;
   background: var(--color-surface-raised);
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-lg);
@@ -986,6 +1043,20 @@ body:not(:has(.level-toc)) .section {
   padding: var(--space-md);
 }
 .progress-panel[hidden] { display: none; }
+/* Opened from the ☰ menu's Progress row (see progress.js's open()):
+   the menu itself closes immediately, so anchoring to that row's
+   position (like the header pill's dropdown does) isn't possible —
+   shown instead as a centered sheet below the header, clear of the
+   notch/home-indicator via the safe-area insets. */
+.progress-panel--sheet {
+  position: fixed !important;
+  top: calc(var(--header-height) + var(--space-sm) + env(safe-area-inset-top, 0px)) !important;
+  left: var(--space-md) !important;
+  right: var(--space-md) !important;
+  width: auto !important;
+  max-width: none;
+  max-height: min(520px, calc(100dvh - var(--header-height) - 2 * var(--space-md) - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)));
+}
 .progress-panel__head {
   display: flex;
   align-items: flex-start;
@@ -1164,24 +1235,18 @@ body:not(:has(.level-toc)) .section {
 }
 
 @media (max-width: 560px) {
-  .progress-toggle__dot { display: none; }
   .xp-toast-host { left: var(--space-sm); right: var(--space-sm); align-items: stretch; }
   .xp-toast { justify-content: center; }
 }
 
-/* On the narrowest phones (e.g. 320px-wide devices), a long-time
-   student's XP/streak pill (four-digit XP, a two-digit streak) plus
-   the fixed-width search/theme/hamburger buttons can outgrow the
-   header bar even after .brand's text has fully collapsed to its
-   icon, clipping the logo and causing a few px of page-wide
-   horizontal scroll. Trimming the pill's own padding/font-size here
-   buys back just enough width to keep the header on one line without
-   touching its layout at the 375px/390px widths this was designed
-   around (where it already fits). */
-@media (max-width: 360px) {
-  .progress-toggle { padding: 0 0.55em; gap: 0.25em; font-size: 0.76rem; }
-  .progress-toggle__flame { width: 14px; height: 14px; }
-}
+/* NOTE: the header pill (.progress-toggle--pill) itself is hidden
+   below 900px (see the "Progress/XP control" media queries above) —
+   mobile always shows the ☰-menu row instead — so no narrow-phone
+   width tuning is needed for it here any more. This used to also hide
+   .progress-toggle__dot below 560px to save space, which silently
+   collapsed the streak/XP separator into unreadable text like
+   "1 65 XP" any time the pill *was* visible at that width; removed
+   along with the now-unreachable pill-at-mobile-widths case. */
 
 /* progress.html — full page (reuses .progress-track / .progress-label
    and .badge-grid / .badge-chip above) */

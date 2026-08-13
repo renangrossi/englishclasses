@@ -8,7 +8,7 @@
 .ai-teacher-toggle {
   position: fixed;
   left: var(--space-md);
-  bottom: var(--space-md);
+  bottom: calc(var(--space-md) + env(safe-area-inset-bottom, 0px));
   z-index: 900;
   display: inline-flex;
   align-items: center;
@@ -23,8 +23,7 @@
   cursor: pointer;
   box-shadow: var(--shadow-lg);
   transition: transform var(--duration-fast) var(--ease-standard),
-              opacity var(--duration-slow) var(--ease-standard),
-              scale var(--duration-slow) var(--ease-standard);
+              opacity var(--duration-slow) var(--ease-standard);
 }
 .ai-teacher-toggle:hover { transform: translateY(-2px); }
 .ai-teacher-toggle svg { width: 20px; height: 20px; flex-shrink: 0; }
@@ -55,13 +54,17 @@
    --------------------------------------------------------------------- */
 .ai-teacher-toggle--pending {
   opacity: 0;
-  scale: 0.85;
+  /* transform: scale(), not the bare `scale` property — broader
+     mobile-browser support (the individual transform properties are a
+     newer addition WebKit only shipped from iOS 14.5) for what's
+     otherwise an identical effect. */
+  transform: scale(0.85);
   pointer-events: none;
 }
 .ai-teacher-intro {
   position: fixed;
   left: var(--space-md);
-  bottom: var(--space-md);
+  bottom: calc(var(--space-md) + env(safe-area-inset-bottom, 0px));
   z-index: 900;
   display: inline-flex;
   align-items: center;
@@ -89,7 +92,7 @@
   100% { transform: perspective(140px) rotateY(0deg) skewY(0deg) scale(1); opacity: 1; }
 }
 @media (max-width: 480px) {
-  .ai-teacher-intro { left: var(--space-sm); bottom: var(--space-sm); }
+  .ai-teacher-intro { left: var(--space-sm); bottom: calc(var(--space-sm) + env(safe-area-inset-bottom, 0px)); }
 }
 
 /* Scattered fireworks zone — a fixed, invisible box hugging the same
@@ -102,14 +105,14 @@
 .ai-teacher-fireworks {
   position: fixed;
   left: var(--space-md);
-  bottom: var(--space-md);
+  bottom: calc(var(--space-md) + env(safe-area-inset-bottom, 0px));
   width: 170px;
   height: 130px;
   z-index: 899;
   pointer-events: none;
 }
 @media (max-width: 480px) {
-  .ai-teacher-fireworks { left: var(--space-sm); bottom: var(--space-sm); }
+  .ai-teacher-fireworks { left: var(--space-sm); bottom: calc(var(--space-sm) + env(safe-area-inset-bottom, 0px)); }
 }
 .ai-teacher-fireworks__spot {
   position: absolute;
@@ -160,6 +163,13 @@
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
   overflow: hidden;
+  /* Stops a scroll gesture inside the panel (e.g. flung past the top/
+     bottom of the messages list) from "chaining" into the page behind
+     it — on iOS Safari that scroll-chaining is what makes the whole
+     page rubber-band/shift after the panel opens, one of the ways the
+     page can appear to "lose proportions" once you start scrolling a
+     chat reply. */
+  overscroll-behavior: contain;
 }
 .ai-teacher-panel[hidden] { display: none; }
 
@@ -245,7 +255,14 @@
   border-radius: var(--radius-md);
   padding: 0.55em 0.8em;
   font: inherit;
-  font-size: var(--step--1);
+  /* Fixed at 16px rather than var(--step--1) (~13-14px): iOS Safari
+     auto-zooms the whole page in on focus for any text input under
+     16px, and toggleOpen() in ai-teacher.js focuses this the instant
+     the panel opens. Below 16px that zoom fires immediately on tap and
+     doesn't always settle back to 100% on its own — exactly the
+     "loses proportions after opening" bug. 16px is the documented iOS
+     threshold that suppresses the zoom entirely. */
+  font-size: 16px;
   background: var(--color-surface);
   color: var(--color-text);
   line-height: 1.4;
@@ -287,5 +304,5 @@
     --ai-panel-bottom-gap: calc(var(--space-sm) + 60px);
     --ai-panel-top-gap: calc(var(--header-height) + var(--space-2xs));
   }
-  .ai-teacher-toggle { left: var(--space-sm); bottom: var(--space-sm); }
+  .ai-teacher-toggle { left: var(--space-sm); bottom: calc(var(--space-sm) + env(safe-area-inset-bottom, 0px)); }
 }

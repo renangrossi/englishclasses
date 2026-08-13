@@ -161,9 +161,9 @@
 .dict-widget-panel {
   position: fixed;
   right: var(--space-md);
-  bottom: calc(var(--space-md) + 60px);
+  bottom: calc(var(--space-md) + 60px + env(safe-area-inset-bottom, 0px));
   width: min(360px, calc(100vw - 2 * var(--space-md)));
-  max-height: 60vh;
+  max-height: min(60vh, calc(100dvh - var(--header-height) - 2 * var(--space-md)));
   display: flex;
   flex-direction: column;
   background: var(--color-surface-raised);
@@ -172,6 +172,10 @@
   box-shadow: var(--shadow-lg);
   z-index: 901;
   overflow: hidden;
+  /* Same reasoning as .ai-teacher-panel's overscroll-behavior in
+     ai-teacher.css: keeps a scrolled-to-the-end definition list from
+     chaining its scroll into the page behind the widget on iOS. */
+  overscroll-behavior: contain;
 }
 .dict-widget-panel[hidden] { display: none; }
 
@@ -189,7 +193,13 @@
   border-radius: var(--radius-sm);
   padding: 0.5em 0.7em;
   font: inherit;
-  font-size: var(--step--1);
+  /* 16px, not var(--step--1) (~13-14px) — see the identical note on
+     .ai-teacher-panel__form textarea in ai-teacher.css. This input is
+     focused the instant the widget opens (dict-widget.js's toggle()),
+     so anything under 16px triggers iOS Safari's auto-zoom-on-focus
+     immediately, which is what breaks page proportions after opening
+     the widget on iPhone. */
+  font-size: 16px;
   background: var(--color-surface);
   color: var(--color-text);
 }

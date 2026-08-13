@@ -50,11 +50,50 @@
   }
   showHint();
 
+  // Locks the page behind the widget on small phones while it's open —
+  // see the identical helper (and the full explanation) on
+  // ai-teacher.js's lockBodyScrollForPanel(). window.__rtPanelLock is a
+  // shared counter so the two widgets never unlock a page the other is
+  // still holding the lock on.
+  var lockedBodyScroll = false;
+  function lockBodyScrollForPanel() {
+    if (!(window.matchMedia && window.matchMedia("(max-width: 640px)").matches)) return;
+    window.__rtPanelLock = (window.__rtPanelLock || 0) + 1;
+    lockedBodyScroll = true;
+    if (window.__rtPanelLock > 1) return;
+    window.__rtPanelLockY = window.scrollY || window.pageYOffset || 0;
+    var s = document.body.style;
+    s.position = "fixed";
+    s.top = "-" + window.__rtPanelLockY + "px";
+    s.left = "0";
+    s.right = "0";
+    s.width = "100%";
+  }
+  function unlockBodyScrollForPanel() {
+    if (!lockedBodyScroll) return;
+    lockedBodyScroll = false;
+    window.__rtPanelLock = Math.max(0, (window.__rtPanelLock || 1) - 1);
+    if (window.__rtPanelLock > 0) return;
+    var y = window.__rtPanelLockY || 0;
+    var s = document.body.style;
+    s.position = "";
+    s.top = "";
+    s.left = "";
+    s.right = "";
+    s.width = "";
+    window.scrollTo(0, y);
+  }
+
   function toggle(open) {
     var willOpen = open !== undefined ? open : panel.hidden;
     panel.hidden = !willOpen;
     trigger.setAttribute("aria-expanded", String(willOpen));
-    if (willOpen) input.focus();
+    if (willOpen) {
+      lockBodyScrollForPanel();
+      input.focus();
+    } else {
+      unlockBodyScrollForPanel();
+    }
   }
 
   trigger.addEventListener("click", function (e) {

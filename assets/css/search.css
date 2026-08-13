@@ -225,11 +225,16 @@
 .dict-widget__audio.has-error { border-color: var(--color-danger); color: var(--color-danger); }
 @keyframes dict-audio-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
 
-/* Attention hint next to the toggle button on page load */
+/* Attention hint next to the toggle button on page load.
+   `bottom` must match .dict-widget-toggle's own `bottom` (both 48px
+   tall) so the hint sits level with the icon — it was left at the
+   icon's old `+60px` slot when the icon itself moved down to
+   `var(--space-md)` (see "FLOATING DICTIONARY WIDGET" above), leaving
+   the hint floating a row above where the icon actually is. */
 .dict-widget-hint {
   position: fixed;
   right: calc(var(--space-md) + 58px);
-  bottom: calc(var(--space-md) + 60px);
+  bottom: var(--space-md);
   height: 48px;
   display: flex;
   align-items: center;

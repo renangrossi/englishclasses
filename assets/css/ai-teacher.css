@@ -22,7 +22,9 @@
   font-size: var(--step--1);
   cursor: pointer;
   box-shadow: var(--shadow-lg);
-  transition: transform var(--duration-fast) var(--ease-standard);
+  transition: transform var(--duration-fast) var(--ease-standard),
+              opacity var(--duration-slow) var(--ease-standard),
+              scale var(--duration-slow) var(--ease-standard);
 }
 .ai-teacher-toggle:hover { transform: translateY(-2px); }
 .ai-teacher-toggle svg { width: 20px; height: 20px; flex-shrink: 0; }
@@ -30,6 +32,53 @@
 @media (max-width: 560px) {
   .ai-teacher-toggle { padding: 0.7em; }
   .ai-teacher-toggle__label { display: none; }
+}
+
+/* ---------------------------------------------------------------------
+   Betsy Ross flag intro (assets/js/ai-teacher.js)
+   Once per browser tab session (sessionStorage key "aiTeacherIntroShown",
+   see ai-teacher.js), the AI Teacher button starts hidden
+   (.ai-teacher-toggle--pending) while a small Betsy Ross flag —
+   13 stars in a ring on the canton, 13 stripes — waves in its place
+   for ~1s, then the flag is removed and the real button fades/scales
+   in. Skipped entirely under prefers-reduced-motion or once the
+   session flag is set, in which case the button just renders normally
+   with no extra markup or delay.
+   --------------------------------------------------------------------- */
+.ai-teacher-toggle--pending {
+  opacity: 0;
+  scale: 0.85;
+  pointer-events: none;
+}
+.ai-teacher-intro {
+  position: fixed;
+  left: var(--space-md);
+  bottom: var(--space-md);
+  z-index: 900;
+  display: inline-flex;
+  align-items: center;
+  height: 44px;
+  pointer-events: none;
+}
+.ai-teacher-intro__flag {
+  width: 64px;
+  height: auto;
+  transform-origin: 2% 50%;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.35));
+  animation: ai-flag-wave 1s ease-in-out 1 both;
+}
+@keyframes ai-flag-wave {
+  0%   { transform: perspective(140px) rotateY(0deg) skewY(0deg) scale(0.9); opacity: 0; }
+  10%  { opacity: 1; }
+  20%  { transform: perspective(140px) rotateY(-14deg) skewY(3deg) scale(1); }
+  38%  { transform: perspective(140px) rotateY(10deg) skewY(-2.5deg) scale(1); }
+  56%  { transform: perspective(140px) rotateY(-7deg) skewY(1.8deg) scale(1); }
+  74%  { transform: perspective(140px) rotateY(4deg) skewY(-1deg) scale(1); }
+  90%  { transform: perspective(140px) rotateY(-1.5deg) skewY(0.4deg) scale(1); }
+  100% { transform: perspective(140px) rotateY(0deg) skewY(0deg) scale(1); opacity: 1; }
+}
+@media (max-width: 480px) {
+  .ai-teacher-intro { left: var(--space-sm); bottom: var(--space-sm); }
 }
 
 .ai-teacher-panel {

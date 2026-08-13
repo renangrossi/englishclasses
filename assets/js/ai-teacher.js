@@ -16,6 +16,91 @@
   var toggle = document.querySelector("[data-ai-teacher-toggle]");
   if (!scriptTag || !toggle) return;
 
+  /* ---------------------------------------------------------------
+   * Betsy Ross flag intro — draws attention to the AI Teacher button
+   * once per browser tab session (sessionStorage key
+   * "aiTeacherIntroShown"; sessionStorage rather than localStorage on
+   * purpose, so it plays again next visit/tab but not on every page
+   * within the same visit). Skips entirely under
+   * prefers-reduced-motion, or once the session key is set — in both
+   * cases the button just renders normally with no extra markup, no
+   * delay, and no behavior change. See ".ai-teacher-intro" /
+   * ".ai-teacher-toggle--pending" / "@keyframes ai-flag-wave" in
+   * ai-teacher.css.
+   * --------------------------------------------------------------- */
+  var INTRO_SESSION_KEY = "aiTeacherIntroShown";
+  var INTRO_WAVE_MS = 1000; // must match the CSS animation-duration above
+  // 13-star Betsy Ross canton (evenly spaced ring, no center star) over
+  // 13 alternating stripes — a small, self-contained decorative SVG, so
+  // authentic flag colors are used directly rather than theme tokens
+  // (this flag looks the same regardless of light/dark mode).
+  var BETSY_ROSS_FLAG_SVG =
+    '<svg class="ai-teacher-intro__flag" viewBox="0 0 60 40" role="img" aria-label="Betsy Ross American flag">' +
+    '<rect x="0" y="0" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
+    '<rect x="0" y="3.08" width="60" height="3.58" fill="#fff"/>' +
+    '<rect x="0" y="6.15" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
+    '<rect x="0" y="9.23" width="60" height="3.58" fill="#fff"/>' +
+    '<rect x="0" y="12.31" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
+    '<rect x="0" y="15.38" width="60" height="3.58" fill="#fff"/>' +
+    '<rect x="0" y="18.46" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
+    '<rect x="0" y="21.54" width="60" height="3.58" fill="#fff"/>' +
+    '<rect x="0" y="24.62" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
+    '<rect x="0" y="27.69" width="60" height="3.58" fill="#fff"/>' +
+    '<rect x="0" y="30.77" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
+    '<rect x="0" y="33.85" width="60" height="3.58" fill="#fff"/>' +
+    '<rect x="0" y="36.92" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
+    '<rect x="0" y="0" width="24" height="21.54" fill="var(--old-glory-blue)"/>' +
+    '<circle cx="12" cy="3.57" r="0.9" fill="#fff"/>' +
+    '<circle cx="15.35" cy="4.39" r="0.9" fill="#fff"/>' +
+    '<circle cx="17.93" cy="6.68" r="0.9" fill="#fff"/>' +
+    '<circle cx="19.15" cy="9.9" r="0.9" fill="#fff"/>' +
+    '<circle cx="18.73" cy="13.32" r="0.9" fill="#fff"/>' +
+    '<circle cx="16.77" cy="16.16" r="0.9" fill="#fff"/>' +
+    '<circle cx="13.72" cy="17.76" r="0.9" fill="#fff"/>' +
+    '<circle cx="10.28" cy="17.76" r="0.9" fill="#fff"/>' +
+    '<circle cx="7.23" cy="16.16" r="0.9" fill="#fff"/>' +
+    '<circle cx="5.27" cy="13.32" r="0.9" fill="#fff"/>' +
+    '<circle cx="4.85" cy="9.9" r="0.9" fill="#fff"/>' +
+    '<circle cx="6.07" cy="6.68" r="0.9" fill="#fff"/>' +
+    '<circle cx="8.65" cy="4.39" r="0.9" fill="#fff"/>' +
+    "</svg>";
+
+  function playFlagIntro() {
+    var reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var alreadyShown = true;
+    try {
+      alreadyShown = sessionStorage.getItem(INTRO_SESSION_KEY) === "1";
+    } catch (e) {
+      alreadyShown = true; // storage unavailable — skip the animation rather than risk repeating it forever
+    }
+    if (reducedMotion || alreadyShown) return; // toggle already renders normally, nothing else to do
+
+    toggle.classList.add("ai-teacher-toggle--pending");
+    var intro = document.createElement("div");
+    intro.className = "ai-teacher-intro";
+    intro.setAttribute("aria-hidden", "true"); // purely decorative; the real button carries the accessible label
+    intro.innerHTML = BETSY_ROSS_FLAG_SVG;
+    document.body.appendChild(intro);
+
+    var done = false;
+    function finish() {
+      if (done) return;
+      done = true;
+      clearTimeout(fallbackTimer);
+      intro.remove();
+      toggle.classList.remove("ai-teacher-toggle--pending");
+      try {
+        sessionStorage.setItem(INTRO_SESSION_KEY, "1");
+      } catch (e) { /* ignore — worst case the intro plays again next page */ }
+    }
+    // animationend is the normal path; the timeout is a safety net in
+    // case the animation never fires/completes for any reason, so the
+    // button is never stuck invisible.
+    var fallbackTimer = setTimeout(finish, INTRO_WAVE_MS + 200);
+    intro.querySelector(".ai-teacher-intro__flag").addEventListener("animationend", finish);
+  }
+  playFlagIntro();
+
   var ENDPOINT = scriptTag.getAttribute("data-ai-endpoint");
   var panel = document.querySelector("[data-ai-teacher-panel]");
   var closeBtn = document.querySelector("[data-ai-teacher-close]");

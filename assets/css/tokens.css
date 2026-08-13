@@ -28,11 +28,13 @@
   --gold-500: #c49a3f;
   --gold-300: #e4c887;
 
-  /* "Old Glory" red — the specific, authentic flag red, used for
-     structural accents (stripes, star motifs) distinct from the
-     burgundy brand accent used on buttons/links/eyebrows. */
+  /* "Old Glory" red/blue — the specific, authentic flag colors, used
+     for structural accents (stripes, star motifs, the Betsy Ross flag
+     intro animation) distinct from the burgundy brand accent used on
+     buttons/links/eyebrows. */
   --old-glory-red: #b22234;
   --old-glory-red-dim: #8f1c2a;
+  --old-glory-blue: #3c3b6e;
 
   --walnut-800: #3a2c22;
   --walnut-600: #5a4536;
@@ -71,6 +73,13 @@
 
   --color-focus-ring: var(--gold-600);
   --color-unavailable: var(--ink-500);
+
+  /* Tells the browser this page has an explicit light UI so native
+     controls (scrollbars, and — combined with the explicit select/
+     option colors in base.css — <select> dropdown popups) render with
+     a light chrome instead of guessing from the OS setting. Dark mode
+     repoints this to "dark" in dark-mode.css. */
+  color-scheme: light;
 
   /* Dedicated feedback colors for exercises — tuned for visibility at
      low tint percentages, independent of the brand accent colors. */

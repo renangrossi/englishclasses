@@ -135,3 +135,28 @@ hr.rule {
   background: var(--gold-300);
   color: var(--ink-900);
 }
+
+/* ---------------------------------------------------------------------
+   Native form controls — explicit theme-aware colors
+   `color-scheme` (tokens.css / dark-mode.css) gets the browser's own
+   dark chrome close, but isn't reliable enough on its own for a
+   <select>'s dropdown popup across browsers — some keep rendering the
+   open option list with a light/OS-default background regardless of
+   theme, which is exactly what made dark-mode selects (e.g. the
+   fill-blank/matching dropdowns in exercises.css) hard to read. Setting
+   colors explicitly on both the closed control and its <option>s fixes
+   that in every theme, using the same tokens as the rest of the page —
+   a component-specific class (like .blank-input) can still override
+   these, this is just the shared floor every select gets.
+   --------------------------------------------------------------------- */
+select {
+  font: inherit;
+  color: var(--color-text);
+  background-color: var(--color-surface);
+  border: var(--border-hairline);
+  border-radius: var(--radius-sm);
+}
+select option {
+  color: var(--color-text);
+  background-color: var(--color-surface);
+}

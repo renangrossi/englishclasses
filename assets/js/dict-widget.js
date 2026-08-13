@@ -148,6 +148,13 @@
       linksBox.innerHTML = "";
       return;
     }
+    // A real lookup attempt for a genuinely new word (not a repeat call
+    // for the word already in flight, e.g. Enter right after typing
+    // finishes) — see docs/gamification.md "sherlock" /
+    // "dictionary_power_user" badges.
+    if (word !== lastQuery && window.ProgressTracker && typeof window.ProgressTracker.recordDictionaryUse === "function") {
+      window.ProgressTracker.recordDictionaryUse();
+    }
     renderOutboundLinks(word);
     resultBox.innerHTML = '<p class="dict-widget__hint">Looking up &ldquo;' + escapeHtml(word) + '&rdquo;&hellip;</p>';
     lastQuery = word;

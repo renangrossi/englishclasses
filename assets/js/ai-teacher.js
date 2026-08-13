@@ -29,7 +29,8 @@
    * ai-teacher.css.
    * --------------------------------------------------------------- */
   var INTRO_SESSION_KEY = "aiTeacherIntroShown";
-  var INTRO_WAVE_MS = 1000; // must match the CSS animation-duration above
+  var INTRO_WAVE_MS = 2200; // must match the CSS animation-duration above
+  var INTRO_BURST_DELAY_MS = 1250; // when the sparkle burst starts, partway through the wave
   // 13-star Betsy Ross canton (evenly spaced ring, no center star) over
   // 13 alternating stripes — a small, self-contained decorative SVG, so
   // authentic flag colors are used directly rather than theme tokens
@@ -65,6 +66,29 @@
     '<circle cx="8.65" cy="4.39" r="0.9" fill="#fff"/>' +
     "</svg>";
 
+  // A small golden sparkle burst, timed to land partway through the
+  // flag's wave rather than at t=0. Reuses the exact .xp-burst /
+  // .xp-burst__spark classes and @keyframes the gamification toasts
+  // use (see components.css and progress.js's buildBurst()) for a
+  // consistent look — just with a later --delay/--glow-delay so it
+  // reads as "during the wave" instead of "the moment the flag appears."
+  // Only ever called from playFlagIntro(), which already skips the
+  // whole flag (and this burst with it) under prefers-reduced-motion.
+  function buildSparkleBurst() {
+    var burst = document.createElement("div");
+    burst.className = "xp-burst xp-burst--badge";
+    burst.style.setProperty("--glow-delay", INTRO_BURST_DELAY_MS + "ms");
+    var count = 12;
+    for (var i = 0; i < count; i++) {
+      var spark = document.createElement("span");
+      spark.className = "xp-burst__spark";
+      spark.style.setProperty("--angle", Math.round((360 / count) * i + (Math.random() * 20 - 10)) + "deg");
+      spark.style.setProperty("--delay", (INTRO_BURST_DELAY_MS + Math.round(Math.random() * 150)) + "ms");
+      burst.appendChild(spark);
+    }
+    return burst;
+  }
+
   function playFlagIntro() {
     var reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     var alreadyShown = true;
@@ -80,6 +104,7 @@
     intro.className = "ai-teacher-intro";
     intro.setAttribute("aria-hidden", "true"); // purely decorative; the real button carries the accessible label
     intro.innerHTML = BETSY_ROSS_FLAG_SVG;
+    intro.appendChild(buildSparkleBurst());
     document.body.appendChild(intro);
 
     var done = false;

@@ -71,6 +71,11 @@
     if (title.indexOf(q) !== -1) return 70;
     if (level === q) return 60;
     if (type.indexOf(q) !== -1) return 40;
+    // Optional curated synonyms/topics an entry doesn't otherwise
+    // mention by name in its title (e.g. Extras' "Mirage News Network"
+    // is findable via "AI" or "news", not just "mirage") — see
+    // assets/data/search-index.json's "keywords" arrays.
+    if ((entry.keywords || []).some(function (k) { return norm(k).indexOf(q) !== -1; })) return 35;
     if (desc.indexOf(q) !== -1) return 20;
     return 0;
   }

@@ -43,13 +43,16 @@ and reloads. It only goes back to hidden if progress is wiped, via
 {
   "version": 1,
   "xp": 0,
-  "streak": { "count": 0, "lastActiveDate": "YYYY-MM-DD" },
+  "streak": { "count": 0, "lastActiveDate": "YYYY-MM-DD", "brokenOnce": false },
   "badges": [],
   "exercises": {
     "exercise-id": { "bestCorrect": 0, "total": 0, "xpAwarded": true, "perfect": false }
   },
   "levelStats": { "A1": { "xp": 0, "exercisesDone": 0 }, "A2": {...}, ... },
-  "pagesCompleted": { "test-yourself:A1": true, "placement": true }
+  "pagesCompleted": { "test-yourself:A1": true, "placement": true },
+  "dictionaryUses": 0,
+  "topicsCompleted": { "A1:simple-present-i": { "name": "A1 · Simple Present I", "level": "A1", "awardedAt": "YYYY-MM-DD" } },
+  "timeFlags": { "nightOwl": true, "earlyBird": true }
 }
 ```
 
@@ -60,6 +63,24 @@ and reloads. It only goes back to hidden if progress is wiped, via
 - `pagesCompleted` tracks the one-off "finished the whole page" bonus
   for Test Yourself (`test-yourself:<LEVEL>`) and the Placement Test
   (`placement`) — see "How page-completion is detected" below.
+- `streak.brokenOnce` is set the first time a real gap (more than one
+  calendar day, and not the student's very first-ever activity) is
+  detected between sessions — see `touchStreak()`. It's never cleared
+  back to `false`, so the "comeback" badge (below) can fire the moment
+  the student does one more exercise after returning, any time after
+  the break.
+- `dictionaryUses` counts every real word lookup — see
+  `recordDictionaryUse()` under "Progress events" below.
+- `topicsCompleted` is a second, open-ended badge list — one entry per
+  fully-completed single-topic lesson page (see "Topic badges" below).
+  Kept separate from the fixed `BADGES` catalog on purpose, since new
+  lesson pages add new topics without any code change.
+- `timeFlags` records which time-of-day windows the student has ever
+  submitted a graded exercise in, set opportunistically in
+  `recordExerciseResult()` so the "night_owl"/"early_bird" badge
+  `check()` functions can stay pure functions of `state` (see
+  `touchTimeOfDayFlags()`) instead of reaching for `Date.now()`
+  themselves.
 - If the stored `version` doesn't match `SCHEMA_VERSION` in
   `progress.js`, the state resets rather than crashing on an
   incompatible shape. Bump `SCHEMA_VERSION` if you ever change the
@@ -120,6 +141,86 @@ level's real exercise count (see `explorerThreshold()`) — update
 exercises at a level, so the badge keeps meaning roughly the same
 amount of effort everywhere.
 
+### Current badge catalog (`BADGES` in `progress.js`)
+
+| id | Name | Unlocks when |
+|---|---|---|
+| `first_steps` | First Steps | Complete 1 exercise |
+| `perfectionist` | Perfectionist | Score 100% on 1 exercise |
+| `streak_3` / `streak_7` / `streak_14` / `streak_30` | N-Day Streak | Streak count reaches 3 / 7 / 14 / 30 |
+| `placement_done` | Know Your Level | Placement Test completed |
+| `comeback` | Comeback | `streak.brokenOnce` is true (a real gap happened, then another exercise was completed) |
+| `first_test_yourself` | Test Yourself, Tested | Any level's Test Yourself page fully completed, first time |
+| `xp_100` / `xp_250` / `xp_500` / `xp_1000` | N XP | Total XP reaches that milestone |
+| `no_hints_needed` | No Hints Needed | 5 different exercises scored 100% |
+| `sherlock` | Sherlock | First dictionary lookup (`dictionaryUses >= 1`) |
+| `dictionary_power_user` | Dictionary Power User | 10th dictionary lookup |
+| `polyglot` | Polyglot Path | At least 1 completed exercise at 3 different levels |
+| `night_owl` / `early_bird` | Night Owl / Early Bird | An exercise graded between 00:00–05:00 / 05:00–07:00 on the device's own clock |
+| `a1_explorer` … `c2_explorer` | `<LEVEL>` Explorer | ~30% of that level's exercises done (see `explorerThreshold()`) |
+
+Plus the open-ended **topic badges** (`state.topicsCompleted`), documented separately below — they aren't part of the `BADGES` array or the table above.
+
+## Topic badges (single-lesson completion)
+
+Separate from the fixed `BADGES` catalog: the first time a student
+completes *every* exercise on a single-topic lesson page — currently
+A1's 21 individual lesson pages (e.g. `levels/a1/simple-present-i.html`)
+are the only pages of this shape — `progress.js` records an entry in
+`state.topicsCompleted` and shows a "Topic complete: A1 · Simple
+Present I" toast, exactly like a regular badge unlock (longer duration,
+sparkle burst, all the same).
+
+This is deliberately **not** hand-maintained. `detectPageKind()` treats
+any URL matching `/levels/<code>/<slug>.html` (one nested segment) as a
+"topic" page — as opposed to a level overview page (`levels/a1.html`,
+no nested segment, which legitimately bundles many different topics on
+one page) or a Test Yourself / Placement page (matched first, before
+the topic check). When every `.exercise-block` on a topic page has been
+graded, `maybeCompleteTopic()`:
+
+1. Builds a stable id: `"<LEVEL>:<slug>"`, e.g. `"A1:simple-present-i"`
+   — `<LEVEL>` comes from the page's own `data-level-code` attribute
+   (the same one `exercises.js` already reads), `<slug>` is the
+   filename without `.html`.
+2. Skips if that id is already in `state.topicsCompleted` (never
+   awarded twice, same guard style as `pagesCompleted`).
+3. Turns the slug into a readable name via `slugToTitle()`
+   (`"simple-present-i"` → `"Simple Present I"`), prefixed with the
+   level (`"A1 · Simple Present I"`).
+
+**Adding a new lesson page that should earn a topic badge needs zero
+changes to `progress.js`** — as soon as it exists at
+`levels/<code>/<new-slug>.html` with its own `.exercise-block`s, this
+logic picks it up automatically. This is the `topic:A2:past-continuous`
+pattern the badge system is built around, in case a level other than
+A1 gets its own individual lesson pages later.
+
+Topic badges show as a compact "📘 N topics completed" line in the
+header panel, and as a full list on `progress.html`'s "Topics
+Completed" section (`#progress-topics`, rendered by `topicListHtml()`)
+— there's no fixed catalog to check them against, so unlike `BADGES`
+there's no "locked" placeholder state to render, only earned ones.
+
+## Progress events (public API calls other scripts make)
+
+Besides grading exercises, two other student actions feed the badge
+system:
+
+- **`recordDictionaryUse()`** — called from `assets/js/dictionary.js`
+  (every click on an outbound "Look up" link, and the Enter-key
+  shortcut) and `assets/js/dict-widget.js` (every real lookup attempt,
+  i.e. a non-empty query that's different from the one already in
+  flight — see the `word !== lastQuery` guard there). Increments
+  `state.dictionaryUses`, no XP or streak/daily-bonus touch — browsing
+  the dictionary isn't itself a graded practice activity, it just
+  feeds the `sherlock` / `dictionary_power_user` badges.
+- Time-of-day and level-count signals (`night_owl`/`early_bird`,
+  `polyglot`) don't need their own event — they're derived
+  opportunistically inside the existing `recordExerciseResult()` /
+  `levelStats` bookkeeping, see `touchTimeOfDayFlags()` and
+  `countLevelsWithActivity()`.
+
 ## How page-completion is detected (Test Yourself / Placement)
 
 There is no manual wiring per Test Yourself page. On load,
@@ -147,6 +248,7 @@ the page.
 ```js
 recordExerciseResult({ level, exerciseId, correct, total, perfect })
 recordTestProgress({ type: "test-yourself" | "placement", level })
+recordDictionaryUse()  // dictionary.js / dict-widget.js — see "Progress events" above
 getState()          // deep-cloned snapshot, safe to read/log
 resetProgress()      // wipes localStorage["rt_progress"]
 XP, BADGES, LEVELS   // read-only config, used by progress.html
@@ -196,6 +298,22 @@ was changed.
     Local Storage → find `rt_progress` → edit `streak.lastActiveDate`
     to yesterday's date → reload and complete one exercise → streak
     count should go up by 1.
+12. Open `dictionary.html`, type a word and click any "Look up" button
+    (or the floating dictionary widget on a level page and let it look
+    a word up) — confirm the **Sherlock** badge toast appears, and only
+    once (repeat lookups of the same word shouldn't re-trigger it, and
+    it should never be awarded twice even after 10+ different lookups).
+13. Open an A1 lesson page you haven't fully completed yet (e.g.
+    `levels/a1/have-has.html`) and submit every exercise block on it —
+    confirm a "Topic complete: A1 · Have / Has" toast appears once, and
+    `progress.html`'s "Topics Completed" section lists it. Retrying an
+    already-completed block afterwards must not re-award it.
+14. To test the streak-break/`brokenOnce`-driven badges: set
+    `streak.lastActiveDate` to 3+ days ago in DevTools, reload, and
+    complete one exercise — confirm the **Comeback** badge unlocks.
+15. Edit `xp` directly in DevTools to 100/250/500/1000 and reload (or
+    just keep completing exercises) to confirm each XP-milestone badge
+    fires at the right threshold, not before.
 
 ## Phase 2 (optional — not implemented yet)
 

@@ -40,10 +40,13 @@
    see ai-teacher.js), the AI Teacher button starts hidden
    (.ai-teacher-toggle--pending) while a small Betsy Ross flag —
    13 stars in a ring on the canton, 13 stripes — waves in its place
-   for ~1s, then the flag is removed and the real button fades/scales
-   in. Skipped entirely under prefers-reduced-motion or once the
-   session flag is set, in which case the button just renders normally
-   with no extra markup or delay.
+   for ~2.2s (INTRO_WAVE_MS in ai-teacher.js — keep the two in sync),
+   with a golden sparkle burst (reuses .xp-burst/.xp-burst__spark from
+   the gamification toasts, see components.css) partway through the
+   wave, then the flag is removed and the real button fades/scales in.
+   Skipped entirely under prefers-reduced-motion or once the session
+   flag is set, in which case the button just renders normally with no
+   extra markup or delay.
    --------------------------------------------------------------------- */
 .ai-teacher-toggle--pending {
   opacity: 0;
@@ -65,16 +68,19 @@
   height: auto;
   transform-origin: 2% 50%;
   filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.35));
-  animation: ai-flag-wave 1s ease-in-out 1 both;
+  animation: ai-flag-wave 2.2s ease-in-out 1 both;
 }
 @keyframes ai-flag-wave {
   0%   { transform: perspective(140px) rotateY(0deg) skewY(0deg) scale(0.9); opacity: 0; }
-  10%  { opacity: 1; }
-  20%  { transform: perspective(140px) rotateY(-14deg) skewY(3deg) scale(1); }
-  38%  { transform: perspective(140px) rotateY(10deg) skewY(-2.5deg) scale(1); }
-  56%  { transform: perspective(140px) rotateY(-7deg) skewY(1.8deg) scale(1); }
+  6%   { opacity: 1; }
+  14%  { transform: perspective(140px) rotateY(-14deg) skewY(3deg) scale(1); }
+  26%  { transform: perspective(140px) rotateY(10deg) skewY(-2.5deg) scale(1); }
+  38%  { transform: perspective(140px) rotateY(-11deg) skewY(2.6deg) scale(1); }
+  50%  { transform: perspective(140px) rotateY(8deg) skewY(-2deg) scale(1); }
+  62%  { transform: perspective(140px) rotateY(-7deg) skewY(1.8deg) scale(1); }
   74%  { transform: perspective(140px) rotateY(4deg) skewY(-1deg) scale(1); }
-  90%  { transform: perspective(140px) rotateY(-1.5deg) skewY(0.4deg) scale(1); }
+  86%  { transform: perspective(140px) rotateY(-2deg) skewY(0.6deg) scale(1); }
+  95%  { transform: perspective(140px) rotateY(0.8deg) skewY(-0.2deg) scale(1); }
   100% { transform: perspective(140px) rotateY(0deg) skewY(0deg) scale(1); opacity: 1; }
 }
 @media (max-width: 480px) {

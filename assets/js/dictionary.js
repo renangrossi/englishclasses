@@ -35,7 +35,19 @@
       var primaryLinks = document.querySelectorAll(".card--feature.dict-card [data-dict-link]");
       if (!primaryLinks.length) return;
       var pick = primaryLinks[Math.floor(Math.random() * primaryLinks.length)];
+      recordDictionaryUse();
       window.open(pick.href, "_blank", "noopener");
     }
+  });
+
+  // Any outbound "Look up" click is a real dictionary use — see
+  // docs/gamification.md "sherlock" / "dictionary_power_user" badges.
+  function recordDictionaryUse() {
+    if (window.ProgressTracker && typeof window.ProgressTracker.recordDictionaryUse === "function") {
+      window.ProgressTracker.recordDictionaryUse();
+    }
+  }
+  document.querySelectorAll(".dict-card[data-url-template] [data-dict-link]").forEach(function (link) {
+    link.addEventListener("click", recordDictionaryUse);
   });
 })();

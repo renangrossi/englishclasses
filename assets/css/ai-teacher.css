@@ -87,13 +87,43 @@
   .ai-teacher-intro { left: var(--space-sm); bottom: var(--space-sm); }
 }
 
+/* Panel geometry — kept fully on-screen at any viewport size via two
+   shared custom properties rather than hard-coded numbers baked into
+   both `bottom` and `max-height` separately:
+   --ai-panel-bottom-gap: distance reserved below the panel (clears the
+     launcher button); --ai-panel-top-gap: matching margin reserved
+     above it. max-height is *derived* from those two gaps plus the
+     viewport height, so the panel can never compute a height that
+     pushes its top off-screen — it always leaves --ai-panel-top-gap of
+     breathing room, on any phone, not just the ~375-414px range this
+     was eyeballed against. env(safe-area-inset-*) keeps both gaps
+     clear of notches/home-indicators on devices that report them.
+   --ai-kb-offset defaults to 0px and is written by ai-teacher.js (via
+   the VisualViewport API) once the on-screen keyboard opens — iOS
+   Safari doesn't shrink 100vh/100dvh for the keyboard the way it does
+   for browser-chrome changes, so a fixed-position panel needs that JS
+   nudge to stay above the keyboard instead of being covered by it.
+   --ai-panel-top-gap includes --header-height, not just breathing
+   room: .site-header is sticky with a higher z-index (1000 vs. this
+   panel's 901), so on short viewports letting the panel's max-height
+   grow into that band would tuck the panel's own bar — brand label
+   *and* its close button — behind the site header, leaving no visible
+   way to close it. */
 .ai-teacher-panel {
+  --ai-panel-bottom-gap: calc(var(--space-md) + 64px);
+  --ai-panel-top-gap: calc(var(--header-height) + var(--space-sm));
   position: fixed;
   left: var(--space-md);
-  bottom: calc(var(--space-md) + 64px);
+  bottom: calc(var(--ai-panel-bottom-gap) + env(safe-area-inset-bottom, 0px) + var(--ai-kb-offset, 0px));
   z-index: 901;
   width: min(380px, calc(100vw - 2 * var(--space-md)));
-  max-height: min(560px, 70vh);
+  max-width: calc(100vw - 2 * var(--space-md));
+  /* vh fallback first for browsers without dvh support (invalid dvh
+     value leaves this earlier declaration in place); dvh afterwards
+     tracks the browser's dynamic toolbar so the cap doesn't leave a
+     stale gap once the address bar collapses on scroll. */
+  max-height: min(560px, calc(100vh - var(--ai-panel-bottom-gap) - var(--ai-panel-top-gap) - env(safe-area-inset-bottom, 0px) - env(safe-area-inset-top, 0px) - var(--ai-kb-offset, 0px)));
+  max-height: min(560px, calc(100dvh - var(--ai-panel-bottom-gap) - var(--ai-panel-top-gap) - env(safe-area-inset-bottom, 0px) - env(safe-area-inset-top, 0px) - var(--ai-kb-offset, 0px)));
   display: flex;
   flex-direction: column;
   background: var(--color-surface-raised);
@@ -217,6 +247,16 @@
 }
 
 @media (max-width: 480px) {
-  .ai-teacher-panel { left: var(--space-sm); right: var(--space-sm); width: auto; bottom: calc(var(--space-sm) + 60px); }
+  .ai-teacher-panel {
+    left: var(--space-sm);
+    right: var(--space-sm);
+    width: auto;
+    max-width: none;
+    /* Redeclaring the two gap variables is enough — `bottom` and both
+       `max-height` rules above read from them, so the on-screen
+       geometry stays consistent without repeating the calc() here. */
+    --ai-panel-bottom-gap: calc(var(--space-sm) + 60px);
+    --ai-panel-top-gap: calc(var(--header-height) + var(--space-2xs));
+  }
   .ai-teacher-toggle { left: var(--space-sm); bottom: var(--space-sm); }
 }

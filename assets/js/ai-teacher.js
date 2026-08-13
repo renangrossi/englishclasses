@@ -198,6 +198,41 @@
   });
   panel.addEventListener("click", function (e) { e.stopPropagation(); });
 
+  // Keep the panel clear of the on-screen keyboard on mobile.
+  // 100vh/100dvh (see ai-teacher.css) already keep the panel inside
+  // the *layout* viewport, but iOS Safari doesn't shrink either unit
+  // when a software keyboard opens — only `window.visualViewport`
+  // reflects that. Without this, the panel (positioned via `bottom`
+  // against the unchanged layout viewport) stays put while the
+  // keyboard slides up over it, burying the input/send row exactly
+  // as described in the "keyboard shouldn't push the panel off-screen"
+  // requirement. When supported, we measure how much of the layout
+  // viewport the keyboard is covering and feed that back in as
+  // `--ai-kb-offset`, which ai-teacher.css's `bottom`/`max-height`
+  // both already read from — so the whole panel (not just the input)
+  // rises above the keyboard, keeping messages, input and send all
+  // reachable. No-op (offset stays 0) on desktop and on browsers
+  // without VisualViewport support, where the existing CSS is enough.
+  if (window.visualViewport) {
+    var vv = window.visualViewport;
+    var syncKeyboardOffset = function () {
+      if (panel.hidden) return;
+      var covered = window.innerHeight - vv.height - vv.offsetTop;
+      panel.style.setProperty("--ai-kb-offset", Math.max(0, Math.round(covered)) + "px");
+    };
+    vv.addEventListener("resize", syncKeyboardOffset);
+    vv.addEventListener("scroll", syncKeyboardOffset);
+    input.addEventListener("focus", function () {
+      // The keyboard animates in, so the viewport doesn't reach its
+      // final size until a beat after focus fires.
+      setTimeout(syncKeyboardOffset, 50);
+      setTimeout(syncKeyboardOffset, 350);
+    });
+    input.addEventListener("blur", function () {
+      setTimeout(syncKeyboardOffset, 50);
+    });
+  }
+
   function escapeHtml(s) {
     var d = document.createElement("div");
     d.textContent = String(s || "");

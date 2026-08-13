@@ -41,12 +41,17 @@
    (.ai-teacher-toggle--pending) while a small Betsy Ross flag —
    13 stars in a ring on the canton, 13 stripes — waves in its place
    for ~2.2s (INTRO_WAVE_MS in ai-teacher.js — keep the two in sync),
-   with a golden sparkle burst (reuses .xp-burst/.xp-burst__spark from
-   the gamification toasts, see components.css) partway through the
-   wave, then the flag is removed and the real button fades/scales in.
-   Skipped entirely under prefers-reduced-motion or once the session
-   flag is set, in which case the button just renders normally with no
-   extra markup or delay.
+   with a golden sparkle burst on the flag itself (reuses
+   .xp-burst/.xp-burst__spark from the gamification toasts, see
+   components.css) partway through the wave, PLUS several more of the
+   same bursts scattered at random points around the flag/button corner
+   (.ai-teacher-fireworks / .ai-teacher-fireworks__spot below — see
+   buildScatteredFireworks() in ai-teacher.js), so the moment reads as
+   fireworks around that whole area rather than one fixed sparkle. Then
+   the flag is removed and the real button fades/scales in. Skipped
+   entirely under prefers-reduced-motion or once the session flag is
+   set, in which case the button just renders normally with no extra
+   markup or delay.
    --------------------------------------------------------------------- */
 .ai-teacher-toggle--pending {
   opacity: 0;
@@ -85,6 +90,30 @@
 }
 @media (max-width: 480px) {
   .ai-teacher-intro { left: var(--space-sm); bottom: var(--space-sm); }
+}
+
+/* Scattered fireworks zone — a fixed, invisible box hugging the same
+   corner as .ai-teacher-intro/.ai-teacher-toggle (deliberately bigger
+   than the flag itself, since "the general AI Teacher area" includes
+   the button it un-hides into). buildScatteredFireworks() drops a
+   handful of .ai-teacher-fireworks__spot points at random positions
+   inside it, each hosting its own small .xp-burst — see the JS for
+   why. The zone itself is never visible or interactive. */
+.ai-teacher-fireworks {
+  position: fixed;
+  left: var(--space-md);
+  bottom: var(--space-md);
+  width: 170px;
+  height: 130px;
+  z-index: 899;
+  pointer-events: none;
+}
+@media (max-width: 480px) {
+  .ai-teacher-fireworks { left: var(--space-sm); bottom: var(--space-sm); }
+}
+.ai-teacher-fireworks__spot {
+  position: absolute;
+  /* left/top set inline, per spot, to a random % within the zone. */
 }
 
 /* Panel geometry — kept fully on-screen at any viewport size via two

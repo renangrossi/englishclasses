@@ -89,6 +89,51 @@
     return burst;
   }
 
+  // A handful of extra sparkle bursts at random points scattered around
+  // the flag/button corner — not just the one centered on the flag
+  // (buildSparkleBurst() above). Each "spot" is its own tiny anchor
+  // positioned at a random spot inside .ai-teacher-fireworks (which
+  // itself just hugs the same corner as the flag/button, see
+  // ai-teacher.css), reusing .xp-burst/.xp-burst__spark so every burst
+  // — centered or scattered — looks identical, just relocated and
+  // independently timed. Delays are spread across (and a little past)
+  // the flag's wave so the fireworks read as happening *during* the
+  // moment, not all at once. Only ever called from playFlagIntro(),
+  // which already skips this entirely under prefers-reduced-motion.
+  function buildScatteredFireworks() {
+    var host = document.createElement("div");
+    host.className = "ai-teacher-fireworks";
+    host.setAttribute("aria-hidden", "true");
+    var SPOTS = 4;
+    for (var i = 0; i < SPOTS; i++) {
+      var spot = document.createElement("div");
+      spot.className = "ai-teacher-fireworks__spot";
+      // Random point well inside the zone (10-90%) so a burst's sparks
+      // don't get clipped right at the edge.
+      spot.style.left = Math.round(10 + Math.random() * 80) + "%";
+      spot.style.top = Math.round(10 + Math.random() * 80) + "%";
+
+      var delay = INTRO_BURST_DELAY_MS + Math.round(Math.random() * 700);
+      var burst = document.createElement("div");
+      burst.className = "xp-burst xp-burst--badge";
+      burst.style.setProperty("--glow-delay", delay + "ms");
+      // Fewer sparks per scattered burst than the single on-flag one
+      // (buildSparkleBurst() uses 12) — several small pops read better
+      // than several big ones at this scale.
+      var sparkCount = 5 + Math.floor(Math.random() * 3);
+      for (var j = 0; j < sparkCount; j++) {
+        var spark = document.createElement("span");
+        spark.className = "xp-burst__spark";
+        spark.style.setProperty("--angle", Math.round((360 / sparkCount) * j + (Math.random() * 30 - 15)) + "deg");
+        spark.style.setProperty("--delay", (delay + Math.round(Math.random() * 120)) + "ms");
+        burst.appendChild(spark);
+      }
+      spot.appendChild(burst);
+      host.appendChild(spot);
+    }
+    return host;
+  }
+
   function playFlagIntro() {
     var reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     var alreadyShown = true;
@@ -105,6 +150,11 @@
     intro.setAttribute("aria-hidden", "true"); // purely decorative; the real button carries the accessible label
     intro.innerHTML = BETSY_ROSS_FLAG_SVG;
     intro.appendChild(buildSparkleBurst());
+    // .ai-teacher-fireworks is itself position:fixed (see ai-teacher.css),
+    // so nesting it inside `intro` is just for lifecycle convenience —
+    // one `intro.remove()` in finish() below clears both together —
+    // it isn't laid out relative to the flag's own small inline box.
+    intro.appendChild(buildScatteredFireworks());
     document.body.appendChild(intro);
 
     var done = false;

@@ -110,7 +110,12 @@
   text-align: center;
   color: var(--color-text);
 }
-.blank-input:focus-visible { background: var(--parchment-300); }
+/* Was hard-coded to --parchment-300 (light tan), which stayed light in
+   dark mode too — combined with --color-text going light-on-dark, that
+   made a focused blank/dropdown nearly unreadable (light text on a
+   light highlight). --color-surface-raised gives the same "lifted"
+   highlight feel while tracking the active theme. */
+.blank-input:focus-visible { background: var(--color-surface-raised); }
 .blank-input.is-correct { border-bottom-color: var(--color-success); background: var(--color-success-bg); }
 .blank-input.is-incorrect { border-bottom-color: var(--color-danger); background: var(--color-danger-bg); text-decoration: line-through; text-decoration-color: var(--color-danger); }
 select.blank-input { cursor: pointer; padding-right: 1.4em; }

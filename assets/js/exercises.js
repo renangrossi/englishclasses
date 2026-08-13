@@ -247,9 +247,15 @@
     var body = el("div", { class: "item-feedback__body" });
     var strong = el("strong");
     body.appendChild(strong);
-    if (explanation) body.appendChild(el("span", { text: explanation }));
+    var explanationEl = null;
+    if (explanation) {
+      explanationEl = el("span", { text: explanation });
+      body.appendChild(explanationEl);
+    }
     fb.appendChild(body);
-    return { node: fb, strongEl: strong, body: body };
+    // explanationEl is kept so setFeedback() can insert "Correct answer: …"
+    // right before it — the answer should always lead, then the reason why.
+    return { node: fb, strongEl: strong, body: body, explanationEl: explanationEl };
   }
 
   function setFeedback(fbRef, correct, correctAnswerText, iconWrap) {
@@ -262,7 +268,12 @@
     if (!correct && correctAnswerText) {
       var existing = fbRef.body.querySelector(".correct-answer");
       if (!existing) {
-        fbRef.body.appendChild(el("div", { class: "correct-answer", html: "<em>Correct answer:</em> " + correctAnswerText }));
+        var correctAnswerEl = el("div", { class: "correct-answer", html: "<em>Correct answer:</em> " + correctAnswerText });
+        // The correct form must come before the explanation of why, not
+        // after it — insert ahead of the (already-appended) explanation
+        // span rather than appending, which used to put it last.
+        if (fbRef.explanationEl) fbRef.body.insertBefore(correctAnswerEl, fbRef.explanationEl);
+        else fbRef.body.appendChild(correctAnswerEl);
       }
     }
   }

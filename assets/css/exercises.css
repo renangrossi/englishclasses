@@ -218,6 +218,10 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
 .item-feedback.is-correct svg { color: var(--color-success); }
 .item-feedback.is-incorrect svg { color: var(--color-danger); }
 .item-feedback__body strong { display: block; margin-bottom: 0.2em; }
+/* The correct form leads the feedback body (see setFeedback() in
+   exercises.js), so it gets a touch more weight than the explanation
+   sentence that follows it. */
+.item-feedback__body .correct-answer { display: block; margin-bottom: 0.2em; font-weight: 600; }
 
 /* Actions row */
 .exercise-actions {

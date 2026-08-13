@@ -11,15 +11,26 @@ on GitHub Pages with no backend at all.
   dark-mode buttons) showing the current streak and total XP. Clicking
   it opens a small panel with per-level progress bars and a badge grid.
 - A "+10 XP" toast in the top-right corner right after submitting an
-  exercise, and a bigger "Badge unlocked" toast when one is earned —
-  each stays up for `TOAST_VISIBLE_MS` (~7.2s, 3x the original ~2.4s)
-  before fading out over `TOAST_EXIT_MS` (350ms), both defined near the
-  top of `progress.js`. Clicking/tapping a toast dismisses it early.
-  Unless the browser has `prefers-reduced-motion: reduce` set, a short
-  gold/amber sparkle burst (`.xp-burst`, styled in `components.css`)
-  plays behind/around the toast — bigger for a badge unlock than a
-  plain XP gain. Under reduced motion, the burst is skipped entirely
-  but the longer toast duration still applies.
+  exercise, and a bigger "`<Badge name>` unlocked · +N XP" toast when a
+  badge is earned (every badge grants some bonus XP the moment it first
+  unlocks — see "Badge XP" below) — each stays up for `TOAST_VISIBLE_MS`
+  (~7.2s, 3x the original ~2.4s) before fading out over `TOAST_EXIT_MS`
+  (350ms), both defined near the top of `progress.js`. Clicking/tapping
+  a toast dismisses it early. Unless the browser has
+  `prefers-reduced-motion: reduce` set, a short gold/amber sparkle burst
+  (`.xp-burst`, styled in `components.css`) plays behind/around the
+  toast — bigger for a badge unlock than a plain XP gain. Under reduced
+  motion, the burst is skipped entirely but the longer toast duration
+  still applies.
+- If a badge or XP toast would fire while the tab is in the background
+  (`document.visibilityState !== "visible"`) — the badge itself is
+  still awarded and saved immediately, but the toast/sparkle animation
+  is held back rather than playing unseen (and possibly getting
+  throttled/cut short by the browser's background-timer clamp). The
+  moment the student switches back to the tab, every held toast plays
+  in order, spaced ~0.7s apart (`VISIBILITY_QUEUE_GAP_MS` in
+  `progress.js`) instead of all stacking at once. See "Backgrounded-tab
+  toast queue" below.
 - `progress.html` — a full page with the same information at a larger
   size, plus a "Reset my progress on this device" button.
 
@@ -90,6 +101,27 @@ Clearing site data/cookies for the domain, using a different browser,
 or a different device all start fresh — that's expected for Phase 1
 (see "Phase 2" below for the plan to change this).
 
+## Backgrounded-tab toast queue
+
+`document.visibilityState` is checked every time `flushUI()` is about
+to pop a toast (`isPageVisible()` in `progress.js`):
+
+- **Tab visible** (the normal case): toasts show immediately, staggered
+  ~260ms apart if more than one fired from the same action — unchanged
+  from before.
+- **Tab hidden/backgrounded**: the badge/XP is still recorded and
+  written to `localStorage` right away (state never waits on the UI),
+  but the toast + sparkle burst are pushed onto `visibilityQueue`
+  instead of being shown. A single `visibilitychange` listener drains
+  that queue — in the order things were actually earned, one every
+  `VISIBILITY_QUEUE_GAP_MS` (~700ms) — the moment the student switches
+  back to the tab, so several badges earned while away play as a short
+  sequence rather than all stacking on top of each other at once.
+
+This only affects *when* the toast animates in, never whether XP/badges
+are granted or how much — those are identical regardless of tab
+visibility.
+
 ## How to change XP values
 
 Edit the `XP` object near the top of `assets/js/progress.js`:
@@ -107,6 +139,56 @@ var XP = {
 Change a number, save, redeploy — no other file needs to change.
 Setting `dailyBonus` to `0` disables the daily-login bonus entirely
 while streak counting keeps working exactly as before.
+
+## Badge XP
+
+Every badge grants a small, one-time XP bonus the instant it first
+unlocks — on top of whatever XP its underlying activity already paid
+out (an "`<LEVEL>` Explorer" badge, for example, is a bonus stacked on
+top of the per-exercise XP each of those exercises already earned on
+its own). This is tuned in one place, `BADGE_XP` near the top of
+`assets/js/progress.js`, right next to `XP`:
+
+```js
+var BADGE_XP_DEFAULT = 10;
+var BADGE_XP = {
+  first_steps: 10,
+  perfectionist: 10,
+  streak_3: 10, streak_7: 15, streak_14: 20, streak_30: 30,
+  placement_done: 15,
+  comeback: 15,
+  first_test_yourself: 15,
+  xp_100: 10, xp_250: 15, xp_500: 20, xp_1000: 25,
+  no_hints_needed: 15,
+  sherlock: 15,
+  dictionary_power_user: 15,
+  polyglot: 25,
+  night_owl: 10,
+  early_bird: 10,
+  topic_complete: 20, // not a BADGES entry — see "Topic badges" below
+};
+// a1_explorer … c2_explorer: 20 each, added automatically for every LEVELS entry
+```
+
+- `badgeXp(id)` is what actually reads this — any badge id *not* listed
+  here falls back to `BADGE_XP_DEFAULT` (10), so a newly added badge
+  (see "How to add a badge" below) still grants something even if you
+  forget to give it its own entry, rather than silently awarding 0.
+- Granted exactly once, by `grantBadgeXp()`, inside the same
+  `state.badges.indexOf(b.id) !== -1` guard `evaluateBadges()` already
+  uses to decide a badge is newly earned — so this can no more
+  double-award than the badge itself can double-unlock (reload, retry,
+  anything): once `b.id` is in `state.badges`, `evaluateBadges()` skips
+  that badge for good on every future call.
+- Shown in the badge's own unlock toast rather than a separate XP
+  toast — `"<Badge name> unlocked · +N XP"` — so one event reads as one
+  moment, e.g. `"Sherlock unlocked · +15 XP"`.
+- XP-milestone badges (`xp_100`/`xp_250`/`xp_500`/`xp_1000`) are mostly
+  recognition of XP the student already has, but still carry a small
+  bonus on top rather than 0, per design intent.
+- Topic completion (`topic_complete`, `maybeCompleteTopic()`) isn't a
+  `BADGES` entry, but reads its bonus from this same `BADGE_XP` object
+  for consistency — see "Topic badges" below.
 
 ## How to add a badge
 
@@ -128,6 +210,12 @@ Add one object to the `BADGES` array in `assets/js/progress.js`:
 }
 ```
 
+Also add a `unique_id: <amount>` entry to `BADGE_XP` (see "Badge XP"
+above) if the default 10 XP bonus isn't right for it — not strictly
+required (badges missing an entry still grant `BADGE_XP_DEFAULT`), but
+worth setting deliberately for anything that should feel bigger or
+smaller than a default badge.
+
 Badges are checked after every XP-earning action; a badge is only
 ever added to `state.badges` once `check()` first returns true, and
 never removed automatically. There's no separate "badge config file"
@@ -139,27 +227,29 @@ The six `<level>_explorer` badges are generated automatically from the
 level's real exercise count (see `explorerThreshold()`) — update
 `LEVEL_EXERCISE_COUNTS` if you add or remove a significant number of
 exercises at a level, so the badge keeps meaning roughly the same
-amount of effort everywhere.
+amount of effort everywhere. Their `BADGE_XP` entries (`a1_explorer` …
+`c2_explorer`) are generated the same way, right after `LEVELS` is
+defined.
 
 ### Current badge catalog (`BADGES` in `progress.js`)
 
-| id | Name | Unlocks when |
-|---|---|---|
-| `first_steps` | First Steps | Complete 1 exercise |
-| `perfectionist` | Perfectionist | Score 100% on 1 exercise |
-| `streak_3` / `streak_7` / `streak_14` / `streak_30` | N-Day Streak | Streak count reaches 3 / 7 / 14 / 30 |
-| `placement_done` | Know Your Level | Placement Test completed |
-| `comeback` | Comeback | `streak.brokenOnce` is true (a real gap happened, then another exercise was completed) |
-| `first_test_yourself` | Test Yourself, Tested | Any level's Test Yourself page fully completed, first time |
-| `xp_100` / `xp_250` / `xp_500` / `xp_1000` | N XP | Total XP reaches that milestone |
-| `no_hints_needed` | No Hints Needed | 5 different exercises scored 100% |
-| `sherlock` | Sherlock | First dictionary lookup (`dictionaryUses >= 1`) |
-| `dictionary_power_user` | Dictionary Power User | 10th dictionary lookup |
-| `polyglot` | Polyglot Path | At least 1 completed exercise at 3 different levels |
-| `night_owl` / `early_bird` | Night Owl / Early Bird | An exercise graded between 00:00–05:00 / 05:00–07:00 on the device's own clock |
-| `a1_explorer` … `c2_explorer` | `<LEVEL>` Explorer | ~30% of that level's exercises done (see `explorerThreshold()`) |
+| id | Name | Unlocks when | Badge XP |
+|---|---|---|---|
+| `first_steps` | First Steps | Complete 1 exercise | +10 |
+| `perfectionist` | Perfectionist | Score 100% on 1 exercise | +10 |
+| `streak_3` / `streak_7` / `streak_14` / `streak_30` | N-Day Streak | Streak count reaches 3 / 7 / 14 / 30 | +10 / +15 / +20 / +30 |
+| `placement_done` | Know Your Level | Placement Test completed | +15 |
+| `comeback` | Comeback | `streak.brokenOnce` is true (a real gap happened, then another exercise was completed) | +15 |
+| `first_test_yourself` | Test Yourself, Tested | Any level's Test Yourself page fully completed, first time | +15 |
+| `xp_100` / `xp_250` / `xp_500` / `xp_1000` | N XP | Total XP reaches that milestone | +10 / +15 / +20 / +25 |
+| `no_hints_needed` | No Hints Needed | 5 different exercises scored 100% | +15 |
+| `sherlock` | Sherlock | First dictionary lookup (`dictionaryUses >= 1`) | +15 |
+| `dictionary_power_user` | Dictionary Power User | 10th dictionary lookup | +15 |
+| `polyglot` | Polyglot Path | At least 1 completed **exercise** at 3 different levels — `countLevelsWithActivity(state) >= 3`, i.e. `state.levelStats[level].exercisesDone > 0` on 3+ levels. **Not** related to `dictionaryUses` in any way, so dictionary lookups alone (any number, on any number of pages) never unlock this — only graded exercise activity across levels does. | +25 |
+| `night_owl` / `early_bird` | Night Owl / Early Bird | An exercise graded between 00:00–05:00 / 05:00–07:00 on the device's own clock | +10 |
+| `a1_explorer` … `c2_explorer` | `<LEVEL>` Explorer | ~30% of that level's exercises done (see `explorerThreshold()`) | +20 |
 
-Plus the open-ended **topic badges** (`state.topicsCompleted`), documented separately below — they aren't part of the `BADGES` array or the table above.
+Plus the open-ended **topic badges** (`state.topicsCompleted`), documented separately below — they aren't part of the `BADGES` array or the table above, but do share the `topic_complete: 20` XP entry in the same `BADGE_XP` object.
 
 ## Topic badges (single-lesson completion)
 
@@ -167,9 +257,10 @@ Separate from the fixed `BADGES` catalog: the first time a student
 completes *every* exercise on a single-topic lesson page — currently
 A1's 21 individual lesson pages (e.g. `levels/a1/simple-present-i.html`)
 are the only pages of this shape — `progress.js` records an entry in
-`state.topicsCompleted` and shows a "Topic complete: A1 · Simple
-Present I" toast, exactly like a regular badge unlock (longer duration,
-sparkle burst, all the same).
+`state.topicsCompleted`, grants the `topic_complete` XP bonus (+20 by
+default, see "Badge XP" above), and shows a "Topic complete: A1 ·
+Simple Present I · +20 XP" toast, exactly like a regular badge unlock
+(longer duration, sparkle burst, all the same).
 
 This is deliberately **not** hand-maintained. `detectPageKind()` treats
 any URL matching `/levels/<code>/<slug>.html` (one nested segment) as a
@@ -184,7 +275,9 @@ graded, `maybeCompleteTopic()`:
    (the same one `exercises.js` already reads), `<slug>` is the
    filename without `.html`.
 2. Skips if that id is already in `state.topicsCompleted` (never
-   awarded twice, same guard style as `pagesCompleted`).
+   awarded twice, same guard style as `pagesCompleted` — this is also
+   what stops the XP bonus from being granted more than once per
+   topic).
 3. Turns the slug into a readable name via `slugToTitle()`
    (`"simple-present-i"` → `"Simple Present I"`), prefixed with the
    level (`"A1 · Simple Present I"`).
@@ -300,20 +393,41 @@ was changed.
     count should go up by 1.
 12. Open `dictionary.html`, type a word and click any "Look up" button
     (or the floating dictionary widget on a level page and let it look
-    a word up) — confirm the **Sherlock** badge toast appears, and only
-    once (repeat lookups of the same word shouldn't re-trigger it, and
-    it should never be awarded twice even after 10+ different lookups).
-13. Open an A1 lesson page you haven't fully completed yet (e.g.
+    a word up) — confirm a "Sherlock unlocked · +15 XP" badge toast
+    appears, and only once (repeat lookups of the same word shouldn't
+    re-trigger it, and it should never be awarded twice even after 10+
+    different lookups). On a state with **only** dictionary lookups and
+    no completed exercises, open the panel/`progress.html` and confirm
+    **Polyglot Path** is still locked, no matter how many words were
+    looked up — it only reacts to `state.levelStats`, which dictionary
+    use never touches.
+13. From that same dictionary-only state, complete one exercise each
+    on 3 different levels (e.g. one block on an A1 page, one on a B1
+    page, one on a C1 page) — confirm **Polyglot Path** unlocks with a
+    "Polyglot Path unlocked · +25 XP" toast the moment the third
+    level's first exercise is graded, not before.
+14. Open an A1 lesson page you haven't fully completed yet (e.g.
     `levels/a1/have-has.html`) and submit every exercise block on it —
-    confirm a "Topic complete: A1 · Have / Has" toast appears once, and
-    `progress.html`'s "Topics Completed" section lists it. Retrying an
-    already-completed block afterwards must not re-award it.
-14. To test the streak-break/`brokenOnce`-driven badges: set
+    confirm a "Topic complete: A1 · Have / Has · +20 XP" toast appears
+    once, and `progress.html`'s "Topics Completed" section lists it.
+    Retrying an already-completed block afterwards must not re-award it.
+15. To test the streak-break/`brokenOnce`-driven badges: set
     `streak.lastActiveDate` to 3+ days ago in DevTools, reload, and
     complete one exercise — confirm the **Comeback** badge unlocks.
-15. Edit `xp` directly in DevTools to 100/250/500/1000 and reload (or
+16. Edit `xp` directly in DevTools to 100/250/500/1000 and reload (or
     just keep completing exercises) to confirm each XP-milestone badge
     fires at the right threshold, not before.
+17. Reload the page a few times after earning several badges and
+    confirm no badge toast reappears and `xp` doesn't creep upward on
+    its own — badge XP, like exercise XP, is only ever granted the
+    moment a badge is first added to `state.badges`.
+18. Switch to another browser tab (or minimize the window) so
+    `document.visibilityState` is `"hidden"`, then in DevTools' console
+    on the original tab call `window.ProgressTracker.recordDictionaryUse()`
+    ten times in a row to earn **Sherlock** and **Dictionary Power
+    User** while backgrounded — no toast should appear yet. Switch back
+    to the tab and confirm both toasts play in order, a beat apart,
+    rather than being missed or stacking instantly.
 
 ## Phase 2 (optional — not implemented yet)
 

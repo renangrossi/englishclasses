@@ -75,6 +75,52 @@
   }
 
   /* ------------------------------------------------------------- *
+   * Badge XP — the single place to tune how much bonus XP each badge
+   * grants the moment it first unlocks, on top of whatever XP the
+   * badge's underlying activity already earned (e.g. an "<LEVEL>
+   * Explorer" badge is a bonus for exercises that already paid out
+   * XP.exercise/XP.perfectBonus each — this is separate, additional
+   * XP for the milestone itself). Every id in BADGES should have an
+   * entry here; badgeXp() falls back to BADGE_XP_DEFAULT for any that
+   * don't, so a new badge added without remembering its XP still
+   * grants something instead of silently awarding 0. See
+   * docs/gamification.md "Badge XP" for the full table.
+   * ------------------------------------------------------------- */
+  var BADGE_XP_DEFAULT = 10;
+  var BADGE_XP = {
+    first_steps: 10,
+    perfectionist: 10,
+    streak_3: 10,
+    streak_7: 15,
+    streak_14: 20,
+    streak_30: 30,
+    placement_done: 15,
+    comeback: 15,
+    first_test_yourself: 15,
+    // XP-milestone badges are pure recognition of XP already earned —
+    // still a small bonus on top, per docs/gamification.md, rather
+    // than 0.
+    xp_100: 10,
+    xp_250: 15,
+    xp_500: 20,
+    xp_1000: 25,
+    no_hints_needed: 15,
+    sherlock: 15,
+    dictionary_power_user: 15,
+    polyglot: 25,
+    night_owl: 10,
+    early_bird: 10,
+    // Not a BADGES entry (see maybeCompleteTopic() / state.topicsCompleted),
+    // but shares this same config object per docs/gamification.md.
+    topic_complete: 20,
+  };
+  LEVELS.forEach(function (l) { BADGE_XP[l.toLowerCase() + "_explorer"] = 20; });
+
+  function badgeXp(id) {
+    return typeof BADGE_XP[id] === "number" ? BADGE_XP[id] : BADGE_XP_DEFAULT;
+  }
+
+  /* ------------------------------------------------------------- *
    * Badge definitions — data-driven. `check(state)` returns true
    * once the badge should be (or stay) unlocked. Adding a badge is
    * adding one object here; see docs/gamification.md.
@@ -163,6 +209,16 @@
       check: function (s) { return (s.dictionaryUses || 0) >= 10; },
     },
     {
+      // Deliberately keyed off real learning activity per level
+      // (countLevelsWithActivity() below reads levelStats[level]
+      // .exercisesDone, nothing else) — NOT s.dictionaryUses, which
+      // only feeds "sherlock"/"dictionary_power_user" above. Looking
+      // up any number of words, on any number of pages, can never
+      // unlock this on its own: exercisesDone only ever increments
+      // inside recordExerciseResult()'s "first time this exercise id
+      // has been submitted" branch, a completely separate code path
+      // from recordDictionaryUse(). If you're editing this, keep that
+      // separation — see docs/gamification.md's Polyglot Path row.
       id: "polyglot", icon: "🌍", name: "Polyglot Path",
       desc: "Complete at least one exercise at 3 different levels.",
       check: function (s) { return countLevelsWithActivity(s) >= 3; },
@@ -340,13 +396,38 @@
     pendingToasts.push({ kind: "xp", text: "+" + amount + " XP" + (label ? " · " + label : "") });
   }
 
+  // Mutates state.xp (and, for the per-level "<LEVEL> Explorer" badges,
+  // that level's levelStats.xp) by the badge's configured bonus —
+  // without pushing its own toast, unlike awardXp() above, so the
+  // caller (evaluateBadges()) can fold the amount into a single
+  // "<Badge name> unlocked · +N XP" toast instead of two separate
+  // pop-ups for one event. Returns the amount actually granted (0 if
+  // this badge isn't configured for a bonus) so the caller knows
+  // whether to mention XP in that toast at all.
+  function grantBadgeXp(state, badge) {
+    var amount = badgeXp(badge.id);
+    if (amount <= 0) return 0;
+    state.xp += amount;
+    if (badge.level && state.levelStats[badge.level]) state.levelStats[badge.level].xp += amount;
+    return amount;
+  }
+
   function evaluateBadges(state) {
     BADGES.forEach(function (b) {
+      // This guard is what makes badge XP a strictly one-time grant —
+      // once b.id is in state.badges, evaluateBadges() (called after
+      // every exercise, dictionary use, test/placement completion, and
+      // reload) skips this badge for good, so grantBadgeXp() below can
+      // never run twice for the same badge.
       if (state.badges.indexOf(b.id) !== -1) return;
-      if (b.check(state)) {
-        state.badges.push(b.id);
-        pendingToasts.push({ kind: "badge", text: "Badge unlocked: " + b.name, icon: b.icon });
-      }
+      if (!b.check(state)) return;
+      state.badges.push(b.id);
+      var xpAwarded = grantBadgeXp(state, b);
+      pendingToasts.push({
+        kind: "badge",
+        text: b.name + " unlocked" + (xpAwarded > 0 ? " · +" + xpAwarded + " XP" : ""),
+        icon: b.icon,
+      });
     });
   }
 
@@ -425,7 +506,19 @@
     if (!allDone) return;
     var name = (level ? level + " · " : "") + slugToTitle(slug);
     state.topicsCompleted[topicId] = { name: name, level: level || "", awardedAt: todayStr() };
-    pendingToasts.push({ kind: "badge", text: "Topic complete: " + name, icon: "📘" });
+    // Same one-time XP-bonus pattern as evaluateBadges()/grantBadgeXp()
+    // — guarded by the topicsCompleted check above, so this can't
+    // double-award on a retry any more than a real badge can.
+    var xpAwarded = badgeXp("topic_complete");
+    if (xpAwarded > 0) {
+      state.xp += xpAwarded;
+      if (level && state.levelStats[level]) state.levelStats[level].xp += xpAwarded;
+    }
+    pendingToasts.push({
+      kind: "badge",
+      text: "Topic complete: " + name + (xpAwarded > 0 ? " · +" + xpAwarded + " XP" : ""),
+      icon: "📘",
+    });
   }
 
   function recordTestProgressInternal(state, opts) {
@@ -785,15 +878,56 @@
     hideTimer = setTimeout(dismiss, TOAST_VISIBLE_MS);
   }
 
+  // Toasts earned while the tab is backgrounded (document.hidden) wait
+  // here instead of animating in unseen — background timers are also
+  // throttled by the browser, so a toast's ~7s visible window could
+  // silently elapse before the student ever switches back. Drained in
+  // order, spaced by VISIBILITY_QUEUE_GAP_MS, the moment the tab
+  // becomes visible again (see the "visibilitychange" listener below).
+  var visibilityQueue = [];
+  var VISIBILITY_QUEUE_GAP_MS = 700;
+  var isDrainingVisibilityQueue = false;
+
+  function isPageVisible() {
+    // Only browsers old enough to lack the Page Visibility API entirely
+    // hit the `typeof` branch — treat "can't tell" as visible so this
+    // never gets stuck holding toasts back forever.
+    return typeof document.visibilityState !== "string" || document.visibilityState === "visible";
+  }
+
+  function drainVisibilityQueue() {
+    if (isDrainingVisibilityQueue || !visibilityQueue.length) return;
+    isDrainingVisibilityQueue = true;
+    var queue = visibilityQueue;
+    visibilityQueue = [];
+    queue.forEach(function (item, i) {
+      setTimeout(function () { showToast(item); }, i * VISIBILITY_QUEUE_GAP_MS);
+    });
+    setTimeout(function () { isDrainingVisibilityQueue = false; }, queue.length * VISIBILITY_QUEUE_GAP_MS);
+  }
+
+  document.addEventListener("visibilitychange", function () {
+    if (isPageVisible()) drainVisibilityQueue();
+  });
+
   function flushUI(state) {
     if (!els) return; // widget not on this page for some reason
     renderToggle(state);
     if (!els.panel.hidden) renderPanel(state);
     var queue = pendingToasts;
     pendingToasts = [];
-    queue.forEach(function (item, i) {
-      setTimeout(function () { showToast(item); }, i * 260);
-    });
+    if (!queue.length) return;
+    if (isPageVisible()) {
+      // Current behavior, unchanged: pop them in with a short stagger.
+      queue.forEach(function (item, i) {
+        setTimeout(function () { showToast(item); }, i * 260);
+      });
+    } else {
+      // Hold everything for drainVisibilityQueue() instead — badges/XP
+      // are still recorded and saved normally either way; only the
+      // toast + fireworks are deferred.
+      visibilityQueue.push.apply(visibilityQueue, queue);
+    }
   }
 
   /* ------------------------------------------------------------- *

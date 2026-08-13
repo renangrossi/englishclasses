@@ -34,6 +34,17 @@
   var SCHEMA_VERSION = 1;
 
   /* ------------------------------------------------------------- *
+   * Toast timing — how long an "+XP" / badge pop-up stays fully
+   * visible before it fades out. TOAST_VISIBLE_MS is 3x the original
+   * ~2.4s (2400ms) design, per docs/gamification.md "Toast duration &
+   * fireworks". TOAST_EXIT_MS is the fade-out transition length and
+   * matches the CSS `.xp-toast` opacity/transform transition — keep
+   * these two in sync if either changes.
+   * ------------------------------------------------------------- */
+  var TOAST_VISIBLE_MS = 2400 * 3; // ~7.2s
+  var TOAST_EXIT_MS = 350;
+
+  /* ------------------------------------------------------------- *
    * XP table — the single place to tune point values.
    * ------------------------------------------------------------- */
   var XP = {
@@ -120,6 +131,13 @@
       if (state.exercises.hasOwnProperty(id) && state.exercises[id].perfect) n++;
     }
     return n;
+  }
+
+  // True once the student has any progress worth showing (xp, or a
+  // recorded exercise even if it somehow awarded 0 xp). Drives whether
+  // the header pill is shown at all — see renderToggle().
+  function hasProgress(state) {
+    return state.xp > 0 || countExercisesDone(state) > 0;
   }
 
   /* ------------------------------------------------------------- *
@@ -507,19 +525,65 @@
     els.xpEl.textContent = state.xp + " XP";
     els.streakEl.textContent = String(state.streak.count);
     els.toggle.classList.toggle("has-streak", state.streak.count > 0);
+    // The pill is mounted on every page with the standard header (see
+    // the <script> tags added alongside main.js), but stays hidden
+    // until the student has any real progress, so it doesn't clutter
+    // purely informational pages for a brand-new visitor. Once shown,
+    // it never disappears again on navigation/reload — only a reset
+    // (resetProgress) or clearing storage takes it back to "no
+    // progress yet" and hides it.
+    var active = hasProgress(state);
+    els.toggle.hidden = !active;
+    if (!active && !els.panel.hidden) {
+      els.panel.hidden = true;
+      els.toggle.setAttribute("aria-expanded", "false");
+    }
+  }
+
+  var prefersReducedMotion = function () {
+    return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  };
+
+  // Small golden sparkle/firework burst shown behind+around a toast.
+  // Purely decorative (aria-hidden) and skipped entirely under
+  // prefers-reduced-motion — see docs/gamification.md.
+  function buildBurst(kind) {
+    var burst = el("div", { class: "xp-burst xp-burst--" + kind, "aria-hidden": "true" });
+    var count = kind === "badge" ? 12 : kind === "streak" ? 8 : 6;
+    for (var i = 0; i < count; i++) {
+      var spark = document.createElement("span");
+      spark.className = "xp-burst__spark";
+      spark.style.setProperty("--angle", Math.round((360 / count) * i + (Math.random() * 20 - 10)) + "deg");
+      spark.style.setProperty("--delay", Math.round(Math.random() * 90) + "ms");
+      burst.appendChild(spark);
+    }
+    return burst;
   }
 
   function showToast(item) {
     if (!els) return;
     var node = el("div", { class: "xp-toast xp-toast--" + item.kind });
+    if (!prefersReducedMotion()) node.appendChild(buildBurst(item.kind));
     if (item.icon) node.appendChild(el("span", { class: "xp-toast__icon", "aria-hidden": "true", text: item.icon }));
     node.appendChild(el("span", { text: item.text }));
+
+    var hideTimer;
+    var dismissed = false;
+    function dismiss() {
+      if (dismissed) return;
+      dismissed = true;
+      clearTimeout(hideTimer);
+      node.classList.remove("is-visible");
+      setTimeout(function () { node.remove(); }, TOAST_EXIT_MS);
+    }
+    // Dismissible early on click/tap — useful now that toasts stay up
+    // for several seconds. The host itself stays pointer-events:none
+    // (see CSS) so the toasts never block clicks elsewhere on the page.
+    node.addEventListener("click", dismiss);
+
     els.toastHost.appendChild(node);
     requestAnimationFrame(function () { node.classList.add("is-visible"); });
-    setTimeout(function () {
-      node.classList.remove("is-visible");
-      setTimeout(function () { node.remove(); }, 350);
-    }, 2400);
+    hideTimer = setTimeout(dismiss, TOAST_VISIBLE_MS);
   }
 
   function flushUI(state) {

@@ -10,17 +10,30 @@ on GitHub Pages with no backend at all.
 - A compact pill in the header (top right, next to the search and
   dark-mode buttons) showing the current streak and total XP. Clicking
   it opens a small panel with per-level progress bars and a badge grid.
-- A short "+10 XP" toast in the top-right corner right after submitting
-  an exercise, and a bigger "Badge unlocked" toast when one is earned.
+- A "+10 XP" toast in the top-right corner right after submitting an
+  exercise, and a bigger "Badge unlocked" toast when one is earned —
+  each stays up for `TOAST_VISIBLE_MS` (~7.2s, 3x the original ~2.4s)
+  before fading out over `TOAST_EXIT_MS` (350ms), both defined near the
+  top of `progress.js`. Clicking/tapping a toast dismisses it early.
+  Unless the browser has `prefers-reduced-motion: reduce` set, a short
+  gold/amber sparkle burst (`.xp-burst`, styled in `components.css`)
+  plays behind/around the toast — bigger for a badge unlock than a
+  plain XP gain. Under reduced motion, the burst is skipped entirely
+  but the longer toast duration still applies.
 - `progress.html` — a full page with the same information at a larger
   size, plus a "Reset my progress on this device" button.
 
-The widget appears on every page that already has interactive
-exercises (level pages, individual A1 lesson pages, every level's
-Test Yourself page, and the Placement Test) — the same 33 pages that
-already load `assets/js/exercises.js`. It's intentionally left off
-purely informational pages (Dictionary, Extras, the homepage) to avoid
-clutter where it wouldn't do anything.
+`assets/js/progress.js` is now loaded on every page that shares the
+site's standard header (all 39 HTML pages, including previously-omitted
+informational pages like the homepage, Dictionary, Extras, Exercises
+and Simulated Exams) so the header pill can never "disappear" just by
+navigating to one of them. The pill itself, though, stays hidden
+(`hidden` attribute, see `hasProgress()`/`renderToggle()` in
+`progress.js`) until the student has real progress on this device —
+`state.xp > 0` or at least one recorded exercise — at which point it
+shows on every one of those pages and stays visible across navigation
+and reloads. It only goes back to hidden if progress is wiped, via
+`progress.html`'s reset button or the browser's storage being cleared.
 
 ## Where data is stored
 
@@ -148,29 +161,41 @@ was changed.
 
 ## How to test
 
-1. Open any level page with exercises, e.g. `levels/a1/to-be-am-is-are.html`.
-2. Complete an exercise block and click **Submit**. You should see a
-   "+10 XP" (or "+15 XP" on a perfect score) toast, and the header
-   pill's XP number update.
-3. Click the header pill (flame + XP) to open the panel — check the
+1. On a fresh device/profile (no `rt_progress` in localStorage), open
+   the homepage or Dictionary — the header pill should not be visible.
+2. Open any level page with exercises, e.g. `levels/a1/to-be-am-is-are.html`.
+3. Complete an exercise block and click **Submit**. You should see a
+   "+10 XP" (or "+15 XP" on a perfect score) toast with a gold sparkle
+   burst behind it, staying up for a few seconds (~7s) before fading —
+   click it to confirm it dismisses early — and the header pill appears
+   (or updates) with the new XP number.
+4. Navigate to the homepage, Dictionary, Extras, Exercises or Simulated
+   Exams and confirm the header pill is now visible there too, then
+   reload each — it should stay visible (persistence, not just an
+   in-memory state).
+5. Click the header pill (flame + XP) to open the panel — check the
    A1 progress bar moved and **First Steps** (and **Perfectionist**,
    if that attempt was 100%) show as unlocked in the badge grid.
-4. Reload the page and confirm the XP/streak/badges are unchanged
-   (persistence) — then retry the *same* exercise and confirm the XP
-   total does **not** increase again (anti-farming).
-5. Open `levels/a1/test-yourself.html`, complete every exercise block
+6. Retry the *same* exercise and confirm the XP total does **not**
+   increase again (anti-farming).
+7. Open `levels/a1/test-yourself.html`, complete every exercise block
    on the page, and confirm a "+25 XP" toast appears once the last
    block is submitted (this can take a while on A1 — for a quicker
    check, use a shorter Test Yourself page like `levels/b2/test-yourself.html`).
-6. Open `placement-test.html`, submit the test, and confirm "+40 XP"
-   plus the **Know Your Level** badge.
-7. Open `progress.html` directly and confirm the full-page view matches
-   the header panel, then use **Reset my progress on this device** and
-   confirm everything goes back to zero.
-8. To test the streak deliberately: open DevTools → Application →
-   Local Storage → find `rt_progress` → edit `streak.lastActiveDate`
-   to yesterday's date → reload and complete one exercise → streak
-   count should go up by 1.
+8. Open `placement-test.html`, submit the test, and confirm "+40 XP"
+   plus the **Know Your Level** badge — the badge toast's sparkle burst
+   should be noticeably bigger than a plain XP toast's.
+9. In OS/browser settings, enable "reduce motion", submit another
+   exercise, and confirm the toast still appears for the same ~7s
+   duration but with no sparkle burst.
+10. Open `progress.html` directly and confirm the full-page view matches
+    the header panel, then use **Reset my progress on this device** and
+    confirm everything goes back to zero — including the header pill
+    disappearing again on every page.
+11. To test the streak deliberately: open DevTools → Application →
+    Local Storage → find `rt_progress` → edit `streak.lastActiveDate`
+    to yesterday's date → reload and complete one exercise → streak
+    count should go up by 1.
 
 ## Phase 2 (optional — not implemented yet)
 

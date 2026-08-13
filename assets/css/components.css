@@ -813,6 +813,16 @@ body:not(:has(.level-toc)) .section {
 }
 .back-to-top.is-visible { opacity: 1; visibility: visible; transform: translateY(0); }
 .back-to-top svg { width: 20px; height: 20px; }
+/* On pages that also have the floating Dictionary widget
+   (.dict-widget-toggle, see "FLOATING DICTIONARY WIDGET" in
+   search.css), Dictionary keeps the `bottom: var(--space-md)` row so
+   it stays aligned with .ai-teacher-toggle (same row/alignment
+   pattern on opposite corners), and back-to-top moves 60px up to the
+   slot Dictionary used to occupy — hence this modifier class, added
+   only on the pages that render both buttons. Pages without the
+   Dictionary widget don't use this class, so their layout is
+   unchanged. */
+.back-to-top--with-dict { bottom: calc(var(--space-md) + 60px); }
 
 /* ---------------------------------------------------------------------
    Misc utility
@@ -926,7 +936,13 @@ body:not(:has(.level-toc)) .section {
    A compact header pill (XP + streak) that opens a small panel with
    badges and per-level progress. Injected entirely from JS, so no
    markup is required on individual pages beyond the <script> tag.
+   progress.js mounts this on every page that includes the script and
+   keeps it `hidden` until the student has real progress (xp > 0 or an
+   exercise on file); the rule below makes sure that `hidden` attribute
+   always wins over the `display: inline-flex` further down, even
+   though both selectors share the same specificity.
    --------------------------------------------------------------------- */
+.progress-toggle[hidden] { display: none; }
 .progress-toggle {
   display: inline-flex;
   align-items: center;
@@ -1036,6 +1052,9 @@ body:not(:has(.level-toc)) .section {
   pointer-events: none;
 }
 .xp-toast {
+  position: relative;
+  z-index: 0;
+  overflow: visible;
   display: inline-flex;
   align-items: center;
   gap: 0.4em;
@@ -1050,6 +1069,12 @@ body:not(:has(.level-toc)) .section {
   opacity: 0;
   transform: translateY(-6px);
   transition: opacity var(--duration-base) var(--ease-standard), transform var(--duration-base) var(--ease-standard);
+  /* Toasts sit inside a pointer-events:none host (see .xp-toast-host)
+     so they never block clicks on the page underneath; re-enabling it
+     just here lets a toast be dismissed early with a click/tap, which
+     matters more now that TOAST_VISIBLE_MS keeps them up for ~7s. */
+  pointer-events: auto;
+  cursor: pointer;
 }
 .xp-toast.is-visible { opacity: 1; transform: translateY(0); }
 /* Badge toast reuses the same constant navy/gold pairing as the base
@@ -1059,6 +1084,56 @@ body:not(:has(.level-toc)) .section {
    is enough to make it read as a bigger, celebratory moment. */
 .xp-toast--badge { border-width: 2px; }
 .xp-toast__icon { font-size: 1rem; }
+
+/* Golden fireworks/sparkle burst — a short, tasteful particle burst
+   behind+around a toast when it appears (skipped entirely by JS under
+   prefers-reduced-motion; see progress.js's prefersReducedMotion()).
+   Each .xp-burst__spark radiates outward from the toast's center along
+   --angle (set inline per-spark in JS) and fades out within ~0.7s. */
+.xp-burst {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+.xp-burst::before {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(228, 200, 135, 0.4), transparent 70%);
+  opacity: 0;
+  animation: xp-burst-glow 0.6s ease-out forwards;
+}
+.xp-burst__spark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--gold-300);
+  opacity: 0;
+  transform: translate(-50%, -50%) rotate(var(--angle, 0deg)) translateX(0) scale(0);
+  animation: xp-spark-burst 0.7s ease-out var(--delay, 0ms) forwards;
+}
+.xp-burst--badge .xp-burst__spark {
+  width: 6px;
+  height: 6px;
+  background: var(--gold-500);
+  box-shadow: 0 0 6px 1px rgba(228, 200, 135, 0.6);
+}
+@keyframes xp-burst-glow {
+  0% { opacity: 0; transform: scale(0.6); }
+  40% { opacity: 1; }
+  100% { opacity: 0; transform: scale(1.5); }
+}
+@keyframes xp-spark-burst {
+  0% { transform: translate(-50%, -50%) rotate(var(--angle, 0deg)) translateX(0) scale(0); opacity: 0; }
+  25% { opacity: 1; }
+  100% { transform: translate(-50%, -50%) rotate(var(--angle, 0deg)) translateX(38px) scale(1); opacity: 0; }
+}
+
 @media (max-width: 560px) {
   .progress-toggle__dot { display: none; }
   .xp-toast-host { left: var(--space-sm); right: var(--space-sm); align-items: stretch; }

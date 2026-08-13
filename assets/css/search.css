@@ -132,12 +132,17 @@
 .dict-card__link svg { width: 16px; height: 16px; }
 
 /* =======================================================================
-   FLOATING DICTIONARY WIDGET (test-yourself pages)
+   FLOATING DICTIONARY WIDGET (level pages + test-yourself pages)
+   Bottom offset intentionally matches .ai-teacher-toggle's `bottom:
+   var(--space-md)` (see ai-teacher.css) so Dictionary sits in the same
+   row/alignment as the AI Teacher button, one on each side of the
+   screen. .back-to-top (components.css) takes the offset slot this
+   used to occupy, directly above Dictionary on the right-hand stack.
    ======================================================================= */
 .dict-widget-toggle {
   position: fixed;
   right: var(--space-md);
-  bottom: calc(var(--space-md) + 60px);
+  bottom: var(--space-md);
   width: 48px; height: 48px;
   border-radius: 50%;
   border: 1px solid var(--color-gold);
@@ -156,7 +161,7 @@
 .dict-widget-panel {
   position: fixed;
   right: var(--space-md);
-  bottom: calc(var(--space-md) + 120px);
+  bottom: calc(var(--space-md) + 60px);
   width: min(360px, calc(100vw - 2 * var(--space-md)));
   max-height: 60vh;
   display: flex;

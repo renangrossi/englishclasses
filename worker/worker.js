@@ -131,14 +131,21 @@ Example (beginner): Student: "I am go to school yesterday." -> "Almost! 😊 Say
 - Keep answers reasonably concise by default; expand only if the student explicitly asks for more detail or a full set.
 
 --- COURSE NAVIGATION & URL SAFETY (read carefully) ---
-Each message may include a "Course context" section listing real pages from this website (level overview pages, and sometimes specific matched lessons/worksheets, and the student's current page). This is the ONLY source of truth for links.
+Each message may include a "Course context" section listing real pages from this website (level overview pages, on-site practice anchors, Test Yourself pages, and sometimes specific matched lessons/worksheets, and the student's current page). This is the ONLY source of truth for links.
 - You may ONLY output a URL that is written out, in full, somewhere in that Course context section. Copy it exactly — never invent, guess, shorten, or modify a URL, and never construct one from a pattern you've seen.
-- Every URL you output MUST be wrapped as a Markdown link with a short, human-readable label: [Label](url) — for example [A2 · Can, Could, May](https://renangrossi.github.io/englishclasses/levels/a2.html). Never output the raw URL by itself, in parentheses, or as plain text, even in a Portuguese-language reply — the label can be in Portuguese, but the [Label](url) syntax stays the same.
-- If the student asks where to study a topic on the site ("show me on the site", "which lesson covers this", "send me the link", etc.):
-  - If a listed page is genuinely about that topic, share it as a Markdown link with a short label.
-  - Prefer the level overview page ([Label](levels/xx.html)) when it exists and is relevant, then add the specific lesson/worksheet as a second Markdown link if one is also listed — don't offer only a PDF/worksheet link when the real course level page is a better first stop.
-  - If nothing listed is a good match, say honestly that you don't have that exact page, and offer the closest level overview link instead (still as a Markdown link) — clearly say it's the closest general match, not the exact lesson. Never just say "look in the B1 section" without a real, clickable link.
-  - If the Course context section is missing or empty for this turn, say you don't have a link to share right now rather than guessing one.
+- Every URL you output MUST be wrapped as a Markdown link with a short, human-readable label: [Label](url) — for example [A2 · Can, Could, May](https://renangrossi.github.io/englishclasses/levels/a2.html). Never output the raw URL by itself, in parentheses, or as plain text — not even bare, not even alongside a label — and never as a path fragment like "levels/a2.html" outside of [Label](url) syntax. This rule holds in every language you reply in, including Portuguese — the label can be in Portuguese, but the [Label](url) syntax itself never changes.
+- If the Course context section is missing or empty for this turn, say you don't have a link to share right now rather than guessing one.
+
+--- GRAMMAR LOCATION + WEBSITE EXERCISES (where to study vs. where to practise) ---
+When a student asks where to study or practise a topic ("where do I study X", "onde estudo X", "where can I practice X", "which lesson covers this", "send me the link", etc.), treat "where's the grammar" and "where's the practice" as two separate things and cover BOTH, in this order:
+1. Grammar — where the rule is explained: the relevant level overview page, e.g. [B1 · Grammar & Worksheets](.../levels/b1.html#exercises) from Course context, or the specific matched lesson page if one is listed and genuinely on-topic.
+2. Practice — on-site interactive exercises, prioritized in this order:
+   a. The level's own on-site Revision exercises from Course context (e.g. [B1 · Revision Exercises](.../levels/b1.html#revision)) — real interactive exercises on the website itself, gradeable in the browser.
+   b. The level's Test Yourself page from Course context (e.g. [B1 Test Yourself](.../levels/b1/test-yourself.html)) — a fuller interactive review.
+   c. ONLY THEN, optionally, a PDF/docx worksheet if one is listed as a matched resource — offer it as extra/printable material, explicitly secondary ("if you want a printable PDF too"), never as the only or first practice suggestion, and never in place of steps (a)/(b) when they're available in Course context.
+- Never recommend only a worksheet/PDF when an on-site practice link for that level is available in Course context — always lead with the website's own interactive exercises.
+- If a listed page is genuinely about the requested topic, share it as a Markdown link with a short label matching its actual content (e.g. "grammar", "practice exercises", "Test Yourself"), not a generic "here's the link."
+- If nothing listed is a good specific match, say honestly that you don't have that exact page, and offer the closest level overview link instead (still as a Markdown link) — clearly say it's the closest general match, not the exact lesson. Never just say "look in the B1 section" without a real, clickable link.
 - A worksheet link opens a PDF or Word document (the context will say which) — you can mention that naturally, e.g. "a short PDF worksheet."`;
 
 // ---- Course catalog helpers -------------------------------------------
@@ -254,6 +261,24 @@ function buildCourseContext(message, cleanHistory, currentPageEntry, currentLeve
   lines.push("Level overview pages (always valid fallback):");
   courseCatalog.levels.forEach(function (l) {
     lines.push("- [" + l.code + "] " + l.name + " overview: " + absoluteUrl(l.url));
+  });
+  lines.push("");
+
+  // Always present, every turn, for every level — so "where do I
+  // practise X" never has to depend on the keyword matcher below
+  // finding a worksheet. See the system prompt's "GRAMMAR LOCATION +
+  // WEBSITE EXERCISES" section: these on-site, interactive links are
+  // the practice recommendation to lead with; a PDF/docx worksheet
+  // (if one also matched below) is optional/secondary.
+  lines.push("On-site interactive practice, per level (prefer these over a PDF/docx worksheet as the primary practice link):");
+  courseCatalog.levels.forEach(function (l) {
+    lines.push("- [" + l.code + "] " + l.name + " — grammar notes & worksheet links on the level page: " + absoluteUrl(l.url + "#exercises"));
+    lines.push("- [" + l.code + "] " + l.name + " — on-site Revision exercises (interactive, same page): " + absoluteUrl(l.url + "#revision"));
+  });
+  lines.push("");
+  lines.push("Test Yourself pages — full interactive review, per level:");
+  courseCatalog.resources.filter(function (r) { return r.type === "test"; }).forEach(function (r) {
+    lines.push("- [" + r.level + "] " + r.title + ": " + absoluteUrl(r.url));
   });
   lines.push("");
 

@@ -425,6 +425,24 @@
       "type": "test"
     },
     {
+      "level": "B2",
+      "title": "B2 Test Yourself (full review)",
+      "url": "levels/b2/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "C1",
+      "title": "C1 Test Yourself (full review)",
+      "url": "levels/c1/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "C2",
+      "title": "C2 Test Yourself (full review)",
+      "url": "levels/c2/test-yourself.html",
+      "type": "test"
+    },
+    {
       "level": null,
       "title": "Practice Exercises",
       "url": "exercises.html",

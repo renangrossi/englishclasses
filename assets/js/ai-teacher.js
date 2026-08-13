@@ -118,24 +118,46 @@
     return s.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   }
 
-  // Turns Markdown links [Label](url) into real, clickable <a> elements,
-  // and — as a safety net in case the model ever slips a bare URL through
-  // despite the system prompt telling it not to — auto-links plain
-  // http(s) URLs too, so a student never sees a raw, unclickable path.
+  // Base the site's own relative paths (as sent to the model in the
+  // Worker's "Course context") resolve against — used only by the bare
+  // relative-path safety net below.
+  var SITE_BASE_URL = "https://renangrossi.github.io/englishclasses/";
+
+  // Turns Markdown links [Label](url) into real, clickable <a> elements.
+  // Two safety nets, for on the rare chance the model doesn't follow
+  // the system prompt's "always use [Label](url)" instruction:
+  //   1. A bare absolute http(s) URL still becomes a clickable link
+  //      (using the raw URL itself as the label, since there's no
+  //      label to reuse).
+  //   2. A bare *relative* site path (e.g. "levels/a1/to-be-am-is-are.html"
+  //      or "levels/b1.html#revision", missing the "https://…" origin
+  //      entirely) is resolved against SITE_BASE_URL and linked too —
+  //      this is the case that otherwise shows up as inert, unclickable
+  //      plain text in the chat.
   // A single regex/replace pass avoids double-wrapping a URL that was
-  // already turned into an <a> by the Markdown-link branch.
+  // already turned into an <a> by an earlier branch in the same pass.
+  var RELATIVE_PATH_PATTERN = "(?:levels|cefr)\\/[A-Za-z0-9\\-\\/.]+\\.(?:html|pdf|docx)(?:#[A-Za-z0-9\\-]+)?" +
+    "|(?:dictionary|exercises|placement-test|simulated-exams|extras|progress)\\.html(?:#[A-Za-z0-9\\-]+)?";
+  var LINK_PATTERN = new RegExp(
+    "\\[([^\\[\\]]+)\\]\\((https?:\\/\\/[^\\s()]+)\\)" + // 1 label, 2 mdUrl
+    "|(https?:\\/\\/[^\\s<>\"']+)" + // 3 bareUrl
+    "|\\b(" + RELATIVE_PATH_PATTERN + ")\\b", // 4 relPath
+    "g"
+  );
   function inlineLinks(s) {
-    return s.replace(/\[([^\[\]]+)\]\((https?:\/\/[^\s()]+)\)|(https?:\/\/[^\s<>"']+)/g,
-      function (match, label, mdUrl, bareUrl) {
-        if (label && mdUrl) {
-          return '<a href="' + mdUrl + '" target="_blank" rel="noopener noreferrer">' + label + "</a>";
-        }
-        // Trim trailing punctuation (., , ; : ! ? ) ]) that's almost
-        // always sentence punctuation, not part of the URL itself.
-        var trimmed = bareUrl.replace(/[.,;:!?)\]]+$/, "");
-        var trailing = bareUrl.slice(trimmed.length);
-        return '<a href="' + trimmed + '" target="_blank" rel="noopener noreferrer">' + trimmed + "</a>" + trailing;
-      });
+    return s.replace(LINK_PATTERN, function (match, label, mdUrl, bareUrl, relPath) {
+      if (label && mdUrl) {
+        return '<a href="' + mdUrl + '" target="_blank" rel="noopener noreferrer">' + label + "</a>";
+      }
+      if (relPath) {
+        return '<a href="' + SITE_BASE_URL + relPath + '" target="_blank" rel="noopener noreferrer">' + relPath + "</a>";
+      }
+      // Trim trailing punctuation (., , ; : ! ? ) ]) that's almost
+      // always sentence punctuation, not part of the URL itself.
+      var trimmed = bareUrl.replace(/[.,;:!?)\]]+$/, "");
+      var trailing = bareUrl.slice(trimmed.length);
+      return '<a href="' + trimmed + '" target="_blank" rel="noopener noreferrer">' + trimmed + "</a>" + trailing;
+    });
   }
 
   // The system prompt asks the model to avoid "#" heading syntax, but

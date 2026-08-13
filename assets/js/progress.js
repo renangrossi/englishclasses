@@ -105,6 +105,78 @@
       desc: "Complete the Placement Test.",
       check: function (s) { return !!s.pagesCompleted.placement; },
     },
+    {
+      id: "streak_14", icon: "🔥", name: "14-Day Streak",
+      desc: "Practice on 14 days in a row.",
+      check: function (s) { return s.streak.count >= 14; },
+    },
+    {
+      id: "streak_30", icon: "🔥", name: "30-Day Streak",
+      desc: "Practice on 30 days in a row.",
+      check: function (s) { return s.streak.count >= 30; },
+    },
+    {
+      id: "comeback", icon: "🔄", name: "Comeback",
+      desc: "Return after breaking a streak and complete another exercise.",
+      check: function (s) { return !!(s.streak && s.streak.brokenOnce); },
+    },
+    {
+      id: "first_test_yourself", icon: "📝", name: "Test Yourself, Tested",
+      desc: "Fully complete a Test Yourself page for the first time.",
+      check: function (s) {
+        return Object.keys(s.pagesCompleted).some(function (k) { return k.indexOf("test-yourself:") === 0; });
+      },
+    },
+    {
+      id: "xp_100", icon: "⭐", name: "100 XP",
+      desc: "Earn 100 total XP.",
+      check: function (s) { return s.xp >= 100; },
+    },
+    {
+      id: "xp_250", icon: "🌟", name: "250 XP",
+      desc: "Earn 250 total XP.",
+      check: function (s) { return s.xp >= 250; },
+    },
+    {
+      id: "xp_500", icon: "💫", name: "500 XP",
+      desc: "Earn 500 total XP.",
+      check: function (s) { return s.xp >= 500; },
+    },
+    {
+      id: "xp_1000", icon: "👑", name: "1000 XP",
+      desc: "Earn 1000 total XP.",
+      check: function (s) { return s.xp >= 1000; },
+    },
+    {
+      id: "no_hints_needed", icon: "💎", name: "No Hints Needed",
+      desc: "Score 100% on 5 different exercises.",
+      check: function (s) { return countPerfect(s) >= 5; },
+    },
+    {
+      id: "sherlock", icon: "🕵️", name: "Sherlock",
+      desc: "Look up your first word in the dictionary.",
+      check: function (s) { return (s.dictionaryUses || 0) >= 1; },
+    },
+    {
+      id: "dictionary_power_user", icon: "📚", name: "Dictionary Power User",
+      desc: "Look up 10 words in the dictionary.",
+      check: function (s) { return (s.dictionaryUses || 0) >= 10; },
+    },
+    {
+      id: "polyglot", icon: "🌍", name: "Polyglot Path",
+      desc: "Complete at least one exercise at 3 different levels.",
+      check: function (s) { return countLevelsWithActivity(s) >= 3; },
+    },
+    {
+      id: "night_owl", icon: "🦉", name: "Night Owl",
+      desc: "Complete an exercise between midnight and 5am (your device's clock).",
+      check: function (s) { return !!(s.timeFlags && s.timeFlags.nightOwl); },
+    },
+    {
+      id: "early_bird", icon: "🐦", name: "Early Bird",
+      desc: "Complete an exercise between 5am and 7am (your device's clock).",
+      check: function (s) { return !!(s.timeFlags && s.timeFlags.earlyBird); },
+    },
   ].concat(LEVELS.map(function (level) {
     var threshold = explorerThreshold(level);
     return {
@@ -133,11 +205,23 @@
     return n;
   }
 
-  // True once the student has any progress worth showing (xp, or a
-  // recorded exercise even if it somehow awarded 0 xp). Drives whether
-  // the header pill is shown at all — see renderToggle().
+  // How many different levels have at least one completed exercise —
+  // used by the "polyglot" badge.
+  function countLevelsWithActivity(state) {
+    var n = 0;
+    LEVELS.forEach(function (l) {
+      if (state.levelStats[l] && state.levelStats[l].exercisesDone > 0) n++;
+    });
+    return n;
+  }
+
+  // True once the student has any progress worth showing (xp, a
+  // recorded exercise even if it somehow awarded 0 xp, or a badge —
+  // e.g. "sherlock" can be earned from dictionary use alone, with no
+  // exercises or XP yet). Drives whether the header pill is shown at
+  // all — see renderToggle().
   function hasProgress(state) {
-    return state.xp > 0 || countExercisesDone(state) > 0;
+    return state.xp > 0 || countExercisesDone(state) > 0 || state.badges.length > 0;
   }
 
   /* ------------------------------------------------------------- *
@@ -149,11 +233,25 @@
     return {
       version: SCHEMA_VERSION,
       xp: 0,
-      streak: { count: 0, lastActiveDate: "" },
+      streak: { count: 0, lastActiveDate: "", brokenOnce: false },
       badges: [],
       exercises: {},
       levelStats: levelStats,
       pagesCompleted: {}, // e.g. { "test-yourself:A1": true, "placement": true }
+      // How many times the student has looked up a word (dictionary.html's
+      // outbound links, or the floating dict-widget's live lookup) — see
+      // recordDictionaryUse() below and the "sherlock" / "dictionary_power_user" badges.
+      dictionaryUses: 0,
+      // One entry per fully-completed lesson/topic page, keyed by
+      // "<LEVEL>:<slug>" (derived from the URL — see detectPageKind()/
+      // maybeCompleteTopic()). Not part of the fixed BADGES catalog
+      // below since the set of topics grows as lessons are added; see
+      // docs/gamification.md "Topic badges" for why these are tracked
+      // separately from BADGES.
+      topicsCompleted: {},
+      // Set once, opportunistically, the first time an exercise is
+      // graded inside each time-of-day window — see recordExerciseResult().
+      timeFlags: {}, // { nightOwl: true, earlyBird: true }
     };
   }
 
@@ -174,6 +272,9 @@
       base.badges = Array.isArray(parsed.badges) ? parsed.badges : [];
       base.exercises = parsed.exercises || {};
       base.pagesCompleted = parsed.pagesCompleted || {};
+      base.dictionaryUses = typeof parsed.dictionaryUses === "number" ? parsed.dictionaryUses : 0;
+      base.topicsCompleted = parsed.topicsCompleted || {};
+      base.timeFlags = parsed.timeFlags || {};
       Object.keys(parsed.levelStats || {}).forEach(function (l) {
         if (base.levelStats[l]) base.levelStats[l] = parsed.levelStats[l];
       });
@@ -211,10 +312,16 @@
   function touchStreak(state) {
     var today = todayStr();
     if (state.streak.lastActiveDate === today) return { isNewDay: false };
-    var gap = state.streak.lastActiveDate ? daysBetween(state.streak.lastActiveDate, today) : null;
+    var hadPreviousActivity = !!state.streak.lastActiveDate;
+    var gap = hadPreviousActivity ? daysBetween(state.streak.lastActiveDate, today) : null;
     if (gap === 1) {
       state.streak.count += 1;
     } else {
+      // A real break (not the very first activity ever) — remembered
+      // forever so the "comeback" badge can fire the moment the
+      // student does one more exercise after returning. See
+      // recordExerciseResult() -> evaluateBadges().
+      if (hadPreviousActivity && gap > 1) state.streak.brokenOnce = true;
       state.streak.count = 1; // first-ever activity, or the streak was broken
     }
     state.streak.lastActiveDate = today;
@@ -253,7 +360,29 @@
     var path = window.location.pathname;
     if (/test-yourself\.html$/.test(path)) return "test-yourself";
     if (/placement-test\.html$/.test(path)) return "placement";
+    // A single nested lesson page (e.g. levels/a1/simple-present-i.html)
+    // teaches exactly one topic — completing every exercise on it earns
+    // a topic badge (see maybeCompleteTopic()). Level overview pages
+    // (levels/a1.html — no nested segment) are deliberately excluded:
+    // they bundle many different grammar topics on one page, so "every
+    // exercise on levels/b1.html done" would be a poor stand-in for
+    // "finished one topic." New lesson pages need zero code changes
+    // here to get topic badges — this is pure URL-shape detection.
+    if (/\/levels\/[^/]+\/[^/]+\.html$/.test(path)) return "topic";
     return "lesson";
+  }
+
+  // The filename (no extension) of the current lesson page — the
+  // stable per-topic id half of "<LEVEL>:<slug>" in state.topicsCompleted.
+  function topicSlug() {
+    var m = window.location.pathname.match(/\/([^/]+)\.html$/);
+    return m ? m[1] : "";
+  }
+
+  // "simple-present-i" -> "Simple Present I". Only used for display;
+  // doesn't need to be perfect for every possible slug, just readable.
+  function slugToTitle(slug) {
+    return slug.replace(/-/g, " ").replace(/\b\w/g, function (c) { return c.toUpperCase(); });
   }
 
   function pageInventory() {
@@ -268,12 +397,35 @@
   }
 
   function maybeCompletePage(state, pageKind, level, inventory) {
-    if (pageKind === "lesson" || !inventory.length) return;
+    if (!inventory.length) return;
+    if (pageKind === "topic") {
+      maybeCompleteTopic(state, level, inventory);
+      return;
+    }
+    if (pageKind === "lesson") return;
     var key = pageKind === "placement" ? "placement" : "test-yourself:" + (level || "");
     if (state.pagesCompleted[key]) return;
     var allDone = inventory.every(function (id) { return !!state.exercises[id]; });
     if (!allDone) return;
     recordTestProgressInternal(state, { type: pageKind, level: level });
+  }
+
+  // Awards a one-off "topic badge" the first time every exercise on a
+  // single-topic lesson page has been completed — separate from the
+  // fixed BADGES catalog (see the "topicsCompleted" comment in
+  // defaultState()) precisely so adding a new lesson page never
+  // requires touching this file. Guarded the same way page-completion
+  // is (state.topicsCompleted[topicId]), so retries never re-award it.
+  function maybeCompleteTopic(state, level, inventory) {
+    var slug = topicSlug();
+    if (!slug) return;
+    var topicId = (level || "?") + ":" + slug;
+    if (state.topicsCompleted[topicId]) return;
+    var allDone = inventory.every(function (id) { return !!state.exercises[id]; });
+    if (!allDone) return;
+    var name = (level ? level + " · " : "") + slugToTitle(slug);
+    state.topicsCompleted[topicId] = { name: name, level: level || "", awardedAt: todayStr() };
+    pendingToasts.push({ kind: "badge", text: "Topic complete: " + name, icon: "📘" });
   }
 
   function recordTestProgressInternal(state, opts) {
@@ -321,6 +473,7 @@
       existing.perfect = existing.perfect || perfect;
     }
 
+    touchTimeOfDayFlags(state);
     evaluateBadges(state);
 
     var pageKind = detectPageKind();
@@ -341,6 +494,17 @@
     return getStateFrom(state);
   }
 
+  // Opportunistically records which time-of-day windows the student has
+  // ever graded an exercise in, based on the device's own clock — pure
+  // fire-once flags read back by the "night_owl" / "early_bird" badge
+  // checks so those checks stay a pure function of state (per
+  // docs/gamification.md), rather than reaching for Date.now() themselves.
+  function touchTimeOfDayFlags(state) {
+    var hour = new Date().getHours();
+    if (hour >= 0 && hour < 5) state.timeFlags.nightOwl = true;
+    if (hour >= 5 && hour < 7) state.timeFlags.earlyBird = true;
+  }
+
   function touchStreakAndDailyBonus(state) {
     var wasCount = state.streak.count;
     var res = touchStreak(state);
@@ -348,6 +512,20 @@
       pendingToasts.push({ kind: "streak", text: "Day " + state.streak.count + " streak!" });
       if (XP.dailyBonus > 0 && wasCount > 0) awardXp(state, XP.dailyBonus, null, "Daily bonus");
     }
+  }
+
+  // Called from the dictionary UI (assets/js/dictionary.js's outbound
+  // lookup links, assets/js/dict-widget.js's live lookup) every time
+  // the student actually looks a word up — not just on page load. Pure
+  // badge-tracking: no XP, no streak/daily-bonus touch, since browsing
+  // the dictionary isn't itself a graded practice activity.
+  function recordDictionaryUse() {
+    var state = loadState();
+    state.dictionaryUses = (state.dictionaryUses || 0) + 1;
+    evaluateBadges(state);
+    saveState(state);
+    flushUI(state);
+    return getStateFrom(state);
   }
 
   function getStateFrom(state) {
@@ -478,6 +656,26 @@
     return d.innerHTML;
   }
 
+  function topicNames(state) {
+    return Object.keys(state.topicsCompleted).map(function (id) { return state.topicsCompleted[id].name; }).sort();
+  }
+
+  // Compact one-line summary for the header panel (which has limited
+  // room) — the full per-topic list lives on progress.html instead;
+  // see topicListHtml().
+  function topicSummaryHtml(state) {
+    var n = topicNames(state).length;
+    if (!n) return "";
+    return '<p class="progress-panel__hint">📘 ' + n + " topic" + (n === 1 ? "" : "s") + " completed.</p>";
+  }
+
+  // Full list, used on progress.html's dedicated "Topics" section.
+  function topicListHtml(state) {
+    var names = topicNames(state);
+    if (!names.length) return '<p class="progress-panel__hint">No topics completed yet — finish every exercise on a lesson page to earn one.</p>';
+    return '<ul class="topic-list">' + names.map(function (n) { return "<li>" + escapeHtml(n) + "</li>"; }).join("") + "</ul>";
+  }
+
   function renderPanel(state) {
     if (!els) return;
     var earnedCount = state.badges.length;
@@ -501,6 +699,7 @@
       "</div>" +
       '<p class="progress-panel__hint">Progress saves to this browser only — refresh-safe, no account needed.</p>' +
       '<div class="progress-panel__levels">' + levelRows + "</div>" +
+      topicSummaryHtml(state) +
       '<p class="progress-panel__badges-label">Badges — ' + earnedCount + " of " + BADGES.length + " earned</p>" +
       '<ul class="badge-grid">' + badgeGridHtml(state) + "</ul>" +
       '<a class="btn btn--ghost btn--small progress-panel__link" href="' + progressPageHref() + '">View full progress</a>';
@@ -606,7 +805,8 @@
     var summaryEl = document.getElementById("progress-summary");
     var levelsEl = document.getElementById("progress-levels");
     var badgesEl = document.getElementById("progress-badges");
-    if (!summaryEl && !levelsEl && !badgesEl) return;
+    var topicsEl = document.getElementById("progress-topics");
+    if (!summaryEl && !levelsEl && !badgesEl && !topicsEl) return;
 
     function render() {
       var state = loadState();
@@ -632,6 +832,9 @@
       }
       if (badgesEl) {
         badgesEl.innerHTML = badgeGridHtml(state);
+      }
+      if (topicsEl) {
+        topicsEl.innerHTML = topicListHtml(state);
       }
     }
 
@@ -666,6 +869,7 @@
   window.ProgressTracker = {
     recordExerciseResult: recordExerciseResult,
     recordTestProgress: recordTestProgress,
+    recordDictionaryUse: recordDictionaryUse,
     getState: getState,
     resetProgress: resetProgress,
     XP: XP,

@@ -1103,7 +1103,10 @@ body:not(:has(.level-toc)) .section {
   border-radius: 999px;
   background: radial-gradient(circle, rgba(228, 200, 135, 0.4), transparent 70%);
   opacity: 0;
-  animation: xp-burst-glow 0.6s ease-out forwards;
+  /* --glow-delay defaults to immediate (toasts); the AI Teacher flag
+     intro (ai-teacher.css) sets it inline to land partway through its
+     longer wave instead of firing at t=0. */
+  animation: xp-burst-glow 0.6s ease-out var(--glow-delay, 0ms) forwards;
 }
 .xp-burst__spark {
   position: absolute;
@@ -1166,3 +1169,22 @@ body:not(:has(.level-toc)) .section {
 .badge-grid--page .badge-chip { padding: var(--space-sm); }
 .badge-grid--page .badge-chip__icon { font-size: 1.8rem; }
 .badge-grid--page .badge-chip__name { font-size: var(--step--1); }
+
+/* Topics Completed (progress.html #progress-topics, and the compact
+   one-line summary in the header panel — see topicListHtml() /
+   topicSummaryHtml() in progress.js). Open-ended (grows as lessons are
+   added), so unlike .badge-grid this only ever lists earned topics —
+   no locked placeholders to maintain. */
+.topic-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.5em;
+}
+.topic-list li {
+  padding: 0.6em 0.9em;
+  border-radius: var(--radius-sm);
+  border: var(--border-hairline);
+  background: var(--color-surface-raised);
+  font-size: var(--step--1);
+}
+.topic-list li::before { content: "📘 "; }

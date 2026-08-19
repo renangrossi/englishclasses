@@ -177,6 +177,24 @@
     typing: "typing",
     "reading-comprehension": "reading comprehension",
   };
+  // Same labels as TYPE_LABELS, title-cased, for the printed/PDF
+  // document header (buildExercisePrintHeaderText below) — kept as a
+  // sibling lookup rather than title-casing TYPE_LABELS on the fly so
+  // small words ("in", "the", "or") stay lowercase the way a real
+  // document heading would write them ("Fill in the Blanks", not
+  // "Fill In The Blanks").
+  var TYPE_LABELS_TITLE = {
+    "fill-blank": "Fill in the Blanks",
+    "multiple-choice": "Multiple Choice",
+    vocabulary: "Vocabulary",
+    "true-false": "True or False",
+    matching: "Matching",
+    ordering: "Ordering",
+    correction: "Correction",
+    typing: "Typing",
+    "reading-comprehension": "Reading Comprehension",
+    writing: "Writing",
+  };
 
   function sanitizeFilename(name) {
     return name
@@ -185,7 +203,11 @@
       .trim();
   }
 
-  function buildSaveFilename(container, data) {
+  // The level/section/topic portion shared by the saved filename
+  // (buildSaveFilename) and the printed document header
+  // (buildExercisePrintHeaderText) — one place deriving "where this
+  // exercise lives" so the two never disagree.
+  function buildSavePathParts(container) {
     var levelCode = (document.body.getAttribute("data-level-code") || "").trim();
     var parts = [];
     if (levelCode) parts.push(levelCode);
@@ -205,7 +227,11 @@
         if (topicTitle) parts.push(topicTitle);
       }
     }
+    return parts;
+  }
 
+  function buildSaveFilename(container, data) {
+    var parts = buildSavePathParts(container);
     var last = "";
     if (data.type && data.type !== "writing" && TYPE_LABELS[data.type]) {
       last += TYPE_LABELS[data.type] + " ";
@@ -214,6 +240,59 @@
     parts.push(last.trim());
 
     return sanitizeFilename(parts.join(" - "));
+  }
+
+  /* ------------------------------------------------------------- *
+   * Printed document header — a visible heading inserted at the top
+   * of every printable overlay (single exercise / topic / full test)
+   * so the PDF itself states exactly what it contains, e.g.
+   * "A2 - Test Yourself - Prepositions of Place and Movement -
+   * Matching - Match the Preposition to Its Meaning". Reuses the same
+   * level/topic detection as the filename above rather than deriving
+   * it a second way, so the header and the saved filename always
+   * describe the same document.
+   * ------------------------------------------------------------- */
+  function buildExercisePrintHeaderText(container, data) {
+    var parts = buildSavePathParts(container);
+    var typeLabel = TYPE_LABELS_TITLE[data.type];
+    if (typeLabel) parts.push(typeLabel);
+    parts.push(data.title || "Exercise");
+    return parts.join(" - ");
+  }
+
+  function buildTopicPrintHeaderText(topicSection) {
+    var levelCode = (document.body.getAttribute("data-level-code") || "").trim();
+    var heading = topicSection.querySelector("h2, h3");
+    var topicTitle = heading ? heading.textContent.trim() : (topicSection.id || "Topic");
+    var parts = [];
+    if (levelCode) parts.push(levelCode);
+    parts.push("Test Yourself");
+    parts.push(topicTitle + " Topic");
+    return parts.join(" - ");
+  }
+
+  function buildTestPrintHeaderText() {
+    var levelCode = (document.body.getAttribute("data-level-code") || "").trim();
+    var parts = [];
+    if (levelCode) parts.push(levelCode);
+    parts.push("Test Yourself Full");
+    return parts.join(" - ");
+  }
+
+  function buildPrintHeaderNode(text) {
+    return el("div", { class: "print-doc-header" }, [
+      el("p", { class: "print-doc-header__path", text: text }),
+    ]);
+  }
+
+  // Wraps `contentNode` with the print-only header above it — the one
+  // insertion point every "Save…" flow below funnels through, so the
+  // header can never be added on the interactive page by mistake.
+  function wrapWithPrintHeader(headerText, contentNode) {
+    var wrap = el("div", { class: "print-doc" });
+    wrap.appendChild(buildPrintHeaderNode(headerText));
+    wrap.appendChild(contentNode);
+    return wrap;
   }
 
   function performSaveAnswers(container, data, buildOverlayContent) {
@@ -902,7 +981,7 @@
       performSaveAnswers(container, data, function () {
         var clone = container.cloneNode(true);
         syncLiveFormState(container, clone);
-        return clone;
+        return wrapWithPrintHeader(buildExercisePrintHeaderText(container, data), clone);
       });
     });
 
@@ -982,7 +1061,7 @@
           block.appendChild(answerP);
           printWrap.appendChild(block);
         });
-        return printWrap;
+        return wrapWithPrintHeader(buildExercisePrintHeaderText(container, data), printWrap);
       });
     });
   }
@@ -1241,7 +1320,7 @@
     var topic = collectTopicAnswers(topicSection);
     var fakeData = { type: null, title: "All Topic Exercises — Saved Answers" };
     performSaveAnswers(topicSection, fakeData, function () {
-      return buildTopicSummaryNode(topic);
+      return wrapWithPrintHeader(buildTopicPrintHeaderText(topicSection), buildTopicSummaryNode(topic));
     });
   }
 
@@ -1251,7 +1330,7 @@
     performSaveAnswers(document.body, fakeData, function () {
       var wrap = el("div", { class: "exercise-block saved-summary-root" });
       testData.topics.forEach(function (topic) { wrap.appendChild(buildTopicSummaryNode(topic)); });
-      return wrap;
+      return wrapWithPrintHeader(buildTestPrintHeaderText(), wrap);
     });
   }
 

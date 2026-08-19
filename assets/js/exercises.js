@@ -94,6 +94,54 @@
     return wrap.firstChild;
   }
 
+  function escapeHtml(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  }
+
+  /* ------------------------------------------------------------- *
+   * syncLiveFormState — the actual fix for the "Save my answers"
+   * PDF/print bug.
+   *
+   * `container.cloneNode(true)` is used to build the printable
+   * overlay (see performSaveAnswers below). Per the HTML Living
+   * Standard, <input> and <textarea> have defined "cloning steps"
+   * that copy their *current* value onto the clone, but <select>/
+   * <option> have no such cloning steps at all — cloneNode() only
+   * reproduces a <select>'s parsed/initial state, never whichever
+   * <option> the user (or script) currently has selected. Since the
+   * "matching" exercise type — and every "fill-blank" item that
+   * supplies dropdown options — renders its answer controls as
+   * <select> elements, the cloned printable overlay silently lost
+   * every one of those answers while the rest of the page looked
+   * fine.
+   *
+   * Fix: after cloning, walk the live source container and the
+   * clone's form controls in lockstep (querySelectorAll order is
+   * identical for two structurally-identical trees) and copy the
+   * live value/checkedness across explicitly. This is done for
+   * every control type, not just <select>, both as cheap insurance
+   * against the exact same spec gap on any future/edge-case browser
+   * and to keep one code path responsible for "make the print
+   * overlay match what's on screen" rather than relying on
+   * per-element browser behaviour.
+   * ------------------------------------------------------------- */
+  function syncLiveFormState(source, clone) {
+    var sourceControls = source.querySelectorAll("input, select, textarea");
+    var cloneControls = clone.querySelectorAll("input, select, textarea");
+    sourceControls.forEach(function (src, i) {
+      var dst = cloneControls[i];
+      if (!dst) return;
+      if (src.type === "checkbox" || src.type === "radio") {
+        dst.checked = src.checked;
+      } else {
+        dst.value = src.value;
+      }
+    });
+  }
+
   /* ------------------------------------------------------------- *
    * Shared save/print system — used by every "Save my answers" /
    * "Print / save my answers" button on the site (both graded
@@ -587,8 +635,10 @@
     var table = el("div", { class: "match-table" });
     var rightOptions = shuffled(item.pairs.map(function (p) { return p.right; }));
     var selects = [];
+    var rowWraps = [];
 
     item.pairs.forEach(function (pair, i) {
+      var rowWrap = el("div", { class: "match-row-wrap" });
       var row = el("div", { class: "match-row" });
       row.appendChild(el("span", { class: "match-row__left" }, [
         el("span", { class: "exercise-item__number", "aria-hidden": "true", text: String(i + 1) }),
@@ -602,7 +652,9 @@
       });
       selects.push(select);
       row.appendChild(select);
-      table.appendChild(row);
+      rowWrap.appendChild(row);
+      table.appendChild(rowWrap);
+      rowWraps.push(rowWrap);
     });
     wrap.appendChild(table);
 
@@ -615,6 +667,10 @@
       node: wrap,
       reset: function () {
         selects.forEach(function (s) { s.value = ""; s.disabled = false; s.classList.remove("is-correct", "is-incorrect"); });
+        rowWraps.forEach(function (rw) {
+          var hint = rw.querySelector(".match-row__correct");
+          if (hint) hint.remove();
+        });
         fb.node.classList.remove("is-visible", "is-correct", "is-incorrect");
         wrap.classList.remove("is-locked");
       },
@@ -625,7 +681,18 @@
           var ok = norm(s.value) === norm(item.pairs[i].right);
           s.classList.add(ok ? "is-correct" : "is-incorrect");
           s.disabled = true;
-          if (!ok) allCorrect = false;
+          if (!ok) {
+            allCorrect = false;
+            // Unlike fill-blank/correction, a wrong matching pick has no
+            // separate place to reveal what the right pairing actually
+            // was \u2014 the select just turns red. Add it explicitly so the
+            // right answer is visible on screen (and therefore also in
+            // the printed/PDF copy once its value is captured).
+            rowWraps[i].appendChild(el("p", {
+              class: "match-row__correct",
+              html: "<em>Correct:</em> " + escapeHtml(item.pairs[i].right),
+            }));
+          }
         });
         wrap.classList.add("is-locked");
         setFeedback(fb, allCorrect, null, iconWrap);
@@ -778,6 +845,8 @@
     actions.appendChild(retryAllBtn);
     actions.appendChild(printBtn);
     container.appendChild(actions);
+    var topicSaveBtn = maybeAddTopicSaveButton(printBtn, container);
+    if (topicSaveBtn) topicSaveBtn.style.display = "none";
 
     var lastResults = null;
 
@@ -807,6 +876,7 @@
       retryBtn.style.display = anyIncorrect ? "" : "none";
       retryAllBtn.style.display = "";
       printBtn.style.display = "";
+      if (topicSaveBtn) topicSaveBtn.style.display = "";
       container.dispatchEvent(new CustomEvent("exercise:submitted", {
         bubbles: true,
         detail: { id: data.id, results: lastResults },
@@ -830,7 +900,9 @@
 
     printBtn.addEventListener("click", function () {
       performSaveAnswers(container, data, function () {
-        return container.cloneNode(true);
+        var clone = container.cloneNode(true);
+        syncLiveFormState(container, clone);
+        return clone;
       });
     });
 
@@ -843,6 +915,7 @@
       retryBtn.style.display = "none";
       retryAllBtn.style.display = "none";
       printBtn.style.display = "none";
+      if (topicSaveBtn) topicSaveBtn.style.display = "none";
       var firstOpen = itemsWrap.querySelector(".exercise-item:not(.is-locked)");
       if (firstOpen) firstOpen.scrollIntoView({ behavior: "smooth", block: "center" });
     });
@@ -854,6 +927,7 @@
       retryBtn.style.display = "none";
       retryAllBtn.style.display = "none";
       printBtn.style.display = "none";
+      if (topicSaveBtn) topicSaveBtn.style.display = "none";
     });
   }
 
@@ -894,6 +968,7 @@
     var saveBtn = el("button", { type: "button", class: "btn btn--ghost print-hidden", text: "Save my answers" });
     actions.appendChild(saveBtn);
     container.appendChild(actions);
+    maybeAddTopicSaveButton(saveBtn, container);
 
     saveBtn.addEventListener("click", function () {
       performSaveAnswers(container, data, function () {
@@ -912,6 +987,298 @@
     });
   }
 
+  /* ---------------------------------------------------------------
+     Topic-level and full-test answer aggregation
+     ------------------------------------------------------------------
+     A shared pipeline — exercise state -> normalized answer data ->
+     topic/test aggregation -> save/print — that the per-exercise
+     "Save Topic Answers" button and the page-level "Save All Test
+     Yourself Answers" button both build on, rather than each
+     re-implementing its own way of reading answers out of the DOM.
+
+     collectExerciseAnswers(container, data) reads ONE exercise
+     block's current live state (never the original exercise-data
+     answer key alone) into a normalized { question, userAnswer,
+     correctAnswer, result, explanation } shape per item.
+     collectTopicAnswers(topicSection) collects every exercise inside
+     one "Test Yourself" topic <section>. collectTestYourselfAnswers()
+     collects every topic on the page. Each level is a thin wrapper
+     around the one below it.
+     --------------------------------------------------------------- */
+
+  function extractChoice(itemEl, item) {
+    var checked = itemEl.querySelector('input[type="radio"]:checked');
+    var options = item.options || [];
+    var userIndex = checked ? Number(checked.value) : -1;
+    var attempted = userIndex >= 0;
+    return {
+      question: item.prompt || "",
+      userAnswer: attempted ? options[userIndex] : null,
+      correctAnswer: options[item.answerIndex],
+      result: !attempted ? "unanswered" : (userIndex === item.answerIndex ? "correct" : "incorrect"),
+      explanation: item.explanation || "",
+    };
+  }
+
+  function extractTrueFalse(itemEl, item) {
+    var checked = itemEl.querySelector('input[type="radio"]:checked');
+    var userAnswer = checked ? checked.value === "true" : null;
+    return {
+      question: item.statement || "",
+      userAnswer: checked ? (userAnswer ? "True" : "False") : null,
+      correctAnswer: item.answer ? "True" : "False",
+      result: !checked ? "unanswered" : (userAnswer === item.answer ? "correct" : "incorrect"),
+      explanation: item.explanation || "",
+    };
+  }
+
+  function extractFillBlank(itemEl, item) {
+    var blanks = itemEl.querySelectorAll(".blank-input");
+    var values = Array.prototype.map.call(blanks, function (b) { return b.value; });
+    var attempted = values.some(function (v) { return v && v.trim(); });
+    var answers = item.answers || [];
+    var allCorrect = values.length > 0 && values.every(function (v, i) { return matchesAny(v, answers[i]); });
+    var correctText = answers.map(function (a) { return Array.isArray(a) ? a[0] : a; }).join(" · ");
+    var userText = values.map(function (v) { return v && v.trim() ? v : "(blank)"; }).join(" / ");
+    return {
+      question: String(item.prompt || "").replace(/___/g, "____"),
+      userAnswer: attempted ? userText : null,
+      correctAnswer: correctText,
+      result: !attempted ? "unanswered" : (allCorrect ? "correct" : "incorrect"),
+      explanation: item.explanation || "",
+    };
+  }
+
+  function extractCorrection(itemEl, item) {
+    var input = itemEl.querySelector(".answer-input");
+    var val = input ? input.value : "";
+    var attempted = val.trim().length > 0;
+    var ok = attempted && matchesAny(val, item.answer);
+    var correctText = Array.isArray(item.answer) ? item.answer[0] : item.answer;
+    return {
+      question: "“" + item.incorrect + "”",
+      userAnswer: attempted ? val : null,
+      correctAnswer: correctText,
+      result: !attempted ? "unanswered" : (ok ? "correct" : "incorrect"),
+      explanation: item.explanation || "",
+    };
+  }
+
+  function extractTyping(itemEl, item) {
+    var input = itemEl.querySelector(".answer-input");
+    var val = input ? input.value : "";
+    var attempted = val.trim().length > 0;
+    if (!item.answer) {
+      return {
+        question: item.prompt || "",
+        userAnswer: attempted ? val : null,
+        correctAnswer: item.modelAnswer || null,
+        result: attempted ? "self-check" : "unanswered",
+        explanation: item.explanation || "",
+      };
+    }
+    var ok = attempted && matchesAny(val, item.answer);
+    var correctText = Array.isArray(item.answer) ? item.answer[0] : item.answer;
+    return {
+      question: item.prompt || "",
+      userAnswer: attempted ? val : null,
+      correctAnswer: correctText,
+      result: !attempted ? "unanswered" : (ok ? "correct" : "incorrect"),
+      explanation: item.explanation || "",
+    };
+  }
+
+  function extractMatching(itemEl, item) {
+    var selects = itemEl.querySelectorAll(".match-table select");
+    var rows = item.pairs.map(function (pair, i) {
+      var sel = selects[i];
+      var chosen = sel ? sel.value : "";
+      var attempted = !!chosen;
+      var ok = attempted && norm(chosen) === norm(pair.right);
+      return { left: pair.left, userRight: attempted ? chosen : null, correctRight: pair.right, ok: ok, attempted: attempted };
+    });
+    var anyAttempted = rows.some(function (r) { return r.attempted; });
+    var allCorrect = rows.length > 0 && rows.every(function (r) { return r.ok; });
+    return {
+      question: rows.map(function (r) { return r.left; }).join(", "),
+      userAnswer: anyAttempted ? rows.map(function (r) { return r.left + " → " + (r.userRight || "(no answer)"); }).join("; ") : null,
+      correctAnswer: rows.map(function (r) { return r.left + " → " + r.correctRight; }).join("; "),
+      result: !anyAttempted ? "unanswered" : (allCorrect ? "correct" : "incorrect"),
+      explanation: item.explanation || "",
+    };
+  }
+
+  function extractOrdering(itemEl, item) {
+    var chips = itemEl.querySelectorAll(".order-build .word-chip");
+    var userWords = Array.prototype.map.call(chips, function (c) { return c.textContent; });
+    var attempted = userWords.length > 0;
+    var correct = attempted && userWords.length === item.words.length && userWords.every(function (w, i) { return w === item.words[i]; });
+    return {
+      question: item.prompt || "",
+      userAnswer: attempted ? userWords.join(" ") : null,
+      correctAnswer: item.words.join(" "),
+      result: !attempted ? "unanswered" : (correct ? "correct" : "incorrect"),
+      explanation: item.explanation || "",
+    };
+  }
+
+  var EXTRACTORS = {
+    "multiple-choice": extractChoice,
+    vocabulary: extractChoice,
+    "reading-comprehension": extractChoice,
+    "true-false": extractTrueFalse,
+    "fill-blank": extractFillBlank,
+    correction: extractCorrection,
+    typing: extractTyping,
+    matching: extractMatching,
+    ordering: extractOrdering,
+  };
+
+  function collectExerciseAnswers(container, data) {
+    if (data.type === "writing") {
+      var textareas = container.querySelectorAll(".writing-item__textarea");
+      var writingItems = (data.items || []).map(function (item, i) {
+        var ta = textareas[i];
+        var val = ta ? ta.value : "";
+        var attempted = val.trim().length > 0;
+        return {
+          question: item.prompt || "",
+          userAnswer: attempted ? val : null,
+          correctAnswer: null,
+          result: attempted ? "self-check" : "unanswered",
+          explanation: "",
+        };
+      });
+      return { id: data.id, type: "writing", title: data.title || "Writing", instructions: data.instructions || "", items: writingItems };
+    }
+
+    var extractor = EXTRACTORS[data.type];
+    var itemsWrap = container.querySelector(".exercise-block__items");
+    var itemEls = itemsWrap ? itemsWrap.querySelectorAll(":scope > .exercise-item") : [];
+    var items = (data.items || []).map(function (item, i) {
+      var itemEl = itemEls[i];
+      if (!extractor || !itemEl) {
+        return { question: item.prompt || item.statement || "", userAnswer: null, correctAnswer: null, result: "unsupported", explanation: item.explanation || "" };
+      }
+      return extractor(itemEl, item);
+    });
+    return { id: data.id, type: data.type, title: data.title || "Exercise", instructions: data.instructions || "", items: items };
+  }
+
+  function collectTopicAnswers(topicSection) {
+    var heading = topicSection.querySelector(".section__head h2, h2, h3");
+    var topicTitle = heading ? heading.textContent.trim() : (topicSection.id || "Topic");
+    var exercises = [];
+    topicSection.querySelectorAll(".exercise-block").forEach(function (block) {
+      var script = block.querySelector("script.exercise-data");
+      if (!script) return;
+      try {
+        var data = JSON.parse(script.textContent);
+        exercises.push(collectExerciseAnswers(block, data));
+      } catch (e) {
+        if (window.console) console.error("Could not collect answers for an exercise block", e);
+      }
+    });
+    return { level: document.body.getAttribute("data-level-code") || "", topic: topicTitle, id: topicSection.id || "", exercises: exercises };
+  }
+
+  function collectTestYourselfAnswers() {
+    var topics = [];
+    document.querySelectorAll(".ty-topic[id]").forEach(function (section) {
+      topics.push(collectTopicAnswers(section));
+    });
+    return { level: document.body.getAttribute("data-level-code") || "", topics: topics };
+  }
+
+  var RESULT_LABELS = {
+    correct: "Correct",
+    incorrect: "Not quite",
+    unanswered: "Not answered",
+    "self-check": "Written",
+    unsupported: "Not available",
+  };
+
+  function buildResultItemNode(entry) {
+    var resultClass = entry.result === "correct" || entry.result === "incorrect" || entry.result === "unanswered" ? entry.result : "unanswered";
+    var wrap = el("div", { class: "saved-summary-item is-" + resultClass });
+    wrap.appendChild(el("p", { class: "saved-summary-item__status", text: RESULT_LABELS[entry.result] || entry.result }));
+    if (entry.question) wrap.appendChild(el("p", { class: "saved-summary-item__q", text: entry.question }));
+    wrap.appendChild(el("p", {
+      class: "saved-summary-item__a",
+      html: "<strong>Your answer:</strong> " + (entry.userAnswer ? escapeHtml(entry.userAnswer) : "<em>(No answer given)</em>"),
+    }));
+    if (entry.correctAnswer) {
+      wrap.appendChild(el("p", {
+        class: "saved-summary-item__correct",
+        html: "<strong>" + (entry.result === "self-check" ? "Model answer:" : "Correct answer:") + "</strong> " + escapeHtml(entry.correctAnswer),
+      }));
+    }
+    if (entry.explanation) {
+      wrap.appendChild(el("p", { class: "saved-summary-item__explanation", text: entry.explanation }));
+    }
+    return wrap;
+  }
+
+  function buildExerciseSummaryNode(ex) {
+    var block = el("div", { class: "exercise-block saved-summary-block" });
+    var typeLabel = TYPE_LABELS[ex.type] ? TYPE_LABELS[ex.type] + " — " : "";
+    block.appendChild(el("h3", { class: "exercise-block__title", text: typeLabel + (ex.title || "Exercise") }));
+    if (ex.instructions) block.appendChild(el("p", { class: "exercise-block__instructions", text: ex.instructions }));
+    var list = el("div", { class: "saved-summary-list" });
+    ex.items.forEach(function (entry) { list.appendChild(buildResultItemNode(entry)); });
+    block.appendChild(list);
+    return block;
+  }
+
+  function buildTopicSummaryNode(topic) {
+    var wrap = el("div", { class: "saved-summary-topic" });
+    wrap.appendChild(el("h2", { class: "saved-summary-topic__title", text: topic.topic }));
+    topic.exercises.forEach(function (ex) { wrap.appendChild(buildExerciseSummaryNode(ex)); });
+    return wrap;
+  }
+
+  function performTopicSave(topicSection) {
+    var topic = collectTopicAnswers(topicSection);
+    var fakeData = { type: null, title: "All Topic Exercises — Saved Answers" };
+    performSaveAnswers(topicSection, fakeData, function () {
+      return buildTopicSummaryNode(topic);
+    });
+  }
+
+  function performTestSave() {
+    var testData = collectTestYourselfAnswers();
+    var fakeData = { type: null, title: "Test Yourself — All Topics — Saved Answers" };
+    performSaveAnswers(document.body, fakeData, function () {
+      var wrap = el("div", { class: "exercise-block saved-summary-root" });
+      testData.topics.forEach(function (topic) { wrap.appendChild(buildTopicSummaryNode(topic)); });
+      return wrap;
+    });
+  }
+
+  // Appends a "Save Topic Answers" button right beside `primaryBtn`
+  // (the block's own "Save my answers" button) whenever this exercise
+  // lives inside a Test Yourself topic <section class="ty-topic">.
+  // Every exercise in a topic gets one, and every one of them saves
+  // the whole topic — not just the exercise it sits next to — per the
+  // shared collectTopicAnswers() above.
+  function maybeAddTopicSaveButton(primaryBtn, container) {
+    var topicSection = container.closest(".ty-topic[id]");
+    if (!topicSection) return null;
+    var heading = topicSection.querySelector(".section__head h2, h2, h3");
+    var topicTitle = heading ? heading.textContent.trim() : "this topic";
+    var btn = el("button", {
+      type: "button",
+      class: "btn btn--ghost print-hidden",
+      text: "Save Topic Answers",
+      "aria-label": "Save all answers for the topic: " + topicTitle,
+    });
+    primaryBtn.parentNode.insertBefore(btn, primaryBtn.nextSibling);
+    btn.addEventListener("click", function () {
+      performTopicSave(topicSection);
+    });
+    return btn;
+  }
+
   function init() {
     document.querySelectorAll(".exercise-block").forEach(function (container) {
       var dataScript = container.querySelector("script.exercise-data");
@@ -928,6 +1295,33 @@
         if (window.console) console.error("Exercise parse error", e);
       }
     });
+    maybeAddTestSaveButton();
+  }
+
+  // Injects a prominent "Save All Test Yourself Answers" button into
+  // the page's closing "You've reached the end…" section — only on
+  // pages that actually have the Test Yourself topic structure
+  // (one or more <section class="ty-topic">), so this stays generic
+  // instead of being wired per-level. Runs once; leaves the existing
+  // "Back to <level>" / "Continue to <next level>" links untouched.
+  function maybeAddTestSaveButton() {
+    if (!document.querySelector(".ty-topic[id]")) return;
+    var bottomNav = document.querySelector("#bottom .lesson-nav");
+    if (!bottomNav || document.getElementById("ty-save-all-btn")) return;
+    var levelCode = document.body.getAttribute("data-level-code") || "";
+    var wrap = el("div", { class: "lesson-nav", style: "justify-content:center;border-top:none;padding-top:0;" });
+    var btn = el("button", {
+      type: "button",
+      id: "ty-save-all-btn",
+      class: "btn btn--accent print-hidden",
+      text: "Save All Test Yourself Answers",
+      "aria-label": "Save all answers from every " + (levelCode ? levelCode + " " : "") + "Test Yourself topic",
+    });
+    btn.addEventListener("click", function () {
+      performTestSave();
+    });
+    wrap.appendChild(btn);
+    bottomNav.parentNode.insertBefore(wrap, bottomNav);
   }
 
   if (document.readyState === "loading") {

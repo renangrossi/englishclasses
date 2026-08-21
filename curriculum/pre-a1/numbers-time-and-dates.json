@@ -1,0 +1,87 @@
+{
+  "id": "pre-a1-numbers-time-and-dates",
+  "level": "PRE-A1",
+  "unit": "3",
+  "order": 1,
+  "skill": "vocabulary",
+  "strand": "numbers-time",
+  "title": "Numbers, Time & Dates",
+  "subtitle": "Count from 0 to 100, tell the time, and say the days and months.",
+  "prerequisites": ["pre-a1-the-alphabet-and-sounds"],
+  "objectives": [
+    "Count from 0 to 20, then by tens to 100",
+    "Say and ask the time",
+    "Name the seven days of the week and twelve months"
+  ],
+  "content": {
+    "intro": "Numbers, time and dates are some of the most useful words you'll ever learn — you'll use them every single day.",
+    "rules": [
+      {
+        "heading": "Numbers 0–20",
+        "body": "<p>zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty</p>"
+      },
+      {
+        "heading": "Tens, up to 100",
+        "body": "<p>twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, one hundred</p><p>For numbers in between, add the second number: twenty-one, thirty-five, forty-two.</p>"
+      },
+      {
+        "heading": "Telling the time",
+        "body": "<ul><li>What time is it? — It's three o'clock. (3:00)</li><li>It's half past three. (3:30) / It's three thirty.</li><li>It's a quarter past three. (3:15) / It's a quarter to four. (3:45)</li></ul>"
+      },
+      {
+        "heading": "Days and months",
+        "body": "<p><strong>Days:</strong> Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday</p><p><strong>Months:</strong> January, February, March, April, May, June, July, August, September, October, November, December</p>"
+      }
+    ],
+    "examples": [
+      "I have two brothers and one sister.",
+      "What time is it? — It's ten o'clock.",
+      "My birthday is in July.",
+      "Today is Monday.",
+      "The meeting is at half past two.",
+      "There are seven days in a week and twelve months in a year."
+    ],
+    "commonMistakes": [
+      { "wrong": "I have twenty and five years.", "right": "I am twenty-five years old.", "why": "Ages use \"to be,\" and compound numbers use a hyphen with no \"and\": twenty-five, not twenty and five." },
+      { "wrong": "Today is monday.", "right": "Today is Monday.", "why": "Days of the week are always capitalized in English." },
+      { "wrong": "It's three and half.", "right": "It's half past three. / It's three thirty.", "why": "\"Half past\" is the standard way to say 30 minutes past the hour." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "prea1-num-fill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "items": [
+        { "id": "nt1", "prompt": "Three, four, five, ___, seven.", "answers": [["six"]], "explanation": "The numbers in order: three, four, five, six, seven." },
+        { "id": "nt2", "prompt": "There are ___ days in a week.", "answers": [["seven"]], "explanation": "Monday to Sunday = 7 days." },
+        { "id": "nt3", "prompt": "The first month of the year is ___.", "answers": [["January"]], "explanation": "January is the first month." },
+        { "id": "nt4", "prompt": "It's ___ past three. (3:15)", "answers": [["a quarter"]], "explanation": "\"A quarter past\" means 15 minutes after the hour." }
+      ]
+    },
+    {
+      "id": "prea1-num-match", "type": "matching", "title": "Match the Number to the Word",
+      "items": [
+        { "id": "nt5", "pairs": [
+          { "left": "12", "right": "twelve" },
+          { "left": "20", "right": "twenty" },
+          { "left": "50", "right": "fifty" },
+          { "left": "100", "right": "one hundred" },
+          { "left": "15", "right": "fifteen" }
+        ], "explanation": "Practice reading numbers as words — this is essential for telling time, prices and dates." }
+      ]
+    },
+    {
+      "id": "prea1-num-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "nt6", "prompt": "How many months are there in a year?", "options": ["10", "12", "14"], "answerIndex": 1, "explanation": "There are 12 months in a year." },
+        { "id": "nt7", "prompt": "Which day comes after Friday?", "options": ["Sunday", "Saturday", "Monday"], "answerIndex": 1, "explanation": "The order is ...Thursday, Friday, Saturday, Sunday..." }
+      ]
+    }
+  ],
+  "summary": [
+    "Numbers 0–20 have their own words; from 20 on, combine the tens word with the ones word (twenty-five).",
+    "What time is it? → It's [hour] o'clock / half past [hour] / a quarter past/to [hour].",
+    "Days and months are always capitalized in English."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

@@ -1,0 +1,73 @@
+{
+  "id": "pre-a1-the-alphabet-and-sounds",
+  "level": "PRE-A1",
+  "unit": "1",
+  "order": 1,
+  "skill": "pronunciation",
+  "strand": "alphabet",
+  "title": "The Alphabet & Sounds",
+  "subtitle": "Learn the 26 letters of English and how to spell your name out loud.",
+  "prerequisites": [],
+  "objectives": [
+    "Say the 26 letters of the English alphabet",
+    "Spell your own name out loud, letter by letter",
+    "Understand simple classroom questions like \"How do you spell that?\""
+  ],
+  "content": {
+    "intro": "English has 26 letters. Some sound similar to Portuguese, and some are very different. Listen to each letter, then practice saying it.",
+    "rules": [
+      {
+        "heading": "The 26 letters",
+        "body": "<div class=\"table-scroll\"><table class=\"ref-table\"><thead><tr><th>Letters</th><th>Sounds a bit like (Portuguese)</th></tr></thead><tbody><tr><td>A, H, J, K</td><td>ei / eitch / djei / kei</td></tr><tr><td>B, C, D, E, G, P, T, V, Z</td><td>bi / si / di / i / dji / pi / ti / vi / zi</td></tr><tr><td>F, L, M, N, S, X</td><td>éf / él / ém / én / és / éks</td></tr><tr><td>I, Y</td><td>ai / uai</td></tr><tr><td>O</td><td>ôu</td></tr><tr><td>Q, U, W</td><td>quiú / iú / dâbliu</td></tr><tr><td>R</td><td>ar (English R, not rolled)</td></tr></tbody></table></div><p>This is only a rough guide — the best way to learn the real sounds is to listen to a native speaker or a recording, not just read the guide.</p>"
+      },
+      {
+        "heading": "Spelling out loud",
+        "body": "<p>To spell a word, say each letter separately.</p><ul><li>How do you spell your name? — M-A-R-I-A. (M, A, R, I, A)</li><li>How do you spell \"cat\"? — C-A-T.</li></ul><p>For a double letter, say \"double\": <em>B-A-double L (ball)</em>.</p>"
+      }
+    ],
+    "examples": [
+      "A, B, C, D, E, F, G...",
+      "How do you spell your name?",
+      "My name is Ana. A-N-A.",
+      "Can you spell that, please?",
+      "It's spelled T-E-A-C-H-E-R."
+    ]
+  },
+  "exercises": [
+    {
+      "id": "prea1-abc-match", "type": "matching", "title": "Match the Letter to Its Sound",
+      "instructions": "Match each letter to the sound it's closest to.",
+      "items": [
+        { "id": "abc1", "pairs": [
+          { "left": "A", "right": "ei" },
+          { "left": "B", "right": "bi" },
+          { "left": "I", "right": "ai" },
+          { "left": "O", "right": "ôu" },
+          { "left": "R", "right": "ar" }
+        ], "explanation": "These are rough guides to help you start — listening to a real recording is the best way to learn the exact sound." }
+      ]
+    },
+    {
+      "id": "prea1-abc-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "abc2", "prompt": "How many letters are there in the English alphabet?", "options": ["24", "26", "28"], "answerIndex": 1, "explanation": "English has 26 letters." },
+        { "id": "abc3", "prompt": "\"How do you spell your name?\" is a question about...", "options": ["your age", "the letters in your name", "where you live"], "answerIndex": 1, "explanation": "\"Spell\" means to say the letters of a word one by one." },
+        { "id": "abc4", "prompt": "Which letter comes right after \"C\" in the alphabet?", "options": ["B", "D", "E"], "answerIndex": 1, "explanation": "A, B, C, D — \"D\" comes after \"C.\"" }
+      ]
+    },
+    {
+      "id": "prea1-abc-type", "type": "typing", "title": "Spell It Out",
+      "instructions": "Type the letters of your own first name, separated by dashes. Example: M-A-R-I-A.",
+      "items": [
+        { "id": "abc5", "prompt": "Spell your first name, one letter at a time (use dashes between letters)." }
+      ]
+    }
+  ],
+  "summary": [
+    "English has 26 letters — practice saying each one out loud.",
+    "\"How do you spell that?\" asks someone to say a word letter by letter.",
+    "For a repeated letter, say \"double\" (double L, double O)."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

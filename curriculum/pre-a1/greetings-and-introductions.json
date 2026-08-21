@@ -1,0 +1,84 @@
+{
+  "id": "pre-a1-greetings-and-introductions",
+  "level": "PRE-A1",
+  "unit": "2",
+  "order": 1,
+  "skill": "functional",
+  "strand": "greetings",
+  "title": "Greetings & Introductions",
+  "subtitle": "Say hello, introduce yourself, and ask how someone is.",
+  "prerequisites": ["pre-a1-the-alphabet-and-sounds"],
+  "objectives": [
+    "Greet someone correctly for the time of day",
+    "Introduce yourself with \"My name is...\"",
+    "Ask and answer \"How are you?\"",
+    "Say goodbye"
+  ],
+  "content": {
+    "intro": "These are the very first words most people learn in a new language. Practice saying them out loud, not just reading them.",
+    "rules": [
+      {
+        "heading": "Greetings by time of day",
+        "body": "<ul><li><strong>Good morning</strong> — before 12:00 (noon)</li><li><strong>Good afternoon</strong> — 12:00 to about 18:00 (6pm)</li><li><strong>Good evening</strong> — after about 18:00</li><li><strong>Hello / Hi</strong> — any time of day (Hi is more informal)</li><li><strong>Good night</strong> — only when leaving, never as a greeting when you arrive</li></ul>"
+      },
+      {
+        "heading": "Introducing yourself",
+        "body": "<ul><li>My name is [name].</li><li>I'm [name]. (short for \"I am\")</li><li>Nice to meet you! — Nice to meet you, too!</li></ul>"
+      },
+      {
+        "heading": "How are you?",
+        "body": "<ul><li>How are you? — I'm fine, thank you. And you?</li><li>How are you doing? — Pretty good, thanks!</li></ul>"
+      }
+    ],
+    "examples": [
+      "Good morning! My name is Carlos.",
+      "Hi! I'm Ana. Nice to meet you.",
+      "Nice to meet you, too!",
+      "How are you? — I'm fine, thank you. And you?",
+      "Good night! See you tomorrow.",
+      "Good evening! How are you doing?"
+    ],
+    "commonMistakes": [
+      { "wrong": "Good night! (when arriving at a party in the evening)", "right": "Good evening!", "why": "\"Good night\" is only used when leaving or going to sleep — never as a greeting." },
+      { "wrong": "I have 25 years.", "right": "I am 25 years old.", "why": "English uses the verb \"to be\" for age, not \"have\" — this is a common mix-up from Portuguese (\"Eu tenho 25 anos\")." },
+      { "wrong": "My name be Carlos.", "right": "My name is Carlos.", "why": "\"To be\" changes to \"is\" for he/she/it (and for \"my name\")." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "prea1-greet-match", "type": "matching", "title": "Match the Greeting to the Reply",
+      "items": [
+        { "id": "gr1", "pairs": [
+          { "left": "How are you?", "right": "I'm fine, thank you." },
+          { "left": "Nice to meet you!", "right": "Nice to meet you, too!" },
+          { "left": "Good morning!", "right": "Good morning!" },
+          { "left": "Goodbye!", "right": "See you later!" }
+        ], "explanation": "Each greeting has a natural, standard reply in English." }
+      ]
+    },
+    {
+      "id": "prea1-greet-mc", "type": "multiple-choice", "title": "Choose the Correct Greeting",
+      "items": [
+        { "id": "gr2", "prompt": "It's 9:00 in the morning. What do you say?", "options": ["Good morning", "Good afternoon", "Good night"], "answerIndex": 0, "explanation": "Before noon, we say \"Good morning.\"" },
+        { "id": "gr3", "prompt": "It's 8:00 in the evening, and you're arriving at a friend's house. What do you say?", "options": ["Good night", "Good evening", "Good afternoon"], "answerIndex": 1, "explanation": "\"Good night\" is only for leaving, not arriving — use \"Good evening.\"" },
+        { "id": "gr4", "prompt": "Someone asks \"How are you?\" What is a natural reply?", "options": ["I have 20 years.", "I'm fine, thank you.", "My name is fine."], "answerIndex": 1, "explanation": "\"I'm fine, thank you\" is the standard, natural reply." }
+      ]
+    },
+    {
+      "id": "prea1-greet-order", "type": "ordering", "title": "Put the Words in Order",
+      "items": [
+        { "id": "gr5", "prompt": "is / name / my / Carlos", "words": ["My", "name", "is", "Carlos"], "explanation": "Subject + verb + name." },
+        { "id": "gr6", "prompt": "you / meet / to / nice", "words": ["Nice", "to", "meet", "you"], "explanation": "A fixed expression: Nice to meet you." },
+        { "id": "gr7", "prompt": "you / are / how", "words": ["How", "are", "you"], "explanation": "Question word + verb + subject." }
+      ]
+    }
+  ],
+  "summary": [
+    "Good morning/afternoon/evening change with the time of day; hello/hi work any time.",
+    "\"Good night\" is only a goodbye, never a greeting.",
+    "My name is... / I'm... are the two standard ways to introduce yourself.",
+    "How are you? → I'm fine, thank you. And you?"
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

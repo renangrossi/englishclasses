@@ -1,0 +1,63 @@
+{
+  "id": "pre-a1-survival-reading-and-listening",
+  "level": "PRE-A1",
+  "unit": "8",
+  "order": 1,
+  "skill": "reading",
+  "strand": "survival-signs",
+  "title": "Survival Reading & Listening",
+  "subtitle": "Recognize the signs and short words you'll see in real life, and prepare your ear for real English.",
+  "prerequisites": ["pre-a1-to-be-and-pronouns"],
+  "objectives": [
+    "Recognize common public signs and short instructions",
+    "Understand very short, simple spoken sentences",
+    "Know what to do next: move on to A1"
+  ],
+  "content": {
+    "intro": "You don't need full sentences to survive in an English-speaking place — you need to recognize short, common signs and words instantly. This lesson also explains how to start training your ear.",
+    "rules": [
+      {
+        "heading": "Signs you'll see everywhere",
+        "body": "<div class=\"table-scroll\"><table class=\"ref-table\"><thead><tr><th>Sign</th><th>Meaning</th></tr></thead><tbody><tr><td>STOP</td><td>Stop here</td></tr><tr><td>EXIT</td><td>The way out</td></tr><tr><td>ENTRANCE</td><td>The way in</td></tr><tr><td>OPEN / CLOSED</td><td>The shop is open / not open</td></tr><tr><td>PUSH / PULL</td><td>How to open a door</td></tr><tr><td>RESTROOM / TOILET</td><td>Bathroom</td></tr><tr><td>NO SMOKING</td><td>You cannot smoke here</td></tr><tr><td>DANGER</td><td>Be careful — this can hurt you</td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "Training your ear",
+        "body": "<p>Listening is a skill you build slowly, the same way you build a muscle. Three simple habits help a lot:</p><ul><li>Listen to something every day, even for just five minutes — short and often beats long and rare.</li><li>It's OK not to understand every word — focus on the words you DO recognize.</li><li>Listen to the same short thing more than once — the second and third time, you'll notice more.</li></ul>"
+      }
+    ],
+    "examples": [
+      "The door says PUSH, so I pushed it.",
+      "The shop is CLOSED today.",
+      "Follow the EXIT sign.",
+      "Where is the restroom?",
+      "I listen to a short English video every morning."
+    ]
+  },
+  "exercises": [
+    {
+      "id": "prea1-signs-match", "type": "matching", "title": "Match the Sign to Its Meaning",
+      "items": [
+        { "id": "sv1", "pairs": [
+          { "left": "EXIT", "right": "The way out" },
+          { "left": "OPEN", "right": "The shop is open" },
+          { "left": "PUSH", "right": "Press the door to open it" },
+          { "left": "DANGER", "right": "Be careful" }
+        ], "explanation": "Recognizing these signs instantly, without translating, is a real survival skill." }
+      ]
+    },
+    {
+      "id": "prea1-signs-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "sv2", "prompt": "You see a door with the word PULL. What should you do?", "options": ["Push the door", "Pull the door towards you", "Knock on the door"], "answerIndex": 1, "explanation": "\"Pull\" means to move the door towards you to open it." },
+        { "id": "sv3", "prompt": "What is the best way to train your listening?", "options": ["Listen once a month, for a long time", "Listen a little every day, more than once if needed", "Only listen when you understand every word"], "answerIndex": 1, "explanation": "Short, regular, repeated listening works best — and you don't need to understand every word." }
+      ]
+    }
+  ],
+  "summary": [
+    "Learn to recognize common signs (STOP, EXIT, OPEN/CLOSED, PUSH/PULL) instantly, without translating.",
+    "Train your ear a little every day, and don't worry about understanding every word.",
+    "You've finished Pre-A1! The next step is A1 — Beginner, where you'll start building full sentences."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

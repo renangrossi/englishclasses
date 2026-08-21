@@ -659,6 +659,35 @@ body:not(:has(.level-toc)) .section {
   gap: 0.5em;
 }
 
+/* Whole-card click target. A card's single link (its title-link, or its
+   one action button when there's only one) is stretched with ::after to
+   cover the whole <article>, since .lesson-card is already position:
+   relative -- so clicking anywhere on the card, not just the link text,
+   activates it. When a card has more than one action button, only the
+   accent (primary) one is stretched, and every action link is kept
+   `position: relative` so it still paints -- and stays clickable -- above
+   that full-card overlay; if none of several links is marked primary
+   (e.g. two equally-weighted external links), no link is stretched, so
+   the card is only clickable via its own explicit buttons, same as
+   before. Cards with no link at all are unaffected. */
+.lesson-card__title-link::after,
+.lesson-card__actions a:only-child::after,
+.lesson-card__actions a.btn--accent:not(:only-child)::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+}
+/* The stretched link itself must stay position: static, or its ::after
+   would be contained by the link's own small box instead of the whole
+   card -- so only the *other* action link(s) in a multi-link card (e.g.
+   a secondary "Open PDF" next to a primary accent button) get position:
+   relative here, to keep painting -- and staying clickable -- above the
+   full-card overlay above. */
+.lesson-card__actions a:not(:only-child):not(.btn--accent) {
+  position: relative;
+}
+
 .lesson-card.is-unavailable {
   background: var(--color-surface);
   border-style: dashed;

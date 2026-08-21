@@ -1,0 +1,76 @@
+{
+  "id": "a2-prepositions-of-place-and-movement",
+  "level": "A2",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "prepositions",
+  "title": "Prepositions of Place & Movement",
+  "subtitle": "Say exactly where something is, and how it moves.",
+  "prerequisites": ["a1-prepositions-of-place-and-time"],
+  "objectives": [
+    "Use prepositions of place (in, on, at, under, behind, next to, between, among) to say where things are",
+    "Use prepositions of movement (into, onto, out of, through, over, along, towards, across) to say how something moves"
+  ],
+  "content": {
+    "intro": "At A1 you learned basic in/on/at. Now let's expand your toolkit for describing exact position and movement.",
+    "rules": [
+      {
+        "heading": "a) Place — where something is (no movement)",
+        "body": "<p>under, behind, next to, between (two things), among (three or more things), in front of, near</p>"
+      },
+      {
+        "heading": "b) Movement — how something moves",
+        "body": "<p>into (entering), onto (getting on top of), out of (leaving), through (from one side to the other, inside something), over (above, crossing), along (following a line, like a road or river), towards (in the direction of), across (from one side to the other, on a surface)</p>"
+      }
+    ],
+    "examples": [
+      "The cat is under the table.",
+      "He walks through the park to go to school.",
+      "She sits between her two best friends.",
+      "They walk along the riverbank.",
+      "The keys are in my bag.",
+      "We drive across the bridge.",
+      "The dog jumps into the pool."
+    ],
+    "commonMistakes": [
+      { "wrong": "She sits between her three friends.", "right": "She sits among her three friends.", "why": "\"Between\" is for two things/people; \"among\" is for three or more." },
+      { "wrong": "The dog jumps in the pool. (describing the action of jumping in)", "right": "The dog jumps into the pool.", "why": "\"Into\" describes movement from outside to inside; \"in\" only describes position, not movement." },
+      { "wrong": "He walks across the park. (through the middle, not on a flat surface like a road)", "right": "He walks through the park.", "why": "\"Through\" fits movement inside/across an area like a park; \"across\" is more natural for a flat, open surface like a road or field." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2pp-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct preposition.",
+      "items": [
+        { "id": "a2pp1", "prompt": "The cat is ___ the table.", "answers": [["under"]], "options": ["under", "into", "along"], "explanation": "Position below something — \"under.\"" },
+        { "id": "a2pp2", "prompt": "She sits ___ her best friend at the concert.", "answers": [["next to"]], "options": ["next to", "among", "onto"], "explanation": "\"Next to\" for being right beside one person." },
+        { "id": "a2pp3", "prompt": "They walk ___ the riverbank.", "answers": [["along"]], "options": ["along", "into", "under"], "explanation": "\"Along\" for following the line of the river." },
+        { "id": "a2pp4", "prompt": "The dog jumps ___ the pool.", "answers": [["into"]], "options": ["into", "in", "onto"], "explanation": "Movement from outside to inside — \"into.\"" },
+        { "id": "a2pp5", "prompt": "We drive ___ the bridge.", "answers": [["across"]], "options": ["across", "under", "among"], "explanation": "Crossing from one side to the other — \"across.\"" }
+      ]
+    },
+    {
+      "id": "a2pp-mc", "type": "multiple-choice", "title": "Choose the Correct Preposition",
+      "items": [
+        { "id": "a2pp6", "prompt": "She stands ___ the two trees. (two things)", "options": ["between", "among", "into"], "answerIndex": 0, "explanation": "\"Between\" for two things." },
+        { "id": "a2pp7", "prompt": "He walks ___ the crowd. (a large group, more than two)", "options": ["between", "among", "onto"], "answerIndex": 1, "explanation": "\"Among\" for three or more, like a crowd." }
+      ]
+    },
+    {
+      "id": "a2pp-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2pp8", "incorrect": "She sits between her three friends.", "answer": ["She sits among her three friends."], "explanation": "Three or more people needs \"among,\" not \"between.\"" },
+        { "id": "a2pp9", "incorrect": "The children run in the playground. (arriving, entering)", "answer": ["The children run into the playground."], "explanation": "Movement into a place needs \"into,\" not just \"in.\"" }
+      ]
+    }
+  ],
+  "summary": [
+    "Place (no movement): under, behind, next to, between (2), among (3+).",
+    "Movement: into/onto (entering) vs. out of (leaving); through/across/along/towards describe how something moves.",
+    "Between is only for two things; among is for three or more."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/e-prepositions-of-place-and-movement.docx", "pdf": "cefr/a2-elementary/e-prepositions-of-place-and-movement.pdf" }
+}

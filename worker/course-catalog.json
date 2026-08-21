@@ -472,6 +472,84 @@
     },
     {
       "level": "A2",
+      "title": "Present Simple and Continuous Review",
+      "url": "levels/a2/present-simple-and-continuous-review.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Adverbs of Frequency",
+      "url": "levels/a2/adverbs-of-frequency.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Quantifiers",
+      "url": "levels/a2/quantifiers.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Comparatives and Superlatives I",
+      "url": "levels/a2/comparatives-and-superlatives-i.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Prepositions of Place and Movement",
+      "url": "levels/a2/prepositions-of-place-and-movement.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Simple Past I",
+      "url": "levels/a2/simple-past-i.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Simple Past II",
+      "url": "levels/a2/simple-past-ii.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Simple Past vs. Past Continuous",
+      "url": "levels/a2/simple-past-vs-past-continuous.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Can, Could, May",
+      "url": "levels/a2/can-could-may.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Zero and First Conditionals",
+      "url": "levels/a2/zero-and-first-conditionals.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Who, Which, That",
+      "url": "levels/a2/who-which-that.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Connectors",
+      "url": "levels/a2/connectors.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Question Tags",
+      "url": "levels/a2/question-tags.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
       "title": "A2 Test Yourself (full review)",
       "url": "levels/a2/test-yourself.html",
       "type": "test"

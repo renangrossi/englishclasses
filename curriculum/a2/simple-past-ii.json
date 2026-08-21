@@ -1,0 +1,70 @@
+{
+  "id": "a2-simple-past-ii",
+  "level": "A2",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "simple-past",
+  "title": "Simple Past II — Mixing With the Present",
+  "subtitle": "Practice choosing between the simple past and the simple present in the same conversation.",
+  "prerequisites": ["a2-simple-past-i"],
+  "objectives": [
+    "Choose correctly between the simple past and the simple present in mixed contexts",
+    "Recognize the specific time signal that tells you which tense to use",
+    "Get more practice with irregular verbs"
+  ],
+  "content": {
+    "intro": "Real conversations mix tenses constantly — \"He usually walks to work, but yesterday he took the bus.\" This lesson is focused practice on making that switch correctly, in both directions.",
+    "rules": [
+      {
+        "heading": "The key question: when does it happen?",
+        "body": "<ul><li>A routine, true generally or right now → simple present (he walks to work every day)</li><li>A specific, finished moment in the past → simple past (yesterday he took the bus)</li></ul><p>Watch for both signals in the same sentence: \"Every day\" and \"yesterday\" can appear together, each controlling a different verb.</p>"
+      }
+    ],
+    "examples": [
+      "Every day, he walks to work, but yesterday he took the bus.",
+      "She doesn't like coffee, but she enjoyed the tea this morning.",
+      "Did you finish your project last night?",
+      "Last week, we visited the museum, and it was very interesting.",
+      "He doesn't understand the lesson, so he asked for help."
+    ],
+    "commonMistakes": [
+      { "wrong": "Yesterday, I (not go) to the gym because I (feel) tired. → Yesterday, I not go to the gym because I feel tired.", "right": "Yesterday, I didn't go to the gym because I felt tired.", "why": "Both verbs describe yesterday, so both need the past — \"didn't go\" and \"felt,\" not the present forms." },
+      { "wrong": "He (not understand) the lesson, so he (ask) for help. → He not understand the lesson, so he ask for help.", "right": "He didn't understand the lesson, so he asked for help.", "why": "Without a routine signal word, and describing one specific past event, both verbs need the simple past." },
+      { "wrong": "Every day, he (walk) to work, but yesterday he (take) the bus. → Every day, he walked to work, but yesterday he take the bus.", "right": "Every day, he walks to work, but yesterday he took the bus.", "why": "\"Every day\" needs the present (walks); \"yesterday\" needs the past (took) — read each time word carefully, one at a time." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2sp2-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Choose the simple present or simple past, depending on the time word in each sentence.",
+      "items": [
+        { "id": "a2sp2-1", "prompt": "Every day, he ___ (walk) to work, but yesterday he ___ (take) the bus.", "answers": [["walks"], ["took"]], "explanation": "\"Every day\" → present (walks); \"yesterday\" → past (took)." },
+        { "id": "a2sp2-2", "prompt": "She ___ (not like) coffee, but she ___ (enjoy) the tea this morning.", "answers": [["doesn't like"], ["enjoyed"]], "explanation": "A general preference stays present; \"this morning\" (a finished moment) needs the past." },
+        { "id": "a2sp2-3", "prompt": "Last week, we ___ (visit) the museum, and it ___ (be) very interesting.", "answers": [["visited"], ["was"]], "explanation": "\"Last week\" signals the simple past for both verbs." },
+        { "id": "a2sp2-4", "prompt": "He usually ___ (read) before bed, but last night he ___ (fall) asleep early.", "answers": [["reads"], ["fell"]], "explanation": "\"Usually\" → present (reads); \"last night\" → past (fell)." }
+      ]
+    },
+    {
+      "id": "a2sp2-mc", "type": "multiple-choice", "title": "Choose the Correct Form",
+      "items": [
+        { "id": "a2sp2-5", "prompt": "___ you finish your project last night?", "options": ["Do", "Did", "Does"], "answerIndex": 1, "explanation": "\"Last night\" is a finished past moment — use \"did.\"" },
+        { "id": "a2sp2-6", "prompt": "The sun ___ in the east every day.", "options": ["rose", "rises", "rising"], "answerIndex": 1, "explanation": "A general, permanent fact — simple present." }
+      ]
+    },
+    {
+      "id": "a2sp2-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2sp2-7", "incorrect": "Yesterday, I not go to the gym because I feel tired.", "answer": ["Yesterday, I didn't go to the gym because I felt tired."], "explanation": "Both verbs describe yesterday, so both need the simple past form." },
+        { "id": "a2sp2-8", "incorrect": "He not understand the lesson, so he ask for help.", "answer": ["He didn't understand the lesson, so he asked for help."], "explanation": "A single finished past event — both verbs need the simple past." }
+      ]
+    }
+  ],
+  "summary": [
+    "Read every time word in a sentence carefully — different clauses can need different tenses.",
+    "Routine/general → simple present. Specific, finished past moment → simple past.",
+    "The two tenses often appear together in the same sentence when contrasting a habit with one exception."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/q-simple-past-ii.docx", "pdf": "cefr/a2-elementary/q-simple-past-ii.pdf" }
+}

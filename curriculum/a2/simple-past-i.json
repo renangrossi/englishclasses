@@ -1,0 +1,87 @@
+{
+  "id": "a2-simple-past-i",
+  "level": "A2",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "simple-past",
+  "title": "Simple Past I",
+  "subtitle": "Talk about finished actions in the past — regular and irregular verbs, negatives and questions.",
+  "prerequisites": ["a1-to-be-am-is-are", "a1-simple-present-i"],
+  "objectives": [
+    "Form the simple past of regular verbs (-ed) and recognize common irregular verbs",
+    "Use \"was/were\" for the past of \"to be\"",
+    "Form negatives and questions with \"did\"",
+    "Recognize the time expressions that signal the simple past"
+  ],
+  "content": {
+    "intro": "The simple past is how you talk about anything that's finished — something that happened and ended at a specific point in the past.",
+    "rules": [
+      {
+        "heading": "a) Forming the simple past",
+        "body": "<ul><li>Regular verbs: add -ed → played, watched, worked</li><li>Irregular verbs: a special form to memorize → go → went, eat → ate, see → saw</li><li>Was/were = the past of \"to be\": I/he/she/it was; you/we/they were</li></ul>"
+      },
+      {
+        "heading": "b) Negatives and questions",
+        "body": "<ul><li>Negative: did not / didn't + base form (not the past form!) → I didn't watch TV.</li><li>Question: Did + subject + base form? → Did you watch TV?</li><li>\"To be\" doesn't use \"did\": Was he tired? / He wasn't tired.</li></ul>"
+      },
+      {
+        "heading": "c) Time signal words",
+        "body": "<p>yesterday, last night/week/month/year, ___ ago (two days ago), in 2020, when I was a child</p>"
+      }
+    ],
+    "examples": [
+      "She visited her grandmother yesterday.",
+      "They played soccer last weekend.",
+      "I didn't watch a movie last night.",
+      "Did you study for the test?",
+      "It was very cold yesterday.",
+      "We weren't at home when you called."
+    ],
+    "commonMistakes": [
+      { "wrong": "He go to the store yesterday.", "right": "He went to the store yesterday.", "why": "\"Go\" is irregular in the simple past: go → went." },
+      { "wrong": "I didn't watched TV.", "right": "I didn't watch TV.", "why": "After \"didn't,\" always use the base form of the verb, not the past form." },
+      { "wrong": "Did you saw the movie?", "right": "Did you see the movie?", "why": "After \"did\" in a question, use the base form, not the past form." },
+      { "wrong": "The weather were bad.", "right": "The weather was bad.", "why": "\"The weather\" is singular — it needs \"was,\" not \"were.\"" },
+      { "wrong": "She didn't went home.", "right": "She didn't go home.", "why": "Never combine \"didn't\" with a past-tense verb — use the base form." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2sp1-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct simple past form.",
+      "items": [
+        { "id": "a2sp1-1", "prompt": "She ___ (visit) her grandmother yesterday.", "answers": [["visited"]], "explanation": "Regular verb: visit → visited." },
+        { "id": "a2sp1-2", "prompt": "I ___ (watch) a movie last night.", "answers": [["watched"]], "explanation": "Regular verb: watch → watched." },
+        { "id": "a2sp1-3", "prompt": "We ___ (eat) dinner at 7 PM.", "answers": [["ate"]], "explanation": "Irregular verb: eat → ate." },
+        { "id": "a2sp1-4", "prompt": "It ___ (rain) yesterday.", "answers": [["rained"]], "explanation": "Regular verb: rain → rained." },
+        { "id": "a2sp1-5", "prompt": "They ___ (go) to the beach last summer.", "answers": [["went"]], "explanation": "Irregular verb: go → went." }
+      ]
+    },
+    {
+      "id": "a2sp1-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "a2sp1-6", "prompt": "___ you see the new movie?", "options": ["Do", "Did", "Was"], "answerIndex": 1, "explanation": "Questions with an ordinary verb in the past use \"did.\"" },
+        { "id": "a2sp1-7", "prompt": "They ___ not at home last night.", "options": ["did", "was", "were"], "answerIndex": 2, "explanation": "\"They\" needs \"were,\" the past of \"to be,\" not \"did.\"" },
+        { "id": "a2sp1-8", "prompt": "I ___ my homework yesterday.", "options": ["finish", "finished", "did finished"], "answerIndex": 1, "explanation": "Simple past affirmative: finish → finished." }
+      ]
+    },
+    {
+      "id": "a2sp1-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2sp1-9", "incorrect": "I writed a letter.", "answer": ["I wrote a letter."], "explanation": "\"Write\" is irregular: write → wrote, not \"writed.\"" },
+        { "id": "a2sp1-10", "incorrect": "She maked a cake.", "answer": ["She made a cake."], "explanation": "\"Make\" is irregular: make → made, not \"maked.\"" },
+        { "id": "a2sp1-11", "incorrect": "Was they at the party?", "answer": ["Were they at the party?"], "explanation": "\"They\" takes \"were,\" not \"was.\"" },
+        { "id": "a2sp1-12", "incorrect": "I not was ready.", "answer": ["I was not ready.", "I wasn't ready."], "explanation": "\"Not\" goes right after \"was,\" not before it." }
+      ]
+    }
+  ],
+  "summary": [
+    "Regular verbs add -ed; irregular verbs have their own form to memorize.",
+    "Was/were is the past of \"to be\": I/he/she/it was, you/we/they were.",
+    "Negatives and questions with ordinary verbs use did/didn't + base form — never the past form.",
+    "\"To be\" never uses \"did\": use was/were directly."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/q-simple-past-i.docx", "pdf": "cefr/a2-elementary/q-simple-past-i.pdf" }
+}

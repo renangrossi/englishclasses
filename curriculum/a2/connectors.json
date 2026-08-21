@@ -1,0 +1,79 @@
+{
+  "id": "a2-connectors",
+  "level": "A2",
+  "unit": "1",
+  "order": 12,
+  "skill": "grammar",
+  "strand": "connectors",
+  "title": "Connectors",
+  "subtitle": "Link your ideas smoothly: addition, contrast, reason, and result.",
+  "prerequisites": ["a1-conjunctions-and-but-or"],
+  "objectives": [
+    "Use connectors of addition (also, as well as)",
+    "Use connectors of contrast (but, however, although)",
+    "Use connectors of reason and result (because, so, therefore)"
+  ],
+  "content": {
+    "intro": "You already know \"and,\" \"but,\" and \"or.\" This lesson expands your set of connecting words, organized by what job each one does.",
+    "rules": [
+      {
+        "heading": "Addition",
+        "body": "<p>and, also, too, as well as, moreover, furthermore — add a similar idea.</p>"
+      },
+      {
+        "heading": "Contrast",
+        "body": "<p>but, however, although, though, whereas, on the other hand — show a difference or surprise.</p>"
+      },
+      {
+        "heading": "Reason & Result",
+        "body": "<p>because/since/as (reason) → so/therefore (result). \"Because\" gives the cause; \"so\" gives the effect.</p>"
+      }
+    ],
+    "examples": [
+      "I like coffee, but I don't like tea.",
+      "She studied hard, so she passed the exam.",
+      "He is tired, and he wants to rest.",
+      "Although it was raining, we went for a walk.",
+      "I stayed home because I was sick.",
+      "She's very talented; however, she doesn't have much experience."
+    ],
+    "commonMistakes": [
+      { "wrong": "I like coffee, so I don't like tea.", "right": "I like coffee, but I don't like tea.", "why": "\"So\" shows result, not contrast — a contrast between two preferences needs \"but.\"" },
+      { "wrong": "She studied hard, but she passed the exam.", "right": "She studied hard, so she passed the exam.", "why": "Studying causing success is a result, not a contrast — use \"so.\"" },
+      { "wrong": "Although it was raining, but we went for a walk.", "right": "Although it was raining, we went for a walk.", "why": "Don't combine \"although\" with \"but\" — the contrast is already built into \"although.\"" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2conn-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the best connector.",
+      "items": [
+        { "id": "a2conn1", "prompt": "I like coffee, ___ I don't like tea.", "answers": [["but"]], "options": ["but", "so", "and"], "explanation": "A contrast between two preferences needs \"but.\"" },
+        { "id": "a2conn2", "prompt": "She studied hard, ___ she passed the exam.", "answers": [["so"]], "options": ["so", "but", "although"], "explanation": "Studying causes passing — a result, so \"so.\"" },
+        { "id": "a2conn3", "prompt": "I stayed home ___ I was sick.", "answers": [["because"]], "options": ["because", "so", "but"], "explanation": "\"Because\" introduces the reason." },
+        { "id": "a2conn4", "prompt": "He wanted to buy the car, ___ he didn't have enough money.", "answers": [["but", "however"]], "options": ["but", "so", "because"], "explanation": "A contrast (wanted it, but couldn't) needs \"but\" or \"however.\"" }
+      ]
+    },
+    {
+      "id": "a2conn-mc", "type": "multiple-choice", "title": "Choose the Correct Connector",
+      "items": [
+        { "id": "a2conn5", "prompt": "\"___ it was raining, we went for a walk.\" — which word fits, without adding \"but\" later?", "options": ["Because", "Although", "So"], "answerIndex": 1, "explanation": "\"Although\" already contains the contrast, so no \"but\" is needed afterward." },
+        { "id": "a2conn6", "prompt": "She's very talented; ___, she doesn't have much experience.", "options": ["therefore", "however", "because"], "answerIndex": 1, "explanation": "\"However\" introduces a contrasting fact." }
+      ]
+    },
+    {
+      "id": "a2conn-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2conn7", "incorrect": "Although it was late, but we kept working.", "answer": ["Although it was late, we kept working."], "explanation": "Don't combine \"although\" with \"but\" — the contrast is already built in." },
+        { "id": "a2conn8", "incorrect": "It was raining, so we stayed inside because we got wet.", "answer": ["It was raining, so we stayed inside.", "We got wet because it was raining."], "explanation": "\"So\" (result) and \"because\" (reason) shouldn't be mixed backwards in the same clause — keep cause and effect in a clear order." }
+      ]
+    }
+  ],
+  "summary": [
+    "Addition: also, as well as, moreover. Contrast: but, however, although. Reason: because/since. Result: so/therefore.",
+    "Don't combine \"although\" (or \"whereas\") with \"but\" — the contrast is already built in.",
+    "\"Because\" introduces the cause; \"so\" introduces the effect — keep the order clear."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/o-connectors.docx", "pdf": "cefr/a2-elementary/o-connectors.pdf" }
+}

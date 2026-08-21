@@ -1,0 +1,70 @@
+{
+  "id": "a2-who-which-that",
+  "level": "A2",
+  "unit": "1",
+  "order": 11,
+  "skill": "grammar",
+  "strand": "relative-clauses",
+  "title": "Who, Which, That",
+  "subtitle": "Add extra information about a person or thing in the same sentence.",
+  "prerequisites": ["a1-nouns"],
+  "objectives": [
+    "Use \"who\" for people",
+    "Use \"which\" for things, especially with extra, comma-separated information",
+    "Use \"that\" for people or things, without commas"
+  ],
+  "content": {
+    "intro": "Instead of two short sentences (\"I have a dog. It loves to play.\"), you can combine them into one, more natural sentence using who, which, or that.",
+    "rules": [
+      {
+        "heading": "The basics",
+        "body": "<ul><li><strong>who</strong> → people: The man who lives next door is friendly.</li><li><strong>which</strong> → things, often with extra information set off by commas: The book, which you gave me, is very interesting.</li><li><strong>that</strong> → people or things, no commas, common in everyday speech: I have a dog that loves to play fetch.</li></ul>"
+      }
+    ],
+    "examples": [
+      "The man who lives next door is very friendly.",
+      "I have a dog that loves to play fetch.",
+      "The book, which you gave me, is very interesting.",
+      "The teacher who taught us math is retiring.",
+      "The car, which she bought last year, is red.",
+      "This is the restaurant that we talked about."
+    ],
+    "commonMistakes": [
+      { "wrong": "The man which lives next door is friendly.", "right": "The man who lives next door is friendly.", "why": "\"Which\" is for things, not people — use \"who\" (or \"that\")." },
+      { "wrong": "I have a dog who loves to play. (informal, less standard)", "right": "I have a dog that loves to play. / I have a dog which loves to play.", "why": "For animals and things, \"that\" or \"which\" is the standard choice, not \"who.\"" },
+      { "wrong": "The book, that you gave me, is interesting.", "right": "The book, which you gave me, is interesting.", "why": "\"That\" is never used with commas (extra information) — use \"which\" instead." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2wwt-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with who, which, or that.",
+      "items": [
+        { "id": "a2wwt1", "prompt": "The man ___ lives next door is very friendly.", "answers": [["who", "that"]], "explanation": "\"Who\" or \"that\" for a person." },
+        { "id": "a2wwt2", "prompt": "I have a dog ___ loves to play fetch.", "answers": [["that", "which"]], "explanation": "\"That\" or \"which\" for an animal/thing." },
+        { "id": "a2wwt3", "prompt": "The book, ___ you gave me, is very interesting.", "answers": [["which"]], "explanation": "Extra information with commas needs \"which,\" never \"that.\"" },
+        { "id": "a2wwt4", "prompt": "The teacher ___ taught us math is retiring.", "answers": [["who", "that"]], "explanation": "\"Who\" or \"that\" for a person." }
+      ]
+    },
+    {
+      "id": "a2wwt-mc", "type": "multiple-choice", "title": "Choose the Correct Word",
+      "items": [
+        { "id": "a2wwt5", "prompt": "The car, ___ she bought last year, is red.", "options": ["that", "which", "who"], "answerIndex": 1, "explanation": "Extra, comma-separated information about a thing needs \"which.\"" },
+        { "id": "a2wwt6", "prompt": "This is the restaurant ___ we talked about.", "options": ["who", "that", "which one"], "answerIndex": 1, "explanation": "\"That\" is the natural, everyday choice here (no commas, defining information)." }
+      ]
+    },
+    {
+      "id": "a2wwt-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2wwt7", "incorrect": "The woman which called you is my sister.", "answer": ["The woman who called you is my sister.", "The woman that called you is my sister."], "explanation": "\"Which\" is only for things, not people." },
+        { "id": "a2wwt8", "incorrect": "My car, that is very old, still works.", "answer": ["My car, which is very old, still works."], "explanation": "\"That\" is never used with commas — use \"which\" instead." }
+      ]
+    }
+  ],
+  "summary": [
+    "Who = people. Which = things, often with commas. That = people or things, no commas.",
+    "Never use \"that\" with commas — use \"which\" for extra information about a thing."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/n-who-which-that.docx", "pdf": "cefr/a2-elementary/n-who-which-that.pdf" }
+}

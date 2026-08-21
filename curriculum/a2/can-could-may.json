@@ -1,0 +1,81 @@
+{
+  "id": "a2-can-could-may",
+  "level": "A2",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammar",
+  "strand": "modals",
+  "title": "Can, Could, May",
+  "subtitle": "Talk about ability, permission, and polite requests.",
+  "prerequisites": ["a2-simple-past-i"],
+  "objectives": [
+    "Use can for present ability and informal permission",
+    "Use could for past ability and polite requests",
+    "Use may for formal permission and possibility"
+  ],
+  "content": {
+    "intro": "These three small words let you talk about what people are able to do, what they're allowed to do, and how to ask for things politely.",
+    "rules": [
+      {
+        "heading": "a) Can",
+        "body": "<ul><li>Present ability: She can speak three languages.</li><li>Informal permission: Can I open the window?</li></ul>"
+      },
+      {
+        "heading": "b) Could",
+        "body": "<ul><li>Past ability: They could play the guitar when they were younger.</li><li>Polite requests: Could you help me with my homework?</li></ul>"
+      },
+      {
+        "heading": "c) May",
+        "body": "<ul><li>Formal permission: May I go to the bathroom?</li><li>Possibility: It may rain later.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Can you help me with my homework?",
+      "She can speak three languages fluently.",
+      "Could I borrow your pen, please?",
+      "They could play the guitar when they were younger.",
+      "May I go to the bathroom?",
+      "It may rain later this afternoon."
+    ],
+    "commonMistakes": [
+      { "wrong": "She can to speak three languages.", "right": "She can speak three languages.", "why": "Modal verbs (can, could, may) are never followed by \"to\" — use the bare infinitive." },
+      { "wrong": "She cans speak French.", "right": "She can speak French.", "why": "Modal verbs never add -s, even for he/she/it." },
+      { "wrong": "Could you helped me?", "right": "Could you help me?", "why": "After \"could,\" use the base form of the verb, not the past form." },
+      { "wrong": "I can swimming very well.", "right": "I can swim very well.", "why": "After \"can,\" use the base form of the verb, not the -ing form." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2ccm-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with can, could, or may.",
+      "items": [
+        { "id": "a2ccm1", "prompt": "___ you help me with my homework?", "answers": [["Can", "Could"]], "explanation": "Both work here as a request, \"could\" being more polite/formal." },
+        { "id": "a2ccm2", "prompt": "She ___ speak three languages fluently.", "answers": [["can"]], "explanation": "Present ability — \"can.\"" },
+        { "id": "a2ccm3", "prompt": "They ___ play the guitar when they were younger.", "answers": [["could"]], "explanation": "Past ability — \"could.\"" },
+        { "id": "a2ccm4", "prompt": "___ I go to the bathroom? (formal, asking the teacher)", "answers": [["May", "Can"]], "explanation": "\"May\" is the more formal option; \"can\" is also commonly accepted." }
+      ]
+    },
+    {
+      "id": "a2ccm-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "a2ccm5", "prompt": "It ___ rain later — the sky looks dark.", "options": ["can", "may", "could you"], "answerIndex": 1, "explanation": "\"May\" expresses possibility here." },
+        { "id": "a2ccm6", "prompt": "___ you swim when you were five?", "options": ["Can", "Could", "May"], "answerIndex": 1, "explanation": "Past ability needs \"could,\" not \"can.\"" }
+      ]
+    },
+    {
+      "id": "a2ccm-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2ccm7", "incorrect": "She can to swim very well.", "answer": ["She can swim very well."], "explanation": "Never use \"to\" after a modal verb." },
+        { "id": "a2ccm8", "incorrect": "He cans play the piano.", "answer": ["He can play the piano."], "explanation": "Modal verbs never take -s." }
+      ]
+    }
+  ],
+  "summary": [
+    "Can = present ability / informal permission.",
+    "Could = past ability / polite requests.",
+    "May = formal permission / possibility.",
+    "Modal verbs are always followed by the bare infinitive — never \"to,\" never -s, never -ing."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/g-can-could-may.docx", "pdf": "cefr/a2-elementary/g-can-could-may.pdf" }
+}

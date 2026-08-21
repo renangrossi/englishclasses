@@ -1,0 +1,77 @@
+{
+  "id": "a2-comparatives-and-superlatives-i",
+  "level": "A2",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "comparatives",
+  "title": "Comparatives & Superlatives I",
+  "subtitle": "Compare two things, or say which one is the most/least in a group.",
+  "prerequisites": ["a1-adjectives"],
+  "objectives": [
+    "Form comparative adjectives (bigger, more interesting, less expensive)",
+    "Form superlative adjectives (the biggest, the most interesting, the least expensive)",
+    "Express equality (as...as) and inferiority (less...than)"
+  ],
+  "content": {
+    "intro": "You use comparisons every day — this house vs. that one, this year vs. last year. English forms them differently depending on how long the adjective is.",
+    "rules": [
+      {
+        "heading": "a) Comparative — two things",
+        "body": "<ul><li>Short adjectives (1 syllable, or 2 ending in -y): add -er → bigger, taller, happier</li><li>Long adjectives (2+ syllables): more/less + adjective → more interesting, less expensive</li><li>Equality: as + adjective + as → as big as</li><li>Inferiority: less + adjective + than → less expensive than</li></ul>"
+      },
+      {
+        "heading": "b) Superlative — three or more things",
+        "body": "<ul><li>Short adjectives: the + adjective + -est → the biggest, the tallest</li><li>Long adjectives: the most/least + adjective → the most interesting, the least expensive</li></ul>"
+      }
+    ],
+    "examples": [
+      "This house is bigger than that one.",
+      "She is as tall as her sister.",
+      "This book is more interesting than the other one.",
+      "This is the most beautiful place I have ever seen.",
+      "My car isn't as fast as yours.",
+      "She is the smartest student in the group."
+    ],
+    "commonMistakes": [
+      { "wrong": "This book is more interesting as the other one.", "right": "This book is more interesting than the other one.", "why": "The comparative uses \"than,\" not \"as,\" to compare two things." },
+      { "wrong": "She is the more smart student.", "right": "She is the smartest student.", "why": "\"Smart\" is a short adjective — use -est, not \"more.\"" },
+      { "wrong": "This is the beautifulest place.", "right": "This is the most beautiful place.", "why": "\"Beautiful\" is a long adjective — use \"the most,\" not -est." },
+      { "wrong": "My car is fast as yours.", "right": "My car is as fast as yours.", "why": "Equality needs \"as\" on both sides: as + adjective + as." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2cs-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct comparative or superlative form.",
+      "items": [
+        { "id": "a2cs1", "prompt": "This house is ___ (big) than that one.", "answers": [["bigger"]], "explanation": "Short adjective, comparative: big → bigger." },
+        { "id": "a2cs2", "prompt": "This book is ___ (interesting) than the other one.", "answers": [["more interesting"]], "explanation": "Long adjective, comparative: more + interesting." },
+        { "id": "a2cs3", "prompt": "This is ___ (beautiful) place I have ever seen.", "answers": [["the most beautiful"]], "explanation": "Long adjective, superlative: the most + beautiful." },
+        { "id": "a2cs4", "prompt": "She is ___ (smart) student in the group.", "answers": [["the smartest"]], "explanation": "Short adjective, superlative: smart → the smartest." },
+        { "id": "a2cs5", "prompt": "Today is ___ (hot) day of the year.", "answers": [["the hottest"]], "explanation": "Short adjective ending in a single vowel+consonant doubles the consonant: hot → hottest." }
+      ]
+    },
+    {
+      "id": "a2cs-mc", "type": "multiple-choice", "title": "Choose the Correct Form",
+      "items": [
+        { "id": "a2cs6", "prompt": "She ___ as her sister. (equal height)", "options": ["is tall", "is as tall", "is taller"], "answerIndex": 1, "explanation": "Equality needs \"as + adjective + as\": is as tall as." },
+        { "id": "a2cs7", "prompt": "He is ___ than his brother. (less young)", "options": ["young", "youngest", "younger"], "answerIndex": 2, "explanation": "Comparative, short adjective: young → younger." }
+      ]
+    },
+    {
+      "id": "a2cs-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2cs8", "incorrect": "This task is more difficult as the last one.", "answer": ["This task is more difficult than the last one."], "explanation": "The comparative uses \"than,\" not \"as.\"" },
+        { "id": "a2cs9", "incorrect": "She is the intelligentest person I know.", "answer": ["She is the most intelligent person I know."], "explanation": "\"Intelligent\" is a long adjective — use \"the most,\" not -est." }
+      ]
+    }
+  ],
+  "summary": [
+    "Short adjectives: -er (comparative) / the -est (superlative).",
+    "Long adjectives: more/less (comparative) / the most/least (superlative).",
+    "Equality: as + adjective + as. Comparative always pairs with \"than,\" never \"as.\""
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/d-comparatives-and-superlatives-i.docx", "pdf": "cefr/a2-elementary/d-comparatives-and-superlatives-i.pdf" }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "a2-zero-and-first-conditionals",
+  "level": "A2",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammar",
+  "strand": "conditionals",
+  "title": "Zero & First Conditionals",
+  "subtitle": "Talk about general truths, and about real possibilities in the future.",
+  "prerequisites": ["a1-simple-present-i"],
+  "objectives": [
+    "Form the zero conditional for general truths and facts",
+    "Form the first conditional for real, possible future situations",
+    "Tell the two apart based on meaning"
+  ],
+  "content": {
+    "intro": "\"If\" sentences let you connect a condition to a result. These first two types are the most common in everyday English.",
+    "rules": [
+      {
+        "heading": "a) Zero conditional — general truths",
+        "body": "<p>If + present simple, present simple. Used for things that are always true (facts, habits, science).</p><ul><li>If you heat water to 100°C, it boils.</li><li>If it rains, the streets get wet.</li></ul>"
+      },
+      {
+        "heading": "b) First conditional — real future possibility",
+        "body": "<p>If + present simple, will + base verb. Used for something that could realistically happen in the future.</p><ul><li>If it rains tomorrow, we will stay at home.</li><li>If she studies hard, she will pass the exam.</li></ul>"
+      }
+    ],
+    "examples": [
+      "If you mix red and blue, you get purple.",
+      "If it rains tomorrow, we will stay at home.",
+      "If she studies hard, she always gets good grades.",
+      "If they finish their work on time, they will go to the party.",
+      "If you don't water plants, they die.",
+      "If I have time this weekend, I will call you."
+    ],
+    "commonMistakes": [
+      { "wrong": "If it will rain, we will stay home.", "right": "If it rains, we will stay home.", "why": "The \"if\" clause never uses \"will\" — use the present simple, even though the meaning is future." },
+      { "wrong": "If you heat water, it will boil at 100°C. (as a general fact)", "right": "If you heat water to 100°C, it boils.", "why": "A general, always-true fact needs the zero conditional (present + present), not \"will.\"" },
+      { "wrong": "If she study hard, she will pass.", "right": "If she studies hard, she will pass.", "why": "Third person singular (she) still needs -s in the \"if\" clause." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2cond-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct zero or first conditional form.",
+      "items": [
+        { "id": "a2cond1", "prompt": "If you ___ (heat) water to 100 degrees, it ___ (boil).", "answers": [["heat"], ["boils"]], "explanation": "A general scientific fact — zero conditional, present + present." },
+        { "id": "a2cond2", "prompt": "If it ___ (rain) tomorrow, we ___ (stay) at home.", "answers": [["rains"], ["will stay"]], "explanation": "A real future possibility — first conditional, present + will." },
+        { "id": "a2cond3", "prompt": "If she ___ (study) hard, she always ___ (get) good grades.", "answers": [["studies"], ["gets"]], "explanation": "A general truth about her — zero conditional." },
+        { "id": "a2cond4", "prompt": "If they ___ (finish) their work on time, they ___ (go) to the party.", "answers": [["finish"], ["will go"]], "explanation": "A real future possibility — first conditional." }
+      ]
+    },
+    {
+      "id": "a2cond-mc", "type": "multiple-choice", "title": "Choose the Correct Sentence",
+      "items": [
+        { "id": "a2cond5", "prompt": "Which sentence is a general, always-true fact?", "options": ["If it rains tomorrow, I will bring an umbrella.", "If you mix red and blue, you get purple.", "If she calls, I will answer."], "answerIndex": 1, "explanation": "Mixing colors is a general fact — zero conditional." },
+        { "id": "a2cond6", "prompt": "Which sentence describes a real possibility for the future?", "options": ["If water freezes, it becomes ice.", "If I have time this weekend, I will call you.", "If plants don't get water, they die."], "answerIndex": 1, "explanation": "This describes a specific, possible future event — first conditional." }
+      ]
+    },
+    {
+      "id": "a2cond-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2cond7", "incorrect": "If it will rain, we will stay home.", "answer": ["If it rains, we will stay home."], "explanation": "The \"if\" clause never uses \"will,\" even when talking about the future." },
+        { "id": "a2cond8", "incorrect": "If she study hard, she will pass the exam.", "answer": ["If she studies hard, she will pass the exam."], "explanation": "Third person singular needs -s in the \"if\" clause." }
+      ]
+    }
+  ],
+  "summary": [
+    "Zero conditional: If + present, present — for general truths and facts.",
+    "First conditional: If + present, will + base verb — for real future possibilities.",
+    "The \"if\" clause never uses \"will,\" in either type."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/l-zero-and-first-conditionals.docx", "pdf": "cefr/a2-elementary/l-zero-and-first-conditionals.pdf" }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "a2-simple-past-vs-past-continuous",
+  "level": "A2",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammar",
+  "strand": "simple-past",
+  "title": "Simple Past vs. Past Continuous",
+  "subtitle": "Describe one action interrupting another in the past.",
+  "prerequisites": ["a2-simple-past-i", "a2-simple-past-ii"],
+  "objectives": [
+    "Form the past continuous (was/were + -ing)",
+    "Use the past continuous for a longer, background action",
+    "Use the simple past for a shorter action that interrupts it",
+    "Combine both in a \"while\"/\"when\" sentence"
+  ],
+  "content": {
+    "intro": "Now that Simple Past is solid, let's add a new tense that works together with it: the past continuous, for describing what was already happening when something else occurred.",
+    "rules": [
+      {
+        "heading": "The pattern",
+        "body": "<ul><li><strong>Past continuous</strong> (was/were + verb-ing) = the longer, background action, already in progress</li><li><strong>Simple past</strong> = the shorter action that interrupts it, or happens during it</li><li>While + past continuous, simple past. / Simple past + when + past continuous.</li></ul>"
+      }
+    ],
+    "examples": [
+      "While I was walking to the park, I saw an old friend.",
+      "She was cooking dinner when the phone rang.",
+      "They were playing football when it suddenly started to rain.",
+      "I was watching TV when my brother came home.",
+      "He was reading a book while she was writing a letter.",
+      "We were having dinner when the power went out."
+    ],
+    "commonMistakes": [
+      { "wrong": "He was played soccer when it started to rain.", "right": "He was playing soccer when it started to rain.", "why": "The past continuous needs the -ing form (playing), not the past form (played), after was/were." },
+      { "wrong": "They was studying when the power went out.", "right": "They were studying when the power went out.", "why": "\"They\" needs \"were,\" not \"was.\"" },
+      { "wrong": "I finished my homework while I was watched TV.", "right": "I finished my homework while I was watching TV.", "why": "After \"was,\" always use the -ing form." },
+      { "wrong": "He ate dinner when she was arrived.", "right": "He ate dinner when she arrived.", "why": "A short, completed action (arrived) needs the simple past, not the past continuous — \"was arrived\" isn't a real form." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2spc-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct form (simple past or past continuous).",
+      "items": [
+        { "id": "a2spc1", "prompt": "While I ___ (walk) to the park, I ___ (see) an old friend.", "answers": [["was walking"], ["saw"]], "explanation": "Background action (was walking) + interrupting event (saw)." },
+        { "id": "a2spc2", "prompt": "She ___ (cook) dinner when the phone ___ (ring).", "answers": [["was cooking"], ["rang"]], "explanation": "Background action + short interrupting event." },
+        { "id": "a2spc3", "prompt": "They ___ (play) football when it suddenly ___ (start) to rain.", "answers": [["were playing"], ["started"]], "explanation": "\"They\" needs \"were playing\"; the sudden event is simple past." }
+      ]
+    },
+    {
+      "id": "a2spc-mc", "type": "multiple-choice", "title": "Choose the Correct Form",
+      "items": [
+        { "id": "a2spc4", "prompt": "I ___ when the phone rang.", "options": ["slept", "was sleeping", "sleep"], "answerIndex": 1, "explanation": "The background action (already in progress) is past continuous." },
+        { "id": "a2spc5", "prompt": "She ___ when I called her.", "options": ["cooked", "was cooking", "cooks"], "answerIndex": 1, "explanation": "The action in progress at that past moment is past continuous." },
+        { "id": "a2spc6", "prompt": "We ___ dinner when the lights went out.", "options": ["were eating", "ate", "eat"], "answerIndex": 0, "explanation": "The ongoing action interrupted by the event is past continuous." }
+      ]
+    },
+    {
+      "id": "a2spc-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2spc7", "incorrect": "He was played soccer when it started to rain.", "answer": ["He was playing soccer when it started to rain."], "explanation": "Past continuous needs the -ing form after was/were." },
+        { "id": "a2spc8", "incorrect": "They was studying for the exam when the power went out.", "answer": ["They were studying for the exam when the power went out."], "explanation": "\"They\" takes \"were,\" not \"was.\"" }
+      ]
+    }
+  ],
+  "summary": [
+    "Past continuous (was/were + -ing) = the longer, background action.",
+    "Simple past = the shorter action that interrupts it.",
+    "While + past continuous, simple past — or simple past + when + past continuous."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/p-simple-past-vs.-past-continuous.docx", "pdf": "cefr/a2-elementary/p-simple-past-vs.-past-continuous.pdf" }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "a2-present-simple-and-continuous-review",
+  "level": "A2",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "present-tenses",
+  "title": "Present Simple & Present Continuous Review",
+  "subtitle": "Know exactly which present tense to use, and why.",
+  "prerequisites": ["a1-simple-present-i", "a1-present-continuous-i"],
+  "objectives": [
+    "Use the present simple for habits, routines and general facts",
+    "Use the present continuous for actions happening right now or temporary situations",
+    "Recognize the time words that signal each tense",
+    "Choose correctly between the two when both are grammatically possible"
+  ],
+  "content": {
+    "intro": "You already learned each tense separately at A1. The real skill at A2 is choosing correctly between them — most mistakes come from mixing them up, not from forming them wrong.",
+    "rules": [
+      {
+        "heading": "a) Present simple — habits, routines, facts",
+        "body": "<p>Use it for things that are generally or repeatedly true, not just happening at this moment.</p><ul><li>I go to school every day. (a routine)</li><li>Water boils at 100°C. (a general fact)</li><li>Signal words: always, usually, often, sometimes, every day/week, on Mondays.</li></ul>"
+      },
+      {
+        "heading": "b) Present continuous — now, or temporary",
+        "body": "<p>Use it for an action in progress at this exact moment, or a temporary situation around now.</p><ul><li>She is reading a book right now. (happening now)</li><li>I'm studying English this year. (temporary, even if not this exact second)</li><li>Signal words: now, right now, at the moment, look!, listen!, this week/month/year.</li></ul>"
+      },
+      {
+        "heading": "c) Choosing between them",
+        "body": "<p>Ask: is this a repeated habit, or is it happening right now/temporarily? \"He works in a bank\" (his job, a routine) is different from \"He is working late this week\" (temporary, this week only).</p>"
+      }
+    ],
+    "examples": [
+      "I go to school every day.",
+      "Look! She is running in the park.",
+      "They play basketball every Saturday.",
+      "He is watching TV right now.",
+      "We go to the gym after school.",
+      "It's raining outside at the moment."
+    ],
+    "commonMistakes": [
+      { "wrong": "I am go to school every day.", "right": "I go to school every day.", "why": "A routine (every day) needs the present simple, not the continuous." },
+      { "wrong": "Look! She runs in the park.", "right": "Look! She is running in the park.", "why": "\"Look!\" signals something happening right now — use the present continuous." },
+      { "wrong": "She reading a book now.", "right": "She is reading a book now.", "why": "The present continuous always needs the verb \"to be\" (is/am/are) before the -ing form." },
+      { "wrong": "He watch TV right now.", "right": "He is watching TV right now.", "why": "\"Right now\" needs the present continuous, and third person (he) needs \"is,\" not the bare verb." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2ps-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct present simple or present continuous form of the verb.",
+      "items": [
+        { "id": "a2ps1", "prompt": "I ___ (go) to school every day.", "answers": [["go"]], "explanation": "\"Every day\" signals a routine — present simple." },
+        { "id": "a2ps2", "prompt": "She ___ (read) a book right now.", "answers": [["is reading"]], "explanation": "\"Right now\" signals the present continuous." },
+        { "id": "a2ps3", "prompt": "He usually ___ (wake up) at 7 AM.", "answers": [["wakes up"]], "explanation": "\"Usually\" signals a routine — present simple, with -s for he." },
+        { "id": "a2ps4", "prompt": "We ___ (watch) a movie at the moment.", "answers": [["are watching"]], "explanation": "\"At the moment\" signals the present continuous." },
+        { "id": "a2ps5", "prompt": "My parents ___ (work) in the garden every weekend.", "answers": [["work"]], "explanation": "\"Every weekend\" signals a routine — present simple." }
+      ]
+    },
+    {
+      "id": "a2ps-mc", "type": "multiple-choice", "title": "Choose the Correct Form",
+      "items": [
+        { "id": "a2ps6", "prompt": "I usually ___ coffee in the morning.", "options": ["drink", "drinks", "am drinking"], "answerIndex": 0, "explanation": "\"Usually\" + \"I\" → present simple, base form." },
+        { "id": "a2ps7", "prompt": "Look! She ___ in the park.", "options": ["runs", "is running", "run"], "answerIndex": 1, "explanation": "\"Look!\" signals something happening right now." },
+        { "id": "a2ps8", "prompt": "They ___ basketball every Saturday.", "options": ["are playing", "play", "plays"], "answerIndex": 1, "explanation": "\"Every Saturday\" is a routine — present simple, and \"they\" takes the base form." },
+        { "id": "a2ps9", "prompt": "It ___ a lot in this season.", "options": ["rains", "is raining", "rain"], "answerIndex": 0, "explanation": "A general fact about the season — present simple, with -s for \"it.\"" }
+      ]
+    },
+    {
+      "id": "a2ps-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2ps10", "incorrect": "She always go to the gym on Mondays.", "answer": ["She always goes to the gym on Mondays."], "explanation": "Third person singular (she) needs -s in the present simple." },
+        { "id": "a2ps11", "incorrect": "He watch TV right now.", "answer": ["He is watching TV right now."], "explanation": "\"Right now\" needs the present continuous (is + -ing)." },
+        { "id": "a2ps12", "incorrect": "They sometimes eats dinner at 7 PM.", "answer": ["They sometimes eat dinner at 7 PM."], "explanation": "\"They\" doesn't take -s in the present simple." }
+      ]
+    }
+  ],
+  "summary": [
+    "Present simple = habits, routines, general facts (always, usually, every day).",
+    "Present continuous = happening now, or temporary (now, right now, this week, Look!).",
+    "The present continuous always needs am/is/are before the -ing verb.",
+    "Third person singular (he/she/it) adds -s only in the present simple, never in the continuous."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/a-present-simple-and-continuous-review.docx", "pdf": "cefr/a2-elementary/a-present-simple-and-continuous-review.pdf" }
+}

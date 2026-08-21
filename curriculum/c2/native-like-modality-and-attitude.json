@@ -1,0 +1,304 @@
+{
+  "id": "c2-native-like-modality-and-attitude",
+  "level": "C2",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "native-like-modality-and-attitude",
+  "title": "Native-Like Use of Modality and Attitude",
+  "subtitle": "C2 modality goes beyond certainty/possibility to convey fine shades of tentativeness, concession, politeness and layered epistemic stance — how confident, cauti…",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: Subtle modal shading",
+    "Understand and use: Layered modality — combining more than one modal expression (typically a modal + a modal-like verb phrase such as \"expected to,\" \"supposed to,\" \"meant to\") to express a nuanced, sometimes ironic, stance on an obligation or expectation that itself involves uncertainty.",
+    "Understand and use: Epistemic stance markers — phrases that signal how the writer/speaker is framing their own certainty, common in academic and diplomatic register."
+  ],
+  "content": {
+    "intro": "C2 modality goes beyond certainty/possibility to convey fine shades of tentativeness, concession, politeness and layered epistemic stance — how confident, cautious or diplomatic the speaker wants to sound.",
+    "rules": [
+      {
+        "heading": "a) Subtle modal shading",
+        "body": "<ul><li>Tentativeness/hedging: might, could, would seem to, it could be said that, one might argue. It would seem that the strategy has largely failed. (softer, more diplomatic than \"The strategy has failed\")</li><li>Concession within modality: may/might + well (acknowledging a point is likely true, often before contrasting it): She might well be right, but I still have reservations.</li><li>Politeness distancing: would/could/might used to soften requests, suggestions or opinions, creating social distance and respect. Might I suggest an alternative approach? (very formal/polite) vs. Can I suggest...? (neutral)</li></ul>"
+      },
+      {
+        "heading": "b) Layered modality — combining more than one modal expression (typically a modal + a modal-like verb phrase such as \"expected to,\" \"supposed to,\" \"meant to\") to express a nuanced, sometimes ironic, stance on an obligation or expectation that itself involves uncertainty.",
+        "body": "<p>He might have been expected to apologize, but he never did. (= it would have been reasonable to expect an apology, though uncertainty/distance is baked in)</p><p>She should, in theory, have been informed beforehand.</p>"
+      },
+      {
+        "heading": "c) Epistemic stance markers — phrases that signal how the writer/speaker is framing their own certainty, common in academic and diplomatic register.",
+        "body": "<p>It is conceivable that... / There is reason to believe that... / One cannot rule out the possibility that... / It stands to reason that...</p><p>Native-like control means choosing the modal combination that matches exactly how certain, cautious, or polite you intend to sound — not just whether something is possible or necessary.</p>"
+      }
+    ],
+    "examples": [
+      "It would seem that the negotiations have reached a stalemate.",
+      "She might well be the most qualified candidate, but the panel remains divided.",
+      "Might I suggest we revisit this proposal at a later date?",
+      "He might have been expected to resign after the scandal, yet he remains in office.",
+      "One cannot rule out the possibility that the results were affected by bias.",
+      "There is reason to believe that the original estimate was overly optimistic.",
+      "It could be argued that the reform, while well-intentioned, was poorly executed.",
+      "She should, in theory, have received the documents by now.",
+      "It stands to reason that costs would rise given the current shortages.",
+      "He may well have a point, but the timing of his objection is questionable."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "It would seem the strategy fails.",
+        "right": "It would seem that the strategy has failed.",
+        "why": "This hedged structure typically requires \"that\" before the clause, and the verb tense should match the intended time frame (here, a completed failure)."
+      },
+      {
+        "wrong": "She might well being right.",
+        "right": "She might well be right.",
+        "why": "After \"might well,\" use the bare infinitive (\"be\"), not the gerund."
+      },
+      {
+        "wrong": "He might have expected to apologize.",
+        "right": "He might have been expected to apologize.",
+        "why": "\"Be expected to\" is a passive structure (others expected it of him); dropping \"been\" changes the meaning to \"he expected himself.\""
+      },
+      {
+        "wrong": "It cannot rule out the possibility that costs will rise.",
+        "right": "One cannot rule out the possibility that costs will rise.",
+        "why": "The impersonal subject here is \"one\" (or \"we\"), not \"it\" — \"it\" doesn't fit this fixed epistemic phrase."
+      },
+      {
+        "wrong": "Might I to suggest an alternative?",
+        "right": "Might I suggest an alternative?",
+        "why": "After the inverted modal \"Might I,\" use the bare infinitive directly, without \"to.\""
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "native-like-modality-and-attitude-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (complete with the correct modal/epistemic phrase)",
+      "items": [
+        {
+          "id": "native-like-modality-and-attitude-a1",
+          "prompt": "It would ___ (seem) that the plan has stalled entirely.",
+          "answers": [
+            [
+              "seem"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "native-like-modality-and-attitude-a2",
+          "prompt": "She might ___ (well) be correct, but I'd like more evidence.",
+          "answers": [
+            [
+              "well"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "native-like-modality-and-attitude-a3",
+          "prompt": "___ I suggest we postpone the decision until next week? (very formal request)",
+          "answers": [
+            [
+              "Might"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "native-like-modality-and-attitude-a4",
+          "prompt": "He ___ (might/expect) to know better, given his experience.",
+          "answers": [
+            [
+              "might have been expected"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "native-like-modality-and-attitude-a5",
+          "prompt": "There is reason ___ (believe) the figures were manipulated.",
+          "answers": [
+            [
+              "to believe"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "native-like-modality-and-attitude-a6",
+          "prompt": "It ___ (stand/reason) that demand would fall as prices rose.",
+          "answers": [
+            [
+              "stands to reason"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "native-like-modality-and-attitude-a7",
+          "prompt": "One cannot ___ (rule out) the possibility of further delays.",
+          "answers": [
+            [
+              "rule out"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "native-like-modality-and-attitude-a8",
+          "prompt": "She should, in theory, ___ (already/inform) of the changes.",
+          "answers": [
+            [
+              "have already been informed"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "native-like-modality-and-attitude-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (rewrite each direct statement with the appropriate hedged/modal tone)",
+      "items": [
+        {
+          "id": "native-like-modality-and-attitude-b1",
+          "prompt": "The results are wrong. (make it tentative/hedged)",
+          "answer": [
+            "It would seem that the results are incorrect."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "native-like-modality-and-attitude-b2",
+          "prompt": "Costs will definitely rise. (make it a cautious epistemic claim, not a certainty)",
+          "answer": [
+            "There is reason to believe that costs will rise."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "native-like-modality-and-attitude-b3",
+          "prompt": "Can I suggest a different approach? (make it more formal/polite)",
+          "answer": [
+            "Might I suggest a different approach?"
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "native-like-modality-and-attitude-b4",
+          "prompt": "He should have apologized. (add a layer of distance — \"might have been expected to\")",
+          "answer": [
+            "He might have been expected to apologize."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "native-like-modality-and-attitude-b5",
+          "prompt": "Bias affected the results. (rewrite as a possibility that can't be excluded, using \"one cannot rule out...\")",
+          "answer": [
+            "One cannot rule out the possibility that bias affected the results."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "native-like-modality-and-attitude-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "native-like-modality-and-attitude-c1",
+          "incorrect": "It would seem the negotiations collapse.",
+          "answer": [
+            "It would seem that the negotiations have collapsed."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "native-like-modality-and-attitude-c2",
+          "incorrect": "She might well being the best candidate.",
+          "answer": [
+            "She might well be the best candidate."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "native-like-modality-and-attitude-c3",
+          "incorrect": "He might have expect an apology from her.",
+          "answer": [
+            "He might have expected an apology from her."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "native-like-modality-and-attitude-c4",
+          "incorrect": "It cannot rule out the possibility of a delay.",
+          "answer": [
+            "One cannot rule out the possibility of a delay."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "native-like-modality-and-attitude-c5",
+          "incorrect": "Might I to ask a question?",
+          "answer": [
+            "Might I ask a question?"
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "native-like-modality-and-attitude-c6",
+          "incorrect": "There is reason believe the data is flawed.",
+          "answer": [
+            "There is reason to believe the data is flawed."
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "native-like-modality-and-attitude-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "native-like-modality-and-attitude-d1",
+          "prompt": "Write one sentence using \"It would seem that...\" to hedge an opinion about current events.",
+          "modelAnswer": "It would seem that remote work has permanently changed employer expectations."
+        },
+        {
+          "id": "native-like-modality-and-attitude-d2",
+          "prompt": "Write one sentence using \"might well\" to concede a point before disagreeing with it.",
+          "modelAnswer": "He might well be telling the truth, but I still think we should verify his story."
+        },
+        {
+          "id": "native-like-modality-and-attitude-d3",
+          "prompt": "Write one sentence using \"One cannot rule out the possibility that...\" about an uncertain outcome.",
+          "modelAnswer": "One cannot rule out the possibility that the delay will affect the entire launch schedule."
+        },
+        {
+          "id": "native-like-modality-and-attitude-d4",
+          "prompt": "Write one very formal, polite request using inverted \"Might I...?\"",
+          "modelAnswer": "Might I ask you to reconsider your decision before the meeting concludes?"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) Subtle modal shading",
+    "b) Layered modality — combining more than one modal expression (typically a modal + a modal-like verb phrase such as \"expected to,\" \"supposed to,\" \"meant to\") to express a nuanced, sometimes ironic, stance on an obligation or expectation that itself involves uncertainty.",
+    "c) Epistemic stance markers — phrases that signal how the writer/speaker is framing their own certainty, common in academic and diplomatic register."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c2-proficient/native-like-modality-and-attitude.docx",
+    "txt": "cefr/c2-proficient/native-like-modality-and-attitude.txt",
+    "pdf": "cefr/c2-proficient/native-like-modality-and-attitude.pdf"
+  }
+}

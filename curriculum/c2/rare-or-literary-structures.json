@@ -1,0 +1,304 @@
+{
+  "id": "c2-rare-or-literary-structures",
+  "level": "C2",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "rare-or-literary-structures",
+  "title": "Rare or Literary Structures",
+  "subtitle": "These structures are rare in everyday speech but appear in formal writing, legal/religious language, literature, and set expressions. Recognizing and occasional…",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: Advanced (formal/archaic) subjunctive — the bare base form of the verb (no -s, no \"would/should\") used after certain verbs/adjectives expressing necessity, demand, or recommendation, especially in formal American English and fixed expressions.",
+    "Understand and use: Emphatic \"do\" in literary contexts — \"do/does/did\" + bare infinitive used not to form a question or negative, but to add emphasis or formality, common in literary and rhetorical prose.",
+    "Understand and use: Inverted conditionals with an omitted auxiliary — an extremely formal/literary variant where \"if\" is dropped, the auxiliary is inverted, and sometimes an entire clause is compressed with ellipsis."
+  ],
+  "content": {
+    "intro": "These structures are rare in everyday speech but appear in formal writing, legal/religious language, literature, and set expressions. Recognizing and occasionally using them signals command of the language's outer edges.",
+    "rules": [
+      {
+        "heading": "a) Advanced (formal/archaic) subjunctive — the bare base form of the verb (no -s, no \"would/should\") used after certain verbs/adjectives expressing necessity, demand, or recommendation, especially in formal American English and fixed expressions.",
+        "body": "<p>The committee demanded that he resign immediately. (not \"resigns\")</p><p>It is essential that every member be present.</p><p>Fixed expressions: So be it. Suffice it to say. Be that as it may. Come what may. God save the Queen.</p>"
+      },
+      {
+        "heading": "b) Emphatic \"do\" in literary contexts — \"do/does/did\" + bare infinitive used not to form a question or negative, but to add emphasis or formality, common in literary and rhetorical prose.",
+        "body": "<p>She did say she would come, but she never showed up. (emphasizing that she really did say it)</p><p>Little did I know, this decision did shape the rest of my life.</p>"
+      },
+      {
+        "heading": "c) Inverted conditionals with an omitted auxiliary — an extremely formal/literary variant where \"if\" is dropped, the auxiliary is inverted, and sometimes an entire clause is compressed with ellipsis.",
+        "body": "<p>Had I but known, I would have acted differently. (\"but\" here is an archaic intensifier meaning \"only\")</p><p>Were it not for your generosity, this project would never have existed.</p><p>Be it ever so humble, there's no place like home. (archaic subjunctive + inversion, fixed literary expression)</p><p>These forms are not required for everyday fluency, but recognizing them is essential for reading literature, historical texts, legal documents, and formal ceremonial language — and using one occasionally in writing adds a deliberate note of gravity or formality.</p>"
+      }
+    ],
+    "examples": [
+      "The judge ruled that the defendant be released on bail.",
+      "It is imperative that the report be submitted by Friday.",
+      "Be that as it may, the decision has already been made.",
+      "Suffice it to say, the meeting did not go well.",
+      "She did warn us, but nobody listened.",
+      "Little did we know, the storm did far more damage than expected.",
+      "Had I but known the risks, I would never have agreed.",
+      "Were it not for her intervention, the deal would have collapsed entirely.",
+      "Come what may, the team will finish what it started.",
+      "The board recommended that the policy be reviewed annually."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The committee demanded that he resigns immediately.",
+        "right": "The committee demanded that he resign immediately.",
+        "why": "The formal subjunctive after \"demand that\" uses the bare base form, not the third-person -s form."
+      },
+      {
+        "wrong": "It is essential that every member is present.",
+        "right": "It is essential that every member be present.",
+        "why": "After \"it is essential/imperative/vital that,\" use the subjunctive \"be,\" not \"is.\""
+      },
+      {
+        "wrong": "She did said she would come.",
+        "right": "She did say she would come.",
+        "why": "Emphatic \"do/did\" is followed by the bare infinitive, not the past tense form — the tense is carried by \"did.\""
+      },
+      {
+        "wrong": "Had I but know, I would have acted differently.",
+        "right": "Had I but known, I would have acted differently.",
+        "why": "This inverted structure needs the past participle after \"had,\" matching normal past perfect formation."
+      },
+      {
+        "wrong": "Were not it for her help, we would have failed.",
+        "right": "Were it not for her help, we would have failed.",
+        "why": "Word order in this fixed inversion is \"Were it not for,\" not \"Were not it for.\""
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "rare-or-literary-structures-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (use the correct subjunctive, emphatic \"do,\" or inverted conditional form)",
+      "items": [
+        {
+          "id": "rare-or-literary-structures-a1",
+          "prompt": "It is essential that everyone ___ (be) informed before the vote.",
+          "answers": [
+            [
+              "be"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "rare-or-literary-structures-a2",
+          "prompt": "The board insisted that the CEO ___ (step) down.",
+          "answers": [
+            [
+              "step"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "rare-or-literary-structures-a3",
+          "prompt": "She ___ (do/warn) us, but we didn't take it seriously.",
+          "answers": [
+            [
+              "did warn"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "rare-or-literary-structures-a4",
+          "prompt": "___ (had/I/know) the truth sooner, I would have acted differently.",
+          "answers": [
+            [
+              "Had I known"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "rare-or-literary-structures-a5",
+          "prompt": "___ (be/it) not for his quick thinking, the situation would have been far worse.",
+          "answers": [
+            [
+              "Were it"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "rare-or-literary-structures-a6",
+          "prompt": "It is vital that the evidence ___ (be) reviewed carefully.",
+          "answers": [
+            [
+              "be"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "rare-or-literary-structures-a7",
+          "prompt": "Suffice ___ (it/say), the plan failed spectacularly.",
+          "answers": [
+            [
+              "it to say"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "rare-or-literary-structures-a8",
+          "prompt": "He ___ (do/try) to warn them, though few believed him at the time.",
+          "answers": [
+            [
+              "did try"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "rare-or-literary-structures-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (rewrite each sentence using the literary/formal structure indicated)",
+      "items": [
+        {
+          "id": "rare-or-literary-structures-b1",
+          "prompt": "It's necessary that the manager approves the request. (correct to formal subjunctive)",
+          "answer": [
+            "It's necessary that the manager approve the request."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "rare-or-literary-structures-b2",
+          "prompt": "She really did tell them the truth, even if no one believed her. (keep the emphatic \"did,\" rewrite cleanly)",
+          "answer": [
+            "She did tell them the truth, even if no one believed her."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "rare-or-literary-structures-b3",
+          "prompt": "If I had known that earlier, I would have changed my plans. (rewrite using \"Had I but known...\")",
+          "answer": [
+            "Had I but known that earlier, I would have changed my plans."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "rare-or-literary-structures-b4",
+          "prompt": "If it weren't for your support, this company wouldn't exist. (rewrite using \"Were it not for...\")",
+          "answer": [
+            "Were it not for your support, this company wouldn't exist."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "rare-or-literary-structures-b5",
+          "prompt": "The court ordered that the company pays a fine. (correct to formal subjunctive)",
+          "answer": [
+            "The court ordered that the company pay a fine."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "rare-or-literary-structures-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "rare-or-literary-structures-c1",
+          "incorrect": "It is essential that the report is finalized today.",
+          "answer": [
+            "It is essential that the report be finalized today."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "rare-or-literary-structures-c2",
+          "incorrect": "The judge demanded that the witness tells the truth.",
+          "answer": [
+            "The judge demanded that the witness tell the truth."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "rare-or-literary-structures-c3",
+          "incorrect": "She did said she would help us.",
+          "answer": [
+            "She did say she would help us."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "rare-or-literary-structures-c4",
+          "incorrect": "Had I but know, I would have warned you.",
+          "answer": [
+            "Had I but known, I would have warned you."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "rare-or-literary-structures-c5",
+          "incorrect": "Were not it for his generosity, the charity would have closed.",
+          "answer": [
+            "Were it not for his generosity, the charity would have closed."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "rare-or-literary-structures-c6",
+          "incorrect": "Suffice to it say, the results were disappointing.",
+          "answer": [
+            "Suffice it to say, the results were disappointing."
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "rare-or-literary-structures-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "rare-or-literary-structures-d1",
+          "prompt": "Write one sentence using the formal subjunctive after \"It is essential/vital/imperative that...\"",
+          "modelAnswer": "It is imperative that the entire team be present for tomorrow's briefing."
+        },
+        {
+          "id": "rare-or-literary-structures-d2",
+          "prompt": "Write one sentence using emphatic \"do/did\" for literary emphasis.",
+          "modelAnswer": "He did try to stop them, though his warning came far too late."
+        },
+        {
+          "id": "rare-or-literary-structures-d3",
+          "prompt": "Write one sentence using \"Had I but known...\" about a past regret.",
+          "modelAnswer": "Had I but known how demanding the course would be, I might have thought twice before enrolling."
+        },
+        {
+          "id": "rare-or-literary-structures-d4",
+          "prompt": "Write one sentence using \"Were it not for...\" to describe something or someone that made a difference in your life.",
+          "modelAnswer": "Were it not for my grandmother's encouragement, I never would have pursued music."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) Advanced (formal/archaic) subjunctive — the bare base form of the verb (no -s, no \"would/should\") used after certain verbs/adjectives expressing necessity, demand, or recommendation, especially in formal American English and fixed expressions.",
+    "b) Emphatic \"do\" in literary contexts — \"do/does/did\" + bare infinitive used not to form a question or negative, but to add emphasis or formality, common in literary and rhetorical prose.",
+    "c) Inverted conditionals with an omitted auxiliary — an extremely formal/literary variant where \"if\" is dropped, the auxiliary is inverted, and sometimes an entire clause is compressed with ellipsis."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c2-proficient/rare-or-literary-structures.docx",
+    "txt": "cefr/c2-proficient/rare-or-literary-structures.txt",
+    "pdf": "cefr/c2-proficient/rare-or-literary-structures.pdf"
+  }
+}

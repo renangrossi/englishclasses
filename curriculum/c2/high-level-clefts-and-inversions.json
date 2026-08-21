@@ -1,0 +1,305 @@
+{
+  "id": "c2-high-level-clefts-and-inversions",
+  "level": "C2",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "high-level-clefts-and-inversions",
+  "title": "High-Level Clefts and Inversions",
+  "subtitle": "At C2, cleft and inversion structures move beyond single-clause emphasis into literary and rhetorical territory: stacking multiple clefts, using rarer inversion…",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: Literary inversion — beyond the common \"Never have I...\" pattern, C2 English uses inversion after fronted prepositional phrases and adverbials of place/manner, especially in narrative and descriptive writing.",
+    "Understand and use: Multiple pseudo-clefts across clauses — layering more than one cleft in a passage, or nesting a cleft inside another clause, to build a cumulative rhetorical effect (common in speeches and persuasive essays).",
+    "Understand and use: Fronted modifiers for stylistic impact — moving an adjective phrase, participle phrase, or adverbial to the front of the sentence, often triggering inversion, to create a dramatic or formal opening."
+  ],
+  "content": {
+    "intro": "At C2, cleft and inversion structures move beyond single-clause emphasis into literary and rhetorical territory: stacking multiple clefts, using rarer inversion triggers, and fronting modifiers for stylistic weight.",
+    "rules": [
+      {
+        "heading": "a) Literary inversion — beyond the common \"Never have I...\" pattern, C2 English uses inversion after fronted prepositional phrases and adverbials of place/manner, especially in narrative and descriptive writing.",
+        "body": "<p>Down came the rain, flooding the streets within minutes.</p><p>Gone are the days when a handshake sealed a deal.</p><p>So absurd was the claim that nobody took it seriously.</p><p>Such was the chaos that the meeting was cancelled entirely.</p>"
+      },
+      {
+        "heading": "b) Multiple pseudo-clefts across clauses — layering more than one cleft in a passage, or nesting a cleft inside another clause, to build a cumulative rhetorical effect (common in speeches and persuasive essays).",
+        "body": "<p>What matters is not what you achieve, but what you learn along the way. What most people fail to understand is that failure itself is what teaches the most valuable lessons.</p>"
+      },
+      {
+        "heading": "c) Fronted modifiers for stylistic impact — moving an adjective phrase, participle phrase, or adverbial to the front of the sentence, often triggering inversion, to create a dramatic or formal opening.",
+        "body": "<p>Exhausted but triumphant, the team finally crossed the finish line.</p><p>Deep in the forest stood an ancient, crumbling tower.</p><p>Equally troubling is the lack of any accountability mechanism.</p><p>These structures are deliberately marked as literary/formal — using them in casual conversation would sound overly theatrical, but they are prized in essays, speeches, and narrative prose for their rhythm and emphasis.</p>"
+      }
+    ],
+    "examples": [
+      "Gone are the days when people wrote letters by hand.",
+      "So convincing was her argument that the panel reversed its decision unanimously.",
+      "Such was the outcry that the company issued a public apology within hours.",
+      "What truly defines a leader is not authority, but the willingness to serve others.",
+      "Deep beneath the city lie tunnels dating back centuries.",
+      "Equally significant is the role that education plays in social mobility.",
+      "Down the hill rolled the barrel, gathering speed with every second.",
+      "What is often overlooked is that small decisions compound into major outcomes.",
+      "Exhausted yet undeterred, the climbers pressed on toward the summit.",
+      "Never before had the country faced such a profound constitutional crisis."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Gone the days are when letters were common.",
+        "right": "Gone are the days when letters were common.",
+        "why": "The inversion after \"Gone\" requires the auxiliary \"are\" immediately after it, before the subject \"the days.\""
+      },
+      {
+        "wrong": "So convincing her argument was that everyone agreed.",
+        "right": "So convincing was her argument that everyone agreed.",
+        "why": "After a fronted \"So + adjective,\" the verb \"was\" must come before the subject (\"her argument\") — full inversion, not just reordering."
+      },
+      {
+        "wrong": "What truly defines a leader it is the willingness to serve.",
+        "right": "What truly defines a leader is the willingness to serve.",
+        "why": "The \"what\" clause already functions as the subject; adding \"it\" duplicates it unnecessarily."
+      },
+      {
+        "wrong": "Deep beneath the city tunnels lie dating back centuries.",
+        "right": "Deep beneath the city lie tunnels dating back centuries.",
+        "why": "After the fronted adverbial of place, the verb (\"lie\") comes before the subject (\"tunnels\"), not embedded mid-phrase."
+      },
+      {
+        "wrong": "Such the outcry was that they apologized.",
+        "right": "Such was the outcry that they apologized.",
+        "why": "\"Such\" as a fronted intensifier also triggers full inversion — verb before subject."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "high-level-clefts-and-inversions-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (complete with the correctly inverted form)",
+      "items": [
+        {
+          "id": "high-level-clefts-and-inversions-a1",
+          "prompt": "Gone ___ (be) the days when a college degree guaranteed a job.",
+          "answers": [
+            [
+              "are"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-a2",
+          "prompt": "So fierce ___ (be) the debate that the session ran two hours over.",
+          "answers": [
+            [
+              "was"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-a3",
+          "prompt": "Such ___ (be) the demand that tickets sold out within minutes.",
+          "answers": [
+            [
+              "was"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-a4",
+          "prompt": "Deep in the valley ___ (lie) a village untouched by modern development.",
+          "answers": [
+            [
+              "lay",
+              "lies"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-a5",
+          "prompt": "Equally important ___ (be) the need for transparency in government.",
+          "answers": [
+            [
+              "is"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-a6",
+          "prompt": "Never before ___ (the team / face) such intense scrutiny.",
+          "answers": [
+            [
+              "had the team faced"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-a7",
+          "prompt": "Down ___ (come) the curtain, marking the end of the performance.",
+          "answers": [
+            [
+              "came"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-a8",
+          "prompt": "What truly matters ___ (be) the impact we leave behind, not the titles we hold.",
+          "answers": [
+            [
+              "is"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "high-level-clefts-and-inversions-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (rewrite using the inversion or cleft structure indicated)",
+      "items": [
+        {
+          "id": "high-level-clefts-and-inversions-b1",
+          "prompt": "The days when people trusted the government blindly are over. (rewrite with \"Gone are...\")",
+          "answer": [
+            "Gone are the days when people trusted the government blindly."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-b2",
+          "prompt": "Her speech was so powerful that the entire room stood and applauded. (rewrite with \"So powerful was...\")",
+          "answer": [
+            "So powerful was her speech that the entire room stood and applauded."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-b3",
+          "prompt": "The protest was so intense that the government was forced to respond. (rewrite with \"Such was...\")",
+          "answer": [
+            "Such was the intensity of the protest that the government was forced to respond."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-b4",
+          "prompt": "Not authority but empathy truly defines a leader. (rewrite as a pseudo-cleft with \"What...\")",
+          "answer": [
+            "What truly defines a leader is not authority, but empathy."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-b5",
+          "prompt": "An old lighthouse stood at the edge of the cliff. (rewrite fronting the place phrase and inverting)",
+          "answer": [
+            "At the edge of the cliff stood an old lighthouse."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "high-level-clefts-and-inversions-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "high-level-clefts-and-inversions-c1",
+          "incorrect": "Gone the certainty is that once defined our industry.",
+          "answer": [
+            "Gone is the certainty that once defined our industry."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-c2",
+          "incorrect": "So great her disappointment was that she left without a word.",
+          "answer": [
+            "So great was her disappointment that she left without a word."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-c3",
+          "incorrect": "What truly matters it is how we treat one another.",
+          "answer": [
+            "What truly matters is how we treat one another."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-c4",
+          "incorrect": "Deep in the archive documents lay forgotten for decades.",
+          "answer": [
+            "Deep in the archive lay documents forgotten for decades."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-c5",
+          "incorrect": "Such was outcry that the board resigned.",
+          "answer": [
+            "Such was the outcry that the board resigned."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-c6",
+          "incorrect": "Never before the country had seen such unity.",
+          "answer": [
+            "Never before had the country seen such unity."
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "high-level-clefts-and-inversions-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "high-level-clefts-and-inversions-d1",
+          "prompt": "Write one sentence using \"Gone are the days when...\" about a change you've noticed in society or technology.",
+          "modelAnswer": "Gone are the days when a phone call was the fastest way to reach someone."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-d2",
+          "prompt": "Write one sentence using \"So + adjective + was/were...\" for dramatic emphasis about an event.",
+          "modelAnswer": "So overwhelming was the response to the campaign that the servers crashed within an hour."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-d3",
+          "prompt": "Write one pseudo-cleft sentence starting with \"What truly matters is...\" or \"What is often overlooked is...\"",
+          "modelAnswer": "What is often overlooked is how much quiet effort goes into every apparent overnight success."
+        },
+        {
+          "id": "high-level-clefts-and-inversions-d4",
+          "prompt": "Write one sentence fronting a place or manner adverbial with inversion (like \"Deep in...\" or \"Down came...\").",
+          "modelAnswer": "Deep beneath the old house lay a cellar nobody had opened in decades."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) Literary inversion — beyond the common \"Never have I...\" pattern, C2 English uses inversion after fronted prepositional phrases and adverbials of place/manner, especially in narrative and descriptive writing.",
+    "b) Multiple pseudo-clefts across clauses — layering more than one cleft in a passage, or nesting a cleft inside another clause, to build a cumulative rhetorical effect (common in speeches and persuasive essays).",
+    "c) Fronted modifiers for stylistic impact — moving an adjective phrase, participle phrase, or adverbial to the front of the sentence, often triggering inversion, to create a dramatic or formal opening."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c2-proficient/high-level-clefts-and-inversions.docx",
+    "txt": "cefr/c2-proficient/high-level-clefts-and-inversions.txt",
+    "pdf": "cefr/c2-proficient/high-level-clefts-and-inversions.pdf"
+  }
+}

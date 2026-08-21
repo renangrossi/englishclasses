@@ -437,9 +437,129 @@
     },
     {
       "level": "C1",
+      "title": "Complex Subordinate Clauses",
+      "url": "levels/c1/complex-subordinate-clauses.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Advanced Passive Structures",
+      "url": "levels/c1/advanced-passive-structures.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Advanced Conditional Forms",
+      "url": "levels/c1/advanced-conditional-forms.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Modality with Nuance",
+      "url": "levels/c1/modality-with-nuance.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Inversion for Emphasis",
+      "url": "levels/c1/inversion-for-emphasis.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Complex Noun Phrases",
+      "url": "levels/c1/complex-noun-phrases.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Reported Speech (Full System)",
+      "url": "levels/c1/reported-speech-full-system.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Advanced Verb Patterns",
+      "url": "levels/c1/advanced-verb-patterns.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Future Forms with Nuance",
+      "url": "levels/c1/future-forms-with-nuance.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Emphatic and Stylistic Structures",
+      "url": "levels/c1/emphatic-and-stylistic-structures.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
       "title": "C1 Test Yourself (full review)",
       "url": "levels/c1/test-yourself.html",
       "type": "test"
+    },
+    {
+      "level": "C2",
+      "title": "Full Command of All Tenses and Aspects",
+      "url": "levels/c2/full-command-of-tenses-and-aspects.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Highly Complex Sentence Architecture",
+      "url": "levels/c2/highly-complex-sentence-architecture.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Advanced Discourse Devices",
+      "url": "levels/c2/advanced-discourse-devices.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Stylistic Transformations",
+      "url": "levels/c2/stylistic-transformations.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Complex Ellipsis and Substitution",
+      "url": "levels/c2/complex-ellipsis-and-substitution.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "High-Level Clefts and Inversions",
+      "url": "levels/c2/high-level-clefts-and-inversions.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Native-Like Use of Modality and Attitude",
+      "url": "levels/c2/native-like-modality-and-attitude.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Rare or Literary Structures",
+      "url": "levels/c2/rare-or-literary-structures.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Mastery of Register",
+      "url": "levels/c2/mastery-of-register.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Near-Native Transformation Skills",
+      "url": "levels/c2/near-native-transformation-skills.html",
+      "type": "lesson"
     },
     {
       "level": "C2",

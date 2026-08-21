@@ -1,0 +1,342 @@
+{
+  "id": "c1-modality-with-nuance",
+  "level": "C1",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "modality-with-nuance",
+  "title": "Modality with Nuance",
+  "subtitle": "Modal perfect forms (modal + have + past participle) let you speculate, deduce, criticize, or express regret about the past with precision. The modal you choose…",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: Deduction about the past",
+    "Understand and use: Criticism of a past action (what someone did wrong)",
+    "Understand and use: Missed obligation or opportunity"
+  ],
+  "content": {
+    "intro": "Modal perfect forms (modal + have + past participle) let you speculate, deduce, criticize, or express regret about the past with precision. The modal you choose changes the meaning:",
+    "rules": [
+      {
+        "heading": "a) Deduction about the past",
+        "body": "<ul><li>must have + past participle = you're almost certain something happened. He must have left already — his coat is gone.</li><li>can't have / couldn't have + past participle = you're almost certain something did NOT happen. She can't have seen the message; she hasn't replied.</li><li>might/may/could have + past participle = it's possible something happened, but you're not sure. He might have missed the bus.</li></ul>"
+      },
+      {
+        "heading": "b) Criticism of a past action (what someone did wrong)",
+        "body": "<ul><li>shouldn't have + past participle = the action happened but was wrong. You shouldn't have shouted at him.</li><li>could have + past participle (critical tone) = the action was possible but didn't happen, implying it would have been better. You could have called me — I was worried sick.</li></ul>"
+      },
+      {
+        "heading": "c) Missed obligation or opportunity",
+        "body": "<ul><li>should have + past participle = the ideal action didn't happen (regret/advice about the past). I should have saved more money.</li><li>needn't have + past participle = someone did something that turned out to be unnecessary. You needn't have brought a gift. Tone matters: \"should have\" often implies regret or gentle criticism, \"shouldn't have\" implies clear disapproval, \"must have\" is confident deduction, and \"can't/couldn't have\" is confident denial.</li></ul>"
+      }
+    ],
+    "examples": [
+      "She must have forgotten our meeting — she's never late otherwise.",
+      "He can't have finished the report already; he only started an hour ago.",
+      "They might have taken a different route to avoid traffic.",
+      "You shouldn't have lied to your parents about the trip.",
+      "I could have warned you, but I didn't want to worry you.",
+      "We should have left earlier — now we're stuck in traffic.",
+      "You needn't have cooked; we already had dinner plans.",
+      "He must have been furious when he heard the news.",
+      "She couldn't have known the storm would hit so quickly.",
+      "They could have told us the flight was delayed.",
+      "I shouldn't have trusted him with such an important task.",
+      "The keys may have fallen out of my pocket on the bus."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "He must to have left already.",
+        "right": "He must have left already.",
+        "why": "Modal perfect never takes \"to\" — it's modal + have + past participle."
+      },
+      {
+        "wrong": "She can't has forgotten my birthday.",
+        "right": "She can't have forgotten my birthday.",
+        "why": "After a modal, always use the bare form \"have,\" never \"has\" or \"had.\""
+      },
+      {
+        "wrong": "You should have not said that.",
+        "right": "You shouldn't have said that.",
+        "why": "The negative goes on the modal itself (\"shouldn't\"), not before the past participle."
+      },
+      {
+        "wrong": "I could helped you if you had asked.",
+        "right": "I could have helped you if you had asked.",
+        "why": "Missing \"have\" — \"could helped\" is not a valid modal perfect form."
+      },
+      {
+        "wrong": "You needn't have to bring anything.",
+        "right": "You needn't have brought anything.",
+        "why": "\"Needn't have\" is followed directly by the past participle, not \"to + verb.\""
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "modality-with-nuance-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (must have, can't have, might have, should have, shouldn't have, needn't have)",
+      "items": [
+        {
+          "id": "modality-with-nuance-a1",
+          "prompt": "He ___ (leave) the stove on — the kitchen smells of smoke.",
+          "answers": [
+            [
+              "must have left"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "modality-with-nuance-a2",
+          "prompt": "You ___ (buy) so much food; half of it will go to waste.",
+          "answers": [
+            [
+              "needn't have bought"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "modality-with-nuance-a3",
+          "prompt": "She ___ (see) the email; she never checks that inbox.",
+          "answers": [
+            [
+              "can't have seen"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "modality-with-nuance-a4",
+          "prompt": "They ___ (take) the earlier train, but they didn't want to wait.",
+          "answers": [
+            [
+              "could have taken"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "modality-with-nuance-a5",
+          "prompt": "I ___ (study) harder — I really regret failing that exam.",
+          "answers": [
+            [
+              "should have studied"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "modality-with-nuance-a6",
+          "prompt": "He ___ (forget) his umbrella; it's still by the door.",
+          "answers": [
+            [
+              "must have forgotten"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "modality-with-nuance-a7",
+          "prompt": "You ___ (speak) to her like that — it was completely unfair.",
+          "answers": [
+            [
+              "shouldn't have spoken"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "modality-with-nuance-a8",
+          "prompt": "We ___ (misunderstand) the instructions; that would explain the confusion.",
+          "answers": [
+            [
+              "might have misunderstood"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "modality-with-nuance-a9",
+          "prompt": "She ___ (know) about the surprise party — she looked genuinely shocked.",
+          "answers": [
+            [
+              "can't have known"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "modality-with-nuance-a10",
+          "prompt": "You ___ (bring) a jacket; the venue was heated the whole time.",
+          "answers": [
+            [
+              "needn't have brought"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "modality-with-nuance-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (rewrite using a modal perfect form)",
+      "items": [
+        {
+          "id": "modality-with-nuance-b1",
+          "prompt": "I'm almost certain he forgot the appointment. → He ___",
+          "answer": [
+            "He must have forgotten the appointment."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "modality-with-nuance-b2",
+          "prompt": "It's possible she missed the announcement. → She ___",
+          "answer": [
+            "She might have missed the announcement."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "modality-with-nuance-b3",
+          "prompt": "It was wrong of you to ignore her advice. → You ___",
+          "answer": [
+            "You shouldn't have ignored her advice."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "modality-with-nuance-b4",
+          "prompt": "I'm sure they didn't see the sign; it was hidden by a tree. → They ___",
+          "answer": [
+            "They can't have seen the sign; it was hidden by a tree."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "modality-with-nuance-b5",
+          "prompt": "It would have been better if we had booked earlier. → We ___",
+          "answer": [
+            "We should have booked earlier."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "modality-with-nuance-b6",
+          "prompt": "It wasn't necessary for you to apologize. → You ___",
+          "answer": [
+            "You needn't have apologized."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "modality-with-nuance-b7",
+          "prompt": "I'm confident he was telling the truth. → He ___ (use \"can't have been lying\")",
+          "answer": [
+            "He can't have been lying."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "modality-with-nuance-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "modality-with-nuance-c1",
+          "incorrect": "She must to have missed the bus.",
+          "answer": [
+            "She must have missed the bus."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "modality-with-nuance-c2",
+          "incorrect": "You should have not ignored his advice.",
+          "answer": [
+            "You shouldn't have ignored his advice."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "modality-with-nuance-c3",
+          "incorrect": "He can has forgotten the password.",
+          "answer": [
+            "He can't have forgotten the password."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "modality-with-nuance-c4",
+          "incorrect": "I could helped if you had told me sooner.",
+          "answer": [
+            "I could have helped if you had told me sooner."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "modality-with-nuance-c5",
+          "incorrect": "They needn't have to worry about the cost.",
+          "answer": [
+            "They needn't have worried about the cost."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "modality-with-nuance-c6",
+          "incorrect": "We might have knew about it earlier.",
+          "answer": [
+            "We might have known about it earlier."
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "modality-with-nuance-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "modality-with-nuance-d1",
+          "prompt": "Write one sentence using \"must have\" to speculate about something that happened at work.",
+          "modelAnswer": "He must have worked all weekend — the whole project is finished."
+        },
+        {
+          "id": "modality-with-nuance-d2",
+          "prompt": "Write one sentence using \"shouldn't have\" to express regret about a decision you made.",
+          "modelAnswer": "I shouldn't have quit my job without another one lined up."
+        },
+        {
+          "id": "modality-with-nuance-d3",
+          "prompt": "Write one sentence using \"could have\" in a critical tone about someone else's choice.",
+          "modelAnswer": "You could have told me you were running late instead of leaving me waiting."
+        },
+        {
+          "id": "modality-with-nuance-d4",
+          "prompt": "Write one sentence using \"needn't have\" about something that turned out to be unnecessary.",
+          "modelAnswer": "I needn't have rushed to the airport; the flight was delayed by two hours."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) Deduction about the past",
+    "b) Criticism of a past action (what someone did wrong)",
+    "c) Missed obligation or opportunity"
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c1-advanced/modality-with-nuance.docx",
+    "txt": "cefr/c1-advanced/modality-with-nuance.txt",
+    "pdf": "cefr/c1-advanced/modality-with-nuance.pdf"
+  }
+}

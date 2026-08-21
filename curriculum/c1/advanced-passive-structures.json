@@ -1,0 +1,342 @@
+{
+  "id": "c1-advanced-passive-structures",
+  "level": "C1",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "advanced-passive-structures",
+  "title": "Advanced Passive Structures",
+  "subtitle": "Beyond the basic \"be + past participle\" passive, C1 English uses three advanced passive patterns:",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: Passive reporting structures — used to report general beliefs, rumors or claims without naming the source.",
+    "Understand and use: Passive with modals — modal + be + past participle for present/future obligation or possibility; modal + have been + past participle (modal perfect passive) for something that should/might/must have happened (or not) in the past.",
+    "Understand and use: Get-passive — get + past participle, mainly in informal/spoken registers. It often adds a sense of something happening suddenly, unexpectedly, or with some difficulty/responsibility involved, and it can sound more dynamic than the neutral be-passive."
+  ],
+  "content": {
+    "intro": "Beyond the basic \"be + past participle\" passive, C1 English uses three advanced passive patterns:",
+    "rules": [
+      {
+        "heading": "a) Passive reporting structures — used to report general beliefs, rumors or claims without naming the source.",
+        "body": "<ul><li>It + is/was + reporting verb (said, believed, thought, reported, understood, rumored, alleged) + that-clause e.g. It is believed that the fire started in the kitchen.</li><li>Subject + is/was + reporting verb + to-infinitive (simple infinitive for the same time; perfect infinitive \"to have + past participle\" for an earlier time) e.g. He is believed to be abroad. / He is believed to have left the country.</li></ul>"
+      },
+      {
+        "heading": "b) Passive with modals — modal + be + past participle for present/future obligation or possibility; modal + have been + past participle (modal perfect passive) for something that should/might/must have happened (or not) in the past.",
+        "body": "<p>e.g. The report must be submitted by Friday.</p><p>e.g. The deadline should have been extended.</p>"
+      },
+      {
+        "heading": "c) Get-passive — get + past participle, mainly in informal/spoken registers. It often adds a sense of something happening suddenly, unexpectedly, or with some difficulty/responsibility involved, and it can sound more dynamic than the neutral be-passive.",
+        "body": "<p>e.g. Our flight got cancelled at the last minute.</p><p>Compare: The flight was cancelled. (neutral, factual) vs. The flight got cancelled. (something happened to us, more personal/dramatic)</p><p>Use the reporting passive to distance yourself from a claim (useful in journalism and academic writing), the modal passive to talk about obligations/expectations, and the get-passive for informal, event-focused narration.</p>"
+      }
+    ],
+    "examples": [
+      "He is said to have worked as a spy during the war.",
+      "It is thought that the vase dates back to the Ming dynasty.",
+      "She is rumored to be leaving the company next month.",
+      "The missing files are believed to have been destroyed.",
+      "All applications must be reviewed before Friday.",
+      "The bridge should have been repaired years ago.",
+      "My laptop got stolen on the train yesterday.",
+      "He got promoted after just one year in the role.",
+      "It is widely reported that the negotiations collapsed.",
+      "The contract is understood to have been signed under pressure.",
+      "Mistakes like this shouldn't be tolerated in a hospital.",
+      "Their car got towed while they were at the concert."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "He is said writing the letter himself.",
+        "right": "He is said to have written the letter himself.",
+        "why": "The reporting passive needs a to-infinitive; a completed past action needs the perfect infinitive \"to have + past participle.\""
+      },
+      {
+        "wrong": "The task should finished by now.",
+        "right": "The task should have been finished by now.",
+        "why": "The modal perfect passive requires \"have been,\" not just \"been\" or the bare verb."
+      },
+      {
+        "wrong": "The window got broke during the storm.",
+        "right": "The window got broken during the storm.",
+        "why": "Get-passive still needs the past participle (broken), not the past simple form (broke)."
+      },
+      {
+        "wrong": "It is said he was rich, that he owned three houses.",
+        "right": "It is said that he was rich and owned three houses.",
+        "why": "Don't mix the that-clause pattern with a stray comma splice; join ideas with \"and\" or restructure into one clean that-clause."
+      },
+      {
+        "wrong": "The report is said to written by an intern.",
+        "right": "The report is said to have been written by an intern.",
+        "why": "Missing \"have been\" — needed for a passive action that happened before now."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "advanced-passive-structures-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (choose the correct passive form)",
+      "items": [
+        {
+          "id": "advanced-passive-structures-a1",
+          "prompt": "The suspect ___ (believe / hide) somewhere near the border.",
+          "answers": [
+            [
+              "is believed to be hiding"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-passive-structures-a2",
+          "prompt": "All safety checks ___ (must / complete) before takeoff.",
+          "answers": [
+            [
+              "must be completed"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-passive-structures-a3",
+          "prompt": "Her necklace ___ (get / steal) at the airport last week.",
+          "answers": [
+            [
+              "got stolen"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-passive-structures-a4",
+          "prompt": "The ancient manuscript ___ (think / write) in the 9th century.",
+          "answers": [
+            [
+              "is thought to have been written"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-passive-structures-a5",
+          "prompt": "The bridge ___ (should / repair) months ago, but nothing was done.",
+          "answers": [
+            [
+              "should have been repaired"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-passive-structures-a6",
+          "prompt": "It ___ (report / that) the CEO resigned suddenly.",
+          "answers": [
+            [
+              "is reported that"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-passive-structures-a7",
+          "prompt": "He ___ (rumor / offer) a position at a rival firm.",
+          "answers": [
+            [
+              "is rumored to have been offered"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-passive-structures-a8",
+          "prompt": "Our tickets ___ (get / upgrade) at the last minute.",
+          "answers": [
+            [
+              "got upgraded"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-passive-structures-a9",
+          "prompt": "The results ___ (must / announce) by noon tomorrow.",
+          "answers": [
+            [
+              "must be announced"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-passive-structures-a10",
+          "prompt": "The painting ___ (allege / steal) from the museum in 1990.",
+          "answers": [
+            [
+              "is alleged to have been stolen"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "advanced-passive-structures-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (rewrite using the passive reporting structure)",
+      "items": [
+        {
+          "id": "advanced-passive-structures-b1",
+          "prompt": "People say that the company is losing money. → The company ___",
+          "answer": [
+            "The company is said to be losing money."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-passive-structures-b2",
+          "prompt": "They believe he escaped through the back door. → He ___",
+          "answer": [
+            "He is believed to have escaped through the back door."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-passive-structures-b3",
+          "prompt": "Everyone thinks the singer wrote the song herself. → The singer ___",
+          "answer": [
+            "The singer is thought to have written the song herself."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-passive-structures-b4",
+          "prompt": "People understood that the deal had fallen through. → It ___",
+          "answer": [
+            "It was understood that the deal had fallen through."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-passive-structures-b5",
+          "prompt": "Journalists reported that the minister had lied. → The minister ___",
+          "answer": [
+            "The minister is reported to have lied."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-passive-structures-b6",
+          "prompt": "They say the castle is haunted. → The castle ___",
+          "answer": [
+            "The castle is said to be haunted."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-passive-structures-b7",
+          "prompt": "People assume the twins are identical. → The twins ___",
+          "answer": [
+            "The twins are assumed to be identical."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "advanced-passive-structures-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "advanced-passive-structures-c1",
+          "incorrect": "The building is thought to demolished next year.",
+          "answer": [
+            "The building is thought to be demolished next year. → ...to be demolished... (needs \"be\" for the passive infinitive)"
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-passive-structures-c2",
+          "incorrect": "He is said having escaped through the roof.",
+          "answer": [
+            "He is said to have escaped through the roof. (needs \"to have,\" not \"having\")"
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-passive-structures-c3",
+          "incorrect": "The proposal should approved before the deadline.",
+          "answer": [
+            "The proposal should be approved before the deadline. (needs \"be approved\")"
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-passive-structures-c4",
+          "incorrect": "My phone got steal on the bus this morning.",
+          "answer": [
+            "My phone got stolen on the bus this morning. (past participle \"stolen,\" not \"steal\")"
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-passive-structures-c5",
+          "incorrect": "It is believe that the treaty will be signed soon.",
+          "answer": [
+            "It is believed that the treaty will be signed soon. (needs \"believed,\" not \"believe\")"
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-passive-structures-c6",
+          "incorrect": "The files must has been deleted by mistake.",
+          "answer": [
+            "The files must have been deleted by mistake. (needs \"have been,\" not \"has been,\" after a modal)"
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "advanced-passive-structures-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "advanced-passive-structures-d1",
+          "prompt": "Write one sentence using \"is said to have + past participle\" about a historical figure.",
+          "modelAnswer": "Julius Caesar is said to have been stabbed by his closest allies."
+        },
+        {
+          "id": "advanced-passive-structures-d2",
+          "prompt": "Write one sentence using a modal perfect passive (e.g., \"should have been\") about a mistake at work.",
+          "modelAnswer": "The contract should have been checked more carefully before we signed it."
+        },
+        {
+          "id": "advanced-passive-structures-d3",
+          "prompt": "Write one sentence using the get-passive about something unexpected that happened to you.",
+          "modelAnswer": "I got caught in a huge storm on my way home and arrived completely soaked."
+        },
+        {
+          "id": "advanced-passive-structures-d4",
+          "prompt": "Write one sentence using \"It is widely believed that...\" about a current news topic.",
+          "modelAnswer": "It is widely believed that remote work is here to stay."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) Passive reporting structures — used to report general beliefs, rumors or claims without naming the source.",
+    "b) Passive with modals — modal + be + past participle for present/future obligation or possibility; modal + have been + past participle (modal perfect passive) for something that should/might/must have happened (or not) in the past.",
+    "c) Get-passive — get + past participle, mainly in informal/spoken registers. It often adds a sense of something happening suddenly, unexpectedly, or with some difficulty/responsibility involved, and it can sound more dynamic than the neutral be-passive."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c1-advanced/advanced-passive-structures.docx",
+    "txt": "cefr/c1-advanced/advanced-passive-structures.txt",
+    "pdf": "cefr/c1-advanced/advanced-passive-structures.pdf"
+  }
+}

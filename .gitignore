@@ -8,3 +8,11 @@ lista_arquivos.txt
 
 # Local Claude Code session config
 .claude/
+
+# Cloudflare Wrangler local dev cache
+.wrangler/
+worker/.wrangler/
+
+# Python
+__pycache__/
+*.pyc

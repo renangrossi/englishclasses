@@ -1,0 +1,120 @@
+{
+  "_readme": "Single source of truth for curriculum sequencing. status: 'published' = generated HTML exists and is linked from its level page; 'drafted' = curriculum/{level}/{id}.json exists, not yet built; 'planned' = identified by the gap analysis, no JSON yet. C1 and C2 are fully populated (10/10 topics each, matching their should-be-here.txt specs) -- the rest of the level-by-level unit breakdown from the pedagogical audit is intentionally not hand-copied in here yet, to avoid the index silently claiming more progress than exists. It gets filled in level-by-level as each level's lessons are actually authored.",
+  "levels": {
+    "PRE-A1": {
+      "units": []
+    },
+    "A1": {
+      "units": []
+    },
+    "A2": {
+      "units": []
+    },
+    "B1": {
+      "units": []
+    },
+    "B2": {
+      "units": []
+    },
+    "C1": {
+      "units": [
+        {
+          "id": "1",
+          "title": "C1 Advanced Grammar (all 10 topics)",
+          "lessons": [
+            {
+              "id": "c1-advanced-passive-structures",
+              "status": "published"
+            },
+            {
+              "id": "c1-complex-subordinate-clauses",
+              "status": "published"
+            },
+            {
+              "id": "c1-advanced-conditional-forms",
+              "status": "published"
+            },
+            {
+              "id": "c1-modality-with-nuance",
+              "status": "published"
+            },
+            {
+              "id": "c1-inversion-for-emphasis",
+              "status": "published"
+            },
+            {
+              "id": "c1-complex-noun-phrases",
+              "status": "published"
+            },
+            {
+              "id": "c1-reported-speech-full-system",
+              "status": "published"
+            },
+            {
+              "id": "c1-advanced-verb-patterns",
+              "status": "published"
+            },
+            {
+              "id": "c1-future-forms-with-nuance",
+              "status": "published"
+            },
+            {
+              "id": "c1-emphatic-and-stylistic-structures",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "C2": {
+      "units": [
+        {
+          "id": "1",
+          "title": "C2 Proficiency Grammar (all 10 topics)",
+          "lessons": [
+            {
+              "id": "c2-full-command-of-tenses-and-aspects",
+              "status": "published"
+            },
+            {
+              "id": "c2-highly-complex-sentence-architecture",
+              "status": "published"
+            },
+            {
+              "id": "c2-advanced-discourse-devices",
+              "status": "published"
+            },
+            {
+              "id": "c2-stylistic-transformations",
+              "status": "published"
+            },
+            {
+              "id": "c2-complex-ellipsis-and-substitution",
+              "status": "published"
+            },
+            {
+              "id": "c2-high-level-clefts-and-inversions",
+              "status": "published"
+            },
+            {
+              "id": "c2-native-like-modality-and-attitude",
+              "status": "published"
+            },
+            {
+              "id": "c2-rare-or-literary-structures",
+              "status": "published"
+            },
+            {
+              "id": "c2-mastery-of-register",
+              "status": "published"
+            },
+            {
+              "id": "c2-near-native-transformation-skills",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

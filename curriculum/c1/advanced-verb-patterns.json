@@ -1,0 +1,334 @@
+{
+  "id": "c1-advanced-verb-patterns",
+  "level": "C1",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "advanced-verb-patterns",
+  "title": "Advanced Verb Patterns",
+  "subtitle": "C1 English requires precise control of complex verb patterns that go beyond simple \"verb + infinitive\" or \"verb + gerund\" choices.",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: Verb + object + infinitive/gerund variations — some verbs change meaning depending on the pattern that follows.",
+    "Understand and use: Perfect infinitives and perfect gerunds — used to refer to an earlier action relative to the main verb.",
+    "Understand and use: Causatives — have/get + object + past participle, used when someone else performs an action for you (arranged by you)."
+  ],
+  "content": {
+    "intro": "C1 English requires precise control of complex verb patterns that go beyond simple \"verb + infinitive\" or \"verb + gerund\" choices.",
+    "rules": [
+      {
+        "heading": "a) Verb + object + infinitive/gerund variations — some verbs change meaning depending on the pattern that follows.",
+        "body": "<ul><li>remember/forget + to-infinitive (a task you need/needed to do) vs. + gerund (a memory of something already done) I remembered to lock the door. (I did it, then remembered.) / I remember locking the door. (I have a memory of doing it.)</li><li>stop + to-infinitive (pause in order to do something else) vs. + gerund (quit doing something) He stopped to smoke. (paused his activity in order to smoke) / He stopped smoking. (quit the habit)</li><li>try + to-infinitive (make an effort) vs. + gerund (experiment with something as a possible solution) I tried to open the jar. (made an effort) / I tried using hot water to open the jar. (experimented with a method)</li></ul>"
+      },
+      {
+        "heading": "b) Perfect infinitives and perfect gerunds — used to refer to an earlier action relative to the main verb.",
+        "body": "<ul><li>Perfect infinitive: seem/appear/claim/pretend + to have + past participle He claims to have met the president. (= he claims that he met the president, earlier)</li><li>Perfect gerund: after prepositions or certain verbs, to emphasize completion before another point in time. She admitted having lied about her age.</li></ul>"
+      },
+      {
+        "heading": "c) Causatives — have/get + object + past participle, used when someone else performs an action for you (arranged by you).",
+        "body": "<p>have something done: I had my car repaired. (I arranged for someone to repair it.)</p><p>get something done: I got my hair cut. (more informal/dynamic version of \"have\")</p><p>Compare with \"make/have + person + bare infinitive\" (to force/arrange for a person to do something): The manager had the staff redo the report.</p>"
+      }
+    ],
+    "examples": [
+      "Did you remember to send the invoice?",
+      "I remember meeting him at a conference years ago.",
+      "She stopped to answer her phone in the middle of the meeting.",
+      "He finally stopped biting his nails after years of trying.",
+      "Try turning it off and on again — it usually fixes the problem.",
+      "He seems to have forgotten our appointment.",
+      "She claims to have finished the report already.",
+      "They admitted having made a mistake in the calculations.",
+      "I had my kitchen renovated last spring.",
+      "We got the documents translated before the meeting.",
+      "He had his assistant confirm all the bookings.",
+      "She pretended not to have noticed the comment."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I remember to lock the door yesterday, so it's definitely locked.",
+        "right": "I remember locking the door yesterday, so it's definitely locked.",
+        "why": "This describes a memory of a completed action, so it needs the gerund, not the to-infinitive."
+      },
+      {
+        "wrong": "He stopped to smoke five years ago.",
+        "right": "He stopped smoking five years ago.",
+        "why": "\"Stopped to smoke\" would mean he paused another activity in order to smoke — the intended meaning here is quitting the habit, which needs the gerund."
+      },
+      {
+        "wrong": "He seems to met her before.",
+        "right": "He seems to have met her before.",
+        "why": "To refer to an earlier event, the perfect infinitive \"to have + past participle\" is required."
+      },
+      {
+        "wrong": "I had my car to fix last week.",
+        "right": "I had my car fixed last week.",
+        "why": "The causative \"have something done\" uses the past participle, not a to-infinitive."
+      },
+      {
+        "wrong": "She admitted to lying to the police, before that day.",
+        "right": "She admitted to having lied to the police before that day.",
+        "why": "To show the lying happened earlier than the admission, the perfect gerund is needed after \"admitted to.\""
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "advanced-verb-patterns-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (choose infinitive or gerund, simple or perfect, as needed)",
+      "items": [
+        {
+          "id": "advanced-verb-patterns-a1",
+          "prompt": "Please remember ___ (turn off) the lights before you leave.",
+          "answers": [
+            [
+              "to turn off"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-verb-patterns-a2",
+          "prompt": "I'll never forget ___ (see) the northern lights for the first time.",
+          "answers": [
+            [
+              "seeing"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-verb-patterns-a3",
+          "prompt": "We stopped ___ (take) photos at the viewpoint before continuing the hike.",
+          "answers": [
+            [
+              "to take"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-verb-patterns-a4",
+          "prompt": "He finally stopped ___ (interrupt) people in meetings.",
+          "answers": [
+            [
+              "interrupting"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-verb-patterns-a5",
+          "prompt": "She claims ___ (invent) the recipe herself, years ago.",
+          "answers": [
+            [
+              "to have invented"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-verb-patterns-a6",
+          "prompt": "They seem ___ (know) each other already.",
+          "answers": [
+            [
+              "to know"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-verb-patterns-a7",
+          "prompt": "I had my suit ___ (tailor) for the wedding.",
+          "answers": [
+            [
+              "tailored"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-verb-patterns-a8",
+          "prompt": "We got the roof ___ (repair) before winter.",
+          "answers": [
+            [
+              "repaired"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-verb-patterns-a9",
+          "prompt": "He pretended ___ (not/notice) the mistake in the report.",
+          "answers": [
+            [
+              "not to have noticed"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-verb-patterns-a10",
+          "prompt": "Try ___ (restart) the router if the connection drops.",
+          "answers": [
+            [
+              "restarting"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "advanced-verb-patterns-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation",
+      "items": [
+        {
+          "id": "advanced-verb-patterns-b1",
+          "prompt": "Someone repaired my laptop for me last week. (rewrite with a causative) → I had ___",
+          "answer": [
+            "I had my laptop repaired last week."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-verb-patterns-b2",
+          "prompt": "It's possible that he already left. He seems... → He seems ___",
+          "answer": [
+            "He seems to have already left."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-verb-patterns-b3",
+          "prompt": "She confessed that she had broken the vase. → She admitted ___",
+          "answer": [
+            "She admitted having broken the vase. / She admitted to having broken the vase."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-verb-patterns-b4",
+          "prompt": "Someone is cutting our lawn every Friday now. (rewrite with a causative) → We get ___",
+          "answer": [
+            "We get our lawn cut every Friday now."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-verb-patterns-b5",
+          "prompt": "I have a clear memory of visiting that castle as a child. → I remember ___",
+          "answer": [
+            "I remember visiting that castle as a child."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-verb-patterns-b6",
+          "prompt": "He paused his work in order to answer the phone. → He stopped ___",
+          "answer": [
+            "He stopped to answer the phone."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "advanced-verb-patterns-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "advanced-verb-patterns-c1",
+          "incorrect": "I remember to visit Paris when I was ten.",
+          "answer": [
+            "I remember visiting Paris when I was ten."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-verb-patterns-c2",
+          "incorrect": "She stopped answering the door — I think she's finally home again.",
+          "answer": [
+            "She stopped answering the door — I think she's finally home again."
+          ],
+          "explanation": "Check the rule above for this structure. (already correct)"
+        },
+        {
+          "id": "advanced-verb-patterns-c3",
+          "incorrect": "He claims meeting the queen once.",
+          "answer": [
+            "He claims to have met the queen once."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-verb-patterns-c4",
+          "incorrect": "I had my hair to cut yesterday.",
+          "answer": [
+            "I had my hair cut yesterday."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-verb-patterns-c5",
+          "incorrect": "They admitted to lose the documents last year.",
+          "answer": [
+            "They admitted to having lost the documents last year."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-verb-patterns-c6",
+          "incorrect": "Try to turning the dial slowly.",
+          "answer": [
+            "Try turning the dial slowly."
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "advanced-verb-patterns-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "advanced-verb-patterns-d1",
+          "prompt": "Write one sentence with \"remember\" (gerund) about a childhood memory.",
+          "modelAnswer": "I remember building sandcastles on the beach every summer with my grandfather."
+        },
+        {
+          "id": "advanced-verb-patterns-d2",
+          "prompt": "Write one sentence with a causative (\"have/get something done\") about a service you've arranged.",
+          "modelAnswer": "I got my apartment painted right before I moved in."
+        },
+        {
+          "id": "advanced-verb-patterns-d3",
+          "prompt": "Write one sentence with \"seems/claims to have + past participle.\"",
+          "modelAnswer": "She claims to have run a marathon without any training at all."
+        },
+        {
+          "id": "advanced-verb-patterns-d4",
+          "prompt": "Write one sentence contrasting \"stop + to-infinitive\" and \"stop + gerund\" (two clauses).",
+          "modelAnswer": "I stopped to check my phone, and later I finally stopped checking it every five minutes."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) Verb + object + infinitive/gerund variations — some verbs change meaning depending on the pattern that follows.",
+    "b) Perfect infinitives and perfect gerunds — used to refer to an earlier action relative to the main verb.",
+    "c) Causatives — have/get + object + past participle, used when someone else performs an action for you (arranged by you)."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c1-advanced/advanced-verb-patterns.docx",
+    "txt": "cefr/c1-advanced/advanced-verb-patterns.txt",
+    "pdf": "cefr/c1-advanced/advanced-verb-patterns.pdf"
+  }
+}

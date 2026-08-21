@@ -1,0 +1,331 @@
+{
+  "id": "c2-full-command-of-tenses-and-aspects",
+  "level": "C2",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "full-command-of-tenses-and-aspects",
+  "title": "Full Command of All Tenses and Aspects",
+  "subtitle": "At C2, tense and aspect choices become a stylistic and rhetorical tool, not just a way to place events in time. Mastery involves subtle contrasts and deliberate…",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: Habitual past in narrative — \"used to\" and \"would\" both describe repeated past actions, but \"would\" cannot describe past states (be, have, know, like) and is often preferred in literary narration for its rhythm.",
+    "Understand and use: Iterative and habitual aspect — the present/past continuous with \"always/constantly/forever\" expresses a repeated, often irritating or characteristic, action, adding emotional color beyond a neutral simple tense.",
+    "Understand and use: Tense-shifting for rhetorical effect — skilled writers and speakers deliberately break \"expected\" tense sequencing:"
+  ],
+  "content": {
+    "intro": "At C2, tense and aspect choices become a stylistic and rhetorical tool, not just a way to place events in time. Mastery involves subtle contrasts and deliberate shifts.",
+    "rules": [
+      {
+        "heading": "a) Habitual past in narrative — \"used to\" and \"would\" both describe repeated past actions, but \"would\" cannot describe past states (be, have, know, like) and is often preferred in literary narration for its rhythm.",
+        "body": "<p>Every summer, we would drive to the coast and would stay in my aunt's cottage. (not: we would have a cottage — states need \"used to\" or simple past: we used to have / had a cottage)</p>"
+      },
+      {
+        "heading": "b) Iterative and habitual aspect — the present/past continuous with \"always/constantly/forever\" expresses a repeated, often irritating or characteristic, action, adding emotional color beyond a neutral simple tense.",
+        "body": "<p>She's always leaving her keys somewhere. (mild irritation/characteristic trait) vs. She always leaves her keys somewhere. (a neutral fact)</p>"
+      },
+      {
+        "heading": "c) Tense-shifting for rhetorical effect — skilled writers and speakers deliberately break \"expected\" tense sequencing:",
+        "body": "<ul><li>Historic present: switching to the present tense mid-narrative to make a past event feel vivid and immediate. \"So I'm standing there, and suddenly the phone rings.\"</li><li>Future framed as inevitable/already decided: present continuous or simple present for scheduled/fated future events, adding certainty. \"The results are announced next week.\" / \"By this time next year, she retires.\"</li><li>Past perfect for retrospective narrative distance, even beyond its normal \"earlier action\" function, to create a reflective, looking-back tone in memoir-style writing. Precision here comes from choosing aspect (simple / continuous / perfect / perfect continuous) to signal not just when, but how the speaker frames an event — as a fact, a process, a completed result, or an ongoing/repeated experience.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Every winter, we would gather around the fire and tell stories until midnight.",
+      "He's always interrupting people — it's one of his more irritating habits.",
+      "So I'm walking down the street, minding my own business, when this car suddenly stops right in front of me.",
+      "By the time she turns thirty, she will have already published three novels.",
+      "The committee meets again on Thursday to finalize the budget.",
+      "I had lived in six countries by the time I turned twenty-five.",
+      "She used to hate coffee, but now she can't start her day without it.",
+      "He's forever losing his phone somewhere in the house.",
+      "Looking back, I had never really understood what my father sacrificed for us.",
+      "The train departs at platform four in ten minutes.",
+      "They had been arguing for hours before either of them said anything productive.",
+      "I'll have finished the report by the time you're back from lunch."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "When I was a child, I would have a dog named Max.",
+        "right": "When I was a child, I used to have / had a dog named Max.",
+        "why": "\"Would\" cannot describe a past state (have, be, own, like) — only repeated actions."
+      },
+      {
+        "wrong": "She always is losing her umbrella.",
+        "right": "She's always losing her umbrella.",
+        "why": "With \"always\" for emphasis/irritation, use the continuous form and place \"always\" between the auxiliary and the main verb."
+      },
+      {
+        "wrong": "Yesterday, I am walking home when I see an old friend.",
+        "right": "Yesterday, I was walking home when I saw an old friend. (or, for stylistic historic present, keep the whole narrative consistently in the present: I'm walking home when I see an old friend.)",
+        "why": "Don't mix a past time marker (\"yesterday\") with the historic present without full commitment to the technique — it must be applied consistently, not just to one verb."
+      },
+      {
+        "wrong": "By next year, she will finish her degree.",
+        "right": "By next year, she will have finished her degree.",
+        "why": "For a completed action by a future point, the future perfect is required, not the simple future."
+      },
+      {
+        "wrong": "I had never understand what he meant until years later.",
+        "right": "I had never understood what he meant until years later.",
+        "why": "The past perfect requires the past participle (\"understood\"), not the base form."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "full-command-of-tenses-and-aspects-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (choose the correct tense/aspect)",
+      "items": [
+        {
+          "id": "full-command-of-tenses-and-aspects-a1",
+          "prompt": "Every Sunday, my grandfather ___ (take) us fishing at dawn.",
+          "answers": [
+            [
+              "would take",
+              "used to take"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-a2",
+          "prompt": "He's ___ (always/complain) about the weather, no matter what it's like.",
+          "answers": [
+            [
+              "always complaining"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-a3",
+          "prompt": "By the time the film starts, we ___ (already/eat) dinner.",
+          "answers": [
+            [
+              "will already have eaten"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-a4",
+          "prompt": "So there I ___ (stand), completely frozen, when the alarm goes off.",
+          "answers": [
+            [
+              "am standing",
+              "'m standing"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-a5",
+          "prompt": "The conference ___ (begin) at nine sharp tomorrow, according to the schedule.",
+          "answers": [
+            [
+              "begins"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-a6",
+          "prompt": "She ___ (live) in Paris for a decade before she finally moved back home.",
+          "answers": [
+            [
+              "had lived"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-a7",
+          "prompt": "As a teenager, I ___ (spend/would) hours reading in my room. (identify if \"would\" fits — rewrite if not)",
+          "answers": [
+            [
+              "would spend (fits, since \"spend hours reading\" is a repeated action, not a state)"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-a8",
+          "prompt": "By the end of this year, they ___ (be) married for twenty years.",
+          "answers": [
+            [
+              "will have been"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-a9",
+          "prompt": "He ___ (constantly/change) his mind, which drives the whole team crazy.",
+          "answers": [
+            [
+              "constantly changing",
+              "is constantly changing"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-a10",
+          "prompt": "Looking back now, I ___ (never/realize) how young we all were.",
+          "answers": [
+            [
+              "had never realized"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "full-command-of-tenses-and-aspects-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (rewrite to add the requested nuance)",
+      "items": [
+        {
+          "id": "full-command-of-tenses-and-aspects-b1",
+          "prompt": "My uncle told stories every evening. (rewrite with \"would\" for habitual past narrative)",
+          "answer": [
+            "My uncle would tell stories every evening."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-b2",
+          "prompt": "He interrupts people. It's really annoying. (rewrite as one sentence with continuous + \"always,\" showing irritation)",
+          "answer": [
+            "He's always interrupting people — it's really annoying."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-b3",
+          "prompt": "The exam finishes at noon. (rewrite as a scheduled future event using present continuous)",
+          "answer": [
+            "The exam is finishing at noon. (more natural as scheduled event: \"The exam finishes at noon\" also acceptable; continuous emphasizes the fixed arrangement)"
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-b4",
+          "prompt": "I finished the project before the deadline arrived. (rewrite using future perfect, imagining you're speaking before the deadline)",
+          "answer": [
+            "I will have finished the project before the deadline arrives."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-b5",
+          "prompt": "Describe a past event as if it's happening now, for dramatic effect: \"I opened the door and saw a stranger standing there.\" (rewrite in the historic present)",
+          "answer": [
+            "I open the door and see a stranger standing there."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "full-command-of-tenses-and-aspects-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "full-command-of-tenses-and-aspects-c1",
+          "incorrect": "When I was young, I would live in a small village.",
+          "answer": [
+            "When I was young, I lived",
+            "used to live in a small village."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-c2",
+          "incorrect": "She always is checking her phone during meetings.",
+          "answer": [
+            "She's always checking her phone during meetings."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-c3",
+          "incorrect": "Tomorrow at this time, I will finish the marathon.",
+          "answer": [
+            "Tomorrow at this time, I will be finishing",
+            "will have finished the marathon. (depending on intended meaning: in progress vs completed)"
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-c4",
+          "incorrect": "I had never saw such a beautiful sunset before that trip.",
+          "answer": [
+            "I had never seen such a beautiful sunset before that trip."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-c5",
+          "incorrect": "By 2030, this company will produce twice as much as it does now, they predict. (identify tense issue and fix)",
+          "answer": [
+            "By 2030, this company will be producing twice as much as it does now, they predict. (or \"will produce\" if treated as a simple prediction — \"will be producing\" better shows an ongoing state at that future point)"
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-c6",
+          "incorrect": "He's constantly forgets where he left his keys.",
+          "answer": [
+            "He's constantly forgetting where he left his keys."
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "full-command-of-tenses-and-aspects-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "full-command-of-tenses-and-aspects-d1",
+          "prompt": "Write two or three sentences narrating a childhood memory using \"would\" for habitual past actions.",
+          "modelAnswer": "Every August, my grandparents would take the whole family to the lake. We would swim all morning and would fall asleep on the porch by nine."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-d2",
+          "prompt": "Write one sentence using present continuous + \"always/constantly/forever\" to describe an irritating habit of someone you know.",
+          "modelAnswer": "My roommate is forever leaving dirty dishes in the sink."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-d3",
+          "prompt": "Write one sentence using the historic present to make a short anecdote feel vivid.",
+          "modelAnswer": "So I'm sitting in the waiting room, completely calm, and then they call my name three hours early."
+        },
+        {
+          "id": "full-command-of-tenses-and-aspects-d4",
+          "prompt": "Write one sentence using the future perfect to describe something that will be completed by a specific future point.",
+          "modelAnswer": "By the time you land, I will have already picked up the keys to the apartment."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) Habitual past in narrative — \"used to\" and \"would\" both describe repeated past actions, but \"would\" cannot describe past states (be, have, know, like) and is often preferred in literary narration for its rhythm.",
+    "b) Iterative and habitual aspect — the present/past continuous with \"always/constantly/forever\" expresses a repeated, often irritating or characteristic, action, adding emotional color beyond a neutral simple tense.",
+    "c) Tense-shifting for rhetorical effect — skilled writers and speakers deliberately break \"expected\" tense sequencing:"
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c2-proficient/full-command-of-tenses-and-aspects.docx",
+    "txt": "cefr/c2-proficient/full-command-of-tenses-and-aspects.txt",
+    "pdf": "cefr/c2-proficient/full-command-of-tenses-and-aspects.pdf"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "b1-past-simple-vs-present-perfect-i",
+  "level": "B1",
+  "unit": "2",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "present-perfect",
+  "title": "Past Simple vs. Present Perfect I",
+  "subtitle": "The single most common tense confusion at B1 — finished time vs. connected-to-now.",
+  "prerequisites": ["a2-simple-past-i", "b1-present-perfect"],
+  "objectives": [
+    "Recognize the specific time words that require the simple past",
+    "Recognize the words that signal the present perfect",
+    "Choose correctly between the two in everyday sentences"
+  ],
+  "content": {
+    "intro": "This is the question that trips up almost every B1 learner: \"visited\" or \"have visited\"? The answer always depends on one thing: is the time finished, or still open/unspecified?",
+    "rules": [
+      {
+        "heading": "Simple past — finished, specific time",
+        "body": "<p>Use it when the time is over and often stated: yesterday, last year, in 2020, two days ago, when I was a child.</p><ul><li>I visited Paris last year.</li><li>They bought a new car yesterday.</li></ul>"
+      },
+      {
+        "heading": "Present perfect — unspecified or still-open time",
+        "body": "<p>Use it when you don't say exactly when, or the time period is still going: already, yet, ever, never, so far, this week/month/year (if not over).</p><ul><li>She has finished her homework already.</li><li>They have eaten all the cake this week.</li></ul>"
+      }
+    ],
+    "examples": [
+      "I visited Paris last year.",
+      "She has finished her homework already.",
+      "They bought a new car yesterday.",
+      "I have read this book before.",
+      "He lost his keys last night.",
+      "We have found your wallet."
+    ],
+    "commonMistakes": [
+      { "wrong": "I have visited Paris last year.", "right": "I visited Paris last year.", "why": "\"Last year\" is a specific, finished time — that always needs the simple past." },
+      { "wrong": "She finished her homework already.", "right": "She has finished her homework already.", "why": "\"Already\" typically signals the present perfect, since no specific time is given." },
+      { "wrong": "I have read this book yesterday.", "right": "I read this book yesterday.", "why": "\"Yesterday\" is a specific finished time — never combine it with the present perfect." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1spvpp1-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Choose the simple past or present perfect, based on the time word.",
+      "items": [
+        { "id": "b1spvpp1-1", "prompt": "I ___ (visit) Paris last year.", "answers": [["visited"]], "explanation": "\"Last year\" is a specific finished time — simple past." },
+        { "id": "b1spvpp1-2", "prompt": "She ___ (finish) her homework already.", "answers": [["has finished"]], "explanation": "\"Already,\" no specific time given — present perfect." },
+        { "id": "b1spvpp1-3", "prompt": "They ___ (buy) a new car yesterday.", "answers": [["bought"]], "explanation": "\"Yesterday\" is specific and finished — simple past." },
+        { "id": "b1spvpp1-4", "prompt": "We ___ (see) that movie before.", "answers": [["have seen"]], "explanation": "\"Before\" (unspecified time in your life) — present perfect." },
+        { "id": "b1spvpp1-5", "prompt": "He ___ (lose) his keys last night.", "answers": [["lost"]], "explanation": "\"Last night\" is specific and finished — simple past." }
+      ]
+    },
+    {
+      "id": "b1spvpp1-mc", "type": "multiple-choice", "title": "Choose the Correct Form",
+      "items": [
+        { "id": "b1spvpp1-6", "prompt": "___ you ever ___ to Japan?", "options": ["Did / go", "Have / been", "Do / go"], "answerIndex": 1, "explanation": "\"Ever\" (life experience, unspecified time) needs the present perfect." },
+        { "id": "b1spvpp1-7", "prompt": "I ___ him at the party two weeks ago.", "options": ["saw", "have seen", "see"], "answerIndex": 0, "explanation": "\"Two weeks ago\" is specific and finished — simple past." }
+      ]
+    },
+    {
+      "id": "b1spvpp1-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b1spvpp1-8", "incorrect": "I have visited Paris last year.", "answer": ["I visited Paris last year."], "explanation": "\"Last year\" needs the simple past, not the present perfect." },
+        { "id": "b1spvpp1-9", "incorrect": "I have read this book yesterday.", "answer": ["I read this book yesterday."], "explanation": "Never combine \"yesterday\" with the present perfect." }
+      ]
+    }
+  ],
+  "summary": [
+    "Specific, finished time word (yesterday, last year, ___ ago) → simple past.",
+    "No specific time, or still-open period (already, yet, ever, never, this week) → present perfect.",
+    "Never combine a specific finished-time word with the present perfect."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/b1-intermediate/j-past-simple-vs.-present-perfect-i.docx", "pdf": "cefr/b1-intermediate/j-past-simple-vs.-present-perfect-i.pdf" }
+}

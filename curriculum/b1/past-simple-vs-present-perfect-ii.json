@@ -1,0 +1,75 @@
+{
+  "id": "b1-past-simple-vs-present-perfect-ii",
+  "level": "B1",
+  "unit": "2",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "present-perfect",
+  "title": "Past Simple vs. Present Perfect II — More Practice",
+  "subtitle": "Extra practice with trickier cases: for/since, questions, and mixed contexts.",
+  "prerequisites": ["b1-past-simple-vs-present-perfect-i"],
+  "objectives": [
+    "Use \"for\" and \"since\" correctly with the present perfect",
+    "Ask questions correctly in both tenses",
+    "Handle mixed conversations where both tenses appear together"
+  ],
+  "content": {
+    "intro": "Now that you know the basic rule, let's handle the trickier real-life cases — especially \"for\"/\"since\", and conversations that naturally move between both tenses.",
+    "rules": [
+      {
+        "heading": "For vs. since",
+        "body": "<ul><li><strong>for</strong> + a period of time: for three years, for two weeks, for a long time</li><li><strong>since</strong> + a starting point: since 2020, since Monday, since I was a child</li></ul><p>Both are common with the present perfect: I have lived here for five years. / I have lived here since 2019.</p>"
+      },
+      {
+        "heading": "Mixed conversations",
+        "body": "<p>A conversation often starts with the present perfect (\"Have you ever...?\") and then switches to the simple past once a specific time is mentioned: \"Have you been to Rome?\" \"Yes, I went there in 2018.\"</p>"
+      }
+    ],
+    "examples": [
+      "I have lived here for five years.",
+      "I have lived here since 2019.",
+      "Have you ever been to Rome? — Yes, I went there in 2018.",
+      "How long have you known her? — I've known her since college.",
+      "She hasn't called me since last week.",
+      "Did you call her yesterday? — No, but I have already texted her."
+    ],
+    "commonMistakes": [
+      { "wrong": "I have lived here since five years.", "right": "I have lived here for five years.", "why": "\"Since\" needs a starting point (a date/moment), not a length of time — use \"for\" with a duration." },
+      { "wrong": "I have lived here for 2019.", "right": "I have lived here since 2019.", "why": "\"2019\" is a starting point — use \"since,\" not \"for.\"" },
+      { "wrong": "Yes, I have been there in 2018.", "right": "Yes, I went there in 2018.", "why": "Once you name a specific finished time (2018), switch to the simple past, even mid-conversation." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1spvpp2-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with for or since.",
+      "items": [
+        { "id": "b1spvpp2-1", "prompt": "I have worked here ___ three years.", "answers": [["for"]], "explanation": "A length of time — \"for.\"" },
+        { "id": "b1spvpp2-2", "prompt": "She has lived in London ___ 2018.", "answers": [["since"]], "explanation": "A starting point — \"since.\"" },
+        { "id": "b1spvpp2-3", "prompt": "We haven't spoken ___ last month.", "answers": [["since"]], "explanation": "A starting point (last month) — \"since.\"" },
+        { "id": "b1spvpp2-4", "prompt": "They have been married ___ ten years.", "answers": [["for"]], "explanation": "A length of time — \"for.\"" }
+      ]
+    },
+    {
+      "id": "b1spvpp2-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "b1spvpp2-5", "prompt": "\"Have you ever visited Rome?\" \"Yes, I ___ there in 2018.\"", "options": ["have gone", "went", "go"], "answerIndex": 1, "explanation": "Once a specific time is named, switch to the simple past." },
+        { "id": "b1spvpp2-6", "prompt": "How long ___ her?", "options": ["did you know", "have you known", "do you know"], "answerIndex": 1, "explanation": "\"How long\" with an ongoing state up to now needs the present perfect." }
+      ]
+    },
+    {
+      "id": "b1spvpp2-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b1spvpp2-7", "incorrect": "I have lived here since five years.", "answer": ["I have lived here for five years."], "explanation": "\"Since\" needs a starting point, not a duration — use \"for.\"" },
+        { "id": "b1spvpp2-8", "incorrect": "Yes, I have visited Rome in 2018.", "answer": ["Yes, I visited Rome in 2018."], "explanation": "A named specific time needs the simple past, not the present perfect." }
+      ]
+    }
+  ],
+  "summary": [
+    "For + a duration; since + a starting point.",
+    "Conversations often start with the present perfect and switch to the simple past once a specific time is mentioned.",
+    "Once you name a specific finished moment, don't go back to the present perfect for the same event."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/b1-intermediate/j-past-simple-vs.-present-perfect-ii.docx", "pdf": "cefr/b1-intermediate/j-past-simple-vs.-present-perfect-ii.pdf" }
+}

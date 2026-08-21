@@ -1,0 +1,73 @@
+{
+  "id": "b1-past-perfect-and-perfect-continuous",
+  "level": "B1",
+  "unit": "3",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "past-perfect",
+  "title": "Past Perfect & Past Perfect Continuous",
+  "subtitle": "Add duration to your storytelling: how long something had been happening before another past event.",
+  "prerequisites": ["b1-past-simple-vs-past-perfect"],
+  "objectives": [
+    "Review the past perfect (had + past participle)",
+    "Form and use the past perfect continuous (had been + -ing)",
+    "Choose between them based on result vs. duration, just like present perfect vs. continuous"
+  ],
+  "content": {
+    "intro": "The past perfect continuous does for the past what the present perfect continuous does for the present — it adds a sense of ongoing duration before another past moment.",
+    "rules": [
+      {
+        "heading": "a) Past perfect (review)",
+        "body": "<p>had + past participle = the earlier of two past events, focused on the result.</p><ul><li>She had finished the report before the meeting.</li></ul>"
+      },
+      {
+        "heading": "b) Past perfect continuous",
+        "body": "<p>had been + -ing = emphasizes the duration of an activity happening before another past moment.</p><ul><li>She had been working on the report for hours before the meeting. (the activity, and how long)</li><li>He was tired because he had been running.</li></ul>"
+      }
+    ],
+    "examples": [
+      "She had finished the report before the meeting.",
+      "She had been working on the report for hours before the meeting.",
+      "He was tired because he had been running.",
+      "They had been waiting for an hour when the bus finally came.",
+      "I had already eaten when they arrived.",
+      "We had been driving for six hours before we stopped."
+    ],
+    "commonMistakes": [
+      { "wrong": "He was tired because he had run for an hour. (emphasizing the ongoing activity)", "right": "He was tired because he had been running for an hour.", "why": "Emphasizing the duration/activity that caused the tiredness needs the past perfect continuous." },
+      { "wrong": "They had been wait for an hour.", "right": "They had been waiting for an hour.", "why": "The continuous form needs the -ing verb, not the base form." },
+      { "wrong": "I had ate already when they arrived.", "right": "I had already eaten when they arrived.", "why": "The past perfect needs the past participle (eaten), not the simple past form (ate)." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1ppapc-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "items": [
+        { "id": "b1ppapc1", "prompt": "She ___ (finish) the report before the meeting.", "answers": [["had finished"]], "explanation": "had + past participle." },
+        { "id": "b1ppapc2", "prompt": "He was tired because he ___ (run).", "answers": [["had been running"]], "explanation": "Emphasizing the duration of the activity — past perfect continuous." },
+        { "id": "b1ppapc3", "prompt": "They ___ (wait) for an hour when the bus came.", "answers": [["had been waiting"]], "explanation": "Duration before another past event — past perfect continuous." }
+      ]
+    },
+    {
+      "id": "b1ppapc-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "b1ppapc4", "prompt": "We ___ for six hours before we stopped.", "options": ["had driven", "had been driving", "drove"], "answerIndex": 1, "explanation": "Emphasis on the ongoing duration — past perfect continuous." },
+        { "id": "b1ppapc5", "prompt": "I ___ already ___ when they arrived.", "options": ["had / eaten", "have / eaten", "had / eating"], "answerIndex": 0, "explanation": "A completed result before another past event — past perfect (simple)." }
+      ]
+    },
+    {
+      "id": "b1ppapc-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b1ppapc6", "incorrect": "They had been wait for an hour.", "answer": ["They had been waiting for an hour."], "explanation": "The continuous form needs the -ing verb." },
+        { "id": "b1ppapc7", "incorrect": "She had been finish the report.", "answer": ["She had finished the report."], "explanation": "A completed result needs the past perfect simple, not the continuous, and \"finish\" needs the past participle." }
+      ]
+    }
+  ],
+  "summary": [
+    "Past perfect (had + past participle) = result, the earlier of two past events.",
+    "Past perfect continuous (had been + -ing) = duration/activity before another past moment.",
+    "Same logic as present perfect vs. continuous, just shifted one step further into the past."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/b1-intermediate/d-past-perfect-and-perfect-continuous.docx", "pdf": "cefr/b1-intermediate/d-past-perfect-and-perfect-continuous.pdf" }
+}

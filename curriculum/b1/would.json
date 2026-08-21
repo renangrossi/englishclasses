@@ -1,0 +1,79 @@
+{
+  "id": "b1-would",
+  "level": "B1",
+  "unit": "4",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "would",
+  "title": "Would",
+  "subtitle": "One small word, several everyday jobs: polite requests, hypotheticals, and past habits.",
+  "prerequisites": ["b1-second-and-third-conditionals"],
+  "objectives": [
+    "Use \"would\" for polite requests",
+    "Use \"would\" in the result clause of hypothetical (second/third) conditionals",
+    "Use \"would\" for repeated past habits (like \"used to\", for actions not states)"
+  ],
+  "content": {
+    "intro": "\"Would\" shows up constantly in everyday English, doing several different, related jobs — this lesson pulls them all together.",
+    "rules": [
+      {
+        "heading": "a) Polite requests",
+        "body": "<ul><li>Would you please send me the report? (more polite than \"will you\")</li><li>Would you mind if I opened the window?</li></ul>"
+      },
+      {
+        "heading": "b) Hypotheticals (conditionals)",
+        "body": "<ul><li>If I were rich, I would buy a yacht. (second conditional)</li><li>They would have avoided the accident if they had been more careful. (third conditional)</li></ul>"
+      },
+      {
+        "heading": "c) Repeated past habits (actions, not states)",
+        "body": "<ul><li>When I was younger, I would visit my grandmother every summer. (a repeated action)</li><li>Not for states: use \"used to,\" not \"would,\" for things like \"I used to have long hair\" (not an action).</li></ul>"
+      }
+    ],
+    "examples": [
+      "Would you please send me the report by tomorrow?",
+      "If I were rich, I would buy a yacht and sail around the world.",
+      "She would speak five languages fluently, if she'd kept practicing.",
+      "When I was a child, I would play outside every afternoon.",
+      "They would have avoided the accident if they had been more careful.",
+      "Would you mind if I opened the window?"
+    ],
+    "commonMistakes": [
+      { "wrong": "When I was younger, I would have brown hair.", "right": "When I was younger, I used to have brown hair.", "why": "\"Would\" describes repeated actions, not states (like having a hair color) — use \"used to\" for states." },
+      { "wrong": "If I was rich, I would buy a yacht.", "right": "If I were rich, I would buy a yacht.", "why": "The hypothetical \"if\" clause uses \"were,\" not \"was,\" for this fixed expression." },
+      { "wrong": "Would you mind if I open the window?", "right": "Would you mind if I opened the window?", "why": "After \"would you mind if,\" use the past simple form, even though the meaning is present/future." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1w-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct form using would.",
+      "items": [
+        { "id": "b1w1", "prompt": "___ you please send me the report by tomorrow?", "answers": [["Would"]], "explanation": "A polite request." },
+        { "id": "b1w2", "prompt": "If I were rich, I ___ (buy) a yacht.", "answers": [["would buy"]], "explanation": "The result clause of the second conditional." },
+        { "id": "b1w3", "prompt": "When I was a child, I ___ (play) outside every afternoon.", "answers": [["would play"]], "explanation": "A repeated past action." },
+        { "id": "b1w4", "prompt": "They ___ (avoid) the accident if they had been more careful.", "answers": [["would have avoided"]], "explanation": "The result clause of the third conditional." }
+      ]
+    },
+    {
+      "id": "b1w-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "b1w5", "prompt": "When I was younger, I ___ brown hair. (a state, not an action)", "options": ["would have", "used to have", "would having"], "answerIndex": 1, "explanation": "States (having a hair color) need \"used to,\" not \"would.\"" },
+        { "id": "b1w6", "prompt": "___ you mind if I opened the window?", "options": ["Do", "Would", "Will"], "answerIndex": 1, "explanation": "\"Would you mind if...\" is the standard polite request form." }
+      ]
+    },
+    {
+      "id": "b1w-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b1w7", "incorrect": "When I was young, I would be tall for my age.", "answer": ["When I was young, I was tall for my age."], "explanation": "A state (being tall) can't use \"would\" — just use the simple past." },
+        { "id": "b1w8", "incorrect": "If I was you, I would apologize.", "answer": ["If I were you, I would apologize."], "explanation": "Use \"were,\" not \"was,\" in this fixed hypothetical expression." }
+      ]
+    }
+  ],
+  "summary": [
+    "Would you...? = a polite request.",
+    "Would appears in the result clause of second/third conditionals.",
+    "Would describes repeated past actions (not states — use \"used to\" for those)."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/b1-intermediate/m-would.docx", "pdf": "cefr/b1-intermediate/m-would.pdf" }
+}

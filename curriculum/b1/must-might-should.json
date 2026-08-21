@@ -1,0 +1,81 @@
+{
+  "id": "b1-must-might-should",
+  "level": "B1",
+  "unit": "4",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "modals",
+  "title": "Must, Might, Should",
+  "subtitle": "Express obligation, possibility, and advice.",
+  "prerequisites": ["a2-can-could-may"],
+  "objectives": [
+    "Use must for strong obligation and logical certainty",
+    "Use might for possibility",
+    "Use should for advice, recommendation, and expectation"
+  ],
+  "content": {
+    "intro": "These three modals let you go beyond simple facts — you can now tell people what's necessary, what's possible, and what you recommend.",
+    "rules": [
+      {
+        "heading": "a) Must",
+        "body": "<ul><li>Strong obligation: You must wear a seatbelt.</li><li>Logical certainty (a strong guess based on evidence): He must be tired — he's been working all day.</li></ul>"
+      },
+      {
+        "heading": "b) Might",
+        "body": "<ul><li>Possibility (not certain): It might rain later.</li></ul>"
+      },
+      {
+        "heading": "c) Should",
+        "body": "<ul><li>Advice/recommendation: You should see a doctor.</li><li>Expectation: The package should arrive tomorrow.</li></ul>"
+      }
+    ],
+    "examples": [
+      "He must be very tired. He has been working all day.",
+      "You should see a doctor if you're feeling ill.",
+      "They might be at home — the lights are on.",
+      "She shouldn't stay up so late.",
+      "It might rain later, so take an umbrella.",
+      "We must leave now if we want to catch the bus."
+    ],
+    "commonMistakes": [
+      { "wrong": "He must to be tired.", "right": "He must be tired.", "why": "Modal verbs are never followed by \"to\" — use the bare infinitive." },
+      { "wrong": "You should to see a doctor.", "right": "You should see a doctor.", "why": "\"Should\" never takes \"to\" either." },
+      { "wrong": "It mights rain later.", "right": "It might rain later.", "why": "Modal verbs never add -s, even for he/she/it." },
+      { "wrong": "She should not stayed up late.", "right": "She shouldn't stay up late.", "why": "After a modal, use the base form, not the past form." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1mms-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with must, might, or should.",
+      "items": [
+        { "id": "b1mms1", "prompt": "He ___ (be) very tired. He has been working all day. (logical certainty)", "answers": [["must be"]], "explanation": "Strong logical certainty — \"must.\"" },
+        { "id": "b1mms2", "prompt": "You ___ (see) a doctor if you're feeling ill. (advice)", "answers": [["should see"]], "explanation": "Advice — \"should.\"" },
+        { "id": "b1mms3", "prompt": "They ___ (be) at home. I'm not sure. (possibility)", "answers": [["might be"]], "explanation": "Uncertain possibility — \"might.\"" },
+        { "id": "b1mms4", "prompt": "It ___ (rain) later, so take an umbrella. (possibility)", "answers": [["might rain"]], "explanation": "Possibility — \"might.\"" }
+      ]
+    },
+    {
+      "id": "b1mms-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "b1mms5", "prompt": "We ___ leave now if we want to catch the bus. (strong necessity)", "options": ["might", "must", "could"], "answerIndex": 1, "explanation": "Strong necessity/obligation — \"must.\"" },
+        { "id": "b1mms6", "prompt": "You ___ apologize to her — it would be the right thing to do. (recommendation)", "options": ["should", "must", "might"], "answerIndex": 0, "explanation": "Recommendation/advice — \"should.\"" }
+      ]
+    },
+    {
+      "id": "b1mms-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b1mms7", "incorrect": "He must to be at home.", "answer": ["He must be at home."], "explanation": "Never use \"to\" after a modal verb." },
+        { "id": "b1mms8", "incorrect": "She mights be lost.", "answer": ["She might be lost."], "explanation": "Modal verbs never take -s." }
+      ]
+    }
+  ],
+  "summary": [
+    "Must = strong obligation, or logical certainty from evidence.",
+    "Might = possibility, not certain.",
+    "Should = advice, recommendation, or expectation.",
+    "All three are followed by the bare infinitive — never \"to,\" never -s."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/b1-intermediate/f-must-might-should.docx", "pdf": "cefr/b1-intermediate/f-must-might-should.pdf" }
+}

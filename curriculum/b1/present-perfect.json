@@ -1,0 +1,89 @@
+{
+  "id": "b1-present-perfect",
+  "level": "B1",
+  "unit": "2",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "present-perfect",
+  "title": "Present Perfect",
+  "subtitle": "Connect the past to now — experiences, changes, and unfinished time.",
+  "prerequisites": ["a2-simple-past-i"],
+  "objectives": [
+    "Form the present perfect (have/has + past participle)",
+    "Use it for life experiences, without saying exactly when",
+    "Use it for a recent action with a present result",
+    "Use already, yet, just, never, and ever correctly"
+  ],
+  "content": {
+    "intro": "The present perfect is one of the trickiest tenses for Portuguese speakers, because Portuguese doesn't have a direct equivalent. It connects something from the past to the present moment.",
+    "rules": [
+      {
+        "heading": "a) Form",
+        "body": "<p>have/has + past participle. I/you/we/they have finished. He/she/it has finished.</p>"
+      },
+      {
+        "heading": "b) Life experience (no specific time)",
+        "body": "<ul><li>She has visited Paris three times. (at some point in her life, we don't say exactly when)</li><li>I have never eaten sushi.</li></ul>"
+      },
+      {
+        "heading": "c) Recent action, present result",
+        "body": "<ul><li>I have lost my keys. (result: I don't have them now)</li><li>They have just arrived. (very recently, relevant now)</li></ul>"
+      },
+      {
+        "heading": "d) Key signal words",
+        "body": "<p>already (before now, often in affirmatives), yet (up to now, in negatives/questions), just (very recently), never/ever (at any point in life)</p>"
+      }
+    ],
+    "examples": [
+      "I have finished my homework.",
+      "She has visited Paris three times.",
+      "They have already eaten.",
+      "Have you finished yet?",
+      "He has just arrived.",
+      "I have never been to Japan."
+    ],
+    "commonMistakes": [
+      { "wrong": "I have visited Paris last year.", "right": "I visited Paris last year.", "why": "\"Last year\" is a finished, specific time — that needs the simple past, not the present perfect." },
+      { "wrong": "She has went to the store.", "right": "She has gone to the store.", "why": "The present perfect needs the past participle (gone), not the simple past form (went)." },
+      { "wrong": "I have finish my homework.", "right": "I have finished my homework.", "why": "The main verb needs the past participle form after \"have.\"" },
+      { "wrong": "Have you finished already?", "right": "Have you finished yet?", "why": "\"Yet\" is used in questions and negatives; \"already\" is more typical in affirmative statements." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1pp-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct present perfect form.",
+      "items": [
+        { "id": "b1pp1", "prompt": "I ___ (finish) my homework.", "answers": [["have finished"]], "explanation": "have + past participle (finished)." },
+        { "id": "b1pp2", "prompt": "She ___ (visit) Paris three times.", "answers": [["has visited"]], "explanation": "Third person singular: has + past participle." },
+        { "id": "b1pp3", "prompt": "They ___ (buy) a new car.", "answers": [["have bought"]], "explanation": "Irregular past participle: buy → bought." },
+        { "id": "b1pp4", "prompt": "He ___ (lose) his keys.", "answers": [["has lost"]], "explanation": "Irregular past participle: lose → lost." },
+        { "id": "b1pp5", "prompt": "I ___ never ___ (be) to Japan.", "answers": [["have"], ["been"]], "explanation": "have + never + past participle (been)." }
+      ]
+    },
+    {
+      "id": "b1pp-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "b1pp6", "prompt": "She ___ to London twice.", "options": ["has been", "have been", "been"], "answerIndex": 0, "explanation": "Third person singular needs \"has,\" and the participle of \"go/be\" here is \"been.\"" },
+        { "id": "b1pp7", "prompt": "We ___ our homework.", "options": ["done", "have done", "has done"], "answerIndex": 1, "explanation": "\"We\" needs \"have,\" plus the past participle \"done.\"" },
+        { "id": "b1pp8", "prompt": "I ___ my phone. I can't find it anywhere.", "options": ["have found", "have lost", "lose"], "answerIndex": 1, "explanation": "A recent action with a present result — \"have lost\" fits the context." }
+      ]
+    },
+    {
+      "id": "b1pp-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b1pp9", "incorrect": "I have visited Paris last year.", "answer": ["I visited Paris last year."], "explanation": "A specific finished time (last year) needs the simple past." },
+        { "id": "b1pp10", "incorrect": "She has went to the store.", "answer": ["She has gone to the store."], "explanation": "The present perfect needs the past participle, not the simple past form." },
+        { "id": "b1pp11", "incorrect": "He has broke his leg.", "answer": ["He has broken his leg."], "explanation": "Irregular past participle: break → broken, not \"broke.\"" }
+      ]
+    }
+  ],
+  "summary": [
+    "Have/has + past participle.",
+    "Use it for life experiences (no specific time) and recent actions with a present result.",
+    "Never use it with a specific past time word (yesterday, last year) — use the simple past instead.",
+    "Already/just fit affirmatives; yet fits questions and negatives; never/ever describe life experience."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/b1-intermediate/i-present-perfect.docx", "pdf": "cefr/b1-intermediate/i-present-perfect.pdf" }
+}

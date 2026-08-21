@@ -1,0 +1,76 @@
+{
+  "id": "b1-passive-voice",
+  "level": "B1",
+  "unit": "4",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "passive-voice",
+  "title": "Passive Voice",
+  "subtitle": "Focus on the action or the receiver, not on who did it.",
+  "prerequisites": ["a1-to-be-am-is-are", "a2-simple-past-i"],
+  "objectives": [
+    "Form the passive voice (to be + past participle) in the present and past",
+    "Use the passive when the doer is unknown, unimportant, or obvious",
+    "Add \"by\" only when the doer is genuinely important information"
+  ],
+  "content": {
+    "intro": "In an active sentence, the subject does the action (\"The chef cooked the meal\"). In a passive sentence, the subject receives the action (\"The meal was cooked\"). English uses this a lot when the doer doesn't matter.",
+    "rules": [
+      {
+        "heading": "Form",
+        "body": "<p>to be (in the right tense) + past participle.</p><ul><li>Present simple passive: The cake is baked every Sunday.</li><li>Past simple passive: The house was built in 1990.</li></ul>"
+      },
+      {
+        "heading": "When to use it",
+        "body": "<ul><li>The doer is unknown: My phone was stolen. (we don't know who)</li><li>The doer is obvious/unimportant: The suspect was arrested. (obviously the police)</li><li>The action/result matters more than who did it: The bridge was built in 1930.</li></ul><p>Add \"by + doer\" only if that information is genuinely useful: The painting was created by Picasso.</p>"
+      }
+    ],
+    "examples": [
+      "The cake is baked every Sunday by my mother.",
+      "The house was built in 1990.",
+      "The letters were sent yesterday.",
+      "The results will be announced tomorrow.",
+      "The song was sung by a famous artist.",
+      "My car is being repaired right now."
+    ],
+    "commonMistakes": [
+      { "wrong": "The cake is baking by my mother.", "right": "The cake is baked by my mother.", "why": "The passive needs \"to be + past participle,\" not the -ing form (unless it's also continuous: \"is being baked\")." },
+      { "wrong": "The house builded in 1990.", "right": "The house was built in 1990.", "why": "The passive always needs \"to be\" before the past participle." },
+      { "wrong": "The letters sent yesterday.", "right": "The letters were sent yesterday.", "why": "Without \"were,\" this isn't a complete passive sentence." },
+      { "wrong": "The book was written by somebody.", "right": "The book was written.", "why": "If the doer isn't known or important, just drop the \"by\" phrase entirely — don't force a vague \"by somebody.\"" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1pv-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct passive form.",
+      "items": [
+        { "id": "b1pv1", "prompt": "The cake ___ (bake) by my mother every Sunday.", "answers": [["is baked"]], "explanation": "Present simple passive: is + past participle." },
+        { "id": "b1pv2", "prompt": "The house ___ (build) in 1990.", "answers": [["was built"]], "explanation": "Past simple passive: was + past participle (irregular: build → built)." },
+        { "id": "b1pv3", "prompt": "The letters ___ (send) yesterday.", "answers": [["were sent"]], "explanation": "Past simple passive, plural subject: were + past participle." },
+        { "id": "b1pv4", "prompt": "The results ___ (announce) tomorrow.", "answers": [["will be announced"]], "explanation": "Future passive: will be + past participle." }
+      ]
+    },
+    {
+      "id": "b1pv-mc", "type": "multiple-choice", "title": "Choose the Correct Passive Form",
+      "items": [
+        { "id": "b1pv5", "prompt": "The movie ______ directed by Steven Spielberg.", "options": ["is", "was", "has"], "answerIndex": 1, "explanation": "A finished historical fact — past simple passive, \"was.\"" },
+        { "id": "b1pv6", "prompt": "The car ______ at the moment.", "options": ["is repairing", "is being repaired", "repairs"], "answerIndex": 1, "explanation": "Present continuous passive: is being + past participle." }
+      ]
+    },
+    {
+      "id": "b1pv-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b1pv7", "incorrect": "The room cleaned when I arrived.", "answer": ["The room was cleaned when I arrived."], "explanation": "The passive needs \"was\" before the past participle." },
+        { "id": "b1pv8", "incorrect": "The book is read by millions of people by someone.", "answer": ["The book is read by millions of people."], "explanation": "\"By millions of people\" already names the doer — don't add a second, vague \"by someone.\"" }
+      ]
+    }
+  ],
+  "summary": [
+    "Passive = to be + past participle, in whatever tense you need.",
+    "Use it when the doer is unknown, obvious, or less important than the action/result.",
+    "Only add \"by + doer\" when that information genuinely matters."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/b1-intermediate/h-passive-voice.docx", "pdf": "cefr/b1-intermediate/h-passive-voice.pdf" }
+}

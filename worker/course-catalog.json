@@ -556,6 +556,90 @@
     },
     {
       "level": "B1",
+      "title": "Present Perfect",
+      "url": "levels/b1/present-perfect.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Present Perfect Continuous",
+      "url": "levels/b1/present-perfect-continuous.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Present Perfect vs. Present Perfect Continuous",
+      "url": "levels/b1/present-perfect-vs-present-perfect-continuous.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Past Simple vs. Present Perfect I",
+      "url": "levels/b1/past-simple-vs-present-perfect-i.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Past Simple vs. Present Perfect II",
+      "url": "levels/b1/past-simple-vs-present-perfect-ii.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Future Continuous",
+      "url": "levels/b1/future-continuous.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Future Continuous & Future Perfect",
+      "url": "levels/b1/future-continuous-and-future-perfect.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Past Simple vs. Past Perfect",
+      "url": "levels/b1/past-simple-vs-past-perfect.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Past Perfect & Past Perfect Continuous",
+      "url": "levels/b1/past-perfect-and-perfect-continuous.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Must, Might, Should",
+      "url": "levels/b1/must-might-should.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Second and Third Conditionals",
+      "url": "levels/b1/second-and-third-conditionals.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Future Forms: Will / Going To",
+      "url": "levels/b1/future-forms-will-going-to.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Passive Voice",
+      "url": "levels/b1/passive-voice.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Would",
+      "url": "levels/b1/would.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
       "title": "Reported Speech — Statements & Basic Backshift",
       "url": "levels/b1/reported-speech-foundation.html",
       "type": "lesson"

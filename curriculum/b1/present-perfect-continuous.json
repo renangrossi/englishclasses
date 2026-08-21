@@ -1,0 +1,79 @@
+{
+  "id": "b1-present-perfect-continuous",
+  "level": "B1",
+  "unit": "2",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "present-perfect",
+  "title": "Present Perfect Continuous",
+  "subtitle": "Emphasize the duration of an activity that started in the past and continues (or just stopped).",
+  "prerequisites": ["b1-present-perfect"],
+  "objectives": [
+    "Form the present perfect continuous (have/has been + -ing)",
+    "Use it to emphasize how long an activity has been happening",
+    "Use it for an activity that has recently stopped, with visible results now"
+  ],
+  "content": {
+    "intro": "This tense adds duration and \"in-progress-ness\" to the present perfect — it's less about the result and more about the activity itself, and how long it's been going on.",
+    "rules": [
+      {
+        "heading": "Form",
+        "body": "<p>have/has been + verb-ing. I/you/we/they have been working. He/she/it has been working.</p>"
+      },
+      {
+        "heading": "Use 1: duration up to now",
+        "body": "<ul><li>I have been studying English for three years. (started three years ago, still going)</li><li>She has been working here since 2020.</li></ul>"
+      },
+      {
+        "heading": "Use 2: recent activity, visible result",
+        "body": "<ul><li>You're out of breath — have you been running?</li><li>It has been raining — the streets are wet.</li></ul>"
+      }
+    ],
+    "examples": [
+      "I have been studying English for three years.",
+      "She has been working here since 2020.",
+      "It has been raining all morning.",
+      "Have you been waiting long?",
+      "They have been living in London for six months.",
+      "He looks tired — he has been working all day."
+    ],
+    "commonMistakes": [
+      { "wrong": "I have been study English for three years.", "right": "I have been studying English for three years.", "why": "The continuous form needs the -ing verb, not the base form." },
+      { "wrong": "I have been knowing her for years.", "right": "I have known her for years.", "why": "\"Know\" is a state verb (not an action) and doesn't normally take the continuous form — use the present perfect simple." },
+      { "wrong": "She has being working here.", "right": "She has been working here.", "why": "The correct participle is \"been,\" not \"being.\"" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1ppc-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the present perfect continuous.",
+      "items": [
+        { "id": "b1ppc1", "prompt": "I ___ (study) English for three years.", "answers": [["have been studying"]], "explanation": "have + been + studying." },
+        { "id": "b1ppc2", "prompt": "She ___ (work) here since 2020.", "answers": [["has been working"]], "explanation": "Third person singular: has + been + working." },
+        { "id": "b1ppc3", "prompt": "It ___ (rain) all morning.", "answers": [["has been raining"]], "explanation": "has + been + raining." },
+        { "id": "b1ppc4", "prompt": "___ you ___ (wait) long?", "answers": [["Have"], ["been waiting"]], "explanation": "Question form: Have + subject + been + -ing." }
+      ]
+    },
+    {
+      "id": "b1ppc-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "b1ppc5", "prompt": "You're out of breath — ___?", "options": ["have you run", "have you been running", "did you run"], "answerIndex": 1, "explanation": "A visible present result of a recent activity — present perfect continuous." },
+        { "id": "b1ppc6", "prompt": "I ___ her for ten years. (a state, not an action)", "options": ["have been knowing", "have known", "know"], "answerIndex": 1, "explanation": "\"Know\" is a state verb — use the present perfect simple, not the continuous." }
+      ]
+    },
+    {
+      "id": "b1ppc-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b1ppc7", "incorrect": "They have been live in London for six months.", "answer": ["They have been living in London for six months."], "explanation": "The continuous form needs the -ing verb." },
+        { "id": "b1ppc8", "incorrect": "She has being working all day.", "answer": ["She has been working all day."], "explanation": "The correct participle after \"has\" is \"been,\" not \"being.\"" }
+      ]
+    }
+  ],
+  "summary": [
+    "Have/has been + verb-ing.",
+    "Emphasizes duration (for/since) or a recent activity with a visible present result.",
+    "State verbs (know, like, believe, own) don't normally take the continuous form."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/b1-intermediate/b-present-perfect-continuous.docx", "pdf": "cefr/b1-intermediate/b-present-perfect-continuous.pdf" }
+}

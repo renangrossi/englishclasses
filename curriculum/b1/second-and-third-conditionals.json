@@ -1,0 +1,76 @@
+{
+  "id": "b1-second-and-third-conditionals",
+  "level": "B1",
+  "unit": "4",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "conditionals",
+  "title": "Second & Third Conditionals",
+  "subtitle": "Talk about unreal or unlikely situations, in the present and in the past.",
+  "prerequisites": ["a2-zero-and-first-conditionals"],
+  "objectives": [
+    "Form the second conditional for unreal/unlikely present or future situations",
+    "Form the third conditional for unreal past situations (things that didn't happen)",
+    "Tell the two apart based on time"
+  ],
+  "content": {
+    "intro": "You already know real conditionals (zero and first). Now let's talk about the imaginary: what would happen if things were different, now or in the past.",
+    "rules": [
+      {
+        "heading": "a) Second conditional — unreal present/future",
+        "body": "<p>If + past simple, would + base verb. Used for something imaginary, unlikely, or impossible now.</p><ul><li>If I won the lottery, I would travel the world. (I probably won't win)</li><li>If I were you, I would apologize. (I'm not you — imaginary advice)</li></ul>"
+      },
+      {
+        "heading": "b) Third conditional — unreal past",
+        "body": "<p>If + past perfect, would have + past participle. Used for something that didn't actually happen in the past.</p><ul><li>If I had studied harder, I would have passed the exam. (I didn't study harder, so I didn't pass)</li><li>If she had left earlier, she wouldn't have missed the train.</li></ul>"
+      }
+    ],
+    "examples": [
+      "If I won the lottery, I would travel the world.",
+      "If I were you, I would apologize.",
+      "If it rained, we would stay home. (unlikely, hypothetical)",
+      "If I had studied harder, I would have passed the exam.",
+      "If she had left earlier, she wouldn't have missed the train.",
+      "If they had known, they would have helped."
+    ],
+    "commonMistakes": [
+      { "wrong": "If I win the lottery, I would travel the world.", "right": "If I won the lottery, I would travel the world.", "why": "The \"if\" clause of the second conditional needs the past simple, not the present." },
+      { "wrong": "If I was you, I would apologize.", "right": "If I were you, I would apologize.", "why": "In the second conditional, \"were\" is used for all subjects (including I/he/she) in this fixed expression." },
+      { "wrong": "If I had study harder, I would have passed.", "right": "If I had studied harder, I would have passed.", "why": "The third conditional's \"if\" clause needs the past perfect (had + past participle)." },
+      { "wrong": "If I had studied harder, I would passed the exam.", "right": "If I had studied harder, I would have passed the exam.", "why": "The result clause of the third conditional needs \"would have\" + past participle." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1cond23-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct second or third conditional form.",
+      "items": [
+        { "id": "b1cond23-1", "prompt": "If I ___ (win) the lottery, I ___ (travel) the world.", "answers": [["won"], ["would travel"]], "explanation": "Unreal/unlikely present — second conditional." },
+        { "id": "b1cond23-2", "prompt": "If I ___ (study) harder, I ___ (pass) the exam. (but I didn't study)", "answers": [["had studied"], ["would have passed"]], "explanation": "Unreal past — third conditional." },
+        { "id": "b1cond23-3", "prompt": "If she ___ (leave) earlier, she ___ (not/miss) the train.", "answers": [["had left"], ["wouldn't have missed"]], "explanation": "Third conditional, unreal past." },
+        { "id": "b1cond23-4", "prompt": "If I ___ (be) you, I ___ (apologize).", "answers": [["were"], ["would apologize"]], "explanation": "\"Were\" is used for all subjects in this fixed second-conditional expression." }
+      ]
+    },
+    {
+      "id": "b1cond23-mc", "type": "multiple-choice", "title": "Choose the Correct Sentence",
+      "items": [
+        { "id": "b1cond23-5", "prompt": "Which sentence describes something that didn't actually happen in the past?", "options": ["If it rains, I will stay home.", "If I had known, I would have called you.", "If I won the lottery, I would travel."], "answerIndex": 1, "explanation": "This is the third conditional — an unreal past situation." },
+        { "id": "b1cond23-6", "prompt": "Which sentence describes an unlikely present/future situation?", "options": ["If I were rich, I would buy a house.", "If you heat water, it boils.", "If I had studied, I would have passed."], "answerIndex": 0, "explanation": "This is the second conditional — unreal present/future." }
+      ]
+    },
+    {
+      "id": "b1cond23-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b1cond23-7", "incorrect": "If I win the lottery, I would travel the world.", "answer": ["If I won the lottery, I would travel the world."], "explanation": "The second conditional's \"if\" clause needs the past simple." },
+        { "id": "b1cond23-8", "incorrect": "If they had known, they would help.", "answer": ["If they had known, they would have helped."], "explanation": "The third conditional's result clause needs \"would have\" + past participle." }
+      ]
+    }
+  ],
+  "summary": [
+    "Second conditional: If + past simple, would + base verb — unreal present/future.",
+    "Third conditional: If + past perfect, would have + past participle — unreal past (didn't happen).",
+    "\"Were\" (not \"was\") is standard for all subjects in second-conditional \"if I were...\" expressions."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/b1-intermediate/g-2nd-and-3rd-conditionals.docx", "pdf": "cefr/b1-intermediate/g-2nd-and-3rd-conditionals.pdf" }
+}

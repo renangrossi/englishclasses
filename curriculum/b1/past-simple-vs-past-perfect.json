@@ -1,0 +1,70 @@
+{
+  "id": "b1-past-simple-vs-past-perfect",
+  "level": "B1",
+  "unit": "3",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "past-perfect",
+  "title": "Past Simple vs. Past Perfect",
+  "subtitle": "Show which of two past events happened first.",
+  "prerequisites": ["a2-simple-past-i"],
+  "objectives": [
+    "Form the past perfect (had + past participle)",
+    "Use it for the earlier of two past events",
+    "Combine it with the simple past for the later event"
+  ],
+  "content": {
+    "intro": "When you're telling a story with two past events, English lets you show clearly which one happened first — even without saying \"first\" and \"then.\"",
+    "rules": [
+      {
+        "heading": "The rule",
+        "body": "<p>Past perfect (had + past participle) = the earlier event. Simple past = the later event.</p><ul><li>When I arrived, the movie had already started. (it started first, then I arrived)</li><li>She had finished dinner before I called. (dinner finished first, then the call)</li></ul><p>Compare: \"When I arrived, the movie started\" (the two things happen at almost the same time — no past perfect needed).</p>"
+      }
+    ],
+    "examples": [
+      "When I arrived, the movie had already started.",
+      "She had finished dinner before I called.",
+      "By the time we got to the station, the train had left.",
+      "He had never seen snow before he visited Canada.",
+      "I realized I had forgotten my keys.",
+      "They had already left when we arrived."
+    ],
+    "commonMistakes": [
+      { "wrong": "When I arrived, the movie already started.", "right": "When I arrived, the movie had already started.", "why": "To show the movie started before you arrived, the earlier event needs the past perfect." },
+      { "wrong": "She finished dinner before I had called.", "right": "She had finished dinner before I called.", "why": "The earlier event (dinner) needs the past perfect, not the later one (called)." },
+      { "wrong": "He had never see snow before.", "right": "He had never seen snow before.", "why": "The past perfect needs the past participle (seen), not the base form." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1spvp-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the simple past or past perfect.",
+      "items": [
+        { "id": "b1spvp1", "prompt": "When I ___ (arrive), the movie ___ (already/start).", "answers": [["arrived"], ["had already started"]], "explanation": "Arriving is later; the movie starting is earlier — past perfect for the earlier event." },
+        { "id": "b1spvp2", "prompt": "By the time we got to the station, the train ___ (leave).", "answers": [["had left"]], "explanation": "Leaving happened before we got there — past perfect." },
+        { "id": "b1spvp3", "prompt": "I ___ (realize) I ___ (forget) my keys.", "answers": [["realized"], ["had forgotten"]], "explanation": "Forgetting happened before realizing — past perfect for the earlier event." }
+      ]
+    },
+    {
+      "id": "b1spvp-mc", "type": "multiple-choice", "title": "Choose the Correct Form",
+      "items": [
+        { "id": "b1spvp4", "prompt": "He ___ never ___ snow before he visited Canada.", "options": ["did / see", "had / seen", "has / seen"], "answerIndex": 1, "explanation": "The earlier event (never having seen snow) needs the past perfect." },
+        { "id": "b1spvp5", "prompt": "They ___ already ___ when we arrived.", "options": ["have / left", "had / left", "did / leave"], "answerIndex": 1, "explanation": "Leaving happened before we arrived — past perfect." }
+      ]
+    },
+    {
+      "id": "b1spvp-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b1spvp6", "incorrect": "When I got home, my brother already left.", "answer": ["When I got home, my brother had already left."], "explanation": "The earlier event (leaving) needs the past perfect." },
+        { "id": "b1spvp7", "incorrect": "She had finish her homework before dinner.", "answer": ["She had finished her homework before dinner."], "explanation": "The past perfect needs the past participle (finished)." }
+      ]
+    }
+  ],
+  "summary": [
+    "Past perfect (had + past participle) = the earlier of two past events.",
+    "Simple past = the later event.",
+    "If two events happen at nearly the same time, the simple past alone is usually enough for both."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/b1-intermediate/c-past-simple-vs-past-perfect.docx", "pdf": "cefr/b1-intermediate/c-past-simple-vs-past-perfect.pdf" }
+}

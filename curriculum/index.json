@@ -1,5 +1,5 @@
 {
-  "_readme": "Single source of truth for curriculum sequencing. status: 'published' = generated HTML exists and is linked from its level page; 'drafted' = curriculum/{level}/{id}.json exists, not yet built; 'planned' = identified by the gap analysis, no JSON yet. C1 and C2 are fully populated (10/10 topics each, matching their should-be-here.txt specs). B1 and B2 each have 3 and 2 original bridge lessons published so far (from the curriculum gap analysis), not yet the full level -- most B1/B2 grammar topics still exist only as PDF/DOCX. Pre-A1 is fully populated (8/8 lessons, a new level with no prior source material). A2 is fully populated (13/13 unique topics -- the source material had 15 files but 2 were near-duplicates of others, resolved during conversion, not separately authored). -- the rest of the level-by-level unit breakdown from the pedagogical audit is intentionally not hand-copied in here yet, to avoid the index silently claiming more progress than exists. It gets filled in level-by-level as each level's lessons are actually authored.",
+  "_readme": "Single source of truth for curriculum sequencing. status: 'published' = generated HTML exists and is linked from its level page; 'drafted' = curriculum/{level}/{id}.json exists, not yet built; 'planned' = identified by the gap analysis, no JSON yet. C1 and C2 are fully populated (10/10 topics each, matching their should-be-here.txt specs). B1 and B2 each have 3 and 2 original bridge lessons published so far (from the curriculum gap analysis), not yet the full level -- most B1/B2 grammar topics still exist only as PDF/DOCX. Pre-A1 is fully populated (8/8 lessons, a new level with no prior source material). A2 is fully populated (13/13 unique topics -- 2 source duplicates resolved). B1 is fully populated (17/17: 14 converted + 3 original bridge lessons -- 2 more source duplicates resolved, both cases where a 'solo' card pointed at the same file as a combined lesson). -- the rest of the level-by-level unit breakdown from the pedagogical audit is intentionally not hand-copied in here yet, to avoid the index silently claiming more progress than exists. It gets filled in level-by-level as each level's lessons are actually authored.",
   "levels": {
     "PRE-A1": {
       "units": [
@@ -112,8 +112,64 @@
       "units": [
         {
           "id": "1",
-          "title": "B1 Bridge Lessons (gap-analysis additions)",
+          "title": "B1 Intermediate Grammar (14 topics) + 3 gap-analysis bridge lessons (17 total; 2 source duplicates resolved: solo Future Perfect and solo Past Perfect merged into their combined lessons)",
           "lessons": [
+            {
+              "id": "b1-present-perfect",
+              "status": "published"
+            },
+            {
+              "id": "b1-present-perfect-continuous",
+              "status": "published"
+            },
+            {
+              "id": "b1-present-perfect-vs-present-perfect-continuous",
+              "status": "published"
+            },
+            {
+              "id": "b1-past-simple-vs-present-perfect-i",
+              "status": "published"
+            },
+            {
+              "id": "b1-past-simple-vs-present-perfect-ii",
+              "status": "published"
+            },
+            {
+              "id": "b1-future-continuous",
+              "status": "published"
+            },
+            {
+              "id": "b1-future-continuous-and-future-perfect",
+              "status": "published"
+            },
+            {
+              "id": "b1-past-simple-vs-past-perfect",
+              "status": "published"
+            },
+            {
+              "id": "b1-past-perfect-and-perfect-continuous",
+              "status": "published"
+            },
+            {
+              "id": "b1-must-might-should",
+              "status": "published"
+            },
+            {
+              "id": "b1-second-and-third-conditionals",
+              "status": "published"
+            },
+            {
+              "id": "b1-future-forms-will-going-to",
+              "status": "published"
+            },
+            {
+              "id": "b1-passive-voice",
+              "status": "published"
+            },
+            {
+              "id": "b1-would",
+              "status": "published"
+            },
             {
               "id": "b1-reported-speech-foundation",
               "status": "published"

@@ -956,9 +956,21 @@
       retryAllBtn.style.display = "";
       printBtn.style.display = "";
       if (topicSaveBtn) topicSaveBtn.style.display = "";
+      // Each result gets the id of the item it came from (built[i] and
+      // data.items[i] are always positionally aligned -- see `built`
+      // above). This is what lets assets/js/mastery.js track per-item
+      // spaced-repetition history; nothing here changes grading, and
+      // existing consumers of this event that only read r.correct are
+      // unaffected by the extra field.
+      var resultsWithItemIds = lastResults.map(function (r, i) {
+        var withId = {};
+        for (var k in r) { if (Object.prototype.hasOwnProperty.call(r, k)) withId[k] = r[k]; }
+        withId.itemId = (data.items[i] || {}).id;
+        return withId;
+      });
       container.dispatchEvent(new CustomEvent("exercise:submitted", {
         bubbles: true,
-        detail: { id: data.id, results: lastResults },
+        detail: { id: data.id, results: resultsWithItemIds },
       }));
 
       // Gamification (assets/js/progress.js) — optional by design: if
@@ -1408,4 +1420,15 @@
   } else {
     init();
   }
+
+  // Minimal public API -- lets a page (today-review.html) build fresh
+  // .exercise-block markup at runtime (e.g. for spaced-repetition due
+  // items assembled from assets/data/exercise-items-index.json) and
+  // have it graded by the exact same engine as every hand-authored
+  // lesson page, instead of a second rendering implementation. Calling
+  // init() again only re-scans .exercise-block elements currently in
+  // the DOM; on a page that has none at load time (today-review.html
+  // starts empty and injects its own), this is safe to call as many
+  // times as needed with no double-processing risk.
+  window.ExerciseEngine = { init: init };
 })();

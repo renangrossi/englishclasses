@@ -1,0 +1,241 @@
+{
+  "id": "b2-articles-generic-reference",
+  "level": "B2",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "articles",
+  "title": "Articles — Generic Reference & Common L1 Mistakes",
+  "subtitle": "Know when English uses no article at all — one of the most common sources of mistakes for Portuguese speakers.",
+  "prerequisites": [
+    "a1-articles-a-an-the"
+  ],
+  "objectives": [
+    "Use no article for generic plural/uncountable nouns and abstract concepts",
+    "Use no article with meals, means of transport and most institutions in fixed expressions",
+    "Recognize the specific pattern of L1 transfer from Portuguese, which usually does use an article in these cases",
+    "Contrast generic reference (no article) with a specific instance (the)"
+  ],
+  "content": {
+    "intro": "You already know a/an/the for specific, countable, first-mention nouns. At B2, the harder skill is knowing when English uses no article at all — especially for generic statements, which is exactly where Portuguese speakers tend to add one by mistake.",
+    "rules": [
+      {
+        "heading": "a) Generic reference — no article",
+        "body": "<p>When you talk about something in general (not one specific example), plural and uncountable nouns take no article in English.</p><ul><li>Coffee is popular in Brazil. (coffee in general — not \"the coffee\")</li><li>Dogs are loyal animals. (dogs in general — not \"the dogs,\" unless you mean specific dogs already mentioned)</li><li>Compare: The coffee on the table is cold. (one specific coffee)</li></ul><p>In Portuguese this is different: \"O café é popular no Brasil\" / \"Os cães são leais\" both use an article — English does not, for generic statements.</p>"
+      },
+      {
+        "heading": "b) Abstract nouns — no article",
+        "body": "<p>Abstract concepts (love, life, happiness, freedom, information, advice, music, art) usually take no article when talking about the concept generally.</p><ul><li>Life is unpredictable. (not \"The life\")</li><li>Music helps me relax. (not \"The music,\" unless referring to specific music already mentioned)</li></ul>"
+      },
+      {
+        "heading": "c) Meals, transport and fixed expressions",
+        "body": "<p>No article in common fixed expressions:</p><ul><li>Meals: have breakfast / lunch / dinner (not \"the breakfast\")</li><li>Transport: by car / by bus / by plane / on foot (not \"by the car\")</li><li>Places used for their normal purpose: go to school / go to work / go to bed / in bed / at home</li></ul>"
+      }
+    ],
+    "registerNote": "This is one of the most persistent errors for Portuguese speakers, since Portuguese almost always uses an article where English generic statements use none — the mistake often survives even at advanced levels, precisely because it doesn't affect comprehension, only correctness.",
+    "examples": [
+      "Water is essential for life.",
+      "The water in this glass is warm.",
+      "Cats sleep most of the day.",
+      "The cats next door make a lot of noise at night.",
+      "Money can't buy happiness.",
+      "I usually have lunch at noon.",
+      "We went to Paris by train.",
+      "Children learn languages faster than adults.",
+      "Honesty is the best policy.",
+      "He goes to bed early on weekdays."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The coffee is my favorite drink.",
+        "right": "Coffee is my favorite drink.",
+        "why": "A generic statement about coffee in general takes no article — “the coffee” would mean one specific coffee (e.g., the one in front of you)."
+      },
+      {
+        "wrong": "The life is short.",
+        "right": "Life is short.",
+        "why": "Abstract nouns used generically take no article."
+      },
+      {
+        "wrong": "I go to the school by the bus.",
+        "right": "I go to school by bus.",
+        "why": "Institutions used for their normal purpose (school) and means of transport (by bus) take no article in these fixed expressions."
+      },
+      {
+        "wrong": "The dogs are loyal animals.",
+        "right": "Dogs are loyal animals.",
+        "why": "A generic statement about dogs in general — \"the dogs\" would only be correct if referring to specific, already-identified dogs."
+      },
+      {
+        "wrong": "I like the music and the art.",
+        "right": "I like music and art.",
+        "why": "Talking about music and art as general concepts/interests, not one specific piece — no article."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2art-gapfill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "instructions": "Choose the, a, or (no article) for each blank.",
+      "items": [
+        {
+          "id": "b2art1",
+          "prompt": "___ Books are my favorite way to relax.",
+          "answers": [
+            [
+              "(no article)"
+            ]
+          ],
+          "options": [
+            "The",
+            "A",
+            "(no article)"
+          ],
+          "explanation": "Generic statement about books in general — no article."
+        },
+        {
+          "id": "b2art2",
+          "prompt": "___ book on your desk looks interesting.",
+          "answers": [
+            [
+              "The"
+            ]
+          ],
+          "options": [
+            "The",
+            "A",
+            "(no article)"
+          ],
+          "explanation": "A specific, identifiable book (\"on your desk\") takes \"the.\""
+        },
+        {
+          "id": "b2art3",
+          "prompt": "___ Happiness doesn't depend on money.",
+          "answers": [
+            [
+              "(no article)"
+            ]
+          ],
+          "options": [
+            "The",
+            "A",
+            "(no article)"
+          ],
+          "explanation": "Abstract noun used generically — no article."
+        },
+        {
+          "id": "b2art4",
+          "prompt": "We usually have ___ dinner at eight.",
+          "answers": [
+            [
+              "(no article)"
+            ]
+          ],
+          "options": [
+            "The",
+            "A",
+            "(no article)"
+          ],
+          "explanation": "Meals in fixed expressions take no article."
+        },
+        {
+          "id": "b2art5",
+          "prompt": "She travels to work by ___ bicycle.",
+          "answers": [
+            [
+              "(no article)"
+            ]
+          ],
+          "options": [
+            "The",
+            "A",
+            "(no article)"
+          ],
+          "explanation": "Means of transport in \"by + transport\" takes no article."
+        },
+        {
+          "id": "b2art6",
+          "prompt": "___ information you sent me was very useful.",
+          "answers": [
+            [
+              "The"
+            ]
+          ],
+          "options": [
+            "The",
+            "A",
+            "(no article)"
+          ],
+          "explanation": "This refers to specific information already mentioned/sent, not information in general."
+        }
+      ]
+    },
+    {
+      "id": "b2art-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "b2art7",
+          "incorrect": "The money can't buy the happiness.",
+          "answer": [
+            "Money can't buy happiness."
+          ],
+          "explanation": "Both \"money\" and \"happiness\" are generic/abstract here — no article for either."
+        },
+        {
+          "id": "b2art8",
+          "incorrect": "I go to the bed at eleven every night.",
+          "answer": [
+            "I go to bed at eleven every night."
+          ],
+          "explanation": "\"Go to bed\" is a fixed expression with no article."
+        },
+        {
+          "id": "b2art9",
+          "incorrect": "The cats are independent animals.",
+          "answer": [
+            "Cats are independent animals."
+          ],
+          "explanation": "A generic statement about cats in general — no article."
+        },
+        {
+          "id": "b2art10",
+          "incorrect": "We came here by the plane.",
+          "answer": [
+            "We came here by plane."
+          ],
+          "explanation": "\"By + means of transport\" is a fixed expression with no article."
+        }
+      ]
+    },
+    {
+      "id": "b2art-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence for each prompt. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "b2art11",
+          "prompt": "Write one generic sentence about an abstract concept (e.g., time, freedom, success) with no article.",
+          "modelAnswer": "Success requires patience and consistent effort."
+        },
+        {
+          "id": "b2art12",
+          "prompt": "Write one sentence contrasting a generic plural noun (no article) with a specific instance of the same noun (with “the”).",
+          "modelAnswer": "Books can change your perspective on life, but the books on my shelf right now are mostly unread."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Generic statements about plural/uncountable nouns take no article: Coffee is popular, not The coffee is popular.",
+    "Abstract nouns used generically (life, love, happiness, music) take no article.",
+    "Fixed expressions with meals, transport and everyday institutions take no article: have breakfast, by car, go to school.",
+    "Add “the” only when referring to one specific, already-identified instance."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

@@ -425,9 +425,39 @@
     },
     {
       "level": "B1",
+      "title": "Reported Speech — Statements & Basic Backshift",
+      "url": "levels/b1/reported-speech-foundation.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Relative Clauses — Defining vs. Non-Defining",
+      "url": "levels/b1/relative-clauses-defining-non-defining.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Comparatives II — Intensifiers & Double Comparatives",
+      "url": "levels/b1/comparatives-ii-intensifiers.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
       "title": "B1 Test Yourself (full review)",
       "url": "levels/b1/test-yourself.html",
       "type": "test"
+    },
+    {
+      "level": "B2",
+      "title": "Articles — Generic Reference & Common L1 Mistakes",
+      "url": "levels/b2/articles-generic-reference.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Future-in-the-Past",
+      "url": "levels/b2/future-in-the-past.html",
+      "type": "lesson"
     },
     {
       "level": "B2",

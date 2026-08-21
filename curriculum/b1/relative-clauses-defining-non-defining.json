@@ -1,0 +1,95 @@
+{
+  "id": "b1-relative-clauses-defining-non-defining",
+  "level": "B1",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "relative-clauses",
+  "title": "Relative Clauses — Defining vs. Non-Defining, Whose & Prepositions",
+  "subtitle": "Add essential or extra information to a noun, and know when commas matter.",
+  "prerequisites": ["a2-who-which-that"],
+  "objectives": [
+    "Tell the difference between defining (essential) and non-defining (extra) relative clauses",
+    "Use commas correctly with non-defining clauses, and never with defining ones",
+    "Use whose to show possession",
+    "Use relative clauses with prepositions in both an informal and a formal style"
+  ],
+  "content": {
+    "intro": "You already know who, which and that from A2. At B1, the key question is: does the relative clause tell you which one, or does it just add an extra fact about something already identified?",
+    "rules": [
+      {
+        "heading": "a) Defining relative clauses (essential information)",
+        "body": "<p>No commas. The clause tells you exactly which person or thing is meant — remove it, and the sentence loses essential meaning. <strong>That</strong> is allowed here (as well as who/which).</p><ul><li>The woman who lives next door is a doctor. (Which woman? The one who lives next door.)</li><li>The book that I borrowed was excellent. (Which book? The one I borrowed.)</li></ul>"
+      },
+      {
+        "heading": "b) Non-defining relative clauses (extra information)",
+        "body": "<p>Commas on both sides. The clause adds extra, non-essential detail — remove it, and the sentence still makes complete sense. <strong>That</strong> is never used here — only who/which/whose.</p><ul><li>My sister, who lives in London, is visiting next week. (I have one sister; the clause just adds a fact.)</li><li>The Eiffel Tower, which was built in 1889, attracts millions of visitors. (There's only one Eiffel Tower — the clause doesn't identify it, just adds information.)</li></ul>"
+      },
+      {
+        "heading": "c) Whose (possession)",
+        "body": "<p>Use <strong>whose</strong> to show that something belongs to the person or thing just mentioned — for people and things.</p><ul><li>That's the man whose car was stolen.</li><li>It's a company whose products are sold worldwide.</li></ul>"
+      },
+      {
+        "heading": "d) Relative clauses with prepositions",
+        "body": "<p>Informal (everyday spoken English): preposition stays at the end, and <strong>that</strong> or nothing is common.</p><ul><li>She's the woman (that) I told you about.</li></ul><p>Formal (written English): preposition moves before whom/which — never before \"who\" or \"that.\"</p><ul><li>She's the woman about whom I told you.</li></ul>"
+      }
+    ],
+    "examples": [
+      "The man who called this morning didn't leave his name.",
+      "My car, which is ten years old, still runs perfectly.",
+      "This is the restaurant that we talked about.",
+      "Mr. Silva, whose daughter studies with me, is a professor.",
+      "The company I work for is expanding to three new countries.",
+      "Paris, which is the capital of France, is famous for its museums.",
+      "The person to whom this letter is addressed no longer lives here.",
+      "The keys that you were looking for are on the table."
+    ],
+    "commonMistakes": [
+      { "wrong": "My sister that lives in London is visiting.", "right": "My sister, who lives in London, is visiting.", "why": "\"That\" is never used in a non-defining clause — use \"who\"/\"which,\" with commas." },
+      { "wrong": "The man, who called this morning, didn't leave his name.", "right": "The man who called this morning didn't leave his name.", "why": "This clause identifies which man — it's defining, so no commas." },
+      { "wrong": "The woman who's car was stolen is my neighbor.", "right": "The woman whose car was stolen is my neighbor.", "why": "\"Whose\" shows possession; \"who's\" is short for \"who is\" — they sound the same but mean different things." },
+      { "wrong": "She's the woman about that I told you.", "right": "She's the woman that I told you about. / She's the woman about whom I told you.", "why": "A preposition can go before \"whom\" (formal) or stay at the end with \"that\"/nothing (informal) — never directly before \"that.\"" },
+      { "wrong": "I have two sisters who live in London.", "right": "(only correct if you actually have more than one sister living in London — otherwise: My sister, who lives in London, is visiting.)", "why": "Whether you use commas changes the meaning: without commas, it implies you have several sisters and this identifies which ones." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1rc-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with who, which, that, or whose (more than one may be possible for the defining clauses).",
+      "items": [
+        { "id": "b1rc1", "prompt": "The car ___ I bought last year has already broken down.", "answers": [["that", "which"]], "explanation": "Defining clause about a thing — that or which both work." },
+        { "id": "b1rc2", "prompt": "My father, ___ worked as an engineer for thirty years, just retired.", "answers": [["who"]], "explanation": "Non-defining clause about a person — only \"who\" (never \"that\")." },
+        { "id": "b1rc3", "prompt": "That's the boy ___ bicycle was stolen last week.", "answers": [["whose"]], "explanation": "Shows possession — the boy's bicycle." },
+        { "id": "b1rc4", "prompt": "The hotel ___ we stayed at was surprisingly cheap.", "answers": [["that", "which"]], "explanation": "Defining clause about a thing." },
+        { "id": "b1rc5", "prompt": "London, ___ I visited last summer, is an amazing city.", "answers": [["which"]], "explanation": "Non-defining clause about a place — only \"which\" (never \"that\")." },
+        { "id": "b1rc6", "prompt": "The woman ___ answered the phone was very polite.", "answers": [["who", "that"]], "explanation": "Defining clause about a person." }
+      ]
+    },
+    {
+      "id": "b1rc-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b1rc7", "incorrect": "My brother that lives in Canada is a doctor.", "answer": ["My brother, who lives in Canada, is a doctor."], "explanation": "Non-defining clause (he has one brother) — needs \"who\" and commas, not \"that.\"" },
+        { "id": "b1rc8", "incorrect": "The man, who I met yesterday, works at the bank.", "answer": ["The man who I met yesterday works at the bank."], "explanation": "This clause identifies which man — it's defining, so no commas." },
+        { "id": "b1rc9", "incorrect": "She's the girl who's phone I borrowed.", "answer": ["She's the girl whose phone I borrowed."], "explanation": "\"Whose\" (possession), not \"who's\" (= who is)." },
+        { "id": "b1rc10", "incorrect": "This is the topic about that we spoke.", "answer": ["This is the topic that we spoke about.", "This is the topic about which we spoke."], "explanation": "A preposition never goes directly before \"that\" — put it at the end (informal) or before \"which\"/\"whom\" (formal)." }
+      ]
+    },
+    {
+      "id": "b1rc-guided", "type": "typing", "title": "Guided Production",
+      "instructions": "Write your own sentence for each prompt. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        { "id": "b1rc11", "prompt": "Write one sentence with a defining relative clause (using who, which or that) about a person you know.", "modelAnswer": "The friend who helped me move last month lives just around the corner." },
+        { "id": "b1rc12", "prompt": "Write one sentence with a non-defining relative clause (using who or which, with commas) about your hometown or a famous place.", "modelAnswer": "My hometown, which is famous for its beaches, gets very crowded in the summer." },
+        { "id": "b1rc13", "prompt": "Write one sentence using whose to describe someone's possession.", "modelAnswer": "I work with someone whose brother is a professional football player." }
+      ]
+    }
+  ],
+  "summary": [
+    "Defining clauses (no commas) tell you which one; that/who/which are all possible.",
+    "Non-defining clauses (with commas) add extra information; only who/which — never that.",
+    "Whose shows possession, for people and things.",
+    "A preposition can go before whom/which (formal) or stay at the end with that/nothing (informal) — never directly before that."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

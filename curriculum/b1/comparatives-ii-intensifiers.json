@@ -1,0 +1,220 @@
+{
+  "id": "b1-comparatives-ii-intensifiers",
+  "level": "B1",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "comparatives",
+  "title": "Comparatives II — Intensifiers & Double Comparatives",
+  "subtitle": "Make comparisons stronger, softer, or show two things changing together.",
+  "prerequisites": [
+    "a2-comparatives-and-superlatives-i"
+  ],
+  "objectives": [
+    "Strengthen a comparison with much, far, a lot, way",
+    "Soften a comparison with slightly, a bit, a little",
+    "Use double comparatives to show two things increasing or decreasing together",
+    "Use as...as and nowhere near as...as for comparisons of equality and clear inequality"
+  ],
+  "content": {
+    "intro": "You already know how to form comparatives (taller, more interesting). Now let's control exactly how big the difference is, and how to link two comparisons together.",
+    "rules": [
+      {
+        "heading": "a) Strengthening a comparative",
+        "body": "<p><strong>much / far / a lot / way</strong> (informal) + comparative — for a big difference.</p><ul><li>This phone is much more expensive than that one.</li><li>She's far more experienced than her colleagues.</li><li>Today is way colder than yesterday. (informal)</li></ul>"
+      },
+      {
+        "heading": "b) Softening a comparative",
+        "body": "<p><strong>slightly / a bit / a little</strong> + comparative — for a small difference.</p><ul><li>This route is slightly longer, but it's more scenic.</li><li>I'm feeling a little better today.</li></ul>"
+      },
+      {
+        "heading": "c) Double comparatives",
+        "body": "<p><strong>the + comparative..., the + comparative...</strong> — shows two things changing together.</p><ul><li>The more you practice, the better you get.</li><li>The sooner we leave, the sooner we'll arrive.</li><li>The older I get, the less I worry about small things.</li></ul>"
+      },
+      {
+        "heading": "d) as...as and nowhere near as...as",
+        "body": "<p><strong>as + adjective + as</strong> for equality; <strong>not as...as</strong> for inequality; <strong>nowhere near as...as</strong> for a big, clear difference.</p><ul><li>This test was as difficult as the last one. (equal)</li><li>This test wasn't as difficult as the last one. (less difficult)</li><li>This test was nowhere near as difficult as the last one. (much less difficult — a strong contrast)</li></ul>"
+      }
+    ],
+    "examples": [
+      "The new stadium is much bigger than the old one.",
+      "She sings far better than I do.",
+      "This coffee is slightly stronger than usual.",
+      "He's a bit taller than his brother.",
+      "The more you read, the more you learn.",
+      "The harder you work, the luckier you get.",
+      "This city isn't as expensive as London.",
+      "The results were nowhere near as good as we expected.",
+      "This laptop is way faster than my old one.",
+      "The earlier you book, the cheaper the tickets are."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "This phone is very more expensive.",
+        "right": "This phone is much more expensive. / This phone is a lot more expensive.",
+        "why": "\"Very\" doesn't intensify comparatives — use much/far/a lot instead."
+      },
+      {
+        "wrong": "The more you practice, better you get.",
+        "right": "The more you practice, the better you get.",
+        "why": "Both halves of a double comparative need \"the\" before the comparative form."
+      },
+      {
+        "wrong": "This city is more expensive as London.",
+        "right": "This city is as expensive as London. / This city is more expensive than London.",
+        "why": "Don't mix the two patterns — \"as...as\" for equality, \"more...than\" for a one-way comparison, never \"more...as.\""
+      },
+      {
+        "wrong": "The exam was slightly more difficult a lot.",
+        "right": "The exam was slightly more difficult.",
+        "why": "Use only one intensifier at a time — don't combine a softener (slightly) with a strengthener (a lot)."
+      },
+      {
+        "wrong": "It's nowhere as difficult than the last one.",
+        "right": "It's nowhere near as difficult as the last one.",
+        "why": "The full expression is \"nowhere near as...as,\" not \"nowhere as...than.\""
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1c2-gapfill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with much, slightly, the, or as, as appropriate.",
+      "items": [
+        {
+          "id": "b1c21",
+          "prompt": "This restaurant is ___ more expensive than the one downtown. (choose: much / slightly / very — pick the one that intensifies a comparative)",
+          "answers": [
+            [
+              "much"
+            ]
+          ],
+          "explanation": "\"Much\" (or far/a lot) intensifies a comparative; \"very\" does not."
+        },
+        {
+          "id": "b1c22",
+          "prompt": "___ sooner you tell me, ___ sooner I can help.",
+          "answers": [
+            [
+              "The"
+            ],
+            [
+              "the"
+            ]
+          ],
+          "explanation": "Double comparatives need \"the\" before each comparative form."
+        },
+        {
+          "id": "b1c23",
+          "prompt": "Her new apartment is ___ bigger — just a tiny bit more space.",
+          "answers": [
+            [
+              "slightly"
+            ]
+          ],
+          "explanation": "\"Slightly\" softens the comparison for a small difference."
+        },
+        {
+          "id": "b1c24",
+          "prompt": "This coffee isn't ___ strong ___ the one I had yesterday.",
+          "answers": [
+            [
+              "as"
+            ],
+            [
+              "as"
+            ]
+          ],
+          "explanation": "\"Not as + adjective + as\" for inequality."
+        },
+        {
+          "id": "b1c25",
+          "prompt": "___ harder you train, ___ stronger you become.",
+          "answers": [
+            [
+              "The"
+            ],
+            [
+              "the"
+            ]
+          ],
+          "explanation": "Double comparative pattern: the + comparative, the + comparative."
+        }
+      ]
+    },
+    {
+      "id": "b1c2-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "b1c26",
+          "incorrect": "This test is very more difficult than the last one.",
+          "answer": [
+            "This test is much more difficult than the last one.",
+            "This test is a lot more difficult than the last one."
+          ],
+          "explanation": "\"Very\" can't intensify a comparative — use much/far/a lot."
+        },
+        {
+          "id": "b1c27",
+          "incorrect": "The more you wait, worse it gets.",
+          "answer": [
+            "The more you wait, the worse it gets."
+          ],
+          "explanation": "Both halves of the double comparative need \"the.\""
+        },
+        {
+          "id": "b1c28",
+          "incorrect": "This city is more crowded as São Paulo.",
+          "answer": [
+            "This city is more crowded than São Paulo.",
+            "This city is as crowded as São Paulo."
+          ],
+          "explanation": "Don't mix \"more\" with \"as\" — use \"more...than\" or \"as...as,\" not \"more...as.\""
+        },
+        {
+          "id": "b1c29",
+          "incorrect": "It's nowhere as good than I expected.",
+          "answer": [
+            "It's nowhere near as good as I expected."
+          ],
+          "explanation": "The correct phrase is \"nowhere near as...as.\""
+        }
+      ]
+    },
+    {
+      "id": "b1c2-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence for each prompt. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "b1c210",
+          "prompt": "Write one sentence with a double comparative (the + comparative, the + comparative) about something true for you.",
+          "modelAnswer": "The more I practice English, the more confident I feel."
+        },
+        {
+          "id": "b1c211",
+          "prompt": "Write one sentence using “much” or “far” to strengthen a comparison between two things you know.",
+          "modelAnswer": "My current job is far more interesting than my last one."
+        },
+        {
+          "id": "b1c212",
+          "prompt": "Write one sentence using “nowhere near as...as” to make a strong contrast.",
+          "modelAnswer": "This year's winter was nowhere near as cold as last year's."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Strengthen a comparative with much/far/a lot, never “very.”",
+    "Soften a comparative with slightly/a bit/a little.",
+    "Double comparatives (the + comparative, the + comparative) show two things changing together.",
+    "As...as = equal; not as...as = less; nowhere near as...as = a big, clear difference."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

@@ -1,0 +1,89 @@
+{
+  "id": "b2-future-in-the-past",
+  "level": "B2",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "future-in-the-past",
+  "title": "Future-in-the-Past",
+  "subtitle": "Talk about something that was going to happen, seen from a point in the past.",
+  "prerequisites": ["b1-future-forms-will-going-to"],
+  "objectives": [
+    "Use was/were going to for a past plan (often one that changed or didn't happen)",
+    "Use would as a narrative future, for what happened later in a story",
+    "Use was/were about to for something on the very brink of happening",
+    "Tell the difference between the three, based on the nuance each one adds"
+  ],
+  "content": {
+    "intro": "You already know \"will\" and \"going to\" for talking about the future from now. But when you're telling a story or describing a past situation, you often need to talk about a future that existed back then — a plan, an expectation, or something about to happen at that past moment. This is called future-in-the-past.",
+    "rules": [
+      {
+        "heading": "a) was/were going to + bare infinitive",
+        "body": "<p>A plan or intention that existed at a point in the past — very often, one that changed or never happened.</p><ul><li>She was going to call me, but she forgot.</li><li>We were going to have a picnic, but it started raining.</li></ul>"
+      },
+      {
+        "heading": "b) would + bare infinitive",
+        "body": "<p>Used in narration for something that turned out to happen later — usually without any sense of the plan failing; more like fate or how the story unfolded.</p><ul><li>He didn't know it yet, but this decision would change his life.</li><li>Little did she know that the stranger would become her best friend.</li></ul>"
+      },
+      {
+        "heading": "c) was/were about to + bare infinitive",
+        "body": "<p>Something on the very brink of happening — often interrupted by something else.</p><ul><li>I was about to leave when the phone rang.</li><li>They were about to sign the contract when the deal fell through.</li></ul>"
+      }
+    ],
+    "examples": [
+      "He was going to study abroad, but the scholarship fell through.",
+      "She had no idea that this decision would change everything.",
+      "I was about to knock when the door opened.",
+      "We were going to sell the house, but we changed our minds.",
+      "He promised he would call as soon as he landed.",
+      "Just as I was about to give up, I found the missing file.",
+      "They were going to cancel the trip because of the weather.",
+      "She didn't know that this stranger would become her closest friend."
+    ],
+    "commonMistakes": [
+      { "wrong": "She was going to called me later.", "right": "She was going to call me later.", "why": "\"Was going to\" is always followed by the bare infinitive, not the past form." },
+      { "wrong": "He didn't know that this decision will change everything.", "right": "He didn't know that this decision would change everything.", "why": "Inside a past narrative, future-in-the-past needs \"would,\" not \"will.\"" },
+      { "wrong": "I was about to leaving when she called.", "right": "I was about to leave when she called.", "why": "\"Was about to\" takes the bare infinitive, not the gerund." },
+      { "wrong": "They was going to travel next month.", "right": "They were going to travel next month.", "why": "Subject-verb agreement — \"they\" needs \"were,\" not \"was.\"" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2fp-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with was/were going to, would, or was/were about to.",
+      "items": [
+        { "id": "b2fp1", "prompt": "He ___ (leave) the office when the phone rang.", "answers": [["was about to leave"]], "explanation": "Something interrupted right at the moment it was about to happen." },
+        { "id": "b2fp2", "prompt": "She had no idea that this trip ___ (change) her whole outlook on life.", "answers": [["would change"]], "explanation": "A narrative future — what turned out to happen later." },
+        { "id": "b2fp3", "prompt": "We ___ (visit) the museum, but it was closed for renovation.", "answers": [["were going to visit"]], "explanation": "A plan that didn't happen." },
+        { "id": "b2fp4", "prompt": "I ___ (call) you, but my phone died first.", "answers": [["was going to call"]], "explanation": "An unfulfilled plan." },
+        { "id": "b2fp5", "prompt": "Just as she ___ (open) the letter, the phone rang.", "answers": [["was about to open"]], "explanation": "Interrupted at the very moment of happening." }
+      ]
+    },
+    {
+      "id": "b2fp-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b2fp6", "incorrect": "She was going to visited her grandmother, but it snowed.", "answer": ["She was going to visit her grandmother, but it snowed."], "explanation": "\"Was going to\" takes the bare infinitive." },
+        { "id": "b2fp7", "incorrect": "He didn't realize that this mistake will cost him his job.", "answer": ["He didn't realize that this mistake would cost him his job."], "explanation": "\"Will\" backshifts to \"would\" inside a past narrative." },
+        { "id": "b2fp8", "incorrect": "I were about to leave when the taxi arrived.", "answer": ["I was about to leave when the taxi arrived."], "explanation": "\"I\" takes \"was,\" not \"were.\"" },
+        { "id": "b2fp9", "incorrect": "They was going to cancel the trip.", "answer": ["They were going to cancel the trip."], "explanation": "\"They\" takes \"were,\" not \"was.\"" }
+      ]
+    },
+    {
+      "id": "b2fp-guided", "type": "typing", "title": "Guided Production",
+      "instructions": "Write your own sentence for each prompt. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        { "id": "b2fp10", "prompt": "Write one sentence using “was/were going to” about a plan of yours that didn't happen.", "modelAnswer": "We were going to spend the summer in Portugal, but our plans changed." },
+        { "id": "b2fp11", "prompt": "Write one sentence using “would” as a narrative future, describing something that later turned out to be true.", "modelAnswer": "She had no idea, as she signed the lease, that this apartment would become her home for the next ten years." },
+        { "id": "b2fp12", "prompt": "Write one sentence using “was/were about to” describing an interrupted moment.", "modelAnswer": "I was about to fall asleep when I heard a strange noise downstairs." }
+      ]
+    }
+  ],
+  "summary": [
+    "Was/were going to = a past plan, often one that changed or didn't happen.",
+    "Would = a narrative future, for what turned out to happen later, without implying failure.",
+    "Was/were about to = something on the very brink of happening, often interrupted.",
+    "This is the foundation for C1's Future Forms with Nuance, which adds the more formal was/were to and complex narrative timelines."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

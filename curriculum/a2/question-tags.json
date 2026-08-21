@@ -1,0 +1,76 @@
+{
+  "id": "a2-question-tags",
+  "level": "A2",
+  "unit": "1",
+  "order": 13,
+  "skill": "grammar",
+  "strand": "question-tags",
+  "title": "Question Tags",
+  "subtitle": "Add a short question at the end of a sentence to check or confirm something.",
+  "prerequisites": ["a1-yes-no-questions", "a1-to-be-am-is-are"],
+  "objectives": [
+    "Form a negative tag after a positive statement",
+    "Form a positive tag after a negative statement",
+    "Handle the special cases: \"I am\" and \"Let's\""
+  ],
+  "content": {
+    "intro": "Question tags are the short \"...isn't it?\" / \"...don't you?\" you add to the end of a sentence — very common in spoken English, to check information or invite agreement.",
+    "rules": [
+      {
+        "heading": "The basic rule",
+        "body": "<ul><li>Positive statement → negative tag: You like it, don't you?</li><li>Negative statement → positive tag: You don't like it, do you?</li><li>The tag repeats the same auxiliary/modal verb as the main sentence (is → isn't, can → can't, will → won't).</li></ul>"
+      },
+      {
+        "heading": "Special cases",
+        "body": "<ul><li>I am → aren't I? (not \"amn't I\")</li><li>Let's... → shall we?</li></ul>"
+      }
+    ],
+    "examples": [
+      "You're coming to the party, aren't you?",
+      "She likes coffee, doesn't she?",
+      "They won't be late, will they?",
+      "We can start the meeting now, can't we?",
+      "It's a beautiful day, isn't it?",
+      "I'm right, aren't I?"
+    ],
+    "commonMistakes": [
+      { "wrong": "You like it, do you?", "right": "You like it, don't you?", "why": "A positive statement needs a negative tag." },
+      { "wrong": "You don't like it, don't you?", "right": "You don't like it, do you?", "why": "A negative statement needs a positive tag." },
+      { "wrong": "I am right, amn't I?", "right": "I am right, aren't I?", "why": "\"Amn't\" isn't standard English — the special tag for \"I am\" is \"aren't I?\"" },
+      { "wrong": "She likes coffee, doesn't he?", "right": "She likes coffee, doesn't she?", "why": "The pronoun in the tag must match the subject of the sentence (she → she, not he)." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2qt-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct question tag.",
+      "items": [
+        { "id": "a2qt1", "prompt": "You're coming to the party, ___?", "answers": [["aren't you"]], "explanation": "Positive statement (you're) → negative tag." },
+        { "id": "a2qt2", "prompt": "She likes coffee, ___?", "answers": [["doesn't she"]], "explanation": "Positive statement → negative tag, matching \"likes\" with \"doesn't.\"" },
+        { "id": "a2qt3", "prompt": "They won't be late, ___?", "answers": [["will they"]], "explanation": "Negative statement (won't) → positive tag." },
+        { "id": "a2qt4", "prompt": "It's a beautiful day, ___?", "answers": [["isn't it"]], "explanation": "Positive statement → negative tag." }
+      ]
+    },
+    {
+      "id": "a2qt-mc", "type": "multiple-choice", "title": "Choose the Correct Tag",
+      "items": [
+        { "id": "a2qt5", "prompt": "\"I'm late, ___?\"", "options": ["amn't I", "aren't I", "am I not going"], "answerIndex": 1, "explanation": "The special tag for \"I am\" is \"aren't I?\"" },
+        { "id": "a2qt6", "prompt": "\"We can start now, ___?\"", "options": ["can't we", "can we", "don't we"], "answerIndex": 0, "explanation": "Positive statement with \"can\" → negative tag \"can't we.\"" }
+      ]
+    },
+    {
+      "id": "a2qt-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2qt7", "incorrect": "You don't like it, don't you?", "answer": ["You don't like it, do you?"], "explanation": "A negative statement needs a positive tag." },
+        { "id": "a2qt8", "incorrect": "He is your brother, is he?", "answer": ["He is your brother, isn't he?"], "explanation": "A positive statement needs a negative tag." }
+      ]
+    }
+  ],
+  "summary": [
+    "Positive statement → negative tag. Negative statement → positive tag.",
+    "The tag reuses the same auxiliary/modal (is/isn't, can/can't, will/won't).",
+    "\"I am\" → aren't I? Let's... → shall we?"
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/s-question-tags.docx", "pdf": "cefr/a2-elementary/s-question-tags.pdf" }
+}

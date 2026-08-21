@@ -1,0 +1,78 @@
+{
+  "id": "a2-adverbs-of-frequency",
+  "level": "A2",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "adverbs-of-frequency",
+  "title": "Adverbs of Frequency",
+  "subtitle": "Say how often something happens, and put the word in the right place.",
+  "prerequisites": ["a2-present-simple-and-continuous-review"],
+  "objectives": [
+    "Order adverbs of frequency from 100% to 0%",
+    "Place the adverb correctly with the verb \"to be\", auxiliary verbs, and other verbs",
+    "Use adverbs of frequency naturally in everyday sentences"
+  ],
+  "content": {
+    "intro": "These small words appear in almost every conversation about routines and habits — and their position in the sentence follows a clear, simple rule.",
+    "rules": [
+      {
+        "heading": "The scale",
+        "body": "<p>always (100%) → usually (80–90%) → often (60–70%) → sometimes (30–50%) → rarely (10–20%) → never (0%)</p>"
+      },
+      {
+        "heading": "Word order",
+        "body": "<ul><li><strong>After</strong> the verb \"to be\" (am/is/are/was/were): She is always late.</li><li><strong>Before</strong> other (ordinary) verbs: I always eat breakfast.</li><li><strong>After</strong> the first auxiliary verb: I can never sleep on planes. / She doesn't often call.</li></ul>"
+      }
+    ],
+    "examples": [
+      "I always eat breakfast before I go to work.",
+      "She is usually tired after work.",
+      "They often watch movies on the weekends.",
+      "He rarely forgets his homework.",
+      "We never go to the beach in winter.",
+      "My brother sometimes helps me with my homework."
+    ],
+    "commonMistakes": [
+      { "wrong": "I eat always breakfast.", "right": "I always eat breakfast.", "why": "With an ordinary verb (eat), the adverb goes before it, not after." },
+      { "wrong": "She always is late.", "right": "She is always late.", "why": "With \"to be,\" the adverb goes after it, not before." },
+      { "wrong": "He usually wake up early.", "right": "He usually wakes up early.", "why": "The adverb doesn't change the need for -s on third person singular verbs." },
+      { "wrong": "She always go to the gym on Mondays.", "right": "She always goes to the gym on Mondays.", "why": "Third person singular (she) still needs -s, even with the adverb in front." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2af-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with an appropriate adverb of frequency.",
+      "items": [
+        { "id": "a2af1", "prompt": "I ___ eat breakfast before I go to work. (100% of the time)", "answers": [["always"]], "explanation": "\"Always\" = 100% of the time." },
+        { "id": "a2af2", "prompt": "She ___ goes to the gym on Mondays. (80-90%)", "answers": [["usually"]], "explanation": "\"Usually\" = most of the time." },
+        { "id": "a2af3", "prompt": "He ___ forgets to do his homework. (10-20%)", "answers": [["rarely"]], "explanation": "\"Rarely\" = a small percentage of the time." },
+        { "id": "a2af4", "prompt": "We ___ visit our grandparents during the holidays. (60-70%)", "answers": [["often"]], "explanation": "\"Often\" = a fairly high percentage of the time." }
+      ]
+    },
+    {
+      "id": "a2af-order", "type": "ordering", "title": "Put the Words in Order",
+      "items": [
+        { "id": "a2af5", "prompt": "usually / I / wake up / at 7 AM", "words": ["I", "usually", "wake", "up", "at", "7", "AM"], "explanation": "Subject + adverb + ordinary verb." },
+        { "id": "a2af6", "prompt": "never / he / drinks / coffee / at night", "words": ["He", "never", "drinks", "coffee", "at", "night"], "explanation": "Subject + adverb + ordinary verb + object." },
+        { "id": "a2af7", "prompt": "always / my brother / helps / me / with chores", "words": ["My", "brother", "always", "helps", "me", "with", "chores"], "explanation": "Subject + adverb + ordinary verb." }
+      ]
+    },
+    {
+      "id": "a2af-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2af8", "incorrect": "She always go to the gym on Mondays.", "answer": ["She always goes to the gym on Mondays."], "explanation": "Third person singular still needs -s." },
+        { "id": "a2af9", "incorrect": "He usually wake up early in the morning.", "answer": ["He usually wakes up early in the morning."], "explanation": "Third person singular needs -s, regardless of the adverb." },
+        { "id": "a2af10", "incorrect": "We rarely goes to the park on weekdays.", "answer": ["We rarely go to the park on weekdays."], "explanation": "\"We\" doesn't take -s in the present simple." }
+      ]
+    }
+  ],
+  "summary": [
+    "Scale: always (100%) → usually → often → sometimes → rarely → never (0%).",
+    "The adverb goes after \"to be,\" but before an ordinary verb.",
+    "With an auxiliary verb (can, do, will), the adverb goes right after the first auxiliary."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/b-adverbs-of-frequency.docx", "pdf": "cefr/a2-elementary/b-adverbs-of-frequency.pdf" }
+}

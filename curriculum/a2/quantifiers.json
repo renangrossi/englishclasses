@@ -1,0 +1,77 @@
+{
+  "id": "a2-quantifiers",
+  "level": "A2",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "quantifiers",
+  "title": "Quantifiers — Many, Much, A Lot Of, Few, Little",
+  "subtitle": "Say how much or how many, and know which words go with which kind of noun.",
+  "prerequisites": ["a1-nouns"],
+  "objectives": [
+    "Tell the difference between countable and uncountable nouns",
+    "Use many/much/a lot of for large quantities",
+    "Use a few/a little (enough) versus few/little (not enough)"
+  ],
+  "content": {
+    "intro": "Some nouns can be counted one by one (books, friends); others can't (milk, patience). English uses different quantity words depending on which type you're talking about.",
+    "rules": [
+      {
+        "heading": "a) Large quantities",
+        "body": "<ul><li><strong>many</strong> + countable plural noun: many books, many friends</li><li><strong>much</strong> + uncountable noun: much milk, much time (mostly in questions/negatives)</li><li><strong>a lot of</strong> + either: a lot of books, a lot of milk (works everywhere, most common in everyday speech)</li></ul>"
+      },
+      {
+        "heading": "b) Small quantities: enough vs. not enough",
+        "body": "<ul><li><strong>a few</strong> (countable) / <strong>a little</strong> (uncountable) = a small amount, but enough: I have a few friends here. / There's a little milk left.</li><li><strong>few</strong> (countable) / <strong>little</strong> (uncountable) = almost none, a negative feeling: I have few friends here. (= not enough, I'm a bit lonely) / There's little milk left. (= almost none, a problem)</li></ul>"
+      }
+    ],
+    "examples": [
+      "There are many books on the shelf.",
+      "Do you have much milk in the fridge?",
+      "There are a lot of people at the party.",
+      "I have a few questions before we start.",
+      "There's very little time left.",
+      "She has few friends in this city."
+    ],
+    "commonMistakes": [
+      { "wrong": "There are much books on the shelf.", "right": "There are many books on the shelf.", "why": "\"Books\" is countable — use \"many,\" not \"much.\"" },
+      { "wrong": "I don't have many patience.", "right": "I don't have much patience.", "why": "\"Patience\" is uncountable — use \"much,\" not \"many.\"" },
+      { "wrong": "I have a few money.", "right": "I have a little money.", "why": "\"Money\" is uncountable — use \"a little,\" not \"a few.\"" },
+      { "wrong": "She has a few friends, so she feels lonely.", "right": "She has few friends, so she feels lonely.", "why": "\"A few\" means a small but sufficient number; the negative feeling here needs \"few\" (not enough)." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2q-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with many, much, a few, or a little.",
+      "items": [
+        { "id": "a2q1", "prompt": "There are ___ books on the shelf.", "answers": [["many"]], "options": ["many", "much", "a little"], "explanation": "\"Books\" is countable — use \"many.\"" },
+        { "id": "a2q2", "prompt": "Do you have ___ milk in the fridge?", "answers": [["much"]], "options": ["much", "many", "a few"], "explanation": "\"Milk\" is uncountable — use \"much\" in this question." },
+        { "id": "a2q3", "prompt": "I have ___ questions before we start.", "answers": [["a few"]], "options": ["a few", "a little", "much"], "explanation": "\"Questions\" is countable, and this is a small but sufficient amount — \"a few.\"" },
+        { "id": "a2q4", "prompt": "There's ___ time left, so let's hurry.", "answers": [["a little"]], "options": ["a little", "a few", "many"], "explanation": "\"Time\" is uncountable — use \"a little.\"" }
+      ]
+    },
+    {
+      "id": "a2q-mc", "type": "multiple-choice", "title": "Choose the Correct Word",
+      "items": [
+        { "id": "a2q5", "prompt": "\"There were ___ people at the party.\" — which word fits a large, general amount, in any style?", "options": ["much", "a lot of", "little"], "answerIndex": 1, "explanation": "\"A lot of\" works with both countable and uncountable nouns and fits any style." },
+        { "id": "a2q6", "prompt": "He didn't have ___ patience during the long meeting.", "options": ["many", "much", "few"], "answerIndex": 1, "explanation": "\"Patience\" is uncountable — \"much\" is correct, especially in this negative sentence." }
+      ]
+    },
+    {
+      "id": "a2q-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "a2q7", "incorrect": "There are much people at the airport.", "answer": ["There are many people at the airport.", "There are a lot of people at the airport."], "explanation": "\"People\" is countable — use \"many\" or \"a lot of,\" not \"much.\"" },
+        { "id": "a2q8", "incorrect": "I have a few money for the trip.", "answer": ["I have a little money for the trip."], "explanation": "\"Money\" is uncountable — use \"a little,\" not \"a few.\"" }
+      ]
+    }
+  ],
+  "summary": [
+    "Countable nouns (books, friends) → many / a few / few.",
+    "Uncountable nouns (milk, time, patience) → much / a little / little.",
+    "A lot of works with both, and is the most common choice in everyday speech.",
+    "A few/a little = a small but sufficient amount; few/little = almost none, often negative."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/a2-elementary/c-quantifiers.docx", "pdf": "cefr/a2-elementary/c-quantifiers.pdf" }
+}

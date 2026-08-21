@@ -1,0 +1,82 @@
+{
+  "id": "b2-modal-perfect",
+  "level": "B2",
+  "unit": "2",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "modals",
+  "title": "Modal Perfect: Should Have, Must Have, Might Have",
+  "subtitle": "Talk about the past with regret, certainty, or uncertainty.",
+  "prerequisites": ["b1-must-might-should"],
+  "objectives": [
+    "Form the modal perfect (modal + have + past participle)",
+    "Use should have/shouldn't have for regret or criticism about the past",
+    "Use must have for a confident guess about the past",
+    "Use might have/could have for an uncertain guess about the past"
+  ],
+  "content": {
+    "intro": "You already use must/might/should for the present and future. Add \"have + past participle\" and they move into the past — for regret, deduction, and uncertain guesses about what happened.",
+    "rules": [
+      {
+        "heading": "a) Should have / shouldn't have — regret, criticism",
+        "body": "<ul><li>You should have called me. (you didn't, and that was a mistake)</li><li>I shouldn't have eaten so much. (I did, and I regret it)</li></ul>"
+      },
+      {
+        "heading": "b) Must have — confident deduction",
+        "body": "<ul><li>He must have left already — his car is gone. (strong evidence, confident guess)</li></ul>"
+      },
+      {
+        "heading": "c) Might have / could have — uncertain guess",
+        "body": "<ul><li>She might have missed the bus. (just a possibility, not certain)</li><li>They could have forgotten about the meeting.</li></ul>"
+      }
+    ],
+    "examples": [
+      "You should have told me earlier.",
+      "I shouldn't have said that.",
+      "He must have forgotten his phone — it's still on the table.",
+      "She might have missed the bus.",
+      "They could have gotten lost.",
+      "We should have left earlier to avoid the traffic."
+    ],
+    "commonMistakes": [
+      { "wrong": "You should have call me.", "right": "You should have called me.", "why": "The modal perfect needs the past participle (called), not the base form." },
+      { "wrong": "He must has left already.", "right": "He must have left already.", "why": "Modal verbs never change form — always \"have,\" never \"has,\" regardless of subject." },
+      { "wrong": "She might had missed the bus.", "right": "She might have missed the bus.", "why": "The correct form is \"might have,\" not \"might had.\"" },
+      { "wrong": "I should have not said that.", "right": "I shouldn't have said that.", "why": "The negative goes as \"shouldn't have,\" not \"should have not.\"" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2mp-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct modal perfect form.",
+      "items": [
+        { "id": "b2mp1", "prompt": "You ___ (should/tell) me you were coming.", "answers": [["should have told"]], "explanation": "Regret/criticism about a missed action — should have + past participle." },
+        { "id": "b2mp2", "prompt": "He ___ (must/forget) his phone — it's still here.", "answers": [["must have forgotten"]], "explanation": "Confident deduction from evidence — must have + past participle." },
+        { "id": "b2mp3", "prompt": "She ___ (might/miss) the bus. I'm not sure.", "answers": [["might have missed"]], "explanation": "Uncertain guess — might have + past participle." },
+        { "id": "b2mp4", "prompt": "I ___ (shouldn't/eat) so much cake.", "answers": [["shouldn't have eaten"]], "explanation": "Regret about something that did happen — shouldn't have + past participle." }
+      ]
+    },
+    {
+      "id": "b2mp-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "b2mp5", "prompt": "The lights are off and the car is gone — they ___ already.", "options": ["might have left", "must have left", "should have left"], "answerIndex": 1, "explanation": "Strong evidence points to a confident conclusion — \"must have.\"" },
+        { "id": "b2mp6", "prompt": "I don't know why she's late — she ___ traffic, or she ___ forgotten.", "options": ["must have / must have", "might have / might have", "should have / should have"], "answerIndex": 1, "explanation": "Two uncertain possibilities — \"might have\" for both." }
+      ]
+    },
+    {
+      "id": "b2mp-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b2mp7", "incorrect": "You should have tell me earlier.", "answer": ["You should have told me earlier."], "explanation": "The modal perfect needs the past participle." },
+        { "id": "b2mp8", "incorrect": "He must has left already.", "answer": ["He must have left already."], "explanation": "Modal verbs never take -s or change to \"has.\"" }
+      ]
+    }
+  ],
+  "summary": [
+    "Should have/shouldn't have = regret or criticism about the past.",
+    "Must have = a confident deduction, based on evidence.",
+    "Might have/could have = an uncertain guess about the past.",
+    "Always: modal + have + past participle — never \"has,\" never the base or past tense form of the main verb."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

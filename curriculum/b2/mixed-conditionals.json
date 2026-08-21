@@ -1,0 +1,74 @@
+{
+  "id": "b2-mixed-conditionals",
+  "level": "B2",
+  "unit": "2",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "conditionals",
+  "title": "Mixed Conditionals",
+  "subtitle": "Combine a past condition with a present result, or a present condition with a past result.",
+  "prerequisites": ["b1-second-and-third-conditionals"],
+  "objectives": [
+    "Combine a third-conditional \"if\" clause with a second-conditional result",
+    "Combine a second-conditional \"if\" clause with a third-conditional result",
+    "Recognize why real life often needs this mix, not a \"pure\" conditional"
+  ],
+  "content": {
+    "intro": "Real regrets and hypotheticals often mix time frames — a past decision affecting the present, or a permanent truth affecting a past event. Mixed conditionals let you express that precisely.",
+    "rules": [
+      {
+        "heading": "a) Past condition → present result",
+        "body": "<p>If + past perfect, would + base verb. A past action (or its opposite) explains a present situation.</p><ul><li>If I had studied medicine, I would be a doctor now. (I didn't study medicine, so I'm not a doctor now)</li></ul>"
+      },
+      {
+        "heading": "b) Present condition → past result",
+        "body": "<p>If + past simple, would have + past participle. A permanent truth/characteristic explains a past event.</p><ul><li>If she weren't so shy, she would have spoken up at the meeting. (she is shy — a permanent trait — and that's why she didn't speak up, in the past)</li></ul>"
+      }
+    ],
+    "examples": [
+      "If I had studied medicine, I would be a doctor now.",
+      "If she weren't so shy, she would have spoken up at the meeting.",
+      "If he hadn't missed the flight, he would be here with us now.",
+      "If I were more organized, I wouldn't have forgotten the meeting.",
+      "If they had saved more money, they wouldn't be struggling now.",
+      "If you weren't so stubborn, you would have accepted their help."
+    ],
+    "commonMistakes": [
+      { "wrong": "If I had studied medicine, I would have been a doctor now.", "right": "If I had studied medicine, I would be a doctor now.", "why": "\"Now\" signals a present result — use \"would be,\" not \"would have been.\"" },
+      { "wrong": "If she wasn't so shy, she would have spoken up.", "right": "If she weren't so shy, she would have spoken up.", "why": "The second-conditional \"if\" clause uses \"were,\" not \"was,\" for all subjects." },
+      { "wrong": "If he hadn't missed the flight, he would have been here now.", "right": "If he hadn't missed the flight, he would be here now.", "why": "A present result (\"now\") needs \"would be,\" not \"would have been.\"" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2mc-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each mixed conditional sentence.",
+      "items": [
+        { "id": "b2mc1", "prompt": "If I ___ (study) medicine, I ___ (be) a doctor now.", "answers": [["had studied"], ["would be"]], "explanation": "Past condition (didn't study) → present result — mixed conditional." },
+        { "id": "b2mc2", "prompt": "If she ___ (not/be) so shy, she ___ (speak up) at the meeting.", "answers": [["weren't"], ["would have spoken up"]], "explanation": "Present trait → past result — mixed conditional." },
+        { "id": "b2mc3", "prompt": "If he ___ (not/miss) the flight, he ___ (be) here with us now.", "answers": [["hadn't missed"], ["would be"]], "explanation": "Past condition → present result." }
+      ]
+    },
+    {
+      "id": "b2mc-mc", "type": "multiple-choice", "title": "Choose the Correct Sentence",
+      "items": [
+        { "id": "b2mc4", "prompt": "Which sentence correctly expresses \"a past decision explains a present situation\"?", "options": ["If I had saved money, I would have bought a house.", "If I had saved money, I would have a house now.", "If I save money, I would have a house."], "answerIndex": 1, "explanation": "The past condition (didn't save) explains the present result (no house now) — mixed conditional." },
+        { "id": "b2mc5", "prompt": "Which sentence correctly expresses \"a permanent trait explains a past event\"?", "options": ["If I am careless, I would have lost my keys.", "If I were more careless, I will lose my keys.", "If I weren't so careless, I wouldn't have lost my keys."], "answerIndex": 2, "explanation": "A permanent trait (carelessness) explains a past event (losing keys) — mixed conditional." }
+      ]
+    },
+    {
+      "id": "b2mc-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b2mc6", "incorrect": "If I had studied harder, I would have been fluent now.", "answer": ["If I had studied harder, I would be fluent now."], "explanation": "\"Now\" needs the present result form, \"would be,\" not \"would have been.\"" },
+        { "id": "b2mc7", "incorrect": "If you wasn't so stubborn, you would have accepted their help.", "answer": ["If you weren't so stubborn, you would have accepted their help."], "explanation": "Use \"weren't,\" not \"wasn't,\" in the hypothetical \"if\" clause." }
+      ]
+    }
+  ],
+  "summary": [
+    "Past condition → present result: If + past perfect, would + base verb.",
+    "Present condition → past result: If + past simple, would have + past participle.",
+    "Look for a time-clue word like \"now\" to tell you the result is present, not past."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

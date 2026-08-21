@@ -1,5 +1,5 @@
 {
-  "_readme": "Single source of truth for curriculum sequencing. status: 'published' = generated HTML exists and is linked from its level page; 'drafted' = curriculum/{level}/{id}.json exists, not yet built; 'planned' = identified by the gap analysis, no JSON yet. C1 and C2 are fully populated (10/10 topics each, matching their should-be-here.txt specs). B1 and B2 each have 3 and 2 original bridge lessons published so far (from the curriculum gap analysis), not yet the full level -- most B1/B2 grammar topics still exist only as PDF/DOCX. Pre-A1 is fully populated (8/8 lessons, a new level with no prior source material). A2 is fully populated (13/13 unique topics -- 2 source duplicates resolved). B1 is fully populated (17/17: 14 converted + 3 original bridge lessons -- 2 more source duplicates resolved, both cases where a 'solo' card pointed at the same file as a combined lesson). -- the rest of the level-by-level unit breakdown from the pedagogical audit is intentionally not hand-copied in here yet, to avoid the index silently claiming more progress than exists. It gets filled in level-by-level as each level's lessons are actually authored.",
+  "_readme": "Single source of truth for curriculum sequencing. status: 'published' = generated HTML exists and is linked from its level page; 'drafted' = curriculum/{level}/{id}.json exists, not yet built; 'planned' = identified by the gap analysis, no JSON yet. C1 and C2 are fully populated (10/10 topics each, matching their should-be-here.txt specs). B1 and B2 each have 3 and 2 original bridge lessons published so far (from the curriculum gap analysis), not yet the full level -- most B1/B2 grammar topics still exist only as PDF/DOCX. Pre-A1 is fully populated (8/8 lessons, a new level with no prior source material). A2 is fully populated (13/13 unique topics -- 2 source duplicates resolved). B1 is fully populated (17/17: 14 converted + 3 original bridge lessons). B2 is fully populated (12/12: 10 authored from scratch, since should-be-here.txt's topics had zero backing source material, + 2 original bridge lessons). All six CEFR levels plus Pre-A1 now have complete interactive lesson coverage for their core grammar syllabus. -- the rest of the level-by-level unit breakdown from the pedagogical audit is intentionally not hand-copied in here yet, to avoid the index silently claiming more progress than exists. It gets filled in level-by-level as each level's lessons are actually authored.",
   "levels": {
     "PRE-A1": {
       "units": [
@@ -190,8 +190,48 @@
       "units": [
         {
           "id": "1",
-          "title": "B2 Bridge Lessons (gap-analysis additions)",
+          "title": "B2 Upper-Intermediate Grammar (10 topics authored from scratch -- should-be-here.txt had no source material) + 2 gap-analysis bridge lessons (12 total). Future Perfect & Future Continuous intentionally not duplicated -- already covered at B1 and cross-linked. b2-grammar-exercises-i/ii remain PDF-only mixed reviews, not converted to single-topic lessons.",
           "lessons": [
+            {
+              "id": "b2-used-to-when-while",
+              "status": "published"
+            },
+            {
+              "id": "b2-mixed-conditionals",
+              "status": "published"
+            },
+            {
+              "id": "b2-advanced-passive-voice",
+              "status": "published"
+            },
+            {
+              "id": "b2-reported-speech-full-system",
+              "status": "published"
+            },
+            {
+              "id": "b2-modal-perfect",
+              "status": "published"
+            },
+            {
+              "id": "b2-cleft-sentences",
+              "status": "published"
+            },
+            {
+              "id": "b2-inversion-for-emphasis",
+              "status": "published"
+            },
+            {
+              "id": "b2-reduced-relative-clauses",
+              "status": "published"
+            },
+            {
+              "id": "b2-advanced-connectors",
+              "status": "published"
+            },
+            {
+              "id": "b2-wish-if-only",
+              "status": "published"
+            },
             {
               "id": "b2-articles-generic-reference",
               "status": "published"

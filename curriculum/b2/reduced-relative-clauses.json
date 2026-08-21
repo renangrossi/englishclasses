@@ -1,0 +1,79 @@
+{
+  "id": "b2-reduced-relative-clauses",
+  "level": "B2",
+  "unit": "2",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "relative-clauses",
+  "title": "Reduced Relative Clauses",
+  "subtitle": "Shorten a relative clause by dropping the pronoun and using a participle.",
+  "prerequisites": ["b1-relative-clauses-defining-non-defining"],
+  "objectives": [
+    "Reduce an active relative clause using the -ing form",
+    "Reduce a passive relative clause using the past participle",
+    "Recognize when a relative clause can and can't be reduced"
+  ],
+  "content": {
+    "intro": "Now that you're comfortable with who/which/that, let's make your writing tighter and more natural by dropping the relative pronoun when possible.",
+    "rules": [
+      {
+        "heading": "a) Active clauses → -ing form",
+        "body": "<p>When the relative pronoun is the subject of an active verb, drop \"who/which/that\" + the verb, and use the -ing form instead.</p><ul><li>The man who is standing there is my uncle. → The man standing there is my uncle.</li><li>People who live in cities often complain about noise. → People living in cities often complain about noise.</li></ul>"
+      },
+      {
+        "heading": "b) Passive clauses → past participle",
+        "body": "<ul><li>The book which was written by Tolkien is a classic. → The book written by Tolkien is a classic.</li><li>The car that was damaged in the accident has been repaired. → The car damaged in the accident has been repaired.</li></ul>"
+      },
+      {
+        "heading": "c) When you can't reduce",
+        "body": "<p>You can't reduce when the relative pronoun is the object, not the subject: \"The book that I read\" cannot become \"The book reading\" — there's no subject relationship to reduce.</p>"
+      }
+    ],
+    "examples": [
+      "The man standing there is my uncle.",
+      "People living in cities often complain about noise.",
+      "The book written by Tolkien is a classic.",
+      "The car damaged in the accident has been repaired.",
+      "The woman sitting next to me is a doctor.",
+      "Documents signed before the deadline will be accepted."
+    ],
+    "commonMistakes": [
+      { "wrong": "The man standed there is my uncle.", "right": "The man standing there is my uncle.", "why": "Active reduced clauses use the -ing form, not the past tense." },
+      { "wrong": "The book writing by Tolkien is a classic.", "right": "The book written by Tolkien is a classic.", "why": "Passive reduced clauses use the past participle (written), not the -ing form." },
+      { "wrong": "The book reading is on the table. (meaning: the book that I am reading)", "right": "The book that I am reading is on the table.", "why": "You can't reduce a clause where the pronoun is the object — there's no active/passive subject relationship here." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2rrc-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Reduce each relative clause using the -ing form or the past participle.",
+      "items": [
+        { "id": "b2rrc1", "prompt": "The woman ___ (sit) next to me is a doctor.", "answers": [["sitting"]], "explanation": "Active reduced clause — -ing form." },
+        { "id": "b2rrc2", "prompt": "The car ___ (damage) in the accident has been repaired.", "answers": [["damaged"]], "explanation": "Passive reduced clause — past participle." },
+        { "id": "b2rrc3", "prompt": "Students ___ (study) hard usually get good grades.", "answers": [["studying"]], "explanation": "Active reduced clause — -ing form." },
+        { "id": "b2rrc4", "prompt": "Emails ___ (send) after 6pm are answered the next day.", "answers": [["sent"]], "explanation": "Passive reduced clause — past participle." }
+      ]
+    },
+    {
+      "id": "b2rrc-mc", "type": "multiple-choice", "title": "Choose the Correct Form",
+      "items": [
+        { "id": "b2rrc5", "prompt": "The report ___ by the team is ready for review.", "options": ["prepared", "preparing", "prepare"], "answerIndex": 0, "explanation": "The team prepared it — passive relationship — past participle." },
+        { "id": "b2rrc6", "prompt": "People ___ in this building must show ID.", "options": ["working", "worked", "work"], "answerIndex": 0, "explanation": "The people work here — active relationship — -ing form." }
+      ]
+    },
+    {
+      "id": "b2rrc-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b2rrc7", "incorrect": "The letter wrote by my grandmother is very old.", "answer": ["The letter written by my grandmother is very old."], "explanation": "Passive reduced clauses need the past participle (written), not the simple past form (wrote)." },
+        { "id": "b2rrc8", "incorrect": "The man wait outside is my brother.", "answer": ["The man waiting outside is my brother."], "explanation": "Active reduced clauses need the -ing form." }
+      ]
+    }
+  ],
+  "summary": [
+    "Active relative clause → drop the pronoun + verb, use -ing.",
+    "Passive relative clause → drop the pronoun + \"was/were\", use the past participle.",
+    "You can only reduce when the relative pronoun is the subject of its clause."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

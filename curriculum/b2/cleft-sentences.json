@@ -1,0 +1,74 @@
+{
+  "id": "b2-cleft-sentences",
+  "level": "B2",
+  "unit": "2",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "emphasis",
+  "title": "Cleft Sentences",
+  "subtitle": "Rearrange a sentence to put the most important information front and center.",
+  "prerequisites": ["a1-to-be-am-is-are"],
+  "objectives": [
+    "Form \"It is/was...that\" clefts to emphasize a specific part of a sentence",
+    "Form \"What...is/was\" clefts to emphasize an action or idea"
+  ],
+  "content": {
+    "intro": "A cleft sentence splits one idea into two clauses, putting the most important piece of information first, for emphasis — very common in both spoken and written English.",
+    "rules": [
+      {
+        "heading": "a) It is/was...that",
+        "body": "<p>Used to emphasize a specific person, thing, time or place.</p><ul><li>John broke the window. → It was John who broke the window. (emphasizing WHO)</li><li>I met her at the conference. → It was at the conference that I met her. (emphasizing WHERE)</li></ul>"
+      },
+      {
+        "heading": "b) What...is/was",
+        "body": "<p>Used to emphasize an action, thing, or idea — often what someone wants, needs, likes, or did.</p><ul><li>I need more time. → What I need is more time.</li><li>She annoyed me by being late. → What annoyed me was her being late.</li></ul>"
+      }
+    ],
+    "examples": [
+      "It was John who broke the window.",
+      "It was at the conference that I met her.",
+      "What I need is more time.",
+      "What annoyed me was her being late.",
+      "It's the price that worries me, not the quality.",
+      "What surprised everyone was his sudden resignation."
+    ],
+    "commonMistakes": [
+      { "wrong": "It was John which broke the window.", "right": "It was John who broke the window.", "why": "For a person, use \"who,\" not \"which,\" after the cleft \"It was...\"" },
+      { "wrong": "What I need it's more time.", "right": "What I need is more time.", "why": "Only one verb \"is/was\" is needed to link the two clauses — don't add \"it's\" as well." },
+      { "wrong": "Is the price that worries me.", "right": "It's the price that worries me.", "why": "The cleft needs \"it\" as the subject at the start — don't drop it." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2cs-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each cleft sentence.",
+      "items": [
+        { "id": "b2cs1", "prompt": "___ was John who broke the window.", "answers": [["It"]], "explanation": "The cleft starts with \"It.\"" },
+        { "id": "b2cs2", "prompt": "What I need ___ more time.", "answers": [["is"]], "explanation": "\"What...is\" links the emphasized idea to the rest of the sentence." },
+        { "id": "b2cs3", "prompt": "It was at the conference ___ I met her.", "answers": [["that"]], "explanation": "\"It was...that\" for emphasizing a place." },
+        { "id": "b2cs4", "prompt": "What surprised everyone ___ his sudden resignation.", "answers": [["was"]], "explanation": "Past tense linking verb, matching the rest of the sentence." }
+      ]
+    },
+    {
+      "id": "b2cs-mc", "type": "multiple-choice", "title": "Choose the Correct Cleft",
+      "items": [
+        { "id": "b2cs5", "prompt": "Which cleft correctly emphasizes \"the price,\" not the quality?", "options": ["It's the price that worries me.", "What worries is the price.", "The price it's that worries me."], "answerIndex": 0, "explanation": "\"It is...that\" correctly emphasizes \"the price.\"" },
+        { "id": "b2cs6", "prompt": "\"She annoyed me by being late.\" — which cleft version is correct?", "options": ["What annoyed me was her being late.", "It was her being late what annoyed me.", "What was annoyed me her being late."], "answerIndex": 0, "explanation": "\"What...was\" correctly emphasizes the cause of the annoyance." }
+      ]
+    },
+    {
+      "id": "b2cs-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b2cs7", "incorrect": "It was Maria which called you.", "answer": ["It was Maria who called you."], "explanation": "For a person, use \"who,\" not \"which.\"" },
+        { "id": "b2cs8", "incorrect": "What I want it's a quiet weekend.", "answer": ["What I want is a quiet weekend."], "explanation": "Only one linking verb is needed — remove the extra \"it's.\"" }
+      ]
+    }
+  ],
+  "summary": [
+    "It is/was...that/who = emphasize a specific person, thing, time or place.",
+    "What...is/was = emphasize an action, need, or idea.",
+    "Only one linking verb (is/was) connects the two halves — don't double it up."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

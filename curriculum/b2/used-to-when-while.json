@@ -1,0 +1,80 @@
+{
+  "id": "b2-used-to-when-while",
+  "level": "B2",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "past-habits",
+  "title": "Used To / Be Used To / When vs. While",
+  "subtitle": "Talk about finished past habits, being accustomed to something, and connect two past events precisely.",
+  "prerequisites": ["a2-simple-past-vs-past-continuous"],
+  "objectives": [
+    "Use \"used to\" for finished past habits",
+    "Use \"be used to\" for being accustomed/familiar with something",
+    "Choose between \"when\" (short/interrupting action) and \"while\" (longer/background action)"
+  ],
+  "content": {
+    "intro": "\"Used to\" and \"be used to\" look almost identical but mean completely different things — this lesson also reviews when to use \"when\" versus \"while\" in past narratives.",
+    "rules": [
+      {
+        "heading": "a) Used to — a finished past habit",
+        "body": "<p>Subject + used to + infinitive. Describes something true repeatedly in the past, not true now.</p><ul><li>Affirmative: I used to live in a small village.</li><li>Negative: She didn't use to like vegetables.</li><li>Question: Did you use to play the piano?</li></ul>"
+      },
+      {
+        "heading": "b) Be used to — accustomed/familiar with",
+        "body": "<p>Subject + am/is/are (+not) + used to + noun/-ing. Describes something normal/familiar for someone — not a past habit at all.</p><ul><li>Affirmative: He is used to driving on the left.</li><li>Negative: They aren't used to the hot weather here.</li><li>Question: Are you used to eating spicy food?</li></ul>"
+      },
+      {
+        "heading": "c) When vs. while",
+        "body": "<ul><li><strong>When</strong> + past simple = a shorter or interrupting action.</li><li><strong>While</strong> + -ing = a longer, background action happening at the same time as another.</li></ul>"
+      }
+    ],
+    "examples": [
+      "I used to live in a small village. Now I live in a big city.",
+      "He is used to driving on the left — it's normal for him.",
+      "Did you use to play the piano as a child?",
+      "Are you used to eating spicy food?",
+      "When I arrived home, it started to rain.",
+      "I was cooking while my wife was watching TV."
+    ],
+    "commonMistakes": [
+      { "wrong": "I used to living in a small village.", "right": "I used to live in a small village.", "why": "\"Used to\" is followed by the infinitive (live), not the -ing form." },
+      { "wrong": "He is used to drive on the left.", "right": "He is used to driving on the left.", "why": "\"Be used to\" is followed by a noun or the -ing form, not the infinitive." },
+      { "wrong": "I use to play soccer when I was young.", "right": "I used to play soccer when I was young.", "why": "The affirmative form is \"used to,\" not \"use to\" — \"use to\" only appears after \"did/didn't.\"" },
+      { "wrong": "While I arrived home, it started to rain.", "right": "When I arrived home, it started to rain.", "why": "A short, sudden action (arriving) needs \"when,\" not \"while.\"" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2utww-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct form: used to, didn't use to, is/are used to, or isn't/aren't used to.",
+      "items": [
+        { "id": "b2utww1", "prompt": "When I was young, I ___ (play) outside every day.", "answers": [["used to play"]], "explanation": "A finished past habit — \"used to\" + infinitive." },
+        { "id": "b2utww2", "prompt": "Maria ___ (not/live) alone, so she sometimes feels lonely now.", "answers": [["didn't use to live"]], "explanation": "Negative past habit — \"didn't use to\" + infinitive." },
+        { "id": "b2utww3", "prompt": "He ___ (the cold winter) because he comes from a warm country. (not accustomed)", "answers": [["isn't used to"]], "explanation": "Not accustomed to something — \"isn't used to\" + noun." },
+        { "id": "b2utww4", "prompt": "___ you ___ (speak) English as a child?", "answers": [["Did"], ["use to speak"]], "explanation": "Question form of a past habit: Did + subject + use to + infinitive." }
+      ]
+    },
+    {
+      "id": "b2utww-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "b2utww5", "prompt": "___ I arrived home, it started to rain.", "options": ["When", "While", "Used to"], "answerIndex": 0, "explanation": "A short, sudden interrupting action — \"when.\"" },
+        { "id": "b2utww6", "prompt": "I was cooking ___ my wife was watching TV.", "options": ["when", "while", "used to"], "answerIndex": 1, "explanation": "Two longer background actions happening together — \"while.\"" }
+      ]
+    },
+    {
+      "id": "b2utww-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b2utww7", "incorrect": "He is used to drive on the left.", "answer": ["He is used to driving on the left."], "explanation": "\"Be used to\" needs the -ing form, not the infinitive." },
+        { "id": "b2utww8", "incorrect": "I use to play the piano as a child.", "answer": ["I used to play the piano as a child."], "explanation": "The affirmative form is \"used to,\" not \"use to.\"" }
+      ]
+    }
+  ],
+  "summary": [
+    "Used to + infinitive = a finished past habit, not true now.",
+    "Be used to + noun/-ing = accustomed/familiar with something, in any tense.",
+    "When + past simple = short/interrupting; while + -ing = longer/background."
+  ],
+  "related": [],
+  "sourceMaterial": { "docx": "cefr/b2-upper-intermediate/used-to-when-while.docx", "pdf": "cefr/b2-upper-intermediate/used-to-when-while.pdf" }
+}

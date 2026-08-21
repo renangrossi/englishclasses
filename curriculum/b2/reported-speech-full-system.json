@@ -1,0 +1,80 @@
+{
+  "id": "b2-reported-speech-full-system",
+  "level": "B2",
+  "unit": "2",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "reported-speech",
+  "title": "Reported Speech — Questions & Commands",
+  "subtitle": "Report what someone asked or told someone to do, not just what they said.",
+  "prerequisites": ["b1-reported-speech-foundation"],
+  "objectives": [
+    "Report yes/no questions with \"if/whether\"",
+    "Report wh- questions, keeping the question word",
+    "Report commands and requests with \"tell/ask + object + infinitive\""
+  ],
+  "content": {
+    "intro": "You already know how to report statements. Real conversations also include questions and commands — reporting those needs a different structure, not just the same backshift rule.",
+    "rules": [
+      {
+        "heading": "a) Reporting yes/no questions",
+        "body": "<p>Use <strong>if</strong> or <strong>whether</strong>, and switch back to normal statement word order (no auxiliary inversion).</p><ul><li>\"Do you like coffee?\" → She asked if I liked coffee.</li><li>\"Are you coming?\" → He asked whether I was coming.</li></ul>"
+      },
+      {
+        "heading": "b) Reporting wh- questions",
+        "body": "<p>Keep the question word, but use normal statement word order.</p><ul><li>\"Where do you live?\" → She asked where I lived.</li><li>\"What time is it?\" → He asked what time it was.</li></ul>"
+      },
+      {
+        "heading": "c) Reporting commands and requests",
+        "body": "<p>tell/ask + object + (not) + to-infinitive — no backshifting needed, since the infinitive doesn't change.</p><ul><li>\"Close the door.\" → She told me to close the door.</li><li>\"Please don't be late.\" → He asked me not to be late.</li></ul>"
+      }
+    ],
+    "examples": [
+      "She asked if I liked coffee.",
+      "He asked whether I was coming.",
+      "She asked where I lived.",
+      "He asked what time it was.",
+      "She told me to close the door.",
+      "He asked me not to be late."
+    ],
+    "commonMistakes": [
+      { "wrong": "She asked did I like coffee.", "right": "She asked if I liked coffee.", "why": "Reported yes/no questions need \"if/whether\" and normal word order, not the original question form." },
+      { "wrong": "He asked where did I live.", "right": "He asked where I lived.", "why": "Reported wh- questions keep the question word but drop the auxiliary inversion." },
+      { "wrong": "She told me close the door.", "right": "She told me to close the door.", "why": "Reported commands need \"to\" before the infinitive." },
+      { "wrong": "He asked me to not be late.", "right": "He asked me not to be late.", "why": "The negative goes before \"to,\" not between \"to\" and the verb." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2rsq-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each reported sentence.",
+      "items": [
+        { "id": "b2rsq1", "prompt": "\"Do you have a car?\" → She asked ___ I had a car.", "answers": [["if", "whether"]], "explanation": "Reported yes/no question — \"if\" or \"whether.\"" },
+        { "id": "b2rsq2", "prompt": "\"Where do you work?\" → He asked ___ I ___.", "answers": [["where"], ["worked"]], "explanation": "Reported wh- question — keep the question word, normal word order." },
+        { "id": "b2rsq3", "prompt": "\"Open the window.\" → She told me ___ the window.", "answers": [["to open"]], "explanation": "Reported command: tell + object + to-infinitive." },
+        { "id": "b2rsq4", "prompt": "\"Please don't shout.\" → He asked me ___ shout.", "answers": [["not to"]], "explanation": "Negative reported command: not + to-infinitive." }
+      ]
+    },
+    {
+      "id": "b2rsq-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "b2rsq5", "prompt": "\"What time does the train leave?\" → She asked ___", "options": ["what time did the train leave", "what time the train left", "what time does the train leave"], "answerIndex": 1, "explanation": "Reported wh- question: keep the question word, use normal statement word order." },
+        { "id": "b2rsq6", "prompt": "\"Can you help me?\" → He asked ___ help him.", "options": ["if I could", "could I", "if I can"], "answerIndex": 0, "explanation": "Reported yes/no question: if + subject + backshifted modal (could)." }
+      ]
+    },
+    {
+      "id": "b2rsq-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b2rsq7", "incorrect": "She asked where was I going.", "answer": ["She asked where I was going."], "explanation": "Reported wh- questions use normal statement word order, not question order." },
+        { "id": "b2rsq8", "incorrect": "He told me open the door.", "answer": ["He told me to open the door."], "explanation": "Reported commands need \"to\" before the infinitive." }
+      ]
+    }
+  ],
+  "summary": [
+    "Yes/no questions → if/whether + normal word order.",
+    "Wh- questions → keep the question word + normal word order.",
+    "Commands/requests → tell/ask + object + (not) to-infinitive."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

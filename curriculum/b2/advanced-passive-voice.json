@@ -1,0 +1,80 @@
+{
+  "id": "b2-advanced-passive-voice",
+  "level": "B2",
+  "unit": "2",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "passive-voice",
+  "title": "Advanced Passive Voice",
+  "subtitle": "Passives with modals, the get-passive, and passive infinitives/gerunds.",
+  "prerequisites": ["b1-passive-voice"],
+  "objectives": [
+    "Use the passive with modal verbs (can/must/should + be + past participle)",
+    "Use the informal get-passive",
+    "Use passive infinitives and gerunds"
+  ],
+  "content": {
+    "intro": "You already know the basic passive. At B2, you'll extend it to work with modals, and meet a more informal alternative: the get-passive.",
+    "rules": [
+      {
+        "heading": "a) Passive with modals",
+        "body": "<p>modal + be + past participle.</p><ul><li>The report must be finished by Friday.</li><li>This problem can be solved easily.</li><li>The rules should be followed carefully.</li></ul>"
+      },
+      {
+        "heading": "b) Get-passive (informal)",
+        "body": "<p>get + past participle, common in spoken English, especially for accidents/unplanned events.</p><ul><li>My phone got stolen last week. (= was stolen, more informal/dynamic)</li><li>She got promoted last month.</li></ul>"
+      },
+      {
+        "heading": "c) Passive infinitives and gerunds",
+        "body": "<ul><li>Passive infinitive: The house needs to be painted.</li><li>Passive gerund: I don't like being told what to do.</li></ul>"
+      }
+    ],
+    "examples": [
+      "The report must be finished by Friday.",
+      "This problem can be solved easily.",
+      "My phone got stolen last week.",
+      "She got promoted last month.",
+      "The house needs to be painted.",
+      "I don't like being told what to do."
+    ],
+    "commonMistakes": [
+      { "wrong": "The report must finished by Friday.", "right": "The report must be finished by Friday.", "why": "Modal + passive always needs \"be\" before the past participle." },
+      { "wrong": "My phone got steal last week.", "right": "My phone got stolen last week.", "why": "The get-passive needs the past participle (stolen), not the base form." },
+      { "wrong": "The house needs to painted.", "right": "The house needs to be painted.", "why": "A passive infinitive needs \"to be,\" not just \"to.\"" },
+      { "wrong": "I don't like told what to do.", "right": "I don't like being told what to do.", "why": "A passive gerund needs \"being\" before the past participle." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2apv-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct advanced passive form.",
+      "items": [
+        { "id": "b2apv1", "prompt": "The rules ___ (should/follow) carefully.", "answers": [["should be followed"]], "explanation": "Modal + be + past participle." },
+        { "id": "b2apv2", "prompt": "This problem ___ (can/solve) easily.", "answers": [["can be solved"]], "explanation": "Modal + be + past participle." },
+        { "id": "b2apv3", "prompt": "My bike ___ (get/steal) last night.", "answers": [["got stolen"]], "explanation": "Informal get-passive, past: got + past participle." },
+        { "id": "b2apv4", "prompt": "The car needs ___ (to/wash).", "answers": [["to be washed"]], "explanation": "Passive infinitive: to be + past participle." }
+      ]
+    },
+    {
+      "id": "b2apv-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "b2apv5", "prompt": "I hate ___ interrupted while I'm speaking.", "options": ["being", "to be", "get"], "answerIndex": 0, "explanation": "A passive gerund after \"hate\" needs \"being + past participle.\"" },
+        { "id": "b2apv6", "prompt": "She ___ promoted after just six months. (informal)", "options": ["was", "got", "did"], "answerIndex": 1, "explanation": "The get-passive is common and natural for this kind of personal news." }
+      ]
+    },
+    {
+      "id": "b2apv-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b2apv7", "incorrect": "The report must finished by tomorrow.", "answer": ["The report must be finished by tomorrow."], "explanation": "Modal passives always need \"be.\"" },
+        { "id": "b2apv8", "incorrect": "He got fire from his job last week.", "answer": ["He got fired from his job last week."], "explanation": "The get-passive needs the past participle (fired), not the base form." }
+      ]
+    }
+  ],
+  "summary": [
+    "Modal passive: modal + be + past participle.",
+    "Get-passive (informal): get + past participle, common for unplanned/personal events.",
+    "Passive infinitive: to be + past participle. Passive gerund: being + past participle."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

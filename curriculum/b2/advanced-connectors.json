@@ -1,0 +1,79 @@
+{
+  "id": "b2-advanced-connectors",
+  "level": "B2",
+  "unit": "2",
+  "order": 8,
+  "skill": "grammar",
+  "strand": "connectors",
+  "title": "Advanced Connectors",
+  "subtitle": "Formal, written-style connectors for contrast, addition, and consequence.",
+  "prerequisites": ["a2-connectors"],
+  "objectives": [
+    "Use whereas and despite/in spite of for formal contrast",
+    "Use furthermore/moreover for formal addition",
+    "Use nevertheless/consequently for formal consequence and contrast"
+  ],
+  "content": {
+    "intro": "You already know but/so/because. This lesson gives you the more formal connectors used in essays, reports, and professional writing.",
+    "rules": [
+      {
+        "heading": "a) Contrast",
+        "body": "<ul><li><strong>whereas</strong> (neutral contrast, joining two clauses): The north is mountainous, whereas the south is flat.</li><li><strong>despite / in spite of</strong> + noun/gerund: Despite the rain, we went out. / In spite of losing, they stayed positive.</li><li><strong>nevertheless</strong> (starts a new sentence): The plan was risky. Nevertheless, they went ahead.</li></ul>"
+      },
+      {
+        "heading": "b) Addition",
+        "body": "<ul><li><strong>furthermore / moreover</strong> (adds a stronger point, formal, starts a new sentence): The product is expensive. Furthermore, it's poorly made.</li></ul>"
+      },
+      {
+        "heading": "c) Consequence",
+        "body": "<ul><li><strong>consequently / as a result</strong> (formal result, starts a new sentence): Sales fell sharply. Consequently, the company cut costs.</li></ul>"
+      }
+    ],
+    "examples": [
+      "The north is mountainous, whereas the south is flat.",
+      "Despite the rain, we went out.",
+      "The plan was risky. Nevertheless, they went ahead.",
+      "The product is expensive. Furthermore, it's poorly made.",
+      "Sales fell sharply. Consequently, the company cut costs.",
+      "In spite of losing, the team stayed positive."
+    ],
+    "commonMistakes": [
+      { "wrong": "Despite it was raining, we went out.", "right": "Despite the fact that it was raining, we went out. / Despite the rain, we went out.", "why": "\"Despite\" takes a noun or gerund, not a full clause directly." },
+      { "wrong": "The plan was risky, nevertheless they went ahead.", "right": "The plan was risky. Nevertheless, they went ahead.", "why": "\"Nevertheless\" typically starts a new sentence, with a period before it, not a comma joining one sentence." },
+      { "wrong": "The report is late, furthermore is incomplete.", "right": "The report is late. Furthermore, it is incomplete.", "why": "\"Furthermore\" needs its own clause with a subject (\"it\"), not a fragment." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2ac-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the best formal connector.",
+      "items": [
+        { "id": "b2ac1", "prompt": "The coffee here is excellent, ___ the tea is rather weak.", "answers": [["whereas"]], "options": ["whereas", "furthermore", "consequently"], "explanation": "A neutral contrast between two facts — \"whereas.\"" },
+        { "id": "b2ac2", "prompt": "___ the criticism, the director refused to change the ending.", "answers": [["Despite", "In spite of"]], "options": ["Despite", "Whereas", "Consequently"], "explanation": "\"Despite\" + noun expresses contrast." },
+        { "id": "b2ac3", "prompt": "Sales fell sharply. ___, the company cut costs.", "answers": [["Consequently"]], "options": ["Consequently", "Whereas", "Despite"], "explanation": "A formal result — \"consequently.\"" },
+        { "id": "b2ac4", "prompt": "The hotel was overpriced. ___, the service was poor.", "answers": [["Furthermore", "Moreover"]], "options": ["Furthermore", "Whereas", "Despite"], "explanation": "A formal addition of a further, stronger point." }
+      ]
+    },
+    {
+      "id": "b2ac-mc", "type": "multiple-choice", "title": "Choose the Correct Connector",
+      "items": [
+        { "id": "b2ac5", "prompt": "\"The team lost the match. ___, they remained positive.\"", "options": ["Nevertheless", "Furthermore", "Whereas"], "answerIndex": 0, "explanation": "A contrast between the loss and their attitude — \"nevertheless.\"" },
+        { "id": "b2ac6", "prompt": "Which sentence uses \"despite\" correctly?", "options": ["Despite he was tired, he finished the race.", "Despite being tired, he finished the race.", "Despite tired, he finished the race."], "answerIndex": 1, "explanation": "\"Despite\" needs a noun or gerund (being tired), not a full clause or bare adjective." }
+      ]
+    },
+    {
+      "id": "b2ac-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b2ac7", "incorrect": "Despite he arrived late, no one minded.", "answer": ["Despite arriving late, no one minded.", "Although he arrived late, no one minded."], "explanation": "\"Despite\" needs a noun/gerund, not a subject + verb clause." },
+        { "id": "b2ac8", "incorrect": "The report was late, nevertheless it was accurate.", "answer": ["The report was late. Nevertheless, it was accurate."], "explanation": "\"Nevertheless\" typically starts its own sentence." }
+      ]
+    }
+  ],
+  "summary": [
+    "Whereas = neutral contrast joining two clauses. Despite/in spite of + noun/gerund = contrast.",
+    "Furthermore/moreover = formal addition. Nevertheless = formal contrast, new sentence.",
+    "Consequently/as a result = formal consequence, new sentence."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

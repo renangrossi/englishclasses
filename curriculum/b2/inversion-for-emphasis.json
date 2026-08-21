@@ -1,0 +1,79 @@
+{
+  "id": "b2-inversion-for-emphasis",
+  "level": "B2",
+  "unit": "2",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "inversion",
+  "title": "Inversion for Emphasis — The Basics",
+  "subtitle": "Flip the subject and auxiliary after a negative adverb, for dramatic emphasis.",
+  "prerequisites": ["a1-yes-no-questions"],
+  "objectives": [
+    "Invert the subject and auxiliary after Never/Rarely/Seldom",
+    "Invert after Only after/Only when",
+    "Recognize this as a formal, written/spoken-for-effect structure, not everyday conversation"
+  ],
+  "content": {
+    "intro": "When a negative or limiting word moves to the front of a sentence for emphasis, the subject and auxiliary swap places — just like in a question. This is the foundation; C1 will add more triggers and more nuance.",
+    "rules": [
+      {
+        "heading": "a) Never / Rarely / Seldom",
+        "body": "<p>Negative adverb + auxiliary + subject + main verb.</p><ul><li>I have never seen such chaos. → Never have I seen such chaos.</li><li>She rarely complains. → Rarely does she complain.</li></ul>"
+      },
+      {
+        "heading": "b) Only after / Only when",
+        "body": "<ul><li>She explained her decision only after the meeting. → Only after the meeting did she explain her decision.</li></ul>"
+      },
+      {
+        "heading": "c) Adding \"do/does/did\" when there's no auxiliary",
+        "body": "<p>If the original sentence has no auxiliary (simple present/past), add do/does/did before the subject.</p><ul><li>She rarely complains. → Rarely does she complain.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Never have I seen such chaos.",
+      "Rarely does she complain.",
+      "Only after the meeting did she explain her decision.",
+      "Never had he felt so proud.",
+      "Seldom do we get a chance like this.",
+      "Only when I saw the photo did I believe him."
+    ],
+    "commonMistakes": [
+      { "wrong": "Never I have seen such chaos.", "right": "Never have I seen such chaos.", "why": "After the negative adverb, the auxiliary comes before the subject, like in a question." },
+      { "wrong": "Rarely she complains.", "right": "Rarely does she complain.", "why": "With no auxiliary in the original sentence, you must add do/does/did." },
+      { "wrong": "Only after the meeting she explained her decision.", "right": "Only after the meeting did she explain her decision.", "why": "\"Only after...\" also triggers inversion — add \"did\" and invert the subject." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2ife-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each inverted sentence.",
+      "items": [
+        { "id": "b2ife1", "prompt": "Never ___ I ___ (see) such a beautiful sunset.", "answers": [["have"], ["seen"]], "explanation": "Never + auxiliary (have) + subject + past participle." },
+        { "id": "b2ife2", "prompt": "Rarely ___ he ___ (arrive) late.", "answers": [["does"], ["arrive"]], "explanation": "No auxiliary in the original — add \"does\" for the inversion." },
+        { "id": "b2ife3", "prompt": "Only after the exam ___ she ___ (relax).", "answers": [["did"], ["relax"]], "explanation": "\"Only after\" triggers inversion — add \"did\" for the past simple." }
+      ]
+    },
+    {
+      "id": "b2ife-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "b2ife4", "prompt": "___ has he been so happy.", "options": ["Never", "Rarely he", "Not never"], "answerIndex": 0, "explanation": "\"Never\" starts the inverted structure correctly." },
+        { "id": "b2ife5", "prompt": "Seldom ___ we such an opportunity.", "options": ["we get", "do we get", "get we"], "answerIndex": 1, "explanation": "No auxiliary in the base sentence — add \"do\" and invert." }
+      ]
+    },
+    {
+      "id": "b2ife-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b2ife6", "incorrect": "Never I have felt so proud.", "answer": ["Never have I felt so proud."], "explanation": "The auxiliary comes before the subject." },
+        { "id": "b2ife7", "incorrect": "Rarely he calls his parents.", "answer": ["Rarely does he call his parents."], "explanation": "Add \"does\" since there's no auxiliary in the original sentence." }
+      ]
+    }
+  ],
+  "summary": [
+    "Negative adverb (Never/Rarely/Seldom) + auxiliary + subject + verb.",
+    "Only after/only when also trigger this inversion.",
+    "Add do/does/did when the original sentence has no auxiliary of its own.",
+    "This is formal/dramatic style — not used in everyday casual conversation."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

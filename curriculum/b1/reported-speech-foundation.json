@@ -1,0 +1,92 @@
+{
+  "id": "b1-reported-speech-foundation",
+  "level": "B1",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "reported-speech",
+  "title": "Reported Speech — Statements & Basic Backshift",
+  "subtitle": "Report what someone said, without quoting their exact words.",
+  "prerequisites": ["a2-past-simple", "a1-to-be"],
+  "objectives": [
+    "Use say and tell correctly (tell always needs a listener)",
+    "Backshift the verb tense one step into the past when reporting",
+    "Change time and place words (today, here, tomorrow) to fit the new point of view",
+    "Report simple statements without needing every reporting-verb pattern yet"
+  ],
+  "content": {
+    "intro": "When you tell someone what another person said, you usually don't repeat their exact words — you report the idea, from your own point of view, later in time. This changes the verb tense and a few other words.",
+    "rules": [
+      {
+        "heading": "a) Say vs. tell",
+        "body": "<p><strong>say</strong> (no listener needed, or use \"to\" + listener) and <strong>tell</strong> (always needs a listener, no \"to\")</p><ul><li>She said, \"I'm tired.\" → She said (that) she was tired.</li><li>She said to me, \"I'm tired.\" → She told me (that) she was tired.</li><li>Never say “She said me” — use “told me” or “said to me.”</li></ul>"
+      },
+      {
+        "heading": "b) Backshifting the verb",
+        "body": "<p>When the reporting verb (said, told) is in the past, the reported verb usually moves one step further into the past too:</p><ul><li>Present simple → past simple: \"I work here.\" → He said he worked there.</li><li>Present continuous → past continuous: \"I'm working.\" → He said he was working.</li><li>Past simple → past perfect: \"I finished.\" → He said he had finished.</li><li>Present perfect → past perfect: \"I have finished.\" → He said he had finished.</li><li>can → could, will → would: \"I can help.\" → He said he could help.</li></ul>"
+      },
+      {
+        "heading": "c) Changing time, place and pronouns",
+        "body": "<p>Words that point to \"now\" or \"here\" from the original speaker's moment usually change too, since you're reporting later, from a different point of view:</p><ul><li>today → that day &nbsp;|&nbsp; tomorrow → the next day / the following day &nbsp;|&nbsp; yesterday → the day before</li><li>here → there &nbsp;|&nbsp; now → then</li><li>this → that &nbsp;|&nbsp; my/I → his/her/etc. (the pronoun changes to match who is being reported)</li></ul>"
+      }
+    ],
+    "examples": [
+      "\"I'm hungry,\" she said. → She said (that) she was hungry.",
+      "\"We live in Porto Alegre,\" they said. → They said (that) they lived in Porto Alegre.",
+      "\"I saw him yesterday,\" he told me. → He told me (that) he had seen him the day before.",
+      "\"I'll call you tomorrow,\" she said. → She said (that) she would call me the next day.",
+      "\"I can't come today,\" he said. → He said (that) he couldn't come that day.",
+      "\"I have already finished,\" she told us. → She told us (that) she had already finished.",
+      "\"I'm studying here,\" he said. → He said (that) he was studying there.",
+      "\"This is my book,\" she said. → She said (that) that was her book."
+    ],
+    "commonMistakes": [
+      { "wrong": "She said me she was tired.", "right": "She told me she was tired. / She said (to me) she was tired.", "why": "\"Say\" never takes a direct listener without \"to\" — use \"tell\" for that, or add \"to\" before the listener." },
+      { "wrong": "He said he works there.", "right": "He said he worked there.", "why": "With a past reporting verb (said), the present tense usually backshifts to the past." },
+      { "wrong": "She said she will call tomorrow.", "right": "She said she would call the next day.", "why": "\"Will\" backshifts to \"would,\" and \"tomorrow\" (from her original moment) becomes \"the next day\" from your later point of view." },
+      { "wrong": "He told that he was busy.", "right": "He told me (that) he was busy. / He said (that) he was busy.", "why": "\"Tell\" needs a listener (told me, told her); without one, use \"said.\"" },
+      { "wrong": "She said she is here.", "right": "She said she was there.", "why": "\"Here\" (her location, at the time) becomes \"there\" from your point of view, and \"is\" backshifts to \"was.\"" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1rsf-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each reported sentence with the correct backshifted verb.",
+      "items": [
+        { "id": "b1rsf1", "prompt": "\"I am busy,\" he said. → He said he ___ busy.", "answers": [["was"]], "explanation": "Present simple (am) backshifts to past simple (was)." },
+        { "id": "b1rsf2", "prompt": "\"We are watching a film,\" they said. → They said they ___ watching a film.", "answers": [["were"]], "explanation": "Present continuous backshifts to past continuous." },
+        { "id": "b1rsf3", "prompt": "\"I finished my homework,\" she said. → She said she ___ finished her homework.", "answers": [["had"]], "explanation": "Past simple backshifts to past perfect (had + past participle)." },
+        { "id": "b1rsf4", "prompt": "\"I can swim,\" he said. → He said he ___ swim.", "answers": [["could"]], "explanation": "\"Can\" backshifts to \"could.\"" },
+        { "id": "b1rsf5", "prompt": "\"I will help you,\" she told me. → She told me she ___ help me.", "answers": [["would"]], "explanation": "\"Will\" backshifts to \"would.\"" },
+        { "id": "b1rsf6", "prompt": "\"I have never been to Rio,\" he said. → He said he ___ never been to Rio.", "answers": [["had"]], "explanation": "Present perfect backshifts to past perfect." }
+      ]
+    },
+    {
+      "id": "b1rsf-correction", "type": "correction", "title": "Correct the Mistakes",
+      "items": [
+        { "id": "b1rsf7", "incorrect": "She said me she was cold.", "answer": ["She told me she was cold.", "She said to me she was cold."], "explanation": "\"Say\" needs \"to\" before a listener, or use \"tell\" instead, which never takes \"to.\"" },
+        { "id": "b1rsf8", "incorrect": "He told he was leaving.", "answer": ["He said he was leaving.", "He told me he was leaving."], "explanation": "\"Tell\" always needs a listener object (told me/us/her); without one, use \"said.\"" },
+        { "id": "b1rsf9", "incorrect": "They said they will arrive today.", "answer": ["They said they would arrive that day."], "explanation": "\"Will\" backshifts to \"would,\" and \"today\" (from their original moment) becomes \"that day.\"" },
+        { "id": "b1rsf10", "incorrect": "She said she is tired.", "answer": ["She said she was tired."], "explanation": "The present tense backshifts to the past after a past reporting verb." }
+      ]
+    },
+    {
+      "id": "b1rsf-transform", "type": "typing", "title": "Report the Sentence",
+      "instructions": "Rewrite each quoted sentence as reported speech.",
+      "items": [
+        { "id": "b1rsf11", "prompt": "\"I'm working late tonight,\" she said.", "answer": ["She said she was working late that night."], "explanation": "Present continuous → past continuous; \"tonight\" → \"that night.\"" },
+        { "id": "b1rsf12", "prompt": "\"We saw the movie yesterday,\" they told me.", "answer": ["They told me they had seen the movie the day before."], "explanation": "Past simple → past perfect; \"yesterday\" → \"the day before.\"" },
+        { "id": "b1rsf13", "prompt": "\"I can't come to the party,\" he said.", "answer": ["He said he couldn't come to the party."], "explanation": "\"Can't\" → \"couldn't.\"" },
+        { "id": "b1rsf14", "prompt": "\"I'll finish it tomorrow,\" she said.", "answer": ["She said she would finish it the next day."], "explanation": "\"Will\" → \"would\"; \"tomorrow\" → \"the next day.\"" }
+      ]
+    }
+  ],
+  "summary": [
+    "Say has no listener (or “to” + listener); tell always needs a listener, with no “to.”",
+    "After a past reporting verb, tenses backshift one step into the past (am → was, finished → had finished, will → would).",
+    "Time/place words shift point of view: today → that day, tomorrow → the next day, here → there.",
+    "This is the foundation for more complex reported speech (questions, commands, and reporting-verb patterns like deny/urge/warn) taught later."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

@@ -167,13 +167,18 @@ def summary_section(lesson):
 
 
 def related_section(lesson, level_slug):
+    pdf = lesson.get("sourceMaterial", {}).get("pdf")
+    pdf_link = (
+        f'<a class="btn btn--ghost btn--small" href="../../{pdf}" target="_blank" rel="noopener">Open PDF</a>'
+        if pdf else ""
+    )
     return f"""<section id="related" class="section section--surface" aria-labelledby="rel-heading">
         <div class="section__inner">
             <p class="eyebrow">Source Material</p>
             <h2 id="rel-heading">Keep Going</h2>
             <div class="lesson-nav">
                 <a class="btn btn--ghost" href="../{level_slug}.html">Back to {lesson['level']}</a>
-                <a class="btn btn--ghost btn--small" href="../../{lesson['sourceMaterial']['pdf']}" target="_blank" rel="noopener">Open PDF</a>
+                {pdf_link}
             </div>
         </div>
     </section>"""

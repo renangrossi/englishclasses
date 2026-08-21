@@ -122,6 +122,18 @@
             </div>
         </div>
     </section>
+<section class="section section--tight" aria-labelledby="review-heading">
+        <div class="section__inner section__inner--narrow">
+            <div class="section__head">
+                <p class="eyebrow">Spaced Repetition</p>
+                <h2 id="review-heading">Today's Review</h2>
+            </div>
+            <div class="notice" id="progress-review-callout"><p>Loading your review queue&hellip;</p></div>
+            <div class="hero__actions" style="margin-top:var(--space-sm);">
+                <a class="btn btn--accent" href="today-review.html">Go to Today's Review</a>
+            </div>
+        </div>
+    </section>
 <section class="section section--surface" aria-labelledby="levels-heading">
         <div class="section__inner section__inner--narrow">
             <div class="section__head">
@@ -248,5 +260,17 @@
     <script src="assets/js/search.js"></script>
     <script src="assets/js/ai-teacher.js" data-ai-endpoint="https://ai-teacher.englishclasses.workers.dev"></script>
     <script src="assets/js/progress.js"></script>
+    <script src="assets/js/mastery.js"></script>
+    <script>
+    (function () {
+      "use strict";
+      var box = document.getElementById("progress-review-callout");
+      if (!box || !window.MasteryTracker) return;
+      var due = window.MasteryTracker.getDueItemIds().length;
+      box.innerHTML = due > 0
+        ? "<p><strong>" + due + " item" + (due === 1 ? "" : "s") + "</strong> ready for review right now.</p>"
+        : "<p>Nothing due for review right now — keep working through your lessons.</p>";
+    })();
+    </script>
 </body>
 </html>

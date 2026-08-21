@@ -630,6 +630,13 @@
 
   function resetProgress() {
     try { window.localStorage.removeItem(STORAGE_KEY); } catch (e) { /* ignore */ }
+    // Mastery/spaced-repetition data (assets/js/mastery.js) is a
+    // separate module with its own storage key, but from the student's
+    // point of view "reset my progress" should mean everything --
+    // guarded since mastery.js isn't loaded on every page.
+    if (window.MasteryTracker && typeof window.MasteryTracker.resetMastery === "function") {
+      window.MasteryTracker.resetMastery();
+    }
     flushUI(loadState());
   }
 

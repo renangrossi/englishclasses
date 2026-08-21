@@ -19,6 +19,7 @@ import site_chrome  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REL = "../../"  # levels/{level}/{lesson}.html -> repo root
+NAV_MAP = json.loads((Path(__file__).resolve().parent / "lesson_nav_map.json").read_text(encoding="utf-8"))
 
 STAR = '<svg class="stars-row__star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21Z"/></svg>'
 STARS_ROW = f'<div class="stars-row stars-row--onlight" aria-hidden="true">{STAR * 11}</div>'
@@ -47,7 +48,7 @@ def toc(present_ids):
     labels = {
         "objectives": "Objectives", "explanation": "Explanation", "rules": "Rules",
         "examples": "Examples", "mistakes": "Common Mistakes", "practice": "Practice",
-        "summary": "Summary",
+        "summary": "Summary", "lesson-test-yourself": "Test Yourself",
     }
     links = "".join(f'<a href="#{a}">{labels[a]}</a>' for a in labels if a in present_ids)
     return f'<div class="level-toc"><div class="level-toc__inner">{links}</div></div>'
@@ -168,18 +169,41 @@ def summary_section(lesson):
     </section>"""
 
 
-def related_section(lesson, level_slug):
+def test_yourself_section(lesson, level_slug, ty_anchor):
+    if not ty_anchor:
+        return ""
+    return f"""<section id="lesson-test-yourself" class="section section--tight" aria-labelledby="lesson-ty-heading">
+        <div class="section__inner section__inner--narrow" style="text-align:center;">
+            <p class="eyebrow">Test Yourself</p>
+            <h2 id="lesson-ty-heading">Ready to check your knowledge?</h2>
+            <p style="color:var(--color-text-muted);max-width:56ch;margin:0 auto var(--space-md);">Take the full {lesson['level']} Test Yourself review for this topic &mdash; more questions, mixed together, with instant feedback.</p>
+            <a class="btn btn--accent" href="test-yourself.html#{ty_anchor}">Test Yourself: {esc(lesson['title'])} {ARROW_SVG}</a>
+        </div>
+    </section>"""
+
+
+def related_section(lesson, level_slug, prev_lesson, next_lesson):
     pdf = lesson.get("sourceMaterial", {}).get("pdf")
     pdf_link = (
         f'<a class="btn btn--ghost btn--small" href="../../{pdf}" target="_blank" rel="noopener">Open PDF</a>'
         if pdf else ""
+    )
+    prev_link = (
+        f'<a class="btn btn--ghost" href="{prev_lesson["slug"]}.html">{ARROW_SVG} Previous: {esc(prev_lesson["title"])}</a>'
+        if prev_lesson else ""
+    )
+    next_link = (
+        f'<a class="btn btn--accent" href="{next_lesson["slug"]}.html">Next: {esc(next_lesson["title"])} {ARROW_SVG}</a>'
+        if next_lesson else ""
     )
     return f"""<section id="related" class="section section--surface" aria-labelledby="rel-heading">
         <div class="section__inner">
             <p class="eyebrow">Source Material</p>
             <h2 id="rel-heading">Keep Going</h2>
             <div class="lesson-nav">
+                {prev_link}
                 <a class="btn btn--ghost" href="../{level_slug}.html">Back to {lesson['level']}</a>
+                {next_link}
                 {pdf_link}
             </div>
         </div>
@@ -212,14 +236,22 @@ def build(lesson_path: Path):
     }
     present_ids = [k for k, v in sections.items() if v]
 
+    nav_list = NAV_MAP.get(level_slug, [])
+    pos = next((i for i, l in enumerate(nav_list) if l["slug"] == lesson_slug), None)
+    prev_lesson = nav_list[pos - 1] if pos is not None and pos > 0 else None
+    next_lesson = nav_list[pos + 1] if pos is not None and pos < len(nav_list) - 1 else None
+    ty_anchor = nav_list[pos]["ty"] if pos is not None else None
+    toc_ids = present_ids + (["lesson-test-yourself"] if ty_anchor else [])
+
     out = []
     out.append(site_chrome.head(REL, title, description))
     out.append(site_chrome.header(REL, lesson["level"], breadcrumb))
     out.append(page_header(lesson))
-    out.append(toc(present_ids))
+    out.append(toc(toc_ids))
     for k in present_ids:
         out.append(sections[k])
-    out.append(related_section(lesson, level_slug))
+    out.append(test_yourself_section(lesson, level_slug, ty_anchor))
+    out.append(related_section(lesson, level_slug, prev_lesson, next_lesson))
     out.append(site_chrome.footer(REL))
 
     out_dir = REPO_ROOT / "levels" / level_slug

@@ -1,0 +1,348 @@
+{
+  "id": "c1-advanced-conditional-forms",
+  "level": "C1",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "advanced-conditional-forms",
+  "title": "Advanced Conditional Forms",
+  "subtitle": "Beyond the four basic conditionals, C1 English uses mixed conditionals, conditional inversion, and alternative \"if\" structures to talk about hypothetical situat…",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: Mixed conditionals — combine a condition and result from different time frames.",
+    "Understand and use: Conditional inversion — in formal/written English, \"if\" can be dropped and the auxiliary moved before the subject.",
+    "Understand and use: Alternatives to \"if\" — \"if it hadn't been for\" / \"but for\" + noun phrase, express that something (a person, event, factor) prevented a different outcome.",
+    "Understand and use: Hypothetical structures — \"suppose/supposing,\" \"what if,\" \"imagine\" + past tense (present hypothetical) or past perfect (past hypothetical) function like conditionals in conversation."
+  ],
+  "content": {
+    "intro": "Beyond the four basic conditionals, C1 English uses mixed conditionals, conditional inversion, and alternative \"if\" structures to talk about hypothetical situations with more precision.",
+    "rules": [
+      {
+        "heading": "a) Mixed conditionals — combine a condition and result from different time frames.",
+        "body": "<ul><li>Past condition → present result: If + past perfect, ... would + bare infinitive. If she had studied medicine, she would be a doctor now.</li><li>Present/general condition → past result: If + past simple, ... would have + past participle. If he weren't so stubborn, he wouldn't have lost his friends.</li></ul>"
+      },
+      {
+        "heading": "b) Conditional inversion — in formal/written English, \"if\" can be dropped and the auxiliary moved before the subject.",
+        "body": "<ul><li>Had + subject + past participle (= if + past perfect): Had I known, I would have come earlier.</li><li>Were + subject (+ to + infinitive) (= if + past simple/were): Were she to accept, the deal would close tomorrow.</li><li>Should + subject + bare infinitive (= if + present, for a less likely future event): Should you need anything, just call me.</li></ul>"
+      },
+      {
+        "heading": "c) Alternatives to \"if\" — \"if it hadn't been for\" / \"but for\" + noun phrase, express that something (a person, event, factor) prevented a different outcome.",
+        "body": "<p>If it hadn't been for your help, I would have failed. = But for your help, I would have failed.</p>"
+      },
+      {
+        "heading": "d) Hypothetical structures — \"suppose/supposing,\" \"what if,\" \"imagine\" + past tense (present hypothetical) or past perfect (past hypothetical) function like conditionals in conversation.",
+        "body": "<p>Suppose you lost your job tomorrow — what would you do?</p>"
+      }
+    ],
+    "examples": [
+      "If I had taken that job, I would be living in Tokyo now.",
+      "If he weren't so careless, he wouldn't have broken his arm.",
+      "Had she arrived earlier, she would have caught the train.",
+      "Were the company to collapse, thousands of jobs would be lost.",
+      "Should you have any questions, feel free to contact us.",
+      "If it hadn't been for the storm, the flight would have left on time.",
+      "But for his quick thinking, the situation could have been much worse.",
+      "Suppose you won the lottery — what would you do first?",
+      "If I were a bit more patient, I wouldn't have shouted at him.",
+      "Had the warning been taken seriously, the accident might have been avoided.",
+      "Were I in your position, I would resign immediately.",
+      "If she hadn't missed the meeting, she would know about the changes now."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "If I would have known, I would have told you.",
+        "right": "If I had known, I would have told you.",
+        "why": "Don't use \"would have\" in the if-clause; use the past perfect (\"had known\")."
+      },
+      {
+        "wrong": "Had I known it, I would tell you.",
+        "right": "Had I known it, I would have told you.",
+        "why": "Inversion with \"Had + subject + past participle\" still needs \"would have + past participle\" in the result for a past outcome — match the time frames."
+      },
+      {
+        "wrong": "If it wasn't for him, I would have failed.",
+        "right": "If it hadn't been for him, I would have failed.",
+        "why": "\"If it hadn't been for\" refers to something in the past that prevented a result; \"wasn't\" is present, which breaks the time logic."
+      },
+      {
+        "wrong": "Were she accept the offer, we would proceed.",
+        "right": "Were she to accept the offer, we would proceed.",
+        "why": "This inversion pattern needs \"to + infinitive\" after the subject."
+      },
+      {
+        "wrong": "Should you will need help, call me.",
+        "right": "Should you need help, call me.",
+        "why": "After \"should\" in this inversion, use the bare infinitive, not \"will.\""
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "advanced-conditional-forms-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill",
+      "items": [
+        {
+          "id": "advanced-conditional-forms-a1",
+          "prompt": "If I ___ (study) harder at university, I would have a better job now.",
+          "answers": [
+            [
+              "had studied"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-conditional-forms-a2",
+          "prompt": "___ you need any assistance, don't hesitate to ask.",
+          "answers": [
+            [
+              "Should"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-conditional-forms-a3",
+          "prompt": "If it ___ (not/be) for her advice, I would have made a huge mistake.",
+          "answers": [
+            [
+              "hadn't been"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-conditional-forms-a4",
+          "prompt": "___ he arrived on time, he would have caught his connection.",
+          "answers": [
+            [
+              "Had"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-conditional-forms-a5",
+          "prompt": "Were I ___ (be) in charge, I would change the whole policy.",
+          "answers": [
+            [
+              "to be"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-conditional-forms-a6",
+          "prompt": "If she weren't so shy, she ___ (speak) up in the meeting yesterday.",
+          "answers": [
+            [
+              "would have spoken"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-conditional-forms-a7",
+          "prompt": "But for the quick response of the paramedics, he ___ (not/survive).",
+          "answers": [
+            [
+              "wouldn't have survived"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-conditional-forms-a8",
+          "prompt": "Suppose you ___ (lose) your passport abroad — what would you do?",
+          "answers": [
+            [
+              "lost"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-conditional-forms-a9",
+          "prompt": "Had they listened to the experts, the crisis ___ (avoid).",
+          "answers": [
+            [
+              "would have been avoided"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-conditional-forms-a10",
+          "prompt": "If I ___ (not/be) allergic to cats, I would have one by now.",
+          "answers": [
+            [
+              "weren't"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "advanced-conditional-forms-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (use inversion or an alternative \"if\" structure)",
+      "items": [
+        {
+          "id": "advanced-conditional-forms-b1",
+          "prompt": "If you need any help, just ask. → Should ___",
+          "answer": [
+            "Should you need any help, just ask."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-conditional-forms-b2",
+          "prompt": "If I had known about the traffic, I would have left earlier. → Had ___",
+          "answer": [
+            "Had I known about the traffic, I would have left earlier."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-conditional-forms-b3",
+          "prompt": "If we were to lose this contract, the whole team would suffer. → Were ___",
+          "answer": [
+            "Were we to lose this contract, the whole team would suffer."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-conditional-forms-b4",
+          "prompt": "If it hadn't been for the rain, the match would have finished. → But for ___",
+          "answer": [
+            "But for the rain, the match would have finished."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-conditional-forms-b5",
+          "prompt": "If she hadn't warned us, we would have walked into the trap. → If it hadn't ___",
+          "answer": [
+            "If it hadn't been for her warning, we would have walked into the trap."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-conditional-forms-b6",
+          "prompt": "If you were to ask him, he would probably say yes. → Were ___",
+          "answer": [
+            "Were you to ask him, he would probably say yes."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-conditional-forms-b7",
+          "prompt": "If I had left earlier, I wouldn't be stuck in this traffic now. (identify: mixed or standard?) → rewrite keeping the same meaning with \"Had...\"",
+          "answer": [
+            "Had I left earlier, I wouldn't be stuck in this traffic now."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "advanced-conditional-forms-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "advanced-conditional-forms-c1",
+          "incorrect": "If I would have seen him, I would have said hello.",
+          "answer": [
+            "If I had seen him, I would have said hello."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-conditional-forms-c2",
+          "incorrect": "Had she study harder, she would have passed.",
+          "answer": [
+            "Had she studied harder, she would have passed."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-conditional-forms-c3",
+          "incorrect": "If it weren't for your support, I would have gave up.",
+          "answer": [
+            "If it weren't for your support, I would have given up."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-conditional-forms-c4",
+          "incorrect": "Were he to knows the truth, he would be furious.",
+          "answer": [
+            "Were he to know the truth, he would be furious."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-conditional-forms-c5",
+          "incorrect": "Should you needed anything, just let us know.",
+          "answer": [
+            "Should you need anything, just let us know."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-conditional-forms-c6",
+          "incorrect": "If I was you, I would have accepted the offer.",
+          "answer": [
+            "If I were you, I would have accepted the offer."
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "advanced-conditional-forms-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "advanced-conditional-forms-d1",
+          "prompt": "Write one mixed conditional sentence about a decision from your past that affects your present.",
+          "modelAnswer": "If I hadn't dropped out of art school, I would probably be a designer today."
+        },
+        {
+          "id": "advanced-conditional-forms-d2",
+          "prompt": "Write one sentence using conditional inversion with \"Had.\"",
+          "modelAnswer": "Had we booked the tickets sooner, we would be on the beach right now."
+        },
+        {
+          "id": "advanced-conditional-forms-d3",
+          "prompt": "Write one sentence using \"but for\" or \"if it hadn't been for.\"",
+          "modelAnswer": "But for my neighbor's help, I never would have finished the move on time."
+        },
+        {
+          "id": "advanced-conditional-forms-d4",
+          "prompt": "Write one sentence using \"Suppose\" or \"What if\" to pose a hypothetical question to a friend.",
+          "modelAnswer": "Suppose you could live anywhere in the world — where would you go?"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) Mixed conditionals — combine a condition and result from different time frames.",
+    "b) Conditional inversion — in formal/written English, \"if\" can be dropped and the auxiliary moved before the subject.",
+    "c) Alternatives to \"if\" — \"if it hadn't been for\" / \"but for\" + noun phrase, express that something (a person, event, factor) prevented a different outcome.",
+    "d) Hypothetical structures — \"suppose/supposing,\" \"what if,\" \"imagine\" + past tense (present hypothetical) or past perfect (past hypothetical) function like conditionals in conversation."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c1-advanced/advanced-conditional-forms.docx",
+    "txt": "cefr/c1-advanced/advanced-conditional-forms.txt",
+    "pdf": "cefr/c1-advanced/advanced-conditional-forms.pdf"
+  }
+}

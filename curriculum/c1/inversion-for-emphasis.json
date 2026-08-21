@@ -1,0 +1,326 @@
+{
+  "id": "c1-inversion-for-emphasis",
+  "level": "C1",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "inversion-for-emphasis",
+  "title": "Inversion for Emphasis",
+  "subtitle": "When a negative or restrictive adverbial (never, rarely, only after, not until, no sooner, little, hardly, seldom) is moved to the front of a sentence for empha…",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use Inversion for Emphasis"
+  ],
+  "content": {
+    "intro": "When a negative or restrictive adverbial (never, rarely, only after, not until, no sooner, little, hardly, seldom) is moved to the front of a sentence for emphasis, the subject and auxiliary verb invert, just like in a question.",
+    "rules": [],
+    "examples": [
+      "Never have I witnessed such generosity.",
+      "Rarely does he arrive on time for a meeting.",
+      "Only after the results came in did we realize our mistake.",
+      "Not until she apologized did he forgive her.",
+      "No sooner had the plane landed than the passengers began applauding.",
+      "Little did they know the storm was about to hit.",
+      "Under no circumstances should you share this password.",
+      "Seldom have I felt so nervous before a presentation.",
+      "Hardly had I opened the door when the dog ran out.",
+      "Only when I moved abroad did I appreciate my hometown.",
+      "On no account must the alarm be disabled.",
+      "Not only did he win the race, but he also broke the record."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Never I have seen such a mess.",
+        "right": "Never have I seen such a mess.",
+        "why": "The auxiliary must come before the subject after the fronted negative adverbial — it's an inversion, not just a reordering of the adverbial."
+      },
+      {
+        "wrong": "Rarely he comes to visit us.",
+        "right": "Rarely does he come to visit us.",
+        "why": "With no auxiliary in the original sentence, you must add \"do/does/did\" to invert correctly."
+      },
+      {
+        "wrong": "No sooner we had arrived than it started raining.",
+        "right": "No sooner had we arrived than it started raining.",
+        "why": "The auxiliary (\"had\") must move before the subject; \"no sooner\" always pairs with \"than,\" and \"hardly/scarcely\" pairs with \"when.\""
+      },
+      {
+        "wrong": "Only after he apologized, she forgave him.",
+        "right": "Only after he apologized did she forgive him.",
+        "why": "The main clause after a fronted \"only\" expression must also invert; a comma alone isn't enough."
+      },
+      {
+        "wrong": "Little he knew what was coming.",
+        "right": "Little did he know what was coming.",
+        "why": "\"Little\" as a fronted negative adverbial also triggers inversion with \"do/does/did.\""
+      }
+    ],
+    "explanation": "<p>When a negative or restrictive adverbial (never, rarely, only after, not until, no sooner, little, hardly, seldom) is moved to the front of a sentence for emphasis, the subject and auxiliary verb invert, just like in a question. This is a formal, literary, and often dramatic structure.</p><p>Pattern: Negative/restrictive adverbial + auxiliary + subject + main verb</p><p>Never have I seen such chaos. (= I have never seen such chaos.)</p><p><strong>Common triggers:</strong></p><ul><li>Never / Rarely / Seldom + auxiliary + subject: Never have I felt so proud.</li><li>Only after / Only when / Only then + auxiliary + subject: Only after the meeting did she explain her decision.</li><li>Not until + time/event + auxiliary + subject: Not until midnight did the power come back on.</li><li>No sooner...than / Hardly...when: No sooner had we sat down than the phone rang.</li><li>Little (= not at all, contrary to expectation) + auxiliary + subject: Little did he know what awaited him.</li><li>Under no circumstances / On no account + auxiliary + subject: Under no circumstances should you sign that document.</li></ul><p>Grammar mechanics: if there's no auxiliary in the original sentence (e.g., simple present/past), add \"do/does/did\":</p><p>Rarely do we get a chance like this. (= We rarely get a chance like this.)</p><p>This structure is used in formal writing, speeches, and literary narration to add emphasis or drama — it is not used in everyday casual conversation.</p>"
+  },
+  "exercises": [
+    {
+      "id": "inversion-for-emphasis-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (complete with the correct inverted form)",
+      "items": [
+        {
+          "id": "inversion-for-emphasis-a1",
+          "prompt": "Never ___ (I / see) such a beautiful sunset.",
+          "answers": [
+            [
+              "have I seen"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "inversion-for-emphasis-a2",
+          "prompt": "Rarely ___ (she / complain) about her workload.",
+          "answers": [
+            [
+              "does she complain"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "inversion-for-emphasis-a3",
+          "prompt": "Not until the last minute ___ (he / decide) to come.",
+          "answers": [
+            [
+              "did he decide"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "inversion-for-emphasis-a4",
+          "prompt": "No sooner ___ (we / sit down) than the waiter arrived.",
+          "answers": [
+            [
+              "had we sat down"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "inversion-for-emphasis-a5",
+          "prompt": "Only after months of practice ___ (she / master) the piece.",
+          "answers": [
+            [
+              "did she master"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "inversion-for-emphasis-a6",
+          "prompt": "Little ___ (he / realize) how much trouble he was in.",
+          "answers": [
+            [
+              "did he realize"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "inversion-for-emphasis-a7",
+          "prompt": "Under no circumstances ___ (you / leave) the door unlocked.",
+          "answers": [
+            [
+              "must you leave (or should you leave)"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "inversion-for-emphasis-a8",
+          "prompt": "Seldom ___ (they / agree) on anything.",
+          "answers": [
+            [
+              "do they agree"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "inversion-for-emphasis-a9",
+          "prompt": "Hardly ___ (I / finish) speaking when the room erupted in applause.",
+          "answers": [
+            [
+              "had I finished"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "inversion-for-emphasis-a10",
+          "prompt": "Only when the lights came back on ___ (we / realize) how dark it had been.",
+          "answers": [
+            [
+              "did we realize"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "inversion-for-emphasis-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (rewrite each sentence using inversion)",
+      "items": [
+        {
+          "id": "inversion-for-emphasis-b1",
+          "prompt": "I have never felt so relieved. → Never ___",
+          "answer": [
+            "Never have I felt so relieved."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "inversion-for-emphasis-b2",
+          "prompt": "She rarely asks for help. → Rarely ___",
+          "answer": [
+            "Rarely does she ask for help."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "inversion-for-emphasis-b3",
+          "prompt": "We had barely started the meeting when the fire alarm went off. → Hardly ___",
+          "answer": [
+            "Hardly had we started the meeting when the fire alarm went off."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "inversion-for-emphasis-b4",
+          "prompt": "He didn't understand the risk until it was too late. → Not until ___",
+          "answer": [
+            "Not until it was too late did he understand the risk."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "inversion-for-emphasis-b5",
+          "prompt": "They realized their error only after the client complained. → Only after ___",
+          "answer": [
+            "Only after the client complained did they realize their error."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "inversion-for-emphasis-b6",
+          "prompt": "He didn't know that his plan would backfire. → Little ___",
+          "answer": [
+            "Little did he know that his plan would backfire."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "inversion-for-emphasis-b7",
+          "prompt": "You must not, under any circumstances, ignore this warning. → Under no circumstances ___",
+          "answer": [
+            "Under no circumstances must you ignore this warning."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "inversion-for-emphasis-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "inversion-for-emphasis-c1",
+          "incorrect": "Never I have worked so hard for something.",
+          "answer": [
+            "Never have I worked so hard for something."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "inversion-for-emphasis-c2",
+          "incorrect": "Rarely we see such dedication.",
+          "answer": [
+            "Rarely do we see such dedication."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "inversion-for-emphasis-c3",
+          "incorrect": "No sooner she had left than it started to snow.",
+          "answer": [
+            "No sooner had she left than it started to snow."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "inversion-for-emphasis-c4",
+          "incorrect": "Only after the show finished, we went backstage.",
+          "answer": [
+            "Only after the show finished did we go backstage."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "inversion-for-emphasis-c5",
+          "incorrect": "Little she suspected what was about to happen.",
+          "answer": [
+            "Little did she suspect what was about to happen."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "inversion-for-emphasis-c6",
+          "incorrect": "Not until dawn arrived the rescue team.",
+          "answer": [
+            "Not until dawn did the rescue team arrive."
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "inversion-for-emphasis-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "inversion-for-emphasis-d1",
+          "prompt": "Write one sentence using \"Never have I...\" about a personal experience.",
+          "modelAnswer": "Never have I felt so out of place as on my first day at university."
+        },
+        {
+          "id": "inversion-for-emphasis-d2",
+          "prompt": "Write one sentence using \"Only after...\" about something you learned the hard way.",
+          "modelAnswer": "Only after I lost my luggage twice did I start packing a change of clothes in my carry-on."
+        },
+        {
+          "id": "inversion-for-emphasis-d3",
+          "prompt": "Write one sentence using \"No sooner...than\" to describe two events happening close together.",
+          "modelAnswer": "No sooner had I sat down to relax than my phone started ringing."
+        },
+        {
+          "id": "inversion-for-emphasis-d4",
+          "prompt": "Write one sentence using \"Not until...\" about a turning point in your life.",
+          "modelAnswer": "Not until I moved away from home did I truly appreciate my family."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Review the explanation above for Inversion for Emphasis."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c1-advanced/inversion-for-emphasis.docx",
+    "txt": "cefr/c1-advanced/inversion-for-emphasis.txt",
+    "pdf": "cefr/c1-advanced/inversion-for-emphasis.pdf"
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "id": "c2-mastery-of-register",
+  "level": "C2",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "mastery-of-register",
+  "title": "Mastery of Register",
+  "subtitle": "Register is the level of formality and the specific conventions of grammar and vocabulary appropriate to a context. C2 speakers can recast the same content acro…",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: Academic register — nominalization, passive voice, hedging modals, precise connectors, avoidance of contractions and first person where possible.",
+    "Understand and use: Legal register — highly formal, precise, often uses archaic connectors (hereinafter, notwithstanding, pursuant to, shall for obligation), long compound sentences, and avoids ambiguity through repetition of exact terms rather than pronouns.",
+    "Understand and use: Journalistic register — concise, front-loaded with the most important information (lead paragraph), attributed claims (\"according to,\" \"sources say\"), active voice for readability, short paragraphs.",
+    "Understand and use: Casual/conversational register — contractions, phrasal verbs, ellipsis, informal connectors (so, anyway, kind of), direct address, shorter sentences.",
+    "Understand and use: Technical register — precise domain-specific terminology, imperative mood for instructions, passive voice for procedures, minimal hedging."
+  ],
+  "content": {
+    "intro": "Register is the level of formality and the specific conventions of grammar and vocabulary appropriate to a context. C2 speakers can recast the same content across academic, legal, journalistic, casual and technical styles at will.",
+    "rules": [
+      {
+        "heading": "a) Academic register — nominalization, passive voice, hedging modals, precise connectors, avoidance of contractions and first person where possible.",
+        "body": "<p>Casual: We found that people work better in teams.</p><p>Academic: The findings indicate that collaborative work environments enhance productivity.</p>"
+      },
+      {
+        "heading": "b) Legal register — highly formal, precise, often uses archaic connectors (hereinafter, notwithstanding, pursuant to, shall for obligation), long compound sentences, and avoids ambiguity through repetition of exact terms rather than pronouns.",
+        "body": "<p>The Tenant shall, pursuant to Clause 4 of this Agreement, provide written notice no fewer than thirty (30) days prior to termination.</p>"
+      },
+      {
+        "heading": "c) Journalistic register — concise, front-loaded with the most important information (lead paragraph), attributed claims (\"according to,\" \"sources say\"), active voice for readability, short paragraphs.",
+        "body": "<p>Officials confirmed on Tuesday that the bridge would remain closed for repairs, according to a statement released by the transport authority.</p>"
+      },
+      {
+        "heading": "d) Casual/conversational register — contractions, phrasal verbs, ellipsis, informal connectors (so, anyway, kind of), direct address, shorter sentences.",
+        "body": "<p>So basically, they're closing the bridge for repairs — no idea for how long, though.</p>"
+      },
+      {
+        "heading": "e) Technical register — precise domain-specific terminology, imperative mood for instructions, passive voice for procedures, minimal hedging.",
+        "body": "<p>Insert the cable into port A before powering on the device. Do not exceed the rated voltage.</p><p>Recasting the same information across these registers means adjusting: sentence length and complexity, verb voice (active/passive), vocabulary formality, use of contractions/pronouns, and how directly claims are attributed or hedged.</p>"
+      }
+    ],
+    "examples": [
+      "Academic: The data suggest a strong correlation between sleep quality and cognitive performance.",
+      "Legal: The Purchaser shall remit payment in full within thirty (30) days of the invoice date.",
+      "Journalistic: Sales fell sharply in the third quarter, the company revealed on Monday.",
+      "Casual: Sales basically tanked last quarter — nobody really knows why yet.",
+      "Technical: Ensure the device is disconnected from the power supply before servicing.",
+      "Academic: It could be argued that the policy failed to address the underlying causes of inequality.",
+      "Legal: Notwithstanding the foregoing, either party may terminate this Agreement upon written notice.",
+      "Journalistic: Residents were left without power for several hours after Tuesday's storm, officials said.",
+      "Casual: We were literally stuck without power for hours after that storm — it was chaos.",
+      "Technical: Do not operate the equipment if the safety guard is missing or damaged."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "[academic] I think the results are pretty surprising.",
+        "right": "The results are somewhat unexpected. / It could be argued that the results are surprising.",
+        "why": "Academic register avoids first-person opinion markers (\"I think\") and casual intensifiers (\"pretty\") — use hedged, impersonal phrasing instead."
+      },
+      {
+        "wrong": "[legal] The company will has to pay the fine.",
+        "right": "The Company shall be liable to pay the fine.",
+        "why": "Legal register uses \"shall\" for binding obligation, formal capitalized defined terms (the Company), and correct modal grammar."
+      },
+      {
+        "wrong": "[journalistic] It is reported by some sources, allegedly, that the mayor did resign, according to reports.",
+        "right": "The mayor resigned on Tuesday, according to sources close to city hall.",
+        "why": "Journalistic style avoids redundant hedging/attribution stacked together — attribute once, clearly and concisely."
+      },
+      {
+        "wrong": "[technical] You should maybe try disconnecting the cable if it feels warm.",
+        "right": "Disconnect the cable immediately if it becomes warm to the touch.",
+        "why": "Technical/instructional register uses direct imperatives, not hedged suggestions."
+      },
+      {
+        "wrong": "[casual] I would like to inform you that I am unable to attend due to a prior commitment.",
+        "right": "[casual] Sorry, can't make it — something else came up.",
+        "why": "This overly formal phrasing is mismatched with a casual context; casual register favors contractions and short, direct phrasing."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "mastery-of-register-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (choose the word/phrase that fits the register indicated)",
+      "items": [
+        {
+          "id": "mastery-of-register-a1",
+          "prompt": "(Legal) The Tenant ___ (will/shall) vacate the premises by the end of the lease term.",
+          "answers": [
+            [
+              "shall"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "mastery-of-register-a2",
+          "prompt": "(Academic) The findings ___ (show/kinda show) a clear pattern across all groups studied.",
+          "answers": [
+            [
+              "show"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "mastery-of-register-a3",
+          "prompt": "(Journalistic) The company confirmed the layoffs ___ (in a statement/basically) released on Friday.",
+          "answers": [
+            [
+              "in a statement"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "mastery-of-register-a4",
+          "prompt": "(Casual) ___ (I regret to inform you/Sorry), I can't make it tonight.",
+          "answers": [
+            [
+              "Sorry"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "mastery-of-register-a5",
+          "prompt": "(Technical) ___ (Please consider disconnecting/Disconnect) the power source before opening the case.",
+          "answers": [
+            [
+              "Disconnect"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "mastery-of-register-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (rewrite the sentence in the register indicated)",
+      "items": [
+        {
+          "id": "mastery-of-register-b1",
+          "prompt": "\"The plan didn't work out.\" → Rewrite in academic register.",
+          "answer": [
+            "The plan did not achieve its intended outcomes."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "mastery-of-register-b2",
+          "prompt": "\"The tenant needs to pay rent by the 1st of the month or else.\" → Rewrite in legal register.",
+          "answer": [
+            "The Tenant shall remit rent payment no later than the first day of each calendar month; failure to do so shall constitute a breach of this Agreement."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "mastery-of-register-b3",
+          "prompt": "\"The mayor said the roads will be fixed soon.\" → Rewrite in journalistic register (add attribution/lead style).",
+          "answer": [
+            "The roads will be repaired soon, the mayor said on Tuesday."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "mastery-of-register-b4",
+          "prompt": "\"One must exercise caution when the device is in operation.\" → Rewrite in casual register.",
+          "answer": [
+            "Careful — this thing's running, so watch out."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "mastery-of-register-b5",
+          "prompt": "\"We think the marketing campaign kind of failed.\" → Rewrite in academic register.",
+          "answer": [
+            "It could be argued that the marketing campaign did not meet its objectives."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "mastery-of-register-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "mastery-of-register-c1",
+          "incorrect": "(Legal contract) The Buyer will maybe pay within 30 days.",
+          "answer": [
+            "The Buyer shall pay within thirty (30) days."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "mastery-of-register-c2",
+          "incorrect": "(Academic essay) I feel like the evidence is pretty convincing, honestly.",
+          "answer": [
+            "The evidence appears to be convincing."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "mastery-of-register-c3",
+          "incorrect": "(Technical manual) You might want to think about turning off the machine before cleaning it.",
+          "answer": [
+            "Turn off the machine before cleaning it."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "mastery-of-register-c4",
+          "incorrect": "(Journalism) It is alleged, allegedly, according to some reports, that the CEO may have resigned.",
+          "answer": [
+            "The CEO is reported to have resigned, according to sources."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "mastery-of-register-c5",
+          "incorrect": "(Casual text to a friend) I regret to inform you that I am running late.",
+          "answer": [
+            "Running late, sorry!"
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "mastery-of-register-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "mastery-of-register-d1",
+          "prompt": "Take a piece of casual news you'd share with a friend (e.g., \"my flight got cancelled\") and rewrite it in journalistic register.",
+          "modelAnswer": "Journalistic: Passengers faced significant delays on Tuesday after an unexpected cancellation disrupted several flights, according to airline officials."
+        },
+        {
+          "id": "mastery-of-register-d2",
+          "prompt": "Rewrite the same idea in academic register, using nominalization and hedging.",
+          "modelAnswer": "Academic: The cancellation of the flight resulted in considerable disruption to the traveler's itinerary."
+        },
+        {
+          "id": "mastery-of-register-d3",
+          "prompt": "Rewrite the same idea in technical/instructional register, as if writing a procedure.",
+          "modelAnswer": "Technical: In the event of flight cancellation, proceed to the nearest service desk and present your booking confirmation."
+        },
+        {
+          "id": "mastery-of-register-d4",
+          "prompt": "Rewrite the same idea in legal register, as if it were a clause in a contract.",
+          "modelAnswer": "Legal: In the event that the Carrier cancels the scheduled flight, the Passenger shall be entitled to rebooking or a full refund, at the Passenger's discretion."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) Academic register — nominalization, passive voice, hedging modals, precise connectors, avoidance of contractions and first person where possible.",
+    "b) Legal register — highly formal, precise, often uses archaic connectors (hereinafter, notwithstanding, pursuant to, shall for obligation), long compound sentences, and avoids ambiguity through repetition of exact terms rather than pronouns.",
+    "c) Journalistic register — concise, front-loaded with the most important information (lead paragraph), attributed claims (\"according to,\" \"sources say\"), active voice for readability, short paragraphs.",
+    "d) Casual/conversational register — contractions, phrasal verbs, ellipsis, informal connectors (so, anyway, kind of), direct address, shorter sentences.",
+    "e) Technical register — precise domain-specific terminology, imperative mood for instructions, passive voice for procedures, minimal hedging."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c2-proficient/mastery-of-register.docx",
+    "txt": "cefr/c2-proficient/mastery-of-register.txt",
+    "pdf": "cefr/c2-proficient/mastery-of-register.pdf"
+  }
+}

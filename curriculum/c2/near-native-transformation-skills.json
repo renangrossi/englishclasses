@@ -1,0 +1,275 @@
+{
+  "id": "c2-near-native-transformation-skills",
+  "level": "C2",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "near-native-transformation-skills",
+  "title": "Near-Native Transformation Skills",
+  "subtitle": "The final C2 skill is the ability to rewrite entire passages — not just single sentences — while preserving meaning, tone, and logical structure, and to handle …",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: Rewriting whole passages while preserving meaning — this requires holding the overall argument/narrative structure in mind while changing sentence boundaries, combining or splitting sentences, switching active/passive, and varying connectors, without losing or distorting the original content.",
+    "Understand and use: Handling ambiguity through grammar — deliberately using structures that preserve useful ambiguity (common in diplomacy, negotiation, and careful writing) or, conversely, eliminating unwanted ambiguity through precise grammar.",
+    "Understand and use: Pragmatic nuance through grammar — choices that signal social meaning beyond literal content: tentative language to soften criticism, passive voice to depersonalize blame, modal stacking to signal diplomatic uncertainty, or fronting to control what the listener focuses on first."
+  ],
+  "content": {
+    "intro": "The final C2 skill is the ability to rewrite entire passages — not just single sentences — while preserving meaning, tone, and logical structure, and to handle ambiguity and pragmatic nuance purely through grammatical choices.",
+    "rules": [
+      {
+        "heading": "a) Rewriting whole passages while preserving meaning — this requires holding the overall argument/narrative structure in mind while changing sentence boundaries, combining or splitting sentences, switching active/passive, and varying connectors, without losing or distorting the original content.",
+        "body": "<p>Original: The company grew quickly. It hired hundreds of new staff. This led to problems with training.</p><p>Rewritten: As the company expanded rapidly, hiring hundreds of new staff in a short period, significant training problems inevitably followed.</p>"
+      },
+      {
+        "heading": "b) Handling ambiguity through grammar — deliberately using structures that preserve useful ambiguity (common in diplomacy, negotiation, and careful writing) or, conversely, eliminating unwanted ambiguity through precise grammar.",
+        "body": "<ul><li>Vague/deliberately non-committal: Mistakes were made. (passive with no agent — avoids assigning blame)</li><li>Precise/unambiguous: The finance team made several mistakes in the Q3 report. (active, agent specified)</li><li>Ambiguous modifier placement: Visiting relatives can be tiring. (unclear: relatives who visit you, or you visiting them?) → clarified: Relatives who come to visit can be tiring. / Going to visit relatives can be tiring.</li></ul>"
+      },
+      {
+        "heading": "c) Pragmatic nuance through grammar — choices that signal social meaning beyond literal content: tentative language to soften criticism, passive voice to depersonalize blame, modal stacking to signal diplomatic uncertainty, or fronting to control what the listener focuses on first.",
+        "body": "<p>Direct/blunt: You made a mistake in the report.</p><p>Diplomatically softened: There may have been a small oversight in the report — perhaps worth double-checking.</p><p>Near-native fluency means using these tools deliberately and invisibly: the reader/listener feels the tone and clarity you intend, without noticing the grammatical machinery behind it.</p>"
+      }
+    ],
+    "examples": [
+      "Original: \"Sales dropped. We don't know why. We're investigating.\" → Rewritten: Sales have dropped for reasons that remain unclear, and the matter is currently under investigation.",
+      "Mistakes were made during the transition period. (deliberately vague, no blame assigned)",
+      "The finance team failed to reconcile the accounts before the deadline. (precise, agent specified)",
+      "There may have been some miscommunication regarding the deadline — it might be worth revisiting. (softened criticism)",
+      "Flying planes can be dangerous. (ambiguous: are the planes flying, or is someone flying them?)",
+      "Planes that are flying in bad weather can be dangerous. (clarified)",
+      "The proposal, though promising in theory, faced significant practical obstacles that ultimately proved insurmountable.",
+      "It is not that the plan was poorly designed; rather, external circumstances changed unexpectedly.",
+      "Whatever one's view of the decision, its consequences are now unavoidable.",
+      "The report could perhaps have been clearer in places, though its overall conclusions remain sound."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Sales dropped, we don't know why, we investigate it now.",
+        "right": "Sales have dropped for reasons that remain unclear, and the matter is currently being investigated.",
+        "why": "Combining short, disconnected clauses with commas (a comma splice) reads as informal and unclear at C2 — use proper connectors and consistent tense/aspect."
+      },
+      {
+        "wrong": "Mistake was made during the transition.",
+        "right": "Mistakes were made during the transition.",
+        "why": "Subject-verb agreement — \"mistakes\" (plural) needs \"were,\" not \"was.\""
+      },
+      {
+        "wrong": "There may had been some miscommunication.",
+        "right": "There may have been some miscommunication.",
+        "why": "After \"may,\" always use \"have,\" not \"had.\""
+      },
+      {
+        "wrong": "Flying planes are dangerous when badly maintained. (still ambiguous if not intended)",
+        "right": "[if referring to aircraft] Aircraft that are poorly maintained can be dangerous.",
+        "why": "Leaving \"flying planes\" as a modifier keeps the structural ambiguity between \"planes that fly\" and \"the act of flying planes\" — clarify explicitly if precision matters."
+      },
+      {
+        "wrong": "It is not the plan was poorly designed, rather circumstances changed.",
+        "right": "It is not that the plan was poorly designed; rather, circumstances changed.",
+        "why": "The \"It is not that...\" structure requires \"that\" to introduce the clause, and \"rather\" needs correct punctuation (semicolon or period) before it."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "near-native-transformation-skills-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (complete the more nuanced/precise version)",
+      "items": [
+        {
+          "id": "near-native-transformation-skills-a1",
+          "prompt": "Errors ___ (make) during the audit, and the team is now reviewing the process. (deliberately vague)",
+          "answers": [
+            [
+              "were made"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "near-native-transformation-skills-a2",
+          "prompt": "The intern ___ (fail) to file the documents on time. (precise, agent specified)",
+          "answers": [
+            [
+              "failed"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "near-native-transformation-skills-a3",
+          "prompt": "There ___ (may/be) a misunderstanding about the schedule — worth checking.",
+          "answers": [
+            [
+              "may have been"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "near-native-transformation-skills-a4",
+          "prompt": "Whatever ___ (one/think) of the plan, it is now official policy.",
+          "answers": [
+            [
+              "one thinks",
+              "one may think"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "near-native-transformation-skills-a5",
+          "prompt": "It is not that the idea was flawed; ___, the timing was wrong.",
+          "answers": [
+            [
+              "rather"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "near-native-transformation-skills-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (rewrite each short passage into one smooth C2-level sentence or two, preserving meaning)",
+      "items": [
+        {
+          "id": "near-native-transformation-skills-b1",
+          "prompt": "\"The team worked overtime. They finished the project. It was still late.\" (combine smoothly, preserving contrast)",
+          "answer": [
+            "Although the team worked overtime and managed to finish the project, it was still delivered late."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "near-native-transformation-skills-b2",
+          "prompt": "\"He made a mistake. Nobody blamed him. Everyone understood the pressure he was under.\" (combine, softening tone)",
+          "answer": [
+            "He made a mistake, but nobody blamed him, given the pressure he had been under."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "near-native-transformation-skills-b3",
+          "prompt": "\"Costs are rising. We're not sure why. It's a concern for management.\" (combine with appropriate hedging)",
+          "answer": [
+            "Costs have been rising for reasons that remain unclear, which is a growing concern for management."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "near-native-transformation-skills-b4",
+          "prompt": "Rewrite \"You broke the agreement\" to avoid direct blame, using a passive or impersonal structure.",
+          "answer": [
+            "The agreement was not honored. / The terms of the agreement were broken."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "near-native-transformation-skills-b5",
+          "prompt": "Rewrite \"Old people who drive slowly are annoying\" to remove the ambiguity about who is being described.",
+          "answer": [
+            "Elderly drivers who drive slowly can be frustrating to other road users. (clarifying it's about people who are old and drive slowly, not \"old people\" in general who happen to drive slowly)"
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "near-native-transformation-skills-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "near-native-transformation-skills-c1",
+          "incorrect": "Mistake was made and nobody know why.",
+          "answer": [
+            "Mistakes were made, and nobody knows why."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "near-native-transformation-skills-c2",
+          "incorrect": "There may had been a delay in the shipment.",
+          "answer": [
+            "There may have been a delay in the shipment."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "near-native-transformation-skills-c3",
+          "incorrect": "It is not the plan failed, rather the market changed.",
+          "answer": [
+            "It is not that the plan failed; rather, the market changed."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "near-native-transformation-skills-c4",
+          "incorrect": "Flying planes is dangerous. (identify the ambiguity and offer a precise rewrite for \"the act of piloting is dangerous\")",
+          "answer": [
+            "Piloting planes can be dangerous. (clarified from the ambiguous \"Flying planes is dangerous\")"
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "near-native-transformation-skills-c5",
+          "incorrect": "Whatever one think, the decision stands.",
+          "answer": [
+            "Whatever one thinks, the decision stands."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "near-native-transformation-skills-c6",
+          "incorrect": "Sales dropped, we investigate now, no clear cause yet.",
+          "answer": [
+            "Sales have dropped; we are investigating now, though there is no clear cause yet."
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "near-native-transformation-skills-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "near-native-transformation-skills-d1",
+          "prompt": "Take three short, simple sentences about a real or imagined event and rewrite them as one smooth, cohesive C2-level sentence.",
+          "modelAnswer": "Simple: \"We planned the trip. The weather turned bad. We still had a great time.\" → Combined: Although the weather turned unexpectedly bad, the trip we had carefully planned still turned out to be a great experience."
+        },
+        {
+          "id": "near-native-transformation-skills-d2",
+          "prompt": "Write one sentence using a deliberately vague/agentless passive to describe a problem without assigning blame.",
+          "modelAnswer": "Several errors were introduced during the system update, and the team is now working to resolve them."
+        },
+        {
+          "id": "near-native-transformation-skills-d3",
+          "prompt": "Write one sentence that softens a piece of criticism using modal hedging (may/might/could have).",
+          "modelAnswer": "The report could perhaps have been a little more detailed in places."
+        },
+        {
+          "id": "near-native-transformation-skills-d4",
+          "prompt": "Write one sentence containing a modifier placement that could be ambiguous, then rewrite it to remove the ambiguity.",
+          "modelAnswer": "Ambiguous: \"Visiting colleagues can be exhausting.\" → Clear: Colleagues who visit unannounced can be exhausting. (or: Going to visit colleagues can be exhausting, depending on intended meaning)"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) Rewriting whole passages while preserving meaning — this requires holding the overall argument/narrative structure in mind while changing sentence boundaries, combining or splitting sentences, switching active/passive, and varying connectors, without losing or distorting the original content.",
+    "b) Handling ambiguity through grammar — deliberately using structures that preserve useful ambiguity (common in diplomacy, negotiation, and careful writing) or, conversely, eliminating unwanted ambiguity through precise grammar.",
+    "c) Pragmatic nuance through grammar — choices that signal social meaning beyond literal content: tentative language to soften criticism, passive voice to depersonalize blame, modal stacking to signal diplomatic uncertainty, or fronting to control what the listener focuses on first."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c2-proficient/near-native-transformation-skills.docx",
+    "txt": "cefr/c2-proficient/near-native-transformation-skills.txt",
+    "pdf": "cefr/c2-proficient/near-native-transformation-skills.pdf"
+  }
+}

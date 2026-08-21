@@ -1,0 +1,286 @@
+{
+  "id": "c2-advanced-discourse-devices",
+  "level": "C2",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "advanced-discourse-devices",
+  "title": "Advanced Discourse Devices",
+  "subtitle": "Discourse devices connect ideas across sentences and paragraphs, guiding the reader through an argument. At C2, these go well beyond \"however\" and \"therefore.\"",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: Formal sentence-level connectors",
+    "Understand and use: Discourse markers structuring formal writing",
+    "Understand and use: Cohesive devices across paragraphs — devices that create flow at a larger scale:"
+  ],
+  "content": {
+    "intro": "Discourse devices connect ideas across sentences and paragraphs, guiding the reader through an argument. At C2, these go well beyond \"however\" and \"therefore.\"",
+    "rules": [
+      {
+        "heading": "a) Formal sentence-level connectors",
+        "body": "<ul><li>notwithstanding (= despite, often placed after the noun it refers to, or at the start of a clause): The plan, criticism notwithstanding, went ahead. / Notwithstanding the criticism, the plan went ahead.</li><li>nevertheless / nonetheless (= despite what was just said): The evidence was weak. Nevertheless, the jury convicted him.</li><li>moreover / furthermore (= adding a stronger supporting point): The policy is expensive. Moreover, it has proven ineffective.</li><li>on which point / in this connection / to this end (= referring back to something just mentioned, moving the argument forward): The report calls for reform. On which point, several committee members disagreed.</li></ul>"
+      },
+      {
+        "heading": "b) Discourse markers structuring formal writing",
+        "body": "<ul><li>that said / that having been said (= acknowledging a point before pivoting)</li><li>insofar as (= to the extent that): The plan is sound, insofar as it addresses short-term needs.</li><li>by the same token (= applying the same logic to a related point)</li><li>conversely (= introducing a contrasting point using parallel logic)</li></ul>"
+      },
+      {
+        "heading": "c) Cohesive devices across paragraphs — devices that create flow at a larger scale:",
+        "body": "<ul><li>Resumptive/summative nouns referring back to a previous idea: this trend, such measures, this development, the aforementioned issue.</li><li>Signposting phrases that guide the reader through an argument's structure: it is worth noting that, this raises the question of, having established X, it follows that Y.</li></ul>"
+      }
+    ],
+    "examples": [
+      "The proposal, controversy notwithstanding, was approved by a narrow margin.",
+      "The results were inconclusive. Nevertheless, the researchers pressed ahead with further trials.",
+      "The scheme is costly. Moreover, it fails to address the root cause of the problem.",
+      "The policy succeeded insofar as it reduced emissions, though it did little to boost the economy.",
+      "That said, not every critic dismissed the plan outright.",
+      "Conversely, smaller firms benefited significantly from the same regulation.",
+      "Such measures, however well-intentioned, often produce unintended consequences.",
+      "This development raises important questions about the future of the industry.",
+      "By the same token, if we accept this argument, we must also accept its implications.",
+      "It is worth noting that the study's sample size was relatively small."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Notwithstanding of the criticism, they proceeded.",
+        "right": "Notwithstanding the criticism, they proceeded.",
+        "why": "\"Notwithstanding\" is followed directly by a noun phrase — no preposition (\"of\") is needed."
+      },
+      {
+        "wrong": "The evidence was weak, nevertheless the jury convicted him.",
+        "right": "The evidence was weak. Nevertheless, the jury convicted him. (or with a semicolon: ...weak; nevertheless, the jury convicted him.)",
+        "why": "\"Nevertheless\" is a discourse adverb, not a coordinating conjunction — it needs a full stop or semicolon before it, and typically a comma after."
+      },
+      {
+        "wrong": "The plan worked insofar it addressed the budget.",
+        "right": "The plan worked insofar as it addressed the budget.",
+        "why": "The full connector is \"insofar as,\" never \"insofar\" alone."
+      },
+      {
+        "wrong": "Moreover of the cost, the plan was poorly timed.",
+        "right": "Moreover, the plan was poorly timed. (as a separate point) — or: In addition to the cost, the plan was poorly timed.",
+        "why": "\"Moreover\" doesn't take an object with \"of\" — it introduces a new independent point, not a phrase."
+      },
+      {
+        "wrong": "By the same token, however, we should also consider...",
+        "right": "By the same token, we should also consider... (choose one connector; don't stack contrasting ones)",
+        "why": "\"By the same token\" extends the same logic; pairing it with \"however\" (which signals contrast) sends a contradictory signal."
+      }
+    ],
+    "registerNote": "notwithstanding, insofar as, and on which point belong to formal academic/legal writing; nevertheless and moreover are common in both formal writing and careful speech."
+  },
+  "exercises": [
+    {
+      "id": "advanced-discourse-devices-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (notwithstanding, nevertheless, moreover, insofar as, conversely, that said)",
+      "items": [
+        {
+          "id": "advanced-discourse-devices-a1",
+          "prompt": "The results were disappointing. ___, the team refused to give up.",
+          "answers": [
+            [
+              "Nevertheless"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-discourse-devices-a2",
+          "prompt": "___ the objections raised, the vote proceeded as planned.",
+          "answers": [
+            [
+              "Notwithstanding"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-discourse-devices-a3",
+          "prompt": "The measure worked ___ it slowed inflation, but not much further.",
+          "answers": [
+            [
+              "insofar as"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-discourse-devices-a4",
+          "prompt": "The city center suffers from pollution. ___, air quality has improved in the suburbs.",
+          "answers": [
+            [
+              "Conversely"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-discourse-devices-a5",
+          "prompt": "The design is elegant. ___, it is also remarkably functional.",
+          "answers": [
+            [
+              "Moreover"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "advanced-discourse-devices-a6",
+          "prompt": "The plan has serious flaws. ___, it remains the best option on the table.",
+          "answers": [
+            [
+              "That said"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "advanced-discourse-devices-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (combine the two sentences using the connector indicated)",
+      "items": [
+        {
+          "id": "advanced-discourse-devices-b1",
+          "prompt": "The theory is elegant. It lacks solid evidence. (use \"nevertheless\")",
+          "answer": [
+            "The theory is elegant; nevertheless, it lacks solid evidence."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-discourse-devices-b2",
+          "prompt": "Costs are high. The project is behind schedule. (use \"moreover\")",
+          "answer": [
+            "Costs are high. Moreover, the project is behind schedule."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-discourse-devices-b3",
+          "prompt": "There was strong opposition. The bill passed. (use \"notwithstanding,\" starting the sentence with it)",
+          "answer": [
+            "Notwithstanding strong opposition, the bill passed."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-discourse-devices-b4",
+          "prompt": "The policy reduced unemployment. It only did so in urban areas. (use \"insofar as\")",
+          "answer": [
+            "The policy reduced unemployment insofar as it did so in urban areas."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "advanced-discourse-devices-b5",
+          "prompt": "Large firms struggled with the new tax. Small firms actually benefited. (use \"conversely\")",
+          "answer": [
+            "Large firms struggled with the new tax. Conversely, small firms actually benefited."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "advanced-discourse-devices-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "advanced-discourse-devices-c1",
+          "incorrect": "Notwithstanding of the delays, the project finished on time.",
+          "answer": [
+            "Notwithstanding the delays, the project finished on time."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-discourse-devices-c2",
+          "incorrect": "The plan is flawed, nevertheless we should still consider it.",
+          "answer": [
+            "The plan is flawed; nevertheless, we should still consider it."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-discourse-devices-c3",
+          "incorrect": "It worked insofar it met the short-term goal.",
+          "answer": [
+            "It worked insofar as it met the short-term goal."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-discourse-devices-c4",
+          "incorrect": "Moreover of these issues, there is the question of cost.",
+          "answer": [
+            "In addition to these issues, there is the question of cost.",
+            "Moreover, there is the question of cost."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-discourse-devices-c5",
+          "incorrect": "That said however, the results were still impressive.",
+          "answer": [
+            "That said, the results were still impressive. (remove \"however\")"
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "advanced-discourse-devices-c6",
+          "incorrect": "By the same token but, we must reconsider the whole approach.",
+          "answer": [
+            "By the same token, we must reconsider the whole approach. (remove \"but\")"
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "advanced-discourse-devices-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "advanced-discourse-devices-d1",
+          "prompt": "Write one sentence using \"notwithstanding\" in formal register about a decision or event.",
+          "modelAnswer": "Notwithstanding the initial backlash, the reform ultimately proved popular with voters."
+        },
+        {
+          "id": "advanced-discourse-devices-d2",
+          "prompt": "Write one sentence using \"insofar as\" to qualify a claim.",
+          "modelAnswer": "The new policy succeeded insofar as it reduced costs, though it did little to improve service quality."
+        },
+        {
+          "id": "advanced-discourse-devices-d3",
+          "prompt": "Write two connected sentences using \"Moreover\" to add a supporting point to an argument.",
+          "modelAnswer": "The current system is outdated. Moreover, it is far more expensive to maintain than any proposed alternative."
+        },
+        {
+          "id": "advanced-discourse-devices-d4",
+          "prompt": "Write one sentence using \"that said\" to pivot after acknowledging a counterpoint.",
+          "modelAnswer": "That said, I still think the plan deserves a fair trial before we abandon it entirely."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) Formal sentence-level connectors",
+    "b) Discourse markers structuring formal writing",
+    "c) Cohesive devices across paragraphs — devices that create flow at a larger scale:"
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c2-proficient/advanced-discourse-devices.docx",
+    "txt": "cefr/c2-proficient/advanced-discourse-devices.txt",
+    "pdf": "cefr/c2-proficient/advanced-discourse-devices.pdf"
+  }
+}

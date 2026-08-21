@@ -1,0 +1,120 @@
+{
+  "id": "c1-complex-subordinate-clauses",
+  "level": "C1",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "subordination",
+  "title": "Complex Subordinate Clauses",
+  "subtitle": "Link ideas with precision using concessive, purpose and result clauses.",
+  "prerequisites": [],
+  "objectives": [
+    "Use concessive clauses (even though, whereas, despite/in spite of) to show contrast",
+    "Use purpose clauses (so as to, in order to/that) to explain why something is done",
+    "Use result clauses (so...that, such...that) to show the consequence of a degree or quality",
+    "Choose the right register for each connector in formal writing versus speech"
+  ],
+  "content": {
+    "intro": "Subordinate clauses let you link a main idea to a secondary one with precision. At C1 you need to control three families beyond simple “because” / “although”.",
+    "rules": [
+      {
+        "heading": "a) Concessive clauses (contrast)",
+        "body": "<p><strong>even though, although, though, whereas, while, in spite of / despite</strong> (+ noun or -ing)</p><ul><li>“Even though / although / though” + clause show a surprising contrast: <em>Even though it was raining, we went for a walk.</em></li><li>“Whereas / while” contrast two facts neutrally, often side by side: <em>She loves cities, whereas he prefers the countryside.</em></li><li>“In spite of / despite” + noun/gerund (never a full clause directly): <em>Despite the rain, we went for a walk. / Despite working hard, she failed.</em></li></ul>"
+      },
+      {
+        "heading": "b) Purpose clauses",
+        "body": "<p><strong>so as to, in order to/that, for the purpose of</strong></p><ul><li>“So as to” / “in order to” + bare infinitive express purpose formally: <em>We left early so as to avoid the traffic.</em></li><li>“In order that” / “so that” + clause (with can/could/will/would) are used when the subject changes: <em>I gave her my number so that she could contact me.</em></li></ul>"
+      },
+      {
+        "heading": "c) Result clauses",
+        "body": "<p><strong>such...that, so...that</strong></p><ul><li>“So” + adjective/adverb + “that”: <em>The exam was so difficult that half the class failed.</em></li><li>“Such” + (a/an) + adjective + noun + “that”: <em>It was such a difficult exam that half the class failed.</em></li></ul>"
+      }
+    ],
+    "registerNote": "“In order that,” “so as to,” and “whereas” belong to formal/written English; “so,” “although,” and “but” are fine in speech.",
+    "examples": [
+      "Even though she was exhausted, she finished the marathon.",
+      "Whereas the north of the country is mountainous, the south is flat.",
+      "Despite having no experience, he got the job.",
+      "In spite of the criticism, the director refused to change the ending.",
+      "We arrived early so as to get good seats.",
+      "She whispered so that no one else would hear.",
+      "He studied hard in order to pass the bar exam.",
+      "The music was so loud that we couldn't hear each other talk.",
+      "It was such a compelling argument that the jury changed its mind.",
+      "While I understand your concerns, I still disagree with the decision.",
+      "The report was so poorly written that it had to be redone.",
+      "He left the company in order that his rival could take over."
+    ],
+    "commonMistakes": [
+      { "wrong": "Despite he was tired, he kept working.", "right": "Despite being tired, he kept working. / Although he was tired, he kept working.", "why": "“Despite/in spite of” take a noun or gerund, not a subject + verb clause." },
+      { "wrong": "The film was such interesting that I watched it twice.", "right": "The film was so interesting that I watched it twice.", "why": "“So” goes with an adjective alone; “such” needs a noun (such an interesting film)." },
+      { "wrong": "She works hard so as she can support her family.", "right": "She works hard so that she can support her family. / She works hard in order to support her family.", "why": "“So as to” takes an infinitive, not a clause; use “so that” for a full clause with a modal." },
+      { "wrong": "Whereas he is generous, but she is quite mean.", "right": "Whereas he is generous, she is quite mean.", "why": "Don't combine “whereas” with “but” — the contrast is already built into “whereas.”" },
+      { "wrong": "It was so a boring lecture that half the room fell asleep.", "right": "It was such a boring lecture that half the room fell asleep.", "why": "With “adjective + noun,” use “such (a/an),” not “so.”" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "csc-gapfill", "type": "fill-blank", "title": "Gap-fill",
+      "instructions": "Complete each sentence with so, such, whereas, despite, in order to/that, or so as to.",
+      "items": [
+        { "id": "csc1", "prompt": "___ the traffic, we arrived right on time.", "answers": [["Despite", "In spite of"]], "explanation": "“Despite/in spite of” + noun expresses contrast without a full clause." },
+        { "id": "csc2", "prompt": "He whispered the plan ___ no one would overhear.", "answers": [["so that"]], "explanation": "“So that” + clause expresses purpose when the subject can take a modal (would)." },
+        { "id": "csc3", "prompt": "It was ___ a long meeting that people started checking their phones.", "answers": [["such"]], "explanation": "“Such” + a + adjective + noun + “that” for a result clause with a noun." },
+        { "id": "csc4", "prompt": "The coffee here is excellent, ___ the tea is rather weak.", "answers": [["whereas"]], "explanation": "“Whereas” neutrally contrasts two facts side by side." },
+        { "id": "csc5", "prompt": "She left the party early ___ catch the last train.", "answers": [["so as to", "in order to"]], "explanation": "“So as to” / “in order to” + bare infinitive express purpose formally." },
+        { "id": "csc6", "prompt": "The instructions were ___ confusing that nobody followed them correctly.", "answers": [["so"]], "explanation": "“So” + adjective alone + “that” for a result clause without a noun." },
+        { "id": "csc7", "prompt": "He trained every day ___ improve his stamina.", "answers": [["so as to", "in order to"]], "explanation": "Purpose clause with a bare infinitive." },
+        { "id": "csc8", "prompt": "___ having a fever, she still went to work.", "answers": [["Despite", "In spite of"]], "explanation": "“Despite/in spite of” + gerund expresses contrast." },
+        { "id": "csc9", "prompt": "He spoke slowly and clearly ___ everyone in the room could understand.", "answers": [["so that"]], "explanation": "“So that” + clause with a modal (could) for purpose." },
+        { "id": "csc10", "prompt": "It was ___ a generous offer that we couldn't refuse it.", "answers": [["such"]], "explanation": "“Such” + a + adjective + noun + “that” for a result clause with a noun." }
+      ]
+    },
+    {
+      "id": "csc-transform", "type": "typing", "title": "Rewrite / Transformation",
+      "instructions": "Rewrite each pair of sentences as one, using the connector given.",
+      "items": [
+        { "id": "csc11", "prompt": "He is rich, but he lives very simply. (rewrite with “whereas”)", "answer": ["He is rich, whereas he lives very simply."], "explanation": "“Whereas” replaces “but” to contrast the two facts formally." },
+        { "id": "csc12", "prompt": "She failed the exam, but she didn't lose confidence. (rewrite with “even though”)", "answer": ["Even though she failed the exam, she didn't lose confidence."], "explanation": "“Even though” opens the clause with the surprising fact." },
+        { "id": "csc13", "prompt": "He turned down the promotion. He wanted more free time. (join with “in order to”)", "answer": ["He turned down the promotion in order to have more free time."], "explanation": "“In order to” + bare infinitive expresses his purpose." },
+        { "id": "csc14", "prompt": "It rained heavily. We still finished the hike. (join with “despite”)", "answer": ["Despite the heavy rain, we still finished the hike."], "explanation": "“Despite” + noun phrase replaces the first sentence." },
+        { "id": "csc15", "prompt": "The test was extremely hard. Nobody finished it in time. (join with “so...that”)", "answer": ["The test was so hard that nobody finished it in time."], "explanation": "“So” + adjective + “that” shows the result of the degree." },
+        { "id": "csc16", "prompt": "He apologized publicly. He wanted to repair his reputation. (join with “so that”)", "answer": ["He apologized publicly so that he could repair his reputation."], "explanation": "“So that” + clause with “could” expresses his purpose." },
+        { "id": "csc17", "prompt": "It was a very persuasive speech. It changed several votes. (join with “such...that”)", "answer": ["It was such a persuasive speech that it changed several votes."], "explanation": "“Such” + a + adjective + noun + “that” shows the result." }
+      ]
+    },
+    {
+      "id": "csc-correction", "type": "correction", "title": "Error Correction",
+      "items": [
+        { "id": "csc18", "incorrect": "Despite he arrived late, no one seemed to mind.", "answer": ["Despite arriving late, no one seemed to mind.", "Although he arrived late, no one seemed to mind."], "explanation": "“Despite” needs a noun/gerund, not a subject + verb clause — use “although” if you want a full clause." },
+        { "id": "csc19", "incorrect": "It was so an emotional film that everyone cried.", "answer": ["It was such an emotional film that everyone cried."], "explanation": "“Adjective + noun” needs “such (a/an),” not “so.”" },
+        { "id": "csc20", "incorrect": "She practiced every day so as she could improve faster.", "answer": ["She practiced every day so as to improve faster.", "She practiced every day so that she could improve faster."], "explanation": "“So as to” takes an infinitive, not a clause; use “so that” for a full clause." },
+        { "id": "csc21", "incorrect": "Whereas I respect his opinion, but I think he's wrong.", "answer": ["Whereas I respect his opinion, I think he's wrong."], "explanation": "Don't combine “whereas” with “but” — the contrast is already built into “whereas.”" },
+        { "id": "csc22", "incorrect": "The meeting was such long that we had to order dinner.", "answer": ["The meeting was so long that we had to order dinner."], "explanation": "“So” goes with an adjective alone; there's no noun here." },
+        { "id": "csc23", "incorrect": "In spite of he lost the match, he stayed positive.", "answer": ["In spite of losing the match, he stayed positive.", "Although he lost the match, he stayed positive."], "explanation": "“In spite of” needs a noun/gerund, not a subject + verb clause." }
+      ]
+    },
+    {
+      "id": "csc-guided", "type": "typing", "title": "Guided Production",
+      "instructions": "Write your own sentence for each prompt. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        { "id": "csc24", "prompt": "Write one sentence about your own life using “even though.”", "modelAnswer": "Even though I was scared of heights, I went skydiving for my birthday." },
+        { "id": "csc25", "prompt": "Write one sentence using “whereas” to contrast two people or places you know.", "modelAnswer": "My sister loves spontaneous trips, whereas I prefer planning every detail in advance." },
+        { "id": "csc26", "prompt": "Write one sentence using “so...that” describing a memorable experience.", "modelAnswer": "The concert was so loud that my ears were ringing for hours afterward." },
+        { "id": "csc27", "prompt": "Write one sentence using “in order to” about a goal you're working toward.", "modelAnswer": "I've been saving money in order to travel around South America next year." }
+      ]
+    }
+  ],
+  "summary": [
+    "Concessive clauses (even though, whereas, despite/in spite of) show contrast — despite/in spite of take a noun or -ing, never a full clause.",
+    "Purpose clauses (so as to, in order to/that) explain why — so as to/in order to take an infinitive; so that/in order that take a clause with a modal.",
+    "Result clauses use so + adjective + that, or such + (a/an) + adjective + noun + that.",
+    "In order that, so as to and whereas are formal/written; so, although and but are fine in speech."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c1-advanced/complex-subordinate-clauses.docx",
+    "txt": "cefr/c1-advanced/complex-subordinate-clauses.txt",
+    "pdf": "cefr/c1-advanced/complex-subordinate-clauses.pdf"
+  }
+}

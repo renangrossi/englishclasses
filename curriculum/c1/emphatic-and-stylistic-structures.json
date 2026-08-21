@@ -1,0 +1,314 @@
+{
+  "id": "c1-emphatic-and-stylistic-structures",
+  "level": "C1",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "emphatic-and-stylistic-structures",
+  "title": "Emphatic and Stylistic Structures",
+  "subtitle": "Cleft sentences split one idea into two clauses to put spotlight on a specific piece of information. They are a hallmark of fluent, natural-sounding advanced En…",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: It-clefts — \"It is/was + the emphasized element + who/that + rest of the sentence.\" Used to highlight a subject, object, time or place.",
+    "Understand and use: Pseudo-clefts (wh-clefts) — start with a wh-word (what, where, why, how, the thing/reason/place that...) + be + the emphasized element. Used to highlight an action, reason, or entire idea, often at the end for maximum impact.",
+    "Understand and use: All-cleft (a variation): All + relative clause + is/was + emphasized element, used to minimize/emphasize simplicity."
+  ],
+  "content": {
+    "intro": "Cleft sentences split one idea into two clauses to put spotlight on a specific piece of information. They are a hallmark of fluent, natural-sounding advanced English.",
+    "rules": [
+      {
+        "heading": "a) It-clefts — \"It is/was + the emphasized element + who/that + rest of the sentence.\" Used to highlight a subject, object, time or place.",
+        "body": "<p>Neutral: Sarah broke the vase.</p><p>Emphasized: It was Sarah who broke the vase. (emphasis on who did it)</p><p>It was the vase that Sarah broke. (emphasis on what was broken)</p><p>It was yesterday that Sarah broke the vase. (emphasis on when)</p>"
+      },
+      {
+        "heading": "b) Pseudo-clefts (wh-clefts) — start with a wh-word (what, where, why, how, the thing/reason/place that...) + be + the emphasized element. Used to highlight an action, reason, or entire idea, often at the end for maximum impact.",
+        "body": "<p>What I found surprising was his reaction. (= His reaction was what I found surprising.)</p><p>What bothers me most is his constant lateness.</p><p>The thing that annoys me is his tone.</p><p>Where we went wrong was underestimating the competition.</p>"
+      },
+      {
+        "heading": "c) All-cleft (a variation): All + relative clause + is/was + emphasized element, used to minimize/emphasize simplicity.",
+        "body": "<p>All I want is a bit of peace and quiet.</p><p>Use clefts to control which part of a sentence the listener/reader focuses on — a key stylistic tool in speeches, essays, and persuasive writing.</p>"
+      }
+    ],
+    "examples": [
+      "It was her honesty that impressed the interviewers most.",
+      "It is the lack of funding that's holding the project back.",
+      "What surprised me most was how calm she stayed.",
+      "What we need now is a clear plan of action.",
+      "It was in Lisbon that they first met.",
+      "The reason I called was to check on you.",
+      "What annoys me is when people interrupt.",
+      "It was not the money but the recognition that motivated him.",
+      "All she wants is a bit of appreciation for her work.",
+      "What made the difference was their attention to detail.",
+      "It was only after the accident that he changed his habits.",
+      "Where the plan failed was in its complete lack of funding."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "It was Sarah that broke who the vase.",
+        "right": "It was Sarah who broke the vase.",
+        "why": "Choose either \"who\" (for people) or \"that,\" and place it right after the emphasized element — don't split or double it."
+      },
+      {
+        "wrong": "What I found it surprising was his reaction.",
+        "right": "What I found surprising was his reaction.",
+        "why": "Don't add a redundant object pronoun (\"it\") — the wh-clause already functions as the subject."
+      },
+      {
+        "wrong": "What bothers me most it's his constant lateness.",
+        "right": "What bothers me most is his constant lateness.",
+        "why": "Use \"is/was\" directly, not a contracted \"it's,\" which duplicates the subject."
+      },
+      {
+        "wrong": "It was her the one who impressed the interviewers.",
+        "right": "It was her/she who impressed the interviewers. / She was the one who impressed the interviewers.",
+        "why": "Don't mix the it-cleft and the \"the one who\" structure in the same sentence — pick one pattern."
+      },
+      {
+        "wrong": "All what I want is some peace and quiet.",
+        "right": "All I want is some peace and quiet.",
+        "why": "\"All\" already functions like \"the only thing that,\" so don't add \"what\" as well."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "emphatic-and-stylistic-structures-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (complete the cleft sentence)",
+      "items": [
+        {
+          "id": "emphatic-and-stylistic-structures-a1",
+          "prompt": "It ___ my brother who fixed the car, not me.",
+          "answers": [
+            [
+              "was"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-a2",
+          "prompt": "What really impressed the judges ___ her confidence on stage.",
+          "answers": [
+            [
+              "was"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-a3",
+          "prompt": "It was ___ the noise, not the crowd, that bothered him most.",
+          "answers": [
+            [
+              "the noise"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-a4",
+          "prompt": "The reason she left early ___ to catch her flight.",
+          "answers": [
+            [
+              "was"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-a5",
+          "prompt": "All he wants ___ a quiet place to work.",
+          "answers": [
+            [
+              "is"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-a6",
+          "prompt": "It was only when I moved abroad ___ I understood my parents better.",
+          "answers": [
+            [
+              "that"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-a7",
+          "prompt": "What we should focus on ___ the customer experience, not just the price.",
+          "answers": [
+            [
+              "is"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-a8",
+          "prompt": "It ___ during the interview, not the written test, that he stood out.",
+          "answers": [
+            [
+              "was"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "emphatic-and-stylistic-structures-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (rewrite each sentence as a cleft sentence, emphasizing the underlined part)",
+      "items": [
+        {
+          "id": "emphatic-and-stylistic-structures-b1",
+          "prompt": "Her attitude, not her skills, worried the manager. (it-cleft)",
+          "answer": [
+            "It was her attitude, not her skills, that worried the manager."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-b2",
+          "prompt": "I really admire his patience. (pseudo-cleft with \"What\")",
+          "answer": [
+            "What I really admire is his patience."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-b3",
+          "prompt": "We met in Barcelona, not Madrid. (it-cleft)",
+          "answer": [
+            "It was in Barcelona, not Madrid, that we met."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-b4",
+          "prompt": "She wants nothing more than some recognition. (all-cleft)",
+          "answer": [
+            "All she wants is some recognition."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-b5",
+          "prompt": "His lack of preparation caused the failure. (pseudo-cleft with \"What\")",
+          "answer": [
+            "What caused the failure was his lack of preparation."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-b6",
+          "prompt": "I called to apologize, not to argue. (it-cleft, emphasizing the reason)",
+          "answer": [
+            "It was to apologize, not to argue, that I called."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "emphatic-and-stylistic-structures-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "emphatic-and-stylistic-structures-c1",
+          "incorrect": "It was John that he lost the keys.",
+          "answer": [
+            "It was John who lost the keys."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-c2",
+          "incorrect": "What I need it is more time.",
+          "answer": [
+            "What I need is more time."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-c3",
+          "incorrect": "All what matters to her is her family.",
+          "answer": [
+            "All that matters to her is her family."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-c4",
+          "incorrect": "It the manager was who approved the budget.",
+          "answer": [
+            "It was the manager who approved the budget."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-c5",
+          "incorrect": "What surprised us it was the ending of the film.",
+          "answer": [
+            "What surprised us was the ending of the film."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-c6",
+          "incorrect": "It was not the price the thing that bothered me.",
+          "answer": [
+            "It was not the price but the way it was handled that bothered me."
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "emphatic-and-stylistic-structures-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "emphatic-and-stylistic-structures-d1",
+          "prompt": "Write one it-cleft sentence emphasizing who did something.",
+          "modelAnswer": "It was my grandmother who taught me how to cook."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-d2",
+          "prompt": "Write one pseudo-cleft sentence starting with \"What...\" about something that matters to you.",
+          "modelAnswer": "What matters most to me is spending time with the people I love."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-d3",
+          "prompt": "Write one it-cleft sentence emphasizing when or where something happened.",
+          "modelAnswer": "It was on a rainy afternoon in Porto that I fell in love with the city."
+        },
+        {
+          "id": "emphatic-and-stylistic-structures-d4",
+          "prompt": "Write one all-cleft sentence (\"All I want/need is...\").",
+          "modelAnswer": "All I need is a strong cup of coffee to start my day."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) It-clefts — \"It is/was + the emphasized element + who/that + rest of the sentence.\" Used to highlight a subject, object, time or place.",
+    "b) Pseudo-clefts (wh-clefts) — start with a wh-word (what, where, why, how, the thing/reason/place that...) + be + the emphasized element. Used to highlight an action, reason, or entire idea, often at the end for maximum impact.",
+    "c) All-cleft (a variation): All + relative clause + is/was + emphasized element, used to minimize/emphasize simplicity."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c1-advanced/emphatic-and-stylistic-structures.docx",
+    "txt": "cefr/c1-advanced/emphatic-and-stylistic-structures.txt",
+    "pdf": "cefr/c1-advanced/emphatic-and-stylistic-structures.pdf"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "id": "c2-highly-complex-sentence-architecture",
+  "level": "C2",
+  "unit": "1",
+  "order": null,
+  "skill": "grammar",
+  "strand": "highly-complex-sentence-architecture",
+  "title": "Highly Complex Sentence Architecture",
+  "subtitle": "C2 academic and literary writing often uses long sentences that nest several subordinate clauses, front entire clauses for emphasis, and pack dense noun phrases…",
+  "prerequisites": [],
+  "objectives": [
+    "Understand and use: Nested subordinate clauses — a main clause can contain a relative clause, which itself contains another clause, building layers of information.",
+    "Understand and use: Multi-clause fronting — moving an entire subordinate clause (or more than one) to the front of the sentence for emphasis, cohesion with the previous sentence, or rhythm.",
+    "Understand and use: High-density noun phrases and academic phrasing — combining nominalization, multiple modifiers and embedded clauses into a single compact subject or object."
+  ],
+  "content": {
+    "intro": "C2 academic and literary writing often uses long sentences that nest several subordinate clauses, front entire clauses for emphasis, and pack dense noun phrases — all while remaining grammatically clear.",
+    "rules": [
+      {
+        "heading": "a) Nested subordinate clauses — a main clause can contain a relative clause, which itself contains another clause, building layers of information.",
+        "body": "<p>The report, which the committee — most of whom had opposed the original plan — reluctantly approved, outlined a strategy that few believed would work.</p>"
+      },
+      {
+        "heading": "b) Multi-clause fronting — moving an entire subordinate clause (or more than one) to the front of the sentence for emphasis, cohesion with the previous sentence, or rhythm.",
+        "body": "<p>Although the data seemed conclusive, and although several experts had endorsed the findings, the board remained unconvinced.</p><p>What had once seemed an impossible goal, given the constraints they faced, now looked entirely achievable.</p>"
+      },
+      {
+        "heading": "c) High-density noun phrases and academic phrasing — combining nominalization, multiple modifiers and embedded clauses into a single compact subject or object.",
+        "body": "<p>The steady erosion of public trust in institutions once considered unimpeachable has reshaped modern political discourse.</p><p>Key architectural principles at C2:</p><ul><li>Use dashes or parentheses to insert a clause without breaking the main sentence's flow.</li><li>Keep the main verb clearly identifiable even in a long sentence — readers should never lose track of the core subject-verb relationship.</li><li>Balance clause length: extremely long sentences need at least one shorter sentence nearby to maintain readability.</li></ul>"
+      }
+    ],
+    "examples": [
+      "The proposal, which had been debated for months and which several board members privately opposed, was finally approved.",
+      "Although the results were promising, and although the funding had already been secured, the project was ultimately shelved.",
+      "What had once been dismissed as a fringe theory is now widely accepted within the scientific community.",
+      "The gradual decline in voter turnout, a trend observed across most Western democracies, has troubled political scientists for decades.",
+      "Having reviewed the evidence — evidence that, incidentally, contradicted the official account — the judge dismissed the case.",
+      "That she succeeded despite every obstacle placed in her path is a testament to her resilience.",
+      "The very policies designed to protect small businesses have, ironically, made survival harder for many of them.",
+      "Whatever conclusions one draws from the data, and however one interprets the underlying trends, the overall pattern remains undeniable.",
+      "It was not until the final report was published, months after the initial allegations surfaced, that the full scale of the scandal became clear.",
+      "The committee's decision, reached only after weeks of heated debate, satisfied almost no one."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The report, which the committee approved it, outlined a new strategy.",
+        "right": "The report, which the committee approved, outlined a new strategy.",
+        "why": "Don't repeat the object with a redundant pronoun (\"it\") once a relative pronoun (\"which\") already fills that role."
+      },
+      {
+        "wrong": "Although the data seemed conclusive, but the board remained unconvinced.",
+        "right": "Although the data seemed conclusive, the board remained unconvinced.",
+        "why": "\"Although\" and \"but\" cannot both introduce the contrast — choose one."
+      },
+      {
+        "wrong": "What had once seemed impossible, now looked achievable it.",
+        "right": "What had once seemed impossible now looked achievable.",
+        "why": "No comma is needed between a fronted \"what\" clause functioning as the subject and the main verb; and don't add a redundant \"it\" at the end."
+      },
+      {
+        "wrong": "The decline in trust, that scholars have studied extensively, reshaped politics.",
+        "right": "The decline in trust, which scholars have studied extensively, reshaped politics.",
+        "why": "In a non-defining (comma-separated) relative clause, use \"which,\" not \"that.\""
+      },
+      {
+        "wrong": "Having reviewed the evidence, the case were dismissed by the judge.",
+        "right": "Having reviewed the evidence, the judge dismissed the case.",
+        "why": "The subject right after a participle clause (\"Having reviewed...\") must be the one performing that action — here, the judge, not the case."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "highly-complex-sentence-architecture-gapfill",
+      "type": "fill-blank",
+      "title": "Gap-fill",
+      "instructions": "Gap-fill (choose which, that, or leave blank as appropriate for defining/non-defining clauses)",
+      "items": [
+        {
+          "id": "highly-complex-sentence-architecture-a1",
+          "prompt": "The theory, ___ was first proposed decades ago, has recently gained new support.",
+          "answers": [
+            [
+              "which"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-a2",
+          "prompt": "The report ___ she submitted last week contained several errors. (defining, no comma)",
+          "answers": [
+            [
+              "(no relative pronoun needed; \"that\" also acceptable: that she submitted last week)"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-a3",
+          "prompt": "Her argument, ___ few could refute, changed the course of the debate.",
+          "answers": [
+            [
+              "which"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-a4",
+          "prompt": "The findings ___ the team published were later called into question.",
+          "answers": [
+            [
+              "(no relative pronoun needed",
+              "that)"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-a5",
+          "prompt": "The policy, ___ had been in place for over a decade, was finally repealed.",
+          "answers": [
+            [
+              "which"
+            ]
+          ],
+          "explanation": "See the rule above for this form."
+        }
+      ]
+    },
+    {
+      "id": "highly-complex-sentence-architecture-transform",
+      "type": "typing",
+      "title": "Rewrite / Transformation",
+      "instructions": "Rewrite / Transformation (combine the short sentences into one complex sentence using the technique indicated)",
+      "items": [
+        {
+          "id": "highly-complex-sentence-architecture-b1",
+          "prompt": "The plan was risky. Everyone knew this. The board approved it anyway. (use a fronted concessive clause)",
+          "answer": [
+            "Although the plan was risky, and everyone knew this, the board approved it anyway."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-b2",
+          "prompt": "Trust in institutions has declined. This is a trend across many countries. It worries sociologists. (embed the second sentence as a non-defining relative clause / appositive)",
+          "answer": [
+            "Trust in institutions has declined, a trend observed across many countries, worrying sociologists. (or: ...a trend across many countries that worries sociologists.)"
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-b3",
+          "prompt": "The scientists reviewed the data. The data had been collected over ten years. They reached a surprising conclusion. (use a participle clause + embedded relative clause)",
+          "answer": [
+            "Having reviewed data collected over ten years, the scientists reached a surprising conclusion."
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-b4",
+          "prompt": "Nobody expected the merger to succeed. It succeeded anyway. This surprised the entire industry. (use a \"that\" nominal clause as the subject: \"That...\")",
+          "answer": [
+            "That nobody expected the merger to succeed, and yet it did, surprised the entire industry. (or: That the merger succeeded despite nobody expecting it surprised the entire industry.)"
+          ],
+          "explanation": "Compare your sentence to the model above once you submit."
+        }
+      ]
+    },
+    {
+      "id": "highly-complex-sentence-architecture-correction",
+      "type": "correction",
+      "title": "Error Correction",
+      "items": [
+        {
+          "id": "highly-complex-sentence-architecture-c1",
+          "incorrect": "The proposal, that had taken months to draft, was rejected in minutes.",
+          "answer": [
+            "The proposal, which had taken months to draft, was rejected in minutes."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-c2",
+          "incorrect": "Although the evidence was strong, but the jury hesitated.",
+          "answer": [
+            "Although the evidence was strong, the jury hesitated."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-c3",
+          "incorrect": "Having finished the analysis, the results were presented by the team.",
+          "answer": [
+            "Having finished the analysis, the team presented the results."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-c4",
+          "incorrect": "The decline, that experts had predicted for years, finally arrived.",
+          "answer": [
+            "The decline, which experts had predicted for years, finally arrived."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-c5",
+          "incorrect": "What seemed impossible at first, it became routine within months.",
+          "answer": [
+            "What seemed impossible at first became routine within months."
+          ],
+          "explanation": "Check the rule above for this structure."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-c6",
+          "incorrect": "The scandal, which it destroyed his career, was never fully explained.",
+          "answer": [
+            "The scandal, which destroyed his career, was never fully explained."
+          ],
+          "explanation": "Check the rule above for this structure."
+        }
+      ]
+    },
+    {
+      "id": "highly-complex-sentence-architecture-guided",
+      "type": "typing",
+      "title": "Guided Production",
+      "instructions": "Write your own sentence. There's no single correct answer — a model answer is shown for comparison after you submit.",
+      "items": [
+        {
+          "id": "highly-complex-sentence-architecture-d1",
+          "prompt": "Write one long sentence with a nested non-defining relative clause about a topic you know well (e.g., work, a hobby, current events).",
+          "modelAnswer": "My grandmother's recipe book, which she compiled over fifty years and which none of us dared to modify, remains the closest thing our family has to a sacred text."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-d2",
+          "prompt": "Write one sentence that fronts a full concessive clause (\"Although...\") before the main clause.",
+          "modelAnswer": "Although the team had prepared for every possible scenario, the actual crisis unfolded in a way nobody had anticipated."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-d3",
+          "prompt": "Write one sentence with a \"That...\" clause functioning as the subject.",
+          "modelAnswer": "That she managed to finish the project alone, without any support from management, says a great deal about her determination."
+        },
+        {
+          "id": "highly-complex-sentence-architecture-d4",
+          "prompt": "Write one sentence using a participle clause (\"Having + past participle...\") followed correctly by its logical subject.",
+          "modelAnswer": "Having spent the entire weekend rehearsing, the cast felt ready for opening night."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "a) Nested subordinate clauses — a main clause can contain a relative clause, which itself contains another clause, building layers of information.",
+    "b) Multi-clause fronting — moving an entire subordinate clause (or more than one) to the front of the sentence for emphasis, cohesion with the previous sentence, or rhythm.",
+    "c) High-density noun phrases and academic phrasing — combining nominalization, multiple modifiers and embedded clauses into a single compact subject or object."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/c2-proficient/highly-complex-sentence-architecture.docx",
+    "txt": "cefr/c2-proficient/highly-complex-sentence-architecture.txt",
+    "pdf": "cefr/c2-proficient/highly-complex-sentence-architecture.pdf"
+  }
+}

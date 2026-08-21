@@ -1,0 +1,76 @@
+{
+  "id": "pre-a1-people-and-objects",
+  "level": "PRE-A1",
+  "unit": "5",
+  "order": 1,
+  "skill": "vocabulary",
+  "strand": "basic-nouns",
+  "title": "People & Everyday Objects",
+  "subtitle": "Name the people around you, colors, and common objects.",
+  "prerequisites": ["pre-a1-classroom-and-study-language"],
+  "objectives": [
+    "Name close family members",
+    "Say the main colors",
+    "Name common everyday objects"
+  ],
+  "content": {
+    "intro": "These words appear everywhere — in conversations, in classrooms, on this website. Learn a few at a time.",
+    "rules": [
+      {
+        "heading": "Family",
+        "body": "<p>mother / mom, father / dad, sister, brother, son, daughter, husband, wife, friend</p>"
+      },
+      {
+        "heading": "Colors",
+        "body": "<p>red, blue, green, yellow, black, white, orange, purple, pink, brown, gray</p>"
+      },
+      {
+        "heading": "Common objects",
+        "body": "<p>book, pen, pencil, phone, table, chair, bag, door, window, computer, key, watch</p>"
+      }
+    ],
+    "examples": [
+      "This is my mother. Her name is Ana.",
+      "My favorite color is blue.",
+      "The book is on the table.",
+      "This is a red pen.",
+      "I have two brothers.",
+      "Where is my phone?"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "prea1-obj-match", "type": "matching", "title": "Match the Word to Its Picture Description",
+      "items": [
+        { "id": "po1", "pairs": [
+          { "left": "book", "right": "something you read" },
+          { "left": "chair", "right": "something you sit on" },
+          { "left": "phone", "right": "something you use to call people" },
+          { "left": "key", "right": "something you use to open a door" }
+        ], "explanation": "Connecting a word with its everyday use helps you remember it." }
+      ]
+    },
+    {
+      "id": "prea1-obj-fill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "items": [
+        { "id": "po2", "prompt": "The sky is ___.", "answers": [["blue"]], "explanation": "The sky is blue." },
+        { "id": "po3", "prompt": "My ___ is my mother's husband.", "answers": [["father"]], "explanation": "Father = mother's husband." },
+        { "id": "po4", "prompt": "I write with a ___.", "answers": [["pen", "pencil"]], "explanation": "A pen or pencil is used for writing." }
+      ]
+    },
+    {
+      "id": "prea1-obj-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "po5", "prompt": "Which word is a color?", "options": ["chair", "green", "brother"], "answerIndex": 1, "explanation": "Green is a color." },
+        { "id": "po6", "prompt": "Which word is a family member?", "options": ["window", "sister", "table"], "answerIndex": 1, "explanation": "Sister is a family member." }
+      ]
+    }
+  ],
+  "summary": [
+    "Family words: mother, father, sister, brother, son, daughter.",
+    "Main colors: red, blue, green, yellow, black, white, and more.",
+    "Everyday objects: book, pen, phone, table, chair, key."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

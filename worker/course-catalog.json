@@ -1,6 +1,11 @@
 {
   "levels": [
     {
+      "code": "Pre-A1",
+      "name": "Survival English",
+      "url": "levels/pre-a1.html"
+    },
+    {
       "code": "A1",
       "name": "Beginner",
       "url": "levels/a1.html"
@@ -32,6 +37,54 @@
     }
   ],
   "resources": [
+    {
+      "level": "Pre-A1",
+      "title": "The Alphabet & Sounds",
+      "url": "levels/pre-a1/the-alphabet-and-sounds.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Greetings & Introductions",
+      "url": "levels/pre-a1/greetings-and-introductions.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Numbers, Time & Dates",
+      "url": "levels/pre-a1/numbers-time-and-dates.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Classroom & Study Language",
+      "url": "levels/pre-a1/classroom-and-study-language.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "People & Everyday Objects",
+      "url": "levels/pre-a1/people-and-objects.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "I Am / I Have / I Like / I Want",
+      "url": "levels/pre-a1/basic-verbs-and-wants.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Subject Pronouns & To Be — A Slow Start",
+      "url": "levels/pre-a1/to-be-and-pronouns.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Survival Reading & Listening",
+      "url": "levels/pre-a1/survival-reading-and-listening.html",
+      "type": "lesson"
+    },
     {
       "level": "A1",
       "title": "Basic Greetings and Introductions",

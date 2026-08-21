@@ -1,0 +1,70 @@
+{
+  "id": "pre-a1-classroom-and-study-language",
+  "level": "PRE-A1",
+  "unit": "4",
+  "order": 1,
+  "skill": "functional",
+  "strand": "classroom-language",
+  "title": "Classroom & Study Language",
+  "subtitle": "The words you'll see on this website, in every lesson, from now on.",
+  "prerequisites": ["pre-a1-greetings-and-introductions"],
+  "objectives": [
+    "Understand common exercise instructions like \"fill in the blank\" and \"choose the correct answer\"",
+    "Ask for help when you don't understand something",
+    "Ask how to say a word in English"
+  ],
+  "content": {
+    "intro": "Before going further, let's learn the words this website itself uses all the time. Once you know these, every future lesson will be easier to follow.",
+    "rules": [
+      {
+        "heading": "Instructions you'll see in every exercise",
+        "body": "<ul><li><strong>Fill in the blank</strong> — write the missing word.</li><li><strong>Choose the correct answer</strong> — pick one option.</li><li><strong>Match</strong> — connect two things that go together.</li><li><strong>Put the words in order</strong> — arrange words into a correct sentence.</li><li><strong>Submit</strong> — click to check your answers.</li><li><strong>Correct / Incorrect</strong> — right or wrong.</li></ul>"
+      },
+      {
+        "heading": "Asking for help",
+        "body": "<ul><li>I don't understand.</li><li>Can you repeat, please?</li><li>Can you explain that again?</li><li>How do you say [word in your language] in English?</li><li>What does [word] mean?</li><li>Can you spell that, please?</li></ul>"
+      }
+    ],
+    "examples": [
+      "I don't understand. Can you repeat, please?",
+      "How do you say \"obrigado\" in English?",
+      "What does \"submit\" mean?",
+      "Please fill in the blank with the correct word.",
+      "Choose the correct answer, then click Submit."
+    ]
+  },
+  "exercises": [
+    {
+      "id": "prea1-class-match", "type": "matching", "title": "Match the Instruction to Its Meaning",
+      "items": [
+        { "id": "cl1", "pairs": [
+          { "left": "Fill in the blank", "right": "Write the missing word" },
+          { "left": "Choose the correct answer", "right": "Pick one option" },
+          { "left": "Put the words in order", "right": "Arrange words into a sentence" },
+          { "left": "Submit", "right": "Click to check your answers" }
+        ], "explanation": "These instructions appear on almost every exercise on this website." }
+      ]
+    },
+    {
+      "id": "prea1-class-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "items": [
+        { "id": "cl2", "prompt": "You don't understand a word. What do you say?", "options": ["I don't understand.", "I am fine.", "Good morning."], "answerIndex": 0, "explanation": "\"I don't understand\" is the natural way to ask for help." },
+        { "id": "cl3", "prompt": "You want to know an English word for something. What do you ask?", "options": ["How are you?", "How do you say this in English?", "What time is it?"], "answerIndex": 1, "explanation": "\"How do you say [word] in English?\" is the standard question." }
+      ]
+    },
+    {
+      "id": "prea1-class-type", "type": "typing", "title": "Practice",
+      "instructions": "Write, in English, how you would ask someone to repeat what they said.",
+      "items": [
+        { "id": "cl4", "prompt": "Ask someone to repeat what they just said.", "modelAnswer": "Can you repeat, please?" }
+      ]
+    }
+  ],
+  "summary": [
+    "Fill in the blank, choose the correct answer, match, and put the words in order are the four main exercise instructions on this site.",
+    "\"I don't understand\" and \"Can you repeat, please?\" are essential survival phrases.",
+    "\"How do you say ___ in English?\" lets you ask for any word you need."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

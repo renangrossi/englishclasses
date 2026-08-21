@@ -11,6 +11,7 @@ matching every existing levels/a1/*.html page).
 """
 
 LEVELS = [
+    ("Pre-A1", "Survival English", "pre-a1"),
     ("A1", "Beginner", "a1"),
     ("A2", "Elementary", "a2"),
     ("B1", "Intermediate", "b1"),
@@ -23,7 +24,7 @@ LEVELS = [
 def nav_levels_html(rel, active_level_code):
     items = []
     for code, name, slug in LEVELS:
-        current = ' aria-current="page"' if code == active_level_code else ""
+        current = ' aria-current="page"' if code.upper() == (active_level_code or "").upper() else ""
         items.append(
             f'<li><a href="{rel}levels/{slug}.html"{current}><span>{name}</span>'
             f'<span class="level-code">{code}</span></a></li>'

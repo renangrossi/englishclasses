@@ -1,0 +1,86 @@
+{
+  "id": "pre-a1-basic-verbs-and-wants",
+  "level": "PRE-A1",
+  "unit": "6",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "fixed-chunks",
+  "title": "I Am / I Have / I Like / I Want",
+  "subtitle": "The four sentence patterns that let you say the most, with the least grammar.",
+  "prerequisites": ["pre-a1-people-and-objects"],
+  "objectives": [
+    "Use \"I am\" to describe yourself",
+    "Use \"I have\" to talk about what you own or your family",
+    "Use \"I like\" to talk about preferences",
+    "Use \"I want\" and \"I need\" to ask for things"
+  ],
+  "content": {
+    "intro": "You don't need to know all of English grammar to start communicating. These four simple patterns, used correctly, let you say a huge number of useful things right away.",
+    "rules": [
+      {
+        "heading": "I am + adjective/noun",
+        "body": "<ul><li>I am happy. / I am tired. / I am a student.</li></ul>"
+      },
+      {
+        "heading": "I have + noun",
+        "body": "<ul><li>I have a car. / I have two children. / I have a question.</li></ul>"
+      },
+      {
+        "heading": "I like + noun",
+        "body": "<ul><li>I like coffee. / I like music. / I like this song.</li></ul>"
+      },
+      {
+        "heading": "I want / I need + noun",
+        "body": "<ul><li>I want a coffee, please. / I need help. / I need more time.</li></ul>"
+      }
+    ],
+    "examples": [
+      "I am from Brazil.",
+      "I have a big family.",
+      "I like pizza.",
+      "I want a glass of water, please.",
+      "I need your help.",
+      "I am a little tired today."
+    ],
+    "commonMistakes": [
+      { "wrong": "I have happy.", "right": "I am happy.", "why": "For feelings and descriptions, use \"I am,\" not \"I have.\"" },
+      { "wrong": "I like coffee very much because I want it.", "right": "I like coffee very much.", "why": "\"Like\" already expresses that you enjoy something — \"want\" is for asking for something specific, not needed here." },
+      { "wrong": "I am 20 years.", "right": "I am 20 years old.", "why": "Age needs \"years old,\" not just \"years.\"" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "prea1-bv-fill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with am, have, like, or want.",
+      "items": [
+        { "id": "bv1", "prompt": "I ___ a student.", "answers": [["am"]], "options": ["am", "have", "like"], "explanation": "\"I am\" for descriptions and identity." },
+        { "id": "bv2", "prompt": "I ___ two brothers.", "answers": [["have"]], "options": ["am", "have", "want"], "explanation": "\"I have\" for what you own or your family." },
+        { "id": "bv3", "prompt": "I ___ tea more than coffee.", "answers": [["like"]], "options": ["am", "have", "like"], "explanation": "\"I like\" for preferences." },
+        { "id": "bv4", "prompt": "I ___ a coffee, please.", "answers": [["want"]], "options": ["am", "have", "want"], "explanation": "\"I want\" for asking for something." }
+      ]
+    },
+    {
+      "id": "prea1-bv-mc", "type": "multiple-choice", "title": "Choose the Correct Sentence",
+      "items": [
+        { "id": "bv5", "prompt": "How do you say you are tired?", "options": ["I have tired.", "I am tired.", "I like tired."], "answerIndex": 1, "explanation": "\"I am\" for feelings and states." },
+        { "id": "bv6", "prompt": "How do you ask for water politely?", "options": ["I am water, please.", "I want water, please.", "I like water, please."], "answerIndex": 1, "explanation": "\"I want... please\" is the natural way to ask for something." }
+      ]
+    },
+    {
+      "id": "prea1-bv-type", "type": "typing", "title": "Practice",
+      "instructions": "Write one true sentence about yourself for each pattern.",
+      "items": [
+        { "id": "bv7", "prompt": "Write a sentence starting with \"I am...\"", "modelAnswer": "I am a teacher." },
+        { "id": "bv8", "prompt": "Write a sentence starting with \"I like...\"", "modelAnswer": "I like music." }
+      ]
+    }
+  ],
+  "summary": [
+    "I am + adjective/noun — describe yourself.",
+    "I have + noun — talk about what you own or your family.",
+    "I like + noun — talk about preferences.",
+    "I want / I need + noun — ask for something."
+  ],
+  "related": [],
+  "sourceMaterial": {}
+}

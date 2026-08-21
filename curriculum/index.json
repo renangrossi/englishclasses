@@ -1,8 +1,47 @@
 {
-  "_readme": "Single source of truth for curriculum sequencing. status: 'published' = generated HTML exists and is linked from its level page; 'drafted' = curriculum/{level}/{id}.json exists, not yet built; 'planned' = identified by the gap analysis, no JSON yet. C1 and C2 are fully populated (10/10 topics each, matching their should-be-here.txt specs). B1 and B2 each have 3 and 2 original bridge lessons published so far (from the curriculum gap analysis), not yet the full level -- most B1/B2 grammar topics still exist only as PDF/DOCX. -- the rest of the level-by-level unit breakdown from the pedagogical audit is intentionally not hand-copied in here yet, to avoid the index silently claiming more progress than exists. It gets filled in level-by-level as each level's lessons are actually authored.",
+  "_readme": "Single source of truth for curriculum sequencing. status: 'published' = generated HTML exists and is linked from its level page; 'drafted' = curriculum/{level}/{id}.json exists, not yet built; 'planned' = identified by the gap analysis, no JSON yet. C1 and C2 are fully populated (10/10 topics each, matching their should-be-here.txt specs). B1 and B2 each have 3 and 2 original bridge lessons published so far (from the curriculum gap analysis), not yet the full level -- most B1/B2 grammar topics still exist only as PDF/DOCX. Pre-A1 is fully populated (8/8 lessons, a new level with no prior source material). -- the rest of the level-by-level unit breakdown from the pedagogical audit is intentionally not hand-copied in here yet, to avoid the index silently claiming more progress than exists. It gets filled in level-by-level as each level's lessons are actually authored.",
   "levels": {
     "PRE-A1": {
-      "units": []
+      "units": [
+        {
+          "id": "1",
+          "title": "Pre-A1 Survival English (all 8 lessons)",
+          "lessons": [
+            {
+              "id": "pre-a1-the-alphabet-and-sounds",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-greetings-and-introductions",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-numbers-time-and-dates",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-classroom-and-study-language",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-people-and-objects",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-basic-verbs-and-wants",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-to-be-and-pronouns",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-survival-reading-and-listening",
+              "status": "published"
+            }
+          ]
+        }
+      ]
     },
     "A1": {
       "units": []

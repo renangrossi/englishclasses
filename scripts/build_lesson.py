@@ -123,6 +123,8 @@ def examples_section(lesson):
 
 
 def mistakes_section(lesson):
+    if not lesson["content"].get("commonMistakes"):
+        return ""
     cards = "".join(
         f"""<div class="mistake-card">
             <p class="mistake-card__wrong"><span class="badge badge--pdf" style="margin-right:.5em;">Avoid</span>{esc(m['wrong'])}</p>
@@ -187,7 +189,8 @@ def related_section(lesson, level_slug):
 def build(lesson_path: Path):
     lesson = json.loads(lesson_path.read_text(encoding="utf-8"))
     level_slug = lesson["level"].lower()
-    lesson_slug = lesson["id"].split("-", 1)[1] if lesson["id"].startswith(level_slug + "-") else lesson["id"]
+    prefix = level_slug + "-"
+    lesson_slug = lesson["id"][len(prefix):] if lesson["id"].startswith(prefix) else lesson["id"]
 
     title = f"{lesson['title']} — {lesson['level']} English Grammar — Renan the Teacher"
     description = f"{lesson['title']}: {lesson['subtitle']}"[:300]

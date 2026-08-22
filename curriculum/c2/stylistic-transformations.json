@@ -84,7 +84,7 @@
               "loss"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Substantial loss” nominalizes “lost a lot of money” into a formal noun phrase."
         },
         {
           "id": "stylistic-transformations-a2",
@@ -95,7 +95,7 @@
               "for this"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“The reason” + “why it happened”/“for this” nominalizes the vague “nobody knows why” into a formal subject."
         },
         {
           "id": "stylistic-transformations-a3",
@@ -105,7 +105,7 @@
               "could"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“It could be argued that” is the fixed hedging frame for a personal opinion."
         },
         {
           "id": "stylistic-transformations-a4",
@@ -115,7 +115,7 @@
               "will be announced"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The passive shifts focus from “we” to the decision itself, for a more formal/impersonal tone."
         },
         {
           "id": "stylistic-transformations-a5",
@@ -125,7 +125,7 @@
               "consensus"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Broad consensus” nominalizes “everyone agrees” into a formal noun phrase."
         },
         {
           "id": "stylistic-transformations-a6",
@@ -135,7 +135,7 @@
               "was severely mismanaged"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The passive shifts focus from “the team” to the launch itself, softening the blame."
         }
       ]
     },
@@ -148,50 +148,32 @@
         {
           "id": "stylistic-transformations-b1",
           "prompt": "The manager screwed up the budget.",
-          "answer": [
-            "The budget was significantly mismanaged by the manager. / Serious mismanagement of the budget occurred under the manager's supervision."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "The budget was significantly mismanaged by the manager. (or: Serious mismanagement of the budget occurred under the manager's supervision.)"
         },
         {
           "id": "stylistic-transformations-b2",
           "prompt": "I'm pretty sure the plan won't work.",
-          "answer": [
-            "It could be argued that the plan is unlikely to succeed."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "It could be argued that the plan is unlikely to succeed."
         },
         {
           "id": "stylistic-transformations-b3",
           "prompt": "They're cutting jobs next month.",
-          "answer": [
-            "Job cuts will be implemented next month."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "Job cuts will be implemented next month."
         },
         {
           "id": "stylistic-transformations-b4",
           "prompt": "The report is full of mistakes.",
-          "answer": [
-            "The report contains a considerable number of errors."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "The report contains a considerable number of errors."
         },
         {
           "id": "stylistic-transformations-b5",
           "prompt": "Nobody bothered to check the numbers.",
-          "answer": [
-            "The figures were not adequately checked."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "The figures were not adequately checked."
         },
         {
           "id": "stylistic-transformations-b6",
           "prompt": "Fix the website — it's broken.",
-          "answer": [
-            "The website requires immediate attention, as it is currently non-functional."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "The website requires immediate attention, as it is currently non-functional."
         }
       ]
     },
@@ -206,7 +188,7 @@
           "answer": [
             "It could be argued that the results are inconclusive."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The passive hedge needs the past participle (“argued”), not the base form."
         },
         {
           "id": "stylistic-transformations-c2",
@@ -214,7 +196,7 @@
           "answer": [
             "The decision was announced yesterday."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "A completed past action needs the past participle “announced,” not the continuous form “announcing.”"
         },
         {
           "id": "stylistic-transformations-c3",
@@ -223,7 +205,7 @@
             "There is broad consensus about what needs to change.",
             "...on what needs to change."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Consensus” is followed by “about/on,” not directly by a “what” clause."
         },
         {
           "id": "stylistic-transformations-c4",
@@ -231,7 +213,7 @@
           "answer": [
             "A sharp decline in revenue was reported."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Decline” collocates with “in,” not “of,” when referring to a drop in a measurable quantity."
         },
         {
           "id": "stylistic-transformations-c5",
@@ -239,7 +221,7 @@
           "answer": [
             "The proposal was rejected by them."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "After “by” in a passive sentence, use the object pronoun (“them”), not the subject pronoun."
         },
         {
           "id": "stylistic-transformations-c6",
@@ -247,7 +229,7 @@
           "answer": [
             "The implementation was delayed for months."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Nominalized subjects still need a full passive verb (“was delayed”), not just the past participle alone."
         }
       ]
     },

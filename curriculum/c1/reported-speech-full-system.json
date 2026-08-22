@@ -86,7 +86,7 @@
               "to apologize"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Urge” + object + to-infinitive reports the strong advice."
         },
         {
           "id": "reported-speech-full-system-a2",
@@ -96,7 +96,7 @@
               "breaking"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Deny” is always followed by a gerund."
         },
         {
           "id": "reported-speech-full-system-a3",
@@ -106,7 +106,7 @@
               "not to tell"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Ask” + object + not + to-infinitive reports a negative request."
         },
         {
           "id": "reported-speech-full-system-a4",
@@ -116,7 +116,7 @@
               "take"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Suggest that” + subject + bare infinitive (subjunctive) — no “-s” even after “they.”"
         },
         {
           "id": "reported-speech-full-system-a5",
@@ -126,7 +126,7 @@
               "for forgetting"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Apologize for” + gerund reports the reason for the apology."
         },
         {
           "id": "reported-speech-full-system-a6",
@@ -136,7 +136,7 @@
               "on seeing"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Insist on” + gerund reports a strong recommendation."
         },
         {
           "id": "reported-speech-full-system-a7",
@@ -146,7 +146,7 @@
               "to finish"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Promise” + to-infinitive reports a commitment about the future."
         },
         {
           "id": "reported-speech-full-system-a8",
@@ -156,7 +156,7 @@
               "of taking"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Accuse” + object + “of” + gerund reports the accusation."
         }
       ]
     },
@@ -172,7 +172,7 @@
           "answer": [
             "The guide warned us not to swim in that river."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Warn” + object + not + to-infinitive reports the prohibition."
         },
         {
           "id": "reported-speech-full-system-b2",
@@ -180,7 +180,7 @@
           "answer": [
             "She offered to pay for the tickets."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Offer” + to-infinitive reports a spontaneous willingness to do something."
         },
         {
           "id": "reported-speech-full-system-b3",
@@ -188,7 +188,7 @@
           "answer": [
             "He denied breaking it."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Deny” + gerund reports the denial."
         },
         {
           "id": "reported-speech-full-system-b4",
@@ -196,7 +196,7 @@
           "answer": [
             "She advised him to talk to a lawyer."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Advise” + object + to-infinitive reports the recommendation."
         },
         {
           "id": "reported-speech-full-system-b5",
@@ -204,7 +204,7 @@
           "answer": [
             "The director suggested rescheduling the meeting. / ...that they reschedule the meeting."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Suggest” + gerund (or “that” + subjunctive) reports the proposal — both patterns work."
         },
         {
           "id": "reported-speech-full-system-b6",
@@ -212,7 +212,7 @@
           "answer": [
             "She apologized for shouting at me/him/her."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Apologize for” + gerund reports the reason for the apology."
         }
       ]
     },
@@ -228,7 +228,7 @@
             "He suggested that she call the office first.",
             "He suggested calling the office first."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Suggest” never takes object + to-infinitive — use “suggest that” or “suggest + gerund.”"
         },
         {
           "id": "reported-speech-full-system-c2",
@@ -237,7 +237,7 @@
             "She denied having seen the email.",
             "She denied seeing the email."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Deny” is followed by a gerund, not a to-infinitive."
         },
         {
           "id": "reported-speech-full-system-c3",
@@ -245,7 +245,7 @@
           "answer": [
             "They warned us not to be late."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Warn” needs object + not + to-infinitive, not a direct-quote structure."
         },
         {
           "id": "reported-speech-full-system-c4",
@@ -253,7 +253,7 @@
           "answer": [
             "He said that he was busy. (or: He told us that he was busy.)"
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Tell” always needs a listener object (told him/us); without one, use “said.”"
         },
         {
           "id": "reported-speech-full-system-c5",
@@ -261,16 +261,15 @@
           "answer": [
             "The nurse recommended that he take more rest."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Recommend that” + subject + bare infinitive (subjunctive) — no “-s” even after “he.”"
         },
         {
           "id": "reported-speech-full-system-c6",
           "incorrect": "She said that the meeting starts at nine, but by the time we spoke it had already finished.",
           "answer": [
-            "She said that the meeting starts at nine. (kept correctly as a scheduled",
-            "general fact — no error here; included as a check item)"
+            "She said that the meeting starts at nine, but by the time we spoke it had already finished."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "This sentence is already correct — “starts” stays in the present because it reports a scheduled/timetabled fact, even though the reporting verb (“said”) is past."
         }
       ]
     },

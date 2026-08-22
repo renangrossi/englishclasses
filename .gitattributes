@@ -5,4 +5,22 @@
 # jpeg, png, webp, svg, gif, mp3, wav, webm, pdf, docx or any other
 # site asset with LFS. Keep all static assets as normal Git blobs so
 # GitHub Pages serves them correctly.
-* -filter -diff -merge -text
+#
+# Scoped to actual binary types only -- a blanket "* -filter -diff
+# -merge -text" here previously also disabled real diffs for every
+# text file in the repo (html/json/js/css/py/md), so every PR ever
+# merged in this project shows "Bin X -> Y bytes" instead of a
+# reviewable line diff, for its entire history (verified against
+# git show on several past commits). svg is real XML/text, so it
+# keeps diffing normally -- it only opts out of the LFS filter.
+*.jpg -filter -diff -merge -text
+*.jpeg -filter -diff -merge -text
+*.png -filter -diff -merge -text
+*.webp -filter -diff -merge -text
+*.gif -filter -diff -merge -text
+*.mp3 -filter -diff -merge -text
+*.wav -filter -diff -merge -text
+*.webm -filter -diff -merge -text
+*.pdf -filter -diff -merge -text
+*.docx -filter -diff -merge -text
+*.svg -filter

@@ -7,7 +7,7 @@
   "strand": "reported-speech",
   "title": "Reported Speech — Statements & Basic Backshift",
   "subtitle": "Report what someone said, without quoting their exact words.",
-  "prerequisites": ["a2-past-simple", "a1-to-be"],
+  "prerequisites": ["a2-simple-past-i", "a2-simple-past-ii", "a1-to-be-am-is-are"],
   "objectives": [
     "Use say and tell correctly (tell always needs a listener)",
     "Backshift the verb tense one step into the past when reporting",

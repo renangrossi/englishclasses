@@ -2,12 +2,14 @@
   "id": "b1-future-forms-will-going-to",
   "level": "B1",
   "unit": "3",
-  "order": 5,
+  "order": 1,
   "skill": "grammar",
   "strand": "future-tenses",
   "title": "Future Forms: Will vs. Going To",
   "subtitle": "Choose between a spontaneous decision and a plan already made.",
-  "prerequisites": ["a1-simple-present-i"],
+  "prerequisites": [
+    "a1-simple-present-i"
+  ],
   "objectives": [
     "Use \"will\" for spontaneous decisions, predictions, offers and promises",
     "Use \"going to\" for plans and intentions decided before now",
@@ -34,34 +36,125 @@
       "We're going to buy a new car next month."
     ],
     "commonMistakes": [
-      { "wrong": "I'm going to visit my parents. (decided right now, spontaneously)", "right": "I'll visit my parents. / I'm going to visit my parents.", "why": "A decision made at the moment of speaking uses \"will\"; a plan decided earlier uses \"going to\" — check which situation applies before choosing." },
-      { "wrong": "Look at those clouds — it will rain.", "right": "Look at those clouds — it's going to rain.", "why": "A prediction based on visible present evidence needs \"going to,\" not \"will.\"" },
-      { "wrong": "I go to visit my parents this weekend.", "right": "I'm going to visit my parents this weekend.", "why": "\"Going to\" needs the full form \"am/is/are going to,\" not just \"go to.\"" }
+      {
+        "wrong": "I'm going to visit my parents. (decided right now, spontaneously)",
+        "right": "I'll visit my parents. / I'm going to visit my parents.",
+        "why": "A decision made at the moment of speaking uses \"will\"; a plan decided earlier uses \"going to\" — check which situation applies before choosing."
+      },
+      {
+        "wrong": "Look at those clouds — it will rain.",
+        "right": "Look at those clouds — it's going to rain.",
+        "why": "A prediction based on visible present evidence needs \"going to,\" not \"will.\""
+      },
+      {
+        "wrong": "I go to visit my parents this weekend.",
+        "right": "I'm going to visit my parents this weekend.",
+        "why": "\"Going to\" needs the full form \"am/is/are going to,\" not just \"go to.\""
+      }
     ]
   },
   "exercises": [
     {
-      "id": "b1fwgt-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "id": "b1fwgt-gapfill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
       "instructions": "Complete each sentence with will or the correct form of going to.",
       "items": [
-        { "id": "b1fwgt1", "prompt": "The phone's ringing — I ___ (get) it. (spontaneous)", "answers": [["'ll get", "will get"]], "explanation": "A spontaneous decision at the moment of speaking — \"will.\"" },
-        { "id": "b1fwgt2", "prompt": "I ___ (visit) my parents this weekend. (already planned)", "answers": [["am going to visit", "'m going to visit"]], "explanation": "A plan decided before now — \"going to.\"" },
-        { "id": "b1fwgt3", "prompt": "Look at those clouds — it ___ (rain). (visible evidence)", "answers": [["is going to rain", "'s going to rain"]], "explanation": "A prediction based on present evidence — \"going to.\"" },
-        { "id": "b1fwgt4", "prompt": "I think it ___ (be) sunny tomorrow. (opinion, no evidence)", "answers": [["will be"]], "explanation": "A prediction based on opinion, not evidence — \"will.\"" }
+        {
+          "id": "b1fwgt1",
+          "prompt": "The phone's ringing — I ___ (get) it. (spontaneous)",
+          "answers": [
+            [
+              "'ll get",
+              "will get"
+            ]
+          ],
+          "explanation": "A spontaneous decision at the moment of speaking — \"will.\""
+        },
+        {
+          "id": "b1fwgt2",
+          "prompt": "I ___ (visit) my parents this weekend. (already planned)",
+          "answers": [
+            [
+              "am going to visit",
+              "'m going to visit"
+            ]
+          ],
+          "explanation": "A plan decided before now — \"going to.\""
+        },
+        {
+          "id": "b1fwgt3",
+          "prompt": "Look at those clouds — it ___ (rain). (visible evidence)",
+          "answers": [
+            [
+              "is going to rain",
+              "'s going to rain"
+            ]
+          ],
+          "explanation": "A prediction based on present evidence — \"going to.\""
+        },
+        {
+          "id": "b1fwgt4",
+          "prompt": "I think it ___ (be) sunny tomorrow. (opinion, no evidence)",
+          "answers": [
+            [
+              "will be"
+            ]
+          ],
+          "explanation": "A prediction based on opinion, not evidence — \"will.\""
+        }
       ]
     },
     {
-      "id": "b1fwgt-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "id": "b1fwgt-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Answer",
       "items": [
-        { "id": "b1fwgt5", "prompt": "I promise I ___ call you tomorrow.", "options": ["'m going to", "will", "am"], "answerIndex": 1, "explanation": "A promise uses \"will.\"" },
-        { "id": "b1fwgt6", "prompt": "We ___ buy a new car next month. (decided last week)", "options": ["will", "are going to", "go to"], "answerIndex": 1, "explanation": "A plan decided before now — \"going to.\"" }
+        {
+          "id": "b1fwgt5",
+          "prompt": "I promise I ___ call you tomorrow.",
+          "options": [
+            "'m going to",
+            "will",
+            "am"
+          ],
+          "answerIndex": 1,
+          "explanation": "A promise uses \"will.\""
+        },
+        {
+          "id": "b1fwgt6",
+          "prompt": "We ___ buy a new car next month. (decided last week)",
+          "options": [
+            "will",
+            "are going to",
+            "go to"
+          ],
+          "answerIndex": 1,
+          "explanation": "A plan decided before now — \"going to.\""
+        }
       ]
     },
     {
-      "id": "b1fwgt-correction", "type": "correction", "title": "Correct the Mistakes",
+      "id": "b1fwgt-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
       "items": [
-        { "id": "b1fwgt7", "incorrect": "Look at the sky — it will rain.", "answer": ["Look at the sky — it's going to rain."], "explanation": "Visible present evidence needs \"going to.\"" },
-        { "id": "b1fwgt8", "incorrect": "I go to visit my parents this weekend.", "answer": ["I'm going to visit my parents this weekend."], "explanation": "\"Going to\" needs the full \"am/is/are\" form." }
+        {
+          "id": "b1fwgt7",
+          "incorrect": "Look at the sky — it will rain.",
+          "answer": [
+            "Look at the sky — it's going to rain."
+          ],
+          "explanation": "Visible present evidence needs \"going to.\""
+        },
+        {
+          "id": "b1fwgt8",
+          "incorrect": "I go to visit my parents this weekend.",
+          "answer": [
+            "I'm going to visit my parents this weekend."
+          ],
+          "explanation": "\"Going to\" needs the full \"am/is/are\" form."
+        }
       ]
     }
   ],
@@ -71,5 +164,8 @@
     "Ask: was this decided right now, or before? And is there evidence I can see?"
   ],
   "related": [],
-  "sourceMaterial": { "docx": "cefr/b1-intermediate/h-future-forms-will-going-to.docx", "pdf": "cefr/b1-intermediate/h-future-forms-will-going-to.pdf" }
+  "sourceMaterial": {
+    "docx": "cefr/b1-intermediate/h-future-forms-will-going-to.docx",
+    "pdf": "cefr/b1-intermediate/h-future-forms-will-going-to.pdf"
+  }
 }

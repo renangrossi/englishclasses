@@ -237,6 +237,11 @@
       "ty": "past-simple-vs-present-perfect-ii"
     },
     {
+      "slug": "future-forms-will-going-to",
+      "title": "Future Forms: Will vs. Going To",
+      "ty": "future-forms-will-going-to"
+    },
+    {
       "slug": "future-continuous",
       "title": "Future Continuous",
       "ty": "future-continuous"
@@ -265,11 +270,6 @@
       "slug": "second-and-third-conditionals",
       "title": "Second & Third Conditionals",
       "ty": "2nd-and-3rd-conditionals"
-    },
-    {
-      "slug": "future-forms-will-going-to",
-      "title": "Future Forms: Will vs. Going To",
-      "ty": "future-forms-will-going-to"
     },
     {
       "slug": "passive-voice",

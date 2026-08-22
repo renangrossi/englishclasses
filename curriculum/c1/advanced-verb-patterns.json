@@ -86,7 +86,7 @@
               "to turn off"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Remember” + to-infinitive is a task you need to do — the opposite pairing, gerund, would describe a memory of something already done."
         },
         {
           "id": "advanced-verb-patterns-a2",
@@ -96,7 +96,7 @@
               "seeing"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Forget” + gerund describes a memorable past experience (the opposite pairing describes a forgotten task)."
         },
         {
           "id": "advanced-verb-patterns-a3",
@@ -106,7 +106,7 @@
               "to take"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Stop” + to-infinitive means pausing one activity in order to do another."
         },
         {
           "id": "advanced-verb-patterns-a4",
@@ -116,7 +116,7 @@
               "interrupting"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Stop” + gerund means quitting a habit."
         },
         {
           "id": "advanced-verb-patterns-a5",
@@ -126,7 +126,7 @@
               "to have invented"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Claim” + perfect infinitive reports something the subject says happened earlier."
         },
         {
           "id": "advanced-verb-patterns-a6",
@@ -136,7 +136,7 @@
               "to know"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Seem” + simple infinitive describes a present impression."
         },
         {
           "id": "advanced-verb-patterns-a7",
@@ -146,7 +146,7 @@
               "tailored"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The causative “have something done” uses the past participle after the object."
         },
         {
           "id": "advanced-verb-patterns-a8",
@@ -156,7 +156,7 @@
               "repaired"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The get-passive causative also uses the past participle after the object."
         },
         {
           "id": "advanced-verb-patterns-a9",
@@ -166,7 +166,7 @@
               "not to have noticed"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Pretend” + negative perfect infinitive reports a false claim about an earlier action."
         },
         {
           "id": "advanced-verb-patterns-a10",
@@ -176,7 +176,7 @@
               "restarting"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Try” + gerund means experimenting with a possible solution."
         }
       ]
     },
@@ -192,7 +192,7 @@
           "answer": [
             "I had my laptop repaired last week."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Have” + object + past participle expresses an action arranged by someone else."
         },
         {
           "id": "advanced-verb-patterns-b2",
@@ -200,7 +200,7 @@
           "answer": [
             "He seems to have already left."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Seem” + perfect infinitive expresses a present impression about something earlier."
         },
         {
           "id": "advanced-verb-patterns-b3",
@@ -208,7 +208,7 @@
           "answer": [
             "She admitted having broken the vase. / She admitted to having broken the vase."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Admit” + perfect gerund reports an earlier action; “having broken” and “to having broken” are both standard."
         },
         {
           "id": "advanced-verb-patterns-b4",
@@ -216,7 +216,7 @@
           "answer": [
             "We get our lawn cut every Friday now."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Get” + object + past participle is the more informal causative form."
         },
         {
           "id": "advanced-verb-patterns-b5",
@@ -224,7 +224,7 @@
           "answer": [
             "I remember visiting that castle as a child."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Remember” + gerund describes a memory of a completed action."
         },
         {
           "id": "advanced-verb-patterns-b6",
@@ -232,7 +232,7 @@
           "answer": [
             "He stopped to answer the phone."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Stop” + to-infinitive means pausing one activity to do another."
         }
       ]
     },
@@ -247,7 +247,7 @@
           "answer": [
             "I remember visiting Paris when I was ten."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Remember” + gerund describes a memory of a completed action, not a task (to-infinitive)."
         },
         {
           "id": "advanced-verb-patterns-c2",
@@ -255,7 +255,7 @@
           "answer": [
             "She stopped answering the door — I think she's finally home again."
           ],
-          "explanation": "Check the rule above for this structure. (already correct)"
+          "explanation": "This sentence is already correct as written — no error to fix; “stopped answering” (gerund) correctly describes a habit that ended."
         },
         {
           "id": "advanced-verb-patterns-c3",
@@ -263,7 +263,7 @@
           "answer": [
             "He claims to have met the queen once."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Claim” + perfect infinitive is needed to report an earlier event: claims to have met."
         },
         {
           "id": "advanced-verb-patterns-c4",
@@ -271,7 +271,7 @@
           "answer": [
             "I had my hair cut yesterday."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The causative “have something done” needs the past participle “cut,” not a to-infinitive."
         },
         {
           "id": "advanced-verb-patterns-c5",
@@ -279,7 +279,7 @@
           "answer": [
             "They admitted to having lost the documents last year."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Admit to” + perfect gerund is needed to show the losing happened before the admission."
         },
         {
           "id": "advanced-verb-patterns-c6",
@@ -287,7 +287,7 @@
           "answer": [
             "Try turning the dial slowly."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Try” + gerund (experimenting with a method) never takes “to” before the -ing form."
         }
       ]
     },

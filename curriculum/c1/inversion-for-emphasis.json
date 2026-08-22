@@ -72,7 +72,7 @@
               "have I seen"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Never” fronts the sentence, inverting to auxiliary + subject: have I seen."
         },
         {
           "id": "inversion-for-emphasis-a2",
@@ -82,7 +82,7 @@
               "does she complain"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "No auxiliary in the original, so add “does” to invert after “Rarely.”"
         },
         {
           "id": "inversion-for-emphasis-a3",
@@ -92,7 +92,7 @@
               "did he decide"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Not until the last minute” fronts the sentence, inverting to “did he decide.”"
         },
         {
           "id": "inversion-for-emphasis-a4",
@@ -102,7 +102,7 @@
               "had we sat down"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“No sooner” pairs with “than” and inverts to “had we sat down.”"
         },
         {
           "id": "inversion-for-emphasis-a5",
@@ -112,7 +112,7 @@
               "did she master"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Only after” fronts the sentence, inverting to “did she master.”"
         },
         {
           "id": "inversion-for-emphasis-a6",
@@ -122,7 +122,7 @@
               "did he realize"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Little” (= not at all) triggers inversion with “did.”"
         },
         {
           "id": "inversion-for-emphasis-a7",
@@ -132,7 +132,7 @@
               "must you leave (or should you leave)"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Under no circumstances” fronts the sentence, inverting to modal + subject."
         },
         {
           "id": "inversion-for-emphasis-a8",
@@ -142,7 +142,7 @@
               "do they agree"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "No auxiliary in the original, so add “do” to invert after “Seldom.”"
         },
         {
           "id": "inversion-for-emphasis-a9",
@@ -152,7 +152,7 @@
               "had I finished"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Hardly” pairs with “when” and inverts to “had I finished.”"
         },
         {
           "id": "inversion-for-emphasis-a10",
@@ -162,7 +162,7 @@
               "did we realize"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Only when” fronts the sentence, inverting to “did we realize.”"
         }
       ]
     },
@@ -178,7 +178,7 @@
           "answer": [
             "Never have I felt so relieved."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Never” fronts the sentence and inverts to “have I felt.”"
         },
         {
           "id": "inversion-for-emphasis-b2",
@@ -186,7 +186,7 @@
           "answer": [
             "Rarely does she ask for help."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "No auxiliary in the original, so “does” appears after “Rarely.”"
         },
         {
           "id": "inversion-for-emphasis-b3",
@@ -194,7 +194,7 @@
           "answer": [
             "Hardly had we started the meeting when the fire alarm went off."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Hardly” pairs with “when,” inverting to “had we started.”"
         },
         {
           "id": "inversion-for-emphasis-b4",
@@ -202,7 +202,7 @@
           "answer": [
             "Not until it was too late did he understand the risk."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Not until” fronts the time expression, inverting the main clause to “did he understand.”"
         },
         {
           "id": "inversion-for-emphasis-b5",
@@ -210,7 +210,7 @@
           "answer": [
             "Only after the client complained did they realize their error."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Only after” fronts the sentence, inverting to “did they realize.”"
         },
         {
           "id": "inversion-for-emphasis-b6",
@@ -218,7 +218,7 @@
           "answer": [
             "Little did he know that his plan would backfire."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Little” triggers inversion with “did.”"
         },
         {
           "id": "inversion-for-emphasis-b7",
@@ -226,7 +226,7 @@
           "answer": [
             "Under no circumstances must you ignore this warning."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Under no circumstances” fronts the sentence, inverting to “must you ignore.”"
         }
       ]
     },
@@ -241,7 +241,7 @@
           "answer": [
             "Never have I worked so hard for something."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The auxiliary must come before the subject after “Never” — it's an inversion, not just reordering."
         },
         {
           "id": "inversion-for-emphasis-c2",
@@ -249,7 +249,7 @@
           "answer": [
             "Rarely do we see such dedication."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "With no auxiliary in the original, add “do/does/did” to invert."
         },
         {
           "id": "inversion-for-emphasis-c3",
@@ -257,7 +257,7 @@
           "answer": [
             "No sooner had she left than it started to snow."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The auxiliary (“had”) must move before the subject after “No sooner.”"
         },
         {
           "id": "inversion-for-emphasis-c4",
@@ -265,7 +265,7 @@
           "answer": [
             "Only after the show finished did we go backstage."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The main clause after a fronted “only” expression must also invert — a comma alone isn't enough."
         },
         {
           "id": "inversion-for-emphasis-c5",
@@ -273,7 +273,7 @@
           "answer": [
             "Little did she suspect what was about to happen."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Little” as a fronted negative adverbial also triggers inversion with “did.”"
         },
         {
           "id": "inversion-for-emphasis-c6",
@@ -281,7 +281,7 @@
           "answer": [
             "Not until dawn did the rescue team arrive."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Not until” fronts the sentence, so the main clause inverts to “did the rescue team arrive.”"
         }
       ]
     },

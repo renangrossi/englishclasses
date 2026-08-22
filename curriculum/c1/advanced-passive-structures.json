@@ -86,7 +86,7 @@
               "is believed to be hiding"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Present belief about an ongoing state uses the simple passive infinitive: believed to be hiding."
         },
         {
           "id": "advanced-passive-structures-a2",
@@ -96,7 +96,7 @@
               "must be completed"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Obligation about the present/future uses modal + be + past participle."
         },
         {
           "id": "advanced-passive-structures-a3",
@@ -106,7 +106,7 @@
               "got stolen"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "An unexpected, personal event fits the informal get-passive."
         },
         {
           "id": "advanced-passive-structures-a4",
@@ -116,7 +116,7 @@
               "is thought to have been written"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "A belief about an earlier, completed action needs the perfect passive infinitive: to have been written."
         },
         {
           "id": "advanced-passive-structures-a5",
@@ -126,7 +126,7 @@
               "should have been repaired"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "An unfulfilled past obligation needs the modal perfect passive: should have been repaired."
         },
         {
           "id": "advanced-passive-structures-a6",
@@ -136,7 +136,7 @@
               "is reported that"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The impersonal “It + is + reporting verb + that” pattern reports a claim without naming the source."
         },
         {
           "id": "advanced-passive-structures-a7",
@@ -146,7 +146,7 @@
               "is rumored to have been offered"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "A rumor about something already completed needs the perfect passive infinitive."
         },
         {
           "id": "advanced-passive-structures-a8",
@@ -156,7 +156,7 @@
               "got upgraded"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "A sudden, fortunate one-off event fits the get-passive."
         },
         {
           "id": "advanced-passive-structures-a9",
@@ -166,7 +166,7 @@
               "must be announced"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "A present/future obligation uses modal + be + past participle."
         },
         {
           "id": "advanced-passive-structures-a10",
@@ -176,7 +176,7 @@
               "is alleged to have been stolen"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "An allegation about a past event needs the perfect passive infinitive: alleged to have been stolen."
         }
       ]
     },
@@ -192,7 +192,7 @@
           "answer": [
             "The company is said to be losing money."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Say” becomes “is said to be” + verb-ing for an ongoing situation."
         },
         {
           "id": "advanced-passive-structures-b2",
@@ -200,7 +200,7 @@
           "answer": [
             "He is believed to have escaped through the back door."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Believe” + an earlier action needs the perfect passive infinitive: believed to have escaped."
         },
         {
           "id": "advanced-passive-structures-b3",
@@ -208,7 +208,7 @@
           "answer": [
             "The singer is thought to have written the song herself."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Think” + an earlier action needs “thought to have written.”"
         },
         {
           "id": "advanced-passive-structures-b4",
@@ -216,7 +216,7 @@
           "answer": [
             "It was understood that the deal had fallen through."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Understand” reports a past belief with the impersonal “It was understood that…” pattern."
         },
         {
           "id": "advanced-passive-structures-b5",
@@ -224,7 +224,7 @@
           "answer": [
             "The minister is reported to have lied."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Report” + an earlier action needs “reported to have lied.”"
         },
         {
           "id": "advanced-passive-structures-b6",
@@ -232,7 +232,7 @@
           "answer": [
             "The castle is said to be haunted."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Say” + an ongoing state needs “said to be haunted.”"
         },
         {
           "id": "advanced-passive-structures-b7",
@@ -240,7 +240,7 @@
           "answer": [
             "The twins are assumed to be identical."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Assume” + a present state needs “assumed to be identical.”"
         }
       ]
     },
@@ -253,49 +253,49 @@
           "id": "advanced-passive-structures-c1",
           "incorrect": "The building is thought to demolished next year.",
           "answer": [
-            "The building is thought to be demolished next year. → ...to be demolished... (needs \"be\" for the passive infinitive)"
+            "The building is thought to be demolished next year."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The reporting passive infinitive needs “be”: thought to be demolished."
         },
         {
           "id": "advanced-passive-structures-c2",
           "incorrect": "He is said having escaped through the roof.",
           "answer": [
-            "He is said to have escaped through the roof. (needs \"to have,\" not \"having\")"
+            "He is said to have escaped through the roof."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The reporting passive needs “to have,” not “having,” for a completed action."
         },
         {
           "id": "advanced-passive-structures-c3",
           "incorrect": "The proposal should approved before the deadline.",
           "answer": [
-            "The proposal should be approved before the deadline. (needs \"be approved\")"
+            "The proposal should be approved before the deadline."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The modal passive needs “be” between the modal and the past participle."
         },
         {
           "id": "advanced-passive-structures-c4",
           "incorrect": "My phone got steal on the bus this morning.",
           "answer": [
-            "My phone got stolen on the bus this morning. (past participle \"stolen,\" not \"steal\")"
+            "My phone got stolen on the bus this morning."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The get-passive needs the past participle “stolen,” not the base form “steal.”"
         },
         {
           "id": "advanced-passive-structures-c5",
           "incorrect": "It is believe that the treaty will be signed soon.",
           "answer": [
-            "It is believed that the treaty will be signed soon. (needs \"believed,\" not \"believe\")"
+            "It is believed that the treaty will be signed soon."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The reporting passive needs the past participle “believed,” not the base form."
         },
         {
           "id": "advanced-passive-structures-c6",
           "incorrect": "The files must has been deleted by mistake.",
           "answer": [
-            "The files must have been deleted by mistake. (needs \"have been,\" not \"has been,\" after a modal)"
+            "The files must have been deleted by mistake."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "After a modal, always use “have,” never “has,” even in the passive."
         }
       ]
     },

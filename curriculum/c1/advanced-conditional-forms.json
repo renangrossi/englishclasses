@@ -91,7 +91,7 @@
               "had studied"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The past condition (didn't study) explaining a present result needs the past perfect: had studied."
         },
         {
           "id": "advanced-conditional-forms-a2",
@@ -101,7 +101,7 @@
               "Should"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Conditional inversion for a less-likely future event drops “if” and fronts “Should.”"
         },
         {
           "id": "advanced-conditional-forms-a3",
@@ -111,7 +111,7 @@
               "hadn't been"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“If it hadn't been for” needs the past perfect form “hadn't been,” not the present “isn't.”"
         },
         {
           "id": "advanced-conditional-forms-a4",
@@ -121,7 +121,7 @@
               "Had"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Inversion of the third conditional fronts “Had” in place of “If he had.”"
         },
         {
           "id": "advanced-conditional-forms-a5",
@@ -131,7 +131,7 @@
               "to be"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The “Were + subject + to + infinitive” inversion pattern needs “to be” here, not “be” alone."
         },
         {
           "id": "advanced-conditional-forms-a6",
@@ -141,7 +141,7 @@
               "would have spoken"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Yesterday” signals a past result, so the second-conditional “if” clause pairs with “would have spoken” — a mixed conditional."
         },
         {
           "id": "advanced-conditional-forms-a7",
@@ -151,7 +151,7 @@
               "wouldn't have survived"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“But for” + noun phrase functions like a third-conditional “if” clause, so the result needs “would have” + past participle."
         },
         {
           "id": "advanced-conditional-forms-a8",
@@ -161,7 +161,7 @@
               "lost"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Suppose” + past tense creates a present hypothetical, just like a second-conditional “if” clause."
         },
         {
           "id": "advanced-conditional-forms-a9",
@@ -171,7 +171,7 @@
               "would have been avoided"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The inverted third-conditional “Had they listened…” needs a passive “would have been avoided” in the result."
         },
         {
           "id": "advanced-conditional-forms-a10",
@@ -181,7 +181,7 @@
               "weren't"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The second-conditional “if” clause uses “weren't” for all subjects, matching the present result “would have.”"
         }
       ]
     },
@@ -197,7 +197,7 @@
           "answer": [
             "Should you need any help, just ask."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Should” inversion drops “if” and fronts the modal: Should you need…"
         },
         {
           "id": "advanced-conditional-forms-b2",
@@ -205,7 +205,7 @@
           "answer": [
             "Had I known about the traffic, I would have left earlier."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Had” inversion replaces “If I had known” with “Had I known.”"
         },
         {
           "id": "advanced-conditional-forms-b3",
@@ -213,7 +213,7 @@
           "answer": [
             "Were we to lose this contract, the whole team would suffer."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Were…to” inversion replaces “If we were to lose” with “Were we to lose.”"
         },
         {
           "id": "advanced-conditional-forms-b4",
@@ -221,7 +221,7 @@
           "answer": [
             "But for the rain, the match would have finished."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“But for” + noun phrase replaces the whole “if it hadn't been for” clause."
         },
         {
           "id": "advanced-conditional-forms-b5",
@@ -229,7 +229,7 @@
           "answer": [
             "If it hadn't been for her warning, we would have walked into the trap."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“If it hadn't been for” + noun phrase (her warning) replaces a clause built around a person's action."
         },
         {
           "id": "advanced-conditional-forms-b6",
@@ -237,7 +237,7 @@
           "answer": [
             "Were you to ask him, he would probably say yes."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Were…to” inversion replaces “If you were to ask” with “Were you to ask.”"
         },
         {
           "id": "advanced-conditional-forms-b7",
@@ -245,7 +245,7 @@
           "answer": [
             "Had I left earlier, I wouldn't be stuck in this traffic now."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Had” inversion replaces “If I had left” with “Had I left,” keeping the mixed-conditional result unchanged."
         }
       ]
     },
@@ -260,7 +260,7 @@
           "answer": [
             "If I had seen him, I would have said hello."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The if-clause never uses “would have” — use the past perfect “had seen.”"
         },
         {
           "id": "advanced-conditional-forms-c2",
@@ -268,7 +268,7 @@
           "answer": [
             "Had she studied harder, she would have passed."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The inverted “Had” clause needs the past participle “studied,” not the base form “study.”"
         },
         {
           "id": "advanced-conditional-forms-c3",
@@ -276,7 +276,7 @@
           "answer": [
             "If it weren't for your support, I would have given up."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Give” is irregular — the third-conditional result needs the past participle “given,” not “gave.”"
         },
         {
           "id": "advanced-conditional-forms-c4",
@@ -284,7 +284,7 @@
           "answer": [
             "Were he to know the truth, he would be furious."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "After “Were…to,” use the bare infinitive “know,” not “knows.”"
         },
         {
           "id": "advanced-conditional-forms-c5",
@@ -292,7 +292,7 @@
           "answer": [
             "Should you need anything, just let us know."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "After “Should” in this inversion, use the bare infinitive “need,” not the past tense “needed.”"
         },
         {
           "id": "advanced-conditional-forms-c6",
@@ -300,7 +300,7 @@
           "answer": [
             "If I were you, I would have accepted the offer."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Were,” not “was,” is standard for all subjects in this fixed hypothetical expression."
         }
       ]
     },

@@ -84,7 +84,7 @@
               "seem"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“It would seem that” is the fixed hedging frame — “seem” completes it."
         },
         {
           "id": "native-like-modality-and-attitude-a2",
@@ -94,7 +94,7 @@
               "well"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Might well” concedes a point is likely true before a contrast."
         },
         {
           "id": "native-like-modality-and-attitude-a3",
@@ -104,7 +104,7 @@
               "Might"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Inverted “Might I…?” is the very formal/polite way to make a suggestion."
         },
         {
           "id": "native-like-modality-and-attitude-a4",
@@ -114,7 +114,7 @@
               "might have been expected"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Might have been expected to” (passive) shows others expected it of him, with a layer of uncertainty."
         },
         {
           "id": "native-like-modality-and-attitude-a5",
@@ -124,7 +124,7 @@
               "to believe"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“There is reason to” + bare infinitive is the fixed epistemic frame."
         },
         {
           "id": "native-like-modality-and-attitude-a6",
@@ -134,7 +134,7 @@
               "stands to reason"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“It stands to reason that” is the fixed idiom for a logical inference."
         },
         {
           "id": "native-like-modality-and-attitude-a7",
@@ -144,7 +144,7 @@
               "rule out"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Cannot rule out” is the fixed phrase for an epistemic possibility that can't be excluded."
         },
         {
           "id": "native-like-modality-and-attitude-a8",
@@ -154,7 +154,7 @@
               "have already been informed"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The passive perfect (“have been informed”) shows the informing was done by someone else, by now."
         }
       ]
     },
@@ -170,7 +170,7 @@
           "answer": [
             "It would seem that the results are incorrect."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“It would seem that” softens the direct claim into a hedge."
         },
         {
           "id": "native-like-modality-and-attitude-b2",
@@ -178,7 +178,7 @@
           "answer": [
             "There is reason to believe that costs will rise."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“There is reason to believe that” turns the certainty into a cautious epistemic claim."
         },
         {
           "id": "native-like-modality-and-attitude-b3",
@@ -186,7 +186,7 @@
           "answer": [
             "Might I suggest a different approach?"
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "Inverted “Might I…?” is more formal/polite than “Can I…?”"
         },
         {
           "id": "native-like-modality-and-attitude-b4",
@@ -194,7 +194,7 @@
           "answer": [
             "He might have been expected to apologize."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Might have been expected to” adds a layer of distance/uncertainty to the obligation."
         },
         {
           "id": "native-like-modality-and-attitude-b5",
@@ -202,7 +202,7 @@
           "answer": [
             "One cannot rule out the possibility that bias affected the results."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“One cannot rule out the possibility that” reframes the claim as an unexcluded possibility."
         }
       ]
     },
@@ -217,7 +217,7 @@
           "answer": [
             "It would seem that the negotiations have collapsed."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "This hedged structure needs “that” before the clause, with the verb tense matching the intended time frame."
         },
         {
           "id": "native-like-modality-and-attitude-c2",
@@ -225,7 +225,7 @@
           "answer": [
             "She might well be the best candidate."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "After “might well,” use the bare infinitive (“be”), not the gerund."
         },
         {
           "id": "native-like-modality-and-attitude-c3",
@@ -233,7 +233,7 @@
           "answer": [
             "He might have expected an apology from her."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Be expected to” is a passive structure — dropping “been” changes the meaning to “he expected himself.”"
         },
         {
           "id": "native-like-modality-and-attitude-c4",
@@ -241,7 +241,7 @@
           "answer": [
             "One cannot rule out the possibility of a delay."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The impersonal subject in this fixed epistemic phrase is “one,” not “it.”"
         },
         {
           "id": "native-like-modality-and-attitude-c5",
@@ -249,7 +249,7 @@
           "answer": [
             "Might I ask a question?"
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "After the inverted modal “Might I,” use the bare infinitive directly, without “to.”"
         },
         {
           "id": "native-like-modality-and-attitude-c6",
@@ -257,7 +257,7 @@
           "answer": [
             "There is reason to believe the data is flawed."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“There is reason” is followed by “to” + bare infinitive: reason to believe."
         }
       ]
     },

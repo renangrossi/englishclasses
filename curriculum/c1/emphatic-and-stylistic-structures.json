@@ -86,7 +86,7 @@
               "was"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The it-cleft frame is “It + was + emphasized element + who/that…” — “was” fills the verb slot."
         },
         {
           "id": "emphatic-and-stylistic-structures-a2",
@@ -96,7 +96,7 @@
               "was"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "A pseudo-cleft (“What…”) is followed by “be” before the emphasized element."
         },
         {
           "id": "emphatic-and-stylistic-structures-a3",
@@ -106,7 +106,7 @@
               "the noise"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The emphasized element sits right after “It was,” before “that.”"
         },
         {
           "id": "emphatic-and-stylistic-structures-a4",
@@ -116,7 +116,7 @@
               "was"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The “The reason…” pseudo-cleft is followed by “be” before the emphasized element (the purpose)."
         },
         {
           "id": "emphatic-and-stylistic-structures-a5",
@@ -126,7 +126,7 @@
               "is"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The all-cleft uses “be” (here, present “is”) before the emphasized element."
         },
         {
           "id": "emphatic-and-stylistic-structures-a6",
@@ -136,7 +136,7 @@
               "that"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The it-cleft's second clause is introduced by “that” after the emphasized time expression."
         },
         {
           "id": "emphatic-and-stylistic-structures-a7",
@@ -146,7 +146,7 @@
               "is"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The pseudo-cleft “What we should focus on…” is followed by “be” before the emphasized element."
         },
         {
           "id": "emphatic-and-stylistic-structures-a8",
@@ -156,7 +156,7 @@
               "was"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The it-cleft frame needs “was” before the emphasized time expression."
         }
       ]
     },
@@ -172,7 +172,7 @@
           "answer": [
             "It was her attitude, not her skills, that worried the manager."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "The it-cleft frame “It was X, not Y, that…” puts the emphasized contrast right after “It was.”"
         },
         {
           "id": "emphatic-and-stylistic-structures-b2",
@@ -180,7 +180,7 @@
           "answer": [
             "What I really admire is his patience."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "The pseudo-cleft “What I really admire is…” moves the emphasized element to the end."
         },
         {
           "id": "emphatic-and-stylistic-structures-b3",
@@ -188,7 +188,7 @@
           "answer": [
             "It was in Barcelona, not Madrid, that we met."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "The it-cleft frame emphasizes the place: “It was in Barcelona… that we met.”"
         },
         {
           "id": "emphatic-and-stylistic-structures-b4",
@@ -196,7 +196,7 @@
           "answer": [
             "All she wants is some recognition."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "The all-cleft “All she wants is…” emphasizes the one thing she wants."
         },
         {
           "id": "emphatic-and-stylistic-structures-b5",
@@ -204,7 +204,7 @@
           "answer": [
             "What caused the failure was his lack of preparation."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "The pseudo-cleft “What caused the failure was…” moves the cause to the end for emphasis."
         },
         {
           "id": "emphatic-and-stylistic-structures-b6",
@@ -212,7 +212,7 @@
           "answer": [
             "It was to apologize, not to argue, that I called."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "The it-cleft frame emphasizes the reason: “It was to apologize… that I called.”"
         }
       ]
     },
@@ -227,7 +227,7 @@
           "answer": [
             "It was John who lost the keys."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Use “who” (for a person) right after the emphasized element — don't add “that he.”"
         },
         {
           "id": "emphatic-and-stylistic-structures-c2",
@@ -235,7 +235,7 @@
           "answer": [
             "What I need is more time."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Don't add a redundant object pronoun (“it”) — the wh-clause already functions as the subject."
         },
         {
           "id": "emphatic-and-stylistic-structures-c3",
@@ -243,7 +243,7 @@
           "answer": [
             "All that matters to her is her family."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“All” already functions like “the only thing that” — use “that,” not “what,” after it."
         },
         {
           "id": "emphatic-and-stylistic-structures-c4",
@@ -251,7 +251,7 @@
           "answer": [
             "It was the manager who approved the budget."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The it-cleft frame is “It + was + emphasized element + who/that,” not “It + emphasized element + was.”"
         },
         {
           "id": "emphatic-and-stylistic-structures-c5",
@@ -259,7 +259,7 @@
           "answer": [
             "What surprised us was the ending of the film."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Use “was” directly — don't duplicate the subject with a contracted “it was.”"
         },
         {
           "id": "emphatic-and-stylistic-structures-c6",
@@ -267,7 +267,7 @@
           "answer": [
             "It was not the price but the way it was handled that bothered me."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "A negative contrast (“not X but Y”) needs both halves stated, not a vague “the thing that.”"
         }
       ]
     },

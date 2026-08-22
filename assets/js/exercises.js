@@ -9,7 +9,10 @@
  *
  * Supported "type" values:
  *   multiple-choice, true-false, fill-blank, matching, ordering,
- *   correction, typing, reading-comprehension, vocabulary
+ *   correction, typing, reading-comprehension, vocabulary, writing
+ *   ("writing" is self-check only, handled separately -- see the
+ *   dedicated `data.type === "writing"` branches below rather than
+ *   the `renderers` table used by every other type.)
  *
  * Contract
  * --------

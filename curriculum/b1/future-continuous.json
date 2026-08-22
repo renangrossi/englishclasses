@@ -2,12 +2,15 @@
   "id": "b1-future-continuous",
   "level": "B1",
   "unit": "3",
-  "order": 1,
+  "order": 2,
   "skill": "grammar",
   "strand": "future-tenses",
   "title": "Future Continuous",
   "subtitle": "Say what will already be in progress at a specific future moment.",
-  "prerequisites": ["a1-present-continuous-i", "b1-future-forms-will-going-to"],
+  "prerequisites": [
+    "a1-present-continuous-i",
+    "b1-future-forms-will-going-to"
+  ],
   "objectives": [
     "Form the future continuous (will be + -ing)",
     "Use it for an action in progress at a specific future time",
@@ -38,32 +41,114 @@
       "By this time next year, he will be living abroad."
     ],
     "commonMistakes": [
-      { "wrong": "This time tomorrow, I will flying to New York.", "right": "This time tomorrow, I will be flying to New York.", "why": "The future continuous needs \"be\" before the -ing verb." },
-      { "wrong": "She will be work late tonight.", "right": "She will be working late tonight.", "why": "After \"will be,\" the verb needs the -ing form, not the base form." },
-      { "wrong": "At 8pm, we will having dinner.", "right": "At 8pm, we will be having dinner.", "why": "\"Will\" and the -ing form always need \"be\" between them." }
+      {
+        "wrong": "This time tomorrow, I will flying to New York.",
+        "right": "This time tomorrow, I will be flying to New York.",
+        "why": "The future continuous needs \"be\" before the -ing verb."
+      },
+      {
+        "wrong": "She will be work late tonight.",
+        "right": "She will be working late tonight.",
+        "why": "After \"will be,\" the verb needs the -ing form, not the base form."
+      },
+      {
+        "wrong": "At 8pm, we will having dinner.",
+        "right": "At 8pm, we will be having dinner.",
+        "why": "\"Will\" and the -ing form always need \"be\" between them."
+      }
     ]
   },
   "exercises": [
     {
-      "id": "b1fc-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
+      "id": "b1fc-gapfill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
       "items": [
-        { "id": "b1fc1", "prompt": "This time tomorrow, I ___ (fly) to New York.", "answers": [["will be flying"]], "explanation": "will be + verb-ing." },
-        { "id": "b1fc2", "prompt": "At 8pm, we ___ (have) dinner.", "answers": [["will be having"]], "explanation": "will be + having." },
-        { "id": "b1fc3", "prompt": "___ you ___ (come) to the meeting?", "answers": [["Will"], ["be coming"]], "explanation": "Question form: Will + subject + be + -ing." }
+        {
+          "id": "b1fc1",
+          "prompt": "This time tomorrow, I ___ (fly) to New York.",
+          "answers": [
+            [
+              "will be flying"
+            ]
+          ],
+          "explanation": "will be + verb-ing."
+        },
+        {
+          "id": "b1fc2",
+          "prompt": "At 8pm, we ___ (have) dinner.",
+          "answers": [
+            [
+              "will be having"
+            ]
+          ],
+          "explanation": "will be + having."
+        },
+        {
+          "id": "b1fc3",
+          "prompt": "___ you ___ (come) to the meeting?",
+          "answers": [
+            [
+              "Will"
+            ],
+            [
+              "be coming"
+            ]
+          ],
+          "explanation": "Question form: Will + subject + be + -ing."
+        }
       ]
     },
     {
-      "id": "b1fc-mc", "type": "multiple-choice", "title": "Choose the Correct Answer",
+      "id": "b1fc-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Answer",
       "items": [
-        { "id": "b1fc4", "prompt": "By this time next year, he ___ abroad.", "options": ["will live", "will be living", "lives"], "answerIndex": 1, "explanation": "An action in progress at a specific future point — future continuous." },
-        { "id": "b1fc5", "prompt": "___ you using the car tonight?", "options": ["Will be", "Will", "Are"], "answerIndex": 1, "explanation": "Question form: Will + subject + be + -ing (\"Will\" comes first, before the subject)." }
+        {
+          "id": "b1fc4",
+          "prompt": "By this time next year, he ___ abroad.",
+          "options": [
+            "will live",
+            "will be living",
+            "lives"
+          ],
+          "answerIndex": 1,
+          "explanation": "An action in progress at a specific future point — future continuous."
+        },
+        {
+          "id": "b1fc5",
+          "prompt": "___ you using the car tonight?",
+          "options": [
+            "Will be",
+            "Will",
+            "Are"
+          ],
+          "answerIndex": 1,
+          "explanation": "Question form: Will + subject + be + -ing (\"Will\" comes first, before the subject)."
+        }
       ]
     },
     {
-      "id": "b1fc-correction", "type": "correction", "title": "Correct the Mistakes",
+      "id": "b1fc-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
       "items": [
-        { "id": "b1fc6", "incorrect": "They will traveling all week.", "answer": ["They will be traveling all week."], "explanation": "The future continuous needs \"be\" before the -ing form." },
-        { "id": "b1fc7", "incorrect": "She will be work late tonight.", "answer": ["She will be working late tonight."], "explanation": "After \"will be,\" use the -ing form, not the base form." }
+        {
+          "id": "b1fc6",
+          "incorrect": "They will traveling all week.",
+          "answer": [
+            "They will be traveling all week."
+          ],
+          "explanation": "The future continuous needs \"be\" before the -ing form."
+        },
+        {
+          "id": "b1fc7",
+          "incorrect": "She will be work late tonight.",
+          "answer": [
+            "She will be working late tonight."
+          ],
+          "explanation": "After \"will be,\" use the -ing form, not the base form."
+        }
       ]
     }
   ],
@@ -73,5 +158,8 @@
     "Also useful for polite questions about someone's plans."
   ],
   "related": [],
-  "sourceMaterial": { "docx": "cefr/b1-intermediate/k-future-continuous.docx", "pdf": "cefr/b1-intermediate/k-future-continuous.pdf" }
+  "sourceMaterial": {
+    "docx": "cefr/b1-intermediate/k-future-continuous.docx",
+    "pdf": "cefr/b1-intermediate/k-future-continuous.pdf"
+  }
 }

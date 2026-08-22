@@ -91,7 +91,7 @@
               "sitting"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "A reduced relative clause for an active meaning (the man himself sits) drops “who is” and keeps the -ing form."
         },
         {
           "id": "complex-noun-phrases-a2",
@@ -101,7 +101,7 @@
               "taken"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "A reduced relative clause for a passive meaning (the photos were taken) drops “that were” and keeps the past participle."
         },
         {
           "id": "complex-noun-phrases-a3",
@@ -111,7 +111,7 @@
               "working"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Active meaning (the employees themselves work) needs the -ing form."
         },
         {
           "id": "complex-noun-phrases-a4",
@@ -121,7 +121,7 @@
               "built"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Passive meaning (the bridge was built) needs the past participle."
         },
         {
           "id": "complex-noun-phrases-a5",
@@ -131,7 +131,7 @@
               "interested"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Interested” functions here as a reduced passive participle (anyone who is interested)."
         },
         {
           "id": "complex-noun-phrases-a6",
@@ -141,7 +141,7 @@
               "sent"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Passive meaning (the letter was sent) needs the past participle."
         },
         {
           "id": "complex-noun-phrases-a7",
@@ -151,7 +151,7 @@
               "studying"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Active meaning (the students themselves study) needs the -ing form."
         },
         {
           "id": "complex-noun-phrases-a8",
@@ -161,7 +161,7 @@
               "parked"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Passive meaning (the car was parked) needs the past participle."
         }
       ]
     },
@@ -177,7 +177,7 @@
           "answer": [
             "The city's decision to build a new stadium was welcomed by residents."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Decide” becomes the noun “decision” — nominalization turns the verb into the sentence's subject."
         },
         {
           "id": "complex-noun-phrases-b2",
@@ -185,7 +185,7 @@
           "answer": [
             "Their failure to reach an agreement frustrated everyone."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Fail” becomes the noun “failure.”"
         },
         {
           "id": "complex-noun-phrases-b3",
@@ -193,7 +193,7 @@
           "answer": [
             "His frequent absence concerned his teachers."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Absent” (adjective) becomes the noun “absence,” following possessive + adjective order: his frequent absence."
         },
         {
           "id": "complex-noun-phrases-b4",
@@ -201,7 +201,7 @@
           "answer": [
             "Her quick promotion surprised her colleagues."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Promoted” becomes the noun “promotion,” following possessive + adjective order: her quick promotion."
         },
         {
           "id": "complex-noun-phrases-b5",
@@ -209,7 +209,7 @@
           "answer": [
             "The sudden increase in prices shocked consumers."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Increased” becomes the noun “increase,” needing “in” before the following noun: increase in prices."
         },
         {
           "id": "complex-noun-phrases-b6",
@@ -217,7 +217,7 @@
           "answer": [
             "Their refusal to comment raised suspicion."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Refuse” becomes the noun “refusal.”"
         }
       ]
     },
@@ -232,7 +232,7 @@
           "answer": [
             "The team led by Maria won the award."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "A reduced relative clause for a passive meaning (the team was led) needs the past participle “led,” not “leading.”"
         },
         {
           "id": "complex-noun-phrases-c2",
@@ -240,7 +240,7 @@
           "answer": [
             "The novel written by an unknown author became a bestseller."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Passive meaning (the novel was written) needs the past participle “written,” not the past simple “wrote.”"
         },
         {
           "id": "complex-noun-phrases-c3",
@@ -248,7 +248,7 @@
           "answer": [
             "His refusal to apologize made things worse."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Nominalization needs the noun form “refusal,” not the bare verb “refuse.”"
         },
         {
           "id": "complex-noun-phrases-c4",
@@ -256,7 +256,7 @@
           "answer": [
             "The workers affected by the strike stayed home."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Passive meaning (the workers were affected) needs the past participle “affected,” not “affecting.”"
         },
         {
           "id": "complex-noun-phrases-c5",
@@ -264,7 +264,7 @@
           "answer": [
             "The results announced yesterday shocked everyone."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Passive meaning (the results were announced) needs the past participle “announced,” not “announcing.”"
         },
         {
           "id": "complex-noun-phrases-c6",
@@ -272,7 +272,7 @@
           "answer": [
             "Her improvement in performance was noticeable."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Nominalization needs the noun form “improvement,” not the bare verb “improve.”"
         }
       ]
     },

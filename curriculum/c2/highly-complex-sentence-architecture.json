@@ -84,17 +84,18 @@
               "which"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Non-defining relative clause (marked by commas) referring to a thing (“theory”) — always “which,” never “that.”"
         },
         {
           "id": "highly-complex-sentence-architecture-a2",
-          "prompt": "The report ___ she submitted last week contained several errors. (defining, no comma)",
+          "prompt": "The report ___ she submitted last week contained several errors. (defining, no comma — leave blank, or use “that”)",
           "answers": [
             [
-              "(no relative pronoun needed; \"that\" also acceptable: that she submitted last week)"
+              "",
+              "that"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "In a defining relative clause, the pronoun can be dropped when it's the object of its own clause (“the report she submitted”), or you can keep “that.”"
         },
         {
           "id": "highly-complex-sentence-architecture-a3",
@@ -104,18 +105,18 @@
               "which"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Same non-defining pattern: a comma-set-off clause referring to a thing (“argument”) needs “which,” not “that.”"
         },
         {
           "id": "highly-complex-sentence-architecture-a4",
-          "prompt": "The findings ___ the team published were later called into question.",
+          "prompt": "The findings ___ the team published were later called into question. (leave blank, or use “that”)",
           "answers": [
             [
-              "(no relative pronoun needed",
-              "that)"
+              "",
+              "that"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Same object-relative-pronoun omission as above: “findings” is the object of “published,” so the pronoun is optional (or use “that”)."
         },
         {
           "id": "highly-complex-sentence-architecture-a5",
@@ -125,7 +126,7 @@
               "which"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Non-defining again — “which” is required here and can never be omitted, whether it's the subject or object of its own clause."
         }
       ]
     },
@@ -138,34 +139,22 @@
         {
           "id": "highly-complex-sentence-architecture-b1",
           "prompt": "The plan was risky. Everyone knew this. The board approved it anyway. (use a fronted concessive clause)",
-          "answer": [
-            "Although the plan was risky, and everyone knew this, the board approved it anyway."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "Although the plan was risky, and everyone knew this, the board approved it anyway."
         },
         {
           "id": "highly-complex-sentence-architecture-b2",
           "prompt": "Trust in institutions has declined. This is a trend across many countries. It worries sociologists. (embed the second sentence as a non-defining relative clause / appositive)",
-          "answer": [
-            "Trust in institutions has declined, a trend observed across many countries, worrying sociologists. (or: ...a trend across many countries that worries sociologists.)"
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "Trust in institutions has declined, a trend observed across many countries, worrying sociologists. (or: ...a trend across many countries that worries sociologists.)"
         },
         {
           "id": "highly-complex-sentence-architecture-b3",
           "prompt": "The scientists reviewed the data. The data had been collected over ten years. They reached a surprising conclusion. (use a participle clause + embedded relative clause)",
-          "answer": [
-            "Having reviewed data collected over ten years, the scientists reached a surprising conclusion."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "Having reviewed data collected over ten years, the scientists reached a surprising conclusion."
         },
         {
           "id": "highly-complex-sentence-architecture-b4",
           "prompt": "Nobody expected the merger to succeed. It succeeded anyway. This surprised the entire industry. (use a \"that\" nominal clause as the subject: \"That...\")",
-          "answer": [
-            "That nobody expected the merger to succeed, and yet it did, surprised the entire industry. (or: That the merger succeeded despite nobody expecting it surprised the entire industry.)"
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "That nobody expected the merger to succeed, and yet it did, surprised the entire industry. (or: That the merger succeeded despite nobody expecting it surprised the entire industry.)"
         }
       ]
     },
@@ -180,7 +169,7 @@
           "answer": [
             "The proposal, which had taken months to draft, was rejected in minutes."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Non-defining relative clauses (set off by commas) need “which” for things, never “that.”"
         },
         {
           "id": "highly-complex-sentence-architecture-c2",
@@ -188,7 +177,7 @@
           "answer": [
             "Although the evidence was strong, the jury hesitated."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Although” already introduces the contrast — don't also add “but”; use one or the other, not both."
         },
         {
           "id": "highly-complex-sentence-architecture-c3",
@@ -196,7 +185,7 @@
           "answer": [
             "Having finished the analysis, the team presented the results."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The subject right after a participle clause must be the one performing that action — here, the team, not the results."
         },
         {
           "id": "highly-complex-sentence-architecture-c4",
@@ -204,7 +193,7 @@
           "answer": [
             "The decline, which experts had predicted for years, finally arrived."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Same rule as above: a comma-separated non-defining clause referring to a thing needs “which,” not “that.”"
         },
         {
           "id": "highly-complex-sentence-architecture-c5",
@@ -212,7 +201,7 @@
           "answer": [
             "What seemed impossible at first became routine within months."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "A fronted “what”-clause acting as the subject takes no comma before the main verb, and doesn't need a redundant “it” repeating the subject."
         },
         {
           "id": "highly-complex-sentence-architecture-c6",
@@ -220,7 +209,7 @@
           "answer": [
             "The scandal, which destroyed his career, was never fully explained."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Don't repeat the subject with “it” once “which” is already doing that job as the clause's subject."
         }
       ]
     },

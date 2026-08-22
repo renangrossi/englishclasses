@@ -48,6 +48,11 @@
       "ty": "basic-greetings-and-introductions"
     },
     {
+      "slug": "to-be-am-is-are",
+      "title": "To Be (Am, Is, Are)",
+      "ty": "to-be-am-is-are"
+    },
+    {
       "slug": "numbers-cardinal-and-ordinal",
       "title": "Numbers (Cardinal and Ordinal)",
       "ty": "numbers-cardinal-and-ordinal"
@@ -58,9 +63,14 @@
       "ty": "subject-and-object-pronouns"
     },
     {
-      "slug": "possessive-pronouns-with-subject-object-review",
-      "title": "Possessive Pronouns (with Subject & Object Review)",
-      "ty": "possessive-pronouns-with-subject-object-review"
+      "slug": "simple-present-i",
+      "title": "Simple Present I",
+      "ty": "simple-present-i"
+    },
+    {
+      "slug": "nouns",
+      "title": "Nouns",
+      "ty": "nouns"
     },
     {
       "slug": "articles-a-an-the",
@@ -73,14 +83,19 @@
       "ty": "demonstrative-pronouns"
     },
     {
-      "slug": "nouns",
-      "title": "Nouns",
-      "ty": "nouns"
+      "slug": "possessive-pronouns-with-subject-object-review",
+      "title": "Possessive Pronouns (with Subject & Object Review)",
+      "ty": "possessive-pronouns-with-subject-object-review"
     },
     {
       "slug": "adjectives",
       "title": "Adjectives",
       "ty": "adjectives"
+    },
+    {
+      "slug": "have-has",
+      "title": "Have / Has",
+      "ty": "have-has"
     },
     {
       "slug": "prepositions-of-place-and-time",
@@ -91,21 +106,6 @@
       "slug": "conjunctions-and-but-or",
       "title": "Conjunctions: And, But, Or",
       "ty": "conjunctions-and-but-or"
-    },
-    {
-      "slug": "to-be-am-is-are",
-      "title": "To Be (Am, Is, Are)",
-      "ty": "to-be-am-is-are"
-    },
-    {
-      "slug": "simple-present-i",
-      "title": "Simple Present I",
-      "ty": "simple-present-i"
-    },
-    {
-      "slug": "have-has",
-      "title": "Have / Has",
-      "ty": "have-has"
     },
     {
       "slug": "yes-no-questions",
@@ -128,6 +128,11 @@
       "ty": "present-continuous-i"
     },
     {
+      "slug": "imperatives",
+      "title": "Imperatives",
+      "ty": "imperatives"
+    },
+    {
       "slug": "imperatives-review-and-expand",
       "title": "Imperatives (Review and Expand)",
       "ty": "imperatives-review-and-expand"
@@ -136,11 +141,6 @@
       "slug": "possessive-pronouns",
       "title": "Possessive Pronouns",
       "ty": "possessive-pronouns"
-    },
-    {
-      "slug": "imperatives",
-      "title": "Imperatives",
-      "ty": "imperatives"
     }
   ],
   "a2": [
@@ -237,6 +237,11 @@
       "ty": "past-simple-vs-present-perfect-ii"
     },
     {
+      "slug": "future-forms-will-going-to",
+      "title": "Future Forms: Will vs. Going To",
+      "ty": "future-forms-will-going-to"
+    },
+    {
       "slug": "future-continuous",
       "title": "Future Continuous",
       "ty": "future-continuous"
@@ -265,11 +270,6 @@
       "slug": "second-and-third-conditionals",
       "title": "Second & Third Conditionals",
       "ty": "2nd-and-3rd-conditionals"
-    },
-    {
-      "slug": "future-forms-will-going-to",
-      "title": "Future Forms: Will vs. Going To",
-      "ty": "future-forms-will-going-to"
     },
     {
       "slug": "passive-voice",

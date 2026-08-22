@@ -86,7 +86,7 @@
               "was about to leave"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Was about to” + bare infinitive shows something on the brink of happening, interrupted here by the lights going out."
         },
         {
           "id": "future-forms-with-nuance-a2",
@@ -96,7 +96,7 @@
               "would change"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Future-in-the-past “would” reports what was still to come, viewed from her past perspective."
         },
         {
           "id": "future-forms-with-nuance-a3",
@@ -106,7 +106,7 @@
               "were going to visit"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Were going to” signals a plan that didn't happen (the museum was closed)."
         },
         {
           "id": "future-forms-with-nuance-a4",
@@ -116,7 +116,7 @@
               "would become"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Would” (future-in-the-past) narrates an inevitable future event, without any sense of failure."
         },
         {
           "id": "future-forms-with-nuance-a5",
@@ -126,7 +126,7 @@
               "was going to call"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Was going to” signals an unfulfilled plan — the phone died first."
         },
         {
           "id": "future-forms-with-nuance-a6",
@@ -136,7 +136,7 @@
               "would write"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Inside a past narrative, a promised future action needs “would,” not “will.”"
         },
         {
           "id": "future-forms-with-nuance-a7",
@@ -146,7 +146,7 @@
               "was about to open"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Was about to” + bare infinitive marks the interrupted moment, right as the phone rang."
         },
         {
           "id": "future-forms-with-nuance-a8",
@@ -156,7 +156,7 @@
               "were going to get married"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Were going to” signals a plan that changed — the wedding was postponed."
         }
       ]
     },
@@ -172,7 +172,7 @@
           "answer": [
             "He was going to open a restaurant, but he never did."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Was going to” + bare infinitive reports an unfulfilled plan."
         },
         {
           "id": "future-forms-with-nuance-b2",
@@ -180,7 +180,7 @@
           "answer": [
             "At the time, nobody knew that the invention would change the world."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Would” (future-in-the-past) reports what was still to come, from a past vantage point."
         },
         {
           "id": "future-forms-with-nuance-b3",
@@ -188,7 +188,7 @@
           "answer": [
             "I was about to leave when I heard the news."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Was about to” + bare infinitive replaces “on the verge of” for an interrupted moment."
         },
         {
           "id": "future-forms-with-nuance-b4",
@@ -196,7 +196,7 @@
           "answer": [
             "It was later revealed that the two rivals were to become close friends."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Were to” (formal/literary) reports an event later revealed as fated or destined."
         },
         {
           "id": "future-forms-with-nuance-b5",
@@ -204,7 +204,7 @@
           "answer": [
             "She was going to quit her job that year, but she got a promotion instead."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Was going to” + bare infinitive reports a plan that changed."
         },
         {
           "id": "future-forms-with-nuance-b6",
@@ -212,7 +212,7 @@
           "answer": [
             "We were about to sign the contract when the deal collapsed."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Were about to” + bare infinitive replaces “on the point of” for an interrupted moment."
         }
       ]
     },
@@ -227,7 +227,7 @@
           "answer": [
             "She was going to visit her grandmother, but it snowed all week."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Was going to” is always followed by the bare infinitive “visit,” not the past form “visited.”"
         },
         {
           "id": "future-forms-with-nuance-c2",
@@ -235,7 +235,7 @@
           "answer": [
             "He didn't realize that this mistake would cost him his job."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Inside a past narrative, future-in-the-past needs “would,” not “will.”"
         },
         {
           "id": "future-forms-with-nuance-c3",
@@ -243,7 +243,7 @@
           "answer": [
             "I was about to leave when the taxi arrived."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Subject-verb agreement: “I” needs “was,” not “were.”"
         },
         {
           "id": "future-forms-with-nuance-c4",
@@ -251,7 +251,7 @@
           "answer": [
             "The general, then a young soldier, was to become a national symbol."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Was/were to” + bare infinitive doesn't take a gerund: “was to become,” not “was to becoming.”"
         },
         {
           "id": "future-forms-with-nuance-c5",
@@ -259,7 +259,7 @@
           "answer": [
             "They were going to cancel the trip."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Subject-verb agreement: “they” needs “were,” not “was.”"
         },
         {
           "id": "future-forms-with-nuance-c6",
@@ -267,7 +267,7 @@
           "answer": [
             "As I was about to sign the form, I noticed the error."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Was about to” takes the bare infinitive “sign,” not the gerund “signing.”"
         }
       ]
     },

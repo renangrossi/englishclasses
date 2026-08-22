@@ -86,7 +86,7 @@
               "must have left"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The smell is strong evidence — confident deduction needs “must have.”"
         },
         {
           "id": "modality-with-nuance-a2",
@@ -96,7 +96,7 @@
               "needn't have bought"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Buying too much turned out to be unnecessary — “needn't have.”"
         },
         {
           "id": "modality-with-nuance-a3",
@@ -106,7 +106,7 @@
               "can't have seen"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "She never checks that inbox — confident denial needs “can't have.”"
         },
         {
           "id": "modality-with-nuance-a4",
@@ -116,7 +116,7 @@
               "could have taken"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The earlier train was possible but wasn't chosen — critical “could have.”"
         },
         {
           "id": "modality-with-nuance-a5",
@@ -126,7 +126,7 @@
               "should have studied"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Regret about a missed ideal action needs “should have.”"
         },
         {
           "id": "modality-with-nuance-a6",
@@ -136,7 +136,7 @@
               "must have forgotten"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The umbrella is still there — confident deduction needs “must have.”"
         },
         {
           "id": "modality-with-nuance-a7",
@@ -146,7 +146,7 @@
               "shouldn't have spoken"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "A wrong action that did happen needs “shouldn't have.”"
         },
         {
           "id": "modality-with-nuance-a8",
@@ -156,7 +156,7 @@
               "might have misunderstood"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "This is only a possibility, not a certainty — “might have.”"
         },
         {
           "id": "modality-with-nuance-a9",
@@ -166,7 +166,7 @@
               "can't have known"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Her genuine shock is evidence against knowing — “can't have.”"
         },
         {
           "id": "modality-with-nuance-a10",
@@ -176,7 +176,7 @@
               "needn't have brought"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The jacket turned out to be unnecessary — “needn't have.”"
         }
       ]
     },
@@ -192,7 +192,7 @@
           "answer": [
             "He must have forgotten the appointment."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“I'm almost certain” = confident deduction, so “must have.”"
         },
         {
           "id": "modality-with-nuance-b2",
@@ -200,7 +200,7 @@
           "answer": [
             "She might have missed the announcement."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“It's possible” = uncertain speculation, so “might have.”"
         },
         {
           "id": "modality-with-nuance-b3",
@@ -208,7 +208,7 @@
           "answer": [
             "You shouldn't have ignored her advice."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“It was wrong of you” = criticism of a completed action, so “shouldn't have.”"
         },
         {
           "id": "modality-with-nuance-b4",
@@ -216,7 +216,7 @@
           "answer": [
             "They can't have seen the sign; it was hidden by a tree."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“I'm sure they didn't” = confident denial, so “can't have.”"
         },
         {
           "id": "modality-with-nuance-b5",
@@ -224,7 +224,7 @@
           "answer": [
             "We should have booked earlier."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“It would have been better if” = regret about a missed ideal action, so “should have.”"
         },
         {
           "id": "modality-with-nuance-b6",
@@ -232,7 +232,7 @@
           "answer": [
             "You needn't have apologized."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“It wasn't necessary” = an unnecessary action, so “needn't have.”"
         },
         {
           "id": "modality-with-nuance-b7",
@@ -240,7 +240,7 @@
           "answer": [
             "He can't have been lying."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“I'm confident” = confident denial of the opposite, so “can't have been.”"
         }
       ]
     },
@@ -255,7 +255,7 @@
           "answer": [
             "She must have missed the bus."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Modal perfect never takes “to” — it's modal + have + past participle."
         },
         {
           "id": "modality-with-nuance-c2",
@@ -263,7 +263,7 @@
           "answer": [
             "You shouldn't have ignored his advice."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The negative goes on the modal itself (“shouldn't”), not before the past participle."
         },
         {
           "id": "modality-with-nuance-c3",
@@ -271,7 +271,7 @@
           "answer": [
             "He can't have forgotten the password."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "After a modal, always use the bare form “have,” never “has.”"
         },
         {
           "id": "modality-with-nuance-c4",
@@ -279,7 +279,7 @@
           "answer": [
             "I could have helped if you had told me sooner."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Could have” needs “have” — “could helped” isn't a valid modal perfect form."
         },
         {
           "id": "modality-with-nuance-c5",
@@ -287,7 +287,7 @@
           "answer": [
             "They needn't have worried about the cost."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Needn't have” is followed directly by the past participle, not “to + verb.”"
         },
         {
           "id": "modality-with-nuance-c6",
@@ -295,7 +295,7 @@
           "answer": [
             "We might have known about it earlier."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Might have” needs the past participle “known,” not the past simple “knew.”"
         }
       ]
     },

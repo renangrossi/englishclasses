@@ -85,7 +85,7 @@
               "Nevertheless"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Nevertheless” introduces a point that holds despite what was just said."
         },
         {
           "id": "advanced-discourse-devices-a2",
@@ -95,7 +95,7 @@
               "Notwithstanding"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Notwithstanding” + noun phrase (no preposition) expresses contrast formally."
         },
         {
           "id": "advanced-discourse-devices-a3",
@@ -105,7 +105,7 @@
               "insofar as"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Insofar as” (= to the extent that) qualifies how far the claim holds."
         },
         {
           "id": "advanced-discourse-devices-a4",
@@ -115,7 +115,7 @@
               "Conversely"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Conversely” introduces a contrasting point using parallel logic."
         },
         {
           "id": "advanced-discourse-devices-a5",
@@ -125,7 +125,7 @@
               "Moreover"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Moreover” adds a stronger supporting point."
         },
         {
           "id": "advanced-discourse-devices-a6",
@@ -135,7 +135,7 @@
               "That said"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“That said” acknowledges the flaw before pivoting to a further point."
         }
       ]
     },
@@ -151,7 +151,7 @@
           "answer": [
             "The theory is elegant; nevertheless, it lacks solid evidence."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Nevertheless” needs a full stop or semicolon before it, and a comma after."
         },
         {
           "id": "advanced-discourse-devices-b2",
@@ -159,7 +159,7 @@
           "answer": [
             "Costs are high. Moreover, the project is behind schedule."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Moreover” introduces a new independent point as its own sentence."
         },
         {
           "id": "advanced-discourse-devices-b3",
@@ -167,7 +167,7 @@
           "answer": [
             "Notwithstanding strong opposition, the bill passed."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Notwithstanding” + noun phrase replaces the whole first sentence when fronted."
         },
         {
           "id": "advanced-discourse-devices-b4",
@@ -175,7 +175,7 @@
           "answer": [
             "The policy reduced unemployment insofar as it did so in urban areas."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Insofar as” + clause qualifies the extent of the first claim."
         },
         {
           "id": "advanced-discourse-devices-b5",
@@ -183,7 +183,7 @@
           "answer": [
             "Large firms struggled with the new tax. Conversely, small firms actually benefited."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Conversely” introduces the contrasting second fact as its own sentence."
         }
       ]
     },
@@ -198,7 +198,7 @@
           "answer": [
             "Notwithstanding the delays, the project finished on time."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Notwithstanding” is followed directly by a noun phrase — no preposition (“of”) is needed."
         },
         {
           "id": "advanced-discourse-devices-c2",
@@ -206,7 +206,7 @@
           "answer": [
             "The plan is flawed; nevertheless, we should still consider it."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Nevertheless” is a discourse adverb, not a conjunction — it needs a full stop or semicolon before it."
         },
         {
           "id": "advanced-discourse-devices-c3",
@@ -214,7 +214,7 @@
           "answer": [
             "It worked insofar as it met the short-term goal."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The full connector is “insofar as,” never “insofar” alone."
         },
         {
           "id": "advanced-discourse-devices-c4",
@@ -223,23 +223,23 @@
             "In addition to these issues, there is the question of cost.",
             "Moreover, there is the question of cost."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Moreover” doesn't take an object with “of” — it introduces a new independent point."
         },
         {
           "id": "advanced-discourse-devices-c5",
           "incorrect": "That said however, the results were still impressive.",
           "answer": [
-            "That said, the results were still impressive. (remove \"however\")"
+            "That said, the results were still impressive."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“That said” already signals a pivot — pairing it with “however” stacks two contrast markers."
         },
         {
           "id": "advanced-discourse-devices-c6",
           "incorrect": "By the same token but, we must reconsider the whole approach.",
           "answer": [
-            "By the same token, we must reconsider the whole approach. (remove \"but\")"
+            "By the same token, we must reconsider the whole approach."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“By the same token” extends the same logic; pairing it with “but” sends a contradictory signal."
         }
       ]
     },

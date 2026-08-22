@@ -86,28 +86,28 @@
               "does"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Does too” substitutes for “plays the guitar too” — no need to repeat the verb phrase."
         },
         {
           "id": "complex-ellipsis-and-substitution-a2",
           "prompt": "She hasn't finished the report, but she ___ by Friday.",
           "answers": [
             [
-              "will (or: will have finished)"
+              "will",
+              "will have finished"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The bare auxiliary “will” (or “will have finished”) stands in for the whole verb phrase, avoiding repetition."
         },
         {
           "id": "complex-ellipsis-and-substitution-a3",
           "prompt": "___ waiting for the results, they kept refreshing the page.",
           "answers": [
             [
-              "While (with subject",
-              "auxiliary omitted: While waiting for...)"
+              "While"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Omitting the subject and auxiliary after “while” (While [they were] waiting) is standard when the subject matches the main clause."
         },
         {
           "id": "complex-ellipsis-and-substitution-a4",
@@ -117,18 +117,18 @@
               "one"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Indefinite “one” substitutes for an unspecified item (any chair, not a specific one)."
         },
         {
           "id": "complex-ellipsis-and-substitution-a5",
           "prompt": "The plan worked in the first city; it ___ in the second.",
           "answers": [
             [
-              "did (also worked",
-              "did so)"
+              "did",
+              "did so"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The bare auxiliary “did” (or “did so”) substitutes for “worked,” avoiding repetition."
         },
         {
           "id": "complex-ellipsis-and-substitution-a6",
@@ -138,7 +138,7 @@
               "did"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Did” substitutes for the whole action (waited), already clear from context."
         },
         {
           "id": "complex-ellipsis-and-substitution-a7",
@@ -148,18 +148,18 @@
               "others"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Others” substitutes for “other people” in this contrastive parallel structure."
         },
         {
           "id": "complex-ellipsis-and-substitution-a8",
           "prompt": "The book ___ you recommended was excellent.",
           "answers": [
             [
-              "— (that",
-              "which omitted: The book you recommended...)"
+              "—",
+              ""
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The relative pronoun “that/which” can be dropped entirely in a defining clause — that's what the em-dash marks."
         }
       ]
     },
@@ -173,9 +173,10 @@
           "id": "complex-ellipsis-and-substitution-b1",
           "prompt": "My father can cook well. My mother can cook well too.",
           "answer": [
-            "My father can cook well, and so can my mother. / ...and my mother can too."
+            "My father can cook well, and so can my mother.",
+            "My father can cook well, and my mother can too."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“So can” (or “can too”) substitutes for the repeated verb phrase “can cook well.”"
         },
         {
           "id": "complex-ellipsis-and-substitution-b2",
@@ -183,7 +184,7 @@
           "answer": [
             "He hasn't decided yet, but he will soon."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "The bare auxiliary “will” substitutes for “will decide,” avoiding repetition."
         },
         {
           "id": "complex-ellipsis-and-substitution-b3",
@@ -191,7 +192,7 @@
           "answer": [
             "She was reading while waiting for the train."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "Omitting the repeated subject + auxiliary (“she was”) after “while” tightens the sentence."
         },
         {
           "id": "complex-ellipsis-and-substitution-b4",
@@ -199,7 +200,7 @@
           "answer": [
             "The first experiment succeeded, and so did the second."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“So did” substitutes for the repeated verb phrase “succeeded.”"
         },
         {
           "id": "complex-ellipsis-and-substitution-b5",
@@ -207,7 +208,7 @@
           "answer": [
             "If you want a coffee, take one from the machine."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "Indefinite “one” substitutes for “a coffee,” avoiding the repeated noun."
         },
         {
           "id": "complex-ellipsis-and-substitution-b6",
@@ -215,7 +216,7 @@
           "answer": [
             "He told me to relax, and I did."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Did” substitutes for the whole action (relaxed), already clear from context."
         }
       ]
     },
@@ -230,7 +231,7 @@
           "answer": [
             "She likes hiking, and her friend does too."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Does too” already functions as the substitute verb phrase — adding “it” creates redundancy."
         },
         {
           "id": "complex-ellipsis-and-substitution-c2",
@@ -239,7 +240,7 @@
             "While cooking, she was listening to music.",
             "While she was cooking, she was listening to music."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "If you omit the subject after “while,” you must also omit the auxiliary (“was”) — ellipsis applies to both together."
         },
         {
           "id": "complex-ellipsis-and-substitution-c3",
@@ -247,7 +248,7 @@
           "answer": [
             "He asked me to stop, and I did so."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Did so” already replaces the whole verb phrase — don't add another object (“it”) after it."
         },
         {
           "id": "complex-ellipsis-and-substitution-c4",
@@ -255,7 +256,7 @@
           "answer": [
             "If you need a towel, take one from the shelf."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“One” (indefinite substitution) is for an unspecified item; “the one” implies something already identified."
         },
         {
           "id": "complex-ellipsis-and-substitution-c5",
@@ -264,7 +265,7 @@
             "He hasn't replied yet, but he will soon.",
             "...but he will do so tomorrow."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Use the bare auxiliary or “do so,” not “will do it,” which is redundant here."
         },
         {
           "id": "complex-ellipsis-and-substitution-c6",
@@ -272,7 +273,7 @@
           "answer": [
             "The first plan failed; the second did the same."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Did the same” already replaces the whole action — don't add another object (“it”) after it."
         }
       ]
     },

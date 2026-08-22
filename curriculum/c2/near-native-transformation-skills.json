@@ -84,7 +84,7 @@
               "were made"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Passive with no agent named keeps this deliberately vague about who made the errors."
         },
         {
           "id": "near-native-transformation-skills-a2",
@@ -94,7 +94,7 @@
               "failed"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Naming “the intern” as the subject makes this precise and agent-specified, unlike the vague passive above."
         },
         {
           "id": "near-native-transformation-skills-a3",
@@ -104,7 +104,7 @@
               "may have been"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“May” is always followed by “have,” never “had,” in this hedging structure."
         },
         {
           "id": "near-native-transformation-skills-a4",
@@ -115,7 +115,7 @@
               "one may think"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Whatever” + a generic subject (“one”) works with either the simple present or “may” + base verb."
         },
         {
           "id": "near-native-transformation-skills-a5",
@@ -125,7 +125,7 @@
               "rather"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“It is not that X; rather, Y” is the fixed pattern for contrasting an explanation with what's actually true."
         }
       ]
     },
@@ -138,42 +138,27 @@
         {
           "id": "near-native-transformation-skills-b1",
           "prompt": "\"The team worked overtime. They finished the project. It was still late.\" (combine smoothly, preserving contrast)",
-          "answer": [
-            "Although the team worked overtime and managed to finish the project, it was still delivered late."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "Although the team worked overtime and managed to finish the project, it was still delivered late."
         },
         {
           "id": "near-native-transformation-skills-b2",
           "prompt": "\"He made a mistake. Nobody blamed him. Everyone understood the pressure he was under.\" (combine, softening tone)",
-          "answer": [
-            "He made a mistake, but nobody blamed him, given the pressure he had been under."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "He made a mistake, but nobody blamed him, given the pressure he had been under."
         },
         {
           "id": "near-native-transformation-skills-b3",
           "prompt": "\"Costs are rising. We're not sure why. It's a concern for management.\" (combine with appropriate hedging)",
-          "answer": [
-            "Costs have been rising for reasons that remain unclear, which is a growing concern for management."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "Costs have been rising for reasons that remain unclear, which is a growing concern for management."
         },
         {
           "id": "near-native-transformation-skills-b4",
           "prompt": "Rewrite \"You broke the agreement\" to avoid direct blame, using a passive or impersonal structure.",
-          "answer": [
-            "The agreement was not honored. / The terms of the agreement were broken."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "The agreement was not honored. (or: The terms of the agreement were broken.)"
         },
         {
           "id": "near-native-transformation-skills-b5",
           "prompt": "Rewrite \"Old people who drive slowly are annoying\" to remove the ambiguity about who is being described.",
-          "answer": [
-            "Elderly drivers who drive slowly can be frustrating to other road users. (clarifying it's about people who are old and drive slowly, not \"old people\" in general who happen to drive slowly)"
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "Elderly drivers who drive slowly can be frustrating to other road users. (clarifying it's about people who are old and drive slowly, not “old people” in general who happen to drive slowly)"
         }
       ]
     },
@@ -188,7 +173,7 @@
           "answer": [
             "Mistakes were made, and nobody knows why."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Subject-verb agreement: the plural subject “mistakes” needs “were,” not “was” — and “know” needs the third-person -s, “knows.”"
         },
         {
           "id": "near-native-transformation-skills-c2",
@@ -196,7 +181,7 @@
           "answer": [
             "There may have been a delay in the shipment."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "After “may,” always use “have,” never “had.”"
         },
         {
           "id": "near-native-transformation-skills-c3",
@@ -204,15 +189,15 @@
           "answer": [
             "It is not that the plan failed; rather, the market changed."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The “It is not that…; rather, …” pattern needs “that” after “not,” and a semicolon (or period) before “rather.”"
         },
         {
           "id": "near-native-transformation-skills-c4",
           "incorrect": "Flying planes is dangerous. (identify the ambiguity and offer a precise rewrite for \"the act of piloting is dangerous\")",
           "answer": [
-            "Piloting planes can be dangerous. (clarified from the ambiguous \"Flying planes is dangerous\")"
+            "Piloting planes can be dangerous."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Flying planes” is structurally ambiguous (planes that fly, or the act of piloting) — naming the action directly (“piloting”) removes it."
         },
         {
           "id": "near-native-transformation-skills-c5",
@@ -220,7 +205,7 @@
           "answer": [
             "Whatever one thinks, the decision stands."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Third-person -s is still needed after “whatever one”: “one thinks,” not “one think.”"
         },
         {
           "id": "near-native-transformation-skills-c6",
@@ -228,7 +213,7 @@
           "answer": [
             "Sales have dropped; we are investigating now, though there is no clear cause yet."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Comma splices (joining full clauses with only a comma) read as informal at C2 — use a semicolon, period, or connector like “though” instead."
         }
       ]
     },

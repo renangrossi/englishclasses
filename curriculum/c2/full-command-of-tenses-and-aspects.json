@@ -87,7 +87,7 @@
               "used to take"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Would” works here because “take us fishing” is a repeated action, not a state — “used to” also works."
         },
         {
           "id": "full-command-of-tenses-and-aspects-a2",
@@ -97,7 +97,7 @@
               "always complaining"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Continuous + “always” adds a tone of complaint/irritation, not just a neutral habit."
         },
         {
           "id": "full-command-of-tenses-and-aspects-a3",
@@ -107,7 +107,7 @@
               "will already have eaten"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“By the time” + a completed future action needs the future perfect."
         },
         {
           "id": "full-command-of-tenses-and-aspects-a4",
@@ -118,7 +118,7 @@
               "'m standing"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Historic present: switching to the present tense mid-narrative makes a past event feel immediate."
         },
         {
           "id": "full-command-of-tenses-and-aspects-a5",
@@ -128,7 +128,7 @@
               "begins"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The simple present states a fixed schedule or timetable, even for a future event."
         },
         {
           "id": "full-command-of-tenses-and-aspects-a6",
@@ -138,17 +138,17 @@
               "had lived"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The past perfect marks the action that happened before another past action (“moved back”)."
         },
         {
           "id": "full-command-of-tenses-and-aspects-a7",
           "prompt": "As a teenager, I ___ (spend/would) hours reading in my room. (identify if \"would\" fits — rewrite if not)",
           "answers": [
             [
-              "would spend (fits, since \"spend hours reading\" is a repeated action, not a state)"
+              "would spend"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Spend hours reading” is a repeated action, not a state, so “would” fits here (unlike states such as have/be/know)."
         },
         {
           "id": "full-command-of-tenses-and-aspects-a8",
@@ -158,7 +158,7 @@
               "will have been"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "A duration completed by a future point (“by the end of this year … twenty years”) needs the future perfect."
         },
         {
           "id": "full-command-of-tenses-and-aspects-a9",
@@ -169,7 +169,7 @@
               "is constantly changing"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Continuous + “constantly” frames the habit as irritating, not a neutral fact."
         },
         {
           "id": "full-command-of-tenses-and-aspects-a10",
@@ -179,7 +179,7 @@
               "had never realized"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Past perfect gives retrospective distance — looking back from a later point at an earlier lack of understanding."
         }
       ]
     },
@@ -192,42 +192,27 @@
         {
           "id": "full-command-of-tenses-and-aspects-b1",
           "prompt": "My uncle told stories every evening. (rewrite with \"would\" for habitual past narrative)",
-          "answer": [
-            "My uncle would tell stories every evening."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "My uncle would tell stories every evening."
         },
         {
           "id": "full-command-of-tenses-and-aspects-b2",
           "prompt": "He interrupts people. It's really annoying. (rewrite as one sentence with continuous + \"always,\" showing irritation)",
-          "answer": [
-            "He's always interrupting people — it's really annoying."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "He's always interrupting people — it's really annoying."
         },
         {
           "id": "full-command-of-tenses-and-aspects-b3",
           "prompt": "The exam finishes at noon. (rewrite as a scheduled future event using present continuous)",
-          "answer": [
-            "The exam is finishing at noon. (more natural as scheduled event: \"The exam finishes at noon\" also acceptable; continuous emphasizes the fixed arrangement)"
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "The exam is finishing at noon. (“The exam finishes at noon” is also acceptable; the continuous form emphasizes the fixed arrangement.)"
         },
         {
           "id": "full-command-of-tenses-and-aspects-b4",
           "prompt": "I finished the project before the deadline arrived. (rewrite using future perfect, imagining you're speaking before the deadline)",
-          "answer": [
-            "I will have finished the project before the deadline arrives."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "I will have finished the project before the deadline arrives."
         },
         {
           "id": "full-command-of-tenses-and-aspects-b5",
           "prompt": "Describe a past event as if it's happening now, for dramatic effect: \"I opened the door and saw a stranger standing there.\" (rewrite in the historic present)",
-          "answer": [
-            "I open the door and see a stranger standing there."
-          ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "modelAnswer": "I open the door and see a stranger standing there."
         }
       ]
     },
@@ -240,10 +225,10 @@
           "id": "full-command-of-tenses-and-aspects-c1",
           "incorrect": "When I was young, I would live in a small village.",
           "answer": [
-            "When I was young, I lived",
-            "used to live in a small village."
+            "When I was young, I lived in a small village.",
+            "When I was young, I used to live in a small village."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Would” can't describe a past state like living somewhere — use the simple past or “used to.”"
         },
         {
           "id": "full-command-of-tenses-and-aspects-c2",
@@ -251,16 +236,16 @@
           "answer": [
             "She's always checking her phone during meetings."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "With “always” for irritation, use the continuous, and place “always” between the auxiliary and main verb."
         },
         {
           "id": "full-command-of-tenses-and-aspects-c3",
           "incorrect": "Tomorrow at this time, I will finish the marathon.",
           "answer": [
-            "Tomorrow at this time, I will be finishing",
-            "will have finished the marathon. (depending on intended meaning: in progress vs completed)"
+            "Tomorrow at this time, I will be finishing the marathon.",
+            "Tomorrow at this time, I will have finished the marathon."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Tomorrow at this time” needs an aspect that shows the marathon is still in progress or already done, not the simple future."
         },
         {
           "id": "full-command-of-tenses-and-aspects-c4",
@@ -268,15 +253,16 @@
           "answer": [
             "I had never seen such a beautiful sunset before that trip."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The past perfect needs the past participle (“seen”), not the simple past form (“saw”)."
         },
         {
           "id": "full-command-of-tenses-and-aspects-c5",
           "incorrect": "By 2030, this company will produce twice as much as it does now, they predict. (identify tense issue and fix)",
           "answer": [
-            "By 2030, this company will be producing twice as much as it does now, they predict. (or \"will produce\" if treated as a simple prediction — \"will be producing\" better shows an ongoing state at that future point)"
+            "By 2030, this company will be producing twice as much as it does now, they predict.",
+            "By 2030, this company will produce twice as much as it does now, they predict."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "A state still ongoing at a specific future point favors the future continuous over the simple future."
         },
         {
           "id": "full-command-of-tenses-and-aspects-c6",
@@ -284,7 +270,7 @@
           "answer": [
             "He's constantly forgetting where he left his keys."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Continuous + “constantly” needs “is” + verb-ing, not the simple present “forgets.”"
         }
       ]
     },

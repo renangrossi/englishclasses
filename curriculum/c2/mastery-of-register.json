@@ -94,7 +94,7 @@
               "shall"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Legal register uses “shall” for binding obligation, not the more casual “will.”"
         },
         {
           "id": "mastery-of-register-a2",
@@ -104,7 +104,7 @@
               "show"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Academic register avoids casual intensifiers like “kinda” — use the plain verb."
         },
         {
           "id": "mastery-of-register-a3",
@@ -114,7 +114,7 @@
               "in a statement"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Journalistic register attributes claims formally (“in a statement”), not with a vague casual filler."
         },
         {
           "id": "mastery-of-register-a4",
@@ -124,7 +124,7 @@
               "Sorry"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Casual register favors short, direct phrasing over an inflated formal opener."
         },
         {
           "id": "mastery-of-register-a5",
@@ -134,7 +134,7 @@
               "Disconnect"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "Technical/instructional register uses direct imperatives, not hedged suggestions."
         }
       ]
     },
@@ -150,7 +150,7 @@
           "answer": [
             "The plan did not achieve its intended outcomes."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "Academic register replaces the casual verb phrase with a more formal, precise one: did not achieve its intended outcomes."
         },
         {
           "id": "mastery-of-register-b2",
@@ -158,7 +158,7 @@
           "answer": [
             "The Tenant shall remit rent payment no later than the first day of each calendar month; failure to do so shall constitute a breach of this Agreement."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "Legal register uses “shall,” formal defined terms, and explicit consequences for breach."
         },
         {
           "id": "mastery-of-register-b3",
@@ -166,7 +166,7 @@
           "answer": [
             "The roads will be repaired soon, the mayor said on Tuesday."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "Journalistic register fronts the key fact and adds clear attribution (“the mayor said”)."
         },
         {
           "id": "mastery-of-register-b4",
@@ -174,7 +174,7 @@
           "answer": [
             "Careful — this thing's running, so watch out."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "Casual register uses contractions, short clauses and direct address."
         },
         {
           "id": "mastery-of-register-b5",
@@ -182,7 +182,7 @@
           "answer": [
             "It could be argued that the marketing campaign did not meet its objectives."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "Academic register replaces “we think… kind of” with the hedged, impersonal “it could be argued that… did not meet its objectives.”"
         }
       ]
     },
@@ -197,7 +197,7 @@
           "answer": [
             "The Buyer shall pay within thirty (30) days."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Legal register needs “shall,” not the hedged “will maybe,” for binding obligation."
         },
         {
           "id": "mastery-of-register-c2",
@@ -205,7 +205,7 @@
           "answer": [
             "The evidence appears to be convincing."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Academic register avoids first-person opinion markers (“I feel like”) and casual intensifiers (“pretty,” “honestly”)."
         },
         {
           "id": "mastery-of-register-c3",
@@ -213,7 +213,7 @@
           "answer": [
             "Turn off the machine before cleaning it."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Technical/instructional register uses a direct imperative, not a hedged suggestion (“you might want to think about”)."
         },
         {
           "id": "mastery-of-register-c4",
@@ -221,7 +221,7 @@
           "answer": [
             "The CEO is reported to have resigned, according to sources."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Journalistic style avoids redundant hedging/attribution stacked together — attribute once, clearly."
         },
         {
           "id": "mastery-of-register-c5",
@@ -229,7 +229,7 @@
           "answer": [
             "Running late, sorry!"
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "Casual register favors short, direct phrasing over an overly formal opener."
         }
       ]
     },

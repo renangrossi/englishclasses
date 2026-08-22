@@ -84,7 +84,7 @@
               "are"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Gone” fronts the sentence, inverting to “are” + subject (the days)."
         },
         {
           "id": "high-level-clefts-and-inversions-a2",
@@ -94,7 +94,7 @@
               "was"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“So + adjective” fronts the sentence, inverting to “was” + subject."
         },
         {
           "id": "high-level-clefts-and-inversions-a3",
@@ -104,7 +104,7 @@
               "was"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Such” as a fronted intensifier triggers full inversion: “was” + subject."
         },
         {
           "id": "high-level-clefts-and-inversions-a4",
@@ -115,7 +115,7 @@
               "lies"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "A fronted place adverbial (“Deep in the valley”) inverts to verb + subject: lies/lay a village."
         },
         {
           "id": "high-level-clefts-and-inversions-a5",
@@ -125,7 +125,7 @@
               "is"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "A fronted “Equally important” inverts to “is” + subject."
         },
         {
           "id": "high-level-clefts-and-inversions-a6",
@@ -135,7 +135,7 @@
               "had the team faced"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "“Never before” fronts the sentence, inverting to “had” + subject + past participle."
         },
         {
           "id": "high-level-clefts-and-inversions-a7",
@@ -145,7 +145,7 @@
               "came"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "A fronted adverbial of manner/place (“Down”) inverts to verb + subject: came the curtain."
         },
         {
           "id": "high-level-clefts-and-inversions-a8",
@@ -155,7 +155,7 @@
               "is"
             ]
           ],
-          "explanation": "See the rule above for this form."
+          "explanation": "The pseudo-cleft “What truly matters” is followed directly by “is,” with no redundant “it.”"
         }
       ]
     },
@@ -171,7 +171,7 @@
           "answer": [
             "Gone are the days when people trusted the government blindly."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Gone are” fronts the sentence, inverting to “are” + subject (the days)."
         },
         {
           "id": "high-level-clefts-and-inversions-b2",
@@ -179,7 +179,7 @@
           "answer": [
             "So powerful was her speech that the entire room stood and applauded."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“So + adjective + was” inverts to put the subject (her speech) after “was.”"
         },
         {
           "id": "high-level-clefts-and-inversions-b3",
@@ -187,7 +187,7 @@
           "answer": [
             "Such was the intensity of the protest that the government was forced to respond."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "“Such was” inverts to put the subject (the intensity) after “was.”"
         },
         {
           "id": "high-level-clefts-and-inversions-b4",
@@ -195,7 +195,7 @@
           "answer": [
             "What truly defines a leader is not authority, but empathy."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "The pseudo-cleft “What truly defines a leader is…” moves the emphasized contrast to the end."
         },
         {
           "id": "high-level-clefts-and-inversions-b5",
@@ -203,7 +203,7 @@
           "answer": [
             "At the edge of the cliff stood an old lighthouse."
           ],
-          "explanation": "Compare your sentence to the model above once you submit."
+          "explanation": "A fronted place adverbial inverts to verb + subject: stood an old lighthouse."
         }
       ]
     },
@@ -218,7 +218,7 @@
           "answer": [
             "Gone is the certainty that once defined our industry."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The inversion after “Gone” requires “is” immediately after it, before the subject."
         },
         {
           "id": "high-level-clefts-and-inversions-c2",
@@ -226,7 +226,7 @@
           "answer": [
             "So great was her disappointment that she left without a word."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "After a fronted “So + adjective,” the verb (“was”) must come before the subject — full inversion."
         },
         {
           "id": "high-level-clefts-and-inversions-c3",
@@ -234,7 +234,7 @@
           "answer": [
             "What truly matters is how we treat one another."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "The “what” clause already functions as the subject — adding “it” duplicates it unnecessarily."
         },
         {
           "id": "high-level-clefts-and-inversions-c4",
@@ -242,7 +242,7 @@
           "answer": [
             "Deep in the archive lay documents forgotten for decades."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "After the fronted adverbial of place, the verb (“lay”) comes before the subject (“documents”), not embedded mid-phrase."
         },
         {
           "id": "high-level-clefts-and-inversions-c5",
@@ -250,7 +250,7 @@
           "answer": [
             "Such was the outcry that the board resigned."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Such” as a fronted intensifier also triggers full inversion — verb before subject."
         },
         {
           "id": "high-level-clefts-and-inversions-c6",
@@ -258,7 +258,7 @@
           "answer": [
             "Never before had the country seen such unity."
           ],
-          "explanation": "Check the rule above for this structure."
+          "explanation": "“Never before” fronts the sentence, so the auxiliary (“had”) inverts before the subject."
         }
       ]
     },

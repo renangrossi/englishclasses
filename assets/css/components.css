@@ -659,19 +659,24 @@ body:not(:has(.level-toc)) .section {
   gap: 0.5em;
 }
 
-/* Whole-card click target. A card's single link (its title-link, or its
-   one action button when there's only one) is stretched with ::after to
-   cover the whole <article>, since .lesson-card is already position:
-   relative -- so clicking anywhere on the card, not just the link text,
-   activates it. When a card has more than one action button, only the
-   accent (primary) one is stretched, and every action link is kept
-   `position: relative` so it still paints -- and stays clickable -- above
-   that full-card overlay; if none of several links is marked primary
-   (e.g. two equally-weighted external links), no link is stretched, so
-   the card is only clickable via its own explicit buttons, same as
-   before. Cards with no link at all are unaffected. */
+/* Whole-card click target -- opt-in only, for cards that have an
+   unambiguous single destination. A card's title-link (levels/*.html
+   lesson cards, which link to the lesson page) or its explicitly-marked
+   primary action (a lone .btn--accent among several buttons) is
+   stretched with ::after to cover the whole <article>, since .lesson-card
+   is already position: relative -- so clicking anywhere on the card, not
+   just the link text, activates that one link. Every *other* action link
+   is kept `position: relative` so it still paints -- and stays clickable
+   -- above that full-card overlay.
+   Deliberately NOT extended to "just happens to be the only button" --
+   most .lesson-card instances site-wide (exercises.html's reading-text
+   cards, the Grammar Booklets PDF cards on level pages, index.html,
+   simulated-exams.html) are plain resource cards with one ordinary
+   button and no accent/title-link; stretching that button to the whole
+   card made the card *look* clickable everywhere via the cursor, when in
+   fact only the button itself was ever meant to be. See PR discussion
+   for the full bug report. */
 .lesson-card__title-link::after,
-.lesson-card__actions a:only-child::after,
 .lesson-card__actions a.btn--accent:not(:only-child)::after {
   content: "";
   position: absolute;

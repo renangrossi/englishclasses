@@ -1,12 +1,18 @@
 /*!
  * Renan the Teacher — Floating Dictionary Widget
- * A small floating lookup tool (styled like the back-to-top button)
- * for exercise/test pages, so a student can check a word without
+ * A small floating lookup tool (styled like the back-to-top button),
+ * available on every page, so a student can check a word without
  * losing their place. Tries to show the definition inline using the
- * free, keyless dictionaryapi.dev API (including pronunciation audio
- * when the API provides it); the outbound dictionary links below the
- * result are always shown too, in the same fixed order as the main
- * Dictionary page, as a second way to check the word.
+ * free, keyless dictionaryapi.dev API first (including pronunciation
+ * audio when the API provides it), falling back to Wiktionary's REST
+ * API for words dictionaryapi.dev doesn't index (e.g. demonyms like
+ * "Brazilian"). Pronunciation always has a second line of defense too:
+ * if every audio clip URL fails to load (dictionaryapi.dev's own media
+ * hosting has outages), the browser's built-in speechSynthesis reads
+ * the word aloud instead, so the audio button never goes silent. The
+ * outbound dictionary links below the result are always shown too, in
+ * the same fixed order as the main Dictionary page, as a second way to
+ * check the word.
  */
 (function () {
   "use strict";
@@ -177,6 +183,70 @@
     });
   }
 
+  /* ---------------------------------------------------------------
+   * Wiktionary fallback — dictionaryapi.dev has real gaps in its word
+   * list (e.g. demonyms like "Brazilian" return "No Definitions
+   * Found" in every capitalization). Wiktionary's REST API is free,
+   * keyless and CORS-enabled, so it's tried next, only after every
+   * dictionaryapi.dev candidate has failed. Its response shape is
+   * normalized into the same {word, phonetic, phonetics, meanings}
+   * shape dictionaryapi.dev returns, so renderDefinition() below
+   * needs no changes to render either source.
+   * --------------------------------------------------------------- */
+  function stripHtml(s) {
+    return String(s || "")
+      .replace(/<[^>]+>/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function normalizeWiktionary(groups, word) {
+    return [
+      {
+        word: word,
+        phonetic: "",
+        phonetics: [],
+        meanings: groups.map(function (g) {
+          return {
+            partOfSpeech: (g.partOfSpeech || "").toLowerCase(),
+            definitions: (g.definitions || []).slice(0, 4).map(function (d) {
+              return { definition: stripHtml(d.definition) };
+            }),
+          };
+        }),
+      },
+    ];
+  }
+
+  function fetchWiktionaryDefinition(word) {
+    return fetch("https://en.wiktionary.org/api/rest_v1/page/definition/" + encodeURIComponent(word))
+      .then(function (res) {
+        if (!res.ok) throw new Error("not found: " + word);
+        return res.json();
+      })
+      .then(function (data) {
+        // The "en" key groups every entry *written* in English, which
+        // also catches Translingual/symbol entries (e.g. "pit" is also
+        // the ISO 639-3 code for a language) — keep only entries that
+        // are actually about the English word itself.
+        var groups = ((data && data.en) || []).filter(function (g) {
+          return g.language === "English";
+        });
+        if (!groups.length) throw new Error("no English entry: " + word);
+        return normalizeWiktionary(groups, word);
+      });
+  }
+
+  function tryCandidatesWiktionary(candidates, index) {
+    index = index || 0;
+    if (index >= candidates.length) {
+      return Promise.reject(new Error("no candidates matched (wiktionary)"));
+    }
+    return fetchWiktionaryDefinition(candidates[index]).catch(function () {
+      return tryCandidatesWiktionary(candidates, index + 1);
+    });
+  }
+
   var lookupTimer;
   var lastQuery = "";
 
@@ -199,6 +269,11 @@
     lastQuery = word;
 
     tryCandidates(candidateWords(word))
+      .catch(function () {
+        // dictionaryapi.dev has no entry for this word in any
+        // capitalization — try Wiktionary before giving up.
+        return tryCandidatesWiktionary(candidateWords(word));
+      })
       .then(function (data) {
         if (lastQuery !== word) return; // a newer query has since started
         renderDefinition(data);
@@ -231,9 +306,38 @@
 
   var currentAudio = null;
 
-  function playAudioUrls(urls, index, btn) {
+  // Last-resort pronunciation: the browser's own text-to-speech voice,
+  // used when every dictionary-provided audio clip URL has failed (or
+  // the entry had none at all — Wiktionary results never do). This is
+  // what keeps the audio button working even during a dictionaryapi.dev
+  // media-hosting outage, with no backend or paid service involved.
+  function speakWord(word, btn) {
+    if (!window.speechSynthesis || typeof window.SpeechSynthesisUtterance !== "function") return false;
+    try {
+      window.speechSynthesis.cancel();
+      var utter = new window.SpeechSynthesisUtterance(word);
+      utter.lang = "en-US";
+      utter.rate = 0.9;
+      if (btn) {
+        utter.addEventListener("end", function () { btn.classList.remove("is-playing"); });
+        utter.addEventListener("error", function () { btn.classList.remove("is-playing"); });
+      }
+      window.speechSynthesis.speak(utter);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function playAudioUrls(urls, index, btn, word) {
     index = index || 0;
     if (index >= urls.length) {
+      btn.classList.remove("has-error");
+      btn.removeAttribute("title");
+      if (speakWord(word, btn)) {
+        btn.classList.add("is-playing");
+        return;
+      }
       btn.classList.remove("is-playing");
       btn.classList.add("has-error");
       btn.setAttribute("title", "This pronunciation clip didn't load — try a dictionary link below instead.");
@@ -251,7 +355,7 @@
     function tryNext() {
       if (triedNext) return;
       triedNext = true;
-      playAudioUrls(urls, index + 1, btn);
+      playAudioUrls(urls, index + 1, btn, word);
     }
     audio.addEventListener("ended", function () { btn.classList.remove("is-playing"); });
     audio.addEventListener("error", tryNext);
@@ -284,15 +388,16 @@
       ph.textContent = phonetic;
       wordRow.appendChild(ph);
     }
-    if (audioUrls.length) {
-      var audioBtn = document.createElement("button");
-      audioBtn.type = "button";
-      audioBtn.className = "dict-widget__audio";
-      audioBtn.setAttribute("aria-label", "Play pronunciation");
-      audioBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18 6a9 9 0 0 1 0 12"/></svg>';
-      audioBtn.addEventListener("click", function () { playAudioUrls(audioUrls, 0, audioBtn); });
-      wordRow.appendChild(audioBtn);
-    }
+    // Always offered, even when the entry has no audio clip of its own
+    // (e.g. every Wiktionary-sourced result) — playAudioUrls() falls
+    // back to the browser's speech synthesis in that case.
+    var audioBtn = document.createElement("button");
+    audioBtn.type = "button";
+    audioBtn.className = "dict-widget__audio";
+    audioBtn.setAttribute("aria-label", "Play pronunciation");
+    audioBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18 6a9 9 0 0 1 0 12"/></svg>';
+    audioBtn.addEventListener("click", function () { playAudioUrls(audioUrls, 0, audioBtn, entry.word); });
+    wordRow.appendChild(audioBtn);
     resultBox.appendChild(wordRow);
 
     (entry.meanings || []).slice(0, 3).forEach(function (m) {

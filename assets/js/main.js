@@ -215,6 +215,45 @@
     setActive();
   }
 
+  /* ---------------------------------------------------------------
+     Audio pipeline warm-up
+     On a fresh page load, some browsers have a brief cold-start delay
+     the first time any <audio> element plays — the underlying audio
+     output device hasn't been spun up yet — which swallows the first
+     second or two of playback. This is most noticeable on the first
+     clip someone plays in a Listening section; every clip after it
+     plays instantly because the pipeline is already warm by then.
+     Priming a silent Web Audio buffer on the page's very first
+     pointer/keyboard interaction warms that same shared pipeline up
+     before the real click reaches an <audio>.play() call — and since
+     "pointerdown" fires before "click", this finishes in time even
+     when that first interaction IS the play button itself.
+     --------------------------------------------------------------- */
+  function initAudioUnlock() {
+    var primed = false;
+    function prime() {
+      if (primed) return;
+      primed = true;
+      try {
+        var Ctx = window.AudioContext || window.webkitAudioContext;
+        if (!Ctx) return;
+        var ctx = new Ctx();
+        var buffer = ctx.createBuffer(1, 1, 22050);
+        var source = ctx.createBufferSource();
+        source.buffer = buffer;
+        source.connect(ctx.destination);
+        if (source.start) source.start(0);
+        else if (source.noteOn) source.noteOn(0);
+        if (ctx.resume) ctx.resume();
+      } catch (err) {
+        /* best-effort warm-up only — never block real playback on this */
+      }
+    }
+    document.addEventListener("pointerdown", prime, { once: true, passive: true });
+    document.addEventListener("touchstart", prime, { once: true, passive: true });
+    document.addEventListener("keydown", prime, { once: true });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     initTheme();
     initMobileNav();
@@ -222,5 +261,6 @@
     initBackToTop();
     initAnchorScrolling();
     initScrollspy();
+    initAudioUnlock();
   });
 })();

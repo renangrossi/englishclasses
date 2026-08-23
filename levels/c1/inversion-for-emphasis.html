@@ -193,6 +193,19 @@
             </div>
         </div>
     </section>
+<button type="button" class="dict-widget-toggle" data-dict-widget-toggle aria-label="Open quick dictionary" aria-expanded="false" aria-haspopup="dialog">
+        <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
+    </button>
+    <div class="dict-widget-panel" data-dict-widget-panel hidden>
+        <div class="dict-widget__bar">
+            <input type="text" data-dict-widget-input placeholder="Look up a word…" aria-label="Look up a word">
+            <button type="button" class="dict-widget__close" data-dict-widget-close aria-label="Close dictionary"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+        </div>
+        <div class="dict-widget__result" data-dict-widget-result>
+            <p class="dict-widget__hint">Type a word to see its definition without leaving this page.</p>
+        </div>
+        <div class="dict-widget__links" data-dict-widget-links></div>
+    </div>
     </main>
     <footer class="site-footer">
         <div class="site-footer__inner">
@@ -240,7 +253,7 @@
             <p>&copy; 1776 Renan the Teacher English Course. All rights reserved.</p>
         </div>
     </footer>
-    <button type="button" class="back-to-top" data-back-to-top aria-label="Back to top">
+    <button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Back to top">
         <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
     </button>
     <button type="button" class="ai-teacher-toggle" data-ai-teacher-toggle aria-label="Ask the AI English Teacher" aria-expanded="false" aria-haspopup="dialog">
@@ -273,6 +286,7 @@
     <script src="../../assets/js/main.js"></script>
     <script src="../../assets/js/search.js"></script>
     <script src="../../assets/js/ai-teacher.js" data-ai-endpoint="https://ai-teacher.englishclasses.workers.dev"></script>
+    <script src="../../assets/js/dict-widget.js"></script>
     <script src="../../assets/js/progress.js"></script><script src="../../assets/js/exercises.js"></script>
 </body>
 </html>

@@ -110,9 +110,20 @@
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && !panel.hidden) toggle(false);
   });
+  // Only closes on a click that both starts and ends outside the panel.
+  // Selecting text inside the input (mouse/finger down inside, dragged
+  // past the panel edge before releasing) fires a "click" whose target
+  // is wherever the release happened — outside the panel — which used
+  // to close it mid-selection; tracking the press separately fixes that.
+  var pointerDownOutside = false;
+  document.addEventListener("pointerdown", function (e) {
+    if (panel.hidden) return;
+    pointerDownOutside = !(panel.contains(e.target) || trigger.contains(e.target));
+  });
   document.addEventListener("click", function (e) {
     if (panel.hidden) return;
     if (panel.contains(e.target) || trigger.contains(e.target)) return;
+    if (!pointerDownOutside) return;
     toggle(false);
   });
   panel.addEventListener("click", function (e) { e.stopPropagation(); });
@@ -314,7 +325,7 @@
   function speakWord(word, btn) {
     if (!window.speechSynthesis || typeof window.SpeechSynthesisUtterance !== "function") return false;
     try {
-      window.speechSynthesis.cancel();
+      var synth = window.speechSynthesis;
       var utter = new window.SpeechSynthesisUtterance(word);
       utter.lang = "en-US";
       utter.rate = 0.9;
@@ -322,7 +333,15 @@
         utter.addEventListener("end", function () { btn.classList.remove("is-playing"); });
         utter.addEventListener("error", function () { btn.classList.remove("is-playing"); });
       }
-      window.speechSynthesis.speak(utter);
+      if (synth.speaking || synth.pending) {
+        // Calling cancel() and speak() in the same tick can silently
+        // drop the new utterance in some Chrome versions — give the
+        // cancel a beat to actually take effect before queuing ours.
+        synth.cancel();
+        setTimeout(function () { synth.speak(utter); }, 50);
+      } else {
+        synth.speak(utter);
+      }
       return true;
     } catch (e) {
       return false;

@@ -228,6 +228,20 @@
      before the real click reaches an <audio>.play() call — and since
      "pointerdown" fires before "click", this finishes in time even
      when that first interaction IS the play button itself.
+
+     The same handler also primes window.speechSynthesis (used by the
+     dictionary widget's pronunciation fallback, assets/js/dict-widget.js,
+     when a dictionary-provided audio clip fails to load). Browsers —
+     Chrome in particular — can silently drop a speak() call that isn't
+     the page's first one AND isn't made synchronously inside a user
+     gesture; the widget's fallback call happens later, from an async
+     "this audio clip failed to load" handler, which is neither. Making
+     a throwaway speak() call right here, synchronously inside this same
+     first-gesture handler, "uses up" that first/synchronous slot up
+     front, so the widget's later async call is a normal subsequent call
+     instead — the case every browser handles reliably. This also warms
+     the voice list itself, which some browsers report empty until the
+     first getVoices() call.
      --------------------------------------------------------------- */
   function initAudioUnlock() {
     var primed = false;
@@ -236,17 +250,28 @@
       primed = true;
       try {
         var Ctx = window.AudioContext || window.webkitAudioContext;
-        if (!Ctx) return;
-        var ctx = new Ctx();
-        var buffer = ctx.createBuffer(1, 1, 22050);
-        var source = ctx.createBufferSource();
-        source.buffer = buffer;
-        source.connect(ctx.destination);
-        if (source.start) source.start(0);
-        else if (source.noteOn) source.noteOn(0);
-        if (ctx.resume) ctx.resume();
+        if (Ctx) {
+          var ctx = new Ctx();
+          var buffer = ctx.createBuffer(1, 1, 22050);
+          var source = ctx.createBufferSource();
+          source.buffer = buffer;
+          source.connect(ctx.destination);
+          if (source.start) source.start(0);
+          else if (source.noteOn) source.noteOn(0);
+          if (ctx.resume) ctx.resume();
+        }
       } catch (err) {
         /* best-effort warm-up only — never block real playback on this */
+      }
+      try {
+        if (window.speechSynthesis && typeof window.SpeechSynthesisUtterance === "function") {
+          window.speechSynthesis.getVoices();
+          var utter = new window.SpeechSynthesisUtterance(" ");
+          utter.volume = 0;
+          window.speechSynthesis.speak(utter);
+        }
+      } catch (err) {
+        /* best-effort warm-up only */
       }
     }
     document.addEventListener("pointerdown", prime, { once: true, passive: true });

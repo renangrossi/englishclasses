@@ -1390,32 +1390,203 @@
       }
     });
     maybeAddTestSaveButton();
+    addHubSectionSaveButtons();
+    addLessonPageSaveButton();
   }
 
-  // Injects a prominent "Save All Test Yourself Answers" button into
-  // the page's closing "You've reached the end…" section — only on
-  // pages that actually have the Test Yourself topic structure
-  // (one or more <section class="ty-topic">), so this stays generic
-  // instead of being wired per-level. Runs once; leaves the existing
-  // "Back to <level>" / "Continue to <next level>" links untouched.
+  // Injects a prominent "Save All Answers" button immediately above the
+  // page's closing "You've reached the end…" sentence — only on pages
+  // that actually have the Test Yourself topic structure (one or more
+  // <section class="ty-topic">), so this stays generic instead of being
+  // wired per-level. Runs once; leaves the existing "Back to <level>" /
+  // "Continue to <next level>" links untouched.
   function maybeAddTestSaveButton() {
     if (!document.querySelector(".ty-topic[id]")) return;
-    var bottomNav = document.querySelector("#bottom .lesson-nav");
-    if (!bottomNav || document.getElementById("ty-save-all-btn")) return;
+    var bottomSection = document.getElementById("bottom");
+    var heading = bottomSection ? bottomSection.querySelector("h2") : null;
+    if (!heading || document.getElementById("ty-save-all-btn")) return;
     var levelCode = document.body.getAttribute("data-level-code") || "";
-    var wrap = el("div", { class: "lesson-nav", style: "justify-content:center;border-top:none;padding-top:0;" });
+    var wrap = el("div", { class: "lesson-nav", style: "justify-content:center;border-top:none;padding-top:0;padding-bottom:var(--space-sm);" });
     var btn = el("button", {
       type: "button",
       id: "ty-save-all-btn",
       class: "btn btn--accent print-hidden",
-      text: "Save All Test Yourself Answers",
+      text: "Save All Answers",
       "aria-label": "Save all answers from every " + (levelCode ? levelCode + " " : "") + "Test Yourself topic",
     });
     btn.addEventListener("click", function () {
       performTestSave();
     });
     wrap.appendChild(btn);
-    bottomNav.parentNode.insertBefore(wrap, bottomNav);
+    heading.parentNode.insertBefore(wrap, heading);
+  }
+
+  /* ---------------------------------------------------------------
+     Generic "Save All Answers" -- used by level-hub section buttons
+     (Vocabulary, Reading, Listening, Writing, Speaking, Revision, …)
+     and by individual lesson-page buttons. Unlike the Test Yourself
+     save flow above (which only reads whatever is already on screen),
+     this one first submits any exercise block in scope that hasn't
+     been graded yet -- by clicking that block's own real Submit
+     button -- so grading, the score UI, and mastery/progress
+     recording all happen through the exact same path a student
+     triggers by hand. It then reuses the same save/print summary
+     used everywhere else on the site.
+     --------------------------------------------------------------- */
+
+  function submitUnsubmittedBlocksIn(roots) {
+    roots.forEach(function (root) {
+      root.querySelectorAll(".exercise-block").forEach(function (block) {
+        var submitBtn = block.querySelector(".exercise-actions > button.btn--accent");
+        if (submitBtn && submitBtn.style.display !== "none") submitBtn.click();
+      });
+    });
+  }
+
+  function collectAnswersInRoots(roots) {
+    var exercises = [];
+    roots.forEach(function (root) {
+      root.querySelectorAll(".exercise-block").forEach(function (block) {
+        var script = block.querySelector("script.exercise-data");
+        if (!script) return;
+        try {
+          var data = JSON.parse(script.textContent);
+          exercises.push(collectExerciseAnswers(block, data));
+        } catch (e) {
+          if (window.console) console.error("Could not collect answers for an exercise block", e);
+        }
+      });
+    });
+    return exercises;
+  }
+
+  function buildGenericPrintHeaderText(label) {
+    var levelCode = (document.body.getAttribute("data-level-code") || "").trim();
+    var parts = [];
+    if (levelCode) parts.push(levelCode);
+    parts.push(label);
+    return parts.join(" - ");
+  }
+
+  // `roots` is an array because one logical page section can be split
+  // across several sibling <section> elements with no id of their own
+  // (e.g. the Listening group: an id="listening" intro section
+  // followed by "Guided/Core/Extra Listening Practice" sub-sections) --
+  // see addHubSectionSaveButtons below for how that group is built.
+  function performGenericSave(roots, label) {
+    submitUnsubmittedBlocksIn(roots);
+    var exercises = collectAnswersInRoots(roots);
+    var fakeData = { type: null, title: label + " — Saved Answers" };
+    performSaveAnswers(document.body, fakeData, function () {
+      var wrap = el("div", { class: "exercise-block saved-summary-root" });
+      exercises.forEach(function (ex) { wrap.appendChild(buildExerciseSummaryNode(ex)); });
+      return wrapWithPrintHeader(buildGenericPrintHeaderText(label), wrap);
+    });
+  }
+
+  // Shared button factory for both call sites below. Grading + saving
+  // already has its own visible feedback (each block's score panel,
+  // then the native print/save dialog); this adds a brief "Saved" flash
+  // on the button itself as a lightweight extra confirmation.
+  function buildSaveAllAnswersButton(ariaLabel, onClick) {
+    var btn = el("button", {
+      type: "button",
+      class: "btn btn--accent print-hidden save-all-answers-btn",
+      text: "Save All Answers",
+      "aria-label": ariaLabel,
+    });
+    var revertTimer = null;
+    btn.addEventListener("click", function () {
+      onClick();
+      if (revertTimer) clearTimeout(revertTimer);
+      btn.textContent = "Saved ✓";
+      revertTimer = setTimeout(function () {
+        btn.textContent = "Save All Answers";
+        revertTimer = null;
+      }, 1500);
+    });
+    return btn;
+  }
+
+  // Level-hub pages (levels/<level>.html) lay out their TOC sections
+  // (#vocabulary, #reading, #listening, …) as direct children of
+  // <main>. #exercises (the Lessons card grid) and #test-yourself (a
+  // card linking to the dedicated page, handled above) are skipped by
+  // name; every other TOC section gets a button at its end, but only
+  // if it actually contains at least one .exercise-block. The
+  // Listening TOC section is special: on every level it's really an
+  // id="listening" intro section followed by several un-id'd
+  // "…Listening Practice" sub-sections that share its "section--listen"
+  // class -- those are folded into the same group so the button (i)
+  // saves every block in the whole Listening group and (ii) lands
+  // after the group's last sub-section, not merely after the intro.
+  var HUB_SECTION_SKIP_IDS = { exercises: true, "test-yourself": true };
+
+  function addHubSectionSaveButtons() {
+    document.querySelectorAll("main > section[id]").forEach(function (anchorSection) {
+      var id = anchorSection.id;
+      if (HUB_SECTION_SKIP_IDS[id]) return;
+
+      var group = [anchorSection];
+      if (anchorSection.classList.contains("section--listen")) {
+        var next = anchorSection.nextElementSibling;
+        while (next && next.tagName === "SECTION" && !next.id && next.classList.contains("section--listen")) {
+          group.push(next);
+          next = next.nextElementSibling;
+        }
+      }
+
+      var hasBlocks = group.some(function (s) { return s.querySelector(".exercise-block"); });
+      if (!hasBlocks) return;
+
+      var lastSection = group[group.length - 1];
+      if (lastSection.querySelector(".save-all-answers-btn")) return;
+
+      var heading = anchorSection.querySelector(".section__head h2, h2");
+      var label = heading ? heading.textContent.trim() : (SECTION_LABELS[id] || "Section");
+
+      var btn = buildSaveAllAnswersButton("Save all answers in the " + label + " section", function () {
+        performGenericSave(group, label);
+      });
+      var wrap = el("div", { class: "lesson-nav", style: "justify-content:center;border-top:none;margin-top:var(--space-md);" });
+      wrap.appendChild(btn);
+      var inner = lastSection.querySelector(":scope > .section__inner") || lastSection;
+      inner.appendChild(wrap);
+    });
+  }
+
+  // Individual lesson pages -- levels/<level>/<lesson-slug>.html, e.g.
+  // levels/a1/simple-present-i.html -- as opposed to a level hub page
+  // (levels/<level>.html, one path segment) or a Test Yourself page
+  // (…/test-yourself.html, handled separately above). Adds one button
+  // at the end of the page's content, before the shared dictionary
+  // widget / footer, scoped to every .exercise-block on the page.
+  function isIndividualLessonPageUrl() {
+    var m = window.location.pathname.match(/\/levels\/([^/]+)\/([^/]+)\.html$/i);
+    return !!m && m[2].toLowerCase() !== "test-yourself";
+  }
+
+  function addLessonPageSaveButton() {
+    if (!isIndividualLessonPageUrl()) return;
+    var main = document.getElementById("main-content");
+    if (!main || !main.querySelector(".exercise-block")) return;
+    if (main.querySelector(".save-all-answers-btn")) return;
+
+    var heading = main.querySelector("h1");
+    var label = heading ? heading.textContent.trim() : "Lesson";
+
+    var btn = buildSaveAllAnswersButton("Save all answers on this lesson page", function () {
+      performGenericSave([main], label);
+    });
+    var wrap = el("div", { class: "lesson-nav", style: "justify-content:center;border-top:none;margin-top:var(--space-md);" });
+    wrap.appendChild(btn);
+
+    var dictToggle = main.querySelector(".dict-widget-toggle");
+    if (dictToggle) {
+      dictToggle.parentNode.insertBefore(wrap, dictToggle);
+    } else {
+      main.appendChild(wrap);
+    }
   }
 
   if (document.readyState === "loading") {

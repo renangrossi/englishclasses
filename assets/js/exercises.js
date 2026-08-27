@@ -927,8 +927,6 @@
     actions.appendChild(retryAllBtn);
     actions.appendChild(printBtn);
     container.appendChild(actions);
-    var topicSaveBtn = maybeAddTopicSaveButton(printBtn, container);
-    if (topicSaveBtn) topicSaveBtn.style.display = "none";
 
     var lastResults = null;
 
@@ -958,7 +956,6 @@
       retryBtn.style.display = anyIncorrect ? "" : "none";
       retryAllBtn.style.display = "";
       printBtn.style.display = "";
-      if (topicSaveBtn) topicSaveBtn.style.display = "";
       // Each result gets the id of the item it came from (built[i] and
       // data.items[i] are always positionally aligned -- see `built`
       // above). This is what lets assets/js/mastery.js track per-item
@@ -1009,7 +1006,6 @@
       retryBtn.style.display = "none";
       retryAllBtn.style.display = "none";
       printBtn.style.display = "none";
-      if (topicSaveBtn) topicSaveBtn.style.display = "none";
       var firstOpen = itemsWrap.querySelector(".exercise-item:not(.is-locked)");
       if (firstOpen) firstOpen.scrollIntoView({ behavior: "smooth", block: "center" });
     });
@@ -1021,7 +1017,6 @@
       retryBtn.style.display = "none";
       retryAllBtn.style.display = "none";
       printBtn.style.display = "none";
-      if (topicSaveBtn) topicSaveBtn.style.display = "none";
     });
   }
 
@@ -1062,7 +1057,6 @@
     var saveBtn = el("button", { type: "button", class: "btn btn--ghost print-hidden", text: "Save my answers" });
     actions.appendChild(saveBtn);
     container.appendChild(actions);
-    maybeAddTopicSaveButton(saveBtn, container);
 
     saveBtn.addEventListener("click", function () {
       performSaveAnswers(container, data, function () {
@@ -1349,30 +1343,6 @@
     });
   }
 
-  // Appends a "Save Topic Answers" button right beside `primaryBtn`
-  // (the block's own "Save my answers" button) whenever this exercise
-  // lives inside a Test Yourself topic <section class="ty-topic">.
-  // Every exercise in a topic gets one, and every one of them saves
-  // the whole topic — not just the exercise it sits next to — per the
-  // shared collectTopicAnswers() above.
-  function maybeAddTopicSaveButton(primaryBtn, container) {
-    var topicSection = container.closest(".ty-topic[id]");
-    if (!topicSection) return null;
-    var heading = topicSection.querySelector(".section__head h2, h2, h3");
-    var topicTitle = heading ? heading.textContent.trim() : "this topic";
-    var btn = el("button", {
-      type: "button",
-      class: "btn btn--ghost print-hidden",
-      text: "Save Topic Answers",
-      "aria-label": "Save all answers for the topic: " + topicTitle,
-    });
-    primaryBtn.parentNode.insertBefore(btn, primaryBtn.nextSibling);
-    btn.addEventListener("click", function () {
-      performTopicSave(topicSection);
-    });
-    return btn;
-  }
-
   function init() {
     document.querySelectorAll(".exercise-block").forEach(function (container) {
       var dataScript = container.querySelector("script.exercise-data");
@@ -1389,36 +1359,78 @@
         if (window.console) console.error("Exercise parse error", e);
       }
     });
-    maybeAddTestSaveButton();
+    addTestYourselfSaveButtons();
     addHubSectionSaveButtons();
     addLessonPageSaveButton();
   }
 
-  // Injects a prominent "Save All Answers" button immediately above the
-  // page's closing "You've reached the end…" sentence — only on pages
-  // that actually have the Test Yourself topic structure (one or more
-  // <section class="ty-topic">), so this stays generic instead of being
-  // wired per-level. Runs once; leaves the existing "Back to <level>" /
-  // "Continue to <next level>" links untouched.
-  function maybeAddTestSaveButton() {
-    if (!document.querySelector(".ty-topic[id]")) return;
+  // Injects the two Test Yourself save buttons -- only on pages that
+  // actually have the Test Yourself topic structure (one or more
+  // <section class="ty-topic">), so this stays generic instead of
+  // being wired per-level. Runs once; leaves the existing
+  // "Back to <level>" / "Continue to <next level>" links untouched.
+  //
+  //  - Every topic gets its own "Save All Topic Answers" button
+  //    (left-aligned) at its own end, in place of the in-content
+  //    "Back to top" link that used to sit there -- replacing what
+  //    used to be one "Save Topic Answers" button per exercise block
+  //    (all identical, all saving the whole topic) with exactly one
+  //    per topic.
+  //  - The last topic is the exception: instead of getting its own
+  //    button at its own end, its button is placed together with the
+  //    page-wide "Save All Answers" button in one row immediately
+  //    above the "You've reached the end…" sentence (topic button
+  //    left, page button toward center, a small gap between them) --
+  //    the one place on a Test Yourself page where a topic-scoped and
+  //    a page-scoped save button legitimately sit side by side.
+  function buildTopicSaveButton(topicSection) {
+    var heading = topicSection.querySelector(".section__head h2, h2, h3");
+    var topicTitle = heading ? heading.textContent.trim() : "this topic";
+    var btn = el("button", {
+      type: "button",
+      class: "btn btn--accent print-hidden topic-save-all-btn",
+      text: "Save All Topic Answers",
+      "aria-label": "Save all answers for the topic: " + topicTitle,
+    });
+    btn.addEventListener("click", function () {
+      performTopicSave(topicSection);
+    });
+    return btn;
+  }
+
+  function addTestYourselfSaveButtons() {
+    var topics = document.querySelectorAll(".ty-topic[id]");
+    if (!topics.length) return;
     var bottomSection = document.getElementById("bottom");
     var heading = bottomSection ? bottomSection.querySelector("h2") : null;
     if (!heading || document.getElementById("ty-save-all-btn")) return;
+
+    var lastTopic = topics[topics.length - 1];
+    topics.forEach(function (topicSection) {
+      if (topicSection === lastTopic) return;
+      var btn = buildTopicSaveButton(topicSection);
+      var wrap = el("div", { class: "lesson-nav", style: "justify-content:flex-start;margin-top:var(--space-md);padding-top:var(--space-sm);" });
+      wrap.appendChild(btn);
+      var inner = topicSection.querySelector(":scope > .section__inner") || topicSection;
+      inner.appendChild(wrap);
+    });
+
     var levelCode = document.body.getAttribute("data-level-code") || "";
-    var wrap = el("div", { class: "lesson-nav", style: "justify-content:center;border-top:none;padding-top:0;padding-bottom:var(--space-sm);" });
-    var btn = el("button", {
+    var pageBtn = el("button", {
       type: "button",
       id: "ty-save-all-btn",
       class: "btn btn--accent print-hidden",
       text: "Save All Answers",
       "aria-label": "Save all answers from every " + (levelCode ? levelCode + " " : "") + "Test Yourself topic",
     });
-    btn.addEventListener("click", function () {
+    pageBtn.addEventListener("click", function () {
       performTestSave();
     });
-    wrap.appendChild(btn);
-    heading.parentNode.insertBefore(wrap, heading);
+
+    var row = el("div", { class: "lesson-nav", style: "justify-content:center;border-top:none;padding-top:0;padding-bottom:var(--space-sm);gap:0.75rem;" });
+    row.appendChild(buildTopicSaveButton(lastTopic));
+    row.appendChild(pageBtn);
+    heading.parentNode.insertBefore(row, heading);
   }
 
   /* ---------------------------------------------------------------
@@ -1484,15 +1496,19 @@
     });
   }
 
-  // Shared button factory for both call sites below. Grading + saving
-  // already has its own visible feedback (each block's score panel,
-  // then the native print/save dialog); this adds a brief "Saved" flash
-  // on the button itself as a lightweight extra confirmation.
+  // Shared button factory for both call sites below -- these save only
+  // the exercise blocks inside one scoped section/page, so they carry
+  // the "Topic" label (as opposed to the page-wide "Save All Answers"
+  // used on a whole Test Yourself page above) and sit left-aligned.
+  // Grading + saving already has its own visible feedback (each
+  // block's score panel, then the native print/save dialog); this
+  // adds a brief "Saved" flash on the button itself as a lightweight
+  // extra confirmation.
   function buildSaveAllAnswersButton(ariaLabel, onClick) {
     var btn = el("button", {
       type: "button",
       class: "btn btn--accent print-hidden save-all-answers-btn",
-      text: "Save All Answers",
+      text: "Save All Topic Answers",
       "aria-label": ariaLabel,
     });
     var revertTimer = null;
@@ -1501,7 +1517,7 @@
       if (revertTimer) clearTimeout(revertTimer);
       btn.textContent = "Saved ✓";
       revertTimer = setTimeout(function () {
-        btn.textContent = "Save All Answers";
+        btn.textContent = "Save All Topic Answers";
         revertTimer = null;
       }, 1500);
     });
@@ -1548,7 +1564,7 @@
       var btn = buildSaveAllAnswersButton("Save all answers in the " + label + " section", function () {
         performGenericSave(group, label);
       });
-      var wrap = el("div", { class: "lesson-nav", style: "justify-content:center;border-top:none;margin-top:var(--space-md);" });
+      var wrap = el("div", { class: "lesson-nav", style: "justify-content:flex-start;border-top:none;margin-top:var(--space-md);" });
       wrap.appendChild(btn);
       var inner = lastSection.querySelector(":scope > .section__inner") || lastSection;
       inner.appendChild(wrap);
@@ -1578,7 +1594,7 @@
     var btn = buildSaveAllAnswersButton("Save all answers on this lesson page", function () {
       performGenericSave([main], label);
     });
-    var wrap = el("div", { class: "lesson-nav", style: "justify-content:center;border-top:none;margin-top:var(--space-md);" });
+    var wrap = el("div", { class: "lesson-nav", style: "justify-content:flex-start;border-top:none;margin-top:var(--space-md);" });
     wrap.appendChild(btn);
 
     var dictToggle = main.querySelector(".dict-widget-toggle");

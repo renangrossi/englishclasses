@@ -1524,12 +1524,23 @@
     return btn;
   }
 
-  // Level-hub pages (levels/<level>.html) lay out their TOC sections
-  // (#vocabulary, #reading, #listening, …) as direct children of
-  // <main>. #exercises (the Lessons card grid) and #test-yourself (a
-  // card linking to the dedicated page, handled above) are skipped by
-  // name; every other TOC section gets a button at its end, but only
-  // if it actually contains at least one .exercise-block. The
+  // Level-hub pages (levels/<level>.html, exactly one path segment) lay
+  // out their TOC sections (#vocabulary, #reading, #listening, …) as
+  // direct children of <main>. This must only run on those hub pages --
+  // individual lesson pages (levels/<level>/<slug>.html) and Test
+  // Yourself pages (…/test-yourself.html) also have id'd <section>s as
+  // direct children of <main> (#practice; each .ty-topic), and those
+  // are handled by addLessonPageSaveButton / addTestYourselfSaveButtons
+  // respectively -- running this here too used to add a second,
+  // differently-classed "Save All Topic Answers" button on top of
+  // theirs (an orphan on Test Yourself's last topic, since that one
+  // deliberately has no button of its own -- it's merged into the
+  // page-level row instead).
+  //
+  // On an actual hub page: #exercises (the Lessons card grid) and
+  // #test-yourself (a card linking to the dedicated page) are skipped
+  // by name; every other TOC section gets a button at its end, but
+  // only if it actually contains at least one .exercise-block. The
   // Listening TOC section is special: on every level it's really an
   // id="listening" intro section followed by several un-id'd
   // "…Listening Practice" sub-sections that share its "section--listen"
@@ -1538,7 +1549,12 @@
   // after the group's last sub-section, not merely after the intro.
   var HUB_SECTION_SKIP_IDS = { exercises: true, "test-yourself": true };
 
+  function isLevelHubPageUrl() {
+    return /\/levels\/[^/]+\.html$/i.test(window.location.pathname);
+  }
+
   function addHubSectionSaveButtons() {
+    if (!isLevelHubPageUrl()) return;
     document.querySelectorAll("main > section[id]").forEach(function (anchorSection) {
       var id = anchorSection.id;
       if (HUB_SECTION_SKIP_IDS[id]) return;

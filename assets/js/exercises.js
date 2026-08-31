@@ -66,6 +66,22 @@
     });
   }
 
+  // Author-supplied item ids (e.g. "n5") are only meant to be unique
+  // within one exercise block's JSON, and in practice repeat across
+  // topics on the same page (Test Yourself pages concatenate many
+  // blocks). Building radio "name"/element "id" attributes straight
+  // from item.id therefore produced duplicate DOM ids: a <label for>
+  // resolves to the *first* element in the document with that id, so
+  // clicking an option could silently check/focus a same-id control
+  // in a completely different, earlier exercise instead of the one
+  // clicked. A monotonically increasing counter guarantees every
+  // generated id is unique for the life of the page, regardless of
+  // what item ids the JSON reuses.
+  var uidCounter = 0;
+  function uniqueId(base) {
+    return "q_" + base + "_" + (uidCounter++);
+  }
+
   function shuffled(arr) {
     var a = arr.slice();
     for (var i = a.length - 1; i > 0; i--) {
@@ -414,7 +430,7 @@
     var fieldset = el("fieldset");
     fieldset.appendChild(el("legend", { class: "visually-hidden", text: "Choose one answer" }));
     var list = el("div", { class: "option-list" });
-    var name = "q_" + item.id;
+    var name = uniqueId(item.id);
     var optionEls = [];
 
     (item.options || []).forEach(function (opt, i) {
@@ -480,7 +496,7 @@
     var fieldset = el("fieldset");
     fieldset.appendChild(el("legend", { class: "visually-hidden", text: "True or false" }));
     var list = el("div", { class: "option-list tf-options" });
-    var name = "q_" + item.id;
+    var name = uniqueId(item.id);
     var trueId = name + "_t", falseId = name + "_f";
     var trueInput = el("input", { type: "radio", name: name, id: trueId, value: "true" });
     var falseInput = el("input", { type: "radio", name: name, id: falseId, value: "false" });
@@ -631,11 +647,12 @@
   function renderCorrection(item, index) {
     var wrap = itemShell(index, null);
     wrap.appendChild(el("p", { class: "exercise-item__source", html: "&ldquo;" + item.incorrect + "&rdquo;" }));
-    var label = el("label", { class: "exercise-item__prompt", for: "q_" + item.id });
+    var qid = uniqueId(item.id);
+    var label = el("label", { class: "exercise-item__prompt", for: qid });
     label.appendChild(el("span", { class: "exercise-item__number", "aria-hidden": "true", text: String(index + 1) }));
     label.appendChild(document.createTextNode("Write the correct sentence:"));
     wrap.appendChild(label);
-    var input = el("input", { type: "text", id: "q_" + item.id, class: "answer-input", autocomplete: "off", spellcheck: "false" });
+    var input = el("input", { type: "text", id: qid, class: "answer-input", autocomplete: "off", spellcheck: "false" });
     wrap.appendChild(input);
 
     var fb = feedbackNode(item.explanation || "");

@@ -425,6 +425,26 @@
   }
 
   // ---- multiple-choice / vocabulary / reading-comprehension question ----
+  //
+  // item.options is authored as a plain array with the correct entry at
+  // item.answerIndex. Left as-is, every question would always render its
+  // options in that exact authored order -- across this site's real
+  // exercise data that means the correct answer sits in the same option
+  // slot (option B) roughly three-quarters of the time, letting a student
+  // learn "pick B" instead of the material. Options are therefore
+  // shuffled once per render using the same Fisher-Yates `shuffled()`
+  // helper used elsewhere in this file (fill-blank dropdowns, matching).
+  //
+  // The shuffle only changes *display* order: each rendered option keeps
+  // its `originalIndex` into item.options, the radio's `value` is that
+  // original index (not its screen position), and grade() compares the
+  // checked control's original index against item.answerIndex -- so
+  // correctness is decided by answer identity, never by position, and
+  // extractChoice() (used by the save/print flow) keeps working unchanged
+  // since it already reads `Number(checked.value)` as an index into
+  // item.options. Shuffling happens once when the item is built, not
+  // inside reset(), so retrying a question never reshuffles its options
+  // out from under the student.
   function renderChoice(item, index) {
     var wrap = itemShell(index, item.prompt);
     var fieldset = el("fieldset");
@@ -433,14 +453,16 @@
     var name = uniqueId(item.id);
     var optionEls = [];
 
-    (item.options || []).forEach(function (opt, i) {
-      var inputId = name + "_" + i;
-      var input = el("input", { type: "radio", name: name, id: inputId, value: String(i) });
+    var order = shuffled((item.options || []).map(function (_, i) { return i; }));
+    order.forEach(function (originalIndex) {
+      var opt = item.options[originalIndex];
+      var inputId = name + "_" + originalIndex;
+      var input = el("input", { type: "radio", name: name, id: inputId, value: String(originalIndex) });
       var label = el("label", { class: "option", for: inputId }, [
         input,
         el("span", { class: "option__label", text: opt }),
       ]);
-      optionEls.push({ input: input, label: label });
+      optionEls.push({ input: input, label: label, originalIndex: originalIndex });
       list.appendChild(label);
     });
 
@@ -468,14 +490,15 @@
         wrap.classList.remove("is-locked");
       },
       grade: function () {
-        var chosen = optionEls.findIndex(function (o) { return o.input.checked; });
+        var checkedOpt = optionEls.filter(function (o) { return o.input.checked; })[0];
+        var chosen = checkedOpt ? checkedOpt.originalIndex : -1;
         var correct = chosen === item.answerIndex;
-        optionEls.forEach(function (o, i) {
+        optionEls.forEach(function (o) {
           o.input.disabled = true;
-          if (i === item.answerIndex) {
+          if (o.originalIndex === item.answerIndex) {
             o.label.classList.add("is-correct");
             o.label.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2713 correct" }));
-          } else if (i === chosen) {
+          } else if (o.originalIndex === chosen) {
             o.label.classList.add("is-incorrect");
             o.label.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2717 your answer" }));
           }

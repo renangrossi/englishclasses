@@ -217,7 +217,7 @@
   // catalog before ever using it — nothing here is trusted as-is.
   var courseContext = (function () {
     var path = window.location.pathname;
-    var levelMatch = path.match(/\/levels\/(a1|a2|b1|b2|c1|c2)(?:[\/.]|$)/i);
+    var levelMatch = path.match(/\/levels\/(pre-a1|a1|a2|b1|b2|c1|c2)(?:[\/.]|$)/i);
     var titleParts = (document.title || "").split("—"); // split on em dash "—"
     return {
       currentLevel: levelMatch ? levelMatch[1].toUpperCase() : "",

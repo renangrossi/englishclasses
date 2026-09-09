@@ -272,4 +272,120 @@
 .dict-widget__pos { font-style: italic; color: var(--color-accent); margin-top: 0.6em; font-size: 0.85em; }
 .dict-widget__defs { margin: 0.3em 0 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.4em; }
 .dict-widget__example { color: var(--color-text-muted); }
+
+/* =======================================================================
+   FLOATING IRREGULAR VERBS PANEL (assets/js/irregular-verbs-panel.js)
+   Only on exercise pages whose grammar point needs irregular
+   past-simple/past-participle recall — see that file's header comment.
+   Left-side stack with .ai-teacher-toggle (ai-teacher.css): same
+   corner, same var(--space-md) offset, stacked 60px above it — the
+   same 60px figure .back-to-top--with-dict (components.css) already
+   uses for the opposite corner's stack, reused here rather than a new
+   number. Every page that ships this panel already includes
+   ai-teacher.js, so — unlike .back-to-top--with-dict — this offset
+   never needs to be conditional on whether the other button exists.
+   Panel geometry deliberately mirrors .dict-widget-panel above (same
+   shape of widget: a search field over a scrollable list) rather than
+   .ai-teacher-panel's chat-specific sizing (ai-teacher.css) — simple
+   min()/calc() sizing, no dedicated mobile breakpoint needed, same as
+   .dict-widget-panel.
+   ======================================================================= */
+.irregular-verbs-toggle {
+  position: fixed;
+  left: var(--space-md);
+  bottom: calc(var(--space-md) + 60px + env(safe-area-inset-bottom, 0px));
+  z-index: 900;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.75em 1.1em;
+  border-radius: 999px;
+  border: 1px solid var(--color-gold);
+  background: var(--color-primary-strong);
+  color: var(--gold-300);
+  font-weight: 700;
+  font-size: var(--step--1);
+  cursor: pointer;
+  box-shadow: var(--shadow-lg);
+  transition: transform var(--duration-fast) var(--ease-standard);
+}
+.irregular-verbs-toggle:hover { background: var(--color-primary); transform: translateY(-2px); }
+.irregular-verbs-toggle svg { width: 20px; height: 20px; flex-shrink: 0; }
+.irregular-verbs-toggle__label { white-space: nowrap; }
+@media (max-width: 560px) {
+  /* Same breakpoint/behaviour as .ai-teacher-toggle's own label-hiding
+     (ai-teacher.css) — the two stay visually consistent at every width. */
+  .irregular-verbs-toggle { padding: 0.7em; }
+  .irregular-verbs-toggle__label { display: none; }
+}
+
+.irregular-verbs-panel {
+  position: fixed;
+  left: var(--space-md);
+  /* Clears both this panel's own toggle (60px above ai-teacher-toggle)
+     and that toggle's footprint (+60px again) — see the comment above
+     this section. */
+  bottom: calc(var(--space-md) + 120px + env(safe-area-inset-bottom, 0px));
+  width: min(420px, calc(100vw - 2 * var(--space-md)));
+  max-height: min(65vh, calc(100dvh - var(--header-height) - 2 * var(--space-md)));
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface-raised);
+  border: 2px solid var(--color-gold);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  z-index: 901;
+  overflow: hidden;
+  overscroll-behavior: contain;
+}
+.irregular-verbs-panel[hidden] { display: none; }
+
+.irregular-verbs-panel__bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.7em 0.8em;
+  border-bottom: var(--border-hairline);
+  flex-shrink: 0;
+}
+.irregular-verbs-panel__bar input {
+  flex: 1;
+  border: var(--border-hairline);
+  border-radius: var(--radius-sm);
+  padding: 0.5em 0.7em;
+  font: inherit;
+  /* 16px, not var(--step--1) — same iOS auto-zoom-on-focus reasoning as
+     .dict-widget__bar input above; this field is focused the instant
+     the panel opens. */
+  font-size: 16px;
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+.irregular-verbs-panel__close {
+  flex-shrink: 0;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  border: var(--border-hairline);
+  background: transparent;
+  color: var(--color-text-muted);
+  display: inline-flex; align-items: center; justify-content: center;
+  cursor: pointer;
+}
+.irregular-verbs-panel__close svg { width: 14px; height: 14px; }
+
+.irregular-verbs-panel__body {
+  padding: 0.8em 0.9em;
+  overflow-y: auto;
+  font-size: var(--step--1);
+  flex: 1;
+  min-height: 0;
+}
+.irregular-verbs-panel__loading { color: var(--color-text-muted); margin: 0; }
+.irregular-verbs-panel__footer {
+  padding: 0.5em 0.9em;
+  border-top: var(--border-hairline);
+  font-size: 0.85em;
+  flex-shrink: 0;
+  text-align: right;
+}
 .dict-widget__links { display: flex; flex-wrap: wrap; gap: 0.4em; padding: 0 0.9em 0.8em; flex-shrink: 0; }

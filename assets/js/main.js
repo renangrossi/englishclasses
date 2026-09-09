@@ -69,40 +69,69 @@
   }
 
   /* ---------------------------------------------------------------
-     "Levels" dropdown — hover works via CSS on desktop; this adds
-     click/tap and keyboard support so touch and keyboard users can
-     open it too, and closes it on outside click / Escape.
+     Nav dropdowns (e.g. "Levels") — click/tap and keyboard support,
+     closing on outside click / Escape. .nav-drop__menu is also shown
+     via a `:focus-within` CSS fallback (see components.css) so tabbing
+     into the menu keeps it open for keyboard users; every place this
+     module closes a dropdown also blurs whatever's focused inside it,
+     so that CSS fallback can never keep the menu visible after the
+     .is-open class has been removed — the two mechanisms would
+     otherwise fall out of sync (open the menu, click a menu item or
+     the toggle again, or press Escape, and the menu stayed visible
+     because focus was still inside it even though .is-open was gone).
+     Handles every ".nav-drop" on the page (there's normally exactly
+     one, but this doesn't assume that) with one shared outside-click
+     and Escape listener rather than one pair per dropdown.
      --------------------------------------------------------------- */
   function initDropdown() {
-    var drop = document.querySelector(".nav-drop");
-    if (!drop) return;
-    var toggle = drop.querySelector(".nav-drop__toggle");
-    if (!toggle) return;
+    var drops = document.querySelectorAll(".nav-drop");
+    if (!drops.length) return;
 
-    function close() {
+    var openDrops = [];
+
+    function close(drop) {
+      var toggle = drop.querySelector(".nav-drop__toggle");
       drop.classList.remove("is-open");
-      toggle.setAttribute("aria-expanded", "false");
+      if (toggle) toggle.setAttribute("aria-expanded", "false");
+      if (drop.contains(document.activeElement) && document.activeElement.blur) {
+        document.activeElement.blur();
+      }
+      var idx = openDrops.indexOf(drop);
+      if (idx !== -1) openDrops.splice(idx, 1);
     }
-    function open() {
+    function open(drop) {
+      // Only one dropdown open at a time.
+      openDrops.slice().forEach(function (d) { if (d !== drop) close(d); });
       drop.classList.add("is-open");
-      toggle.setAttribute("aria-expanded", "true");
+      var toggle = drop.querySelector(".nav-drop__toggle");
+      if (toggle) toggle.setAttribute("aria-expanded", "true");
+      if (openDrops.indexOf(drop) === -1) openDrops.push(drop);
     }
 
-    toggle.addEventListener("click", function (e) {
-      e.preventDefault();
-      if (drop.classList.contains("is-open")) close();
-      else open();
+    drops.forEach(function (drop) {
+      var toggle = drop.querySelector(".nav-drop__toggle");
+      if (!toggle) return;
+      toggle.addEventListener("click", function (e) {
+        e.preventDefault();
+        // Belt-and-braces: keeps this click from ever reaching the
+        // document-level outside-click listener below, so opening
+        // never depends on that listener resolving containment
+        // correctly first. Matches the pattern already used by the
+        // dictionary widget's own trigger (assets/js/dict-widget.js).
+        e.stopPropagation();
+        if (drop.classList.contains("is-open")) close(drop);
+        else open(drop);
+      });
     });
 
     document.addEventListener("click", function (e) {
-      if (!drop.contains(e.target)) close();
+      openDrops.slice().forEach(function (drop) {
+        if (!drop.contains(e.target)) close(drop);
+      });
     });
 
     document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape") {
-        close();
-        toggle.blur();
-      }
+      if (e.key === "Escape") openDrops.slice().forEach(close);
     });
   }
 

@@ -370,7 +370,13 @@
    * Item renderers — one per exercise type.
    * Each renderer returns { node, reset(), grade() }. grade() locks
    * the item, reveals correct/incorrect state + explanation, and
-   * returns { correct, attempted }.
+   * returns { correct, attempted }. An item (or, for fill-blank/
+   * matching/ordering, a whole item left only partially filled)
+   * that the student never completed is graded as incorrect as
+   * usual, but its feedback reads "Not filled in." and never
+   * reveals the correct answer — see setFeedback()'s `filled`
+   * parameter, which every renderer's grade() computes and passes
+   * through for this.
    * ------------------------------------------------------------- */
   var renderers = {};
 
@@ -404,14 +410,24 @@
     return { node: fb, strongEl: strong, body: body, explanationEl: explanationEl };
   }
 
-  function setFeedback(fbRef, correct, correctAnswerText, iconWrap) {
+  // `filled` distinguishes "the student answered this, right or wrong"
+  // from "the student left it blank/unselected" (omit it, or pass true,
+  // for a fully-answered item — every existing call site before this
+  // parameter was added behaves exactly as before). An unfilled item is
+  // never told what the correct answer was: revealing it would let a
+  // student who submits a blank item over and over read off every
+  // answer for free, so it gets its own neutral "Not filled in." message
+  // instead of the normal correct/incorrect reveal.
+  function setFeedback(fbRef, correct, correctAnswerText, iconWrap, filled) {
+    var isUnfilled = filled === false;
     fbRef.node.classList.add("is-visible");
     fbRef.node.classList.toggle("is-correct", correct);
-    fbRef.node.classList.toggle("is-incorrect", !correct);
+    fbRef.node.classList.toggle("is-incorrect", !correct && !isUnfilled);
+    fbRef.node.classList.toggle("is-unanswered", isUnfilled);
     iconWrap.innerHTML = "";
     iconWrap.appendChild(iconSpan(correct ? "check" : "cross"));
-    fbRef.strongEl.textContent = correct ? "Correct." : "Not quite.";
-    if (!correct && correctAnswerText) {
+    fbRef.strongEl.textContent = isUnfilled ? "Not filled in." : correct ? "Correct." : "Not quite.";
+    if (!correct && correctAnswerText && !isUnfilled) {
       var existing = fbRef.body.querySelector(".correct-answer");
       if (!existing) {
         var correctAnswerEl = el("div", { class: "correct-answer", html: "<em>Correct answer:</em> " + correctAnswerText });
@@ -484,7 +500,7 @@
           var tag = o.label.querySelector(".option__tag");
           if (tag) tag.remove();
         });
-        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect");
+        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect", "is-unanswered");
         var ca = fb.body.querySelector(".correct-answer");
         if (ca) ca.remove();
         wrap.classList.remove("is-locked");
@@ -492,9 +508,14 @@
       grade: function () {
         var checkedOpt = optionEls.filter(function (o) { return o.input.checked; })[0];
         var chosen = checkedOpt ? checkedOpt.originalIndex : -1;
+        var attempted = chosen !== -1;
         var correct = chosen === item.answerIndex;
         optionEls.forEach(function (o) {
           o.input.disabled = true;
+          // Nothing selected -- never mark which option was correct;
+          // that would hand the student the answer for free just for
+          // submitting blank.
+          if (!attempted) return;
           if (o.originalIndex === item.answerIndex) {
             o.label.classList.add("is-correct");
             o.label.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2713 correct" }));
@@ -504,8 +525,8 @@
           }
         });
         wrap.classList.add("is-locked");
-        setFeedback(fb, correct, null, iconWrap);
-        return { correct: correct, attempted: chosen !== -1 };
+        setFeedback(fb, correct, null, iconWrap, attempted);
+        return { correct: correct, attempted: attempted };
       },
     };
   }
@@ -544,24 +565,30 @@
         falseLabel.classList.remove("is-correct", "is-incorrect");
         var t1 = trueLabel.querySelector(".option__tag"); if (t1) t1.remove();
         var t2 = falseLabel.querySelector(".option__tag"); if (t2) t2.remove();
-        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect");
+        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect", "is-unanswered");
         wrap.classList.remove("is-locked");
       },
       grade: function () {
         var chosen = trueInput.checked ? true : falseInput.checked ? false : null;
+        var attempted = chosen !== null;
         var correct = chosen === item.answer;
         trueInput.disabled = true; falseInput.disabled = true;
-        var correctLabel = item.answer ? trueLabel : falseLabel;
-        correctLabel.classList.add("is-correct");
-        correctLabel.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2713 correct" }));
-        if (chosen !== null && chosen !== item.answer) {
-          var wrongLabel = chosen ? trueLabel : falseLabel;
-          wrongLabel.classList.add("is-incorrect");
-          wrongLabel.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2717 your answer" }));
+        // Nothing selected -- never mark which option was correct; that
+        // would hand the student the answer for free just for
+        // submitting blank.
+        if (attempted) {
+          var correctLabel = item.answer ? trueLabel : falseLabel;
+          correctLabel.classList.add("is-correct");
+          correctLabel.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2713 correct" }));
+          if (chosen !== item.answer) {
+            var wrongLabel = chosen ? trueLabel : falseLabel;
+            wrongLabel.classList.add("is-incorrect");
+            wrongLabel.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2717 your answer" }));
+          }
         }
         wrap.classList.add("is-locked");
-        setFeedback(fb, correct, null, iconWrap);
-        return { correct: correct, attempted: chosen !== null };
+        setFeedback(fb, correct, null, iconWrap, attempted);
+        return { correct: correct, attempted: attempted };
       },
     };
   }
@@ -641,7 +668,7 @@
           inp.disabled = false;
           inp.classList.remove("is-correct", "is-incorrect");
         });
-        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect");
+        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect", "is-unanswered");
         var ca = fb.body.querySelector(".correct-answer");
         if (ca) ca.remove();
         wrap.classList.remove("is-locked");
@@ -649,9 +676,11 @@
       grade: function () {
         var allCorrect = true;
         var attempted = false;
+        var allFilled = true;
         var answers = item.answers || [];
         inputs.forEach(function (inp, i) {
           if (inp.value.trim()) attempted = true;
+          else allFilled = false;
           var ok = matchesAny(inp.value, answers[i]);
           inp.classList.add(ok ? "is-correct" : "is-incorrect");
           inp.disabled = true;
@@ -659,7 +688,12 @@
         });
         wrap.classList.add("is-locked");
         var correctText = (item.answers || []).map(function (a) { return Array.isArray(a) ? a[0] : a; }).join(" &middot; ");
-        setFeedback(fb, allCorrect, allCorrect ? null : correctText, iconWrap);
+        // A partially-filled item (some blanks answered, others left
+        // empty) is still incomplete overall -- it gets the same "Not
+        // filled in." treatment as a fully blank one, rather than
+        // revealing every blank's answer just because one of several was
+        // attempted.
+        setFeedback(fb, allCorrect, allCorrect ? null : correctText, iconWrap, allFilled);
         return { correct: allCorrect, attempted: attempted };
       },
     };
@@ -688,19 +722,20 @@
       reset: function () {
         input.value = ""; input.disabled = false;
         input.classList.remove("is-correct", "is-incorrect");
-        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect");
+        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect", "is-unanswered");
         var ca = fb.body.querySelector(".correct-answer");
         if (ca) ca.remove();
         wrap.classList.remove("is-locked");
       },
       grade: function () {
+        var attempted = input.value.trim().length > 0;
         var ok = matchesAny(input.value, item.answer);
         input.classList.add(ok ? "is-correct" : "is-incorrect");
         input.disabled = true;
         wrap.classList.add("is-locked");
         var correctText = Array.isArray(item.answer) ? item.answer[0] : item.answer;
-        setFeedback(fb, ok, ok ? null : correctText, iconWrap);
-        return { correct: ok, attempted: input.value.trim().length > 0 };
+        setFeedback(fb, ok, ok ? null : correctText, iconWrap, attempted);
+        return { correct: ok, attempted: attempted };
       },
     };
   }
@@ -723,7 +758,7 @@
       reset: function () {
         input.value = ""; input.disabled = false;
         input.classList.remove("is-correct", "is-incorrect");
-        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect");
+        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect", "is-unanswered");
         var ma = fb.body.querySelector(".model-answer");
         if (ma) ma.remove();
         var ca = fb.body.querySelector(".correct-answer");
@@ -731,21 +766,30 @@
         wrap.classList.remove("is-locked");
       },
       grade: function () {
+        var attempted = input.value.trim().length > 0;
         input.disabled = true;
         wrap.classList.add("is-locked");
         if (selfCheck) {
           fb.node.classList.add("is-visible");
-          fb.strongEl.textContent = item.modelAnswer ? "Model answer:" : "Saved for your own review.";
-          if (item.modelAnswer && !fb.body.querySelector(".model-answer")) {
-            fb.body.appendChild(el("div", { class: "model-answer", text: item.modelAnswer }));
+          fb.node.classList.toggle("is-unanswered", !attempted);
+          if (!attempted) {
+            // Nothing was written -- show the same neutral "not filled
+            // in" notice as every graded type, instead of handing over
+            // the model answer for free.
+            fb.strongEl.textContent = "Not filled in.";
+          } else {
+            fb.strongEl.textContent = item.modelAnswer ? "Model answer:" : "Saved for your own review.";
+            if (item.modelAnswer && !fb.body.querySelector(".model-answer")) {
+              fb.body.appendChild(el("div", { class: "model-answer", text: item.modelAnswer }));
+            }
           }
-          return { correct: true, attempted: input.value.trim().length > 0, selfCheck: true };
+          return { correct: true, attempted: attempted, selfCheck: true };
         }
         var ok = matchesAny(input.value, item.answer);
         input.classList.add(ok ? "is-correct" : "is-incorrect");
         var correctText = Array.isArray(item.answer) ? item.answer[0] : item.answer;
-        setFeedback(fb, ok, ok ? null : correctText, iconWrap);
-        return { correct: ok, attempted: input.value.trim().length > 0 };
+        setFeedback(fb, ok, ok ? null : correctText, iconWrap, attempted);
+        return { correct: ok, attempted: attempted };
       },
     };
   }
@@ -793,31 +837,42 @@
           var hint = rw.querySelector(".match-row__correct");
           if (hint) hint.remove();
         });
-        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect");
+        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect", "is-unanswered");
         wrap.classList.remove("is-locked");
       },
       grade: function () {
-        var allCorrect = true, attempted = false;
+        var allCorrect = true, attempted = false, allFilled = true;
         selects.forEach(function (s, i) {
-          if (s.value) attempted = true;
-          var ok = norm(s.value) === norm(item.pairs[i].right);
+          var rowAttempted = !!s.value;
+          if (rowAttempted) attempted = true;
+          else allFilled = false;
+          var ok = rowAttempted && norm(s.value) === norm(item.pairs[i].right);
           s.classList.add(ok ? "is-correct" : "is-incorrect");
           s.disabled = true;
           if (!ok) {
             allCorrect = false;
-            // Unlike fill-blank/correction, a wrong matching pick has no
-            // separate place to reveal what the right pairing actually
-            // was \u2014 the select just turns red. Add it explicitly so the
-            // right answer is visible on screen (and therefore also in
-            // the printed/PDF copy once its value is captured).
-            rowWraps[i].appendChild(el("p", {
-              class: "match-row__correct",
-              html: "<em>Correct:</em> " + escapeHtml(item.pairs[i].right),
-            }));
+            if (rowAttempted) {
+              // Unlike fill-blank/correction, a wrong matching pick has no
+              // separate place to reveal what the right pairing actually
+              // was \u2014 the select just turns red. Add it explicitly so
+              // the right answer is visible on screen (and therefore also
+              // in the printed/PDF copy once its value is captured).
+              rowWraps[i].appendChild(el("p", {
+                class: "match-row__correct",
+                html: "<em>Correct:</em> " + escapeHtml(item.pairs[i].right),
+              }));
+            } else {
+              // A row left blank never reveals its pairing this way --
+              // only rows the student actually picked (and got wrong) do.
+              rowWraps[i].appendChild(el("p", {
+                class: "match-row__correct is-unanswered",
+                text: "Not filled in.",
+              }));
+            }
           }
         });
         wrap.classList.add("is-locked");
-        setFeedback(fb, allCorrect, null, iconWrap);
+        setFeedback(fb, allCorrect, null, iconWrap, allFilled);
         return { correct: allCorrect, attempted: attempted };
       },
     };
@@ -887,7 +942,7 @@
         built = [];
         renderPool();
         renderBuild();
-        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect");
+        fb.node.classList.remove("is-visible", "is-correct", "is-incorrect", "is-unanswered");
         var ca = fb.body.querySelector(".correct-answer");
         if (ca) ca.remove();
         wrap.classList.remove("is-locked");
@@ -895,14 +950,19 @@
       },
       grade: function () {
         var userOrder = built.map(function (c) { return c.word; });
-        var correct = userOrder.length === words.length && userOrder.every(function (w, i) { return w === words[i]; });
+        var attempted = userOrder.length > 0;
+        var allPlaced = userOrder.length === words.length;
+        var correct = allPlaced && userOrder.every(function (w, i) { return w === words[i]; });
         buildArea.querySelectorAll(".word-chip").forEach(function (b) { b.disabled = true; });
         pool.querySelectorAll(".word-chip").forEach(function (b) { b.disabled = true; });
         resetBtn.disabled = true;
         wrap.classList.add("is-locked");
         var correctText = words.join(" ");
-        setFeedback(fb, correct, correct ? null : correctText, iconWrap);
-        return { correct: correct, attempted: userOrder.length > 0 };
+        // Some words placed but not all is still an incomplete attempt --
+        // it gets "Not filled in." rather than revealing the full correct
+        // order for a sentence the student never finished building.
+        setFeedback(fb, correct, correct ? null : correctText, iconWrap, allPlaced);
+        return { correct: correct, attempted: attempted };
       },
     };
   }

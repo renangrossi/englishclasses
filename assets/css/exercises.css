@@ -150,6 +150,9 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
    once printed, in the saved PDF too). */
 .match-row__correct { margin: 0; padding-left: calc(1em + 0.8em); font-size: var(--step--1); color: var(--color-success); }
 .match-row__correct em { font-style: normal; font-weight: 600; }
+/* A row left blank shows the same "not filled in" wording as every other
+   unanswered item, not the green "here's the right pairing" reveal. */
+.match-row__correct.is-unanswered { color: var(--color-text-muted); }
 @media (max-width: 560px) {
   .match-row { grid-template-columns: 1fr; gap: 0.3em; }
   .match-row__arrow { display: none; }
@@ -225,6 +228,11 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
 .item-feedback svg { width: 18px; height: 18px; flex-shrink: 0; margin-top: 0.1em; }
 .item-feedback.is-correct svg { color: var(--color-success); }
 .item-feedback.is-incorrect svg { color: var(--color-danger); }
+/* An item the student left blank is graded incorrect but isn't shown as
+   a red "wrong answer" — that reads as a scored mistake with its answer
+   withheld, not as a plain reminder to go back and fill it in. */
+.item-feedback.is-unanswered { background: var(--color-surface); color: var(--color-text-muted); }
+.item-feedback.is-unanswered svg { color: var(--color-text-muted); }
 .item-feedback__body strong { display: block; margin-bottom: 0.2em; }
 /* The correct form leads the feedback body (see setFeedback() in
    exercises.js), so it gets a touch more weight than the explanation

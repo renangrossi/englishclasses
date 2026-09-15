@@ -38,7 +38,8 @@
  *
  * Every item's "explanation" is shown after grading regardless of whether
  * the answer was correct — write it as a short rule/reason a student can
- * learn from, not just "Correct answer."
+ * learn from, not just "Correct answer." (Like the correct answer itself,
+ * it's withheld when the item was left unfilled — see setFeedback below.)
  *
  * fill-blank items render a <select> dropdown per blank when "options" is
  * given (see renderFillBlank below for the exact shape), and fall back to
@@ -427,6 +428,13 @@
     iconWrap.innerHTML = "";
     iconWrap.appendChild(iconSpan(correct ? "check" : "cross"));
     fbRef.strongEl.textContent = isUnfilled ? "Not filled in." : correct ? "Correct." : "Not quite.";
+    // An unfilled item's explanation almost always restates or implies the
+    // correct answer (e.g. "'Substantial loss' nominalizes..." for a blank
+    // whose answer is "loss"), so it has to stay hidden under the same
+    // "don't hand over the answer for free" rule that already withholds
+    // the "Correct answer:" line just below -- only the neutral "Not
+    // filled in." notice is shown until the student actually answers.
+    if (fbRef.explanationEl) fbRef.explanationEl.hidden = isUnfilled;
     if (!correct && correctAnswerText && !isUnfilled) {
       var existing = fbRef.body.querySelector(".correct-answer");
       if (!existing) {

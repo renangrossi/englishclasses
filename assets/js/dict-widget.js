@@ -175,23 +175,163 @@
     return out;
   }
 
+  /* ---------------------------------------------------------------
+   * Performance: request timeout + parallel candidates + persistent
+   * cache. Previously every lookup fired its capitalization candidates
+   * one at a time (up to 4) against dictionaryapi.dev, then up to 4
+   * more against Wiktionary, with no timeout at all -- if the first
+   * candidate's connection ever stalled (dictionaryapi.dev is a free,
+   * best-effort API with no SLA, and its origin does intermittently
+   * stop responding after the TLS handshake completes), the browser's
+   * own default timeout could leave the widget "Looking up..." for
+   * a very long time before ever reaching the working Wiktionary
+   * fallback. Two independent fixes:
+   *   1. Every fetch gets a hard REQUEST_TIMEOUT_MS ceiling via
+   *      AbortController, so a stalled origin fails fast instead of
+   *      hanging the whole lookup.
+   *   2. A word's candidates are tried in PARALLEL (firstSuccess)
+   *      instead of sequentially, so the cost of one bad candidate is
+   *      no longer paid serially before trying the next.
+   * On top of that, a persistent (localStorage) + in-memory cache
+   * means any word looked up before -- successfully or confirmed
+   * not-found -- renders instantly with zero network requests, and
+   * concurrent lookups for the same in-flight word share one request
+   * instead of duplicating it. See lookup() below for the cache path.
+   * --------------------------------------------------------------- */
+  var REQUEST_TIMEOUT_MS = 5000;
+  var CACHE_STORAGE_KEY = "rt_dict_cache_v1";
+  var CACHE_MAX_ENTRIES = 500;
+
+  // Object.create(null) rather than {} -- cache keys come from
+  // whatever a student types, and a plain object literal treats a key
+  // literally named "__proto__" as a request to change the object's
+  // prototype instead of an ordinary property, which would corrupt
+  // every other cache entry's lookups. A null-prototype object has no
+  // such special key and no inherited members to collide with either.
+  function blankMap() { return Object.create(null); }
+
+  var memoryCache = blankMap(); // word(lowercase) -> {data:[...]} | {notFound:true}
+  var inFlight = blankMap();    // word(lowercase) -> Promise
+
+  (function loadPersistentCache() {
+    try {
+      var raw = window.localStorage.getItem(CACHE_STORAGE_KEY);
+      if (!raw) return;
+      var parsed = JSON.parse(raw);
+      Object.keys(parsed).forEach(function (k) { memoryCache[k] = parsed[k]; });
+    } catch (e) {
+      // Corrupt JSON, storage disabled, or a private-browsing quota --
+      // an empty in-memory cache is a safe fallback either way.
+    }
+  })();
+
+  var persistTimer = null;
+  function schedulePersist() {
+    if (persistTimer) return;
+    persistTimer = setTimeout(function () {
+      persistTimer = null;
+      try {
+        var keys = Object.keys(memoryCache);
+        if (keys.length > CACHE_MAX_ENTRIES) {
+          // Trim oldest-inserted entries first (insertion order is
+          // preserved for string keys) rather than let the cache --
+          // and the localStorage write on every lookup -- grow forever.
+          keys.slice(0, keys.length - CACHE_MAX_ENTRIES).forEach(function (k) { delete memoryCache[k]; });
+        }
+        window.localStorage.setItem(CACHE_STORAGE_KEY, JSON.stringify(memoryCache));
+      } catch (e) {
+        // Storage full or unavailable -- the in-memory cache still
+        // serves the rest of this page session.
+      }
+    }, 300);
+  }
+
+  function normalizeCacheKey(word) {
+    return word.trim().toLowerCase();
+  }
+
+  function fetchWithTimeout(url, ms) {
+    var hasAbort = typeof AbortController !== "undefined";
+    var controller = hasAbort ? new AbortController() : null;
+    var timer = hasAbort ? setTimeout(function () { controller.abort(); }, ms) : null;
+    return fetch(url, hasAbort ? { signal: controller.signal } : {}).then(
+      function (res) { if (timer) clearTimeout(timer); return res; },
+      function (err) { if (timer) clearTimeout(timer); throw err; }
+    );
+  }
+
+  // Fires every candidate's request immediately in parallel (so one
+  // candidate's full latency is never paid before the next even starts
+  // -- the actual latency fix), but still resolves with the EARLIEST-
+  // INDEX candidate that succeeds, never merely whichever happened to
+  // respond fastest. candidateWords() orders candidates deliberately
+  // (the word exactly as typed first, a capitalized variant after) --
+  // e.g. Wiktionary's "oyster" (the mollusk: noun/adjective/verb) and
+  // "Oyster" (only a rare surname) are unrelated entries, and racing
+  // them by raw response time can surface the wrong one depending on
+  // which server answers first. Waiting for index 0 to settle before
+  // considering index 1 (while both requests are already in flight)
+  // keeps the result deterministic without giving up the parallel
+  // dispatch's speed.
+  //
+  // The rejection this settles with carries .reachedServer = true when
+  // at least one candidate got a real (if negative) answer from its
+  // server -- e.g. a 404 -- rather than every candidate failing at the
+  // network/timeout level. lookup() below uses that to decide whether
+  // "not found" is definitive enough to cache, versus a connectivity
+  // blip worth retrying fresh next time.
+  function firstSuccess(factories) {
+    return new Promise(function (resolve, reject) {
+      var n = factories.length;
+      if (!n) { reject(new Error("no candidates")); return; }
+      var results = new Array(n);
+      var nextNeeded = 0;
+      var settledCount = 0;
+      var anyReachedServer = false;
+
+      function tryAdvance() {
+        while (nextNeeded < n && results[nextNeeded] !== undefined) {
+          var r = results[nextNeeded];
+          if (r.ok) { resolve(r.value); return; }
+          if (r.err && r.err.reachedServer) anyReachedServer = true;
+          nextNeeded += 1;
+        }
+        if (settledCount === n && nextNeeded === n) {
+          var finalErr = new Error("all candidates failed");
+          finalErr.reachedServer = anyReachedServer;
+          reject(finalErr);
+        }
+      }
+
+      factories.forEach(function (factory, i) {
+        factory().then(
+          function (value) { results[i] = { ok: true, value: value }; settledCount += 1; tryAdvance(); },
+          function (err) { results[i] = { ok: false, err: err }; settledCount += 1; tryAdvance(); }
+        );
+      });
+    });
+  }
+
   function fetchDefinition(word) {
-    return fetch("https://api.dictionaryapi.dev/api/v2/entries/en/" + encodeURIComponent(word)).then(function (res) {
-      if (!res.ok) throw new Error("not found: " + word);
+    return fetchWithTimeout("https://api.dictionaryapi.dev/api/v2/entries/en/" + encodeURIComponent(word), REQUEST_TIMEOUT_MS).then(function (res) {
+      if (!res.ok) {
+        // A real response from the server (even a 404) is a definitive
+        // "this word isn't indexed" answer -- worth caching. A timed-out
+        // or network-failed request never reaches here at all (the
+        // fetch promise itself rejects instead), so it can't be
+        // mistaken for one; see the notFound-caching logic in lookup().
+        var err = new Error("not found: " + word);
+        err.reachedServer = true;
+        throw err;
+      }
       return res.json();
     });
   }
 
-  // Try each candidate word in sequence; resolve with the first
+  // Try every candidate word in parallel; resolve with the first
   // successful response, or reject once every candidate has failed.
-  function tryCandidates(candidates, index) {
-    index = index || 0;
-    if (index >= candidates.length) {
-      return Promise.reject(new Error("no candidates matched"));
-    }
-    return fetchDefinition(candidates[index]).catch(function () {
-      return tryCandidates(candidates, index + 1);
-    });
+  function tryCandidates(candidates) {
+    return firstSuccess(candidates.map(function (c) { return function () { return fetchDefinition(c); }; }));
   }
 
   /* ---------------------------------------------------------------
@@ -230,9 +370,13 @@
   }
 
   function fetchWiktionaryDefinition(word) {
-    return fetch("https://en.wiktionary.org/api/rest_v1/page/definition/" + encodeURIComponent(word))
+    return fetchWithTimeout("https://en.wiktionary.org/api/rest_v1/page/definition/" + encodeURIComponent(word), REQUEST_TIMEOUT_MS)
       .then(function (res) {
-        if (!res.ok) throw new Error("not found: " + word);
+        if (!res.ok) {
+          var err = new Error("not found: " + word);
+          err.reachedServer = true;
+          throw err;
+        }
         return res.json();
       })
       .then(function (data) {
@@ -243,23 +387,71 @@
         var groups = ((data && data.en) || []).filter(function (g) {
           return g.language === "English";
         });
-        if (!groups.length) throw new Error("no English entry: " + word);
+        if (!groups.length) {
+          // A real (200) response came back, it just has no English
+          // entry -- still a definitive, cacheable "not found", not a
+          // network failure.
+          var err = new Error("no English entry: " + word);
+          err.reachedServer = true;
+          throw err;
+        }
         return normalizeWiktionary(groups, word);
       });
   }
 
-  function tryCandidatesWiktionary(candidates, index) {
-    index = index || 0;
-    if (index >= candidates.length) {
-      return Promise.reject(new Error("no candidates matched (wiktionary)"));
-    }
-    return fetchWiktionaryDefinition(candidates[index]).catch(function () {
-      return tryCandidatesWiktionary(candidates, index + 1);
-    });
+  // Try every candidate word in parallel; resolve with the first
+  // successful response, or reject once every candidate has failed.
+  function tryCandidatesWiktionary(candidates) {
+    return firstSuccess(candidates.map(function (c) { return function () { return fetchWiktionaryDefinition(c); }; }));
   }
 
   var lookupTimer;
   var lastQuery = "";
+
+  // Runs the real dictionaryapi.dev -> Wiktionary chain for a word that
+  // isn't already cached, sharing one in-flight request across
+  // overlapping calls (e.g. the debounced "input" handler firing right
+  // as Enter is pressed for the same word) instead of duplicating the
+  // network work.
+  function lookupNetwork(word, key) {
+    if (inFlight[key]) return inFlight[key];
+
+    var promise = tryCandidates(candidateWords(word))
+      .catch(function (err1) {
+        // dictionaryapi.dev has no entry for this word in any
+        // capitalization — try Wiktionary before giving up.
+        return tryCandidatesWiktionary(candidateWords(word)).catch(function (err2) {
+          var finalErr = new Error("not found anywhere: " + word);
+          finalErr.reachedServer = !!(err1 && err1.reachedServer) || !!(err2 && err2.reachedServer);
+          throw finalErr;
+        });
+      })
+      .then(
+        function (data) {
+          memoryCache[key] = { data: data };
+          schedulePersist();
+          return data;
+        },
+        function (err) {
+          // Only cache "not found" once at least one server actually
+          // answered (a real 404 / no entry) — never for a pure
+          // connectivity or timeout failure, which deserves a fresh
+          // retry next time rather than being poisoned as permanently
+          // missing just because the network hiccuped once.
+          if (err && err.reachedServer) {
+            memoryCache[key] = { notFound: true };
+            schedulePersist();
+          }
+          throw err;
+        }
+      );
+
+    inFlight[key] = promise.then(
+      function (data) { delete inFlight[key]; return data; },
+      function (err) { delete inFlight[key]; throw err; }
+    );
+    return inFlight[key];
+  }
 
   function lookup(word) {
     word = word.trim();
@@ -276,15 +468,25 @@
       window.ProgressTracker.recordDictionaryUse();
     }
     renderOutboundLinks(word);
-    resultBox.innerHTML = '<p class="dict-widget__hint">Looking up &ldquo;' + escapeHtml(word) + '&rdquo;&hellip;</p>';
     lastQuery = word;
 
-    tryCandidates(candidateWords(word))
-      .catch(function () {
-        // dictionaryapi.dev has no entry for this word in any
-        // capitalization — try Wiktionary before giving up.
-        return tryCandidatesWiktionary(candidateWords(word));
-      })
+    // Cache hit (this session, or carried over from localStorage from a
+    // previous visit) — render immediately with zero network requests,
+    // for a definition or a confirmed "not found" alike.
+    var key = normalizeCacheKey(word);
+    var cached = memoryCache[key];
+    if (cached) {
+      if (cached.notFound) {
+        resultBox.innerHTML =
+          '<p class="dict-widget__hint">Ready to look up &ldquo;' + escapeHtml(word) + '&rdquo;! Pick a dictionary below:</p>';
+      } else {
+        renderDefinition(cached.data);
+      }
+      return;
+    }
+
+    resultBox.innerHTML = '<p class="dict-widget__hint">Looking up &ldquo;' + escapeHtml(word) + '&rdquo;&hellip;</p>';
+    lookupNetwork(word, key)
       .then(function (data) {
         if (lastQuery !== word) return; // a newer query has since started
         renderDefinition(data);

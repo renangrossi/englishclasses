@@ -873,6 +873,14 @@ body:not(:has(.level-toc)) .section {
    Dictionary widget don't use this class, so their layout is
    unchanged. */
 .back-to-top--with-dict { bottom: calc(var(--space-md) + 60px); }
+/* Pages that also render the floating Irregular Verbs button
+   (.irregular-verbs-toggle, see "FLOATING IRREGULAR VERBS PANEL" in
+   search.css) stack three buttons on the right: Dictionary at the base
+   row, Irregular Verbs 60px above it, and back-to-top another 60px
+   above that — hence 120px instead of --with-dict's 60px. Used in
+   place of (not alongside) .back-to-top--with-dict on exactly those
+   pages. */
+.back-to-top--with-dict-and-irregular { bottom: calc(var(--space-md) + 120px); }
 
 /* ---------------------------------------------------------------------
    Misc utility

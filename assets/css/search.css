@@ -158,6 +158,18 @@
 .dict-widget-toggle svg { width: 20px; height: 20px; }
 .dict-widget-toggle:hover { background: var(--color-primary); }
 
+/* On pages that also render the floating Irregular Verbs button
+   (.irregular-verbs-toggle, see "FLOATING IRREGULAR VERBS PANEL"
+   below), Irregular Verbs takes the base row instead so it sits
+   directly *under* Dictionary, and Dictionary itself moves up 60px to
+   the slot .back-to-top would otherwise occupy — .back-to-top then
+   moves up a further 60px on those pages via
+   .back-to-top--with-dict-and-irregular (components.css). Applied via
+   this modifier class only on the pages that actually render both
+   buttons; every other page's Dictionary position is unchanged. */
+.dict-widget-toggle--with-irregular-verbs { bottom: calc(var(--space-md) + 60px + env(safe-area-inset-bottom, 0px)); }
+.dict-widget-panel--with-irregular-verbs { bottom: calc(var(--space-md) + 120px + env(safe-area-inset-bottom, 0px)); }
+
 .dict-widget-panel {
   position: fixed;
   right: var(--space-md);
@@ -277,25 +289,26 @@
    FLOATING IRREGULAR VERBS PANEL (assets/js/irregular-verbs-panel.js)
    Only on exercise pages whose grammar point needs irregular
    past-simple/past-participle recall — see that file's header comment.
-   Right-side stack with .dict-widget-toggle (below it in this file):
-   same corner, same var(--space-md) offset, stacked 60px above it —
-   grouping it with Dictionary rather than the left-side AI Teacher
-   button, since the two are both quick-reference lookup tools a
-   student reaches for mid-exercise. Every page that ships this panel
-   already includes the Dictionary widget (site_chrome.py's shared
-   footer), so this offset never needs to be conditional the way
-   .back-to-top's is — see .back-to-top--with-dict-and-irregular in
-   components.css for how back-to-top clears both buttons on these
-   pages. Panel geometry deliberately mirrors .dict-widget-panel above
-   (same shape of widget: a search field over a scrollable list)
-   rather than .ai-teacher-panel's chat-specific sizing (ai-teacher.css)
-   — simple min()/calc() sizing, no dedicated mobile breakpoint needed,
-   same as .dict-widget-panel.
+   Right-side stack, grouped with Dictionary rather than the left-side
+   AI Teacher button, since the two are both quick-reference lookups a
+   student reaches for mid-exercise. Takes the base var(--space-md) row
+   (directly under Dictionary), which pushes Dictionary itself up 60px
+   via .dict-widget-toggle--with-irregular-verbs (above) on exactly
+   these pages — every page that ships this panel already includes the
+   Dictionary widget (site_chrome.py's shared footer), so that offset
+   never needs to be conditional the way .back-to-top's is. See
+   .back-to-top--with-dict-and-irregular in components.css for how
+   back-to-top clears both buttons on these pages. Panel geometry
+   deliberately mirrors .dict-widget-panel above (same shape of widget:
+   a search field over a scrollable list) rather than
+   .ai-teacher-panel's chat-specific sizing (ai-teacher.css) — simple
+   min()/calc() sizing, no dedicated mobile breakpoint needed, same as
+   .dict-widget-panel.
    ======================================================================= */
 .irregular-verbs-toggle {
   position: fixed;
   right: var(--space-md);
-  bottom: calc(var(--space-md) + 60px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(var(--space-md) + env(safe-area-inset-bottom, 0px));
   z-index: 900;
   display: inline-flex;
   align-items: center;
@@ -324,8 +337,9 @@
 .irregular-verbs-panel {
   position: fixed;
   right: var(--space-md);
-  /* Clears both this panel's own toggle (60px above dict-widget-toggle)
-     and that toggle's footprint (+60px again) — see the comment above
+  /* Clears both button rows stacked beneath it -- this panel's own
+     toggle at the base row, and Dictionary's toggle 60px above that --
+     regardless of which of the two sits on top; see the comment above
      this section. */
   bottom: calc(var(--space-md) + 120px + env(safe-area-inset-bottom, 0px));
   width: min(420px, calc(100vw - 2 * var(--space-md)));

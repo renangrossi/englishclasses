@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Secret Practice – Portal Presentation & Defense (Manoelito)</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/dark-mode.css">
+<link rel="stylesheet" href="assets/css/exercises.css">
+<script>
+(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
+<style>
+  .private-tag { display:inline-flex; align-items:center; gap:.4em; padding:.3em .8em; border-radius:999px; background:var(--color-accent); color:#fff; font-size:var(--step--1); font-weight:700; letter-spacing:.03em; }
+  .dialogue { display:grid; gap:.6em; max-width:64ch; }
+  .dialogue__line { padding:.7em 1em; border-radius:var(--radius-lg); background:var(--color-surface); border:1px solid var(--color-border); }
+  .dialogue__line strong { color:var(--color-primary); }
+  .dialogue__line.is-you { background:var(--parchment-200,#f4efe2); margin-left:1.5em; }
+  .dialogue__line.is-you strong { color:var(--color-accent); }
+  .check-list { list-style:none; margin:0; padding:0; display:grid; gap:.6em; }
+  .check-list li { display:flex; align-items:flex-start; gap:.6em; padding:.6em .8em; border:1px solid var(--color-border); border-radius:var(--radius-md); background:var(--color-surface); }
+  .check-list li::before { content:"☐"; flex:0 0 auto; font-size:1.2em; line-height:1; color:var(--color-primary); }
+  .tip-list { list-style:none; margin:0; padding:0; display:grid; gap:.5em; }
+  .tip-list li { padding:.6em .9em; border-left:4px solid var(--color-gold); background:var(--color-surface); border-radius:var(--radius-sm); }
+  .term-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:var(--space-md); }
+  .practice-sub h3 { margin-top:var(--space-xl); font-size:var(--step-1); }
+  .practice-sub > p { color:var(--color-text-muted); max-width:65ch; margin-top:.3em; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+    <div class="site-header__bar">
+        <div class="brand">
+            <img class="brand__mark" src="assets/img/logo-1776.webp" alt="" width="38" height="38" loading="lazy">
+            <div class="brand__text">
+                <span class="brand__name">Renan the Teacher</span>
+                <span class="brand__tagline">Private 1-to-1 Practice Page</span>
+            </div>
+        </div>
+        <div class="header-actions" style="display:flex;align-items:center;gap:10px;">
+            <span class="private-tag">🔒 For Manoelito only</span>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+                <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+                <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+            </button>
+        </div>
+    </div>
+</header>
+<main id="main-content" class="site-main">
+<div class="page-header">
+    <div class="page-header__inner">
+        <div class="page-header__text">
+            <p class="eyebrow hero__eyebrow">Private Practice · Not Part of the Public Course</p>
+            <h1>Portal Presentation &amp; Defense</h1>
+            <p class="page-header__lede">This page is only for Manoelito. It helps you present the Core Medical Group Patient Portal to the military board, and answer their questions with short, clear, confident English.</p>
+        </div>
+    </div>
+</div>
+
+<section class="section section--tight" aria-labelledby="about-heading">
+    <div class="section__inner">
+        <p class="eyebrow">Before You Start</p>
+        <h2 id="about-heading">How to Use This Page</h2>
+        <p style="color:var(--color-text-muted);max-width:68ch;">Every exercise on this page is about your real project: the Patient Portal. Do each exercise, then click <strong>Submit</strong> to check your answer and see a short explanation &mdash; this is your answer key, built into every exercise. Work through the page in order: Vocabulary &rarr; Grammar &rarr; Presentation Scripts &rarr; Defense Practice &rarr; Role-Play &rarr; Checklist.</p>
+        <p style="color:var(--color-text-muted);max-width:68ch;margin-top:.6em;"><strong>Remember:</strong> your Portal is a prototype. It is completely normal &mdash; and honest &mdash; to say so. You do not need to know every answer today. You only need to answer clearly, or say that you will check and confirm.</p>
+    </div>
+</section>
+
+<section class="section section--surface" aria-labelledby="vocab-heading">
+    <div class="section__inner">
+        <p class="eyebrow">Warm-Up</p>
+        <h2 id="vocab-heading">Key Vocabulary</h2>
+        <p style="color:var(--color-text-muted);max-width:65ch;margin-bottom:var(--space-md);">These are the words you will use again and again. Read them first.</p>
+        <div class="term-grid">
+            <div class="card"><h3>Portal</h3><p>The website where the patient fills out the form and sees the result. <em>Example: "The Portal shows every step."</em></p></div>
+            <div class="card"><h3>Verify / Identity</h3><p>To check that a person really is who they say they are. <em>Example: "ID.me verifies military status."</em></p></div>
+            <div class="card"><h3>Form</h3><p>A page with questions the patient must answer. <em>Example: "The patient fills out the form."</em></p></div>
+            <div class="card"><h3>Consent</h3><p>Saying "yes, I agree" &mdash; here, with a checkbox. <em>Example: "Consent is always the patient's choice."</em></p></div>
+            <div class="card"><h3>Doctor / Physician</h3><p>The person who reviews the form and writes the prescription. <em>Example: "A doctor checks every request."</em></p></div>
+            <div class="card"><h3>Prescription</h3><p>A document from the doctor that allows the next step. <em>Example: "The prescription goes to Open Loop."</em></p></div>
+            <div class="card"><h3>Test Kit</h3><p>A small box sent to the patient's home for the health test. <em>Example: "Open Loop mails the test kit."</em></p></div>
+            <div class="card"><h3>Result</h3><p>The answer from the test. <em>Example: "The patient sees the result in the Portal."</em></p></div>
+            <div class="card"><h3>Journey</h3><p>All the steps from start to finish, in order. <em>Example: "You can follow your journey on one page."</em></p></div>
+            <div class="card"><h3>Prototype</h3><p>An early, test version of a product &mdash; not the final version. <em>Example: "This is a prototype. We are still testing it."</em></p></div>
+        </div>
+    </div>
+</section>
+
+<section id="practice" class="section section--tight" aria-labelledby="practice-heading">
+    <div class="section__inner">
+        <p class="eyebrow">Controlled Practice</p>
+        <h2 id="practice-heading">Grammar for Your Presentation</h2>
+        <p style="color:var(--color-text-muted);max-width:65ch;margin-bottom:var(--space-md);">Every sentence below is about your Portal. Complete each exercise, then click <strong>Submit</strong>.</p>
+
+        <div class="practice-sub">
+        <h3>1. Match the Word to the Meaning</h3>
+        <p>Warm up with the vocabulary above.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-vocab-match","type":"matching","title":"Vocabulary Match","instructions":"Match the word to its meaning.","items":[{"id":"vm1","pairs":[{"left":"Portal","right":"The website where the patient fills out the form and sees the result"},{"left":"Identity","right":"Who a person really is"},{"left":"Verify","right":"To check that something is true"},{"left":"Consent","right":"Saying yes, I agree"},{"left":"Doctor","right":"The person who reviews the form and writes the prescription"},{"left":"Prescription","right":"A document that allows the next step"},{"left":"Test kit","right":"A small box sent to the patient's home"},{"left":"Result","right":"The answer from the test"},{"left":"Journey","right":"All the steps from start to finish"},{"left":"Prototype","right":"An early, test version of a product"}],"explanation":"These ten words will come back again and again in your presentation. Learn them first."}]}</script></div>
+        </div>
+
+        <div class="practice-sub">
+        <h3>2. Pronouns</h3>
+        <p>Talk about the patient, the doctor, and the Portal correctly.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-pronouns","type":"multiple-choice","title":"Choose the Correct Pronoun","instructions":"Choose the correct word.","items":[
+          {"id":"pr1","prompt":"First, the patient clicks a button. Next, ___ (ID.me) checks military status.","options":["it","they","he"],"answerIndex":0,"explanation":"ID.me is a company/system, not a person, so we use \"it\"."},
+          {"id":"pr2","prompt":"The Portal sends the form. Salesforce receives ___.","options":["it","they","he"],"answerIndex":0,"explanation":"\"It\" is the object pronoun for \"the form\" — a thing, not a person."},
+          {"id":"pr3","prompt":"The patient fills out the form. ___ clicks \"Submit.\"","options":["They","Them","Their"],"answerIndex":0,"explanation":"\"They\" is the subject pronoun. It comes before the verb \"clicks.\""},
+          {"id":"pr4","prompt":"The doctor writes a prescription for the patient. The Portal sends it to ___.","options":["they","them","their"],"answerIndex":1,"explanation":"\"Them\" is the object pronoun. It comes after a preposition like \"to.\""},
+          {"id":"pr5","prompt":"The patient checks ___ result in the Portal.","options":["they","them","their"],"answerIndex":2,"explanation":"\"Their\" is a possessive pronoun. It shows the result belongs to the patient."},
+          {"id":"pr6","prompt":"Core Medical Group is proud of ___ new Portal.","options":["its","it's","their"],"answerIndex":0,"explanation":"\"Its\" (no apostrophe) is possessive. \"It's\" means \"it is.\" A company can be \"it.\""}
+        ]}</script></div>
+        </div>
+
+        <div class="practice-sub">
+        <h3>3. Simple Present: General Facts</h3>
+        <p>Use simple present for things that are always true about the Portal.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-simple-present","type":"fill-blank","title":"Complete with Simple Present","instructions":"Write the correct form of the verb.","items":[
+          {"id":"sp1","prompt":"A doctor always ___ (check) the form before writing a prescription.","answers":[["checks"]],"explanation":"Simple present, third person singular (\"a doctor\") needs -s: \"checks.\""},
+          {"id":"sp2","prompt":"The Portal ___ (show) every step of the journey.","answers":[["shows"]],"explanation":"\"The Portal\" is third person singular, so the verb takes -s: \"shows.\""},
+          {"id":"sp3","prompt":"ID.me ___ (verify) military status first.","answers":[["verifies"]],"explanation":"Verbs ending in a consonant + y change to -ies: \"verify\" → \"verifies.\""},
+          {"id":"sp4","prompt":"Open Loop ___ (send) the test kit to the patient's home.","answers":[["sends"]],"explanation":"Third person singular (\"Open Loop\") + -s: \"sends.\""},
+          {"id":"sp5","prompt":"The patient ___ (need) to verify their identity before the form.","answers":[["needs"]],"explanation":"\"The patient\" is third person singular: \"needs.\""},
+          {"id":"sp6","prompt":"Salesforce ___ (connect) the Portal and the doctor.","answers":[["connects"]],"explanation":"Third person singular + -s: \"connects.\""}
+        ]}</script></div>
+        </div>
+
+        <div class="practice-sub">
+        <h3>4. Present Continuous: What Is Happening Now</h3>
+        <p>Use present continuous to describe the demo, or work happening right now.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-present-continuous","type":"fill-blank","title":"Complete with Present Continuous","instructions":"Write am/is/are + verb-ing.","items":[
+          {"id":"pc1","prompt":"Right now, the doctor ___ (review) the patient's form.","answers":[["is reviewing"]],"explanation":"\"The doctor\" → is + verb-ing: \"is reviewing.\""},
+          {"id":"pc2","prompt":"Look — the Portal ___ (show) the result on the screen.","answers":[["is showing"]],"explanation":"\"The Portal\" → is + verb-ing: \"is showing.\""},
+          {"id":"pc3","prompt":"At this moment, Open Loop ___ (prepare) the test kit.","answers":[["is preparing"]],"explanation":"\"Open Loop\" → is + verb-ing: \"is preparing.\""},
+          {"id":"pc4","prompt":"We ___ (test) this new Portal this month.","answers":[["are testing"]],"explanation":"\"We\" → are + verb-ing: \"are testing.\""},
+          {"id":"pc5","prompt":"The patient ___ (wait) for the doctor's answer right now.","answers":[["is waiting"]],"explanation":"\"The patient\" → is + verb-ing: \"is waiting.\""},
+          {"id":"pc6","prompt":"Today, I ___ (present) our new Patient Portal to you.","answers":[["am presenting"]],"explanation":"\"I\" → am + verb-ing: \"am presenting.\""}
+        ]}</script></div>
+        </div>
+
+        <div class="practice-sub">
+        <h3>5. Simple Past: How the Project Started</h3>
+        <p>Use simple past to talk about the history of the Portal.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-simple-past","type":"fill-blank","title":"Complete with Simple Past","instructions":"Write the correct past form of the verb.","items":[
+          {"id":"spa1","prompt":"Our team ___ (start) this project last year.","answers":[["started"]],"explanation":"Regular verb + -ed: \"started.\""},
+          {"id":"spa2","prompt":"First, we ___ (have) only a paper form.","answers":[["had"]],"explanation":"\"Have\" is irregular in the past: \"had.\""},
+          {"id":"spa3","prompt":"We ___ (test) the Portal many times before today.","answers":[["tested"]],"explanation":"Regular verb + -ed: \"tested.\""},
+          {"id":"spa4","prompt":"Core Medical Group ___ (build) this prototype for military members.","answers":[["built"]],"explanation":"\"Build\" is irregular in the past: \"built,\" not \"builded.\""},
+          {"id":"spa5","prompt":"Last year, the design ___ (be) very different.","answers":[["was"]],"explanation":"\"The design\" is singular, so the past of \"be\" is \"was.\""},
+          {"id":"spa6","prompt":"We ___ (choose) three partner companies: ID.me, Salesforce, and Open Loop.","answers":[["chose"]],"explanation":"\"Choose\" is irregular in the past: \"chose.\""}
+        ]}</script></div>
+        </div>
+
+        <div class="practice-sub">
+        <h3>6. Future Forms: Plans and Promises</h3>
+        <p>Choose the correct future form. Use "will" for a promise, and "going to" for a plan.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-future","type":"multiple-choice","title":"Choose the Correct Future Form","instructions":"Choose the correct option.","items":[
+          {"id":"ft1","prompt":"Next year, we ___ add more features to the Portal.","options":["will","wills","is will"],"answerIndex":0,"explanation":"\"Will\" + base verb (no -s) for the future."},
+          {"id":"ft2","prompt":"The doctor ___ going to review your form after you submit it.","options":["is","are","will"],"answerIndex":0,"explanation":"\"Going to\" needs a form of \"be.\" \"The doctor\" → \"is.\""},
+          {"id":"ft3","prompt":"We ___ going to test the new version next month.","options":["are","is","will"],"answerIndex":0,"explanation":"\"We\" takes \"are\" with \"going to.\""},
+          {"id":"ft4","prompt":"This system ___ many military families.","options":["will help","wills helps","will helps"],"answerIndex":0,"explanation":"After \"will,\" use the base verb: \"help,\" not \"helps.\""},
+          {"id":"ft5","prompt":"I promise: I ___ you the answer by email.","options":["will send","am sending will","will sends"],"answerIndex":0,"explanation":"\"Will\" + base verb: \"will send.\""}
+        ]}</script></div>
+        </div>
+
+        <div class="practice-sub">
+        <h3>7. Can / Can't / Could: Capabilities and Limits</h3>
+        <p>Use these words to explain what the Portal can and cannot do.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-modals","type":"fill-blank","title":"Complete with can / can't / could","instructions":"Write can, can't, or could.","items":[
+          {"id":"md1","prompt":"The patient ___ do the first step from home, with a computer or phone.","answers":[["can"]],"explanation":"\"Can\" shows this is possible."},
+          {"id":"md2","prompt":"The system ___ work without internet.","answers":[["can't","cannot"]],"explanation":"\"Can't\" shows this is not possible."},
+          {"id":"md3","prompt":"A board member ___ ask a difficult question. I will listen carefully.","answers":[["could"]],"explanation":"\"Could\" here talks about something that is possible in the future."},
+          {"id":"md4","prompt":"Right now, I ___ answer that question, but I will check.","answers":[["can't","cannot"]],"explanation":"\"Can't\" — it is honest to say this today."},
+          {"id":"md5","prompt":"The doctor ___ see the patient's form in the system.","answers":[["can"]],"explanation":"\"Can\" shows the doctor has this ability."},
+          {"id":"md6","prompt":"___ you explain the process again, please?","answers":[["Can"]],"explanation":"\"Can\" at the start of a question asks for something politely."}
+        ]}</script></div>
+        </div>
+
+        <div class="practice-sub">
+        <h3>8. Because / So / But: Giving Reasons</h3>
+        <p>Use these small words to explain and to answer objections.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-connectors","type":"multiple-choice","title":"Choose because / so / but","instructions":"Choose the correct connector.","items":[
+          {"id":"cn1","prompt":"We use ID.me ___ it checks military status quickly and safely.","options":["because","so","but"],"answerIndex":0,"explanation":"\"Because\" gives the reason."},
+          {"id":"cn2","prompt":"The form is easy, ___ the guidance document is very long.","options":["because","so","but"],"answerIndex":2,"explanation":"\"But\" shows a contrast between two ideas."},
+          {"id":"cn3","prompt":"A doctor checks every form, ___ every prescription has a medical review.","options":["because","so","but"],"answerIndex":1,"explanation":"\"So\" introduces the result."},
+          {"id":"cn4","prompt":"This is a prototype, ___ we are still testing and improving it.","options":["because","so","but"],"answerIndex":1,"explanation":"\"So\" shows the result of being a prototype: we keep testing it."},
+          {"id":"cn5","prompt":"The kit goes to the patient's home ___ many people cannot travel to a clinic easily.","options":["because","so","but"],"answerIndex":0,"explanation":"\"Because\" explains the reason for sending the kit home."},
+          {"id":"cn6","prompt":"The process has several steps, ___ each step is simple.","options":["because","so","but"],"answerIndex":2,"explanation":"\"But\" contrasts \"several steps\" with \"simple.\""}
+        ]}</script></div>
+        </div>
+
+        <div class="practice-sub">
+        <h3>9. There is / There are</h3>
+        <p>Use these to introduce facts about the process.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-there-is-are","type":"fill-blank","title":"Complete with There is / There are","instructions":"Write the correct form.","items":[
+          {"id":"tia1","prompt":"___ a form on the Portal.","answers":[["There is","There's"]],"explanation":"\"A form\" is singular → \"There is.\""},
+          {"id":"tia2","prompt":"___ three companies in this process: ID.me, Salesforce, and Open Loop.","answers":[["There are"]],"explanation":"\"Three companies\" is plural → \"There are.\""},
+          {"id":"tia3","prompt":"___ a doctor who checks every request.","answers":[["There is","There's"]],"explanation":"\"A doctor\" is singular → \"There is.\""},
+          {"id":"tia4","prompt":"___ six steps in the patient's journey.","answers":[["There are"]],"explanation":"\"Six steps\" is plural → \"There are.\""},
+          {"id":"tia5","prompt":"___ a longer guidance document with more information.","answers":[["There is","There's"]],"explanation":"\"A longer guidance document\" is singular → \"There is.\""},
+          {"id":"tia6","prompt":"___ any cost information on this page yet.","answers":[["There isn't","There is not"]],"explanation":"The negative form: \"There isn't.\" This is an honest answer — the cost details are not confirmed yet."}
+        ]}</script></div>
+        </div>
+
+        <div class="practice-sub">
+        <h3>10. Question Words: Why / How / What / Who</h3>
+        <p>Board members will ask questions like these. Practice completing them.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-questions","type":"fill-blank","title":"Complete the Question","instructions":"Write the correct question word.","items":[
+          {"id":"q1","prompt":"___ do you check identity first?","answers":[["Why"]],"explanation":"\"Why\" asks for a reason."},
+          {"id":"q2","prompt":"___ does the patient get the test kit?","answers":[["How"]],"explanation":"\"How\" asks about the process."},
+          {"id":"q3","prompt":"___ happens if the internet is down?","answers":[["What"]],"explanation":"\"What happens if...?\" asks about a possible problem."},
+          {"id":"q4","prompt":"___ many companies are part of this process?","answers":[["How"]],"explanation":"\"How many\" asks about a number."},
+          {"id":"q5","prompt":"___ reviews the prescription?","answers":[["Who"]],"explanation":"\"Who\" asks about a person."},
+          {"id":"q6","prompt":"___ does the journey start?","answers":[["Where"]],"explanation":"\"Where\" asks about a place — here, the Portal."}
+        ]}</script></div>
+        </div>
+
+        <div class="practice-sub">
+        <h3>11. Match the Question to the Best Short Answer</h3>
+        <p>This connects question words to the short, honest answers you will use in your defense.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-qa-match","type":"matching","title":"Question &rarr; Answer","instructions":"Match each question to the best short answer.","items":[{"id":"qam1","pairs":[
+          {"left":"Why do you check identity first?","right":"Because security is very important to us."},
+          {"left":"How does the patient get the test kit?","right":"Open Loop mails it to the patient's home."},
+          {"left":"What happens if something goes wrong?","right":"That's a good question. I will check and confirm."},
+          {"left":"Who reviews the prescription?","right":"A licensed doctor reviews every request."},
+          {"left":"How much does this cost?","right":"I don't have that answer today. I will find out and follow up."},
+          {"left":"Is this the final version?","right":"No, this is a prototype. We are still testing it."}
+        ],"explanation":"Short, honest answers are always better than a long answer you are not sure about."}]}</script></div>
+        </div>
+
+        <div class="practice-sub">
+        <h3>12. Rewrite: Fix the Sentence</h3>
+        <p>Find the mistake and write the correct sentence.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-correction","type":"correction","title":"Fix the Sentence","instructions":"Write the correct sentence.","items":[
+          {"id":"cor1","incorrect":"The doctor check the form every time.","answer":["The doctor checks the form every time."],"explanation":"Use \"checks\" (with -s) for simple present, third person singular (\"the doctor\")."},
+          {"id":"cor2","incorrect":"There is three companies in this process.","answer":["There are three companies in this process."],"explanation":"Use \"There are\" before a plural noun (\"three companies\")."},
+          {"id":"cor3","incorrect":"Last year, we build a new version.","answer":["Last year, we built a new version."],"explanation":"\"Build\" is irregular. The simple past is \"built,\" not \"builded.\""},
+          {"id":"cor4","incorrect":"Open Loop send the kit to they.","answer":["Open Loop sends the kit to them."],"explanation":"Simple present needs -s (\"sends\"), and after a preposition use the object pronoun \"them,\" not \"they.\""},
+          {"id":"cor5","incorrect":"This system will helps many families.","answer":["This system will help many families."],"explanation":"After \"will,\" use the base verb with no -s: \"help,\" not \"helps.\""},
+          {"id":"cor6","incorrect":"I can't to answer that today.","answer":["I can't answer that today."],"explanation":"After \"can\" or \"can't,\" use the base verb with no \"to\": \"answer,\" not \"to answer.\""}
+        ]}</script></div>
+        </div>
+
+        <div class="practice-sub">
+        <h3>13. Defense Practice: Tough Questions</h3>
+        <p>Read each question. Write your own short answer first. Then click Submit to see a simple model answer.</p>
+        <div class="exercise-block"><script type="application/json" class="exercise-data">{"id":"manoelito-defense","type":"typing","title":"Answer the Board","instructions":"Write your own short answer, in English.","items":[
+          {"id":"def1","prompt":"Board member: \"In one sentence — what is this Portal for?\"","modelAnswer":"This Portal helps verified military members request a health service online, from start to finish."},
+          {"id":"def2","prompt":"Board member: \"Why do you use three different companies — ID.me, Salesforce, and Open Loop?\"","modelAnswer":"Because each company has one job: ID.me checks identity, Salesforce connects the systems, and Open Loop sends the test kit and the result."},
+          {"id":"def3","prompt":"Board member: \"Is a real doctor part of this process?\"","modelAnswer":"Yes. A licensed doctor reviews every form and writes the prescription."},
+          {"id":"def4","prompt":"Board member: \"Is my information safe and private?\"","modelAnswer":"That's a very important question. I don't have every detail today, but I will check with my team and send you a full answer."},
+          {"id":"def5","prompt":"Board member: \"What happens if a step fails, or the system is down?\"","modelAnswer":"That's a fair point, and I don't have that answer today. I will confirm it and follow up with you."},
+          {"id":"def6","prompt":"Board member: \"How much does this cost, and who pays?\"","modelAnswer":"I don't have that answer today. I will check and give you a clear answer soon."},
+          {"id":"def7","prompt":"Board member: \"Is this the final system, or is it still in development?\"","modelAnswer":"This is a prototype. We are still testing it and making it better."},
+          {"id":"def8","prompt":"Board member: \"Can a member with no internet use this?\"","modelAnswer":"That's a fair question. Right now, the Portal needs internet. I will ask my team about other options."},
+          {"id":"def9","prompt":"Board member: \"Who is responsible if something goes wrong?\"","modelAnswer":"That's an important question. I don't have a complete answer today, but I will confirm it with my team."},
+          {"id":"def10","prompt":"Board member: \"Can you explain the six steps again, simply?\"","modelAnswer":"Of course. First, we verify identity. Second, the patient fills out a form. Third, a doctor reviews it. Fourth, we send a test kit home. Fifth, the patient sends the sample back. Finally, the patient sees the result in the Portal."}
+        ]}</script></div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section section--surface" aria-labelledby="scripts-heading">
+    <div class="section__inner">
+        <p class="eyebrow">Guided Speaking</p>
+        <h2 id="scripts-heading">Presentation Scripts</h2>
+        <p style="color:var(--color-text-muted);max-width:65ch;margin-bottom:var(--space-md);">Short model paragraphs. Read them, practice them out loud, then change a few words to make them yours.</p>
+        <div style="display:grid;gap:var(--space-md);">
+            <div class="card">
+                <h3>1. Opening</h3>
+                <p>"Good morning. My name is Manoelito. I represent Core Medical Group. Today, I will present our new Patient Portal."</p>
+            </div>
+            <div class="card">
+                <h3>2. The Six Steps</h3>
+                <p>"Let me explain the process. First, the patient verifies their identity with ID.me. Second, the patient fills out a form on the Portal. Third, a doctor reviews the form and writes a prescription. Fourth, we send a test kit to the patient's home. Fifth, the patient takes the test and sends the sample back. Finally, the patient sees the result in the Portal."</p>
+            </div>
+            <div class="card">
+                <h3>3. Why This Helps</h3>
+                <p>"This Portal will help military members in a simple way. Patients can do the first steps from home. They always know the next step. A doctor checks every request. We are still testing the system, and we will keep making it better."</p>
+            </div>
+            <div class="card">
+                <h3>4. Closing</h3>
+                <p>"Thank you very much for your time today. This is a prototype, and I am ready for your questions."</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section--tight" aria-labelledby="roleplay-heading">
+    <div class="section__inner">
+        <p class="eyebrow">Speaking Practice</p>
+        <h2 id="roleplay-heading">Role-Play: Teacher as Board Member</h2>
+        <p style="color:var(--color-text-muted);max-width:68ch;margin-bottom:var(--space-md);"><strong>Instructions:</strong> The teacher reads the "Board" lines. Manoelito reads the "You" lines. Read the two examples first, then role-play using the extra questions below &mdash; without reading, if possible.</p>
+
+        <h3 style="margin-top:var(--space-md);">Example 1: Explaining the Process</h3>
+        <div class="dialogue" style="margin-bottom:var(--space-lg);">
+            <div class="dialogue__line"><strong>Board:</strong> "Good morning. Please explain your Patient Portal."</div>
+            <div class="dialogue__line is-you"><strong>You:</strong> "Good morning. Our Portal has six steps. First, we verify identity with ID.me."</div>
+            <div class="dialogue__line"><strong>Board:</strong> "Why do you check identity first?"</div>
+            <div class="dialogue__line is-you"><strong>You:</strong> "Because security is very important for military members."</div>
+            <div class="dialogue__line"><strong>Board:</strong> "What happens after that?"</div>
+            <div class="dialogue__line is-you"><strong>You:</strong> "The patient fills out a form, and a doctor reviews it."</div>
+        </div>
+
+        <h3>Example 2: A Hard Question</h3>
+        <div class="dialogue" style="margin-bottom:var(--space-lg);">
+            <div class="dialogue__line"><strong>Board:</strong> "Is this data 100% safe?"</div>
+            <div class="dialogue__line is-you"><strong>You:</strong> "That's a very important question. I don't have every detail today, but I will check with my team and confirm."</div>
+            <div class="dialogue__line"><strong>Board:</strong> "When can you send that answer?"</div>
+            <div class="dialogue__line is-you"><strong>You:</strong> "I will send it to you this week, by email."</div>
+        </div>
+
+        <h3>Your Turn: More Questions to Practice</h3>
+        <p style="color:var(--color-text-muted);max-width:65ch;">The teacher asks these questions in a different order. Answer with short, honest sentences. It is always OK to say: <em>"That's a good question. I will check and confirm."</em></p>
+        <ul class="check-list" style="margin-top:var(--space-sm);">
+            <li>What is Open Loop?</li>
+            <li>What does "consent" mean here?</li>
+            <li>How long is the form valid?</li>
+            <li>Can a member stop the process after starting it?</li>
+            <li>Is this only for active duty members?</li>
+            <li>What should you do if you don't understand a question?</li>
+            <li>Who built this Portal?</li>
+            <li>Is there a phone number for help?</li>
+            <li>What happens to the test kit if the patient moves?</li>
+            <li>Why is the guidance document so long?</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section section--surface" aria-labelledby="checklist-heading">
+    <div class="section__inner split">
+        <div>
+            <p class="eyebrow">Final Check</p>
+            <h2 id="checklist-heading">Presentation Checklist</h2>
+            <ul class="check-list" style="margin-top:var(--space-md);">
+                <li>I can say the six steps without reading.</li>
+                <li>I know the vocabulary: Portal, verify, consent, prescription, journey.</li>
+                <li>I practiced the opening and the closing out loud.</li>
+                <li>I practiced saying "I will check and confirm" for hard questions.</li>
+                <li>I know this is a prototype, and it's OK to say so.</li>
+                <li>I did one full role-play with my teacher.</li>
+            </ul>
+        </div>
+        <div>
+            <p class="eyebrow">Confidence Tips</p>
+            <h2>Before You Speak</h2>
+            <ul class="tip-list" style="margin-top:var(--space-md);">
+                <li>Speak slowly. Slow and clear is better than fast.</li>
+                <li>Look at the board members when you speak.</li>
+                <li>Breathe before you answer a hard question.</li>
+                <li>It's OK to say: "That's a good question. I will check."</li>
+                <li>Confidence is not the same as perfect English.</li>
+                <li>Practice today, tomorrow, and the day before the presentation.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="site-footer__bottom">
+        <p>Private practice page for Manoelito &middot; prepared by Renan the Teacher &middot; not part of the public course.</p>
+    </div>
+</footer>
+</main>
+<button type="button" class="back-to-top" data-back-to-top aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+</button>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/exercises.js"></script>
+</body>
+</html>

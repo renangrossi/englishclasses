@@ -277,22 +277,24 @@
    FLOATING IRREGULAR VERBS PANEL (assets/js/irregular-verbs-panel.js)
    Only on exercise pages whose grammar point needs irregular
    past-simple/past-participle recall — see that file's header comment.
-   Left-side stack with .ai-teacher-toggle (ai-teacher.css): same
-   corner, same var(--space-md) offset, stacked 60px above it — the
-   same 60px figure .back-to-top--with-dict (components.css) already
-   uses for the opposite corner's stack, reused here rather than a new
-   number. Every page that ships this panel already includes
-   ai-teacher.js, so — unlike .back-to-top--with-dict — this offset
-   never needs to be conditional on whether the other button exists.
-   Panel geometry deliberately mirrors .dict-widget-panel above (same
-   shape of widget: a search field over a scrollable list) rather than
-   .ai-teacher-panel's chat-specific sizing (ai-teacher.css) — simple
-   min()/calc() sizing, no dedicated mobile breakpoint needed, same as
-   .dict-widget-panel.
+   Right-side stack with .dict-widget-toggle (below it in this file):
+   same corner, same var(--space-md) offset, stacked 60px above it —
+   grouping it with Dictionary rather than the left-side AI Teacher
+   button, since the two are both quick-reference lookup tools a
+   student reaches for mid-exercise. Every page that ships this panel
+   already includes the Dictionary widget (site_chrome.py's shared
+   footer), so this offset never needs to be conditional the way
+   .back-to-top's is — see .back-to-top--with-dict-and-irregular in
+   components.css for how back-to-top clears both buttons on these
+   pages. Panel geometry deliberately mirrors .dict-widget-panel above
+   (same shape of widget: a search field over a scrollable list)
+   rather than .ai-teacher-panel's chat-specific sizing (ai-teacher.css)
+   — simple min()/calc() sizing, no dedicated mobile breakpoint needed,
+   same as .dict-widget-panel.
    ======================================================================= */
 .irregular-verbs-toggle {
   position: fixed;
-  left: var(--space-md);
+  right: var(--space-md);
   bottom: calc(var(--space-md) + 60px + env(safe-area-inset-bottom, 0px));
   z-index: 900;
   display: inline-flex;
@@ -321,8 +323,8 @@
 
 .irregular-verbs-panel {
   position: fixed;
-  left: var(--space-md);
-  /* Clears both this panel's own toggle (60px above ai-teacher-toggle)
+  right: var(--space-md);
+  /* Clears both this panel's own toggle (60px above dict-widget-toggle)
      and that toggle's footprint (+60px again) — see the comment above
      this section. */
   bottom: calc(var(--space-md) + 120px + env(safe-area-inset-bottom, 0px));

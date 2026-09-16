@@ -16,6 +16,9 @@
 <link rel="stylesheet" href="assets/css/layout.css">
 <link rel="stylesheet" href="assets/css/dark-mode.css">
 <link rel="stylesheet" href="assets/css/exercises.css">
+<link rel="stylesheet" href="assets/css/lessons.css">
+<link rel="stylesheet" href="assets/css/ai-teacher.css">
+<link rel="stylesheet" href="assets/css/search.css">
 <script>
 (function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
 </script>
@@ -451,16 +454,162 @@
     </div>
 </section>
 
+<section class="section section--surface" aria-labelledby="tools-heading">
+    <div class="section__inner">
+        <p class="eyebrow">Extra Help</p>
+        <h2 id="tools-heading">Study Tools</h2>
+        <p style="color:var(--color-text-muted);max-width:65ch;margin-bottom:var(--space-md);">This page also includes the same <strong>AI Teacher</strong> chat and <strong>Irregular Verbs</strong> list from the main course site &mdash; look for their buttons in the bottom corners of the screen. And you can look up any word below without leaving the page.</p>
+        <div class="section__inner--narrow" style="margin-bottom:var(--space-lg);">
+            <label for="dict-word" class="eyebrow" style="margin-bottom:0.6em;display:block;">Your word</label>
+            <div class="dict-input-row">
+                <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="text" id="dict-word" class="dict-input" placeholder="Type a word, e.g. &ldquo;portal&rdquo;" autocomplete="off" data-dict-word>
+            </div>
+            <p class="notice mt-lg"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></svg>Every card below updates as you type. Press Enter to jump straight to a random one of the four core dictionaries.</p>
+        </div>
+        <div class="grid"><div class="card card--feature dict-card" data-url-template="https://www.merriam-webster.com/dictionary/{word}">
+                <h3>Merriam-Webster</h3>
+                <p>The trusted American-English reference, with clear definitions and audio pronunciation.</p>
+                <div class="card__foot">
+                    <a class="btn btn--accent btn--small dict-card__link" data-dict-link href="https://www.merriam-webster.com/dictionary/hello" target="_blank" rel="noopener"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>Look up</a>
+                </div>
+            </div><div class="card card--feature dict-card" data-url-template="https://dictionary.cambridge.org/dictionary/english/{word}">
+                <h3>Cambridge Dictionary</h3>
+                <p>Definitions with British and American pronunciation, plus learner-friendly example sentences.</p>
+                <div class="card__foot">
+                    <a class="btn btn--accent btn--small dict-card__link" data-dict-link href="https://dictionary.cambridge.org/dictionary/english/hello" target="_blank" rel="noopener"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>Look up</a>
+                </div>
+            </div><div class="card card--feature dict-card" data-url-template="https://www.oxfordlearnersdictionaries.com/definition/english/{word}">
+                <h3>Oxford Learner&#x27;s Dictionaries</h3>
+                <p>Built specifically for English learners, with CEFR level tags on many entries.</p>
+                <div class="card__foot">
+                    <a class="btn btn--accent btn--small dict-card__link" data-dict-link href="https://www.oxfordlearnersdictionaries.com/definition/english/hello" target="_blank" rel="noopener"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>Look up</a>
+                </div>
+            </div><div class="card card--feature dict-card" data-url-template="https://www.ldoceonline.com/dictionary/{word}">
+                <h3>Longman Dictionary</h3>
+                <p>Strong for collocations and natural example sentences, with a controlled defining vocabulary.</p>
+                <div class="card__foot">
+                    <a class="btn btn--accent btn--small dict-card__link" data-dict-link href="https://www.ldoceonline.com/dictionary/hello" target="_blank" rel="noopener"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>Look up</a>
+                </div>
+            </div></div>
+    </div>
+</section>
+<section class="section section--tight" aria-labelledby="more-dict-heading">
+    <div class="section__inner">
+        <p class="eyebrow">If You Need More</p>
+        <h2 id="more-dict-heading">More Dictionaries &amp; Pronunciation</h2>
+        <p style="color:var(--color-text-muted);max-width:65ch;margin-bottom:var(--space-md);">For a second opinion, synonyms, or to hear a word spoken by real people.</p>
+        <div class="grid"><div class="card dict-card" data-url-template="https://www.collinsdictionary.com/dictionary/english/{word}">
+                <h3>Collins Dictionary</h3>
+                <p>Definitions plus real usage examples drawn from news and books.</p>
+                <div class="card__foot">
+                    <a class="btn btn--accent btn--small dict-card__link" data-dict-link href="https://www.collinsdictionary.com/dictionary/english/hello" target="_blank" rel="noopener"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>Look up</a>
+                </div>
+            </div><div class="card dict-card" data-url-template="https://www.macmillandictionary.com/dictionary/british/{word}">
+                <h3>Macmillan Dictionary</h3>
+                <p>A learner-focused dictionary with thesaurus entries built in.</p>
+                <div class="card__foot">
+                    <a class="btn btn--accent btn--small dict-card__link" data-dict-link href="https://www.macmillandictionary.com/dictionary/british/hello" target="_blank" rel="noopener"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>Look up</a>
+                </div>
+            </div><div class="card dict-card" data-url-template="https://www.dictionary.com/browse/{word}">
+                <h3>Dictionary.com</h3>
+                <p>A large general reference with word origins and usage notes.</p>
+                <div class="card__foot">
+                    <a class="btn btn--accent btn--small dict-card__link" data-dict-link href="https://www.dictionary.com/browse/hello" target="_blank" rel="noopener"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>Look up</a>
+                </div>
+            </div><div class="card dict-card" data-url-template="https://www.thesaurus.com/browse/{word}">
+                <h3>Thesaurus.com</h3>
+                <p>Synonyms and antonyms for varying your vocabulary.</p>
+                <div class="card__foot">
+                    <a class="btn btn--accent btn--small dict-card__link" data-dict-link href="https://www.thesaurus.com/browse/hello" target="_blank" rel="noopener"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>Look up</a>
+                </div>
+            </div><div class="card dict-card" data-url-template="https://youglish.com/pronounce/{word}/english">
+                <h3>YouGlish</h3>
+                <p>Hear a word pronounced by real people, in real YouTube videos, in context.</p>
+                <div class="card__foot">
+                    <a class="btn btn--accent btn--small dict-card__link" data-dict-link href="https://youglish.com/pronounce/hello/english" target="_blank" rel="noopener"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>Look up</a>
+                </div>
+            </div><div class="card dict-card" data-url-template="https://forvo.com/word/{word}/">
+                <h3>Forvo</h3>
+                <p>Crowd-sourced native pronunciations from speakers around the world.</p>
+                <div class="card__foot">
+                    <a class="btn btn--accent btn--small dict-card__link" data-dict-link href="https://forvo.com/word/hello/" target="_blank" rel="noopener"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>Look up</a>
+                </div>
+            </div></div>
+    </div>
+</section>
+
 <footer class="site-footer">
     <div class="site-footer__bottom">
         <p>Private practice page for Manoelito &middot; prepared by Renan the Teacher &middot; not part of the public course.</p>
     </div>
 </footer>
+<button type="button" class="dict-widget-toggle" data-dict-widget-toggle aria-label="Open quick dictionary" aria-expanded="false" aria-haspopup="dialog">
+    <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
+</button>
+<div class="dict-widget-panel" data-dict-widget-panel hidden>
+    <div class="dict-widget__bar">
+        <input type="text" data-dict-widget-input placeholder="Look up a word&hellip;" aria-label="Look up a word">
+        <button type="button" class="dict-widget__close" data-dict-widget-close aria-label="Close dictionary"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+    </div>
+    <div class="dict-widget__result" data-dict-widget-result>
+        <p class="dict-widget__hint">Type a word to see its definition without leaving this page.</p>
+    </div>
+    <div class="dict-widget__links" data-dict-widget-links></div>
+</div>
 </main>
-<button type="button" class="back-to-top" data-back-to-top aria-label="Back to top">
+<button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Back to top">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
 </button>
+<button type="button" class="ai-teacher-toggle" data-ai-teacher-toggle aria-label="Ask the AI English Teacher" aria-expanded="false" aria-haspopup="dialog">
+    <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+    <span class="ai-teacher-toggle__label">AI Teacher</span>
+</button>
+<div class="ai-teacher-panel" data-ai-teacher-panel hidden role="dialog" aria-label="AI English Teacher chat" aria-modal="false">
+    <div class="ai-teacher-panel__bar">
+        <div class="ai-teacher-panel__brand">
+            <svg class="ai-teacher-panel__brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+            <div>
+                <strong>AI English Teacher</strong>
+                <span>Ask a grammar, vocabulary or exercise question</span>
+            </div>
+        </div>
+        <button type="button" class="ai-teacher-panel__close" data-ai-teacher-close aria-label="Close AI Teacher"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+    </div>
+    <div class="ai-teacher-panel__messages" data-ai-teacher-messages role="log" aria-live="polite">
+        <div class="ai-teacher-msg ai-teacher-msg--bot">
+            <p>Hi! I can help you with English. Ask me about grammar, words, or exercises.<br>Example: <em>&ldquo;Explain present perfect&rdquo;</em> or <em>&ldquo;Give me an exercise about conditionals.&rdquo;</em></p>
+        </div>
+    </div>
+    <form class="ai-teacher-panel__form" data-ai-teacher-form>
+        <label for="ai-teacher-input" class="visually-hidden">Your question</label>
+        <textarea id="ai-teacher-input" data-ai-teacher-input rows="1" maxlength="600" placeholder="Type your question&hellip;" required></textarea>
+        <button type="submit" class="ai-teacher-panel__send" data-ai-teacher-send aria-label="Send question"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></button>
+    </form>
+    <p class="ai-teacher-panel__hint" data-ai-teacher-hint>Answers come from an AI model and may occasionally be wrong &mdash; always double-check against your lesson material. Nothing you type is stored after you close this window.</p>
+</div>
+<button type="button" class="irregular-verbs-toggle" data-irregular-verbs-toggle aria-label="Open the irregular verbs list" aria-expanded="false" aria-haspopup="dialog">
+    <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/></svg>
+    <span class="irregular-verbs-toggle__label">Irregular Verbs</span>
+</button>
+<div class="irregular-verbs-panel" data-irregular-verbs-panel hidden role="dialog" aria-label="Irregular verbs list" aria-modal="false">
+    <div class="irregular-verbs-panel__bar">
+        <input type="text" data-verb-filter placeholder="Type any form, e.g. &ldquo;went&rdquo; or &ldquo;go&rdquo;" aria-label="Search irregular verbs" autocomplete="off">
+        <button type="button" class="irregular-verbs-panel__close" data-irregular-verbs-close aria-label="Close irregular verbs list"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+    </div>
+    <div class="irregular-verbs-panel__body" data-irregular-verbs-body>
+        <p class="notice" data-verb-count hidden></p>
+        <p class="irregular-verbs-panel__loading" data-irregular-verbs-loading>Loading the verb list&hellip;</p>
+        <p class="notice" data-verb-empty hidden>No verb matches &ldquo;<span data-verb-empty-term></span>.&rdquo; Try a different spelling.</p>
+    </div>
+    <p class="irregular-verbs-panel__footer"><a href="irregular-verbs.html" target="_blank" rel="noopener">Open the full page &#8599;</a></p>
+</div>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/ai-teacher.js" data-ai-endpoint="https://ai-teacher.englishclasses.workers.dev"></script>
+<script src="assets/js/dict-widget.js"></script>
+<script src="assets/js/dictionary.js"></script>
 <script src="assets/js/exercises.js"></script>
+<script src="assets/js/irregular-verbs.js"></script>
+<script src="assets/js/irregular-verbs-panel.js"></script>
 </body>
 </html>

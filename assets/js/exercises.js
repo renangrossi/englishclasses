@@ -92,6 +92,40 @@
     return a;
   }
 
+  // A leading form of "to be" doesn't change what the option is
+  // fundamentally about -- "am playing", "is playing" and "are playing"
+  // are the same verb in its three present-tense "to be" forms, so a
+  // plain alphabetical sort would scatter them (the "is" one lands under
+  // I, far from "am"/"are" under A) instead of keeping them together as
+  // the set of options a student is actually choosing between. Sorting
+  // by whatever follows "to be" first (falling back to the whole string
+  // for options that don't start with one) groups those variants
+  // adjacently, with the "to be" form itself only breaking ties within a
+  // group.
+  //
+  // Deliberately narrow to just am/is/are/was/were/negatives, NOT every
+  // auxiliary verb (do/does/did/have/will/can/...): those start plenty
+  // of ordinary, unrelated sentences in this course's matching exercises
+  // (e.g. a negative-imperative option like "Do not touch.") that must
+  // sort on their own first letter, not get regrouped under whatever
+  // follows "Do" -- confirmed against levels/a1/imperatives.html's
+  // "Match the Situation to the Instruction", which mixes exactly that
+  // kind of sentence with nothing resembling a to-be-form set.
+  var LEADING_TOBE_RE = /^(am not|isn't|aren't|wasn't|weren't|am|is|are|was|were)\s+(.+)$/i;
+  function matchOptionSortKey(text) {
+    var s = String(text == null ? "" : text);
+    var m = s.match(LEADING_TOBE_RE);
+    return m ? [m[2].toLowerCase(), m[1].toLowerCase()] : [s.toLowerCase(), ""];
+  }
+  function alphabetizeGrouped(options) {
+    return options.slice().sort(function (a, b) {
+      var ka = matchOptionSortKey(a), kb = matchOptionSortKey(b);
+      if (ka[0] !== kb[0]) return ka[0] < kb[0] ? -1 : 1;
+      if (ka[1] !== kb[1]) return ka[1] < kb[1] ? -1 : 1;
+      return 0;
+    });
+  }
+
   function el(tag, attrs, children) {
     var node = document.createElement(tag);
     attrs = attrs || {};
@@ -807,7 +841,15 @@
   function renderMatching(item, index) {
     var wrap = itemShell(index, null);
     var table = el("div", { class: "match-table" });
-    var rightOptions = shuffled(item.pairs.map(function (p) { return p.right; }));
+    // Alphabetical (with same-verb auxiliary forms grouped together, see
+    // alphabetizeGrouped above) rather than shuffled -- unlike
+    // multiple-choice/fill-blank, where randomizing option order stops a
+    // student from just memorizing "the answer is always B", a matching
+    // dropdown's whole point is letting the student scan and find the
+    // right meaning, which a predictable, sorted list makes easier
+    // without giving away any answer (the pairing itself is still
+    // exactly as hard to know as before).
+    var rightOptions = alphabetizeGrouped(item.pairs.map(function (p) { return p.right; }));
     var selects = [];
     var rowWraps = [];
 

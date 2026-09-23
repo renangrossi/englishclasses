@@ -437,7 +437,7 @@
       "format": "docx"
     },
     {
-      "level": "B1",
+      "level": "B2",
       "title": "Would",
       "url": "cefr/b1-intermediate/m-would.pdf",
       "type": "worksheet",
@@ -458,7 +458,7 @@
       "format": "pdf"
     },
     {
-      "level": "B2",
+      "level": "B1",
       "title": "Used To / When / While",
       "url": "cefr/b2-upper-intermediate/used-to-when-while.pdf",
       "type": "worksheet",
@@ -639,9 +639,9 @@
       "type": "lesson"
     },
     {
-      "level": "B1",
+      "level": "B2",
       "title": "Would",
-      "url": "levels/b1/would.html",
+      "url": "levels/b2/would.html",
       "type": "lesson"
     },
     {
@@ -669,9 +669,9 @@
       "type": "test"
     },
     {
-      "level": "B2",
+      "level": "B1",
       "title": "Used To / When / While",
-      "url": "levels/b2/used-to-when-while.html",
+      "url": "levels/b1/used-to-when-while.html",
       "type": "lesson"
     },
     {

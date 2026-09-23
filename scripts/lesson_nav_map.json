@@ -237,6 +237,11 @@
       "ty": "present-perfect-vs-present-perfect-continuous"
     },
     {
+      "slug": "used-to-when-while",
+      "title": "Used To / Be Used To / When vs. While",
+      "ty": null
+    },
+    {
       "slug": "past-simple-vs-past-perfect",
       "title": "Past Simple vs. Past Perfect",
       "ty": "past-simple-vs-past-perfect"
@@ -255,11 +260,6 @@
       "slug": "passive-voice",
       "title": "Passive Voice",
       "ty": "passive-voice"
-    },
-    {
-      "slug": "would",
-      "title": "Would",
-      "ty": "would"
     },
     {
       "slug": "reported-speech-foundation",
@@ -284,11 +284,6 @@
   ],
   "b2": [
     {
-      "slug": "used-to-when-while",
-      "title": "Used To / Be Used To / When vs. While",
-      "ty": null
-    },
-    {
       "slug": "past-perfect-and-perfect-continuous",
       "title": "Past Perfect & Past Perfect Continuous",
       "ty": "past-perfect-and-perfect-continuous"
@@ -312,6 +307,16 @@
       "slug": "mixed-conditionals",
       "title": "Mixed Conditionals",
       "ty": "mixed-conditionals"
+    },
+    {
+      "slug": "would",
+      "title": "Would",
+      "ty": "would"
+    },
+    {
+      "slug": "wish-if-only",
+      "title": "Wish / If Only",
+      "ty": "wish-if-only"
     },
     {
       "slug": "advanced-passive-voice",
@@ -347,11 +352,6 @@
       "slug": "advanced-connectors",
       "title": "Advanced Connectors",
       "ty": "advanced-connectors"
-    },
-    {
-      "slug": "wish-if-only",
-      "title": "Wish / If Only",
-      "ty": "wish-if-only"
     },
     {
       "slug": "articles-generic-reference",

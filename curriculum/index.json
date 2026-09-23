@@ -77,7 +77,7 @@
       "units": [
         {
           "id": "1",
-          "title": "A2 Elementary Grammar (14 lessons after the 2026-09 CEFR reorder: future forms and present perfect moved in from B1, question tags moved to B1; 2 source duplicates resolved: r-can-could-may -> merged into g-can-could-may, f-past-simple-and-continuous -> merged into p-simple-past-vs-past-continuous)",
+          "title": "A2 Elementary Grammar (14 lessons after the 2026-09 CEFR reorder: future forms and present perfect moved in from B1, question tags moved to B1. Follow-up CEFR audit: can, could, may and prepositions of place & movement moved up to follow the simple past (can is A1 in every reference; both lessons' exercises use past forms); 2 source duplicates resolved: r-can-could-may -> merged into g-can-could-may, f-past-simple-and-continuous -> merged into p-simple-past-vs-past-continuous)",
           "lessons": [
             {
               "id": "a2-present-simple-and-continuous-review",
@@ -96,6 +96,14 @@
               "status": "published"
             },
             {
+              "id": "a2-can-could-may",
+              "status": "published"
+            },
+            {
+              "id": "a2-prepositions-of-place-and-movement",
+              "status": "published"
+            },
+            {
               "id": "a2-simple-past-vs-past-continuous",
               "status": "published"
             },
@@ -109,14 +117,6 @@
             },
             {
               "id": "a2-comparatives-and-superlatives-i",
-              "status": "published"
-            },
-            {
-              "id": "a2-can-could-may",
-              "status": "published"
-            },
-            {
-              "id": "a2-prepositions-of-place-and-movement",
               "status": "published"
             },
             {
@@ -143,7 +143,7 @@
       "units": [
         {
           "id": "1",
-          "title": "B1 Intermediate Grammar (13 lessons after the 2026-09 CEFR reorder: future forms and present perfect moved to A2; future continuous, future perfect and past perfect continuous moved to B2; question tags moved in from A2; second & third conditionals split -- second stays here, third moved to B2. Follow-up CEFR audit: used to / be used to / when vs. while moved in from B2 (used to is B1 in the English Grammar Profile, Pearson GSE, CEFR-J and the Cambridge B1 Preliminary spec); would moved to B2, because its rules and exercises rely on the third and mixed conditionals and on used to)",
+          "title": "B1 Intermediate Grammar (14 lessons after the 2026-09 CEFR reorder: future forms and present perfect moved to A2; future continuous, future perfect and past perfect continuous moved to B2; question tags moved in from A2; second & third conditionals split -- second stays here, third moved to B2. Follow-up CEFR audit: used to / be used to / when vs. while moved in from B2 (used to is B1 in the English Grammar Profile, Pearson GSE, CEFR-J and the Cambridge B1 Preliminary spec); would sits right after must/might/should with the other modals, with its third-conditional exercise items replaced by B1 ones; question tags moved up to follow it, since its tags use those modals)",
           "lessons": [
             {
               "id": "b1-past-simple-vs-present-perfect-i",
@@ -174,6 +174,14 @@
               "status": "published"
             },
             {
+              "id": "b1-would",
+              "status": "published"
+            },
+            {
+              "id": "b1-question-tags",
+              "status": "published"
+            },
+            {
               "id": "b1-second-conditional",
               "status": "published"
             },
@@ -190,10 +198,6 @@
               "status": "published"
             },
             {
-              "id": "b1-question-tags",
-              "status": "published"
-            },
-            {
               "id": "b1-comparatives-ii-intensifiers",
               "status": "published"
             }
@@ -205,7 +209,7 @@
       "units": [
         {
           "id": "1",
-          "title": "B2 Upper-Intermediate Grammar (16 lessons after the 2026-09 CEFR reorder: past perfect continuous, future continuous, future continuous & future perfect, and the third conditional moved in from B1. Follow-up CEFR audit: would moved in from B1 and placed after mixed conditionals, wish / if only moved up to follow it so the unreal-past lessons sit together, and used to / when / while moved to B1). b2-grammar-exercises-i/ii remain PDF-only mixed reviews, not converted to single-topic lessons.",
+          "title": "B2 Upper-Intermediate Grammar (15 lessons after the 2026-09 CEFR reorder: past perfect continuous, future continuous, future continuous & future perfect, and the third conditional moved in from B1. Follow-up CEFR audit: wish / if only moved up to follow mixed conditionals so the unreal-past lessons sit together, and used to / when / while moved to B1). b2-grammar-exercises-i/ii remain PDF-only mixed reviews, not converted to single-topic lessons.",
           "lessons": [
             {
               "id": "b2-past-perfect-and-perfect-continuous",
@@ -225,10 +229,6 @@
             },
             {
               "id": "b2-mixed-conditionals",
-              "status": "published"
-            },
-            {
-              "id": "b2-would",
               "status": "published"
             },
             {

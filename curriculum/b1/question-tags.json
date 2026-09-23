@@ -7,7 +7,7 @@
   "strand": "question-tags",
   "title": "Question Tags",
   "subtitle": "Add a short question at the end of a sentence to check or confirm something.",
-  "prerequisites": ["a1-yes-no-questions", "a1-to-be-am-is-are"],
+  "prerequisites": ["a1-yes-no-questions", "b1-must-might-should"],
   "objectives": [
     "Form a negative tag after a positive statement",
     "Form a positive tag after a negative statement",

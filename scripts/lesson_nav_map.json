@@ -165,6 +165,16 @@
       "ty": "simple-past-ii"
     },
     {
+      "slug": "can-could-may",
+      "title": "Can, Could, May",
+      "ty": "can-could-may"
+    },
+    {
+      "slug": "prepositions-of-place-and-movement",
+      "title": "Prepositions of Place & Movement",
+      "ty": "prepositions-of-place-and-movement"
+    },
+    {
       "slug": "simple-past-vs-past-continuous",
       "title": "Simple Past vs. Past Continuous",
       "ty": "simple-past-vs-past-continuous"
@@ -183,16 +193,6 @@
       "slug": "comparatives-and-superlatives-i",
       "title": "Comparatives & Superlatives I",
       "ty": "comparatives-and-superlatives-i"
-    },
-    {
-      "slug": "can-could-may",
-      "title": "Can, Could, May",
-      "ty": "can-could-may"
-    },
-    {
-      "slug": "prepositions-of-place-and-movement",
-      "title": "Prepositions of Place & Movement",
-      "ty": "prepositions-of-place-and-movement"
     },
     {
       "slug": "present-perfect",
@@ -252,6 +252,16 @@
       "ty": "must-might-should"
     },
     {
+      "slug": "would",
+      "title": "Would",
+      "ty": "would"
+    },
+    {
+      "slug": "question-tags",
+      "title": "Question Tags",
+      "ty": "question-tags"
+    },
+    {
       "slug": "second-conditional",
       "title": "Second Conditional",
       "ty": "second-conditional"
@@ -270,11 +280,6 @@
       "slug": "relative-clauses-defining-non-defining",
       "title": "Relative Clauses — Defining vs. Non-Defining, Whose & Prepositions",
       "ty": null
-    },
-    {
-      "slug": "question-tags",
-      "title": "Question Tags",
-      "ty": "question-tags"
     },
     {
       "slug": "comparatives-ii-intensifiers",
@@ -307,11 +312,6 @@
       "slug": "mixed-conditionals",
       "title": "Mixed Conditionals",
       "ty": "mixed-conditionals"
-    },
-    {
-      "slug": "would",
-      "title": "Would",
-      "ty": "would"
     },
     {
       "slug": "wish-if-only",

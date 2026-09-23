@@ -437,7 +437,7 @@
       "format": "docx"
     },
     {
-      "level": "B2",
+      "level": "B1",
       "title": "Would",
       "url": "cefr/b1-intermediate/m-would.pdf",
       "type": "worksheet",
@@ -639,9 +639,9 @@
       "type": "lesson"
     },
     {
-      "level": "B2",
+      "level": "B1",
       "title": "Would",
-      "url": "levels/b2/would.html",
+      "url": "levels/b1/would.html",
       "type": "lesson"
     },
     {

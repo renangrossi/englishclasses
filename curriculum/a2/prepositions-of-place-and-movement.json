@@ -7,7 +7,7 @@
   "strand": "prepositions",
   "title": "Prepositions of Place & Movement",
   "subtitle": "Say exactly where something is, and how it moves.",
-  "prerequisites": ["a1-prepositions-of-place-and-time"],
+  "prerequisites": ["a1-prepositions-of-place-and-time", "a2-simple-past-i"],
   "objectives": [
     "Use prepositions of place (in, on, at, under, behind, next to, between, among) to say where things are",
     "Use prepositions of movement (into, onto, out of, through, over, along, towards, across) to say how something moves"

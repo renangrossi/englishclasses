@@ -1,16 +1,16 @@
 {
-  "id": "b2-would",
-  "level": "B2",
+  "id": "b1-would",
+  "level": "B1",
   "unit": "4",
   "order": 4,
   "skill": "grammar",
   "strand": "would",
   "title": "Would",
   "subtitle": "One small word, several everyday jobs: polite requests, hypotheticals, and past habits.",
-  "prerequisites": ["b2-third-conditional", "b2-mixed-conditionals", "b1-used-to-when-while"],
+  "prerequisites": ["b1-must-might-should", "b1-used-to-when-while"],
   "objectives": [
     "Use \"would\" for polite requests",
-    "Use \"would\" in the result clause of hypothetical (second/third) conditionals",
+    "Use \"would\" for imagined situations, including the result clause of the second conditional",
     "Use \"would\" for repeated past habits (like \"used to\", for actions not states)"
   ],
   "content": {
@@ -22,7 +22,7 @@
       },
       {
         "heading": "b) Hypotheticals (conditionals)",
-        "body": "<ul><li>If I were rich, I would buy a yacht. (second conditional)</li><li>They would have avoided the accident if they had been more careful. (third conditional)</li></ul>"
+        "body": "<ul><li>If I were rich, I would buy a yacht. (second conditional)</li><li>In your position, I would take the job. (an imagined situation)</li></ul>"
       },
       {
         "heading": "c) Repeated past habits (actions, not states)",
@@ -32,9 +32,9 @@
     "examples": [
       "Would you please send me the report by tomorrow?",
       "If I were rich, I would buy a yacht and sail around the world.",
-      "She would speak five languages fluently, if she'd kept practicing.",
+      "What would you do with a million dollars?",
       "When I was a child, I would play outside every afternoon.",
-      "They would have avoided the accident if they had been more careful.",
+      "In your position, I would take the job.",
       "Would you mind if I opened the window?"
     ],
     "commonMistakes": [
@@ -51,7 +51,7 @@
         { "id": "b1w1", "prompt": "___ you please send me the report by tomorrow?", "answers": [["Would"]], "explanation": "A polite request." },
         { "id": "b1w2", "prompt": "If I were rich, I ___ (buy) a yacht.", "answers": [["would buy"]], "explanation": "The result clause of the second conditional." },
         { "id": "b1w3", "prompt": "When I was a child, I ___ (play) outside every afternoon.", "answers": [["would play"]], "explanation": "A repeated past action." },
-        { "id": "b1w4", "prompt": "They ___ (avoid) the accident if they had been more careful.", "answers": [["would have avoided"]], "explanation": "The result clause of the third conditional." }
+        { "id": "b1w201", "prompt": "In your position, I ___ (accept) the offer.", "answers": [["would accept"]], "explanation": "An imagined situation — would + base verb." }
       ]
     },
     {
@@ -71,7 +71,7 @@
   ],
   "summary": [
     "Would you...? = a polite request.",
-    "Would appears in the result clause of second/third conditionals.",
+    "Would + base verb describes imagined situations, as in the second conditional.",
     "Would describes repeated past actions (not states — use \"used to\" for those)."
   ],
   "related": [],

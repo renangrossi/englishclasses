@@ -1,13 +1,13 @@
 {
-  "id": "b1-would",
-  "level": "B1",
+  "id": "b2-would",
+  "level": "B2",
   "unit": "4",
   "order": 4,
   "skill": "grammar",
   "strand": "would",
   "title": "Would",
   "subtitle": "One small word, several everyday jobs: polite requests, hypotheticals, and past habits.",
-  "prerequisites": ["b1-second-conditional"],
+  "prerequisites": ["b2-third-conditional", "b2-mixed-conditionals", "b1-used-to-when-while"],
   "objectives": [
     "Use \"would\" for polite requests",
     "Use \"would\" in the result clause of hypothetical (second/third) conditionals",

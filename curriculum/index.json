@@ -143,7 +143,7 @@
       "units": [
         {
           "id": "1",
-          "title": "B1 Intermediate Grammar (13 lessons after the 2026-09 CEFR reorder: future forms and present perfect moved to A2; future continuous, future perfect and past perfect continuous moved to B2; question tags moved in from A2; second & third conditionals split -- second stays here, third moved to B2)",
+          "title": "B1 Intermediate Grammar (13 lessons after the 2026-09 CEFR reorder: future forms and present perfect moved to A2; future continuous, future perfect and past perfect continuous moved to B2; question tags moved in from A2; second & third conditionals split -- second stays here, third moved to B2. Follow-up CEFR audit: used to / be used to / when vs. while moved in from B2 (used to is B1 in the English Grammar Profile, Pearson GSE, CEFR-J and the Cambridge B1 Preliminary spec); would moved to B2, because its rules and exercises rely on the third and mixed conditionals and on used to)",
           "lessons": [
             {
               "id": "b1-past-simple-vs-present-perfect-i",
@@ -162,6 +162,10 @@
               "status": "published"
             },
             {
+              "id": "b1-used-to-when-while",
+              "status": "published"
+            },
+            {
               "id": "b1-past-simple-vs-past-perfect",
               "status": "published"
             },
@@ -175,10 +179,6 @@
             },
             {
               "id": "b1-passive-voice",
-              "status": "published"
-            },
-            {
-              "id": "b1-would",
               "status": "published"
             },
             {
@@ -205,12 +205,8 @@
       "units": [
         {
           "id": "1",
-          "title": "B2 Upper-Intermediate Grammar (16 lessons after the 2026-09 CEFR reorder: past perfect continuous, future continuous, future continuous & future perfect, and the third conditional moved in from B1). b2-grammar-exercises-i/ii remain PDF-only mixed reviews, not converted to single-topic lessons.",
+          "title": "B2 Upper-Intermediate Grammar (16 lessons after the 2026-09 CEFR reorder: past perfect continuous, future continuous, future continuous & future perfect, and the third conditional moved in from B1. Follow-up CEFR audit: would moved in from B1 and placed after mixed conditionals, wish / if only moved up to follow it so the unreal-past lessons sit together, and used to / when / while moved to B1). b2-grammar-exercises-i/ii remain PDF-only mixed reviews, not converted to single-topic lessons.",
           "lessons": [
-            {
-              "id": "b2-used-to-when-while",
-              "status": "published"
-            },
             {
               "id": "b2-past-perfect-and-perfect-continuous",
               "status": "published"
@@ -229,6 +225,14 @@
             },
             {
               "id": "b2-mixed-conditionals",
+              "status": "published"
+            },
+            {
+              "id": "b2-would",
+              "status": "published"
+            },
+            {
+              "id": "b2-wish-if-only",
               "status": "published"
             },
             {
@@ -257,10 +261,6 @@
             },
             {
               "id": "b2-advanced-connectors",
-              "status": "published"
-            },
-            {
-              "id": "b2-wish-if-only",
               "status": "published"
             },
             {

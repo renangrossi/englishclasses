@@ -1,6 +1,6 @@
 {
-  "id": "b1-future-continuous",
-  "level": "B1",
+  "id": "b2-future-continuous",
+  "level": "B2",
   "unit": "3",
   "order": 2,
   "skill": "grammar",
@@ -9,7 +9,7 @@
   "subtitle": "Say what will already be in progress at a specific future moment.",
   "prerequisites": [
     "a1-present-continuous-i",
-    "b1-future-forms-will-going-to"
+    "a2-future-forms-will-going-to"
   ],
   "objectives": [
     "Form the future continuous (will be + -ing)",

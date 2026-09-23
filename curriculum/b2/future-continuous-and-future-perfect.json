@@ -1,6 +1,6 @@
 {
-  "id": "b1-future-continuous-and-future-perfect",
-  "level": "B1",
+  "id": "b2-future-continuous-and-future-perfect",
+  "level": "B2",
   "unit": "3",
   "order": 3,
   "skill": "grammar",
@@ -8,7 +8,7 @@
   "title": "Future Continuous & Future Perfect",
   "subtitle": "Two ways to describe the future from a specific point in time: in progress, or already finished.",
   "prerequisites": [
-    "b1-future-continuous"
+    "b2-future-continuous"
   ],
   "objectives": [
     "Review the future continuous (in progress at a future moment)",

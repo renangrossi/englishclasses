@@ -7,7 +7,7 @@
   "strand": "conditionals",
   "title": "Mixed Conditionals",
   "subtitle": "Combine a past condition with a present result, or a present condition with a past result.",
-  "prerequisites": ["b1-second-and-third-conditionals"],
+  "prerequisites": ["b2-third-conditional"],
   "objectives": [
     "Combine a third-conditional \"if\" clause with a second-conditional result",
     "Combine a second-conditional \"if\" clause with a third-conditional result",

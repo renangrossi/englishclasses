@@ -334,7 +334,7 @@
       ]
     },
     {
-      "level": "A2",
+      "level": "B1",
       "title": "Question Tags",
       "url": "cefr/a2-elementary/s-question-tags.pdf",
       "type": "worksheet",
@@ -362,14 +362,14 @@
       "format": "pdf"
     },
     {
-      "level": "B1",
+      "level": "B2",
       "title": "Past Perfect and Perfect Continuous",
       "url": "cefr/b1-intermediate/d-past-perfect-and-perfect-continuous.pdf",
       "type": "worksheet",
       "format": "pdf"
     },
     {
-      "level": "B1",
+      "level": "B2",
       "title": "Future Continuous and Future Perfect",
       "url": "cefr/b1-intermediate/e-future-continuous-and-future-perfect.docx",
       "type": "worksheet",
@@ -395,7 +395,7 @@
       ]
     },
     {
-      "level": "B1",
+      "level": "A2",
       "title": "Future Forms: Will / Going To",
       "url": "cefr/b1-intermediate/h-future-forms-will-going-to.pdf",
       "type": "worksheet",
@@ -409,7 +409,7 @@
       "format": "pdf"
     },
     {
-      "level": "B1",
+      "level": "A2",
       "title": "Present Perfect",
       "url": "cefr/b1-intermediate/i-present-perfect.pdf",
       "type": "worksheet",
@@ -430,7 +430,7 @@
       "format": "pdf"
     },
     {
-      "level": "B1",
+      "level": "B2",
       "title": "Future Continuous",
       "url": "cefr/b1-intermediate/k-future-continuous.docx",
       "type": "worksheet",
@@ -543,9 +543,9 @@
       "type": "lesson"
     },
     {
-      "level": "A2",
+      "level": "B1",
       "title": "Question Tags",
-      "url": "levels/a2/question-tags.html",
+      "url": "levels/b1/question-tags.html",
       "type": "lesson"
     },
     {
@@ -555,9 +555,9 @@
       "type": "test"
     },
     {
-      "level": "B1",
+      "level": "A2",
       "title": "Present Perfect",
-      "url": "levels/b1/present-perfect.html",
+      "url": "levels/a2/present-perfect.html",
       "type": "lesson"
     },
     {
@@ -585,15 +585,15 @@
       "type": "lesson"
     },
     {
-      "level": "B1",
+      "level": "B2",
       "title": "Future Continuous",
-      "url": "levels/b1/future-continuous.html",
+      "url": "levels/b2/future-continuous.html",
       "type": "lesson"
     },
     {
-      "level": "B1",
+      "level": "B2",
       "title": "Future Continuous & Future Perfect",
-      "url": "levels/b1/future-continuous-and-future-perfect.html",
+      "url": "levels/b2/future-continuous-and-future-perfect.html",
       "type": "lesson"
     },
     {
@@ -603,9 +603,9 @@
       "type": "lesson"
     },
     {
-      "level": "B1",
+      "level": "B2",
       "title": "Past Perfect & Past Perfect Continuous",
-      "url": "levels/b1/past-perfect-and-perfect-continuous.html",
+      "url": "levels/b2/past-perfect-and-perfect-continuous.html",
       "type": "lesson"
     },
     {
@@ -616,14 +616,20 @@
     },
     {
       "level": "B1",
-      "title": "Second and Third Conditionals",
-      "url": "levels/b1/second-and-third-conditionals.html",
+      "title": "Second Conditional",
+      "url": "levels/b1/second-conditional.html",
       "type": "lesson"
     },
     {
-      "level": "B1",
+      "level": "B2",
+      "title": "Third Conditional",
+      "url": "levels/b2/third-conditional.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
       "title": "Future Forms: Will / Going To",
-      "url": "levels/b1/future-forms-will-going-to.html",
+      "url": "levels/a2/future-forms-will-going-to.html",
       "type": "lesson"
     },
     {

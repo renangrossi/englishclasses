@@ -1,0 +1,418 @@
+{
+  "id": "b2-third-conditional",
+  "level": "B2",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "conditionals",
+  "title": "Third Conditional",
+  "subtitle": "Talk about unreal situations in the past — things that didn't happen.",
+  "prerequisites": [
+    "b1-second-conditional"
+  ],
+  "objectives": [
+    "Form the third conditional for unreal past situations (things that didn't happen)",
+    "Tell the second and third conditionals apart based on time"
+  ],
+  "content": {
+    "intro": "You already know the second conditional for imaginary situations now. The third conditional imagines a different past: what would have happened if things had been different.",
+    "rules": [
+      {
+        "heading": "Third conditional — unreal past",
+        "body": "<p>If + past perfect, would have + past participle. Used for something that didn't actually happen in the past.</p><ul><li>If I had studied harder, I would have passed the exam. (I didn't study harder, so I didn't pass)</li><li>If she had left earlier, she wouldn't have missed the train.</li></ul>"
+      }
+    ],
+    "examples": [
+      "If I had studied harder, I would have passed the exam.",
+      "If she had left earlier, she wouldn't have missed the train.",
+      "If they had known, they would have helped."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "If I had study harder, I would have passed.",
+        "right": "If I had studied harder, I would have passed.",
+        "why": "The third conditional's \"if\" clause needs the past perfect (had + past participle)."
+      },
+      {
+        "wrong": "If I had studied harder, I would passed the exam.",
+        "right": "If I had studied harder, I would have passed the exam.",
+        "why": "The result clause of the third conditional needs \"would have\" + past participle."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2cond3-gapfill-p1",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks (Part 1 of 3)",
+      "instructions": "Complete each sentence with the correct second or third conditional form.",
+      "items": [
+        {
+          "id": "b1cond23-2",
+          "prompt": "If I ___ (study) harder, I ___ (pass) the exam. (but I didn't study)",
+          "answers": [
+            [
+              "had studied"
+            ],
+            [
+              "would have passed"
+            ]
+          ],
+          "explanation": "Unreal past — third conditional."
+        },
+        {
+          "id": "b1cond23-3",
+          "prompt": "If she ___ (leave) earlier, she ___ (not/miss) the train.",
+          "answers": [
+            [
+              "had left"
+            ],
+            [
+              "wouldn't have missed"
+            ]
+          ],
+          "explanation": "Third conditional, unreal past."
+        },
+        {
+          "id": "b1cond23-10",
+          "prompt": "If they ___ (leave) earlier, they ___ (not/miss) the flight.",
+          "answers": [
+            "had left",
+            "wouldn't have missed"
+          ],
+          "explanation": "Unreal past — third conditional."
+        },
+        {
+          "id": "b1cond23-11",
+          "prompt": "If he ___ (be) more careful, he ___ (not/break) the vase.",
+          "answers": [
+            "had been",
+            "wouldn't have broken"
+          ],
+          "explanation": "Unreal past — third conditional."
+        },
+        {
+          "id": "b1cond23-102",
+          "prompt": "If we ___ (check) the weather, we ___ (not/get) soaked.",
+          "answers": [
+            [
+              "had checked"
+            ],
+            [
+              "wouldn't have gotten"
+            ]
+          ],
+          "explanation": "Unreal past — third conditional."
+        }
+      ]
+    },
+    {
+      "id": "b2cond3-mc-p1",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Sentence (Part 1 of 2)",
+      "items": [
+        {
+          "id": "b1cond23-5",
+          "prompt": "Which sentence describes something that didn't actually happen in the past?",
+          "options": [
+            "If it rains, I will stay home.",
+            "If I had known, I would have called you.",
+            "If I won the lottery, I would travel."
+          ],
+          "answerIndex": 1,
+          "explanation": "This is the third conditional — an unreal past situation."
+        },
+        {
+          "id": "b1cond23-18",
+          "prompt": "Which sentence is a third conditional?",
+          "options": [
+            "If it rains, I'll stay in.",
+            "If I had left earlier, I would have caught the train.",
+            "If I were rich, I would travel."
+          ],
+          "answerIndex": 1,
+          "explanation": "An unreal past situation — third conditional."
+        },
+        {
+          "id": "b1cond23-19",
+          "prompt": "Which sentence correctly forms the third conditional result?",
+          "options": [
+            "I would help if I had known.",
+            "I would have helped if I had known.",
+            "I would have help if I had known."
+          ],
+          "answerIndex": 1,
+          "explanation": "The third conditional's result needs \"would have\" + past participle."
+        },
+        {
+          "id": "b1cond23-26",
+          "prompt": "How do you ask about an unreal past situation?",
+          "options": [
+            "What would you have done if you had known?",
+            "What would you do if you had known?",
+            "What did you do if you knew?"
+          ],
+          "answerIndex": 0,
+          "explanation": "A third-conditional question uses would have + past participle in the result clause."
+        }
+      ]
+    },
+    {
+      "id": "b2cond3-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "b1cond23-8",
+          "incorrect": "If they had known, they would help.",
+          "answer": [
+            "If they had known, they would have helped."
+          ],
+          "explanation": "The third conditional's result clause needs \"would have\" + past participle."
+        },
+        {
+          "id": "b1cond23-22",
+          "incorrect": "If she had studied, she would pass.",
+          "answer": [
+            "If she had studied, she would have passed."
+          ],
+          "explanation": "The third conditional's result clause needs \"would have\" + past participle."
+        },
+        {
+          "id": "b1cond23-23",
+          "incorrect": "If I would have known, I would have called.",
+          "answer": [
+            "If I had known, I would have called."
+          ],
+          "explanation": "The \"if\" clause of the third conditional never uses \"would\" — use the past perfect."
+        },
+        {
+          "id": "b1cond23-28",
+          "incorrect": "If you had known, you would have called?",
+          "answer": [
+            "If you had known, would you have called?",
+            "If you had known, would you have called"
+          ],
+          "explanation": "A question inverts \"would\" and the subject in the result clause: would you have called?"
+        },
+        {
+          "id": "b1cond23-51",
+          "incorrect": "If he had left earlier, he would arrive on time.",
+          "answer": [
+            "If he had left earlier, he would have arrived on time."
+          ],
+          "explanation": "The third conditional's result clause needs \"would have\" + past participle."
+        },
+        {
+          "id": "b1cond23-54",
+          "incorrect": "If they would have known, they would have come.",
+          "answer": [
+            "If they had known, they would have come."
+          ],
+          "explanation": "The \"if\" clause of the third conditional never uses \"would\" — use the past perfect."
+        },
+        {
+          "id": "b1cond23-55",
+          "incorrect": "If you study harder, you would have passed.",
+          "answer": [
+            "If you had studied harder, you would have passed."
+          ],
+          "explanation": "Mixing a present if-clause with a third-conditional result doesn't work — the if-clause also needs the past perfect."
+        },
+        {
+          "id": "b1cond23-56",
+          "incorrect": "If I had known, I would called you.",
+          "answer": [
+            "If I had known, I would have called you."
+          ],
+          "explanation": "The third conditional's result clause needs \"would have\" + past participle, not \"would\" + base verb."
+        }
+      ]
+    },
+    {
+      "id": "b2cond3-gapfill-p2",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks (Part 2 of 3)",
+      "instructions": "Complete each sentence with the correct second or third conditional form.",
+      "items": [
+        {
+          "id": "b1cond23-13",
+          "prompt": "If she ___ (know) about the meeting, she ___ (come).",
+          "answers": [
+            "had known",
+            "would have come"
+          ],
+          "explanation": "Unreal past — third conditional."
+        },
+        {
+          "id": "b1cond23-15",
+          "prompt": "If you ___ (ask) me, I ___ (help) you.",
+          "answers": [
+            "had asked",
+            "would have helped"
+          ],
+          "explanation": "Unreal past — third conditional."
+        },
+        {
+          "id": "b1cond23-30",
+          "prompt": "If I ___ (check) the map, I ___ (not/get) lost.",
+          "answers": [
+            "had checked",
+            "wouldn't have gotten"
+          ],
+          "explanation": "Unreal past — third conditional."
+        },
+        {
+          "id": "b1cond23-32",
+          "prompt": "If she ___ (arrive) on time, she ___ (not/miss) the flight.",
+          "answers": [
+            "had arrived",
+            "wouldn't have missed"
+          ],
+          "explanation": "Unreal past — third conditional."
+        },
+        {
+          "id": "b1cond23-106",
+          "prompt": "If he ___ (not/lose) his phone, he ___ (call) us.",
+          "answers": [
+            [
+              "hadn't lost"
+            ],
+            [
+              "would have called"
+            ]
+          ],
+          "explanation": "Unreal past — third conditional."
+        }
+      ]
+    },
+    {
+      "id": "b2cond3-mc-p2",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Sentence (Part 2 of 2)",
+      "items": [
+        {
+          "id": "b1cond23-41",
+          "prompt": "Which sentence describes an unreal past situation?",
+          "options": [
+            "If I study, I will pass.",
+            "If I had studied, I would have passed.",
+            "If I study, I would pass."
+          ],
+          "answerIndex": 1,
+          "explanation": "This is the third conditional — an unreal past situation."
+        },
+        {
+          "id": "b1cond23-43",
+          "prompt": "Which sentence correctly completes a third conditional?",
+          "options": [
+            "If we had left earlier, we would arrive on time.",
+            "If we had left earlier, we would have arrived on time.",
+            "If we left earlier, we would have arrived on time."
+          ],
+          "answerIndex": 1,
+          "explanation": "The third conditional's result clause needs \"would have\" + past participle."
+        },
+        {
+          "id": "b1cond23-45",
+          "prompt": "Which sentence is grammatically correct?",
+          "options": [
+            "If she had known, she would have told us.",
+            "If she knew, she would have told us.",
+            "If she had known, she would tell us."
+          ],
+          "answerIndex": 0,
+          "explanation": "A consistent third conditional needs a past-perfect if-clause and a \"would have\" result clause together."
+        },
+        {
+          "id": "b1cond23-46",
+          "prompt": "Which if-clause verb form is correct for the third conditional?",
+          "options": [
+            "If I would have seen you...",
+            "If I had seen you...",
+            "If I saw you..."
+          ],
+          "answerIndex": 1,
+          "explanation": "The if-clause of the third conditional never uses \"would\" — it needs the past perfect."
+        },
+        {
+          "id": "b1cond23-48",
+          "prompt": "How do you ask what someone would have done in an unreal past situation?",
+          "options": [
+            "What would you have done if you had missed the flight?",
+            "What would you do if you missed the flight?",
+            "What did you do if you had missed the flight?"
+          ],
+          "answerIndex": 0,
+          "explanation": "A third-conditional question uses \"would have\" + past participle in the result clause."
+        }
+      ]
+    },
+    {
+      "id": "b2cond3-gapfill-p3",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks (Part 3 of 3)",
+      "instructions": "Complete each sentence with the correct second or third conditional form.",
+      "items": [
+        {
+          "id": "b1cond23-34",
+          "prompt": "If we ___ (book) earlier, we ___ (get) better seats.",
+          "answers": [
+            "had booked",
+            "would have gotten"
+          ],
+          "explanation": "Unreal past — third conditional."
+        },
+        {
+          "id": "b1cond23-36",
+          "prompt": "If he ___ (listen) to advice, he ___ (avoid) the mistake.",
+          "answers": [
+            "had listened",
+            "would have avoided"
+          ],
+          "explanation": "Unreal past — third conditional."
+        },
+        {
+          "id": "b1cond23-38",
+          "prompt": "If they ___ (save) money, they ___ (buy) a house.",
+          "answers": [
+            "had saved",
+            "would have bought"
+          ],
+          "explanation": "Unreal past — third conditional."
+        },
+        {
+          "id": "b1cond23-40",
+          "prompt": "If I ___ (know) you were coming, I ___ (clean) the house.",
+          "answers": [
+            "had known",
+            "would have cleaned"
+          ],
+          "explanation": "Unreal past — third conditional."
+        },
+        {
+          "id": "b1cond23-109",
+          "prompt": "If we ___ (leave) on time, we ___ (not/miss) the show.",
+          "answers": [
+            [
+              "had left"
+            ],
+            [
+              "wouldn't have missed"
+            ]
+          ],
+          "explanation": "Unreal past — third conditional."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Third conditional: If + past perfect, would have + past participle — unreal past (didn't happen).",
+    "Compare: Second conditional: If + past simple, would + base verb — unreal present/future."
+  ],
+  "related": [],
+  "sourceMaterial": {
+    "docx": "cefr/b1-intermediate/g-2nd-and-3rd-conditionals.docx",
+    "pdf": "cefr/b1-intermediate/g-2nd-and-3rd-conditionals.pdf"
+  }
+}

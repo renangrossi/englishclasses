@@ -67,6 +67,7 @@ def restore_original(body):
     converted page can be rebuilt."""
     body = re.sub(r'\n<nav class="booklet-nav booklet-nav--top".*?</nav>', "", body, count=1, flags=re.S)
     body = re.sub(r'<a class="toc2__link" href="#sheet-\d+">(.*?)</a>', r"\1", body, flags=re.S)
+    body = re.sub(r'<a class="lvl__link" href="english-classes-[a-z0-9-]+\.html">(.*?)</a>', r"\1", body, flags=re.S)
     body = re.sub(r'<section class="page" id="sheet-\d+">', '<section class="page">', body)
     body = re.sub(r'<h1 class="cover__title">(.*?)</h1>',
                   lambda m: '<div class="cover__title">' + re.sub(
@@ -91,6 +92,9 @@ def convert_body(body):
     body = re.sub(r'(<section class="page">)(.*?</section>)', add_id, body, flags=re.S)
     body = re.sub(r'<li>(<span class="n">(\d+)</span>.*?)</li>',
                   r'<li><a class="toc2__link" href="#sheet-\2">\1</a></li>', body, flags=re.S)
+    body = re.sub(r'<div class="lvl done">(<b>([^<]+)</b>.*?)</div>',
+                  lambda m: f'<div class="lvl done"><a class="lvl__link" href="english-classes-{m.group(2).lower()}.html">{m.group(1)}</a></div>',
+                  body, flags=re.S)
     return body
 
 
@@ -160,6 +164,11 @@ def write_print_css(style):
 /* Contents entries now link to their sheet; same look as before. */
 #booklet .toc2 li {{ display: block; }}
 #booklet .toc2__link {{ display: grid; grid-template-columns: 2.4em 1fr; gap: .5em; color: inherit; text-decoration: none; }}
+/* Completed levels on the cover link to their booklet; the link covers
+   the whole box without changing its layout. */
+#booklet .lvl.done {{ position: relative; }}
+#booklet .lvl__link {{ color: inherit; text-decoration: none; }}
+#booklet .lvl__link::after {{ content: ""; position: absolute; inset: 0; border-radius: inherit; }}
 """
     open(path, "w", encoding="utf-8").write(css)
 
@@ -177,10 +186,30 @@ def site_chrome():
     header = header.replace('<a href="index.html#grammar">', '<a href="index.html#grammar" aria-current="page">', 1)
     footer = page[page.index('<button type="button" class="dict-widget-toggle"'):]
     footer = re.sub(r'\s*<script src="assets/js/dictionary\.js"></script>', "", footer)
+    footer = add_irregular_verbs(footer)
 
     def rel(s):
         return re.sub(r'((?:href|src|data-index-src)=")(?!https?:|#|data:|mailto:|/)', r"\1" + REL, s)
     return rel(head), rel(header), rel(footer)
+
+
+def add_irregular_verbs(footer):
+    """Adds the floating Irregular Verbs button and panel, copied from the
+    Simple Past I lesson page, with the same position modifiers it uses
+    for the Dictionary and back-to-top buttons."""
+    lesson = open(os.path.join(ROOT, "levels", "a2", "simple-past-i.html"), encoding="utf-8").read()
+    start = lesson.index('<button type="button" class="irregular-verbs-toggle"')
+    end = lesson.index("</div>", lesson.index('<p class="irregular-verbs-panel__footer">')) + len("</div>")
+    widget = lesson[start:end].replace('href="../../', 'href="')  # root-relative, like the rest of the footer
+    footer = footer.replace('class="dict-widget-toggle"', 'class="dict-widget-toggle dict-widget-toggle--with-irregular-verbs"', 1)
+    footer = footer.replace('class="dict-widget-panel"', 'class="dict-widget-panel dict-widget-panel--with-irregular-verbs"', 1)
+    footer = footer.replace("back-to-top back-to-top--with-dict\"", "back-to-top back-to-top--with-dict-and-irregular\"", 1)
+    scripts = footer.index("    <script src=")
+    footer = footer[:scripts] + "    " + widget + "\n" + footer[scripts:]
+    return footer.replace('<script src="assets/js/dict-widget.js"></script>',
+                          '<script src="assets/js/dict-widget.js"></script>\n'
+                          '    <script src="assets/js/irregular-verbs.js"></script>'
+                          '<script src="assets/js/irregular-verbs-panel.js"></script>', 1)
 
 
 def nav_button(slug, direction):
@@ -210,13 +239,11 @@ def print_button():
 
 
 def toolbar(slug, where):
-    grammar = (f'<a class="btn btn--ghost booklet-nav__grammar" href="{REL}index.html#grammar">'
-               f'{ARROW_BACK} <span>All grammar booklets</span></a>')
     prev, nxt = nav_button(slug, "prev"), nav_button(slug, "next")
     label = "Booklet navigation" if where == "top" else "Continue studying"
     return (f'<nav class="booklet-nav booklet-nav--{where}" aria-label="{label}">'
-            f'<div class="booklet-nav__side">{prev or grammar}</div>'
-            f'<div class="booklet-nav__middle">{grammar if prev else ""}{print_button()}</div>'
+            f'<div class="booklet-nav__side">{prev}</div>'
+            f'<div class="booklet-nav__middle">{print_button()}</div>'
             f'<div class="booklet-nav__side booklet-nav__side--end">{nxt}</div></nav>')
 
 
@@ -251,6 +278,7 @@ def build(slug):
 <meta name="twitter:description" content="{desc}">
 <meta name="twitter:image" content="https://renangrossi.github.io/englishclasses/assets/img/og-social-card.jpg">
 {head.strip()}
+<link rel="stylesheet" href="{REL}assets/css/lessons.css">
 <link rel="stylesheet" href="{REL}assets/css/booklet-print.css">
 <link rel="stylesheet" href="{REL}assets/css/booklet.css">
 </head>

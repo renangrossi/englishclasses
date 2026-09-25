@@ -172,3 +172,8 @@
 /* Contents entries now link to their sheet; same look as before. */
 #booklet .toc2 li { display: block; }
 #booklet .toc2__link { display: grid; grid-template-columns: 2.4em 1fr; gap: .5em; color: inherit; text-decoration: none; }
+/* Completed levels on the cover link to their booklet; the link covers
+   the whole box without changing its layout. */
+#booklet .lvl.done { position: relative; }
+#booklet .lvl__link { color: inherit; text-decoration: none; }
+#booklet .lvl__link::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }

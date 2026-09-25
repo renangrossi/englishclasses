@@ -42,6 +42,8 @@
   .booklet-nav__middle { grid-column: 1 / -1; grid-row: 1; }
   .booklet-nav .btn { width: 100%; justify-content: center; text-align: center; }
   .booklet-nav__side:empty { display: none; }
+  /* first and last level: the one level button takes the whole row */
+  .booklet-nav:has(.booklet-nav__side:empty) .booklet-nav__side { grid-column: 1 / -1; }
 }
 
 @media screen {
@@ -106,6 +108,10 @@
   html:not(.is-booklet-print) #booklet .cover__foot { display: none; }
   html:not(.is-booklet-print) #booklet .cover > .stripe { zoom: 1; }
   html:not(.is-booklet-print) #booklet .toc2__link { border-radius: 3px; }
+  html:not(.is-booklet-print) #booklet .lvl.done { transition: background-color .15s, border-color .15s; }
+  html:not(.is-booklet-print) #booklet .lvl.done:hover { background: rgba(228,200,135,.24); border-color: var(--gold-300); }
+  html:not(.is-booklet-print) #booklet .lvl.done:focus-within { outline: 2px solid var(--gold-500); outline-offset: 2px; }
+  html:not(.is-booklet-print) #booklet .lvl__link:focus-visible { outline: none; }
   html:not(.is-booklet-print) #booklet .toc2__link:hover .t { color: var(--gold-300); text-decoration: underline; text-underline-offset: 3px; }
   html:not(.is-booklet-print) #booklet a:focus-visible {
     outline: 2px solid var(--gold-500);

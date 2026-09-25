@@ -210,14 +210,15 @@
 
   // Cheap, page-derived context so the Worker can ground answers in
   // the real course structure — no page markup changes needed. The
-  // level comes from the URL (levels/a1/..., levels/a2.html, ...);
+  // level comes from the URL (levels/a1/..., levels/a2.html, or a
+  // grammar booklet, cefr/english-classes-b1.html);
   // the "lesson" name is just the first segment of <title> (e.g.
   // "Adjectives — A1 English Grammar — Renan the Teacher" -> "Adjectives").
   // The Worker re-validates all of this against its own course
   // catalog before ever using it — nothing here is trusted as-is.
   var courseContext = (function () {
     var path = window.location.pathname;
-    var levelMatch = path.match(/\/levels\/(pre-a1|a1|a2|b1|b2|c1|c2)(?:[\/.]|$)/i);
+    var levelMatch = path.match(/\/(?:levels\/|cefr\/english-classes-)(pre-a1|a1|a2|b1|b2|c1|c2)(?:[\/.]|$)/i);
     var titleParts = (document.title || "").split("—"); // split on em dash "—"
     return {
       currentLevel: levelMatch ? levelMatch[1].toUpperCase() : "",

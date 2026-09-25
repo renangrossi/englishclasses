@@ -108,9 +108,9 @@
   html:not(.is-booklet-print) #booklet .cover__foot { display: none; }
   html:not(.is-booklet-print) #booklet .cover > .stripe { zoom: 1; }
   html:not(.is-booklet-print) #booklet .toc2__link { border-radius: 3px; }
-  html:not(.is-booklet-print) #booklet .lvl.done { transition: background-color .15s, border-color .15s; }
-  html:not(.is-booklet-print) #booklet .lvl.done:hover { background: rgba(228,200,135,.24); border-color: var(--gold-300); }
-  html:not(.is-booklet-print) #booklet .lvl.done:focus-within { outline: 2px solid var(--gold-500); outline-offset: 2px; }
+  html:not(.is-booklet-print) #booklet .lvl:has(.lvl__link) { transition: background-color .15s, border-color .15s; }
+  html:not(.is-booklet-print) #booklet .lvl:has(.lvl__link):hover { background: rgba(228,200,135,.24); border-color: var(--gold-300); }
+  html:not(.is-booklet-print) #booklet .lvl:has(.lvl__link):focus-within { outline: 2px solid var(--gold-500); outline-offset: 2px; }
   html:not(.is-booklet-print) #booklet .lvl__link:focus-visible { outline: none; }
   html:not(.is-booklet-print) #booklet .toc2__link:hover .t { color: var(--gold-300); text-decoration: underline; text-underline-offset: 3px; }
   html:not(.is-booklet-print) #booklet a:focus-visible {

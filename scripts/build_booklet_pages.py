@@ -92,8 +92,9 @@ def convert_body(body):
     body = re.sub(r'(<section class="page">)(.*?</section>)', add_id, body, flags=re.S)
     body = re.sub(r'<li>(<span class="n">(\d+)</span>.*?)</li>',
                   r'<li><a class="toc2__link" href="#sheet-\2">\1</a></li>', body, flags=re.S)
-    body = re.sub(r'<div class="lvl done">(<b>([^<]+)</b>.*?)</div>',
-                  lambda m: f'<div class="lvl done"><a class="lvl__link" href="english-classes-{m.group(2).lower()}.html">{m.group(1)}</a></div>',
+    # every level on the cover's CEFR scale links to its booklet, except the current one
+    body = re.sub(r'<div class="(lvl (?!now)[^"]*)">(<b>([^<]+)</b>.*?)</div>',
+                  lambda m: f'<div class="{m.group(1)}"><a class="lvl__link" href="english-classes-{m.group(3).lower()}.html">{m.group(2)}</a></div>',
                   body, flags=re.S)
     return body
 
@@ -164,9 +165,9 @@ def write_print_css(style):
 /* Contents entries now link to their sheet; same look as before. */
 #booklet .toc2 li {{ display: block; }}
 #booklet .toc2__link {{ display: grid; grid-template-columns: 2.4em 1fr; gap: .5em; color: inherit; text-decoration: none; }}
-/* Completed levels on the cover link to their booklet; the link covers
+/* The other levels on the cover link to their booklet; the link covers
    the whole box without changing its layout. */
-#booklet .lvl.done {{ position: relative; }}
+#booklet .lvl:has(.lvl__link) {{ position: relative; }}
 #booklet .lvl__link {{ color: inherit; text-decoration: none; }}
 #booklet .lvl__link::after {{ content: ""; position: absolute; inset: 0; border-radius: inherit; }}
 """

@@ -1,0 +1,203 @@
+/* Grammar booklet pages (cefr/english-classes-*.html) — web layout.
+
+   assets/css/booklet-print.css holds the booklets' original A4 styles
+   (scoped to #booklet), which print/PDF still uses unchanged. The rules
+   below only apply on screen, and not while assets/js/booklet.js has
+   switched the page to its print layout (html.is-booklet-print): they
+   turn the fixed A4 sheets into fluid, responsive sections of the page.
+   Sizes inside a sheet are in mm/pt, as in the original; `zoom` scales a
+   whole sheet to a comfortable reading size without touching them. */
+
+/* ------------------------------------------------------------ toolbars */
+.booklet-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: var(--space-xs);
+  max-width: calc(210mm * 1.2);
+  margin: 0 auto;
+  padding: var(--space-md) var(--space-sm);
+}
+.booklet-nav--bottom {
+  border-top: var(--border-hairline);
+  margin-top: var(--space-md);
+  padding-bottom: var(--space-2xl);
+}
+.booklet-nav__side { display: flex; }
+.booklet-nav__side--end { justify-content: flex-end; }
+.booklet-nav__middle { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-xs); }
+.booklet-nav .btn { min-height: 52px; }
+.booklet-nav__text { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.25; text-align: left; }
+.booklet-nav__next .booklet-nav__text { align-items: flex-end; text-align: right; }
+.booklet-nav__text small {
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+@media (max-width: 760px) {
+  .booklet-nav { grid-template-columns: 1fr 1fr; }
+  .booklet-nav__middle { grid-column: 1 / -1; grid-row: 1; }
+  .booklet-nav .btn { width: 100%; justify-content: center; text-align: center; }
+  .booklet-nav__side:empty { display: none; }
+}
+
+@media screen {
+  html:not(.is-booklet-print) #booklet {
+    display: block;
+    /* same text rendering as the rest of the site on screen */
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background: var(--color-surface);
+    padding-bottom: 0;
+  }
+
+  /* --------------------------------------------------------- the sheets */
+  html:not(.is-booklet-print) #booklet .page {
+    width: auto;
+    max-width: 210mm;
+    height: auto;
+    overflow: visible;
+    margin: 0 auto var(--space-xl);
+    zoom: 1.2;
+    background: #fff;
+    border: 1px solid var(--parchment-300);
+    border-radius: 6px;
+    box-shadow: var(--shadow-sm);
+    scroll-margin-top: 96px;
+  }
+  html:not(.is-booklet-print) #booklet .page:not(.cover) { overflow: clip; }
+  html:not(.is-booklet-print) #booklet .body,
+  html:not(.is-booklet-print) #booklet .inner { overflow: visible; }
+  /* fitAll() only runs for print; never keep its scaling on screen */
+  html:not(.is-booklet-print) #booklet .inner { width: auto !important; transform: none !important; }
+  html:not(.is-booklet-print) #booklet .body { padding-top: 7mm; padding-bottom: 5mm; }
+  html:not(.is-booklet-print) #booklet .practice { margin-bottom: 6mm; }
+  /* Page furniture only needed on paper: the running footer (it repeats
+     the practice link's title) and the red bottom stripe. Both still
+     print. */
+  html:not(.is-booklet-print) #booklet .page:not(.cover) > .foot,
+  html:not(.is-booklet-print) #booklet .page:not(.cover) > .stripe { display: none; }
+  html:not(.is-booklet-print) #booklet .fx.one-line { flex-wrap: wrap; }
+
+  /* ---------------------------------------------- the cover = page header */
+  html:not(.is-booklet-print) #booklet .page.cover {
+    max-width: none;
+    zoom: 1;
+    margin: 0 0 var(--space-md);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: var(--navy-900);
+  }
+  html:not(.is-booklet-print) #booklet .cover > * { zoom: 1.2; }
+  html:not(.is-booklet-print) #booklet .cover__main,
+  html:not(.is-booklet-print) #booklet .cover__foot {
+    max-width: 210mm;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  html:not(.is-booklet-print) #booklet .cover__contents {
+    max-width: calc(210mm - 36mm);
+    margin: 8mm auto 10mm;
+  }
+  html:not(.is-booklet-print) #booklet .cover__foot { display: none; }
+  html:not(.is-booklet-print) #booklet .cover > .stripe { zoom: 1; }
+  html:not(.is-booklet-print) #booklet .toc2__link { border-radius: 3px; }
+  html:not(.is-booklet-print) #booklet .toc2__link:hover .t { color: var(--gold-300); text-decoration: underline; text-underline-offset: 3px; }
+  html:not(.is-booklet-print) #booklet a:focus-visible {
+    outline: 2px solid var(--gold-500);
+    outline-offset: 2px;
+  }
+  html:not(.is-booklet-print) #booklet .practice a:hover { border-left-color: var(--red); background: var(--parchment-200); }
+}
+
+/* Tablets and small laptops: a little less zoom. */
+@media screen and (max-width: 1100px) {
+  html:not(.is-booklet-print) #booklet .page:not(.cover),
+  html:not(.is-booklet-print) #booklet .cover > :not(.stripe) { zoom: 1.1; }
+  html:not(.is-booklet-print) #booklet .page:not(.cover) { margin-left: var(--space-sm); margin-right: var(--space-sm); }
+}
+@media screen and (min-width: 841px) and (max-width: 1100px) {
+  html:not(.is-booklet-print) #booklet .page:not(.cover) { margin-left: auto; margin-right: auto; }
+}
+
+/* Phones: one column, tighter padding, wide tables scroll sideways. */
+@media screen and (max-width: 700px) {
+  html:not(.is-booklet-print) #booklet .page:not(.cover),
+  html:not(.is-booklet-print) #booklet .cover > :not(.stripe) { zoom: 1.08; }
+  html:not(.is-booklet-print) #booklet .page:not(.cover) { margin: 0 8px var(--space-lg); }
+  html:not(.is-booklet-print) #booklet .band__inner { padding: 3mm 5mm 4.5mm; gap: 4mm; }
+  html:not(.is-booklet-print) #booklet .band h2 { font-size: 21pt; }
+  html:not(.is-booklet-print) #booklet .band h2.long { font-size: 18pt; }
+  html:not(.is-booklet-print) #booklet .stars { gap: 2.4mm; }
+  html:not(.is-booklet-print) #booklet .seal { width: 14mm; height: 14mm; font-size: 14pt; }
+  html:not(.is-booklet-print) #booklet .body { padding: 5mm 4mm 3mm; }
+  html:not(.is-booklet-print) #booklet .practice { margin: 0 4mm 5mm; }
+  html:not(.is-booklet-print) #booklet .practice a { grid-template-columns: 6mm 1fr; }
+  html:not(.is-booklet-print) #booklet .practice .lbl { grid-column: 2; white-space: normal; }
+  html:not(.is-booklet-print) #booklet .practice a > :last-child { grid-column: 2; }
+  html:not(.is-booklet-print) #booklet .practice svg { grid-row: 1 / span 2; }
+  /* layout grids (their column templates are often set inline) */
+  html:not(.is-booklet-print) #booklet .g2,
+  html:not(.is-booklet-print) #booklet .g3 { grid-template-columns: 1fr !important; }
+  html:not(.is-booklet-print) #booklet .g4 { grid-template-columns: repeat(2, 1fr) !important; }
+  html:not(.is-booklet-print) #booklet .comp { grid-template-columns: 1fr; }
+  html:not(.is-booklet-print) #booklet .card { padding: 3.5mm 4mm; }
+  html:not(.is-booklet-print) #booklet .ref { display: block; overflow-x: auto; max-width: 100%; }
+  html:not(.is-booklet-print) #booklet .conj { grid-template-columns: auto auto 1fr; }
+  /* many-column grids set inline: fewer columns */
+  html:not(.is-booklet-print) #booklet [style*="grid-template-columns:repeat(4,1fr)"],
+  html:not(.is-booklet-print) #booklet [style*="grid-template-columns:repeat(5,1fr)"],
+  html:not(.is-booklet-print) #booklet [style*="grid-template-columns:1fr 1fr 1fr"] {
+    grid-template-columns: repeat(auto-fit, minmax(34mm, 1fr)) !important;
+  }
+  html:not(.is-booklet-print) #booklet [style*="grid-template-columns:repeat(8,1fr)"] { grid-template-columns: repeat(4, 1fr) !important; }
+  /* conjugation tables with fixed mm columns: size columns to content */
+  html:not(.is-booklet-print) #booklet [style*="grid-template-columns:24mm 30mm 26mm 1fr"],
+  html:not(.is-booklet-print) #booklet [style*="grid-template-columns:30mm 22mm 1fr 1fr"] {
+    grid-template-columns: auto auto auto minmax(0, 1fr) !important;
+    column-gap: 2.5mm !important;
+  }
+  /* past continuous table: examples go on their own line under each row */
+  html:not(.is-booklet-print) #booklet [style*="grid-template-columns:24mm 30mm 26mm 1fr"] { grid-template-columns: auto auto 1fr !important; }
+  html:not(.is-booklet-print) #booklet [style*="grid-template-columns:24mm 30mm 26mm 1fr"] > :nth-child(4n) { grid-column: 1 / -1; padding-bottom: 1.5mm; border-bottom: 1px dashed var(--parchment-300); }
+  /* question-word formula: stack its three parts, chevron pointing down */
+  html:not(.is-booklet-print) #booklet .qm { grid-template-columns: 1fr; gap: 1.5mm; }
+  html:not(.is-booklet-print) #booklet .qm .chev { transform: rotate(90deg); justify-self: start; margin-left: 4mm; }
+  html:not(.is-booklet-print) #booklet .qm [style*="display:flex"] { flex-wrap: wrap; }
+  /* cover */
+  html:not(.is-booklet-print) #booklet .cover__main { padding: 6mm 5mm 0; }
+  html:not(.is-booklet-print) #booklet .cover__code { font-size: 56pt; }
+  html:not(.is-booklet-print) #booklet .cover__name { font-size: 22pt; }
+  /* level code with the emblem beside it, level name below */
+  html:not(.is-booklet-print) #booklet .cover__title { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; column-gap: 3mm; }
+  html:not(.is-booklet-print) #booklet .cover__code { grid-column: 1; grid-row: 1; }
+  html:not(.is-booklet-print) #booklet .cover__name { grid-column: 1 / -1; grid-row: 2; }
+  html:not(.is-booklet-print) #booklet .cover__emblem { position: static; transform: none; grid-column: 2; grid-row: 1; height: 22mm; }
+  html:not(.is-booklet-print) #booklet .cover__lede { font-size: 12.5pt; }
+  html:not(.is-booklet-print) #booklet .cover__scale { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  html:not(.is-booklet-print) #booklet .cover__contents { margin: 6mm 4mm 8mm; padding: 4mm; }
+  html:not(.is-booklet-print) #booklet .toc2 { columns: 1; }
+}
+@media screen and (max-width: 380px) {
+  html:not(.is-booklet-print) #booklet .cover__code { font-size: 44pt; }
+  html:not(.is-booklet-print) #booklet .cover__emblem { height: 17mm; }
+  html:not(.is-booklet-print) #booklet .cover__scale { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* ------------------------------------------------------------- printing */
+@media print {
+  /* only the booklet itself goes on paper */
+  body > :not(main),
+  #main-content > :not(#booklet),
+  #booklet > :not(.page):not(template),
+  .booklet-nav { display: none !important; }
+  html, body, #main-content, #booklet {
+    background: #fff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}

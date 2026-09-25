@@ -8,10 +8,17 @@
    Used as structural dividers under the header/hero/footer, leaning
    into the stars-and-stripes visual direction with a light touch.
    --------------------------------------------------------------------- */
+/* Red-and-white "Old Glory" stripes, used as the bottom border of the
+   header/hero/page-header via border-image (the solid red border-bottom
+   stays as a fallback). */
+:root {
+  --stripes: repeating-linear-gradient(90deg, var(--color-red) 0 28px, #fbf8f1 28px 56px);
+}
+
 .stripe-bar {
   height: 7px;
   width: 100%;
-  background: var(--color-red);
+  background: var(--stripes);
 }
 
 .stars-row {
@@ -35,6 +42,7 @@
   background: var(--color-primary-strong);
   color: var(--color-text-on-dark);
   border-bottom: 4px solid var(--color-red);
+  border-image: var(--stripes) 1;
   box-shadow: var(--shadow-md);
 }
 
@@ -391,6 +399,7 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
   color: var(--color-text-on-dark);
   overflow: hidden;
   border-bottom: 4px solid var(--color-red);
+  border-image: var(--stripes) 1;
 }
 
 .hero::after {
@@ -489,6 +498,7 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
   background: var(--color-primary-strong);
   color: var(--color-text-on-dark);
   border-bottom: 4px solid var(--color-red);
+  border-image: var(--stripes) 1;
 }
 .page-header__inner {
   max-width: var(--content-max);

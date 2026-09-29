@@ -136,6 +136,26 @@
   }
 
   /* ---------------------------------------------------------------
+     Looping banner clips — hold on the poster frame when the visitor
+     has asked for reduced motion
+     --------------------------------------------------------------- */
+  function initBannerVideo() {
+    if (!window.matchMedia) return;
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var clips = document.querySelectorAll("video.section-banner");
+    Array.prototype.forEach.call(clips, function (clip) {
+      clip.autoplay = false;
+      clip.removeAttribute("autoplay");
+      try {
+        clip.pause();
+        clip.currentTime = 0;
+      } catch (err) {
+        /* best-effort only */
+      }
+    });
+  }
+
+  /* ---------------------------------------------------------------
      Section banner slideshow — advances one picture per page load
      --------------------------------------------------------------- */
   function initBannerRotator() {
@@ -353,6 +373,7 @@
     initTheme();
     initMobileNav();
     initDropdown();
+    initBannerVideo();
     initBannerRotator();
     initBackToTop();
     initAnchorScrolling();

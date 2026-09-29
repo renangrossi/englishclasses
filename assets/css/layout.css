@@ -131,12 +131,15 @@
   .section-banner { max-height: 320px; }
 }
 
-/* Looping silent clip used in the same slot as a section banner */
+/* Looping silent clip used in the same slot as a section banner.
+   Sized by width so the whole frame stays visible: no cropping from
+   object-fit, and no letterbox bars from the banner max-height. */
 .section-banner--video {
   width: 100%;
-  max-width: 960px;
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
+  max-width: 690px;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
 }
 
 @media (max-width: 640px) {

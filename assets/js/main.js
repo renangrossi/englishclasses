@@ -136,6 +136,43 @@
   }
 
   /* ---------------------------------------------------------------
+     Section banner slideshow — advances one picture per page load
+     --------------------------------------------------------------- */
+  function initBannerRotator() {
+    var banners = document.querySelectorAll("[data-banner-slides]");
+    Array.prototype.forEach.call(banners, function (img, order) {
+      var slides;
+      try {
+        slides = JSON.parse(img.getAttribute("data-banner-slides"));
+      } catch (err) {
+        return;
+      }
+      if (!Array.isArray(slides) || slides.length < 2) return;
+
+      var key = "banner-slide:" + (img.getAttribute("data-banner-key") || order);
+      var next = 0;
+      try {
+        var stored = window.localStorage.getItem(key);
+        next = (parseInt(stored, 10) + 1) || 0;
+      } catch (err) {
+        /* private mode or storage disabled — fall back to a random slide */
+        next = Math.floor(Math.random() * slides.length);
+      }
+      next = ((next % slides.length) + slides.length) % slides.length;
+      try {
+        window.localStorage.setItem(key, String(next));
+      } catch (err) {
+        /* best-effort only */
+      }
+
+      var slide = slides[next];
+      if (!slide || !slide.src) return;
+      img.src = slide.src;
+      img.alt = typeof slide.alt === "string" ? slide.alt : "";
+    });
+  }
+
+  /* ---------------------------------------------------------------
      Back-to-top button
      --------------------------------------------------------------- */
   function initBackToTop() {
@@ -312,6 +349,7 @@
     initTheme();
     initMobileNav();
     initDropdown();
+    initBannerRotator();
     initBackToTop();
     initAnchorScrolling();
     initScrollspy();

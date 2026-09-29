@@ -131,6 +131,14 @@
   .section-banner { max-height: 320px; }
 }
 
+/* Looping silent clip used in the same slot as a section banner */
+.section-banner--video {
+  width: 100%;
+  max-width: 960px;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
 @media (max-width: 640px) {
   .section { padding: var(--space-xl) var(--space-sm); }
   .hero__inner { padding: var(--space-xl) var(--space-sm); }

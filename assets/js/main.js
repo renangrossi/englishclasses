@@ -141,6 +141,10 @@
   function initBannerRotator() {
     var banners = document.querySelectorAll("[data-banner-slides]");
     Array.prototype.forEach.call(banners, function (img, order) {
+      /* Rotation is opt-out: remove data-banner-paused to switch the
+         slideshow on for a banner. */
+      if (img.hasAttribute("data-banner-paused")) return;
+
       var slides;
       try {
         slides = JSON.parse(img.getAttribute("data-banner-slides"));

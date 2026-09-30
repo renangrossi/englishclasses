@@ -9,18 +9,18 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 86 of 98 implemented.**
+**Progress: 83 of 98 implemented.**
 
 ## Totals
 
 | Action | Count | Meaning |
 |---|---:|---|
-| DELETE | 5 | Nothing worth migrating. |
+| DELETE | 11 | Nothing worth migrating. |
 | REPLACE | 12 | The slot is worth keeping, but authoring a new text beats repairing this one. |
 | MERGE | 15 | Two or more files teach essentially the same language in essentially the same context. |
-| SPLIT | 9 | Several unrelated materials share one file; each deserves its own page, exercises and audio. |
+| SPLIT | 6 | Several unrelated materials share one file; each deserves its own page, exercises and audio. |
 | EDIT | 31 | Useful material that needs correction before it goes on the site. |
-| CONVERT | 11 | Not a reading text -- a drill, answer key or discussion bank. |
+| CONVERT | 8 | Not a reading text -- a drill, answer key or discussion bank. |
 | KEEP | 15 | Already good; convert as-is. |
 | **Total** | **98** | |
 
@@ -46,23 +46,29 @@ content rather than as pre-existing.
 | Audio | Docs | |
 |---|---:|---|
 | `required` | 9 | must be generated |
-| `exists` | 81 | mp3 present and matches the text |
+| `exists` | 78 | mp3 present and matches the text |
 | `stale-on-edit` | 0 | mp3 present but the text is being edited -- **must be regenerated** |
-| `n/a` | 8 | drill / answer key / discussion bank -- not a reading text |
+| `n/a` | 11 | drill / answer key / discussion bank -- not a reading text |
 
 ---
 
-## DELETE (5)
+## DELETE (11)
 
 Nothing worth migrating. Each reason is given -- no existing material is dropped silently.
 
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
+| `a1-review-and-a1-review-2` | 2036 | drill | A1 | review | `n/a` | COMPLETE | Two concatenated A1 review sheets, 2036w. Split into themed A1 review blocks. — REMOVED: this library is for reading texts, not grammar drills. The grammar system already lives in levels/{level}/ + curriculum/ (decision D-2), and a page explaining the four tenses duplicated it. Page, audio and source .docx/.pdf all deleted. Texts that are genuine readings and merely carry grammar exercises — a-weekend-at-the-lake, my-life-and-plans, a-day-in-the-office — are kept. |
+| `a2-review` | 1158 | drill | A2 | review | `n/a` | COMPLETE | Well-formed A2 mixed-grammar drill set; converts cleanly to fill-blank/multiple-choice. — REMOVED: this library is for reading texts, not grammar drills. The grammar system already lives in levels/{level}/ + curriculum/ (decision D-2), and a page explaining the four tenses duplicated it. Page, audio and source .docx/.pdf all deleted. Texts that are genuine readings and merely carry grammar exercises — a-weekend-at-the-lake, my-life-and-plans, a-day-in-the-office — are kept. |
 | `el-niño-2027` | 432 | reading | B2 | society | `n/a` | COMPLETE | Dated to a specific forecast year and written for one Brazilian city ('what does it mean for someone who lives in porto alegre'). Stale and off-brief; nothing here is worth migrating. — DONE: source removed; nothing migrated. Files already deleted: cefr/texts/el-niño-2027.docx. |
+| `grammar-practice-i` | 1050 | drill | A2 | review | `n/a` | COMPLETE | Multiple-choice-in-brackets dialogue drill; maps directly to fill-blank with options. — REMOVED: this library is for reading texts, not grammar drills. The grammar system already lives in levels/{level}/ + curriculum/ (decision D-2), and a page explaining the four tenses duplicated it. Page, audio and source .docx/.pdf all deleted. Texts that are genuine readings and merely carry grammar exercises — a-weekend-at-the-lake, my-life-and-plans, a-day-in-the-office — are kept. |
+| `interrogative-exercises` | 1656 | drill | A2 | review | `n/a` | COMPLETE | Long question-formation drill across several tenses; split by tense into separate blocks. — REMOVED: this library is for reading texts, not grammar drills. The grammar system already lives in levels/{level}/ + curriculum/ (decision D-2), and a page explaining the four tenses duplicated it. Page, audio and source .docx/.pdf all deleted. Texts that are genuine readings and merely carry grammar exercises — a-weekend-at-the-lake, my-life-and-plans, a-day-in-the-office — are kept. |
 | `irregular-verbs-list` | 497 | reference | A2 | reference | `n/a` | COMPLETE | Duplicates the existing irregular-verbs.html page, and this copy is defective: lists regular verbs as irregular ('Clap/Clapped'), invents 'Abidden', and drops the participle column for many entries. — DONE: source removed; nothing migrated. Files already deleted: cefr/texts/irregular-verbs-list.pdf. |
 | `it-ptbr` | 844 | reference | n/a | n/a | `n/a` | COMPLETE | Written entirely in Portuguese — a translation of it-management, not an English exercise. The English original is kept. — DONE: source removed; nothing migrated. Files already deleted: cefr/texts/it-ptbr.docx. |
 | `market-sumup` | 759 | reading | C1 | business | `n/a` | COMPLETE | Single-day market report ('The S&P 500 fell about 0.7%... third straight weekly loss') tied to a specific Fed nomination. Already stale and cannot be kept current. — DONE: source removed; nothing migrated. Files already deleted: cefr/texts/market-sumup.pdf. |
 | `mind-games` | — | reference | n/a | n/a | `n/a` | COMPLETE | PDF-only and image-based — the only extractable text is 'ACTIVITY 1/2/3', so there is no content to migrate. Deletion confirmed by the user. — DONE: source removed; nothing migrated. No source file remained. |
+| `review-prepositions-some-any-no-tenses-comparatives` | 707 | drill | A2 | review | `n/a` | COMPLETE | Clean multiple-choice mixed review; converts directly. — REMOVED: this library is for reading texts, not grammar drills. The grammar system already lives in levels/{level}/ + curriculum/ (decision D-2), and a page explaining the four tenses duplicated it. Page, audio and source .docx/.pdf all deleted. Texts that are genuine readings and merely carry grammar exercises — a-weekend-at-the-lake, my-life-and-plans, a-day-in-the-office — are kept. |
+| `verb-tense-review` | 5091 | drill | B1 | review | `n/a` | COMPLETE | Largest file in the library (5091w) — many separate gap-fill texts, several with good American settings (hotel near Times Square). Split into per-scenario drill blocks. — REMOVED: this library is for reading texts, not grammar drills. The grammar system already lives in levels/{level}/ + curriculum/ (decision D-2), and a page explaining the four tenses duplicated it. Page, audio and source .docx/.pdf all deleted. Texts that are genuine readings and merely carry grammar exercises — a-weekend-at-the-lake, my-life-and-plans, a-day-in-the-office — are kept. |
 
 ## REPLACE (12)
 
@@ -105,21 +111,18 @@ Two or more files teach essentially the same language in essentially the same co
 | `two-texts-sp-to-pp-ii`<br>→ `past-to-present-perfect-drill`<br>[page](../reading/b1/my-life-and-plans.html) | — | drill | B1 | review | `exists` | IMPLEMENTED | Second half of the same exercise. — DONE: Merged into reading/b1/my-life-and-plans.html — see that entry. |
 | `unfortunate-events`<br>→ `routines-and-prepositions-drill`<br>[page](../reading/b1/a-day-in-the-office.html) | 570 | drill | B1 | everyday | `exists` | IMPLEMENTED | Same gap-fill template as daily-activities and navigating-finance. — DONE: Merged into reading/b1/a-day-in-the-office.html — one of three copies of the same template; see that entry. |
 
-## SPLIT (9)
+## SPLIT (6)
 
 Several unrelated materials share one file; each deserves its own page, exercises and audio.
 
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
-| `a1-review-and-a1-review-2` | 2036 | drill | A1 | review | `n/a` | NOT STARTED | Two concatenated A1 review sheets, 2036w. Split into themed A1 review blocks. |
 | `american-culture` | 1072 | reading | B2 | culture | `required` | NOT STARTED | Three unrelated things in one file: a culture overview, a corndog/state-fair food piece, and passive-voice grammar drills. Split into a B2 culture reading, a B1 food reading, and a drill block. |
-| `interrogative-exercises` | 1656 | drill | A2 | review | `n/a` | NOT STARTED | Long question-formation drill across several tenses; split by tense into separate blocks. |
 | `shadows-in-the-server-room` | 2407 | reading | C1 | work | `required` | NOT STARTED | Strong long-form workplace mystery (2407w) — too long for one page and one audio file. Split into chapters, per requirement 8's guidance against huge audio files. |
 | `soothing-texts` | 2225 | reading | C1 | everyday | `required` | NOT STARTED | Several unrelated descriptive scenes (kitchen, etc.) in one 2225w file. Split into short descriptive readings — excellent sensory-vocabulary material once separated. |
 | `text-interpretation`<br>[page](../reading/b1/robot-birds.html) | 1039 | reading | B2 | society | `exists` | IMPLEMENTED | Several unrelated short articles ('Robot Birds' and others) in one file; split so each gets its own page, questions and audio. — DONE: split into four pages, each with its own questions and audio — b1/robot-birds, b1/hachiko, b2/intelligence-pills and b2/john-snow. The source's Right / Wrong / Doesn't say format is kept, because the third option teaches something true-false cannot: telling what a text states from what a reader assumes. Each article was fact-checked and updated where it had drifted — Snow's outbreak was 1854 not 1855 and the Board of Health rejected his finding; Hachiko was fed and housed by others, and the present statue is a 1948 replacement; the Liverpool robops and the 'intelligence pills' predictions were both de-dated. |
 | `text-interpretation-aesops-fables` | 1921 | reading | B2 | literature | `required` | NOT STARTED | Multiple fables in one file. Split per fable; keep the literary register but gloss the archaic phrasing. |
 | `travel-dialogues`<br>[page](../reading/a2/flying-to-the-us.html) | 935 | dialogue | A2 | travel | `exists` | IMPLEMENTED | Strong functional dialogues, but eight unrelated scenarios in one worksheet (airline booking, reconfirming, passport control, booking a hotel room, checking out, ordering dinner, buying clothes, asking for a photo) with every student line left blank. Split into three coherent pages and given model answers so the dialogues can actually be read and narrated. Americanized throughout per requirement 16: euros to dollars, 24-hour times to 12-hour ('16:45' to '4:45 p.m.'), 'the trout is off' to 'we're out of the trout', 'colours' to 'colors', traveller's cheques to a card; the inconsistent 'Northwind Airways'/'Northwind Airlines' is unified, and the source's acute accents used as apostrophes ('There´s') are fixed. |
-| `verb-tense-review` | 5091 | drill | B1 | review | `n/a` | NOT STARTED | Largest file in the library (5091w) — many separate gap-fill texts, several with good American settings (hotel near Times Square). Split into per-scenario drill blocks. |
 
 ## EDIT (31)
 
@@ -159,21 +162,18 @@ Useful material that needs correction before it goes on the site.
 | `travel-dialogues-02`<br>[page](../reading/b1/travel-dialogues-02.html) | 905 | dialogue | B1 | travel | `exists` | IMPLEMENTED | Hotel-reception training dialogue; same treatment, good workplace-English value. — DONE: Kept as the hotel-reception training dialogue for its workplace-English value. The board types (full/half/bed and breakfast/room only) and the self-catering distinction are now taught explicitly, with late check-out, luggage storage and the walk-in case added. The source's teacher-contact header is extraction noise and does not appear. |
 | `usa-restaurants`<br>[page](../reading/b1/usa-restaurants.html) | 1318 | reading | B1 | travel | `exists` | IMPLEMENTED | Titled 'U.S.A. Restaurants' but the body is a bulleted list of Florida attractions — title and content do not match, and it is a list rather than a reading. Rewrite as a Florida travel reading, and let the dining material live in the food thread. — DONE: Rewritten. The source was titled 'U.S.A. Restaurants' but its body was a bulleted directory of Florida attractions followed by a restaurant list — title and content did not match, and neither part was a reading. It is now a Florida travel reading (the regions, the Everglades as a river rather than a swamp, St Augustine, the panhandle springs), with the dining material kept as one paragraph rather than a directory. |
 
-## CONVERT (11)
+## CONVERT (8)
 
 Not a reading text -- a drill, answer key or discussion bank. Becomes an HTML exercise component (audio not applicable).
 
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
 | `a-freelance-accounting-assignment`<br>[page](../reading/b1/a-freelance-accounting-assignment.html) | 655 | drill | B1 | work | `exists` | IMPLEMENTED | Pure simple-past gap-fill on accounting tasks; no prose passage. Becomes a fill-blank block. — DONE: Converted. The source was a pure conjugation drill — roughly 200 'I ______ (prepare)' slots across six tense sections and no prose at all. Replaced by a real first-person account of freelance work, with the tense contrast kept as a manageable exercise covering the same five time frames. |
-| `a2-review`<br>[page](../reading/a2/a2-review.html) | 1158 | drill | A2 | review | `exists` | IMPLEMENTED | Well-formed A2 mixed-grammar drill set; converts cleanly to fill-blank/multiple-choice. — DONE: Converted. The bare gap-fill bank becomes a short text explaining WHEN each of the four tenses is used — the time word decides it — with the drill items kept as three exercise blocks. |
 | `coffee-and-it`<br>[page](../reading/b1/coffee-and-it.html) | 285 | drill | B1 | work | `exists` | IMPLEMENTED | Word-bank gap-fill; its answer key is a separate file to fold in. — DONE: Converted: the gap-fill text becomes a real reading and the verb gaps become a fill-blank block, with coffee-and-it-answers merged in as the answers. Rewritten from a bulleted feature list into prose, 'an IT guy' neutralised, and a closing section added on why these systems fail in practice — the discipline, not the software. |
 | `formula-1`<br>[page](../reading/b2/formula-1.html) | 808 | drill | B2 | sports | `exists` | IMPLEMENTED | Technical word-bank gap-fill; answer key is a separate file. — DONE: Converted: the technical gap-fill becomes a fill-blank block and the text becomes a real explanation, with formula-1-exercises-answers merged in as the answers. Expanded so each system is explained rather than named, including why grip depends on speed and why braking harder in a fast corner is the wrong instinct. |
-| `grammar-practice-i`<br>[page](../reading/a2/grammar-practice-i.html) | 1050 | drill | A2 | review | `exists` | IMPLEMENTED | Multiple-choice-in-brackets dialogue drill; maps directly to fill-blank with options. — DONE: Converted and merged with review-prepositions-some-any-no-tenses-comparatives (VERDICT NOTE: the audit marked both CONVERT separately, but they drill the same three areas — prepositions, quantifiers, comparatives — and two near-identical review pages would have been duplication). One page now, with the some/any offer exception and the a-few/few distinction explained rather than only drilled. |
 | `grocery-shopping`<br>[page](../reading/a2/grocery-shopping.html) | 160 | drill | A2 | everyday | `exists` | IMPLEMENTED | A writing worksheet whose body is blank rules for handwriting. Becomes guided writing prompts, not a reading. — DONE: Converted. The source was a story with blank lines for the student to invent the menu, which is a writing prompt rather than a reading. Rewritten as a real shopping narrative; the invention survives in the discussion prompts. |
 | `questionnaire-company-management`<br>[page](../reading/c1/questionnaire-company-management.html) | 568 | discussion | C1 | business | `exists` | IMPLEMENTED | A bank of executive discussion prompts; becomes a speaking/discussion component, not a reading. — DONE: Converted and merged with questionnaire-company-tech-leader. Both were bare question banks with no prose, so a passage was written for them: how to structure an answer about your own work, why the difficult-decision question is usually told in the wrong order, and which answers about challenges are empty. The questions themselves survive, sharpened, as the discussion prompts. |
 | `questionnaire-company-tech-leader`<br>[page](../reading/c1/questionnaire-company-management.html) | 216 | discussion | C1 | interviews | `exists` | IMPLEMENTED | Same — senior-interview speaking prompts. — DONE: Merged into reading/c1/questionnaire-company-management.html — see that entry. |
-| `review-prepositions-some-any-no-tenses-comparatives`<br>[page](../reading/a2/grammar-practice-i.html) | 707 | drill | A2 | review | `exists` | IMPLEMENTED | Clean multiple-choice mixed review; converts directly. — DONE: Merged into reading/a2/grammar-practice-i.html — see that entry. |
 | `rio-de-janeiro-exercises`<br>[page](../reading/b1/rio-de-janeiro-exercises.html) | 342 | drill | B1 | travel | `exists` | IMPLEMENTED | Word-bank gap-fill about hiking in Rio; keep as a drill. — DONE: Converted: the noun gap-fill becomes a vocabulary block and the text becomes a genuine hiking reading. Added the fact the source omitted — Tijuca's forest is a deliberate nineteenth-century replanting after coffee clearance threatened the city's water — plus practical advice on heat, water and local safety knowledge. |
 | `say-talk-speak-tell-exercises`<br>[page](../reading/b1/say-speak-talk-tell-02.html) | — | drill | A2 | everyday | `exists` | IMPLEMENTED | The drill half of the say/speak/talk/tell set; attach to the merged reading. — DONE: Converted into two new exercise blocks on the existing say-speak-talk-tell-02 page rather than a page of its own: a correction block and a past-simple/present-perfect choice block. Two pages already teach these four verbs, so a third would have been duplication. |
 

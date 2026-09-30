@@ -33,14 +33,12 @@
       "genre": "drill",
       "level": "A1",
       "topic": "review",
-      "action": "SPLIT",
+      "action": "DELETE",
       "audio": "n/a",
-      "reason": "Two concatenated A1 review sheets, 2036w. Split into themed A1 review blocks.",
-      "status": "NOT STARTED",
+      "reason": "Two concatenated A1 review sheets, 2036w. Split into themed A1 review blocks. — REMOVED: this library is for reading texts, not grammar drills. The grammar system already lives in levels/{level}/ + curriculum/ (decision D-2), and a page explaining the four tenses duplicated it. Page, audio and source .docx/.pdf all deleted. Texts that are genuine readings and merely carry grammar exercises — a-weekend-at-the-lake, my-life-and-plans, a-day-in-the-office — are kept.",
+      "status": "COMPLETE",
       "card_title": "A1 Review and A1 Review 2",
-      "source_files": [
-        "cefr/texts/a1-review-and-a1-review-2.pdf"
-      ]
+      "source_files": []
     },
     {
       "slug": "a2-review",
@@ -48,15 +46,12 @@
       "genre": "drill",
       "level": "A2",
       "topic": "review",
-      "action": "CONVERT",
-      "audio": "exists",
-      "reason": "Well-formed A2 mixed-grammar drill set; converts cleanly to fill-blank/multiple-choice. — DONE: Converted. The bare gap-fill bank becomes a short text explaining WHEN each of the four tenses is used — the time word decides it — with the drill items kept as three exercise blocks.",
-      "status": "IMPLEMENTED",
+      "action": "DELETE",
+      "audio": "n/a",
+      "reason": "Well-formed A2 mixed-grammar drill set; converts cleanly to fill-blank/multiple-choice. — REMOVED: this library is for reading texts, not grammar drills. The grammar system already lives in levels/{level}/ + curriculum/ (decision D-2), and a page explaining the four tenses duplicated it. Page, audio and source .docx/.pdf all deleted. Texts that are genuine readings and merely carry grammar exercises — a-weekend-at-the-lake, my-life-and-plans, a-day-in-the-office — are kept.",
+      "status": "COMPLETE",
       "card_title": "A2 Review",
-      "source_files": [
-        "cefr/texts/a2-review.pdf"
-      ],
-      "page": "reading/a2/a2-review.html"
+      "source_files": []
     },
     {
       "slug": "america-in-1776",
@@ -605,15 +600,12 @@
       "genre": "drill",
       "level": "A2",
       "topic": "review",
-      "action": "CONVERT",
-      "audio": "exists",
-      "reason": "Multiple-choice-in-brackets dialogue drill; maps directly to fill-blank with options. — DONE: Converted and merged with review-prepositions-some-any-no-tenses-comparatives (VERDICT NOTE: the audit marked both CONVERT separately, but they drill the same three areas — prepositions, quantifiers, comparatives — and two near-identical review pages would have been duplication). One page now, with the some/any offer exception and the a-few/few distinction explained rather than only drilled.",
-      "status": "IMPLEMENTED",
+      "action": "DELETE",
+      "audio": "n/a",
+      "reason": "Multiple-choice-in-brackets dialogue drill; maps directly to fill-blank with options. — REMOVED: this library is for reading texts, not grammar drills. The grammar system already lives in levels/{level}/ + curriculum/ (decision D-2), and a page explaining the four tenses duplicated it. Page, audio and source .docx/.pdf all deleted. Texts that are genuine readings and merely carry grammar exercises — a-weekend-at-the-lake, my-life-and-plans, a-day-in-the-office — are kept.",
+      "status": "COMPLETE",
       "card_title": "Grammar Practice I",
-      "source_files": [
-        "cefr/texts/grammar-practice-i.pdf"
-      ],
-      "page": "reading/a2/grammar-practice-i.html"
+      "source_files": []
     },
     {
       "slug": "grocery-shopping",
@@ -674,15 +666,13 @@
       "genre": "drill",
       "level": "A2",
       "topic": "review",
-      "action": "SPLIT",
+      "action": "DELETE",
       "audio": "n/a",
-      "reason": "Long question-formation drill across several tenses; split by tense into separate blocks.",
-      "status": "NOT STARTED",
+      "reason": "Long question-formation drill across several tenses; split by tense into separate blocks. — REMOVED: this library is for reading texts, not grammar drills. The grammar system already lives in levels/{level}/ + curriculum/ (decision D-2), and a page explaining the four tenses duplicated it. Page, audio and source .docx/.pdf all deleted. Texts that are genuine readings and merely carry grammar exercises — a-weekend-at-the-lake, my-life-and-plans, a-day-in-the-office — are kept.",
+      "status": "COMPLETE",
       "card_title": "Interrogative Exercises",
       "card_desc": "Practice forming and answering questions in English.",
-      "source_files": [
-        "cefr/texts/interrogative-exercises.pdf"
-      ]
+      "source_files": []
     },
     {
       "slug": "investigation-story",
@@ -1122,15 +1112,12 @@
       "genre": "drill",
       "level": "A2",
       "topic": "review",
-      "action": "CONVERT",
-      "audio": "exists",
-      "reason": "Clean multiple-choice mixed review; converts directly. — DONE: Merged into reading/a2/grammar-practice-i.html — see that entry.",
-      "status": "IMPLEMENTED",
+      "action": "DELETE",
+      "audio": "n/a",
+      "reason": "Clean multiple-choice mixed review; converts directly. — REMOVED: this library is for reading texts, not grammar drills. The grammar system already lives in levels/{level}/ + curriculum/ (decision D-2), and a page explaining the four tenses duplicated it. Page, audio and source .docx/.pdf all deleted. Texts that are genuine readings and merely carry grammar exercises — a-weekend-at-the-lake, my-life-and-plans, a-day-in-the-office — are kept.",
+      "status": "COMPLETE",
       "card_title": "Review Prepositions Some Any No Tenses Comparatives",
-      "source_files": [
-        "cefr/texts/review-prepositions-some-any-no-tenses-comparatives.pdf"
-      ],
-      "page": "reading/a2/grammar-practice-i.html"
+      "source_files": []
     },
     {
       "slug": "rio-de-janeiro-exercises",
@@ -1639,14 +1626,12 @@
       "genre": "drill",
       "level": "B1",
       "topic": "review",
-      "action": "SPLIT",
+      "action": "DELETE",
       "audio": "n/a",
-      "reason": "Largest file in the library (5091w) — many separate gap-fill texts, several with good American settings (hotel near Times Square). Split into per-scenario drill blocks.",
-      "status": "NOT STARTED",
+      "reason": "Largest file in the library (5091w) — many separate gap-fill texts, several with good American settings (hotel near Times Square). Split into per-scenario drill blocks. — REMOVED: this library is for reading texts, not grammar drills. The grammar system already lives in levels/{level}/ + curriculum/ (decision D-2), and a page explaining the four tenses duplicated it. Page, audio and source .docx/.pdf all deleted. Texts that are genuine readings and merely carry grammar exercises — a-weekend-at-the-lake, my-life-and-plans, a-day-in-the-office — are kept.",
+      "status": "COMPLETE",
       "card_title": "Verb Tense Review",
-      "source_files": [
-        "cefr/texts/verb-tense-review.pdf"
-      ]
+      "source_files": []
     },
     {
       "slug": "mind-games",

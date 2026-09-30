@@ -5,12 +5,6 @@
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
- "a2/a2-review": {
-  "bytes": 844416,
-  "fingerprint": "65b5f241c7423462",
-  "rate": "-8%",
-  "voice": "en-US-EmmaNeural"
- },
  "a2/at-the-hotel": {
   "bytes": 1033056,
   "fingerprint": "821e6bbdcc41263f",
@@ -46,12 +40,6 @@
   "fingerprint": "0dc1f82ec26a1bf6",
   "rate": "-8%",
   "voice": "en-US-GuyNeural"
- },
- "a2/grammar-practice-i": {
-  "bytes": 1120032,
-  "fingerprint": "5ac3a32588f07eb5",
-  "rate": "-8%",
-  "voice": "en-US-ChristopherNeural"
  },
  "a2/grocery-shopping": {
   "bytes": 685872,

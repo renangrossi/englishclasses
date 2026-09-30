@@ -209,7 +209,7 @@
       "units": [
         {
           "id": "1",
-          "title": "B2 Upper-Intermediate Grammar (15 lessons after the 2026-09 CEFR reorder: past perfect continuous, future continuous, future continuous & future perfect, and the third conditional moved in from B1. Follow-up CEFR audit: wish / if only moved up to follow mixed conditionals so the unreal-past lessons sit together, and used to / when / while moved to B1). b2-grammar-exercises-i/ii remain PDF-only mixed reviews, not converted to single-topic lessons.",
+          "title": "B2 Upper-Intermediate Grammar (16 lessons after the 2026-09 CEFR reorder: past perfect continuous, future continuous, future continuous & future perfect, and the third conditional moved in from B1. Follow-up CEFR audit: wish / if only moved up to follow mixed conditionals so the unreal-past lessons sit together, and used to / when / while moved to B1; paired expressions added afterwards from booklet sheet-74, which carried content but had no online practice page). b2-grammar-exercises-i/ii remain PDF-only mixed reviews, not converted to single-topic lessons.",
           "lessons": [
             {
               "id": "b2-past-perfect-and-perfect-continuous",
@@ -261,6 +261,10 @@
             },
             {
               "id": "b2-advanced-connectors",
+              "status": "published"
+            },
+            {
+              "id": "b2-paired-expressions",
               "status": "published"
             },
             {

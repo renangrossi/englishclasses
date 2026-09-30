@@ -66,95 +66,95 @@
       "id": "b1-reading-nfl-comprehension",
       "type": "reading-comprehension",
       "title": "Understanding the Text",
-      "instructions": "Answer from the text. Read it again if you need to.",
+      "instructions": "These questions do not repeat the words of the text. Work out the answer from what it means.",
       "items": [
         {
           "id": "nfl-c1",
-          "prompt": "How many teams are there in the NFL?",
+          "prompt": "The league is split into two conferences, and each conference has four divisions. How many divisions are there altogether?",
           "options": [
-            "17",
-            "32",
-            "14"
+            "Four",
+            "Eight",
+            "Sixteen"
           ],
           "answerIndex": 1,
-          "explanation": "The text says the league has 32 teams, split into two conferences."
+          "explanation": "Two conferences with four divisions each gives eight. The text gives you the two numbers separately and expects you to put them together."
         },
         {
           "id": "nfl-c2",
-          "prompt": "How many games does each team play in the regular season?",
+          "prompt": "Every team plays 17 games, but the season runs for 18 weeks. What does that difference mean for a team?",
           "options": [
-            "16 games across 17 weeks",
-            "17 games across 18 weeks",
-            "18 games across 18 weeks"
+            "It plays twice in one week",
+            "It has one week with no game",
+            "It plays one game in the playoffs"
           ],
           "answerIndex": 1,
-          "explanation": "Every team plays 17 games across 18 weeks, so each team gets one week off."
+          "explanation": "One more week than games means one week off — which is what the text calls a bye week."
         },
         {
           "id": "nfl-c3",
-          "prompt": "What is a bye week?",
+          "prompt": "A team has used all four of its downs and moved the ball only six yards. What happens next?",
           "options": [
-            "A week when a team does not play",
-            "A week of playoff games",
-            "The week of the Super Bowl"
+            "It gets four more downs",
+            "The opposing team gets the ball",
+            "It must kick a field goal"
           ],
-          "answerIndex": 0,
-          "explanation": "Because there are 18 weeks but only 17 games, each team has one free week — a bye week."
+          "answerIndex": 1,
+          "explanation": "Ten yards are needed to earn a new set of downs. Six is not enough, so, as the text puts it, “the other team takes over”."
         },
         {
           "id": "nfl-c4",
-          "prompt": "How many downs does a team get to move the ball ten yards?",
+          "prompt": "Why does the text call the 1972 catch remarkable?",
           "options": [
-            "Three",
-            "Four",
-            "Ten"
+            "Harris caught a ball that had already bounced off another player",
+            "Harris ran the length of the field",
+            "Harris caught the ball against his helmet"
           ],
-          "answerIndex": 1,
-          "explanation": "A team gets four attempts, called downs, to move the ball at least ten yards."
+          "answerIndex": 0,
+          "explanation": "The ball was deflected before he caught it, which is what made it extraordinary. The helmet catch was a different play, thirty-six years later."
         },
         {
           "id": "nfl-c5",
-          "prompt": "What happens if a team does not gain ten yards in four downs?",
+          "prompt": "What do the helmet catch and the Super Bowl LI comeback have in common, according to the text?",
           "options": [
-            "They get four more downs",
-            "The other team takes over",
-            "They must kick a field goal"
+            "Both involved the New England Patriots winning",
+            "Both produced a result almost nobody expected",
+            "Both happened in the 1970s"
           ],
           "answerIndex": 1,
-          "explanation": "The text says that if they fail, the other team takes over."
+          "explanation": "The Giants won “a game almost nobody expected them to win”, and the Patriots won from 25 points behind. Note that the Patriots lost the first of those two games."
         },
         {
           "id": "nfl-c6",
-          "prompt": "Why was the 1972 catch called remarkable?",
+          "prompt": "Why is Walter Payton no longer the all-time rushing leader?",
           "options": [
-            "Franco Harris caught a pass that had bounced off another player",
-            "Franco Harris scored from his own end zone",
-            "Franco Harris caught the ball against his helmet"
+            "Another running back overtook his total in 2002",
+            "He retired before he could set the record",
+            "Jerry Rice gained more yards than he did"
           ],
           "answerIndex": 0,
-          "explanation": "The \"Immaculate Reception\" was a pass that bounced off another player before Harris caught it. The helmet catch was a different play, by David Tyree."
+          "explanation": "Payton held it “for years, until Emmitt Smith passed him in 2002”. Rice's records are for receiving, a different thing entirely."
         },
         {
           "id": "nfl-c7",
-          "prompt": "How far behind were the Patriots in Super Bowl LI before they won?",
+          "prompt": "The text says Peyton Manning read a defense “almost like a coach”. What does that suggest he was good at?",
           "options": [
-            "10 points",
-            "25 points",
-            "In overtime only"
+            "Throwing the ball a long way",
+            "Understanding what the other team was about to do",
+            "Running past defenders"
           ],
           "answerIndex": 1,
-          "explanation": "They were 25 points behind the Atlanta Falcons and still won in overtime."
+          "explanation": "Reading a defense means working out its intentions in advance — a thinking skill, not a physical one."
         },
         {
           "id": "nfl-c8",
-          "prompt": "Who holds the all-time rushing record, according to the text?",
+          "prompt": "Why does the text say you do not have to follow the NFL closely to notice it?",
           "options": [
-            "Walter Payton",
-            "Emmitt Smith",
-            "Jerry Rice"
+            "Because the games are shown everywhere for free",
+            "Because the season, the rivalries and the Super Bowl are part of the American calendar",
+            "Because every American plays football"
           ],
           "answerIndex": 1,
-          "explanation": "Payton held the record for years, but Emmitt Smith passed him in 2002. Jerry Rice's records are for receiving, not rushing."
+          "explanation": "The final sentence makes that point: the sport is embedded in the shared calendar, so it reaches people who do not follow it."
         }
       ]
     },
@@ -162,43 +162,43 @@
       "id": "b1-reading-nfl-truefalse",
       "type": "true-false",
       "title": "True or False?",
-      "instructions": "Decide whether each statement matches the text.",
+      "instructions": "Decide whether each statement is true, based on what the text means — the wording is not the same.",
       "items": [
         {
           "id": "nfl-t1",
-          "answer": false,
-          "explanation": "False — the playoffs end with the Super Bowl, so it comes last.",
-          "statement": "The Super Bowl is played before the playoffs."
+          "statement": "The Super Bowl is the last game of the season.",
+          "answer": true,
+          "explanation": "True. The text says the playoffs “end with the Super Bowl”, which is another way of saying it comes last."
         },
         {
           "id": "nfl-t2",
+          "statement": "Twenty-two players are on the field at the same time.",
           "answer": true,
-          "explanation": "True — two teams of eleven players are on the field at a time.",
-          "statement": "Each team has eleven players on the field at a time."
+          "explanation": "True. Two teams of eleven are on the field at a time — you have to do the arithmetic."
         },
         {
           "id": "nfl-t3",
+          "statement": "More than a third of the league's teams reach the playoffs.",
           "answer": true,
-          "explanation": "True — seven from each of the two conferences.",
-          "statement": "Fourteen teams reach the playoffs."
+          "explanation": "True. Fourteen of the 32 teams qualify, which is nearly half."
         },
         {
           "id": "nfl-t4",
+          "statement": "You score a field goal by carrying the ball into the end zone.",
           "answer": false,
-          "explanation": "False — that is a touchdown. A field goal is kicked between the uprights.",
-          "statement": "A field goal is scored by carrying the ball into the end zone."
+          "explanation": "False. That is a touchdown. A field goal is kicked between the uprights."
         },
         {
           "id": "nfl-t5",
+          "statement": "No player has won the Super Bowl more times than Tom Brady.",
           "answer": true,
-          "explanation": "True — the text says exactly that.",
-          "statement": "Tom Brady won more Super Bowls than any other player."
+          "explanation": "True. The text says he “won more Super Bowls than any other player”."
         },
         {
           "id": "nfl-t6",
-          "answer": false,
-          "explanation": "False — he was a linebacker, a defensive position.",
-          "statement": "Lawrence Taylor played quarterback."
+          "statement": "Lawrence Taylor's job was to defend, not to throw the ball.",
+          "answer": true,
+          "explanation": "True. He was a linebacker, a defensive position; the quarterback is the one who throws."
         }
       ]
     },

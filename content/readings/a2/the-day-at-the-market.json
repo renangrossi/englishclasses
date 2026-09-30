@@ -60,84 +60,84 @@
       "id": "a2-market-comprehension",
       "type": "reading-comprehension",
       "title": "Understanding the Text",
-      "instructions": "Answer the questions from the text.",
+      "instructions": "The questions use different words from the text. Think about the meaning, not the exact wording.",
       "items": [
         {
           "id": "mk1",
-          "prompt": "When do they go to the market?",
+          "prompt": "How often do they go to the market?",
           "options": [
-            "Every Saturday morning",
-            "Every Sunday evening",
-            "Every day after work"
+            "Once a week",
+            "Every day",
+            "Once a month"
           ],
           "answerIndex": 0,
-          "explanation": "The text begins: \"Every Saturday, I go to the farmers market.\" They go early in the morning."
+          "explanation": "“Every Saturday” means once a week."
         },
         {
           "id": "mk2",
-          "prompt": "Why do they go early?",
+          "prompt": "Why do the two friends get to the market early?",
           "options": [
-            "Because it is cheaper",
-            "Because it is not too hot and the best things are still there",
-            "Because the market closes at nine"
+            "Because they prefer cooler weather and there is more product availability",
+            "Because the stands charge less before the crowds arrive",
+            "Because parking near the market is easier at that hour"
           ],
-          "answerIndex": 1,
-          "explanation": "\"We like to go early in the morning, because it is not too hot yet and the best things are still there.\""
+          "answerIndex": 0,
+          "explanation": "“It is not too hot yet and the best things are still there” — cooler air, and the good produce has not been picked over."
         },
         {
           "id": "mk3",
-          "prompt": "Who loves to cook?",
+          "prompt": "Which of the two friends is the keener cook?",
           "options": [
-            "The writer",
             "Grace",
-            "Both of them"
+            "The writer",
+            "Neither of them cooks"
           ],
-          "answerIndex": 1,
-          "explanation": "\"Grace loves to cook, so she buys a lot of these.\""
+          "answerIndex": 0,
+          "explanation": "Grace “loves to cook” and buys a lot of vegetables; the writer only grills fish."
         },
         {
           "id": "mk4",
-          "prompt": "What does the writer always buy at the fruit stands?",
+          "prompt": "Why does the writer buy strawberries every week?",
           "options": [
-            "Bananas",
-            "Peaches",
-            "A small box of strawberries"
+            "They are the cheapest fruit",
+            "They like them, and eat them at breakfast",
+            "Grace asks for them"
           ],
-          "answerIndex": 2,
-          "explanation": "\"I love strawberries, so I always buy a small box.\""
+          "answerIndex": 1,
+          "explanation": "“I love strawberries… they are perfect for breakfast.”"
         },
         {
           "id": "mk5",
-          "prompt": "How does the writer like to cook fish?",
+          "prompt": "What does the writer say is healthy?",
           "options": [
-            "Grilled",
-            "Fried",
-            "In soup"
+            "Fish",
+            "Bread",
+            "Coffee"
           ],
           "answerIndex": 0,
-          "explanation": "\"I like to grill it for dinner.\""
+          "explanation": "Of the fish: “It is good for you.”"
         },
         {
           "id": "mk6",
-          "prompt": "What do they do before they leave?",
+          "prompt": "They sit down at the end. Why?",
           "options": [
-            "They buy flowers",
-            "They get a cup of coffee and sit down",
-            "They go back for more bread"
+            "They are waiting for a friend",
+            "They are tired after walking for two hours",
+            "The market is closed"
           ],
           "answerIndex": 1,
-          "explanation": "\"Before we leave, we get a cup of coffee. It is nice to sit down.\""
+          "explanation": "“It is nice to sit down after walking around for two hours.”"
         },
         {
           "id": "mk7",
-          "prompt": "Why does the market feel like a community?",
+          "prompt": "Why does the writer say the market “feels like a community”?",
           "options": [
             "Because it is very large",
-            "Because they see people they know and talk to them",
-            "Because the food is cheap"
+            "Because they meet people they know and stop to talk",
+            "Because everything is local"
           ],
           "answerIndex": 1,
-          "explanation": "\"We see people we know, we say hello, and we talk for a few minutes. It feels like a community.\""
+          "explanation": "The reason given is the people: “We see people we know, we say hello, and we talk for a few minutes.”"
         }
       ]
     },
@@ -145,37 +145,37 @@
       "id": "a2-market-truefalse",
       "type": "true-false",
       "title": "True or False?",
-      "instructions": "Decide whether each sentence is true according to the text.",
+      "instructions": "Decide whether each sentence is true. The words are not the same as in the text.",
       "items": [
         {
           "id": "mkt1",
-          "statement": "They go to the market in the afternoon.",
-          "answer": false,
-          "explanation": "False — they go early in the morning."
+          "statement": "They shop before it gets hot.",
+          "answer": true,
+          "explanation": "True — they go early “because it is not too hot yet”."
         },
         {
           "id": "mkt2",
-          "statement": "The market sells only food.",
+          "statement": "You can only buy food at this market.",
           "answer": false,
-          "explanation": "False — \"The market is not only about food. There are clothes too, and sometimes there is live music.\""
+          "explanation": "False — there are clothes, and sometimes live music."
         },
         {
           "id": "mkt3",
-          "statement": "They buy a loaf of bread to eat with butter and jam.",
+          "statement": "They buy bread that has not been sliced.",
           "answer": true,
-          "explanation": "True — that is exactly what the bread stand paragraph says."
+          "explanation": "True — a loaf is a whole, uncut piece of bread."
         },
         {
           "id": "mkt4",
-          "statement": "The writer thinks fish is good for you.",
-          "answer": true,
-          "explanation": "True — \"It is good for you, and I like to grill it for dinner.\""
+          "statement": "The writer thinks where food comes from does not matter.",
+          "answer": false,
+          "explanation": "False — Grace's line, “good food starts with good ingredients”, says the opposite."
         },
         {
           "id": "mkt5",
-          "statement": "They stay at the market for about ten minutes.",
+          "statement": "The whole trip takes them a few minutes.",
           "answer": false,
-          "explanation": "False — they walk around for about two hours before they sit down for coffee."
+          "explanation": "False — they walk around for about two hours before sitting down."
         }
       ]
     },

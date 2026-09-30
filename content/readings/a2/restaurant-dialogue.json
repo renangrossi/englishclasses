@@ -70,84 +70,84 @@
       "id": "a2-restaurant-comprehension",
       "type": "reading-comprehension",
       "title": "Understanding the Dialogue",
-      "instructions": "Answer from the dialogue.",
+      "instructions": "The questions use different words from the text. Think about the meaning, not the exact wording.",
       "items": [
         {
           "id": "rd1",
-          "prompt": "What does the server recommend?",
+          "prompt": "The server names two pizzas she likes. Which one does she describe as the favorite of her regular customers?",
           "options": [
-            "The classic cheese pizza",
-            "The Sicilian with sausage and peppers",
-            "The garlic knots"
+            "The classic cheese",
+            "The Sicilian",
+            "The pepperoni"
           ],
           "answerIndex": 1,
-          "explanation": "The server says the pepperoni is popular, but recommends the Sicilian as the special one regulars come back for."
+          "explanation": "The pepperoni “is always popular”, but the Sicilian with sausage and peppers is “the one regulars keep coming back for”."
         },
         {
           "id": "rd2",
-          "prompt": "Who asks for the garlic knots?",
+          "prompt": "Whose idea was it to order garlic knots?",
           "options": [
-            "Kevin",
-            "Laura",
-            "The server"
+            "Kevin's",
+            "Laura's",
+            "The server's"
           ],
           "answerIndex": 0,
-          "explanation": "\"Can we get garlic knots too, Dad?\""
+          "explanation": "“Can we get garlic knots too, Dad?” asks Kevin."
         },
         {
           "id": "rd3",
-          "prompt": "What does Kevin drink?",
+          "prompt": "One person at the table does not drink water. What does that person have?",
           "options": [
-            "Water",
+            "Fanta",
             "Coke",
-            "Fanta"
+            "Sprite"
           ],
-          "answerIndex": 2,
-          "explanation": "Offered Coke, Sprite or Fanta, Kevin chooses Fanta."
+          "answerIndex": 0,
+          "explanation": "Laura asks for a soda for Kevin, and from the three choices Kevin says, “Fanta, please.”"
         },
         {
           "id": "rd4",
-          "prompt": "How much was the meal?",
+          "prompt": "How much did the food itself cost, before the extra money Mark left?",
           "options": [
             "$26.50",
             "$32.00",
             "$5.50"
           ],
           "answerIndex": 0,
-          "explanation": "The server says it \"comes to twenty-six fifty\". Mark hands over $32, and $5.50 is the tip."
+          "explanation": "“That comes to twenty-six fifty.” The $32 was what Mark handed over, and $5.50 was the difference he left behind."
         },
         {
           "id": "rd5",
-          "prompt": "Why did Mark leave extra money?",
+          "prompt": "Mark pays more than the check asks for. Why?",
           "options": [
-            "He made a mistake",
-            "As a tip, because servers depend on tips in the US",
-            "To pay for the garlic knots"
+            "Servers there earn a low wage and depend on tips",
+            "He wanted to pay for the garlic knots separately",
+            "He had misread the amount on the check"
           ],
-          "answerIndex": 1,
-          "explanation": "Laura explains that servers are usually paid a low base wage and depend on tips."
+          "answerIndex": 0,
+          "explanation": "“Servers are usually paid a low base wage and depend on tips,” Laura explains, “and leaving nothing would be a real insult.”"
         },
         {
           "id": "rd6",
-          "prompt": "About what percentage is a normal tip at a sit-down restaurant?",
+          "prompt": "At a restaurant like this one, how much do most Americans add to the bill?",
           "options": [
-            "About 5 percent",
-            "About 18 to 20 percent",
-            "About 50 percent"
+            "Roughly a fifth of it",
+            "Roughly a twentieth of it",
+            "Roughly half of it"
           ],
-          "answerIndex": 1,
-          "explanation": "\"Leaving about eighteen to twenty percent at a sit-down restaurant is normal.\""
+          "answerIndex": 0,
+          "explanation": "“Leaving about eighteen to twenty percent at a sit-down restaurant is normal” — twenty percent is a fifth. Mark left just over that."
         },
         {
           "id": "rd7",
-          "prompt": "What does \"Keep the change\" mean here?",
+          "prompt": "Mark says “keep the change”. What is he telling the server?",
           "options": [
-            "Give me my money back",
-            "The server should keep the extra as a tip",
-            "I want a different bill"
+            "Do not bring the difference back — it is yours",
+            "Please bring my money back to me",
+            "I would like the bill in smaller notes"
           ],
-          "answerIndex": 1,
-          "explanation": "It tells the server to keep the difference between what you handed over and the total."
+          "answerIndex": 0,
+          "explanation": "He hands over $32 for a $26.50 meal, and the $5.50 difference is meant as the tip."
         }
       ]
     },

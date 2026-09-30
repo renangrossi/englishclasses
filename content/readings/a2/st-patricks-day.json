@@ -64,84 +64,84 @@
       "id": "a2-stpat-comprehension",
       "type": "reading-comprehension",
       "title": "Understanding the Story",
-      "instructions": "Answer the questions about the story.",
+      "instructions": "The questions use different words from the text. Think about the meaning, not the exact wording.",
       "items": [
         {
           "id": "sp1",
-          "prompt": "What was Erica's problem?",
+          "prompt": "Why was Erica the only student not wearing green?",
           "options": [
-            "She forgot to wear green",
-            "She was late for school",
-            "She lost her bag"
+            "She had not remembered the date",
+            "She had arrived late for school",
+            "She had argued with Sarah"
           ],
           "answerIndex": 0,
-          "explanation": "Everyone at school was wearing green except Erica — she had forgotten what day it was."
+          "explanation": "She “had forgotten what day it was”, so she had dressed without thinking about the holiday."
         },
         {
           "id": "sp2",
-          "prompt": "Why did Sarah pinch her?",
+          "prompt": "Sarah is Erica's best friend, but she pinched her. Why?",
           "options": [
-            "Because she was angry with Erica",
-            "Because of the custom: no green means you get a pinch",
-            "Because Erica pinched her first"
+            "She was angry with Erica",
+            "It is what the custom allows when someone forgets to wear green",
+            "Erica had pinched her first"
           ],
           "answerIndex": 1,
-          "explanation": "The first paragraph explains the custom: if you forget to wear green, your friends may pinch you. Sarah is her best friend, not an enemy."
+          "explanation": "The first paragraph explains the custom — it is a game, not an argument."
         },
         {
           "id": "sp3",
-          "prompt": "What did Erica look for outside?",
+          "prompt": "Why did Erica start crying on the steps?",
           "options": [
-            "A green shirt",
-            "A shamrock",
-            "Her friend Sarah"
+            "Her arm hurt badly",
+            "She had searched for something green and found nothing",
+            "Sarah had gone inside without her"
           ],
           "answerIndex": 1,
-          "explanation": "\"She went outside to look for a shamrock… but she could not find one anywhere.\""
+          "explanation": "She could not find a shamrock “anywhere”, which left her with no way out of being pinched all day."
         },
         {
           "id": "sp4",
-          "prompt": "Who helped Erica in the end?",
+          "prompt": "What does the text tell you a leprechaun is?",
           "options": [
-            "Her best friend Sarah",
-            "A leprechaun",
-            "Her teacher"
+            "A tiny man from Irish stories who guards gold",
+            "A kind of plant",
+            "An Irish holiday"
           ],
-          "answerIndex": 1,
-          "explanation": "A leprechaun appeared and produced a shamrock from his hat."
+          "answerIndex": 0,
+          "explanation": "The text defines it: “a tiny man who guards a pot of gold”."
         },
         {
           "id": "sp5",
-          "prompt": "Where did the shamrock come from?",
+          "prompt": "Where did the shamrock actually come from?",
           "options": [
-            "From the pot of gold",
-            "From under his hat",
-            "From the school garden"
+            "The pot of gold",
+            "His hat",
+            "The school garden"
           ],
           "answerIndex": 1,
-          "explanation": "\"He took off his hat and pulled out of it the most perfect shamrock Erica had ever seen.\""
+          "explanation": "He threw the gold in the air, but the shamrock came out from under his hat."
         },
         {
           "id": "sp6",
-          "prompt": "How did the day end for Erica?",
+          "prompt": "What does “pinch-free” tell you about the rest of her day?",
           "options": [
-            "She went home early",
-            "She spent the day pinch-free",
-            "She was pinched all day"
+            "Nobody pinched her",
+            "She pinched other people",
+            "She went home early"
           ],
-          "answerIndex": 1,
-          "explanation": "She pinned on the shamrock and enjoyed the rest of her day \"pinch-free\"."
+          "answerIndex": 0,
+          "explanation": "The ending -free means “without”, so the problem was solved."
         },
         {
           "id": "sp7",
-          "prompt": "What date is St. Patrick's Day?",
+          "prompt": "Where is this custom of pinching described as happening?",
           "options": [
-            "March 17th",
-            "March 7th",
-            "May 17th"
+            "In Irish schools",
+            "In American schools",
+            "Everywhere in the world"
           ],
-          "answerIndex": 0,
-          "explanation": "The first paragraph says March 17th."
+          "answerIndex": 1,
+          "explanation": "“There is also a custom in American schools” — the holiday is Irish in origin, but this particular custom is American."
         }
       ]
     },

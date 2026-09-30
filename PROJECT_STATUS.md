@@ -226,6 +226,22 @@ python3 scripts/extract_source_docs.py /tmp/extracted   # re-extract all source 
 4. **"Many Americans…", never "Americans always…"** — cultural tendencies, not stereotypes.
 5. **Quality over quantity.** Merging or replacing a weak text beats preserving it for volume.
 6. **Never present new content as pre-existing.** New texts are labelled as newly authored.
+7. **Bold the key vocabulary inside the passage, with the meaning on hover.** Glossary words are
+   marked with `.vocab-term` and carry `data-definition`; there is **no separate Vocabulary
+   section** on the page (the definitions reappear only in the print-only glossary). The builder
+   matches headwords to their inflected forms automatically — pin a `match` field on the
+   vocabulary entry when auto-matching picks the wrong sense.
+8. **Exercises must test meaning, not string-matching.** Do **not** write a question whose correct
+   option is lifted verbatim from the passage — a student can then scan for matching words and
+   answer without understanding anything. Paraphrase the question and the options, and scale how
+   far by level:
+   - **A1/A2** — reword with simple synonyms; one short inference at most.
+   - **B1** — paraphrase throughout, plus questions that combine two facts.
+   - **B2** — inference and implication; ask *why*, not just *what*.
+   - **C1/C2** — interpretation: tone, attitude, what the writer implies but does not say.
+
+   Keep the *explanation* quoting the text where that helps — the feedback after grading is
+   exactly where the student should be pointed back to the wording.
 
 ---
 
@@ -276,6 +292,12 @@ progress can be tracked and resumed. `docs/content-audit.md` is the human-readab
   as the *only* way to reach the content. Requirement 13 forbids embedding PDFs as the
   experience; it does not require deleting printable worksheets a teacher may still use in class.
   Exception: files deleted outright by the audit.
+- **D-8 — The passage is set as prose, not as a callout box.** `.reading-passage` was a tinted
+  panel with a gold rule down its left edge; a text a student reads for several minutes needs
+  typography instead. It is now the serif display face at `--step-1`, line-height 1.75, in a
+  62-character measure, with no background, border or panel. The print rule drops the frame too.
+  No new class and no new JS — only the existing rule was rewritten, so every reading page and
+  every future one inherits it.
 
 ### Open problems
 

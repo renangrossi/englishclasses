@@ -61,84 +61,84 @@
       "id": "a2-hiking-comprehension",
       "type": "reading-comprehension",
       "title": "Understanding the Text",
-      "instructions": "Answer from the text.",
+      "instructions": "The questions use different words from the text. Think about the meaning, not the exact wording.",
       "items": [
         {
           "id": "hk1",
-          "prompt": "What was the weather like?",
+          "prompt": "What was the weather like for the hike?",
           "options": [
-            "Rainy and cold",
-            "Sunny but not too hot",
-            "Very hot all day"
+            "Warm but comfortable",
+            "Cold and wet",
+            "Uncomfortably hot"
           ],
-          "answerIndex": 1,
-          "explanation": "\"The weather was perfect — sunny, but not too hot.\""
+          "answerIndex": 0,
+          "explanation": "“Sunny, but not too hot” — warm without being uncomfortable."
         },
         {
           "id": "hk2",
-          "prompt": "What happened after the first hour?",
+          "prompt": "Why did the walking get harder after the first hour?",
           "options": [
-            "They reached the lake",
-            "The trail got steeper",
-            "They went home"
+            "The path started to climb",
+            "It began to rain",
+            "They had no water left"
           ],
-          "answerIndex": 1,
-          "explanation": "\"After an hour, the trail got steeper. We climbed up a long hill.\""
+          "answerIndex": 0,
+          "explanation": "“The trail got steeper” — steep means it rises sharply."
         },
         {
           "id": "hk3",
-          "prompt": "What could they see from the top of the hill?",
+          "prompt": "How does the writer feel about the climb, looking back?",
           "options": [
-            "The ocean",
-            "The valley, green fields and a river",
-            "Their car"
+            "It was not worth the effort",
+            "The view at the top made it worth it",
+            "It was easy"
           ],
           "answerIndex": 1,
-          "explanation": "They could see the whole valley with green fields and a narrow river."
+          "explanation": "“At the top we rested, and the view was worth it.”"
         },
         {
           "id": "hk4",
-          "prompt": "What did they bring for lunch?",
+          "prompt": "Why does the writer mention that food tastes better outside?",
           "options": [
-            "Sandwiches, apples and water",
-            "Pizza and soda",
-            "Nothing — they bought food there"
+            "The sandwiches were unusually good",
+            "To explain why they stayed longer than planned",
+            "Because they were very hungry"
           ],
-          "answerIndex": 0,
-          "explanation": "\"We had brought sandwiches, apples and plenty of water.\""
+          "answerIndex": 1,
+          "explanation": "The remark sits between eating and “stayed longer than they planned” — they were enjoying it."
         },
         {
           "id": "hk5",
-          "prompt": "Why could they see the fish?",
+          "prompt": "What does the writer notice about the stream?",
           "options": [
-            "Because the water was clear",
-            "Because the fish were very large",
-            "Because they used a net"
+            "It was too cold to cross",
+            "You could see the fish through the water",
+            "It was very loud"
           ],
-          "answerIndex": 0,
-          "explanation": "\"The water was so clear that we could see small fish swimming near the rocks.\""
+          "answerIndex": 1,
+          "explanation": "“The water was so clear that we could see small fish” — clear water you can see through."
         },
         {
           "id": "hk6",
-          "prompt": "Did everyone swim in the lake?",
+          "prompt": "Did the whole group swim?",
           "options": [
-            "Yes, everyone did",
-            "No — two of them swam and the others watched",
-            "No one swam"
+            "Yes, all of them",
+            "No, only two of them",
+            "Nobody did"
           ],
           "answerIndex": 1,
-          "explanation": "\"Two of us went in for a swim; the rest of us sat on the shore and watched.\""
+          "explanation": "“Two of us went in for a swim; the rest of us sat on the shore.”"
         },
         {
           "id": "hk7",
-          "prompt": "Why was the hike back easier?",
+          "prompt": "Why was the return journey less tiring?",
           "options": [
-            "It was shorter",
-            "It was mostly downhill",
-            "They took a bus"
+            "They went down instead of up",
+            "They took a shorter route",
+            "Someone drove them"
           ],
-          "answerIndex": 1,
-          "explanation": "\"The hike back was easier, because it was downhill almost the whole way.\""
+          "answerIndex": 0,
+          "explanation": "It was “downhill almost the whole way”, and going down takes less effort."
         }
       ]
     },

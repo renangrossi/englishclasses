@@ -176,62 +176,73 @@
       "id": "a2-saytell-comprehension",
       "type": "reading-comprehension",
       "title": "Understanding the Text",
-      "instructions": "Answer from the text.",
+      "instructions": "The questions use different words from the text. Think about the meaning, not the exact wording.",
       "items": [
         {
           "id": "stc1",
-          "prompt": "Why did the writer arrive at ten to eight?",
+          "prompt": "Why did the writer arrive before eight?",
           "options": [
-            "Because the store opened then",
-            "Because he did not want to be late on his first morning",
-            "Because Diane asked him to"
+            "Diane asked him to come early",
+            "He wanted to be sure he was not late on day one",
+            "The store opened at ten to eight"
           ],
           "answerIndex": 1,
-          "explanation": "\"I got there at ten to eight, because I did not want to be late on the first morning.\""
+          "explanation": "“I did not want to be late on the first morning” — arriving early was his own caution."
         },
         {
           "id": "stc2",
-          "prompt": "What was Ray's advice?",
+          "prompt": "What kind of person is Ray?",
           "options": [
-            "\"Ask before you guess.\"",
-            "\"Work faster.\"",
-            "\"Talk to the customers.\""
+            "He talks a lot but says little",
+            "He says little, and people pay attention when he does",
+            "He is unfriendly to new staff"
           ],
-          "answerIndex": 0,
-          "explanation": "Ray said only one thing that morning: \"Ask before you guess.\""
+          "answerIndex": 1,
+          "explanation": "“Ray does not talk very much, but when he speaks, people listen.”"
         },
         {
           "id": "stc3",
-          "prompt": "What did the writer do when he did not know where the batteries were?",
+          "prompt": "A customer asked about something he did not know. What did he do?",
           "options": [
-            "He guessed",
-            "He asked the customer to wait and went to find out",
-            "He called Diane"
+            "He guessed, to seem helpful",
+            "He asked her to wait and went to check",
+            "He sent her to another employee"
           ],
           "answerIndex": 1,
-          "explanation": "He followed Ray's advice — he asked the customer to wait and went and asked."
+          "explanation": "He followed Ray's advice — ask before you guess — and went to find out."
         },
         {
           "id": "stc4",
-          "prompt": "How did Diane describe his work on the register?",
+          "prompt": "How did the customer react?",
           "options": [
-            "Careless",
-            "Careful, and right for a first week",
-            "Too fast"
+            "She was annoyed at the delay",
+            "She was grateful he checked instead of guessing",
+            "She complained to Diane"
           ],
           "answerIndex": 1,
-          "explanation": "\"You are careful, and careful is the right thing to be in your first week. Speed comes later.\""
+          "explanation": "“She thanked me for checking instead of pointing her in the wrong direction.”"
         },
         {
           "id": "stc5",
-          "prompt": "Why did Diane want him to train the new person?",
+          "prompt": "Diane knew he was slow on the register. What did she choose to say about it?",
           "options": [
-            "Because no one else was free",
-            "Because he still remembered what was confusing",
-            "Because he was the fastest"
+            "That being careful matters more than being fast at first",
+            "That he needed to improve immediately",
+            "Nothing at all"
+          ],
+          "answerIndex": 0,
+          "explanation": "“You are careful, and careful is the right thing to be in your first week. Speed comes later.” She addressed it, but framed it as a strength."
+        },
+        {
+          "id": "stc6",
+          "prompt": "Why is being new an advantage for training the next person, in Diane's view?",
+          "options": [
+            "New staff have more free time",
+            "He still remembers which parts are confusing",
+            "He is the fastest learner"
           ],
           "answerIndex": 1,
-          "explanation": "\"She said that was exactly why — I still remembered what was confusing.\""
+          "explanation": "“That was exactly why — I still remembered what was confusing.” Someone experienced has forgotten what was hard."
         }
       ]
     },

@@ -144,73 +144,73 @@
       "id": "a2-trips-comprehension",
       "type": "reading-comprehension",
       "title": "Understanding the Text",
-      "instructions": "Answer from the text.",
+      "instructions": "The questions use different words from the text. Think about the meaning, not the exact wording.",
       "items": [
         {
           "id": "tp1",
-          "prompt": "What does the writer say is the best thing they did in Australia?",
+          "prompt": "Of everything the writer did in Australia, what does she rate most highly?",
           "options": [
-            "The Opera House tour",
-            "The coastal walk from Bondi to Coogee",
-            "The Blue Mountains"
+            "The walk along the cliffs between two beaches",
+            "The tour of the Opera House",
+            "The train up to the Blue Mountains"
           ],
-          "answerIndex": 1,
-          "explanation": "\"The coastal path between them takes about two hours on foot, and it is the best thing we did in Australia.\""
+          "answerIndex": 0,
+          "explanation": "“The coastal path between them takes about two hours on foot, and it is the best thing we did in Australia.”"
         },
         {
           "id": "tp2",
-          "prompt": "How did they save money in Sydney?",
+          "prompt": "How did the sisters keep the cost of Sydney down?",
           "options": [
-            "By staying outside the city",
-            "With an Opal card and by eating at the fish market",
-            "By not using transport at all"
+            "They bought a travel card and avoided the restaurants by the harbor",
+            "They slept outside the city center",
+            "They walked everywhere instead of paying for transport"
           ],
-          "answerIndex": 1,
-          "explanation": "Those are the two things the text names."
+          "answerIndex": 0,
+          "explanation": "“We saved money by buying an Opal card for the buses and ferries, and by eating at the fish market instead of at restaurants near the harbor.”"
         },
         {
           "id": "tp3",
-          "prompt": "Where does most of the food come from in Bangkok?",
+          "prompt": "Where does the food the writer praises in Bangkok usually come from?",
           "options": [
-            "Restaurants",
-            "Street stalls",
-            "Hotels"
+            "Small stalls on the street",
+            "Hotel dining rooms",
+            "Expensive restaurants"
           ],
-          "answerIndex": 1,
-          "explanation": "\"Most of what you eat there comes from a stall on the street, not from a restaurant, and it is often better.\""
+          "answerIndex": 0,
+          "explanation": "“Most of what you eat there comes from a stall on the street, not from a restaurant, and it is often better.”"
         },
         {
           "id": "tp4",
-          "prompt": "What should you know before visiting the Grand Palace?",
+          "prompt": "What does the writer warn you to think about before going to the Grand Palace?",
           "options": [
-            "It is closed on Mondays",
-            "You must cover your shoulders and knees",
-            "You need to book a year ahead"
+            "What you are wearing",
+            "Which day of the week it is",
+            "How far ahead you booked"
           ],
-          "answerIndex": 1,
-          "explanation": "\"Dress carefully: shoulders and knees covered, or they will not let you in.\""
+          "answerIndex": 0,
+          "explanation": "“Dress carefully: shoulders and knees covered, or they will not let you in.”"
         },
         {
           "id": "tp5",
-          "prompt": "What can you do in Chiang Mai?",
+          "prompt": "What can a visitor do in Chiang Mai, according to the writer?",
           "options": [
-            "Go snorkeling",
-            "Take a cooking class and eat what you made",
-            "Visit the Three Sisters"
+            "Learn to cook Thai food and then eat it",
+            "Go snorkeling in clear water",
+            "See the rocks called the Three Sisters"
           ],
-          "answerIndex": 1,
-          "explanation": "\"you can take a Thai cooking class in the morning and eat what you made for lunch\"."
+          "answerIndex": 0,
+          "explanation": "“In Chiang Mai … you can take a Thai cooking class in the morning and eat what you made for lunch.” The snorkeling is in the southern islands and the Three Sisters are near Sydney."
         },
         {
           "id": "tp6",
-          "prompt": "What is the writer's final advice?",
+          "prompt": "Which travelers does the writer send to Sydney rather than Bangkok?",
           "options": [
-            "Sydney if you have never traveled far; Bangkok if you have",
-            "Always choose Bangkok",
-            "Never go to Sydney"
+            "Those who have never been far from home",
+            "Those who care most about food",
+            "Those who want a harder challenge"
           ],
           "answerIndex": 0,
-          "explanation": "The last two sentences give exactly that advice."
+          "explanation": "“If you have never traveled far from home before, go to Sydney. If you have, go to Bangkok.”"
         }
       ]
     },

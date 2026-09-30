@@ -1,0 +1,395 @@
+{
+  "id": "b1-reading-beers",
+  "level": "B1",
+  "slug": "beers",
+  "topic": "food",
+  "title": "How to Read a Beer Menu",
+  "subtitle": "Four words — lager, ale, hops, malt — and most of a menu becomes readable.",
+  "description": "A B1 reading and listening text explaining the main styles of beer and where their names come from, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/beers.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "3:59"
+  },
+  "passage": [
+    "Beer is made from four things: grain, water, hops and yeast. The grain is usually barley, which is malted — allowed to begin sprouting, then dried — so that its starch turns into sugar the yeast can eat. The yeast then ferments that sugar — eats it, and gives off alcohol as it goes. The hops are flowers, added mainly for bitterness and aroma, and they are the reason one beer tastes sharp and another tastes soft. Everything on a beer menu is a variation on those four ingredients.",
+    "The first split is between lager and ale, and it is not about colour, despite what most people assume. It is about the yeast. Lager yeast works slowly, at cool temperatures, settling to the bottom of the tank; the beer is then stored for weeks while the flavours settle. That is where the name comes from — lagern is German for “to store”. Ale yeast works fast and warm, at the top of the tank, and produces more fruity flavours as it goes. A lager can be almost black and an ale can be pale gold. The yeast is what decides the category.",
+    "Pilsner is the style most people picture when they think of beer, and it is a kind of pale lager. The name comes from the city of Plzeň — Pilsen in German — in what is now the Czech Republic, where it was first brewed in 1842. It was the first beer that was both pale and clear at a time when almost all beer was dark and cloudy, and it was copied so widely that most of the world's mass-produced beer is still a version of it.",
+    "Pale ale is the ale equivalent: golden to amber, noticeably hoppy, but balanced. India Pale Ale, or IPA, is the same idea pushed much further, with far more hops and much more bitterness. The name comes from the trade in English beer to India in the eighteenth and nineteenth centuries. The tidy story — that IPA was invented so it could survive the voyage — is a simplification that grew up later; beer of several kinds was already being shipped there successfully, and heavily hopped beers already existed. What is true is that well-hopped pale beer travelled well, sold well in India, and eventually took the name.",
+    "American pale ale, APA, came out of the craft brewing revival in the United States from the late 1970s onward. It is usually less bitter than an IPA and more balanced, and it is defined largely by American hop varieties, which tend toward citrus and pine rather than the earthier flavours of English hops. That difference in hops is most of what separates an American pale ale from an English one.",
+    "At the dark end are porter and stout, and their relationship is the opposite of what the names suggest. Porter came first, in London in the eighteenth century, and took its name from the market and river porters who drank it. Stout originally just meant strong: a “stout porter” was a stronger version of the same beer. Over time the two drifted apart, and today stout usually means the darker and more roasted of the pair — dry, with flavours of coffee and dark chocolate that come from roasted barley, not from any coffee or chocolate being added.",
+    "The practical advice is short. If you do not know what you want, the words on the menu will tell you more than the brand will. Anything called pilsner or lager will be light and crisp. Anything called IPA will be bitter. Anything called stout or porter will be dark and roasted. And if you are not sure, most places that care about beer will let you taste a small amount first, which is the fastest way to learn any of this."
+  ],
+  "vocabulary": [
+    {
+      "term": "grain",
+      "definition": "the seed of a cereal plant such as barley or wheat"
+    },
+    {
+      "term": "to malt",
+      "definition": "to let grain begin sprouting and then dry it, so its starch becomes sugar",
+      "match": "malted"
+    },
+    {
+      "term": "to sprout",
+      "definition": "to begin growing shoots",
+      "match": "sprouting"
+    },
+    {
+      "term": "starch",
+      "definition": "the carbohydrate stored in grains and potatoes"
+    },
+    {
+      "term": "yeast",
+      "definition": "a microorganism that turns sugar into alcohol"
+    },
+    {
+      "term": "hops",
+      "definition": "the flowers added to beer for bitterness and aroma"
+    },
+    {
+      "term": "bitterness",
+      "definition": "a sharp taste, the opposite of sweetness"
+    },
+    {
+      "term": "aroma",
+      "definition": "a smell, usually a pleasant one"
+    },
+    {
+      "term": "to ferment",
+      "definition": "to convert sugar into alcohol using yeast",
+      "match": "ferments"
+    },
+    {
+      "term": "crisp",
+      "definition": "clean and refreshing in taste"
+    },
+    {
+      "term": "cloudy",
+      "definition": "not clear; hazy"
+    },
+    {
+      "term": "mass-produced",
+      "definition": "made in very large quantities by industrial methods"
+    },
+    {
+      "term": "balanced",
+      "definition": "with no single flavour dominating"
+    },
+    {
+      "term": "revival",
+      "definition": "the return of something that had declined"
+    },
+    {
+      "term": "variety",
+      "definition": "a particular type within a species",
+      "match": "varieties"
+    },
+    {
+      "term": "to drift apart",
+      "definition": "to become gradually more different from each other",
+      "match": "drifted apart"
+    },
+    {
+      "term": "roasted",
+      "definition": "cooked with dry heat until browned, which deepens flavour"
+    },
+    {
+      "term": "simplification",
+      "definition": "a version of a story that leaves out complicating facts"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-beer-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Several of these correct something people commonly believe.",
+      "items": [
+        {
+          "id": "be1",
+          "prompt": "What do the hops contribute?",
+          "options": [
+            "Bitterness and aroma",
+            "The alcohol",
+            "The colour"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Added mainly for bitterness and aroma” — the alcohol comes from the yeast eating the sugar."
+        },
+        {
+          "id": "be2",
+          "prompt": "What actually distinguishes a lager from an ale?",
+          "options": [
+            "The colour of the beer",
+            "The yeast, and the temperature it works at",
+            "The amount of hops used"
+          ],
+          "answerIndex": 1,
+          "explanation": "“It is not about colour, despite what most people assume. It is about the yeast.” A lager can be black and an ale pale gold."
+        },
+        {
+          "id": "be3",
+          "prompt": "Where does the word “lager” come from?",
+          "options": [
+            "From the German for “to store”, because the beer is stored for weeks",
+            "From the name of a brewery",
+            "From the German for “light”"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Lagern is German for ‘to store'” — which describes the weeks the beer spends settling."
+        },
+        {
+          "id": "be4",
+          "prompt": "Why was pilsner so widely copied?",
+          "options": [
+            "Because it was cheaper to brew than other styles",
+            "Because it was the first beer that was both pale and clear, at a time when beer was dark and cloudy",
+            "Because it kept longer than other beers"
+          ],
+          "answerIndex": 1,
+          "explanation": "And the consequence is still visible: “most of the world's mass-produced beer is still a version of it”."
+        },
+        {
+          "id": "be5",
+          "prompt": "How does the writer treat the story that IPA was invented to survive the voyage to India?",
+          "options": [
+            "As the accepted historical explanation",
+            "As entirely false",
+            "As a later simplification — beer was already shipped successfully and heavily hopped beers already existed"
+          ],
+          "answerIndex": 2,
+          "explanation": "The writer separates what is true (well-hopped pale beer travelled well and took the name) from the tidy version that grew up afterwards."
+        },
+        {
+          "id": "be6",
+          "prompt": "What mainly separates an American pale ale from an English one?",
+          "options": [
+            "The hop varieties — American hops tend toward citrus and pine",
+            "The strength of the beer",
+            "The type of grain used"
+          ],
+          "answerIndex": 0,
+          "explanation": "“That difference in hops is most of what separates an American pale ale from an English one.”"
+        },
+        {
+          "id": "be7",
+          "prompt": "What is the historical relationship between porter and stout?",
+          "options": [
+            "Stout came first and porter was a weaker version",
+            "Porter came first, and “stout” originally just meant a stronger porter",
+            "They developed separately in different countries"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Their relationship is the opposite of what the names suggest.” The two drifted apart only later."
+        },
+        {
+          "id": "be8",
+          "prompt": "Where do a stout's coffee and chocolate flavours come from?",
+          "options": [
+            "From coffee and chocolate added during brewing",
+            "From the long storage period",
+            "From roasted barley"
+          ],
+          "answerIndex": 2,
+          "explanation": "“From roasted barley, not from any coffee or chocolate being added” — the same way roasting creates those flavours in coffee itself."
+        }
+      ]
+    },
+    {
+      "id": "b1-beer-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "bet1",
+          "statement": "Pilsen is a style of beer.",
+          "answer": false,
+          "explanation": "False — Plzeň, or Pilsen in German, is a city. Pilsner is the style named after it."
+        },
+        {
+          "id": "bet2",
+          "statement": "All lagers are pale.",
+          "answer": false,
+          "explanation": "False — “a lager can be almost black”. The category is set by the yeast, not the colour."
+        },
+        {
+          "id": "bet3",
+          "statement": "An IPA is more bitter than a pale ale.",
+          "answer": true,
+          "explanation": "True — it is “the same idea pushed much further, with far more hops and much more bitterness”."
+        },
+        {
+          "id": "bet4",
+          "statement": "American pale ale dates from the 1840s.",
+          "answer": false,
+          "explanation": "False — it comes out of the American craft brewing revival from the late 1970s. 1842 is pilsner."
+        },
+        {
+          "id": "bet5",
+          "statement": "Malting turns the grain's starch into sugar.",
+          "answer": true,
+          "explanation": "True — which is what makes the sugar available for the yeast to ferment."
+        },
+        {
+          "id": "bet6",
+          "statement": "The writer says the brand tells you more than the style name.",
+          "answer": false,
+          "explanation": "False — the opposite: “the words on the menu will tell you more than the brand will”."
+        }
+      ]
+    },
+    {
+      "id": "b1-beer-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "bef1",
+          "prompt": "The ___ converts the sugar into alcohol.",
+          "answers": [
+            "yeast"
+          ],
+          "options": [
+            "yeast",
+            "starch",
+            "aroma"
+          ],
+          "explanation": "Yeast is the microorganism that ferments sugar into alcohol."
+        },
+        {
+          "id": "bef2",
+          "prompt": "The ___ give the beer its ___ and its smell.",
+          "answers": [
+            "hops",
+            "bitterness"
+          ],
+          "options": [
+            [
+              "hops",
+              "grains",
+              "yeasts"
+            ],
+            [
+              "bitterness",
+              "colour",
+              "strength"
+            ]
+          ],
+          "explanation": "Hops are added mainly for bitterness and aroma."
+        },
+        {
+          "id": "bef3",
+          "prompt": "It is clean and refreshing — a very ___ beer.",
+          "answers": [
+            "crisp"
+          ],
+          "options": [
+            "crisp",
+            "cloudy",
+            "roasted"
+          ],
+          "explanation": "Crisp means clean and refreshing in taste."
+        },
+        {
+          "id": "bef4",
+          "prompt": "The two styles have ___ ___ over the last two centuries.",
+          "answers": [
+            "drifted",
+            "apart"
+          ],
+          "options": [
+            [
+              "drifted",
+              "fallen",
+              "grown"
+            ],
+            [
+              "apart",
+              "away",
+              "off"
+            ]
+          ],
+          "explanation": "To drift apart is to become gradually more different."
+        },
+        {
+          "id": "bef5",
+          "prompt": "The dark flavours come from ___ barley.",
+          "answers": [
+            "roasted"
+          ],
+          "options": [
+            "roasted",
+            "malted",
+            "fermented"
+          ],
+          "explanation": "Roasting browns the grain and deepens its flavour, exactly as it does with coffee beans."
+        },
+        {
+          "id": "bef6",
+          "prompt": "That neat explanation is a ___ — the real history is messier.",
+          "answers": [
+            "simplification"
+          ],
+          "options": [
+            "simplification",
+            "revival",
+            "variety"
+          ],
+          "explanation": "A simplification leaves out the complicating facts — the writer's point about the IPA story."
+        }
+      ]
+    },
+    {
+      "id": "b1-beer-matching",
+      "type": "matching",
+      "title": "Style and Description",
+      "instructions": "Match each style to how the text describes it.",
+      "items": [
+        {
+          "id": "bem1",
+          "pairs": [
+            {
+              "left": "Lager",
+              "right": "made with cool, slow, bottom-working yeast and stored for weeks"
+            },
+            {
+              "left": "Pilsner",
+              "right": "the pale lager first brewed in Plzeň in 1842"
+            },
+            {
+              "left": "Pale ale",
+              "right": "golden to amber, hoppy but balanced"
+            },
+            {
+              "left": "IPA",
+              "right": "the same idea with far more hops and bitterness"
+            },
+            {
+              "left": "APA",
+              "right": "defined by American hops, tending to citrus and pine"
+            },
+            {
+              "left": "Porter",
+              "right": "the older London style named after the men who drank it"
+            },
+            {
+              "left": "Stout",
+              "right": "originally just a stronger porter; now the darker, more roasted one"
+            }
+          ],
+          "explanation": "Read down the list and the logic of a beer menu appears: the first two are lagers, the next three are ales, and the last two are a single family that split in two."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The writer says the style name tells you more than the brand. Is that true of other things you buy?",
+    "The IPA origin story is neater than the history. Why do simplified stories spread more easily than accurate ones?",
+    "Is there a drink or dish from your country whose name people commonly misunderstand?",
+    "Would you rather order something you know you like, or something you have never tried? Defend your answer.",
+    "Write about 120 words explaining a food or drink from your own country to someone who has never had it — what it is made of, and what it actually tastes like."
+  ]
+}

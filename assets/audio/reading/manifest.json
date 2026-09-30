@@ -71,17 +71,47 @@
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
  },
+ "b1/beers": {
+  "bytes": 1439280,
+  "fingerprint": "b9266929d643e876",
+  "rate": "-8%",
+  "voice": "en-US-AriaNeural"
+ },
+ "b1/cachacas": {
+  "bytes": 1267776,
+  "fingerprint": "f44485563571f248",
+  "rate": "-8%",
+  "voice": "en-US-BrianNeural"
+ },
  "b1/cars": {
   "bytes": 2364192,
   "fingerprint": "269e5404b5dab3e5",
   "rate": "-8%",
   "voice": "en-US-AriaNeural"
  },
+ "b1/cars-and-their-parts": {
+  "bytes": 1424304,
+  "fingerprint": "d1d9e0a04da4ebfe",
+  "rate": "-8%",
+  "voice": "en-US-AriaNeural"
+ },
+ "b1/christmas-krampus-grinch": {
+  "bytes": 1351296,
+  "fingerprint": "fad02d673c63d413",
+  "rate": "-8%",
+  "voice": "en-US-EricNeural"
+ },
  "b1/climbing": {
   "bytes": 1555200,
   "fingerprint": "eae1e41a74f7fcd4",
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
+ },
+ "b1/detective-story": {
+  "bytes": 1200096,
+  "fingerprint": "95db2478ec5b4b5d",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
  },
  "b1/do-make-livestock-farming": {
   "bytes": 956736,

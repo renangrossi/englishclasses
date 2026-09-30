@@ -1,0 +1,350 @@
+{
+  "id": "b1-reading-christmas-figures",
+  "level": "B1",
+  "slug": "christmas-krampus-grinch",
+  "topic": "culture",
+  "title": "Three Figures of Christmas",
+  "subtitle": "A fourth-century bishop, an Alpine demon and a green creature invented in 1957.",
+  "description": "A B1 reading and listening text on St Nicholas, Krampus and the Grinch — where each came from and what each is for — with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/christmas-krampus-grinch.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "3:45"
+  },
+  "passage": [
+    "Three figures turn up at Christmas, and they could hardly be less alike. One was a real person. One comes from folklore older than anyone can date. One was invented by an American author in 1957. Between them they cover most of what the season seems to be about.",
+    "St Nicholas was a bishop in the city of Myra, in what is now Türkiye, in the fourth century. Very little about his life is documented, but the stories attached to him are consistent about one thing: he gave things away, and he did it quietly. The best known is about three sisters whose family was too poor to provide dowries, which at the time meant they could not marry. Nicholas is said to have thrown bags of gold through their window at night so that nobody would know where the money had come from. His feast day is the sixth of December.",
+    "Over the following centuries that quiet, generous bishop became something else. The Dutch kept him as Sinterklaas, and Dutch settlers carried the name to North America, where it turned into Santa Claus. The red suit, the reindeer, the workshop and the list of who has been good were added gradually by poets, illustrators and, eventually, advertisers. Almost nothing about the modern figure comes from the historical man, except the central idea — that someone arrives in the night and leaves presents.",
+    "Krampus is the other half of the same arrangement. He comes from Alpine folklore, in Austria, southern Germany and neighbouring regions, and he is the reason the reward only means something. He is half goat and half demon, with horns, a long red tongue and chains he drags behind him, and while St Nicholas visits the children who have behaved, Krampus comes for the ones who have not. Depending on which version you hear, he leaves birch twigs, or carries the worst offenders off in a basket.",
+    "In many Alpine towns Krampusnacht, the night of the fifth of December, is still marked with parades. People in carved wooden masks and full fur costumes run through the streets with bells and torches, making as much noise as possible, and they chase spectators — who are, mostly, delighted. It is genuinely frightening if you are small, and it is meant to be. The two figures arrive together, on consecutive nights, and the pairing is the point: generosity means more where there is something to be afraid of.",
+    "The Grinch is the newest of the three and the only one nobody has ever believed in. Dr Seuss created him in 1957 for a picture book, How the Grinch Stole Christmas! He is green, bad-tempered, and lives in a cave on Mount Crumpit above the town of Whoville, whose residents love Christmas in a way he finds unbearable. So he steals it — the trees, the presents, the food, everything — and waits on the mountain to hear them cry.",
+    "They sing instead. The Grinch, listening, works out that Christmas was never in the boxes, and the discovery is what changes him; in the story's most quoted line, his heart grows three sizes that day. He carries everything back down and is given the honour of carving the roast beast.",
+    "It is a neat sequence, taken together. The saint rewards you, the demon punishes you, and the Grinch works out that the whole accounting system was beside the point."
+  ],
+  "vocabulary": [
+    {
+      "term": "folklore",
+      "definition": "the traditional stories and customs of a people"
+    },
+    {
+      "term": "bishop",
+      "definition": "a senior Christian priest with authority over a region"
+    },
+    {
+      "term": "documented",
+      "definition": "recorded in written evidence"
+    },
+    {
+      "term": "consistent",
+      "definition": "in agreement, with no contradiction between versions"
+    },
+    {
+      "term": "dowry",
+      "definition": "money or property a bride's family gave to make a marriage possible",
+      "match": "dowries"
+    },
+    {
+      "term": "feast day",
+      "definition": "the day of the year on which a saint is remembered"
+    },
+    {
+      "term": "settler",
+      "definition": "someone who moves to live in a new country",
+      "match": "settlers"
+    },
+    {
+      "term": "illustrator",
+      "definition": "an artist who draws pictures for books and magazines",
+      "match": "illustrators"
+    },
+    {
+      "term": "to drag",
+      "definition": "to pull something heavy along behind you",
+      "match": "drags"
+    },
+    {
+      "term": "birch",
+      "definition": "a pale-barked tree whose thin twigs were used for punishment"
+    },
+    {
+      "term": "offender",
+      "definition": "someone who has done wrong",
+      "match": "offenders"
+    },
+    {
+      "term": "consecutive",
+      "definition": "following one after another without a gap"
+    },
+    {
+      "term": "spectator",
+      "definition": "someone watching an event",
+      "match": "spectators"
+    },
+    {
+      "term": "bad-tempered",
+      "definition": "easily annoyed; often in a bad mood"
+    },
+    {
+      "term": "unbearable",
+      "definition": "impossible to tolerate"
+    },
+    {
+      "term": "to work something out",
+      "definition": "to come to understand it by thinking",
+      "match": "works out"
+    },
+    {
+      "term": "beside the point",
+      "definition": "irrelevant to what actually matters"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-xmas-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for what the writer says each figure is for.",
+      "items": [
+        {
+          "id": "xm1",
+          "prompt": "What do the stories about St Nicholas consistently agree on?",
+          "options": [
+            "That he gave things away, and did it without being seen",
+            "That he travelled widely",
+            "That he performed miracles"
+          ],
+          "answerIndex": 0,
+          "explanation": "Very little of his life is documented, but the stories are “consistent about one thing: he gave things away, and he did it quietly”."
+        },
+        {
+          "id": "xm2",
+          "prompt": "Why did the three sisters need dowries?",
+          "options": [
+            "To pay their family's debts",
+            "Because without one they could not marry",
+            "To enter a convent"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Too poor to provide dowries, which at the time meant they could not marry.”"
+        },
+        {
+          "id": "xm3",
+          "prompt": "How did St Nicholas become Santa Claus?",
+          "options": [
+            "The Church renamed him in the nineteenth century",
+            "Dr Seuss adapted him for an American audience",
+            "The Dutch kept him as Sinterklaas and settlers carried the name to North America"
+          ],
+          "answerIndex": 2,
+          "explanation": "The red suit, reindeer and workshop were added later “by poets, illustrators and, eventually, advertisers”."
+        },
+        {
+          "id": "xm4",
+          "prompt": "What survives from the historical St Nicholas into the modern Santa?",
+          "options": [
+            "Almost nothing except the idea of someone arriving at night and leaving presents",
+            "The date of his feast day",
+            "His appearance"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated directly — the continuity is in the act, not in any detail of the figure."
+        },
+        {
+          "id": "xm5",
+          "prompt": "Why does the writer say Krampus is “the reason the reward only means something”?",
+          "options": [
+            "Because he is more popular than St Nicholas in the Alps",
+            "Because a reward for good behaviour needs a consequence for bad behaviour to weigh against",
+            "Because he arrives first"
+          ],
+          "answerIndex": 1,
+          "explanation": "The idea is restated at the end of that section: “generosity means more where there is something to be afraid of”."
+        },
+        {
+          "id": "xm6",
+          "prompt": "How does the text describe the reaction of people at a Krampus parade?",
+          "options": [
+            "Mostly delighted, though it is genuinely frightening for small children",
+            "Frightened and eager to get away",
+            "Largely indifferent, since it happens every year"
+          ],
+          "answerIndex": 0,
+          "explanation": "“They chase spectators — who are, mostly, delighted. It is genuinely frightening if you are small, and it is meant to be.”"
+        },
+        {
+          "id": "xm7",
+          "prompt": "What does the Grinch discover?",
+          "options": [
+            "That the people of Whoville had hidden their real presents",
+            "That Christmas was never in the boxes he stole",
+            "That he had been mistaken about who lived in Whoville"
+          ],
+          "answerIndex": 1,
+          "explanation": "He expects crying and hears singing; the singing is what teaches him."
+        },
+        {
+          "id": "xm8",
+          "prompt": "What is the writer's closing point about the three together?",
+          "options": [
+            "That the saint rewards, the demon punishes, and the Grinch realises the whole accounting was beside the point",
+            "That all three are versions of the same original figure",
+            "That only one of them is worth teaching children about"
+          ],
+          "answerIndex": 0,
+          "explanation": "The final paragraph sets them out as a sequence — and the third one overturns the logic of the first two."
+        }
+      ]
+    },
+    {
+      "id": "b1-xmas-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "xmt1",
+          "statement": "St Nicholas was a real historical person.",
+          "answer": true,
+          "explanation": "True — a fourth-century bishop of Myra, though very little about his life is documented."
+        },
+        {
+          "id": "xmt2",
+          "statement": "Krampus and St Nicholas arrive on the same night.",
+          "answer": false,
+          "explanation": "False — they arrive “on consecutive nights”: Krampusnacht is the fifth, and the feast day is the sixth."
+        },
+        {
+          "id": "xmt3",
+          "statement": "Krampus rewards children who have behaved well.",
+          "answer": false,
+          "explanation": "False — that is St Nicholas's role. Krampus comes for the ones who have not."
+        },
+        {
+          "id": "xmt4",
+          "statement": "The Grinch was created in 1957.",
+          "answer": true,
+          "explanation": "True — by Dr Seuss, for the picture book How the Grinch Stole Christmas!"
+        },
+        {
+          "id": "xmt5",
+          "statement": "The Grinch keeps everything he stole.",
+          "answer": false,
+          "explanation": "False — “he carries everything back down” after understanding what he had missed."
+        },
+        {
+          "id": "xmt6",
+          "statement": "The modern image of Santa comes mostly from the historical bishop.",
+          "answer": false,
+          "explanation": "False — “almost nothing about the modern figure comes from the historical man”."
+        }
+      ]
+    },
+    {
+      "id": "b1-xmas-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "xmf1",
+          "prompt": "Very little of his life is ___ — most of what we have is stories.",
+          "answers": [
+            "documented"
+          ],
+          "options": [
+            "documented",
+            "consecutive",
+            "unbearable"
+          ],
+          "explanation": "Documented means recorded in written evidence."
+        },
+        {
+          "id": "xmf2",
+          "prompt": "The two events fall on ___ nights.",
+          "answers": [
+            "consecutive"
+          ],
+          "options": [
+            "consecutive",
+            "documented",
+            "bad-tempered"
+          ],
+          "explanation": "Consecutive means following one after another without a gap."
+        },
+        {
+          "id": "xmf3",
+          "prompt": "He found their singing ___ and left the town.",
+          "answers": [
+            "unbearable"
+          ],
+          "options": [
+            "unbearable",
+            "consistent",
+            "consecutive"
+          ],
+          "explanation": "Unbearable means impossible to tolerate."
+        },
+        {
+          "id": "xmf4",
+          "prompt": "All the versions of the story are ___ on that detail.",
+          "answers": [
+            "consistent"
+          ],
+          "options": [
+            "consistent",
+            "documented",
+            "unbearable"
+          ],
+          "explanation": "Consistent means in agreement, with no contradiction between versions."
+        },
+        {
+          "id": "xmf5",
+          "prompt": "Whether he was rich or poor is ___ ___ ___ — what matters is what he did.",
+          "answers": [
+            "beside",
+            "the",
+            "point"
+          ],
+          "options": [
+            [
+              "beside",
+              "next",
+              "outside"
+            ],
+            [
+              "the",
+              "a",
+              "this"
+            ],
+            [
+              "point",
+              "matter",
+              "issue"
+            ]
+          ],
+          "explanation": "Beside the point means irrelevant to what actually matters — the phrase the text ends on."
+        },
+        {
+          "id": "xmf6",
+          "prompt": "He ___ chains behind him through the street.",
+          "answers": [
+            "drags"
+          ],
+          "options": [
+            "drags",
+            "documents",
+            "settles"
+          ],
+          "explanation": "To drag is to pull something heavy along behind you."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The text says a reward means more when there is also something to fear. Do you agree?",
+    "Almost nothing about modern Santa comes from the real St Nicholas. Does that matter?",
+    "Krampus frightens children deliberately. Is that a reasonable part of a children's tradition?",
+    "Does your country have a Christmas or winter figure that visitors would find strange? Describe it.",
+    "Write about 120 words about a tradition from your childhood, explaining where it came from and what it was actually for."
+  ]
+}

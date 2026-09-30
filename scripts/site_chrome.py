@@ -10,6 +10,17 @@ root, e.g. "../../" for levels/{level}/{lesson}.html (two levels deep,
 matching every existing levels/a1/*.html page).
 """
 
+import html as _html
+
+# The site is served from a project subpath, not a domain root -- every
+# absolute URL below has to keep the /englishclasses/ segment or the link
+# previews point at a 404.
+SITE_ORIGIN = "https://renangrossi.github.io/englishclasses/"
+SITE_NAME = "Renan the Teacher"
+OG_IMAGE = SITE_ORIGIN + "assets/img/og-social-card.jpg"
+OG_IMAGE_ALT = "Renan the Teacher \u2014 English Language Academy"
+OG_IMAGE_W, OG_IMAGE_H = "1200", "630"
+
 LEVELS = [
     ("Pre-A1", "Survival English", "pre-a1"),
     ("A1", "Beginner", "a1"),
@@ -32,25 +43,111 @@ def nav_levels_html(rel, active_level_code):
     return "".join(items)
 
 
-def head(rel, title, description):
+def page_url(page_path):
+    """Absolute https URL for a repo-relative page path ("levels/b2/x.html")."""
+    page_path = str(page_path).replace("\\", "/").lstrip("/")
+    if page_path == "index.html":          # the home page canonicalises to the site root
+        return SITE_ORIGIN
+    return SITE_ORIGIN + page_path
+
+
+def _esc(s):
+    """Escape for an HTML attribute. Everything that reaches a meta tag goes
+    through this -- an unescaped & or " in a title silently truncates the
+    attribute and can cost a crawler the whole tag."""
+    return _html.escape(str(s or ""), quote=True)
+
+
+def preview_text(description, limit=200):
+    """Trim a description to something that reads as a finished sentence.
+
+    36 of the site's meta descriptions were truncated at a fixed character
+    count when they were authored and stop mid-word ("...a handful of very
+    common o"), which is exactly what a WhatsApp card puts under the title.
+    Prefer the last complete sentence; fall back to the last whole word.
+    """
+    s = " ".join(str(description or "").split())
+    if not s:
+        return s
+    if len(s) <= limit and s[-1] in ".!?\u2019\u201d)":
+        return s
+    window = s[:limit]
+    cut = max(window.rfind(". "), window.rfind("! "), window.rfind("? "))
+    if cut >= 60:                       # a sentence break worth keeping
+        return window[:cut + 1]
+    if s[-1] in ".!?\u2019\u201d)" and len(s) <= limit:
+        return s
+    word = window.rfind(" ")
+    trimmed = (window[:word] if word > 0 else window).rstrip(" ,;:-\u2014")
+    return trimmed + "\u2026"
+
+
+def social_meta(page_path, title, description, og_type="website",
+                image=OG_IMAGE, image_alt=OG_IMAGE_ALT):
+    """The canonical link plus the Open Graph and Twitter block for one page.
+
+    Single source of truth: head() below, build_booklet_pages.py and
+    build_social_meta.py all render their tags from here, so the site
+    cannot drift into three slightly different versions of this block.
+
+    `title` is the page's own <title>; the trailing site name is dropped for
+    og:title because og:site_name already carries the brand and link
+    previews truncate hard -- "Paired Expressions - B2 English Grammar"
+    survives where "... - Renan the Teacher" would be cut off.
+    """
+    url = page_url(page_path)
+    og_title = title
+    for suffix in (" \u2014 " + SITE_NAME, " - " + SITE_NAME, " | " + SITE_NAME):
+        if og_title.endswith(suffix):
+            og_title = og_title[: -len(suffix)]
+            break
+    # Lesson descriptions are authored as "Topic: what it teaches"; next to
+    # og:title that prefix just repeats itself in the preview card.
+    og_desc = description
+    # the topic is the part before the first em-dash separator
+    # ("Paired Expressions - B2 English Grammar" -> "Paired Expressions")
+    topic = og_title.split(" \u2014 ")[0].strip()
+    for prefix in (topic + ": ", og_title + ": "):
+        if og_desc.startswith(prefix):
+            og_desc = og_desc[len(prefix):]
+            break
+    og_desc = preview_text(og_desc)
+    return "\n".join([
+        f'<link rel="canonical" href="{_esc(url)}">',
+        f'<meta property="og:type" content="{_esc(og_type)}">',
+        f'<meta property="og:site_name" content="{_esc(SITE_NAME)}">',
+        f'<meta property="og:url" content="{_esc(url)}">',
+        f'<meta property="og:title" content="{_esc(og_title)}">',
+        f'<meta property="og:description" content="{_esc(og_desc)}">',
+        f'<meta property="og:image" content="{_esc(image)}">',
+        f'<meta property="og:image:secure_url" content="{_esc(image)}">',
+        f'<meta property="og:image:type" content="image/jpeg">',
+        f'<meta property="og:image:width" content="{OG_IMAGE_W}">',
+        f'<meta property="og:image:height" content="{OG_IMAGE_H}">',
+        f'<meta property="og:image:alt" content="{_esc(image_alt)}">',
+        f'<meta property="og:locale" content="en_US">',
+        f'<meta name="twitter:card" content="summary_large_image">',
+        f'<meta name="twitter:title" content="{_esc(og_title)}">',
+        f'<meta name="twitter:description" content="{_esc(og_desc)}">',
+        f'<meta name="twitter:image" content="{_esc(image)}">',
+        f'<meta name="twitter:image:alt" content="{_esc(image_alt)}">',
+    ])
+
+
+def head(rel, title, description, page_path=None, og_type="website"):
+    """`page_path` is the page's repo-relative path ("levels/b2/x.html"); it is
+    what og:url and the canonical link are built from, so it must be passed for
+    a page to be shareable. Without it the social block is omitted rather than
+    emitted with a wrong URL."""
+    social = social_meta(page_path, title, description, og_type) if page_path else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{title}</title>
-<meta name="description" content="{description}">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Renan the Teacher">
-<meta property="og:title" content="{title}">
-<meta property="og:description" content="{description}">
-<meta property="og:image" content="https://renangrossi.github.io/englishclasses/assets/img/og-social-card.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{title}">
-<meta name="twitter:description" content="{description}">
-<meta name="twitter:image" content="https://renangrossi.github.io/englishclasses/assets/img/og-social-card.jpg">
+<title>{_esc(title)}</title>
+<meta name="description" content="{_esc(description)}">
+{social}
 <link rel="icon" href="{rel}assets/img/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="{rel}assets/img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">

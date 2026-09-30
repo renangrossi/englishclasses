@@ -31,7 +31,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
-from site_chrome import LEVELS  # noqa: E402
+from site_chrome import LEVELS, social_meta  # noqa: E402
 
 REL = "../"
 START, END = "<!-- booklet:start -->", "<!-- booklet:end -->"
@@ -260,24 +260,19 @@ def build(slug):
     content = content[:cover_end] + "\n" + toolbar(slug, "top") + content[cover_end:]
 
     page_title = f"{title} Grammar Booklet — Renan the Teacher"
+    # canonical/Open Graph/Twitter all come from the one shared builder in
+    # site_chrome, so booklet pages can't drift from the lesson pages
+    social = social_meta(f"cefr/english-classes-{slug}.html", page_title, desc, og_type="article")
+    esc_title = html.escape(page_title, quote=True)
+    esc_desc = html.escape(desc, quote=True)
     doc = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{page_title}</title>
-<meta name="description" content="{desc}">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Renan the Teacher">
-<meta property="og:title" content="{page_title}">
-<meta property="og:description" content="{desc}">
-<meta property="og:image" content="https://renangrossi.github.io/englishclasses/assets/img/og-social-card.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{page_title}">
-<meta name="twitter:description" content="{desc}">
-<meta name="twitter:image" content="https://renangrossi.github.io/englishclasses/assets/img/og-social-card.jpg">
+<title>{esc_title}</title>
+<meta name="description" content="{esc_desc}">
+{social}
 {head.strip()}
 <link rel="stylesheet" href="{REL}assets/css/lessons.css">
 <link rel="stylesheet" href="{REL}assets/css/booklet-print.css">

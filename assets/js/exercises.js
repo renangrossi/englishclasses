@@ -67,6 +67,27 @@
     });
   }
 
+  // Some fill-blank items accept an empty blank as a correct answer -- a
+  // zero relative pronoun ("the book [that] I read"), an elided verb -- by
+  // listing "" among that blank's accepted answers. Leaving such a blank
+  // empty is answering it, so it must not count towards the "Not filled
+  // in." notice, which otherwise told a student who was entirely right
+  // that they hadn't answered, and hid the explanation from them.
+  // `undefined` is a malformed item, not a deliberately empty answer.
+  function acceptsEmpty(accepted) {
+    if (accepted === undefined || accepted === null) return false;
+    var list = Array.isArray(accepted) ? accepted : [accepted];
+    return list.some(function (a) {
+      return norm(a) === "";
+    });
+  }
+
+  // A fill-blank blank counts as answered when it has text, or when it is
+  // one of those blanks whose answer is to leave it empty.
+  function blankAnswered(value, accepted) {
+    return String(value || "").trim().length > 0 || acceptsEmpty(accepted);
+  }
+
   // Author-supplied item ids (e.g. "n5") are only meant to be unique
   // within one exercise block's JSON, and in practice repeat across
   // topics on the same page (Test Yourself pages concatenate many
@@ -722,7 +743,7 @@
         var answers = item.answers || [];
         inputs.forEach(function (inp, i) {
           if (inp.value.trim()) attempted = true;
-          else allFilled = false;
+          if (!blankAnswered(inp.value, answers[i])) allFilled = false;
           var ok = matchesAny(inp.value, answers[i]);
           inp.classList.add(ok ? "is-correct" : "is-incorrect");
           inp.disabled = true;
@@ -1273,8 +1294,15 @@
   function extractFillBlank(itemEl, item) {
     var blanks = itemEl.querySelectorAll(".blank-input");
     var values = Array.prototype.map.call(blanks, function (b) { return b.value; });
-    var attempted = values.some(function (v) { return v && v.trim(); });
     var answers = item.answers || [];
+    // Any typed blank counts as an attempt, exactly as before; the second
+    // clause only adds the case this used to miss -- an item whose every
+    // blank is one that is answered by leaving it empty, which was being
+    // printed as "unanswered" even though it had been graded correct.
+    var attempted = values.some(function (v) { return v && v.trim(); })
+      || (values.length > 0 && values.every(function (v, i) {
+        return blankAnswered(v, answers[i]);
+      }));
     var allCorrect = values.length > 0 && values.every(function (v, i) { return matchesAny(v, answers[i]); });
     var correctText = answers.map(function (a) { return Array.isArray(a) ? a[0] : a; }).join(" · ");
     var userText = values.map(function (v) { return v && v.trim() ? v : "(blank)"; }).join(" / ");

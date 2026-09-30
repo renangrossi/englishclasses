@@ -302,7 +302,24 @@ def listen_and_read(d, level, slug):
         if (i - 1) in headings:
             return '<p class="reading-passage__opener">'
         return "<p>"
-    paras = "\n            ".join(f"{_ptag(i)}{p}</p>" for i, p in enumerate(marked))
+    # Images belong to the page but not to the passage: they are listed
+    # separately in the source JSON and slotted in after the paragraph each
+    # one names. Keeping them out of "passage" means adding a picture never
+    # changes the narration fingerprint, so it never forces a re-record.
+    figures = {}
+    for img in (d.get("images") or []):
+        src = f"{REL}assets/img/reading/{level}/{slug}/{img['src']}"
+        cap = (f'<figcaption>{esc(img["caption"])}</figcaption>'
+               if img.get("caption") else "")
+        figures.setdefault(int(img.get("after", 0)), []).append(
+            f'<figure class="reading-figure">'
+            f'<img src="{src}" alt="{html.escape(img.get("alt", ""), quote=True)}" loading="lazy">'
+            f'{cap}</figure>')
+    blocks = []
+    for i, p in enumerate(marked):
+        blocks.append(f"{_ptag(i)}{p}</p>")
+        blocks.extend(figures.get(i, []))
+    paras = "\n            ".join(blocks)
     # Hovering works on screen, but a printed page has no hover, and the
     # on-page vocabulary list is gone -- so the definitions come back as a
     # glossary that only exists in print.

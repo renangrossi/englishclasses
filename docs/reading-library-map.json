@@ -263,7 +263,7 @@
       "topic": "culture",
       "action": "EDIT",
       "audio": "exists",
-      "reason": "Text points at images that do not survive conversion ('Here is a chilling traditional image of Krampus'). Rewrite those references out. — DONE: The references to images that do not survive conversion ('Here is some classic depiction', 'Here is a chilling traditional image of Krampus') are gone. The source also broke off mid-Grinch; the section is completed and the three figures are tied together.",
+      "reason": "Text points at images that do not survive conversion ('Here is a chilling traditional image of Krampus'). Rewrite those references out. — DONE: The clumsy in-text pointers ('Here is a chilling traditional image of Krampus') are gone, but the pictures themselves are now carried properly as figures with captions — the St Nicholas fresco and the Krampuskarte. The Grinch still from the 1966 television special was left out: it is the one image here still in copyright. The source also broke off mid-Grinch; the section is completed and the three figures are tied together.",
       "status": "IMPLEMENTED",
       "card_title": "Christmas Krampus Grinch",
       "source_files": [

@@ -34,6 +34,14 @@ REL = "../../"
 STAR = ('<svg class="" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">'
         '<path d="m12 2 2.9 6.9 7.1.6-5.4 4.7 1.6 7L12 17.5 5.8 21.2l1.6-7L2 9.5l7.1-.6Z"/></svg>')
 STARS_ROW = f'<div class="stars-row stars-row--onlight" aria-hidden="true">{STAR * 11}</div>'
+PRINTER_SVG = ('<svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" '
+               'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+               '<path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>'
+               '<path d="M6 14h12v8H6Z"/></svg>')
+# The reading page *is* the document now -- the per-text PDFs it replaced have
+# been deleted -- so every page carries its own "Print / Save as PDF".
+PRINT_BTN = (f'<button type="button" class="btn btn--ghost btn--small print-hidden" data-print-page>'
+             f'{PRINTER_SVG}Print / Save as PDF</button>')
 
 
 def esc(s):
@@ -50,6 +58,7 @@ def page_header(d):
                 <p class="eyebrow hero__eyebrow">{eyebrow}</p>
                 <h1>{esc(d['title'])}</h1>
                 <p class="page-header__lede">{esc(d['subtitle'])}</p>
+                <p class="page-header__actions" style="margin-top:var(--space-md);">{PRINT_BTN}</p>
             </div>
         </div>
     </div>"""

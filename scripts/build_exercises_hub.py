@@ -32,9 +32,6 @@ DOC_SVG = ('<svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
            'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
            '<path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z"/><path d="M15 2v5h5"/></svg>')
 WORD_SVG = DOC_SVG.replace('<path d="M15 2v5h5"/>', '<path d="M15 2v5h5"/><path d="M8 15h8"/>')
-AUDIO_SVG = ('<svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" '
-             'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
-             '<path d="M3 12h2v2H3zM7 8h2v10H7zM11 5h2v16h-2zM15 9h2v8h-2zM19 11h2v4h-2z"/></svg>')
 READ_SVG = ('<svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" '
             'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
             '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>'
@@ -87,14 +84,6 @@ LEVEL_INFO = {
     },
 }
 
-GENRE_NOTE = {
-    "drill": "Grammar practice",
-    "discussion": "Speaking prompts",
-    "reference": "Reference",
-    "dialogue": "Dialogue",
-    "reading": "Reading",
-}
-
 
 def esc(s):
     return html.escape(str(s), quote=False)
@@ -116,17 +105,14 @@ def built_card(level, slug, d, n):
     which is what makes splits (one source -> several pages) and merges
     (several sources -> one page) list correctly."""
     page = f"reading/{level}/{slug}.html"
-    has_audio = (rc.audio_path(level, slug)).exists()
-    badge = f'<span class="badge badge--audio"> {AUDIO_SVG}Audio</span>' if has_audio else ""
-    note = GENRE_NOTE.get(d.get("genre", "reading"), "Reading")
-    dur = d.get("audio", {}).get("duration_label", "")
-    meta = f"{note}{' &middot; ' + esc(dur) if dur else ''}{badge}"
+    # One button and nothing else. The genre, the running time and an "Audio"
+    # badge used to sit under it on their own line, which crowded the card for
+    # information the reading page itself states the moment you open it.
     return (f'<article class="lesson-card" id="ex-{esc(slug)}">'
             f'<span class="lesson-card__index" aria-hidden="true">{roman(n)}</span>'
             f"<h3>{esc(d['title'])}</h3><p>{esc(d['subtitle'])}</p>"
             f'<div class="lesson-card__actions">'
             f'<a class="btn btn--accent btn--small" href="{page}">{READ_SVG}Read &amp; Listen</a></div>'
-            f'<p class="lesson-card__meta" style="color:var(--color-text-muted);font-size:var(--step--1);margin-top:auto;">{meta}</p>'
             f"</article>")
 
 

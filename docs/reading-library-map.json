@@ -322,14 +322,15 @@
    "level": "A2",
    "topic": "food",
    "action": "KEEP",
-   "audio": "required",
+   "audio": "exists",
    "reason": "Well-formed procedural text; good imperative/sequencing practice.",
-   "status": "NOT STARTED",
-   "card_title": "Coffee Brewing",
-   "card_desc": "Exercises on coffee preparation techniques and vocabulary.",
+   "status": "IMPLEMENTED",
+   "card_title": "How to Brew Good Coffee",
+   "card_desc": "A step-by-step guide, and a model for giving instructions in English.",
    "source_files": [
     "cefr/texts/coffee-brewing.pdf"
-   ]
+   ],
+   "page": "reading/a2/coffee-brewing.html"
   },
   {
    "slug": "common-chores",
@@ -626,14 +627,15 @@
    "action": "KEEP",
    "audio": "exists",
    "reason": "Simple, natural past-tense narrative. Has 2 mp3 segments.",
-   "status": "NOT STARTED",
-   "card_title": "Hiking in the Mountains",
-   "card_desc": "Exercises on hiking terminology and mountain adventure scenarios.",
+   "status": "IMPLEMENTED",
+   "card_title": "A Day Hiking in the Mountains",
+   "card_desc": "A simple past-tense narrative about one long day outdoors.",
    "source_files": [
     "cefr/texts/hiking-in-the-mountains.pdf",
     "cefr/texts/hiking-in-the-mountains01.mp3",
     "cefr/texts/hiking-in-the-mountains02.mp3"
-   ]
+   ],
+   "page": "reading/a2/hiking-in-the-mountains.html"
   },
   {
    "slug": "interrogative-exercises",
@@ -1164,17 +1166,17 @@
    "genre": "reading",
    "level": "A2",
    "topic": "everyday",
-   "action": "MERGE",
-   "audio": "required",
-   "merge_into": "the-day-at-the-market",
-   "reason": "This is the same text as the-day-at-the-market ('A Day at the Market') with say/tell verbs foregrounded. One text, two files.",
-   "status": "NOT STARTED",
-   "card_title": "Say, Speak, Talk, Tell &mdash; A Day at the Market",
-   "card_desc": "Practice say, speak, talk and tell in a market-day story.",
+   "action": "REPLACE",
+   "audio": "exists",
+   "reason": "AUDIT CORRECTION: first classified as a duplicate of the-day-at-the-market because the two share the title 'A Day at the Market'. They are in fact different texts — that one is a present-simple habitual description, this one a past-tense narrative built around say/tell/speak/talk and quantifiers. Keeping both as market texts would still have been repetitive, so the teaching point was preserved and re-set in a new workplace context, which also serves the brief's workplace-English focus.",
+   "status": "IMPLEMENTED",
+   "card_title": "My First Week at Work",
+   "card_desc": "The difference between say, tell, speak and talk, in a situation where you need all four.",
    "source_files": [
     "cefr/texts/say-speak-talk-tell.pdf"
    ],
-   "card_id": "say-speak-talk-tell-a-day-at-the-market"
+   "card_id": "say-speak-talk-tell-a-day-at-the-market",
+   "page": "reading/a2/saying-and-telling.html"
   },
   {
    "slug": "say-speak-talk-tell-02",
@@ -1392,14 +1394,15 @@
    "level": "A2",
    "topic": "everyday",
    "action": "KEEP",
-   "audio": "required",
-   "reason": "Simple, natural, well-levelled. Serves as the merge target for say-speak-talk-tell.",
-   "status": "NOT STARTED",
-   "card_title": "The Day at the Market",
-   "card_desc": "Exercises on market-related vocabulary and scenarios.",
+   "audio": "exists",
+   "reason": "Simple, natural and well-levelled present-simple description. Lightly edited: the friend is named, the market is identified as a farmers market, and the American 'stand' is used alongside 'stall'.",
+   "status": "IMPLEMENTED",
+   "card_title": "A Saturday at the Market",
+   "card_desc": "A weekly routine at the farmers market, and the food vocabulary that goes with it.",
    "source_files": [
     "cefr/texts/the-day-at-the-market.pdf"
-   ]
+   ],
+   "page": "reading/a2/the-day-at-the-market.html"
   },
   {
    "slug": "travel-dialogues",
@@ -1577,7 +1580,8 @@
   }
  ],
  "_progress": {
-  "implemented": 1,
+  "implemented": 5,
+  "merged_away": 0,
   "total": 98
  }
 }

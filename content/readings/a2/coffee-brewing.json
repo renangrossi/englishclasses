@@ -1,0 +1,269 @@
+{
+  "id": "a2-reading-coffee-brewing",
+  "level": "A2",
+  "slug": "coffee-brewing",
+  "topic": "food",
+  "title": "How to Brew Good Coffee",
+  "subtitle": "A step-by-step guide — and a useful model for giving instructions in English.",
+  "description": "An A2 reading and listening text explaining how to brew coffee step by step, with practice in imperatives, sequencing words and kitchen vocabulary.",
+  "source": "cefr/texts/coffee-brewing.docx",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "2:06"
+  },
+  "passage": [
+    "Brewing coffee means getting the flavor and the smell out of ground coffee beans by adding hot water. It sounds simple, and it is — but a few small choices make the difference between a good cup and a disappointing one. Here are the steps.",
+    "First, grind the beans. Use fresh beans if you can, and grind them just before you brew. How fine you grind them depends on your method: a French press needs a coarse grind, while an espresso machine needs a very fine one.",
+    "Next, heat the water. The best temperature is between 195 and 205 degrees Fahrenheit, which is just below boiling. If the water is boiling hot, it burns the coffee and the taste turns bitter.",
+    "Then prepare the filter. If you are using a paper filter, put it in the basket and pour a little hot water through it. This washes out the taste of the paper and warms up the pot at the same time.",
+    "Now add the coffee. A good rule of thumb is one to two tablespoons of ground coffee for every six ounces of water. Use more if you like it strong, less if you like it mild.",
+    "Pour the water slowly over the grounds, moving in a circle so that all the coffee gets wet. Stop after a few seconds and wait about half a minute. The coffee will rise and bubble a little — this is called the bloom — and then you can add the rest of the water.",
+    "How long you wait depends on the method. A French press takes four to five minutes. Drip coffee takes two to four. An espresso machine needs only twenty to thirty seconds.",
+    "Finally, take out the filter, throw away the grounds, and pour the coffee into a mug. Drink it while it is hot.",
+    "The taste of your coffee depends on the beans, the grind, the water temperature and the time. Change one thing at a time, and you will soon find the cup you like best."
+  ],
+  "vocabulary": [
+    {
+      "term": "to grind",
+      "definition": "to break something into very small pieces or powder"
+    },
+    {
+      "term": "coarse / fine",
+      "definition": "in large pieces / in very small pieces"
+    },
+    {
+      "term": "to brew",
+      "definition": "to make coffee or tea with hot water"
+    },
+    {
+      "term": "bitter",
+      "definition": "a sharp, unpleasant taste, like very strong coffee"
+    },
+    {
+      "term": "mild",
+      "definition": "not strong"
+    },
+    {
+      "term": "the grounds",
+      "definition": "the wet coffee that is left after brewing"
+    },
+    {
+      "term": "a rule of thumb",
+      "definition": "a simple, approximate rule that usually works"
+    },
+    {
+      "term": "a tablespoon",
+      "definition": "a large spoon used for measuring in cooking"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-coffee-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the text.",
+      "items": [
+        {
+          "id": "cb1",
+          "prompt": "What does a French press need?",
+          "options": [
+            "A coarse grind",
+            "A fine grind",
+            "No grinding at all"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"A French press needs a coarse grind, while an espresso machine needs a very fine one.\""
+        },
+        {
+          "id": "cb2",
+          "prompt": "What happens if the water is boiling hot?",
+          "options": [
+            "The coffee gets cold",
+            "It burns the coffee and the taste turns bitter",
+            "Nothing changes"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text warns that boiling water burns the coffee and makes it bitter. The best range is 195–205°F, just below boiling."
+        },
+        {
+          "id": "cb3",
+          "prompt": "Why do you pour hot water through a paper filter first?",
+          "options": [
+            "To make the coffee stronger",
+            "To wash out the paper taste and warm the pot",
+            "To measure the water"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"This washes out the taste of the paper and warms up the pot at the same time.\""
+        },
+        {
+          "id": "cb4",
+          "prompt": "How much coffee for six ounces of water?",
+          "options": [
+            "One or two tablespoons",
+            "Five tablespoons",
+            "Half a cup"
+          ],
+          "answerIndex": 0,
+          "explanation": "The rule of thumb given is one to two tablespoons per six ounces."
+        },
+        {
+          "id": "cb5",
+          "prompt": "What is 'the bloom'?",
+          "options": [
+            "The smell of the coffee",
+            "When the coffee rises and bubbles after the first water",
+            "The last drop of coffee"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"The coffee will rise and bubble a little — this is called the bloom.\""
+        },
+        {
+          "id": "cb6",
+          "prompt": "Which method is the fastest?",
+          "options": [
+            "French press",
+            "Drip coffee",
+            "Espresso machine"
+          ],
+          "answerIndex": 2,
+          "explanation": "An espresso machine takes only 20–30 seconds; a French press takes 4–5 minutes."
+        },
+        {
+          "id": "cb7",
+          "prompt": "What advice does the text give at the end?",
+          "options": [
+            "Always use the same method",
+            "Change one thing at a time",
+            "Buy an expensive machine"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Change one thing at a time, and you will soon find the cup you like best.\""
+        }
+      ]
+    },
+    {
+      "id": "a2-coffee-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each sentence matches the text.",
+      "items": [
+        {
+          "id": "cbt1",
+          "statement": "You should grind the beans a day before you brew.",
+          "answer": false,
+          "explanation": "False — \"grind them just before you brew.\""
+        },
+        {
+          "id": "cbt2",
+          "statement": "The best water temperature is just below boiling.",
+          "answer": true,
+          "explanation": "True — between 195 and 205 degrees Fahrenheit, which is just below boiling."
+        },
+        {
+          "id": "cbt3",
+          "statement": "You should pour all the water at once.",
+          "answer": false,
+          "explanation": "False — pour slowly in a circle, stop for the bloom, then add the rest."
+        },
+        {
+          "id": "cbt4",
+          "statement": "Drip coffee takes longer than a French press.",
+          "answer": false,
+          "explanation": "False — drip takes 2–4 minutes, a French press 4–5."
+        },
+        {
+          "id": "cbt5",
+          "statement": "Using more coffee makes a stronger cup.",
+          "answer": true,
+          "explanation": "True — \"Use more if you like it strong, less if you like it mild.\""
+        },
+        {
+          "id": "cbt6",
+          "statement": "The text says to change several things at once to improve your coffee.",
+          "answer": false,
+          "explanation": "False — it advises changing one thing at a time."
+        }
+      ]
+    },
+    {
+      "id": "a2-coffee-vocabulary",
+      "type": "fill-blank",
+      "title": "Coffee Vocabulary",
+      "instructions": "Choose the word that fits.",
+      "items": [
+        {
+          "id": "cbf1",
+          "prompt": "If you leave the coffee too long, it tastes ___.",
+          "answers": [
+            "bitter"
+          ],
+          "options": [
+            "bitter",
+            "mild",
+            "fresh"
+          ],
+          "explanation": "Bitter is the sharp, unpleasant taste of over-brewed or burnt coffee. Mild is the opposite of strong."
+        },
+        {
+          "id": "cbf2",
+          "prompt": "Throw away the wet ___ when you finish.",
+          "answers": [
+            "grounds"
+          ],
+          "options": [
+            "grounds",
+            "beans",
+            "filters"
+          ],
+          "explanation": "The grounds are the wet coffee left after brewing. Beans are what you grind before."
+        },
+        {
+          "id": "cbf3",
+          "prompt": "A good ___ of thumb is two tablespoons per cup.",
+          "answers": [
+            "rule"
+          ],
+          "options": [
+            "rule",
+            "step",
+            "part"
+          ],
+          "explanation": "A rule of thumb is a simple approximate rule."
+        },
+        {
+          "id": "cbf4",
+          "prompt": "Please ___ the beans just before you make the coffee.",
+          "answers": [
+            "grind"
+          ],
+          "options": [
+            "grind",
+            "brew",
+            "pour"
+          ],
+          "explanation": "You grind beans into powder; you brew the coffee afterwards."
+        },
+        {
+          "id": "cbf5",
+          "prompt": "I don't like strong coffee — I prefer it ___.",
+          "answers": [
+            "mild"
+          ],
+          "options": [
+            "mild",
+            "coarse",
+            "bitter"
+          ],
+          "explanation": "Mild means not strong."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "How do you make coffee or tea at home? Explain your method in five steps, using 'first', 'next', 'then' and 'finally'.",
+    "Coffee is a daily habit for many Americans. What is the equivalent daily habit where you live?",
+    "Explain how to cook or make something you know well, in about eight sentences. Use imperatives: 'Add…', 'Heat…', 'Wait…'.",
+    "Do small details really change the result, in cooking or in your own work? Give an example."
+  ]
+}

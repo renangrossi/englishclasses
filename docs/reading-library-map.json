@@ -1432,14 +1432,15 @@
       "level": "B2",
       "topic": "literature",
       "action": "SPLIT",
-      "audio": "required",
-      "reason": "Multiple fables in one file. Split per fable; keep the literary register but gloss the archaic phrasing.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Multiple fables in one file. Split per fable; keep the literary register but gloss the archaic phrasing. — DONE: split into three themed pages rather than seven — what-we-tell-ourselves (fox, dog), what-groups-are-for (sons, travelers, mice) and slow-and-steady (grasshopper, tortoise). VERDICT NOTE: the audit said split per fable, but a fable is a 200-word form and a page holding one is too thin to carry a reading, audio and exercises; grouping by theme also lets the closing paragraphs argue across the fables, which is where the real B2 work is. Archaic phrasing glossed as vocabulary rather than modernised away. Seven Doré, Crane, Bewick and Winter illustrations carried over from the .docx; the eighth was a Warner Bros. cartoon still and was left out on copyright grounds.",
+      "status": "IMPLEMENTED",
       "card_title": "Text Interpretation Aesops Fables",
       "card_desc": "Exercises on interpreting Aesop&#x27;s Fables, with answers provided.",
       "source_files": [
         "cefr/texts/text-interpretation-aesops-fables.pdf"
-      ]
+      ],
+      "page": "reading/b2/aesop-what-we-tell-ourselves.html"
     },
     {
       "slug": "the-day-at-the-market",

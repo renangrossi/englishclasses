@@ -1,0 +1,399 @@
+{
+  "id": "b1-reading-my-life-and-plans",
+  "level": "B1",
+  "slug": "my-life-and-plans",
+  "topic": "everyday",
+  "title": "My Life and Plans",
+  "subtitle": "One student, six tenses — and the reason English needs all of them.",
+  "description": "A B1 reading and listening text moving through present, past, continuous, perfect and future forms in a single account, with a mixed-tense exercise and comprehension questions.",
+  "source": "cefr/texts/two-texts-sp-to-pp.docx + two-texts-sp-to-pp-ii.docx",
+  "provenance": "merged",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "2:01"
+  },
+  "passage": [
+    "Every day I start the morning with a coffee. I love the smell of it more than the taste, honestly, and it makes me feel ready for whatever the day contains. That is the routine, and it has not changed in about four years.",
+    "Yesterday I tried a new place near the station. It was better than my usual one and slightly more expensive, which is how these things generally work. While I was sitting there I was reading a book about travelling in Japan, and I stayed about forty minutes longer than I had intended, because the chapter was good and nobody asked me to leave.",
+    "Right now I am working on a project for my course. My classmates and I are meeting every Wednesday to plan it, which sounds more organised than it is. We have finished about half of it already and it has gone better than any of us expected, mostly because we divided the work early instead of arguing about it for three weeks first.",
+    "Last month we presented an outline to our tutor. She had read it beforehand — which not all of them do — and she came with actual questions, two of which we could not answer. That was uncomfortable and it improved the project considerably.",
+    "I have been studying English for six years now, on and off. The “off” parts are the problem: I stopped twice for about a year each time, and both times I lost more than I expected and had to go back over old ground. Since January I have kept it going without a break, which is the longest I have managed.",
+    "Next summer I am going to travel, and this time it is arranged rather than imagined — the flights are booked. I will be somewhere in Southeast Asia for six weeks, and by the time I come back I will have finished my course. I am slightly afraid of the moment when both of those things are over at once and I have to decide what happens next.",
+    "But that is next year's problem. This evening I am meeting the group again, and we are going to argue about the final section, and somebody is going to suggest starting it from the beginning, and we are not going to do that."
+  ],
+  "vocabulary": [
+    {
+      "term": "routine",
+      "definition": "the fixed pattern of what you usually do"
+    },
+    {
+      "term": "to intend",
+      "definition": "to plan to do something",
+      "match": "intended"
+    },
+    {
+      "term": "organised",
+      "definition": "arranged in a planned and orderly way"
+    },
+    {
+      "term": "to divide",
+      "definition": "to share something out between people",
+      "match": "divided"
+    },
+    {
+      "term": "outline",
+      "definition": "a short plan showing the main points of something"
+    },
+    {
+      "term": "tutor",
+      "definition": "a teacher who supervises a student's work"
+    },
+    {
+      "term": "beforehand",
+      "definition": "in advance of the event"
+    },
+    {
+      "term": "uncomfortable",
+      "definition": "causing unease or embarrassment"
+    },
+    {
+      "term": "considerably",
+      "definition": "by a large amount"
+    },
+    {
+      "term": "on and off",
+      "definition": "with interruptions; not continuously"
+    },
+    {
+      "term": "to go back over",
+      "definition": "to repeat work you have already done",
+      "match": "go back over"
+    },
+    {
+      "term": "old ground",
+      "definition": "material you have covered before"
+    },
+    {
+      "term": "to keep something going",
+      "definition": "to continue something without letting it stop",
+      "match": "kept it going"
+    },
+    {
+      "term": "arranged",
+      "definition": "fixed and agreed in advance"
+    },
+    {
+      "term": "to suggest",
+      "definition": "to put an idea forward for consideration"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-mlp-tenses",
+      "type": "fill-blank",
+      "title": "Six Tenses in One Story",
+      "instructions": "Each sentence needs a different form. The time expression is usually the clue.",
+      "items": [
+        {
+          "id": "ml1",
+          "prompt": "Every day I ___ the morning with a coffee.",
+          "answers": [
+            "start"
+          ],
+          "options": [
+            "start",
+            "am starting",
+            "started"
+          ],
+          "explanation": "Present simple: a routine, marked by “every day”."
+        },
+        {
+          "id": "ml2",
+          "prompt": "Yesterday I ___ a new place and it ___ better than my usual one.",
+          "answers": [
+            "tried",
+            "was"
+          ],
+          "options": [
+            [
+              "tried",
+              "have tried",
+              "try"
+            ],
+            [
+              "was",
+              "has been",
+              "is"
+            ]
+          ],
+          "explanation": "Past simple throughout — “yesterday” is finished time and blocks the present perfect."
+        },
+        {
+          "id": "ml3",
+          "prompt": "While I ___ there, I ___ a book about Japan.",
+          "answers": [
+            "was sitting",
+            "was reading"
+          ],
+          "options": [
+            [
+              "was sitting",
+              "sat",
+              "have sat"
+            ],
+            [
+              "was reading",
+              "read",
+              "have read"
+            ]
+          ],
+          "explanation": "Past continuous for two activities in progress at the same past moment, introduced by “while”."
+        },
+        {
+          "id": "ml4",
+          "prompt": "Right now I ___ on a project, and my classmates and I ___ every Wednesday.",
+          "answers": [
+            "am working",
+            "are meeting"
+          ],
+          "options": [
+            [
+              "am working",
+              "work",
+              "worked"
+            ],
+            [
+              "are meeting",
+              "meet",
+              "met"
+            ]
+          ],
+          "explanation": "Present continuous for now, and again for a temporary repeated arrangement during this project."
+        },
+        {
+          "id": "ml5",
+          "prompt": "We ___ about half of it already.",
+          "answers": [
+            "have finished"
+          ],
+          "options": [
+            "have finished",
+            "finished",
+            "are finishing"
+          ],
+          "explanation": "Present perfect: a result that stands now. “Already” is a strong signal for it."
+        },
+        {
+          "id": "ml6",
+          "prompt": "She ___ it beforehand, so she came with real questions.",
+          "answers": [
+            "had read"
+          ],
+          "options": [
+            "had read",
+            "has read",
+            "read"
+          ],
+          "explanation": "Past perfect: an action completed before another past action. This is the one the past simple cannot express."
+        },
+        {
+          "id": "ml7",
+          "prompt": "I ___ English for six years now.",
+          "answers": [
+            "have been studying"
+          ],
+          "options": [
+            "have been studying",
+            "study",
+            "studied"
+          ],
+          "explanation": "Present perfect continuous for an activity running from the past into the present, with a duration."
+        },
+        {
+          "id": "ml8",
+          "prompt": "Next summer I ___ ___ ___ travel — the flights are booked.",
+          "answers": [
+            "am",
+            "going",
+            "to"
+          ],
+          "options": [
+            [
+              "am",
+              "will",
+              "was"
+            ],
+            [
+              "going",
+              "go",
+              "gone"
+            ],
+            [
+              "to",
+              "for",
+              "and"
+            ]
+          ],
+          "explanation": "Going to for an intention already arranged. “Will travel” would sound like a decision made as you speak."
+        },
+        {
+          "id": "ml9",
+          "prompt": "By the time I come back, I ___ ___ ___ my course.",
+          "answers": [
+            "will",
+            "have",
+            "finished"
+          ],
+          "options": [
+            [
+              "will",
+              "am",
+              "was"
+            ],
+            [
+              "have",
+              "has",
+              "had"
+            ],
+            [
+              "finished",
+              "finish",
+              "finishing"
+            ]
+          ],
+          "explanation": "Future perfect: complete before a stated future point. “By the time” is the usual trigger."
+        }
+      ]
+    },
+    {
+      "id": "b1-mlp-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the sense of what is said.",
+      "items": [
+        {
+          "id": "mc1",
+          "prompt": "Why did the writer stay longer than intended at the new café?",
+          "options": [
+            "The chapter was good and nobody asked her to leave",
+            "She was waiting for a friend",
+            "The weather was bad outside"
+          ],
+          "answerIndex": 0,
+          "explanation": "Both halves matter — the second is a small joke about how long you can occupy a table."
+        },
+        {
+          "id": "mc2",
+          "prompt": "Why has the project gone better than expected?",
+          "options": [
+            "The tutor gave detailed instructions",
+            "They divided the work early instead of arguing about it first",
+            "They started earlier than other groups"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Instead of arguing about it for three weeks first” — the implication being that this is what usually happens."
+        },
+        {
+          "id": "mc3",
+          "prompt": "Why was the meeting with the tutor “uncomfortable”?",
+          "options": [
+            "She had not read the outline",
+            "She asked two questions they could not answer",
+            "She rejected the whole plan"
+          ],
+          "answerIndex": 1,
+          "explanation": "And the writer adds that it “improved the project considerably” — the discomfort was the useful part."
+        },
+        {
+          "id": "mc4",
+          "prompt": "What does the writer say about the two breaks from studying English?",
+          "options": [
+            "They were necessary rests",
+            "They made no real difference",
+            "Both times she lost more than expected and had to repeat old ground"
+          ],
+          "answerIndex": 2,
+          "explanation": "“The ‘off' parts are the problem” — which is why keeping it going since January matters to her."
+        },
+        {
+          "id": "mc5",
+          "prompt": "Why does the writer say the travel plan is “arranged rather than imagined”?",
+          "options": [
+            "The flights are booked",
+            "She has saved the money",
+            "Her classmates are going too"
+          ],
+          "answerIndex": 0,
+          "explanation": "The booked flight is what converts an intention into an arrangement — and the grammar changes with it."
+        },
+        {
+          "id": "mc6",
+          "prompt": "What is she “slightly afraid of”?",
+          "options": [
+            "Travelling alone for six weeks",
+            "Failing the course",
+            "The moment when the trip and the course both end and she has to decide what comes next"
+          ],
+          "answerIndex": 2,
+          "explanation": "The fear is not about either event but about their coinciding."
+        },
+        {
+          "id": "mc7",
+          "prompt": "What is the joke in the final sentence?",
+          "options": [
+            "That the group has already finished the work",
+            "That she knows exactly how the meeting will go, including the bad suggestion and its rejection",
+            "That she is not going to attend"
+          ],
+          "answerIndex": 1,
+          "explanation": "Three predictions in a row, each in a future form, and the last one flatly refuses the suggestion before it is made."
+        }
+      ]
+    },
+    {
+      "id": "b1-mlp-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "mt1",
+          "statement": "The writer prefers the smell of coffee to the taste.",
+          "answer": true,
+          "explanation": "True — “more than the taste, honestly”."
+        },
+        {
+          "id": "mt2",
+          "statement": "The new café was cheaper than her usual one.",
+          "answer": false,
+          "explanation": "False — better and “slightly more expensive, which is how these things generally work”."
+        },
+        {
+          "id": "mt3",
+          "statement": "The tutor had not read the outline in advance.",
+          "answer": false,
+          "explanation": "False — she had, “which not all of them do”."
+        },
+        {
+          "id": "mt4",
+          "statement": "She has studied English continuously for six years.",
+          "answer": false,
+          "explanation": "False — “on and off”, with two breaks of about a year each."
+        },
+        {
+          "id": "mt5",
+          "statement": "Her course will be finished before she returns from travelling.",
+          "answer": true,
+          "explanation": "True — “by the time I come back I will have finished my course”."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The writer says the breaks cost her more than she expected. Have you lost a skill by stopping, and how long did it take to recover?",
+    "Her group divided the work early rather than arguing first. Which approach do groups you have worked in actually take?",
+    "“That was uncomfortable and it improved the project considerably.” When has that been true for you?",
+    "Describe your own life in six sentences, using a different tense in each.",
+    "Write about 150 words about your plans for next year, distinguishing what is arranged from what you only intend."
+  ]
+}

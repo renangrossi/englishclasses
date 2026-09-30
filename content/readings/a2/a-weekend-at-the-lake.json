@@ -1,0 +1,505 @@
+{
+  "id": "a2-reading-weekend-at-the-lake",
+  "level": "A2",
+  "slug": "a-weekend-at-the-lake",
+  "topic": "everyday",
+  "title": "A Weekend at the Lake",
+  "subtitle": "What happened last Saturday, what is happening now, and what the family will do next time.",
+  "description": "An A2 reading and listening text about a family day at the lake, written to practise the past simple, the present continuous and the future, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/simple-past-+-present-continuous-+-future-1.docx + -2.docx",
+  "provenance": "merged",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "1:51"
+  },
+  "passage": [
+    "Last Saturday morning, my family decided to go to the lake. We packed sandwiches, water and a big blanket, and Dad started the car before eight o'clock. On the way, my little brother saw a deer at the edge of the forest, and Mom took about twenty photos of it with her phone. Only two of them were any good.",
+    "When we arrived, the sun was shining and the water was completely still. I ran down and jumped straight in, which was a mistake, because the lake in May is much colder than it looks. My sister swam all the way out to the small island without stopping. Dad fished for two hours and caught two fish, and then put them both back, which my brother did not understand at all.",
+    "We ate at about one o'clock. My brother dropped his sandwich in the sand and cried for five minutes, and then ate half of mine instead. In the afternoon we lay on the blanket and nobody spoke very much. It was the best day we have had this year.",
+    "Right now I am sitting at the kitchen table and writing this, and I can hear my brother in the next room. He is telling my grandmother about the deer, and the deer is getting larger every time he describes it. My sister is looking at the photographs on the computer and complaining that Mom's finger is in most of them. Mom is not listening. She is making dinner and pretending she cannot hear.",
+    "Next weekend we are going back. Dad says he will take the small boat this time, and my sister says she will swim to the island again and I will not manage it, which is probably true. My brother is going to look for the deer, and he will be disappointed, and then he will find something else instead. He always does."
+  ],
+  "vocabulary": [
+    {
+      "term": "to pack",
+      "definition": "to put things into a bag or box before a journey",
+      "match": "packed"
+    },
+    {
+      "term": "blanket",
+      "definition": "a large piece of cloth, here to sit on"
+    },
+    {
+      "term": "edge",
+      "definition": "the outer part or border of something"
+    },
+    {
+      "term": "deer",
+      "definition": "a wild animal with long legs that lives in forests"
+    },
+    {
+      "term": "still",
+      "definition": "not moving at all"
+    },
+    {
+      "term": "to jump in",
+      "definition": "to enter water quickly with your whole body",
+      "match": "jumped straight in"
+    },
+    {
+      "term": "to fish",
+      "definition": "to try to catch fish",
+      "match": "fished"
+    },
+    {
+      "term": "to catch",
+      "definition": "to take hold of something moving",
+      "match": "caught"
+    },
+    {
+      "term": "to drop",
+      "definition": "to let something fall",
+      "match": "dropped"
+    },
+    {
+      "term": "to lie",
+      "definition": "to rest flat on a surface",
+      "match": "lay"
+    },
+    {
+      "term": "to describe",
+      "definition": "to say what something is like",
+      "match": "describes"
+    },
+    {
+      "term": "to complain",
+      "definition": "to say you are not happy about something",
+      "match": "complaining"
+    },
+    {
+      "term": "to pretend",
+      "definition": "to act as if something is true when it is not",
+      "match": "pretending"
+    },
+    {
+      "term": "to manage",
+      "definition": "to succeed in doing something difficult"
+    },
+    {
+      "term": "disappointed",
+      "definition": "sad because something was not as good as you hoped"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-lake-past",
+      "type": "fill-blank",
+      "title": "Part A — The Past Simple",
+      "instructions": "This part is about last Saturday, so every verb is in the past simple. Careful: several of them are irregular.",
+      "items": [
+        {
+          "id": "lp1",
+          "prompt": "Last Saturday my family ___ to go to the lake.",
+          "answers": [
+            "decided"
+          ],
+          "options": [
+            "decided",
+            "decide",
+            "deciding"
+          ],
+          "explanation": "A regular verb: decide becomes decided."
+        },
+        {
+          "id": "lp2",
+          "prompt": "We ___ sandwiches and Dad ___ the car.",
+          "answers": [
+            "packed",
+            "started"
+          ],
+          "options": [
+            [
+              "packed",
+              "packs",
+              "packing"
+            ],
+            [
+              "started",
+              "starts",
+              "starting"
+            ]
+          ],
+          "explanation": "Both regular, both taking -ed."
+        },
+        {
+          "id": "lp3",
+          "prompt": "My brother ___ a deer and Mom ___ photos of it.",
+          "answers": [
+            "saw",
+            "took"
+          ],
+          "options": [
+            [
+              "saw",
+              "seen",
+              "seed"
+            ],
+            [
+              "took",
+              "taked",
+              "taken"
+            ]
+          ],
+          "explanation": "Two irregular verbs: see → saw, take → took. “Seen” and “taken” are participles and need have before them."
+        },
+        {
+          "id": "lp4",
+          "prompt": "I ___ down to the water and ___ in.",
+          "answers": [
+            "ran",
+            "jumped"
+          ],
+          "options": [
+            [
+              "ran",
+              "runned",
+              "run"
+            ],
+            [
+              "jumped",
+              "jump",
+              "jumping"
+            ]
+          ],
+          "explanation": "Run is irregular (ran); jump is regular (jumped). English mixes them freely in one sentence."
+        },
+        {
+          "id": "lp5",
+          "prompt": "My sister ___ to the island and Dad ___ two fish.",
+          "answers": [
+            "swam",
+            "caught"
+          ],
+          "options": [
+            [
+              "swam",
+              "swimmed",
+              "swum"
+            ],
+            [
+              "caught",
+              "catched",
+              "catch"
+            ]
+          ],
+          "explanation": "Swim → swam and catch → caught. Both are common irregulars worth memorising."
+        },
+        {
+          "id": "lp6",
+          "prompt": "My brother ___ his sandwich in the sand and ___ for five minutes.",
+          "answers": [
+            "dropped",
+            "cried"
+          ],
+          "options": [
+            [
+              "dropped",
+              "droped",
+              "drops"
+            ],
+            [
+              "cried",
+              "cryed",
+              "cries"
+            ]
+          ],
+          "explanation": "Two spelling rules: double the p in dropped, and change y to i in cried."
+        }
+      ]
+    },
+    {
+      "id": "a2-lake-continuous",
+      "type": "fill-blank",
+      "title": "Part B — The Present Continuous",
+      "instructions": "This part is about what is happening at this moment. Use am, is or are plus the -ing form.",
+      "items": [
+        {
+          "id": "lc1",
+          "prompt": "Right now I ___ ___ at the kitchen table.",
+          "answers": [
+            "am",
+            "sitting"
+          ],
+          "options": [
+            [
+              "am",
+              "is",
+              "are"
+            ],
+            [
+              "sitting",
+              "siting",
+              "sit"
+            ]
+          ],
+          "explanation": "I takes am, and sit doubles its t before -ing."
+        },
+        {
+          "id": "lc2",
+          "prompt": "My brother ___ ___ my grandmother about the deer.",
+          "answers": [
+            "is",
+            "telling"
+          ],
+          "options": [
+            [
+              "is",
+              "are",
+              "am"
+            ],
+            [
+              "telling",
+              "tell",
+              "told"
+            ]
+          ],
+          "explanation": "One person takes is; the verb takes -ing."
+        },
+        {
+          "id": "lc3",
+          "prompt": "My sister ___ ___ at the photographs and ___ about them.",
+          "answers": [
+            "is",
+            "looking",
+            "complaining"
+          ],
+          "options": [
+            [
+              "is",
+              "are",
+              "am"
+            ],
+            [
+              "looking",
+              "look",
+              "looked"
+            ],
+            [
+              "complaining",
+              "complain",
+              "complains"
+            ]
+          ],
+          "explanation": "When two actions share one subject, is is not repeated: she is looking and complaining."
+        },
+        {
+          "id": "lc4",
+          "prompt": "Mom ___ ___ dinner and ___ she cannot hear.",
+          "answers": [
+            "is",
+            "making",
+            "pretending"
+          ],
+          "options": [
+            [
+              "is",
+              "are",
+              "am"
+            ],
+            [
+              "making",
+              "makeing",
+              "makes"
+            ],
+            [
+              "pretending",
+              "pretend",
+              "pretends"
+            ]
+          ],
+          "explanation": "Make drops its silent e before -ing: making, not makeing."
+        }
+      ]
+    },
+    {
+      "id": "a2-lake-future",
+      "type": "fill-blank",
+      "title": "Part C — The Future",
+      "instructions": "English has more than one future. Use the one each sentence calls for.",
+      "items": [
+        {
+          "id": "lf1",
+          "prompt": "Next weekend we ___ ___ back to the lake.",
+          "answers": [
+            "are",
+            "going"
+          ],
+          "options": [
+            [
+              "are",
+              "will",
+              "is"
+            ],
+            [
+              "going",
+              "go",
+              "gone"
+            ]
+          ],
+          "explanation": "Present continuous for a fixed arrangement — it is already decided."
+        },
+        {
+          "id": "lf2",
+          "prompt": "Dad says he ___ ___ the small boat this time.",
+          "answers": [
+            "will",
+            "take"
+          ],
+          "options": [
+            [
+              "will",
+              "is",
+              "are"
+            ],
+            [
+              "take",
+              "takes",
+              "taking"
+            ]
+          ],
+          "explanation": "Will plus the bare infinitive — no to, and no -s."
+        },
+        {
+          "id": "lf3",
+          "prompt": "My brother ___ ___ ___ look for the deer.",
+          "answers": [
+            "is",
+            "going",
+            "to"
+          ],
+          "options": [
+            [
+              "is",
+              "will",
+              "are"
+            ],
+            [
+              "going",
+              "go",
+              "gone"
+            ],
+            [
+              "to",
+              "for",
+              "and"
+            ]
+          ],
+          "explanation": "Going to plus infinitive, for an intention the speaker already has."
+        },
+        {
+          "id": "lf4",
+          "prompt": "He ___ ___ disappointed, and then he ___ ___ something else.",
+          "answers": [
+            "will",
+            "be",
+            "will",
+            "find"
+          ],
+          "options": [
+            [
+              "will",
+              "is",
+              "going"
+            ],
+            [
+              "be",
+              "is",
+              "being"
+            ],
+            [
+              "will",
+              "is",
+              "does"
+            ],
+            [
+              "find",
+              "finds",
+              "finding"
+            ]
+          ],
+          "explanation": "Will is used here for a prediction — the speaker is guessing, not arranging."
+        }
+      ]
+    },
+    {
+      "id": "a2-lake-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the story.",
+      "items": [
+        {
+          "id": "lk1",
+          "prompt": "Why was jumping into the water “a mistake”?",
+          "options": [
+            "The lake was deeper than expected",
+            "The lake in May is much colder than it looks",
+            "There were fish in the water"
+          ],
+          "answerIndex": 1,
+          "explanation": "The writer gives the reason immediately after calling it a mistake."
+        },
+        {
+          "id": "lk2",
+          "prompt": "What did Dad do with the two fish?",
+          "options": [
+            "He cooked them for lunch",
+            "He gave them to the brother",
+            "He put them both back in the lake"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Which my brother did not understand at all” — a small joke about catch and release."
+        },
+        {
+          "id": "lk3",
+          "prompt": "What is happening to the deer in the brother's story?",
+          "options": [
+            "It is getting larger every time he describes it",
+            "He has forgotten what it looked like",
+            "He is describing it to his sister"
+          ],
+          "answerIndex": 0,
+          "explanation": "A gentle observation about how children (and adults) retell a story."
+        },
+        {
+          "id": "lk4",
+          "prompt": "Why is Mom “pretending she cannot hear”?",
+          "options": [
+            "The kitchen is too noisy",
+            "She is avoiding the complaint about her photographs",
+            "She is listening to the radio"
+          ],
+          "answerIndex": 1,
+          "explanation": "The sister is complaining that Mom's finger is in most of the photos, and Mom has chosen not to engage."
+        },
+        {
+          "id": "lk5",
+          "prompt": "What does the writer predict about the brother next weekend?",
+          "options": [
+            "He will not want to go",
+            "He will find the deer again",
+            "He will be disappointed and then find something else instead"
+          ],
+          "answerIndex": 2,
+          "explanation": "“He always does” — which is affectionate rather than critical."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Describe last weekend in five sentences, all in the past simple.",
+    "Now describe what is happening around you at this moment, in three sentences.",
+    "What are you doing next weekend? Use a fixed arrangement, an intention and a prediction.",
+    "The deer gets bigger every time the brother tells the story. Why do stories change when we retell them?",
+    "Write about 100 words about a day out with your family, using the past simple for what happened."
+  ]
+}

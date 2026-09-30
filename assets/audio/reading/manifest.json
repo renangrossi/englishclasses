@@ -1,4 +1,10 @@
 {
+ "a2/a-weekend-at-the-lake": {
+  "bytes": 670752,
+  "fingerprint": "345e5dac212cb7eb",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
+ },
  "a2/at-the-hotel": {
   "bytes": 1033056,
   "fingerprint": "435d4766684efe36",
@@ -70,6 +76,12 @@
   "fingerprint": "5d1fc8f62e27968d",
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
+ },
+ "b1/a-day-in-the-office": {
+  "bytes": 971280,
+  "fingerprint": "65829e330c2e3295",
+  "rate": "-8%",
+  "voice": "en-US-BrianNeural"
  },
  "b1/a-freelance-accounting-assignment": {
   "bytes": 979632,
@@ -196,6 +208,12 @@
   "fingerprint": "8b33f84e28ec7745",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
+ },
+ "b1/my-life-and-plans": {
+  "bytes": 729360,
+  "fingerprint": "9b15ca71e80562d4",
+  "rate": "-8%",
+  "voice": "en-US-EmmaNeural"
  },
  "b1/nfl": {
   "bytes": 1312272,

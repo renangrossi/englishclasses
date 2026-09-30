@@ -1,0 +1,450 @@
+{
+  "id": "b1-reading-day-in-the-office",
+  "level": "B1",
+  "slug": "a-day-in-the-office",
+  "topic": "work",
+  "title": "Every Day, and Right Now",
+  "subtitle": "Two colleagues, one Tuesday — and the difference between what you do and what you are doing.",
+  "description": "A B1 workplace reading and listening text contrasting routine with the present moment, written to practise the present simple against the present continuous and the prepositions in, on and at.",
+  "source": "cefr/texts/daily-activities.docx + unfortunate-events.docx + navigating-finance.docx",
+  "provenance": "merged",
+  "audio": {
+    "duration_label": "2:41"
+  },
+  "passage": [
+    "Every day, Emily works as a financial analyst in an office on the twenty-second floor. She manages a set of client portfolios, she arrives at about half past seven because the market opens early, and she leaves at six unless something has gone wrong. Michael sits opposite her. He advises clients on where to put their money, he talks on the phone for most of the day, and he claims he has never once eaten lunch away from his desk.",
+    "That is what they do. What they are doing at this moment is something else entirely.",
+    "Right now Emily is standing at the window with a coffee going cold in her hand, looking at a chart on her tablet that she does not believe. One of her positions has moved eleven per cent since yesterday afternoon and nothing in the news explains it. She is not panicking — she does this perhaps four times a year — but she is going to have to call somebody in about ten minutes and say she does not yet know why.",
+    "Michael is on the phone, as usual, but he is not advising anyone. He is listening to a client explain, at length, why he wants to sell everything and put it all into one company his brother-in-law has recommended. Michael is saying “mm” at intervals and writing the word NO on a piece of paper and underlining it twice. He will spend the next quarter of an hour talking the man out of it, and he will succeed, and the client will tell people afterwards that it was his own decision.",
+    "This is the difference the two tenses carry. “Emily manages portfolios” tells you her job. “Emily is standing at the window” tells you her Tuesday. The first is true in general and says nothing about today; the second is true now and says nothing about whether it ever happens again. English keeps them apart more strictly than most languages do, which is why learners often describe a photograph in the present simple and sound as if they are reading a job description.",
+    "There is one more thing worth noticing here. Some verbs resist the continuous altogether. Michael believes the client is wrong; he is not believing it. Emily knows the market is unpredictable; she is not knowing it. Verbs about states of mind — know, believe, understand, mean, want — usually stay in the simple form even when you are talking about this exact moment, and that is the rule that catches people out.",
+    "At six, Emily will go home and Michael will stay for another hour, as he does most days. Tomorrow both of them will arrive early, and the routine will describe them again until something happens that it does not cover."
+  ],
+  "vocabulary": [
+    {
+      "term": "analyst",
+      "definition": "someone whose job is examining data and drawing conclusions"
+    },
+    {
+      "term": "portfolio",
+      "definition": "the collection of investments belonging to one client",
+      "match": "portfolios"
+    },
+    {
+      "term": "to advise",
+      "definition": "to tell someone what you think they should do",
+      "match": "advises"
+    },
+    {
+      "term": "position",
+      "definition": "an investment currently held"
+    },
+    {
+      "term": "to panic",
+      "definition": "to lose control because of sudden fear",
+      "match": "panicking"
+    },
+    {
+      "term": "at length",
+      "definition": "for a long time and in detail"
+    },
+    {
+      "term": "brother-in-law",
+      "definition": "the husband of your sister, or your spouse's brother"
+    },
+    {
+      "term": "at intervals",
+      "definition": "repeatedly, with gaps in between"
+    },
+    {
+      "term": "to underline",
+      "definition": "to draw a line under something for emphasis",
+      "match": "underlining"
+    },
+    {
+      "term": "to talk someone out of something",
+      "definition": "to persuade them not to do it",
+      "match": "talking the man out of it"
+    },
+    {
+      "term": "to resist",
+      "definition": "to refuse to accept or allow something",
+      "match": "resist"
+    },
+    {
+      "term": "state of mind",
+      "definition": "a mental condition such as knowing, believing or wanting",
+      "match": "states of mind"
+    },
+    {
+      "term": "unpredictable",
+      "definition": "impossible to know in advance"
+    },
+    {
+      "term": "to catch someone out",
+      "definition": "to trap someone in a mistake",
+      "match": "catches people out"
+    },
+    {
+      "term": "routine",
+      "definition": "the fixed pattern of what somebody usually does"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-off-tenses",
+      "type": "fill-blank",
+      "title": "Present Simple or Present Continuous?",
+      "instructions": "Simple for what is generally true; continuous for what is happening now. Watch for the verbs that refuse the continuous.",
+      "items": [
+        {
+          "id": "of1",
+          "prompt": "Every day Emily ___ as a financial analyst.",
+          "answers": [
+            "works"
+          ],
+          "options": [
+            "works",
+            "is working",
+            "work"
+          ],
+          "explanation": "“Every day” marks a routine, so the present simple — with the -s for she."
+        },
+        {
+          "id": "of2",
+          "prompt": "Right now she ___ at the window.",
+          "answers": [
+            "is standing"
+          ],
+          "options": [
+            "is standing",
+            "stands",
+            "stood"
+          ],
+          "explanation": "“Right now” marks this moment, so the continuous."
+        },
+        {
+          "id": "of3",
+          "prompt": "Michael ___ clients for a living, but at the moment he ___ to one complain.",
+          "answers": [
+            "advises",
+            "is listening"
+          ],
+          "options": [
+            [
+              "advises",
+              "is advising",
+              "advise"
+            ],
+            [
+              "is listening",
+              "listens",
+              "listen"
+            ]
+          ],
+          "explanation": "The same sentence carries both: the job in the simple, the moment in the continuous."
+        },
+        {
+          "id": "of4",
+          "prompt": "He ___ the client is wrong.",
+          "answers": [
+            "believes"
+          ],
+          "options": [
+            "believes",
+            "is believing",
+            "believe"
+          ],
+          "explanation": "Believe is a state of mind and resists the continuous, even about this exact moment."
+        },
+        {
+          "id": "of5",
+          "prompt": "She ___ the market is unpredictable, and she ___ to call a client about it.",
+          "answers": [
+            "knows",
+            "is going"
+          ],
+          "options": [
+            [
+              "knows",
+              "is knowing",
+              "know"
+            ],
+            [
+              "is going",
+              "goes",
+              "go"
+            ]
+          ],
+          "explanation": "Know stays simple; go takes the continuous for an imminent plan."
+        },
+        {
+          "id": "of6",
+          "prompt": "Michael ___ he ___ lunch at his desk every single day.",
+          "answers": [
+            "claims",
+            "eats"
+          ],
+          "options": [
+            [
+              "claims",
+              "is claiming",
+              "claim"
+            ],
+            [
+              "eats",
+              "is eating",
+              "eat"
+            ]
+          ],
+          "explanation": "Both are habitual. “Every single day” makes the second unmistakable."
+        },
+        {
+          "id": "of7",
+          "prompt": "I ___ what you ___, but I ___ with it.",
+          "answers": [
+            "understand",
+            "mean",
+            "disagree"
+          ],
+          "options": [
+            [
+              "understand",
+              "am understanding",
+              "understands"
+            ],
+            [
+              "mean",
+              "are meaning",
+              "means"
+            ],
+            [
+              "disagree",
+              "am disagreeing",
+              "disagrees"
+            ]
+          ],
+          "explanation": "Three state verbs in a row, all simple — this is the pattern that most often goes wrong."
+        }
+      ]
+    },
+    {
+      "id": "b1-off-prepositions",
+      "type": "fill-blank",
+      "title": "In, On or At?",
+      "instructions": "Roughly: IN for enclosed spaces and long periods, ON for surfaces, floors and days, AT for points and specific times.",
+      "items": [
+        {
+          "id": "op1",
+          "prompt": "She works ___ an office ___ the twenty-second floor.",
+          "answers": [
+            "in",
+            "on"
+          ],
+          "options": [
+            [
+              "in",
+              "on",
+              "at"
+            ],
+            [
+              "on",
+              "in",
+              "at"
+            ]
+          ],
+          "explanation": "In an enclosed space; on a floor or level. English treats a floor as a surface."
+        },
+        {
+          "id": "op2",
+          "prompt": "She arrives ___ half past seven and leaves ___ six.",
+          "answers": [
+            "at",
+            "at"
+          ],
+          "options": [
+            [
+              "at",
+              "in",
+              "on"
+            ],
+            [
+              "at",
+              "in",
+              "on"
+            ]
+          ],
+          "explanation": "At for a point in time — clock times always take at."
+        },
+        {
+          "id": "op3",
+          "prompt": "He is ___ the phone, and he eats lunch ___ his desk.",
+          "answers": [
+            "on",
+            "at"
+          ],
+          "options": [
+            [
+              "on",
+              "in",
+              "at"
+            ],
+            [
+              "at",
+              "in",
+              "on"
+            ]
+          ],
+          "explanation": "On the phone is fixed. At his desk treats the desk as a point he is stationed at — on his desk would put him sitting on top of it."
+        },
+        {
+          "id": "op4",
+          "prompt": "The position has moved eleven per cent since yesterday, and nothing ___ the news explains it.",
+          "answers": [
+            "in"
+          ],
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "explanation": "In the news, in the paper — but ON television and ON the radio."
+        },
+        {
+          "id": "op5",
+          "prompt": "She is writing ___ a piece of paper and looking ___ a chart.",
+          "answers": [
+            "on",
+            "at"
+          ],
+          "options": [
+            [
+              "on",
+              "in",
+              "at"
+            ],
+            [
+              "at",
+              "on",
+              "in"
+            ]
+          ],
+          "explanation": "You write on a surface, and you look at a thing."
+        },
+        {
+          "id": "op6",
+          "prompt": "They both arrive early ___ Tuesdays, and the market opens ___ the morning.",
+          "answers": [
+            "on",
+            "in"
+          ],
+          "options": [
+            [
+              "on",
+              "in",
+              "at"
+            ],
+            [
+              "in",
+              "on",
+              "at"
+            ]
+          ],
+          "explanation": "On for days, in for parts of the day — except at night, which is the exception everybody has to learn."
+        }
+      ]
+    },
+    {
+      "id": "b1-off-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for the grammatical point the story is making.",
+      "items": [
+        {
+          "id": "oc1",
+          "prompt": "Why is Emily standing at the window?",
+          "options": [
+            "She is waiting for a call",
+            "A position has moved eleven per cent and nothing in the news explains it",
+            "She is taking a break from her desk"
+          ],
+          "answerIndex": 1,
+          "explanation": "And the coffee going cold tells you how long she has been there."
+        },
+        {
+          "id": "oc2",
+          "prompt": "How does the writer show that Emily is not alarmed?",
+          "options": [
+            "By saying she does this about four times a year",
+            "By saying she has seen this exact situation before",
+            "By saying the amount is small"
+          ],
+          "answerIndex": 0,
+          "explanation": "“She is not panicking — she does this perhaps four times a year”. Note that the frequency is in the present simple."
+        },
+        {
+          "id": "oc3",
+          "prompt": "What is Michael actually doing on the phone?",
+          "options": [
+            "Advising a client on a new investment",
+            "Listening to a client who wants to sell everything on a relative's advice",
+            "Explaining a market movement"
+          ],
+          "answerIndex": 1,
+          "explanation": "“He is on the phone, as usual, but he is not advising anyone” — the routine and the moment pulling apart."
+        },
+        {
+          "id": "oc4",
+          "prompt": "What will the client say afterwards?",
+          "options": [
+            "That Michael talked him out of it",
+            "That it was his own decision",
+            "That he still intends to sell"
+          ],
+          "answerIndex": 1,
+          "explanation": "A quiet observation about how good advice is usually remembered."
+        },
+        {
+          "id": "oc5",
+          "prompt": "What is the difference the writer says the two tenses carry?",
+          "options": [
+            "The simple tells you the job; the continuous tells you the Tuesday",
+            "The simple is formal and the continuous informal",
+            "The simple is for facts and the continuous for opinions"
+          ],
+          "answerIndex": 0,
+          "explanation": "One is true in general and silent about today; the other is true now and silent about whether it recurs."
+        },
+        {
+          "id": "oc6",
+          "prompt": "Why do learners sometimes “sound as if they are reading a job description”?",
+          "options": [
+            "They use vocabulary that is too formal",
+            "They describe a photograph in the present simple instead of the continuous",
+            "They avoid using names"
+          ],
+          "answerIndex": 1,
+          "explanation": "A photograph shows a moment, so it calls for the continuous; the simple turns it into a permanent role."
+        },
+        {
+          "id": "oc7",
+          "prompt": "Which verbs does the writer say resist the continuous?",
+          "options": [
+            "Verbs of movement",
+            "Verbs describing states of mind, such as know, believe, understand, mean and want",
+            "Verbs used in the passive"
+          ],
+          "answerIndex": 1,
+          "explanation": "“That is the rule that catches people out” — because the moment is exactly when you want the continuous."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Describe your job in three sentences using the present simple, then describe this exact moment in three using the continuous.",
+    "“The client will tell people afterwards that it was his own decision.” Why does good advice often get remembered that way?",
+    "Which state verbs does your own language allow in a continuous form? Where does that cause trouble in English?",
+    "Describe a photograph you have on your phone, in the present continuous.",
+    "Write about 150 words about a colleague: what they do every day, and what they are doing right now."
+  ]
+}

@@ -403,15 +403,16 @@
       "level": "B1",
       "topic": "work",
       "action": "MERGE",
-      "audio": "n/a",
+      "audio": "exists",
       "merge_into": "routines-and-prepositions-drill",
-      "reason": "Identical '_____ (to verb) ___ (in/on/at)' template to navigating-finance and unfortunate-events; three copies of one exercise.",
-      "status": "NOT STARTED",
+      "reason": "Identical '_____ (to verb) ___ (in/on/at)' template to navigating-finance and unfortunate-events; three copies of one exercise. — DONE: Merged with unfortunate-events and navigating-finance, which were three copies of one gap-fill template (present simple vs continuous, plus in/on/at and to/for/from). One page now, set in the finance office that was the strongest of the three frames, with the state-verb rule that the sources drilled but never explained.",
+      "status": "IMPLEMENTED",
       "card_title": "Daily Activities",
       "card_desc": "Exercises on describing daily routines and activities.",
       "source_files": [
         "cefr/texts/daily-activities.pdf"
-      ]
+      ],
+      "page": "reading/b1/a-day-in-the-office.html"
     },
     {
       "slug": "detective-story",
@@ -886,15 +887,16 @@
       "level": "B2",
       "topic": "business",
       "action": "MERGE",
-      "audio": "n/a",
+      "audio": "exists",
       "merge_into": "routines-and-prepositions-drill",
-      "reason": "Third copy of the same gap-fill template as daily-activities and unfortunate-events.",
-      "status": "NOT STARTED",
+      "reason": "Third copy of the same gap-fill template as daily-activities and unfortunate-events. — DONE: Merged into reading/b1/a-day-in-the-office.html, supplying its setting — one of three copies of the same template; see that entry.",
+      "status": "IMPLEMENTED",
       "card_title": "Navigating Finance",
       "card_desc": "Exercises on financial terminology and scenarios.",
       "source_files": [
         "cefr/texts/navigating-finance.pdf"
-      ]
+      ],
+      "page": "reading/b1/a-day-in-the-office.html"
     },
     {
       "slug": "nfl",
@@ -1281,15 +1283,16 @@
       "level": "A2",
       "topic": "review",
       "action": "MERGE",
-      "audio": "n/a",
+      "audio": "exists",
       "merge_into": "tense-contrast-drill",
-      "reason": "Parts 1 and 2 of one exercise split across two files.",
-      "status": "NOT STARTED",
+      "reason": "Parts 1 and 2 of one exercise split across two files. — DONE: Merged with its -2 half into one A2 page. The two files were Parts A and B of a single exercise; the lake trip is now a real narrative and the three time frames become three exercise blocks. New slug is ASCII and hyphen-only, which the source filename's literal '+' was not (P-3).",
+      "status": "IMPLEMENTED",
       "card_title": "Simple Past + Present Continuous + Future",
       "source_files": [
         "cefr/texts/simple-past-+-present-continuous-+-future-1.pdf"
       ],
-      "card_id": "simple-past-present-continuous-future"
+      "card_id": "simple-past-present-continuous-future",
+      "page": "reading/a2/a-weekend-at-the-lake.html"
     },
     {
       "slug": "simple-past-+-present-continuous-+-future-2",
@@ -1298,15 +1301,16 @@
       "level": "A2",
       "topic": "review",
       "action": "MERGE",
-      "audio": "n/a",
+      "audio": "exists",
       "merge_into": "tense-contrast-drill",
-      "reason": "Second half of the same exercise.",
-      "status": "NOT STARTED",
+      "reason": "Second half of the same exercise. — DONE: Merged into reading/a2/a-weekend-at-the-lake.html as the present-continuous and future halves — see that entry.",
+      "status": "IMPLEMENTED",
       "card_title": "Simple Past + Present Continuous + Future II",
       "source_files": [
         "cefr/texts/simple-past-+-present-continuous-+-future-2.pdf"
       ],
-      "card_id": "simple-past-present-continuous-future-ii"
+      "card_id": "simple-past-present-continuous-future-ii",
+      "page": "reading/a2/a-weekend-at-the-lake.html"
     },
     {
       "slug": "snowy-days",
@@ -1558,15 +1562,16 @@
       "level": "B1",
       "topic": "review",
       "action": "MERGE",
-      "audio": "n/a",
+      "audio": "exists",
       "merge_into": "past-to-present-perfect-drill",
-      "reason": "Paired with its -ii file as one exercise.",
-      "status": "NOT STARTED",
+      "reason": "Paired with its -ii file as one exercise. — DONE: Merged with its -ii half into one B1 page. Six tenses now run through a single first-person account rather than a bracketed drill, and the mixed-tense exercise keeps the teaching point including the past perfect and future perfect.",
+      "status": "IMPLEMENTED",
       "card_title": "Two Texts Sp to Pp",
       "card_desc": "Exercises comparing São Paulo and Porto Alegre.",
       "source_files": [
         "cefr/texts/two-texts-sp-to-pp.pdf"
-      ]
+      ],
+      "page": "reading/b1/my-life-and-plans.html"
     },
     {
       "slug": "two-texts-sp-to-pp-ii",
@@ -1575,14 +1580,15 @@
       "level": "B1",
       "topic": "review",
       "action": "MERGE",
-      "audio": "n/a",
+      "audio": "exists",
       "merge_into": "past-to-present-perfect-drill",
-      "reason": "Second half of the same exercise.",
-      "status": "NOT STARTED",
+      "reason": "Second half of the same exercise. — DONE: Merged into reading/b1/my-life-and-plans.html — see that entry.",
+      "status": "IMPLEMENTED",
       "card_title": "Two Texts Sp to Pp II",
       "source_files": [
         "cefr/texts/two-texts-sp-to-pp-ii.pdf"
-      ]
+      ],
+      "page": "reading/b1/my-life-and-plans.html"
     },
     {
       "slug": "unfortunate-events",
@@ -1591,15 +1597,16 @@
       "level": "B1",
       "topic": "everyday",
       "action": "MERGE",
-      "audio": "n/a",
+      "audio": "exists",
       "merge_into": "routines-and-prepositions-drill",
-      "reason": "Same gap-fill template as daily-activities and navigating-finance.",
-      "status": "NOT STARTED",
+      "reason": "Same gap-fill template as daily-activities and navigating-finance. — DONE: Merged into reading/b1/a-day-in-the-office.html — one of three copies of the same template; see that entry.",
+      "status": "IMPLEMENTED",
       "card_title": "Unfortunate Events",
       "card_desc": "Exercises based on narratives about unfortunate events.",
       "source_files": [
         "cefr/texts/unfortunate-events.pdf"
-      ]
+      ],
+      "page": "reading/b1/a-day-in-the-office.html"
     },
     {
       "slug": "usa-restaurants",

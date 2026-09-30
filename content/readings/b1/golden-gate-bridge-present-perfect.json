@@ -1,0 +1,325 @@
+{
+  "id": "b1-reading-golden-gate-bridge",
+  "level": "B1",
+  "slug": "golden-gate-bridge-present-perfect",
+  "topic": "culture",
+  "title": "The Golden Gate Bridge",
+  "subtitle": "What has stood across the mouth of San Francisco Bay since 1937, and what it has taken to keep it there.",
+  "description": "A B1 reading and listening text on the Golden Gate Bridge — its construction, its colour, its fog and its maintenance — written to practise the present perfect, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/golden-gate-bridge-present-perfect.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "2:49"
+  },
+  "passage": [
+    "The Golden Gate Bridge has stood across the entrance to San Francisco Bay since 1937, and in that time it has become one of the most recognisable structures in the world. It was a genuinely difficult thing to build. The strait it crosses is deep, the current runs hard through it twice a day, and the fog can close in within minutes. Plenty of engineers said at the time that a bridge there could not be built at all.",
+    "It was built anyway, as a suspension bridge, with a main span of about 1,280 metres. That made it the longest suspension span in the world when it opened, and it held that record for twenty-seven years. The two towers rise 227 metres above the water, and for a long time they were the tallest things in the city by a wide margin.",
+    "The colour was an accident that stuck. The steel arrived coated in a reddish primer, and the consulting architect argued that the colour suited the setting better than the grey or the black-and-yellow stripes that had been proposed. The shade is called International Orange, and it has turned out to have a practical advantage as well: it stays visible in fog, which matters on a strait where the fog is a daily fact for much of the summer.",
+    "Building it cost lives, though fewer than expected. A safety net was strung beneath the deck — an unusual precaution at the time, and an expensive one — and it caught nineteen men who would otherwise have fallen to their deaths. They called themselves the Halfway to Hell Club. Eleven workers died on the project, ten of them in a single accident near the end when a section of scaffolding fell through the net.",
+    "Since it opened, more than two billion vehicles have crossed the bridge. It has survived earthquakes, including the one in 1989 that brought down part of another bridge in the same bay, and it has since been strengthened further against the next one. It has been closed to traffic only a handful of times, almost always because of wind.",
+    "Keeping it standing is constant work. Crews have been maintaining and repainting the bridge continuously since it opened; the popular belief that they finish one end and immediately start again at the other is not quite accurate, but the ironworkers and painters have never really stopped. Salt air attacks steel, and a structure this size in this position would not last a decade without them.",
+    "What has not changed is what people do when they get there. They stop, they look, and they take a photograph in more or less the same spot, whether they have driven across it every working day for thirty years or have arrived from the other side of the world to see it once."
+  ],
+  "vocabulary": [
+    {
+      "term": "recognisable",
+      "definition": "easily identified when you see it"
+    },
+    {
+      "term": "strait",
+      "definition": "a narrow channel of water joining two larger areas of sea"
+    },
+    {
+      "term": "current",
+      "definition": "water moving steadily in one direction"
+    },
+    {
+      "term": "to close in",
+      "definition": "to gather and reduce visibility, said of fog or cloud",
+      "match": "close in"
+    },
+    {
+      "term": "suspension bridge",
+      "definition": "a bridge whose deck hangs from cables strung between towers"
+    },
+    {
+      "term": "span",
+      "definition": "the distance a bridge crosses between two supports"
+    },
+    {
+      "term": "by a wide margin",
+      "definition": "by a large amount"
+    },
+    {
+      "term": "primer",
+      "definition": "a first coat of paint applied to protect metal before finishing"
+    },
+    {
+      "term": "shade",
+      "definition": "a particular variety of a colour"
+    },
+    {
+      "term": "precaution",
+      "definition": "something done in advance to prevent harm"
+    },
+    {
+      "term": "scaffolding",
+      "definition": "the temporary framework workers stand on during construction"
+    },
+    {
+      "term": "deck",
+      "definition": "the flat surface of a bridge that carries the traffic"
+    },
+    {
+      "term": "to strengthen",
+      "definition": "to make something better able to resist force",
+      "match": "strengthened"
+    },
+    {
+      "term": "ironworker",
+      "definition": "a construction worker who builds with structural steel",
+      "match": "ironworkers"
+    },
+    {
+      "term": "salt air",
+      "definition": "sea air, which corrodes metal"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-ggb-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the meaning of the text.",
+      "items": [
+        {
+          "id": "gg1",
+          "prompt": "Why did engineers say a bridge could not be built there?",
+          "options": [
+            "Because the strait is deep, the current is strong and the fog closes in quickly",
+            "Because there was no demand for a crossing",
+            "Because the city could not afford it"
+          ],
+          "answerIndex": 0,
+          "explanation": "All three conditions are given, and the paragraph ends with the claim that it “could not be built at all”."
+        },
+        {
+          "id": "gg2",
+          "prompt": "How long did the bridge hold the record for the longest suspension span?",
+          "options": [
+            "Until the 1989 earthquake",
+            "Twenty-seven years",
+            "It still holds it"
+          ],
+          "answerIndex": 1,
+          "explanation": "It opened in 1937 with the longest span in the world “and it held that record for twenty-seven years”."
+        },
+        {
+          "id": "gg3",
+          "prompt": "How was the bridge's colour chosen?",
+          "options": [
+            "It was selected to match the surrounding hills",
+            "It was required by aviation regulations",
+            "The steel arrived in a reddish primer and the architect argued for keeping that colour"
+          ],
+          "answerIndex": 2,
+          "explanation": "“The colour was an accident that stuck” — grey and black-and-yellow stripes had been proposed instead."
+        },
+        {
+          "id": "gg4",
+          "prompt": "What practical advantage does International Orange turn out to have?",
+          "options": [
+            "It resists salt corrosion better than other colours",
+            "It stays visible in fog",
+            "It fades more slowly in sunlight"
+          ],
+          "answerIndex": 1,
+          "explanation": "Which matters because the fog is “a daily fact for much of the summer”."
+        },
+        {
+          "id": "gg5",
+          "prompt": "What was the Halfway to Hell Club?",
+          "options": [
+            "The engineers who insisted the bridge was possible",
+            "The crew who worked the night shift",
+            "The nineteen men the safety net caught before they hit the water"
+          ],
+          "answerIndex": 2,
+          "explanation": "They named themselves after surviving a fall that would otherwise have killed them."
+        },
+        {
+          "id": "gg6",
+          "prompt": "Why does the text say the bridge would not last a decade without maintenance?",
+          "options": [
+            "Because salt air attacks steel",
+            "Because the traffic load is too heavy",
+            "Because the towers are slowly sinking"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Salt air attacks steel, and a structure this size in this position would not last a decade without them.”"
+        },
+        {
+          "id": "gg7",
+          "prompt": "How does the writer correct the popular belief about repainting?",
+          "options": [
+            "By saying the bridge has never been repainted",
+            "By saying the belief is not quite accurate, though the work has never really stopped",
+            "By saying the painting is now done once every ten years"
+          ],
+          "answerIndex": 1,
+          "explanation": "The writer neither repeats the myth nor dismisses the underlying truth — continuous maintenance is real, the end-to-end story is not."
+        },
+        {
+          "id": "gg8",
+          "prompt": "What point is the final paragraph making?",
+          "options": [
+            "That the bridge is too crowded with tourists",
+            "That daily commuters and first-time visitors react to it in the same way",
+            "That photographs cannot capture it"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Whether they have driven across it every working day for thirty years or have arrived from the other side of the world to see it once.”"
+        }
+      ]
+    },
+    {
+      "id": "b1-ggb-presentperfect",
+      "type": "fill-blank",
+      "title": "Present Perfect or Past Simple?",
+      "instructions": "Use the past simple for a finished action at a stated past time, and the present perfect for something that runs from the past up to now, or whose time is not stated.",
+      "items": [
+        {
+          "id": "ggp1",
+          "prompt": "The bridge ___ across the bay since 1937.",
+          "answers": [
+            "has stood"
+          ],
+          "options": [
+            "has stood",
+            "stood",
+            "stands"
+          ],
+          "explanation": "“Since” marks a period running up to now, which always takes the present perfect."
+        },
+        {
+          "id": "ggp2",
+          "prompt": "It ___ in 1937, after four years of construction.",
+          "answers": [
+            "opened"
+          ],
+          "options": [
+            "opened",
+            "has opened",
+            "was opening"
+          ],
+          "explanation": "A finished event at a stated past time takes the past simple. Compare the sentence above."
+        },
+        {
+          "id": "ggp3",
+          "prompt": "More than two billion vehicles ___ the bridge since it opened.",
+          "answers": [
+            "have crossed"
+          ],
+          "options": [
+            "have crossed",
+            "crossed",
+            "cross"
+          ],
+          "explanation": "A total accumulating from the past up to the present moment."
+        },
+        {
+          "id": "ggp4",
+          "prompt": "The safety net ___ nineteen men during construction.",
+          "answers": [
+            "caught"
+          ],
+          "options": [
+            "caught",
+            "has caught",
+            "catches"
+          ],
+          "explanation": "The construction period is over, so the past simple. The net is no longer catching anyone."
+        },
+        {
+          "id": "ggp5",
+          "prompt": "Crews ___ the bridge continuously since it opened.",
+          "answers": [
+            "have been maintaining"
+          ],
+          "options": [
+            "have been maintaining",
+            "maintained",
+            "are maintaining"
+          ],
+          "explanation": "Present perfect continuous: an activity that started in the past, has continued, and is still going on."
+        },
+        {
+          "id": "ggp6",
+          "prompt": "It ___ several earthquakes, and it ___ further after the one in 1989.",
+          "answers": [
+            "has survived",
+            "was strengthened"
+          ],
+          "options": [
+            [
+              "has survived",
+              "survived",
+              "survives"
+            ],
+            [
+              "was strengthened",
+              "has been strengthened",
+              "is strengthened"
+            ]
+          ],
+          "explanation": "The first has no stated time and continues to be true; the second is tied to a specific year, so past simple passive."
+        }
+      ]
+    },
+    {
+      "id": "b1-ggb-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "ggt1",
+          "statement": "The bridge is still the longest suspension span in the world.",
+          "answer": false,
+          "explanation": "False — it held that record for twenty-seven years after opening."
+        },
+        {
+          "id": "ggt2",
+          "statement": "The orange colour was chosen before the steel arrived.",
+          "answer": false,
+          "explanation": "False — the steel arrived in a reddish primer, and the architect argued for keeping it."
+        },
+        {
+          "id": "ggt3",
+          "statement": "The safety net saved more workers than the number who died.",
+          "answer": true,
+          "explanation": "True — nineteen were caught by the net; eleven died."
+        },
+        {
+          "id": "ggt4",
+          "statement": "Most of the deaths happened in one accident.",
+          "answer": true,
+          "explanation": "True — ten of the eleven, when scaffolding fell through the net near the end of the work."
+        },
+        {
+          "id": "ggt5",
+          "statement": "The bridge closes to traffic frequently.",
+          "answer": false,
+          "explanation": "False — “only a handful of times, almost always because of wind”."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Engineers said the bridge could not be built. What makes people attempt something after being told that?",
+    "The safety net was unusual and expensive, and it saved nineteen lives. How should that cost be weighed when it is being decided?",
+    "The colour was an accident that turned out to work. Can you think of something in your own life that worked out the same way?",
+    "Is there a structure in your country that people photograph in the same spot every time? Why that one?",
+    "Write about 120 words describing a famous structure you have seen, using the present perfect for what it has done and the past simple for when it was built."
+  ]
+}

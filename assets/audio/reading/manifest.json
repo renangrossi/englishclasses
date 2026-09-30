@@ -83,11 +83,23 @@
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
  },
+ "b1/do-make-livestock-farming": {
+  "bytes": 956736,
+  "fingerprint": "62fd733dde288a0c",
+  "rate": "-8%",
+  "voice": "en-US-GuyNeural"
+ },
  "b1/glamping": {
   "bytes": 1109952,
   "fingerprint": "5e3a48121277a5c7",
   "rate": "-8%",
   "voice": "en-US-BrianNeural"
+ },
+ "b1/golden-gate-bridge-present-perfect": {
+  "bytes": 1015776,
+  "fingerprint": "a2cbccd747c0e51b",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
  },
  "b1/investigation-story": {
   "bytes": 934848,
@@ -95,11 +107,29 @@
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
+ "b1/my-day-in-vienna-to-by-for": {
+  "bytes": 766944,
+  "fingerprint": "8b33f84e28ec7745",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
+ },
  "b1/nfl": {
   "bytes": 1312272,
   "fingerprint": "a1141181de8194f9",
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
+ },
+ "b1/physical-education": {
+  "bytes": 933984,
+  "fingerprint": "6ca62b7c15c9e103",
+  "rate": "-8%",
+  "voice": "en-US-EmmaNeural"
+ },
+ "b1/say-speak-talk-tell-02": {
+  "bytes": 736128,
+  "fingerprint": "aab861d85320b1e3",
+  "rate": "-8%",
+  "voice": "en-US-GuyNeural"
  },
  "b1/snowy-days": {
   "bytes": 1146528,

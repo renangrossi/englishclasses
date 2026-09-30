@@ -1,0 +1,349 @@
+{
+  "id": "b1-reading-livestock-farming",
+  "level": "B1",
+  "slug": "do-make-livestock-farming",
+  "topic": "work",
+  "title": "A Day on the Farm",
+  "subtitle": "Cattle, paperwork and decisions — and the difference between doing something and making something.",
+  "description": "A B1 workplace reading and listening text following a day of livestock farming, built around the do/make collocations that native speakers actually use, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/do-make-livestock-farming.docx",
+  "provenance": "rewritten",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "2:39"
+  },
+  "passage": [
+    "Trent starts before the sun does. The cattle are fed first, because everything else on the farm has to wait until they are, and by the time the light comes up he has already done the milking. Then he walks the fence line. There is always something to repair, and it is cheaper to do the repairs in the morning than to spend the afternoon looking for an animal that got through a gap.",
+    "Once the chores are behind him, he sits down with a coffee and makes a plan for the week. The cattle are moved between fields on a rotation, so that the grass in each one gets time to recover, and working out the order takes more thought than people expect. He makes a list of what needs ordering — feed, mineral blocks, a part for the water pump — and makes a few adjustments to the feeding schedule, because two of the younger cows have not been putting on weight the way they should.",
+    "In the afternoon he does a health check on the herd. This is the part of the job that cannot be hurried: he looks at how each animal is standing, how it is walking, whether its coat looks right. He makes notes in a journal as he goes, and those notes are the reason he usually catches a problem early. Later, when the light starts to go, he does the evening rounds to make sure everything is settled and nothing has got out.",
+    "There is a more technical side to the work as well, and Trent has come to rely on it. He does blood tests on a few of the cows every month to keep track of their mineral levels, and once a year he has the soil in the grazing fields analysed, which tells him what the grass is short of before the cattle show him. He also does a review of the vaccination records each spring, so that nothing gets missed.",
+    "When the data says something needs to change, he makes the decision and acts on it. Last winter that meant making contact with a nutritionist and changing the ration for the whole herd. This year it means making a plan for a bigger barn — he has already made a rough layout, with more space between the pens and better ventilation, because the airflow in the current building is the reason coughs travel through it every February.",
+    "The part nobody warns you about is the paperwork. Doing the paperwork for the farm regulations takes a full day every month, and doing it badly is expensive, so he does it properly and keeps everything where he can find it.",
+    "By the time the moon is up, Trent is usually too tired to be philosophical about any of it. But the work has a shape he likes: you do the tasks, you make the decisions, and if you have done both well enough for long enough, the herd is healthy and the farm keeps going. That is most of what there is to it."
+  ],
+  "vocabulary": [
+    {
+      "term": "chores",
+      "definition": "the routine jobs that have to be done every day"
+    },
+    {
+      "term": "fence line",
+      "definition": "the boundary fence of a field, walked to check for damage"
+    },
+    {
+      "term": "rotation",
+      "definition": "a system of moving animals between fields in turn"
+    },
+    {
+      "term": "to recover",
+      "definition": "to return to a healthy state after being used or damaged"
+    },
+    {
+      "term": "feed",
+      "definition": "food given to farm animals"
+    },
+    {
+      "term": "to put on weight",
+      "definition": "to become heavier",
+      "match": "putting on weight"
+    },
+    {
+      "term": "herd",
+      "definition": "a group of cattle kept together"
+    },
+    {
+      "term": "coat",
+      "definition": "an animal's fur or hair, whose condition shows its health"
+    },
+    {
+      "term": "rounds",
+      "definition": "a regular circuit made to check that everything is in order"
+    },
+    {
+      "term": "to keep track of",
+      "definition": "to follow something over time so you notice changes",
+      "match": "keep track of"
+    },
+    {
+      "term": "to be short of",
+      "definition": "to lack enough of something",
+      "match": "short of"
+    },
+    {
+      "term": "ration",
+      "definition": "the fixed amount and mix of food given to an animal"
+    },
+    {
+      "term": "layout",
+      "definition": "a plan showing how a space is arranged"
+    },
+    {
+      "term": "ventilation",
+      "definition": "the movement of fresh air through a building"
+    },
+    {
+      "term": "pen",
+      "definition": "a small fenced enclosure for animals",
+      "match": "pens"
+    },
+    {
+      "term": "regulations",
+      "definition": "official rules a business has to follow"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-farm-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the sense of the text, not by matching words.",
+      "items": [
+        {
+          "id": "fa1",
+          "prompt": "Why are the cattle fed before anything else?",
+          "options": [
+            "Because everything else on the farm has to wait until they are",
+            "Because they will not eat later in the day",
+            "Because the milking cannot start until they have eaten"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated directly in the opening paragraph — the feeding sets the order of the whole morning."
+        },
+        {
+          "id": "fa2",
+          "prompt": "Why does Trent repair the fence in the morning?",
+          "options": [
+            "Because the light is better then",
+            "Because it costs less than spending the afternoon looking for an escaped animal",
+            "Because he cannot reach the fence line later"
+          ],
+          "answerIndex": 1,
+          "explanation": "“It is cheaper to do the repairs in the morning than to spend the afternoon looking for an animal that got through a gap.”"
+        },
+        {
+          "id": "fa3",
+          "prompt": "Why are the cattle moved between fields?",
+          "options": [
+            "To keep them from becoming bored",
+            "To make them easier to count",
+            "So the grass in each field has time to recover"
+          ],
+          "answerIndex": 2,
+          "explanation": "That is what the rotation is for, and working out the order “takes more thought than people expect”."
+        },
+        {
+          "id": "fa4",
+          "prompt": "Why does the text say the health check “cannot be hurried”?",
+          "options": [
+            "Because the cattle become nervous if approached quickly",
+            "Because it depends on noticing how each animal stands, walks and looks",
+            "Because there are too many animals to see in one day"
+          ],
+          "answerIndex": 1,
+          "explanation": "It is a matter of observation, and the notes he makes are “the reason he usually catches a problem early”."
+        },
+        {
+          "id": "fa5",
+          "prompt": "What does the soil analysis tell Trent?",
+          "options": [
+            "What the grass is short of, before the cattle show him",
+            "Which fields need to be reseeded",
+            "How many animals each field can hold"
+          ],
+          "answerIndex": 0,
+          "explanation": "The point is that it warns him in advance — the alternative is finding out from the animals' condition."
+        },
+        {
+          "id": "fa6",
+          "prompt": "Why does the new barn design have better ventilation?",
+          "options": [
+            "Because regulations now require it",
+            "Because the airflow in the current building is why coughs spread through it every February",
+            "Because it makes the building cheaper to heat"
+          ],
+          "answerIndex": 1,
+          "explanation": "The design responds to a specific observed problem rather than to a general preference."
+        },
+        {
+          "id": "fa7",
+          "prompt": "What is the writer's summary of the job at the end?",
+          "options": [
+            "That the technical work matters more than the daily work",
+            "That you do the tasks and make the decisions, and doing both well over time is what keeps the farm going",
+            "That the paperwork is the hardest part"
+          ],
+          "answerIndex": 1,
+          "explanation": "“You do the tasks, you make the decisions… That is most of what there is to it.”"
+        }
+      ]
+    },
+    {
+      "id": "b1-farm-domake",
+      "type": "fill-blank",
+      "title": "Do or Make?",
+      "instructions": "Complete each sentence with do or make in the right form. The rough rule: you DO an activity or a task, and you MAKE something that did not exist before — a plan, a list, a decision, a note.",
+      "items": [
+        {
+          "id": "fad1",
+          "prompt": "He ___ the milking before the sun comes up.",
+          "answers": [
+            "does"
+          ],
+          "options": [
+            "does",
+            "makes",
+            "takes"
+          ],
+          "explanation": "The milking is an activity you carry out, so it takes do."
+        },
+        {
+          "id": "fad2",
+          "prompt": "On Sunday he ___ a plan for the week's grazing.",
+          "answers": [
+            "makes"
+          ],
+          "options": [
+            "makes",
+            "does",
+            "gives"
+          ],
+          "explanation": "A plan is something new that comes into existence — you make it."
+        },
+        {
+          "id": "fad3",
+          "prompt": "He ___ a list of supplies and ___ a few adjustments to the feeding schedule.",
+          "answers": [
+            "makes",
+            "makes"
+          ],
+          "options": [
+            [
+              "makes",
+              "does",
+              "puts"
+            ],
+            [
+              "makes",
+              "does",
+              "takes"
+            ]
+          ],
+          "explanation": "Both are things produced rather than activities performed: make a list, make an adjustment."
+        },
+        {
+          "id": "fad4",
+          "prompt": "Every afternoon he ___ a health check on the herd.",
+          "answers": [
+            "does"
+          ],
+          "options": [
+            "does",
+            "makes",
+            "gives"
+          ],
+          "explanation": "A check is an activity you perform. Compare: you make a note about what the check found."
+        },
+        {
+          "id": "fad5",
+          "prompt": "He ___ notes as he goes and ___ the evening rounds at dusk.",
+          "answers": [
+            "makes",
+            "does"
+          ],
+          "options": [
+            [
+              "makes",
+              "does",
+              "writes"
+            ],
+            [
+              "does",
+              "makes",
+              "gives"
+            ]
+          ],
+          "explanation": "This pair is the whole distinction in one sentence: notes are produced, rounds are performed."
+        },
+        {
+          "id": "fad6",
+          "prompt": "He had to ___ contact with a nutritionist before he could ___ the decision.",
+          "answers": [
+            "make",
+            "make"
+          ],
+          "options": [
+            [
+              "make",
+              "do",
+              "take"
+            ],
+            [
+              "make",
+              "do",
+              "give"
+            ]
+          ],
+          "explanation": "Make contact and make a decision are both fixed — “do contact” and “do a decision” are not English."
+        },
+        {
+          "id": "fad7",
+          "prompt": "___ the paperwork takes a full day every month.",
+          "answers": [
+            "Doing"
+          ],
+          "options": [
+            "Doing",
+            "Making",
+            "Taking"
+          ],
+          "explanation": "Paperwork is work — an activity — so it takes do, like doing the washing or doing your homework."
+        }
+      ]
+    },
+    {
+      "id": "b1-farm-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "fat1",
+          "statement": "Trent milks the cattle before feeding them.",
+          "answer": false,
+          "explanation": "False — the cattle are fed first, and the milking is done by the time the light comes up."
+        },
+        {
+          "id": "fat2",
+          "statement": "He changed the feeding schedule because two young cows were not gaining weight.",
+          "answer": true,
+          "explanation": "True — that is the reason given for the adjustments."
+        },
+        {
+          "id": "fat3",
+          "statement": "The soil is analysed every month.",
+          "answer": false,
+          "explanation": "False — the blood tests are monthly; the soil analysis is once a year."
+        },
+        {
+          "id": "fat4",
+          "statement": "The new barn is already built.",
+          "answer": false,
+          "explanation": "False — he has made a rough layout; the barn is this year's plan."
+        },
+        {
+          "id": "fat5",
+          "statement": "He finds the paperwork easy to ignore.",
+          "answer": false,
+          "explanation": "False — “doing it badly is expensive, so he does it properly”."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Trent says a problem is usually caught early because of his notes. What do you write down at work, and what happens when you don't?",
+    "Which part of this job would you find hardest — the early start, the observation, or the paperwork?",
+    "Describe your own working day using at least four do/make collocations from the exercise.",
+    "The text says the farm's technical side tells Trent things “before the cattle show him”. Where else is it better to measure than to wait?",
+    "Write about 120 words about a job you know well, separating the tasks you DO from the decisions you MAKE."
+  ]
+}

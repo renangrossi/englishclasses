@@ -424,14 +424,15 @@
       "level": "B1",
       "topic": "work",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "do/make contrast is forced into unnatural English ('Do the feeding of the cattle'). Rewrite with collocations people actually use.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "do/make contrast is forced into unnatural English ('Do the feeding of the cattle'). Rewrite with collocations people actually use. — DONE: Rewritten as natural farm prose. 'Do the feeding of the cattle' and the other invented constructions are gone; the do/make contrast now runs through real collocations (do the milking, do the rounds, do the paperwork; make a plan, make a list, make contact, make a decision) and is tested in its own exercise block.",
+      "status": "IMPLEMENTED",
       "card_title": "Do Make Livestock Farming",
       "card_desc": "Exercises on using &quot;do&quot; and &quot;make&quot; in the context of livestock farming.",
       "source_files": [
         "cefr/texts/do-make-livestock-farming.pdf"
-      ]
+      ],
+      "page": "reading/b1/do-make-livestock-farming.html"
     },
     {
       "slug": "dream-bistro",
@@ -570,13 +571,14 @@
       "level": "B1",
       "topic": "culture",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Idioms crammed in at an unnatural density, one of them crude for a classroom ('crews have busted their butts'). Keep the present-perfect focus, rewrite the register.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Idioms crammed in at an unnatural density, one of them crude for a classroom ('crews have busted their butts'). Keep the present-perfect focus, rewrite the register. — DONE: Register rewritten: 'crews have busted their butts', 'crazy long hours', 'blown minds' and 'coolest' are gone. The present-perfect focus is kept and now contrasted with the past simple in an exercise. Added verifiable detail — the 1,280m span and its 27-year record, International Orange and its visibility in fog, the safety net and the Halfway to Hell Club.",
+      "status": "IMPLEMENTED",
       "card_title": "Golden Gate Bridge Present Perfect",
       "source_files": [
         "cefr/texts/golden-gate-bridge-present-perfect.pdf"
-      ]
+      ],
+      "page": "reading/b1/golden-gate-bridge-present-perfect.html"
     },
     {
       "slug": "grammar-practice-i",
@@ -846,13 +848,14 @@
       "level": "B1",
       "topic": "travel",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Passives exist only to demo the form and read badly ('The tickets were bought by her', 'I gave a big hug to her'). Rewrite naturally.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Passives exist only to demo the form and read badly ('The tickets were bought by her', 'I gave a big hug to her'). Rewrite naturally. — DONE: Rewritten in natural voice: 'The tickets were bought by her' and 'I gave a big hug to her' are gone. The to/by/for teaching point survives in genuine uses (arrived by train, waited for her, listened to the guide, paid for it) plus a preposition block.",
+      "status": "IMPLEMENTED",
       "card_title": "My Day in Vienna to By for",
       "source_files": [
         "cefr/texts/my-day-in-vienna-to-by-for.docx"
-      ]
+      ],
+      "page": "reading/b1/my-day-in-vienna-to-by-for.html"
     },
     {
       "slug": "navigating-finance",
@@ -962,18 +965,15 @@
       "level": "B1",
       "topic": "sports",
       "action": "EDIT",
-      "audio": "stale-on-edit",
-      "reason": "Present perfect and past perfect are misused ('Last month, she had organized a relay race' with no later anchor). Fix the tenses, then regenerate the 4 existing mp3s.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Present perfect and past perfect are misused ('Last month, she had organized a relay race' with no later anchor). Fix the tenses, then regenerate the 4 existing mp3s. — DONE: Tenses fixed throughout. The source used a past perfect with nothing to sit before it ('Last month, she had organized a relay race') and a string of future perfects for ordinary plans ('will have been a new challenge', 'will have made every lesson exciting'). Rewritten with a coherent scheme — present perfect for five years of experience, past simple for specific events, present continuous for arrangements — and given a tense-choice exercise. Character renamed Carolyne -> Caroline. The four stale mp3s in cefr/texts/ are replaced by one re-narration (D-6).",
+      "status": "IMPLEMENTED",
       "card_title": "Physical Education",
       "card_desc": "Listening and reading exercises on physical education topics.",
       "source_files": [
-        "cefr/texts/physical-education.pdf",
-        "cefr/texts/physical-education-01.mp3",
-        "cefr/texts/physical-education-02.mp3",
-        "cefr/texts/physical-education-03.mp3",
-        "cefr/texts/physical-education-04.mp3"
-      ]
+        "cefr/texts/physical-education.pdf"
+      ],
+      "page": "reading/b1/physical-education.html"
     },
     {
       "slug": "physiological-stressors",
@@ -1208,15 +1208,16 @@
       "level": "B1",
       "topic": "tech",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Present perfect applied where it is wrong: 'I've known there are some exciting purchases', 'The salesperson has told me...'. Rewrite the tense scheme.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Present perfect applied where it is wrong: 'I've known there are some exciting purchases', 'The salesperson has told me...'. Rewrite the tense scheme. — DONE: Tense scheme fixed. The source narrated a finished day of shopping entirely in the present perfect ('I've come across a laptop', 'The salesperson has told me'), which is ungrammatical for completed events at a known time; it is now past simple narration. The say/speak/talk/tell contrast is kept and tested, including talk AT versus talk TO.",
+      "status": "IMPLEMENTED",
       "card_title": "Say, Speak, Talk, Tell &mdash; A Day of Tech Investments",
       "card_desc": "Practice say, speak, talk and tell in a tech-investing story.",
       "source_files": [
         "cefr/texts/say-speak-talk-tell-02.pdf"
       ],
-      "card_id": "say-speak-talk-tell-a-day-of-tech-investments"
+      "card_id": "say-speak-talk-tell-a-day-of-tech-investments",
+      "page": "reading/b1/say-speak-talk-tell-02.html"
     },
     {
       "slug": "say-talk-speak-tell-exercises",

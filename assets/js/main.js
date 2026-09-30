@@ -369,6 +369,30 @@
     document.addEventListener("keydown", prime, { once: true });
   }
 
+  /* ---------------------------------------------------------------
+     Print / Save as PDF  ("[data-print-page]")
+     ---------------------------------------------------------------
+     Reading pages replace the old downloadable PDFs: the page itself
+     is the document, and this button turns it back into one. Unlike
+     the grammar booklets (assets/js/booklet.js) there is no A4
+     page-fitting to do here -- a reading page is normal flowing
+     content, so the print stylesheet in assets/css/layout.css does
+     all the work and this only has to trigger the dialog.
+
+     Waiting on document.fonts avoids printing a page whose webfonts
+     haven't loaded, which reflows the text in the saved PDF. */
+  function initPagePrint() {
+    var btns = document.querySelectorAll("[data-print-page]");
+    if (!btns.length) return;
+    Array.prototype.forEach.call(btns, function (btn) {
+      btn.addEventListener("click", function () {
+        var go = function () { window.print(); };
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(go).catch(go);
+        else go();
+      });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     initTheme();
     initMobileNav();
@@ -379,5 +403,6 @@
     initAnchorScrolling();
     initScrollspy();
     initAudioUnlock();
+    initPagePrint();
   });
 })();

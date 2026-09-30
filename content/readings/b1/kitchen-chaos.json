@@ -1,0 +1,384 @@
+{
+  "id": "b1-reading-kitchen-chaos",
+  "level": "B1",
+  "slug": "kitchen-chaos",
+  "topic": "everyday",
+  "title": "Cooking and Coding",
+  "subtitle": "A programmer who cooks to stop thinking about work, and finds he is doing the same thing twice.",
+  "description": "A B1 reading and listening text on cooking as a break from programming, built around the phrasal verbs of preparing a meal, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/kitchen-chaos-i.docx + cefr/texts/kitchen-chaos-ii.docx",
+  "provenance": "merged",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "2:49"
+  },
+  "passage": [
+    "I write software all day, and I cook in the evenings to stop thinking about it. That was the theory, anyway. What has actually happened is that I have started to notice how similar the two things are, which was not the escape I had in mind.",
+    "It begins the same way every time. I pull everything out of the fridge and put it on the counter before I start, because the one evening I did not do that I got halfway through and discovered we had no garlic. Then I chop up the onions, slice the peppers and dice the garlic, and get the stock heating. None of that is cooking yet. It is the part that makes cooking possible, and skipping it is how you end up standing over a hot pan looking for something in a cupboard.",
+    "Then I fire up the stove and let the pan heat until it is properly hot — not almost hot, which is the mistake I made for about two years. I throw in the vegetables and let them cook down until they soften and lose their edge. While that happens I whip up a marinade and brush it onto the steaks I took out to thaw an hour ago, and I crank up the grill so it is ready when they are.",
+    "Somewhere in there I clean up the mess from the preparation — wipe down the counters, scrub off whatever has dried onto the board — because if I leave it until the end I will not do it at all. That is a rule I learned from work: deal with the small thing while it is still small.",
+    "With the meat on, I go and check the laptop, where I have left a long job running. I have a sous-vide machine set aside on the far counter for the evenings when I am being ambitious, and it has a recipe plugged into it that I wrote out myself and have adjusted four times. I pull the steaks off exactly when they are done and let them rest, which is the hardest instruction in cooking to follow, and log back in to see how far the job has got.",
+    "By then the kitchen looks like the end of a difficult week. I stack up the dishes, rinse them off, load the dishwasher, and let everything cool down while I sit with the food.",
+    "And this is where the parallel stops being amusing and starts being annoying, because both jobs are the same job. You break a big thing down into small ones. You do them in an order that matters more than it looks. You prepare everything before you commit to anything, because once the pan is hot you have no time to think. You clean up as you go. And at the end you have something that is worth more than the parts you put in, which is the only reason anybody does either of them.",
+    "The difference is that dinner is finished at eight o'clock. The program is never finished. It is only shipped."
+  ],
+  "vocabulary": [
+    {
+      "term": "to pull out",
+      "definition": "to take something out of where it is stored",
+      "match": "pull everything out"
+    },
+    {
+      "term": "counter",
+      "definition": "the flat work surface in a kitchen"
+    },
+    {
+      "term": "to chop up",
+      "definition": "to cut into pieces",
+      "match": "chop up"
+    },
+    {
+      "term": "to dice",
+      "definition": "to cut into small cubes"
+    },
+    {
+      "term": "stock",
+      "definition": "the flavoured liquid used as the base of a sauce or soup"
+    },
+    {
+      "term": "to fire up",
+      "definition": "to start a machine or a flame",
+      "match": "fire up"
+    },
+    {
+      "term": "to throw in",
+      "definition": "to add something to a pan quickly",
+      "match": "throw in"
+    },
+    {
+      "term": "to cook down",
+      "definition": "to cook until the volume reduces and the texture softens",
+      "match": "cook down"
+    },
+    {
+      "term": "to whip up",
+      "definition": "to make something quickly",
+      "match": "whip up"
+    },
+    {
+      "term": "marinade",
+      "definition": "a seasoned liquid meat is soaked in or brushed with"
+    },
+    {
+      "term": "to thaw",
+      "definition": "to let frozen food return to room temperature"
+    },
+    {
+      "term": "to crank up",
+      "definition": "to increase the heat or power of something",
+      "match": "crank up"
+    },
+    {
+      "term": "to wipe down",
+      "definition": "to clean a surface with a cloth",
+      "match": "wipe down"
+    },
+    {
+      "term": "to scrub off",
+      "definition": "to remove something by rubbing hard",
+      "match": "scrub off"
+    },
+    {
+      "term": "to set aside",
+      "definition": "to put something to one side to keep it available",
+      "match": "set aside"
+    },
+    {
+      "term": "to rest",
+      "definition": "to let cooked meat stand before cutting it"
+    },
+    {
+      "term": "to stack up",
+      "definition": "to pile things one on top of another",
+      "match": "stack up"
+    },
+    {
+      "term": "to rinse off",
+      "definition": "to wash something quickly with water",
+      "match": "rinse them off"
+    },
+    {
+      "term": "to cool down",
+      "definition": "to become less hot",
+      "match": "cool down"
+    },
+    {
+      "term": "to break down",
+      "definition": "to divide something large into smaller parts",
+      "match": "break a big thing down"
+    },
+    {
+      "term": "to ship",
+      "definition": "to release software to the people who will use it",
+      "match": "shipped"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-kc-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for the comparison the writer is building.",
+      "items": [
+        {
+          "id": "kc1",
+          "prompt": "Why does the writer say cooking was “not the escape I had in mind”?",
+          "options": [
+            "Because it takes longer than expected",
+            "Because he has noticed how similar it is to the work he was escaping",
+            "Because he is not good at it"
+          ],
+          "answerIndex": 1,
+          "explanation": "The joke of the opening paragraph, and the argument the rest of the text makes."
+        },
+        {
+          "id": "kc2",
+          "prompt": "Why does he take everything out of the fridge before starting?",
+          "options": [
+            "Because it saves time overall",
+            "Because the ingredients need to reach room temperature",
+            "Because the one time he didn't, he got halfway through and found there was no garlic"
+          ],
+          "answerIndex": 2,
+          "explanation": "A rule learned from a specific failure — which is how most kitchen rules are learned."
+        },
+        {
+          "id": "kc3",
+          "prompt": "What does he mean by “none of that is cooking yet”?",
+          "options": [
+            "That the preparation is what makes the cooking possible, but is not the cooking itself",
+            "That the ingredients are still raw",
+            "That he has not turned the heat on"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It is the part that makes cooking possible, and skipping it is how you end up standing over a hot pan looking for something in a cupboard.”"
+        },
+        {
+          "id": "kc4",
+          "prompt": "What was the mistake he made for about two years?",
+          "options": [
+            "Adding the vegetables too late",
+            "Heating the pan until it was almost hot rather than properly hot",
+            "Using the wrong kind of oil"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Not almost hot, which is the mistake I made for about two years.”"
+        },
+        {
+          "id": "kc5",
+          "prompt": "Why does he clean up during the cooking rather than after it?",
+          "options": [
+            "Because the kitchen is too small to work in otherwise",
+            "Because otherwise he will not do it at all",
+            "Because the marinade stains if it dries"
+          ],
+          "answerIndex": 1,
+          "explanation": "And he names where the habit came from: “deal with the small thing while it is still small”."
+        },
+        {
+          "id": "kc6",
+          "prompt": "Which instruction does he call the hardest in cooking to follow?",
+          "options": [
+            "Heating the pan properly",
+            "Preparing everything in advance",
+            "Letting the meat rest before cutting it"
+          ],
+          "answerIndex": 2,
+          "explanation": "Said in passing, which is what makes it funny — the difficulty is entirely one of patience."
+        },
+        {
+          "id": "kc7",
+          "prompt": "What four things does he say cooking and programming share?",
+          "options": [
+            "Breaking a task down, ordering it, preparing before committing, and cleaning up as you go",
+            "Precision, speed, creativity and cost",
+            "Reading instructions, following them, checking, and repeating"
+          ],
+          "answerIndex": 0,
+          "explanation": "The four are listed in one paragraph, each as a sentence, and each has already appeared earlier in the text as an anecdote."
+        },
+        {
+          "id": "kc8",
+          "prompt": "What is the point of the final two sentences?",
+          "options": [
+            "That programming pays better than cooking",
+            "That cooking is more satisfying than programming",
+            "That cooking has a definite end and software does not — it is only released"
+          ],
+          "answerIndex": 2,
+          "explanation": "“The program is never finished. It is only shipped.” The one difference, saved for last."
+        }
+      ]
+    },
+    {
+      "id": "b1-kc-phrasal",
+      "type": "fill-blank",
+      "title": "Phrasal Verbs in the Kitchen",
+      "instructions": "Complete each sentence with the particle that gives the right meaning.",
+      "items": [
+        {
+          "id": "kcf1",
+          "prompt": "Fire ___ the grill — we're nearly ready.",
+          "answers": [
+            "up"
+          ],
+          "options": [
+            "up",
+            "out",
+            "in"
+          ],
+          "explanation": "To fire up is to start a machine or a flame."
+        },
+        {
+          "id": "kcf2",
+          "prompt": "Let the sauce cook ___ until it thickens.",
+          "answers": [
+            "down"
+          ],
+          "options": [
+            "down",
+            "up",
+            "over"
+          ],
+          "explanation": "To cook down is to reduce in volume and soften. Cook up would mean to prepare something quickly."
+        },
+        {
+          "id": "kcf3",
+          "prompt": "I'll whip ___ something quick while you set the table.",
+          "answers": [
+            "up"
+          ],
+          "options": [
+            "up",
+            "out",
+            "in"
+          ],
+          "explanation": "To whip up is to make something quickly."
+        },
+        {
+          "id": "kcf4",
+          "prompt": "Take the chicken out to ___ an hour before you cook it.",
+          "answers": [
+            "thaw"
+          ],
+          "options": [
+            "thaw",
+            "rest",
+            "dice"
+          ],
+          "explanation": "To thaw is to let frozen food return to room temperature. To rest is what you do after cooking."
+        },
+        {
+          "id": "kcf5",
+          "prompt": "Wipe ___ the counters and scrub ___ whatever has dried on.",
+          "answers": [
+            "down",
+            "off"
+          ],
+          "options": [
+            [
+              "down",
+              "up",
+              "out"
+            ],
+            [
+              "off",
+              "down",
+              "in"
+            ]
+          ],
+          "explanation": "You wipe down a surface; you scrub off a substance stuck to it."
+        },
+        {
+          "id": "kcf6",
+          "prompt": "Stack ___ the plates and rinse them ___ before they go in.",
+          "answers": [
+            "up",
+            "off"
+          ],
+          "options": [
+            [
+              "up",
+              "in",
+              "over"
+            ],
+            [
+              "off",
+              "down",
+              "out"
+            ]
+          ],
+          "explanation": "To stack up is to pile things; to rinse off is to wash quickly with water."
+        },
+        {
+          "id": "kcf7",
+          "prompt": "Break the problem ___ into pieces you can actually finish.",
+          "answers": [
+            "down"
+          ],
+          "options": [
+            "down",
+            "up",
+            "off"
+          ],
+          "explanation": "To break down is to divide something large into smaller parts — the text's central idea, and true of both kitchens and code."
+        }
+      ]
+    },
+    {
+      "id": "b1-kc-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "kct1",
+          "statement": "The writer cooks in order to think about work.",
+          "answer": false,
+          "explanation": "False — he cooks “to stop thinking about it”. The problem is that it reminds him of work anyway."
+        },
+        {
+          "id": "kct2",
+          "statement": "He prepares all the ingredients before turning on the heat.",
+          "answer": true,
+          "explanation": "True — and he explains why: once the pan is hot there is no time to think."
+        },
+        {
+          "id": "kct3",
+          "statement": "He wrote the sous-vide recipe himself.",
+          "answer": true,
+          "explanation": "True — “a recipe plugged into it that I wrote out myself and have adjusted four times”."
+        },
+        {
+          "id": "kct4",
+          "statement": "He leaves the cleaning until after the meal.",
+          "answer": false,
+          "explanation": "False — he cleans during the cooking, because otherwise he would not do it at all."
+        },
+        {
+          "id": "kct5",
+          "statement": "He thinks cooking and programming are completely different activities.",
+          "answer": false,
+          "explanation": "False — “both jobs are the same job”, apart from one thing: dinner ends and software does not."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "“Deal with the small thing while it is still small.” Where else does that rule apply?",
+    "The writer prepares everything before committing to anything. Are you that kind of cook, or do you improvise?",
+    "“The program is never finished. It is only shipped.” Is there anything in your work that is never really finished?",
+    "Describe a meal you cook regularly, using at least six phrasal verbs from this text.",
+    "Write about 150 words comparing two things you do that turn out to use the same skill."
+  ]
+}

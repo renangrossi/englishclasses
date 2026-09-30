@@ -9,7 +9,7 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 51 of 98 implemented.**
+**Progress: 57 of 98 implemented.**
 
 ## Totals
 
@@ -45,8 +45,8 @@ content rather than as pre-existing.
 
 | Audio | Docs | |
 |---|---:|---|
-| `required` | 24 | must be generated |
-| `exists` | 46 | mp3 present and matches the text |
+| `required` | 18 | must be generated |
+| `exists` | 52 | mp3 present and matches the text |
 | `stale-on-edit` | 0 | mp3 present but the text is being edited -- **must be regenerated** |
 | `n/a` | 28 | drill / answer key / discussion bank -- not a reading text |
 
@@ -58,11 +58,11 @@ Nothing worth migrating. Each reason is given -- no existing material is dropped
 
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
-| `el-niño-2027` | 432 | reading | B2 | society | `n/a` | NOT STARTED | Dated to a specific forecast year and written for one Brazilian city ('what does it mean for someone who lives in porto alegre'). Stale and off-brief; nothing here is worth migrating. |
-| `irregular-verbs-list` | 497 | reference | A2 | reference | `n/a` | NOT STARTED | Duplicates the existing irregular-verbs.html page, and this copy is defective: lists regular verbs as irregular ('Clap/Clapped'), invents 'Abidden', and drops the participle column for many entries. |
-| `it-ptbr` | 844 | reference | n/a | n/a | `n/a` | NOT STARTED | Written entirely in Portuguese — a translation of it-management, not an English exercise. The English original is kept. |
-| `market-sumup` | 759 | reading | C1 | business | `n/a` | NOT STARTED | Single-day market report ('The S&P 500 fell about 0.7%... third straight weekly loss') tied to a specific Fed nomination. Already stale and cannot be kept current. |
-| `mind-games` | — | reference | n/a | n/a | `n/a` | NOT STARTED | PDF-only and image-based — the only extractable text is 'ACTIVITY 1/2/3', so there is no content to migrate. Deletion confirmed by the user. |
+| `el-niño-2027` | 432 | reading | B2 | society | `n/a` | COMPLETE | Dated to a specific forecast year and written for one Brazilian city ('what does it mean for someone who lives in porto alegre'). Stale and off-brief; nothing here is worth migrating. — DONE: source removed; nothing migrated. Files already deleted: cefr/texts/el-niño-2027.docx. |
+| `irregular-verbs-list` | 497 | reference | A2 | reference | `n/a` | COMPLETE | Duplicates the existing irregular-verbs.html page, and this copy is defective: lists regular verbs as irregular ('Clap/Clapped'), invents 'Abidden', and drops the participle column for many entries. — DONE: source removed; nothing migrated. Files already deleted: cefr/texts/irregular-verbs-list.pdf. |
+| `it-ptbr` | 844 | reference | n/a | n/a | `n/a` | COMPLETE | Written entirely in Portuguese — a translation of it-management, not an English exercise. The English original is kept. — DONE: source removed; nothing migrated. Files already deleted: cefr/texts/it-ptbr.docx. |
+| `market-sumup` | 759 | reading | C1 | business | `n/a` | COMPLETE | Single-day market report ('The S&P 500 fell about 0.7%... third straight weekly loss') tied to a specific Fed nomination. Already stale and cannot be kept current. — DONE: source removed; nothing migrated. Files already deleted: cefr/texts/market-sumup.pdf. |
+| `mind-games` | — | reference | n/a | n/a | `n/a` | COMPLETE | PDF-only and image-based — the only extractable text is 'ACTIVITY 1/2/3', so there is no content to migrate. Deletion confirmed by the user. — DONE: source removed; nothing migrated. No source file remained. |
 
 ## REPLACE (12)
 
@@ -90,17 +90,17 @@ Two or more files teach essentially the same language in essentially the same co
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
 | `coffee-and-it-answers`<br>→ `coffee-and-it` | 295 | reference | B1 | work | `n/a` | NOT STARTED | Answer key for coffee-and-it; becomes that block's answers/explanations. |
-| `common-chores`<br>→ `household-chores` | 340 | reading | B1 | everyday | `required` | NOT STARTED | Phrasal-verb chores text. Unnatural line to fix: 'you hang up or toss into the dryer the clothes'. Merges with common-chores-ii. |
-| `common-chores-ii`<br>→ `household-chores` | 337 | reading | A2 | everyday | `required` | NOT STARTED | Same teaching goal as common-chores, narrative form (Mike, Austin TX). Keep the American setting as the merged version's frame. |
+| `common-chores`<br>→ `household-chores`<br>[page](../reading/b1/common-chores.html) | 340 | reading | B1 | everyday | `exists` | IMPLEMENTED | Phrasal-verb chores text. Unnatural line to fix: 'you hang up or toss into the dryer the clothes'. Merges with common-chores-ii. — DONE: Merged with common-chores-ii. The audit's instruction was followed: the American setting (Mike, Austin) is the frame, and the phrasal-verb load from this file is carried inside it. The unnatural 'you hang up or toss into the dryer the clothes' is fixed. |
+| `common-chores-ii`<br>→ `household-chores`<br>[page](../reading/b1/common-chores.html) | 337 | reading | A2 | everyday | `exists` | IMPLEMENTED | Same teaching goal as common-chores, narrative form (Mike, Austin TX). Keep the American setting as the merged version's frame. — DONE: Merged into reading/b1/common-chores.html as the narrative frame — see that entry. |
 | `daily-activities`<br>→ `routines-and-prepositions-drill` | 442 | drill | B1 | work | `n/a` | NOT STARTED | Identical '_____ (to verb) ___ (in/on/at)' template to navigating-finance and unfortunate-events; three copies of one exercise. |
 | `formula-1-exercises-answers`<br>→ `formula-1` | — | reference | B2 | sports | `n/a` | NOT STARTED | Answer key for formula-1. |
-| `kitchen-chaos-i`<br>→ `kitchen-phrasal-verbs` | 228 | reading | B1 | everyday | `required` | NOT STARTED | Same premise and teaching goal as kitchen-chaos-ii (IT worker cooking, phrasal verbs). Two texts teaching one thing. |
-| `kitchen-chaos-ii`<br>→ `kitchen-phrasal-verbs` | 310 | reading | B1 | everyday | `required` | NOT STARTED | Merges with kitchen-chaos-i into one stronger phrasal-verb text. |
+| `kitchen-chaos-i`<br>→ `kitchen-phrasal-verbs`<br>[page](../reading/b1/kitchen-chaos.html) | 228 | reading | B1 | everyday | `exists` | IMPLEMENTED | Same premise and teaching goal as kitchen-chaos-ii (IT worker cooking, phrasal verbs). Two texts teaching one thing. — DONE: Merged with kitchen-chaos-ii into one phrasal-verb text. The two sources taught the same thing with the same premise (an IT worker cooking); the merged version keeps the cooking/coding parallel as an actual argument rather than a closing remark. |
+| `kitchen-chaos-ii`<br>→ `kitchen-phrasal-verbs`<br>[page](../reading/b1/kitchen-chaos.html) | 310 | reading | B1 | everyday | `exists` | IMPLEMENTED | Merges with kitchen-chaos-i into one stronger phrasal-verb text. — DONE: Merged with kitchen-chaos-i into reading/b1/kitchen-chaos.html — see that entry. |
 | `navigating-finance`<br>→ `routines-and-prepositions-drill` | 734 | drill | B2 | business | `n/a` | NOT STARTED | Third copy of the same gap-fill template as daily-activities and unfortunate-events. |
 | `simple-past-+-present-continuous-+-future-1`<br>→ `tense-contrast-drill` | 1009 | drill | A2 | review | `n/a` | NOT STARTED | Parts 1 and 2 of one exercise split across two files. |
 | `simple-past-+-present-continuous-+-future-2`<br>→ `tense-contrast-drill` | 1018 | drill | A2 | review | `n/a` | NOT STARTED | Second half of the same exercise. |
-| `trials`<br>→ `american-courtroom-cases` | 671 | reading | C1 | society | `required` | NOT STARTED | Both 'Court Trials' files cover famous US cases; merge into one curated reading and even out the register ('some crazy courthouse cases'). |
-| `trials-mayors`<br>→ `american-courtroom-cases` | 1007 | reading | C1 | society | `required` | NOT STARTED | Same title and theme as trials, focused on mayoral corruption cases. |
+| `trials`<br>→ `american-courtroom-cases`<br>[page](../reading/c1/trials.html) | 671 | reading | C1 | society | `exists` | IMPLEMENTED | Both 'Court Trials' files cover famous US cases; merge into one curated reading and even out the register ('some crazy courthouse cases'). — DONE: Merged with trials-mayors into one curated reading. Register evened out ('some crazy courthouse cases' is gone) and the unsubstantiated alternative-suspect theories about the Simpson case are dropped. Two factual additions the sources lacked: the Scopes conviction was overturned in 1926 on a technicality, and the criminal/civil split in Simpson turns on the standard of proof. |
+| `trials-mayors`<br>→ `american-courtroom-cases`<br>[page](../reading/c1/trials.html) | 1007 | reading | C1 | society | `exists` | IMPLEMENTED | Same title and theme as trials, focused on mayoral corruption cases. — DONE: Merged into reading/c1/trials.html as the Kilpatrick case. Updated: the 28-year sentence was commuted in 2021 after about seven years, which the source predates. The source's internal inconsistency (indicted on 24 counts, then 'guilty on 24 of the 30') is resolved. |
 | `two-texts-sp-to-pp`<br>→ `past-to-present-perfect-drill` | 700 | drill | B1 | review | `n/a` | NOT STARTED | Paired with its -ii file as one exercise. |
 | `two-texts-sp-to-pp-ii`<br>→ `past-to-present-perfect-drill` | — | drill | B1 | review | `n/a` | NOT STARTED | Second half of the same exercise. |
 | `unfortunate-events`<br>→ `routines-and-prepositions-drill` | 570 | drill | B1 | everyday | `n/a` | NOT STARTED | Same gap-fill template as daily-activities and navigating-finance. |

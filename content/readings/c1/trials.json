@@ -1,0 +1,433 @@
+{
+  "id": "c1-reading-trials",
+  "level": "C1",
+  "slug": "trials",
+  "topic": "society",
+  "title": "What Trials Decide",
+  "subtitle": "Three American cases, and the gap between what a court rules and what the public concludes.",
+  "description": "A C1 reading and listening text on three famous American trials — Scopes, Simpson and Kilpatrick — and what a verdict does and does not settle, with advanced vocabulary and interpretation exercises.",
+  "source": "cefr/texts/trials.docx + cefr/texts/trials-mayors.docx",
+  "provenance": "merged",
+  "audio": {
+    "duration_label": "4:30"
+  },
+  "passage": [
+    "A trial is a narrower instrument than it appears from outside. It does not establish what happened; it establishes whether a particular charge has been proved to a particular standard by a particular party. Three American cases, very different from one another, show how much that distinction matters — and how reliably the public ignores it.",
+    "The first is the Scopes trial of 1925. Tennessee had passed the Butler Act, prohibiting the teaching in state schools of any theory denying the biblical account of creation, and a young high-school teacher named John Scopes agreed to stand as a test case. The trial brought Clarence Darrow, the most famous defence attorney of his generation, against William Jennings Bryan, three times a presidential candidate and the country's leading religious populist. It was carried live on radio, which had barely been done before.",
+    "Scopes was convicted and fined a hundred dollars. On the face of it the prosecution won. But the conviction was overturned the following year by the Tennessee Supreme Court, on the technical ground that the judge rather than the jury had set the fine — a disposal that conveniently avoided ruling on whether the Act itself was constitutional. The law stayed on the books until 1967. What the trial actually settled, legally, was almost nothing. What it changed was the argument: Bryan agreed to be questioned on the literal truth of the Bible and did not come out of it well, and the case has been remembered ever since as a defeat for the side that technically won.",
+    "The second is the Simpson trial of 1994 and 1995 — televised in full, and for a time the only thing much of the country was discussing. O. J. Simpson, a former football player and actor, was charged with murdering his former wife Nicole Brown Simpson and her friend Ronald Goldman. The prosecution built its case on physical and DNA evidence. The defence did not principally argue that someone else had done it; it argued that the evidence could not be trusted, attacking the Los Angeles Police Department's handling and contamination of samples, and setting the case against a documented history of police racism in the city — a context the jury did not need to be told about.",
+    "Simpson was acquitted. Two years later a civil jury, hearing much the same evidence, found him liable for the deaths and awarded damages of thirty-three million dollars. The two results are not a contradiction, and the reason is the heart of the matter: a criminal conviction requires proof beyond reasonable doubt, while a civil claim requires only the balance of probabilities. One jury concluded that the case had not been proved to the higher standard. Another concluded it had been proved to the lower one. Both may well have been right.",
+    "The third case is more recent and less famous outside the United States. Kwame Kilpatrick was mayor of Detroit from 2002 until he resigned in 2008, and in 2013 he was convicted in federal court on two dozen counts including racketeering, extortion and fraud — a scheme, the prosecution showed, in which city contracts were steered to a friend's company in exchange for payments. Much of the evidence was his own text messages. He was sentenced to twenty-eight years, among the longest terms ever imposed on an American elected official.",
+    "He served about seven. In January 2021 his sentence was commuted, and he was released. The conviction stands; the punishment did not. Detroit, meanwhile, had gone through the largest municipal bankruptcy in American history in the intervening years, and the argument over how much of that Kilpatrick was responsible for is not one a court was ever asked to settle.",
+    "Put the three together and a pattern emerges. In Scopes, the verdict went one way and the public argument went the other. In Simpson, two juries applying two different standards reached two different answers about the same events. In Kilpatrick, the verdict held and the sentence did not. In none of the three did the trial produce the thing people wanted from it, which was a final, authoritative account of what had happened and what it meant.",
+    "That is not a failure of the courts. It is what courts are for. A trial answers a question that has been carefully narrowed so that it can be answered at all — by this evidence, against this charge, to this standard. The larger questions are left where they belong, which is with everybody else, and the frustration people feel at that is really a complaint that the hardest part has not been done for them."
+  ],
+  "vocabulary": [
+    {
+      "term": "instrument",
+      "definition": "a means of achieving something; a tool in the abstract sense"
+    },
+    {
+      "term": "standard of proof",
+      "definition": "how convincingly a case must be shown before a court may act on it",
+      "match": "standard"
+    },
+    {
+      "term": "test case",
+      "definition": "a case brought deliberately to establish how a law will be applied"
+    },
+    {
+      "term": "populist",
+      "definition": "a politician who appeals to ordinary people against established elites"
+    },
+    {
+      "term": "to convict",
+      "definition": "to find guilty in a criminal court",
+      "match": "convicted"
+    },
+    {
+      "term": "to overturn",
+      "definition": "to reverse a decision on appeal",
+      "match": "overturned"
+    },
+    {
+      "term": "technical ground",
+      "definition": "a procedural reason, rather than one about the substance of the case"
+    },
+    {
+      "term": "constitutional",
+      "definition": "consistent with the constitution, and therefore lawful"
+    },
+    {
+      "term": "to acquit",
+      "definition": "to find not guilty",
+      "match": "acquitted"
+    },
+    {
+      "term": "contamination",
+      "definition": "the spoiling of a sample by unwanted material"
+    },
+    {
+      "term": "liable",
+      "definition": "legally responsible, in a civil rather than criminal sense"
+    },
+    {
+      "term": "damages",
+      "definition": "money a court orders one party to pay another for harm done"
+    },
+    {
+      "term": "beyond reasonable doubt",
+      "definition": "the high standard required to convict in a criminal case"
+    },
+    {
+      "term": "balance of probabilities",
+      "definition": "the lower civil standard — more likely than not"
+    },
+    {
+      "term": "racketeering",
+      "definition": "running a continuing criminal enterprise, often through a legitimate front"
+    },
+    {
+      "term": "extortion",
+      "definition": "obtaining money or advantage by threat"
+    },
+    {
+      "term": "to steer",
+      "definition": "to direct something toward a chosen recipient improperly",
+      "match": "steered"
+    },
+    {
+      "term": "to commute",
+      "definition": "to reduce or end a sentence without cancelling the conviction",
+      "match": "commuted"
+    },
+    {
+      "term": "municipal",
+      "definition": "relating to a city and its government"
+    },
+    {
+      "term": "bankruptcy",
+      "definition": "the legal state of being unable to pay what is owed"
+    },
+    {
+      "term": "authoritative",
+      "definition": "accepted as settling a question"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-trials-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading for Argument",
+      "instructions": "The writer is making a single argument through three examples. Follow it.",
+      "items": [
+        {
+          "id": "tr1",
+          "prompt": "What does the writer say a trial actually establishes?",
+          "options": [
+            "What happened, as completely as the evidence allows",
+            "Whether a particular charge has been proved to a particular standard by a particular party",
+            "Whether the defendant is a good or bad person"
+          ],
+          "answerIndex": 1,
+          "explanation": "The opening paragraph draws the distinction the whole text then tests — and notes “how reliably the public ignores it”."
+        },
+        {
+          "id": "tr2",
+          "prompt": "Why was Scopes's conviction overturned?",
+          "options": [
+            "The Butler Act was found unconstitutional",
+            "New evidence emerged about what he had taught",
+            "On the technical ground that the judge, not the jury, had set the fine"
+          ],
+          "answerIndex": 2,
+          "explanation": "And the writer notes what that achieved: it “conveniently avoided ruling on whether the Act itself was constitutional”."
+        },
+        {
+          "id": "tr3",
+          "prompt": "What does the writer mean by calling Scopes “a defeat for the side that technically won”?",
+          "options": [
+            "The prosecution secured a conviction but lost the public argument",
+            "The fine was too small to matter",
+            "Bryan died shortly after the trial"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bryan “did not come out of it well” under questioning, and the case is remembered for that rather than for the verdict."
+        },
+        {
+          "id": "tr4",
+          "prompt": "What was the defence's main argument in the Simpson trial?",
+          "options": [
+            "That another named individual had committed the murders",
+            "That Simpson had an alibi for the night in question",
+            "That the evidence could not be trusted, given how it had been handled"
+          ],
+          "answerIndex": 2,
+          "explanation": "The text is explicit that the defence “did not principally argue that someone else had done it”."
+        },
+        {
+          "id": "tr5",
+          "prompt": "Why are the criminal acquittal and the civil finding not a contradiction?",
+          "options": [
+            "The civil jury saw evidence the criminal jury did not",
+            "The two proceedings apply different standards of proof — beyond reasonable doubt, and the balance of probabilities",
+            "The civil case concerned different events"
+          ],
+          "answerIndex": 1,
+          "explanation": "“One jury concluded that the case had not been proved to the higher standard. Another concluded it had been proved to the lower one. Both may well have been right.”"
+        },
+        {
+          "id": "tr6",
+          "prompt": "What happened to Kilpatrick's twenty-eight-year sentence?",
+          "options": [
+            "It was commuted in 2021 after he had served about seven years",
+            "It was reduced on appeal",
+            "It was served in full"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the writer draws the distinction precisely: “The conviction stands; the punishment did not.”"
+        },
+        {
+          "id": "tr7",
+          "prompt": "Why does the writer mention Detroit's bankruptcy?",
+          "options": [
+            "Because it was caused by the corruption Kilpatrick was convicted of",
+            "Because it formed part of the charges against him",
+            "As an example of a large question no court was ever asked to settle"
+          ],
+          "answerIndex": 2,
+          "explanation": "The text is careful: the argument over his responsibility “is not one a court was ever asked to settle” — it does not assert the causal link."
+        },
+        {
+          "id": "tr8",
+          "prompt": "What pattern does the writer draw from the three cases?",
+          "options": [
+            "That American courts reach unreliable verdicts",
+            "That in none of them did the trial deliver a final, authoritative account of events and their meaning",
+            "That famous defendants receive lighter treatment"
+          ],
+          "answerIndex": 1,
+          "explanation": "Each case fails to deliver it in a different way, which is why three examples rather than one are needed."
+        },
+        {
+          "id": "tr9",
+          "prompt": "How does the writer characterise public frustration with trials?",
+          "options": [
+            "As a reasonable demand for better courts",
+            "As evidence that juries should be replaced by judges",
+            "As really a complaint that the hardest part — deciding what it all means — has not been done for them"
+          ],
+          "answerIndex": 2,
+          "explanation": "“That is not a failure of the courts. It is what courts are for.” The narrowness is the design, not the defect."
+        }
+      ]
+    },
+    {
+      "id": "c1-trials-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "These reward precision about what the text claims.",
+      "items": [
+        {
+          "id": "trt1",
+          "statement": "The Butler Act was repealed immediately after the Scopes trial.",
+          "answer": false,
+          "explanation": "False — it “stayed on the books until 1967”, more than forty years later."
+        },
+        {
+          "id": "trt2",
+          "statement": "Scopes agreed to be the defendant deliberately.",
+          "answer": true,
+          "explanation": "True — he “agreed to stand as a test case”, which is what a test case means."
+        },
+        {
+          "id": "trt3",
+          "statement": "The Simpson civil jury awarded damages against him.",
+          "answer": true,
+          "explanation": "True — it found him liable and awarded thirty-three million dollars."
+        },
+        {
+          "id": "trt4",
+          "statement": "The text names an alternative suspect in the Simpson case.",
+          "answer": false,
+          "explanation": "False — it says the defence did not principally argue that someone else was responsible, and offers no such theory itself."
+        },
+        {
+          "id": "trt5",
+          "statement": "Kilpatrick's conviction was cancelled when he was released.",
+          "answer": false,
+          "explanation": "False — a commutation reduces or ends a sentence without touching the conviction."
+        },
+        {
+          "id": "trt6",
+          "statement": "Much of the evidence against Kilpatrick came from his own messages.",
+          "answer": true,
+          "explanation": "True — stated directly."
+        }
+      ]
+    },
+    {
+      "id": "c1-trials-vocabulary",
+      "type": "fill-blank",
+      "title": "Legal Register",
+      "instructions": "Complete each sentence with the precise legal term.",
+      "items": [
+        {
+          "id": "trf1",
+          "prompt": "A criminal court must be satisfied ___ ___ ___.",
+          "answers": [
+            "beyond",
+            "reasonable",
+            "doubt"
+          ],
+          "options": [
+            [
+              "beyond",
+              "within",
+              "against"
+            ],
+            [
+              "reasonable",
+              "possible",
+              "any"
+            ],
+            [
+              "doubt",
+              "question",
+              "dispute"
+            ]
+          ],
+          "explanation": "The high criminal standard — contrasted in this text with the civil one."
+        },
+        {
+          "id": "trf2",
+          "prompt": "A civil claim is decided on the ___ ___ ___.",
+          "answers": [
+            "balance",
+            "of",
+            "probabilities"
+          ],
+          "options": [
+            [
+              "balance",
+              "weight",
+              "measure"
+            ],
+            [
+              "of",
+              "on",
+              "in"
+            ],
+            [
+              "probabilities",
+              "evidence",
+              "doubt"
+            ]
+          ],
+          "explanation": "The lower standard: more likely than not. It is why two juries can differ without either being wrong."
+        },
+        {
+          "id": "trf3",
+          "prompt": "The appeal court ___ the conviction on a technical ground.",
+          "answers": [
+            "overturned"
+          ],
+          "options": [
+            "overturned",
+            "commuted",
+            "acquitted"
+          ],
+          "explanation": "To overturn is to reverse a decision on appeal. To commute affects only the sentence."
+        },
+        {
+          "id": "trf4",
+          "prompt": "He was found ___ in the civil case and ordered to pay ___.",
+          "answers": [
+            "liable",
+            "damages"
+          ],
+          "options": [
+            [
+              "liable",
+              "guilty",
+              "convicted"
+            ],
+            [
+              "damages",
+              "fines",
+              "costs"
+            ]
+          ],
+          "explanation": "Civil courts find a party liable and award damages; only criminal courts find someone guilty."
+        },
+        {
+          "id": "trf5",
+          "prompt": "The sentence was ___, but the conviction stood.",
+          "answers": [
+            "commuted"
+          ],
+          "options": [
+            "commuted",
+            "overturned",
+            "acquitted"
+          ],
+          "explanation": "That distinction is exactly what happened to Kilpatrick in 2021."
+        },
+        {
+          "id": "trf6",
+          "prompt": "City contracts were ___ toward a company owned by a friend.",
+          "answers": [
+            "steered"
+          ],
+          "options": [
+            "steered",
+            "commuted",
+            "acquitted"
+          ],
+          "explanation": "To steer here means to direct improperly toward a chosen recipient."
+        }
+      ]
+    },
+    {
+      "id": "c1-trials-matching",
+      "type": "matching",
+      "title": "Case and Outcome",
+      "instructions": "Match each case to what the text says it did and did not settle.",
+      "items": [
+        {
+          "id": "trm1",
+          "pairs": [
+            {
+              "left": "Scopes (1925)",
+              "right": "convicted, then overturned on a technicality; the law stood until 1967"
+            },
+            {
+              "left": "Simpson, criminal (1995)",
+              "right": "acquitted — not proved beyond reasonable doubt"
+            },
+            {
+              "left": "Simpson, civil (1997)",
+              "right": "found liable and ordered to pay damages"
+            },
+            {
+              "left": "Kilpatrick (2013)",
+              "right": "convicted on two dozen federal counts, sentenced to twenty-eight years"
+            },
+            {
+              "left": "Kilpatrick (2021)",
+              "right": "sentence commuted after about seven years; conviction unchanged"
+            }
+          ],
+          "explanation": "Read down the column and the writer's thesis is visible in the outcomes alone: five legal results, and not one of them a complete account of events."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The writer says the narrowness of a trial is its design, not its defect. Is that satisfying when the stakes are this high?",
+    "Two juries reached opposite conclusions about the same events and both may have been right. Does that strengthen or weaken confidence in the system?",
+    "Scopes lost the case and won the argument. Can you think of another example where that happened?",
+    "A commutation ends a punishment without cancelling a conviction. Should that power exist, and who should hold it?",
+    "Write about 250 words on a case from your own country that the public and the courts judged differently, and say which you think got it right."
+  ]
+}

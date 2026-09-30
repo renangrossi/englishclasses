@@ -1,0 +1,394 @@
+{
+  "id": "b2-reading-egypt",
+  "level": "B2",
+  "slug": "egypt-a-journey-through-history-and-culture",
+  "topic": "travel",
+  "title": "A Journey Through Egypt",
+  "subtitle": "Cairo to Alexandria by way of the Nile, and what a country does with four thousand years of inheritance.",
+  "description": "A B2 travel reading and listening text following a journey through Egypt — Cairo, Giza, Luxor, Aswan and Alexandria — with narrative-tense practice, vocabulary and comprehension exercises.",
+  "source": "cefr/texts/egypt-a-journey-through-history-and-culture.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "5:09"
+  },
+  "passage": [
+    "The journey began in Cairo, which is not a city that eases you in. Twenty-odd million people, traffic that treats lane markings as a suggestion, and, in the middle of it, the Egyptian Museum holding more of the ancient world than any building reasonably should. The collection runs to well over a hundred thousand objects and only a fraction is ever on display. The Tutankhamun rooms are the ones everyone comes for, and the gold funerary mask genuinely does stop people where they stand — though the more affecting things are often smaller: a child's sandals, a folding stool, a board game.",
+    "What the museum makes clear is how much of this is one continuous inheritance. The objects span thousands of years, and the country they came from is still there, still farming the same strip of river valley.",
+    "From Cairo it is a short drive to Giza, where the Great Pyramid stands on the edge of the suburbs — a detail that surprises most visitors, who expect open desert and find a road and a bus park. It was built about 4,500 years ago for the pharaoh Khufu, and it was the tallest structure made by human beings for something like 3,800 years afterwards. It was built without iron tools, without the wheel in any form useful for the task, and without machines: with copper implements, ramps, water, rope and an enormous quantity of organised labour. The workers were not slaves, as was assumed for a long time; the excavated settlement beside the site shows a paid workforce that was fed on bread, beer and meat, and buried with honour nearby.",
+    "The Sphinx sits below the pyramids, smaller than photographs suggest and missing its nose. A good deal of nonsense is written about it — hidden chambers, lost civilisations, a buried hall of records. None of that has ever been found, and the archaeologists who work the site spend a certain amount of their time saying so. What is actually remarkable requires no invention: it was carved from a single mass of limestone left in place when the surrounding rock was quarried for the pyramids.",
+    "Then the Nile. A boat from Luxor to Aswan is the classic route, and the appeal of it is not the boat but the geography, which becomes obvious from the water in a way it never does on a map. Egypt is a narrow green ribbon perhaps a few kilometres wide with desert on either side, and the line where the irrigation stops is as sharp as a drawn border. Ninety-five per cent of the population lives on about five per cent of the land, and you can see exactly why within the first hour.",
+    "Luxor is built over ancient Thebes and has more standing monuments than anywhere else on earth. Karnak is the one that defeats people: a temple complex enlarged by pharaoh after pharaoh across roughly two thousand years, so that walking through it is less like visiting a building than reading a very long argument between rulers about who mattered most. The hypostyle hall has 134 columns, and the tallest are about twenty-four metres. Across the river, the Valley of the Kings holds the rock-cut tombs, and the painted ceilings in them have kept their colour for three millennia because they were sealed, dark and dry — which is also the reason visitor numbers in each tomb are now limited.",
+    "Aswan is quieter, and the Nile is at its most beautiful there. The temple of Philae, dedicated to Isis, was moved stone by stone to a neighbouring island in the 1960s and 1970s, because the Aswan High Dam would otherwise have drowned it. The dam did what it was built for: it ended the annual flood, secured the water supply and generates a large share of the country's electricity. It also submerged Nubian towns and villages and displaced tens of thousands of people, many of whom were resettled far from the river their communities had lived on for centuries. Both halves of that are true, and the temple standing on its new island is a reasonable place to think about the trade.",
+    "The food along the way was better than its reputation abroad. Koshari — rice, lentils, macaroni, fried onions and a sharp tomato sauce — is the national dish and costs almost nothing. Ful medames, slow-cooked fava beans, is what much of the country eats for breakfast. A few words of Arabic go a long way: shukran, thank you, changes the temperature of a conversation immediately.",
+    "The journey ended in Alexandria, on the Mediterranean, which feels like a different country — sea air, Greek and Roman layers under the streets, a long curving corniche. The ancient Library is gone, and almost nothing of it survives to see. In its place stands the Bibliotheca Alexandrina, opened in 2002, which is a working library and a deliberate gesture rather than a reconstruction. Sitting on the seafront afterwards with fresh fish, the thing that stayed was not any single monument. It was the continuity — that people have been living along this river, arguing and building and burying their dead, for longer than most countries have existed at all."
+  ],
+  "vocabulary": [
+    {
+      "term": "to ease someone in",
+      "definition": "to introduce someone to something gradually",
+      "match": "eases you in"
+    },
+    {
+      "term": "funerary",
+      "definition": "relating to burial of the dead"
+    },
+    {
+      "term": "affecting",
+      "definition": "producing a strong emotional response"
+    },
+    {
+      "term": "inheritance",
+      "definition": "what is passed down from earlier generations"
+    },
+    {
+      "term": "implement",
+      "definition": "a tool",
+      "match": "implements"
+    },
+    {
+      "term": "to excavate",
+      "definition": "to dig up a site in order to study it",
+      "match": "excavated"
+    },
+    {
+      "term": "workforce",
+      "definition": "all the people employed on a particular job"
+    },
+    {
+      "term": "to quarry",
+      "definition": "to cut stone out of the ground for building",
+      "match": "quarried"
+    },
+    {
+      "term": "limestone",
+      "definition": "a soft sedimentary rock widely used for building"
+    },
+    {
+      "term": "ribbon",
+      "definition": "a long narrow strip"
+    },
+    {
+      "term": "irrigation",
+      "definition": "the supply of water to farmland by artificial means"
+    },
+    {
+      "term": "hypostyle",
+      "definition": "having a roof supported by rows of columns"
+    },
+    {
+      "term": "millennium",
+      "definition": "a period of a thousand years",
+      "match": "millennia"
+    },
+    {
+      "term": "to submerge",
+      "definition": "to cover completely with water",
+      "match": "submerged"
+    },
+    {
+      "term": "to displace",
+      "definition": "to force people to leave the place they live"
+    },
+    {
+      "term": "to resettle",
+      "definition": "to move a population to a new place to live",
+      "match": "resettled"
+    },
+    {
+      "term": "corniche",
+      "definition": "a road running along a coast or cliff"
+    },
+    {
+      "term": "gesture",
+      "definition": "an action done chiefly for what it signifies"
+    },
+    {
+      "term": "continuity",
+      "definition": "the fact of something carrying on unbroken over time"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-egypt-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "The writer is careful about what is established and what is not. Read for that.",
+      "items": [
+        {
+          "id": "eg1",
+          "prompt": "Why does the writer say the smaller museum objects are often “more affecting” than the gold mask?",
+          "options": [
+            "Because they are better preserved",
+            "Because a child's sandals or a board game connect to ordinary life in a way treasure does not",
+            "Because the mask is a reproduction"
+          ],
+          "answerIndex": 1,
+          "explanation": "The examples chosen — sandals, a folding stool, a board game — are all domestic, which is the point being made without stating it."
+        },
+        {
+          "id": "eg2",
+          "prompt": "What surprises most visitors about the Great Pyramid's location?",
+          "options": [
+            "That it stands at the edge of the suburbs rather than in open desert",
+            "That it is far smaller than expected",
+            "That it cannot be approached on foot"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Visitors… expect open desert and find a road and a bus park.”"
+        },
+        {
+          "id": "eg3",
+          "prompt": "What evidence does the text give that the pyramid builders were not slaves?",
+          "options": [
+            "Written records left by the pharaohs",
+            "The excavated workers' settlement, showing a paid workforce fed on bread, beer and meat and buried with honour nearby",
+            "Greek historians who visited the site"
+          ],
+          "answerIndex": 1,
+          "explanation": "The archaeology of the settlement is the evidence — the text corrects a long-held assumption with a physical finding."
+        },
+        {
+          "id": "eg4",
+          "prompt": "How does the writer treat the stories about hidden chambers under the Sphinx?",
+          "options": [
+            "As likely but unproven",
+            "As a promising area of current research",
+            "As nonsense that has never been found, which archaeologists regularly have to deny"
+          ],
+          "answerIndex": 2,
+          "explanation": "“None of that has ever been found, and the archaeologists who work the site spend a certain amount of their time saying so.” The genuine fact that follows needs no embellishment."
+        },
+        {
+          "id": "eg5",
+          "prompt": "What becomes obvious from the river that a map does not convey?",
+          "options": [
+            "The width of the Nile itself",
+            "That Egypt is a narrow green strip between deserts, with almost everyone living on a fraction of the land",
+            "The number of temples along the banks"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Ninety-five per cent of the population lives on about five per cent of the land, and you can see exactly why within the first hour.”"
+        },
+        {
+          "id": "eg6",
+          "prompt": "Why does the writer compare walking through Karnak to “reading a very long argument between rulers”?",
+          "options": [
+            "Because the walls carry inscriptions disputing history",
+            "Because successive pharaohs each enlarged it, so the building records their competition for importance",
+            "Because guides disagree about who built it"
+          ],
+          "answerIndex": 1,
+          "explanation": "It was “enlarged by pharaoh after pharaoh across roughly two thousand years” — the structure itself is the record of the rivalry."
+        },
+        {
+          "id": "eg7",
+          "prompt": "Why have the tomb paintings kept their colour, and what follows from it?",
+          "options": [
+            "They were sealed, dark and dry — which is why visitor numbers per tomb are now limited",
+            "They were painted with mineral pigments that never fade",
+            "They were restored in the twentieth century"
+          ],
+          "answerIndex": 0,
+          "explanation": "The same conditions that preserved them are what visitors disturb, which is the reason for the limits."
+        },
+        {
+          "id": "eg8",
+          "prompt": "How does the text present the Aswan High Dam?",
+          "options": [
+            "As a mistake that should not have been built",
+            "As an unqualified success for the country",
+            "As genuinely double-edged — it delivered water and power, and it drowned Nubian communities and displaced tens of thousands"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Both halves of that are true, and the temple standing on its new island is a reasonable place to think about the trade.”"
+        },
+        {
+          "id": "eg9",
+          "prompt": "What does the writer say about the Bibliotheca Alexandrina?",
+          "options": [
+            "That it is a reconstruction of the ancient Library",
+            "That it is a working library and a deliberate gesture, not a reconstruction",
+            "That it stands on the exact site of the original"
+          ],
+          "answerIndex": 1,
+          "explanation": "The ancient Library “is gone, and almost nothing of it survives to see” — the modern building is explicitly distinguished from it."
+        }
+      ]
+    },
+    {
+      "id": "b2-egypt-tenses",
+      "type": "fill-blank",
+      "title": "Narrative Tenses",
+      "instructions": "This text is a travel narrative, which uses a particular mix of tenses: past simple for what happened, present simple for what is permanently true. Choose the form that fits.",
+      "items": [
+        {
+          "id": "egt1",
+          "prompt": "The journey ___ in Cairo and ___ three weeks later in Alexandria.",
+          "answers": [
+            "began",
+            "ended"
+          ],
+          "options": [
+            [
+              "began",
+              "has begun",
+              "begins"
+            ],
+            [
+              "ended",
+              "has ended",
+              "ends"
+            ]
+          ],
+          "explanation": "A finished trip at a stated time takes the past simple throughout. The present perfect would wrongly connect it to now."
+        },
+        {
+          "id": "egt2",
+          "prompt": "The Great Pyramid ___ about 4,500 years ago for the pharaoh Khufu.",
+          "answers": [
+            "was built"
+          ],
+          "options": [
+            "was built",
+            "has been built",
+            "is built"
+          ],
+          "explanation": "A completed action at a definite past time, and the pyramid is the thing acted on — so the past simple passive."
+        },
+        {
+          "id": "egt3",
+          "prompt": "Egypt ___ a narrow green ribbon with desert on either side.",
+          "answers": [
+            "is"
+          ],
+          "options": [
+            "is",
+            "was",
+            "has been"
+          ],
+          "explanation": "Present simple: a permanent geographical fact, not part of the narrative."
+        },
+        {
+          "id": "egt4",
+          "prompt": "The temple ___ to another island in the 1960s because the dam ___ otherwise ___ it.",
+          "answers": [
+            "was moved",
+            "would",
+            "have drowned"
+          ],
+          "options": [
+            [
+              "was moved",
+              "has been moved",
+              "moves"
+            ],
+            [
+              "would",
+              "will",
+              "can"
+            ],
+            [
+              "have drowned",
+              "drown",
+              "drowned"
+            ]
+          ],
+          "explanation": "Past simple passive for the move; “would have drowned” for the result that was avoided."
+        },
+        {
+          "id": "egt5",
+          "prompt": "The paintings ___ their colour for three millennia because they ___ sealed.",
+          "answers": [
+            "have kept",
+            "were"
+          ],
+          "options": [
+            [
+              "have kept",
+              "kept",
+              "keep"
+            ],
+            [
+              "were",
+              "have been",
+              "are"
+            ]
+          ],
+          "explanation": "Present perfect for a state running from the past up to now (“for three millennia”); past simple for the single act of sealing them."
+        },
+        {
+          "id": "egt6",
+          "prompt": "People ___ along this river for longer than most countries ___.",
+          "answers": [
+            "have been living",
+            "have existed"
+          ],
+          "options": [
+            [
+              "have been living",
+              "lived",
+              "live"
+            ],
+            [
+              "have existed",
+              "existed",
+              "exist"
+            ]
+          ],
+          "explanation": "Present perfect continuous for an ongoing activity stretching from the distant past into the present — which is the sentence the whole text ends on."
+        }
+      ]
+    },
+    {
+      "id": "b2-egypt-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Check each against what the text establishes.",
+      "items": [
+        {
+          "id": "egf1",
+          "statement": "The whole Egyptian Museum collection is on display.",
+          "answer": false,
+          "explanation": "False — the collection runs to well over a hundred thousand objects and “only a fraction is ever on display”."
+        },
+        {
+          "id": "egf2",
+          "statement": "The Great Pyramid was the tallest human-made structure for thousands of years.",
+          "answer": true,
+          "explanation": "True — “for something like 3,800 years afterwards”."
+        },
+        {
+          "id": "egf3",
+          "statement": "The Sphinx was assembled from quarried blocks.",
+          "answer": false,
+          "explanation": "False — it was “carved from a single mass of limestone left in place when the surrounding rock was quarried”."
+        },
+        {
+          "id": "egf4",
+          "statement": "Karnak was built by a single pharaoh.",
+          "answer": false,
+          "explanation": "False — it was enlarged “by pharaoh after pharaoh across roughly two thousand years”."
+        },
+        {
+          "id": "egf5",
+          "statement": "The Aswan High Dam supplies a large share of Egypt's electricity.",
+          "answer": true,
+          "explanation": "True — along with ending the annual flood and securing the water supply."
+        },
+        {
+          "id": "egf6",
+          "statement": "Koshari is an expensive restaurant dish.",
+          "answer": false,
+          "explanation": "False — it is the national dish and “costs almost nothing”."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The text says archaeologists spend time denying stories about the Sphinx. Why are invented explanations often more popular than real ones?",
+    "The dam secured water and power and displaced tens of thousands of people. How should a country weigh that kind of trade?",
+    "The pyramid workers turn out to have been paid, not enslaved. Why do you think the older assumption lasted so long?",
+    "A modern library was built where an ancient one stood, as “a gesture rather than a reconstruction”. Is that worth doing?",
+    "Write about 200 words describing a journey you have made, using past simple for the events and present simple for what is permanently true of the place."
+  ]
+}

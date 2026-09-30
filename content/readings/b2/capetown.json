@@ -1,0 +1,354 @@
+{
+  "id": "b2-reading-capetown",
+  "level": "B2",
+  "slug": "capetown",
+  "topic": "travel",
+  "title": "Cape Town",
+  "subtitle": "A city between a mountain and an ocean, and what a visitor should actually plan for.",
+  "description": "A B2 travel reading and listening text on Cape Town — its setting, food, museums, hiking and the drive beyond the city — with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/capetown.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "3:37"
+  },
+  "passage": [
+    "Cape Town sits in an unusually dramatic place. Table Mountain rises almost directly behind the city center, flat-topped and often wrapped in cloud, and the Atlantic runs along the other side. The result is a city you can never quite get lost in, because the mountain tells you which way you are facing. It has been a favorite destination for travelers for a long time, and the reasons are not complicated: the setting, the food, and a history that the city has become considerably more willing to talk about.",
+    "The calendar is busy for most of the year. The Cape Town International Jazz Festival draws musicians and audiences from across the continent and beyond, and it remains the event most visitors try to plan around. The city also runs a steady programme of smaller music, film and food events, so it is worth checking what is on before you fix your dates rather than after.",
+    "For art, the obvious stop is the Zeitz Museum of Contemporary Art Africa, built inside a converted grain silo on the waterfront. It shows contemporary work from across Africa and its diaspora, it changes its exhibitions often, and the building itself — the silo's concrete tubes cut open into a central atrium — is worth the entry on its own. For the city's history rather than its art, the District Six Museum is the more important visit: it documents the neighborhood whose residents were forcibly removed under apartheid, and it is largely assembled from what those residents themselves kept.",
+    "The food is the thing most visitors underestimate. Cape Town has everything from street vendors to restaurants with long waiting lists, but the dishes worth seeking out are the Cape Malay ones — bobotie, bredie, koeksisters — which come from the cooking of people brought to the Cape as slaves from Southeast Asia and which have been part of the city's food for three centuries. The seafood is excellent and genuinely local. The wine regions begin less than an hour away.",
+    "As for the outdoors, Table Mountain can be walked or ridden. The cable car is quick and the queue is long; Platteklip Gorge, the most direct walking route, is a steep two hours and should not be attempted without water and an eye on the weather, which changes fast and has caught out a great many confident people. Kirstenbosch, on the eastern slope, is the gentler option — a botanical garden of indigenous plants with a walkway that runs through the tree canopy. Both are best done early, before the cloud settles on the summit.",
+    "One practical note that guidebooks tend to bury: Cape Town is a city of sharp inequality, and ordinary precautions matter. Ask locally which areas are fine to walk in after dark, keep your phone out of sight on the street, and use a taxi app rather than an unmarked car at night. None of this should put anyone off. It is simply the kind of thing that is easier to hear before you arrive than afterwards.",
+    "Most visitors who have the time rent a car, and it is the right decision. The peninsula drive south — Hout Bay, Chapman's Peak, Cape Point — is one of the great coastal roads anywhere, and the wine towns inland, Stellenbosch and Franschhoek, are close enough to do in a day. Book the car before you fly; the rates at the airport desk on arrival are rarely the good ones.",
+    "What stays with people afterwards is usually not a single sight. It is the combination — a mountain at the end of the street, cold water on one side and wine country on the other, and a city that has been through a great deal and is still working out what it wants to be."
+  ],
+  "vocabulary": [
+    {
+      "term": "flat-topped",
+      "definition": "having a level summit rather than a peak"
+    },
+    {
+      "term": "to draw",
+      "definition": "to attract people to a place or event",
+      "match": "draws"
+    },
+    {
+      "term": "programme",
+      "definition": "a planned series of events"
+    },
+    {
+      "term": "diaspora",
+      "definition": "a people scattered from their original homeland, and their descendants"
+    },
+    {
+      "term": "atrium",
+      "definition": "a tall open space rising through the middle of a building"
+    },
+    {
+      "term": "forcibly removed",
+      "definition": "made to leave by force of law or police action"
+    },
+    {
+      "term": "apartheid",
+      "definition": "South Africa's former system of enforced racial segregation"
+    },
+    {
+      "term": "to underestimate",
+      "definition": "to expect less of something than it deserves"
+    },
+    {
+      "term": "to seek out",
+      "definition": "to look for something deliberately rather than wait to meet it",
+      "match": "seeking out"
+    },
+    {
+      "term": "indigenous",
+      "definition": "originating naturally in a particular place"
+    },
+    {
+      "term": "canopy",
+      "definition": "the upper layer of branches and leaves in a forest"
+    },
+    {
+      "term": "to catch someone out",
+      "definition": "to take someone by surprise, usually to their cost",
+      "match": "caught out"
+    },
+    {
+      "term": "inequality",
+      "definition": "the unequal distribution of wealth and opportunity"
+    },
+    {
+      "term": "precaution",
+      "definition": "something done in advance to avoid a risk",
+      "match": "precautions"
+    },
+    {
+      "term": "to put someone off",
+      "definition": "to discourage someone from doing something",
+      "match": "put anyone off"
+    },
+    {
+      "term": "peninsula",
+      "definition": "a strip of land almost surrounded by water"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-cpt-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for what the writer is actually advising, which is not always stated as advice.",
+      "items": [
+        {
+          "id": "cp1",
+          "prompt": "Why does the writer say you can never quite get lost in Cape Town?",
+          "options": [
+            "Because the streets follow a numbered grid",
+            "Because Table Mountain rises behind the center and always tells you which way you are facing",
+            "Because the city is small enough to cross on foot"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The mountain tells you which way you are facing” — a fixed landmark on one side and the ocean on the other."
+        },
+        {
+          "id": "cp2",
+          "prompt": "What does the writer mean by a history the city “has become considerably more willing to talk about”?",
+          "options": [
+            "That the city has recently published its official records",
+            "That historians have only lately studied it",
+            "That a difficult past is now addressed publicly rather than passed over"
+          ],
+          "answerIndex": 2,
+          "explanation": "The phrasing implies a change in willingness, not in availability — and the District Six Museum later in the text is the example of it."
+        },
+        {
+          "id": "cp3",
+          "prompt": "Why does the writer call the District Six Museum “the more important visit”?",
+          "options": [
+            "Because it documents a community forcibly removed under apartheid, largely through what its own residents kept",
+            "Because it is older than the Zeitz Museum",
+            "Because entry is free"
+          ],
+          "answerIndex": 0,
+          "explanation": "The comparison is explicitly “for the city's history rather than its art” — and the museum is assembled from the residents' own materials."
+        },
+        {
+          "id": "cp4",
+          "prompt": "What point is the writer making about Cape Malay food?",
+          "options": [
+            "That it is the cheapest food available in the city",
+            "That it comes from people brought to the Cape as slaves and has been part of the city's cooking for three centuries",
+            "That it is only served in expensive restaurants"
+          ],
+          "answerIndex": 1,
+          "explanation": "The origin is given plainly, and the dishes are named as the ones “worth seeking out” — history and recommendation in the same breath."
+        },
+        {
+          "id": "cp5",
+          "prompt": "What is the writer's advice about climbing Table Mountain?",
+          "options": [
+            "To avoid the walking routes entirely",
+            "To go in the afternoon when the cloud has cleared",
+            "To go early, carry water and watch the weather, which changes fast"
+          ],
+          "answerIndex": 2,
+          "explanation": "Platteklip Gorge “should not be attempted without water and an eye on the weather”, and both options are “best done early, before the cloud settles”."
+        },
+        {
+          "id": "cp6",
+          "prompt": "How does the writer handle the question of safety?",
+          "options": [
+            "By stating the precautions plainly while making clear they are not a reason to stay away",
+            "By avoiding it, as guidebooks do",
+            "By advising visitors not to walk anywhere"
+          ],
+          "answerIndex": 0,
+          "explanation": "“None of this should put anyone off… it is easier to hear before you arrive than afterwards.” The tone is practical rather than alarming."
+        },
+        {
+          "id": "cp7",
+          "prompt": "Why does the writer say to book a rental car before flying?",
+          "options": [
+            "Because cars sell out during festival season",
+            "Because the rates at the airport desk on arrival are rarely the good ones",
+            "Because a licence must be arranged in advance"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stated directly in the final practical sentence of that paragraph."
+        },
+        {
+          "id": "cp8",
+          "prompt": "What does the writer say visitors remember afterwards?",
+          "options": [
+            "The view from the summit of Table Mountain",
+            "The combination of mountain, ocean, wine country and a city still working out what it wants to be",
+            "The Jazz Festival"
+          ],
+          "answerIndex": 1,
+          "explanation": "“What stays with people afterwards is usually not a single sight. It is the combination.”"
+        }
+      ]
+    },
+    {
+      "id": "b2-cpt-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "cpt1",
+          "statement": "The Zeitz Museum was purpose-built as a gallery.",
+          "answer": false,
+          "explanation": "False — it is “built inside a converted grain silo”, and the cut-open concrete tubes are part of what makes it worth seeing."
+        },
+        {
+          "id": "cpt2",
+          "statement": "The wine regions are several hours from the city.",
+          "answer": false,
+          "explanation": "False — they “begin less than an hour away”, and Stellenbosch and Franschhoek are a day trip."
+        },
+        {
+          "id": "cpt3",
+          "statement": "Kirstenbosch is presented as an easier alternative to climbing the mountain.",
+          "answer": true,
+          "explanation": "True — “the gentler option”, a botanical garden with a canopy walkway."
+        },
+        {
+          "id": "cpt4",
+          "statement": "The cable car avoids both the climb and the waiting.",
+          "answer": false,
+          "explanation": "False — “the cable car is quick and the queue is long”."
+        },
+        {
+          "id": "cpt5",
+          "statement": "The writer recommends renting a car for visitors who have time.",
+          "answer": true,
+          "explanation": "True — “most visitors who have the time rent a car, and it is the right decision”."
+        },
+        {
+          "id": "cpt6",
+          "statement": "Cape Malay cooking arrived in the city recently.",
+          "answer": false,
+          "explanation": "False — it “has been part of the city's food for three centuries”."
+        }
+      ]
+    },
+    {
+      "id": "b2-cpt-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right word or phrase.",
+      "items": [
+        {
+          "id": "cpf1",
+          "prompt": "The garden grows only ___ species — nothing was brought in from abroad.",
+          "answers": [
+            "indigenous"
+          ],
+          "options": [
+            "indigenous",
+            "flat-topped",
+            "forcible"
+          ],
+          "explanation": "Indigenous means originating naturally in a particular place."
+        },
+        {
+          "id": "cpf2",
+          "prompt": "Most visitors ___ how good the food is here.",
+          "answers": [
+            "underestimate"
+          ],
+          "options": [
+            "underestimate",
+            "seek out",
+            "draw"
+          ],
+          "explanation": "To underestimate is to expect less of something than it deserves."
+        },
+        {
+          "id": "cpf3",
+          "prompt": "The weather changes fast and has ___ a lot of confident walkers ___.",
+          "answers": [
+            "caught",
+            "out"
+          ],
+          "options": [
+            [
+              "caught",
+              "put",
+              "drawn"
+            ],
+            [
+              "out",
+              "off",
+              "up"
+            ]
+          ],
+          "explanation": "To catch someone out is to take them by surprise, usually to their cost."
+        },
+        {
+          "id": "cpf4",
+          "prompt": "I don't want to ___ you ___, but take a taxi rather than walk at night.",
+          "answers": [
+            "put",
+            "off"
+          ],
+          "options": [
+            [
+              "put",
+              "catch",
+              "seek"
+            ],
+            [
+              "off",
+              "out",
+              "down"
+            ]
+          ],
+          "explanation": "To put someone off is to discourage them from doing something."
+        },
+        {
+          "id": "cpf5",
+          "prompt": "Residents of the neighborhood were ___ ___ under apartheid.",
+          "answers": [
+            "forcibly",
+            "removed"
+          ],
+          "options": [
+            [
+              "forcibly",
+              "gently",
+              "briefly"
+            ],
+            [
+              "removed",
+              "drawn",
+              "sought"
+            ]
+          ],
+          "explanation": "To be forcibly removed is to be made to leave by force of law or police action."
+        },
+        {
+          "id": "cpf6",
+          "prompt": "The museum shows work from across Africa and its ___.",
+          "answers": [
+            "diaspora"
+          ],
+          "options": [
+            "diaspora",
+            "peninsula",
+            "canopy"
+          ],
+          "explanation": "A diaspora is a people scattered from their original homeland, and their descendants."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The writer includes a paragraph on safety that guidebooks “tend to bury”. Is it more respectful to a place to mention such things or to leave them out?",
+    "Cape Malay food is described through its origins in slavery. Does knowing where a dish comes from change how you eat it?",
+    "The District Six Museum is built from what residents kept. What would a museum of your own neighborhood be made of?",
+    "“A city that has been through a great deal and is still working out what it wants to be.” Does that describe anywhere you know?",
+    "Write about 150 words recommending a city you know well to someone who has never been — including one honest warning."
+  ]
+}

@@ -173,13 +173,14 @@
       "level": "B2",
       "topic": "tech",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Useful tech-history angle but list-like and abrupt; convert to connected prose.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Useful tech-history angle but list-like and abrupt; convert to connected prose. — DONE: Converted from a bulleted list to connected prose, and two factual errors fixed: ARPANET was funded by ARPA to share scarce university computers, NOT built to survive a nuclear attack (that idea is Paul Baran's separate RAND work on distributed networks); and Mitnick was first arrested in 1988 over Digital Equipment Corporation, not 1992 — 1992 is when he absconded. His death in 2023 is also now reflected.",
+      "status": "IMPLEMENTED",
       "card_title": "Business War It",
       "source_files": [
         "cefr/texts/business-war-it.pdf"
-      ]
+      ],
+      "page": "reading/b2/business-war-it.html"
     },
     {
       "slug": "cachacas",
@@ -205,18 +206,15 @@
       "level": "B2",
       "topic": "travel",
       "action": "EDIT",
-      "audio": "stale-on-edit",
-      "reason": "Perfect/perfect-continuous forms crammed in unnaturally ('had begun... had been... has been pulling'). Rewrite naturally, then regenerate the 4 existing mp3s.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Perfect/perfect-continuous forms crammed in unnaturally ('had begun... had been... has been pulling'). Rewrite naturally, then regenerate the 4 existing mp3s. — DONE: Rewritten as natural prose: the crammed perfect/perfect-continuous forms are gone, the vague 'this year' framing is replaced by things that stay true, and the District Six Museum, the Cape Malay food's origins and an honest note on inequality are added. The four stale mp3s in cefr/texts/ are replaced by a single re-narration (D-6).",
+      "status": "IMPLEMENTED",
       "card_title": "Capetown",
       "card_desc": "Reading and comprehension exercises about Capetown culture and landmarks.",
       "source_files": [
-        "cefr/texts/capetown.pdf",
-        "cefr/texts/capetown-01.mp3",
-        "cefr/texts/capetown-02.mp3",
-        "cefr/texts/capetown-03.mp3",
-        "cefr/texts/capetown-04.mp3"
-      ]
+        "cefr/texts/capetown.pdf"
+      ],
+      "page": "reading/b2/capetown.html"
     },
     {
       "slug": "cars",
@@ -473,15 +471,16 @@
       "genre": "reading",
       "level": "B2",
       "topic": "culture",
-      "action": "EDIT",
-      "audio": "required",
-      "reason": "The legitimate Egypt text; keep as the single Egypt reading and trim.",
-      "status": "NOT STARTED",
+      "action": "REPLACE",
+      "audio": "exists",
+      "reason": "VERDICT CHANGED (EDIT -> REPLACE) on a close read. The audit called this 'the legitimate Egypt text', but the body is a tense gap-fill rather than a reading, and its final third narrates the 'Hall of Records', a lost city and an 'ancient power source' beneath the Sphinx as a discovery the narrator makes via '2025 radar scans' — the same pseudo-archaeology P-5 flagged in the other Egypt file. Rebuilt as a genuine travel reading (Cairo, Giza, the Nile, Luxor, Aswan, Alexandria); the pseudo-archaeology is dropped and replaced by what is actually established, including the excavated workers' settlement showing a paid rather than enslaved workforce, and the Aswan dam's real double edge. The tense drill survives as a proper narrative-tenses exercise block.",
+      "status": "IMPLEMENTED",
       "card_title": "Egypt a Journey Through History and Culture",
       "card_desc": "Exercises exploring Egyptian history and cultural aspects.",
       "source_files": [
         "cefr/texts/egypt-a-journey-through-history-and-culture.pdf"
-      ]
+      ],
+      "page": "reading/b2/egypt-a-journey-through-history-and-culture.html"
     },
     {
       "slug": "el-nino-2027",
@@ -1125,14 +1124,15 @@
       "level": "B2",
       "topic": "culture",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Competent country overview; slightly encyclopedic, tighten into themed paragraphs.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Competent country overview; slightly encyclopedic, tighten into themed paragraphs. — DONE: Tightened from labelled encyclopedia sections into themed prose. Corrects the Dracula framing the source repeated (Stoker never visited; Bran Castle has no real link to Vlad, who was born in Sighisoara) and softens the contested 'second-largest administrative building' superlative.",
+      "status": "IMPLEMENTED",
       "card_title": "Romania",
       "card_desc": "Exercises exploring Romanian culture and history.",
       "source_files": [
         "cefr/texts/romania.pdf"
-      ]
+      ],
+      "page": "reading/b2/romania.html"
     },
     {
       "slug": "rs-japan",

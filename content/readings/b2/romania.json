@@ -1,0 +1,366 @@
+{
+  "id": "b2-reading-romania",
+  "level": "B2",
+  "slug": "romania",
+  "topic": "culture",
+  "title": "Romania",
+  "subtitle": "Mountains, medieval towns and a Latin language in the middle of Slavic Europe.",
+  "description": "A B2 reading and listening text on Romania — its history, landscapes, Transylvania, Bucharest, food and traditions — with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/romania.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "4:04"
+  },
+  "passage": [
+    "Romania occupies the southeastern corner of Europe, and the first thing worth knowing about it is linguistic. Romanian is a Romance language — descended from Latin, and close enough to Italian that speakers of one can make a rough job of reading the other. That is unusual in a region where almost every neighbour speaks a Slavic or Hungarian tongue, and it is the direct legacy of the Roman conquest of Dacia in the second century.",
+    "The history since then has been a matter of absorbing whoever arrived next. The Dacians were a Thracian people; the Romans took the territory and left the language; and over the following centuries the lands that make up modern Romania passed under Ottoman and Austro-Hungarian influence in turn. The country as it exists now is recent by European standards, unified in 1918 out of provinces that had spent centuries under different rulers — which is part of why its regions still feel genuinely distinct from one another.",
+    "Geographically, the Carpathians run through the middle of the country in a long arc, and they are what keep Romania's wild places wild. The range holds some of the largest remaining populations of brown bear, wolf and lynx in Europe outside Russia, along with deep gorges and forest that has never been cleared. Hiking and skiing are the obvious draws. In the southeast, the Danube finishes its journey across the continent and breaks into the Danube Delta, a UNESCO World Heritage site and one of the richest habitats for birds anywhere in Europe.",
+    "Transylvania, in the centre, is the region outsiders have usually heard of, and almost always for the wrong reason. Bram Stoker set part of Dracula there without ever having visited; Bran Castle, marketed ever since as “Dracula's castle”, has no real connection to the historical Vlad the Impaler, who was born in Sighișoara some distance away. What Transylvania does have is a genuine density of medieval towns — Sibiu, Brașov, Sighișoara — with their old centres intact, and the fortified churches built by Saxon settlers, which are a World Heritage site in their own right and considerably more interesting than the vampire industry.",
+    "Bucharest, the capital, is a harder city to like at first and a more rewarding one afterwards. Its nineteenth-century boulevards earned it the nickname “the Paris of the East”, and a good deal of that architecture survives between the concrete of the communist decades. The Palace of the Parliament, built under Ceaușescu, is among the largest and by some measures the heaviest buildings in the world; a whole district was demolished to make room for it, which is a fact the building's scale tends to obscure. The city also has serious museums, large parks and a nightlife that runs later than most of Europe's.",
+    "The culture is the same layered thing as the history. Folk traditions remain strong, particularly in the countryside of Maramureș and Bucovina, where wooden churches and painted monasteries have been in continuous use for centuries. Mărțișor, at the start of March, involves giving small red-and-white tokens to mark the arrival of spring, and Easter is the year's most elaborate celebration, with painted eggs and services that run through the night.",
+    "The food is substantial rather than delicate: sarmale, which are cabbage leaves rolled around seasoned meat and rice; mămăligă, a cornmeal porridge that does the work polenta does in Italy; and mici, small grilled rolls of minced meat that are the standard accompaniment to a beer outdoors. The wine industry is old and still underrated abroad — Fetească Neagră is the red most worth trying.",
+    "Romania has also produced a remarkable number of significant figures for a country of its size: the sculptor Constantin Brâncuși, who did as much as anyone to shape modern sculpture; the composer George Enescu; the gymnast Nadia Comăneci; and Herta Müller, who won the Nobel Prize in Literature for work largely about life under the Ceaușescu dictatorship.",
+    "For a country this varied, tourism is still comparatively light, which is much of the appeal. The painted monasteries of Bucovina, the Saxon villages of Transylvania, the delta and the mountains are all reachable and none of them is overrun. That will not last indefinitely."
+  ],
+  "vocabulary": [
+    {
+      "term": "legacy",
+      "definition": "something inherited from an earlier period"
+    },
+    {
+      "term": "to absorb",
+      "definition": "to take something in and make it part of yourself",
+      "match": "absorbing"
+    },
+    {
+      "term": "province",
+      "definition": "a large administrative region of a country",
+      "match": "provinces"
+    },
+    {
+      "term": "distinct",
+      "definition": "clearly different from one another"
+    },
+    {
+      "term": "arc",
+      "definition": "a curved line or shape"
+    },
+    {
+      "term": "gorge",
+      "definition": "a narrow valley with steep rocky sides",
+      "match": "gorges"
+    },
+    {
+      "term": "habitat",
+      "definition": "the natural environment where a species lives"
+    },
+    {
+      "term": "density",
+      "definition": "the degree to which things are packed into an area"
+    },
+    {
+      "term": "fortified",
+      "definition": "strengthened with walls and towers against attack"
+    },
+    {
+      "term": "boulevard",
+      "definition": "a wide city street, usually tree-lined",
+      "match": "boulevards"
+    },
+    {
+      "term": "to demolish",
+      "definition": "to knock a building down deliberately",
+      "match": "demolished"
+    },
+    {
+      "term": "to obscure",
+      "definition": "to make something hard to notice"
+    },
+    {
+      "term": "layered",
+      "definition": "made up of distinct levels laid one over another"
+    },
+    {
+      "term": "substantial",
+      "definition": "large and filling; solid rather than light"
+    },
+    {
+      "term": "underrated",
+      "definition": "not valued as highly as it deserves"
+    },
+    {
+      "term": "dictatorship",
+      "definition": "rule by one person or party holding absolute power"
+    },
+    {
+      "term": "overrun",
+      "definition": "spoiled by having far too many visitors"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-rom-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Several of these ask what the writer is correcting or implying.",
+      "items": [
+        {
+          "id": "ro1",
+          "prompt": "Why does the writer begin with the language?",
+          "options": [
+            "Because it is the hardest thing for visitors to learn",
+            "Because a Latin-descended language in a mostly Slavic region is unusual, and explains the Roman conquest that follows",
+            "Because it is the only thing Romania shares with Italy"
+          ],
+          "answerIndex": 1,
+          "explanation": "It is “unusual in a region where almost every neighbour speaks a Slavic or Hungarian tongue” and is “the direct legacy of the Roman conquest of Dacia”."
+        },
+        {
+          "id": "ro2",
+          "prompt": "Why do Romania's regions still “feel genuinely distinct from one another”?",
+          "options": [
+            "Because the Carpathians physically separate them",
+            "Because each speaks a different language",
+            "Because they spent centuries under different rulers before being unified in 1918"
+          ],
+          "answerIndex": 2,
+          "explanation": "The country is “recent by European standards, unified in 1918 out of provinces that had spent centuries under different rulers”."
+        },
+        {
+          "id": "ro3",
+          "prompt": "What does the writer say the Carpathians are responsible for?",
+          "options": [
+            "Keeping Romania's wild places wild, including Europe's largest bear, wolf and lynx populations outside Russia",
+            "Separating Romania from Hungary",
+            "Providing most of the country's farmland"
+          ],
+          "answerIndex": 0,
+          "explanation": "“They are what keep Romania's wild places wild”, with uncleared forest and those predator populations."
+        },
+        {
+          "id": "ro4",
+          "prompt": "What is the writer correcting about Transylvania?",
+          "options": [
+            "That it is not actually in Romania",
+            "That the Dracula association is largely invented — Stoker never visited and Bran Castle has no real link to Vlad the Impaler",
+            "That its medieval towns are reconstructions"
+          ],
+          "answerIndex": 1,
+          "explanation": "Outsiders have heard of it “almost always for the wrong reason”, and the fortified churches are called “considerably more interesting than the vampire industry”."
+        },
+        {
+          "id": "ro5",
+          "prompt": "What does the writer mean by calling Bucharest “a harder city to like at first and a more rewarding one afterwards”?",
+          "options": [
+            "That it is dangerous for new visitors",
+            "That its attractions are expensive",
+            "That the communist-era concrete is what you notice first, and the older architecture and cultural life take longer to find"
+          ],
+          "answerIndex": 2,
+          "explanation": "The nineteenth-century architecture “survives between the concrete of the communist decades”, alongside museums, parks and nightlife."
+        },
+        {
+          "id": "ro6",
+          "prompt": "Why does the writer mention that a district was demolished for the Palace of the Parliament?",
+          "options": [
+            "To explain why the building took so long to complete",
+            "Because the building's sheer scale tends to hide what it cost the city",
+            "To argue that the building should be pulled down"
+          ],
+          "answerIndex": 1,
+          "explanation": "“A fact the building's scale tends to obscure” — the spectacle distracts from the destruction that made room for it."
+        },
+        {
+          "id": "ro7",
+          "prompt": "What does the writer imply in the final sentence, “That will not last indefinitely”?",
+          "options": [
+            "That the sites are deteriorating and may not survive",
+            "That tourism is light now but will increase, and the uncrowded quality will go",
+            "That travel to Romania will become more difficult"
+          ],
+          "answerIndex": 1,
+          "explanation": "The preceding sentence says none of the sites is overrun — the closing line is a quiet prediction that this is temporary."
+        }
+      ]
+    },
+    {
+      "id": "b2-rom-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Some of these are close to the text without matching it.",
+      "items": [
+        {
+          "id": "rot1",
+          "statement": "Romanian is related to Italian, Spanish and French.",
+          "answer": true,
+          "explanation": "True — it is a Romance language descended from Latin, close enough to Italian for rough mutual reading."
+        },
+        {
+          "id": "rot2",
+          "statement": "Bram Stoker visited Transylvania before writing Dracula.",
+          "answer": false,
+          "explanation": "False — he “set part of Dracula there without ever having visited”."
+        },
+        {
+          "id": "rot3",
+          "statement": "Vlad the Impaler was born at Bran Castle.",
+          "answer": false,
+          "explanation": "False — he was born in Sighișoara, “some distance away”; the castle's Dracula link is marketing."
+        },
+        {
+          "id": "rot4",
+          "statement": "The Danube Delta is protected as a World Heritage site.",
+          "answer": true,
+          "explanation": "True — and it is described as one of Europe's richest bird habitats."
+        },
+        {
+          "id": "rot5",
+          "statement": "Mămăligă is a meat dish.",
+          "answer": false,
+          "explanation": "False — it is a cornmeal porridge, comparable to Italian polenta. Sarmale and mici are the meat dishes."
+        },
+        {
+          "id": "rot6",
+          "statement": "Herta Müller's Nobel-winning work is largely about the Ceaușescu dictatorship.",
+          "answer": true,
+          "explanation": "True — stated directly in the paragraph on notable Romanians."
+        }
+      ]
+    },
+    {
+      "id": "b2-rom-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "rof1",
+          "prompt": "The language is the clearest ___ of Roman rule.",
+          "answers": [
+            "legacy"
+          ],
+          "options": [
+            "legacy",
+            "density",
+            "habitat"
+          ],
+          "explanation": "A legacy is something inherited from an earlier period."
+        },
+        {
+          "id": "rof2",
+          "prompt": "The churches were ___ against attack, with walls and towers.",
+          "answers": [
+            "fortified"
+          ],
+          "options": [
+            "fortified",
+            "demolished",
+            "layered"
+          ],
+          "explanation": "To fortify is to strengthen a place against attack."
+        },
+        {
+          "id": "rof3",
+          "prompt": "A whole district was ___ to make room for it.",
+          "answers": [
+            "demolished"
+          ],
+          "options": [
+            "demolished",
+            "obscured",
+            "absorbed"
+          ],
+          "explanation": "To demolish is to knock a building down deliberately."
+        },
+        {
+          "id": "rof4",
+          "prompt": "The scale of the building tends to ___ what it cost.",
+          "answers": [
+            "obscure"
+          ],
+          "options": [
+            "obscure",
+            "absorb",
+            "fortify"
+          ],
+          "explanation": "To obscure is to make something hard to notice."
+        },
+        {
+          "id": "rof5",
+          "prompt": "The wines are good but still ___ outside the country.",
+          "answers": [
+            "underrated"
+          ],
+          "options": [
+            "underrated",
+            "substantial",
+            "distinct"
+          ],
+          "explanation": "Underrated means not valued as highly as it deserves."
+        },
+        {
+          "id": "rof6",
+          "prompt": "None of these places is ___ with tourists — yet.",
+          "answers": [
+            "overrun"
+          ],
+          "options": [
+            "overrun",
+            "underrated",
+            "fortified"
+          ],
+          "explanation": "Overrun means spoiled by having far too many visitors."
+        }
+      ]
+    },
+    {
+      "id": "b2-rom-matching",
+      "type": "matching",
+      "title": "Places and People",
+      "instructions": "Match each name to what the text says about it.",
+      "items": [
+        {
+          "id": "rom1",
+          "pairs": [
+            {
+              "left": "The Carpathians",
+              "right": "the mountain arc that keeps the country's wild places wild"
+            },
+            {
+              "left": "The Danube Delta",
+              "right": "a World Heritage site and major bird habitat"
+            },
+            {
+              "left": "Sighișoara",
+              "right": "the medieval town where Vlad the Impaler was born"
+            },
+            {
+              "left": "The Palace of the Parliament",
+              "right": "the Ceaușescu-era building a district was demolished for"
+            },
+            {
+              "left": "Mărțișor",
+              "right": "the March custom of giving red-and-white tokens for spring"
+            },
+            {
+              "left": "Constantin Brâncuși",
+              "right": "the sculptor who helped shape modern sculpture"
+            },
+            {
+              "left": "Herta Müller",
+              "right": "the Nobel laureate who wrote about the dictatorship"
+            }
+          ],
+          "explanation": "Notice how many of these are things the text presents as underappreciated abroad — which is the argument the final paragraph makes explicit."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Bran Castle is marketed on a connection it does not have. Is that harmless, or does it cost a place something?",
+    "The writer says Romania's regions feel distinct because they were unified late. Is that true of anywhere you know?",
+    "“None of them is overrun. That will not last indefinitely.” Should a writer recommend a place that tourism might spoil?",
+    "Which would you rather visit — the mountains, the delta, or the medieval towns? Say why in three sentences.",
+    "Write about 150 words introducing your own country to someone who knows it only through one cliché. Name the cliché and correct it."
+  ]
+}

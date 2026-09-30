@@ -1,0 +1,412 @@
+{
+  "id": "b2-reading-business-war-it",
+  "level": "B2",
+  "slug": "business-war-it",
+  "topic": "tech",
+  "title": "Where Technology Comes From",
+  "subtitle": "Military money, commercial pressure, and the long argument about who computing is really built for.",
+  "description": "A B2 technology reading and listening text on the relationship between military funding, business and computing, including how attacks actually work and what the Mitnick case really showed, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/business-war-it.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "4:35"
+  },
+  "passage": [
+    "A great deal of the technology now used for ordinary commercial purposes began with military funding, and the relationship runs in both directions. Satellite navigation was built by the United States Department of Defense and opened to civilian use afterwards. Jet engines, radar, and much of early computing were developed or accelerated under wartime pressure. The pattern is consistent enough that it is worth understanding properly rather than through the version usually told.",
+    "The internet is the standard example, and the standard account of it is wrong. ARPANET, its ancestor, was funded by the Advanced Research Projects Agency, part of the US defense establishment — so the military money is real. But it was not built to keep communications running through a nuclear attack. It was built so that a small number of extremely expensive computers at different universities could be shared by researchers who could not all be in the same building. The nuclear-survivability idea comes from separate work by Paul Baran at the RAND Corporation on distributed networks, which did influence the design of packet switching, but was not ARPANET's purpose. The distinction matters, because the popular version makes the internet sound like a weapon that escaped, when it was closer to a tool for sharing scarce equipment that turned out to have much wider uses.",
+    "Business has since become the main driver. Companies depend on technology to operate at all, let alone competitively: an online retailer is a logistics and payments system with a shopfront attached, and the software that manages its stock and its transactions is not a support function but the business itself. That dependence creates the exposure that follows.",
+    "It also runs the other way. Technology changes how wars are fought — nuclear weapons altered the entire logic of great-power conflict after 1945, and drones and network attacks have changed it again, more quietly. And wars change business: a conflict disrupts shipping, cuts off suppliers, moves the price of energy and food, and does so far from where the fighting is.",
+    "The commercial exposure is worth setting out plainly, because the methods are more ordinary than their reputation suggests. Data theft means gaining unauthorised access to information — customer records, payment details — which is then sold or used directly. Ransomware encrypts an organisation's own systems and demands payment for the key; hospitals and local governments have been among the worst affected, because they cannot simply stop operating while they rebuild. A denial-of-service attack overwhelms a site with traffic until it becomes unreachable, which is used both for extortion and for disruption. Malware is the general term for software installed to steal data or hold access. Insider incidents involve someone who already has legitimate access and uses it. And phishing tricks a person into handing over credentials or opening an attachment.",
+    "That last one deserves its prominence. The great majority of successful intrusions begin not with a technical defeat of a system but with a person being persuaded to do something — which is why security training matters as much as any firewall, and why the most common way in has stayed the same for decades.",
+    "The best-known illustration is Kevin Mitnick. He began breaking into systems as a teenager in the late 1970s and 1980s, and in 1988 he was arrested for intrusions into Digital Equipment Corporation's network, serving a year. In 1992, with a warrant issued for violating the terms of his release, he disappeared, and spent more than two years as a fugitive while continuing to access systems including those of a telephone company. He was arrested again in 1995, pleaded guilty, and served about five years in total, including a long stretch in solitary confinement that his supporters argued was disproportionate.",
+    "What makes the case instructive is not the scale of what he took, which was modest, but the method. Mitnick was a social engineer above all. He got what he wanted mostly by telephoning people and persuading them he was someone entitled to it — a colleague, a contractor, an engineer with a problem. After his release he worked as a security consultant and author until his death in 2023, and the argument he spent those years making is the one his own case demonstrates: that an organisation can buy every technical control available and still be opened by one convincing phone call, because the weakest component of any system is usually the person operating it."
+  ],
+  "vocabulary": [
+    {
+      "term": "to accelerate",
+      "definition": "to make something develop faster than it otherwise would",
+      "match": "accelerated"
+    },
+    {
+      "term": "ancestor",
+      "definition": "an earlier form from which something later descends"
+    },
+    {
+      "term": "establishment",
+      "definition": "the institutions and people holding power in a particular field"
+    },
+    {
+      "term": "survivability",
+      "definition": "the capacity to keep functioning through an attack or disaster",
+      "match": "nuclear-survivability"
+    },
+    {
+      "term": "packet switching",
+      "definition": "sending data in small separately routed pieces rather than over one fixed line"
+    },
+    {
+      "term": "distinction",
+      "definition": "a difference that matters"
+    },
+    {
+      "term": "logistics",
+      "definition": "the organisation of moving and storing goods"
+    },
+    {
+      "term": "exposure",
+      "definition": "the degree to which something is open to harm"
+    },
+    {
+      "term": "to disrupt",
+      "definition": "to interrupt the normal running of something"
+    },
+    {
+      "term": "unauthorised",
+      "definition": "without permission"
+    },
+    {
+      "term": "ransomware",
+      "definition": "software that locks an organisation's data and demands payment to release it"
+    },
+    {
+      "term": "to encrypt",
+      "definition": "to convert data into a form that cannot be read without a key",
+      "match": "encrypts"
+    },
+    {
+      "term": "extortion",
+      "definition": "obtaining money by threat"
+    },
+    {
+      "term": "malware",
+      "definition": "any software written to damage a system or steal from it"
+    },
+    {
+      "term": "insider",
+      "definition": "someone inside an organisation who already has legitimate access"
+    },
+    {
+      "term": "phishing",
+      "definition": "tricking someone into revealing credentials or opening a harmful file"
+    },
+    {
+      "term": "credentials",
+      "definition": "the username, password or token that proves who you are"
+    },
+    {
+      "term": "intrusion",
+      "definition": "an unauthorised entry into a system",
+      "match": "intrusions"
+    },
+    {
+      "term": "firewall",
+      "definition": "a barrier that filters traffic entering or leaving a network"
+    },
+    {
+      "term": "fugitive",
+      "definition": "someone evading arrest"
+    },
+    {
+      "term": "disproportionate",
+      "definition": "far greater than the offence warrants"
+    },
+    {
+      "term": "social engineering",
+      "definition": "manipulating people, rather than software, to obtain access",
+      "match": "social engineer"
+    },
+    {
+      "term": "instructive",
+      "definition": "useful because of what it teaches"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-bwit-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "This text corrects a well-known story. Read carefully for what it says was actually the case.",
+      "items": [
+        {
+          "id": "bw1",
+          "prompt": "What does the text say ARPANET was actually built for?",
+          "options": [
+            "To keep military communications running through a nuclear attack",
+            "To let researchers at different universities share a small number of very expensive computers",
+            "To connect defense contractors to their suppliers"
+          ],
+          "answerIndex": 1,
+          "explanation": "“It was built so that a small number of extremely expensive computers at different universities could be shared by researchers who could not all be in the same building.”"
+        },
+        {
+          "id": "bw2",
+          "prompt": "Where does the nuclear-survivability idea actually come from?",
+          "options": [
+            "From Paul Baran's separate work at RAND on distributed networks, which influenced packet switching",
+            "From the original ARPANET funding proposal",
+            "From a later redesign of the network in the 1970s"
+          ],
+          "answerIndex": 0,
+          "explanation": "The text credits the idea to Baran's work, which “did influence the design of packet switching, but was not ARPANET's purpose”."
+        },
+        {
+          "id": "bw3",
+          "prompt": "Why does the writer say the distinction matters?",
+          "options": [
+            "Because it determines who owns the underlying patents",
+            "Because the popular version makes the internet sound like an escaped weapon rather than a tool for sharing scarce equipment",
+            "Because it shows the military had no role at all"
+          ],
+          "answerIndex": 1,
+          "explanation": "Note that the text is careful to keep the military funding: “so the military money is real”. What it corrects is the purpose, not the source."
+        },
+        {
+          "id": "bw4",
+          "prompt": "What does the writer mean by saying an online retailer is “a logistics and payments system with a shopfront attached”?",
+          "options": [
+            "That such companies should invest more in their websites",
+            "That the software is not a support function but the business itself",
+            "That physical shops are no longer profitable"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stated immediately after — and it is what sets up the point about exposure that follows."
+        },
+        {
+          "id": "bw5",
+          "prompt": "Why does the text say hospitals and local governments suffer worst from ransomware?",
+          "options": [
+            "Because their systems are the oldest",
+            "Because they hold the most valuable data",
+            "Because they cannot stop operating while they rebuild"
+          ],
+          "answerIndex": 2,
+          "explanation": "The pressure to pay comes from being unable to pause the service, not from the value of the data."
+        },
+        {
+          "id": "bw6",
+          "prompt": "Why does phishing “deserve its prominence”?",
+          "options": [
+            "Because most successful intrusions begin with a person being persuaded, not a system being defeated",
+            "Because it is the newest of the methods listed",
+            "Because it is the hardest attack to carry out"
+          ],
+          "answerIndex": 0,
+          "explanation": "Which is also why “security training matters as much as any firewall”."
+        },
+        {
+          "id": "bw7",
+          "prompt": "What does the writer say makes the Mitnick case instructive?",
+          "options": [
+            "The scale of what he stole",
+            "The length of his sentence",
+            "His method — he obtained access mainly by persuading people on the telephone"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Not the scale of what he took, which was modest, but the method… Mitnick was a social engineer above all.”"
+        },
+        {
+          "id": "bw8",
+          "prompt": "What is the closing argument of the text?",
+          "options": [
+            "That technical controls are not worth the expense",
+            "That an organisation can buy every technical control and still be opened by one convincing phone call",
+            "That former attackers make the best consultants"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The weakest component of any system is usually the person operating it” — the point the whole text has been building toward."
+        }
+      ]
+    },
+    {
+      "id": "b2-bwit-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Be precise: this text deliberately separates what is true from what is commonly said.",
+      "items": [
+        {
+          "id": "bwt1",
+          "statement": "The text denies that the internet had any military funding.",
+          "answer": false,
+          "explanation": "False — it says the opposite: ARPA was “part of the US defense establishment” and “the military money is real”. Only the stated purpose is corrected."
+        },
+        {
+          "id": "bwt2",
+          "statement": "Satellite navigation was built for military use and later opened to civilians.",
+          "answer": true,
+          "explanation": "True — given as the opening example of the pattern."
+        },
+        {
+          "id": "bwt3",
+          "statement": "A denial-of-service attack steals data.",
+          "answer": false,
+          "explanation": "False — it overwhelms a site with traffic until it is unreachable. Data theft is a separate category."
+        },
+        {
+          "id": "bwt4",
+          "statement": "An insider incident involves someone who already has legitimate access.",
+          "answer": true,
+          "explanation": "True — that is precisely what distinguishes it from an intrusion from outside."
+        },
+        {
+          "id": "bwt5",
+          "statement": "Mitnick was arrested for the first time in 1992.",
+          "answer": false,
+          "explanation": "False — he was arrested in 1988 over the Digital Equipment Corporation intrusions. In 1992 he disappeared after a warrant was issued for violating his release terms."
+        },
+        {
+          "id": "bwt6",
+          "statement": "Mitnick worked in security after leaving prison.",
+          "answer": true,
+          "explanation": "True — “he worked as a security consultant and author until his death in 2023”."
+        }
+      ]
+    },
+    {
+      "id": "b2-bwit-vocabulary",
+      "type": "fill-blank",
+      "title": "Security Vocabulary",
+      "instructions": "Complete each sentence with the right term.",
+      "items": [
+        {
+          "id": "bwf1",
+          "prompt": "The attack ___ every file on the network and demanded payment for the key.",
+          "answers": [
+            "encrypted"
+          ],
+          "options": [
+            "encrypted",
+            "disrupted",
+            "accelerated"
+          ],
+          "explanation": "To encrypt is to convert data into a form unreadable without a key — which is how ransomware works."
+        },
+        {
+          "id": "bwf2",
+          "prompt": "He gained ___ access to the customer database.",
+          "answers": [
+            "unauthorised"
+          ],
+          "options": [
+            "unauthorised",
+            "instructive",
+            "disproportionate"
+          ],
+          "explanation": "Unauthorised means without permission."
+        },
+        {
+          "id": "bwf3",
+          "prompt": "The email was a ___ attempt — it wanted his login ___.",
+          "answers": [
+            "phishing",
+            "credentials"
+          ],
+          "options": [
+            [
+              "phishing",
+              "ransomware",
+              "insider"
+            ],
+            [
+              "credentials",
+              "firewalls",
+              "packets"
+            ]
+          ],
+          "explanation": "Phishing tricks someone into revealing credentials — the username, password or token that proves who they are."
+        },
+        {
+          "id": "bwf4",
+          "prompt": "He obtained the password by ___ ___, not by breaking any software.",
+          "answers": [
+            "social",
+            "engineering"
+          ],
+          "options": [
+            [
+              "social",
+              "packet",
+              "insider"
+            ],
+            [
+              "engineering",
+              "switching",
+              "extortion"
+            ]
+          ],
+          "explanation": "Social engineering is manipulating people rather than software to obtain access — Mitnick's method."
+        },
+        {
+          "id": "bwf5",
+          "prompt": "The war ___ shipping thousands of miles from the fighting.",
+          "answers": [
+            "disrupted"
+          ],
+          "options": [
+            "disrupted",
+            "encrypted",
+            "obscured"
+          ],
+          "explanation": "To disrupt is to interrupt the normal running of something."
+        },
+        {
+          "id": "bwf6",
+          "prompt": "His supporters called the sentence ___ to the offence.",
+          "answers": [
+            "disproportionate"
+          ],
+          "options": [
+            "disproportionate",
+            "unauthorised",
+            "instructive"
+          ],
+          "explanation": "Disproportionate means far greater than the offence warrants."
+        }
+      ]
+    },
+    {
+      "id": "b2-bwit-matching",
+      "type": "matching",
+      "title": "Attacks and What They Do",
+      "instructions": "Match each method to what it actually involves.",
+      "items": [
+        {
+          "id": "bwm1",
+          "pairs": [
+            {
+              "left": "Data theft",
+              "right": "taking records or payment details to sell or use"
+            },
+            {
+              "left": "Ransomware",
+              "right": "encrypting an organisation's data and demanding payment"
+            },
+            {
+              "left": "Denial of service",
+              "right": "flooding a site with traffic until it is unreachable"
+            },
+            {
+              "left": "Malware",
+              "right": "software installed to steal data or hold access"
+            },
+            {
+              "left": "Insider incident",
+              "right": "misuse of access the person already legitimately had"
+            },
+            {
+              "left": "Phishing",
+              "right": "persuading a person to hand over credentials"
+            }
+          ],
+          "explanation": "Only one of these six requires defeating a system rather than a person, which is the text's central point."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The text corrects a widely repeated story about the internet's origins. Why do you think the wrong version spread so well?",
+    "“The weakest component of any system is usually the person operating it.” Is that fair to the people, or does it excuse bad design?",
+    "Should an organisation ever pay a ransom? Argue one side and address the strongest objection to it.",
+    "Mitnick went from prison to security consulting. Should someone convicted of intrusion be allowed to work in security afterwards?",
+    "Write about 150 words describing a phishing attempt you have received, or one you can imagine, and exactly what made or would make it convincing."
+  ]
+}

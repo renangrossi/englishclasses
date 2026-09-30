@@ -107,6 +107,24 @@
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
+ "b2/business-war-it": {
+  "bytes": 1652544,
+  "fingerprint": "9471c43002fa162f",
+  "rate": "+0%",
+  "voice": "en-US-ChristopherNeural"
+ },
+ "b2/capetown": {
+  "bytes": 1304064,
+  "fingerprint": "c1b8156bc5bad653",
+  "rate": "+0%",
+  "voice": "en-US-AriaNeural"
+ },
+ "b2/egypt-a-journey-through-history-and-culture": {
+  "bytes": 1854288,
+  "fingerprint": "40ca3df0210712dd",
+  "rate": "+0%",
+  "voice": "en-US-EricNeural"
+ },
  "b2/it-and-jiu-jitsu": {
   "bytes": 980064,
   "fingerprint": "d80ff9c510075da5",
@@ -148,6 +166,12 @@
   "fingerprint": "a4ebd46a7476d880",
   "rate": "+0%",
   "voice": "en-US-ChristopherNeural"
+ },
+ "b2/romania": {
+  "bytes": 1464480,
+  "fingerprint": "e2f355f023ae99ea",
+  "rate": "+0%",
+  "voice": "en-US-BrianNeural"
  },
  "b2/sales-strategy": {
   "bytes": 1524240,

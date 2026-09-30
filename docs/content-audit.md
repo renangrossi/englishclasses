@@ -9,17 +9,17 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 32 of 98 implemented.**
+**Progress: 36 of 98 implemented.**
 
 ## Totals
 
 | Action | Count | Meaning |
 |---|---:|---|
 | DELETE | 5 | Nothing worth migrating. |
-| REPLACE | 11 | The slot is worth keeping, but authoring a new text beats repairing this one. |
+| REPLACE | 12 | The slot is worth keeping, but authoring a new text beats repairing this one. |
 | MERGE | 15 | Two or more files teach essentially the same language in essentially the same context. |
 | SPLIT | 9 | Several unrelated materials share one file; each deserves its own page, exercises and audio. |
-| EDIT | 32 | Useful material that needs correction before it goes on the site. |
+| EDIT | 31 | Useful material that needs correction before it goes on the site. |
 | CONVERT | 11 | Not a reading text -- a drill, answer key or discussion bank. |
 | KEEP | 15 | Already good; convert as-is. |
 | **Total** | **98** | |
@@ -45,9 +45,9 @@ content rather than as pre-existing.
 
 | Audio | Docs | |
 |---|---:|---|
-| `required` | 41 | must be generated |
-| `exists` | 27 | mp3 present and matches the text |
-| `stale-on-edit` | 2 | mp3 present but the text is being edited -- **must be regenerated** |
+| `required` | 38 | must be generated |
+| `exists` | 31 | mp3 present and matches the text |
+| `stale-on-edit` | 1 | mp3 present but the text is being edited -- **must be regenerated** |
 | `n/a` | 28 | drill / answer key / discussion bank -- not a reading text |
 
 ---
@@ -64,7 +64,7 @@ Nothing worth migrating. Each reason is given -- no existing material is dropped
 | `market-sumup` | 759 | reading | C1 | business | `n/a` | NOT STARTED | Single-day market report ('The S&P 500 fell about 0.7%... third straight weekly loss') tied to a specific Fed nomination. Already stale and cannot be kept current. |
 | `mind-games` | — | reference | n/a | n/a | `n/a` | NOT STARTED | PDF-only and image-based — the only extractable text is 'ACTIVITY 1/2/3', so there is no content to migrate. Deletion confirmed by the user. |
 
-## REPLACE (11)
+## REPLACE (12)
 
 The slot is worth keeping, but authoring a new text beats repairing this one.
 
@@ -74,6 +74,7 @@ The slot is worth keeping, but authoring a new text beats repairing this one.
 | `australia-and-thailand`<br>[page](../reading/a2/two-very-different-trips.html) | 954 | reading | A2 | travel | `exists` | IMPLEMENTED | The source is two bulleted lists of attractions with no connected prose, so there was nothing to read or narrate. Rewritten as a single A2 text that compares the two destinations, which keeps both halves of the original material, gives the comparatives something real to do, and adds the recommendation language (you should, it's worth, don't miss) the lists only implied. |
 | `cybersecurity` | 898 | reading | B1 | tech | `required` | NOT STARTED | Whole text written in the past tense for a simple-past drill, which makes it factually wrong: 'Cybersecurity protected computers...', 'Today, we used the internet'. Rewrite in present tense and move the past-tense practice to a separate drill. |
 | `egypt` | 413 | reading | B2 | society | `required` | NOT STARTED | Presents a UFO sighting as documented history and invites the student to research it 'as a doctoral student'. Misinformation framed as scholarship; replace with a real Thutmose III / Karnak reading. |
+| `egypt-a-journey-through-history-and-culture`<br>[page](../reading/b2/egypt-a-journey-through-history-and-culture.html) | 1086 | reading | B2 | culture | `exists` | IMPLEMENTED | VERDICT CHANGED (EDIT -> REPLACE) on a close read. The audit called this 'the legitimate Egypt text', but the body is a tense gap-fill rather than a reading, and its final third narrates the 'Hall of Records', a lost city and an 'ancient power source' beneath the Sphinx as a discovery the narrator makes via '2025 radar scans' — the same pseudo-archaeology P-5 flagged in the other Egypt file. Rebuilt as a genuine travel reading (Cairo, Giza, the Nile, Luxor, Aswan, Alexandria); the pseudo-archaeology is dropped and replaced by what is actually established, including the excavated workers' settlement showing a paid rather than enslaved workforce, and the Aswan dam's real double edge. The tense drill survives as a proper narrative-tenses exercise block. |
 | `formal-informal` | 535 | reading | B2 | society | `required` | NOT STARTED | The register contrast is worth teaching, but the informal sample argues developing nations are poor because 'they suck at running their countries'. Keep the formal/informal exercise shape, replace the topic with a neutral one. |
 | `haiti` | 564 | reading | C1 | society | `required` | NOT STARTED | Blog-register news brief with an emoji mid-text, and graphic content (gang rape, torture, starvation) unsuitable for a general adult English class. Replace with a current-affairs reading that teaches the same analytical language. |
 | `maringá` | 387 | reading | B1 | travel | `required` | NOT STARTED | City-attractions list for a Brazilian city; list format and off-brief. Replace with a US city reading serving the same 'describing a city' language. |
@@ -120,7 +121,7 @@ Several unrelated materials share one file; each deserves its own page, exercise
 | `travel-dialogues`<br>[page](../reading/a2/flying-to-the-us.html) | 935 | dialogue | A2 | travel | `exists` | IMPLEMENTED | Strong functional dialogues, but eight unrelated scenarios in one worksheet (airline booking, reconfirming, passport control, booking a hotel room, checking out, ordering dinner, buying clothes, asking for a photo) with every student line left blank. Split into three coherent pages and given model answers so the dialogues can actually be read and narrated. Americanized throughout per requirement 16: euros to dollars, 24-hour times to 12-hour ('16:45' to '4:45 p.m.'), 'the trout is off' to 'we're out of the trout', 'colours' to 'colors', traveller's cheques to a card; the inconsistent 'Northwind Airways'/'Northwind Airlines' is unified, and the source's acute accents used as apostrophes ('There´s') are fixed. |
 | `verb-tense-review` | 5091 | drill | B1 | review | `n/a` | NOT STARTED | Largest file in the library (5091w) — many separate gap-fill texts, several with good American settings (hotel near Times Square). Split into per-scenario drill blocks. |
 
-## EDIT (32)
+## EDIT (31)
 
 Useful material that needs correction before it goes on the site.
 
@@ -129,15 +130,14 @@ Useful material that needs correction before it goes on the site.
 | `america-in-1776`<br>[page](../reading/c1/america-in-1776.html) | 1154 | reading | C1 | culture | `exists` | IMPLEMENTED | Strong, genuinely C1 essay on the founding. Dense academic register; trim and break into sections for readability. — DONE: Trimmed and broken into shorter sections for readability; the source's own acknowledgement of slavery, displacement and nativism is kept, since the essay's honesty depends on it. |
 | `arriving-in-johannesburg` | 1306 | dialogue | B1 | travel | `required` | NOT STARTED | Excellent airport-arrival functional dialogue. Traveler renamed to an English name; trim repetition in the shuttle exchange. |
 | `beers` | 694 | reading | B1 | food | `required` | NOT STARTED | Factual slip: 'Pilsner: Pilsen is a type of lager'. Fix, tighten the style list. |
-| `business-war-it` | 689 | reading | B2 | tech | `required` | NOT STARTED | Useful tech-history angle but list-like and abrupt; convert to connected prose. |
+| `business-war-it`<br>[page](../reading/b2/business-war-it.html) | 689 | reading | B2 | tech | `exists` | IMPLEMENTED | Useful tech-history angle but list-like and abrupt; convert to connected prose. — DONE: Converted from a bulleted list to connected prose, and two factual errors fixed: ARPANET was funded by ARPA to share scarce university computers, NOT built to survive a nuclear attack (that idea is Paul Baran's separate RAND work on distributed networks); and Mitnick was first arrested in 1988 over Digital Equipment Corporation, not 1992 — 1992 is when he absconded. His death in 2023 is also now reflected. |
 | `cachaças` | 672 | reading | B1 | food | `required` | NOT STARTED | Sound process text. Slug de-accented for safe hosting; retitle from the odd 'Distilled Spirit Visitation'. |
-| `capetown` | 770 | reading | B2 | travel | `stale-on-edit` | NOT STARTED | Perfect/perfect-continuous forms crammed in unnaturally ('had begun... had been... has been pulling'). Rewrite naturally, then regenerate the 4 existing mp3s. |
+| `capetown`<br>[page](../reading/b2/capetown.html) | 770 | reading | B2 | travel | `exists` | IMPLEMENTED | Perfect/perfect-continuous forms crammed in unnaturally ('had begun... had been... has been pulling'). Rewrite naturally, then regenerate the 4 existing mp3s. — DONE: Rewritten as natural prose: the crammed perfect/perfect-continuous forms are gone, the vague 'this year' framing is replaced by things that stay true, and the District Six Museum, the Cape Malay food's origins and an honest note on inequality are added. The four stale mp3s in cefr/texts/ are replaced by a single re-narration (D-6). |
 | `cars-and-their-parts` | 436 | reading | B1 | tech | `required` | NOT STARTED | Good vocabulary load; over-casual asides ('this beast drives the whole operation') to even out. |
 | `christmas-krampus-grinch` | 261 | reading | B1 | culture | `required` | NOT STARTED | Text points at images that do not survive conversion ('Here is a chilling traditional image of Krampus'). Rewrite those references out. |
 | `detective-story` | 526 | reading | B1 | society | `required` | NOT STARTED | Good whodunnit with inline vocabulary glosses that become a real vocabulary component. Retitle (the 'Cachaca Case' name is unrelated to the plot). |
 | `do-make-livestock-farming` | 406 | reading | B1 | work | `required` | NOT STARTED | do/make contrast is forced into unnatural English ('Do the feeding of the cattle'). Rewrite with collocations people actually use. |
 | `dream-bistro`<br>[page](../reading/a2/dream-bistro.html) | 430 | reading | A2 | work | `exists` | IMPLEMENTED | Good A2 narrative mixing present simple, present continuous and simple past. Re-set in Portland, Oregon with an English name per the American-context brief and the naming rule, and given concrete business detail (rent, suppliers, hiring) so the tense contrasts have something real to describe. |
-| `egypt-a-journey-through-history-and-culture` | 1086 | reading | B2 | culture | `required` | NOT STARTED | The legitimate Egypt text; keep as the single Egypt reading and trim. |
 | `golden-gate-bridge-present-perfect` | 274 | reading | B1 | culture | `required` | NOT STARTED | Idioms crammed in at an unnatural density, one of them crude for a classroom ('crews have busted their butts'). Keep the present-perfect focus, rewrite the register. |
 | `investigation-story`<br>[page](../reading/b1/investigation-story.html) | 408 | dialogue | B1 | literature | `required` | IMPLEMENTED | Tight interrogation dialogue with natural past continuous and English names already. Audited as KEEP, but a close read found the closing exchange unusable: it was graphic (stab wounds 'all over her torso', the body 'dragged to the forest for the wild animals to feast upon') and abusive ('you lying bastard', 'You are evil. And stupid.') -- the same defect class that made P-5 texts REPLACE. Reclassified KEEP->EDIT. The deduction that drives the scene is the source's own and was kept: Rogers claims he heard gunshots, but the victim was never shot. The gore and the insults are gone, and the interview now ends with the lie exposed and the case deliberately unresolved, which is what the discussion questions work on. |
 | `it-and-jiu-jitsu`<br>[page](../reading/b2/it-and-jiu-jitsu.html) | 356 | reading | B2 | work | `exists` | IMPLEMENTED | Likeable text; remove the gratuitous aside about breaking an opponent's 'defense (or face)'. — DONE: The gratuitous 'defense (or face)' aside removed. Also fixed the source's own inconsistency (a 'neighborhood' championship that became 'national' three paragraphs later) and replaced the real company name with none. |
@@ -150,7 +150,7 @@ Useful material that needs correction before it goes on the site.
 | `real-estate`<br>[page](../reading/c1/real-estate.html) | 634 | reading | C1 | business | `exists` | IMPLEMENTED | Strong market-analysis register, but wholly about Porto Alegre neighborhoods. Re-set in a US market to match the brief. — DONE: Re-set from Porto Alegre to the Denver market per the American-English brief (P-2): neighborhoods, price per square foot, HOA dues, floodplain and altitude replace the local references. The argument and structure are the source's. |
 | `recent-advancements-in-it`<br>[page](../reading/b2/recent-advancements-in-it.html) | 367 | reading | B2 | tech | `exists` | IMPLEMENTED | Pegged to 'What's new in 2026'; rewrite so it does not date, and tone down 'insane'/'revolutionary'. — DONE: De-dated: 'What's new in 2026', 'early 2026' and the unverifiable named tool release are gone, and 'insane'/'revolutionary' toned down. Rewritten around what is durable — the infrastructure constraint and the oversight problem. |
 | `restaurant-dialogue`<br>[page](../reading/a2/restaurant-dialogue.html) | 345 | dialogue | A2 | food | `exists` | IMPLEMENTED | Useful ordering dialogue. The family is renamed to English names per instruction; the inconsistent speaker labels ('Joe’s Pizza employee' vs 'Server') are unified; and the tip is corrected — the original left $3.50 on $26.50, about 13%, which misteaches American practice, so it is now just over 20% with a short explanation of why servers depend on tips. |
-| `romania` | 575 | reading | B2 | culture | `required` | NOT STARTED | Competent country overview; slightly encyclopedic, tighten into themed paragraphs. |
+| `romania`<br>[page](../reading/b2/romania.html) | 575 | reading | B2 | culture | `exists` | IMPLEMENTED | Competent country overview; slightly encyclopedic, tighten into themed paragraphs. — DONE: Tightened from labelled encyclopedia sections into themed prose. Corrects the Dracula framing the source repeated (Stoker never visited; Bran Castle has no real link to Vlad, who was born in Sighisoara) and softens the contested 'second-largest administrative building' superlative. |
 | `rs-japan`<br>[page](../reading/c1/rs-japan.html) | 945 | reading | C1 | culture | `exists` | IMPLEMENTED | Overwritten ('neon-veined precision', 'cultural whiplash'); the cultural-contrast idea is good but the prose needs heavy pruning to read as natural C1. — DONE: Heavily pruned: 'neon-veined precision', 'cultural whiplash', 'rewires your senses' and the two-souls ending are gone. The cultural-contrast argument is kept and sharpened so neither place is ranked. |
 | `say-speak-talk-tell-02` | 353 | reading | B1 | tech | `required` | NOT STARTED | Present perfect applied where it is wrong: 'I've known there are some exciting purchases', 'The salesperson has told me...'. Rewrite the tense scheme. |
 | `soma-nomaoi`<br>[page](../reading/b2/soma-nomaoi.html) | 446 | reading | B2 | culture | `exists` | IMPLEMENTED | Good festival text; strip the raw x.com link and keep the Japanese terms glossed. — DONE: Raw x.com links stripped, the year-specific schedule generalised to 'the end of May', and the one-off injury report replaced by an honest standing note on risk. Japanese terms kept and glossed. |

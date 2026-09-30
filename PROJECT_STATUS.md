@@ -72,7 +72,7 @@ Do not "fix" them as part of this work; log them and move on.
 ### Milestone 1 — Content architecture & pipeline ✅
 - **Date:** 2026-09-30
 - **Branch:** `content/reading-library-pipeline` → merged to `main`
-- **Commit:** `<M1_COMMIT>`
+- **Commit:** `6b61fe0` (merge `50cd3cb`)
 - **Pushed:** yes · **Merged:** yes
 
 **What was completed**

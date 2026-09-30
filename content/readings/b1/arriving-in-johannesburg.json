@@ -1,0 +1,373 @@
+{
+  "id": "b1-reading-arriving-in-johannesburg",
+  "level": "B1",
+  "slug": "arriving-in-johannesburg",
+  "topic": "travel",
+  "title": "Arriving in Johannesburg",
+  "subtitle": "Getting from the airport to the hotel, and then getting into the room — the two conversations every arrival needs.",
+  "description": "A B1 travel reading and listening dialogue: asking about airport transport options and sorting out a key card that will not work, with functional vocabulary and comprehension exercises.",
+  "source": "cefr/texts/arriving-in-johannesburg.docx",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "3:37"
+  },
+  "passage": [
+    "Michael and Laura have landed at OR Tambo International Airport after an overnight flight. Michael goes to the information desk.",
+    "Michael: Hi — could you help me? We've just arrived and we need to get to our hotel.",
+    "Attendant: Of course. Welcome to Johannesburg. Which hotel are you staying at?",
+    "Michael: It's in Sandton.",
+    "Attendant: Fine, that's straightforward. You've got three options: a metered taxi, an airport shuttle, or a ride-hailing app like Uber or Bolt.",
+    "Michael: Could you give me an idea of the cost?",
+    "Attendant: A taxi will be somewhere between 600 and 800 rand. An Uber is usually 350 to 500, depending on traffic. The shuttle is charged per person, around 200.",
+    "Michael: And are they all running at this hour?",
+    "Attendant: Taxis and the apps are available twenty-four hours. The shuttle runs to a fixed timetable, roughly every hour, so you'd need to check the next departure at the counter.",
+    "Michael: How long is the drive?",
+    "Attendant: Thirty to forty-five minutes normally. Longer in rush hour — and you're arriving right at the start of it.",
+    "Michael: Is the shuttle worth waiting for?",
+    "Attendant: It depends what you're optimising for. It's the cheapest if you're travelling alone, but it stops at several hotels, so you may be in the vehicle a good deal longer. For two people the price difference against an Uber is small.",
+    "Michael: Then we'll take an Uber. Thank you — that was genuinely helpful.",
+    "Attendant: You're welcome. The pick-up point is signposted from the exit. Enjoy your stay.",
+    "They reach the hotel forty minutes later, check in, and go up to the fourth floor. Michael tries the key card. Nothing happens. He tries it again, more slowly, and the light on the lock stays red.",
+    "Laura: Try holding it flat against it.",
+    "Michael: I have. Three times. It's not the card being crooked.",
+    "Laura: Right. Back down to reception, then.",
+    "Michael: Sorry to bother you again. We've just tried our room and the key card isn't working.",
+    "Receptionist: I do apologise. Can I confirm the room number?",
+    "Michael: Four-oh-five.",
+    "Receptionist: Thank you. This happens occasionally — the cards deactivate if they've been near a phone or another card for too long. Let me reprogram it. It'll take a moment.",
+    "Laura: No problem at all.",
+    "Receptionist: There you are. That should work now. If it doesn't, call down from the corridor phone rather than coming all the way back — there's one by the lifts on each floor.",
+    "Michael: That's useful to know. Thank you.",
+    "The card works on the first attempt. Laura drops her bag on the nearest bed and observes that they have now been awake for twenty-six hours, and that the shuttle would still have been fine."
+  ],
+  "vocabulary": [
+    {
+      "term": "overnight",
+      "definition": "happening or travelling through the night"
+    },
+    {
+      "term": "straightforward",
+      "definition": "simple; easy to deal with"
+    },
+    {
+      "term": "metered",
+      "definition": "charged according to a meter that measures distance or time"
+    },
+    {
+      "term": "shuttle",
+      "definition": "a vehicle running a short route repeatedly on a fixed schedule"
+    },
+    {
+      "term": "ride-hailing",
+      "definition": "booking a car and driver through a phone app"
+    },
+    {
+      "term": "per person",
+      "definition": "for each individual, rather than for the group"
+    },
+    {
+      "term": "timetable",
+      "definition": "a list of the times at which something departs or happens"
+    },
+    {
+      "term": "departure",
+      "definition": "the act of leaving, or a scheduled leaving time"
+    },
+    {
+      "term": "rush hour",
+      "definition": "the period when traffic is heaviest, morning and evening"
+    },
+    {
+      "term": "to optimise for",
+      "definition": "to treat one thing as the priority to be improved",
+      "match": "optimising for"
+    },
+    {
+      "term": "pick-up point",
+      "definition": "the designated place where a vehicle collects passengers"
+    },
+    {
+      "term": "signposted",
+      "definition": "marked with signs showing the way"
+    },
+    {
+      "term": "key card",
+      "definition": "a plastic card used instead of a key to open a hotel room"
+    },
+    {
+      "term": "crooked",
+      "definition": "not straight"
+    },
+    {
+      "term": "to deactivate",
+      "definition": "to stop something working",
+      "match": "deactivate"
+    },
+    {
+      "term": "to reprogram",
+      "definition": "to set an electronic device up again with new instructions"
+    },
+    {
+      "term": "corridor",
+      "definition": "a passage in a building with rooms opening off it"
+    },
+    {
+      "term": "to observe",
+      "definition": "to remark; to say something you have noticed",
+      "match": "observes"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-joh-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Dialogue",
+      "instructions": "Read for what the staff actually advise, and why.",
+      "items": [
+        {
+          "id": "jo1",
+          "prompt": "Which is the cheapest option, and for whom?",
+          "options": [
+            "The shuttle, if you are travelling alone",
+            "The taxi, for two people",
+            "The Uber, in all cases"
+          ],
+          "answerIndex": 0,
+          "explanation": "The shuttle is charged per person, so its advantage disappears as the group grows — “for two people the price difference against an Uber is small”."
+        },
+        {
+          "id": "jo2",
+          "prompt": "What is the disadvantage of the shuttle?",
+          "options": [
+            "It does not run at night",
+            "It stops at several hotels, so the journey takes longer",
+            "It must be booked a day in advance"
+          ],
+          "answerIndex": 1,
+          "explanation": "“You may be in the vehicle a good deal longer” — the trade is money against time."
+        },
+        {
+          "id": "jo3",
+          "prompt": "Why does the attendant mention that they are arriving at the start of rush hour?",
+          "options": [
+            "To warn that the drive may take longer than the usual thirty to forty-five minutes",
+            "To suggest they wait before travelling",
+            "To explain why the shuttle is not running"
+          ],
+          "answerIndex": 0,
+          "explanation": "It is unprompted practical information — the kind of detail that changes a decision."
+        },
+        {
+          "id": "jo4",
+          "prompt": "What does the attendant mean by “it depends what you're optimising for”?",
+          "options": [
+            "That the answer depends on whether cost or time matters more to them",
+            "That she is not permitted to recommend one option",
+            "That the prices change through the day"
+          ],
+          "answerIndex": 0,
+          "explanation": "She is declining to answer until she knows which thing they want to minimise — which is the genuinely useful response."
+        },
+        {
+          "id": "jo5",
+          "prompt": "Why does Michael say “It's not the card being crooked”?",
+          "options": [
+            "To say the card is physically damaged",
+            "To rule out Laura's suggestion — he has already tried holding it flat",
+            "To ask her to try it herself"
+          ],
+          "answerIndex": 1,
+          "explanation": "He has tried three times, including flat against the lock, so the obvious explanation is eliminated."
+        },
+        {
+          "id": "jo6",
+          "prompt": "What does the receptionist say causes cards to stop working?",
+          "options": [
+            "Being used too many times",
+            "Being kept near a phone or another card for too long",
+            "A fault in the lock itself"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The cards deactivate if they've been near a phone or another card for too long” — which is why it happens occasionally."
+        },
+        {
+          "id": "jo7",
+          "prompt": "What extra advice does the receptionist give?",
+          "options": [
+            "To collect a second key card as a spare",
+            "To keep the card in its paper sleeve",
+            "To use the corridor phone by the lifts rather than walking back down"
+          ],
+          "answerIndex": 2,
+          "explanation": "Anticipating the problem recurring, and saving them the journey — good service is largely this."
+        },
+        {
+          "id": "jo8",
+          "prompt": "What is the joke in Laura's last line?",
+          "options": [
+            "That they are too tired to unpack",
+            "That after twenty-six hours awake, the time saved by the Uber hardly mattered",
+            "That the shuttle would have been cheaper"
+          ],
+          "answerIndex": 1,
+          "explanation": "They chose speed over cost, and by the time they reach the room they are too exhausted for the saved minutes to count for anything."
+        }
+      ]
+    },
+    {
+      "id": "b1-joh-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the dialogue.",
+      "items": [
+        {
+          "id": "jot1",
+          "statement": "The shuttle runs twenty-four hours a day.",
+          "answer": false,
+          "explanation": "False — taxis and the apps do; the shuttle runs to a fixed timetable, roughly hourly."
+        },
+        {
+          "id": "jot2",
+          "statement": "An Uber is cheaper than a metered taxi.",
+          "answer": true,
+          "explanation": "True — 350 to 500 rand against 600 to 800."
+        },
+        {
+          "id": "jot3",
+          "statement": "Michael tried the key card only once.",
+          "answer": false,
+          "explanation": "False — three times, including holding it flat."
+        },
+        {
+          "id": "jot4",
+          "statement": "The receptionist had to issue an entirely new card.",
+          "answer": false,
+          "explanation": "False — she reprogrammed the existing one."
+        },
+        {
+          "id": "jot5",
+          "statement": "The card worked immediately the second time.",
+          "answer": true,
+          "explanation": "True — “the card works on the first attempt” after reprogramming."
+        }
+      ]
+    },
+    {
+      "id": "b1-joh-functional",
+      "type": "fill-blank",
+      "title": "Asking and Explaining",
+      "instructions": "Complete each sentence with the phrase a traveller or a member of staff would actually use.",
+      "items": [
+        {
+          "id": "jof1",
+          "prompt": "Could you give me an ___ ___ the cost?",
+          "answers": [
+            "idea",
+            "of"
+          ],
+          "options": [
+            [
+              "idea",
+              "amount",
+              "estimate"
+            ],
+            [
+              "of",
+              "for",
+              "about"
+            ]
+          ],
+          "explanation": "“Give me an idea of” asks for an approximate figure without demanding an exact one."
+        },
+        {
+          "id": "jof2",
+          "prompt": "The shuttle is charged ___ ___.",
+          "answers": [
+            "per",
+            "person"
+          ],
+          "options": [
+            [
+              "per",
+              "for",
+              "by"
+            ],
+            [
+              "person",
+              "people",
+              "head"
+            ]
+          ],
+          "explanation": "Per person means for each individual — the detail that decides whether it is good value."
+        },
+        {
+          "id": "jof3",
+          "prompt": "It's longer in ___ ___, which is starting now.",
+          "answers": [
+            "rush",
+            "hour"
+          ],
+          "options": [
+            [
+              "rush",
+              "peak",
+              "busy"
+            ],
+            [
+              "hour",
+              "time",
+              "traffic"
+            ]
+          ],
+          "explanation": "Rush hour is the period of heaviest traffic, morning and evening."
+        },
+        {
+          "id": "jof4",
+          "prompt": "Sorry to ___ you again — the key card isn't working.",
+          "answers": [
+            "bother"
+          ],
+          "options": [
+            "bother",
+            "disturb",
+            "trouble"
+          ],
+          "explanation": "“Sorry to bother you” is the standard polite opening when you return with a problem. “Trouble” also works; “disturb” suits interrupting someone who is occupied."
+        },
+        {
+          "id": "jof5",
+          "prompt": "Can I ___ the room number?",
+          "answers": [
+            "confirm"
+          ],
+          "options": [
+            "confirm",
+            "observe",
+            "optimise"
+          ],
+          "explanation": "To confirm is to check that something already stated is correct — standard at a reception desk."
+        },
+        {
+          "id": "jof6",
+          "prompt": "The pick-up point is ___ from the exit.",
+          "answers": [
+            "signposted"
+          ],
+          "options": [
+            "signposted",
+            "metered",
+            "crooked"
+          ],
+          "explanation": "Signposted means marked with signs showing the way."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The attendant asks what they are optimising for before recommending anything. Is that better service than simply naming the cheapest option?",
+    "Laura's last line suggests the faster choice was not worth it. How do you decide between saving money and saving time when travelling?",
+    "The receptionist tells them about the corridor phone before they need it. What is the best example of anticipated help you have received?",
+    "Practise the first conversation with a partner, changing the city and the transport options.",
+    "Write about 120 words describing arriving somewhere after a long journey, and the first problem you had to solve."
+  ]
+}

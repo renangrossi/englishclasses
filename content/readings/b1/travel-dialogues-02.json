@@ -1,0 +1,410 @@
+{
+  "id": "b1-reading-hotel-reception-training",
+  "level": "B1",
+  "slug": "travel-dialogues-02",
+  "topic": "travel",
+  "title": "Your First Week on Reception",
+  "subtitle": "A manager explains the job to a new employee — and the four words for what is included in the price.",
+  "description": "A B1 workplace reading and listening dialogue: training a new hotel receptionist, covering reservations, board types, late arrivals and checking out, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/travel-dialogues-02.docx",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "3:29"
+  },
+  "passage": [
+    "Manager: So you'll be working here at reception, by the entrance. Your main job is talking to guests and sorting out whatever they need. They're paying to be here, so whatever else happens, you stay polite.",
+    "New Employee: Understood. So when someone arrives and wants to check in, I take their details and give them the key?",
+    "Manager: Almost. First you check whether they have a reservation. Most people book online or by phone before they arrive, so the name will already be in the system. Some turn up without booking — we call those walk-ins. If we're fully booked, you apologise and say we've nothing available. If there is a room, take their details and check them in as normal.",
+    "New Employee: And what do I actually need from them?",
+    "Manager: Name, address, a card for the deposit, and photo ID. Check the ID against the booking name. Then the key.",
+    "New Employee: Does the price include meals?",
+    "Manager: That depends what they've booked, and this is the part people get wrong most often, so learn it properly. There are four options. Full board means breakfast, lunch and dinner are all included. Half board is breakfast and dinner, but not lunch. Bed and breakfast is breakfast only. And room only means exactly that — no meals at all, and if they want breakfast they pay for it on the morning.",
+    "New Employee: So room only is the same as self-catering?",
+    "Manager: No, and don't say that to a guest. Self-catering means the room has a kitchen and they cook for themselves. None of our rooms have kitchens, so we don't offer it. Room only just means we're selling you a bed and nothing else.",
+    "New Employee: Got it. What if someone arrives and the room isn't ready?",
+    "Manager: It happens most days, because check-in is at three and people land in the morning. Apologise, and offer them the lounge — that's the seating area just past reception, with the sofas. They can wait there, have a coffee, read something.",
+    "New Employee: And if they'd rather go out?",
+    "Manager: Then offer to store their luggage. We keep it in the room behind the desk, you give them a numbered tag, and they collect it when they come back. Always offer that — people don't like to ask, and nobody wants to walk around a strange city with a suitcase.",
+    "New Employee: What about when they leave?",
+    "Manager: Check-out is eleven. They bring the key down, you settle the bill — anything they've charged to the room, minibar, restaurant, phone — and you take payment. Ask whether everything was all right with the stay. If it wasn't, you want to hear it here rather than read it online a week later.",
+    "New Employee: And if they want to stay later than eleven?",
+    "Manager: Late check-out. We can usually do an hour or two free if we're not full, but check the system first, because housekeeping need the room. If we're busy, tell them the luggage store is available and they can use the lounge until their flight.",
+    "New Employee: One more. What if I don't know the answer to something?",
+    "Manager: Then you say you'll find out, and you find out. Don't guess. Guessing is how a guest ends up at a restaurant that closed two years ago."
+  ],
+  "vocabulary": [
+    {
+      "term": "reception",
+      "definition": "the desk near a hotel entrance where guests are dealt with"
+    },
+    {
+      "term": "reservation",
+      "definition": "an arrangement made in advance to hold a room"
+    },
+    {
+      "term": "walk-in",
+      "definition": "a guest who arrives without having booked",
+      "match": "walk-ins"
+    },
+    {
+      "term": "fully booked",
+      "definition": "with no rooms left to sell"
+    },
+    {
+      "term": "to check in",
+      "definition": "to register on arrival and be given a room",
+      "match": "check in"
+    },
+    {
+      "term": "deposit",
+      "definition": "money held in advance against possible charges"
+    },
+    {
+      "term": "photo ID",
+      "definition": "official identification carrying the holder's photograph"
+    },
+    {
+      "term": "full board",
+      "definition": "a rate including breakfast, lunch and dinner"
+    },
+    {
+      "term": "half board",
+      "definition": "a rate including breakfast and dinner, but not lunch"
+    },
+    {
+      "term": "bed and breakfast",
+      "definition": "a rate including breakfast only"
+    },
+    {
+      "term": "room only",
+      "definition": "a rate including no meals at all"
+    },
+    {
+      "term": "self-catering",
+      "definition": "accommodation with a kitchen, where guests cook for themselves"
+    },
+    {
+      "term": "lounge",
+      "definition": "a comfortable seating area where guests can wait or relax"
+    },
+    {
+      "term": "to store",
+      "definition": "to keep something safely until it is wanted"
+    },
+    {
+      "term": "tag",
+      "definition": "a label attached to something to identify it"
+    },
+    {
+      "term": "check-out",
+      "definition": "the time by which guests must leave, and the act of leaving and paying",
+      "match": "Check-out"
+    },
+    {
+      "term": "to settle the bill",
+      "definition": "to total up what is owed and take payment",
+      "match": "settle the bill"
+    },
+    {
+      "term": "minibar",
+      "definition": "the small fridge of drinks in a hotel room, charged to the bill"
+    },
+    {
+      "term": "housekeeping",
+      "definition": "the staff who clean and prepare the rooms"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-hotel-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Training",
+      "instructions": "Read for what the new employee is actually told to do.",
+      "items": [
+        {
+          "id": "ho1",
+          "prompt": "What is the first thing to do when a guest arrives?",
+          "options": [
+            "Take their details",
+            "Check whether they have a reservation",
+            "Ask for photo ID"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Almost. First you check whether they have a reservation” — the manager corrects the employee's assumption."
+        },
+        {
+          "id": "ho2",
+          "prompt": "What is a walk-in?",
+          "options": [
+            "A guest who arrives without a booking",
+            "A guest who arrives on foot rather than by car",
+            "A guest who arrives before check-in time"
+          ],
+          "answerIndex": 0,
+          "explanation": "The term is introduced for people who “turn up without booking”."
+        },
+        {
+          "id": "ho3",
+          "prompt": "Which meals does half board include?",
+          "options": [
+            "Breakfast and lunch",
+            "Lunch and dinner",
+            "Breakfast and dinner"
+          ],
+          "answerIndex": 2,
+          "explanation": "Explicitly “breakfast and dinner, but not lunch” — which is why guests are out during the day."
+        },
+        {
+          "id": "ho4",
+          "prompt": "Why does the manager say not to call room only “self-catering”?",
+          "options": [
+            "Because self-catering costs more",
+            "Because self-catering means the room has a kitchen, which theirs do not",
+            "Because it is an old-fashioned term"
+          ],
+          "answerIndex": 1,
+          "explanation": "The distinction matters because a guest told “self-catering” would expect to be able to cook."
+        },
+        {
+          "id": "ho5",
+          "prompt": "Why do rooms often fail to be ready when guests arrive?",
+          "options": [
+            "Housekeeping is understaffed in the mornings",
+            "Guests usually arrive on the wrong day",
+            "Check-in is at three but people land in the morning"
+          ],
+          "answerIndex": 2,
+          "explanation": "“It happens most days” for exactly that structural reason, not because anything has gone wrong."
+        },
+        {
+          "id": "ho6",
+          "prompt": "Why should the employee always offer to store luggage?",
+          "options": [
+            "Because it is a legal requirement",
+            "Because people do not like to ask, and nobody wants to carry a suitcase around a strange city",
+            "Because the lounge has no space for bags"
+          ],
+          "answerIndex": 1,
+          "explanation": "The reason is about the guest's reluctance to ask — which is why the offer has to come first."
+        },
+        {
+          "id": "ho7",
+          "prompt": "Why does the manager want complaints raised at check-out?",
+          "options": [
+            "So the guest can be charged less",
+            "Because it is company policy to record them",
+            "Because hearing it there is better than reading it online a week later"
+          ],
+          "answerIndex": 2,
+          "explanation": "A problem raised at the desk can still be fixed; a review cannot."
+        },
+        {
+          "id": "ho8",
+          "prompt": "What is the manager's rule about questions you cannot answer?",
+          "options": [
+            "Say you will find out, and then find out — never guess",
+            "Refer the guest to the manager immediately",
+            "Give your best estimate and correct it later"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Guessing is how a guest ends up at a restaurant that closed two years ago.”"
+        }
+      ]
+    },
+    {
+      "id": "b1-hotel-board",
+      "type": "matching",
+      "title": "What's Included?",
+      "instructions": "Match each rate to what the guest gets for it.",
+      "items": [
+        {
+          "id": "hom1",
+          "pairs": [
+            {
+              "left": "Full board",
+              "right": "breakfast, lunch and dinner"
+            },
+            {
+              "left": "Half board",
+              "right": "breakfast and dinner, but not lunch"
+            },
+            {
+              "left": "Bed and breakfast",
+              "right": "breakfast only"
+            },
+            {
+              "left": "Room only",
+              "right": "no meals at all"
+            },
+            {
+              "left": "Self-catering",
+              "right": "a kitchen, so guests cook for themselves"
+            }
+          ],
+          "explanation": "The first four describe what the hotel serves; the fifth describes what the room contains. That is exactly the distinction the new employee gets wrong."
+        }
+      ]
+    },
+    {
+      "id": "b1-hotel-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the dialogue.",
+      "items": [
+        {
+          "id": "hot1",
+          "statement": "Guests who have not booked are always turned away.",
+          "answer": false,
+          "explanation": "False — only if the hotel is fully booked. Otherwise they are checked in as normal."
+        },
+        {
+          "id": "hot2",
+          "statement": "The employee should check the guest's ID against the booking name.",
+          "answer": true,
+          "explanation": "True — listed among the things to take at check-in."
+        },
+        {
+          "id": "hot3",
+          "statement": "The hotel offers self-catering rooms.",
+          "answer": false,
+          "explanation": "False — “none of our rooms have kitchens, so we don't offer it”."
+        },
+        {
+          "id": "hot4",
+          "statement": "Late check-out is always free.",
+          "answer": false,
+          "explanation": "False — usually an hour or two if the hotel is not full, but the system has to be checked because housekeeping need the room."
+        },
+        {
+          "id": "hot5",
+          "statement": "Check-out is at eleven.",
+          "answer": true,
+          "explanation": "True — and check-in is at three, which is the gap that creates the waiting problem."
+        }
+      ]
+    },
+    {
+      "id": "b1-hotel-vocabulary",
+      "type": "fill-blank",
+      "title": "Reception Language",
+      "instructions": "Complete each sentence as a receptionist would say it.",
+      "items": [
+        {
+          "id": "hof1",
+          "prompt": "I'm afraid we're ___ ___ this weekend.",
+          "answers": [
+            "fully",
+            "booked"
+          ],
+          "options": [
+            [
+              "fully",
+              "completely",
+              "totally"
+            ],
+            [
+              "booked",
+              "reserved",
+              "taken"
+            ]
+          ],
+          "explanation": "Fully booked is the fixed phrase for having no rooms left."
+        },
+        {
+          "id": "hof2",
+          "prompt": "Would you like us to ___ your luggage until your flight?",
+          "answers": [
+            "store"
+          ],
+          "options": [
+            "store",
+            "settle",
+            "tag"
+          ],
+          "explanation": "To store is to keep something safely until it is wanted."
+        },
+        {
+          "id": "hof3",
+          "prompt": "Shall I ___ ___ ___ for you now?",
+          "answers": [
+            "settle",
+            "the",
+            "bill"
+          ],
+          "options": [
+            [
+              "settle",
+              "pay",
+              "close"
+            ],
+            [
+              "the",
+              "your",
+              "a"
+            ],
+            [
+              "bill",
+              "account",
+              "charge"
+            ]
+          ],
+          "explanation": "To settle the bill is to total what is owed and take payment."
+        },
+        {
+          "id": "hof4",
+          "prompt": "Your room isn't ready yet — you're welcome to wait in the ___.",
+          "answers": [
+            "lounge"
+          ],
+          "options": [
+            "lounge",
+            "reception",
+            "minibar"
+          ],
+          "explanation": "The lounge is the comfortable seating area where guests wait."
+        },
+        {
+          "id": "hof5",
+          "prompt": "We'll need a card for the ___ and some photo ___.",
+          "answers": [
+            "deposit",
+            "ID"
+          ],
+          "options": [
+            [
+              "deposit",
+              "reservation",
+              "tag"
+            ],
+            [
+              "ID",
+              "card",
+              "proof"
+            ]
+          ],
+          "explanation": "The deposit covers possible charges; the ID confirms the guest is the person who booked."
+        },
+        {
+          "id": "hof6",
+          "prompt": "___ can't service the room until the guest has left.",
+          "answers": [
+            "Housekeeping"
+          ],
+          "options": [
+            "Housekeeping",
+            "Reception",
+            "Reservations"
+          ],
+          "explanation": "Housekeeping are the staff who clean and prepare the rooms — the reason late check-out has to be checked."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The manager says never to guess. Why is a confident wrong answer worse than saying you do not know?",
+    "Guests are reluctant to ask for luggage storage, so staff must offer it. What else do customers not like to ask for?",
+    "Is it better to hear a complaint at the desk or to read it in a review? What does each one cost the business?",
+    "Work with a partner: one of you is a walk-in guest at a hotel that has one room left, on room-only. Handle the conversation.",
+    "Write about 120 words explaining a job you know to someone starting it tomorrow. What would you tell them first?"
+  ]
+}

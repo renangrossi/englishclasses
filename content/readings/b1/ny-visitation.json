@@ -1,0 +1,369 @@
+{
+  "id": "b1-reading-ny-visitation",
+  "level": "B1",
+  "slug": "ny-visitation",
+  "topic": "travel",
+  "title": "Three Days in New York",
+  "subtitle": "A family arrives with a long list and works out what you can actually fit into a short trip.",
+  "description": "A B1 travel reading and listening text following a family's first days in New York — asking for recommendations, choosing between landmarks and walking the city — with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/ny-visitation.docx",
+  "provenance": "edited",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "3:51"
+  },
+  "passage": [
+    "Lucas had wanted to see New York for as long as he could remember — the height of it, the noise, the food, the sense that something was happening two streets away that he was missing. Now he was standing in a hotel lobby in Manhattan with his wife Rachel and their son Ben, holding three suitcases and a printed list of things to do that was plainly too long for three days.",
+    "He asked the clerk at the desk where they could eat nearby without spending a fortune. She did not hesitate. There was a pizzeria a few streets down called Joe's, she said, that had been there for decades and was where people who actually lived in the neighbourhood went. A slice, eaten standing up, folded in half lengthways so it does not collapse. That was the correct introduction to the city, and it would cost them almost nothing.",
+    "Then she gave him a map and marked the landmarks on it. The Statue of Liberty, the Empire State Building, Central Park. The Metropolitan Museum of Art and the American Museum of Natural History, if they liked museums. Lucas thanked her and folded the map into his pocket, already aware that they were not going to manage all of it.",
+    "Rachel said as much on the way to the pizzeria. “We have three days. That list is a week.”",
+    "“I know,” Lucas said. “We pick. We can do the park properly, or we can do four things badly.”",
+    "“Dinosaurs,” said Ben, who had not appeared to be listening.",
+    "So that was one decision made. The pizza, when it came, was enormous and cost less than a coffee had at the airport, and Ben ate his and half of Rachel's.",
+    "They gave the next morning to Central Park, and it turned out to be the right call. The park is far larger than it looks on a map — you can walk for an hour and still be inside it — and what struck all three of them was how ordinary it was. Dogs being walked, children on scooters, four different musicians within half a mile, people asleep on the grass in the middle of a working Tuesday. They found the Bethesda Fountain, photographed it along with everyone else, and then sat on the steps for twenty minutes doing nothing at all, which was not on the list and was the best part of the morning.",
+    "Afterwards they stopped at a café, and Lucas took the map out again and put his finger on the Empire State Building. Rachel looked at it and said it was closer than it appeared. They asked the man behind the counter, who told them they could take the subway, take a taxi, or walk it in about twenty-five minutes if they did not mind the crowds on Fifth Avenue.",
+    "They walked. That turned out to be the second good decision, because the walk was the city: the noise, the scaffolding, the six languages within one block, the way the buildings close in and then suddenly open out at an intersection.",
+    "At the top of the Empire State Building the wind was much stronger than any of them expected, and the view was worth the queue. Lucas took more photographs than he needed. Ben, who had been promised dinosaurs the following day, leaned on the rail and asked how long it would take to walk to the edge of the city, which none of them could answer.",
+    "Going back down in the lift, Lucas did the arithmetic and realised that in a day and a half they had done three things on a list of fifteen. He found he did not mind. They had seen a fountain, eaten a slice standing up, and walked twenty-five blocks through the middle of it, and the list would still be there next time."
+  ],
+  "vocabulary": [
+    {
+      "term": "lobby",
+      "definition": "the entrance hall of a hotel or large building"
+    },
+    {
+      "term": "clerk",
+      "definition": "an employee who deals with customers at a desk"
+    },
+    {
+      "term": "to spend a fortune",
+      "definition": "to spend a very large amount of money",
+      "match": "spending a fortune"
+    },
+    {
+      "term": "to hesitate",
+      "definition": "to pause before speaking or acting because you are unsure"
+    },
+    {
+      "term": "pizzeria",
+      "definition": "a restaurant that specialises in pizza"
+    },
+    {
+      "term": "slice",
+      "definition": "a single flat piece cut from something larger"
+    },
+    {
+      "term": "lengthways",
+      "definition": "along the longer direction of something"
+    },
+    {
+      "term": "to collapse",
+      "definition": "to fall down or give way"
+    },
+    {
+      "term": "landmark",
+      "definition": "a building or feature that is easily recognised and used to find your way"
+    },
+    {
+      "term": "to manage",
+      "definition": "to succeed in doing something difficult"
+    },
+    {
+      "term": "the right call",
+      "definition": "the correct decision, seen afterwards"
+    },
+    {
+      "term": "to strike someone",
+      "definition": "to make a strong impression on someone",
+      "match": "struck"
+    },
+    {
+      "term": "scaffolding",
+      "definition": "the temporary framework put up around a building under repair"
+    },
+    {
+      "term": "intersection",
+      "definition": "a place where two streets cross"
+    },
+    {
+      "term": "queue",
+      "definition": "a line of people waiting"
+    },
+    {
+      "term": "rail",
+      "definition": "a bar you can hold on to or lean against"
+    },
+    {
+      "term": "arithmetic",
+      "definition": "simple calculation with numbers"
+    },
+    {
+      "term": "block",
+      "definition": "the distance between two street corners in an American city",
+      "match": "blocks"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-ny-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for the decisions the family makes and why.",
+      "items": [
+        {
+          "id": "ny1",
+          "prompt": "What is the problem with Lucas's list from the beginning?",
+          "options": [
+            "It is plainly too long for three days",
+            "It was written by somebody else",
+            "The places on it are too far apart"
+          ],
+          "answerIndex": 0,
+          "explanation": "It is described as “plainly too long for three days” in the first paragraph — which sets up the whole text."
+        },
+        {
+          "id": "ny2",
+          "prompt": "Why does the clerk recommend the pizzeria?",
+          "options": [
+            "It is the closest restaurant to the hotel",
+            "It is long-established and where people who live in the neighbourhood actually eat",
+            "It is the cheapest place in Manhattan"
+          ],
+          "answerIndex": 1,
+          "explanation": "The recommendation is about authenticity rather than price — though it also “would cost them almost nothing”."
+        },
+        {
+          "id": "ny3",
+          "prompt": "Why is the slice folded in half lengthways?",
+          "options": [
+            "To make it cool faster",
+            "To share it more easily",
+            "So that it does not collapse while you eat it standing up"
+          ],
+          "answerIndex": 2,
+          "explanation": "The fold is a practical solution to a large, floppy slice eaten without a plate."
+        },
+        {
+          "id": "ny4",
+          "prompt": "What does Lucas mean by “we can do the park properly, or we can do four things badly”?",
+          "options": [
+            "That the park is the only place worth visiting",
+            "That doing fewer things well is better than rushing through many",
+            "That the other attractions are disappointing"
+          ],
+          "answerIndex": 1,
+          "explanation": "It states the trip's whole strategy in one sentence, and the rest of the text tests whether he was right."
+        },
+        {
+          "id": "ny5",
+          "prompt": "What surprised the family about Central Park?",
+          "options": [
+            "How ordinary it was — dogs, children, musicians, people asleep on a working Tuesday",
+            "How empty it was",
+            "How expensive it was to enter"
+          ],
+          "answerIndex": 0,
+          "explanation": "“What struck all three of them was how ordinary it was” — not a spectacle, but a place people use."
+        },
+        {
+          "id": "ny6",
+          "prompt": "What does the writer say was the best part of the morning?",
+          "options": [
+            "Photographing the Bethesda Fountain",
+            "Sitting on the steps for twenty minutes doing nothing, which was not on the list",
+            "Walking the full length of the park"
+          ],
+          "answerIndex": 1,
+          "explanation": "The point is made lightly but deliberately: the unplanned part beat the planned part."
+        },
+        {
+          "id": "ny7",
+          "prompt": "Why was walking to the Empire State Building “the second good decision”?",
+          "options": [
+            "It saved the cost of the subway",
+            "It was faster than the traffic",
+            "Because the walk itself was the city — the noise, the languages, the way the streets open out"
+          ],
+          "answerIndex": 2,
+          "explanation": "The transport was a means to an end that turned out to be the experience itself."
+        },
+        {
+          "id": "ny8",
+          "prompt": "How does Lucas feel about having done only three things of fifteen?",
+          "options": [
+            "Disappointed that they wasted time",
+            "Determined to fit more in on the last day",
+            "Content — the list will still be there next time"
+          ],
+          "answerIndex": 2,
+          "explanation": "“He found he did not mind”, and the final clause makes the reason explicit."
+        }
+      ]
+    },
+    {
+      "id": "b1-ny-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the story.",
+      "items": [
+        {
+          "id": "nyt1",
+          "statement": "The family visited the Statue of Liberty.",
+          "answer": false,
+          "explanation": "False — it was marked on the map, but they did Central Park and the Empire State Building."
+        },
+        {
+          "id": "nyt2",
+          "statement": "Ben chose the Natural History Museum.",
+          "answer": true,
+          "explanation": "True — “Dinosaurs,” he says, and it is treated as a decision made."
+        },
+        {
+          "id": "nyt3",
+          "statement": "The pizza cost more than a coffee at the airport.",
+          "answer": false,
+          "explanation": "False — it “cost less than a coffee had at the airport”, and was enormous."
+        },
+        {
+          "id": "nyt4",
+          "statement": "They took a taxi to the Empire State Building.",
+          "answer": false,
+          "explanation": "False — they walked, which took about twenty-five minutes."
+        },
+        {
+          "id": "nyt5",
+          "statement": "The view from the top was worth the wait.",
+          "answer": true,
+          "explanation": "True — “the view was worth the queue”, though the wind surprised them."
+        },
+        {
+          "id": "nyt6",
+          "statement": "Ben's question about the edge of the city was answered.",
+          "answer": false,
+          "explanation": "False — “which none of them could answer”."
+        }
+      ]
+    },
+    {
+      "id": "b1-ny-vocabulary",
+      "type": "fill-blank",
+      "title": "Travel Vocabulary",
+      "instructions": "Complete each sentence with the right word or phrase.",
+      "items": [
+        {
+          "id": "nyf1",
+          "prompt": "We ate well without ___ ___ ___.",
+          "answers": [
+            "spending",
+            "a",
+            "fortune"
+          ],
+          "options": [
+            [
+              "spending",
+              "costing",
+              "paying"
+            ],
+            [
+              "a",
+              "the",
+              "our"
+            ],
+            [
+              "fortune",
+              "money",
+              "budget"
+            ]
+          ],
+          "explanation": "To spend a fortune is to spend a very large amount."
+        },
+        {
+          "id": "nyf2",
+          "prompt": "The Empire State Building is the city's best-known ___.",
+          "answers": [
+            "landmark"
+          ],
+          "options": [
+            "landmark",
+            "lobby",
+            "intersection"
+          ],
+          "explanation": "A landmark is an easily recognised building or feature."
+        },
+        {
+          "id": "nyf3",
+          "prompt": "There was a long ___ for the lift to the top.",
+          "answers": [
+            "queue"
+          ],
+          "options": [
+            "queue",
+            "slice",
+            "rail"
+          ],
+          "explanation": "A queue is a line of people waiting."
+        },
+        {
+          "id": "nyf4",
+          "prompt": "Walking was ___ ___ ___ — we saw far more than we would have from a taxi.",
+          "answers": [
+            "the",
+            "right",
+            "call"
+          ],
+          "options": [
+            [
+              "the",
+              "a",
+              "our"
+            ],
+            [
+              "right",
+              "good",
+              "best"
+            ],
+            [
+              "call",
+              "choice",
+              "way"
+            ]
+          ],
+          "explanation": "The right call is the correct decision, usually recognised afterwards."
+        },
+        {
+          "id": "nyf5",
+          "prompt": "It is only four ___ from here — about five minutes on foot.",
+          "answers": [
+            "blocks"
+          ],
+          "options": [
+            "blocks",
+            "rails",
+            "lobbies"
+          ],
+          "explanation": "A block is the distance between two street corners — the standard American unit for short distances in a city."
+        },
+        {
+          "id": "nyf6",
+          "prompt": "She did not ___ before recommending it.",
+          "answers": [
+            "hesitate"
+          ],
+          "options": [
+            "hesitate",
+            "manage",
+            "collapse"
+          ],
+          "explanation": "To hesitate is to pause because you are unsure — so not hesitating signals confidence."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Lucas chooses to do a few things properly rather than many badly. Which kind of traveller are you?",
+    "The best part of the morning was not on the list. Can that be planned for, or only allowed for?",
+    "The family asks three different strangers for advice. Who gives the best recommendations in a city you know — hotel staff, locals, or the internet?",
+    "The same pizzeria appears in the A2 text “Ordering at a New York Pizzeria”, where a family orders and works out the tip. Read both: what does the dialogue show that this narrative does not?",
+    "Write about 150 words about a trip where you did not manage everything you planned. Was that a failure?"
+  ]
+}

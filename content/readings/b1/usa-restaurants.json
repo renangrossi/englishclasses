@@ -1,0 +1,389 @@
+{
+  "id": "b1-reading-florida",
+  "level": "B1",
+  "slug": "usa-restaurants",
+  "topic": "travel",
+  "title": "Florida Beyond the Theme Parks",
+  "subtitle": "One state with five quite different coasts, a national park that is really a river, and the oldest city in the country.",
+  "description": "A B1 travel reading and listening text on Florida — its regions, the Everglades, St Augustine and what its food actually tastes of — with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/usa-restaurants.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "4:06"
+  },
+  "passage": [
+    "Most people arrive in Florida for one of two reasons: the theme parks in Orlando, or a beach. Both are good reasons. But the state is six hundred miles long, and a visitor who only does those two things sees a surprisingly small part of it.",
+    "The south is the part that looks least like the rest of the United States. Miami is genuinely bilingual — Spanish is not a minority language there but a working one — and Cuban, Haitian and Colombian communities have shaped the food, the music and the pace of the city. Miami Beach has the art deco district, a few streets of pastel buildings from the 1930s that were nearly demolished in the 1970s and are now the reason a good many people visit. South of the city the road runs out into the Florida Keys, a chain of small islands connected by bridges, ending at Key West, which is closer to Havana than to Miami.",
+    "West of Miami is the Everglades, and it is worth understanding what it actually is, because “swamp” is misleading. The Everglades is a river — a sheet of fresh water sixty miles wide and a few inches deep, moving very slowly south through sawgrass toward the sea. It is the only place on earth where alligators and crocodiles both live wild, and the water that flows through it is what the whole of south Florida drinks. It has also been shrinking for a century, drained for farmland and housing, and the long argument about how much of it to restore is one of the most expensive environmental projects anywhere.",
+    "Central Florida is the theme parks, and there is no point pretending otherwise: Orlando has Walt Disney World, Universal and SeaWorld within half an hour of each other. But an hour east is the Kennedy Space Center, where launches are still flown, and where you can stand underneath a Saturn V rocket lying on its side — which does more to convey the scale of the thing than any photograph. And an hour north is St Augustine, founded by the Spanish in 1565 and the oldest continuously occupied European settlement in what is now the United States, with a stone fort that has never been taken by force.",
+    "The Gulf coast, on the west side, has the calmer water and the better sunsets. Tampa has the cultural weight, and its Ybor City district was built by Cuban and Italian cigar workers in the nineteenth century. Sarasota has the beaches and an unexpected art museum built by a circus owner. Clearwater and St Pete Beach have the sand that appears in the photographs.",
+    "The panhandle, in the far northwest, is the part most visitors never reach. The sand there is startlingly white — quartz washed down from the Appalachians over millions of years — and the water is the colour that gets it called the Emerald Coast. Pensacola has been under five flags and looks it, and the Gulf Islands National Seashore runs for miles with almost nothing built on it. Inland, the springs are the surprise: dozens of them, feeding clear rivers at a constant twenty-two degrees all year, where you can swim with manatees in winter.",
+    "As for the food, the honest answer is that Florida's best cooking is not particularly American. It is Cuban, and it is Caribbean. A Cuban sandwich in Tampa is pressed flat and made differently from the Miami version, and people will argue about this at length. The Keys produce conch fritters and key lime pie, which should be pale yellow and never green. On the Gulf coast the grouper is caught locally and served in a sandwich that is much better than it sounds. And the state's oldest restaurant, the Columbia in Ybor City, has been open since 1905 and still serves the Spanish and Cuban dishes it started with.",
+    "None of which is an argument against the theme parks. It is an argument for renting a car, because almost everything above is within a day's drive of almost everything else, and the distance between the Florida people imagine and the Florida that exists is mostly a matter of how far you are willing to drive."
+  ],
+  "vocabulary": [
+    {
+      "term": "bilingual",
+      "definition": "using or speaking two languages"
+    },
+    {
+      "term": "to shape",
+      "definition": "to influence the form something takes",
+      "match": "shaped"
+    },
+    {
+      "term": "art deco",
+      "definition": "a decorative style of the 1920s and 1930s with bold geometric shapes"
+    },
+    {
+      "term": "pastel",
+      "definition": "pale and soft in colour"
+    },
+    {
+      "term": "to demolish",
+      "definition": "to knock a building down deliberately",
+      "match": "demolished"
+    },
+    {
+      "term": "chain",
+      "definition": "a connected line of things, such as islands"
+    },
+    {
+      "term": "misleading",
+      "definition": "giving a wrong impression"
+    },
+    {
+      "term": "sawgrass",
+      "definition": "a tall sharp-edged marsh plant"
+    },
+    {
+      "term": "to drain",
+      "definition": "to remove water from land so it can be built on or farmed",
+      "match": "drained"
+    },
+    {
+      "term": "to restore",
+      "definition": "to return something to its earlier condition"
+    },
+    {
+      "term": "to convey",
+      "definition": "to communicate a sense of something"
+    },
+    {
+      "term": "settlement",
+      "definition": "a place where people have established a community"
+    },
+    {
+      "term": "fort",
+      "definition": "a strong building made to be defended"
+    },
+    {
+      "term": "panhandle",
+      "definition": "a narrow strip of a state extending out from the main part"
+    },
+    {
+      "term": "startlingly",
+      "definition": "to a surprising degree"
+    },
+    {
+      "term": "quartz",
+      "definition": "a hard, usually white mineral"
+    },
+    {
+      "term": "spring",
+      "definition": "a place where water flows naturally out of the ground",
+      "match": "springs"
+    },
+    {
+      "term": "manatee",
+      "definition": "a large, slow, plant-eating sea mammal",
+      "match": "manatees"
+    },
+    {
+      "term": "to press",
+      "definition": "to flatten something under weight or heat",
+      "match": "pressed"
+    },
+    {
+      "term": "grouper",
+      "definition": "a large fish common in warm Atlantic waters"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-fl-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Several of these correct an impression the reader is likely to arrive with.",
+      "items": [
+        {
+          "id": "fl1",
+          "prompt": "What is the writer's main argument?",
+          "options": [
+            "That the theme parks are not worth visiting",
+            "That most visitors see a small part of a state six hundred miles long",
+            "That Florida is too large to visit in one trip"
+          ],
+          "answerIndex": 1,
+          "explanation": "The parks and beaches are called “good reasons” — the objection is only to stopping there."
+        },
+        {
+          "id": "fl2",
+          "prompt": "What does the writer mean by saying Spanish in Miami is “not a minority language but a working one”?",
+          "options": [
+            "That it is used in daily business and ordinary life, not just at home",
+            "That it is the official language of the city",
+            "That more people speak it than English"
+          ],
+          "answerIndex": 0,
+          "explanation": "The phrase distinguishes a language communities merely preserve from one the city actually runs on."
+        },
+        {
+          "id": "fl3",
+          "prompt": "Why does the writer say “swamp” is misleading for the Everglades?",
+          "options": [
+            "Because it is mostly dry for half the year",
+            "Because it is a river — a wide, shallow sheet of fresh water moving slowly south",
+            "Because it is man-made"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Sixty miles wide and a few inches deep, moving very slowly south through sawgrass toward the sea.”"
+        },
+        {
+          "id": "fl4",
+          "prompt": "Why does the Everglades matter beyond being a nature reserve?",
+          "options": [
+            "It is the only crocodile habitat in North America",
+            "It protects the coast from storms",
+            "The water flowing through it is what south Florida drinks"
+          ],
+          "answerIndex": 2,
+          "explanation": "Which is also why the restoration argument is “one of the most expensive environmental projects anywhere”."
+        },
+        {
+          "id": "fl5",
+          "prompt": "What makes St Augustine significant?",
+          "options": [
+            "It was founded in 1565 and is the oldest continuously occupied European settlement in the US",
+            "It was the first Spanish capital of Florida",
+            "It has the largest fort in the country"
+          ],
+          "answerIndex": 0,
+          "explanation": "The fort is mentioned as never having been taken by force, but the age of the settlement is the claim."
+        },
+        {
+          "id": "fl6",
+          "prompt": "Why is the panhandle sand so white?",
+          "options": [
+            "It is imported and replaced each year",
+            "It is quartz washed down from the Appalachians over millions of years",
+            "It is crushed shell rather than rock"
+          ],
+          "answerIndex": 1,
+          "explanation": "And the water colour that results is why the area is called the Emerald Coast."
+        },
+        {
+          "id": "fl7",
+          "prompt": "What is the writer's “honest answer” about Florida's food?",
+          "options": [
+            "That it is best at the expensive end",
+            "That the best of it is Cuban and Caribbean rather than American",
+            "That it is the same everywhere in the state"
+          ],
+          "answerIndex": 1,
+          "explanation": "The examples that follow — the Cuban sandwich, conch fritters, the Columbia — all support that."
+        },
+        {
+          "id": "fl8",
+          "prompt": "What is the writer's practical conclusion?",
+          "options": [
+            "Skip Orlando altogether",
+            "Visit in winter rather than summer",
+            "Rent a car, because nearly everything described is within a day's drive"
+          ],
+          "answerIndex": 2,
+          "explanation": "“None of which is an argument against the theme parks. It is an argument for renting a car.”"
+        }
+      ]
+    },
+    {
+      "id": "b1-fl-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "flt1",
+          "statement": "Key West is closer to Havana than to Miami.",
+          "answer": true,
+          "explanation": "True — stated at the end of the paragraph on the Keys."
+        },
+        {
+          "id": "flt2",
+          "statement": "The art deco district was always protected.",
+          "answer": false,
+          "explanation": "False — it “was nearly demolished in the 1970s” and is now a main reason people visit."
+        },
+        {
+          "id": "flt3",
+          "statement": "Alligators and crocodiles both live wild in the Everglades.",
+          "answer": true,
+          "explanation": "True — and the text says it is the only place on earth where that is so."
+        },
+        {
+          "id": "flt4",
+          "statement": "The Everglades has been growing over the last century.",
+          "answer": false,
+          "explanation": "False — it “has been shrinking for a century, drained for farmland and housing”."
+        },
+        {
+          "id": "flt5",
+          "statement": "Key lime pie should be green.",
+          "answer": false,
+          "explanation": "False — “pale yellow and never green”."
+        },
+        {
+          "id": "flt6",
+          "statement": "The springs stay at the same temperature all year.",
+          "answer": true,
+          "explanation": "True — a constant twenty-two degrees, which is why manatees shelter there in winter."
+        }
+      ]
+    },
+    {
+      "id": "b1-fl-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "flf1",
+          "prompt": "Calling it a swamp is ___ — it is really a very wide, shallow river.",
+          "answers": [
+            "misleading"
+          ],
+          "options": [
+            "misleading",
+            "startling",
+            "bilingual"
+          ],
+          "explanation": "Misleading means giving a wrong impression."
+        },
+        {
+          "id": "flf2",
+          "prompt": "Much of the wetland was ___ so that it could be farmed.",
+          "answers": [
+            "drained"
+          ],
+          "options": [
+            "drained",
+            "restored",
+            "conveyed"
+          ],
+          "explanation": "To drain is to remove water from land. To restore would be the opposite process."
+        },
+        {
+          "id": "flf3",
+          "prompt": "The project aims to ___ the river to something like its original flow.",
+          "answers": [
+            "restore"
+          ],
+          "options": [
+            "restore",
+            "demolish",
+            "drain"
+          ],
+          "explanation": "To restore is to return something to its earlier condition."
+        },
+        {
+          "id": "flf4",
+          "prompt": "The photograph does not ___ how large it is.",
+          "answers": [
+            "convey"
+          ],
+          "options": [
+            "convey",
+            "shape",
+            "press"
+          ],
+          "explanation": "To convey is to communicate a sense of something."
+        },
+        {
+          "id": "flf5",
+          "prompt": "St Augustine is the oldest European ___ in the country.",
+          "answers": [
+            "settlement"
+          ],
+          "options": [
+            "settlement",
+            "panhandle",
+            "chain"
+          ],
+          "explanation": "A settlement is a place where people have established a community."
+        },
+        {
+          "id": "flf6",
+          "prompt": "The sandwich is ___ flat before it is served.",
+          "answers": [
+            "pressed"
+          ],
+          "options": [
+            "pressed",
+            "drained",
+            "shaped"
+          ],
+          "explanation": "To press is to flatten something under weight or heat — what makes a Cuban sandwich what it is."
+        }
+      ]
+    },
+    {
+      "id": "b1-fl-matching",
+      "type": "matching",
+      "title": "Region and Feature",
+      "instructions": "Match each place to what the text says about it.",
+      "items": [
+        {
+          "id": "flm1",
+          "pairs": [
+            {
+              "left": "Miami Beach",
+              "right": "the art deco district nearly demolished in the 1970s"
+            },
+            {
+              "left": "The Everglades",
+              "right": "a river sixty miles wide and a few inches deep"
+            },
+            {
+              "left": "Kennedy Space Center",
+              "right": "where a Saturn V lies on its side and launches still fly"
+            },
+            {
+              "left": "St Augustine",
+              "right": "founded in 1565, with a fort never taken by force"
+            },
+            {
+              "left": "Ybor City",
+              "right": "built by Cuban and Italian cigar workers"
+            },
+            {
+              "left": "The panhandle",
+              "right": "white quartz sand and the Emerald Coast"
+            },
+            {
+              "left": "The springs",
+              "right": "clear water at a constant temperature, with manatees in winter"
+            }
+          ],
+          "explanation": "Laid out together, these are the writer's case: seven quite different places, all of them within a day's drive of the airport most visitors fly into."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The writer says the gap between the Florida people imagine and the one that exists is “mostly a matter of how far you are willing to drive”. Is that true of somewhere you know?",
+    "The Everglades supplies drinking water and has been shrinking for a century. How should a place weigh farmland and housing against that?",
+    "Is it a problem that a region's best food comes from immigrant communities rather than from its “native” cooking?",
+    "The art deco district was nearly knocked down and is now the main attraction. What has your own city nearly lost?",
+    "Write about 150 words persuading someone to visit a part of your country that tourists usually skip."
+  ]
+}

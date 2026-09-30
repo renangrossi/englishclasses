@@ -29,6 +29,11 @@
     lesson: "Interactive Lesson",
     grammar: "Grammar Topic",
     booklet: "Grammar Booklet",
+    // One sheet inside a booklet, deep-linked to its #sheet-N anchor
+    // (see scripts/build_search_index_sheets.py). Kept distinct from
+    // "booklet" so searching "booklet" still returns the 7 whole
+    // booklets rather than all 97 of their sheets.
+    sheet: "Booklet Sheet",
     exercise: "Exercise / Text",
     mock: "Mock Exam",
     extra: "Extra",

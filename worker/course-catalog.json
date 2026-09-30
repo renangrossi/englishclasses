@@ -724,6 +724,12 @@
     },
     {
       "level": "B2",
+      "title": "Paired Expressions",
+      "url": "levels/b2/paired-expressions.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
       "title": "Wish / If Only",
       "url": "levels/b2/wish-if-only.html",
       "type": "lesson"

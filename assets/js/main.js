@@ -393,6 +393,43 @@
     });
   }
 
+  /* Vocabulary tooltips (.vocab-term::after, styled in exercises.css).
+     The box is centred on its word, which sends it off the screen when the
+     word sits near either edge -- common on a phone, where the passage is
+     nearly as wide as the viewport. It is a pseudo-element, so it cannot be
+     moved directly; instead its transform reads --vt-shift, which is set
+     here. Nothing runs until the reader actually hovers or focuses a word,
+     and with JavaScript off the box simply stays centred as before. */
+  function initVocabTooltips() {
+    var terms = document.querySelectorAll(".vocab-term[data-definition]");
+    if (!terms.length || !window.getComputedStyle) return;
+    var PAD = 8;
+
+    function place(term) {
+      term.removeAttribute("data-vt-below");
+      term.style.setProperty("--vt-shift", "0px");
+      var box = window.getComputedStyle(term, "::after");
+      var w = parseFloat(box.width);
+      var h = parseFloat(box.height);
+      if (!w) return;                       // no tooltip laid out; nothing to do
+      var r = term.getBoundingClientRect();
+      var centre = r.left + r.width / 2;
+      var shift = 0;
+      if (centre - w / 2 < PAD) shift = PAD - (centre - w / 2);
+      else if (centre + w / 2 > window.innerWidth - PAD) {
+        shift = (window.innerWidth - PAD) - (centre + w / 2);
+      }
+      if (shift) term.style.setProperty("--vt-shift", shift.toFixed(1) + "px");
+      // Not enough room above -- open downwards instead.
+      if (h && r.top - h < PAD + 12) term.setAttribute("data-vt-below", "");
+    }
+
+    Array.prototype.forEach.call(terms, function (t) {
+      t.addEventListener("pointerenter", function () { place(t); });
+      t.addEventListener("focus", function () { place(t); });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     initTheme();
     initMobileNav();
@@ -404,5 +441,6 @@
     initScrollspy();
     initAudioUnlock();
     initPagePrint();
+    initVocabTooltips();
   });
 })();

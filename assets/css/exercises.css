@@ -316,7 +316,10 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   position: absolute;
   left: 50%;
   bottom: calc(100% + 0.55em);
-  transform: translateX(-50%);
+  /* Centred on the word, then nudged by initVocabTooltips() in main.js when
+     that would push the box past the edge of the screen. The custom property
+     defaults to 0, so without JavaScript the behaviour is exactly as before. */
+  transform: translateX(calc(-50% + var(--vt-shift, 0px)));
   z-index: 40;
   width: max-content;
   max-width: min(30ch, 78vw);
@@ -342,6 +345,13 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   visibility: hidden;
   transition: opacity 120ms ease;
   pointer-events: none;
+}
+
+/* A word on the first line has nothing above it to open into, so the box is
+   flipped underneath. Set by initVocabTooltips(); the default stays above. */
+.vocab-term[data-vt-below]::after {
+  bottom: auto;
+  top: calc(100% + 0.55em);
 }
 
 .reading-passage .vocab-term:hover::after,

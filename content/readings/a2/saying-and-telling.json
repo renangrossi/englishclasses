@@ -24,19 +24,23 @@
   "vocabulary": [
     {
       "term": "to say something",
-      "definition": "say + the words. You do not need a person: 'She said good morning.'"
+      "definition": "say + the words. You do not need a person: 'She said good morning.'",
+      "match": "said good morning"
     },
     {
       "term": "to tell someone",
-      "definition": "tell + a person. 'She told me where the break room was.'"
+      "definition": "tell + a person. 'She told me where the break room was.'",
+      "match": "told me"
     },
     {
       "term": "to speak to someone",
-      "definition": "slightly more formal than 'talk'; often about one serious thing"
+      "definition": "slightly more formal than 'talk'; often about one serious thing",
+      "match": "spoke to me"
     },
     {
       "term": "to talk to someone",
-      "definition": "to have a conversation, usually informal and two-way"
+      "definition": "to have a conversation, usually informal and two-way",
+      "match": "talked to me"
     },
     {
       "term": "a break room",

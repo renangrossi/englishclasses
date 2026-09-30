@@ -1,0 +1,296 @@
+{
+  "id": "a2-reading-flying-to-the-us",
+  "level": "A2",
+  "slug": "flying-to-the-us",
+  "topic": "travel",
+  "title": "Flying to the United States",
+  "subtitle": "Booking a flight, reconfirming it, and getting through passport control — with the words you actually need.",
+  "description": "An A2 listening and reading page with three model dialogues: booking a flight by phone, reconfirming a reservation, and answering questions at US passport control.",
+  "source": "cefr/texts/travel-dialogues.docx",
+  "provenance": "rewritten",
+  "passage": [
+    "Three short conversations you are likely to have on the way to the United States. The traveler's lines are filled in here as models — read them, then cover them and try your own.",
+    "1. BOOKING A FLIGHT BY PHONE",
+    "Clerk: Northwind Airlines, good morning. May I help you?",
+    "You: Good morning. Do you have any flights to Chicago next Tuesday afternoon?",
+    "Clerk: One moment, please… Yes. There's a flight at 4:45 p.m. and one at 6:00 p.m.",
+    "You: How much is the 4:45, and how long does it take?",
+    "Clerk: Economy, business or first class?",
+    "You: Economy, please.",
+    "Clerk: That would be three hundred and forty-six dollars, round trip.",
+    "You: All right. I'd like to book the 4:45 flight, please.",
+    "Clerk: Certainly. Could I have your name, please?",
+    "You: It's Karen Jones. That's J-O-N-E-S.",
+    "Clerk: And how would you like to pay, Ms. Jones?",
+    "You: By credit card. Can I give you the number now?",
+    "Clerk: Yes, but please note you'll need to check in at least two hours before departure.",
+    "You: Two hours. Got it, thank you.",
+    "Clerk: You're booked, Ms. Jones. The flight leaves at 4:45 p.m. and arrives in Chicago at 9:25 p.m. local time. The flight number is NWA 476.",
+    "You: Could you repeat the flight number, please?",
+    "2. RECONFIRMING A RESERVATION",
+    "Clerk: Northwind Airlines. Can I help you?",
+    "You: Yes — I'd like to reconfirm my flight, please.",
+    "Clerk: May I have your name and flight number?",
+    "You: David Adams, flight NWA 118.",
+    "Clerk: When are you leaving?",
+    "You: On the fourteenth, next Friday.",
+    "Clerk: And your destination?",
+    "You: Miami.",
+    "Clerk: Hold the line, please… All right, your seat is confirmed, Mr. Adams. You'll arrive in Miami at 4:00 p.m. local time.",
+    "You: Thank you. Is there anything else I need to do?",
+    "Clerk: Just check in at least an hour before departure.",
+    "3. AT PASSPORT CONTROL",
+    "Officer: Good evening. Where have you come from?",
+    "You: From São Paulo, on flight NWA 476.",
+    "Officer: May I see your passport, please?",
+    "You: Here you are.",
+    "Officer: What's the purpose of your visit — business or pleasure?",
+    "You: Business. I'm attending a conference in Chicago.",
+    "Officer: How long are you going to stay in the United States?",
+    "You: Ten days. I'm flying home on the twenty-fourth.",
+    "Officer: What do you do for a living?",
+    "You: I'm a software engineer.",
+    "Officer: Do you have a return ticket?",
+    "You: Yes, I do. Would you like to see it?",
+    "Officer: That's fine. Thank you — enjoy your trip.",
+    "You: Thank you very much."
+  ],
+  "vocabulary": [
+    {
+      "term": "round trip",
+      "definition": "there and back (American English; British: return)"
+    },
+    {
+      "term": "to book / a reservation",
+      "definition": "to arrange a seat or room in advance"
+    },
+    {
+      "term": "to reconfirm",
+      "definition": "to check again that your booking is still valid"
+    },
+    {
+      "term": "to check in",
+      "definition": "to register at the airport before a flight, or at a hotel on arrival"
+    },
+    {
+      "term": "departure / arrival",
+      "definition": "leaving / getting there"
+    },
+    {
+      "term": "the purpose of your visit",
+      "definition": "the official phrase for why you are traveling"
+    },
+    {
+      "term": "business or pleasure",
+      "definition": "the standard choice officers offer: for work, or for a vacation"
+    },
+    {
+      "term": "Hold the line, please.",
+      "definition": "wait on the telephone"
+    },
+    {
+      "term": "Here you are.",
+      "definition": "what you say as you hand something to someone"
+    },
+    {
+      "term": "What do you do for a living?",
+      "definition": "a natural way to ask someone's occupation"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-flying-responses",
+      "type": "multiple-choice",
+      "title": "What Would You Say?",
+      "instructions": "Choose the best response in each situation.",
+      "items": [
+        {
+          "id": "fl1",
+          "prompt": "Clerk: \"Economy, business or first class?\"",
+          "options": [
+            "Economy, please.",
+            "Yes, please.",
+            "I don't know the price."
+          ],
+          "answerIndex": 0,
+          "explanation": "The question offers a choice, so name the one you want."
+        },
+        {
+          "id": "fl2",
+          "prompt": "Clerk: \"Could I have your name, please?\"",
+          "options": [
+            "It's Karen Jones.",
+            "My name.",
+            "Yes, you could."
+          ],
+          "answerIndex": 0,
+          "explanation": "Give the name. \"Yes, you could\" answers the words but not the request."
+        },
+        {
+          "id": "fl3",
+          "prompt": "Officer: \"What's the purpose of your visit?\"",
+          "options": [
+            "Business — I'm attending a conference.",
+            "Ten days.",
+            "From São Paulo."
+          ],
+          "answerIndex": 0,
+          "explanation": "The purpose is why you came. 'Ten days' answers how long, and 'From São Paulo' answers where from."
+        },
+        {
+          "id": "fl4",
+          "prompt": "Officer: \"How long are you going to stay?\"",
+          "options": [
+            "Ten days.",
+            "Business.",
+            "A software engineer."
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long' asks about duration."
+        },
+        {
+          "id": "fl5",
+          "prompt": "Officer: \"Do you have a return ticket?\"",
+          "options": [
+            "Yes, I do. Would you like to see it?",
+            "Yes, I have it yesterday.",
+            "No, I have a passport."
+          ],
+          "answerIndex": 0,
+          "explanation": "Short answers repeat the auxiliary: Do you…? — Yes, I do."
+        },
+        {
+          "id": "fl6",
+          "prompt": "You did not hear the flight number. You say:",
+          "options": [
+            "Could you repeat that, please?",
+            "Say again the number.",
+            "I don't listen."
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Could you repeat that, please?\" is the polite standard."
+        }
+      ]
+    },
+    {
+      "id": "a2-flying-vocabulary",
+      "type": "fill-blank",
+      "title": "Travel Words",
+      "instructions": "Choose the word that fits.",
+      "items": [
+        {
+          "id": "flv1",
+          "prompt": "I'd like a ___ trip ticket to Chicago, please.",
+          "answers": [
+            "round"
+          ],
+          "options": [
+            "round",
+            "return",
+            "double"
+          ],
+          "explanation": "American English says 'round trip'; British English says 'return'."
+        },
+        {
+          "id": "flv2",
+          "prompt": "Please ___ in at least two hours before departure.",
+          "answers": [
+            "check"
+          ],
+          "options": [
+            "check",
+            "book",
+            "confirm"
+          ],
+          "explanation": "You check in at the airport before a flight."
+        },
+        {
+          "id": "flv3",
+          "prompt": "I called the airline to ___ my flight.",
+          "answers": [
+            "reconfirm"
+          ],
+          "options": [
+            "reconfirm",
+            "repeat",
+            "return"
+          ],
+          "explanation": "To reconfirm is to check again that your booking is valid."
+        },
+        {
+          "id": "flv4",
+          "prompt": "The plane's ___ time is 4:45 p.m.",
+          "answers": [
+            "departure"
+          ],
+          "options": [
+            "departure",
+            "arrival",
+            "reservation"
+          ],
+          "explanation": "Departure is leaving; arrival is getting there."
+        },
+        {
+          "id": "flv5",
+          "prompt": "Clerk: \"___ the line, please.\"",
+          "answers": [
+            "Hold"
+          ],
+          "options": [
+            "Hold",
+            "Take",
+            "Keep"
+          ],
+          "explanation": "\"Hold the line\" is the fixed telephone phrase for 'please wait'."
+        }
+      ]
+    },
+    {
+      "id": "a2-flying-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the dialogues.",
+      "items": [
+        {
+          "id": "flt1",
+          "statement": "Ms. Jones books the 6:00 p.m. flight.",
+          "answer": false,
+          "explanation": "False — she books the 4:45 p.m. flight."
+        },
+        {
+          "id": "flt2",
+          "statement": "She must check in two hours before departure.",
+          "answer": true,
+          "explanation": "True — the clerk says at least two hours."
+        },
+        {
+          "id": "flt3",
+          "statement": "Mr. Adams is flying to Chicago.",
+          "answer": false,
+          "explanation": "False — his destination is Miami."
+        },
+        {
+          "id": "flt4",
+          "statement": "The traveler at passport control came for a vacation.",
+          "answer": false,
+          "explanation": "False — the purpose is business: a conference in Chicago."
+        },
+        {
+          "id": "flt5",
+          "statement": "The officer asks to see the return ticket.",
+          "answer": false,
+          "explanation": "False — the traveler offers it, but the officer says \"That's fine\" without looking."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Role-play dialogue 1 with a partner: one of you is the clerk, the other books a flight to a city of your choice.",
+    "Have you ever been asked questions at passport control? What did they ask, and how did you answer?",
+    "Officers ask short, direct questions. Why do you think short, complete answers work better than long explanations?",
+    "Write a telephone dialogue (about 10 lines) in which you change a booking you already made."
+  ],
+  "audio": {
+    "duration_label": "3:39"
+  }
+}

@@ -31,6 +31,20 @@ def main():
     kept = [e for e in entries if e.get("type") != "reading"]
     removed = len(entries) - len(kept)
 
+    # A converted text no longer has a card on exercises.html, so the old
+    # "exercise" entry pointing at exercises.html#ex-<slug> becomes a dead
+    # anchor. Drop those as their texts are converted; the "reading" entry
+    # built below replaces them and points at the real page.
+    MAP = rc.REPO_ROOT / "docs" / "reading-library-map.json"
+    gone = set()
+    for t in json.loads(MAP.read_text(encoding="utf-8"))["texts"]:
+        if t.get("status") in ("IMPLEMENTED", "MERGED") or t["action"] == "DELETE":
+            cid = t.get("card_id") or t.get("source_slug") or t["slug"]
+            gone.add(f"exercises.html#ex-{cid}")
+    before = len(kept)
+    kept = [e for e in kept if e.get("url") not in gone]
+    stale = before - len(kept)
+
     added = []
     for level, slug, d in rc.all_sources():
         topic = rc.TOPIC_LABELS.get(d.get("topic", ""), "")
@@ -47,8 +61,8 @@ def main():
 
     out = kept + added
     INDEX.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    print(f"search index: removed {removed} reading entr{'y' if removed == 1 else 'ies'}, "
-          f"added {len(added)} -> {len(out)} total")
+    print(f"search index: removed {removed} reading + {stale} stale exercise entr"
+          f"{'y' if removed + stale == 1 else 'ies'}, added {len(added)} -> {len(out)} total")
 
 
 if __name__ == "__main__":

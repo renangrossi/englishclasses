@@ -1,0 +1,290 @@
+{
+  "id": "a2-reading-two-very-different-trips",
+  "level": "A2",
+  "slug": "two-very-different-trips",
+  "topic": "travel",
+  "title": "Two Very Different Trips",
+  "subtitle": "Sydney and Bangkok, compared — and the language for recommending a place.",
+  "description": "An A2 reading and listening text comparing a trip to Sydney with a trip to Bangkok, practicing comparatives and the language of recommendation (you should, it's worth, don't miss).",
+  "source": "cefr/texts/australia-and-thailand.docx",
+  "provenance": "rewritten",
+  "passage": [
+    "My sister and I took two long trips last year: one to Sydney, in Australia, and one to Bangkok, in Thailand. People often ask which was better. That is the wrong question. They were so different that comparing them is almost unfair — but here is what we learned.",
+    "Sydney is an outdoor city, and it is built around its harbor. You should start there. Walk along Circular Quay, where the ferries come in, and you will see the Opera House on one side and the Harbour Bridge on the other. The ferry to Manly costs very little and gives you better views than most paid tours.",
+    "The beaches are the other half of the city. Bondi is the famous one, and it is crowded; Coogee is quieter. The coastal path between them takes about two hours on foot, and it is the best thing we did in Australia. Don't miss the coastal path. If you have a free day, also take the train up to the Blue Mountains and look at the rock formation called the Three Sisters.",
+    "Sydney is expensive. Food, transport, hotels — everything costs more than we expected. We saved money by buying an Opal card for the buses and ferries, and by eating at the fish market instead of at restaurants near the harbor.",
+    "Bangkok is the opposite in almost every way. It is hotter, louder, much cheaper, and far more crowded. It is also the best city for food that either of us has ever visited.",
+    "Most of what you eat there comes from a stall on the street, not from a restaurant, and it is often better. We ate pad thai at a place called Thip Samai, where there is usually a line down the sidewalk, and we waited an hour at a stall with a Michelin star where one woman cooks everything herself over charcoal. Both were cheaper than a sandwich in Sydney.",
+    "For temples, start with the Grand Palace and the temple next to it, Wat Phra Kaew. Dress carefully: shoulders and knees covered, or they will not let you in. That rule surprises a lot of visitors, and it is worth knowing before you arrive rather than after.",
+    "If you leave the city, the islands in the south have clear water and good snorkeling, and the old ruins at Ayutthaya are a short train ride north. In Chiang Mai, further north again, you can take a Thai cooking class in the morning and eat what you made for lunch.",
+    "So which was better? Sydney is easier — the language, the transport, the water. Bangkok is harder work and rewards you more, especially if you like food. If you have never traveled far from home before, go to Sydney. If you have, go to Bangkok."
+  ],
+  "vocabulary": [
+    {
+      "term": "a harbor",
+      "definition": "a protected area of water where boats stop (British spelling: harbour)"
+    },
+    {
+      "term": "a ferry",
+      "definition": "a boat that carries people across water on a regular schedule"
+    },
+    {
+      "term": "crowded",
+      "definition": "full of people"
+    },
+    {
+      "term": "a stall",
+      "definition": "a small open shop, often on the street"
+    },
+    {
+      "term": "a line",
+      "definition": "people waiting one behind another (British English: a queue)"
+    },
+    {
+      "term": "the sidewalk",
+      "definition": "the path beside a road for walking (British English: the pavement)"
+    },
+    {
+      "term": "It's worth (doing)",
+      "definition": "it gives you enough in return for the time, money or effort"
+    },
+    {
+      "term": "Don't miss…",
+      "definition": "a strong recommendation: make sure you do or see this"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-trips-comparatives",
+      "type": "fill-blank",
+      "title": "Comparing Two Places",
+      "instructions": "Complete each comparison with the correct form.",
+      "items": [
+        {
+          "id": "tc1",
+          "prompt": "Bangkok is ___ than Sydney.",
+          "answers": [
+            "hotter"
+          ],
+          "options": [
+            "hotter",
+            "more hot",
+            "hottest"
+          ],
+          "explanation": "Short adjectives add -er, doubling the final consonant: hot → hotter."
+        },
+        {
+          "id": "tc2",
+          "prompt": "Sydney is much ___ than Bangkok.",
+          "answers": [
+            "more expensive"
+          ],
+          "options": [
+            "more expensive",
+            "expensiver",
+            "most expensive"
+          ],
+          "explanation": "Longer adjectives use 'more': more expensive."
+        },
+        {
+          "id": "tc3",
+          "prompt": "Coogee is ___ than Bondi.",
+          "answers": [
+            "quieter"
+          ],
+          "options": [
+            "quieter",
+            "more quiet",
+            "quietest"
+          ],
+          "explanation": "Quiet → quieter."
+        },
+        {
+          "id": "tc4",
+          "prompt": "The ferry gives you ___ views than most paid tours.",
+          "answers": [
+            "better"
+          ],
+          "options": [
+            "better",
+            "gooder",
+            "best"
+          ],
+          "explanation": "'Good' is irregular: good → better → best."
+        },
+        {
+          "id": "tc5",
+          "prompt": "Bangkok is ___ crowded than Sydney.",
+          "answers": [
+            "more"
+          ],
+          "options": [
+            "more",
+            "much",
+            "most"
+          ],
+          "explanation": "'Crowded' takes 'more' in the comparative."
+        },
+        {
+          "id": "tc6",
+          "prompt": "Both meals were ___ than a sandwich in Sydney.",
+          "answers": [
+            "cheaper"
+          ],
+          "options": [
+            "cheaper",
+            "more cheap",
+            "cheapest"
+          ],
+          "explanation": "Cheap → cheaper."
+        }
+      ]
+    },
+    {
+      "id": "a2-trips-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the text.",
+      "items": [
+        {
+          "id": "tp1",
+          "prompt": "What does the writer say is the best thing they did in Australia?",
+          "options": [
+            "The Opera House tour",
+            "The coastal walk from Bondi to Coogee",
+            "The Blue Mountains"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"The coastal path between them takes about two hours on foot, and it is the best thing we did in Australia.\""
+        },
+        {
+          "id": "tp2",
+          "prompt": "How did they save money in Sydney?",
+          "options": [
+            "By staying outside the city",
+            "With an Opal card and by eating at the fish market",
+            "By not using transport at all"
+          ],
+          "answerIndex": 1,
+          "explanation": "Those are the two things the text names."
+        },
+        {
+          "id": "tp3",
+          "prompt": "Where does most of the food come from in Bangkok?",
+          "options": [
+            "Restaurants",
+            "Street stalls",
+            "Hotels"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Most of what you eat there comes from a stall on the street, not from a restaurant, and it is often better.\""
+        },
+        {
+          "id": "tp4",
+          "prompt": "What should you know before visiting the Grand Palace?",
+          "options": [
+            "It is closed on Mondays",
+            "You must cover your shoulders and knees",
+            "You need to book a year ahead"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Dress carefully: shoulders and knees covered, or they will not let you in.\""
+        },
+        {
+          "id": "tp5",
+          "prompt": "What can you do in Chiang Mai?",
+          "options": [
+            "Go snorkeling",
+            "Take a cooking class and eat what you made",
+            "Visit the Three Sisters"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"you can take a Thai cooking class in the morning and eat what you made for lunch\"."
+        },
+        {
+          "id": "tp6",
+          "prompt": "What is the writer's final advice?",
+          "options": [
+            "Sydney if you have never traveled far; Bangkok if you have",
+            "Always choose Bangkok",
+            "Never go to Sydney"
+          ],
+          "answerIndex": 0,
+          "explanation": "The last two sentences give exactly that advice."
+        }
+      ]
+    },
+    {
+      "id": "a2-trips-recommending",
+      "type": "vocabulary",
+      "title": "Recommending a Place",
+      "instructions": "Choose the expression that fits.",
+      "items": [
+        {
+          "id": "tr1",
+          "prompt": "You want to say something is definitely a good use of your time:",
+          "options": [
+            "It's worth doing.",
+            "It's worthy doing.",
+            "It's worth to do."
+          ],
+          "answerIndex": 0,
+          "explanation": "The pattern is 'it's worth + -ing': it's worth doing, it's worth visiting."
+        },
+        {
+          "id": "tr2",
+          "prompt": "You want to recommend something strongly:",
+          "options": [
+            "Don't miss it.",
+            "Don't lose it.",
+            "Don't lack it."
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Don't miss it\" means make sure you see or do it."
+        },
+        {
+          "id": "tr3",
+          "prompt": "You want to give advice about where to begin:",
+          "options": [
+            "You should start there.",
+            "You should to start there.",
+            "You should starting there."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Should' is followed by the bare infinitive: you should start."
+        },
+        {
+          "id": "tr4",
+          "prompt": "People waiting one behind another, in American English, is:",
+          "options": [
+            "a line",
+            "a queue",
+            "a row"
+          ],
+          "answerIndex": 0,
+          "explanation": "American English says 'a line'; 'queue' is British."
+        },
+        {
+          "id": "tr5",
+          "prompt": "The path beside a road, in American English, is:",
+          "options": [
+            "the sidewalk",
+            "the pavement",
+            "the path"
+          ],
+          "answerIndex": 0,
+          "explanation": "American English: sidewalk. British English: pavement."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Which of these two trips would you rather take, and why?",
+    "Compare two places you know using 'cheaper', 'hotter', 'more crowded' and 'better'.",
+    "The writer says Bangkok is harder work but rewards you more. Do you prefer easy travel or demanding travel?",
+    "Write about 80 words recommending a city to a visitor. Use 'you should', 'it's worth' and 'don't miss' at least once each."
+  ],
+  "audio": {
+    "duration_label": "2:53"
+  }
+}

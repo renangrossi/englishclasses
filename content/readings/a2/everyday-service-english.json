@@ -1,0 +1,284 @@
+{
+  "id": "a2-reading-everyday-service-english",
+  "level": "A2",
+  "slug": "everyday-service-english",
+  "topic": "everyday",
+  "title": "Everyday Service English",
+  "subtitle": "Three small situations: when the dish is unavailable, when you need another color, and when you need a stranger's help.",
+  "description": "An A2 listening and reading page with three short service dialogues — ordering when something is sold out, buying clothes, and asking someone to take a photo — with polite-request practice.",
+  "source": "cefr/texts/travel-dialogues.docx",
+  "provenance": "rewritten",
+  "passage": [
+    "Three short conversations you will need sooner or later. Your lines are written out as models.",
+    "1. WHEN WHAT YOU WANTED IS NOT AVAILABLE",
+    "Waiter: Are you ready to order, ma'am?",
+    "You: Yes, I think so. I'd like the tomato soup to start, and my friend will have the beef stew.",
+    "Waiter: One beef stew, one tomato soup. And for the main course?",
+    "You: I'll have the trout, please.",
+    "Waiter: I'm sorry, we're out of the trout this evening.",
+    "You: Oh, that's too bad. What else would you recommend?",
+    "Waiter: The sole is very good tonight.",
+    "You: Then I'll have the sole. Do you have any coleslaw?",
+    "Waiter: No, I'm sorry, we don't.",
+    "You: That's fine — could I get a small mixed salad instead?",
+    "Waiter: Certainly. Would you like something to drink?",
+    "You: Just a glass of water, please. No ice.",
+    "2. BUYING CLOTHES",
+    "Sales clerk: May I help you, ma'am?",
+    "You: Yes, please. I'm looking for a cotton shirt, size medium.",
+    "Sales clerk: Any particular color?",
+    "You: Something light, if you have it.",
+    "Sales clerk: How about this one?",
+    "You: I like the style, but not the color. Do you have it in anything else?",
+    "Sales clerk: They come in white, pale yellow, aqua, red and green. Will that do?",
+    "You: A white one would be perfect. Could I try it on?",
+    "Sales clerk: Of course. The fitting rooms are just behind you.",
+    "You: Thank you. And if it doesn't fit, can I exchange it?",
+    "Sales clerk: Within thirty days, with the receipt.",
+    "3. ASKING A STRANGER FOR HELP",
+    "You: Excuse me — would you mind taking a picture of us?",
+    "Man: Sure. Which button do I press?",
+    "You: Just this big one on the right. It focuses by itself.",
+    "Man: Do I need to hold it steady for long?",
+    "You: No, it's quick. Thanks so much.",
+    "Man: All right — say cheese!",
+    "You: Cheese!",
+    "Man: Here you go. I took two, just in case.",
+    "You: That's very kind of you. Thank you."
+  ],
+  "vocabulary": [
+    {
+      "term": "to be out of something",
+      "definition": "to have none left (American English; British English often says \"it's off\")"
+    },
+    {
+      "term": "the main course",
+      "definition": "the biggest, central dish of a meal"
+    },
+    {
+      "term": "instead",
+      "definition": "in place of the other thing"
+    },
+    {
+      "term": "to try something on",
+      "definition": "to put on clothing in a store to see if it fits"
+    },
+    {
+      "term": "a fitting room",
+      "definition": "the small room where you try on clothes"
+    },
+    {
+      "term": "to exchange",
+      "definition": "to return something and take another in its place",
+      "match": "exchange"
+    },
+    {
+      "term": "Would you mind…?",
+      "definition": "a very polite request, followed by -ing: Would you mind taking…?"
+    },
+    {
+      "term": "Will that do?",
+      "definition": "Is that acceptable / good enough?"
+    },
+    {
+      "term": "just in case",
+      "definition": "in order to be safe if something goes wrong"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-service-requests",
+      "type": "multiple-choice",
+      "title": "Making Polite Requests",
+      "instructions": "Choose the correct or most natural form.",
+      "items": [
+        {
+          "id": "sv1",
+          "prompt": "Complete: \"Would you mind ___ a picture of us?\"",
+          "options": [
+            "taking",
+            "to take",
+            "take"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Would you mind\" is always followed by the -ing form: Would you mind taking…?"
+        },
+        {
+          "id": "sv2",
+          "prompt": "The waiter says the trout is unavailable. In American English he says:",
+          "options": [
+            "We're out of the trout.",
+            "The trout is off.",
+            "The trout is finished."
+          ],
+          "answerIndex": 0,
+          "explanation": "\"We're out of\" is the American phrasing. \"It's off\" is British and can confuse American listeners."
+        },
+        {
+          "id": "sv3",
+          "prompt": "You want to put the shirt on in the store. You ask:",
+          "options": [
+            "Could I try it on?",
+            "Could I try it?",
+            "Could I wear it?"
+          ],
+          "answerIndex": 0,
+          "explanation": "The phrasal verb is 'try on' — try it on."
+        },
+        {
+          "id": "sv4",
+          "prompt": "You want a different dish from the one you asked for. You say:",
+          "options": [
+            "Could I get a salad instead?",
+            "Could I get a salad in place?",
+            "Could I get a salad another?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Instead' means in place of the other thing, and goes at the end."
+        },
+        {
+          "id": "sv5",
+          "prompt": "The clerk asks whether white is acceptable. She says:",
+          "options": [
+            "Will that do?",
+            "Will a white one make?",
+            "Will a white one go?"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Will that do?\" is a fixed expression meaning 'is that good enough?'"
+        },
+        {
+          "id": "sv6",
+          "prompt": "You want to thank someone warmly for a small favor:",
+          "options": [
+            "That's very kind of you.",
+            "That's very kind from you.",
+            "That's very kind by you."
+          ],
+          "answerIndex": 0,
+          "explanation": "The fixed pattern is 'kind OF you'."
+        }
+      ]
+    },
+    {
+      "id": "a2-service-vocabulary",
+      "type": "fill-blank",
+      "title": "Service Vocabulary",
+      "instructions": "Choose the word that fits.",
+      "items": [
+        {
+          "id": "svv1",
+          "prompt": "I'm sorry, we're ___ of the trout tonight.",
+          "answers": [
+            "out"
+          ],
+          "options": [
+            "out",
+            "off",
+            "away"
+          ],
+          "explanation": "To be out of something is to have none left."
+        },
+        {
+          "id": "svv2",
+          "prompt": "The ___ rooms are just behind you.",
+          "answers": [
+            "fitting"
+          ],
+          "options": [
+            "fitting",
+            "trying",
+            "changing of"
+          ],
+          "explanation": "In American stores these are fitting rooms (also 'dressing rooms')."
+        },
+        {
+          "id": "svv3",
+          "prompt": "If it doesn't fit, can I ___ it?",
+          "answers": [
+            "exchange"
+          ],
+          "options": [
+            "exchange",
+            "change of",
+            "return to"
+          ],
+          "explanation": "To exchange is to swap it for another one."
+        },
+        {
+          "id": "svv4",
+          "prompt": "I took two pictures, just in ___.",
+          "answers": [
+            "case"
+          ],
+          "options": [
+            "case",
+            "time",
+            "fact"
+          ],
+          "explanation": "'Just in case' means in order to be safe."
+        },
+        {
+          "id": "svv5",
+          "prompt": "I'd like the soup to start, and the fish for the ___ course.",
+          "answers": [
+            "main"
+          ],
+          "options": [
+            "main",
+            "first",
+            "big"
+          ],
+          "explanation": "The main course is the central dish of the meal."
+        }
+      ]
+    },
+    {
+      "id": "a2-service-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the dialogues.",
+      "items": [
+        {
+          "id": "svt1",
+          "statement": "The customer gets the trout in the end.",
+          "answer": false,
+          "explanation": "False — the restaurant is out of trout, so she orders the sole."
+        },
+        {
+          "id": "svt2",
+          "statement": "The restaurant has coleslaw.",
+          "answer": false,
+          "explanation": "False — \"No, I'm sorry, we don't.\" She orders a mixed salad instead."
+        },
+        {
+          "id": "svt3",
+          "statement": "The customer likes the style of the first shirt but not its color.",
+          "answer": true,
+          "explanation": "True — \"I like the style, but not the color.\""
+        },
+        {
+          "id": "svt4",
+          "statement": "Clothes can be exchanged within thirty days with the receipt.",
+          "answer": true,
+          "explanation": "True — that is exactly what the clerk says."
+        },
+        {
+          "id": "svt5",
+          "statement": "The man takes only one photo.",
+          "answer": false,
+          "explanation": "False — \"I took two, just in case.\""
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Role-play situation 1: one of you is the waiter and must say that two things on the menu are unavailable.",
+    "What do you say in your own language when a shop does not have what you want? Is it as indirect as English?",
+    "Ask a partner three polite requests using \"Would you mind…?\"",
+    "Write a short dialogue (about 8 lines) in a clothes store where the first item is the wrong size."
+  ],
+  "audio": {
+    "duration_label": "2:56"
+  }
+}

@@ -141,14 +141,16 @@
    "genre": "reading",
    "level": "A2",
    "topic": "travel",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Bulleted travel-tips list, not connected prose. Rewrite the Sydney half as a short A2 reading; drop or fold the Thailand half.",
-   "status": "NOT STARTED",
-   "card_title": "Australia and Thailand",
+   "action": "REPLACE",
+   "audio": "exists",
+   "reason": "The source is two bulleted lists of attractions with no connected prose, so there was nothing to read or narrate. Rewritten as a single A2 text that compares the two destinations, which keeps both halves of the original material, gives the comparatives something real to do, and adds the recommendation language (you should, it's worth, don't miss) the lists only implied.",
+   "status": "IMPLEMENTED",
+   "card_title": "Two Very Different Trips",
    "source_files": [
     "cefr/texts/australia-and-thailand.pdf"
-   ]
+   ],
+   "page": "reading/a2/two-very-different-trips.html",
+   "card_desc": "Sydney and Bangkok compared, with the language for recommending a place."
   },
   {
    "slug": "beers",
@@ -1413,15 +1415,21 @@
    "genre": "dialogue",
    "level": "A2",
    "topic": "travel",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Strong functional dialogues (airline booking, etc.) but student lines are blank, prices are in euros and times are 24-hour. Supply model answers and convert to US conventions ($, 4:45 PM) per requirement 16.",
-   "status": "NOT STARTED",
+   "action": "SPLIT",
+   "audio": "exists",
+   "reason": "Strong functional dialogues, but eight unrelated scenarios in one worksheet (airline booking, reconfirming, passport control, booking a hotel room, checking out, ordering dinner, buying clothes, asking for a photo) with every student line left blank. Split into three coherent pages and given model answers so the dialogues can actually be read and narrated. Americanized throughout per requirement 16: euros to dollars, 24-hour times to 12-hour ('16:45' to '4:45 p.m.'), 'the trout is off' to 'we're out of the trout', 'colours' to 'colors', traveller's cheques to a card; the inconsistent 'Northwind Airways'/'Northwind Airlines' is unified, and the source's acute accents used as apostrophes ('There´s') are fixed.",
+   "status": "IMPLEMENTED",
    "card_title": "Travel Dialogues",
-   "card_desc": "Exercises on travel-related conversations and vocabulary.",
+   "card_desc": "Split into three pages: flying, hotels, and everyday service situations.",
    "source_files": [
     "cefr/texts/travel-dialogues.pdf"
-   ]
+   ],
+   "split_into": [
+    "reading/a2/flying-to-the-us.html",
+    "reading/a2/at-the-hotel.html",
+    "reading/a2/everyday-service-english.html"
+   ],
+   "page": "reading/a2/flying-to-the-us.html"
   },
   {
    "slug": "travel-dialogues-02",
@@ -1479,15 +1487,16 @@
    "genre": "reading",
    "level": "A2",
    "topic": "travel",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Good there is/there are practice in dialogue. Re-set in a US road-trip frame with English names to match the brief.",
-   "status": "NOT STARTED",
-   "card_title": "Trip Through Rs",
-   "card_desc": "Exercises on travel experiences in Rio Grande do Sul, Brazil.",
+   "action": "REPLACE",
+   "audio": "exists",
+   "reason": "Good there is/there are practice, but the source crams nine separate grammar points (there is/are, can/could/may, some/any/no, much/many/few/little, present simple, will, present continuous, past simple, question forms) into one narrative, and it breaks down: 'Do you visit the mountains a lot?' is answered 'No, I don't visit the coast often', which is a non-sequitur, and 'I'm reading a map upstairs later' is not English. Rewritten around the one dominant point (there is/are plus quantifiers) and re-set as a Charlotte-to-Asheville bus trip with English names; the other grammar points already have their own lessons under levels/.",
+   "status": "IMPLEMENTED",
+   "card_title": "The Bus to the Mountains",
+   "card_desc": "There is / there are and quantifiers, on a long bus ride into the mountains.",
    "source_files": [
     "cefr/texts/trip-through-rs.pdf"
-   ]
+   ],
+   "page": "reading/a2/bus-to-the-mountains.html"
   },
   {
    "slug": "two-texts-sp-to-pp",
@@ -1583,7 +1592,7 @@
   }
  ],
  "_progress": {
-  "implemented": 8,
+  "implemented": 11,
   "merged_away": 0,
   "total": 98
  }

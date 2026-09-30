@@ -23,14 +23,6 @@
   ],
   "vocabulary": [
     {
-      "term": "multimodal",
-      "definition": "handling more than one kind of input, such as text and images together"
-    },
-    {
-      "term": "precedent",
-      "definition": "an earlier case that serves as a comparison"
-    },
-    {
       "term": "hyperscale",
       "definition": "built for computing at the very largest scale"
     },
@@ -52,10 +44,6 @@
       "match": "siting"
     },
     {
-      "term": "abundant",
-      "definition": "available in large quantities"
-    },
-    {
       "term": "emissions",
       "definition": "the greenhouse gases released by an activity"
     },
@@ -73,28 +61,12 @@
       "definition": "argued about; not settled"
     },
     {
-      "term": "capital",
-      "definition": "money invested in building something that will produce returns"
-    },
-    {
-      "term": "generative",
-      "definition": "producing new content in response to a prompt"
-    },
-    {
       "term": "prompt",
       "definition": "the instruction or question given to an AI system"
     },
     {
       "term": "agentic",
       "definition": "able to pursue a goal independently rather than responding to single instructions"
-    },
-    {
-      "term": "intermediate",
-      "definition": "occurring between the start and the end of a process"
-    },
-    {
-      "term": "supervision",
-      "definition": "the act of watching over work as it is done"
     },
     {
       "term": "codebase",

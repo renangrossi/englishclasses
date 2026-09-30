@@ -42,11 +42,6 @@
       "match": "breached"
     },
     {
-      "term": "combination",
-      "definition": "a particular pairing, such as an email address and a password",
-      "match": "combinations"
-    },
-    {
       "term": "to substitute",
       "definition": "to put one thing in place of another",
       "match": "substituted"
@@ -84,10 +79,6 @@
     {
       "term": "phishing",
       "definition": "a message designed to trick you into giving up a password or opening a harmful file"
-    },
-    {
-      "term": "attachment",
-      "definition": "a file sent together with a message"
     },
     {
       "term": "urgency",

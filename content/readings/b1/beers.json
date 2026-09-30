@@ -56,11 +56,6 @@
       "definition": "a smell, usually a pleasant one"
     },
     {
-      "term": "to ferment",
-      "definition": "to convert sugar into alcohol using yeast",
-      "match": "ferments"
-    },
-    {
       "term": "crisp",
       "definition": "clean and refreshing in taste"
     },
@@ -93,10 +88,6 @@
     {
       "term": "roasted",
       "definition": "cooked with dry heat until browned, which deepens flavour"
-    },
-    {
-      "term": "simplification",
-      "definition": "a version of a story that leaves out complicating facts"
     }
   ],
   "exercises": [

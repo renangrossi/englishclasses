@@ -307,7 +307,27 @@ python3 scripts/extract_source_docs.py /tmp/extracted   # re-extract all source 
    section** on the page (the definitions reappear only in the print-only glossary). The builder
    matches headwords to their inflected forms automatically — pin a `match` field on the
    vocabulary entry when auto-matching picks the wrong sense.
-8. **Exercises must test meaning, not string-matching.** Do **not** write a question whose correct
+8. **Do not highlight what a Portuguese speaker already reads for free.** The students are
+   Brazilian, and English is full of Latinate words whose Portuguese cousin is obvious on sight
+   — *attribution/atribuição*, *constitutional/constitucional*, *irony/ironia*,
+   *extortion/extorsão*, *inscription/inscrição*. A highlight spent on one of those teaches
+   nothing and trains the student to ignore the highlighting. Spend them instead on:
+   - **idioms and fixed expressions** — *the right call*, *beside the point*, *urgency is the tell*;
+   - **phrasal verbs**, which are the hardest thing in English for a Romance-language speaker
+     and have no cognate to fall back on — *to run out*, *to catch someone out*, *to put off*;
+   - **short Germanic words** with no Latin cousin — *grip*, *stiff*, *till*, *shore*, *tell*;
+   - **false friends**, which are worth a highlight precisely because the cognate misleads:
+     *to appreciate* (to rise in value, not *apreciar*), *prefecture* (a region, not a
+     *prefeitura*), *authoritative* (not *autoritário*), an *implement* (a tool, not
+     *implementar*), *liable*, *to insure*.
+
+   The suffix families that almost always signal a free ride: `-tion`, `-sion`, `-ity`, `-ous`,
+   `-ive`, `-ance`, `-ence`, `-ent`, `-ant`, `-able`, `-ible`, `-ic`, `-al`, `-ate`, `-ure`,
+   `-ism`, `-ist`, `-or`. A single word ending that way is transparent unless it is a false
+   friend. A *multi-word* entry is never excluded by this rule — an idiom built from easy words
+   is still opaque.
+
+9. **Exercises must test meaning, not string-matching.** Do **not** write a question whose correct
    option is lifted verbatim from the passage — a student can then scan for matching words and
    answer without understanding anything. Paraphrase the question and the options, and scale how
    far by level:

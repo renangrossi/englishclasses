@@ -28,17 +28,8 @@
       "match": "obelisks"
     },
     {
-      "term": "inscription",
-      "definition": "words carved into stone",
-      "match": "inscriptions"
-    },
-    {
       "term": "to conceal",
       "definition": "to hide something deliberately"
-    },
-    {
-      "term": "regent",
-      "definition": "someone who rules on behalf of a monarch who is too young"
     },
     {
       "term": "to reign",
@@ -49,10 +40,6 @@
       "term": "to depict",
       "definition": "to show someone in a picture or carving",
       "match": "depicted"
-    },
-    {
-      "term": "ceremonial",
-      "definition": "belonging to formal ritual rather than practical use"
     },
     {
       "term": "to lapse",
@@ -72,10 +59,6 @@
       "definition": "a temple built for the worship of a dead ruler"
     },
     {
-      "term": "succession",
-      "definition": "the passing of a throne from one ruler to the next"
-    },
-    {
       "term": "to chisel out",
       "definition": "to cut something away from stone with a sharp tool",
       "match": "chiselled out"
@@ -86,16 +69,8 @@
       "match": "attributed"
     },
     {
-      "term": "accession",
-      "definition": "the moment a ruler comes to the throne"
-    },
-    {
       "term": "selectively",
       "definition": "choosing only certain cases rather than all of them"
-    },
-    {
-      "term": "precedent",
-      "definition": "an earlier case that may be used to justify a later one"
     },
     {
       "term": "uninterrupted",
@@ -108,16 +83,6 @@
     {
       "term": "weathering",
       "definition": "the wearing away of stone by wind, rain and sun"
-    },
-    {
-      "term": "to excavate",
-      "definition": "to dig a site up in order to study it",
-      "match": "excavating"
-    },
-    {
-      "term": "fragment",
-      "definition": "a broken piece of something larger",
-      "match": "fragments"
     },
     {
       "term": "to reassemble",

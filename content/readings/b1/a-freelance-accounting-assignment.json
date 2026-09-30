@@ -23,10 +23,6 @@
   ],
   "vocabulary": [
     {
-      "term": "freelance",
-      "definition": "working for yourself on contracts rather than for one employer"
-    },
-    {
       "term": "firm",
       "definition": "a business, especially one providing professional services"
     },
@@ -90,10 +86,6 @@
     {
       "term": "rate",
       "definition": "the amount you charge per hour or per job"
-    },
-    {
-      "term": "treatment",
-      "definition": "the accounting method applied to a particular item"
     },
     {
       "term": "to carry uncertainty",

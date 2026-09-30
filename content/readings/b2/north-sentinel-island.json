@@ -46,34 +46,13 @@
       "definition": "a large number of projectiles released at once"
     },
     {
-      "term": "resistance",
-      "definition": "the body's ability to fight off a particular disease"
-    },
-    {
-      "term": "immunity",
-      "definition": "protection against a disease, built up through exposure or vaccination"
-    },
-    {
-      "term": "infectious",
-      "definition": "able to spread from one person to another"
-    },
-    {
       "term": "to collapse",
       "definition": "to fall suddenly and catastrophically",
       "match": "collapse"
     },
     {
-      "term": "anthropologist",
-      "definition": "a scholar who studies human societies and cultures",
-      "match": "anthropologists"
-    },
-    {
       "term": "peaceable",
       "definition": "not hostile; conducted without violence"
-    },
-    {
-      "term": "to consent",
-      "definition": "to agree to something with full knowledge of what it involves"
     },
     {
       "term": "to prohibit",
@@ -86,20 +65,18 @@
       "match": "patrols"
     },
     {
-      "term": "predictable",
-      "definition": "able to be foreseen; happening as anyone might have expected"
-    },
-    {
-      "term": "contemporary",
-      "definition": "existing now, in the same period as ourselves"
-    },
-    {
       "term": "unambiguously",
       "definition": "in a way that leaves no room for a second interpretation"
     },
     {
-      "term": "inference",
-      "definition": "a conclusion reached from evidence rather than direct knowledge"
+      "term": "to drive someone off",
+      "definition": "to force someone to leave",
+      "match": "driven off"
+    },
+    {
+      "term": "to be drawn into",
+      "definition": "to be pulled into something you did not choose",
+      "match": "drawn into"
     }
   ],
   "exercises": [

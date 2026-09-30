@@ -24,10 +24,6 @@
   ],
   "vocabulary": [
     {
-      "term": "instrument",
-      "definition": "a means of achieving something; a tool in the abstract sense"
-    },
-    {
       "term": "standard of proof",
       "definition": "how convincingly a case must be shown before a court may act on it",
       "match": "standard"
@@ -35,10 +31,6 @@
     {
       "term": "test case",
       "definition": "a case brought deliberately to establish how a law will be applied"
-    },
-    {
-      "term": "populist",
-      "definition": "a politician who appeals to ordinary people against established elites"
     },
     {
       "term": "to convict",
@@ -55,17 +47,9 @@
       "definition": "a procedural reason, rather than one about the substance of the case"
     },
     {
-      "term": "constitutional",
-      "definition": "consistent with the constitution, and therefore lawful"
-    },
-    {
       "term": "to acquit",
       "definition": "to find not guilty",
       "match": "acquitted"
-    },
-    {
-      "term": "contamination",
-      "definition": "the spoiling of a sample by unwanted material"
     },
     {
       "term": "liable",
@@ -88,10 +72,6 @@
       "definition": "running a continuing criminal enterprise, often through a legitimate front"
     },
     {
-      "term": "extortion",
-      "definition": "obtaining money or advantage by threat"
-    },
-    {
       "term": "to steer",
       "definition": "to direct something toward a chosen recipient improperly",
       "match": "steered"
@@ -100,10 +80,6 @@
       "term": "to commute",
       "definition": "to reduce or end a sentence without cancelling the conviction",
       "match": "commuted"
-    },
-    {
-      "term": "municipal",
-      "definition": "relating to a city and its government"
     },
     {
       "term": "bankruptcy",

@@ -54,10 +54,6 @@
       "match": "set it up"
     },
     {
-      "term": "anxious",
-      "definition": "worried and uneasy"
-    },
-    {
       "term": "to schedule",
       "definition": "to fix the time at which something happens",
       "match": "scheduled"
@@ -65,10 +61,6 @@
     {
       "term": "timetable",
       "definition": "the plan of when each lesson happens"
-    },
-    {
-      "term": "adjustment",
-      "definition": "a small change made to improve something"
     },
     {
       "term": "clue",

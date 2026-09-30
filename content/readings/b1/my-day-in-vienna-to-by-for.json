@@ -28,10 +28,6 @@
       "match": "looking forward to"
     },
     {
-      "term": "confirmation",
-      "definition": "a message proving a booking has been made"
-    },
-    {
       "term": "barrier",
       "definition": "the gate passengers pass through at a station"
     },
@@ -48,10 +44,6 @@
       "definition": "someone who makes coffee professionally"
     },
     {
-      "term": "imperial",
-      "definition": "belonging to an emperor or empire"
-    },
-    {
       "term": "to settle on",
       "definition": "to choose something finally, after considering others",
       "match": "settled on"
@@ -59,14 +51,6 @@
     {
       "term": "snow globe",
       "definition": "a small glass ball with a scene inside and artificial snow"
-    },
-    {
-      "term": "ridiculous",
-      "definition": "silly; deserving to be laughed at"
-    },
-    {
-      "term": "destination",
-      "definition": "the place you are travelling to"
     },
     {
       "term": "Heuriger",

@@ -27,10 +27,6 @@
       "definition": "one of the administrative regions Japan is divided into"
     },
     {
-      "term": "intangible",
-      "definition": "not physical — a practice or tradition rather than an object"
-    },
-    {
       "term": "banner",
       "definition": "a long flag carried as the sign of a group",
       "match": "banners"
@@ -54,26 +50,8 @@
       "match": "deities"
     },
     {
-      "term": "observance",
-      "definition": "the practice of keeping a religious custom"
-    },
-    {
       "term": "reenactment",
       "definition": "a performance that recreates a historical event"
-    },
-    {
-      "term": "descendant",
-      "definition": "someone descended from a particular ancestor",
-      "match": "descendants"
-    },
-    {
-      "term": "ceremonial",
-      "definition": "belonging to formal ritual rather than to practical duty"
-    },
-    {
-      "term": "procession",
-      "definition": "a formal parade of people moving together",
-      "match": "processions"
     },
     {
       "term": "to bolt",
@@ -81,27 +59,23 @@
       "match": "bolts"
     },
     {
-      "term": "spectator",
-      "definition": "someone watching an event",
-      "match": "spectators"
-    },
-    {
-      "term": "to evacuate",
-      "definition": "to move people out of a dangerous area",
-      "match": "evacuated"
-    },
-    {
       "term": "to displace",
       "definition": "to force people to leave their homes",
       "match": "displaced"
     },
     {
-      "term": "continuity",
-      "definition": "the fact of something carrying on unbroken"
-    },
-    {
       "term": "pageantry",
       "definition": "elaborate display staged for its own sake"
+    },
+    {
+      "term": "to be struck by",
+      "definition": "to be hit by a disaster",
+      "match": "was struck by"
+    },
+    {
+      "term": "to bind together",
+      "definition": "to join two things so they cannot easily be separated",
+      "match": "bound together"
     }
   ],
   "exercises": [

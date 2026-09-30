@@ -34,14 +34,6 @@
   ],
   "vocabulary": [
     {
-      "term": "reception",
-      "definition": "the desk near a hotel entrance where guests are dealt with"
-    },
-    {
-      "term": "reservation",
-      "definition": "an arrangement made in advance to hold a room"
-    },
-    {
       "term": "walk-in",
       "definition": "a guest who arrives without having booked",
       "match": "walk-ins"

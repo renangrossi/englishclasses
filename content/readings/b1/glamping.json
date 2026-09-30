@@ -21,18 +21,39 @@
     "Glamping, then, is a luxurious twist on traditional camping, and its balance of comfort and adventure explains the growth. For a weekend or for a longer stay, it offers an experience that borrows from both the hotel and the campsite — and, for a great many travelers, improves on each of them."
   ],
   "vocabulary": [
-    { "term": "glamorous", "definition": "attractive in a stylish, expensive way" },
-    { "term": "upscale", "definition": "expensive and aimed at people with money" },
-    { "term": "amenities", "definition": "useful features or services provided in a place to stay" },
-    { "term": "accommodation", "definition": "a place where travelers stay", "match": "accommodations" },
-    { "term": "a yurt", "definition": "a round tent with solid walls, originally from Central Asia", "match": "yurts" },
-    { "term": "linens", "definition": "sheets, pillowcases and towels" },
-    { "term": "rustic", "definition": "simple and plain, in the style of the countryside" },
-    { "term": "a meadow", "definition": "a field of grass and wild flowers" },
-    { "term": "friction", "definition": "difficulty or annoyance that slows something down" },
-    { "term": "to disconnect", "definition": "to step away from work, phones and daily pressures" },
-    { "term": "well-being", "definition": "the state of being healthy and content" },
-    { "term": "stargazing", "definition": "looking at the stars for pleasure" }
+    {
+      "term": "upscale",
+      "definition": "expensive and aimed at people with money"
+    },
+    {
+      "term": "amenities",
+      "definition": "useful features or services provided in a place to stay"
+    },
+    {
+      "term": "a yurt",
+      "definition": "a round tent with solid walls, originally from Central Asia",
+      "match": "yurts"
+    },
+    {
+      "term": "linens",
+      "definition": "sheets, pillowcases and towels"
+    },
+    {
+      "term": "a meadow",
+      "definition": "a field of grass and wild flowers"
+    },
+    {
+      "term": "to disconnect",
+      "definition": "to step away from work, phones and daily pressures"
+    },
+    {
+      "term": "well-being",
+      "definition": "the state of being healthy and content"
+    },
+    {
+      "term": "stargazing",
+      "definition": "looking at the stars for pleasure"
+    }
   ],
   "exercises": [
     {
@@ -126,12 +147,42 @@
       "title": "True or False?",
       "instructions": "Decide whether each statement matches the text. The wording has been changed.",
       "items": [
-        { "id": "glt1", "statement": "The word 'glamping' is a blend of two other words.", "answer": true, "explanation": "True — it is “short for 'glamorous camping'”." },
-        { "id": "glt2", "statement": "Guests at a glamping site sleep on the ground.", "answer": false, "explanation": "False — glamping replaces the sleeping bag on the ground with a comfortable bed." },
-        { "id": "glt3", "statement": "Every glamping site has a hot tub.", "answer": false, "explanation": "False — “some include hot tubs”, not all of them." },
-        { "id": "glt4", "statement": "Glamping sites are found in several different kinds of landscape.", "answer": true, "explanation": "True — national parks, forests, mountains, deserts and coastline are all mentioned." },
-        { "id": "glt5", "statement": "Some sites serve food made with ingredients from the surrounding area.", "answer": true, "explanation": "True — meals are prepared “from ingredients grown nearby”." },
-        { "id": "glt6", "statement": "The text says glamping only appeals to couples.", "answer": false, "explanation": "False — the appeal is described as “fairly broad”, including families." }
+        {
+          "id": "glt1",
+          "statement": "The word 'glamping' is a blend of two other words.",
+          "answer": true,
+          "explanation": "True — it is “short for 'glamorous camping'”."
+        },
+        {
+          "id": "glt2",
+          "statement": "Guests at a glamping site sleep on the ground.",
+          "answer": false,
+          "explanation": "False — glamping replaces the sleeping bag on the ground with a comfortable bed."
+        },
+        {
+          "id": "glt3",
+          "statement": "Every glamping site has a hot tub.",
+          "answer": false,
+          "explanation": "False — “some include hot tubs”, not all of them."
+        },
+        {
+          "id": "glt4",
+          "statement": "Glamping sites are found in several different kinds of landscape.",
+          "answer": true,
+          "explanation": "True — national parks, forests, mountains, deserts and coastline are all mentioned."
+        },
+        {
+          "id": "glt5",
+          "statement": "Some sites serve food made with ingredients from the surrounding area.",
+          "answer": true,
+          "explanation": "True — meals are prepared “from ingredients grown nearby”."
+        },
+        {
+          "id": "glt6",
+          "statement": "The text says glamping only appeals to couples.",
+          "answer": false,
+          "explanation": "False — the appeal is described as “fairly broad”, including families."
+        }
       ]
     },
     {
@@ -140,12 +191,84 @@
       "title": "Travel & Accommodation Words",
       "instructions": "Choose the word that completes each sentence.",
       "items": [
-        { "id": "glf1", "prompt": "The cabin was small but had every ___ we needed.", "answers": ["amenity"], "options": ["amenity", "friction", "meadow"], "explanation": "An amenity is a useful feature or service provided in a place to stay." },
-        { "id": "glf2", "prompt": "The furniture was deliberately ___, all rough wood and iron.", "answers": ["rustic"], "options": ["rustic", "upscale", "glamorous"], "explanation": "Rustic means simple and plain, in a countryside style." },
-        { "id": "glf3", "prompt": "The hotel is ___, so the rooms are not cheap.", "answers": ["upscale"], "options": ["upscale", "rustic", "temporary"], "explanation": "Upscale means expensive and aimed at people with money." },
-        { "id": "glf4", "prompt": "We went away for a week to ___ from work completely.", "answers": ["disconnect"], "options": ["disconnect", "stargaze", "furnish"], "explanation": "To disconnect is to step away from work and daily pressures." },
-        { "id": "glf5", "prompt": "The tents were pitched in a ___ full of wild flowers.", "answers": ["meadow"], "options": ["meadow", "deck", "dome"], "explanation": "A meadow is a field of grass and wild flowers." },
-        { "id": "glf6", "prompt": "The clear desert sky makes it a good place for ___.", "answers": ["stargazing"], "options": ["stargazing", "linens", "friction"], "explanation": "Stargazing is looking at the stars for pleasure." }
+        {
+          "id": "glf1",
+          "prompt": "The cabin was small but had every ___ we needed.",
+          "answers": [
+            "amenity"
+          ],
+          "options": [
+            "amenity",
+            "friction",
+            "meadow"
+          ],
+          "explanation": "An amenity is a useful feature or service provided in a place to stay."
+        },
+        {
+          "id": "glf2",
+          "prompt": "The furniture was deliberately ___, all rough wood and iron.",
+          "answers": [
+            "rustic"
+          ],
+          "options": [
+            "rustic",
+            "upscale",
+            "glamorous"
+          ],
+          "explanation": "Rustic means simple and plain, in a countryside style."
+        },
+        {
+          "id": "glf3",
+          "prompt": "The hotel is ___, so the rooms are not cheap.",
+          "answers": [
+            "upscale"
+          ],
+          "options": [
+            "upscale",
+            "rustic",
+            "temporary"
+          ],
+          "explanation": "Upscale means expensive and aimed at people with money."
+        },
+        {
+          "id": "glf4",
+          "prompt": "We went away for a week to ___ from work completely.",
+          "answers": [
+            "disconnect"
+          ],
+          "options": [
+            "disconnect",
+            "stargaze",
+            "furnish"
+          ],
+          "explanation": "To disconnect is to step away from work and daily pressures."
+        },
+        {
+          "id": "glf5",
+          "prompt": "The tents were pitched in a ___ full of wild flowers.",
+          "answers": [
+            "meadow"
+          ],
+          "options": [
+            "meadow",
+            "deck",
+            "dome"
+          ],
+          "explanation": "A meadow is a field of grass and wild flowers."
+        },
+        {
+          "id": "glf6",
+          "prompt": "The clear desert sky makes it a good place for ___.",
+          "answers": [
+            "stargazing"
+          ],
+          "options": [
+            "stargazing",
+            "linens",
+            "friction"
+          ],
+          "explanation": "Stargazing is looking at the stars for pleasure."
+        }
       ]
     }
   ],

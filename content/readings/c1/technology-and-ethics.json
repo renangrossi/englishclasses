@@ -23,14 +23,6 @@
       "definition": "more important than anything else"
     },
     {
-      "term": "to navigate",
-      "definition": "to find a workable way through something difficult"
-    },
-    {
-      "term": "adherence",
-      "definition": "the act of following a rule or standard closely"
-    },
-    {
       "term": "oversight",
       "definition": "a failure to notice something, with consequences"
     },
@@ -48,18 +40,9 @@
       "definition": "without intending to"
     },
     {
-      "term": "to perpetuate",
-      "definition": "to cause something to continue, usually something undesirable"
-    },
-    {
       "term": "to audit",
       "definition": "to examine something formally to check that it does what it should",
       "match": "audited"
-    },
-    {
-      "term": "demographic",
-      "definition": "a group defined by a shared characteristic such as age, sex or origin",
-      "match": "demographics"
     },
     {
       "term": "training data",

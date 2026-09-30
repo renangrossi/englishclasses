@@ -36,10 +36,6 @@
       "match": "advises"
     },
     {
-      "term": "position",
-      "definition": "an investment currently held"
-    },
-    {
       "term": "to panic",
       "definition": "to lose control because of sudden fear",
       "match": "panicking"
@@ -67,18 +63,9 @@
       "match": "talking the man out of it"
     },
     {
-      "term": "to resist",
-      "definition": "to refuse to accept or allow something",
-      "match": "resist"
-    },
-    {
       "term": "state of mind",
       "definition": "a mental condition such as knowing, believing or wanting",
       "match": "states of mind"
-    },
-    {
-      "term": "unpredictable",
-      "definition": "impossible to know in advance"
     },
     {
       "term": "to catch someone out",

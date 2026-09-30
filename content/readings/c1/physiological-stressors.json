@@ -32,10 +32,6 @@
       "definition": "sustained physical effort"
     },
     {
-      "term": "gastrointestinal",
-      "definition": "relating to the stomach and intestines"
-    },
-    {
       "term": "cardiac output",
       "definition": "the volume of blood the heart pumps per minute"
     },
@@ -54,18 +50,9 @@
       "match": "sheds"
     },
     {
-      "term": "thermoregulation",
-      "definition": "the body's control of its own core temperature"
-    },
-    {
       "term": "to compound",
       "definition": "to make an existing problem worse",
       "match": "compounds"
-    },
-    {
-      "term": "to agitate",
-      "definition": "to shake or disturb something physically",
-      "match": "agitates"
     },
     {
       "term": "sphincter",
@@ -82,10 +69,6 @@
     {
       "term": "gastric emptying",
       "definition": "the rate at which the stomach passes its contents on"
-    },
-    {
-      "term": "hypoglycemic",
-      "definition": "having abnormally low blood sugar"
     },
     {
       "term": "to mobilize",

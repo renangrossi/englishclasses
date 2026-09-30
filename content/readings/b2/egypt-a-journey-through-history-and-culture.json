@@ -29,10 +29,6 @@
       "match": "eases you in"
     },
     {
-      "term": "funerary",
-      "definition": "relating to burial of the dead"
-    },
-    {
       "term": "affecting",
       "definition": "producing a strong emotional response"
     },
@@ -44,11 +40,6 @@
       "term": "implement",
       "definition": "a tool",
       "match": "implements"
-    },
-    {
-      "term": "to excavate",
-      "definition": "to dig up a site in order to study it",
-      "match": "excavated"
     },
     {
       "term": "workforce",
@@ -66,10 +57,6 @@
     {
       "term": "ribbon",
       "definition": "a long narrow strip"
-    },
-    {
-      "term": "irrigation",
-      "definition": "the supply of water to farmland by artificial means"
     },
     {
       "term": "hypostyle",
@@ -97,14 +84,6 @@
     {
       "term": "corniche",
       "definition": "a road running along a coast or cliff"
-    },
-    {
-      "term": "gesture",
-      "definition": "an action done chiefly for what it signifies"
-    },
-    {
-      "term": "continuity",
-      "definition": "the fact of something carrying on unbroken over time"
     }
   ],
   "exercises": [

@@ -22,16 +22,8 @@
   ],
   "vocabulary": [
     {
-      "term": "operation",
-      "definition": "a business considered as the activity it carries out"
-    },
-    {
       "term": "pulse",
       "definition": "a short burst of electrical current"
-    },
-    {
-      "term": "portability",
-      "definition": "the quality of being easy to move from place to place"
     },
     {
       "term": "to graze",
@@ -41,10 +33,6 @@
     {
       "term": "ear tag",
       "definition": "a numbered plastic or electronic label fixed to an animal's ear"
-    },
-    {
-      "term": "commercial",
-      "definition": "run as a business rather than for personal use"
     },
     {
       "term": "abattoir",
@@ -74,16 +62,6 @@
     {
       "term": "guesswork",
       "definition": "judgement based on no real evidence"
-    },
-    {
-      "term": "to accumulate",
-      "definition": "to build up gradually over time",
-      "match": "accumulates"
-    },
-    {
-      "term": "to ruminate",
-      "definition": "to chew food a second time, as cattle do",
-      "match": "ruminating"
     },
     {
       "term": "to flag",

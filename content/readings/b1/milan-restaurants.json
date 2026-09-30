@@ -41,11 +41,6 @@
       "match": "dry-rubbed"
     },
     {
-      "term": "variation",
-      "definition": "a slightly different version of the same thing",
-      "match": "variations"
-    },
-    {
       "term": "border",
       "definition": "the line where two countries meet"
     },
@@ -58,20 +53,12 @@
       "definition": "strange or unfamiliar"
     },
     {
-      "term": "inauthentic",
-      "definition": "not a genuine version of what it claims to be"
-    },
-    {
       "term": "chowder",
       "definition": "a thick soup usually made with seafood"
     },
     {
       "term": "quarrel",
       "definition": "a long-running disagreement"
-    },
-    {
-      "term": "eccentric",
-      "definition": "someone or something unusual in a harmless way"
     },
     {
       "term": "enslaved",
@@ -89,14 +76,6 @@
     {
       "term": "produce",
       "definition": "fresh fruit and vegetables"
-    },
-    {
-      "term": "exportable",
-      "definition": "able to be adopted successfully elsewhere"
-    },
-    {
-      "term": "institution",
-      "definition": "something so long-established it is part of a culture"
     },
     {
       "term": "laminated",

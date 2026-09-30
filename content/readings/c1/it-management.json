@@ -1,0 +1,475 @@
+{
+  "id": "c1-reading-it-management",
+  "level": "C1",
+  "slug": "it-management",
+  "topic": "business",
+  "title": "The Economics of a Software Business",
+  "subtitle": "A finance meeting at a company that sells to banks, in the compressed register executives actually use.",
+  "description": "A C1 business-English reading and listening text: an executive team works out how to price, cost and de-risk a software business serving financial clients, with advanced vocabulary and interpretation exercises.",
+  "source": "cefr/texts/it-management.docx",
+  "provenance": "edited",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "5:34"
+  },
+  "passage": [
+    "Claire came in with a laptop in one hand and a coffee in the other. “Morning, everyone.” Around the table at Meridian FinTech: Raymond, the CFO; Megan, head of engineering; Jonas, the product lead; and Paula, chief risk officer. The item on the agenda was the one nobody had yet solved — the finances of a software firm whose customers are banks.",
+    "Raymond opened the dashboard. “The board wants us to maximize risk-adjusted NPV across the product lines without breaching our SLAs. So how do we actually do that?”",
+    "Megan shrugged. “You translate it into levers. Customer acquisition cost, lifetime value, churn, average revenue per user — and the cloud bill, which nobody wants to own.”",
+    "“And the revenue mix matters,” Jonas said. “Licensing, SaaS subscriptions, per-transaction fees, professional services. They don't behave alike. Payments is high volume on a thin margin. Analytics is low volume, high value, and we price it on the value rather than the cost.”",
+    "Paula had been waiting. “What none of that captures is tail risk. A breach is not a remediation line item. It's clients leaving, regulatory fines, and a reputation you cannot buy back. That belongs in the discount rate we apply to every project, not in a footnote.”",
+    "Raymond agreed. “Then we treat the product lines as an investment portfolio. Discounted cash flow for the base case, Monte Carlo simulation for outages and regulatory shocks, and a real-options view of anything that buys us modularity — because the ability to change direction later has a value we currently record as zero.”",
+    "Megan sketched the cost side on the whiteboard. “R&D is stepwise fixed: it doesn't move until we hire, and then it jumps. Cloud is genuinely variable. If we use activity-based costing — allocating platform costs by API calls, compute hours and transactions — we'd finally see the true margin on each product instead of a blended average that flatters everything.”",
+    "“Which means the contracts have to separate license, hosting and custom services,” Jonas added. “ASC 606 decides when we can recognize each of those, and that feeds straight through into the ARR figure we report.”",
+    "Paula returned to her theme. “Compliance and data residency raise both cost and time-to-market. Some of it can reasonably be capitalized; the rest is ongoing operating expense and should be shown as such. Before we enter any new jurisdiction, I want an estimate of expected fines alongside the compliance spend.”",
+    "“Agreed — discount rates set per project according to its risk,” Raymond said, “and nothing gets approved unless the economic value added clears our cost of capital.”",
+    "“One more,” said Megan. “Service levels are not free. Moving from 99.9 percent to 99.99 percent is not a ten percent increase in cost; it is closer to an order of magnitude. Availability targets are a priced lever like any other, and we should stop treating them as a promise we make for nothing.”",
+    "“Which is where FinOps comes in,” Jonas said. “Tagging, showback, rightsizing, reserved instances. If we tie the telemetry to the billing data and to the product KPIs, the margin improvement is visible within a quarter.”",
+    "Paula closed her folder. “And cyber risk gets quantified properly — frequency and severity, run through the same simulation. Insurance buys protection against the tail, but underwriters will want to see the governance before they write the policy.”",
+    "Raymond summarized a roadmap in five parts: product-level profit and loss accounts built on activity-based costing and customer cohorts; FinOps and telemetry implemented end to end; investment governance formalized with stage gates and a real-options valuation; cyber and regulatory tails quantified and selectively insured; and pricing and service levels aligned with each client's actual risk profile. Owners were assigned before anyone left the room — Jonas for the P&L templates, Megan for tagging and showback, Paula for the cyber simulation on the top twenty clients, and Raymond to take it all back to the board.",
+    "The results arrived over the following months. Activity-based costing exposed a rarely used feature that was consuming a disproportionate share of compute and support hours; it was sunset within the quarter. FinOps cut cloud spending by fourteen percent. The simulation surfaced a cascade scenario nobody had modeled, which justified both the cyber policy and a reordering of the reliability backlog.",
+    "“We've moved from intuition to quantified trade-offs,” Raymond told the board. “Product economics we can actually see, investment governance that puts a number on flexibility, and capital decisions that price risk instead of hoping about it.” Teams at Meridian now shipped with cost, revenue and risk forecasts attached. When an outage later threatened one of the largest client relationships, the rehearsed playbook — quantified contingencies, insurance already in place, a prioritized fix and clear communication — was what saved it.",
+    "The lesson Meridian drew was not about code. Building for financial clients demands a measurable financial architecture, governance with real authority, and teams fluent in engineering and finance at the same time."
+  ],
+  "vocabulary": [
+    {
+      "term": "risk-adjusted",
+      "definition": "modified to take account of how uncertain the outcome is"
+    },
+    {
+      "term": "NPV",
+      "definition": "net present value — what a stream of future cash is worth today"
+    },
+    {
+      "term": "SLA",
+      "definition": "service level agreement — the performance a supplier contractually guarantees",
+      "match": "SLAs"
+    },
+    {
+      "term": "lever",
+      "definition": "a variable you can actually pull to change an outcome",
+      "match": "levers"
+    },
+    {
+      "term": "churn",
+      "definition": "the rate at which customers stop buying"
+    },
+    {
+      "term": "margin",
+      "definition": "what is left of a sale once the cost of delivering it is removed"
+    },
+    {
+      "term": "tail risk",
+      "definition": "the risk of a rare event whose consequences are severe"
+    },
+    {
+      "term": "remediation",
+      "definition": "the work of repairing damage after a failure"
+    },
+    {
+      "term": "discount rate",
+      "definition": "the rate used to reduce future money to its value today; a riskier project gets a higher one"
+    },
+    {
+      "term": "Monte Carlo simulation",
+      "definition": "a method that runs thousands of random scenarios to map the range of outcomes"
+    },
+    {
+      "term": "real options",
+      "definition": "the measurable value of being able to change course later",
+      "match": "real-options"
+    },
+    {
+      "term": "modularity",
+      "definition": "being built in separable parts, so one can be replaced without the rest"
+    },
+    {
+      "term": "stepwise fixed",
+      "definition": "unchanging until a threshold is crossed, then jumping to a new level"
+    },
+    {
+      "term": "activity-based costing",
+      "definition": "assigning shared costs by what each product actually consumes"
+    },
+    {
+      "term": "to flatter",
+      "definition": "to make something look better than it is",
+      "match": "flatters"
+    },
+    {
+      "term": "revenue recognition",
+      "definition": "the rules deciding when earned money may be recorded as revenue",
+      "match": "recognize"
+    },
+    {
+      "term": "ARR",
+      "definition": "annual recurring revenue — the predictable subscription income a business runs on"
+    },
+    {
+      "term": "data residency",
+      "definition": "the legal requirement that data be stored inside a particular country"
+    },
+    {
+      "term": "to capitalize",
+      "definition": "to treat a cost as an asset spread over years rather than an expense charged at once",
+      "match": "capitalized"
+    },
+    {
+      "term": "time-to-market",
+      "definition": "how long it takes to get something from decision to customer"
+    },
+    {
+      "term": "cost of capital",
+      "definition": "the return a business must earn to justify the money tied up in it"
+    },
+    {
+      "term": "order of magnitude",
+      "definition": "a factor of about ten"
+    },
+    {
+      "term": "showback",
+      "definition": "reporting to each team what its usage costs, without billing it internally"
+    },
+    {
+      "term": "rightsizing",
+      "definition": "matching the resources you pay for to the resources you actually use"
+    },
+    {
+      "term": "telemetry",
+      "definition": "the measurements a running system reports about itself"
+    },
+    {
+      "term": "stage gate",
+      "definition": "a checkpoint a project must formally pass before more money is committed",
+      "match": "stage gates"
+    },
+    {
+      "term": "to sunset",
+      "definition": "to retire a product or feature deliberately",
+      "match": "sunset"
+    },
+    {
+      "term": "backlog",
+      "definition": "the ordered queue of work a team has not yet done"
+    },
+    {
+      "term": "contingency",
+      "definition": "a plan prepared in advance for something that may not happen",
+      "match": "contingencies"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-itmgmt-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading for Argument",
+      "instructions": "Each of these turns on a financial distinction the speakers are making. Follow the reasoning.",
+      "items": [
+        {
+          "id": "im1",
+          "prompt": "What does Megan mean by translating the board's instruction “into levers”?",
+          "options": [
+            "Turning a broad objective into the specific variables a team can actually move",
+            "Simplifying the language so non-financial staff can follow it",
+            "Delegating the objective to individual departments"
+          ],
+          "answerIndex": 0,
+          "explanation": "A lever is “a variable you can actually pull”. “Maximize risk-adjusted NPV” is not actionable; acquisition cost, churn and the cloud bill are."
+        },
+        {
+          "id": "im2",
+          "prompt": "Why does Jonas insist the revenue streams “don't behave alike”?",
+          "options": [
+            "Because they are recognized in different currencies",
+            "Because payments is high volume on a thin margin while analytics is low volume and priced on value, so a single average hides both",
+            "Because only subscriptions produce recurring revenue"
+          ],
+          "answerIndex": 1,
+          "explanation": "The two lines have opposite shapes. Treating them as one number would misstate the economics of each."
+        },
+        {
+          "id": "im3",
+          "prompt": "What is Paula's objection to treating a breach as a remediation cost?",
+          "options": [
+            "That remediation is usually covered by insurance anyway",
+            "That the engineering team, not finance, should own the number",
+            "That the real losses — departing clients, fines, reputation — are far larger and belong in how every project is valued"
+          ],
+          "answerIndex": 2,
+          "explanation": "“It's clients leaving, regulatory fines, and a reputation you cannot buy back. That belongs in the discount rate… not in a footnote.”"
+        },
+        {
+          "id": "im4",
+          "prompt": "Why does Raymond want a real-options view of anything that buys modularity?",
+          "options": [
+            "Because modular systems are cheaper to build",
+            "Because the ability to change direction later has a real value the company currently records as zero",
+            "Because the board has asked for modular architecture"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The ability to change direction later has a value we currently record as zero.” Conventional cash-flow analysis prices the plan, not the flexibility."
+        },
+        {
+          "id": "im5",
+          "prompt": "What problem with the current accounts does Megan expect activity-based costing to fix?",
+          "options": [
+            "A blended average margin that makes every product look acceptable",
+            "Cloud costs being recorded in the wrong quarter",
+            "R&D salaries being allocated to the wrong department"
+          ],
+          "answerIndex": 0,
+          "explanation": "The true margin per product is hidden behind “a blended average that flatters everything” — which is exactly what later exposes the loss-making feature."
+        },
+        {
+          "id": "im6",
+          "prompt": "What is Megan's point about moving from 99.9 percent to 99.99 percent availability?",
+          "options": [
+            "That the improvement is too small for clients to notice",
+            "That the cost rises by roughly a factor of ten, so reliability must be priced rather than promised free",
+            "That it is technically impossible at their current scale"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Not a ten percent increase in cost; it is closer to an order of magnitude… we should stop treating them as a promise we make for nothing.”"
+        },
+        {
+          "id": "im7",
+          "prompt": "Why will underwriters “want to see the governance before they write the policy”?",
+          "options": [
+            "Because regulators require governance documents to be filed",
+            "Because governance determines the premium under ASC 606",
+            "Because an insurer prices the risk it is taking on, and weak controls mean a worse risk"
+          ],
+          "answerIndex": 2,
+          "explanation": "Insurance covers the tail, but the size of that tail depends on how well the company manages itself — so the controls are part of what is being underwritten."
+        },
+        {
+          "id": "im8",
+          "prompt": "What does Raymond mean by “capital decisions that price risk instead of hoping about it”?",
+          "options": [
+            "That risky projects should be avoided",
+            "That risk was previously an unquantified judgment and is now an explicit number in the valuation",
+            "That the board should approve all capital spending directly"
+          ],
+          "answerIndex": 1,
+          "explanation": "The whole roadmap replaces intuition with quantities — discount rates per project, simulated tails, costed service levels."
+        },
+        {
+          "id": "im9",
+          "prompt": "What is the closing lesson of the text?",
+          "options": [
+            "That serving financial clients requires financial architecture and governance, not only good engineering",
+            "That software firms should avoid banking clients",
+            "That engineering decisions should be made by the finance team"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The lesson Meridian drew was not about code… a measurable financial architecture, governance with real authority, and teams fluent in engineering and finance at the same time.”"
+        }
+      ]
+    },
+    {
+      "id": "c1-itmgmt-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Read each against what the speakers actually claim.",
+      "items": [
+        {
+          "id": "imt1",
+          "statement": "R&D costs rise smoothly as work increases.",
+          "answer": false,
+          "explanation": "False — R&D is “stepwise fixed: it doesn't move until we hire, and then it jumps”. Cloud is the variable cost."
+        },
+        {
+          "id": "imt2",
+          "statement": "Paula wants compliance spending treated entirely as an ongoing expense.",
+          "answer": false,
+          "explanation": "False — “some of it can reasonably be capitalized; the rest is ongoing operating expense”."
+        },
+        {
+          "id": "imt3",
+          "statement": "The feature retired after the costing exercise was generating little revenue for the resources it used.",
+          "answer": true,
+          "explanation": "True — “a rarely used feature that was consuming a disproportionate share of compute and support hours”."
+        },
+        {
+          "id": "imt4",
+          "statement": "FinOps was expected to show results only after several years.",
+          "answer": false,
+          "explanation": "False — Jonas predicts the margin improvement is “visible within a quarter”, and cloud spending did fall by fourteen percent."
+        },
+        {
+          "id": "imt5",
+          "statement": "The outage was survived because a response had been planned and rehearsed in advance.",
+          "answer": true,
+          "explanation": "True — “the rehearsed playbook — quantified contingencies, insurance already in place, a prioritized fix and clear communication — was what saved it”."
+        },
+        {
+          "id": "imt6",
+          "statement": "Every project is evaluated using the same discount rate.",
+          "answer": false,
+          "explanation": "False — Raymond sets “discount rates set per project according to its risk”."
+        }
+      ]
+    },
+    {
+      "id": "c1-itmgmt-vocabulary",
+      "type": "fill-blank",
+      "title": "The Register of Finance",
+      "instructions": "Complete each sentence with the term a finance team would use.",
+      "items": [
+        {
+          "id": "imf1",
+          "prompt": "We lose eight percent of subscribers a year; that ___ is what caps our growth.",
+          "answers": [
+            "churn"
+          ],
+          "options": [
+            "churn",
+            "margin",
+            "telemetry"
+          ],
+          "explanation": "Churn is the rate at which customers stop buying."
+        },
+        {
+          "id": "imf2",
+          "prompt": "A rare event with severe consequences is ___ risk, and averages will never show it to you.",
+          "answers": [
+            "tail"
+          ],
+          "options": [
+            "tail",
+            "fixed",
+            "variable"
+          ],
+          "explanation": "Tail risk sits at the far end of the distribution — unlikely, and expensive when it arrives."
+        },
+        {
+          "id": "imf3",
+          "prompt": "The blended figure ___ the weaker products by hiding them behind the strong ones.",
+          "answers": [
+            "flatters"
+          ],
+          "options": [
+            "flatters",
+            "capitalizes",
+            "allocates"
+          ],
+          "explanation": "To flatter is to make something look better than it is."
+        },
+        {
+          "id": "imf4",
+          "prompt": "The cost is ___ ___: it holds steady until we hire, then jumps.",
+          "answers": [
+            "stepwise",
+            "fixed"
+          ],
+          "options": [
+            [
+              "stepwise",
+              "purely",
+              "fully"
+            ],
+            [
+              "fixed",
+              "variable",
+              "recurring"
+            ]
+          ],
+          "explanation": "Stepwise fixed costs do not move at all until a threshold is crossed."
+        },
+        {
+          "id": "imf5",
+          "prompt": "The project has to clear our ___ ___ ___ before it can be approved.",
+          "answers": [
+            "cost",
+            "of",
+            "capital"
+          ],
+          "options": [
+            [
+              "cost",
+              "rate",
+              "value"
+            ],
+            [
+              "of",
+              "on",
+              "for"
+            ],
+            [
+              "capital",
+              "revenue",
+              "margin"
+            ]
+          ],
+          "explanation": "The cost of capital is the return a business must earn to justify the money tied up in it."
+        },
+        {
+          "id": "imf6",
+          "prompt": "We ___ the feature last quarter rather than keep paying to run it.",
+          "answers": [
+            "sunset"
+          ],
+          "options": [
+            "sunset",
+            "capitalized",
+            "recognized"
+          ],
+          "explanation": "To sunset something is to retire it deliberately."
+        }
+      ]
+    },
+    {
+      "id": "c1-itmgmt-matching",
+      "type": "matching",
+      "title": "Acronyms and Techniques",
+      "instructions": "Match each term to what it means in this meeting.",
+      "items": [
+        {
+          "id": "imm1",
+          "pairs": [
+            {
+              "left": "NPV",
+              "right": "what a stream of future cash is worth today"
+            },
+            {
+              "left": "SLA",
+              "right": "the performance a supplier contractually guarantees"
+            },
+            {
+              "left": "ARR",
+              "right": "the predictable annual subscription income"
+            },
+            {
+              "left": "Activity-based costing",
+              "right": "assigning shared costs by what each product consumes"
+            },
+            {
+              "left": "Monte Carlo simulation",
+              "right": "running thousands of random scenarios to map outcomes"
+            },
+            {
+              "left": "Real options",
+              "right": "putting a value on the ability to change course later"
+            },
+            {
+              "left": "FinOps",
+              "right": "managing cloud spending as an ongoing discipline"
+            },
+            {
+              "left": "Stage gate",
+              "right": "a checkpoint passed before more money is committed"
+            }
+          ],
+          "explanation": "Notice the division: the first three are measures, the next three are methods of valuation, and the last two are ways of controlling spending as it happens."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Paula argues that a rare catastrophic risk should change how every ordinary project is valued. Is that prudent or paralyzing?",
+    "Megan says reliability is a priced lever, not a free promise. How would you explain that to a customer who expects perfect uptime?",
+    "Activity-based costing exposed a feature worth retiring. What might it have exposed that the team would have found harder to act on?",
+    "The text claims teams must be “fluent in engineering and finance at the same time”. Is that realistic, or is it a job for translators between the two?",
+    "Write about 250 words arguing for or against buying cyber insurance, given that the insurer will demand governance improvements as a condition."
+  ]
+}

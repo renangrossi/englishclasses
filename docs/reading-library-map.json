@@ -63,13 +63,14 @@
       "level": "C1",
       "topic": "culture",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Strong, genuinely C1 essay on the founding. Dense academic register; trim and break into sections for readability.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Strong, genuinely C1 essay on the founding. Dense academic register; trim and break into sections for readability. — DONE: Trimmed and broken into shorter sections for readability; the source's own acknowledgement of slavery, displacement and nativism is kept, since the essay's honesty depends on it.",
+      "status": "IMPLEMENTED",
       "card_title": "America in 1776",
       "source_files": [
         "cefr/texts/america-in-1776.pdf"
-      ]
+      ],
+      "page": "reading/c1/america-in-1776.html"
     },
     {
       "slug": "american-culture",
@@ -733,13 +734,14 @@
       "level": "C1",
       "topic": "business",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Dense, authentic exec-meeting register. Rename the cast to English names per instruction; the source's hyphens (risk-adjusted, per-transaction) must survive extraction.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Dense, authentic exec-meeting register. Rename the cast to English names per instruction; the source's hyphens (risk-adjusted, per-transaction) must survive extraction. — DONE: Cast renamed to English names (Claire, Raymond, Megan, Jonas, Paula) per the naming rule; the telegraphic source expanded into connected prose while keeping the dense finance register and the hyphenated terms intact.",
+      "status": "IMPLEMENTED",
       "card_title": "It Management",
       "source_files": [
         "cefr/texts/it-management.pdf"
-      ]
+      ],
+      "page": "reading/c1/it-management.html"
     },
     {
       "slug": "it-ptbr",
@@ -1041,13 +1043,14 @@
       "level": "C1",
       "topic": "business",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Strong market-analysis register, but wholly about Porto Alegre neighborhoods. Re-set in a US market to match the brief.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Strong market-analysis register, but wholly about Porto Alegre neighborhoods. Re-set in a US market to match the brief. — DONE: Re-set from Porto Alegre to the Denver market per the American-English brief (P-2): neighborhoods, price per square foot, HOA dues, floodplain and altitude replace the local references. The argument and structure are the source's.",
+      "status": "IMPLEMENTED",
       "card_title": "Real Estate",
       "source_files": [
         "cefr/texts/real-estate.pdf"
-      ]
+      ],
+      "page": "reading/c1/real-estate.html"
     },
     {
       "slug": "recent-advancements-in-it",
@@ -1135,13 +1138,14 @@
       "level": "C1",
       "topic": "culture",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Overwritten ('neon-veined precision', 'cultural whiplash'); the cultural-contrast idea is good but the prose needs heavy pruning to read as natural C1.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Overwritten ('neon-veined precision', 'cultural whiplash'); the cultural-contrast idea is good but the prose needs heavy pruning to read as natural C1. — DONE: Heavily pruned: 'neon-veined precision', 'cultural whiplash', 'rewires your senses' and the two-souls ending are gone. The cultural-contrast argument is kept and sharpened so neither place is ranked.",
+      "status": "IMPLEMENTED",
       "card_title": "Rs Japan",
       "source_files": [
         "cefr/texts/rs-japan.docx"
-      ]
+      ],
+      "page": "reading/c1/rs-japan.html"
     },
     {
       "slug": "sales-strategy",

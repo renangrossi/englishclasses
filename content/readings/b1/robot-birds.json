@@ -1,0 +1,354 @@
+{
+  "id": "b1-reading-robot-birds",
+  "level": "B1",
+  "slug": "robot-birds",
+  "topic": "society",
+  "title": "Robot Birds",
+  "subtitle": "A city with too many pigeons, and a solution that worked for about as long as you would expect.",
+  "description": "A B1 reading and listening text about Liverpool's robotic falcons and why feeding city pigeons is the real problem, with a Right / Wrong / Doesn't say comprehension exercise.",
+  "source": "cefr/texts/text-interpretation.docx (part 1 of 4)",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "2:16"
+  },
+  "passage": [
+    "Liverpool city council had a pigeon problem, and its answer was to put mechanical falcons on the roofs.",
+    "The problem itself is common to most European city centres and is not really about pigeons. A pigeon's natural diet is seeds and insects, and on that diet a pigeon stays a normal size and a normal number. In a city centre it eats what people drop and what people hand it, which is bread, chips and whatever else is going, and on that diet the birds get heavier and, far more importantly, they breed more often. A city pigeon population is a direct measurement of how much food it is being given.",
+    "The council's position was therefore that everybody who feeds the birds is responsible for the number of them, which is unpopular to say and difficult to argue with. The aim was not to remove pigeons from the city but to move them out of the centre and into the parks and open spaces, where they would go back to eating what pigeons eat.",
+    "The mechanical birds were the visible part of the plan. Ten of them, known as robops, were placed on rooftops around the centre. They were modelled on the peregrine falcon, which hunts pigeons and is the fastest animal on earth in a dive, and they were built to move between positions, turn their heads, flap their wings and play recorded falcon calls. They could be moved to a different roof so that the pigeons did not learn where they were.",
+    "That last detail is the interesting one, because it tells you the designers already knew the weakness. Birds habituate. A pigeon that sees a predator which never actually catches anything will, after a while, stop treating it as a predator, and no amount of wing-flapping fixes that. Scarecrows have the same problem and have had it for centuries.",
+    "The scheme was introduced in the years before Liverpool became European Capital of Culture, and the city did hold that title. Whether the robots made a lasting difference is harder to say, and cities that have tried similar devices since have generally found the effect wears off. The approaches that do work are duller: covering bins properly, closing the gaps in buildings where the birds nest, and persuading people to stop feeding them — which brings the whole thing back to the sentence the council started with."
+  ],
+  "vocabulary": [
+    {
+      "term": "council",
+      "definition": "the elected body that runs a city"
+    },
+    {
+      "term": "diet",
+      "definition": "the food an animal or a person normally eats"
+    },
+    {
+      "term": "to breed",
+      "definition": "to produce young"
+    },
+    {
+      "term": "to hand somebody something",
+      "definition": "to give it to them directly",
+      "match": "hand it"
+    },
+    {
+      "term": "whatever is going",
+      "definition": "whatever happens to be available",
+      "match": "whatever else is going"
+    },
+    {
+      "term": "unpopular",
+      "definition": "disliked by most people"
+    },
+    {
+      "term": "rooftop",
+      "definition": "the top surface of a building",
+      "match": "rooftops"
+    },
+    {
+      "term": "to model on",
+      "definition": "to build something in imitation of",
+      "match": "modelled on"
+    },
+    {
+      "term": "peregrine falcon",
+      "definition": "a bird of prey that hunts other birds in flight"
+    },
+    {
+      "term": "dive",
+      "definition": "a steep downward flight at high speed"
+    },
+    {
+      "term": "to flap",
+      "definition": "to move wings up and down"
+    },
+    {
+      "term": "to habituate",
+      "definition": "to get used to something until it stops having an effect",
+      "match": "habituate"
+    },
+    {
+      "term": "predator",
+      "definition": "an animal that hunts and eats others"
+    },
+    {
+      "term": "scarecrow",
+      "definition": "a figure put in a field to frighten birds away",
+      "match": "Scarecrows"
+    },
+    {
+      "term": "to wear off",
+      "definition": "to gradually stop having an effect",
+      "match": "wears off"
+    },
+    {
+      "term": "bin",
+      "definition": "a container for rubbish",
+      "match": "bins"
+    },
+    {
+      "term": "to nest",
+      "definition": "to build a home and raise young"
+    },
+    {
+      "term": "dull",
+      "definition": "not exciting",
+      "match": "duller"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-rb-rwd",
+      "type": "multiple-choice",
+      "title": "Right, Wrong, or Doesn't Say?",
+      "instructions": "Choose RIGHT only if the text states it, WRONG if the text contradicts it, and DOESN'T SAY if the text does not tell you — even when you could guess.",
+      "items": [
+        {
+          "id": "rb1",
+          "prompt": "Pigeons in Liverpool are fatter than pigeons in other cities.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 2,
+          "explanation": "Doesn't say — the text says the problem “is common to most European city centres”, and never compares Liverpool with anywhere else."
+        },
+        {
+          "id": "rb2",
+          "prompt": "Pigeons get fat because they eat seeds and insects.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — that is their natural diet, on which they stay a normal size. The city food is what changes things."
+        },
+        {
+          "id": "rb3",
+          "prompt": "According to the council, everybody who feeds the birds shares the blame for their numbers.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — and the text adds that it is “unpopular to say and difficult to argue with”."
+        },
+        {
+          "id": "rb4",
+          "prompt": "The council wanted to remove all pigeons from the city.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — the aim was to move them out of the centre into parks, not to get rid of them."
+        },
+        {
+          "id": "rb5",
+          "prompt": "The robotic birds could be moved between roofs.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — so that the pigeons could not learn where they were."
+        },
+        {
+          "id": "rb6",
+          "prompt": "The robots caught pigeons.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — the text's central point is that they were “a predator which never actually catches anything”, which is why the birds habituate."
+        },
+        {
+          "id": "rb7",
+          "prompt": "Liverpool became European Capital of Culture.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — “the city did hold that title”. Note the tense: the scheme came before it."
+        },
+        {
+          "id": "rb8",
+          "prompt": "The robots solved the problem permanently.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 2,
+          "explanation": "Doesn't say — the text says it is “harder to say”, and only that similar devices elsewhere tend to wear off. That is not the same as stating these ones failed."
+        }
+      ]
+    },
+    {
+      "id": "b1-rb-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for the argument underneath the story.",
+      "items": [
+        {
+          "id": "rc1",
+          "prompt": "Why does the writer say the problem “is not really about pigeons”?",
+          "options": [
+            "Because other birds cause more damage",
+            "Because the population is a direct measurement of how much food people give them",
+            "Because pigeons are protected by law"
+          ],
+          "answerIndex": 1,
+          "explanation": "The birds are responding to a supply; the supply is the thing that changed."
+        },
+        {
+          "id": "rc2",
+          "prompt": "What does the writer say matters more than the birds getting heavier?",
+          "options": [
+            "That they breed more often",
+            "That they become aggressive",
+            "That they stop flying"
+          ],
+          "answerIndex": 0,
+          "explanation": "Weight is visible; breeding rate is what actually multiplies the problem."
+        },
+        {
+          "id": "rc3",
+          "prompt": "Why is the ability to move the robots “the interesting detail”?",
+          "options": [
+            "It made the scheme cheaper",
+            "It shows the designers already knew the birds would get used to them",
+            "It let the council use fewer robots"
+          ],
+          "answerIndex": 1,
+          "explanation": "The countermeasure reveals the known weakness — the writer reads the design as an admission."
+        },
+        {
+          "id": "rc4",
+          "prompt": "What is habituation, as the text describes it?",
+          "options": [
+            "Birds learning to recognise individual people",
+            "Birds returning to the same roof each night",
+            "Birds ceasing to react to a threat that never produces a consequence"
+          ],
+          "answerIndex": 2,
+          "explanation": "“No amount of wing-flapping fixes that” — and scarecrows have had the same problem for centuries."
+        },
+        {
+          "id": "rc5",
+          "prompt": "What does the writer say actually works?",
+          "options": [
+            "Covering bins, closing nesting gaps, and stopping people feeding the birds",
+            "Using real falcons instead of models",
+            "Moving the robots more frequently"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The approaches that do work are duller” — and the last of them returns to the council's original unpopular sentence."
+        }
+      ]
+    },
+    {
+      "id": "b1-rb-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "rf1",
+          "prompt": "The birds ___ more often when there is plenty of food.",
+          "answers": [
+            "breed"
+          ],
+          "options": [
+            "breed",
+            "nest",
+            "flap"
+          ],
+          "explanation": "To breed is to produce young. To nest is to build the home for them."
+        },
+        {
+          "id": "rf2",
+          "prompt": "Animals ___ to a threat that never hurts them.",
+          "answers": [
+            "habituate"
+          ],
+          "options": [
+            "habituate",
+            "model",
+            "hand"
+          ],
+          "explanation": "To habituate is to get used to something until it stops having any effect."
+        },
+        {
+          "id": "rf3",
+          "prompt": "The effect ___ ___ after a few weeks.",
+          "answers": [
+            "wears",
+            "off"
+          ],
+          "options": [
+            [
+              "wears",
+              "goes",
+              "takes"
+            ],
+            [
+              "off",
+              "out",
+              "down"
+            ]
+          ],
+          "explanation": "To wear off is to gradually stop having an effect."
+        },
+        {
+          "id": "rf4",
+          "prompt": "A ___ hunts and eats other animals.",
+          "answers": [
+            "predator"
+          ],
+          "options": [
+            "predator",
+            "scarecrow",
+            "vendor"
+          ],
+          "explanation": "A predator hunts; a scarecrow only pretends to be a threat."
+        },
+        {
+          "id": "rf5",
+          "prompt": "Cover the ___ properly and the birds lose their food supply.",
+          "answers": [
+            "bins"
+          ],
+          "options": [
+            "bins",
+            "rooftops",
+            "dives"
+          ],
+          "explanation": "A bin is a container for rubbish — the least glamorous and most effective part of the solution."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The council's honest answer was unpopular and the robots were not. Why do cities prefer visible solutions to effective ones?",
+    "“The approaches that do work are duller.” Where else is that true?",
+    "Is feeding birds in a city a kindness or a problem? Argue one side.",
+    "Scarecrows stopped working centuries ago and people still use them. Why?",
+    "Write about 150 words describing a problem in your own city and a solution that looks good but would not work."
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "id": "b2-reading-intelligence-pills",
+  "level": "B2",
+  "slug": "intelligence-pills",
+  "topic": "society",
+  "title": "Intelligence Pills",
+  "subtitle": "Drugs that might sharpen a healthy mind, and the question nobody has worked out how to answer.",
+  "description": "A B2 reading and listening text on cognitive enhancement — what the drugs actually do, and where the line between a supplement and cheating lies — with a Right / Wrong / Doesn't say comprehension exercise.",
+  "source": "cefr/texts/text-interpretation.docx (part 2 of 4)",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "3:02"
+  },
+  "passage": [
+    "For about twenty years, a version of the same prediction has circulated: that healthy adults and children will take drugs to sharpen their thinking, and that this will become as ordinary as drinking coffee. The prediction keeps being made, which is itself worth noticing, because it has not yet come true in the way it was meant.",
+    "What is true is narrower. Drugs that improve attention and concentration exist and are widely prescribed, mainly for conditions they were developed to treat — methylphenidate for attention disorders, modafinil for sleep disorders. Both are also used without a prescription by people who have neither condition, particularly students, and this is common enough that surveys of university populations regularly find it.",
+    "What those drugs do for a healthy person is less impressive than the word “smart” suggests. The reliable finding is that they help you keep working: attention holds for longer, tiredness matters less, a dull task stays possible. Effects on the things people actually mean by intelligence — reasoning, judgement, original thinking — are small, inconsistent between studies, and in some tasks negative, because a drug that makes you willing to keep going at one approach also makes you less likely to abandon it for a better one. The honest summary is that they buy you hours rather than insight, and that people who are already rested and focused have the least to gain.",
+    "The ethical argument is usually framed around fairness in exams, and by analogy with sport: if athletes are tested, why not students? The analogy is weaker than it looks. A drug that lets somebody revise for nine hours instead of five is not obviously different in kind from the coffee everybody is already drinking, or from a quiet room, a private tutor, or not having to work evenings — all of which are unequally distributed and none of which anybody proposes to test for.",
+    "That is the genuine difficulty. The line between a food supplement and an unfair advantage is not one anybody has managed to draw in a way that survives examples. Caffeine is a stimulant, sold in every corridor. Vitamins are taken specifically to improve memory. Sleep improves cognition more than any pill and is available only to some students. If the principle is that an advantage bought with money is unfair, exams were never fair; if the principle is that anything pharmacological is unfair, the coffee has to go too.",
+    "The risks are the part that gets least attention and probably deserves most. These are prescription drugs with real side effects — dependence, cardiovascular strain, disrupted sleep, which is particularly self-defeating when the point was to study — and long-term data on healthy young users barely exists, because that study has not been done. Somebody taking modafinil the night before an exam is running a small experiment on themselves with no control group.",
+    "None of which means the prediction is wrong. It means it has been presented backwards. The interesting question was never whether people would take these drugs, because some already do. It is what a society does when the advantage is real, modest, unequally available and impossible to detect."
+  ],
+  "vocabulary": [
+    {
+      "term": "to circulate",
+      "definition": "to be passed around and repeated",
+      "match": "circulated"
+    },
+    {
+      "term": "to prescribe",
+      "definition": "to order a medicine for a patient officially",
+      "match": "prescribed"
+    },
+    {
+      "term": "prescription",
+      "definition": "a doctor's written order for a medicine"
+    },
+    {
+      "term": "survey",
+      "definition": "a study that asks a large group the same questions",
+      "match": "surveys"
+    },
+    {
+      "term": "reliable finding",
+      "definition": "a result that keeps appearing across different studies"
+    },
+    {
+      "term": "dull",
+      "definition": "boring and requiring effort to continue"
+    },
+    {
+      "term": "inconsistent",
+      "definition": "not in agreement from one case to the next"
+    },
+    {
+      "term": "to abandon",
+      "definition": "to give something up and stop"
+    },
+    {
+      "term": "insight",
+      "definition": "a sudden clear understanding of something"
+    },
+    {
+      "term": "to be rested",
+      "definition": "to have had enough sleep",
+      "match": "rested"
+    },
+    {
+      "term": "by analogy with",
+      "definition": "by comparing it to something similar",
+      "match": "by analogy with"
+    },
+    {
+      "term": "to revise",
+      "definition": "to study for an examination",
+      "match": "revise"
+    },
+    {
+      "term": "unequally distributed",
+      "definition": "not shared out evenly"
+    },
+    {
+      "term": "to draw a line",
+      "definition": "to set a limit between what is acceptable and what is not",
+      "match": "draw"
+    },
+    {
+      "term": "stimulant",
+      "definition": "a substance that increases alertness"
+    },
+    {
+      "term": "side effect",
+      "definition": "an unwanted result of taking a medicine",
+      "match": "side effects"
+    },
+    {
+      "term": "dependence",
+      "definition": "the state of needing a substance to function normally"
+    },
+    {
+      "term": "self-defeating",
+      "definition": "producing the opposite of what was intended"
+    },
+    {
+      "term": "control group",
+      "definition": "the people in a study who do not receive the treatment"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-ip-rwd",
+      "type": "multiple-choice",
+      "title": "Right, Wrong, or Doesn't Say?",
+      "instructions": "Choose RIGHT only if the text states it, WRONG if the text contradicts it, and DOESN'T SAY if it does not tell you. Several of these are deliberately close.",
+      "items": [
+        {
+          "id": "ip1",
+          "prompt": "Only children will take drugs to improve their thinking.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — the prediction is about “healthy adults and children”, and the users named are students."
+        },
+        {
+          "id": "ip2",
+          "prompt": "These drugs are already as common as coffee.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — that is the prediction, and the text says it “has not yet come true in the way it was meant”."
+        },
+        {
+          "id": "ip3",
+          "prompt": "The drugs were developed to treat medical conditions.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — methylphenidate for attention disorders, modafinil for sleep disorders."
+        },
+        {
+          "id": "ip4",
+          "prompt": "The drugs clearly improve reasoning and judgement.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — those effects are “small, inconsistent between studies, and in some tasks negative”."
+        },
+        {
+          "id": "ip5",
+          "prompt": "Students in some countries are already tested for these drugs before exams.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 2,
+          "explanation": "Doesn't say — testing is raised as a proposal by analogy with sport. The text never says it happens."
+        },
+        {
+          "id": "ip6",
+          "prompt": "Sleep improves thinking more than any of these drugs.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — and the text points out that sleep is itself unequally available, which is part of the argument."
+        },
+        {
+          "id": "ip7",
+          "prompt": "Taking vitamins to help your memory is illegal.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 2,
+          "explanation": "Doesn't say — vitamins appear as an example of something nobody regulates, but legality is never discussed."
+        },
+        {
+          "id": "ip8",
+          "prompt": "There is good long-term data on healthy young people using these drugs.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — it “barely exists, because that study has not been done”."
+        }
+      ]
+    },
+    {
+      "id": "b2-ip-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading for Argument",
+      "instructions": "This writer is unusually careful about what is known. Follow that.",
+      "items": [
+        {
+          "id": "ic1",
+          "prompt": "Why does the writer note that the prediction “keeps being made”?",
+          "options": [
+            "Because repetition is evidence that it is true",
+            "Because a prediction that has to be repeated for twenty years has not happened yet",
+            "Because the same scientists keep making it"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Which is itself worth noticing” — a quiet way of dating the claim without dismissing it."
+        },
+        {
+          "id": "ic2",
+          "prompt": "What is the reliable effect of these drugs on a healthy person?",
+          "options": [
+            "They help you keep working — attention holds, tiredness matters less",
+            "They increase reasoning ability substantially",
+            "They improve memory for numbers"
+          ],
+          "answerIndex": 0,
+          "explanation": "“They buy you hours rather than insight.”"
+        },
+        {
+          "id": "ic3",
+          "prompt": "Why can these drugs make performance worse on some tasks?",
+          "options": [
+            "They cause tiredness later in the day",
+            "They interfere with memory",
+            "Willingness to persist with one approach makes you less likely to abandon it for a better one"
+          ],
+          "answerIndex": 2,
+          "explanation": "The same property that helps on a dull task hurts on one needing a change of direction."
+        },
+        {
+          "id": "ic4",
+          "prompt": "Why does the writer call the sport analogy “weaker than it looks”?",
+          "options": [
+            "Because exams are not competitions",
+            "Because athletes are tested for different substances",
+            "Because a quiet room, a tutor and not working evenings are also unequal advantages nobody proposes to test for"
+          ],
+          "answerIndex": 2,
+          "explanation": "The analogy singles out the pharmacological advantage while ignoring every other kind."
+        },
+        {
+          "id": "ic5",
+          "prompt": "What does the writer say about drawing the line between a supplement and an unfair advantage?",
+          "options": [
+            "The line is clear but hard to enforce",
+            "Nobody has drawn it in a way that survives examples",
+            "The line should be set at anything requiring a prescription"
+          ],
+          "answerIndex": 1,
+          "explanation": "Caffeine, vitamins and sleep are the examples that break each attempt."
+        },
+        {
+          "id": "ic6",
+          "prompt": "What does the writer mean by “running a small experiment on themselves with no control group”?",
+          "options": [
+            "The student cannot know what the drug is doing to them, because nothing is being compared",
+            "The student is breaking research ethics rules",
+            "The student is taking an untested substance"
+          ],
+          "answerIndex": 0,
+          "explanation": "The drugs are tested; what is missing is long-term data on this population, so the individual has no basis for judging the risk."
+        },
+        {
+          "id": "ic7",
+          "prompt": "How does the writer reframe the question at the end?",
+          "options": [
+            "Whether the drugs work at all",
+            "Whether the drugs should be banned outright",
+            "What a society does when an advantage is real, modest, unequally available and undetectable"
+          ],
+          "answerIndex": 2,
+          "explanation": "“The interesting question was never whether people would take these drugs, because some already do.”"
+        }
+      ]
+    },
+    {
+      "id": "b2-ip-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right term.",
+      "items": [
+        {
+          "id": "if1",
+          "prompt": "The results were ___ — two studies found an effect and three did not.",
+          "answers": [
+            "inconsistent"
+          ],
+          "options": [
+            "inconsistent",
+            "reliable",
+            "self-defeating"
+          ],
+          "explanation": "Inconsistent means not in agreement from one case to the next."
+        },
+        {
+          "id": "if2",
+          "prompt": "Staying up to study and losing a night's sleep is ___.",
+          "answers": [
+            "self-defeating"
+          ],
+          "options": [
+            "self-defeating",
+            "unequal",
+            "dull"
+          ],
+          "explanation": "Self-defeating means producing the opposite of what was intended."
+        },
+        {
+          "id": "if3",
+          "prompt": "Nobody has managed to ___ a ___ that survives the examples.",
+          "answers": [
+            "draw",
+            "line"
+          ],
+          "options": [
+            [
+              "draw",
+              "make",
+              "put"
+            ],
+            [
+              "line",
+              "limit",
+              "rule"
+            ]
+          ],
+          "explanation": "To draw a line is to set the limit between acceptable and unacceptable."
+        },
+        {
+          "id": "if4",
+          "prompt": "The study had no ___ ___, so there was nothing to compare against.",
+          "answers": [
+            "control",
+            "group"
+          ],
+          "options": [
+            [
+              "control",
+              "test",
+              "side"
+            ],
+            [
+              "group",
+              "study",
+              "sample"
+            ]
+          ],
+          "explanation": "A control group does not receive the treatment, which is what makes comparison possible."
+        },
+        {
+          "id": "if5",
+          "prompt": "Caffeine is a ___, and so is the drug in question.",
+          "answers": [
+            "stimulant"
+          ],
+          "options": [
+            "stimulant",
+            "supplement",
+            "prescription"
+          ],
+          "explanation": "A stimulant increases alertness — the comparison the writer keeps returning to."
+        },
+        {
+          "id": "if6",
+          "prompt": "Every medicine has ___ ___, and these include ___.",
+          "answers": [
+            "side",
+            "effects",
+            "dependence"
+          ],
+          "options": [
+            [
+              "side",
+              "long",
+              "after"
+            ],
+            [
+              "effects",
+              "results",
+              "actions"
+            ],
+            [
+              "dependence",
+              "insight",
+              "analogy"
+            ]
+          ],
+          "explanation": "Dependence is needing a substance to function normally — among the risks the text says get least attention."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "If a drug buys you hours rather than insight, is taking it before an exam cheating?",
+    "The writer says exams were never fair, because a quiet room and a private tutor are advantages too. Does that argument justify anything, or does it prove too much?",
+    "Should universities test for these drugs? What would that cost, and what would it achieve?",
+    "“Running a small experiment on themselves with no control group.” How should someone decide about a risk when the data does not exist?",
+    "Write about 250 words arguing for or against allowing cognitive enhancers in examinations, and address the strongest objection to your own position."
+  ]
+}

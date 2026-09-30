@@ -9,7 +9,7 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 85 of 98 implemented.**
+**Progress: 86 of 98 implemented.**
 
 ## Totals
 
@@ -45,8 +45,8 @@ content rather than as pre-existing.
 
 | Audio | Docs | |
 |---|---:|---|
-| `required` | 10 | must be generated |
-| `exists` | 80 | mp3 present and matches the text |
+| `required` | 9 | must be generated |
+| `exists` | 81 | mp3 present and matches the text |
 | `stale-on-edit` | 0 | mp3 present but the text is being edited -- **must be regenerated** |
 | `n/a` | 8 | drill / answer key / discussion bank -- not a reading text |
 
@@ -116,7 +116,7 @@ Several unrelated materials share one file; each deserves its own page, exercise
 | `interrogative-exercises` | 1656 | drill | A2 | review | `n/a` | NOT STARTED | Long question-formation drill across several tenses; split by tense into separate blocks. |
 | `shadows-in-the-server-room` | 2407 | reading | C1 | work | `required` | NOT STARTED | Strong long-form workplace mystery (2407w) — too long for one page and one audio file. Split into chapters, per requirement 8's guidance against huge audio files. |
 | `soothing-texts` | 2225 | reading | C1 | everyday | `required` | NOT STARTED | Several unrelated descriptive scenes (kitchen, etc.) in one 2225w file. Split into short descriptive readings — excellent sensory-vocabulary material once separated. |
-| `text-interpretation` | 1039 | reading | B2 | society | `required` | NOT STARTED | Several unrelated short articles ('Robot Birds' and others) in one file; split so each gets its own page, questions and audio. |
+| `text-interpretation`<br>[page](../reading/b1/robot-birds.html) | 1039 | reading | B2 | society | `exists` | IMPLEMENTED | Several unrelated short articles ('Robot Birds' and others) in one file; split so each gets its own page, questions and audio. — DONE: split into four pages, each with its own questions and audio — b1/robot-birds, b1/hachiko, b2/intelligence-pills and b2/john-snow. The source's Right / Wrong / Doesn't say format is kept, because the third option teaches something true-false cannot: telling what a text states from what a reader assumes. Each article was fact-checked and updated where it had drifted — Snow's outbreak was 1854 not 1855 and the Board of Health rejected his finding; Hachiko was fed and housed by others, and the present statue is a 1948 replacement; the Liverpool robops and the 'intelligence pills' predictions were both de-dated. |
 | `text-interpretation-aesops-fables` | 1921 | reading | B2 | literature | `required` | NOT STARTED | Multiple fables in one file. Split per fable; keep the literary register but gloss the archaic phrasing. |
 | `travel-dialogues`<br>[page](../reading/a2/flying-to-the-us.html) | 935 | dialogue | A2 | travel | `exists` | IMPLEMENTED | Strong functional dialogues, but eight unrelated scenarios in one worksheet (airline booking, reconfirming, passport control, booking a hotel room, checking out, ordering dinner, buying clothes, asking for a photo) with every student line left blank. Split into three coherent pages and given model answers so the dialogues can actually be read and narrated. Americanized throughout per requirement 16: euros to dollars, 24-hour times to 12-hour ('16:45' to '4:45 p.m.'), 'the trout is off' to 'we're out of the trout', 'colours' to 'colors', traveller's cheques to a card; the inconsistent 'Northwind Airways'/'Northwind Airlines' is unified, and the source's acute accents used as apostrophes ('There´s') are fixed. |
 | `verb-tense-review` | 5091 | drill | B1 | review | `n/a` | NOT STARTED | Largest file in the library (5091w) — many separate gap-fill texts, several with good American settings (hotel near Times Square). Split into per-scenario drill blocks. |

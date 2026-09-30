@@ -63,10 +63,6 @@
       "definition": "the risk of a rare event whose consequences are severe"
     },
     {
-      "term": "remediation",
-      "definition": "the work of repairing damage after a failure"
-    },
-    {
       "term": "discount rate",
       "definition": "the rate used to reduce future money to its value today; a riskier project gets a higher one"
     },
@@ -78,10 +74,6 @@
       "term": "real options",
       "definition": "the measurable value of being able to change course later",
       "match": "real-options"
-    },
-    {
-      "term": "modularity",
-      "definition": "being built in separable parts, so one can be replaced without the rest"
     },
     {
       "term": "stepwise fixed",

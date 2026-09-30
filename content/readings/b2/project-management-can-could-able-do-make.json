@@ -33,11 +33,6 @@
   ],
   "vocabulary": [
     {
-      "term": "deliverable",
-      "definition": "a specific item a team has contracted to hand over",
-      "match": "deliverables"
-    },
-    {
       "term": "roadblock",
       "definition": "an obstacle that stops work from moving forward",
       "match": "roadblocks"
@@ -67,10 +62,6 @@
     {
       "term": "prototype",
       "definition": "an early working version built to test an idea"
-    },
-    {
-      "term": "to accommodate",
-      "definition": "to find a way to fit in with what someone is asking for"
     },
     {
       "term": "balancing act",

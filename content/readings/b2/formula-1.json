@@ -79,10 +79,6 @@
       "match": "exceeds"
     },
     {
-      "term": "suspension",
-      "definition": "the springs and linkages connecting the wheels to the car"
-    },
-    {
       "term": "stiff",
       "definition": "resisting bending or movement"
     },
@@ -98,11 +94,6 @@
     {
       "term": "ballast",
       "definition": "weight added deliberately to reach a limit or adjust balance"
-    },
-    {
-      "term": "sensor",
-      "definition": "a device that measures a physical quantity and reports it",
-      "match": "sensors"
     },
     {
       "term": "telemetry",

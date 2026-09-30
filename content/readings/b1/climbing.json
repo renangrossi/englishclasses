@@ -23,18 +23,55 @@
     "Climbers talk a lot about the summit, but most of them will admit the top is not really the point. The sport is the movement, the place, and the people you go with. It also comes with an expectation: you leave the crag as you found it, take your trash home, and pass on the etiquette to whoever comes next."
   ],
   "vocabulary": [
-    { "term": "a rock face", "definition": "the steep, exposed side of a rock or cliff", "match": "rock face" },
-    { "term": "bouldering", "definition": "climbing short, low routes without a rope" },
-    { "term": "to anchor", "definition": "to fix something firmly in place so it holds weight", "match": "anchored" },
-    { "term": "center of gravity", "definition": "the point where a body's weight is balanced" },
-    { "term": "to shake out", "definition": "to let an arm hang and relax so blood returns to it", "match": "shake out" },
-    { "term": "to break in", "definition": "to wear new boots until they fit comfortably", "match": "broken in" },
-    { "term": "a layer", "definition": "one of several pieces of clothing worn on top of each other", "match": "layers" },
-    { "term": "a harness", "definition": "the belt and straps that attach a climber to the rope" },
-    { "term": "to belay", "definition": "to control the rope to protect a climbing partner", "match": "belay device" },
-    { "term": "a crag", "definition": "a small cliff used for climbing" },
-    { "term": "unforgiving", "definition": "leaving no room for mistakes" },
-    { "term": "etiquette", "definition": "the unwritten rules about how to behave in a group" }
+    {
+      "term": "a rock face",
+      "definition": "the steep, exposed side of a rock or cliff",
+      "match": "rock face"
+    },
+    {
+      "term": "bouldering",
+      "definition": "climbing short, low routes without a rope"
+    },
+    {
+      "term": "center of gravity",
+      "definition": "the point where a body's weight is balanced"
+    },
+    {
+      "term": "to shake out",
+      "definition": "to let an arm hang and relax so blood returns to it",
+      "match": "shake out"
+    },
+    {
+      "term": "to break in",
+      "definition": "to wear new boots until they fit comfortably",
+      "match": "broken in"
+    },
+    {
+      "term": "a layer",
+      "definition": "one of several pieces of clothing worn on top of each other",
+      "match": "layers"
+    },
+    {
+      "term": "a harness",
+      "definition": "the belt and straps that attach a climber to the rope"
+    },
+    {
+      "term": "to belay",
+      "definition": "to control the rope to protect a climbing partner",
+      "match": "belay device"
+    },
+    {
+      "term": "a crag",
+      "definition": "a small cliff used for climbing"
+    },
+    {
+      "term": "unforgiving",
+      "definition": "leaving no room for mistakes"
+    },
+    {
+      "term": "etiquette",
+      "definition": "the unwritten rules about how to behave in a group"
+    }
   ],
   "exercises": [
     {
@@ -150,12 +187,42 @@
       "title": "True or False?",
       "instructions": "Decide whether each statement matches what the text says. The wording is not the same.",
       "items": [
-        { "id": "clt1", "statement": "Bouldering is done without a rope.", "answer": true, "explanation": "True — it is “done on short, low routes without a rope”." },
-        { "id": "clt2", "statement": "A helmet protects a climber only in the event of a fall.", "answer": false, "explanation": "False — it is “as much for rock falling from above as for a fall of your own”." },
-        { "id": "clt3", "statement": "The writer thinks a map is unnecessary on a familiar route.", "answer": false, "explanation": "False — a map and compass are “worth carrying even on a route you think you know”." },
-        { "id": "clt4", "statement": "Climbing shoes should be tight, but not painful.", "answer": true, "explanation": "True — they fit tightly for control, but “a shoe that actually hurts will end your day early”." },
-        { "id": "clt5", "statement": "The text recommends learning the safety systems by trial and error.", "answer": false, "explanation": "False — the systems are “simple but unforgiving of guesswork”, which is why a class is advised." },
-        { "id": "clt6", "statement": "Two liters of water is described as the least you should carry.", "answer": true, "explanation": "True — “two liters at a minimum, more in summer”." }
+        {
+          "id": "clt1",
+          "statement": "Bouldering is done without a rope.",
+          "answer": true,
+          "explanation": "True — it is “done on short, low routes without a rope”."
+        },
+        {
+          "id": "clt2",
+          "statement": "A helmet protects a climber only in the event of a fall.",
+          "answer": false,
+          "explanation": "False — it is “as much for rock falling from above as for a fall of your own”."
+        },
+        {
+          "id": "clt3",
+          "statement": "The writer thinks a map is unnecessary on a familiar route.",
+          "answer": false,
+          "explanation": "False — a map and compass are “worth carrying even on a route you think you know”."
+        },
+        {
+          "id": "clt4",
+          "statement": "Climbing shoes should be tight, but not painful.",
+          "answer": true,
+          "explanation": "True — they fit tightly for control, but “a shoe that actually hurts will end your day early”."
+        },
+        {
+          "id": "clt5",
+          "statement": "The text recommends learning the safety systems by trial and error.",
+          "answer": false,
+          "explanation": "False — the systems are “simple but unforgiving of guesswork”, which is why a class is advised."
+        },
+        {
+          "id": "clt6",
+          "statement": "Two liters of water is described as the least you should carry.",
+          "answer": true,
+          "explanation": "True — “two liters at a minimum, more in summer”."
+        }
       ]
     },
     {
@@ -164,12 +231,92 @@
       "title": "Climbing Vocabulary",
       "instructions": "Complete each sentence with the word that fits.",
       "items": [
-        { "id": "clf1", "prompt": "Keep your ___ of gravity over your feet, or you will hang off the wall.", "answers": ["center"], "options": ["center", "layer", "harness"], "explanation": "Your center of gravity is the point where your weight is balanced." },
-        { "id": "clf2", "prompt": "Wear several thin ___ rather than one thick jacket.", "answers": ["layers"], "options": ["layers", "crags", "grips"], "explanation": "Layers are pieces of clothing worn on top of each other, so you can add or remove them." },
-        { "id": "clf3", "prompt": "I need to ___ these boots ___ before the trip.", "answers": ["break", "in"], "options": [["break", "belay", "anchor"], ["in", "out", "up"]], "explanation": "To break in boots is to wear them until they are comfortable." },
-        { "id": "clf4", "prompt": "The rope was ___ at the top of the route.", "answers": ["anchored"], "options": ["anchored", "broken", "rested"], "explanation": "To anchor something is to fix it firmly so it holds weight." },
-        { "id": "clf5", "prompt": "There is a small ___ near town where beginners practice.", "answers": ["crag"], "options": ["crag", "harness", "layer"], "explanation": "A crag is a small cliff used for climbing." },
-        { "id": "clf6", "prompt": "Climbing has its own ___: you take your trash home and leave the place as you found it.", "answers": ["etiquette"], "options": ["etiquette", "technique", "protection"], "explanation": "Etiquette is the set of unwritten rules about how to behave in a group." }
+        {
+          "id": "clf1",
+          "prompt": "Keep your ___ of gravity over your feet, or you will hang off the wall.",
+          "answers": [
+            "center"
+          ],
+          "options": [
+            "center",
+            "layer",
+            "harness"
+          ],
+          "explanation": "Your center of gravity is the point where your weight is balanced."
+        },
+        {
+          "id": "clf2",
+          "prompt": "Wear several thin ___ rather than one thick jacket.",
+          "answers": [
+            "layers"
+          ],
+          "options": [
+            "layers",
+            "crags",
+            "grips"
+          ],
+          "explanation": "Layers are pieces of clothing worn on top of each other, so you can add or remove them."
+        },
+        {
+          "id": "clf3",
+          "prompt": "I need to ___ these boots ___ before the trip.",
+          "answers": [
+            "break",
+            "in"
+          ],
+          "options": [
+            [
+              "break",
+              "belay",
+              "anchor"
+            ],
+            [
+              "in",
+              "out",
+              "up"
+            ]
+          ],
+          "explanation": "To break in boots is to wear them until they are comfortable."
+        },
+        {
+          "id": "clf4",
+          "prompt": "The rope was ___ at the top of the route.",
+          "answers": [
+            "anchored"
+          ],
+          "options": [
+            "anchored",
+            "broken",
+            "rested"
+          ],
+          "explanation": "To anchor something is to fix it firmly so it holds weight."
+        },
+        {
+          "id": "clf5",
+          "prompt": "There is a small ___ near town where beginners practice.",
+          "answers": [
+            "crag"
+          ],
+          "options": [
+            "crag",
+            "harness",
+            "layer"
+          ],
+          "explanation": "A crag is a small cliff used for climbing."
+        },
+        {
+          "id": "clf6",
+          "prompt": "Climbing has its own ___: you take your trash home and leave the place as you found it.",
+          "answers": [
+            "etiquette"
+          ],
+          "options": [
+            "etiquette",
+            "technique",
+            "protection"
+          ],
+          "explanation": "Etiquette is the set of unwritten rules about how to behave in a group."
+        }
       ]
     }
   ],

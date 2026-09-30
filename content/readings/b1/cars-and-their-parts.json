@@ -44,14 +44,6 @@
       "definition": "the waste gases produced by a burning engine"
     },
     {
-      "term": "ignition",
-      "definition": "the system that sets the fuel alight at the right moment"
-    },
-    {
-      "term": "transmission",
-      "definition": "the system of gears that delivers engine power to the wheels"
-    },
-    {
       "term": "gear",
       "definition": "a toothed wheel used to change speed or turning force",
       "match": "gears"
@@ -69,20 +61,12 @@
       "definition": "the parts that carry power from the transmission to the wheels"
     },
     {
-      "term": "differential",
-      "definition": "the part that lets the driven wheels turn at different speeds in a corner"
-    },
-    {
       "term": "grip",
       "definition": "the hold a tyre keeps on the road surface"
     },
     {
       "term": "chassis",
       "definition": "the structural frame everything else on a car is attached to"
-    },
-    {
-      "term": "suspension",
-      "definition": "the springs and dampers that keep the wheels on the road"
     },
     {
       "term": "damper",
@@ -97,10 +81,6 @@
     {
       "term": "caliper",
       "definition": "the part that squeezes the brake pads against the disc"
-    },
-    {
-      "term": "friction",
-      "definition": "the resistance between two surfaces rubbing together"
     },
     {
       "term": "to fade",

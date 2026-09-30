@@ -23,10 +23,6 @@
   ],
   "vocabulary": [
     {
-      "term": "attribution",
-      "definition": "identifying who a statement or claim comes from"
-    },
-    {
       "term": "outlet",
       "definition": "a newspaper, broadcaster or site that publishes news"
     },
@@ -57,14 +53,6 @@
       "definition": "a formal legal process"
     },
     {
-      "term": "stylistic",
-      "definition": "concerning style rather than substance"
-    },
-    {
-      "term": "implication",
-      "definition": "something suggested without being stated"
-    },
-    {
       "term": "agent",
       "definition": "the person or thing performing the action in a sentence"
     },
@@ -77,32 +65,26 @@
       "definition": "an upper limit rather than an expected value"
     },
     {
-      "term": "uninformative",
-      "definition": "carrying no useful information"
-    },
-    {
-      "term": "assertion",
-      "definition": "a statement made without supporting evidence"
-    },
-    {
       "term": "framing",
       "definition": "the way a story's selection and arrangement shape its meaning"
-    },
-    {
-      "term": "incompatible",
-      "definition": "unable to both be true, or to sit together"
-    },
-    {
-      "term": "cynicism",
-      "definition": "the assumption that everyone acts from bad motives"
     },
     {
       "term": "agenda",
       "definition": "an underlying purpose someone is pursuing"
     },
     {
-      "term": "scepticism",
-      "definition": "the practice of withholding belief until evidence supports it"
+      "term": "to skim past",
+      "definition": "to read over something without taking it in",
+      "match": "skim past"
+    },
+    {
+      "term": "ladder of confidence",
+      "definition": "a scale from firmly asserted to merely repeated"
+    },
+    {
+      "term": "to stack",
+      "definition": "to pile several of the same thing together",
+      "match": "stacked"
     }
   ],
   "exercises": [

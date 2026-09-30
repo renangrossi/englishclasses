@@ -43,27 +43,9 @@
       "match": "crystallised"
     },
     {
-      "term": "vegetal",
-      "definition": "tasting or smelling of green plants"
-    },
-    {
-      "term": "to deteriorate",
-      "definition": "to get worse in quality"
-    },
-    {
-      "term": "to ferment",
-      "definition": "to convert sugar into alcohol using yeast",
-      "match": "fermented"
-    },
-    {
       "term": "strain",
       "definition": "a particular variety of a microorganism such as yeast",
       "match": "strains"
-    },
-    {
-      "term": "to cultivate",
-      "definition": "to grow and maintain something deliberately over time",
-      "match": "cultivated"
     },
     {
       "term": "consistency",
@@ -100,10 +82,6 @@
       "term": "barrel",
       "definition": "a curved wooden container used for ageing spirits",
       "match": "barrels"
-    },
-    {
-      "term": "native",
-      "definition": "originating naturally in a particular country"
     },
     {
       "term": "ripeness",

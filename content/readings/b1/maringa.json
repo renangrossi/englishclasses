@@ -67,20 +67,12 @@
       "match": "murals"
     },
     {
-      "term": "migration",
-      "definition": "the movement of large numbers of people to a new area"
-    },
-    {
       "term": "segregated",
       "definition": "with communities kept separate, especially by race"
     },
     {
       "term": "housing policy",
       "definition": "the rules governing where homes are built and who may buy them"
-    },
-    {
-      "term": "to underestimate",
-      "definition": "to expect less of something than it turns out to be"
     },
     {
       "term": "humid",
@@ -94,11 +86,6 @@
       "term": "cliché",
       "definition": "an idea repeated so often it has stopped being informative",
       "match": "clichés"
-    },
-    {
-      "term": "speciality",
-      "definition": "a dish a place is known for",
-      "match": "specialities"
     },
     {
       "term": "waterfront",

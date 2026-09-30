@@ -23,19 +23,6 @@
   ],
   "vocabulary": [
     {
-      "term": "to accelerate",
-      "definition": "to make something develop faster than it otherwise would",
-      "match": "accelerated"
-    },
-    {
-      "term": "ancestor",
-      "definition": "an earlier form from which something later descends"
-    },
-    {
-      "term": "establishment",
-      "definition": "the institutions and people holding power in a particular field"
-    },
-    {
       "term": "survivability",
       "definition": "the capacity to keep functioning through an attack or disaster",
       "match": "nuclear-survivability"
@@ -45,16 +32,8 @@
       "definition": "sending data in small separately routed pieces rather than over one fixed line"
     },
     {
-      "term": "distinction",
-      "definition": "a difference that matters"
-    },
-    {
       "term": "logistics",
       "definition": "the organisation of moving and storing goods"
-    },
-    {
-      "term": "exposure",
-      "definition": "the degree to which something is open to harm"
     },
     {
       "term": "to disrupt",
@@ -74,10 +53,6 @@
       "match": "encrypts"
     },
     {
-      "term": "extortion",
-      "definition": "obtaining money by threat"
-    },
-    {
       "term": "malware",
       "definition": "any software written to damage a system or steal from it"
     },
@@ -94,21 +69,8 @@
       "definition": "the username, password or token that proves who you are"
     },
     {
-      "term": "intrusion",
-      "definition": "an unauthorised entry into a system",
-      "match": "intrusions"
-    },
-    {
       "term": "firewall",
       "definition": "a barrier that filters traffic entering or leaving a network"
-    },
-    {
-      "term": "fugitive",
-      "definition": "someone evading arrest"
-    },
-    {
-      "term": "disproportionate",
-      "definition": "far greater than the offence warrants"
     },
     {
       "term": "social engineering",
@@ -116,8 +78,24 @@
       "match": "social engineer"
     },
     {
-      "term": "instructive",
-      "definition": "useful because of what it teaches"
+      "term": "to run in both directions",
+      "definition": "to work as cause and effect each way",
+      "match": "runs in both directions"
+    },
+    {
+      "term": "to set out",
+      "definition": "to explain something systematically, point by point",
+      "match": "setting out"
+    },
+    {
+      "term": "to cut off",
+      "definition": "to stop a supply reaching someone",
+      "match": "cuts off"
+    },
+    {
+      "term": "shopfront",
+      "definition": "the public-facing part of a business",
+      "match": "shopfront"
     }
   ],
   "exercises": [

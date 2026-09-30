@@ -24,18 +24,48 @@
     "Meanwhile the market keeps getting more crowded. New models arrive every year, and manufacturers compete on range, on charging speed, and on price. Industry reports show electric vehicles holding a large share of global car sales, even where growth has slowed and competition has sharpened. For the buyer that means more choice, but also more to work out about long-term value, battery health, and what the car will be worth later. Those calculations reach buyers in every income group, which is what makes electric vehicles a financial question and not only a technological one."
   ],
   "vocabulary": [
-    { "term": "income", "definition": "the money a person earns or receives regularly" },
-    { "term": "to insure", "definition": "to pay a company so it will cover your losses after an accident" },
-    { "term": "fuel economy", "definition": "how little fuel a car uses for the distance it travels" },
-    { "term": "reliability", "definition": "the quality of working well and rarely breaking down" },
-    { "term": "suspension", "definition": "the springs and parts that absorb bumps in the road" },
-    { "term": "mileage", "definition": "the total distance a vehicle has traveled" },
-    { "term": "to degrade", "definition": "to slowly get worse in quality or capacity" },
-    { "term": "capacity", "definition": "the amount a battery can hold" },
-    { "term": "a warranty", "definition": "a maker's written promise to repair or replace a faulty part", "match": "warranties" },
-    { "term": "resale value", "definition": "the price something can be sold for second-hand" },
-    { "term": "a flagship", "definition": "the most important or impressive product a company makes" },
-    { "term": "to stand in for", "definition": "to represent something larger than itself", "match": "stands in for" }
+    {
+      "term": "income",
+      "definition": "the money a person earns or receives regularly"
+    },
+    {
+      "term": "to insure",
+      "definition": "to pay a company so it will cover your losses after an accident"
+    },
+    {
+      "term": "fuel economy",
+      "definition": "how little fuel a car uses for the distance it travels"
+    },
+    {
+      "term": "reliability",
+      "definition": "the quality of working well and rarely breaking down"
+    },
+    {
+      "term": "mileage",
+      "definition": "the total distance a vehicle has traveled"
+    },
+    {
+      "term": "to degrade",
+      "definition": "to slowly get worse in quality or capacity"
+    },
+    {
+      "term": "a warranty",
+      "definition": "a maker's written promise to repair or replace a faulty part",
+      "match": "warranties"
+    },
+    {
+      "term": "resale value",
+      "definition": "the price something can be sold for second-hand"
+    },
+    {
+      "term": "a flagship",
+      "definition": "the most important or impressive product a company makes"
+    },
+    {
+      "term": "to stand in for",
+      "definition": "to represent something larger than itself",
+      "match": "stands in for"
+    }
   ],
   "exercises": [
     {
@@ -162,13 +192,48 @@
       "title": "True or False?",
       "instructions": "Decide whether each statement matches the text. Read carefully — some are close but wrong.",
       "items": [
-        { "id": "cat1", "statement": "The text claims wealthy buyers care nothing about safety.", "answer": false, "explanation": "False — safety is listed among the basic things buyers in every group want." },
-        { "id": "cat2", "statement": "Rally drivers need training beyond ordinary driving experience.", "answer": true, "explanation": "True — rally racing “demands quick decisions and very precise control”, so drivers need specific training." },
-        { "id": "cat3", "statement": "Some manufacturers build only electric vehicles.", "answer": true, "explanation": "True — “some newer companies build nothing else”." },
-        { "id": "cat4", "statement": "Modern batteries do not lose capacity at all.", "answer": false, "explanation": "False — they are built to last, but “they do degrade slowly with use”." },
-        { "id": "cat5", "statement": "Fast charging and extreme heat can both affect battery health.", "answer": true, "explanation": "True — frequent fast charging, extreme temperatures and high mileage are all named." },
-        { "id": "cat6", "statement": "Governments in many countries discourage electric vehicles.", "answer": false, "explanation": "False — they encourage them “through tax benefits or by paying for charging stations”." },
-        { "id": "cat7", "statement": "Growing competition means buyers now have fewer models to choose from.", "answer": false, "explanation": "False — “new models arrive every year” and for the buyer “that means more choice”." }
+        {
+          "id": "cat1",
+          "statement": "The text claims wealthy buyers care nothing about safety.",
+          "answer": false,
+          "explanation": "False — safety is listed among the basic things buyers in every group want."
+        },
+        {
+          "id": "cat2",
+          "statement": "Rally drivers need training beyond ordinary driving experience.",
+          "answer": true,
+          "explanation": "True — rally racing “demands quick decisions and very precise control”, so drivers need specific training."
+        },
+        {
+          "id": "cat3",
+          "statement": "Some manufacturers build only electric vehicles.",
+          "answer": true,
+          "explanation": "True — “some newer companies build nothing else”."
+        },
+        {
+          "id": "cat4",
+          "statement": "Modern batteries do not lose capacity at all.",
+          "answer": false,
+          "explanation": "False — they are built to last, but “they do degrade slowly with use”."
+        },
+        {
+          "id": "cat5",
+          "statement": "Fast charging and extreme heat can both affect battery health.",
+          "answer": true,
+          "explanation": "True — frequent fast charging, extreme temperatures and high mileage are all named."
+        },
+        {
+          "id": "cat6",
+          "statement": "Governments in many countries discourage electric vehicles.",
+          "answer": false,
+          "explanation": "False — they encourage them “through tax benefits or by paying for charging stations”."
+        },
+        {
+          "id": "cat7",
+          "statement": "Growing competition means buyers now have fewer models to choose from.",
+          "answer": false,
+          "explanation": "False — “new models arrive every year” and for the buyer “that means more choice”."
+        }
       ]
     },
     {
@@ -177,13 +242,113 @@
       "title": "Cars & Money Vocabulary",
       "instructions": "Complete each sentence with the word that fits.",
       "items": [
-        { "id": "caf1", "prompt": "Small engines are chosen for their good ___ ___.", "answers": ["fuel", "economy"], "options": [["fuel", "resale", "battery"], ["economy", "value", "health"]], "explanation": "Fuel economy is how little fuel a car uses for the distance it travels." },
-        { "id": "caf2", "prompt": "The car has high ___ — over 200,000 miles.", "answers": ["mileage"], "options": ["mileage", "capacity", "suspension"], "explanation": "Mileage is the total distance a vehicle has traveled." },
-        { "id": "caf3", "prompt": "Rally cars need stronger ___ to absorb the bumps.", "answers": ["suspension"], "options": ["suspension", "reliability", "income"], "explanation": "The suspension absorbs bumps in the road." },
-        { "id": "caf4", "prompt": "Batteries slowly ___ as they are used.", "answers": ["degrade"], "options": ["degrade", "insure", "charge"], "explanation": "To degrade is to slowly get worse in quality or capacity." },
-        { "id": "caf5", "prompt": "The battery is covered by an eight-year ___.", "answers": ["warranty"], "options": ["warranty", "mileage", "flagship"], "explanation": "A warranty is a maker's written promise to repair or replace a faulty part." },
-        { "id": "caf6", "prompt": "A healthy battery protects the car's ___ ___.", "answers": ["resale", "value"], "options": [["resale", "fuel", "flagship"], ["value", "economy", "capacity"]], "explanation": "Resale value is the price something can be sold for second-hand." },
-        { "id": "caf7", "prompt": "The new sedan is the company's ___ model.", "answers": ["flagship"], "options": ["flagship", "warranty", "rally"], "explanation": "A flagship is the most important or impressive product a company makes." }
+        {
+          "id": "caf1",
+          "prompt": "Small engines are chosen for their good ___ ___.",
+          "answers": [
+            "fuel",
+            "economy"
+          ],
+          "options": [
+            [
+              "fuel",
+              "resale",
+              "battery"
+            ],
+            [
+              "economy",
+              "value",
+              "health"
+            ]
+          ],
+          "explanation": "Fuel economy is how little fuel a car uses for the distance it travels."
+        },
+        {
+          "id": "caf2",
+          "prompt": "The car has high ___ — over 200,000 miles.",
+          "answers": [
+            "mileage"
+          ],
+          "options": [
+            "mileage",
+            "capacity",
+            "suspension"
+          ],
+          "explanation": "Mileage is the total distance a vehicle has traveled."
+        },
+        {
+          "id": "caf3",
+          "prompt": "Rally cars need stronger ___ to absorb the bumps.",
+          "answers": [
+            "suspension"
+          ],
+          "options": [
+            "suspension",
+            "reliability",
+            "income"
+          ],
+          "explanation": "The suspension absorbs bumps in the road."
+        },
+        {
+          "id": "caf4",
+          "prompt": "Batteries slowly ___ as they are used.",
+          "answers": [
+            "degrade"
+          ],
+          "options": [
+            "degrade",
+            "insure",
+            "charge"
+          ],
+          "explanation": "To degrade is to slowly get worse in quality or capacity."
+        },
+        {
+          "id": "caf5",
+          "prompt": "The battery is covered by an eight-year ___.",
+          "answers": [
+            "warranty"
+          ],
+          "options": [
+            "warranty",
+            "mileage",
+            "flagship"
+          ],
+          "explanation": "A warranty is a maker's written promise to repair or replace a faulty part."
+        },
+        {
+          "id": "caf6",
+          "prompt": "A healthy battery protects the car's ___ ___.",
+          "answers": [
+            "resale",
+            "value"
+          ],
+          "options": [
+            [
+              "resale",
+              "fuel",
+              "flagship"
+            ],
+            [
+              "value",
+              "economy",
+              "capacity"
+            ]
+          ],
+          "explanation": "Resale value is the price something can be sold for second-hand."
+        },
+        {
+          "id": "caf7",
+          "prompt": "The new sedan is the company's ___ model.",
+          "answers": [
+            "flagship"
+          ],
+          "options": [
+            "flagship",
+            "warranty",
+            "rally"
+          ],
+          "explanation": "A flagship is the most important or impressive product a company makes."
+        }
       ]
     }
   ],

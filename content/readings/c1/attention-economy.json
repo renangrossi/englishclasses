@@ -33,26 +33,9 @@
       "definition": "urgent; demanding attention now rather than later"
     },
     {
-      "term": "monetization",
-      "definition": "the act of turning something into a source of revenue"
-    },
-    {
-      "term": "aggregator",
-      "definition": "a service that gathers content from many sources into one place",
-      "match": "aggregators"
-    },
-    {
       "term": "to prioritize",
       "definition": "to treat one thing as more important than another",
       "match": "prioritize"
-    },
-    {
-      "term": "gratification",
-      "definition": "the pleasure of having a desire satisfied"
-    },
-    {
-      "term": "cognitive",
-      "definition": "relating to thinking, understanding and remembering"
     },
     {
       "term": "sustained",
@@ -67,25 +50,9 @@
       "definition": "containing fine distinctions rather than simple oppositions"
     },
     {
-      "term": "ambiguous",
-      "definition": "open to more than one interpretation"
-    },
-    {
       "term": "to frame",
       "definition": "to present something in a way that shapes how it is understood",
       "match": "framed"
-    },
-    {
-      "term": "simplistic",
-      "definition": "treating a complicated thing as simpler than it is — a criticism, not a compliment"
-    },
-    {
-      "term": "verification",
-      "definition": "the act of checking that something is true"
-    },
-    {
-      "term": "skepticism",
-      "definition": "the habit of doubting claims until they are supported"
     },
     {
       "term": "media literacy",
@@ -94,6 +61,16 @@
     {
       "term": "immediacy",
       "definition": "the quality of happening or being available at once"
+    },
+    {
+      "term": "to reshape",
+      "definition": "to change the form of something already established",
+      "match": "reshapes"
+    },
+    {
+      "term": "to leave room for",
+      "definition": "to allow enough time or space for something to happen",
+      "match": "leaves little room for"
     }
   ],
   "exercises": [

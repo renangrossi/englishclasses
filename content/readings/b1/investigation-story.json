@@ -39,16 +39,47 @@
     "Detective Wayne: That's your right. Interview suspended at nine forty-one."
   ],
   "vocabulary": [
-    { "term": "to wait up", "definition": "to stay awake instead of going to bed", "match": "waiting up" },
-    { "term": "to air", "definition": "to be broadcast on television or radio", "match": "airs" },
-    { "term": "a rumor", "definition": "information passed between people that may not be true" },
-    { "term": "a security camera", "definition": "a camera that records a place to prevent or prove crime", "match": "security cameras" },
-    { "term": "to swear", "definition": "to say very seriously that something is true" },
-    { "term": "furious", "definition": "extremely angry" },
-    { "term": "a firearm", "definition": "a gun" },
-    { "term": "to be mistaken", "definition": "to be wrong about something", "match": "mistaken" },
-    { "term": "a lawyer", "definition": "a person qualified to advise and represent you in law" },
-    { "term": "to suspend", "definition": "to stop something temporarily", "match": "suspended" }
+    {
+      "term": "to wait up",
+      "definition": "to stay awake instead of going to bed",
+      "match": "waiting up"
+    },
+    {
+      "term": "to air",
+      "definition": "to be broadcast on television or radio",
+      "match": "airs"
+    },
+    {
+      "term": "a rumor",
+      "definition": "information passed between people that may not be true"
+    },
+    {
+      "term": "a security camera",
+      "definition": "a camera that records a place to prevent or prove crime",
+      "match": "security cameras"
+    },
+    {
+      "term": "to swear",
+      "definition": "to say very seriously that something is true"
+    },
+    {
+      "term": "a firearm",
+      "definition": "a gun"
+    },
+    {
+      "term": "to be mistaken",
+      "definition": "to be wrong about something",
+      "match": "mistaken"
+    },
+    {
+      "term": "a lawyer",
+      "definition": "a person qualified to advise and represent you in law"
+    },
+    {
+      "term": "to suspend",
+      "definition": "to stop something temporarily",
+      "match": "suspended"
+    }
   ],
   "exercises": [
     {
@@ -153,12 +184,42 @@
       "title": "True or False?",
       "instructions": "Decide whether each statement is supported by the dialogue.",
       "items": [
-        { "id": "int1", "statement": "Sharon can confirm where her husband was at two in the morning.", "answer": false, "explanation": "False — she was asleep from one thirty, so she can account for nothing after that." },
-        { "id": "int2", "statement": "Philip's account turned out to be accurate.", "answer": true, "explanation": "True — the cameras agreed with him, despite Rogers calling him a liar." },
-        { "id": "int3", "statement": "Rogers admitted straight away that he had gone outside.", "answer": false, "explanation": "False — he admitted it only after being told about the cameras." },
-        { "id": "int4", "statement": "A neighbor reported hearing a shot that night.", "answer": false, "explanation": "False — “no neighbor reported a shot — not Philip, not anyone”." },
-        { "id": "int5", "statement": "The detective proves that Rogers killed Mrs. Carter.", "answer": false, "explanation": "False — she proves he lied. The killing is not resolved in the dialogue." },
-        { "id": "int6", "statement": "Rogers has the right to speak to a lawyer.", "answer": true, "explanation": "True — the detective answers, “That's your right.”" }
+        {
+          "id": "int1",
+          "statement": "Sharon can confirm where her husband was at two in the morning.",
+          "answer": false,
+          "explanation": "False — she was asleep from one thirty, so she can account for nothing after that."
+        },
+        {
+          "id": "int2",
+          "statement": "Philip's account turned out to be accurate.",
+          "answer": true,
+          "explanation": "True — the cameras agreed with him, despite Rogers calling him a liar."
+        },
+        {
+          "id": "int3",
+          "statement": "Rogers admitted straight away that he had gone outside.",
+          "answer": false,
+          "explanation": "False — he admitted it only after being told about the cameras."
+        },
+        {
+          "id": "int4",
+          "statement": "A neighbor reported hearing a shot that night.",
+          "answer": false,
+          "explanation": "False — “no neighbor reported a shot — not Philip, not anyone”."
+        },
+        {
+          "id": "int5",
+          "statement": "The detective proves that Rogers killed Mrs. Carter.",
+          "answer": false,
+          "explanation": "False — she proves he lied. The killing is not resolved in the dialogue."
+        },
+        {
+          "id": "int6",
+          "statement": "Rogers has the right to speak to a lawyer.",
+          "answer": true,
+          "explanation": "True — the detective answers, “That's your right.”"
+        }
       ]
     },
     {
@@ -167,12 +228,100 @@
       "title": "Past Continuous & Past Simple",
       "instructions": "The interview keeps asking what was in progress and what interrupted it. Complete each sentence with the correct form.",
       "items": [
-        { "id": "inf1", "prompt": "What ___ you ___ at two in the morning?", "answers": ["were", "doing"], "options": [["were", "was", "did"], ["doing", "do", "done"]], "explanation": "Past continuous for an action in progress at a particular past time: what were you doing?" },
-        { "id": "inf2", "prompt": "While we ___ television, she started snoring.", "answers": ["were watching"], "options": ["were watching", "watched", "have watched"], "explanation": "The longer background action takes the past continuous; the sudden one takes the past simple." },
-        { "id": "inf3", "prompt": "Philip says he saw Rogers while he ___ down the street.", "answers": ["was running"], "options": ["was running", "ran", "runs"], "explanation": "Running was in progress when Philip saw him." },
-        { "id": "inf4", "prompt": "Mrs. Carter was killed while she ___ home.", "answers": ["was walking"], "options": ["was walking", "walked", "walks"], "explanation": "Walking home was interrupted by the killing." },
-        { "id": "inf5", "prompt": "She ___ with a man when Rogers came outside.", "answers": ["was arguing"], "options": ["was arguing", "argued", "argues"], "explanation": "The argument was already under way when he arrived." },
-        { "id": "inf6", "prompt": "I ___ straight back inside and ___ the door.", "answers": ["ran", "locked"], "options": [["ran", "was running", "run"], ["locked", "was locking", "lock"]], "explanation": "Two completed actions in sequence — both past simple." }
+        {
+          "id": "inf1",
+          "prompt": "What ___ you ___ at two in the morning?",
+          "answers": [
+            "were",
+            "doing"
+          ],
+          "options": [
+            [
+              "were",
+              "was",
+              "did"
+            ],
+            [
+              "doing",
+              "do",
+              "done"
+            ]
+          ],
+          "explanation": "Past continuous for an action in progress at a particular past time: what were you doing?"
+        },
+        {
+          "id": "inf2",
+          "prompt": "While we ___ television, she started snoring.",
+          "answers": [
+            "were watching"
+          ],
+          "options": [
+            "were watching",
+            "watched",
+            "have watched"
+          ],
+          "explanation": "The longer background action takes the past continuous; the sudden one takes the past simple."
+        },
+        {
+          "id": "inf3",
+          "prompt": "Philip says he saw Rogers while he ___ down the street.",
+          "answers": [
+            "was running"
+          ],
+          "options": [
+            "was running",
+            "ran",
+            "runs"
+          ],
+          "explanation": "Running was in progress when Philip saw him."
+        },
+        {
+          "id": "inf4",
+          "prompt": "Mrs. Carter was killed while she ___ home.",
+          "answers": [
+            "was walking"
+          ],
+          "options": [
+            "was walking",
+            "walked",
+            "walks"
+          ],
+          "explanation": "Walking home was interrupted by the killing."
+        },
+        {
+          "id": "inf5",
+          "prompt": "She ___ with a man when Rogers came outside.",
+          "answers": [
+            "was arguing"
+          ],
+          "options": [
+            "was arguing",
+            "argued",
+            "argues"
+          ],
+          "explanation": "The argument was already under way when he arrived."
+        },
+        {
+          "id": "inf6",
+          "prompt": "I ___ straight back inside and ___ the door.",
+          "answers": [
+            "ran",
+            "locked"
+          ],
+          "options": [
+            [
+              "ran",
+              "was running",
+              "run"
+            ],
+            [
+              "locked",
+              "was locking",
+              "lock"
+            ]
+          ],
+          "explanation": "Two completed actions in sequence — both past simple."
+        }
       ]
     }
   ],

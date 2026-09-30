@@ -33,38 +33,12 @@
       "definition": "starting on the stated date; a formal fixed phrase"
     },
     {
-      "term": "relocation",
-      "definition": "moving to a different place to work or live"
-    },
-    {
-      "term": "practicable",
-      "definition": "able to be done in practice"
-    },
-    {
       "term": "severance package",
       "definition": "the money and terms given to an employee who is losing their job"
     },
     {
-      "term": "consultation",
-      "definition": "a formal meeting in which someone is asked for their view",
-      "match": "consultations"
-    },
-    {
-      "term": "to commence",
-      "definition": "to begin — a formal word for start",
-      "match": "commence"
-    },
-    {
-      "term": "transition",
-      "definition": "the period of change from one state to another"
-    },
-    {
       "term": "payout",
       "definition": "an informal word for a lump sum of money paid out"
-    },
-    {
-      "term": "nominalisation",
-      "definition": "turning a verb into a noun, which removes the person doing the action"
     },
     {
       "term": "passive voice",
@@ -88,11 +62,6 @@
       "definition": "something left behind by an earlier period"
     },
     {
-      "term": "contraction",
-      "definition": "a shortened form such as don't or they're",
-      "match": "contractions"
-    },
-    {
       "term": "sentence fragment",
       "definition": "an incomplete sentence used deliberately, such as “End of March.”",
       "match": "sentence fragments"
@@ -102,8 +71,14 @@
       "definition": "a word such as honestly or anyway that signals the speaker's attitude"
     },
     {
-      "term": "inappropriate",
-      "definition": "not suitable for the situation"
+      "term": "to take a decision",
+      "definition": "to decide — the formal collocation, which hides who decided",
+      "match": "has taken the decision"
+    },
+    {
+      "term": "to be committed to",
+      "definition": "to state publicly that you will do something, without promising it",
+      "match": "committed to"
     }
   ],
   "exercises": [

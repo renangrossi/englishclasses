@@ -14,8 +14,8 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | Milestones 0–2 complete → Milestone 3 (the `EDIT` texts) |
-| **Overall completion** | ~25% (audit done; pipeline proven; 18 of 98 source documents converted; hub rebuilt as a CEFR progression) |
+| **Current phase** | Milestones 0–3 complete → Milestone 4 (the `EDIT` texts) |
+| **Overall completion** | ~30% (audit done; pipeline proven; 24 of 98 source documents converted into 26 pages; every `KEEP` text done; hub rebuilt as a CEFR progression) |
 
 ### What this project is *not*
 It is not a redesign of the grammar-lesson system. `levels/{level}/*.html` + `curriculum/{level}/*.json`
@@ -99,7 +99,7 @@ Do not "fix" them as part of this work; log them and move on.
 
 ---
 
-## Completed milestone 2
+## Completed milestones 2 and 3
 
 ### Milestone 2 — Volume conversion: the `KEEP` texts & the hub ✅
 - **Date:** 2026-09-30
@@ -123,18 +123,45 @@ Do not "fix" them as part of this work; log them and move on.
 
 **Current tally by level:** A2 12 · B1 6 · A1/B2/C1/C2 0.
 
+### Milestone 3 — Finishing the `KEEP` texts ✅
+- **Date:** 2026-09-30
+- **Branches:** `content/reading-b2-keep-batch`, `content/reading-c1-keep-batch` → merged to `main`
+- **Commits:** `923899e` (merge `989b408`), `98f0d0e` (merge recorded below)
+- **Pushed:** yes · **Merged:** yes
+
+**What was completed**
+1. **The last 8 `KEEP` texts converted** — 5 at B2 and 3 at C1 — each with a built page,
+   inline vocabulary tooltips, graded exercise blocks, discussion prompts and edge-tts narration.
+   The `KEEP` action is now finished: **15 of 15 implemented**.
+2. **B2:** `it-interview`, `sales-strategy`, `project-management-can-could-able-do-make`,
+   `phrasal-verbs-01-bed-and-breakfast`, `phrasal-verbs-02-trip-abroad`.
+3. **C1:** `attention-economy`, `technology-and-ethics`, `physiological-stressors`.
+4. **`attention-economy`'s three old mp3 segments were retired**, not reused: they narrate an
+   earlier wording, so the text was re-narrated as a single file and the segments were deleted
+   from `cefr/texts/` (decision D-6). No `KEEP` text has ever matched its existing audio.
+5. **Still zero new CSS and zero new JavaScript.** The `matching` blocks introduced in this
+   batch use the engine's existing renderer.
+
+**Current tally by level:** A2 12 · B1 6 · B2 5 · C1 3 · A1/C2 0.
+
+**Two shape corrections found while building** (both would have failed silently in the browser,
+so they are recorded in [The source JSON contract](#the-source-json-contract)):
+- `matching` takes **one item holding a `pairs` array**, not one item per pair.
+- `writing` blocks are ungraded textareas; the engine ignores `modelAnswer`. Extended
+  written work belongs in `discussion`, which is what every other reading page does.
+
 ## Current milestone
 
-### Milestone 3 — The `EDIT` texts (NOT STARTED)
+### Milestone 4 — The `EDIT` texts (NOT STARTED)
 
-**Goal:** work through the 31 `EDIT` texts, which carry the real editorial load, then the
-`MERGE`/`SPLIT` groups, then `REPLACE` and `CONVERT`.
+**Goal:** work through the 27 remaining `EDIT` texts, which carry the real editorial load, then
+the `MERGE`/`SPLIT` groups, then `REPLACE` and `CONVERT`.
 
 **What remains**
-1. The **11 remaining `KEEP`** texts — 5 at B2, 3 at C1, and the rest (fastest throughput left).
-2. The **31 `EDIT`** texts (see the editorial rules).
-3. The **15 `MERGE`** → merge targets, and the **9 `SPLIT`** files.
-4. The **11 `REPLACE`** texts and the **11 `CONVERT`** drills.
+1. The **27 remaining `EDIT`** texts (see the editorial rules).
+2. The **15 `MERGE`** → merge targets, and the **8 remaining `SPLIT`** files.
+3. The **8 remaining `REPLACE`** texts and the **11 `CONVERT`** drills.
+4. The **5 `DELETE`** entries, to be confirmed and removed.
 5. New A1 and C2 content for open problem P-1.
 
 **Next exact actions:** see [NEXT SESSION](#next-session).
@@ -218,7 +245,7 @@ The 2 `stale-on-edit` texts are `capetown` (4 mp3s) and `physical-education` (4 
 | **Exercise engine** | `assets/js/exercises.js` (1841 lines). **No JS changes needed.** |
 | **Exercise types available** | `multiple-choice`, `true-false`, `fill-blank`, `matching`, `ordering`, `correction`, `typing`, `reading-comprehension`, `vocabulary`, `writing` |
 | **Audio player** | Native `<audio controls preload="metadata">` at the top of the reading section, with a download link as fallback. Gives play/pause, progress, elapsed/total time, keyboard access and the browser's own speed menu on desktop and mobile, with no JS to fail. The grammar lessons' listening blocks keep their `<details class="transcript-toggle">` pattern; a reading page shows the text itself, so it needs no transcript toggle. |
-| **HTML migration** | 18 / 98 source docs converted → 18 reading pages (12 A2, 6 B1), each with narration |
+| **HTML migration** | 24 / 98 source docs converted → 26 reading pages (12 A2, 6 B1, 5 B2, 3 C1), each with narration |
 | **CSS** | **No changes made.** Reading pages reuse `.reading-passage` (exercises.css), `.summary-list` (lessons.css) and the site-wide `audio` rule (components.css) |
 | **JavaScript** | **No changes made.** `assets/js/exercises.js` renders the new pages unmodified |
 | **Navigation** | `exercises.html` is currently a flat alphabetical grid of 117 "Open PDF" cards — to be restructured |
@@ -289,7 +316,7 @@ progress can be tracked and resumed. `docs/content-audit.md` is the human-readab
 | DELETE | 5 | nothing worth migrating |
 | **Total** | **98** | |
 
-**Progress:** 18 IMPLEMENTED · 80 NOT STARTED · 98 AUDITED
+**Progress:** 24 IMPLEMENTED · 74 NOT STARTED · 98 AUDITED — every `KEEP` text is done (15/15)
 
 ---
 
@@ -405,26 +432,23 @@ wrong fails silently in the browser, so follow them exactly:
 | `reading-comprehension`, `multiple-choice`, `vocabulary` | `id`, `prompt`, `options`, `answerIndex`, `explanation` |
 | `true-false` | `id`, **`statement`**, `answer` (bool), `explanation` |
 | `fill-blank` | `id`, `prompt` with `___` per blank, **`answers`** (one per blank), `options` (flat array for a single blank, array-of-arrays for several), `explanation` |
+| `matching` | **one item** per block: `id`, **`pairs`** (an array of `{left, right}`), `explanation`. One item per pair renders nothing. |
+| `true-false` explanation | begin it with "True —" or "False —" so the printed feedback stands alone |
+
+`writing` blocks are **ungraded textareas**: the engine renders the prompt and a "Save my
+answers" button, and ignores any `modelAnswer` you supply. Extended written work therefore
+belongs in `discussion` — which is what every reading page does — not in a `writing` block.
 
 ### Work order
 
-1. **The 11 remaining `KEEP` texts** — no rewriting needed, so these build fastest.
-   Done so far: `the-day-at-the-market` (A2), `coffee-brewing` (A2),
-   `hiking-in-the-mountains` (A2), `climbing` (B1), `glamping` (B1),
-   `investigation-story` (B1 — reclassified to EDIT, see below), `cars` (B1), `snowy-days` (B1).
-   **Still to do:** `it-interview` (B2), `phrasal-verbs-01-bed-and-breakfast` (B2),
-   `phrasal-verbs-02-trip-abroad` (B2), `project-management-can-could-able-do-make` (B2),
-   `sales-strategy` (B2), `attention-economy` (C1, audio exists),
-   `technology-and-ethics` (C1), `physiological-stressors` (C1).
-   For any with existing mp3s in `cefr/texts/`, move the file to
-   `assets/audio/reading/{level}/{slug}.mp3` and record its fingerprint rather than re-narrating,
-   **but only if the passage is byte-identical** to what those files narrate; otherwise re-narrate.
-   In practice none has matched yet: the existing mp3s are split into 2–4 parts narrating an
-   older wording, so every text so far has been re-narrated as a single file.
+1. ~~**The `KEEP` texts**~~ — **done.** All 15 are implemented (Milestones 2 and 3).
+   No `KEEP` text ever matched its existing audio: the old mp3s in `cefr/texts/` are split into
+   2–4 parts narrating an earlier wording, so every one has been re-narrated as a single file
+   and the superseded segments removed.
 2. ~~**`exercises.html` → the levelled hub**~~ — **done** in Milestone 2. Regenerate it with
    `python3 scripts/build_exercises_hub.py` after any map change; implemented cards take their
    title and subtitle from the reading JSON, not from `card_title`/`card_desc`.
-3. **The 31 `EDIT` texts**, then the `MERGE`/`SPLIT` groups, then `REPLACE`, then `CONVERT`.
+3. **The 27 remaining `EDIT` texts**, then the `MERGE`/`SPLIT` groups, then `REPLACE`, then `CONVERT`.
 4. **The two `stale-on-edit` texts** (`capetown`, `physical-education`): once edited, their 4+4
    old mp3s in `cefr/texts/` must be replaced, not left behind.
 5. **New A1 and C2 content** for P-1, labelled `provenance: "new"`.

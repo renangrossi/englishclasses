@@ -521,8 +521,19 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 @media (max-width: 640px) {
   .page-header__badge { width: 64px; height: 64px; }
 }
-.page-header h1 { color: var(--color-text-on-dark); margin-top: var(--space-xs); font-size: var(--step-4); }
+.page-header h1,
+/* A reading page's banner heading is generic ("The Text") and is not the
+   document's <h1> -- the text's own title is, and it sits above the passage
+   where it belongs. This keeps the banner looking identical either way. */
+.page-header__label { color: var(--color-text-on-dark); margin-top: var(--space-xs); font-size: var(--step-4); }
+.page-header__label { font-family: var(--font-display); font-weight: 700; line-height: 1.15; margin-bottom: 0; }
 .page-header__lede { color: var(--color-text-on-dark-muted); max-width: 62ch; margin-top: var(--space-sm); font-size: var(--step-1); }
+/* The instruction line demonstrates a highlighted word, and now does so on
+   the dark banner -- the accent red used on white is far too dark there. */
+.page-header__lede .vocab-term {
+  color: var(--color-text-on-dark);
+  border-bottom-color: var(--color-text-on-dark-muted);
+}
 
 /* ---------------------------------------------------------------------
    Section shell

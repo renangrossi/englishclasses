@@ -200,7 +200,26 @@ def annotate(paras, vocab):
     return rendered, placed, headings
 
 
+# The instruction line that used to sit above the audio. It lives in the page
+# header now so that the text's own title can sit directly above the text --
+# see the note in page_header().
+READING_INTRO = ('Play the audio and follow along, then read it again on your own. '
+                 'Hover over a <span class="vocab-term" tabindex="0" role="note" '
+                 'data-definition="Like this one \u2014 the highlighted words carry a '
+                 'definition.">highlighted word</span> to see what it means.')
+
+
 def page_header(d):
+    """The banner carries what kind of page this is, not which text it is.
+
+    The text's own title and subtitle were here originally, which put them a
+    navigation bar and a section heading away from the passage they name. They
+    now open the reading section instead, immediately above the audio and the
+    prose, and the banner holds the generic heading and the instructions that
+    used to sit there. The title is still the page's only <h1>; it has just
+    moved down to the content it belongs to, which is also a better document
+    outline than a banner heading followed by an unrelated one.
+    """
     topic = rc.TOPIC_LABELS.get(d.get("topic", ""), "")
     eyebrow = f'{d["level"]} &middot; {esc(topic)}' if topic else d["level"]
     return f"""<div class="page-header">
@@ -208,8 +227,8 @@ def page_header(d):
         <div class="page-header__inner">
             <div class="page-header__text">
                 <p class="eyebrow hero__eyebrow">{eyebrow}</p>
-                <h1>{esc(d['title'])}</h1>
-                <p class="page-header__lede">{esc(d['subtitle'])}</p>
+                <p class="page-header__label">The Text</p>
+                <p class="page-header__lede">{READING_INTRO}</p>
                 <p class="page-header__actions" style="margin-top:var(--space-md);">{PRINT_BTN}</p>
             </div>
         </div>
@@ -262,13 +281,15 @@ def listen_and_read(d, level, slug):
         for v in (d.get("vocabulary") or []))
     gloss_html = (f'<div class="reading-glossary"><h3>Vocabulary</h3>'
                   f'<ul class="summary-list">{gloss}</ul></div>') if gloss else ""
-    mins = d.get("audio", {}).get("duration_label", "")
-    meta = f' <span>{esc(mins)}</span>' if mins else ""
+    # The running time is deliberately not printed here: the audio element
+    # already shows it (0:00 / 2:44) as soon as the metadata loads, so a
+    # second copy in the prose was duplicate furniture. duration_label is
+    # still recorded in the source JSON and still checked by the batch script.
     return f"""<section id="listen-and-read" class="section" aria-labelledby="lr-heading">
         <div class="section__inner">
             <p class="eyebrow">Listen &amp; Read</p>
-            <h2 id="lr-heading">The Text</h2>
-            <p style="color:var(--color-text-muted);margin-bottom:var(--space-md);max-width:60ch;">Play the audio and follow along, then read it again on your own. Hover over a <span class="vocab-term" tabindex="0" role="note" data-definition="Like this one — the highlighted words carry a definition.">highlighted word</span> to see what it means.{meta}</p>
+            <h1 id="lr-heading" class="reading-title">{esc(d['title'])}</h1>
+            <p class="reading-subtitle">{esc(d['subtitle'])}</p>
             <audio controls preload="metadata" src="{rc.audio_href(level, slug, REL)}">
                 <p>Your browser cannot play this audio. <a href="{rc.audio_href(level, slug, REL)}">Download the MP3</a> instead.</p>
             </audio>

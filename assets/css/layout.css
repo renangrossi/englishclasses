@@ -170,6 +170,12 @@
 
   .page-header { padding: 0 0 var(--space-md); border-bottom: 1px solid #000; margin-bottom: var(--space-md); }
   .page-header__lede { font-style: italic; }
+  /* On a reading page the banner's instruction line is about playing audio
+     and hovering, neither of which exists on paper. The generic heading above
+     it stays, so the banner does not print as an empty block. Scoped via
+     __label so that other pages, where the lede is the page's own
+     description, still print theirs. */
+  .page-header__label + .page-header__lede { display: none; }
   .section { padding: 0; margin-bottom: var(--space-lg); break-inside: auto; }
   .section--surface { background: none; }
   .section__inner { max-width: none; padding: 0; }
@@ -187,10 +193,6 @@
   .reading-passage p.reading-passage__heading,
   .reading-passage p.reading-passage__opener,
   .reading-passage p.reading-passage__turn { text-indent: 0; }
-  /* The drop cap prints too -- it is sized in em, so it follows the smaller
-     print body size down without any separate value. Keep it in ink-friendly
-     black rather than the accent red. */
-  .reading-passage__lead::first-letter { color: inherit; }
 
   /* A heading stranded at the foot of a page, or a single exercise item
      split across the fold, is the usual way a printed worksheet goes

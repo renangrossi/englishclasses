@@ -388,6 +388,30 @@ progress can be tracked and resumed. `docs/content-audit.md` is the human-readab
   **considered and not applied** — at a 62-character measure it opens rivers of white space,
   and ragged-right reads better on a phone.
 
+- **D-12 — The text's title sits above the text, not in the banner.** Requested by the user.
+  The banner used to carry the title and subtitle, which put them a navigation bar and a
+  section heading away from the passage they name. The banner now holds the generic heading
+  (“The Text”, as `.page-header__label`) and the instruction line; the reading section opens
+  with the text's own title and subtitle, immediately above the audio and the prose. The title
+  is still the page's only `<h1>` — it moved down to the content it names, which is a better
+  document outline than a banner heading followed by an unrelated section heading. Nothing
+  downstream broke: `<title>` is passed separately to `site_chrome.head()`, the breadcrumb is
+  built from the title, and the search index reads the source JSON rather than the HTML.
+
+  The **running time was removed** from the instruction line at the same time. It is not lost:
+  the `<audio>` element shows it (`0:00 / 2:44`) as soon as metadata loads, so the printed copy
+  was duplicate furniture. `audio.duration_label` is still recorded in every source JSON and
+  still verified by `finish_reading_batch.py`.
+
+  Two things that had to be handled and would be easy to reintroduce:
+  - The instruction line demonstrates a highlighted word, and it now does that on the **dark**
+    banner. The accent red used on white is far too dark there, so `.page-header__lede
+    .vocab-term` overrides the colour.
+  - In print the instruction line is hidden (it is about audio and hover, neither of which
+    exists on paper) but the generic heading is **kept**, otherwise the banner prints as an
+    empty navy block. The rule is scoped with `.page-header__label + .page-header__lede` so
+    that other pages, where the lede is the page's real description, still print theirs.
+
 ### Open problems
 
 - **P-1 — A1 and C2 gaps.** 1 A1 and 0 C2 source texts. A coherent progression needs new authored

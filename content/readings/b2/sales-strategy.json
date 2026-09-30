@@ -1,0 +1,399 @@
+{
+  "id": "b2-reading-sales-strategy",
+  "level": "B2",
+  "slug": "sales-strategy",
+  "topic": "business",
+  "title": "Sales Strategy in Modern Business",
+  "subtitle": "The vocabulary of a sales team: funnels, metrics, SPIN questions and the language of objection handling.",
+  "description": "A B2 business-English reading and listening text on modern sales strategy — CRM, KPIs, the sales funnel and the SPIN method — with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/sales-strategy.docx",
+  "provenance": "as-published",
+  "audio": {
+    "duration_label": "4:14"
+  },
+  "passage": [
+    "In a crowded marketplace, sales professionals have to go further than the traditional tactics if they want to connect with clients and close deals. Much of that work comes down to understanding a customer's pain points and offering a value proposition that actually speaks to them. Successful salespeople rely on a range of tools, from CRM (Customer Relationship Management) systems to pipeline management techniques, to track prospects and hold relationships together over the long term.",
+    "Sales teams work to specific numbers, usually called KPIs (Key Performance Indicators). These include the lead conversion rate, the customer acquisition cost (CAC) and the customer lifetime value (CLV), and each one says something different about how efficient and how profitable the effort really is. Reading and improving those numbers is what keeps the sales funnel healthy, from lead generation at the top to conversions at the bottom.",
+    "Effective selling also depends on strong communication, and nowhere more than in objection handling. When a prospect raises a concern, a skilled salesperson uses rebuttal techniques and needs-based selling to bring the conversation back on track. One of the best-known frameworks for guiding those discussions is SPIN selling, a method developed by Neil Rackham and widely used in consultative selling.",
+    "SPIN stands for Situation, Problem, Implication and Need-Payoff. The idea is to ask the right kind of question at each stage, so that the client's needs are genuinely understood before any solution is proposed.",
+    "Situation questions establish where the buyer currently stands — “What is your current process for this?” or “How do you handle that today?” The aim is background, gathered without overwhelming the client.",
+    "Problem questions then uncover the specific difficulties the prospect is facing: “What issues have you run into with your current system?” or “Is it hard to hit that target with the resources you have?” This is the step that brings the underlying need to the surface.",
+    "Implication questions probe what those problems cost. “What effect does that have on your team's productivity?” or “How does it show up in your bottom line?” Questions like these let the prospect see the size of the problem for themselves, which is what creates a sense of urgency.",
+    "Need-payoff questions turn to the benefit of fixing it: “If you could solve that, how would your workflow change?” or “What would that be worth to your team?” The client describes the value in their own words, and the salesperson can then present the product as the answer.",
+    "Alongside SPIN, many salespeople use solution selling, which concentrates on solving the client's problem rather than listing the product's features. In B2B sales, becoming a trusted advisor matters more than anything: this is consultative selling, where the salesperson behaves like a consultant, bringing insight and a tailored solution. Trust in B2B often rests on account-based marketing (ABM), where the whole approach is personalized for one client, especially a large account.",
+    "Upselling and cross-selling are how teams get more value from the clients they already have. Upselling moves a customer to a more expensive version of a product; cross-selling suggests something that goes with it. Done well — which means done in response to a real need — they raise the average deal size and strengthen loyalty at the same time. Done badly, they simply annoy people.",
+    "Sales enablement is the work of giving a team what it needs to sell: scripts, playbooks, training and competitor analysis. Paired with data-driven selling, where analytics point to the leads most likely to convert, it lets a team spend its time where the time will pay. And as more business moves online, salespeople are learning social selling — using social media to reach prospects and build interest — and running their calls over video rather than across a desk.",
+    "Modern selling, in short, is a blend of strategic planning, digital tools and ordinary interpersonal skill. The leaders in the field know that success is not one closed deal; it is the relationship, the data behind it, and the willingness to keep adapting as the customer changes."
+  ],
+  "vocabulary": [
+    {
+      "term": "pain point",
+      "definition": "a specific problem a customer is suffering from and wants solved",
+      "match": "pain points"
+    },
+    {
+      "term": "value proposition",
+      "definition": "the clear statement of what a customer gains by buying"
+    },
+    {
+      "term": "prospect",
+      "definition": "a potential customer who has not yet bought anything",
+      "match": "prospects"
+    },
+    {
+      "term": "lead",
+      "definition": "a person or company that has shown some interest and might become a customer"
+    },
+    {
+      "term": "conversion",
+      "definition": "the moment a lead becomes a paying customer",
+      "match": "conversions"
+    },
+    {
+      "term": "sales funnel",
+      "definition": "the narrowing path from many early leads down to a few actual sales"
+    },
+    {
+      "term": "objection handling",
+      "definition": "responding to a buyer's stated doubts without losing the sale"
+    },
+    {
+      "term": "rebuttal",
+      "definition": "a reasoned answer to an objection"
+    },
+    {
+      "term": "consultative selling",
+      "definition": "selling by advising the client rather than by pitching at them"
+    },
+    {
+      "term": "to probe",
+      "definition": "to ask careful questions in order to uncover something",
+      "match": "probe"
+    },
+    {
+      "term": "bottom line",
+      "definition": "a company's final profit — and, by extension, what really matters"
+    },
+    {
+      "term": "urgency",
+      "definition": "the feeling that something must be dealt with now"
+    },
+    {
+      "term": "to upsell",
+      "definition": "to move a customer to a more expensive version of what they are buying",
+      "match": "Upselling"
+    },
+    {
+      "term": "to cross-sell",
+      "definition": "to sell an additional product that goes with the first one",
+      "match": "cross-selling"
+    },
+    {
+      "term": "account",
+      "definition": "a client company, seen as an ongoing commercial relationship"
+    },
+    {
+      "term": "playbook",
+      "definition": "a written guide to the moves a team should make in common situations",
+      "match": "playbooks"
+    },
+    {
+      "term": "to convert",
+      "definition": "to turn a lead into a customer"
+    },
+    {
+      "term": "to close a deal",
+      "definition": "to complete a sale",
+      "match": "close deals"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-sales-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Several of these ask you to work out why a technique is used, not just what it is called.",
+      "items": [
+        {
+          "id": "sl1",
+          "prompt": "What is a CRM system for, according to the text?",
+          "options": [
+            "Calculating commission for the sales team",
+            "Keeping track of potential customers and maintaining the relationship over time",
+            "Designing advertising campaigns"
+          ],
+          "answerIndex": 1,
+          "explanation": "CRM systems are listed among the tools used “to track prospects and hold relationships together over the long term”."
+        },
+        {
+          "id": "sl2",
+          "prompt": "Why does a team watch CAC and CLV together rather than either one alone?",
+          "options": [
+            "Because one shows what a customer costs to win and the other what they are ultimately worth, and only the pair shows whether the effort pays",
+            "Because accounting rules require both figures",
+            "Because CLV replaces CAC once a customer has bought twice"
+          ],
+          "answerIndex": 0,
+          "explanation": "The text says each metric gives “insight into the efficiency and profitability” — the cost of acquisition only means something next to the value acquired."
+        },
+        {
+          "id": "sl3",
+          "prompt": "Why is the sales process pictured as a funnel?",
+          "options": [
+            "Because the work flows downward through a fixed number of departments",
+            "Because many leads enter at the top and only a fraction come out as sales at the bottom",
+            "Because each stage costs more than the last"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text describes it “from lead generation at the top to conversions at the bottom” — the shape is the narrowing."
+        },
+        {
+          "id": "sl4",
+          "prompt": "What is the purpose of an Implication question in SPIN?",
+          "options": [
+            "To gather background about the buyer's current process",
+            "To describe the product's advantages",
+            "To let the prospect see the cost of the problem themselves, which creates urgency"
+          ],
+          "answerIndex": 2,
+          "explanation": "Implication questions “probe what those problems cost” and “let the prospect see the size of the problem for themselves, which is what creates a sense of urgency”."
+        },
+        {
+          "id": "sl5",
+          "prompt": "Why does the Need-Payoff stage have the client describe the benefit rather than the salesperson?",
+          "options": [
+            "Because the salesperson is not allowed to mention benefits at that stage",
+            "Because the client is better informed about the product",
+            "Because a value the client has stated in their own words is more convincing than one they have been told"
+          ],
+          "answerIndex": 2,
+          "explanation": "“The client describes the value in their own words, and the salesperson can then present the product as the answer.”"
+        },
+        {
+          "id": "sl6",
+          "prompt": "What distinguishes solution selling from a conventional pitch?",
+          "options": [
+            "It concentrates on the client's problem instead of on the product's features",
+            "It is used only with existing customers",
+            "It avoids discussing price"
+          ],
+          "answerIndex": 0,
+          "explanation": "Solution selling “concentrates on solving the client's problem rather than listing the product's features”."
+        },
+        {
+          "id": "sl7",
+          "prompt": "The text says upselling and cross-selling strengthen loyalty “done well”. What does it mean by that qualification?",
+          "options": [
+            "That they must be offered at a discount",
+            "That they must answer a real need; otherwise they simply irritate the customer",
+            "That they should only be attempted by senior staff"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Done well — which means done in response to a real need… Done badly, they simply annoy people.”"
+        },
+        {
+          "id": "sl8",
+          "prompt": "What is the writer's final point about what counts as success in sales?",
+          "options": [
+            "That the closed deal is the only measure that matters",
+            "That digital tools have made interpersonal skill unnecessary",
+            "That the relationship, the data behind it and continued adaptation matter more than any single sale"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Success is not one closed deal; it is the relationship, the data behind it, and the willingness to keep adapting.”"
+        }
+      ]
+    },
+    {
+      "id": "b2-sales-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement reflects the text.",
+      "items": [
+        {
+          "id": "slt1",
+          "statement": "SPIN questions are asked in a deliberate order, each one building on the last.",
+          "answer": true,
+          "explanation": "True — Situation, then Problem, then Implication, then Need-Payoff, “so that the client's needs are genuinely understood before any solution is proposed”."
+        },
+        {
+          "id": "slt2",
+          "statement": "Situation questions should be asked in as much detail as possible.",
+          "answer": false,
+          "explanation": "False — the aim is background “gathered without overwhelming the client”."
+        },
+        {
+          "id": "slt3",
+          "statement": "Account-based marketing treats every client the same way for efficiency.",
+          "answer": false,
+          "explanation": "False — in ABM “the whole approach is personalized for one client, especially a large account”."
+        },
+        {
+          "id": "slt4",
+          "statement": "Upselling and cross-selling are different techniques.",
+          "answer": true,
+          "explanation": "True — upselling moves the customer to a costlier version; cross-selling adds a complementary product."
+        },
+        {
+          "id": "slt5",
+          "statement": "Sales enablement is about the tools and training given to the team, not about the customer.",
+          "answer": true,
+          "explanation": "True — “scripts, playbooks, training and competitor analysis” — it is what equips the sellers."
+        },
+        {
+          "id": "slt6",
+          "statement": "The text says data-driven selling replaces interpersonal skill.",
+          "answer": false,
+          "explanation": "False — modern selling is “a blend of strategic planning, digital tools and ordinary interpersonal skill”."
+        }
+      ]
+    },
+    {
+      "id": "b2-sales-vocabulary",
+      "type": "fill-blank",
+      "title": "Sales Vocabulary in Use",
+      "instructions": "Complete each sentence with the term a sales team would actually use.",
+      "items": [
+        {
+          "id": "slf1",
+          "prompt": "Before we pitch anything, we need to understand their real ___ ___.",
+          "answers": [
+            "pain",
+            "points"
+          ],
+          "options": [
+            [
+              "pain",
+              "sales",
+              "value"
+            ],
+            [
+              "points",
+              "funnels",
+              "accounts"
+            ]
+          ],
+          "explanation": "A pain point is the specific problem the customer wants solved."
+        },
+        {
+          "id": "slf2",
+          "prompt": "We have plenty of leads at the top of the ___, but very few of them convert.",
+          "answers": [
+            "funnel"
+          ],
+          "options": [
+            "funnel",
+            "playbook",
+            "rebuttal"
+          ],
+          "explanation": "The sales funnel narrows from many leads to a few sales."
+        },
+        {
+          "id": "slf3",
+          "prompt": "She's very good at ___ handling — she never gets defensive when a client pushes back.",
+          "answers": [
+            "objection"
+          ],
+          "options": [
+            "objection",
+            "account",
+            "lead"
+          ],
+          "explanation": "Objection handling is responding to a buyer's doubts without losing the sale."
+        },
+        {
+          "id": "slf4",
+          "prompt": "They bought the basic plan last year, so there's a clear chance to ___ them to the premium tier.",
+          "answers": [
+            "upsell"
+          ],
+          "options": [
+            "upsell",
+            "cross-sell",
+            "convert"
+          ],
+          "explanation": "Upselling moves a customer to a more expensive version of what they already buy."
+        },
+        {
+          "id": "slf5",
+          "prompt": "Cutting the delay would go straight to their ___ ___, so that's the argument to make.",
+          "answers": [
+            "bottom",
+            "line"
+          ],
+          "options": [
+            [
+              "bottom",
+              "top",
+              "final"
+            ],
+            [
+              "line",
+              "figure",
+              "point"
+            ]
+          ],
+          "explanation": "The bottom line is a company's final profit — and by extension, what really counts."
+        },
+        {
+          "id": "slf6",
+          "prompt": "New reps are given a ___ so they know how to respond in the twenty most common situations.",
+          "answers": [
+            "playbook"
+          ],
+          "options": [
+            "playbook",
+            "prospect",
+            "proposition"
+          ],
+          "explanation": "A playbook sets out the moves a team should make in familiar situations."
+        }
+      ]
+    },
+    {
+      "id": "b2-sales-acronyms",
+      "type": "matching",
+      "title": "Acronyms",
+      "instructions": "Match each acronym to what it stands for.",
+      "items": [
+        {
+          "id": "sla",
+          "pairs": [
+            {
+              "left": "CRM",
+              "right": "Customer Relationship Management"
+            },
+            {
+              "left": "KPI",
+              "right": "Key Performance Indicator"
+            },
+            {
+              "left": "CAC",
+              "right": "Customer Acquisition Cost"
+            },
+            {
+              "left": "CLV",
+              "right": "Customer Lifetime Value"
+            },
+            {
+              "left": "ABM",
+              "right": "Account-Based Marketing"
+            },
+            {
+              "left": "SPIN",
+              "right": "Situation, Problem, Implication, Need-Payoff"
+            }
+          ],
+          "explanation": "Each of these appears in the text: CRM and ABM are systems or strategies, KPI/CAC/CLV are measurements, and SPIN is the four-stage questioning method."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Think of the last significant thing you bought. Which of the four SPIN stages did the seller actually reach?",
+    "The text says upselling done badly “simply annoys people”. Describe a time that happened to you.",
+    "Is consultative selling honest, or is calling yourself a “trusted advisor” just another technique? Argue one side.",
+    "Which is harder to sell — something a customer already knows they need, or something they don't? Why?",
+    "Write about 150 words describing a product or service you know well, aimed at one specific customer's pain point rather than at everyone."
+  ]
+}

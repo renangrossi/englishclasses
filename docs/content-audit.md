@@ -9,7 +9,7 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 16 of 98 implemented.**
+**Progress: 21 of 98 implemented.**
 
 ## Totals
 
@@ -45,8 +45,8 @@ content rather than as pre-existing.
 
 | Audio | Docs | |
 |---|---:|---|
-| `required` | 56 | must be generated |
-| `exists` | 12 | mp3 present and matches the text |
+| `required` | 51 | must be generated |
+| `exists` | 17 | mp3 present and matches the text |
 | `stale-on-edit` | 2 | mp3 present but the text is being edited -- **must be regenerated** |
 | `n/a` | 28 | drill / answer key / discussion bank -- not a reading text |
 
@@ -189,12 +189,12 @@ Already good; convert as-is.
 | `coffee-brewing`<br>[page](../reading/a2/coffee-brewing.html) | 321 | reading | A2 | food | `exists` | IMPLEMENTED | Well-formed procedural text; good imperative/sequencing practice. |
 | `glamping`<br>[page](../reading/b1/glamping.html) | 520 | reading | B1 | travel | `required` | IMPLEMENTED | Well-written travel text on a current trend, needing no editorial repair. The source's 'Activity I' worksheet framing and its redundant closing paragraph were trimmed; the prose itself is as published. |
 | `hiking-in-the-mountains`<br>[page](../reading/a2/hiking-in-the-mountains.html) | 292 | reading | A2 | everyday | `exists` | IMPLEMENTED | Simple, natural past-tense narrative. Has 2 mp3 segments. |
-| `it-interview` | 447 | dialogue | B2 | interviews | `required` | NOT STARTED | Realistic technical job interview; directly serves the job-interview brief. |
-| `phrasal-verbs-01-bed-and-breakfast` | 1153 | reading | B2 | everyday | `required` | NOT STARTED | Dense but natural phrasal-verb narrative; among the strongest material in the library. |
-| `phrasal-verbs-02-trip-abroad` | 1019 | reading | B2 | travel | `required` | NOT STARTED | Same strength, US travel setting, English names already. |
+| `it-interview`<br>[page](../reading/b2/it-interview.html) | 447 | dialogue | B2 | interviews | `exists` | IMPLEMENTED | Realistic technical job interview; directly serves the job-interview brief. |
+| `phrasal-verbs-01-bed-and-breakfast`<br>[page](../reading/b2/phrasal-verbs-01-bed-and-breakfast.html) | 1153 | reading | B2 | everyday | `exists` | IMPLEMENTED | Dense but natural phrasal-verb narrative; among the strongest material in the library. |
+| `phrasal-verbs-02-trip-abroad`<br>[page](../reading/b2/phrasal-verbs-02-trip-abroad.html) | 1019 | reading | B2 | travel | `exists` | IMPLEMENTED | Same strength, US travel setting, English names already. |
 | `physiological-stressors` | 832 | reading | C1 | sports | `required` | NOT STARTED | Authentically C1 technical prose; good for advanced learners who read in their field. |
-| `project-management-can-could-able-do-make` | 597 | reading | B2 | work | `required` | NOT STARTED | Solid workplace-modality text with an English-named cast. |
-| `sales-strategy` | 701 | reading | B2 | business | `required` | NOT STARTED | Natural business-English text with genuinely useful collocations and acronyms. |
+| `project-management-can-could-able-do-make`<br>[page](../reading/b2/project-management-can-could-able-do-make.html) | 597 | reading | B2 | work | `exists` | IMPLEMENTED | Solid workplace-modality text with an English-named cast. |
+| `sales-strategy`<br>[page](../reading/b2/sales-strategy.html) | 701 | reading | B2 | business | `exists` | IMPLEMENTED | Natural business-English text with genuinely useful collocations and acronyms. |
 | `snowy-days`<br>[page](../reading/b1/snowy-days.html) | 473 | reading | B1 | everyday | `required` | IMPLEMENTED | Authentic informal American register -- exactly the colloquial English the library is short of. Kept as published; only the source's ellipses were normalized to dashes and 'public transportation' spelled out. |
 | `technology-and-ethics` | 648 | reading | C1 | tech | `required` | NOT STARTED | Genuinely C1, professionally relevant, natural register. |
 | `the-day-at-the-market`<br>[page](../reading/a2/the-day-at-the-market.html) | 269 | reading | A2 | everyday | `exists` | IMPLEMENTED | Simple, natural and well-levelled present-simple description. Lightly edited: the friend is named, the market is identified as a farmers market, and the American 'stand' is used alongside 'stall'. |

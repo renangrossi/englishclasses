@@ -1,0 +1,436 @@
+{
+  "id": "b2-reading-phrasal-verbs-02",
+  "level": "B2",
+  "slug": "phrasal-verbs-02-trip-abroad",
+  "topic": "travel",
+  "title": "Setting Off",
+  "subtitle": "A trip from the airport to New York to Washington, told almost entirely in phrasal verbs.",
+  "description": "A B2 travel reading and listening text built on the phrasal verbs of journeys — set off, check in, touch down, head over, look back on — with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/phrasal-verbs-02-trip-abroad.docx",
+  "provenance": "as-published",
+  "audio": {
+    "duration_label": "1:46"
+  },
+  "passage": [
+    "Anna and Mark had been planning their trip to the United States for months, and the day had finally come to set off. They had packed up their suitcases the night before and made sure to check in online for the flight, so that the morning would be one thing less to worry about.",
+    "At the airport they checked in their luggage and went through security without any trouble. That left a couple of hours before boarding, so they browsed around the duty-free shops. Anna found a perfume she liked and picked it up as a souvenir.",
+    "Once they had boarded, they settled in for the long flight. Mark pulled out his tablet to watch a film; Anna dozed off almost before the plane had levelled out. The flight was smooth, and they touched down in New York in the early afternoon.",
+    "After they got through customs they picked up their rental car and headed out to the hotel. They were keen to check out Times Square, so once they had freshened up they headed over to it on foot. The lights and the noise were overwhelming in the best way, and they stood there a while taking in the sights and sounds of the city.",
+    "The next day they drove down to Washington, D.C. They set out early to get ahead of the traffic and made good time on the road. When they arrived they checked into their new hotel and set off again to explore the National Mall, walking around the monuments and taking in the history behind each one.",
+    "Over the rest of the trip they ate out at one local restaurant after another, picked up a few more souvenirs, and met up with an old friend who had moved to the States some years earlier. When the time came to pack up and head back home they were sorry to go, but they had a great many photographs to look back on.",
+    "On the last morning they checked out of the hotel, dropped off the rental car and headed to the airport. As they boarded the flight home, they found themselves already looking forward to the next trip."
+  ],
+  "vocabulary": [
+    {
+      "term": "to set off",
+      "definition": "to begin a journey",
+      "match": "set off"
+    },
+    {
+      "term": "to pack up",
+      "definition": "to put your belongings into bags before leaving",
+      "match": "packed up"
+    },
+    {
+      "term": "to check in",
+      "definition": "to register your arrival at an airport or hotel, or hand over your luggage",
+      "match": "check in"
+    },
+    {
+      "term": "to go through",
+      "definition": "to pass through a process, such as security or customs",
+      "match": "went through"
+    },
+    {
+      "term": "to browse around",
+      "definition": "to look at things without any intention of buying",
+      "match": "browsed around"
+    },
+    {
+      "term": "to settle in",
+      "definition": "to make yourself comfortable in a new place",
+      "match": "settled in"
+    },
+    {
+      "term": "to pull out",
+      "definition": "to take something out of where it was stored",
+      "match": "pulled out"
+    },
+    {
+      "term": "to doze off",
+      "definition": "to fall lightly asleep without meaning to",
+      "match": "dozed off"
+    },
+    {
+      "term": "to touch down",
+      "definition": "to land, said of an aircraft",
+      "match": "touched down"
+    },
+    {
+      "term": "to get through",
+      "definition": "to complete a process such as customs and come out the other side",
+      "match": "got through"
+    },
+    {
+      "term": "to check out",
+      "definition": "to go and see something; separately, to leave a hotel after paying",
+      "match": "check out"
+    },
+    {
+      "term": "to freshen up",
+      "definition": "to wash and tidy yourself after travelling",
+      "match": "freshened up"
+    },
+    {
+      "term": "to head over",
+      "definition": "to go across to a nearby place",
+      "match": "headed over"
+    },
+    {
+      "term": "to take in",
+      "definition": "to look at something and absorb it",
+      "match": "taking in"
+    },
+    {
+      "term": "to set out",
+      "definition": "to begin a journey, especially at a stated time",
+      "match": "set out"
+    },
+    {
+      "term": "to make good time",
+      "definition": "to travel faster than you had expected",
+      "match": "made good time"
+    },
+    {
+      "term": "to eat out",
+      "definition": "to have a meal in a restaurant rather than at home",
+      "match": "ate out"
+    },
+    {
+      "term": "to meet up with",
+      "definition": "to meet someone by arrangement",
+      "match": "met up with"
+    },
+    {
+      "term": "to head back",
+      "definition": "to return to where you came from",
+      "match": "head back"
+    },
+    {
+      "term": "to look back on",
+      "definition": "to remember and reflect on something past",
+      "match": "look back on"
+    },
+    {
+      "term": "to drop off",
+      "definition": "to take something or someone somewhere and leave it there",
+      "match": "dropped off"
+    },
+    {
+      "term": "to look forward to",
+      "definition": "to feel pleased about something that is going to happen",
+      "match": "looking forward to"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-pv2-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Some of these ask you to work out what happened from the way it is described.",
+      "items": [
+        {
+          "id": "pv21",
+          "prompt": "Why did Anna and Mark check in online the night before?",
+          "options": [
+            "Because the airline charges for checking in at the airport",
+            "To leave themselves one less thing to deal with on the morning of the flight",
+            "Because their luggage was too heavy for the desk"
+          ],
+          "answerIndex": 1,
+          "explanation": "“So that the morning would be one thing less to worry about.”"
+        },
+        {
+          "id": "pv22",
+          "prompt": "“Anna dozed off almost before the plane had levelled out.” What does this tell us?",
+          "options": [
+            "That she fell asleep very soon after take-off",
+            "That she was unwell during the climb",
+            "That the flight was delayed on the runway"
+          ],
+          "answerIndex": 0,
+          "explanation": "A plane levels out a few minutes after take-off; she was asleep before then."
+        },
+        {
+          "id": "pv23",
+          "prompt": "“Check in” and “check out” both appear twice in this text, with different meanings each time. Which pair is correct?",
+          "options": [
+            "Check in = board a plane / arrive at a hotel; check out = pay a bill / buy something",
+            "Check in = hand over luggage / register at a hotel; check out = go and see something / leave a hotel after paying",
+            "Check in = look at something / register; check out = depart / land"
+          ],
+          "answerIndex": 1,
+          "explanation": "They check in their luggage and check into the Washington hotel; they check out Times Square (go and see it) and check out of the hotel on the last morning."
+        },
+        {
+          "id": "pv24",
+          "prompt": "Why did they set out early for Washington?",
+          "options": [
+            "To arrive before the monuments closed",
+            "To get ahead of the traffic",
+            "Because the rental car had to be returned that day"
+          ],
+          "answerIndex": 1,
+          "explanation": "“They set out early to get ahead of the traffic and made good time on the road.”"
+        },
+        {
+          "id": "pv25",
+          "prompt": "What does “made good time” mean here?",
+          "options": [
+            "They enjoyed the journey",
+            "They arrived at exactly the planned hour",
+            "The drive took less time than expected"
+          ],
+          "answerIndex": 2,
+          "explanation": "To make good time is to travel faster than you had allowed for — the result of leaving before the traffic."
+        },
+        {
+          "id": "pv26",
+          "prompt": "The text says the lights and noise of Times Square were “overwhelming in the best way”. What is being conveyed?",
+          "options": [
+            "That the experience was intense and they enjoyed it",
+            "That they found the crowds unpleasant",
+            "That they could not see properly"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Overwhelming” is usually negative; “in the best way” turns it round — too much, and welcome for it."
+        },
+        {
+          "id": "pv27",
+          "prompt": "How does the text end, in terms of the travellers' feelings?",
+          "options": [
+            "Relieved to be going home after a tiring trip",
+            "Sorry to leave, but already anticipating the next journey",
+            "Undecided about whether they would travel again"
+          ],
+          "answerIndex": 1,
+          "explanation": "“They were sorry to go”, and by the final line they are “already looking forward to the next trip”."
+        }
+      ]
+    },
+    {
+      "id": "b2-pv2-particles",
+      "type": "fill-blank",
+      "title": "Choose the Particle",
+      "instructions": "Complete each sentence with the particle that gives the meaning the situation needs.",
+      "items": [
+        {
+          "id": "pvq1",
+          "prompt": "We set ___ at six in the morning to avoid the worst of the traffic.",
+          "answers": [
+            "out"
+          ],
+          "options": [
+            "out",
+            "in",
+            "over"
+          ],
+          "explanation": "To set out is to begin a journey, usually with the time mentioned. Set off would also work; set in and set over would not."
+        },
+        {
+          "id": "pvq2",
+          "prompt": "The plane touched ___ twenty minutes ahead of schedule.",
+          "answers": [
+            "down"
+          ],
+          "options": [
+            "down",
+            "off",
+            "in"
+          ],
+          "explanation": "An aircraft touches down when it lands."
+        },
+        {
+          "id": "pvq3",
+          "prompt": "I dozed ___ during the film and missed the ending.",
+          "answers": [
+            "off"
+          ],
+          "options": [
+            "off",
+            "out",
+            "down"
+          ],
+          "explanation": "To doze off is to fall lightly asleep without meaning to."
+        },
+        {
+          "id": "pvq4",
+          "prompt": "We're meeting ___ ___ some friends at the restaurant at eight.",
+          "answers": [
+            "up",
+            "with"
+          ],
+          "options": [
+            [
+              "up",
+              "out",
+              "over"
+            ],
+            [
+              "with",
+              "to",
+              "at"
+            ]
+          ],
+          "explanation": "To meet up with someone is to meet them by arrangement."
+        },
+        {
+          "id": "pvq5",
+          "prompt": "Can you drop the car ___ at the rental desk before we go to the gate?",
+          "answers": [
+            "off"
+          ],
+          "options": [
+            "off",
+            "in",
+            "over"
+          ],
+          "explanation": "To drop something off is to take it somewhere and leave it."
+        },
+        {
+          "id": "pvq6",
+          "prompt": "I'm really looking ___ ___ the weekend.",
+          "answers": [
+            "forward",
+            "to"
+          ],
+          "options": [
+            [
+              "forward",
+              "back",
+              "ahead"
+            ],
+            [
+              "to",
+              "for",
+              "at"
+            ]
+          ],
+          "explanation": "Look forward to is about the future; look back on is about the past."
+        },
+        {
+          "id": "pvq7",
+          "prompt": "It's a trip we'll look ___ ___ for years.",
+          "answers": [
+            "back",
+            "on"
+          ],
+          "options": [
+            [
+              "back",
+              "forward",
+              "over"
+            ],
+            [
+              "on",
+              "to",
+              "at"
+            ]
+          ],
+          "explanation": "To look back on something is to remember and reflect on it."
+        }
+      ]
+    },
+    {
+      "id": "b2-pv2-matching",
+      "type": "matching",
+      "title": "The Verbs of a Journey",
+      "instructions": "Match each phrasal verb to what it means in this text.",
+      "items": [
+        {
+          "id": "pvn1",
+          "pairs": [
+            {
+              "left": "set off",
+              "right": "to begin a journey"
+            },
+            {
+              "left": "settle in",
+              "right": "to make yourself comfortable in a new place"
+            },
+            {
+              "left": "freshen up",
+              "right": "to wash and tidy yourself after travelling"
+            },
+            {
+              "left": "browse around",
+              "right": "to look at things without intending to buy"
+            },
+            {
+              "left": "take in",
+              "right": "to look at something and absorb it"
+            },
+            {
+              "left": "get through",
+              "right": "to complete a process such as customs"
+            },
+            {
+              "left": "eat out",
+              "right": "to have a meal in a restaurant"
+            },
+            {
+              "left": "head back",
+              "right": "to return to where you came from"
+            }
+          ],
+          "explanation": "Several of these share a particle with a different sense elsewhere — compare take in here with take in meaning to deceive, or get through meaning to finish a task."
+        }
+      ]
+    },
+    {
+      "id": "b2-pv2-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "pvs1",
+          "statement": "They had problems at airport security.",
+          "answer": false,
+          "explanation": "False — they “went through security without any trouble”."
+        },
+        {
+          "id": "pvs2",
+          "statement": "Anna bought the perfume as a gift for someone else.",
+          "answer": false,
+          "explanation": "False — she “picked it up as a souvenir”, which is something kept as a reminder of the trip."
+        },
+        {
+          "id": "pvs3",
+          "statement": "They travelled from New York to Washington by car.",
+          "answer": true,
+          "explanation": "True — they drove down, having picked up a rental car in New York."
+        },
+        {
+          "id": "pvs4",
+          "statement": "The friend they met had recently moved to the United States.",
+          "answer": false,
+          "explanation": "False — the friend “had moved to the States some years earlier”."
+        },
+        {
+          "id": "pvs5",
+          "statement": "They returned the rental car before going to the airport.",
+          "answer": true,
+          "explanation": "True — “they checked out of the hotel, dropped off the rental car and headed to the airport”."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Describe your last journey using at least eight phrasal verbs from this text.",
+    "Which is better on a short trip — planning every day in advance, as Anna and Mark did, or deciding as you go?",
+    "“Check out” means two quite different things in this text. Find another English verb that changes meaning with its particle, and explain both senses.",
+    "Is a souvenir worth buying? What do you actually keep from a trip?",
+    "Write about 150 words describing a journey you would like to make, from setting off to heading back."
+  ]
+}

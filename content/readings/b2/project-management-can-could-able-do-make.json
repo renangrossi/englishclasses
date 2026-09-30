@@ -1,0 +1,431 @@
+{
+  "id": "b2-reading-project-management",
+  "level": "B2",
+  "slug": "project-management-can-could-able-do-make",
+  "topic": "work",
+  "title": "Clarifying Roles and Responsibilities",
+  "subtitle": "A project manager and a sales manager work out who can do what, and by when.",
+  "description": "A B2 workplace reading and listening text: a project-management check-in that shows how can, could and be able to express commitment, and how do and make divide the work.",
+  "source": "cefr/texts/project-management-can-could-able-do-make.docx",
+  "provenance": "as-published",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "3:41"
+  },
+  "passage": [
+    "In project management and sales, clear communication and well-defined roles decide whether a project lands. That matters most under a tight deadline, with a client who cannot be kept waiting. Being able to say precisely what you can do now, what you could do later, and what you might be able to achieve given the right conditions is a professional skill in itself. So is knowing whether you do something or make something, because the choice quietly shapes how a responsibility is understood.",
+    "Emma, an experienced project manager, is overseeing the development of a new e-commerce platform for a major retail client. Her job is to coordinate across departments — sales, development, design and quality assurance. Mark, the sales manager, is the client's main point of contact, and he is usually the one negotiating timelines and deliverables.",
+    "At the start of the week, Emma called a meeting with Mark to go over the project's progress and head off any roadblocks.",
+    "Emma: Mark, thanks for joining. I wanted to check in about the client's latest feedback. Do you think you can reach out and clarify their priorities? There's some confusion right now about which features are non-negotiable.",
+    "Mark: Absolutely, I can handle that. In fact, I think I'll be able to get them to name their top three requirements. I've built up a good rapport with their product team.",
+    "Emma: That's great to hear. If you could confirm those priorities by Wednesday, it would let us close out the design phase. The team is hesitant to move forward without a clearer scope.",
+    "Mark: Understood. By the way, did the team make any changes to the initial wireframes?",
+    "Emma: They've started, but there's a lot more to do. The designers are focused on the homepage layout, and they'll need your input before we move on to the other sections.",
+    "Mark: Sure thing. I'll review the wireframes once they're ready. Also — the client asked whether we could deliver a prototype earlier than planned. Do you think we'd be able to accommodate that?",
+    "Emma: That depends on the scope. If they're open to a simplified version for the prototype, we can aim for an earlier delivery. If they expect every feature in it, we'd need more time, not less.",
+    "Mark: Got it. I'll propose the simplified version and see whether they agree. It's always a balancing act — making the client happy without overpromising.",
+    "Emma: Exactly. And speaking of balance, how is the sales report for the executive team? Were you able to make the updates we talked about last week?",
+    "Mark: Yes, I've started working your suggestions in. There's still some analysis to do, but I'll have it ready by Friday.",
+    "Emma: Perfect. Once it's done, we'll make sure the report brings out the client's strategic value. That's what will justify any extra resources we ask for.",
+    "Mark: Agreed. Let me know if there's anything else I can support you with.",
+    "Emma: Will do. Thanks, Mark. Let's regroup after your call with the client.",
+    "The exchange shows how collaboration actually works between these two roles. Emma has to keep tasks clearly defined and make sure the team can hit its deadlines without cutting into quality. Mark's side is negotiation and relationship-building, and keeping what the client wants inside what the team can realistically deliver. Neither of them promises anything they cannot hold to, which is why the project is still on schedule."
+  ],
+  "vocabulary": [
+    {
+      "term": "deliverable",
+      "definition": "a specific item a team has contracted to hand over",
+      "match": "deliverables"
+    },
+    {
+      "term": "roadblock",
+      "definition": "an obstacle that stops work from moving forward",
+      "match": "roadblocks"
+    },
+    {
+      "term": "to reach out",
+      "definition": "to make contact with someone, usually to ask or offer something",
+      "match": "reach out"
+    },
+    {
+      "term": "non-negotiable",
+      "definition": "not open to discussion or compromise"
+    },
+    {
+      "term": "rapport",
+      "definition": "an easy, trusting working relationship"
+    },
+    {
+      "term": "scope",
+      "definition": "the agreed boundary of what a project does and does not include"
+    },
+    {
+      "term": "wireframe",
+      "definition": "a simple outline drawing of a page's layout, made before any design work",
+      "match": "wireframes"
+    },
+    {
+      "term": "prototype",
+      "definition": "an early working version built to test an idea"
+    },
+    {
+      "term": "to accommodate",
+      "definition": "to find a way to fit in with what someone is asking for"
+    },
+    {
+      "term": "balancing act",
+      "definition": "a situation where two competing demands must both be satisfied"
+    },
+    {
+      "term": "to overpromise",
+      "definition": "to commit to more than you can actually deliver",
+      "match": "overpromising"
+    },
+    {
+      "term": "quality assurance",
+      "definition": "the work of testing and checking that what is built meets its standard"
+    },
+    {
+      "term": "to regroup",
+      "definition": "to meet again after separate work to compare notes and decide the next step"
+    },
+    {
+      "term": "to close out",
+      "definition": "to finish a phase of work and formally end it",
+      "match": "close out"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-pm-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Meeting",
+      "instructions": "Read for what each person is committing to, and how firmly.",
+      "items": [
+        {
+          "id": "pm1",
+          "prompt": "Why does Emma need the client's priorities confirmed?",
+          "options": [
+            "Because the designers refuse to work without written instructions",
+            "Because the design phase cannot be closed while the scope is still unclear",
+            "Because the client has not yet paid the first invoice"
+          ],
+          "answerIndex": 1,
+          "explanation": "“If you could confirm those priorities by Wednesday, it would let us close out the design phase. The team is hesitant to move forward without a clearer scope.”"
+        },
+        {
+          "id": "pm2",
+          "prompt": "Mark says “I can handle that” and then “I think I'll be able to get them to name their top three requirements.” What is the difference between the two?",
+          "options": [
+            "The first is a firm commitment about his own action; the second is a prediction about what he can get someone else to do",
+            "The first is polite and the second is informal",
+            "There is no difference; both are promises"
+          ],
+          "answerIndex": 0,
+          "explanation": "He controls whether he makes the call, so “I can” is flat. He does not control the client, so the softer “I think I'll be able to” is the honest form."
+        },
+        {
+          "id": "pm3",
+          "prompt": "What does Mark's mention of rapport with the product team add to his answer?",
+          "options": [
+            "It explains why he expects to succeed, rather than simply asserting that he will",
+            "It shifts responsibility onto the client",
+            "It suggests he wants to move to that team"
+          ],
+          "answerIndex": 0,
+          "explanation": "The rapport is his evidence — the reason his prediction is more than optimism."
+        },
+        {
+          "id": "pm4",
+          "prompt": "On what condition can the prototype be delivered early?",
+          "options": [
+            "If the client accepts a simplified version rather than the full feature set",
+            "If the design team works over the weekend",
+            "If the executive team approves extra resources"
+          ],
+          "answerIndex": 0,
+          "explanation": "“If they're open to a simplified version for the prototype, we can aim for an earlier delivery. If they expect every feature in it, we'd need more time.”"
+        },
+        {
+          "id": "pm5",
+          "prompt": "Why does Emma answer “that depends on the scope” instead of yes or no?",
+          "options": [
+            "Because she does not have the authority to decide",
+            "Because she wants Mark to take responsibility for the delay",
+            "Because the answer genuinely changes depending on what the client means by “prototype”"
+          ],
+          "answerIndex": 2,
+          "explanation": "The same date is achievable or impossible depending on how much is in the build — so the conditional answer is the accurate one."
+        },
+        {
+          "id": "pm6",
+          "prompt": "What does Mark mean by “making the client happy without overpromising”?",
+          "options": [
+            "That clients should be told less than they need to know",
+            "That satisfying the client and staying within what the team can actually deliver pull against each other",
+            "That the client's expectations are unreasonable"
+          ],
+          "answerIndex": 1,
+          "explanation": "That is why he calls it “always a balancing act” — two demands that have to be held together."
+        },
+        {
+          "id": "pm7",
+          "prompt": "Why should the sales report highlight the client's strategic value?",
+          "options": [
+            "To justify asking the executive team for extra resources",
+            "To persuade the client to sign a longer contract",
+            "To compare this client with the company's other accounts"
+          ],
+          "answerIndex": 0,
+          "explanation": "“That's what will justify any extra resources we ask for.”"
+        }
+      ]
+    },
+    {
+      "id": "b2-pm-modals",
+      "type": "fill-blank",
+      "title": "Can, Could, Be Able To",
+      "instructions": "Choose the form that carries the right degree of certainty. More than one may be grammatical — pick the one this situation calls for.",
+      "items": [
+        {
+          "id": "pmm1",
+          "prompt": "I ___ handle that — I'll call them this afternoon.",
+          "answers": [
+            "can"
+          ],
+          "options": [
+            "can",
+            "could",
+            "might be able to"
+          ],
+          "explanation": "The speaker controls the action and is committing to it, so the plain present “can” is right. “Could” would sound noncommittal."
+        },
+        {
+          "id": "pmm2",
+          "prompt": "If you ___ confirm the priorities by Wednesday, we'd be able to finish the design phase.",
+          "answers": [
+            "could"
+          ],
+          "options": [
+            "could",
+            "can",
+            "will be able to"
+          ],
+          "explanation": "A polite conditional request paired with “would” in the result clause takes “could”."
+        },
+        {
+          "id": "pmm3",
+          "prompt": "Do you think we'd ___ ___ ___ accommodate an earlier delivery?",
+          "answers": [
+            "be",
+            "able",
+            "to"
+          ],
+          "options": [
+            [
+              "be",
+              "been",
+              "being"
+            ],
+            [
+              "able",
+              "possible",
+              "capable"
+            ],
+            [
+              "to",
+              "for",
+              "of"
+            ]
+          ],
+          "explanation": "“Would be able to” is how English expresses a hypothetical ability, since “would can” does not exist."
+        },
+        {
+          "id": "pmm4",
+          "prompt": "Were you ___ ___ ___ make the updates we discussed?",
+          "answers": [
+            "able",
+            "to",
+            "make"
+          ],
+          "options": [
+            [
+              "able",
+              "can",
+              "could"
+            ],
+            [
+              "to",
+              "for",
+              "at"
+            ],
+            [
+              "make",
+              "do",
+              "made"
+            ]
+          ],
+          "explanation": "“Was/were able to” reports whether a specific past action actually succeeded — “could” would describe a general past ability instead."
+        },
+        {
+          "id": "pmm5",
+          "prompt": "I think I'll ___ ___ ___ get them to name their top three requirements.",
+          "answers": [
+            "be",
+            "able",
+            "to"
+          ],
+          "options": [
+            [
+              "be",
+              "can",
+              "could"
+            ],
+            [
+              "able",
+              "possible",
+              "likely"
+            ],
+            [
+              "to",
+              "for",
+              "that"
+            ]
+          ],
+          "explanation": "“Will be able to” is the future of “can”, which has no future form of its own."
+        }
+      ]
+    },
+    {
+      "id": "b2-pm-domake",
+      "type": "fill-blank",
+      "title": "Do or Make?",
+      "instructions": "Complete each sentence with the right verb. Every one of these collocations appears in the text.",
+      "items": [
+        {
+          "id": "pmd1",
+          "prompt": "Did the team ___ any changes to the wireframes?",
+          "answers": [
+            "make"
+          ],
+          "options": [
+            "make",
+            "do",
+            "take"
+          ],
+          "explanation": "You make a change — something new comes into existence."
+        },
+        {
+          "id": "pmd2",
+          "prompt": "There's still some analysis to ___ before the report is ready.",
+          "answers": [
+            "do"
+          ],
+          "options": [
+            "do",
+            "make",
+            "give"
+          ],
+          "explanation": "You do analysis, work, research — activity you carry out."
+        },
+        {
+          "id": "pmd3",
+          "prompt": "We'll ___ sure the report highlights the client's strategic value.",
+          "answers": [
+            "make"
+          ],
+          "options": [
+            "make",
+            "do",
+            "hold"
+          ],
+          "explanation": "“Make sure” is fixed — “do sure” is not English."
+        },
+        {
+          "id": "pmd4",
+          "prompt": "Were you able to ___ the updates we discussed last week?",
+          "answers": [
+            "make"
+          ],
+          "options": [
+            "make",
+            "do",
+            "put"
+          ],
+          "explanation": "You make an update, in the same family as make a change."
+        },
+        {
+          "id": "pmd5",
+          "prompt": "There's a lot more to ___ before the design phase is finished.",
+          "answers": [
+            "do"
+          ],
+          "options": [
+            "do",
+            "make",
+            "work"
+          ],
+          "explanation": "“A lot to do” refers to unspecified work — always do, never make."
+        },
+        {
+          "id": "pmd6",
+          "prompt": "He's built up a good rapport with them, so he can ___ a strong case for the simplified version.",
+          "answers": [
+            "make"
+          ],
+          "options": [
+            "make",
+            "do",
+            "bring"
+          ],
+          "explanation": "You make a case, a point, a suggestion, an argument — anything you produce in speech."
+        }
+      ]
+    },
+    {
+      "id": "b2-pm-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the meeting.",
+      "items": [
+        {
+          "id": "pmt1",
+          "statement": "Emma is the client's main point of contact.",
+          "answer": false,
+          "explanation": "False — that is Mark's role; Emma coordinates internally across departments."
+        },
+        {
+          "id": "pmt2",
+          "statement": "The wireframes are already finished.",
+          "answer": false,
+          "explanation": "False — “they've started, but there's a lot more to do”, and only the homepage is under way."
+        },
+        {
+          "id": "pmt3",
+          "statement": "Mark commits to a date for the sales report.",
+          "answer": true,
+          "explanation": "True — “I'll have it ready by Friday.”"
+        },
+        {
+          "id": "pmt4",
+          "statement": "Emma agrees to the earlier prototype without any condition.",
+          "answer": false,
+          "explanation": "False — she makes it conditional on the client accepting a simplified version."
+        },
+        {
+          "id": "pmt5",
+          "statement": "Mark will speak to the client before the two of them meet again.",
+          "answer": true,
+          "explanation": "True — “Let's regroup after your call with the client.”"
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "When you promise something at work, do you use the firm form or the cautious one? Which gets you into more trouble?",
+    "Emma answers a request with a condition rather than a yes or a no. Is that helpful or evasive?",
+    "Mark calls his job “a balancing act” between the client and the team. Whose side should he take when they conflict?",
+    "Describe a time a project went wrong because a role was not clearly defined.",
+    "Write about 150 words replying to a client who has asked for delivery two weeks early. Say what you can do, what you could do, and what you would need in return."
+  ]
+}

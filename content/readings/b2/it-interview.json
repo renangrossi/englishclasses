@@ -1,0 +1,337 @@
+{
+  "id": "b2-reading-it-interview",
+  "level": "B2",
+  "slug": "it-interview",
+  "topic": "interviews",
+  "title": "A Developer's Job Interview",
+  "subtitle": "A full technical interview, from the opening question to the closing handshake.",
+  "description": "A B2 reading and listening dialogue in American English: a software developer answers the five questions almost every technical interview asks, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/it-interview.docx",
+  "provenance": "as-published",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "2:27"
+  },
+  "passage": [
+    "Interviewer: Good morning, and thank you for coming in. Could you start by introducing yourself and telling us about your previous experience in the field?",
+    "Douglas: Good morning. My name is Douglas, and I've been working as a software developer for the past seven years. Most of my experience is in web development — JavaScript, React and Node.js — and I've also worked with databases such as MongoDB and MySQL.",
+    "Interviewer: Great. Can you give us an example of a project you worked on that you're particularly proud of?",
+    "Douglas: Sure. I was responsible for building a web application that let patients book appointments with their doctors. I used React on the front end and Node.js on the back end. The application had to handle a lot of traffic, so I had to optimize the code to make sure it stayed fast as it scaled. I also integrated it with a payment gateway so that users could pay for their appointments online.",
+    "Interviewer: That sounds impressive. Can you tell us about a challenging technical problem you faced, and how you solved it?",
+    "Douglas: One of the hardest problems I've run into involved real-time data streaming. The data was arriving at a very high rate and we needed to process it as it came in, not overnight. I used Apache Kafka and Apache Spark to handle the stream and process it efficiently. It took a while to get right, but the solution met the requirements the client had set.",
+    "Interviewer: Excellent. How do you keep yourself up to date with the latest trends and technologies?",
+    "Douglas: I read technical blogs, and I go to conferences and local meetups whenever I can. I'm active in a few online communities where developers share what they've learned. I also experiment on my own — I build small side projects with anything new, because reading about a tool and actually using it are two different things.",
+    "Interviewer: Finally, could you tell us about your experience working in a team?",
+    "Douglas: I've worked in both small and large teams. I think communication is the thing that decides whether a team works, so I try to communicate clearly and often, and I'd rather over-share than let someone find out too late. I like collaborating, and I'm always willing to help a colleague who's stuck. In my last two jobs we used Git and Jira to manage and track our work, and I'm comfortable with agile methods like Scrum.",
+    "Interviewer: Thank you for your time, and for sharing your experience with us. We'll be in touch soon."
+  ],
+  "vocabulary": [
+    {
+      "term": "the field",
+      "definition": "the professional area someone works in"
+    },
+    {
+      "term": "front end",
+      "definition": "the part of an application the user actually sees and clicks on"
+    },
+    {
+      "term": "back end",
+      "definition": "the part of an application that runs on the server, out of the user's sight"
+    },
+    {
+      "term": "to optimize",
+      "definition": "to change something so that it works faster or uses fewer resources"
+    },
+    {
+      "term": "to scale",
+      "definition": "to keep working well as the amount of work or number of users grows",
+      "match": "scaled"
+    },
+    {
+      "term": "payment gateway",
+      "definition": "a service that handles card payments on behalf of a website"
+    },
+    {
+      "term": "to run into a problem",
+      "definition": "to meet a problem you did not expect",
+      "match": "run into"
+    },
+    {
+      "term": "real-time",
+      "definition": "happening immediately, as the events themselves happen"
+    },
+    {
+      "term": "to meet the requirements",
+      "definition": "to satisfy what was formally asked for",
+      "match": "met the requirements"
+    },
+    {
+      "term": "to keep up to date",
+      "definition": "to stay informed about the newest developments",
+      "match": "up to date"
+    },
+    {
+      "term": "meetup",
+      "definition": "an informal local gathering of people who share a professional interest",
+      "match": "meetups"
+    },
+    {
+      "term": "side project",
+      "definition": "something you build in your own time, outside your paid work",
+      "match": "side projects"
+    },
+    {
+      "term": "to be stuck",
+      "definition": "to be unable to make progress on a problem"
+    },
+    {
+      "term": "agile",
+      "definition": "a way of running projects in short cycles, adjusting as you go"
+    },
+    {
+      "term": "to be in touch",
+      "definition": "to contact someone",
+      "match": "in touch"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-itint-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Interview",
+      "instructions": "These questions ask what the candidate is demonstrating, not only what he says.",
+      "items": [
+        {
+          "id": "iti1",
+          "prompt": "What does Douglas emphasize when he describes the booking application?",
+          "options": [
+            "That the design won an award",
+            "That he built it alone, without any help",
+            "That it had to keep performing under heavy use, which shaped how he wrote it"
+          ],
+          "answerIndex": 2,
+          "explanation": "He says the application “had to handle a lot of traffic, so I had to optimize the code to make sure it stayed fast as it scaled” — the constraint is the point of the story."
+        },
+        {
+          "id": "iti2",
+          "prompt": "Why was the streaming project difficult?",
+          "options": [
+            "The data arrived faster than a normal overnight process could absorb, so it had to be handled as it came in",
+            "The data was stored in an unfamiliar format",
+            "The client kept changing the requirements"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The data was arriving at a very high rate and we needed to process it as it came in, not overnight.”"
+        },
+        {
+          "id": "iti3",
+          "prompt": "Douglas names Kafka and Spark. What is he showing the interviewer by doing so?",
+          "options": [
+            "That he prefers open-source tools on principle",
+            "That he chose tools suited to the specific problem, rather than listing technologies at random",
+            "That he had used those tools at university"
+          ],
+          "answerIndex": 1,
+          "explanation": "The tools appear as the answer to a stated problem — high-rate, real-time data — which is what makes the example convincing rather than decorative."
+        },
+        {
+          "id": "iti4",
+          "prompt": "Why does Douglas build side projects?",
+          "options": [
+            "To earn extra income outside his job",
+            "Because his employer requires it",
+            "Because he believes reading about a technology is not the same as having used it"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Reading about a tool and actually using it are two different things.”"
+        },
+        {
+          "id": "iti5",
+          "prompt": "What is Douglas's stated view of communication in a team?",
+          "options": [
+            "That it decides whether the team works at all, so he would rather say too much than too little",
+            "That it matters less than technical skill",
+            "That it should be kept to scheduled meetings"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Communication is the thing that decides whether a team works… I'd rather over-share than let someone find out too late.”"
+        },
+        {
+          "id": "iti6",
+          "prompt": "The interviewer's questions move from experience, to a proud project, to a hard problem, to learning, to teamwork. Why that order?",
+          "options": [
+            "It follows the order of the candidate's résumé",
+            "It moves from background, through evidence of ability under pressure, to how he would fit the team",
+            "It is random; interviewers ask whatever comes to mind"
+          ],
+          "answerIndex": 1,
+          "explanation": "Each question tests something the previous one cannot: what he has done, what he can do when it is hard, whether he keeps growing, and whether others can work with him."
+        },
+        {
+          "id": "iti7",
+          "prompt": "What does “We'll be in touch soon” tell the candidate about the outcome?",
+          "options": [
+            "That he has been rejected",
+            "Nothing definite — it is the standard polite close, and the decision has not been shared",
+            "That he has been offered the job"
+          ],
+          "answerIndex": 1,
+          "explanation": "It is a fixed courtesy formula at the end of an interview. It promises contact, not a result."
+        }
+      ]
+    },
+    {
+      "id": "b2-itint-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches what Douglas actually says.",
+      "items": [
+        {
+          "id": "itt1",
+          "statement": "Douglas has worked with more than one kind of database.",
+          "answer": true,
+          "explanation": "True — he names MongoDB and MySQL."
+        },
+        {
+          "id": "itt2",
+          "statement": "The booking application handled payments outside the system, by cash or bank transfer.",
+          "answer": false,
+          "explanation": "False — he integrated a payment gateway “so that users could pay for their appointments online”."
+        },
+        {
+          "id": "itt3",
+          "statement": "Douglas says the streaming problem was solved quickly and easily.",
+          "answer": false,
+          "explanation": "False — “it took a while to get right”."
+        },
+        {
+          "id": "itt4",
+          "statement": "He relies only on formal training to stay current.",
+          "answer": false,
+          "explanation": "False — blogs, conferences, meetups, online communities and his own side projects are all informal."
+        },
+        {
+          "id": "itt5",
+          "statement": "He has experience of teams of different sizes.",
+          "answer": true,
+          "explanation": "True — “I've worked in both small and large teams.”"
+        },
+        {
+          "id": "itt6",
+          "statement": "Scrum is described as a tool for tracking tasks.",
+          "answer": false,
+          "explanation": "False — Git and Jira are the tools; Scrum is named as an agile method, a way of working."
+        }
+      ]
+    },
+    {
+      "id": "b2-itint-vocabulary",
+      "type": "fill-blank",
+      "title": "Interview Language",
+      "instructions": "Complete each sentence with the expression that fits. These are phrases you would use in your own interview.",
+      "items": [
+        {
+          "id": "itf1",
+          "prompt": "The site slowed down badly under load, so we had to ___ the database queries.",
+          "answers": [
+            "optimize"
+          ],
+          "options": [
+            "optimize",
+            "integrate",
+            "deploy"
+          ],
+          "explanation": "To optimize is to change something so it runs faster or uses fewer resources."
+        },
+        {
+          "id": "itf2",
+          "prompt": "The hardest problem I've ___ ___ was a memory leak that only appeared in production.",
+          "answers": [
+            "run",
+            "into"
+          ],
+          "options": [
+            [
+              "run",
+              "gone",
+              "come"
+            ],
+            [
+              "into",
+              "over",
+              "through"
+            ]
+          ],
+          "explanation": "To run into a problem is to meet one you did not expect."
+        },
+        {
+          "id": "itf3",
+          "prompt": "I go to local ___ to hear what other developers are building.",
+          "answers": [
+            "meetups"
+          ],
+          "options": [
+            "meetups",
+            "gateways",
+            "requirements"
+          ],
+          "explanation": "A meetup is an informal local gathering of people in the same field."
+        },
+        {
+          "id": "itf4",
+          "prompt": "The system has to ___ to a hundred thousand users without rewriting it.",
+          "answers": [
+            "scale"
+          ],
+          "options": [
+            "scale",
+            "board",
+            "settle"
+          ],
+          "explanation": "To scale is to keep working well as demand grows."
+        },
+        {
+          "id": "itf5",
+          "prompt": "I build small ___ projects in my own time to try out new tools.",
+          "answers": [
+            "side"
+          ],
+          "options": [
+            "side",
+            "front",
+            "back"
+          ],
+          "explanation": "A side project is something you build outside your paid work."
+        },
+        {
+          "id": "itf6",
+          "prompt": "Thank you for coming in — we'll be ___ ___ by the end of the week.",
+          "answers": [
+            "in",
+            "touch"
+          ],
+          "options": [
+            [
+              "in",
+              "on",
+              "at"
+            ],
+            [
+              "touch",
+              "contact",
+              "reach"
+            ]
+          ],
+          "explanation": "To be in touch is to make contact. It is the standard close to an interview."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Which of the five questions would you find hardest to answer about your own work? Why?",
+    "Douglas answers the teamwork question by talking about communication rather than technical skill. Was that a good choice?",
+    "How do you keep up with developments in your own field?",
+    "Some companies replace the interview with a practical task. Which would show your ability better, and why?",
+    "Answer this in about 100 words, as you would in the interview: “Tell us about a challenging problem you faced and how you solved it.” Name the problem, say why it was hard, say what you did, and end with the result — the same four steps Douglas uses."
+  ]
+}

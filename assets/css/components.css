@@ -382,6 +382,21 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 }
 .btn--ghost-inverse:hover { background: rgba(251, 248, 241, 0.12); border-color: var(--color-text-on-dark); }
 
+/* .page-header is always the dark banner, so a plain .btn--ghost inside it is
+   navy on navy and all but invisible -- the Print / Save as PDF button on
+   every reading page was. Rather than correcting each call site (and leaving
+   the next one to rediscover it), treat a ghost button in the banner as the
+   inverse variant it should have been. */
+.page-header .btn--ghost {
+  color: var(--color-text-on-dark);
+  border-color: rgba(251, 248, 241, 0.5);
+}
+.page-header .btn--ghost:hover {
+  background: rgba(251, 248, 241, 0.12);
+  border-color: var(--color-text-on-dark);
+  color: var(--color-text-on-dark);
+}
+
 .btn--small { padding: 0.55em 1em; font-size: 0.78rem; }
 .btn--block { width: 100%; }
 .btn[disabled], .btn.is-disabled {

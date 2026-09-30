@@ -1,0 +1,453 @@
+{
+  "id": "b2-reading-aesop-slow-steady",
+  "level": "B2",
+  "slug": "aesop-slow-and-steady",
+  "topic": "literature",
+  "title": "Slow and Steady",
+  "subtitle": "Two fables of Aesop about time — one about spending it, one about wasting it at exactly the wrong moment.",
+  "description": "A B2 literature reading and listening text: The Grasshopper and the Ant and The Tortoise and the Hare, with period illustrations, glossed vocabulary and Right / Wrong / Doesn't say questions.",
+  "source": "cefr/texts/text-interpretation-aesops-fables.docx (fables 6 and 7 of 7)",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "3:17"
+  },
+  "images": [
+    {
+      "src": "b2/aesop/06.png",
+      "after": 6,
+      "alt": "An illustration of a grasshopper holding a fiddle, standing before a line of ants carrying grain",
+      "caption": "Milo Winter's illustration, from 1919. The grasshopper is carrying a fiddle in almost every version — he is not idle, he is an artist, which is the part that makes the fable uncomfortable."
+    },
+    {
+      "src": "b2/aesop/08.png",
+      "after": 13,
+      "alt": "An illustration of a hare bounding past a tortoise on a path, beneath a signpost reading MILES",
+      "caption": "The hare is not beaten by the tortoise. He is beaten by his own estimate of the tortoise."
+    }
+  ],
+  "passage": [
+    "Two fables about time. The first is the one people quote at children, and it is harder than it looks. The second is the most famous story in the collection, and almost everybody misremembers what it is about.",
+    "The Grasshopper and the Ant",
+    "One bright day in late autumn a family of ants were busy in the warm sunshine, drying out the grain they had stored up during the summer, when a starving grasshopper, his fiddle under his arm, came up and humbly begged for something to eat.",
+    "“What!” cried the ants in surprise. “Haven't you stored anything away for the winter? What in the world were you doing all last summer?”",
+    "“I didn't have time to store up any food,” whined the grasshopper. “I was so busy making music that before I knew it the summer was gone.”",
+    "The ants shrugged in disgust. “Making music, were you?” they cried. “Very well — now dance!” And they turned their backs on him and went on with their work.",
+    "There is a time for work and a time for play.",
+    "The Tortoise and the Hare",
+    "A hare was making fun of a tortoise one day for being so slow. “Do you ever actually get anywhere?” he asked, with a mocking laugh.",
+    "“Yes,” replied the tortoise, “and I get there sooner than you think. I'll race you and prove it.”",
+    "The hare was much amused at the idea of racing a tortoise, but agreed for the fun of it. A fox, who had consented to act as judge, marked out the distance and started them off.",
+    "The hare was soon out of sight. To make the tortoise feel how ridiculous it was to race a hare, he lay down beside the course to take a nap until the tortoise should catch up.",
+    "The tortoise meanwhile kept going, slowly and steadily, and after a time passed the place where the hare was sleeping. The hare slept peacefully on. When at last he woke, the tortoise was near the finish. The hare ran his fastest, and could not catch him in time.",
+    "Slow and steady wins the race.",
+    "The grasshopper fable is usually told as though the answer is obvious, and it is worth noticing how unpleasant the ants are. They are not wrong. They are also smug, and they have enough to share and do not. The fable has been rewritten many times for exactly this reason — in some versions the ants relent, in others the grasshopper dies — and which ending a culture prefers says a good deal about it. Note too what the grasshopper was doing. He was not asleep. He was making music, which nobody in the story values and which the reader, holding a book, presumably does.",
+    "The second fable is misremembered almost universally. It is not about a slow animal beating a fast one through effort; the tortoise does nothing clever and never goes faster. It is about the hare, who loses because of what he believes about his opponent. He stops not from tiredness but from contempt — he lies down specifically to make a point — and the moral English took from it, slow and steady wins the race, quietly credits the winner rather than blaming the loser. The Greek moral was closer to the truth: the race is lost by the one who thinks it is already won."
+  ],
+  "vocabulary": [
+    {
+      "term": "grain",
+      "definition": "the seeds of cereal plants, stored as food"
+    },
+    {
+      "term": "to store up",
+      "definition": "to put food or supplies aside for later use",
+      "match": "stored up"
+    },
+    {
+      "term": "starving",
+      "definition": "suffering severely from hunger"
+    },
+    {
+      "term": "fiddle",
+      "definition": "a violin, in informal or folk use"
+    },
+    {
+      "term": "humbly",
+      "definition": "without pride; as somebody asking a favour"
+    },
+    {
+      "term": "to beg",
+      "definition": "to ask for something urgently and without dignity",
+      "match": "begged"
+    },
+    {
+      "term": "to whine",
+      "definition": "to complain in a weak, high voice",
+      "match": "whined"
+    },
+    {
+      "term": "to shrug",
+      "definition": "to raise the shoulders to show you do not care",
+      "match": "shrugged"
+    },
+    {
+      "term": "to turn one's back on",
+      "definition": "to refuse to help somebody any further",
+      "match": "turned their backs on"
+    },
+    {
+      "term": "to make fun of",
+      "definition": "to laugh at somebody unkindly",
+      "match": "making fun of"
+    },
+    {
+      "term": "mocking",
+      "definition": "showing that you find somebody ridiculous"
+    },
+    {
+      "term": "amused",
+      "definition": "finding something funny"
+    },
+    {
+      "term": "to consent",
+      "definition": "to agree to do something",
+      "match": "consented"
+    },
+    {
+      "term": "to mark out",
+      "definition": "to set the limits of something on the ground",
+      "match": "marked out"
+    },
+    {
+      "term": "course",
+      "definition": "the route a race follows"
+    },
+    {
+      "term": "nap",
+      "definition": "a short sleep during the day"
+    },
+    {
+      "term": "to catch up",
+      "definition": "to reach somebody who is ahead of you",
+      "match": "catch up"
+    },
+    {
+      "term": "smug",
+      "definition": "too pleased with your own correctness"
+    },
+    {
+      "term": "to relent",
+      "definition": "to stop refusing and finally agree",
+      "match": "relent"
+    },
+    {
+      "term": "contempt",
+      "definition": "the feeling that somebody is beneath your attention"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-aesop3-rwd",
+      "type": "multiple-choice",
+      "title": "Right, Wrong, or Doesn't Say?",
+      "instructions": "RIGHT if the text states it, WRONG if it contradicts it, DOESN'T SAY if it does not tell you.",
+      "items": [
+        {
+          "id": "s1",
+          "prompt": "The grasshopper had done no work during the summer.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — he was making music, which the text later points out is work, and which “nobody in the story values”."
+        },
+        {
+          "id": "s2",
+          "prompt": "The ants gave the grasshopper some food.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — they turned their backs and went on working."
+        },
+        {
+          "id": "s3",
+          "prompt": "The ants had more food than they needed.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — the closing discussion states they “have enough to share and do not”."
+        },
+        {
+          "id": "s4",
+          "prompt": "The grasshopper died.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 2,
+          "explanation": "Doesn't say — this version ends with the ants turning away. The text notes that other versions kill him, which is a different thing from this one doing it."
+        },
+        {
+          "id": "s5",
+          "prompt": "The tortoise proposed the race.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — “I'll race you and prove it.” The hare only agreed for the fun of it."
+        },
+        {
+          "id": "s6",
+          "prompt": "The fox started the race.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — he acted as judge, marked out the distance and started them off."
+        },
+        {
+          "id": "s7",
+          "prompt": "The hare ran slowly.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — he was “soon out of sight”, and at the end he “ran his fastest”. He lost time lying down, not running."
+        },
+        {
+          "id": "s8",
+          "prompt": "The tortoise ran quickly at the end to win.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — he “kept going, slowly and steadily” and never changes pace. The text makes a point of it."
+        },
+        {
+          "id": "s9",
+          "prompt": "The hare woke up after the race had finished.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — he woke while the tortoise was “near the finish”, and ran; he simply could not arrive in time."
+        },
+        {
+          "id": "s10",
+          "prompt": "The hare gave up once he woke.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — “the hare ran his fastest”. This is the item most readers get wrong, because the moral encourages you to imagine he did not try."
+        }
+      ]
+    },
+    {
+      "id": "b2-aesop3-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading Against the Moral",
+      "instructions": "The last two paragraphs argue with the stated morals. Follow the argument.",
+      "items": [
+        {
+          "id": "sc1",
+          "prompt": "What does the writer notice about the ants?",
+          "options": [
+            "They are wrong about the grasshopper",
+            "They are not wrong, but they are smug and could share and do not",
+            "They had less food than they claimed"
+          ],
+          "answerIndex": 1,
+          "explanation": "Being correct and being admirable are separated deliberately here."
+        },
+        {
+          "id": "sc2",
+          "prompt": "Why does the writer point out what the grasshopper was doing?",
+          "options": [
+            "Because music is not real work",
+            "Because he had no time left to gather food",
+            "Because he was making music, which nobody in the story values and the reader probably does"
+          ],
+          "answerIndex": 2,
+          "explanation": "“He was not asleep” — the reader, holding a book, is implicated in valuing exactly what the ants dismiss."
+        },
+        {
+          "id": "sc3",
+          "prompt": "What does the writer say the different endings reveal?",
+          "options": [
+            "Which version is the original",
+            "A good deal about the culture that prefers each one",
+            "That the fable was not written by Aesop"
+          ],
+          "answerIndex": 1,
+          "explanation": "Some versions have the ants relent; others kill the grasshopper."
+        },
+        {
+          "id": "sc4",
+          "prompt": "Why does the writer say the second fable is misremembered?",
+          "options": [
+            "The tortoise is usually described as a hare",
+            "People think the fox cheated",
+            "People think it is about a slow animal winning through effort, when the tortoise never changes pace"
+          ],
+          "answerIndex": 2,
+          "explanation": "“The tortoise does nothing clever and never goes faster.”"
+        },
+        {
+          "id": "sc5",
+          "prompt": "Why does the hare stop?",
+          "options": [
+            "From contempt — he lies down to make a point about the tortoise",
+            "Because he is tired",
+            "Because the fox tells him to wait"
+          ],
+          "answerIndex": 0,
+          "explanation": "“He stops not from tiredness but from contempt”, and the earlier text says he lay down specifically to shame the tortoise."
+        },
+        {
+          "id": "sc6",
+          "prompt": "What does the writer say about the English moral?",
+          "options": [
+            "It credits the winner rather than blaming the loser",
+            "It is a mistranslation of the Greek",
+            "It applies better to the first fable"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the alternative offered is blunter: “the race is lost by the one who thinks it is already won”."
+        }
+      ]
+    },
+    {
+      "id": "b2-aesop3-vocabulary",
+      "type": "fill-blank",
+      "title": "The Language of the Fables",
+      "instructions": "Complete each sentence.",
+      "items": [
+        {
+          "id": "sf1",
+          "prompt": "They had ___ grain ___ for the winter.",
+          "answers": [
+            "stored",
+            "away"
+          ],
+          "options": [
+            [
+              "stored",
+              "kept",
+              "held"
+            ],
+            [
+              "away",
+              "up",
+              "off"
+            ]
+          ],
+          "explanation": "To store something away is to put it aside for later. “Store up” is also used and means the same."
+        },
+        {
+          "id": "sf2",
+          "prompt": "She ___ and said it was no longer her problem.",
+          "answers": [
+            "shrugged"
+          ],
+          "options": [
+            "shrugged",
+            "whined",
+            "begged"
+          ],
+          "explanation": "To shrug is to raise the shoulders to show you do not care."
+        },
+        {
+          "id": "sf3",
+          "prompt": "They ___ ___ ___ ___ him completely after that.",
+          "answers": [
+            "turned",
+            "their",
+            "backs",
+            "on"
+          ],
+          "options": [
+            [
+              "turned",
+              "put",
+              "gave"
+            ],
+            [
+              "their",
+              "the",
+              "his"
+            ],
+            [
+              "backs",
+              "back",
+              "heads"
+            ],
+            [
+              "on",
+              "to",
+              "at"
+            ]
+          ],
+          "explanation": "To turn your back on somebody is to refuse them any further help."
+        },
+        {
+          "id": "sf4",
+          "prompt": "He was ___ about winning long before the race ended.",
+          "answers": [
+            "smug"
+          ],
+          "options": [
+            "smug",
+            "humble",
+            "amused"
+          ],
+          "explanation": "Smug means too pleased with your own correctness — the quality the writer finds in the ants and in the hare."
+        },
+        {
+          "id": "sf5",
+          "prompt": "She refused for a week and then finally ___.",
+          "answers": [
+            "relented"
+          ],
+          "options": [
+            "relented",
+            "consented",
+            "shrugged"
+          ],
+          "explanation": "To relent is to stop refusing. Consent would mean agreeing without the preceding refusal."
+        },
+        {
+          "id": "sf6",
+          "prompt": "He lost through ___, not through lack of speed.",
+          "answers": [
+            "contempt"
+          ],
+          "options": [
+            "contempt",
+            "exhaustion",
+            "confusion"
+          ],
+          "explanation": "Contempt is the feeling that somebody is beneath your attention — the writer's diagnosis of the hare."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The ants are correct and unpleasant at once. Does being right excuse how they behave?",
+    "The grasshopper was making music. Does that change the fable for you — and should it?",
+    "“The race is lost by the one who thinks it is already won.” Have you seen that happen?",
+    "Why do you think English took the moral that praises the tortoise rather than one that blames the hare?",
+    "Choose one of these two fables and rewrite the ending in about 150 words so that it teaches the opposite lesson. What did you have to change?"
+  ]
+}

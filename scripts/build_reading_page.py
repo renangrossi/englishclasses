@@ -156,7 +156,16 @@ NUMBERED_HEADING_RE = re.compile(r"^\d+\.\s+\S")
 
 def is_heading(para):
     t = para.strip()
+    if not t:
+        return False
+    # "1. Booking a room" -- a numbered section heading.
     if NUMBERED_HEADING_RE.match(t) and len(t) <= 70 and t[-1] not in ".!?:;":
+        return True
+    # "The Fox and the Grapes" -- a short titled heading with no number. It has
+    # to be short, end without sentence punctuation, and not be a line of
+    # dialogue, which is also short and unpunctuated at the end.
+    if (len(t) <= 60 and t[-1] not in ".!?:;,\u201d\u2019\"'"
+            and not SPEAKER_RE.match(t) and len(t.split()) <= 9):
         return True
     letters = [c for c in t if c.isalpha()]
     return bool(letters) and sum(c.isupper() for c in letters) / len(letters) > 0.6
@@ -308,7 +317,12 @@ def listen_and_read(d, level, slug):
     # changes the narration fingerprint, so it never forces a re-record.
     figures = {}
     for img in (d.get("images") or []):
-        src = f"{REL}assets/img/reading/{level}/{slug}/{img['src']}"
+        # A plain filename lives in this page's own folder. A path with a
+        # slash is relative to assets/img/reading/, so several pages split
+        # out of one source document can share its image set -- the three
+        # Aesop pages all draw on b2/aesop/.
+        rel = img["src"] if "/" in img["src"] else f"{level}/{slug}/{img['src']}"
+        src = f"{REL}assets/img/reading/{rel}"
         cap = (f'<figcaption>{esc(img["caption"])}</figcaption>'
                if img.get("caption") else "")
         figures.setdefault(int(img.get("after", 0)), []).append(

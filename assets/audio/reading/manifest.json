@@ -293,6 +293,24 @@
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
+ "b2/aesop-slow-and-steady": {
+  "bytes": 1184256,
+  "fingerprint": "9a5df9542eb5669a",
+  "rate": "+0%",
+  "voice": "en-US-AriaNeural"
+ },
+ "b2/aesop-what-groups-are-for": {
+  "bytes": 1315296,
+  "fingerprint": "751f84fe1da4b9f3",
+  "rate": "+0%",
+  "voice": "en-US-BrianNeural"
+ },
+ "b2/aesop-what-we-tell-ourselves": {
+  "bytes": 1014624,
+  "fingerprint": "9b2763bb69c45f6c",
+  "rate": "+0%",
+  "voice": "en-US-ChristopherNeural"
+ },
  "b2/business-war-it": {
   "bytes": 1652544,
   "fingerprint": "9471c43002fa162f",

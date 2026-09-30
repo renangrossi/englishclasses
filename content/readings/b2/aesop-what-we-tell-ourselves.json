@@ -1,0 +1,450 @@
+{
+  "id": "b2-reading-aesop-tell-ourselves",
+  "level": "B2",
+  "slug": "aesop-what-we-tell-ourselves",
+  "topic": "literature",
+  "title": "What We Tell Ourselves",
+  "subtitle": "Two fables of Aesop about wanting something, and the story you invent once you cannot have it.",
+  "description": "A B2 literature reading and listening text: two of Aesop's fables — The Fox and the Grapes and The Dog and His Reflection — with period illustrations, glossed vocabulary and Right / Wrong / Doesn't say comprehension questions.",
+  "source": "cefr/texts/text-interpretation-aesops-fables.docx (fables 2 and 4 of 7)",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "2:49"
+  },
+  "images": [
+    {
+      "src": "b2/aesop/04.png",
+      "after": 6,
+      "alt": "An illustration of a fox leaping up towards a bunch of grapes hanging from a vine",
+      "caption": "The Fox and the Grapes. The fable is the origin of the English phrase sour grapes, said of somebody who dismisses what they failed to get."
+    },
+    {
+      "src": "b2/aesop/02.png",
+      "after": 11,
+      "alt": "An illustration of a dog on a bridge looking down at his own reflection in the water, a piece of meat in his mouth",
+      "caption": "The Dog and His Reflection. Aesop's animals are never really animals; the dog is a man who cannot stop comparing."
+    }
+  ],
+  "passage": [
+    "A fable is a very short story with an animal in it and a sentence at the end telling you what it meant. The form is more than two thousand years old, the collection is attributed to Aesop, and almost nothing about him is known — he may not have existed, and the stories certainly did not all come from one person. What survives is the shape: a situation, a decision, a consequence, and a line you cannot argue with.",
+    "Here are two about the same human habit.",
+    "The Fox and the Grapes",
+    "A fox one day spied a beautiful bunch of ripe grapes hanging from a vine trained along the branches of a tree. The grapes seemed ready to burst with juice, and the fox's mouth watered as he gazed longingly at them.",
+    "The bunch hung from a high branch, and the fox had to jump for it. The first time he jumped he missed it by a long way. So he walked off a short distance and took a running leap at it, only to fall short once more. Again and again he tried, but in vain.",
+    "At last he sat down and looked at the grapes with disgust.",
+    "“What a fool I am,” he said. “Here I am wearing myself out to get a bunch of sour grapes that are not worth the effort.” And off he walked, very scornfully.",
+    "There are many who pretend to despise what is beyond their reach.",
+    "The Dog and His Reflection",
+    "A dog, to whom the butcher had thrown a piece of meat, was hurrying home with his prize as fast as he could go. As he crossed a narrow footbridge, he happened to look down and saw himself reflected in the quiet water as if in a mirror. But the greedy dog thought he saw another dog carrying a piece of meat much bigger than his own.",
+    "If he had stopped to think, he would have known better. Instead of thinking, he dropped his own meat and sprang at the dog in the river — and found himself swimming for his life to reach the bank. At last he scrambled out, and as he stood there thinking about the good meat he had lost, he realised what a stupid dog he had been.",
+    "It is very foolish to be greedy.",
+    "The two fables are usually read as being about different things: the first about pride, the second about greed. They are closer than that. In both, an animal loses something real to something imagined — the fox loses the memory of wanting the grapes, which he replaces with contempt he does not feel, and the dog loses actual meat to a reflection of it. Both stories are about a false picture beating a true one.",
+    "The fox has given English a phrase. When somebody dismisses what they wanted and failed to get — the job, the invitation, the house — we call it sour grapes, and the expression still carries the fable's exact meaning: not that the thing was bad, but that the person needed it to have been."
+  ],
+  "vocabulary": [
+    {
+      "term": "fable",
+      "definition": "a very short story, usually with animals, ending in a stated moral"
+    },
+    {
+      "term": "to attribute to",
+      "definition": "to say something was made by a particular person",
+      "match": "attributed to"
+    },
+    {
+      "term": "to spy",
+      "definition": "to catch sight of something, often at a distance",
+      "match": "spied"
+    },
+    {
+      "term": "ripe",
+      "definition": "ready to be eaten"
+    },
+    {
+      "term": "vine",
+      "definition": "the climbing plant that grapes grow on"
+    },
+    {
+      "term": "to burst",
+      "definition": "to break open from what is inside"
+    },
+    {
+      "term": "one's mouth waters",
+      "definition": "saliva forms because food looks good",
+      "match": "mouth watered"
+    },
+    {
+      "term": "longingly",
+      "definition": "with strong, unsatisfied desire"
+    },
+    {
+      "term": "to fall short",
+      "definition": "to not reach far enough",
+      "match": "fall short"
+    },
+    {
+      "term": "in vain",
+      "definition": "without success, after real effort"
+    },
+    {
+      "term": "to wear oneself out",
+      "definition": "to exhaust yourself",
+      "match": "wearing myself out"
+    },
+    {
+      "term": "sour",
+      "definition": "sharp and unpleasant in taste, like an unripe fruit"
+    },
+    {
+      "term": "scornfully",
+      "definition": "in a way that shows open contempt"
+    },
+    {
+      "term": "to despise",
+      "definition": "to look down on with dislike"
+    },
+    {
+      "term": "beyond one's reach",
+      "definition": "impossible to obtain",
+      "match": "beyond their reach"
+    },
+    {
+      "term": "butcher",
+      "definition": "somebody who cuts and sells meat"
+    },
+    {
+      "term": "prize",
+      "definition": "something won or gained and valued"
+    },
+    {
+      "term": "footbridge",
+      "definition": "a narrow bridge for people on foot"
+    },
+    {
+      "term": "greedy",
+      "definition": "wanting more than you need"
+    },
+    {
+      "term": "to spring at",
+      "definition": "to jump suddenly towards",
+      "match": "sprang at"
+    },
+    {
+      "term": "bank",
+      "definition": "the land at the edge of a river"
+    },
+    {
+      "term": "to scramble out",
+      "definition": "to climb out with difficulty",
+      "match": "scrambled out"
+    },
+    {
+      "term": "contempt",
+      "definition": "the feeling that something is worthless"
+    },
+    {
+      "term": "sour grapes",
+      "definition": "pretending to scorn what you wanted and could not get"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-aesop1-rwd",
+      "type": "multiple-choice",
+      "title": "Right, Wrong, or Doesn't Say?",
+      "instructions": "Choose RIGHT only if the text states it, WRONG if the text contradicts it, and DOESN'T SAY if it simply does not tell you. A fable invites you to assume things, which is what makes it good practice.",
+      "items": [
+        {
+          "id": "a1",
+          "prompt": "The fox tried to reach the grapes more than once.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — “again and again he tried, but in vain”."
+        },
+        {
+          "id": "a2",
+          "prompt": "The grapes really were sour.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 2,
+          "explanation": "Doesn't say — and this is the whole point of the fable. The text describes them as ripe and full of juice; only the fox calls them sour, after failing."
+        },
+        {
+          "id": "a3",
+          "prompt": "The fox was genuinely no longer interested in the grapes.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — the closing line says people “pretend to despise” what they cannot reach, and the final paragraph calls it “contempt he does not feel”."
+        },
+        {
+          "id": "a4",
+          "prompt": "The dog stole the meat.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — the butcher threw it to him. Many readers assume a theft because the dog is later called greedy."
+        },
+        {
+          "id": "a5",
+          "prompt": "There was another dog in the river.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — it was his own reflection, as the text says plainly before the dog works it out."
+        },
+        {
+          "id": "a6",
+          "prompt": "The dog recovered his meat.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — he stood “thinking about the good meat he had lost”."
+        },
+        {
+          "id": "a7",
+          "prompt": "The dog nearly drowned.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — he “found himself swimming for his life”, which states the danger rather than implying it."
+        },
+        {
+          "id": "a8",
+          "prompt": "Aesop wrote both of these fables himself.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — the collection is attributed to him, but he “may not have existed” and the stories “certainly did not all come from one person”."
+        }
+      ]
+    },
+    {
+      "id": "b2-aesop1-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading the Fables Together",
+      "instructions": "The last two paragraphs make an argument about both stories. Follow it.",
+      "items": [
+        {
+          "id": "ac1",
+          "prompt": "What does the writer say a fable's shape is?",
+          "options": [
+            "An animal, a human, and a lesson",
+            "A situation, a decision, a consequence, and a line you cannot argue with",
+            "A problem and a clever solution"
+          ],
+          "answerIndex": 1,
+          "explanation": "And both fables here follow it exactly, which is why the moral can be stated in one sentence."
+        },
+        {
+          "id": "ac2",
+          "prompt": "Why does the writer say the two fables are “closer than that”?",
+          "options": [
+            "Both animals are punished for being lazy",
+            "Both stories were written at the same time",
+            "In both, an animal loses something real to something imagined"
+          ],
+          "answerIndex": 2,
+          "explanation": "The fox trades real desire for invented contempt; the dog trades real meat for a reflection."
+        },
+        {
+          "id": "ac3",
+          "prompt": "What does the writer say the fox actually loses?",
+          "options": [
+            "The memory of wanting the grapes",
+            "His reputation among the other animals",
+            "The energy he spent jumping"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Which he replaces with contempt he does not feel” — the loss is internal, and he does not notice it."
+        },
+        {
+          "id": "ac4",
+          "prompt": "What does the phrase “sour grapes” mean in English today?",
+          "options": [
+            "A disappointment nobody could have avoided",
+            "Dismissing something you wanted and failed to get",
+            "Food that has gone bad"
+          ],
+          "answerIndex": 1,
+          "explanation": "And the writer notes it keeps the fable's exact sense: “not that the thing was bad, but that the person needed it to have been”."
+        },
+        {
+          "id": "ac5",
+          "prompt": "Why does the writer say “Aesop's animals are never really animals”, in the caption?",
+          "options": [
+            "Because the stories were originally about people",
+            "Because the animals behave in ways real animals cannot",
+            "Because each animal stands for a human habit — the dog is somebody who cannot stop comparing"
+          ],
+          "answerIndex": 2,
+          "explanation": "The fable uses the animal so the reader can see the behaviour without immediately defending themselves."
+        }
+      ]
+    },
+    {
+      "id": "b2-aesop1-vocabulary",
+      "type": "fill-blank",
+      "title": "The Language of the Fables",
+      "instructions": "Complete each sentence. Several of these are literary and still used.",
+      "items": [
+        {
+          "id": "af1",
+          "prompt": "He tried again and again, but ___ ___.",
+          "answers": [
+            "in",
+            "vain"
+          ],
+          "options": [
+            [
+              "in",
+              "on",
+              "at"
+            ],
+            [
+              "vain",
+              "waste",
+              "loss"
+            ]
+          ],
+          "explanation": "In vain means without success after real effort — not simply without trying."
+        },
+        {
+          "id": "af2",
+          "prompt": "He jumped and ___ ___ by half a metre.",
+          "answers": [
+            "fell",
+            "short"
+          ],
+          "options": [
+            [
+              "fell",
+              "went",
+              "came"
+            ],
+            [
+              "short",
+              "low",
+              "down"
+            ]
+          ],
+          "explanation": "To fall short is to not reach far enough — used of jumps, targets and expectations alike."
+        },
+        {
+          "id": "af3",
+          "prompt": "The promotion was ___ ___ ___, so he decided he had never wanted it.",
+          "answers": [
+            "beyond",
+            "his",
+            "reach"
+          ],
+          "options": [
+            [
+              "beyond",
+              "above",
+              "past"
+            ],
+            [
+              "his",
+              "the",
+              "a"
+            ],
+            [
+              "reach",
+              "hand",
+              "grasp"
+            ]
+          ],
+          "explanation": "Beyond somebody's reach means impossible for them to obtain — and the second half of the sentence is the fox exactly."
+        },
+        {
+          "id": "af4",
+          "prompt": "That is just ___ ___ — he applied and was turned down.",
+          "answers": [
+            "sour",
+            "grapes"
+          ],
+          "options": [
+            [
+              "sour",
+              "bad",
+              "green"
+            ],
+            [
+              "grapes",
+              "fruit",
+              "luck"
+            ]
+          ],
+          "explanation": "Sour grapes is pretending to scorn what you wanted and could not get."
+        },
+        {
+          "id": "af5",
+          "prompt": "The smell of the bread made my ___ ___.",
+          "answers": [
+            "mouth",
+            "water"
+          ],
+          "options": [
+            [
+              "mouth",
+              "tongue",
+              "throat"
+            ],
+            [
+              "water",
+              "wet",
+              "run"
+            ]
+          ],
+          "explanation": "Your mouth waters when food looks or smells good."
+        },
+        {
+          "id": "af6",
+          "prompt": "He walked away ___, as though the whole thing were beneath him.",
+          "answers": [
+            "scornfully"
+          ],
+          "options": [
+            "scornfully",
+            "longingly",
+            "greedily"
+          ],
+          "explanation": "Scornfully means showing open contempt. Longingly would mean the opposite — and would have given the fox away."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "“Not that the thing was bad, but that the person needed it to have been.” When have you seen somebody do that — or done it yourself?",
+    "The dog loses real meat to a reflection. What is the modern version of that?",
+    "A fable states its moral outright. Does that make it weaker than a story that leaves you to work it out?",
+    "Does knowing the phrase “sour grapes” change how you hear somebody dismissing a job they did not get?",
+    "Write a fable of your own in about 150 words: an animal, a decision, a consequence, and one line at the end."
+  ]
+}

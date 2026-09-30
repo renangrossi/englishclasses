@@ -1,0 +1,485 @@
+{
+  "id": "b2-reading-aesop-groups",
+  "level": "B2",
+  "slug": "aesop-what-groups-are-for",
+  "topic": "literature",
+  "title": "What Groups Are For",
+  "subtitle": "Three fables of Aesop about acting together — and the two ways it fails.",
+  "description": "A B2 literature reading and listening text: three of Aesop's fables on cooperation — The Father and His Sons, Two Travelers and a Bear, and Putting the Bell on the Cat — with period illustrations and Right / Wrong / Doesn't say questions.",
+  "source": "cefr/texts/text-interpretation-aesops-fables.docx (fables 1, 3 and 5 of 7)",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "3:39"
+  },
+  "images": [
+    {
+      "src": "b2/aesop/03.png",
+      "after": 5,
+      "alt": "A decorative illustration of an old man and four young men breaking sticks, with the title The Bundle of Sticks and the motto Strength is in Unity",
+      "caption": "Walter Crane's version, from 1887. The fable is often called The Bundle of Sticks, and the bundle has been a political emblem for two thousand years — not always in good company."
+    },
+    {
+      "src": "b2/aesop/05.jpg",
+      "after": 11,
+      "alt": "A wood engraving of a bear sniffing at a man lying face down on the ground while another man watches from a tree",
+      "caption": "A period wood engraving. The man in the tree is the one the fable is about."
+    },
+    {
+      "src": "b2/aesop/01.png",
+      "after": 18,
+      "alt": "An engraving of a crowded attic full of mice facing a small figure holding up a bell",
+      "caption": "Gustave Doré's engraving of the mice in council. The plan is unanimous; the volunteer is missing."
+    }
+  ],
+  "passage": [
+    "Three fables about doing things together. The first is about why groups are worth having. The other two are about the two different ways a group lets you down — and the second of those is much less comfortable than the first.",
+    "The Father and His Sons",
+    "A certain man had several sons who were always quarreling with one another, and, try as he might, he could not get them to live together in peace. So he decided to convince them of their foolishness by other means. He asked them to fetch a bundle of sticks, and invited each in turn to break it across his knee.",
+    "All of them tried and all of them failed. Then he untied the bundle and handed them the sticks one by one, and they had no difficulty at all in breaking them.",
+    "“There, my boys,” he said. “United, you will be more than a match for your enemies. But if you quarrel and separate, your weakness will put you at the mercy of anyone who attacks you.”",
+    "Union is strength.",
+    "Two Travelers and a Bear",
+    "Two men were traveling together through a forest when, all at once, a huge bear crashed out of the undergrowth near them.",
+    "One of the men, thinking only of his own safety, climbed a tree. The other, unable to fight the animal alone, threw himself on the ground and lay still, as if he were dead. He had heard that a bear will not touch a dead body.",
+    "It seems to have been true. The bear sniffed at the man's head for a while and then, apparently satisfied, walked away.",
+    "The man in the tree climbed down. “It looked just as if that bear whispered in your ear,” he said. “What did he tell you?”",
+    "“He said,” answered the other, “that it is not at all wise to keep company with a man who would desert his friend at the first sign of danger.”",
+    "Misfortune is the test of true friendship.",
+    "Putting the Bell on the Cat",
+    "The mice once called a meeting to decide on a plan to free themselves of their enemy, the cat. At the very least they wanted some way of knowing when she was coming, so that they might have time to run. Something had to be done: they lived in such constant fear of her claws that they hardly dared leave their holes by night or day.",
+    "Many plans were discussed and none was thought good enough. At last a very young mouse stood up and said:",
+    "“I have a plan that seems very simple, but I know it will work. All we have to do is hang a bell around the cat's neck. When we hear the bell ringing, we will know at once that our enemy is coming.”",
+    "All the mice were astonished that nobody had thought of it before. But in the middle of the rejoicing, an old mouse got to his feet and said:",
+    "“I agree that the young mouse's plan is very good. But let me ask one question. Who will bell the cat?”",
+    "It is one thing to say that something should be done, and quite another to do it.",
+    "Read together, the three fables say something the first one alone does not. The bundle of sticks is the easy case: people who stay together are harder to break, and everybody agrees with this while nothing is at stake. The bear is the first failure — the group holds until the moment it costs something, and then one man is in a tree. The mice are the second, and it is the more modern of the two, because nobody in that story does anything wrong. The plan is good. The meeting is enthusiastic. The vote, if they took one, would be unanimous. What is missing is the one mouse willing to carry the cost of the decision everybody else has approved, and the fable ends before anyone has to admit that.",
+    "English kept the phrase. To bell the cat still means to take on the dangerous job that the group has agreed needs doing and is waiting for somebody else to volunteer for."
+  ],
+  "vocabulary": [
+    {
+      "term": "to quarrel",
+      "definition": "to argue angrily and repeatedly",
+      "match": "quarreling"
+    },
+    {
+      "term": "try as he might",
+      "definition": "however hard he tried — a literary way of saying it"
+    },
+    {
+      "term": "to fetch",
+      "definition": "to go and bring something back"
+    },
+    {
+      "term": "bundle",
+      "definition": "a group of things tied together"
+    },
+    {
+      "term": "in turn",
+      "definition": "one after another"
+    },
+    {
+      "term": "to untie",
+      "definition": "to undo a knot and release what it held",
+      "match": "untied"
+    },
+    {
+      "term": "to be a match for",
+      "definition": "to be strong enough to face somebody as an equal",
+      "match": "a match for"
+    },
+    {
+      "term": "at the mercy of",
+      "definition": "completely under somebody's power, with no defence"
+    },
+    {
+      "term": "undergrowth",
+      "definition": "the low bushes and plants growing under trees"
+    },
+    {
+      "term": "to lie still",
+      "definition": "to stay motionless",
+      "match": "lay still"
+    },
+    {
+      "term": "to sniff",
+      "definition": "to smell something by drawing air in through the nose",
+      "match": "sniffed"
+    },
+    {
+      "term": "to keep company with",
+      "definition": "to travel or spend time with somebody",
+      "match": "keep company with"
+    },
+    {
+      "term": "to desert",
+      "definition": "to abandon somebody who depends on you"
+    },
+    {
+      "term": "misfortune",
+      "definition": "bad luck, especially when it lasts"
+    },
+    {
+      "term": "claw",
+      "definition": "the sharp curved nail on an animal's foot",
+      "match": "claws"
+    },
+    {
+      "term": "to dare",
+      "definition": "to be brave enough to do something",
+      "match": "dared"
+    },
+    {
+      "term": "astonished",
+      "definition": "very surprised"
+    },
+    {
+      "term": "rejoicing",
+      "definition": "open celebration"
+    },
+    {
+      "term": "unanimous",
+      "definition": "agreed by everybody, with nobody against"
+    },
+    {
+      "term": "at stake",
+      "definition": "at risk; able to be lost"
+    },
+    {
+      "term": "to bell the cat",
+      "definition": "to take on the dangerous job everybody agrees is necessary",
+      "match": "bell the cat"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-aesop2-rwd",
+      "type": "multiple-choice",
+      "title": "Right, Wrong, or Doesn't Say?",
+      "instructions": "RIGHT if the text states it, WRONG if the text contradicts it, DOESN'T SAY if it does not tell you. Fables invite assumptions; that is the exercise.",
+      "items": [
+        {
+          "id": "g1",
+          "prompt": "The father had tried to stop his sons arguing before.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — “try as he might, he could not get them to live together in peace”."
+        },
+        {
+          "id": "g2",
+          "prompt": "None of the sons could break a single stick.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — they could not break the bundle. Singly, they broke the sticks with no difficulty, which is the whole demonstration."
+        },
+        {
+          "id": "g3",
+          "prompt": "The sons stopped quarreling after this.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 2,
+          "explanation": "Doesn't say — the fable ends with the father's speech and the moral. Whether it worked is left out."
+        },
+        {
+          "id": "g4",
+          "prompt": "The man on the ground was pretending to be dead.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — he lay still “as if he were dead”, having heard that a bear will not touch a body."
+        },
+        {
+          "id": "g5",
+          "prompt": "The bear actually spoke to the man.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — the man in the tree says it “looked just as if” the bear whispered. The reply is the survivor's joke, and it is aimed at his companion."
+        },
+        {
+          "id": "g6",
+          "prompt": "The two men remained friends.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 2,
+          "explanation": "Doesn't say — though the closing line makes a guess easy, the text never states it."
+        },
+        {
+          "id": "g7",
+          "prompt": "The mice were afraid of the cat.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — they lived “in such constant fear of her claws” that they hardly left their holes."
+        },
+        {
+          "id": "g8",
+          "prompt": "The mice found a plan straight away.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — “many plans were discussed and none was thought good enough” before the young mouse spoke."
+        },
+        {
+          "id": "g9",
+          "prompt": "Some of the mice disliked the young mouse's plan.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 2,
+          "explanation": "Doesn't say — they were astonished and rejoicing. The old mouse does not object to the plan either; he asks who will carry it out."
+        },
+        {
+          "id": "g10",
+          "prompt": "A mouse volunteered to put the bell on the cat.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 2,
+          "explanation": "Doesn't say — and the silence is the point. The fable ends on the question, which is why it still stings."
+        }
+      ]
+    },
+    {
+      "id": "b2-aesop2-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading the Three Together",
+      "instructions": "The closing paragraphs argue that the three fables form a sequence. Follow it.",
+      "items": [
+        {
+          "id": "gc1",
+          "prompt": "Why does the writer call the bundle of sticks “the easy case”?",
+          "options": [
+            "The demonstration is simple to perform",
+            "Everybody agrees with it while nothing is at stake",
+            "It is the oldest of the three fables"
+          ],
+          "answerIndex": 1,
+          "explanation": "Agreement costs nothing until the group is actually tested, which is what the other two fables supply."
+        },
+        {
+          "id": "gc2",
+          "prompt": "What is the first way a group fails, in the writer's reading?",
+          "options": [
+            "It holds until the moment it costs something — and then one man is in a tree",
+            "It cannot agree on a plan",
+            "It chooses the wrong leader"
+          ],
+          "answerIndex": 0,
+          "explanation": "The bear is the test; the climb is the answer."
+        },
+        {
+          "id": "gc3",
+          "prompt": "Why does the writer call the mice “the more modern” failure?",
+          "options": [
+            "Because meetings are a modern invention",
+            "Because the cat represents a modern danger",
+            "Because nobody in the story does anything wrong"
+          ],
+          "answerIndex": 2,
+          "explanation": "The plan is good and the agreement genuine; what is missing is anyone willing to bear the cost of it."
+        },
+        {
+          "id": "gc4",
+          "prompt": "What does the writer say is missing from the mice's meeting?",
+          "options": [
+            "A leader with authority",
+            "The one mouse willing to carry the cost of the decision everybody has approved",
+            "A realistic assessment of the danger"
+          ],
+          "answerIndex": 1,
+          "explanation": "“And the fable ends before anyone has to admit that.”"
+        },
+        {
+          "id": "gc5",
+          "prompt": "What does “to bell the cat” mean in English?",
+          "options": [
+            "To warn a group about a danger",
+            "To propose a plan at a meeting",
+            "To take on the dangerous job the group agrees is needed and is waiting for somebody else to do"
+          ],
+          "answerIndex": 2,
+          "explanation": "The phrase carries the fable's sting: the difficulty was never the idea."
+        }
+      ]
+    },
+    {
+      "id": "b2-aesop2-vocabulary",
+      "type": "fill-blank",
+      "title": "The Language of the Fables",
+      "instructions": "Complete each sentence.",
+      "items": [
+        {
+          "id": "gf1",
+          "prompt": "Alone, he was ___ ___ ___ ___ anybody who chose to attack him.",
+          "answers": [
+            "at",
+            "the",
+            "mercy",
+            "of"
+          ],
+          "options": [
+            [
+              "at",
+              "in",
+              "on"
+            ],
+            [
+              "the",
+              "a",
+              "his"
+            ],
+            [
+              "mercy",
+              "power",
+              "hands"
+            ],
+            [
+              "of",
+              "to",
+              "for"
+            ]
+          ],
+          "explanation": "At the mercy of somebody means completely under their power, with no defence."
+        },
+        {
+          "id": "gf2",
+          "prompt": "Together they were more than ___ ___ ___ the others.",
+          "answers": [
+            "a",
+            "match",
+            "for"
+          ],
+          "options": [
+            [
+              "a",
+              "the",
+              "one"
+            ],
+            [
+              "match",
+              "equal",
+              "rival"
+            ],
+            [
+              "for",
+              "to",
+              "of"
+            ]
+          ],
+          "explanation": "To be a match for somebody is to be strong enough to face them as an equal."
+        },
+        {
+          "id": "gf3",
+          "prompt": "He ___ his friend as soon as there was any real danger.",
+          "answers": [
+            "deserted"
+          ],
+          "options": [
+            "deserted",
+            "dared",
+            "quarrelled"
+          ],
+          "explanation": "To desert somebody is to abandon them when they depend on you."
+        },
+        {
+          "id": "gf4",
+          "prompt": "The decision was ___ — not one vote against.",
+          "answers": [
+            "unanimous"
+          ],
+          "options": [
+            "unanimous",
+            "astonished",
+            "unanswered"
+          ],
+          "explanation": "Unanimous means agreed by everybody, which is exactly the mice's position."
+        },
+        {
+          "id": "gf5",
+          "prompt": "Everyone agrees until something is ___ ___.",
+          "answers": [
+            "at",
+            "stake"
+          ],
+          "options": [
+            [
+              "at",
+              "in",
+              "on"
+            ],
+            [
+              "stake",
+              "risk",
+              "danger"
+            ]
+          ],
+          "explanation": "At stake means able to be lost — the condition under which agreement gets tested."
+        },
+        {
+          "id": "gf6",
+          "prompt": "Everybody wants the problem solved; nobody wants to ___ ___ ___.",
+          "answers": [
+            "bell",
+            "the",
+            "cat"
+          ],
+          "options": [
+            [
+              "bell",
+              "ring",
+              "call"
+            ],
+            [
+              "the",
+              "a",
+              "that"
+            ],
+            [
+              "cat",
+              "mouse",
+              "bell"
+            ]
+          ],
+          "explanation": "To bell the cat: to take on the dangerous job everybody has agreed is necessary."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "“Nobody in that story does anything wrong.” Is that true? Does the young mouse owe the group anything?",
+    "Have you been in a meeting where the plan was agreed and the work was not? What happened next?",
+    "The man in the tree asks a joking question and gets a serious answer. Which of the two would you rather travel with, honestly?",
+    "The bundle of sticks has been used as a political emblem for two thousand years. Why is it such a useful image, and why is it dangerous?",
+    "Write about 200 words about a decision a group you belong to agreed on and nobody carried out. Who should have?"
+  ]
+}

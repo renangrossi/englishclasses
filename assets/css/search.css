@@ -404,4 +404,18 @@
   flex-shrink: 0;
   text-align: right;
 }
+
+/* On a phone, the panel opens as just the search field. The verb list is 213
+   rows, and dropping all of it plus a count, a loading line and a footer link
+   onto a small screen the moment the button is tapped buries the one control
+   the student came for. Everything below the field stays hidden until they
+   have typed something; data-query is set by irregular-verbs-panel.js. The
+   table is still fetched and filtered as before -- it is only not shown yet.
+   Desktop is unchanged: there is room there for the list to sit open. */
+@media (max-width: 640px) {
+  .irregular-verbs-panel:not([data-query]) .irregular-verbs-panel__body,
+  .irregular-verbs-panel:not([data-query]) .irregular-verbs-panel__footer {
+    display: none;
+  }
+}
 .dict-widget__links { display: flex; flex-wrap: wrap; gap: 0.4em; padding: 0 0.9em 0.8em; flex-shrink: 0; }

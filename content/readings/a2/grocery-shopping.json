@@ -1,0 +1,347 @@
+{
+  "id": "a2-reading-grocery-shopping",
+  "level": "A2",
+  "slug": "grocery-shopping",
+  "topic": "food",
+  "title": "Shopping for a Special Dinner",
+  "subtitle": "Three courses, one cart, and a list that does not survive the first aisle.",
+  "description": "An A2 reading and listening text following a shopping trip to cook a three-course dinner, with food and shopping vocabulary and comprehension exercises.",
+  "source": "cefr/texts/grocery-shopping.docx",
+  "provenance": "rewritten",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "1:54"
+  },
+  "passage": [
+    "Cynthia wanted to cook something special. Her husband had started a new job that week, and she thought a good dinner was a better way to celebrate than a card.",
+    "She did not know yet what she was going to make. She had a rough idea — a salad, a main course and something sweet — but nothing more than that, so she went to the store to look for ideas.",
+    "She took a cart at the door and read her list again. It said: salad things, meat?, dessert. It was not a very good list.",
+    "She started with the vegetables. The tomatoes looked tired, so she chose spinach instead, and added an avocado, a cucumber and a lemon. Then she picked up some walnuts, because she remembered a salad with walnuts and cheese that she had eaten once and never made.",
+    "For the main course she stood in front of the meat counter for a long time. Chicken was the safe choice. Fish was better but harder. In the end she asked the man behind the counter what was good that day, and he said the salmon had come in that morning, so she bought salmon. She also took potatoes, garlic and butter.",
+    "Dessert was easy, because her husband only really likes one thing. She bought dark chocolate, cream, eggs and sugar, and decided she would make chocolate mousse. It takes twenty minutes and it always works.",
+    "At the checkout she looked in her cart and saw that she had spent more than she meant to. She usually does. Then she went home, put the shopping away, and started cutting the potatoes while the oven warmed up.",
+    "Her husband came home at seven. He smelled the fish and said, “What's the occasion?”, which she thought was a very silly question."
+  ],
+  "vocabulary": [
+    {
+      "term": "to celebrate",
+      "definition": "to do something enjoyable because of a happy event"
+    },
+    {
+      "term": "rough idea",
+      "definition": "a general plan without the details"
+    },
+    {
+      "term": "cart",
+      "definition": "the metal basket on wheels you push around a store"
+    },
+    {
+      "term": "tired",
+      "definition": "old and no longer fresh, said of fruit or vegetables"
+    },
+    {
+      "term": "walnut",
+      "definition": "a hard-shelled nut often used in salads",
+      "match": "walnuts"
+    },
+    {
+      "term": "main course",
+      "definition": "the biggest and most important dish of a meal"
+    },
+    {
+      "term": "counter",
+      "definition": "the long table in a shop where you are served"
+    },
+    {
+      "term": "safe choice",
+      "definition": "an option that is not exciting but will not go wrong"
+    },
+    {
+      "term": "to come in",
+      "definition": "to arrive as a delivery",
+      "match": "come in"
+    },
+    {
+      "term": "checkout",
+      "definition": "the place in a shop where you pay"
+    },
+    {
+      "term": "to put away",
+      "definition": "to store things in their proper places",
+      "match": "put the shopping away"
+    },
+    {
+      "term": "oven",
+      "definition": "the closed box you bake food in"
+    },
+    {
+      "term": "to warm up",
+      "definition": "to become hot enough to use",
+      "match": "warmed up"
+    },
+    {
+      "term": "occasion",
+      "definition": "a special event or reason"
+    },
+    {
+      "term": "silly",
+      "definition": "foolish; not sensible"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-groc-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the story.",
+      "items": [
+        {
+          "id": "gr1",
+          "prompt": "Why did Cynthia want to cook a special dinner?",
+          "options": [
+            "It was her husband's birthday",
+            "Her husband had started a new job",
+            "They had guests coming"
+          ],
+          "answerIndex": 1,
+          "explanation": "She thought a dinner was “a better way to celebrate than a card”."
+        },
+        {
+          "id": "gr2",
+          "prompt": "Why does the writer say the list was “not a very good list”?",
+          "options": [
+            "She had left it at home",
+            "It was written in the wrong order",
+            "It only said “salad things, meat?, dessert”"
+          ],
+          "answerIndex": 2,
+          "explanation": "Even the question mark after “meat” shows she had not decided anything."
+        },
+        {
+          "id": "gr3",
+          "prompt": "Why did she choose spinach instead of tomatoes?",
+          "options": [
+            "The tomatoes looked tired",
+            "Spinach was cheaper",
+            "She does not like tomatoes"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Tired” here means old and no longer fresh."
+        },
+        {
+          "id": "gr4",
+          "prompt": "How did she decide on the main course?",
+          "options": [
+            "She had planned salmon before she arrived",
+            "She asked the man at the counter what was good that day",
+            "She chose the cheapest option"
+          ],
+          "answerIndex": 1,
+          "explanation": "She had been standing there “for a long time” unable to decide, and he told her the salmon had come in that morning."
+        },
+        {
+          "id": "gr5",
+          "prompt": "Why was dessert easy to choose?",
+          "options": [
+            "Her husband only really likes one thing",
+            "It was the only thing on the list",
+            "She had made it the week before"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the mousse “takes twenty minutes and it always works”."
+        },
+        {
+          "id": "gr6",
+          "prompt": "What happened at the checkout?",
+          "options": [
+            "She had forgotten her money",
+            "She realised she had spent more than she meant to",
+            "She had to put some things back"
+          ],
+          "answerIndex": 1,
+          "explanation": "“She usually does” — which tells you it is a habit, not an accident."
+        },
+        {
+          "id": "gr7",
+          "prompt": "Why did Cynthia think her husband's question was silly?",
+          "options": [
+            "He had forgotten his own new job",
+            "He asks the same question every evening",
+            "He could already smell the fish"
+          ],
+          "answerIndex": 0,
+          "explanation": "The occasion is his new job, which is exactly the thing he should not need to ask about."
+        }
+      ]
+    },
+    {
+      "id": "a2-groc-vocabulary",
+      "type": "fill-blank",
+      "title": "Shopping and Cooking Words",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "gf1",
+          "prompt": "I took a ___ at the door and put my bag in it.",
+          "answers": [
+            "cart"
+          ],
+          "options": [
+            "cart",
+            "counter",
+            "checkout"
+          ],
+          "explanation": "A cart is the basket on wheels. The counter is where you are served, and the checkout is where you pay."
+        },
+        {
+          "id": "gf2",
+          "prompt": "Don't buy those — they look ___.",
+          "answers": [
+            "tired"
+          ],
+          "options": [
+            "tired",
+            "silly",
+            "safe"
+          ],
+          "explanation": "Tired means old and no longer fresh. It is used about people and about vegetables."
+        },
+        {
+          "id": "gf3",
+          "prompt": "The fish ___ ___ this morning, so it is very fresh.",
+          "answers": [
+            "came",
+            "in"
+          ],
+          "options": [
+            [
+              "came",
+              "went",
+              "got"
+            ],
+            [
+              "in",
+              "on",
+              "up"
+            ]
+          ],
+          "explanation": "To come in means to arrive as a delivery — the phrase a fishmonger or butcher uses."
+        },
+        {
+          "id": "gf4",
+          "prompt": "Chicken is the ___ ___ if you don't know what to cook.",
+          "answers": [
+            "safe",
+            "choice"
+          ],
+          "options": [
+            [
+              "safe",
+              "rough",
+              "silly"
+            ],
+            [
+              "choice",
+              "idea",
+              "course"
+            ]
+          ],
+          "explanation": "A safe choice will not go wrong, but it will not surprise anybody either."
+        },
+        {
+          "id": "gf5",
+          "prompt": "Please ___ the shopping ___ before it gets warm.",
+          "answers": [
+            "put",
+            "away"
+          ],
+          "options": [
+            [
+              "put",
+              "take",
+              "give"
+            ],
+            [
+              "away",
+              "out",
+              "off"
+            ]
+          ],
+          "explanation": "To put something away is to store it in its proper place."
+        },
+        {
+          "id": "gf6",
+          "prompt": "Turn the ___ on so it can ___ ___ while you cut the potatoes.",
+          "answers": [
+            "oven",
+            "warm",
+            "up"
+          ],
+          "options": [
+            [
+              "oven",
+              "counter",
+              "cart"
+            ],
+            [
+              "warm",
+              "heat",
+              "get"
+            ],
+            [
+              "up",
+              "on",
+              "in"
+            ]
+          ],
+          "explanation": "To warm up is to become hot enough to use."
+        }
+      ]
+    },
+    {
+      "id": "a2-groc-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the story.",
+      "items": [
+        {
+          "id": "gt1",
+          "statement": "Cynthia knew what she would cook before she left home.",
+          "answer": false,
+          "explanation": "False — she had only “a rough idea” and went to the store to look for ideas."
+        },
+        {
+          "id": "gt2",
+          "statement": "She bought tomatoes for the salad.",
+          "answer": false,
+          "explanation": "False — the tomatoes looked tired, so she took spinach instead."
+        },
+        {
+          "id": "gt3",
+          "statement": "She had made the walnut salad before.",
+          "answer": false,
+          "explanation": "False — she had eaten it once “and never made” it."
+        },
+        {
+          "id": "gt4",
+          "statement": "The chocolate mousse is quick to make.",
+          "answer": true,
+          "explanation": "True — twenty minutes, “and it always works”."
+        },
+        {
+          "id": "gt5",
+          "statement": "Her husband knew why she had cooked a special dinner.",
+          "answer": false,
+          "explanation": "False — he asked “What's the occasion?”, which is why she thought the question was silly."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Cynthia goes shopping without deciding what to cook. Do you plan your meals or decide in the shop?",
+    "She always spends more than she means to. Why is that so common?",
+    "What would you cook to celebrate good news? Name three things you would buy.",
+    "Her husband did not understand why the dinner was special. Was that fair, or was she being hard on him?",
+    "Write about 100 words about a meal you cooked for somebody, and say what you bought for it."
+  ]
+}

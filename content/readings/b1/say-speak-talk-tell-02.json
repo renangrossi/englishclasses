@@ -291,6 +291,125 @@
           "explanation": "True — “he said the laptop was a good choice”, and then asked about the watch."
         }
       ]
+    },
+    {
+      "id": "b1-sstt-correction",
+      "type": "correction",
+      "title": "Correct the Mistake",
+      "instructions": "Each sentence uses the wrong verb of speaking. Rewrite it correctly. The rule that decides it: TELL needs a person straight after it, SAY does not take one, and TALK and SPEAK need to before a person.",
+      "items": [
+        {
+          "id": "sc1",
+          "explanation": "A person follows the verb directly, so it must be tell. Talk would need to: talked to the patient.",
+          "incorrect": "The doctor has talked the patient that the treatment is working.",
+          "answer": [
+            "The doctor has told the patient that the treatment is working."
+          ]
+        },
+        {
+          "id": "sc2",
+          "explanation": "Say does not take to + person in this pattern. Speak to or talk to is what the sentence needs.",
+          "incorrect": "We have said to the plumber about the leaking pipes.",
+          "answer": [
+            "We have spoken to the plumber about the leaking pipes."
+          ]
+        },
+        {
+          "id": "sc3",
+          "explanation": "Speak cannot be followed by a that-clause. Say can, and no listener is named.",
+          "incorrect": "She has spoken many times that she loves painting.",
+          "answer": [
+            "She has said many times that she loves painting."
+          ]
+        },
+        {
+          "id": "sc4",
+          "explanation": "“Us” is a person immediately after the verb, which only tell allows.",
+          "incorrect": "He has said us an interesting fact.",
+          "answer": [
+            "He has told us an interesting fact."
+          ]
+        },
+        {
+          "id": "sc5",
+          "explanation": "Tell someone TO DO something is the pattern for an instruction. Speak cannot take it.",
+          "incorrect": "The mentor has spoken the interns to finish by Friday.",
+          "answer": [
+            "The mentor has told the interns to finish by Friday."
+          ]
+        },
+        {
+          "id": "sc6",
+          "explanation": "Tell needs a listener. With no person named, talk about is the natural choice.",
+          "incorrect": "They have told about their new product.",
+          "answer": [
+            "They have talked about their new product."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-sstt-choice",
+      "type": "multiple-choice",
+      "title": "Past Simple or Present Perfect?",
+      "instructions": "Choose the form that fits. A stated past time forces the past simple; an unfinished period or no stated time allows the present perfect.",
+      "items": [
+        {
+          "id": "sm1",
+          "prompt": "The manager ___ the team that the deadline has moved.",
+          "options": [
+            "has told",
+            "has said",
+            "said to"
+          ],
+          "answerIndex": 0,
+          "explanation": "No time is stated and the news still stands, so the present perfect — and the team is a person, so tell."
+        },
+        {
+          "id": "sm2",
+          "prompt": "We ___ to the technician about the problem last week.",
+          "options": [
+            "spoke",
+            "have spoken",
+            "have said"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Last week” is finished past time, which rules out the present perfect entirely."
+        },
+        {
+          "id": "sm3",
+          "prompt": "She ___ many times that she enjoys hiking.",
+          "options": [
+            "has said",
+            "has told",
+            "told"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Many times” up to now takes the present perfect, and with no listener named it must be say."
+        },
+        {
+          "id": "sm4",
+          "prompt": "He ___ us a joke during lunch yesterday.",
+          "options": [
+            "told",
+            "has told",
+            "said"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Yesterday” forces the past simple; “us” forces tell."
+        },
+        {
+          "id": "sm5",
+          "prompt": "I ___ to my manager about it three times this week.",
+          "options": [
+            "have spoken",
+            "spoke",
+            "have told"
+          ],
+          "answerIndex": 0,
+          "explanation": "“This week” is not finished yet, so the present perfect — and speak to, since a person follows to."
+        }
+      ]
     }
   ],
   "discussion": [

@@ -1,0 +1,182 @@
+{
+  "id": "b1-reading-climbing",
+  "level": "B1",
+  "slug": "climbing",
+  "topic": "sports",
+  "title": "Learning to Climb",
+  "subtitle": "What rock climbing actually involves — the styles, the technique, and what goes in the pack.",
+  "description": "A B1 reading and listening text about rock climbing: the main styles of the sport, basic technique, and the gear a beginner needs, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/climbing.docx",
+  "provenance": "edited",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "3:24"
+  },
+  "passage": [
+    "Rock climbing is a sport in which you go up, across, or back down a rock face — either a real one outdoors or an artificial wall at a gym. People sometimes assume it is all upper-body strength, but that is only one part of it. Climbing asks for technique and for a certain kind of concentration as well, and the climbers who last are usually the ones who worked on all three.",
+    "There are several ways to climb, and they suit different people. Bouldering is done on short, low routes without a rope, either on real boulders or indoors, and it is really a puzzle: a few hard moves that you try again and again until the sequence works. Top-rope climbing has the rope anchored above you before you start, so a slip leaves you hanging rather than falling, which makes it the usual place to begin. In lead climbing, the climber clips the rope into protection points while going up, which gives more freedom and demands more skill. Sport climbing uses routes with bolts already fixed in the rock, while traditional climbing — trad, as climbers call it — means placing your own gear in cracks as you go and taking it out afterward.",
+    "Whatever the style, the basics of technique are the same. Beginners tend to haul themselves up with their arms and are exhausted within minutes. Good climbers stand on their feet instead, pointing their toes and using the edges of their shoes, and they keep their center of gravity over those feet rather than hanging off the wall. Hands matter too, and the different grips have names — crimps, slopers, jugs and pinches — which you learn to recognize by feel as much as by sight. On a longer route, the skill that separates people is knowing how to rest: finding a position where you can shake out an arm and get your breathing back before the next hard section.",
+    "Climbing outdoors usually means walking in first, and the hike deserves as much planning as the climb. Boots with real ankle support are worth the money, and they need to be broken in before the day itself, not on it. Clothing should be in layers that move sweat away from the skin, because you will be warm on the walk and cold standing at the base. A waterproof jacket is not optional in the mountains, where the weather can turn in an hour, and a hat and sunglasses matter more at altitude than most people expect.",
+    "In the pack go water — two liters at a minimum, more in summer — and food that is worth its weight, so nuts, dried fruit, or energy bars rather than anything that needs cooking. A small first-aid kit covers the cuts and blisters that actually happen. A map and compass, or a GPS, are worth carrying even on a route you think you know, and a headlamp is what turns a slow descent in the dark from an emergency into an inconvenience. Most climbers also carry a multi-tool and a whistle, which weigh almost nothing and occasionally matter a great deal.",
+    "Then there is the climbing gear itself. Climbing shoes fit tightly, for control, but a shoe that actually hurts will end your day early. A harness and a helmet are not negotiable on roped climbs — the helmet is as much for rock falling from above as for a fall of your own. A chalk bag keeps your hands dry, and a belay device with a few carabiners is needed for anything beyond bouldering.",
+    "The advice given to nearly every beginner is the same three things. Find a partner, because climbing alone is a bad idea and a worse habit. Take an introductory class, since the safety systems are simple but unforgiving of guesswork. And build up on easy routes, where there is time to think about footwork, instead of jumping onto something hard and learning nothing but fear.",
+    "Climbers talk a lot about the summit, but most of them will admit the top is not really the point. The sport is the movement, the place, and the people you go with. It also comes with an expectation: you leave the crag as you found it, take your trash home, and pass on the etiquette to whoever comes next."
+  ],
+  "vocabulary": [
+    { "term": "a rock face", "definition": "the steep, exposed side of a rock or cliff", "match": "rock face" },
+    { "term": "bouldering", "definition": "climbing short, low routes without a rope" },
+    { "term": "to anchor", "definition": "to fix something firmly in place so it holds weight", "match": "anchored" },
+    { "term": "center of gravity", "definition": "the point where a body's weight is balanced" },
+    { "term": "to shake out", "definition": "to let an arm hang and relax so blood returns to it", "match": "shake out" },
+    { "term": "to break in", "definition": "to wear new boots until they fit comfortably", "match": "broken in" },
+    { "term": "a layer", "definition": "one of several pieces of clothing worn on top of each other", "match": "layers" },
+    { "term": "a harness", "definition": "the belt and straps that attach a climber to the rope" },
+    { "term": "to belay", "definition": "to control the rope to protect a climbing partner", "match": "belay device" },
+    { "term": "a crag", "definition": "a small cliff used for climbing" },
+    { "term": "unforgiving", "definition": "leaving no room for mistakes" },
+    { "term": "etiquette", "definition": "the unwritten rules about how to behave in a group" }
+  ],
+  "exercises": [
+    {
+      "id": "b1-climbing-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "The questions are worded differently from the text. Some of them ask you to combine two pieces of information.",
+      "items": [
+        {
+          "id": "cl1",
+          "prompt": "What does the writer suggest about the popular idea that climbing is mainly about arm strength?",
+          "options": [
+            "It is incomplete — technique and concentration count as well",
+            "It is correct for outdoor climbing but not indoors",
+            "It is true only of bouldering"
+          ],
+          "answerIndex": 0,
+          "explanation": "“People sometimes assume it is all upper-body strength, but that is only one part of it.” The climbers who last work on all three."
+        },
+        {
+          "id": "cl2",
+          "prompt": "Why is top-rope climbing described as the usual starting point?",
+          "options": [
+            "The routes are shorter than in other styles",
+            "The rope is fixed above the climber, so a mistake means hanging rather than falling",
+            "It needs no equipment at all"
+          ],
+          "answerIndex": 1,
+          "explanation": "The rope is “anchored above you before you start, so a slip leaves you hanging rather than falling”."
+        },
+        {
+          "id": "cl3",
+          "prompt": "What is the main difference between sport climbing and trad climbing?",
+          "options": [
+            "Sport climbing is indoors and trad climbing is outdoors",
+            "Sport climbing uses no rope",
+            "In sport climbing the protection is already fixed; in trad the climber places and removes it"
+          ],
+          "answerIndex": 2,
+          "explanation": "Sport routes have “bolts already fixed in the rock”, while trad “means placing your own gear in cracks as you go and taking it out afterward”."
+        },
+        {
+          "id": "cl4",
+          "prompt": "According to the text, why do beginners tire so quickly?",
+          "options": [
+            "They choose routes that are too long",
+            "They pull with their arms instead of standing on their feet",
+            "They do not eat enough before climbing"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Beginners tend to haul themselves up with their arms and are exhausted within minutes,” whereas good climbers stand on their feet."
+        },
+        {
+          "id": "cl5",
+          "prompt": "Which skill does the writer say marks out the better climbers on a long route?",
+          "options": [
+            "Climbing faster than the others",
+            "Recognizing grips by sight",
+            "Knowing how to rest and recover mid-route"
+          ],
+          "answerIndex": 2,
+          "explanation": "“The skill that separates people is knowing how to rest” — finding a position to shake out an arm and get the breathing back."
+        },
+        {
+          "id": "cl6",
+          "prompt": "Why does the text insist that boots be broken in beforehand?",
+          "options": [
+            "Because stiff new boots cause problems on the walk in",
+            "Because worn boots grip the rock better",
+            "Because new boots are not waterproof"
+          ],
+          "answerIndex": 0,
+          "explanation": "They “need to be broken in before the day itself, not on it” — the hike is where unworn boots cause trouble."
+        },
+        {
+          "id": "cl7",
+          "prompt": "What is the writer's point about carrying a headlamp?",
+          "options": [
+            "It is only needed for caves",
+            "It turns a potential emergency into a minor inconvenience",
+            "It is the heaviest item worth carrying"
+          ],
+          "answerIndex": 1,
+          "explanation": "It is “what turns a slow descent in the dark from an emergency into an inconvenience”."
+        },
+        {
+          "id": "cl8",
+          "prompt": "Why does the writer warn against starting on hard routes?",
+          "options": [
+            "Because the gear for hard routes is expensive",
+            "Because there is no time to think about technique, so you learn fear instead of skill",
+            "Because hard routes are usually further from the road"
+          ],
+          "answerIndex": 1,
+          "explanation": "Easy routes leave “time to think about footwork”; jumping onto something hard teaches “nothing but fear”."
+        },
+        {
+          "id": "cl9",
+          "prompt": "What does the last paragraph suggest climbers value most?",
+          "options": [
+            "Reaching the summit of every route they attempt",
+            "The movement, the place and the company, plus leaving it as they found it",
+            "Competing against other climbers at the crag"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Most of them will admit the top is not really the point” — the sport is “the movement, the place, and the people”, with an expectation about leaving no trace."
+        }
+      ]
+    },
+    {
+      "id": "b1-climbing-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches what the text says. The wording is not the same.",
+      "items": [
+        { "id": "clt1", "statement": "Bouldering is done without a rope.", "answer": true, "explanation": "True — it is “done on short, low routes without a rope”." },
+        { "id": "clt2", "statement": "A helmet protects a climber only in the event of a fall.", "answer": false, "explanation": "False — it is “as much for rock falling from above as for a fall of your own”." },
+        { "id": "clt3", "statement": "The writer thinks a map is unnecessary on a familiar route.", "answer": false, "explanation": "False — a map and compass are “worth carrying even on a route you think you know”." },
+        { "id": "clt4", "statement": "Climbing shoes should be tight, but not painful.", "answer": true, "explanation": "True — they fit tightly for control, but “a shoe that actually hurts will end your day early”." },
+        { "id": "clt5", "statement": "The text recommends learning the safety systems by trial and error.", "answer": false, "explanation": "False — the systems are “simple but unforgiving of guesswork”, which is why a class is advised." },
+        { "id": "clt6", "statement": "Two liters of water is described as the least you should carry.", "answer": true, "explanation": "True — “two liters at a minimum, more in summer”." }
+      ]
+    },
+    {
+      "id": "b1-climbing-vocabulary",
+      "type": "fill-blank",
+      "title": "Climbing Vocabulary",
+      "instructions": "Complete each sentence with the word that fits.",
+      "items": [
+        { "id": "clf1", "prompt": "Keep your ___ of gravity over your feet, or you will hang off the wall.", "answers": ["center"], "options": ["center", "layer", "harness"], "explanation": "Your center of gravity is the point where your weight is balanced." },
+        { "id": "clf2", "prompt": "Wear several thin ___ rather than one thick jacket.", "answers": ["layers"], "options": ["layers", "crags", "grips"], "explanation": "Layers are pieces of clothing worn on top of each other, so you can add or remove them." },
+        { "id": "clf3", "prompt": "I need to ___ these boots ___ before the trip.", "answers": ["break", "in"], "options": [["break", "belay", "anchor"], ["in", "out", "up"]], "explanation": "To break in boots is to wear them until they are comfortable." },
+        { "id": "clf4", "prompt": "The rope was ___ at the top of the route.", "answers": ["anchored"], "options": ["anchored", "broken", "rested"], "explanation": "To anchor something is to fix it firmly so it holds weight." },
+        { "id": "clf5", "prompt": "There is a small ___ near town where beginners practice.", "answers": ["crag"], "options": ["crag", "harness", "layer"], "explanation": "A crag is a small cliff used for climbing." },
+        { "id": "clf6", "prompt": "Climbing has its own ___: you take your trash home and leave the place as you found it.", "answers": ["etiquette"], "options": ["etiquette", "technique", "protection"], "explanation": "Etiquette is the set of unwritten rules about how to behave in a group." }
+      ]
+    }
+  ],
+  "discussion": [
+    "Would you rather try bouldering indoors or a roped climb outdoors? Explain your choice.",
+    "The text says the summit is 'not really the point'. Is that true of other sports you know?",
+    "Think of an activity you do. Which three items would you tell a beginner they must not leave at home?",
+    "Climbers are expected to leave no trace. Should the same rule apply to tourists in general? Write about 100 words."
+  ]
+}

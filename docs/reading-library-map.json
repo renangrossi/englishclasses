@@ -224,19 +224,21 @@
    "words": 967,
    "genre": "reading",
    "level": "B1",
-   "topic": "society",
+   "topic": "tech",
    "action": "KEEP",
-   "audio": "exists",
-   "reason": "Clear, well-levelled text on income and car choice. Has 4 mp3 segments.",
-   "status": "NOT STARTED",
+   "audio": "required",
+   "reason": "Strong B1 explainer moving from consumer choice to the EV market. Kept as published. Its Tesla/BYD figures are explicitly dated to June 2026 in the text itself, so they read as a snapshot rather than as current fact.",
+   "status": "IMPLEMENTED",
    "card_title": "Cars",
    "source_files": [
+    "cefr/texts/cars.docx",
     "cefr/texts/cars.pdf",
     "cefr/texts/cars1.mp3",
     "cefr/texts/cars2.mp3",
     "cefr/texts/cars3.mp3",
     "cefr/texts/cars4.mp3"
-   ]
+   ],
+   "page": "reading/b1/cars.html"
   },
   {
    "slug": "cars-and-their-parts",
@@ -277,13 +279,15 @@
    "topic": "sports",
    "action": "KEEP",
    "audio": "required",
-   "reason": "Clean informational sports text with a natural vocabulary set.",
-   "status": "NOT STARTED",
+   "reason": "Clean informational sports text with a natural vocabulary set. Converted from the .docx, whose content is a bulleted gear-and-technique guide rather than continuous prose; it was reset as connected paragraphs so it can be read and narrated, with all the original content retained.",
+   "status": "IMPLEMENTED",
    "card_title": "Climbing",
    "card_desc": "Exercises on climbing terminology and scenarios.",
    "source_files": [
+    "cefr/texts/climbing.docx",
     "cefr/texts/climbing.pdf"
-   ]
+   ],
+   "page": "reading/b1/climbing.html"
   },
   {
    "slug": "coffee-and-it",
@@ -551,13 +555,15 @@
    "topic": "travel",
    "action": "KEEP",
    "audio": "required",
-   "reason": "Natural, well-levelled travel-trend text.",
-   "status": "NOT STARTED",
+   "reason": "Well-written travel text on a current trend, needing no editorial repair. The source's 'Activity I' worksheet framing and its redundant closing paragraph were trimmed; the prose itself is as published.",
+   "status": "IMPLEMENTED",
    "card_title": "Glamping",
    "card_desc": "Exercises on glamping (glamorous camping) vocabulary and experiences.",
    "source_files": [
+    "cefr/texts/glamping.docx",
     "cefr/texts/glamping.pdf"
-   ]
+   ],
+   "page": "reading/b1/glamping.html"
   },
   {
    "slug": "golden-gate-bridge-present-perfect",
@@ -661,16 +667,18 @@
    "words": 408,
    "genre": "dialogue",
    "level": "B1",
-   "topic": "society",
-   "action": "KEEP",
+   "topic": "literature",
+   "action": "EDIT",
    "audio": "required",
-   "reason": "Tight interrogation dialogue, natural past continuous, English names already.",
-   "status": "NOT STARTED",
+   "reason": "Tight interrogation dialogue with natural past continuous and English names already. Audited as KEEP, but a close read found the closing exchange unusable: it was graphic (stab wounds 'all over her torso', the body 'dragged to the forest for the wild animals to feast upon') and abusive ('you lying bastard', 'You are evil. And stupid.') -- the same defect class that made P-5 texts REPLACE. Reclassified KEEP->EDIT. The deduction that drives the scene is the source's own and was kept: Rogers claims he heard gunshots, but the victim was never shot. The gore and the insults are gone, and the interview now ends with the lie exposed and the case deliberately unresolved, which is what the discussion questions work on.",
+   "status": "IMPLEMENTED",
    "card_title": "Investigation Story",
    "card_desc": "Comprehension exercises based on an investigative narrative.",
    "source_files": [
+    "cefr/texts/investigation-story.docx",
     "cefr/texts/investigation-story.pdf"
-   ]
+   ],
+   "page": "reading/b1/investigation-story.html"
   },
   {
    "slug": "irregular-verbs-list",
@@ -1270,15 +1278,17 @@
    "level": "B1",
    "topic": "everyday",
    "action": "KEEP",
-   "audio": "exists",
-   "reason": "Authentic conversational register, a genuinely useful model of informal opinion writing. Light polish only. Has 2 mp3 segments.",
-   "status": "NOT STARTED",
+   "audio": "required",
+   "reason": "Authentic informal American register -- exactly the colloquial English the library is short of. Kept as published; only the source's ellipses were normalized to dashes and 'public transportation' spelled out.",
+   "status": "IMPLEMENTED",
    "card_title": "Snowy Days",
    "source_files": [
+    "cefr/texts/snowy-days.docx",
     "cefr/texts/snowy-days.pdf",
     "cefr/texts/snowy-days-01.mp3",
     "cefr/texts/snowy-days-02.mp3"
-   ]
+   ],
+   "page": "reading/b1/snowy-days.html"
   },
   {
    "slug": "soma-nomaoi",
@@ -1592,7 +1602,7 @@
   }
  ],
  "_progress": {
-  "implemented": 11,
+  "implemented": 16,
   "merged_away": 0,
   "total": 98
  }

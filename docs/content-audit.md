@@ -9,7 +9,7 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 11 of 98 implemented.**
+**Progress: 16 of 98 implemented.**
 
 ## Totals
 
@@ -19,9 +19,9 @@ See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the
 | REPLACE | 11 | The slot is worth keeping, but authoring a new text beats repairing this one. |
 | MERGE | 15 | Two or more files teach essentially the same language in essentially the same context. |
 | SPLIT | 9 | Several unrelated materials share one file; each deserves its own page, exercises and audio. |
-| EDIT | 31 | Useful material that needs correction before it goes on the site. |
+| EDIT | 32 | Useful material that needs correction before it goes on the site. |
 | CONVERT | 11 | Not a reading text -- a drill, answer key or discussion bank. |
-| KEEP | 16 | Already good; convert as-is. |
+| KEEP | 15 | Already good; convert as-is. |
 | **Total** | **98** | |
 
 ### Recommended level
@@ -45,8 +45,8 @@ content rather than as pre-existing.
 
 | Audio | Docs | |
 |---|---:|---|
-| `required` | 54 | must be generated |
-| `exists` | 14 | mp3 present and matches the text |
+| `required` | 56 | must be generated |
+| `exists` | 12 | mp3 present and matches the text |
 | `stale-on-edit` | 2 | mp3 present but the text is being edited -- **must be regenerated** |
 | `n/a` | 28 | drill / answer key / discussion bank -- not a reading text |
 
@@ -120,7 +120,7 @@ Several unrelated materials share one file; each deserves its own page, exercise
 | `travel-dialogues`<br>[page](../reading/a2/flying-to-the-us.html) | 935 | dialogue | A2 | travel | `exists` | IMPLEMENTED | Strong functional dialogues, but eight unrelated scenarios in one worksheet (airline booking, reconfirming, passport control, booking a hotel room, checking out, ordering dinner, buying clothes, asking for a photo) with every student line left blank. Split into three coherent pages and given model answers so the dialogues can actually be read and narrated. Americanized throughout per requirement 16: euros to dollars, 24-hour times to 12-hour ('16:45' to '4:45 p.m.'), 'the trout is off' to 'we're out of the trout', 'colours' to 'colors', traveller's cheques to a card; the inconsistent 'Northwind Airways'/'Northwind Airlines' is unified, and the source's acute accents used as apostrophes ('There´s') are fixed. |
 | `verb-tense-review` | 5091 | drill | B1 | review | `n/a` | NOT STARTED | Largest file in the library (5091w) — many separate gap-fill texts, several with good American settings (hotel near Times Square). Split into per-scenario drill blocks. |
 
-## EDIT (31)
+## EDIT (32)
 
 Useful material that needs correction before it goes on the site.
 
@@ -139,6 +139,7 @@ Useful material that needs correction before it goes on the site.
 | `dream-bistro`<br>[page](../reading/a2/dream-bistro.html) | 430 | reading | A2 | work | `exists` | IMPLEMENTED | Good A2 narrative mixing present simple, present continuous and simple past. Re-set in Portland, Oregon with an English name per the American-context brief and the naming rule, and given concrete business detail (rent, suppliers, hiring) so the tense contrasts have something real to describe. |
 | `egypt-a-journey-through-history-and-culture` | 1086 | reading | B2 | culture | `required` | NOT STARTED | The legitimate Egypt text; keep as the single Egypt reading and trim. |
 | `golden-gate-bridge-present-perfect` | 274 | reading | B1 | culture | `required` | NOT STARTED | Idioms crammed in at an unnatural density, one of them crude for a classroom ('crews have busted their butts'). Keep the present-perfect focus, rewrite the register. |
+| `investigation-story`<br>[page](../reading/b1/investigation-story.html) | 408 | dialogue | B1 | literature | `required` | IMPLEMENTED | Tight interrogation dialogue with natural past continuous and English names already. Audited as KEEP, but a close read found the closing exchange unusable: it was graphic (stab wounds 'all over her torso', the body 'dragged to the forest for the wild animals to feast upon') and abusive ('you lying bastard', 'You are evil. And stupid.') -- the same defect class that made P-5 texts REPLACE. Reclassified KEEP->EDIT. The deduction that drives the scene is the source's own and was kept: Rogers claims he heard gunshots, but the victim was never shot. The gore and the insults are gone, and the interview now ends with the lie exposed and the case deliberately unresolved, which is what the discussion questions work on. |
 | `it-and-jiu-jitsu` | 356 | reading | B2 | work | `required` | NOT STARTED | Likeable text; remove the gratuitous aside about breaking an opponent's 'defense (or face)'. |
 | `it-management` | 432 | reading | C1 | business | `required` | NOT STARTED | Dense, authentic exec-meeting register. Rename the cast to English names per instruction; the source's hyphens (risk-adjusted, per-transaction) must survive extraction. |
 | `my-day-in-vienna-to-by-for` | 319 | reading | B1 | travel | `required` | NOT STARTED | Passives exist only to demo the form and read badly ('The tickets were bought by her', 'I gave a big hug to her'). Rewrite naturally. |
@@ -176,26 +177,25 @@ Not a reading text -- a drill, answer key or discussion bank. Becomes an HTML ex
 | `rio-de-janeiro-exercises` | 342 | drill | B1 | travel | `n/a` | NOT STARTED | Word-bank gap-fill about hiking in Rio; keep as a drill. |
 | `say-talk-speak-tell-exercises` | — | drill | A2 | everyday | `n/a` | NOT STARTED | The drill half of the say/speak/talk/tell set; attach to the merged reading. |
 
-## KEEP (16)
+## KEEP (15)
 
 Already good; convert as-is.
 
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
 | `attention-economy` | 327 | reading | C1 | society | `exists` | NOT STARTED | Clean, well-pitched C1 argument text. Already has 3 mp3 segments. |
-| `cars` | 967 | reading | B1 | society | `exists` | NOT STARTED | Clear, well-levelled text on income and car choice. Has 4 mp3 segments. |
-| `climbing` | 494 | reading | B1 | sports | `required` | NOT STARTED | Clean informational sports text with a natural vocabulary set. |
+| `cars`<br>[page](../reading/b1/cars.html) | 967 | reading | B1 | tech | `required` | IMPLEMENTED | Strong B1 explainer moving from consumer choice to the EV market. Kept as published. Its Tesla/BYD figures are explicitly dated to June 2026 in the text itself, so they read as a snapshot rather than as current fact. |
+| `climbing`<br>[page](../reading/b1/climbing.html) | 494 | reading | B1 | sports | `required` | IMPLEMENTED | Clean informational sports text with a natural vocabulary set. Converted from the .docx, whose content is a bulleted gear-and-technique guide rather than continuous prose; it was reset as connected paragraphs so it can be read and narrated, with all the original content retained. |
 | `coffee-brewing`<br>[page](../reading/a2/coffee-brewing.html) | 321 | reading | A2 | food | `exists` | IMPLEMENTED | Well-formed procedural text; good imperative/sequencing practice. |
-| `glamping` | 520 | reading | B1 | travel | `required` | NOT STARTED | Natural, well-levelled travel-trend text. |
+| `glamping`<br>[page](../reading/b1/glamping.html) | 520 | reading | B1 | travel | `required` | IMPLEMENTED | Well-written travel text on a current trend, needing no editorial repair. The source's 'Activity I' worksheet framing and its redundant closing paragraph were trimmed; the prose itself is as published. |
 | `hiking-in-the-mountains`<br>[page](../reading/a2/hiking-in-the-mountains.html) | 292 | reading | A2 | everyday | `exists` | IMPLEMENTED | Simple, natural past-tense narrative. Has 2 mp3 segments. |
-| `investigation-story` | 408 | dialogue | B1 | society | `required` | NOT STARTED | Tight interrogation dialogue, natural past continuous, English names already. |
 | `it-interview` | 447 | dialogue | B2 | interviews | `required` | NOT STARTED | Realistic technical job interview; directly serves the job-interview brief. |
 | `phrasal-verbs-01-bed-and-breakfast` | 1153 | reading | B2 | everyday | `required` | NOT STARTED | Dense but natural phrasal-verb narrative; among the strongest material in the library. |
 | `phrasal-verbs-02-trip-abroad` | 1019 | reading | B2 | travel | `required` | NOT STARTED | Same strength, US travel setting, English names already. |
 | `physiological-stressors` | 832 | reading | C1 | sports | `required` | NOT STARTED | Authentically C1 technical prose; good for advanced learners who read in their field. |
 | `project-management-can-could-able-do-make` | 597 | reading | B2 | work | `required` | NOT STARTED | Solid workplace-modality text with an English-named cast. |
 | `sales-strategy` | 701 | reading | B2 | business | `required` | NOT STARTED | Natural business-English text with genuinely useful collocations and acronyms. |
-| `snowy-days` | 473 | reading | B1 | everyday | `exists` | NOT STARTED | Authentic conversational register, a genuinely useful model of informal opinion writing. Light polish only. Has 2 mp3 segments. |
+| `snowy-days`<br>[page](../reading/b1/snowy-days.html) | 473 | reading | B1 | everyday | `required` | IMPLEMENTED | Authentic informal American register -- exactly the colloquial English the library is short of. Kept as published; only the source's ellipses were normalized to dashes and 'public transportation' spelled out. |
 | `technology-and-ethics` | 648 | reading | C1 | tech | `required` | NOT STARTED | Genuinely C1, professionally relevant, natural register. |
 | `the-day-at-the-market`<br>[page](../reading/a2/the-day-at-the-market.html) | 269 | reading | A2 | everyday | `exists` | IMPLEMENTED | Simple, natural and well-levelled present-simple description. Lightly edited: the friend is named, the market is identified as a farmers market, and the American 'stand' is used alongside 'stall'. |
 

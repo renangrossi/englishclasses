@@ -233,9 +233,6 @@ def listen_and_read(d, level, slug):
                   f'<ul class="summary-list">{gloss}</ul></div>') if gloss else ""
     mins = d.get("audio", {}).get("duration_label", "")
     meta = f' <span>{esc(mins)}</span>' if mins else ""
-    note = rc.PROVENANCE_LABELS.get(d.get("provenance", ""), "")
-    note_html = (f'<p style="color:var(--color-text-muted);'
-                 f'font-size:0.9rem;margin-top:var(--space-md);">{esc(note)}</p>') if note else ""
     return f"""<section id="listen-and-read" class="section" aria-labelledby="lr-heading">
         <div class="section__inner">
             <p class="eyebrow">Listen &amp; Read</p>
@@ -248,7 +245,6 @@ def listen_and_read(d, level, slug):
             {paras}
             </div>
             {gloss_html}
-            {note_html}
         </div>
     </section>"""
 

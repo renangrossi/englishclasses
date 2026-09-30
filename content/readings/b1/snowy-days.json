@@ -1,0 +1,319 @@
+{
+  "id": "b1-reading-snowy-days",
+  "level": "B1",
+  "slug": "snowy-days",
+  "topic": "everyday",
+  "title": "Snowy Days",
+  "subtitle": "An honest account of winter, from someone who actually lives in it.",
+  "description": "A B1 reading and listening text in informal American English about what snowy winters are really like, with everyday vocabulary and comprehension exercises.",
+  "source": "cefr/texts/snowy-days.docx",
+  "provenance": "as-published",
+  "audio": {
+    "duration_label": "2:48"
+  },
+  "passage": [
+    "Snowy days sound a lot better in theory than they actually are. People who don't live in cold places love to romanticize snow, like it's magical or cozy all the time, but if you deal with it every winter, you know that isn't the full story. Snow does look beautiful when it's fresh and untouched, especially early in the morning when everything is quiet and white. For about five minutes it feels calm, almost peaceful, like the world hit pause. Then you remember you still have responsibilities, and that peaceful feeling disappears.",
+    "One of the worst parts is how much extra effort snow adds to your day. Nothing is simple anymore. You can't just leave the house — you have to bundle up, find your gloves, hope you didn't lose your hat, and spend forever scraping ice off your car. Your fingers go numb even through gloves, and you're already annoyed before the day has started. Driving is stressful, walking is dangerous, and the bus is usually late. Everyone is in a bad mood, even the people pretending they aren't.",
+    "That said, snowy days do come with a certain feeling. There's less pressure to be social or productive. If plans get canceled because of the weather, nobody questions it. You stay inside without feeling lazy, wear the same sweatpants all day, and live off coffee, soup, and whatever comfort food is in the house. You scroll on your phone, watch shows you've already seen three times, and lose track of the afternoon. Snow gives people permission to slow down, and honestly, that's fairly rare in American life.",
+    "But after a while it gets old. The snow stops being white and turns into gray slush along the side of the road. Your shoes are always wet, your jeans get dirty around the ankles, and everything feels colder than it should. By the middle of winter most people are completely over it. You wake up, check the weather app like it personally owes you good news, and feel let down every time you see more snow in the forecast.",
+    "Snowy days can feel isolating, too. The streets are empty, people stay inside, and the days are short and dark. It's cozy at first, but after weeks of it, cabin fever sets in. You miss sunlight and fresh air and being able to walk outside without thinking about it first. People start talking about spring like it's a distant dream, counting down the days until they can open their windows again.",
+    "In the end, snowy days are a mix of nice moments and constant frustration. You complain about them the entire time, and then, when winter is finally over, you strangely miss parts of it. Not the cold or the stress — but that quiet feeling, the slower pace, and the excuse to stop rushing for once."
+  ],
+  "vocabulary": [
+    {
+      "term": "to romanticize",
+      "definition": "to imagine something as better or more beautiful than it really is"
+    },
+    {
+      "term": "to bundle up",
+      "definition": "to put on a lot of warm clothes",
+      "match": "bundle up"
+    },
+    {
+      "term": "to scrape",
+      "definition": "to remove something by rubbing a hard edge against a surface",
+      "match": "scraping"
+    },
+    {
+      "term": "numb",
+      "definition": "unable to feel anything, usually from cold"
+    },
+    {
+      "term": "sweatpants",
+      "definition": "loose, soft trousers worn for comfort or exercise"
+    },
+    {
+      "term": "comfort food",
+      "definition": "simple, familiar food eaten to feel better"
+    },
+    {
+      "term": "to lose track of",
+      "definition": "to stop noticing how much time is passing",
+      "match": "lose track of"
+    },
+    {
+      "term": "slush",
+      "definition": "snow that has partly melted into dirty, wet mush"
+    },
+    {
+      "term": "to be over something",
+      "definition": "to have had enough of it and stopped caring",
+      "match": "over it"
+    },
+    {
+      "term": "to let someone down",
+      "definition": "to disappoint them",
+      "match": "let down"
+    },
+    {
+      "term": "isolating",
+      "definition": "making you feel cut off from other people"
+    },
+    {
+      "term": "cabin fever",
+      "definition": "the restlessness that comes from being stuck indoors too long"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-snowy-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "This text is written in an informal, personal style. The questions ask about the writer's attitude as well as the facts.",
+      "items": [
+        {
+          "id": "sn1",
+          "prompt": "What is the writer's main complaint about how outsiders see snow?",
+          "options": [
+            "They imagine it as permanently magical, which is not how living with it feels",
+            "They think it is more dangerous than it really is",
+            "They believe it lasts longer than it does"
+          ],
+          "answerIndex": 0,
+          "explanation": "People who don't live in cold places “romanticize snow, like it's magical or cozy all the time”, and the writer says that “isn't the full story”."
+        },
+        {
+          "id": "sn2",
+          "prompt": "How long does the writer say the peaceful feeling lasts?",
+          "options": [
+            "Most of the morning",
+            "Only a few minutes, until daily responsibilities come to mind",
+            "Until the snow turns gray"
+          ],
+          "answerIndex": 1,
+          "explanation": "“For about five minutes it feels calm… Then you remember you still have responsibilities.”"
+        },
+        {
+          "id": "sn3",
+          "prompt": "Why is the writer already irritated before the day begins?",
+          "options": [
+            "Because they slept badly in the cold",
+            "Because of the work of dressing warmly and clearing the car, and their hands going numb anyway",
+            "Because the bus has been canceled"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bundling up, hunting for gloves and scraping ice leave you “annoyed before the day has started” — and fingers go numb “even through gloves”."
+        },
+        {
+          "id": "sn4",
+          "prompt": "What does the writer say is the one genuine benefit of a snowy day?",
+          "options": [
+            "It gives people an accepted excuse to slow down",
+            "It saves money on travel",
+            "It makes people more social"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Snow gives people permission to slow down, and honestly, that's fairly rare in American life.”"
+        },
+        {
+          "id": "sn5",
+          "prompt": "Why does the writer mention staying in the same sweatpants all day?",
+          "options": [
+            "To show that they were unwell",
+            "To show the laundry was impossible in winter",
+            "As an example of the day being free of the usual pressure to be productive"
+          ],
+          "answerIndex": 2,
+          "explanation": "It illustrates staying inside “without feeling lazy” — there is “less pressure to be social or productive”."
+        },
+        {
+          "id": "sn6",
+          "prompt": "What changes the writer's mood as winter goes on?",
+          "options": [
+            "The snow turns to dirty slush and the small discomforts accumulate",
+            "The snow stops falling entirely",
+            "Their friends stop visiting"
+          ],
+          "answerIndex": 0,
+          "explanation": "The snow “turns into gray slush”, shoes are always wet and jeans get dirty — “by the middle of winter most people are completely over it”."
+        },
+        {
+          "id": "sn7",
+          "prompt": "What does the writer mean by checking the weather app “like it personally owes you good news”?",
+          "options": [
+            "That the app is often wrong",
+            "That they expect good news and feel betrayed by the forecast, which is an exaggeration for comic effect",
+            "That they had paid for the app"
+          ],
+          "answerIndex": 1,
+          "explanation": "It is a deliberate exaggeration: an app cannot owe anyone anything, and the humor carries the writer's frustration."
+        },
+        {
+          "id": "sn8",
+          "prompt": "How does the writer feel about winter once it has ended?",
+          "options": [
+            "Relieved, with no fond memories at all",
+            "Eager for it to return as soon as possible",
+            "Mixed — they miss the quiet and the slower pace, but not the cold or the stress"
+          ],
+          "answerIndex": 2,
+          "explanation": "“You strangely miss parts of it. Not the cold or the stress — but that quiet feeling, the slower pace.”"
+        }
+      ]
+    },
+    {
+      "id": "b1-snowy-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement reflects what the writer says.",
+      "items": [
+        {
+          "id": "snt1",
+          "statement": "The writer thinks snow is never attractive.",
+          "answer": false,
+          "explanation": "False — it “does look beautiful when it's fresh and untouched”. The complaint is that the beauty does not last."
+        },
+        {
+          "id": "snt2",
+          "statement": "Gloves keep the writer's hands completely warm.",
+          "answer": false,
+          "explanation": "False — “your fingers go numb even through gloves”."
+        },
+        {
+          "id": "snt3",
+          "statement": "Canceling plans because of snow is socially acceptable.",
+          "answer": true,
+          "explanation": "True — “if plans get canceled because of the weather, nobody questions it”."
+        },
+        {
+          "id": "snt4",
+          "statement": "The writer says winter days feel long and bright.",
+          "answer": false,
+          "explanation": "False — “the days are short and dark”."
+        },
+        {
+          "id": "snt5",
+          "statement": "Spending weeks indoors eventually makes people restless.",
+          "answer": true,
+          "explanation": "True — “after weeks of it, cabin fever sets in”."
+        },
+        {
+          "id": "snt6",
+          "statement": "The writer complains about winter while it is happening.",
+          "answer": true,
+          "explanation": "True — “you complain about them the entire time”."
+        }
+      ]
+    },
+    {
+      "id": "b1-snowy-vocabulary",
+      "type": "fill-blank",
+      "title": "Informal Winter Vocabulary",
+      "instructions": "Complete each sentence. These are the kinds of expressions used in everyday spoken American English.",
+      "items": [
+        {
+          "id": "snf1",
+          "prompt": "It's below freezing — ___ ___ before you go out.",
+          "answers": [
+            "bundle",
+            "up"
+          ],
+          "options": [
+            [
+              "bundle",
+              "scrape",
+              "romanticize"
+            ],
+            [
+              "up",
+              "off",
+              "in"
+            ]
+          ],
+          "explanation": "To bundle up is to put on a lot of warm clothes."
+        },
+        {
+          "id": "snf2",
+          "prompt": "I had to ___ the ice off the windshield for ten minutes.",
+          "answers": [
+            "scrape"
+          ],
+          "options": [
+            "scrape",
+            "bundle",
+            "melt"
+          ],
+          "explanation": "To scrape is to remove something by rubbing a hard edge against a surface."
+        },
+        {
+          "id": "snf3",
+          "prompt": "My fingers were completely ___ by the time I got inside.",
+          "answers": [
+            "numb"
+          ],
+          "options": [
+            "numb",
+            "isolating",
+            "rare"
+          ],
+          "explanation": "Numb means unable to feel anything, usually because of cold."
+        },
+        {
+          "id": "snf4",
+          "prompt": "By February everyone is completely ___ the snow.",
+          "answers": [
+            "over"
+          ],
+          "options": [
+            "over",
+            "under",
+            "into"
+          ],
+          "explanation": "To be over something is to have had enough of it and stopped caring."
+        },
+        {
+          "id": "snf5",
+          "prompt": "The roads were covered in gray ___ where the snow had melted.",
+          "answers": [
+            "slush"
+          ],
+          "options": [
+            "slush",
+            "chalk",
+            "steam"
+          ],
+          "explanation": "Slush is snow that has partly melted into dirty, wet mush."
+        },
+        {
+          "id": "snf6",
+          "prompt": "After a week indoors I had serious ___ fever.",
+          "answers": [
+            "cabin"
+          ],
+          "options": [
+            "cabin",
+            "comfort",
+            "winter"
+          ],
+          "explanation": "Cabin fever is the restlessness of being stuck inside too long."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Does the weather where you live change how people behave? Give examples.",
+    "The writer says snow gives people 'permission to slow down'. What gives you that permission?",
+    "Do you prefer a hot summer or a cold winter? Defend your answer with two reasons.",
+    "Write about 120 words describing a season where you live, honestly — the good and the bad, like this text does."
+  ]
+}

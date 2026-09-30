@@ -1,0 +1,196 @@
+{
+  "id": "b1-reading-cars",
+  "level": "B1",
+  "slug": "cars",
+  "topic": "tech",
+  "title": "Cars, Buyers and Batteries",
+  "subtitle": "What people buy, what they buy it for, and why battery life is now the question that decides it.",
+  "description": "A B1 reading and listening text about the car market: how income shapes what people drive, how rally and performance cars differ from everyday ones, and why electric-vehicle battery life affects resale value.",
+  "source": "cefr/texts/cars.docx",
+  "provenance": "as-published",
+  "audio": {
+    "duration_label": "4:12"
+  },
+  "passage": [
+    "Cars matter in many societies, but people choose very different ones depending on their income and their lifestyle. Buyers with lower incomes often go for small, used cars, because those cost less to buy, insure, and repair; what they look for is safety, fuel economy, and reliability. Middle-class families may want something larger — a sedan, a hatchback, or an SUV — and tend to weigh comfort, space, and modern features. Wealthy buyers can afford luxury cars from the famous brands, with expensive materials, advanced technology, and powerful engines. For some people a car is simply a tool for daily life; for others it is also a symbol of status and success. Yet buyers from every social and economic group usually want the same basic things: safety, convenience, and the ability to get from one place to another.",
+    "Ordinary cars are designed for everyday use. People drive them to work, to school, to the store, and to see friends, and the design aims at comfort, efficiency, and a smooth ride. Rally cars are a different proposition entirely. They are built for races held on dirt, gravel, mud, and snow, so they need stronger suspension, special tires, and safety equipment to protect the driver and the co-driver. They have to be fast, but above all they have to survive rough conditions. Drivers need specific training, because rally racing demands quick decisions and very precise control.",
+    "High-power cars — performance or sports cars — are built for speed and hard acceleration. Their engines are more powerful than those in ordinary cars, and they reach high speeds in very little time. People buy them because they enjoy driving and appreciate the engineering and the design. Some are used on race tracks; others are driven on public roads. Either way they cost more to buy and more to maintain. Ordinary, rally, and high-power cars serve unrelated purposes, but all three show how the same technology bends to different human needs: some people need practicality, some want competition, and others are paying for excitement.",
+    "The industry itself is changing quickly, pushed by new technology, environmental concerns, and shifting customer preferences. The largest single change is the growth of electric cars. Most major manufacturers now sell electric models, and some newer companies build nothing else. Electric cars run on batteries instead of gasoline, which can cut air pollution and lower fuel costs, and governments in many countries encourage them through tax benefits or by paying for charging stations. At the same time, the press and online media keep asking whether electric cars are really practical for every driver and every income group.",
+    "One question comes up more than any other: battery life. Buyers worry that the battery will lose capacity over the years. Modern batteries are built to last a long time, but they do degrade slowly with use, much like the battery in a phone or a laptop. Frequent fast charging, extreme temperatures, and high mileage all affect battery health. Because a replacement battery is expensive, some buyers hesitate — particularly those without much financial room to absorb a surprise. That is exactly why battery warranties have turned into a serious selling point.",
+    "These arguments carry more weight now that electric vehicles are one of the most competitive parts of the global car market. Two companies come up constantly in the news: Tesla and BYD. Tesla remains one of the most valuable car companies in the world, valued at roughly $1.6 trillion in June 2026, and its share price draws enormous attention because investors treat it as a technology company as much as a manufacturer.",
+    "BYD, a Chinese manufacturer, has become Tesla's strongest rival. It has expanded quickly across the world and is known for its battery technology, its fast-charging systems, and a widening range of models. Recent reports show strong international growth, especially in Europe, and in June 2026 the company announced a new flagship luxury electric sedan along with the latest version of its Blade Battery.",
+    "The rivalry between the two is discussed so often because it stands in for the larger shift in the industry. In some quarters Tesla has led the world in battery-electric sales; in others BYD has matched or passed it once plug-in hybrids are counted. Investors follow both closely, since what happens to them moves stock markets, battery suppliers, and the direction the whole industry takes next.",
+    "For ordinary buyers, though, battery life stays the decisive issue, because it runs straight into resale value. A used electric car with a healthy battery is far easier to sell than one that has degraded badly. So battery warranties, battery health reports, and a car's charging history are becoming real factors in the second-hand market, and manufacturers advertise durability and charging performance precisely because those things shape how confident a buyer feels about the years ahead.",
+    "Meanwhile the market keeps getting more crowded. New models arrive every year, and manufacturers compete on range, on charging speed, and on price. Industry reports show electric vehicles holding a large share of global car sales, even where growth has slowed and competition has sharpened. For the buyer that means more choice, but also more to work out about long-term value, battery health, and what the car will be worth later. Those calculations reach buyers in every income group, which is what makes electric vehicles a financial question and not only a technological one."
+  ],
+  "vocabulary": [
+    { "term": "income", "definition": "the money a person earns or receives regularly" },
+    { "term": "to insure", "definition": "to pay a company so it will cover your losses after an accident" },
+    { "term": "fuel economy", "definition": "how little fuel a car uses for the distance it travels" },
+    { "term": "reliability", "definition": "the quality of working well and rarely breaking down" },
+    { "term": "suspension", "definition": "the springs and parts that absorb bumps in the road" },
+    { "term": "mileage", "definition": "the total distance a vehicle has traveled" },
+    { "term": "to degrade", "definition": "to slowly get worse in quality or capacity" },
+    { "term": "capacity", "definition": "the amount a battery can hold" },
+    { "term": "a warranty", "definition": "a maker's written promise to repair or replace a faulty part", "match": "warranties" },
+    { "term": "resale value", "definition": "the price something can be sold for second-hand" },
+    { "term": "a flagship", "definition": "the most important or impressive product a company makes" },
+    { "term": "to stand in for", "definition": "to represent something larger than itself", "match": "stands in for" }
+  ],
+  "exercises": [
+    {
+      "id": "b1-cars-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "The options are paraphrased. Several questions ask you to combine information from more than one paragraph.",
+      "items": [
+        {
+          "id": "ca1",
+          "prompt": "What does the writer say buyers at every income level have in common?",
+          "options": [
+            "They all want safety, convenience and transportation",
+            "They all treat a car as a status symbol",
+            "They all prefer used cars to new ones"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Buyers from every social and economic group usually want the same basic things: safety, convenience, and the ability to get from one place to another.”"
+        },
+        {
+          "id": "ca2",
+          "prompt": "Why do lower-income buyers tend to choose small used cars?",
+          "options": [
+            "Because they are faster to sell again",
+            "Because the purchase, the insurance and the repairs all cost less",
+            "Because they hold more passengers"
+          ],
+          "answerIndex": 1,
+          "explanation": "Those cars “cost less to buy, insure, and repair”."
+        },
+        {
+          "id": "ca3",
+          "prompt": "What is the most important requirement for a rally car, according to the text?",
+          "options": [
+            "Reaching the highest possible top speed",
+            "Comfort over long distances",
+            "Surviving rough surfaces, even though it must also be fast"
+          ],
+          "answerIndex": 2,
+          "explanation": "“They have to be fast, but above all they have to survive rough conditions.”"
+        },
+        {
+          "id": "ca4",
+          "prompt": "What single point does the writer draw from comparing ordinary, rally and performance cars?",
+          "options": [
+            "That performance cars are the best engineered of the three",
+            "That the same technology is shaped to fit quite different human needs",
+            "That rally cars will eventually replace ordinary cars"
+          ],
+          "answerIndex": 1,
+          "explanation": "All three “show how the same technology bends to different human needs” — practicality, competition, excitement."
+        },
+        {
+          "id": "ca5",
+          "prompt": "What comparison does the writer use to explain battery degradation?",
+          "options": [
+            "Tires wearing down on rough roads",
+            "Engine oil losing its quality",
+            "The batteries in phones and laptops"
+          ],
+          "answerIndex": 2,
+          "explanation": "Batteries degrade slowly with use, “much like the battery in a phone or a laptop”."
+        },
+        {
+          "id": "ca6",
+          "prompt": "Why have battery warranties become such a strong selling point?",
+          "options": [
+            "Because a replacement battery is expensive, which makes cautious buyers hesitate",
+            "Because governments require them by law",
+            "Because they make charging faster"
+          ],
+          "answerIndex": 0,
+          "explanation": "A replacement is expensive, so “some buyers hesitate — particularly those without much financial room”, and the warranty answers that worry."
+        },
+        {
+          "id": "ca7",
+          "prompt": "Why is Tesla's share price watched so closely?",
+          "options": [
+            "Because it sells more cars than any other company",
+            "Because investors regard it as a technology company as well as a car maker",
+            "Because it is the only company making electric cars"
+          ],
+          "answerIndex": 1,
+          "explanation": "Investors “treat it as a technology company as much as a manufacturer”."
+        },
+        {
+          "id": "ca8",
+          "prompt": "The text says that in some quarters BYD has matched or passed Tesla. On what measure?",
+          "options": [
+            "Battery-electric sales alone",
+            "Total deliveries once plug-in hybrids are included",
+            "Total company value"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tesla has led “battery-electric sales”, while BYD has matched or passed it “once plug-in hybrids are counted” — two different measures."
+        },
+        {
+          "id": "ca9",
+          "prompt": "How does battery health connect to the second-hand market?",
+          "options": [
+            "A degraded battery is harder to sell, so health reports and charging history now affect the price",
+            "Used electric cars cannot legally be resold",
+            "Second-hand buyers are not interested in batteries"
+          ],
+          "answerIndex": 0,
+          "explanation": "Battery life “runs straight into resale value”; a healthy battery is “far easier to sell”, so warranties, health reports and charging history now matter."
+        },
+        {
+          "id": "ca10",
+          "prompt": "What is the writer's closing point about electric cars?",
+          "options": [
+            "That they are now cheaper than gasoline cars for everyone",
+            "That the technology has stopped improving",
+            "That choosing one is a financial calculation as much as a technological one"
+          ],
+          "answerIndex": 2,
+          "explanation": "The calculations “reach buyers in every income group, which is what makes electric vehicles a financial question and not only a technological one”."
+        }
+      ]
+    },
+    {
+      "id": "b1-cars-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text. Read carefully — some are close but wrong.",
+      "items": [
+        { "id": "cat1", "statement": "The text claims wealthy buyers care nothing about safety.", "answer": false, "explanation": "False — safety is listed among the basic things buyers in every group want." },
+        { "id": "cat2", "statement": "Rally drivers need training beyond ordinary driving experience.", "answer": true, "explanation": "True — rally racing “demands quick decisions and very precise control”, so drivers need specific training." },
+        { "id": "cat3", "statement": "Some manufacturers build only electric vehicles.", "answer": true, "explanation": "True — “some newer companies build nothing else”." },
+        { "id": "cat4", "statement": "Modern batteries do not lose capacity at all.", "answer": false, "explanation": "False — they are built to last, but “they do degrade slowly with use”." },
+        { "id": "cat5", "statement": "Fast charging and extreme heat can both affect battery health.", "answer": true, "explanation": "True — frequent fast charging, extreme temperatures and high mileage are all named." },
+        { "id": "cat6", "statement": "Governments in many countries discourage electric vehicles.", "answer": false, "explanation": "False — they encourage them “through tax benefits or by paying for charging stations”." },
+        { "id": "cat7", "statement": "Growing competition means buyers now have fewer models to choose from.", "answer": false, "explanation": "False — “new models arrive every year” and for the buyer “that means more choice”." }
+      ]
+    },
+    {
+      "id": "b1-cars-vocabulary",
+      "type": "fill-blank",
+      "title": "Cars & Money Vocabulary",
+      "instructions": "Complete each sentence with the word that fits.",
+      "items": [
+        { "id": "caf1", "prompt": "Small engines are chosen for their good ___ ___.", "answers": ["fuel", "economy"], "options": [["fuel", "resale", "battery"], ["economy", "value", "health"]], "explanation": "Fuel economy is how little fuel a car uses for the distance it travels." },
+        { "id": "caf2", "prompt": "The car has high ___ — over 200,000 miles.", "answers": ["mileage"], "options": ["mileage", "capacity", "suspension"], "explanation": "Mileage is the total distance a vehicle has traveled." },
+        { "id": "caf3", "prompt": "Rally cars need stronger ___ to absorb the bumps.", "answers": ["suspension"], "options": ["suspension", "reliability", "income"], "explanation": "The suspension absorbs bumps in the road." },
+        { "id": "caf4", "prompt": "Batteries slowly ___ as they are used.", "answers": ["degrade"], "options": ["degrade", "insure", "charge"], "explanation": "To degrade is to slowly get worse in quality or capacity." },
+        { "id": "caf5", "prompt": "The battery is covered by an eight-year ___.", "answers": ["warranty"], "options": ["warranty", "mileage", "flagship"], "explanation": "A warranty is a maker's written promise to repair or replace a faulty part." },
+        { "id": "caf6", "prompt": "A healthy battery protects the car's ___ ___.", "answers": ["resale", "value"], "options": [["resale", "fuel", "flagship"], ["value", "economy", "capacity"]], "explanation": "Resale value is the price something can be sold for second-hand." },
+        { "id": "caf7", "prompt": "The new sedan is the company's ___ model.", "answers": ["flagship"], "options": ["flagship", "warranty", "rally"], "explanation": "A flagship is the most important or impressive product a company makes." }
+      ]
+    }
+  ],
+  "discussion": [
+    "Is a car a necessity or a luxury where you live? Explain.",
+    "Would you buy an electric car today? What would decide it for you?",
+    "The text says a car can be 'a symbol of status and success'. Is that still true for younger buyers?",
+    "Write about 120 words comparing public transportation with owning a car in your city."
+  ]
+}

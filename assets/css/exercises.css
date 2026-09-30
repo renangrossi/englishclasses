@@ -209,6 +209,16 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   margin: 0 0 var(--space-lg);
 }
 .reading-passage p:not(:last-child) { margin-bottom: 1.1em; }
+/* The text's own title and subtitle, opening the reading section directly
+   above the audio and the passage. */
+.reading-title { margin-top: var(--space-xs); }
+.reading-subtitle {
+  color: var(--color-text-muted);
+  font-size: var(--step-1);
+  max-width: 62ch;
+  margin: var(--space-xs) 0 var(--space-md);
+}
+
 /* ---- Passage typography ------------------------------------------------
    The passage is set like a page of a book rather than like a web page.
    Everything below is inherited by every reading page; no page or builder

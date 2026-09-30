@@ -1,1609 +1,1614 @@
 {
- "_about": "Content map for the reading-library project (see PROJECT_STATUS.md). One entry per source document in cefr/texts/. Drives conversion to reading/{level}/{slug}.html + assets/audio/reading/{level}/{slug}.mp3. Authored from a full read of all 98 extracted source documents, not from filenames.",
- "_fields": {
-  "words": "word count of the .docx-extracted source (docx preferred over pdf per instruction)",
-  "genre": "reading | dialogue | drill | discussion | reference — drills/discussions are not reading texts, so audio is n/a",
-  "level": "recommended CEFR level after audit (the source library was flat/unlevelled)",
-  "action": "KEEP | EDIT | MERGE | SPLIT | RECLASSIFY | CONVERT | REPLACE | DELETE",
-  "audio": "required | exists | stale-on-edit | n/a",
-  "status": "NOT STARTED | AUDITING | EDITED | CONVERTED | IMPLEMENTED | REVIEWED | COMPLETE"
- },
- "_audio_note": "19 mp3 files already exist in cefr/texts for 6 texts (attention-economy, capetown, cars, hiking-in-the-mountains, physical-education, snowy-days). Where the audit calls for editing that text, the existing audio becomes stale and MUST be regenerated (requirement 8.6).",
- "texts": [
-  {
-   "slug": "a-freelance-accounting-assignment",
-   "words": 655,
-   "genre": "drill",
-   "level": "B1",
-   "topic": "work",
-   "action": "CONVERT",
-   "audio": "n/a",
-   "reason": "Pure simple-past gap-fill on accounting tasks; no prose passage. Becomes a fill-blank block.",
-   "status": "NOT STARTED",
-   "card_title": "A Freelance Accounting Assignment",
-   "card_desc": "Exercises on vocabulary and scenarios related to freelance accounting.",
-   "source_files": [
-    "cefr/texts/a-freelance-accounting-assignment.pdf"
-   ]
-  },
-  {
-   "slug": "a1-review-and-a1-review-2",
-   "words": 2036,
-   "genre": "drill",
-   "level": "A1",
-   "topic": "review",
-   "action": "SPLIT",
-   "audio": "n/a",
-   "reason": "Two concatenated A1 review sheets, 2036w. Split into themed A1 review blocks.",
-   "status": "NOT STARTED",
-   "card_title": "A1 Review and A1 Review 2",
-   "source_files": [
-    "cefr/texts/a1-review-and-a1-review-2.pdf"
-   ]
-  },
-  {
-   "slug": "a2-review",
-   "words": 1158,
-   "genre": "drill",
-   "level": "A2",
-   "topic": "review",
-   "action": "CONVERT",
-   "audio": "n/a",
-   "reason": "Well-formed A2 mixed-grammar drill set; converts cleanly to fill-blank/multiple-choice.",
-   "status": "NOT STARTED",
-   "card_title": "A2 Review",
-   "source_files": [
-    "cefr/texts/a2-review.pdf"
-   ]
-  },
-  {
-   "slug": "america-in-1776",
-   "words": 1154,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "culture",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Strong, genuinely C1 essay on the founding. Dense academic register; trim and break into sections for readability.",
-   "status": "NOT STARTED",
-   "card_title": "America in 1776",
-   "source_files": [
-    "cefr/texts/america-in-1776.pdf"
-   ]
-  },
-  {
-   "slug": "american-culture",
-   "words": 1072,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "culture",
-   "action": "SPLIT",
-   "audio": "required",
-   "reason": "Three unrelated things in one file: a culture overview, a corndog/state-fair food piece, and passive-voice grammar drills. Split into a B2 culture reading, a B1 food reading, and a drill block.",
-   "status": "NOT STARTED",
-   "card_title": "American Culture",
-   "card_desc": "Explore cultural aspects of the United States through reading and comprehension exercises.",
-   "source_files": [
-    "cefr/texts/american-culture.pdf"
-   ]
-  },
-  {
-   "slug": "animal-solutions",
-   "words": 271,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "work",
-   "action": "REPLACE",
-   "audio": "required",
-   "reason": "Reads as marketing copy for a named vendor (Gallagher), not a teaching text. Replace with a neutral do/make farm-work reading.",
-   "status": "NOT STARTED",
-   "card_title": "Animal Solutions",
-   "source_files": [
-    "cefr/texts/animal-solutions.pdf"
-   ]
-  },
-  {
-   "slug": "arriving-in-johannesburg",
-   "words": 1306,
-   "genre": "dialogue",
-   "level": "B1",
-   "topic": "travel",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Excellent airport-arrival functional dialogue. Traveler renamed to an English name; trim repetition in the shuttle exchange.",
-   "status": "NOT STARTED",
-   "card_title": "Arriving in Johannesburg",
-   "source_files": [
-    "cefr/texts/arriving-in-johannesburg.pdf"
-   ]
-  },
-  {
-   "slug": "attention-economy",
-   "words": 327,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "society",
-   "action": "KEEP",
-   "audio": "exists",
-   "reason": "Clean, well-pitched C1 argument text. Already has 3 mp3 segments.",
-   "status": "NOT STARTED",
-   "card_title": "Attention Economy",
-   "source_files": [
-    "cefr/texts/attention-economy.pdf",
-    "cefr/texts/attention-economy-01.mp3",
-    "cefr/texts/attention-economy-02.mp3",
-    "cefr/texts/attention-economy-03.mp3"
-   ]
-  },
-  {
-   "slug": "australia-and-thailand",
-   "words": 954,
-   "genre": "reading",
-   "level": "A2",
-   "topic": "travel",
-   "action": "REPLACE",
-   "audio": "exists",
-   "reason": "The source is two bulleted lists of attractions with no connected prose, so there was nothing to read or narrate. Rewritten as a single A2 text that compares the two destinations, which keeps both halves of the original material, gives the comparatives something real to do, and adds the recommendation language (you should, it's worth, don't miss) the lists only implied.",
-   "status": "IMPLEMENTED",
-   "card_title": "Two Very Different Trips",
-   "source_files": [
-    "cefr/texts/australia-and-thailand.pdf"
-   ],
-   "page": "reading/a2/two-very-different-trips.html",
-   "card_desc": "Sydney and Bangkok compared, with the language for recommending a place."
-  },
-  {
-   "slug": "beers",
-   "words": 694,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "food",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Factual slip: 'Pilsner: Pilsen is a type of lager'. Fix, tighten the style list.",
-   "status": "NOT STARTED",
-   "card_title": "Beers",
-   "source_files": [
-    "cefr/texts/beers.pdf"
-   ]
-  },
-  {
-   "slug": "business-war-it",
-   "words": 689,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "tech",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Useful tech-history angle but list-like and abrupt; convert to connected prose.",
-   "status": "NOT STARTED",
-   "card_title": "Business War It",
-   "source_files": [
-    "cefr/texts/business-war-it.pdf"
-   ]
-  },
-  {
-   "slug": "cachacas",
-   "source_slug": "cachaças",
-   "words": 672,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "food",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Sound process text. Slug de-accented for safe hosting; retitle from the odd 'Distilled Spirit Visitation'.",
-   "status": "NOT STARTED",
-   "card_title": "Cachaças",
-   "source_files": [
-    "cefr/texts/cachaças.pdf"
-   ],
-   "card_id": "cacha-as"
-  },
-  {
-   "slug": "capetown",
-   "words": 770,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "travel",
-   "action": "EDIT",
-   "audio": "stale-on-edit",
-   "reason": "Perfect/perfect-continuous forms crammed in unnaturally ('had begun... had been... has been pulling'). Rewrite naturally, then regenerate the 4 existing mp3s.",
-   "status": "NOT STARTED",
-   "card_title": "Capetown",
-   "card_desc": "Reading and comprehension exercises about Capetown culture and landmarks.",
-   "source_files": [
-    "cefr/texts/capetown.pdf",
-    "cefr/texts/capetown-01.mp3",
-    "cefr/texts/capetown-02.mp3",
-    "cefr/texts/capetown-03.mp3",
-    "cefr/texts/capetown-04.mp3"
-   ]
-  },
-  {
-   "slug": "cars",
-   "words": 967,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "tech",
-   "action": "KEEP",
-   "audio": "required",
-   "reason": "Strong B1 explainer moving from consumer choice to the EV market. Kept as published. Its Tesla/BYD figures are explicitly dated to June 2026 in the text itself, so they read as a snapshot rather than as current fact.",
-   "status": "IMPLEMENTED",
-   "card_title": "Cars",
-   "source_files": [
-    "cefr/texts/cars.docx",
-    "cefr/texts/cars.pdf",
-    "cefr/texts/cars1.mp3",
-    "cefr/texts/cars2.mp3",
-    "cefr/texts/cars3.mp3",
-    "cefr/texts/cars4.mp3"
-   ],
-   "page": "reading/b1/cars.html"
-  },
-  {
-   "slug": "cars-and-their-parts",
-   "words": 436,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "tech",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Good vocabulary load; over-casual asides ('this beast drives the whole operation') to even out.",
-   "status": "NOT STARTED",
-   "card_title": "Cars and Their Parts",
-   "card_desc": "Vocabulary exercises on car components and automotive terms.",
-   "source_files": [
-    "cefr/texts/cars-and-their-parts.pdf"
-   ]
-  },
-  {
-   "slug": "christmas-krampus-grinch",
-   "words": 261,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "culture",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Text points at images that do not survive conversion ('Here is a chilling traditional image of Krampus'). Rewrite those references out.",
-   "status": "NOT STARTED",
-   "card_title": "Christmas Krampus Grinch",
-   "source_files": [
-    "cefr/texts/christmas-krampus-grinch.pdf"
-   ]
-  },
-  {
-   "slug": "climbing",
-   "words": 494,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "sports",
-   "action": "KEEP",
-   "audio": "required",
-   "reason": "Clean informational sports text with a natural vocabulary set. Converted from the .docx, whose content is a bulleted gear-and-technique guide rather than continuous prose; it was reset as connected paragraphs so it can be read and narrated, with all the original content retained.",
-   "status": "IMPLEMENTED",
-   "card_title": "Climbing",
-   "card_desc": "Exercises on climbing terminology and scenarios.",
-   "source_files": [
-    "cefr/texts/climbing.docx",
-    "cefr/texts/climbing.pdf"
-   ],
-   "page": "reading/b1/climbing.html"
-  },
-  {
-   "slug": "coffee-and-it",
-   "words": 285,
-   "genre": "drill",
-   "level": "B1",
-   "topic": "work",
-   "action": "CONVERT",
-   "audio": "n/a",
-   "reason": "Word-bank gap-fill; its answer key is a separate file to fold in.",
-   "status": "NOT STARTED",
-   "card_title": "Coffee and It",
-   "card_desc": "Exercises combining coffee culture and IT terminology, with answers provided.",
-   "source_files": [
-    "cefr/texts/coffee-and-it.pdf"
-   ]
-  },
-  {
-   "slug": "coffee-and-it-answers",
-   "words": 295,
-   "genre": "reference",
-   "level": "B1",
-   "topic": "work",
-   "action": "MERGE",
-   "audio": "n/a",
-   "merge_into": "coffee-and-it",
-   "reason": "Answer key for coffee-and-it; becomes that block's answers/explanations.",
-   "status": "NOT STARTED",
-   "card_title": "Coffee and It Answers",
-   "source_files": [
-    "cefr/texts/coffee-and-it-answers.docx"
-   ]
-  },
-  {
-   "slug": "coffee-brewing",
-   "words": 321,
-   "genre": "reading",
-   "level": "A2",
-   "topic": "food",
-   "action": "KEEP",
-   "audio": "exists",
-   "reason": "Well-formed procedural text; good imperative/sequencing practice.",
-   "status": "IMPLEMENTED",
-   "card_title": "How to Brew Good Coffee",
-   "card_desc": "A step-by-step guide, and a model for giving instructions in English.",
-   "source_files": [
-    "cefr/texts/coffee-brewing.pdf"
-   ],
-   "page": "reading/a2/coffee-brewing.html"
-  },
-  {
-   "slug": "common-chores",
-   "words": 340,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "everyday",
-   "action": "MERGE",
-   "audio": "required",
-   "merge_into": "household-chores",
-   "reason": "Phrasal-verb chores text. Unnatural line to fix: 'you hang up or toss into the dryer the clothes'. Merges with common-chores-ii.",
-   "status": "NOT STARTED",
-   "card_title": "Common Chores",
-   "card_desc": "Vocabulary and comprehension exercises on everyday household tasks.",
-   "source_files": [
-    "cefr/texts/common-chores.pdf"
-   ]
-  },
-  {
-   "slug": "common-chores-ii",
-   "words": 337,
-   "genre": "reading",
-   "level": "A2",
-   "topic": "everyday",
-   "action": "MERGE",
-   "audio": "required",
-   "merge_into": "household-chores",
-   "reason": "Same teaching goal as common-chores, narrative form (Mike, Austin TX). Keep the American setting as the merged version's frame.",
-   "status": "NOT STARTED",
-   "card_title": "Common Chores II",
-   "source_files": [
-    "cefr/texts/common-chores-ii.pdf"
-   ]
-  },
-  {
-   "slug": "cybersecurity",
-   "words": 898,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "tech",
-   "action": "REPLACE",
-   "audio": "required",
-   "reason": "Whole text written in the past tense for a simple-past drill, which makes it factually wrong: 'Cybersecurity protected computers...', 'Today, we used the internet'. Rewrite in present tense and move the past-tense practice to a separate drill.",
-   "status": "NOT STARTED",
-   "card_title": "Cybersecurity",
-   "card_desc": "Exercises on cybersecurity terminology and scenarios.",
-   "source_files": [
-    "cefr/texts/cybersecurity.pdf"
-   ]
-  },
-  {
-   "slug": "daily-activities",
-   "words": 442,
-   "genre": "drill",
-   "level": "B1",
-   "topic": "work",
-   "action": "MERGE",
-   "audio": "n/a",
-   "merge_into": "routines-and-prepositions-drill",
-   "reason": "Identical '_____ (to verb) ___ (in/on/at)' template to navigating-finance and unfortunate-events; three copies of one exercise.",
-   "status": "NOT STARTED",
-   "card_title": "Daily Activities",
-   "card_desc": "Exercises on describing daily routines and activities.",
-   "source_files": [
-    "cefr/texts/daily-activities.pdf"
-   ]
-  },
-  {
-   "slug": "detective-story",
-   "words": 526,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "society",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Good whodunnit with inline vocabulary glosses that become a real vocabulary component. Retitle (the 'Cachaca Case' name is unrelated to the plot).",
-   "status": "NOT STARTED",
-   "card_title": "Detective Story",
-   "card_desc": "Reading and comprehension exercises based on a detective narrative.",
-   "source_files": [
-    "cefr/texts/detective-story.pdf"
-   ]
-  },
-  {
-   "slug": "do-make-livestock-farming",
-   "words": 406,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "work",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "do/make contrast is forced into unnatural English ('Do the feeding of the cattle'). Rewrite with collocations people actually use.",
-   "status": "NOT STARTED",
-   "card_title": "Do Make Livestock Farming",
-   "card_desc": "Exercises on using &quot;do&quot; and &quot;make&quot; in the context of livestock farming.",
-   "source_files": [
-    "cefr/texts/do-make-livestock-farming.pdf"
-   ]
-  },
-  {
-   "slug": "dream-bistro",
-   "words": 430,
-   "genre": "reading",
-   "level": "A2",
-   "topic": "work",
-   "action": "EDIT",
-   "audio": "exists",
-   "reason": "Good A2 narrative mixing present simple, present continuous and simple past. Re-set in Portland, Oregon with an English name per the American-context brief and the naming rule, and given concrete business detail (rent, suppliers, hiring) so the tense contrasts have something real to describe.",
-   "status": "IMPLEMENTED",
-   "card_title": "Opening a Bistro",
-   "card_desc": "One man’s plan to open a small restaurant, in three tenses.",
-   "source_files": [
-    "cefr/texts/dream-bistro.pdf"
-   ],
-   "page": "reading/a2/dream-bistro.html"
-  },
-  {
-   "slug": "egypt",
-   "words": 413,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "society",
-   "action": "REPLACE",
-   "audio": "required",
-   "reason": "Presents a UFO sighting as documented history and invites the student to research it 'as a doctoral student'. Misinformation framed as scholarship; replace with a real Thutmose III / Karnak reading.",
-   "status": "NOT STARTED",
-   "card_title": "Egypt",
-   "source_files": [
-    "cefr/texts/egypt.pdf"
-   ]
-  },
-  {
-   "slug": "egypt-a-journey-through-history-and-culture",
-   "words": 1086,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "culture",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "The legitimate Egypt text; keep as the single Egypt reading and trim.",
-   "status": "NOT STARTED",
-   "card_title": "Egypt a Journey Through History and Culture",
-   "card_desc": "Exercises exploring Egyptian history and cultural aspects.",
-   "source_files": [
-    "cefr/texts/egypt-a-journey-through-history-and-culture.pdf"
-   ]
-  },
-  {
-   "slug": "el-nino-2027",
-   "source_slug": "el-niño-2027",
-   "words": 432,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "society",
-   "action": "DELETE",
-   "audio": "n/a",
-   "reason": "Dated to a specific forecast year and written for one Brazilian city ('what does it mean for someone who lives in porto alegre'). Stale and off-brief; nothing here is worth migrating.",
-   "status": "NOT STARTED",
-   "card_title": "El Niño",
-   "source_files": [
-    "cefr/texts/el-niño-2027.docx"
-   ],
-   "card_id": "el-ni-o"
-  },
-  {
-   "slug": "formal-informal",
-   "words": 535,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "society",
-   "action": "REPLACE",
-   "audio": "required",
-   "reason": "The register contrast is worth teaching, but the informal sample argues developing nations are poor because 'they suck at running their countries'. Keep the formal/informal exercise shape, replace the topic with a neutral one.",
-   "status": "NOT STARTED",
-   "card_title": "Formal Informal",
-   "source_files": [
-    "cefr/texts/formal-informal.pdf"
-   ]
-  },
-  {
-   "slug": "formula-1",
-   "words": 808,
-   "genre": "drill",
-   "level": "B2",
-   "topic": "sports",
-   "action": "CONVERT",
-   "audio": "n/a",
-   "reason": "Technical word-bank gap-fill; answer key is a separate file.",
-   "status": "NOT STARTED",
-   "card_title": "Formula 1",
-   "source_files": [
-    "cefr/texts/formula-1.pdf"
-   ]
-  },
-  {
-   "slug": "formula-1-exercises-answers",
-   "words": 0,
-   "genre": "reference",
-   "level": "B2",
-   "topic": "sports",
-   "action": "MERGE",
-   "audio": "n/a",
-   "merge_into": "formula-1",
-   "reason": "Answer key for formula-1.",
-   "status": "NOT STARTED",
-   "card_title": "Formula 1 Exercises Answers",
-   "source_files": [
-    "cefr/texts/formula-1-exercises-answers.docx"
-   ]
-  },
-  {
-   "slug": "glamping",
-   "words": 520,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "travel",
-   "action": "KEEP",
-   "audio": "required",
-   "reason": "Well-written travel text on a current trend, needing no editorial repair. The source's 'Activity I' worksheet framing and its redundant closing paragraph were trimmed; the prose itself is as published.",
-   "status": "IMPLEMENTED",
-   "card_title": "Glamping",
-   "card_desc": "Exercises on glamping (glamorous camping) vocabulary and experiences.",
-   "source_files": [
-    "cefr/texts/glamping.docx",
-    "cefr/texts/glamping.pdf"
-   ],
-   "page": "reading/b1/glamping.html"
-  },
-  {
-   "slug": "golden-gate-bridge-present-perfect",
-   "words": 274,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "culture",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Idioms crammed in at an unnatural density, one of them crude for a classroom ('crews have busted their butts'). Keep the present-perfect focus, rewrite the register.",
-   "status": "NOT STARTED",
-   "card_title": "Golden Gate Bridge Present Perfect",
-   "source_files": [
-    "cefr/texts/golden-gate-bridge-present-perfect.pdf"
-   ]
-  },
-  {
-   "slug": "grammar-practice-i",
-   "words": 1050,
-   "genre": "drill",
-   "level": "A2",
-   "topic": "review",
-   "action": "CONVERT",
-   "audio": "n/a",
-   "reason": "Multiple-choice-in-brackets dialogue drill; maps directly to fill-blank with options.",
-   "status": "NOT STARTED",
-   "card_title": "Grammar Practice I",
-   "source_files": [
-    "cefr/texts/grammar-practice-i.pdf"
-   ]
-  },
-  {
-   "slug": "grocery-shopping",
-   "words": 160,
-   "genre": "drill",
-   "level": "A2",
-   "topic": "everyday",
-   "action": "CONVERT",
-   "audio": "n/a",
-   "reason": "A writing worksheet whose body is blank rules for handwriting. Becomes guided writing prompts, not a reading.",
-   "status": "NOT STARTED",
-   "card_title": "Grocery Shopping",
-   "card_desc": "Exercises on grocery shopping scenarios and vocabulary.",
-   "source_files": [
-    "cefr/texts/grocery-shopping.pdf"
-   ]
-  },
-  {
-   "slug": "haiti",
-   "words": 564,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "society",
-   "action": "REPLACE",
-   "audio": "required",
-   "reason": "Blog-register news brief with an emoji mid-text, and graphic content (gang rape, torture, starvation) unsuitable for a general adult English class. Replace with a current-affairs reading that teaches the same analytical language.",
-   "status": "NOT STARTED",
-   "card_title": "Haiti",
-   "card_desc": "Exercises exploring Haitian culture and history.",
-   "source_files": [
-    "cefr/texts/haiti.pdf"
-   ]
-  },
-  {
-   "slug": "hiking-in-the-mountains",
-   "words": 292,
-   "genre": "reading",
-   "level": "A2",
-   "topic": "everyday",
-   "action": "KEEP",
-   "audio": "exists",
-   "reason": "Simple, natural past-tense narrative. Has 2 mp3 segments.",
-   "status": "IMPLEMENTED",
-   "card_title": "A Day Hiking in the Mountains",
-   "card_desc": "A simple past-tense narrative about one long day outdoors.",
-   "source_files": [
-    "cefr/texts/hiking-in-the-mountains.pdf",
-    "cefr/texts/hiking-in-the-mountains01.mp3",
-    "cefr/texts/hiking-in-the-mountains02.mp3"
-   ],
-   "page": "reading/a2/hiking-in-the-mountains.html"
-  },
-  {
-   "slug": "interrogative-exercises",
-   "words": 1656,
-   "genre": "drill",
-   "level": "A2",
-   "topic": "review",
-   "action": "SPLIT",
-   "audio": "n/a",
-   "reason": "Long question-formation drill across several tenses; split by tense into separate blocks.",
-   "status": "NOT STARTED",
-   "card_title": "Interrogative Exercises",
-   "card_desc": "Practice forming and answering questions in English.",
-   "source_files": [
-    "cefr/texts/interrogative-exercises.pdf"
-   ]
-  },
-  {
-   "slug": "investigation-story",
-   "words": 408,
-   "genre": "dialogue",
-   "level": "B1",
-   "topic": "literature",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Tight interrogation dialogue with natural past continuous and English names already. Audited as KEEP, but a close read found the closing exchange unusable: it was graphic (stab wounds 'all over her torso', the body 'dragged to the forest for the wild animals to feast upon') and abusive ('you lying bastard', 'You are evil. And stupid.') -- the same defect class that made P-5 texts REPLACE. Reclassified KEEP->EDIT. The deduction that drives the scene is the source's own and was kept: Rogers claims he heard gunshots, but the victim was never shot. The gore and the insults are gone, and the interview now ends with the lie exposed and the case deliberately unresolved, which is what the discussion questions work on.",
-   "status": "IMPLEMENTED",
-   "card_title": "Investigation Story",
-   "card_desc": "Comprehension exercises based on an investigative narrative.",
-   "source_files": [
-    "cefr/texts/investigation-story.docx",
-    "cefr/texts/investigation-story.pdf"
-   ],
-   "page": "reading/b1/investigation-story.html"
-  },
-  {
-   "slug": "irregular-verbs-list",
-   "words": 497,
-   "genre": "reference",
-   "level": "A2",
-   "topic": "reference",
-   "action": "DELETE",
-   "audio": "n/a",
-   "reason": "Duplicates the existing irregular-verbs.html page, and this copy is defective: lists regular verbs as irregular ('Clap/Clapped'), invents 'Abidden', and drops the participle column for many entries.",
-   "status": "NOT STARTED",
-   "card_title": "Irregular Verbs List",
-   "source_files": [
-    "cefr/texts/irregular-verbs-list.pdf"
-   ]
-  },
-  {
-   "slug": "it-and-jiu-jitsu",
-   "words": 356,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "work",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Likeable text; remove the gratuitous aside about breaking an opponent's 'defense (or face)'.",
-   "status": "NOT STARTED",
-   "card_title": "It and Jiu Jitsu",
-   "card_desc": "Exercises combining IT terminology with jiu-jitsu scenarios.",
-   "source_files": [
-    "cefr/texts/it-and-jiu-jitsu.pdf"
-   ]
-  },
-  {
-   "slug": "it-interview",
-   "words": 447,
-   "genre": "dialogue",
-   "level": "B2",
-   "topic": "interviews",
-   "action": "KEEP",
-   "audio": "required",
-   "reason": "Realistic technical job interview; directly serves the job-interview brief.",
-   "status": "NOT STARTED",
-   "card_title": "It Interview",
-   "card_desc": "Exercises on preparing for IT job interviews.",
-   "source_files": [
-    "cefr/texts/it-interview.pdf"
-   ]
-  },
-  {
-   "slug": "it-management",
-   "words": 432,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "business",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Dense, authentic exec-meeting register. Rename the cast to English names per instruction; the source's hyphens (risk-adjusted, per-transaction) must survive extraction.",
-   "status": "NOT STARTED",
-   "card_title": "It Management",
-   "source_files": [
-    "cefr/texts/it-management.pdf"
-   ]
-  },
-  {
-   "slug": "it-ptbr",
-   "words": 844,
-   "genre": "reference",
-   "level": "n/a",
-   "topic": "n/a",
-   "action": "DELETE",
-   "audio": "n/a",
-   "reason": "Written entirely in Portuguese — a translation of it-management, not an English exercise. The English original is kept.",
-   "status": "NOT STARTED",
-   "card_title": "IT Management (Portuguese)",
-   "source_files": [
-    "cefr/texts/it-ptbr.docx"
-   ],
-   "card_id": "it-management-portuguese"
-  },
-  {
-   "slug": "kitchen-chaos-i",
-   "words": 228,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "everyday",
-   "action": "MERGE",
-   "audio": "required",
-   "merge_into": "kitchen-phrasal-verbs",
-   "reason": "Same premise and teaching goal as kitchen-chaos-ii (IT worker cooking, phrasal verbs). Two texts teaching one thing.",
-   "status": "NOT STARTED",
-   "card_title": "Kitchen Chaos I",
-   "source_files": [
-    "cefr/texts/kitchen-chaos-i.pdf"
-   ]
-  },
-  {
-   "slug": "kitchen-chaos-ii",
-   "words": 310,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "everyday",
-   "action": "MERGE",
-   "audio": "required",
-   "merge_into": "kitchen-phrasal-verbs",
-   "reason": "Merges with kitchen-chaos-i into one stronger phrasal-verb text.",
-   "status": "NOT STARTED",
-   "card_title": "Kitchen Chaos II",
-   "source_files": [
-    "cefr/texts/kitchen-chaos-ii.pdf"
-   ]
-  },
-  {
-   "slug": "maringa",
-   "source_slug": "maringá",
-   "words": 387,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "travel",
-   "action": "REPLACE",
-   "audio": "required",
-   "reason": "City-attractions list for a Brazilian city; list format and off-brief. Replace with a US city reading serving the same 'describing a city' language.",
-   "status": "NOT STARTED",
-   "card_title": "Maringá",
-   "source_files": [
-    "cefr/texts/maringá.pdf"
-   ],
-   "card_id": "maring"
-  },
-  {
-   "slug": "market-sumup",
-   "words": 759,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "business",
-   "action": "DELETE",
-   "audio": "n/a",
-   "reason": "Single-day market report ('The S&P 500 fell about 0.7%... third straight weekly loss') tied to a specific Fed nomination. Already stale and cannot be kept current.",
-   "status": "NOT STARTED",
-   "card_title": "Market Sumup",
-   "source_files": [
-    "cefr/texts/market-sumup.pdf"
-   ]
-  },
-  {
-   "slug": "milan-restaurants",
-   "words": 608,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "food",
-   "action": "REPLACE",
-   "audio": "required",
-   "reason": "Annotated restaurant list for Milan — no connected prose, no American context. Replace with a US dining-out reading.",
-   "status": "NOT STARTED",
-   "card_title": "Milan Restaurants",
-   "card_desc": "Exercises on restaurant culture and vocabulary in Milan.",
-   "source_files": [
-    "cefr/texts/milan-restaurants.pdf"
-   ]
-  },
-  {
-   "slug": "my-day-in-vienna-to-by-for",
-   "words": 319,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "travel",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Passives exist only to demo the form and read badly ('The tickets were bought by her', 'I gave a big hug to her'). Rewrite naturally.",
-   "status": "NOT STARTED",
-   "card_title": "My Day in Vienna to By for",
-   "source_files": [
-    "cefr/texts/my-day-in-vienna-to-by-for.docx"
-   ]
-  },
-  {
-   "slug": "navigating-finance",
-   "words": 734,
-   "genre": "drill",
-   "level": "B2",
-   "topic": "business",
-   "action": "MERGE",
-   "audio": "n/a",
-   "merge_into": "routines-and-prepositions-drill",
-   "reason": "Third copy of the same gap-fill template as daily-activities and unfortunate-events.",
-   "status": "NOT STARTED",
-   "card_title": "Navigating Finance",
-   "card_desc": "Exercises on financial terminology and scenarios.",
-   "source_files": [
-    "cefr/texts/navigating-finance.pdf"
-   ]
-  },
-  {
-   "slug": "nfl",
-   "words": 566,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "sports",
-   "action": "EDIT",
-   "audio": "exists",
-   "reason": "Clear explainer on an American sport, squarely on brief. Audited as KEEP, but a close read turned up factual errors that had to be corrected: the season format was the pre-2021 one (16 games/17 weeks, two wildcards per conference -- now 17 games/18 weeks and seven playoff teams per conference), Walter Payton was called the all-time rushing leader (Emmitt Smith passed him in 2002), and the title read 'National Footbal League'. Some B2 vocabulary was also eased to sit properly at B1.",
-   "status": "IMPLEMENTED",
-   "page": "reading/b1/nfl.html",
-   "card_title": "Nfl",
-   "card_desc": "Exercises on American football terminology and culture.",
-   "source_files": [
-    "cefr/texts/nfl.pdf"
-   ]
-  },
-  {
-   "slug": "north-sentinel-island",
-   "words": 270,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "society",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Genuinely interesting factual text; check the framing of the islanders stays respectful and drop the 'Stone Age' comparison.",
-   "status": "NOT STARTED",
-   "card_title": "North Sentinel Island",
-   "card_desc": "Exercises exploring the history and culture of North Sentinel Island.",
-   "source_files": [
-    "cefr/texts/north-sentinel-island.pdf"
-   ]
-  },
-  {
-   "slug": "ny-visitation",
-   "words": 789,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "travel",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Good hotel/recommendation narrative. Overlaps restaurant-dialogue (same Joe's Pizza scene) — keep this as the narrative, that as the dialogue, and cross-reference.",
-   "status": "NOT STARTED",
-   "card_title": "Ny Visitation",
-   "card_desc": "Exercises on describing travel and visitation experiences in New York.",
-   "source_files": [
-    "cefr/texts/ny-visitation.docx"
-   ]
-  },
-  {
-   "slug": "phrasal-verbs-01-bed-and-breakfast",
-   "words": 1153,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "everyday",
-   "action": "KEEP",
-   "audio": "required",
-   "reason": "Dense but natural phrasal-verb narrative; among the strongest material in the library.",
-   "status": "NOT STARTED",
-   "card_title": "Phrasal Verbs 01 Bed and Breakfast",
-   "card_desc": "Learn phrasal verbs through a bed and breakfast context.",
-   "source_files": [
-    "cefr/texts/phrasal-verbs-01-bed-and-breakfast.pdf"
-   ]
-  },
-  {
-   "slug": "phrasal-verbs-02-trip-abroad",
-   "words": 1019,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "travel",
-   "action": "KEEP",
-   "audio": "required",
-   "reason": "Same strength, US travel setting, English names already.",
-   "status": "NOT STARTED",
-   "card_title": "Phrasal Verbs 02 Trip Abroad",
-   "card_desc": "Practice phrasal verbs related to international travel.",
-   "source_files": [
-    "cefr/texts/phrasal-verbs-02-trip-abroad.pdf"
-   ]
-  },
-  {
-   "slug": "physical-education",
-   "words": 392,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "sports",
-   "action": "EDIT",
-   "audio": "stale-on-edit",
-   "reason": "Present perfect and past perfect are misused ('Last month, she had organized a relay race' with no later anchor). Fix the tenses, then regenerate the 4 existing mp3s.",
-   "status": "NOT STARTED",
-   "card_title": "Physical Education",
-   "card_desc": "Listening and reading exercises on physical education topics.",
-   "source_files": [
-    "cefr/texts/physical-education.pdf",
-    "cefr/texts/physical-education-01.mp3",
-    "cefr/texts/physical-education-02.mp3",
-    "cefr/texts/physical-education-03.mp3",
-    "cefr/texts/physical-education-04.mp3"
-   ]
-  },
-  {
-   "slug": "physiological-stressors",
-   "words": 832,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "sports",
-   "action": "KEEP",
-   "audio": "required",
-   "reason": "Authentically C1 technical prose; good for advanced learners who read in their field.",
-   "status": "NOT STARTED",
-   "card_title": "Physiological Stressors",
-   "source_files": [
-    "cefr/texts/physiological-stressors.pdf"
-   ]
-  },
-  {
-   "slug": "project-management-can-could-able-do-make",
-   "words": 597,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "work",
-   "action": "KEEP",
-   "audio": "required",
-   "reason": "Solid workplace-modality text with an English-named cast.",
-   "status": "NOT STARTED",
-   "card_title": "Project Management Can Could Able Do Make",
-   "source_files": [
-    "cefr/texts/project-management-can-could-able-do-make.pdf"
-   ]
-  },
-  {
-   "slug": "questionnaire-company-management",
-   "words": 568,
-   "genre": "discussion",
-   "level": "C1",
-   "topic": "business",
-   "action": "CONVERT",
-   "audio": "n/a",
-   "reason": "A bank of executive discussion prompts; becomes a speaking/discussion component, not a reading.",
-   "status": "NOT STARTED",
-   "card_title": "Questionnaire Company Management",
-   "source_files": [
-    "cefr/texts/questionnaire-company-management.pdf"
-   ]
-  },
-  {
-   "slug": "questionnaire-company-tech-leader",
-   "words": 216,
-   "genre": "discussion",
-   "level": "C1",
-   "topic": "interviews",
-   "action": "CONVERT",
-   "audio": "n/a",
-   "reason": "Same — senior-interview speaking prompts.",
-   "status": "NOT STARTED",
-   "card_title": "Questionnaire Company Tech Leader",
-   "source_files": [
-    "cefr/texts/questionnaire-company-tech-leader.pdf"
-   ]
-  },
-  {
-   "slug": "real-estate",
-   "words": 634,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "business",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Strong market-analysis register, but wholly about Porto Alegre neighborhoods. Re-set in a US market to match the brief.",
-   "status": "NOT STARTED",
-   "card_title": "Real Estate",
-   "source_files": [
-    "cefr/texts/real-estate.pdf"
-   ]
-  },
-  {
-   "slug": "recent-advancements-in-it",
-   "words": 367,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "tech",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Pegged to 'What's new in 2026'; rewrite so it does not date, and tone down 'insane'/'revolutionary'.",
-   "status": "NOT STARTED",
-   "card_title": "Recent Advancements in It",
-   "source_files": [
-    "cefr/texts/recent-advancements-in-it.pdf"
-   ]
-  },
-  {
-   "slug": "restaurant-dialogue",
-   "words": 345,
-   "genre": "dialogue",
-   "level": "A2",
-   "topic": "food",
-   "action": "EDIT",
-   "audio": "exists",
-   "reason": "Useful ordering dialogue. The family is renamed to English names per instruction; the inconsistent speaker labels ('Joe’s Pizza employee' vs 'Server') are unified; and the tip is corrected — the original left $3.50 on $26.50, about 13%, which misteaches American practice, so it is now just over 20% with a short explanation of why servers depend on tips.",
-   "status": "IMPLEMENTED",
-   "card_title": "Ordering at a New York Pizzeria",
-   "card_desc": "Ordering, asking for a recommendation, paying — and how tipping works in the US.",
-   "source_files": [
-    "cefr/texts/restaurant-dialogue.pdf"
-   ],
-   "page": "reading/a2/restaurant-dialogue.html"
-  },
-  {
-   "slug": "review-prepositions-some-any-no-tenses-comparatives",
-   "words": 707,
-   "genre": "drill",
-   "level": "A2",
-   "topic": "review",
-   "action": "CONVERT",
-   "audio": "n/a",
-   "reason": "Clean multiple-choice mixed review; converts directly.",
-   "status": "NOT STARTED",
-   "card_title": "Review Prepositions Some Any No Tenses Comparatives",
-   "source_files": [
-    "cefr/texts/review-prepositions-some-any-no-tenses-comparatives.pdf"
-   ]
-  },
-  {
-   "slug": "rio-de-janeiro-exercises",
-   "words": 342,
-   "genre": "drill",
-   "level": "B1",
-   "topic": "travel",
-   "action": "CONVERT",
-   "audio": "n/a",
-   "reason": "Word-bank gap-fill about hiking in Rio; keep as a drill.",
-   "status": "NOT STARTED",
-   "card_title": "Rio De Janeiro Exercises",
-   "card_desc": "Exercises on Rio de Janeiro culture.",
-   "source_files": [
-    "cefr/texts/rio-de-janeiro-exercises.pdf"
-   ]
-  },
-  {
-   "slug": "romania",
-   "words": 575,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "culture",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Competent country overview; slightly encyclopedic, tighten into themed paragraphs.",
-   "status": "NOT STARTED",
-   "card_title": "Romania",
-   "card_desc": "Exercises exploring Romanian culture and history.",
-   "source_files": [
-    "cefr/texts/romania.pdf"
-   ]
-  },
-  {
-   "slug": "rs-japan",
-   "words": 945,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "culture",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Overwritten ('neon-veined precision', 'cultural whiplash'); the cultural-contrast idea is good but the prose needs heavy pruning to read as natural C1.",
-   "status": "NOT STARTED",
-   "card_title": "Rs Japan",
-   "source_files": [
-    "cefr/texts/rs-japan.docx"
-   ]
-  },
-  {
-   "slug": "sales-strategy",
-   "words": 701,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "business",
-   "action": "KEEP",
-   "audio": "required",
-   "reason": "Natural business-English text with genuinely useful collocations and acronyms.",
-   "status": "NOT STARTED",
-   "card_title": "Sales Strategy",
-   "card_desc": "Exercises on sales techniques and business vocabulary.",
-   "source_files": [
-    "cefr/texts/sales-strategy.pdf"
-   ]
-  },
-  {
-   "slug": "santa-catarina",
-   "words": 340,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "travel",
-   "action": "REPLACE",
-   "audio": "required",
-   "reason": "A wholesome family-travel text in which the father 'decided to change careers and become a michê' — Brazilian slang for a male prostitute. Unusable as written; keep the present-perfect-continuous travel premise and rewrite.",
-   "status": "NOT STARTED",
-   "card_title": "Santa Catarina",
-   "card_desc": "Exercises about the Brazilian state of Santa Catarina.",
-   "source_files": [
-    "cefr/texts/santa-catarina.docx"
-   ]
-  },
-  {
-   "slug": "say-speak-talk-tell",
-   "words": 330,
-   "genre": "reading",
-   "level": "A2",
-   "topic": "everyday",
-   "action": "REPLACE",
-   "audio": "exists",
-   "reason": "AUDIT CORRECTION: first classified as a duplicate of the-day-at-the-market because the two share the title 'A Day at the Market'. They are in fact different texts — that one is a present-simple habitual description, this one a past-tense narrative built around say/tell/speak/talk and quantifiers. Keeping both as market texts would still have been repetitive, so the teaching point was preserved and re-set in a new workplace context, which also serves the brief's workplace-English focus.",
-   "status": "IMPLEMENTED",
-   "card_title": "My First Week at Work",
-   "card_desc": "The difference between say, tell, speak and talk, in a situation where you need all four.",
-   "source_files": [
-    "cefr/texts/say-speak-talk-tell.pdf"
-   ],
-   "card_id": "say-speak-talk-tell-a-day-at-the-market",
-   "page": "reading/a2/saying-and-telling.html"
-  },
-  {
-   "slug": "say-speak-talk-tell-02",
-   "words": 353,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "tech",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Present perfect applied where it is wrong: 'I've known there are some exciting purchases', 'The salesperson has told me...'. Rewrite the tense scheme.",
-   "status": "NOT STARTED",
-   "card_title": "Say, Speak, Talk, Tell &mdash; A Day of Tech Investments",
-   "card_desc": "Practice say, speak, talk and tell in a tech-investing story.",
-   "source_files": [
-    "cefr/texts/say-speak-talk-tell-02.pdf"
-   ],
-   "card_id": "say-speak-talk-tell-a-day-of-tech-investments"
-  },
-  {
-   "slug": "say-talk-speak-tell-exercises",
-   "words": 0,
-   "genre": "drill",
-   "level": "A2",
-   "topic": "everyday",
-   "action": "CONVERT",
-   "audio": "n/a",
-   "reason": "The drill half of the say/speak/talk/tell set; attach to the merged reading.",
-   "status": "NOT STARTED",
-   "card_title": "Say, Talk, Speak, Tell &mdash; Exercises",
-   "source_files": [
-    "cefr/texts/say-talk-speak-tell-exercises.pdf"
-   ]
-  },
-  {
-   "slug": "shadows-in-the-server-room",
-   "words": 2407,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "work",
-   "action": "SPLIT",
-   "audio": "required",
-   "reason": "Strong long-form workplace mystery (2407w) — too long for one page and one audio file. Split into chapters, per requirement 8's guidance against huge audio files.",
-   "status": "NOT STARTED",
-   "card_title": "Shadows in the Server Room",
-   "source_files": [
-    "cefr/texts/shadows-in-the-server-room.pdf"
-   ]
-  },
-  {
-   "slug": "simple-past-+-present-continuous-+-future-1",
-   "words": 1009,
-   "genre": "drill",
-   "level": "A2",
-   "topic": "review",
-   "action": "MERGE",
-   "audio": "n/a",
-   "merge_into": "tense-contrast-drill",
-   "reason": "Parts 1 and 2 of one exercise split across two files.",
-   "status": "NOT STARTED",
-   "card_title": "Simple Past + Present Continuous + Future",
-   "source_files": [
-    "cefr/texts/simple-past-+-present-continuous-+-future-1.pdf"
-   ],
-   "card_id": "simple-past-present-continuous-future"
-  },
-  {
-   "slug": "simple-past-+-present-continuous-+-future-2",
-   "words": 1018,
-   "genre": "drill",
-   "level": "A2",
-   "topic": "review",
-   "action": "MERGE",
-   "audio": "n/a",
-   "merge_into": "tense-contrast-drill",
-   "reason": "Second half of the same exercise.",
-   "status": "NOT STARTED",
-   "card_title": "Simple Past + Present Continuous + Future II",
-   "source_files": [
-    "cefr/texts/simple-past-+-present-continuous-+-future-2.pdf"
-   ],
-   "card_id": "simple-past-present-continuous-future-ii"
-  },
-  {
-   "slug": "snowy-days",
-   "words": 473,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "everyday",
-   "action": "KEEP",
-   "audio": "required",
-   "reason": "Authentic informal American register -- exactly the colloquial English the library is short of. Kept as published; only the source's ellipses were normalized to dashes and 'public transportation' spelled out.",
-   "status": "IMPLEMENTED",
-   "card_title": "Snowy Days",
-   "source_files": [
-    "cefr/texts/snowy-days.docx",
-    "cefr/texts/snowy-days.pdf",
-    "cefr/texts/snowy-days-01.mp3",
-    "cefr/texts/snowy-days-02.mp3"
-   ],
-   "page": "reading/b1/snowy-days.html"
-  },
-  {
-   "slug": "soma-nomaoi",
-   "words": 446,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "culture",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Good festival text; strip the raw x.com link and keep the Japanese terms glossed.",
-   "status": "NOT STARTED",
-   "card_title": "Soma Nomaoi",
-   "source_files": [
-    "cefr/texts/soma-nomaoi.docx"
-   ]
-  },
-  {
-   "slug": "soothing-texts",
-   "words": 2225,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "everyday",
-   "action": "SPLIT",
-   "audio": "required",
-   "reason": "Several unrelated descriptive scenes (kitchen, etc.) in one 2225w file. Split into short descriptive readings — excellent sensory-vocabulary material once separated.",
-   "status": "NOT STARTED",
-   "card_title": "Soothing Texts",
-   "card_desc": "Exercises with calming and reflective reading passages.",
-   "source_files": [
-    "cefr/texts/soothing-texts.pdf"
-   ]
-  },
-  {
-   "slug": "southeast-asia-adventure",
-   "words": 572,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "travel",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Good present-perfect travel narrative; rename the cast to English names per instruction.",
-   "status": "NOT STARTED",
-   "card_title": "Southeast Asia Adventure",
-   "card_desc": "Exercises on travel and cultural experiences in Southeast Asia.",
-   "source_files": [
-    "cefr/texts/southeast-asia-adventure.pdf"
-   ]
-  },
-  {
-   "slug": "st.-patricks-day",
-   "words": 371,
-   "genre": "reading",
-   "level": "A2",
-   "topic": "culture",
-   "action": "EDIT",
-   "audio": "exists",
-   "reason": "Charming short story with English names already. Edited: the letter-spacing artifacts from the source layout are gone, the American pinching custom is now explained up front instead of assumed, 'St. Patty’s' is corrected to 'St. Paddy’s', and the original multiple-choice distractors ('an underpaid teacher', 'her single mother', 'she ate dubious medicinal plants') are replaced with real ones — they were snarky rather than pedagogically useful.",
-   "status": "IMPLEMENTED",
-   "card_title": "The Day Erica Forgot to Wear Green",
-   "card_desc": "A short St. Patrick’s Day story, and the American wear-green custom behind it.",
-   "source_files": [
-    "cefr/texts/st.-patricks-day.pdf"
-   ],
-   "card_id": "st-patricks-day",
-   "page": "reading/a2/st-patricks-day.html"
-  },
-  {
-   "slug": "technology-and-ethics",
-   "words": 648,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "tech",
-   "action": "KEEP",
-   "audio": "required",
-   "reason": "Genuinely C1, professionally relevant, natural register.",
-   "status": "NOT STARTED",
-   "card_title": "Technology and Ethics",
-   "card_desc": "Exercises on ethical issues in technology.",
-   "source_files": [
-    "cefr/texts/technology-and-ethics.pdf"
-   ]
-  },
-  {
-   "slug": "text-interpretation",
-   "words": 1039,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "society",
-   "action": "SPLIT",
-   "audio": "required",
-   "reason": "Several unrelated short articles ('Robot Birds' and others) in one file; split so each gets its own page, questions and audio.",
-   "status": "NOT STARTED",
-   "card_title": "Text Interpretation",
-   "source_files": [
-    "cefr/texts/text-interpretation.pdf"
-   ]
-  },
-  {
-   "slug": "text-interpretation-aesops-fables",
-   "words": 1921,
-   "genre": "reading",
-   "level": "B2",
-   "topic": "literature",
-   "action": "SPLIT",
-   "audio": "required",
-   "reason": "Multiple fables in one file. Split per fable; keep the literary register but gloss the archaic phrasing.",
-   "status": "NOT STARTED",
-   "card_title": "Text Interpretation Aesops Fables",
-   "card_desc": "Exercises on interpreting Aesop&#x27;s Fables, with answers provided.",
-   "source_files": [
-    "cefr/texts/text-interpretation-aesops-fables.pdf"
-   ]
-  },
-  {
-   "slug": "the-day-at-the-market",
-   "words": 269,
-   "genre": "reading",
-   "level": "A2",
-   "topic": "everyday",
-   "action": "KEEP",
-   "audio": "exists",
-   "reason": "Simple, natural and well-levelled present-simple description. Lightly edited: the friend is named, the market is identified as a farmers market, and the American 'stand' is used alongside 'stall'.",
-   "status": "IMPLEMENTED",
-   "card_title": "A Saturday at the Market",
-   "card_desc": "A weekly routine at the farmers market, and the food vocabulary that goes with it.",
-   "source_files": [
-    "cefr/texts/the-day-at-the-market.pdf"
-   ],
-   "page": "reading/a2/the-day-at-the-market.html"
-  },
-  {
-   "slug": "travel-dialogues",
-   "words": 935,
-   "genre": "dialogue",
-   "level": "A2",
-   "topic": "travel",
-   "action": "SPLIT",
-   "audio": "exists",
-   "reason": "Strong functional dialogues, but eight unrelated scenarios in one worksheet (airline booking, reconfirming, passport control, booking a hotel room, checking out, ordering dinner, buying clothes, asking for a photo) with every student line left blank. Split into three coherent pages and given model answers so the dialogues can actually be read and narrated. Americanized throughout per requirement 16: euros to dollars, 24-hour times to 12-hour ('16:45' to '4:45 p.m.'), 'the trout is off' to 'we're out of the trout', 'colours' to 'colors', traveller's cheques to a card; the inconsistent 'Northwind Airways'/'Northwind Airlines' is unified, and the source's acute accents used as apostrophes ('There´s') are fixed.",
-   "status": "IMPLEMENTED",
-   "card_title": "Travel Dialogues",
-   "card_desc": "Split into three pages: flying, hotels, and everyday service situations.",
-   "source_files": [
-    "cefr/texts/travel-dialogues.pdf"
-   ],
-   "split_into": [
-    "reading/a2/flying-to-the-us.html",
-    "reading/a2/at-the-hotel.html",
-    "reading/a2/everyday-service-english.html"
-   ],
-   "page": "reading/a2/flying-to-the-us.html"
-  },
-  {
-   "slug": "travel-dialogues-02",
-   "words": 905,
-   "genre": "dialogue",
-   "level": "B1",
-   "topic": "travel",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Hotel-reception training dialogue; same treatment, good workplace-English value.",
-   "status": "NOT STARTED",
-   "card_title": "Travel Dialogues II",
-   "card_desc": "Exercises on travel-related conversations and vocabulary.",
-   "source_files": [
-    "cefr/texts/travel-dialogues-02.pdf"
-   ],
-   "card_id": "travel-dialogues-ii"
-  },
-  {
-   "slug": "trials",
-   "words": 671,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "society",
-   "action": "MERGE",
-   "audio": "required",
-   "merge_into": "american-courtroom-cases",
-   "reason": "Both 'Court Trials' files cover famous US cases; merge into one curated reading and even out the register ('some crazy courthouse cases').",
-   "status": "NOT STARTED",
-   "card_title": "Trials",
-   "card_desc": "Exercises on legal and trial-related vocabulary.",
-   "source_files": [
-    "cefr/texts/trials.pdf"
-   ]
-  },
-  {
-   "slug": "trials-mayors",
-   "words": 1007,
-   "genre": "reading",
-   "level": "C1",
-   "topic": "society",
-   "action": "MERGE",
-   "audio": "required",
-   "merge_into": "american-courtroom-cases",
-   "reason": "Same title and theme as trials, focused on mayoral corruption cases.",
-   "status": "NOT STARTED",
-   "card_title": "Trials Mayors",
-   "source_files": [
-    "cefr/texts/trials-mayors.pdf"
-   ]
-  },
-  {
-   "slug": "trip-through-rs",
-   "words": 785,
-   "genre": "reading",
-   "level": "A2",
-   "topic": "travel",
-   "action": "REPLACE",
-   "audio": "exists",
-   "reason": "Good there is/there are practice, but the source crams nine separate grammar points (there is/are, can/could/may, some/any/no, much/many/few/little, present simple, will, present continuous, past simple, question forms) into one narrative, and it breaks down: 'Do you visit the mountains a lot?' is answered 'No, I don't visit the coast often', which is a non-sequitur, and 'I'm reading a map upstairs later' is not English. Rewritten around the one dominant point (there is/are plus quantifiers) and re-set as a Charlotte-to-Asheville bus trip with English names; the other grammar points already have their own lessons under levels/.",
-   "status": "IMPLEMENTED",
-   "card_title": "The Bus to the Mountains",
-   "card_desc": "There is / there are and quantifiers, on a long bus ride into the mountains.",
-   "source_files": [
-    "cefr/texts/trip-through-rs.pdf"
-   ],
-   "page": "reading/a2/bus-to-the-mountains.html"
-  },
-  {
-   "slug": "two-texts-sp-to-pp",
-   "words": 700,
-   "genre": "drill",
-   "level": "B1",
-   "topic": "review",
-   "action": "MERGE",
-   "audio": "n/a",
-   "merge_into": "past-to-present-perfect-drill",
-   "reason": "Paired with its -ii file as one exercise.",
-   "status": "NOT STARTED",
-   "card_title": "Two Texts Sp to Pp",
-   "card_desc": "Exercises comparing São Paulo and Porto Alegre.",
-   "source_files": [
-    "cefr/texts/two-texts-sp-to-pp.pdf"
-   ]
-  },
-  {
-   "slug": "two-texts-sp-to-pp-ii",
-   "words": 0,
-   "genre": "drill",
-   "level": "B1",
-   "topic": "review",
-   "action": "MERGE",
-   "audio": "n/a",
-   "merge_into": "past-to-present-perfect-drill",
-   "reason": "Second half of the same exercise.",
-   "status": "NOT STARTED",
-   "card_title": "Two Texts Sp to Pp II",
-   "source_files": [
-    "cefr/texts/two-texts-sp-to-pp-ii.pdf"
-   ]
-  },
-  {
-   "slug": "unfortunate-events",
-   "words": 570,
-   "genre": "drill",
-   "level": "B1",
-   "topic": "everyday",
-   "action": "MERGE",
-   "audio": "n/a",
-   "merge_into": "routines-and-prepositions-drill",
-   "reason": "Same gap-fill template as daily-activities and navigating-finance.",
-   "status": "NOT STARTED",
-   "card_title": "Unfortunate Events",
-   "card_desc": "Exercises based on narratives about unfortunate events.",
-   "source_files": [
-    "cefr/texts/unfortunate-events.pdf"
-   ]
-  },
-  {
-   "slug": "usa-restaurants",
-   "words": 1318,
-   "genre": "reading",
-   "level": "B1",
-   "topic": "travel",
-   "action": "EDIT",
-   "audio": "required",
-   "reason": "Titled 'U.S.A. Restaurants' but the body is a bulleted list of Florida attractions — title and content do not match, and it is a list rather than a reading. Rewrite as a Florida travel reading, and let the dining material live in the food thread.",
-   "status": "NOT STARTED",
-   "card_title": "Usa Restaurants",
-   "card_desc": "Exercises on American restaurant culture and vocabulary.",
-   "source_files": [
-    "cefr/texts/usa-restaurants.pdf"
-   ]
-  },
-  {
-   "slug": "verb-tense-review",
-   "words": 5091,
-   "genre": "drill",
-   "level": "B1",
-   "topic": "review",
-   "action": "SPLIT",
-   "audio": "n/a",
-   "reason": "Largest file in the library (5091w) — many separate gap-fill texts, several with good American settings (hotel near Times Square). Split into per-scenario drill blocks.",
-   "status": "NOT STARTED",
-   "card_title": "Verb Tense Review",
-   "source_files": [
-    "cefr/texts/verb-tense-review.pdf"
-   ]
-  },
-  {
-   "slug": "mind-games",
-   "words": 0,
-   "genre": "reference",
-   "level": "n/a",
-   "topic": "n/a",
-   "action": "DELETE",
-   "audio": "n/a",
-   "reason": "PDF-only and image-based — the only extractable text is 'ACTIVITY 1/2/3', so there is no content to migrate. Deletion confirmed by the user.",
-   "status": "NOT STARTED"
+  "_about": "Content map for the reading-library project (see PROJECT_STATUS.md). One entry per source document in cefr/texts/. Drives conversion to reading/{level}/{slug}.html + assets/audio/reading/{level}/{slug}.mp3. Authored from a full read of all 98 extracted source documents, not from filenames.",
+  "_fields": {
+    "words": "word count of the .docx-extracted source (docx preferred over pdf per instruction)",
+    "genre": "reading | dialogue | drill | discussion | reference — drills/discussions are not reading texts, so audio is n/a",
+    "level": "recommended CEFR level after audit (the source library was flat/unlevelled)",
+    "action": "KEEP | EDIT | MERGE | SPLIT | RECLASSIFY | CONVERT | REPLACE | DELETE",
+    "audio": "required | exists | stale-on-edit | n/a",
+    "status": "NOT STARTED | AUDITING | EDITED | CONVERTED | IMPLEMENTED | REVIEWED | COMPLETE"
+  },
+  "_audio_note": "19 mp3 files already exist in cefr/texts for 6 texts (attention-economy, capetown, cars, hiking-in-the-mountains, physical-education, snowy-days). Where the audit calls for editing that text, the existing audio becomes stale and MUST be regenerated (requirement 8.6).",
+  "texts": [
+    {
+      "slug": "a-freelance-accounting-assignment",
+      "words": 655,
+      "genre": "drill",
+      "level": "B1",
+      "topic": "work",
+      "action": "CONVERT",
+      "audio": "n/a",
+      "reason": "Pure simple-past gap-fill on accounting tasks; no prose passage. Becomes a fill-blank block.",
+      "status": "NOT STARTED",
+      "card_title": "A Freelance Accounting Assignment",
+      "card_desc": "Exercises on vocabulary and scenarios related to freelance accounting.",
+      "source_files": [
+        "cefr/texts/a-freelance-accounting-assignment.pdf"
+      ]
+    },
+    {
+      "slug": "a1-review-and-a1-review-2",
+      "words": 2036,
+      "genre": "drill",
+      "level": "A1",
+      "topic": "review",
+      "action": "SPLIT",
+      "audio": "n/a",
+      "reason": "Two concatenated A1 review sheets, 2036w. Split into themed A1 review blocks.",
+      "status": "NOT STARTED",
+      "card_title": "A1 Review and A1 Review 2",
+      "source_files": [
+        "cefr/texts/a1-review-and-a1-review-2.pdf"
+      ]
+    },
+    {
+      "slug": "a2-review",
+      "words": 1158,
+      "genre": "drill",
+      "level": "A2",
+      "topic": "review",
+      "action": "CONVERT",
+      "audio": "n/a",
+      "reason": "Well-formed A2 mixed-grammar drill set; converts cleanly to fill-blank/multiple-choice.",
+      "status": "NOT STARTED",
+      "card_title": "A2 Review",
+      "source_files": [
+        "cefr/texts/a2-review.pdf"
+      ]
+    },
+    {
+      "slug": "america-in-1776",
+      "words": 1154,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "culture",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Strong, genuinely C1 essay on the founding. Dense academic register; trim and break into sections for readability.",
+      "status": "NOT STARTED",
+      "card_title": "America in 1776",
+      "source_files": [
+        "cefr/texts/america-in-1776.pdf"
+      ]
+    },
+    {
+      "slug": "american-culture",
+      "words": 1072,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "culture",
+      "action": "SPLIT",
+      "audio": "required",
+      "reason": "Three unrelated things in one file: a culture overview, a corndog/state-fair food piece, and passive-voice grammar drills. Split into a B2 culture reading, a B1 food reading, and a drill block.",
+      "status": "NOT STARTED",
+      "card_title": "American Culture",
+      "card_desc": "Explore cultural aspects of the United States through reading and comprehension exercises.",
+      "source_files": [
+        "cefr/texts/american-culture.pdf"
+      ]
+    },
+    {
+      "slug": "animal-solutions",
+      "words": 271,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "work",
+      "action": "REPLACE",
+      "audio": "required",
+      "reason": "Reads as marketing copy for a named vendor (Gallagher), not a teaching text. Replace with a neutral do/make farm-work reading.",
+      "status": "NOT STARTED",
+      "card_title": "Animal Solutions",
+      "source_files": [
+        "cefr/texts/animal-solutions.pdf"
+      ]
+    },
+    {
+      "slug": "arriving-in-johannesburg",
+      "words": 1306,
+      "genre": "dialogue",
+      "level": "B1",
+      "topic": "travel",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Excellent airport-arrival functional dialogue. Traveler renamed to an English name; trim repetition in the shuttle exchange.",
+      "status": "NOT STARTED",
+      "card_title": "Arriving in Johannesburg",
+      "source_files": [
+        "cefr/texts/arriving-in-johannesburg.pdf"
+      ]
+    },
+    {
+      "slug": "attention-economy",
+      "words": 327,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "society",
+      "action": "KEEP",
+      "audio": "exists",
+      "reason": "Clean, well-pitched C1 argument text. Already has 3 mp3 segments.",
+      "status": "NOT STARTED",
+      "card_title": "Attention Economy",
+      "source_files": [
+        "cefr/texts/attention-economy.pdf",
+        "cefr/texts/attention-economy-01.mp3",
+        "cefr/texts/attention-economy-02.mp3",
+        "cefr/texts/attention-economy-03.mp3"
+      ]
+    },
+    {
+      "slug": "australia-and-thailand",
+      "words": 954,
+      "genre": "reading",
+      "level": "A2",
+      "topic": "travel",
+      "action": "REPLACE",
+      "audio": "exists",
+      "reason": "The source is two bulleted lists of attractions with no connected prose, so there was nothing to read or narrate. Rewritten as a single A2 text that compares the two destinations, which keeps both halves of the original material, gives the comparatives something real to do, and adds the recommendation language (you should, it's worth, don't miss) the lists only implied.",
+      "status": "IMPLEMENTED",
+      "card_title": "Two Very Different Trips",
+      "source_files": [
+        "cefr/texts/australia-and-thailand.pdf"
+      ],
+      "page": "reading/a2/two-very-different-trips.html",
+      "card_desc": "Sydney and Bangkok compared, with the language for recommending a place."
+    },
+    {
+      "slug": "beers",
+      "words": 694,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "food",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Factual slip: 'Pilsner: Pilsen is a type of lager'. Fix, tighten the style list.",
+      "status": "NOT STARTED",
+      "card_title": "Beers",
+      "source_files": [
+        "cefr/texts/beers.pdf"
+      ]
+    },
+    {
+      "slug": "business-war-it",
+      "words": 689,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "tech",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Useful tech-history angle but list-like and abrupt; convert to connected prose.",
+      "status": "NOT STARTED",
+      "card_title": "Business War It",
+      "source_files": [
+        "cefr/texts/business-war-it.pdf"
+      ]
+    },
+    {
+      "slug": "cachacas",
+      "source_slug": "cachaças",
+      "words": 672,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "food",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Sound process text. Slug de-accented for safe hosting; retitle from the odd 'Distilled Spirit Visitation'.",
+      "status": "NOT STARTED",
+      "card_title": "Cachaças",
+      "source_files": [
+        "cefr/texts/cachaças.pdf"
+      ],
+      "card_id": "cacha-as"
+    },
+    {
+      "slug": "capetown",
+      "words": 770,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "travel",
+      "action": "EDIT",
+      "audio": "stale-on-edit",
+      "reason": "Perfect/perfect-continuous forms crammed in unnaturally ('had begun... had been... has been pulling'). Rewrite naturally, then regenerate the 4 existing mp3s.",
+      "status": "NOT STARTED",
+      "card_title": "Capetown",
+      "card_desc": "Reading and comprehension exercises about Capetown culture and landmarks.",
+      "source_files": [
+        "cefr/texts/capetown.pdf",
+        "cefr/texts/capetown-01.mp3",
+        "cefr/texts/capetown-02.mp3",
+        "cefr/texts/capetown-03.mp3",
+        "cefr/texts/capetown-04.mp3"
+      ]
+    },
+    {
+      "slug": "cars",
+      "words": 967,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "tech",
+      "action": "KEEP",
+      "audio": "required",
+      "reason": "Strong B1 explainer moving from consumer choice to the EV market. Kept as published. Its Tesla/BYD figures are explicitly dated to June 2026 in the text itself, so they read as a snapshot rather than as current fact.",
+      "status": "IMPLEMENTED",
+      "card_title": "Cars",
+      "source_files": [
+        "cefr/texts/cars.docx",
+        "cefr/texts/cars.pdf",
+        "cefr/texts/cars1.mp3",
+        "cefr/texts/cars2.mp3",
+        "cefr/texts/cars3.mp3",
+        "cefr/texts/cars4.mp3"
+      ],
+      "page": "reading/b1/cars.html"
+    },
+    {
+      "slug": "cars-and-their-parts",
+      "words": 436,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "tech",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Good vocabulary load; over-casual asides ('this beast drives the whole operation') to even out.",
+      "status": "NOT STARTED",
+      "card_title": "Cars and Their Parts",
+      "card_desc": "Vocabulary exercises on car components and automotive terms.",
+      "source_files": [
+        "cefr/texts/cars-and-their-parts.pdf"
+      ]
+    },
+    {
+      "slug": "christmas-krampus-grinch",
+      "words": 261,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "culture",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Text points at images that do not survive conversion ('Here is a chilling traditional image of Krampus'). Rewrite those references out.",
+      "status": "NOT STARTED",
+      "card_title": "Christmas Krampus Grinch",
+      "source_files": [
+        "cefr/texts/christmas-krampus-grinch.pdf"
+      ]
+    },
+    {
+      "slug": "climbing",
+      "words": 494,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "sports",
+      "action": "KEEP",
+      "audio": "required",
+      "reason": "Clean informational sports text with a natural vocabulary set. Converted from the .docx, whose content is a bulleted gear-and-technique guide rather than continuous prose; it was reset as connected paragraphs so it can be read and narrated, with all the original content retained.",
+      "status": "IMPLEMENTED",
+      "card_title": "Climbing",
+      "card_desc": "Exercises on climbing terminology and scenarios.",
+      "source_files": [
+        "cefr/texts/climbing.docx",
+        "cefr/texts/climbing.pdf"
+      ],
+      "page": "reading/b1/climbing.html"
+    },
+    {
+      "slug": "coffee-and-it",
+      "words": 285,
+      "genre": "drill",
+      "level": "B1",
+      "topic": "work",
+      "action": "CONVERT",
+      "audio": "n/a",
+      "reason": "Word-bank gap-fill; its answer key is a separate file to fold in.",
+      "status": "NOT STARTED",
+      "card_title": "Coffee and It",
+      "card_desc": "Exercises combining coffee culture and IT terminology, with answers provided.",
+      "source_files": [
+        "cefr/texts/coffee-and-it.pdf"
+      ]
+    },
+    {
+      "slug": "coffee-and-it-answers",
+      "words": 295,
+      "genre": "reference",
+      "level": "B1",
+      "topic": "work",
+      "action": "MERGE",
+      "audio": "n/a",
+      "merge_into": "coffee-and-it",
+      "reason": "Answer key for coffee-and-it; becomes that block's answers/explanations.",
+      "status": "NOT STARTED",
+      "card_title": "Coffee and It Answers",
+      "source_files": [
+        "cefr/texts/coffee-and-it-answers.docx"
+      ]
+    },
+    {
+      "slug": "coffee-brewing",
+      "words": 321,
+      "genre": "reading",
+      "level": "A2",
+      "topic": "food",
+      "action": "KEEP",
+      "audio": "exists",
+      "reason": "Well-formed procedural text; good imperative/sequencing practice.",
+      "status": "IMPLEMENTED",
+      "card_title": "How to Brew Good Coffee",
+      "card_desc": "A step-by-step guide, and a model for giving instructions in English.",
+      "source_files": [
+        "cefr/texts/coffee-brewing.pdf"
+      ],
+      "page": "reading/a2/coffee-brewing.html"
+    },
+    {
+      "slug": "common-chores",
+      "words": 340,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "everyday",
+      "action": "MERGE",
+      "audio": "required",
+      "merge_into": "household-chores",
+      "reason": "Phrasal-verb chores text. Unnatural line to fix: 'you hang up or toss into the dryer the clothes'. Merges with common-chores-ii.",
+      "status": "NOT STARTED",
+      "card_title": "Common Chores",
+      "card_desc": "Vocabulary and comprehension exercises on everyday household tasks.",
+      "source_files": [
+        "cefr/texts/common-chores.pdf"
+      ]
+    },
+    {
+      "slug": "common-chores-ii",
+      "words": 337,
+      "genre": "reading",
+      "level": "A2",
+      "topic": "everyday",
+      "action": "MERGE",
+      "audio": "required",
+      "merge_into": "household-chores",
+      "reason": "Same teaching goal as common-chores, narrative form (Mike, Austin TX). Keep the American setting as the merged version's frame.",
+      "status": "NOT STARTED",
+      "card_title": "Common Chores II",
+      "source_files": [
+        "cefr/texts/common-chores-ii.pdf"
+      ]
+    },
+    {
+      "slug": "cybersecurity",
+      "words": 898,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "tech",
+      "action": "REPLACE",
+      "audio": "required",
+      "reason": "Whole text written in the past tense for a simple-past drill, which makes it factually wrong: 'Cybersecurity protected computers...', 'Today, we used the internet'. Rewrite in present tense and move the past-tense practice to a separate drill.",
+      "status": "NOT STARTED",
+      "card_title": "Cybersecurity",
+      "card_desc": "Exercises on cybersecurity terminology and scenarios.",
+      "source_files": [
+        "cefr/texts/cybersecurity.pdf"
+      ]
+    },
+    {
+      "slug": "daily-activities",
+      "words": 442,
+      "genre": "drill",
+      "level": "B1",
+      "topic": "work",
+      "action": "MERGE",
+      "audio": "n/a",
+      "merge_into": "routines-and-prepositions-drill",
+      "reason": "Identical '_____ (to verb) ___ (in/on/at)' template to navigating-finance and unfortunate-events; three copies of one exercise.",
+      "status": "NOT STARTED",
+      "card_title": "Daily Activities",
+      "card_desc": "Exercises on describing daily routines and activities.",
+      "source_files": [
+        "cefr/texts/daily-activities.pdf"
+      ]
+    },
+    {
+      "slug": "detective-story",
+      "words": 526,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "society",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Good whodunnit with inline vocabulary glosses that become a real vocabulary component. Retitle (the 'Cachaca Case' name is unrelated to the plot).",
+      "status": "NOT STARTED",
+      "card_title": "Detective Story",
+      "card_desc": "Reading and comprehension exercises based on a detective narrative.",
+      "source_files": [
+        "cefr/texts/detective-story.pdf"
+      ]
+    },
+    {
+      "slug": "do-make-livestock-farming",
+      "words": 406,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "work",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "do/make contrast is forced into unnatural English ('Do the feeding of the cattle'). Rewrite with collocations people actually use.",
+      "status": "NOT STARTED",
+      "card_title": "Do Make Livestock Farming",
+      "card_desc": "Exercises on using &quot;do&quot; and &quot;make&quot; in the context of livestock farming.",
+      "source_files": [
+        "cefr/texts/do-make-livestock-farming.pdf"
+      ]
+    },
+    {
+      "slug": "dream-bistro",
+      "words": 430,
+      "genre": "reading",
+      "level": "A2",
+      "topic": "work",
+      "action": "EDIT",
+      "audio": "exists",
+      "reason": "Good A2 narrative mixing present simple, present continuous and simple past. Re-set in Portland, Oregon with an English name per the American-context brief and the naming rule, and given concrete business detail (rent, suppliers, hiring) so the tense contrasts have something real to describe.",
+      "status": "IMPLEMENTED",
+      "card_title": "Opening a Bistro",
+      "card_desc": "One man’s plan to open a small restaurant, in three tenses.",
+      "source_files": [
+        "cefr/texts/dream-bistro.pdf"
+      ],
+      "page": "reading/a2/dream-bistro.html"
+    },
+    {
+      "slug": "egypt",
+      "words": 413,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "society",
+      "action": "REPLACE",
+      "audio": "required",
+      "reason": "Presents a UFO sighting as documented history and invites the student to research it 'as a doctoral student'. Misinformation framed as scholarship; replace with a real Thutmose III / Karnak reading.",
+      "status": "NOT STARTED",
+      "card_title": "Egypt",
+      "source_files": [
+        "cefr/texts/egypt.pdf"
+      ]
+    },
+    {
+      "slug": "egypt-a-journey-through-history-and-culture",
+      "words": 1086,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "culture",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "The legitimate Egypt text; keep as the single Egypt reading and trim.",
+      "status": "NOT STARTED",
+      "card_title": "Egypt a Journey Through History and Culture",
+      "card_desc": "Exercises exploring Egyptian history and cultural aspects.",
+      "source_files": [
+        "cefr/texts/egypt-a-journey-through-history-and-culture.pdf"
+      ]
+    },
+    {
+      "slug": "el-nino-2027",
+      "source_slug": "el-niño-2027",
+      "words": 432,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "society",
+      "action": "DELETE",
+      "audio": "n/a",
+      "reason": "Dated to a specific forecast year and written for one Brazilian city ('what does it mean for someone who lives in porto alegre'). Stale and off-brief; nothing here is worth migrating.",
+      "status": "NOT STARTED",
+      "card_title": "El Niño",
+      "source_files": [
+        "cefr/texts/el-niño-2027.docx"
+      ],
+      "card_id": "el-ni-o"
+    },
+    {
+      "slug": "formal-informal",
+      "words": 535,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "society",
+      "action": "REPLACE",
+      "audio": "required",
+      "reason": "The register contrast is worth teaching, but the informal sample argues developing nations are poor because 'they suck at running their countries'. Keep the formal/informal exercise shape, replace the topic with a neutral one.",
+      "status": "NOT STARTED",
+      "card_title": "Formal Informal",
+      "source_files": [
+        "cefr/texts/formal-informal.pdf"
+      ]
+    },
+    {
+      "slug": "formula-1",
+      "words": 808,
+      "genre": "drill",
+      "level": "B2",
+      "topic": "sports",
+      "action": "CONVERT",
+      "audio": "n/a",
+      "reason": "Technical word-bank gap-fill; answer key is a separate file.",
+      "status": "NOT STARTED",
+      "card_title": "Formula 1",
+      "source_files": [
+        "cefr/texts/formula-1.pdf"
+      ]
+    },
+    {
+      "slug": "formula-1-exercises-answers",
+      "words": 0,
+      "genre": "reference",
+      "level": "B2",
+      "topic": "sports",
+      "action": "MERGE",
+      "audio": "n/a",
+      "merge_into": "formula-1",
+      "reason": "Answer key for formula-1.",
+      "status": "NOT STARTED",
+      "card_title": "Formula 1 Exercises Answers",
+      "source_files": [
+        "cefr/texts/formula-1-exercises-answers.docx"
+      ]
+    },
+    {
+      "slug": "glamping",
+      "words": 520,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "travel",
+      "action": "KEEP",
+      "audio": "required",
+      "reason": "Well-written travel text on a current trend, needing no editorial repair. The source's 'Activity I' worksheet framing and its redundant closing paragraph were trimmed; the prose itself is as published.",
+      "status": "IMPLEMENTED",
+      "card_title": "Glamping",
+      "card_desc": "Exercises on glamping (glamorous camping) vocabulary and experiences.",
+      "source_files": [
+        "cefr/texts/glamping.docx",
+        "cefr/texts/glamping.pdf"
+      ],
+      "page": "reading/b1/glamping.html"
+    },
+    {
+      "slug": "golden-gate-bridge-present-perfect",
+      "words": 274,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "culture",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Idioms crammed in at an unnatural density, one of them crude for a classroom ('crews have busted their butts'). Keep the present-perfect focus, rewrite the register.",
+      "status": "NOT STARTED",
+      "card_title": "Golden Gate Bridge Present Perfect",
+      "source_files": [
+        "cefr/texts/golden-gate-bridge-present-perfect.pdf"
+      ]
+    },
+    {
+      "slug": "grammar-practice-i",
+      "words": 1050,
+      "genre": "drill",
+      "level": "A2",
+      "topic": "review",
+      "action": "CONVERT",
+      "audio": "n/a",
+      "reason": "Multiple-choice-in-brackets dialogue drill; maps directly to fill-blank with options.",
+      "status": "NOT STARTED",
+      "card_title": "Grammar Practice I",
+      "source_files": [
+        "cefr/texts/grammar-practice-i.pdf"
+      ]
+    },
+    {
+      "slug": "grocery-shopping",
+      "words": 160,
+      "genre": "drill",
+      "level": "A2",
+      "topic": "everyday",
+      "action": "CONVERT",
+      "audio": "n/a",
+      "reason": "A writing worksheet whose body is blank rules for handwriting. Becomes guided writing prompts, not a reading.",
+      "status": "NOT STARTED",
+      "card_title": "Grocery Shopping",
+      "card_desc": "Exercises on grocery shopping scenarios and vocabulary.",
+      "source_files": [
+        "cefr/texts/grocery-shopping.pdf"
+      ]
+    },
+    {
+      "slug": "haiti",
+      "words": 564,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "society",
+      "action": "REPLACE",
+      "audio": "required",
+      "reason": "Blog-register news brief with an emoji mid-text, and graphic content (gang rape, torture, starvation) unsuitable for a general adult English class. Replace with a current-affairs reading that teaches the same analytical language.",
+      "status": "NOT STARTED",
+      "card_title": "Haiti",
+      "card_desc": "Exercises exploring Haitian culture and history.",
+      "source_files": [
+        "cefr/texts/haiti.pdf"
+      ]
+    },
+    {
+      "slug": "hiking-in-the-mountains",
+      "words": 292,
+      "genre": "reading",
+      "level": "A2",
+      "topic": "everyday",
+      "action": "KEEP",
+      "audio": "exists",
+      "reason": "Simple, natural past-tense narrative. Has 2 mp3 segments.",
+      "status": "IMPLEMENTED",
+      "card_title": "A Day Hiking in the Mountains",
+      "card_desc": "A simple past-tense narrative about one long day outdoors.",
+      "source_files": [
+        "cefr/texts/hiking-in-the-mountains.pdf",
+        "cefr/texts/hiking-in-the-mountains01.mp3",
+        "cefr/texts/hiking-in-the-mountains02.mp3"
+      ],
+      "page": "reading/a2/hiking-in-the-mountains.html"
+    },
+    {
+      "slug": "interrogative-exercises",
+      "words": 1656,
+      "genre": "drill",
+      "level": "A2",
+      "topic": "review",
+      "action": "SPLIT",
+      "audio": "n/a",
+      "reason": "Long question-formation drill across several tenses; split by tense into separate blocks.",
+      "status": "NOT STARTED",
+      "card_title": "Interrogative Exercises",
+      "card_desc": "Practice forming and answering questions in English.",
+      "source_files": [
+        "cefr/texts/interrogative-exercises.pdf"
+      ]
+    },
+    {
+      "slug": "investigation-story",
+      "words": 408,
+      "genre": "dialogue",
+      "level": "B1",
+      "topic": "literature",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Tight interrogation dialogue with natural past continuous and English names already. Audited as KEEP, but a close read found the closing exchange unusable: it was graphic (stab wounds 'all over her torso', the body 'dragged to the forest for the wild animals to feast upon') and abusive ('you lying bastard', 'You are evil. And stupid.') -- the same defect class that made P-5 texts REPLACE. Reclassified KEEP->EDIT. The deduction that drives the scene is the source's own and was kept: Rogers claims he heard gunshots, but the victim was never shot. The gore and the insults are gone, and the interview now ends with the lie exposed and the case deliberately unresolved, which is what the discussion questions work on.",
+      "status": "IMPLEMENTED",
+      "card_title": "Investigation Story",
+      "card_desc": "Comprehension exercises based on an investigative narrative.",
+      "source_files": [
+        "cefr/texts/investigation-story.docx",
+        "cefr/texts/investigation-story.pdf"
+      ],
+      "page": "reading/b1/investigation-story.html"
+    },
+    {
+      "slug": "irregular-verbs-list",
+      "words": 497,
+      "genre": "reference",
+      "level": "A2",
+      "topic": "reference",
+      "action": "DELETE",
+      "audio": "n/a",
+      "reason": "Duplicates the existing irregular-verbs.html page, and this copy is defective: lists regular verbs as irregular ('Clap/Clapped'), invents 'Abidden', and drops the participle column for many entries.",
+      "status": "NOT STARTED",
+      "card_title": "Irregular Verbs List",
+      "source_files": [
+        "cefr/texts/irregular-verbs-list.pdf"
+      ]
+    },
+    {
+      "slug": "it-and-jiu-jitsu",
+      "words": 356,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "work",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Likeable text; remove the gratuitous aside about breaking an opponent's 'defense (or face)'.",
+      "status": "NOT STARTED",
+      "card_title": "It and Jiu Jitsu",
+      "card_desc": "Exercises combining IT terminology with jiu-jitsu scenarios.",
+      "source_files": [
+        "cefr/texts/it-and-jiu-jitsu.pdf"
+      ]
+    },
+    {
+      "slug": "it-interview",
+      "words": 447,
+      "genre": "dialogue",
+      "level": "B2",
+      "topic": "interviews",
+      "action": "KEEP",
+      "audio": "exists",
+      "reason": "Realistic technical job interview; directly serves the job-interview brief.",
+      "status": "IMPLEMENTED",
+      "card_title": "It Interview",
+      "card_desc": "Exercises on preparing for IT job interviews.",
+      "source_files": [
+        "cefr/texts/it-interview.pdf"
+      ],
+      "page": "reading/b2/it-interview.html"
+    },
+    {
+      "slug": "it-management",
+      "words": 432,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "business",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Dense, authentic exec-meeting register. Rename the cast to English names per instruction; the source's hyphens (risk-adjusted, per-transaction) must survive extraction.",
+      "status": "NOT STARTED",
+      "card_title": "It Management",
+      "source_files": [
+        "cefr/texts/it-management.pdf"
+      ]
+    },
+    {
+      "slug": "it-ptbr",
+      "words": 844,
+      "genre": "reference",
+      "level": "n/a",
+      "topic": "n/a",
+      "action": "DELETE",
+      "audio": "n/a",
+      "reason": "Written entirely in Portuguese — a translation of it-management, not an English exercise. The English original is kept.",
+      "status": "NOT STARTED",
+      "card_title": "IT Management (Portuguese)",
+      "source_files": [
+        "cefr/texts/it-ptbr.docx"
+      ],
+      "card_id": "it-management-portuguese"
+    },
+    {
+      "slug": "kitchen-chaos-i",
+      "words": 228,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "everyday",
+      "action": "MERGE",
+      "audio": "required",
+      "merge_into": "kitchen-phrasal-verbs",
+      "reason": "Same premise and teaching goal as kitchen-chaos-ii (IT worker cooking, phrasal verbs). Two texts teaching one thing.",
+      "status": "NOT STARTED",
+      "card_title": "Kitchen Chaos I",
+      "source_files": [
+        "cefr/texts/kitchen-chaos-i.pdf"
+      ]
+    },
+    {
+      "slug": "kitchen-chaos-ii",
+      "words": 310,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "everyday",
+      "action": "MERGE",
+      "audio": "required",
+      "merge_into": "kitchen-phrasal-verbs",
+      "reason": "Merges with kitchen-chaos-i into one stronger phrasal-verb text.",
+      "status": "NOT STARTED",
+      "card_title": "Kitchen Chaos II",
+      "source_files": [
+        "cefr/texts/kitchen-chaos-ii.pdf"
+      ]
+    },
+    {
+      "slug": "maringa",
+      "source_slug": "maringá",
+      "words": 387,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "travel",
+      "action": "REPLACE",
+      "audio": "required",
+      "reason": "City-attractions list for a Brazilian city; list format and off-brief. Replace with a US city reading serving the same 'describing a city' language.",
+      "status": "NOT STARTED",
+      "card_title": "Maringá",
+      "source_files": [
+        "cefr/texts/maringá.pdf"
+      ],
+      "card_id": "maring"
+    },
+    {
+      "slug": "market-sumup",
+      "words": 759,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "business",
+      "action": "DELETE",
+      "audio": "n/a",
+      "reason": "Single-day market report ('The S&P 500 fell about 0.7%... third straight weekly loss') tied to a specific Fed nomination. Already stale and cannot be kept current.",
+      "status": "NOT STARTED",
+      "card_title": "Market Sumup",
+      "source_files": [
+        "cefr/texts/market-sumup.pdf"
+      ]
+    },
+    {
+      "slug": "milan-restaurants",
+      "words": 608,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "food",
+      "action": "REPLACE",
+      "audio": "required",
+      "reason": "Annotated restaurant list for Milan — no connected prose, no American context. Replace with a US dining-out reading.",
+      "status": "NOT STARTED",
+      "card_title": "Milan Restaurants",
+      "card_desc": "Exercises on restaurant culture and vocabulary in Milan.",
+      "source_files": [
+        "cefr/texts/milan-restaurants.pdf"
+      ]
+    },
+    {
+      "slug": "my-day-in-vienna-to-by-for",
+      "words": 319,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "travel",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Passives exist only to demo the form and read badly ('The tickets were bought by her', 'I gave a big hug to her'). Rewrite naturally.",
+      "status": "NOT STARTED",
+      "card_title": "My Day in Vienna to By for",
+      "source_files": [
+        "cefr/texts/my-day-in-vienna-to-by-for.docx"
+      ]
+    },
+    {
+      "slug": "navigating-finance",
+      "words": 734,
+      "genre": "drill",
+      "level": "B2",
+      "topic": "business",
+      "action": "MERGE",
+      "audio": "n/a",
+      "merge_into": "routines-and-prepositions-drill",
+      "reason": "Third copy of the same gap-fill template as daily-activities and unfortunate-events.",
+      "status": "NOT STARTED",
+      "card_title": "Navigating Finance",
+      "card_desc": "Exercises on financial terminology and scenarios.",
+      "source_files": [
+        "cefr/texts/navigating-finance.pdf"
+      ]
+    },
+    {
+      "slug": "nfl",
+      "words": 566,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "sports",
+      "action": "EDIT",
+      "audio": "exists",
+      "reason": "Clear explainer on an American sport, squarely on brief. Audited as KEEP, but a close read turned up factual errors that had to be corrected: the season format was the pre-2021 one (16 games/17 weeks, two wildcards per conference -- now 17 games/18 weeks and seven playoff teams per conference), Walter Payton was called the all-time rushing leader (Emmitt Smith passed him in 2002), and the title read 'National Footbal League'. Some B2 vocabulary was also eased to sit properly at B1.",
+      "status": "IMPLEMENTED",
+      "page": "reading/b1/nfl.html",
+      "card_title": "Nfl",
+      "card_desc": "Exercises on American football terminology and culture.",
+      "source_files": [
+        "cefr/texts/nfl.pdf"
+      ]
+    },
+    {
+      "slug": "north-sentinel-island",
+      "words": 270,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "society",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Genuinely interesting factual text; check the framing of the islanders stays respectful and drop the 'Stone Age' comparison.",
+      "status": "NOT STARTED",
+      "card_title": "North Sentinel Island",
+      "card_desc": "Exercises exploring the history and culture of North Sentinel Island.",
+      "source_files": [
+        "cefr/texts/north-sentinel-island.pdf"
+      ]
+    },
+    {
+      "slug": "ny-visitation",
+      "words": 789,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "travel",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Good hotel/recommendation narrative. Overlaps restaurant-dialogue (same Joe's Pizza scene) — keep this as the narrative, that as the dialogue, and cross-reference.",
+      "status": "NOT STARTED",
+      "card_title": "Ny Visitation",
+      "card_desc": "Exercises on describing travel and visitation experiences in New York.",
+      "source_files": [
+        "cefr/texts/ny-visitation.docx"
+      ]
+    },
+    {
+      "slug": "phrasal-verbs-01-bed-and-breakfast",
+      "words": 1153,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "everyday",
+      "action": "KEEP",
+      "audio": "exists",
+      "reason": "Dense but natural phrasal-verb narrative; among the strongest material in the library.",
+      "status": "IMPLEMENTED",
+      "card_title": "Phrasal Verbs 01 Bed and Breakfast",
+      "card_desc": "Learn phrasal verbs through a bed and breakfast context.",
+      "source_files": [
+        "cefr/texts/phrasal-verbs-01-bed-and-breakfast.pdf"
+      ],
+      "page": "reading/b2/phrasal-verbs-01-bed-and-breakfast.html"
+    },
+    {
+      "slug": "phrasal-verbs-02-trip-abroad",
+      "words": 1019,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "travel",
+      "action": "KEEP",
+      "audio": "exists",
+      "reason": "Same strength, US travel setting, English names already.",
+      "status": "IMPLEMENTED",
+      "card_title": "Phrasal Verbs 02 Trip Abroad",
+      "card_desc": "Practice phrasal verbs related to international travel.",
+      "source_files": [
+        "cefr/texts/phrasal-verbs-02-trip-abroad.pdf"
+      ],
+      "page": "reading/b2/phrasal-verbs-02-trip-abroad.html"
+    },
+    {
+      "slug": "physical-education",
+      "words": 392,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "sports",
+      "action": "EDIT",
+      "audio": "stale-on-edit",
+      "reason": "Present perfect and past perfect are misused ('Last month, she had organized a relay race' with no later anchor). Fix the tenses, then regenerate the 4 existing mp3s.",
+      "status": "NOT STARTED",
+      "card_title": "Physical Education",
+      "card_desc": "Listening and reading exercises on physical education topics.",
+      "source_files": [
+        "cefr/texts/physical-education.pdf",
+        "cefr/texts/physical-education-01.mp3",
+        "cefr/texts/physical-education-02.mp3",
+        "cefr/texts/physical-education-03.mp3",
+        "cefr/texts/physical-education-04.mp3"
+      ]
+    },
+    {
+      "slug": "physiological-stressors",
+      "words": 832,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "sports",
+      "action": "KEEP",
+      "audio": "required",
+      "reason": "Authentically C1 technical prose; good for advanced learners who read in their field.",
+      "status": "NOT STARTED",
+      "card_title": "Physiological Stressors",
+      "source_files": [
+        "cefr/texts/physiological-stressors.pdf"
+      ]
+    },
+    {
+      "slug": "project-management-can-could-able-do-make",
+      "words": 597,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "work",
+      "action": "KEEP",
+      "audio": "exists",
+      "reason": "Solid workplace-modality text with an English-named cast.",
+      "status": "IMPLEMENTED",
+      "card_title": "Project Management Can Could Able Do Make",
+      "source_files": [
+        "cefr/texts/project-management-can-could-able-do-make.pdf"
+      ],
+      "page": "reading/b2/project-management-can-could-able-do-make.html"
+    },
+    {
+      "slug": "questionnaire-company-management",
+      "words": 568,
+      "genre": "discussion",
+      "level": "C1",
+      "topic": "business",
+      "action": "CONVERT",
+      "audio": "n/a",
+      "reason": "A bank of executive discussion prompts; becomes a speaking/discussion component, not a reading.",
+      "status": "NOT STARTED",
+      "card_title": "Questionnaire Company Management",
+      "source_files": [
+        "cefr/texts/questionnaire-company-management.pdf"
+      ]
+    },
+    {
+      "slug": "questionnaire-company-tech-leader",
+      "words": 216,
+      "genre": "discussion",
+      "level": "C1",
+      "topic": "interviews",
+      "action": "CONVERT",
+      "audio": "n/a",
+      "reason": "Same — senior-interview speaking prompts.",
+      "status": "NOT STARTED",
+      "card_title": "Questionnaire Company Tech Leader",
+      "source_files": [
+        "cefr/texts/questionnaire-company-tech-leader.pdf"
+      ]
+    },
+    {
+      "slug": "real-estate",
+      "words": 634,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "business",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Strong market-analysis register, but wholly about Porto Alegre neighborhoods. Re-set in a US market to match the brief.",
+      "status": "NOT STARTED",
+      "card_title": "Real Estate",
+      "source_files": [
+        "cefr/texts/real-estate.pdf"
+      ]
+    },
+    {
+      "slug": "recent-advancements-in-it",
+      "words": 367,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "tech",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Pegged to 'What's new in 2026'; rewrite so it does not date, and tone down 'insane'/'revolutionary'.",
+      "status": "NOT STARTED",
+      "card_title": "Recent Advancements in It",
+      "source_files": [
+        "cefr/texts/recent-advancements-in-it.pdf"
+      ]
+    },
+    {
+      "slug": "restaurant-dialogue",
+      "words": 345,
+      "genre": "dialogue",
+      "level": "A2",
+      "topic": "food",
+      "action": "EDIT",
+      "audio": "exists",
+      "reason": "Useful ordering dialogue. The family is renamed to English names per instruction; the inconsistent speaker labels ('Joe’s Pizza employee' vs 'Server') are unified; and the tip is corrected — the original left $3.50 on $26.50, about 13%, which misteaches American practice, so it is now just over 20% with a short explanation of why servers depend on tips.",
+      "status": "IMPLEMENTED",
+      "card_title": "Ordering at a New York Pizzeria",
+      "card_desc": "Ordering, asking for a recommendation, paying — and how tipping works in the US.",
+      "source_files": [
+        "cefr/texts/restaurant-dialogue.pdf"
+      ],
+      "page": "reading/a2/restaurant-dialogue.html"
+    },
+    {
+      "slug": "review-prepositions-some-any-no-tenses-comparatives",
+      "words": 707,
+      "genre": "drill",
+      "level": "A2",
+      "topic": "review",
+      "action": "CONVERT",
+      "audio": "n/a",
+      "reason": "Clean multiple-choice mixed review; converts directly.",
+      "status": "NOT STARTED",
+      "card_title": "Review Prepositions Some Any No Tenses Comparatives",
+      "source_files": [
+        "cefr/texts/review-prepositions-some-any-no-tenses-comparatives.pdf"
+      ]
+    },
+    {
+      "slug": "rio-de-janeiro-exercises",
+      "words": 342,
+      "genre": "drill",
+      "level": "B1",
+      "topic": "travel",
+      "action": "CONVERT",
+      "audio": "n/a",
+      "reason": "Word-bank gap-fill about hiking in Rio; keep as a drill.",
+      "status": "NOT STARTED",
+      "card_title": "Rio De Janeiro Exercises",
+      "card_desc": "Exercises on Rio de Janeiro culture.",
+      "source_files": [
+        "cefr/texts/rio-de-janeiro-exercises.pdf"
+      ]
+    },
+    {
+      "slug": "romania",
+      "words": 575,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "culture",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Competent country overview; slightly encyclopedic, tighten into themed paragraphs.",
+      "status": "NOT STARTED",
+      "card_title": "Romania",
+      "card_desc": "Exercises exploring Romanian culture and history.",
+      "source_files": [
+        "cefr/texts/romania.pdf"
+      ]
+    },
+    {
+      "slug": "rs-japan",
+      "words": 945,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "culture",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Overwritten ('neon-veined precision', 'cultural whiplash'); the cultural-contrast idea is good but the prose needs heavy pruning to read as natural C1.",
+      "status": "NOT STARTED",
+      "card_title": "Rs Japan",
+      "source_files": [
+        "cefr/texts/rs-japan.docx"
+      ]
+    },
+    {
+      "slug": "sales-strategy",
+      "words": 701,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "business",
+      "action": "KEEP",
+      "audio": "exists",
+      "reason": "Natural business-English text with genuinely useful collocations and acronyms.",
+      "status": "IMPLEMENTED",
+      "card_title": "Sales Strategy",
+      "card_desc": "Exercises on sales techniques and business vocabulary.",
+      "source_files": [
+        "cefr/texts/sales-strategy.pdf"
+      ],
+      "page": "reading/b2/sales-strategy.html"
+    },
+    {
+      "slug": "santa-catarina",
+      "words": 340,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "travel",
+      "action": "REPLACE",
+      "audio": "required",
+      "reason": "A wholesome family-travel text in which the father 'decided to change careers and become a michê' — Brazilian slang for a male prostitute. Unusable as written; keep the present-perfect-continuous travel premise and rewrite.",
+      "status": "NOT STARTED",
+      "card_title": "Santa Catarina",
+      "card_desc": "Exercises about the Brazilian state of Santa Catarina.",
+      "source_files": [
+        "cefr/texts/santa-catarina.docx"
+      ]
+    },
+    {
+      "slug": "say-speak-talk-tell",
+      "words": 330,
+      "genre": "reading",
+      "level": "A2",
+      "topic": "everyday",
+      "action": "REPLACE",
+      "audio": "exists",
+      "reason": "AUDIT CORRECTION: first classified as a duplicate of the-day-at-the-market because the two share the title 'A Day at the Market'. They are in fact different texts — that one is a present-simple habitual description, this one a past-tense narrative built around say/tell/speak/talk and quantifiers. Keeping both as market texts would still have been repetitive, so the teaching point was preserved and re-set in a new workplace context, which also serves the brief's workplace-English focus.",
+      "status": "IMPLEMENTED",
+      "card_title": "My First Week at Work",
+      "card_desc": "The difference between say, tell, speak and talk, in a situation where you need all four.",
+      "source_files": [
+        "cefr/texts/say-speak-talk-tell.pdf"
+      ],
+      "card_id": "say-speak-talk-tell-a-day-at-the-market",
+      "page": "reading/a2/saying-and-telling.html"
+    },
+    {
+      "slug": "say-speak-talk-tell-02",
+      "words": 353,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "tech",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Present perfect applied where it is wrong: 'I've known there are some exciting purchases', 'The salesperson has told me...'. Rewrite the tense scheme.",
+      "status": "NOT STARTED",
+      "card_title": "Say, Speak, Talk, Tell &mdash; A Day of Tech Investments",
+      "card_desc": "Practice say, speak, talk and tell in a tech-investing story.",
+      "source_files": [
+        "cefr/texts/say-speak-talk-tell-02.pdf"
+      ],
+      "card_id": "say-speak-talk-tell-a-day-of-tech-investments"
+    },
+    {
+      "slug": "say-talk-speak-tell-exercises",
+      "words": 0,
+      "genre": "drill",
+      "level": "A2",
+      "topic": "everyday",
+      "action": "CONVERT",
+      "audio": "n/a",
+      "reason": "The drill half of the say/speak/talk/tell set; attach to the merged reading.",
+      "status": "NOT STARTED",
+      "card_title": "Say, Talk, Speak, Tell &mdash; Exercises",
+      "source_files": [
+        "cefr/texts/say-talk-speak-tell-exercises.pdf"
+      ]
+    },
+    {
+      "slug": "shadows-in-the-server-room",
+      "words": 2407,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "work",
+      "action": "SPLIT",
+      "audio": "required",
+      "reason": "Strong long-form workplace mystery (2407w) — too long for one page and one audio file. Split into chapters, per requirement 8's guidance against huge audio files.",
+      "status": "NOT STARTED",
+      "card_title": "Shadows in the Server Room",
+      "source_files": [
+        "cefr/texts/shadows-in-the-server-room.pdf"
+      ]
+    },
+    {
+      "slug": "simple-past-+-present-continuous-+-future-1",
+      "words": 1009,
+      "genre": "drill",
+      "level": "A2",
+      "topic": "review",
+      "action": "MERGE",
+      "audio": "n/a",
+      "merge_into": "tense-contrast-drill",
+      "reason": "Parts 1 and 2 of one exercise split across two files.",
+      "status": "NOT STARTED",
+      "card_title": "Simple Past + Present Continuous + Future",
+      "source_files": [
+        "cefr/texts/simple-past-+-present-continuous-+-future-1.pdf"
+      ],
+      "card_id": "simple-past-present-continuous-future"
+    },
+    {
+      "slug": "simple-past-+-present-continuous-+-future-2",
+      "words": 1018,
+      "genre": "drill",
+      "level": "A2",
+      "topic": "review",
+      "action": "MERGE",
+      "audio": "n/a",
+      "merge_into": "tense-contrast-drill",
+      "reason": "Second half of the same exercise.",
+      "status": "NOT STARTED",
+      "card_title": "Simple Past + Present Continuous + Future II",
+      "source_files": [
+        "cefr/texts/simple-past-+-present-continuous-+-future-2.pdf"
+      ],
+      "card_id": "simple-past-present-continuous-future-ii"
+    },
+    {
+      "slug": "snowy-days",
+      "words": 473,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "everyday",
+      "action": "KEEP",
+      "audio": "required",
+      "reason": "Authentic informal American register -- exactly the colloquial English the library is short of. Kept as published; only the source's ellipses were normalized to dashes and 'public transportation' spelled out.",
+      "status": "IMPLEMENTED",
+      "card_title": "Snowy Days",
+      "source_files": [
+        "cefr/texts/snowy-days.docx",
+        "cefr/texts/snowy-days.pdf",
+        "cefr/texts/snowy-days-01.mp3",
+        "cefr/texts/snowy-days-02.mp3"
+      ],
+      "page": "reading/b1/snowy-days.html"
+    },
+    {
+      "slug": "soma-nomaoi",
+      "words": 446,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "culture",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Good festival text; strip the raw x.com link and keep the Japanese terms glossed.",
+      "status": "NOT STARTED",
+      "card_title": "Soma Nomaoi",
+      "source_files": [
+        "cefr/texts/soma-nomaoi.docx"
+      ]
+    },
+    {
+      "slug": "soothing-texts",
+      "words": 2225,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "everyday",
+      "action": "SPLIT",
+      "audio": "required",
+      "reason": "Several unrelated descriptive scenes (kitchen, etc.) in one 2225w file. Split into short descriptive readings — excellent sensory-vocabulary material once separated.",
+      "status": "NOT STARTED",
+      "card_title": "Soothing Texts",
+      "card_desc": "Exercises with calming and reflective reading passages.",
+      "source_files": [
+        "cefr/texts/soothing-texts.pdf"
+      ]
+    },
+    {
+      "slug": "southeast-asia-adventure",
+      "words": 572,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "travel",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Good present-perfect travel narrative; rename the cast to English names per instruction.",
+      "status": "NOT STARTED",
+      "card_title": "Southeast Asia Adventure",
+      "card_desc": "Exercises on travel and cultural experiences in Southeast Asia.",
+      "source_files": [
+        "cefr/texts/southeast-asia-adventure.pdf"
+      ]
+    },
+    {
+      "slug": "st.-patricks-day",
+      "words": 371,
+      "genre": "reading",
+      "level": "A2",
+      "topic": "culture",
+      "action": "EDIT",
+      "audio": "exists",
+      "reason": "Charming short story with English names already. Edited: the letter-spacing artifacts from the source layout are gone, the American pinching custom is now explained up front instead of assumed, 'St. Patty’s' is corrected to 'St. Paddy’s', and the original multiple-choice distractors ('an underpaid teacher', 'her single mother', 'she ate dubious medicinal plants') are replaced with real ones — they were snarky rather than pedagogically useful.",
+      "status": "IMPLEMENTED",
+      "card_title": "The Day Erica Forgot to Wear Green",
+      "card_desc": "A short St. Patrick’s Day story, and the American wear-green custom behind it.",
+      "source_files": [
+        "cefr/texts/st.-patricks-day.pdf"
+      ],
+      "card_id": "st-patricks-day",
+      "page": "reading/a2/st-patricks-day.html"
+    },
+    {
+      "slug": "technology-and-ethics",
+      "words": 648,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "tech",
+      "action": "KEEP",
+      "audio": "required",
+      "reason": "Genuinely C1, professionally relevant, natural register.",
+      "status": "NOT STARTED",
+      "card_title": "Technology and Ethics",
+      "card_desc": "Exercises on ethical issues in technology.",
+      "source_files": [
+        "cefr/texts/technology-and-ethics.pdf"
+      ]
+    },
+    {
+      "slug": "text-interpretation",
+      "words": 1039,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "society",
+      "action": "SPLIT",
+      "audio": "required",
+      "reason": "Several unrelated short articles ('Robot Birds' and others) in one file; split so each gets its own page, questions and audio.",
+      "status": "NOT STARTED",
+      "card_title": "Text Interpretation",
+      "source_files": [
+        "cefr/texts/text-interpretation.pdf"
+      ]
+    },
+    {
+      "slug": "text-interpretation-aesops-fables",
+      "words": 1921,
+      "genre": "reading",
+      "level": "B2",
+      "topic": "literature",
+      "action": "SPLIT",
+      "audio": "required",
+      "reason": "Multiple fables in one file. Split per fable; keep the literary register but gloss the archaic phrasing.",
+      "status": "NOT STARTED",
+      "card_title": "Text Interpretation Aesops Fables",
+      "card_desc": "Exercises on interpreting Aesop&#x27;s Fables, with answers provided.",
+      "source_files": [
+        "cefr/texts/text-interpretation-aesops-fables.pdf"
+      ]
+    },
+    {
+      "slug": "the-day-at-the-market",
+      "words": 269,
+      "genre": "reading",
+      "level": "A2",
+      "topic": "everyday",
+      "action": "KEEP",
+      "audio": "exists",
+      "reason": "Simple, natural and well-levelled present-simple description. Lightly edited: the friend is named, the market is identified as a farmers market, and the American 'stand' is used alongside 'stall'.",
+      "status": "IMPLEMENTED",
+      "card_title": "A Saturday at the Market",
+      "card_desc": "A weekly routine at the farmers market, and the food vocabulary that goes with it.",
+      "source_files": [
+        "cefr/texts/the-day-at-the-market.pdf"
+      ],
+      "page": "reading/a2/the-day-at-the-market.html"
+    },
+    {
+      "slug": "travel-dialogues",
+      "words": 935,
+      "genre": "dialogue",
+      "level": "A2",
+      "topic": "travel",
+      "action": "SPLIT",
+      "audio": "exists",
+      "reason": "Strong functional dialogues, but eight unrelated scenarios in one worksheet (airline booking, reconfirming, passport control, booking a hotel room, checking out, ordering dinner, buying clothes, asking for a photo) with every student line left blank. Split into three coherent pages and given model answers so the dialogues can actually be read and narrated. Americanized throughout per requirement 16: euros to dollars, 24-hour times to 12-hour ('16:45' to '4:45 p.m.'), 'the trout is off' to 'we're out of the trout', 'colours' to 'colors', traveller's cheques to a card; the inconsistent 'Northwind Airways'/'Northwind Airlines' is unified, and the source's acute accents used as apostrophes ('There´s') are fixed.",
+      "status": "IMPLEMENTED",
+      "card_title": "Travel Dialogues",
+      "card_desc": "Split into three pages: flying, hotels, and everyday service situations.",
+      "source_files": [
+        "cefr/texts/travel-dialogues.pdf"
+      ],
+      "split_into": [
+        "reading/a2/flying-to-the-us.html",
+        "reading/a2/at-the-hotel.html",
+        "reading/a2/everyday-service-english.html"
+      ],
+      "page": "reading/a2/flying-to-the-us.html"
+    },
+    {
+      "slug": "travel-dialogues-02",
+      "words": 905,
+      "genre": "dialogue",
+      "level": "B1",
+      "topic": "travel",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Hotel-reception training dialogue; same treatment, good workplace-English value.",
+      "status": "NOT STARTED",
+      "card_title": "Travel Dialogues II",
+      "card_desc": "Exercises on travel-related conversations and vocabulary.",
+      "source_files": [
+        "cefr/texts/travel-dialogues-02.pdf"
+      ],
+      "card_id": "travel-dialogues-ii"
+    },
+    {
+      "slug": "trials",
+      "words": 671,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "society",
+      "action": "MERGE",
+      "audio": "required",
+      "merge_into": "american-courtroom-cases",
+      "reason": "Both 'Court Trials' files cover famous US cases; merge into one curated reading and even out the register ('some crazy courthouse cases').",
+      "status": "NOT STARTED",
+      "card_title": "Trials",
+      "card_desc": "Exercises on legal and trial-related vocabulary.",
+      "source_files": [
+        "cefr/texts/trials.pdf"
+      ]
+    },
+    {
+      "slug": "trials-mayors",
+      "words": 1007,
+      "genre": "reading",
+      "level": "C1",
+      "topic": "society",
+      "action": "MERGE",
+      "audio": "required",
+      "merge_into": "american-courtroom-cases",
+      "reason": "Same title and theme as trials, focused on mayoral corruption cases.",
+      "status": "NOT STARTED",
+      "card_title": "Trials Mayors",
+      "source_files": [
+        "cefr/texts/trials-mayors.pdf"
+      ]
+    },
+    {
+      "slug": "trip-through-rs",
+      "words": 785,
+      "genre": "reading",
+      "level": "A2",
+      "topic": "travel",
+      "action": "REPLACE",
+      "audio": "exists",
+      "reason": "Good there is/there are practice, but the source crams nine separate grammar points (there is/are, can/could/may, some/any/no, much/many/few/little, present simple, will, present continuous, past simple, question forms) into one narrative, and it breaks down: 'Do you visit the mountains a lot?' is answered 'No, I don't visit the coast often', which is a non-sequitur, and 'I'm reading a map upstairs later' is not English. Rewritten around the one dominant point (there is/are plus quantifiers) and re-set as a Charlotte-to-Asheville bus trip with English names; the other grammar points already have their own lessons under levels/.",
+      "status": "IMPLEMENTED",
+      "card_title": "The Bus to the Mountains",
+      "card_desc": "There is / there are and quantifiers, on a long bus ride into the mountains.",
+      "source_files": [
+        "cefr/texts/trip-through-rs.pdf"
+      ],
+      "page": "reading/a2/bus-to-the-mountains.html"
+    },
+    {
+      "slug": "two-texts-sp-to-pp",
+      "words": 700,
+      "genre": "drill",
+      "level": "B1",
+      "topic": "review",
+      "action": "MERGE",
+      "audio": "n/a",
+      "merge_into": "past-to-present-perfect-drill",
+      "reason": "Paired with its -ii file as one exercise.",
+      "status": "NOT STARTED",
+      "card_title": "Two Texts Sp to Pp",
+      "card_desc": "Exercises comparing São Paulo and Porto Alegre.",
+      "source_files": [
+        "cefr/texts/two-texts-sp-to-pp.pdf"
+      ]
+    },
+    {
+      "slug": "two-texts-sp-to-pp-ii",
+      "words": 0,
+      "genre": "drill",
+      "level": "B1",
+      "topic": "review",
+      "action": "MERGE",
+      "audio": "n/a",
+      "merge_into": "past-to-present-perfect-drill",
+      "reason": "Second half of the same exercise.",
+      "status": "NOT STARTED",
+      "card_title": "Two Texts Sp to Pp II",
+      "source_files": [
+        "cefr/texts/two-texts-sp-to-pp-ii.pdf"
+      ]
+    },
+    {
+      "slug": "unfortunate-events",
+      "words": 570,
+      "genre": "drill",
+      "level": "B1",
+      "topic": "everyday",
+      "action": "MERGE",
+      "audio": "n/a",
+      "merge_into": "routines-and-prepositions-drill",
+      "reason": "Same gap-fill template as daily-activities and navigating-finance.",
+      "status": "NOT STARTED",
+      "card_title": "Unfortunate Events",
+      "card_desc": "Exercises based on narratives about unfortunate events.",
+      "source_files": [
+        "cefr/texts/unfortunate-events.pdf"
+      ]
+    },
+    {
+      "slug": "usa-restaurants",
+      "words": 1318,
+      "genre": "reading",
+      "level": "B1",
+      "topic": "travel",
+      "action": "EDIT",
+      "audio": "required",
+      "reason": "Titled 'U.S.A. Restaurants' but the body is a bulleted list of Florida attractions — title and content do not match, and it is a list rather than a reading. Rewrite as a Florida travel reading, and let the dining material live in the food thread.",
+      "status": "NOT STARTED",
+      "card_title": "Usa Restaurants",
+      "card_desc": "Exercises on American restaurant culture and vocabulary.",
+      "source_files": [
+        "cefr/texts/usa-restaurants.pdf"
+      ]
+    },
+    {
+      "slug": "verb-tense-review",
+      "words": 5091,
+      "genre": "drill",
+      "level": "B1",
+      "topic": "review",
+      "action": "SPLIT",
+      "audio": "n/a",
+      "reason": "Largest file in the library (5091w) — many separate gap-fill texts, several with good American settings (hotel near Times Square). Split into per-scenario drill blocks.",
+      "status": "NOT STARTED",
+      "card_title": "Verb Tense Review",
+      "source_files": [
+        "cefr/texts/verb-tense-review.pdf"
+      ]
+    },
+    {
+      "slug": "mind-games",
+      "words": 0,
+      "genre": "reference",
+      "level": "n/a",
+      "topic": "n/a",
+      "action": "DELETE",
+      "audio": "n/a",
+      "reason": "PDF-only and image-based — the only extractable text is 'ACTIVITY 1/2/3', so there is no content to migrate. Deletion confirmed by the user.",
+      "status": "NOT STARTED"
+    }
+  ],
+  "_progress": {
+    "implemented": 16,
+    "merged_away": 0,
+    "total": 98
   }
- ],
- "_progress": {
-  "implemented": 16,
-  "merged_away": 0,
-  "total": 98
- }
 }

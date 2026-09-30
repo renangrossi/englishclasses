@@ -1,0 +1,432 @@
+{
+  "id": "b2-reading-phrasal-verbs-01",
+  "level": "B2",
+  "slug": "phrasal-verbs-01-bed-and-breakfast",
+  "topic": "everyday",
+  "title": "A Morning at Home",
+  "subtitle": "Tidying a room, cooking breakfast and debugging code — forty phrasal verbs doing ordinary work.",
+  "description": "A B2 reading and listening text packed with everyday phrasal verbs: cleaning up a bedroom, whipping up breakfast and going over code, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/phrasal-verbs-01-bed-and-breakfast.docx",
+  "provenance": "as-published",
+  "audio": {
+    "duration_label": "2:44"
+  },
+  "passage": [
+    "John decided to clean up his bedroom. He started by picking up his clothes from the floor and putting them away in the closet. Then he made up his bed, straightening out the sheets and fluffing up the pillows. He noticed some books scattered across the floor, so he picked those up too and put them back on the shelf. Next he dusted off his desk and wiped down the surfaces. With everything in order, he decided to lie down for a few minutes.",
+    "While he was lying there, John remembered the coding project he still had to finish. He got up, sat down at his desk and booted up his computer. There was a bug that had been causing problems in the system for two days. After looking through the code for a while, he managed to figure out what was wrong: a variable was being read before it had been set. He fixed up the error and ran the program again, and this time everything worked.",
+    "Feeling pleased with himself, John decided to take a break. He stood up, stretched out, and walked over to the kitchen to see what Maria was doing.",
+    "Maria had come into the kitchen to whip up some breakfast. She started by taking out the ingredients from the fridge. Once she had everything, she turned on the stove and began to heat up the pan. She chopped up some vegetables and threw them in to sauté. While they were cooking, she cracked open a few eggs and whisked them up. When the vegetables were ready, she poured in the eggs and stirred them around until they had set. After they had eaten, she cleaned up the kitchen, wiping down the counters and putting away the dishes.",
+    "Then Maria sat down at her laptop at the kitchen table. She was working on a new feature for a web application and needed to write up some fresh code. She logged in to her development environment and started typing out the function. It meant setting up a few new variables and calling out to some API functions, and she also had to comment out several lines of the old code that were no longer needed.",
+    "Just as she was about to run the application and test the new feature, John came back in. “Hey, how's it going?” he asked.",
+    "“Good,” Maria said. “I just need to test out this new code.”",
+    "John pulled up a chair and sat down beside her. “Mind if I look over it with you?”",
+    "“Not at all,” she said. They went over the code together, checking that everything held up. Maria had missed one condition; John spotted it, they patched it, and on the next run the application worked exactly as it should.",
+    "“Nice work,” John said.",
+    "“Thanks. Now let's shut down these computers and head out for a walk. We've earned it.”"
+  ],
+  "vocabulary": [
+    {
+      "term": "to straighten out",
+      "definition": "to make something flat, tidy or orderly",
+      "match": "straightening out"
+    },
+    {
+      "term": "to fluff up",
+      "definition": "to shake or pat something soft so it becomes fuller",
+      "match": "fluffing up"
+    },
+    {
+      "term": "to dust off",
+      "definition": "to remove dust from a surface",
+      "match": "dusted off"
+    },
+    {
+      "term": "to wipe down",
+      "definition": "to clean a surface by rubbing it with a cloth",
+      "match": "wiped down"
+    },
+    {
+      "term": "to boot up",
+      "definition": "to start a computer",
+      "match": "booted up"
+    },
+    {
+      "term": "to figure out",
+      "definition": "to work out the answer to something",
+      "match": "figure out"
+    },
+    {
+      "term": "to fix up",
+      "definition": "to repair or put right",
+      "match": "fixed up"
+    },
+    {
+      "term": "to stretch out",
+      "definition": "to extend your body to its full length",
+      "match": "stretched out"
+    },
+    {
+      "term": "to whip up",
+      "definition": "to make something, usually food, quickly",
+      "match": "whip up"
+    },
+    {
+      "term": "to chop up",
+      "definition": "to cut something into pieces",
+      "match": "chopped up"
+    },
+    {
+      "term": "to crack open",
+      "definition": "to break something open, especially an egg",
+      "match": "cracked open"
+    },
+    {
+      "term": "to whisk up",
+      "definition": "to beat something quickly with a light, circular motion",
+      "match": "whisked them up"
+    },
+    {
+      "term": "to write up",
+      "definition": "to produce a finished written version of something",
+      "match": "write up"
+    },
+    {
+      "term": "to type out",
+      "definition": "to write something at a keyboard, in full",
+      "match": "typing out"
+    },
+    {
+      "term": "to set up",
+      "definition": "to prepare or arrange something so it is ready to use",
+      "match": "setting up"
+    },
+    {
+      "term": "to comment out",
+      "definition": "to disable a line of code by turning it into a comment rather than deleting it",
+      "match": "comment out"
+    },
+    {
+      "term": "to pull up",
+      "definition": "to bring something, especially a chair, nearer",
+      "match": "pulled up"
+    },
+    {
+      "term": "to look over",
+      "definition": "to examine something without studying every detail",
+      "match": "look over"
+    },
+    {
+      "term": "to go over",
+      "definition": "to examine something carefully, from beginning to end",
+      "match": "went over"
+    },
+    {
+      "term": "to hold up",
+      "definition": "to stay correct or sound under examination",
+      "match": "held up"
+    },
+    {
+      "term": "to shut down",
+      "definition": "to turn a computer or machine off completely",
+      "match": "shut down"
+    },
+    {
+      "term": "to head out",
+      "definition": "to leave, to set off somewhere",
+      "match": "head out"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-pv1-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the sense of the story, not by matching words.",
+      "items": [
+        {
+          "id": "pv11",
+          "prompt": "What order does John work in when he tidies the room?",
+          "options": [
+            "He makes the bed first, then deals with the floor",
+            "He clears the floor, then the bed, then the surfaces",
+            "He starts with the desk and works outward"
+          ],
+          "answerIndex": 1,
+          "explanation": "Clothes and books come off the floor, then he makes up the bed, then he dusts off the desk and wipes down the surfaces."
+        },
+        {
+          "id": "pv12",
+          "prompt": "What had actually gone wrong in John's code?",
+          "options": [
+            "A variable was being read before it had been given a value",
+            "The computer had not been restarted",
+            "He had deleted the wrong lines"
+          ],
+          "answerIndex": 0,
+          "explanation": "“A variable was being read before it had been set” — which is why the bug appeared to come and go."
+        },
+        {
+          "id": "pv13",
+          "prompt": "Why does Maria chop the vegetables before cracking the eggs?",
+          "options": [
+            "Because the recipe forbids doing it the other way",
+            "Because the eggs would spoil if prepared first",
+            "Because the vegetables take longer, so they go in the pan while she prepares the eggs"
+          ],
+          "answerIndex": 2,
+          "explanation": "The vegetables are already cooking — “while they were cooking, she cracked open a few eggs” — and the eggs are poured in only “when the vegetables were ready”."
+        },
+        {
+          "id": "pv14",
+          "prompt": "Why does Maria comment out the old lines instead of deleting them?",
+          "options": [
+            "Because commenting is required by her employer",
+            "Because it disables them while leaving them there to come back to",
+            "Because deleting code is not possible in her editor"
+          ],
+          "answerIndex": 1,
+          "explanation": "That is what commenting out means: the code stops running but remains in the file. Deleting would throw the old version away."
+        },
+        {
+          "id": "pv15",
+          "prompt": "What is the difference between John looking over the code and the two of them going over it?",
+          "options": [
+            "Looking over is a quick check; going over it together is a careful, complete review",
+            "They mean exactly the same thing",
+            "Looking over means rewriting; going over means testing"
+          ],
+          "answerIndex": 0,
+          "explanation": "He offers a glance — “Mind if I look over it with you?” — and what follows is the thorough version, which is how they find the missing condition."
+        },
+        {
+          "id": "pv16",
+          "prompt": "Was Maria's code correct before John sat down?",
+          "options": [
+            "Yes — it ran perfectly the first time",
+            "No — one condition was missing, and the review caught it",
+            "The text does not say"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Maria had missed one condition; John spotted it, they patched it, and on the next run the application worked.”"
+        },
+        {
+          "id": "pv17",
+          "prompt": "What do John and Maria have in common across the whole text?",
+          "options": [
+            "Both cook and both tidy",
+            "Both are learning to program",
+            "Both alternate between domestic work and writing software"
+          ],
+          "answerIndex": 2,
+          "explanation": "John tidies then debugs; Maria cooks then writes a new feature. The story is built on that parallel."
+        }
+      ]
+    },
+    {
+      "id": "b2-pv1-particles",
+      "type": "fill-blank",
+      "title": "Choose the Particle",
+      "instructions": "The verb is given; supply the particle that makes the right meaning. Particles change the sense completely, so read the whole sentence first.",
+      "items": [
+        {
+          "id": "pvp1",
+          "prompt": "I can't get the program to start — my laptop won't even boot ___.",
+          "answers": [
+            "up"
+          ],
+          "options": [
+            "up",
+            "out",
+            "over"
+          ],
+          "explanation": "To boot up is to start a computer."
+        },
+        {
+          "id": "pvp2",
+          "prompt": "It took me an hour to figure ___ why the test kept failing.",
+          "answers": [
+            "out"
+          ],
+          "options": [
+            "out",
+            "up",
+            "down"
+          ],
+          "explanation": "To figure out is to work out the answer."
+        },
+        {
+          "id": "pvp3",
+          "prompt": "Don't delete those lines — just comment them ___ for now.",
+          "answers": [
+            "out"
+          ],
+          "options": [
+            "out",
+            "off",
+            "down"
+          ],
+          "explanation": "To comment out disables code without removing it."
+        },
+        {
+          "id": "pvp4",
+          "prompt": "Could you look ___ my report before I send it?",
+          "answers": [
+            "over"
+          ],
+          "options": [
+            "over",
+            "up",
+            "in"
+          ],
+          "explanation": "To look over is to examine something, without necessarily studying every detail."
+        },
+        {
+          "id": "pvp5",
+          "prompt": "Put the milk ___ in the fridge when you're done with it.",
+          "answers": [
+            "back"
+          ],
+          "options": [
+            "back",
+            "away",
+            "off"
+          ],
+          "explanation": "To put something back is to return it to where it came from. Put away would mean storing it, without the sense of returning."
+        },
+        {
+          "id": "pvp6",
+          "prompt": "She wiped ___ the counters and put ___ the dishes.",
+          "answers": [
+            "down",
+            "away"
+          ],
+          "options": [
+            [
+              "down",
+              "up",
+              "out"
+            ],
+            [
+              "away",
+              "back",
+              "off"
+            ]
+          ],
+          "explanation": "You wipe down a surface, and you put away things that have a proper place to live."
+        },
+        {
+          "id": "pvp7",
+          "prompt": "Let's shut ___ the machines and head ___ — it's late.",
+          "answers": [
+            "down",
+            "out"
+          ],
+          "options": [
+            [
+              "down",
+              "up",
+              "off"
+            ],
+            [
+              "out",
+              "in",
+              "over"
+            ]
+          ],
+          "explanation": "Shut down turns a computer off completely; head out means to leave."
+        }
+      ]
+    },
+    {
+      "id": "b2-pv1-matching",
+      "type": "matching",
+      "title": "Phrasal Verbs and Meanings",
+      "instructions": "Match each phrasal verb to its meaning in this text.",
+      "items": [
+        {
+          "id": "pvm1",
+          "pairs": [
+            {
+              "left": "whip up",
+              "right": "to make something, usually food, quickly"
+            },
+            {
+              "left": "fluff up",
+              "right": "to shake something soft so it becomes fuller"
+            },
+            {
+              "left": "dust off",
+              "right": "to remove dust from a surface"
+            },
+            {
+              "left": "fix up",
+              "right": "to repair or put right"
+            },
+            {
+              "left": "pull up",
+              "right": "to bring a chair nearer"
+            },
+            {
+              "left": "set up",
+              "right": "to prepare something so it is ready to use"
+            },
+            {
+              "left": "crack open",
+              "right": "to break something open, especially an egg"
+            },
+            {
+              "left": "stretch out",
+              "right": "to extend your body to its full length"
+            }
+          ],
+          "explanation": "Notice how many of these particles carry the same idea: up often adds completeness or readiness, off and down are about removal and surfaces."
+        }
+      ]
+    },
+    {
+      "id": "b2-pv1-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement is accurate.",
+      "items": [
+        {
+          "id": "pvt1",
+          "statement": "John finished his coding project before tidying his room.",
+          "answer": false,
+          "explanation": "False — he only remembers the project once the room is done and he has lain down."
+        },
+        {
+          "id": "pvt2",
+          "statement": "The bug had been causing trouble for some time before John found it.",
+          "answer": true,
+          "explanation": "True — it “had been causing problems in the system for two days”."
+        },
+        {
+          "id": "pvt3",
+          "statement": "Maria cleans the kitchen before they eat.",
+          "answer": false,
+          "explanation": "False — “after they had eaten, she cleaned up the kitchen”."
+        },
+        {
+          "id": "pvt4",
+          "statement": "Maria's new feature worked correctly on its first run.",
+          "answer": false,
+          "explanation": "False — a missing condition had to be patched first."
+        },
+        {
+          "id": "pvt5",
+          "statement": "They go out for a walk at the end.",
+          "answer": true,
+          "explanation": "True — “let's shut down these computers and head out for a walk”."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Describe your own morning routine using at least six phrasal verbs from this text.",
+    "John reviews Maria's code and finds a mistake she missed. Why is it easier to spot errors in someone else's work than in your own?",
+    "Do phrasal verbs make English harder or more natural to speak? Give an example that has caused you trouble.",
+    "Pick five phrasal verbs from the list and say what the single-word equivalent would be. Which version sounds more formal?",
+    "Write about 150 words describing how you prepare a meal you know well, using phrasal verbs throughout."
+  ]
+}

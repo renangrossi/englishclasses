@@ -1,0 +1,339 @@
+{
+  "id": "b1-reading-my-day-in-vienna",
+  "level": "B1",
+  "slug": "my-day-in-vienna-to-by-for",
+  "topic": "travel",
+  "title": "A Day in Vienna",
+  "subtitle": "A friend arrives for the day — and the small prepositions that carry most of the meaning.",
+  "description": "A B1 travel reading and listening text about a day spent showing a friend around Vienna, written to practise the prepositions to, by and for, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/my-day-in-vienna-to-by-for.docx",
+  "provenance": "rewritten",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "2:07"
+  },
+  "passage": [
+    "Yesterday was a good day. My friend Anna came to visit from Salzburg, and I had been looking forward to it for weeks.",
+    "She arrived by train at ten in the morning. She had booked the ticket herself on the ÖBB website, which is cheaper if you do it early, and she had sent me a photo of the confirmation the night before so that I would stop worrying about it. I waited for her on the platform. When she came through the barrier I hugged her, and we walked to the city centre on foot, because it was one of those clear October mornings when taking the underground would have felt like a waste.",
+    "We started with coffee at a small café near Stephansplatz. The barista was Italian, and he made the best cappuccino I have had in a long time — which, in a city that takes its coffee as seriously as Vienna does, is not a small thing to say. We sat by the window for nearly an hour.",
+    "Then we walked to the Hofburg, the old imperial palace, where there was a tour in English for visitors at midday. The guide was excellent. She had clearly given the same tour several thousand times and still seemed to find parts of it funny, which I always take as a good sign. We listened to her for an hour and a half and neither of us looked at a phone once.",
+    "In the afternoon Anna looked for a present for her mother and settled on a snow globe of the city, which she admitted was ridiculous and bought anyway. She paid for it in cash. We spent the rest of the afternoon walking, mostly without a destination.",
+    "We finished the day at a Heuriger on the edge of the city — a wine tavern where the wine is made by the family that owns it, and where you queue at a counter for cold food and carry it to a table in the garden. It was busy, we found a table anyway, and we stayed until it got cold.",
+    "Anna took the last train back. I walked home from the station, and the whole day had cost almost nothing, which was not the point but was pleasant all the same. It was a perfect day for both of us."
+  ],
+  "vocabulary": [
+    {
+      "term": "to look forward to",
+      "definition": "to feel pleased about something that is going to happen",
+      "match": "looking forward to"
+    },
+    {
+      "term": "confirmation",
+      "definition": "a message proving a booking has been made"
+    },
+    {
+      "term": "barrier",
+      "definition": "the gate passengers pass through at a station"
+    },
+    {
+      "term": "on foot",
+      "definition": "walking, rather than using transport"
+    },
+    {
+      "term": "the underground",
+      "definition": "a city's subway or metro system"
+    },
+    {
+      "term": "barista",
+      "definition": "someone who makes coffee professionally"
+    },
+    {
+      "term": "imperial",
+      "definition": "belonging to an emperor or empire"
+    },
+    {
+      "term": "to settle on",
+      "definition": "to choose something finally, after considering others",
+      "match": "settled on"
+    },
+    {
+      "term": "snow globe",
+      "definition": "a small glass ball with a scene inside and artificial snow"
+    },
+    {
+      "term": "ridiculous",
+      "definition": "silly; deserving to be laughed at"
+    },
+    {
+      "term": "destination",
+      "definition": "the place you are travelling to"
+    },
+    {
+      "term": "Heuriger",
+      "definition": "a Viennese wine tavern serving the wine made by its own family"
+    },
+    {
+      "term": "tavern",
+      "definition": "a simple place serving drink and food"
+    },
+    {
+      "term": "to queue",
+      "definition": "to wait in a line"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-vienna-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the sense of the story.",
+      "items": [
+        {
+          "id": "vi1",
+          "prompt": "Why had Anna sent a photo of her booking the night before?",
+          "options": [
+            "Because the writer needed it to meet her at the barrier",
+            "So that the writer would stop worrying about the arrangement",
+            "Because the ticket had to be checked in advance"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stated directly — and it tells you something about both of them without saying it outright."
+        },
+        {
+          "id": "vi2",
+          "prompt": "Why did they walk into the centre instead of taking the underground?",
+          "options": [
+            "It was a clear October morning and taking the train would have felt like a waste",
+            "The underground was closed",
+            "They wanted to save money"
+          ],
+          "answerIndex": 0,
+          "explanation": "The reason is the weather, not cost — though the writer notes at the end that the day happened to be cheap."
+        },
+        {
+          "id": "vi3",
+          "prompt": "Why does the writer say the cappuccino compliment is “not a small thing to say”?",
+          "options": [
+            "Because the café was expensive",
+            "Because the barista was Italian rather than Austrian",
+            "Because Vienna takes its coffee seriously, so the standard for comparison is high"
+          ],
+          "answerIndex": 2,
+          "explanation": "The praise means more in a city with a serious coffee tradition than it would elsewhere."
+        },
+        {
+          "id": "vi4",
+          "prompt": "Why does the writer take the guide's amusement as “a good sign”?",
+          "options": [
+            "Because it suggests she still enjoys the material after giving the tour thousands of times",
+            "Because it meant the tour would be short",
+            "Because the group was small"
+          ],
+          "answerIndex": 0,
+          "explanation": "The implication is that genuine interest, not routine, is what makes a guide good."
+        },
+        {
+          "id": "vi5",
+          "prompt": "What does the writer tell us about the snow globe?",
+          "options": [
+            "That Anna's mother had asked for one",
+            "That Anna thought it was ridiculous and bought it anyway",
+            "That it was the only souvenir they could find"
+          ],
+          "answerIndex": 1,
+          "explanation": "Which is a small joke about the nature of souvenirs, made without explaining itself."
+        },
+        {
+          "id": "vi6",
+          "prompt": "What is a Heuriger, according to the text?",
+          "options": [
+            "A restaurant serving traditional Viennese dishes",
+            "A market where local produce is sold",
+            "A wine tavern serving wine made by the family that owns it, with food collected at a counter"
+          ],
+          "answerIndex": 2,
+          "explanation": "The text defines it in passing, including the practical detail that you queue and carry your own food out."
+        },
+        {
+          "id": "vi7",
+          "prompt": "What does the writer mean by “which was not the point but was pleasant all the same”?",
+          "options": [
+            "That the day being inexpensive was a bonus rather than the aim",
+            "That the day had been disappointing",
+            "That they had spent more than intended"
+          ],
+          "answerIndex": 0,
+          "explanation": "The cost was incidental to a day that was about the company — which is why it is mentioned last and briefly."
+        }
+      ]
+    },
+    {
+      "id": "b1-vienna-prepositions",
+      "type": "fill-blank",
+      "title": "To, By or For?",
+      "instructions": "Three prepositions with three jobs. BY shows who did it or how you travelled. FOR shows who benefits, or what you are waiting or paying for. TO shows a direction, a destination, or who receives something.",
+      "items": [
+        {
+          "id": "vip1",
+          "prompt": "She arrived ___ train at ten in the morning.",
+          "answers": [
+            "by"
+          ],
+          "options": [
+            "by",
+            "for",
+            "to"
+          ],
+          "explanation": "By shows the means of transport: by train, by car, by plane. Note the exception: on foot."
+        },
+        {
+          "id": "vip2",
+          "prompt": "I waited ___ her on the platform.",
+          "answers": [
+            "for"
+          ],
+          "options": [
+            "for",
+            "to",
+            "by"
+          ],
+          "explanation": "You always wait FOR someone or something in English."
+        },
+        {
+          "id": "vip3",
+          "prompt": "We walked ___ the city centre, and later ___ the Hofburg.",
+          "answers": [
+            "to",
+            "to"
+          ],
+          "options": [
+            [
+              "to",
+              "for",
+              "by"
+            ],
+            [
+              "to",
+              "at",
+              "for"
+            ]
+          ],
+          "explanation": "To marks a destination."
+        },
+        {
+          "id": "vip4",
+          "prompt": "There was a tour in English ___ visitors at midday.",
+          "answers": [
+            "for"
+          ],
+          "options": [
+            "for",
+            "to",
+            "by"
+          ],
+          "explanation": "For shows who something is intended to benefit."
+        },
+        {
+          "id": "vip5",
+          "prompt": "We listened ___ her ___ an hour and a half.",
+          "answers": [
+            "to",
+            "for"
+          ],
+          "options": [
+            [
+              "to",
+              "at",
+              "by"
+            ],
+            [
+              "for",
+              "during",
+              "by"
+            ]
+          ],
+          "explanation": "You listen TO someone; and for marks a length of time."
+        },
+        {
+          "id": "vip6",
+          "prompt": "She bought a present ___ her mother and paid ___ it in cash.",
+          "answers": [
+            "for",
+            "for"
+          ],
+          "options": [
+            [
+              "for",
+              "to",
+              "by"
+            ],
+            [
+              "for",
+              "to",
+              "with"
+            ]
+          ],
+          "explanation": "The present is intended for her mother, and you pay FOR a thing. Careful: you pay for something but pay BY card or IN cash."
+        },
+        {
+          "id": "vip7",
+          "prompt": "The wine is made ___ the family that owns the tavern.",
+          "answers": [
+            "by"
+          ],
+          "options": [
+            "by",
+            "for",
+            "from"
+          ],
+          "explanation": "By identifies who performs the action — the agent."
+        }
+      ]
+    },
+    {
+      "id": "b1-vienna-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the day described.",
+      "items": [
+        {
+          "id": "vit1",
+          "statement": "Anna booked her own ticket.",
+          "answer": true,
+          "explanation": "True — she booked it herself on the ÖBB website."
+        },
+        {
+          "id": "vit2",
+          "statement": "They took the underground into the centre.",
+          "answer": false,
+          "explanation": "False — they walked, on foot."
+        },
+        {
+          "id": "vit3",
+          "statement": "The tour of the Hofburg was in German.",
+          "answer": false,
+          "explanation": "False — it was a tour in English for visitors, at midday."
+        },
+        {
+          "id": "vit4",
+          "statement": "Anna paid for the snow globe by card.",
+          "answer": false,
+          "explanation": "False — she paid in cash."
+        },
+        {
+          "id": "vit5",
+          "statement": "They stayed at the Heuriger until the evening turned cold.",
+          "answer": true,
+          "explanation": "True — “we stayed until it got cold”."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The writer says the day cost almost nothing, “which was not the point”. What makes a day out good, if not what you spend?",
+    "Anna bought a souvenir she thought was ridiculous. Why do people buy them anyway?",
+    "The guide had given the same tour thousands of times and still enjoyed it. How do people keep that up?",
+    "Describe a day you spent showing a visitor around your own city. Where did you take them first, and why?",
+    "Write about 120 words about a day with a friend, using to, by and for at least twice each."
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "id": "b1-reading-nfl",
+  "level": "B1",
+  "slug": "nfl",
+  "topic": "sports",
+  "title": "The NFL: America's Biggest Game",
+  "subtitle": "How American football works, and the moments and players that made the league famous.",
+  "description": "A B1 reading and listening text on the National Football League: the basic rules, three famous plays, and the players Americans still argue about. With vocabulary, comprehension and discussion practice.",
+  "source": "cefr/texts/nfl.docx",
+  "provenance": "edited",
+  "passage": [
+    "The National Football League, or NFL, is the top professional American football league, and for many Americans it is far more than a sport. Games fill stadiums on autumn weekends, the Super Bowl is one of the most-watched television events of the year, and many families treat game day as a social occasion built around food and friends.",
+    "The league has 32 teams, split into two conferences: the National Football Conference (NFC) and the American Football Conference (AFC). Each conference is divided into four divisions. In the regular season, every team plays 17 games across 18 weeks, which means each team gets one week off, called a bye week. Fourteen teams then reach the playoffs, seven from each conference, and those playoffs end with the Super Bowl.",
+    "The game itself looks complicated, but the basic idea is simple. Two teams of eleven players are on the field at a time. A team scores by carrying or throwing the ball into the other team's end zone for a touchdown, or by kicking the ball between the uprights for a field goal. The team with the ball gets four attempts, called downs, to move it at least ten yards. If they succeed, they get another four downs and keep going. If they fail, the other team takes over.",
+    "Some plays have become part of American sporting memory. In 1972, in a game now known for the \"Immaculate Reception\", the Pittsburgh Steelers running back Franco Harris caught a pass that had bounced off another player and ran it into the end zone. It won the game and gave the Steelers their first playoff victory.",
+    "In Super Bowl XLII, the New York Giants receiver David Tyree made what fans simply call \"the helmet catch\". Closely covered by Rodney Harrison of the New England Patriots, Tyree trapped the ball against his own helmet and held on. The catch led to a touchdown and helped the Giants win a game almost nobody expected them to win.",
+    "Super Bowl LI produced the greatest comeback the game has seen. The New England Patriots were 25 points behind the Atlanta Falcons, and they still won, in overtime. For a lot of fans, that night is the clearest example of why they keep watching until the end.",
+    "The league has also produced players people still compare and argue about. Jerry Rice, a wide receiver, caught more passes for more yards than anyone in NFL history. Walter Payton was a famously powerful runner and held the all-time rushing record for years, until Emmitt Smith passed him in 2002.",
+    "At quarterback, the position that usually decides games, three names come up again and again: Joe Montana, who stayed calm in enormous moments; Tom Brady, who won more Super Bowls than any other player; and Peyton Manning, who was known for reading a defense almost like a coach. On defense, the linebacker Lawrence Taylor changed how the position was played, combining speed and strength in a way offenses had not had to deal with before.",
+    "From a small league in the 1920s to a global business today, the NFL has kept its hold on American attention. You do not have to follow it closely to notice it, because in the United States the season, the rivalries and the Super Bowl are part of the calendar."
+  ],
+  "vocabulary": [
+    {
+      "term": "a bye week",
+      "definition": "a week in the season when a team does not play"
+    },
+    {
+      "term": "the playoffs",
+      "definition": "the knockout games after the regular season that decide the champion"
+    },
+    {
+      "term": "an end zone",
+      "definition": "the area at each end of the field where a team scores a touchdown"
+    },
+    {
+      "term": "a touchdown",
+      "definition": "the main way to score, by getting the ball into the opponent's end zone"
+    },
+    {
+      "term": "a field goal",
+      "definition": "points scored by kicking the ball between the uprights"
+    },
+    {
+      "term": "a down",
+      "definition": "one of the four attempts a team has to move the ball ten yards"
+    },
+    {
+      "term": "to take over",
+      "definition": "to take control of something from someone else"
+    },
+    {
+      "term": "a comeback",
+      "definition": "when a team that is losing badly recovers and wins"
+    },
+    {
+      "term": "a rivalry",
+      "definition": "a long-running competition between two teams or people"
+    },
+    {
+      "term": "game day",
+      "definition": "the day a team plays, often treated as a social event"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-reading-nfl-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the text. Read it again if you need to.",
+      "items": [
+        {
+          "id": "nfl-c1",
+          "prompt": "How many teams are there in the NFL?",
+          "options": [
+            "17",
+            "32",
+            "14"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text says the league has 32 teams, split into two conferences."
+        },
+        {
+          "id": "nfl-c2",
+          "prompt": "How many games does each team play in the regular season?",
+          "options": [
+            "16 games across 17 weeks",
+            "17 games across 18 weeks",
+            "18 games across 18 weeks"
+          ],
+          "answerIndex": 1,
+          "explanation": "Every team plays 17 games across 18 weeks, so each team gets one week off."
+        },
+        {
+          "id": "nfl-c3",
+          "prompt": "What is a bye week?",
+          "options": [
+            "A week when a team does not play",
+            "A week of playoff games",
+            "The week of the Super Bowl"
+          ],
+          "answerIndex": 0,
+          "explanation": "Because there are 18 weeks but only 17 games, each team has one free week — a bye week."
+        },
+        {
+          "id": "nfl-c4",
+          "prompt": "How many downs does a team get to move the ball ten yards?",
+          "options": [
+            "Three",
+            "Four",
+            "Ten"
+          ],
+          "answerIndex": 1,
+          "explanation": "A team gets four attempts, called downs, to move the ball at least ten yards."
+        },
+        {
+          "id": "nfl-c5",
+          "prompt": "What happens if a team does not gain ten yards in four downs?",
+          "options": [
+            "They get four more downs",
+            "The other team takes over",
+            "They must kick a field goal"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text says that if they fail, the other team takes over."
+        },
+        {
+          "id": "nfl-c6",
+          "prompt": "Why was the 1972 catch called remarkable?",
+          "options": [
+            "Franco Harris caught a pass that had bounced off another player",
+            "Franco Harris scored from his own end zone",
+            "Franco Harris caught the ball against his helmet"
+          ],
+          "answerIndex": 0,
+          "explanation": "The \"Immaculate Reception\" was a pass that bounced off another player before Harris caught it. The helmet catch was a different play, by David Tyree."
+        },
+        {
+          "id": "nfl-c7",
+          "prompt": "How far behind were the Patriots in Super Bowl LI before they won?",
+          "options": [
+            "10 points",
+            "25 points",
+            "In overtime only"
+          ],
+          "answerIndex": 1,
+          "explanation": "They were 25 points behind the Atlanta Falcons and still won in overtime."
+        },
+        {
+          "id": "nfl-c8",
+          "prompt": "Who holds the all-time rushing record, according to the text?",
+          "options": [
+            "Walter Payton",
+            "Emmitt Smith",
+            "Jerry Rice"
+          ],
+          "answerIndex": 1,
+          "explanation": "Payton held the record for years, but Emmitt Smith passed him in 2002. Jerry Rice's records are for receiving, not rushing."
+        }
+      ]
+    },
+    {
+      "id": "b1-reading-nfl-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "nfl-t1",
+          "answer": false,
+          "explanation": "False — the playoffs end with the Super Bowl, so it comes last.",
+          "statement": "The Super Bowl is played before the playoffs."
+        },
+        {
+          "id": "nfl-t2",
+          "answer": true,
+          "explanation": "True — two teams of eleven players are on the field at a time.",
+          "statement": "Each team has eleven players on the field at a time."
+        },
+        {
+          "id": "nfl-t3",
+          "answer": true,
+          "explanation": "True — seven from each of the two conferences.",
+          "statement": "Fourteen teams reach the playoffs."
+        },
+        {
+          "id": "nfl-t4",
+          "answer": false,
+          "explanation": "False — that is a touchdown. A field goal is kicked between the uprights.",
+          "statement": "A field goal is scored by carrying the ball into the end zone."
+        },
+        {
+          "id": "nfl-t5",
+          "answer": true,
+          "explanation": "True — the text says exactly that.",
+          "statement": "Tom Brady won more Super Bowls than any other player."
+        },
+        {
+          "id": "nfl-t6",
+          "answer": false,
+          "explanation": "False — he was a linebacker, a defensive position.",
+          "statement": "Lawrence Taylor played quarterback."
+        }
+      ]
+    },
+    {
+      "id": "b1-reading-nfl-vocabulary",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the word or phrase that fits the meaning.",
+      "items": [
+        {
+          "id": "nfl-v1",
+          "prompt": "A week in the season when a team does not play is called a ___.",
+          "options": [
+            "bye week",
+            "down",
+            "playoff"
+          ],
+          "answerIndex": 0,
+          "explanation": "A bye week is a scheduled week off."
+        },
+        {
+          "id": "nfl-v2",
+          "prompt": "When a losing team recovers and wins, we call it a ___.",
+          "options": [
+            "rivalry",
+            "comeback",
+            "takeover"
+          ],
+          "answerIndex": 1,
+          "explanation": "A comeback is a recovery from a losing position — as in Super Bowl LI."
+        },
+        {
+          "id": "nfl-v3",
+          "prompt": "A long-running competition between two teams is a ___.",
+          "options": [
+            "rivalry",
+            "conference",
+            "division"
+          ],
+          "answerIndex": 0,
+          "explanation": "A rivalry is an ongoing competition between the same two teams or people."
+        },
+        {
+          "id": "nfl-v4",
+          "prompt": "If the other team ___, they take control of the ball.",
+          "options": [
+            "takes off",
+            "takes over",
+            "takes up"
+          ],
+          "answerIndex": 1,
+          "explanation": "To take over is to take control of something from someone else."
+        },
+        {
+          "id": "nfl-v5",
+          "prompt": "The area where a team scores a touchdown is the ___.",
+          "options": [
+            "uprights",
+            "end zone",
+            "field goal"
+          ],
+          "answerIndex": 1,
+          "explanation": "The end zone is the scoring area at each end of the field."
+        }
+      ]
+    },
+    {
+      "id": "b1-reading-nfl-fillblank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Choose the correct word for each blank.",
+      "items": [
+        {
+          "id": "nfl-f1",
+          "explanation": "The two conferences are the NFC and the AFC.",
+          "prompt": "The NFL has 32 teams, divided into two ___.",
+          "answers": [
+            "conferences"
+          ],
+          "options": [
+            "conferences",
+            "countries",
+            "stadiums"
+          ]
+        },
+        {
+          "id": "nfl-f2",
+          "explanation": "A touchdown means reaching the opponent's end zone.",
+          "prompt": "A team scores a touchdown by getting the ball into the opponent's ___.",
+          "answers": [
+            "end zone"
+          ],
+          "options": [
+            "end zone",
+            "bye week",
+            "overtime"
+          ]
+        },
+        {
+          "id": "nfl-f3",
+          "explanation": "The game went to overtime, which is extra time played when the score is level.",
+          "prompt": "In Super Bowl LI the Patriots won in ___ after trailing by 25 points.",
+          "answers": [
+            "overtime"
+          ],
+          "options": [
+            "overtime",
+            "a bye week",
+            "the draft"
+          ]
+        },
+        {
+          "id": "nfl-f4",
+          "explanation": "A receiver catches passes; a linebacker defends and a quarterback throws.",
+          "prompt": "Jerry Rice was a wide ___ who caught more passes than anyone in NFL history.",
+          "answers": [
+            "receiver"
+          ],
+          "options": [
+            "receiver",
+            "linebacker",
+            "quarterback"
+          ]
+        },
+        {
+          "id": "nfl-f5",
+          "explanation": "To read a defense means to understand what the other team is about to do.",
+          "prompt": "Peyton Manning was known for ___ a defense almost like a coach.",
+          "answers": [
+            "reading"
+          ],
+          "options": [
+            "reading",
+            "writing",
+            "counting"
+          ]
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Is there one sport in your country that works the way the NFL does in the United States — something people organize their weekend around? Describe it.",
+    "The text says you do not have to follow the NFL closely to notice it. Is there something like that where you live?",
+    "American football has complicated rules. Explain the rules of a sport you know well to someone who has never seen it, in about five sentences.",
+    "Fans still argue about who the greatest player was. Why do you think people enjoy arguments that cannot be settled?",
+    "Write a short paragraph (about 80 words) describing a game or match you remember well, and say why it stayed with you."
+  ],
+  "audio": {
+    "duration_label": "3:39"
+  }
+}

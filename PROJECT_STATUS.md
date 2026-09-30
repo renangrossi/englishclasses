@@ -14,8 +14,8 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | Milestone 0 complete → Milestone 1 (content architecture) |
-| **Overall completion** | ~8% (audit done; 0 of 98 source documents converted) |
+| **Current phase** | Milestones 0–1 complete → Milestone 2 (volume conversion) |
+| **Overall completion** | ~14% (audit done; pipeline built and proven; 1 of 98 source documents converted) |
 
 ### What this project is *not*
 It is not a redesign of the grammar-lesson system. `levels/{level}/*.html` + `curriculum/{level}/*.json`
@@ -69,29 +69,50 @@ Do not "fix" them as part of this work; log them and move on.
 
 ---
 
-## Current milestone
+### Milestone 1 — Content architecture & pipeline ✅
+- **Date:** 2026-09-30
+- **Branch:** `content/reading-library-pipeline` → merged to `main`
+- **Commit:** `<M1_COMMIT>`
+- **Pushed:** yes · **Merged:** yes
 
-### Milestone 1 — Content architecture (IN PROGRESS)
+**What was completed**
+1. Locked the target structure (`reading/{level}/{slug}.html` + `assets/audio/reading/{level}/{slug}.mp3`)
+   with `content/readings/{level}/{slug}.json` as the single source of truth for both.
+2. Built the pipeline:
+   - `scripts/reading_common.py` — shared paths, level pacing, voice roster, topic/provenance labels.
+   - `scripts/build_reading_page.py` — renders a reading page via `site_chrome.py`.
+   - `scripts/generate_reading_audio.py` — edge-tts narration with **content-based** staleness.
+   - `scripts/build_search_index_readings.py` — keeps reading pages searchable.
+   - `scripts/build_content_audit.py` — regenerates `docs/content-audit.md` from the map.
+3. Proved the pipeline end-to-end on the pilot text `nfl` (B1): page + 4 exercise blocks
+   (24 graded items) + 10-term vocabulary + 5 discussion prompts + 3:39 of narration.
+4. **Zero new CSS and zero new JavaScript** — the page reuses `.reading-passage`,
+   `.summary-list`, the site-wide `audio` rule and the existing exercise engine.
 
-**Goal:** lock the target structure and the page/audio pipeline, then prove it end-to-end on a
-pilot text before converting at volume.
-
-**Already completed**
-- CEFR + topic taxonomy defined (below).
-- Per-text level and topic recommendations recorded in `docs/reading-library-map.json`.
-- Duplicate/overlap groups identified (16 MERGE entries across 8 merge targets).
-
-**What remains**
-- [ ] Write `scripts/build_reading_page.py` (reuses `scripts/site_chrome.py`).
-- [ ] Write `scripts/generate_reading_audio.py` (edge-tts wrapper).
-- [ ] Convert **one pilot text** end-to-end (HTML + exercises + audio) and validate.
-- [ ] Restructure `exercises.html` into the levelled hub.
-
-**Files being modified:** none yet in this milestone.
-
-**Next exact actions:** see [NEXT SESSION](#next-session).
+**Files created:** `scripts/reading_common.py`, `scripts/build_reading_page.py`,
+`scripts/generate_reading_audio.py`, `scripts/build_search_index_readings.py`,
+`scripts/build_content_audit.py`, `content/readings/b1/nfl.json`, `reading/b1/nfl.html`,
+`assets/audio/reading/b1/nfl.mp3`, `assets/audio/reading/manifest.json`
+**Files modified:** `docs/reading-library-map.json`, `docs/content-audit.md`,
+`assets/data/search-index.json`, `PROJECT_STATUS.md`
+**Known issues:** none; `check_site_integrity.py` reports 0 errors.
 
 ---
+
+## Current milestone
+
+### Milestone 2 — Volume conversion (NOT STARTED)
+
+**Goal:** convert the library level by level using the proven pipeline, cheapest work first.
+
+**What remains** — all of it. Order of attack:
+1. The remaining **16 `KEEP`** texts (no editorial work, fastest throughput).
+2. The **33 `EDIT`** texts (the real editorial work; see the editorial rules).
+3. The **16 `MERGE`** → 8 targets, and the **8 `SPLIT`** files.
+4. The **8 `REPLACE`** texts and the **11 `CONVERT`** drills.
+5. New A1 and C2 content for open problem P-1.
+
+**Next exact actions:** see [NEXT SESSION](#next-session).
 
 ## Target architecture
 
@@ -171,16 +192,16 @@ The 2 `stale-on-edit` texts are `capetown` (4 mp3s) and `physical-education` (4 
 | **Page chrome** | `scripts/site_chrome.py` provides head/header/nav/search/footer verbatim; `REL` sets the path prefix |
 | **Exercise engine** | `assets/js/exercises.js` (1841 lines). **No JS changes needed.** |
 | **Exercise types available** | `multiple-choice`, `true-false`, `fill-blank`, `matching`, `ordering`, `correction`, `typing`, `reading-comprehension`, `vocabulary`, `writing` |
-| **Audio player** | Existing pattern: `<audio controls preload="metadata">` inside a `reading-comprehension` block's `passage`, followed by `<details class="transcript-toggle">`. No JS. Degrades gracefully. |
-| **HTML migration** | 0 / 98 source docs converted |
-| **CSS** | No changes made or expected; reuse existing tokens |
-| **JavaScript** | No changes made or expected |
+| **Audio player** | Native `<audio controls preload="metadata">` at the top of the reading section, with a download link as fallback. Gives play/pause, progress, elapsed/total time, keyboard access and the browser's own speed menu on desktop and mobile, with no JS to fail. The grammar lessons' listening blocks keep their `<details class="transcript-toggle">` pattern; a reading page shows the text itself, so it needs no transcript toggle. |
+| **HTML migration** | 1 / 98 source docs converted (`reading/b1/nfl.html`) |
+| **CSS** | **No changes made.** Reading pages reuse `.reading-passage` (exercises.css), `.summary-list` (lessons.css) and the site-wide `audio` rule (components.css) |
+| **JavaScript** | **No changes made.** `assets/js/exercises.js` renders the new pages unmodified |
 | **Navigation** | `exercises.html` is currently a flat alphabetical grid of 117 "Open PDF" cards — to be restructured |
 | **Responsive** | Inherited from existing chrome/CSS; must be re-verified per new page type |
 | **Accessibility** | Inherited; keep heading order, `aria-hidden` on decorative indices, real `<audio controls>` |
 | **Search index** | `scripts/build_search_index_sheets.py` + integrity check rule 3 — new pages must be added to the search index |
 | **Validation** | `python3 scripts/check_site_integrity.py` — run before every commit |
-| **Git** | Milestone 0 merged to `main`; working tree clean |
+| **Git** | Milestones 0 and 1 merged to `main`; working tree clean |
 | **Deployment** | GitHub Pages from `main`. Absolute URLs must keep the `/englishclasses/` segment |
 
 ### Reproducing the toolchain
@@ -283,40 +304,71 @@ progress can be tracked and resumed. `docs/content-audit.md` is the human-readab
 
 ## NEXT SESSION
 
-Do these in order. Commit, push and merge at the end of each numbered group.
+The pipeline is built and proven — **do not rebuild it.** Use it.
 
-1. **Write `scripts/build_reading_page.py`.**
-   Import `scripts/site_chrome.py` for chrome; emit `reading/{level}/{slug}.html` with a
-   `reading-comprehension` exercise-data block whose `passage` holds
-   `<audio controls preload="metadata" src="../../assets/audio/reading/{level}/{slug}.mp3">`
-   plus a `<details class="transcript-toggle">` transcript. `REL = "../../"`.
-   Do **not** touch `scripts/build_lesson.py` (see D-3).
+### The build loop (per text)
 
-2. **Write `scripts/generate_reading_audio.py`.**
-   edge-tts wrapper: input text → `assets/audio/reading/{level}/{slug}.mp3`, applying the
-   established per-level rate (`-15%` Pre-A1/A1, `-8%` A2/B1, natural B2–C2) and the 8-voice
-   `en-US` roster with narrator-gender matching. Split long texts into parts rather than
-   producing one huge file.
+```bash
+# 0. recreate the TTS venv once per machine/session
+python3 -m venv /tmp/rl-venv && /tmp/rl-venv/bin/pip install edge-tts
 
-3. **Pilot one text end-to-end and validate before scaling.**
-   Use **`nfl`** (B1, 566w, `action: KEEP`, American sports/culture, needs no rewriting) so the
-   pipeline is tested without editorial confounds. Produce the page, real comprehension/vocabulary
-   exercises, and the audio. Then run:
-   ```bash
-   python3 scripts/check_site_integrity.py     # must stay at 0 errors
-   ```
-   Open the page and confirm the audio plays and the transcript toggles.
-   **Commit + push + merge as Milestone 2a, and update this file.**
+# 1. author content/readings/{level}/{slug}.json   (the editorial work)
+# 2. build the page
+python3 scripts/build_reading_page.py {level}/{slug}
+# 3. narrate it
+python3 scripts/generate_reading_audio.py {level}/{slug} --tts /tmp/rl-venv/bin/edge-tts
+# 4. make it searchable + refresh the audit view
+python3 scripts/build_search_index_readings.py
+python3 scripts/build_content_audit.py
+# 5. validate — both must be clean before committing
+python3 scripts/check_site_integrity.py          # must say "No errors."
+python3 scripts/generate_reading_audio.py --check # must say "0 need audio"
+```
 
-4. **Restructure `exercises.html` into the levelled hub** (requirement 18): A1 → A2 → B1 → B2 → C1 → C2,
-   each level with a short description, the English it practices, its main topics, and links.
-   Replace the flat 117-card alphabetical grid. Add new pages to the search index
-   (`scripts/build_search_index_sheets.py`) so integrity-check rule 3 passes.
+Set each text's `status` to `IMPLEMENTED` in `docs/reading-library-map.json` as it lands, and
+add a `page` field pointing at the built page (see the `nfl` entry as the worked example).
 
-5. **Then convert at volume, level by level**, in this order: the 17 `KEEP` texts first (fastest,
-   no editorial work), then `EDIT`, then `MERGE`/`SPLIT`, then `REPLACE`, and finally the
-   new A1/C2 content for P-1. Update each entry's `status` in
-   `docs/reading-library-map.json` as it lands, and commit per level.
+### The source JSON contract
 
-6. **Always finish a milestone with:** update `PROJECT_STATUS.md` → run
-   `check_site_integrity.py` → commit → push → merge → record the commit hash here.
+Copy `content/readings/b1/nfl.json` as the template. Required: `id`, `level`, `slug`, `topic`,
+`title`, `subtitle`, `description`, `source`, `provenance`, `passage` (array of paragraphs).
+Optional: `vocabulary`, `exercises`, `discussion`, `narrator` (`"male"`/`"female"` only when the
+text genuinely has a narrator of that gender), `audio.duration_label`, `audio.voice`, `audio.rate`.
+
+**Exercise item shapes the engine actually implements** — these differ per type and getting them
+wrong fails silently in the browser, so follow them exactly:
+
+| Type | Item fields |
+|---|---|
+| `reading-comprehension`, `multiple-choice`, `vocabulary` | `id`, `prompt`, `options`, `answerIndex`, `explanation` |
+| `true-false` | `id`, **`statement`**, `answer` (bool), `explanation` |
+| `fill-blank` | `id`, `prompt` with `___` per blank, **`answers`** (one per blank), `options` (flat array for a single blank, array-of-arrays for several), `explanation` |
+
+### Work order
+
+1. **The 16 remaining `KEEP` texts** — no rewriting needed, so these build fastest and put real
+   content on the site quickly. In level order: `the-day-at-the-market` (A2),
+   `coffee-brewing` (A2), `climbing` (B1), `glamping` (B1), `investigation-story` (B1),
+   `cars` (B1, audio already exists), `hiking-in-the-mountains` (A2, audio exists),
+   `snowy-days` (B1, audio exists), `attention-economy` (C1, audio exists),
+   `it-interview` (B2), `phrasal-verbs-01-bed-and-breakfast` (B2),
+   `phrasal-verbs-02-trip-abroad` (B2), `project-management-can-could-able-do-make` (B2),
+   `sales-strategy` (B2), `technology-and-ethics` (C1), `physiological-stressors` (C1).
+   For the four with existing mp3s in `cefr/texts/`, move the file to
+   `assets/audio/reading/{level}/{slug}.mp3` and record its fingerprint rather than re-narrating,
+   **but only if the passage is byte-identical** to what those files narrate; otherwise re-narrate.
+2. **`exercises.html` → the levelled hub** (requirement 18). Replace the flat 97-card
+   alphabetical "Open PDF" grid with A1 → A2 → B1 → B2 → C1 → C2, each level carrying a short
+   description, the English it practices, its main topics, and links to its readings. Keep a
+   clearly-labelled link to the printable PDF/DOCX for each text (decision D-7) — the PDFs stay,
+   they just stop being the only way in.
+3. **The 33 `EDIT` texts**, then the `MERGE`/`SPLIT` groups, then `REPLACE`, then `CONVERT`.
+4. **The two `stale-on-edit` texts** (`capetown`, `physical-education`): once edited, their 4+4
+   old mp3s in `cefr/texts/` must be replaced, not left behind.
+5. **New A1 and C2 content** for P-1, labelled `provenance: "new"`.
+
+### Milestone discipline
+
+Commit per coherent group (e.g. "the KEEP texts for A2 and B1"), not per file and not in one
+giant commit. At each milestone: update `PROJECT_STATUS.md` → run both validators → commit →
+push → merge → record the commit hash here.

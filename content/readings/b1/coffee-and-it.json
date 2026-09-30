@@ -1,0 +1,323 @@
+{
+  "id": "b1-reading-coffee-and-it",
+  "level": "B1",
+  "slug": "coffee-and-it",
+  "topic": "work",
+  "title": "Software in a Coffee Shop",
+  "subtitle": "Five things a small business gets from custom software, and the one it usually gets wrong.",
+  "description": "A B1 business and technology reading and listening text on what software does for a small coffee shop, with a verb gap-fill exercise and comprehension questions.",
+  "source": "cefr/texts/coffee-and-it.docx + cefr/texts/coffee-and-it-answers.docx",
+  "provenance": "merged",
+  "audio": {
+    "duration_label": "2:44"
+  },
+  "passage": [
+    "A coffee shop looks like the last place that needs a developer. It sells one product in a room with eight tables. In practice a well-run shop is a scheduling problem, a stock problem and a pricing problem at once, and the owner is usually solving all three from memory. Software helps with all of them, though not always in the way the sales pitch suggests.",
+    "The most visible change is to the ordering process. A system that connects to the till can streamline how orders are taken — customers order from a tablet or a kiosk, the order arrives at the machine directly, and the queue stops being the limiting factor on a busy morning. That frees the staff to make coffee rather than repeat prices. It also, and this matters more than owners expect, removes the errors that come from somebody shouting an order across a noisy room.",
+    "Less visible and more valuable is stock. A system can manage inventory by counting down from each sale: every flat white removes a measured quantity of beans and milk from the running total, and the shop is warned when something is about to run out. The gain is not mainly convenience. It is that a small shop otherwise discovers it has run out of oat milk at half past eight on a Saturday, which costs it sales it never finds out about.",
+    "Third, the system can collect data on what is actually sold and when. Most owners believe they already know this and most are partly wrong — people remember the unusual order and forget the ordinary one. The useful discoveries are usually dull: that the pastry case should be filled twice rather than once, that Tuesday afternoons do not pay for the second member of staff, that the expensive single-origin coffee sells in quantities that do not justify the shelf space.",
+    "Fourth, the same customer records let the shop create and send promotions to people who have actually been in, which is a different and far cheaper proposition than advertising to a town. And fifth, payments have to be processed securely, which for a small business mostly means not handling card details at all but passing them to somebody whose entire job is doing that safely.",
+    "Now the part that goes wrong. Owners buy the system and keep the old habits, so the stock figures drift within a month because somebody takes milk from the fridge without recording it, and after that nobody trusts the numbers and everyone goes back to guessing. The software is only as good as the discipline around it, and that discipline is the actual product being bought.",
+    "Used properly, none of this is dramatic on any single day. It shows up as a shop that runs out of things less often, staffs itself closer to its real demand, and knows which half of its menu is paying for the other half."
+  ],
+  "vocabulary": [
+    {
+      "term": "sales pitch",
+      "definition": "the argument a seller makes for buying something"
+    },
+    {
+      "term": "till",
+      "definition": "the machine that records sales and holds the money"
+    },
+    {
+      "term": "to streamline",
+      "definition": "to make a process simpler and faster",
+      "match": "streamline"
+    },
+    {
+      "term": "kiosk",
+      "definition": "a small self-service screen or booth"
+    },
+    {
+      "term": "limiting factor",
+      "definition": "the one thing that decides how much can be done"
+    },
+    {
+      "term": "to manage inventory",
+      "definition": "to keep track of what stock a business holds",
+      "match": "manage inventory"
+    },
+    {
+      "term": "running total",
+      "definition": "a figure updated continuously as things are added or removed"
+    },
+    {
+      "term": "to run out",
+      "definition": "to use up the whole supply of something",
+      "match": "run out"
+    },
+    {
+      "term": "to collect data",
+      "definition": "to gather information systematically",
+      "match": "collect data"
+    },
+    {
+      "term": "single-origin",
+      "definition": "coffee from one farm or region rather than a blend"
+    },
+    {
+      "term": "shelf space",
+      "definition": "the limited room a shop has to display products"
+    },
+    {
+      "term": "to create",
+      "definition": "to make something that did not exist before"
+    },
+    {
+      "term": "proposition",
+      "definition": "a business idea considered in terms of what it costs and returns"
+    },
+    {
+      "term": "to process",
+      "definition": "to handle a transaction through to completion",
+      "match": "processed"
+    },
+    {
+      "term": "to drift",
+      "definition": "to move gradually away from what is correct"
+    },
+    {
+      "term": "discipline",
+      "definition": "the habit of doing something consistently and properly"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-cit-verbs",
+      "type": "fill-blank",
+      "title": "Choose the Verb",
+      "instructions": "Complete each sentence with the verb a business would use. These are the five things the text says software does.",
+      "items": [
+        {
+          "id": "ct1",
+          "prompt": "A system connected to the till can ___ the ordering process.",
+          "answers": [
+            "streamline"
+          ],
+          "options": [
+            "streamline",
+            "manage",
+            "collect"
+          ],
+          "explanation": "To streamline is to make a process simpler and faster — fewer steps between the customer and the coffee."
+        },
+        {
+          "id": "ct2",
+          "prompt": "The software can ___ the shop's inventory and warn the owner when stock is low.",
+          "answers": [
+            "manage"
+          ],
+          "options": [
+            "manage",
+            "process",
+            "create"
+          ],
+          "explanation": "To manage inventory is to keep track of what a business holds."
+        },
+        {
+          "id": "ct3",
+          "prompt": "It can ___ data on what is sold and at what times.",
+          "answers": [
+            "collect"
+          ],
+          "options": [
+            "collect",
+            "streamline",
+            "drift"
+          ],
+          "explanation": "To collect data is to gather information systematically."
+        },
+        {
+          "id": "ct4",
+          "prompt": "The shop can ___ and send promotions to existing customers.",
+          "answers": [
+            "create"
+          ],
+          "options": [
+            "create",
+            "manage",
+            "process"
+          ],
+          "explanation": "You create a promotion — it is something new brought into existence."
+        },
+        {
+          "id": "ct5",
+          "prompt": "All transactions must be ___ securely.",
+          "answers": [
+            "processed"
+          ],
+          "options": [
+            "processed",
+            "collected",
+            "streamlined"
+          ],
+          "explanation": "To process a transaction is to handle it through to completion. Note the passive form here."
+        },
+        {
+          "id": "ct6",
+          "prompt": "Without discipline the stock figures ___ within a month.",
+          "answers": [
+            "drift"
+          ],
+          "options": [
+            "drift",
+            "process",
+            "streamline"
+          ],
+          "explanation": "To drift is to move gradually away from what is correct — the failure the text warns about."
+        }
+      ]
+    },
+    {
+      "id": "b1-cit-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for what the writer says is genuinely valuable, which is not always the obvious thing.",
+      "items": [
+        {
+          "id": "cc1",
+          "prompt": "Why does the writer say a coffee shop is more complicated than it looks?",
+          "options": [
+            "Because it has more staff than customers expect",
+            "Because it is a scheduling, stock and pricing problem at once, usually solved from memory",
+            "Because coffee is difficult to make consistently"
+          ],
+          "answerIndex": 1,
+          "explanation": "The point is not that any one problem is hard, but that all three run at once in the owner's head."
+        },
+        {
+          "id": "cc2",
+          "prompt": "What benefit of the ordering system does the writer say owners underestimate?",
+          "options": [
+            "The saving in staff wages",
+            "The removal of errors caused by shouting orders across a noisy room",
+            "The improvement in the shop's appearance"
+          ],
+          "answerIndex": 1,
+          "explanation": "“This matters more than owners expect” — flagged explicitly as the underrated gain."
+        },
+        {
+          "id": "cc3",
+          "prompt": "Why is running out of oat milk on a Saturday morning worse than it appears?",
+          "options": [
+            "Because it costs the shop sales it never finds out about",
+            "Because oat milk is expensive to restock quickly",
+            "Because customers complain publicly"
+          ],
+          "answerIndex": 0,
+          "explanation": "The lost sale is invisible — which is exactly why a system that counts stock down is worth having."
+        },
+        {
+          "id": "cc4",
+          "prompt": "Why are most owners “partly wrong” about what sells?",
+          "options": [
+            "They rely on figures from the wrong period",
+            "They remember the unusual order and forget the ordinary one",
+            "They do not look at the till records"
+          ],
+          "answerIndex": 1,
+          "explanation": "A memory bias, not a failure of attention — which is why recorded data beats recollection."
+        },
+        {
+          "id": "cc5",
+          "prompt": "How does the writer describe the useful discoveries in the data?",
+          "options": [
+            "Surprising and immediately profitable",
+            "Usually dull — filling the pastry case twice, or a shift that does not pay for itself",
+            "Too complex for a small business to act on"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The useful discoveries are usually dull”, and the three examples given are all small operational corrections."
+        },
+        {
+          "id": "cc6",
+          "prompt": "What does the writer mean about secure payments for a small business?",
+          "options": [
+            "It mostly means not handling card details at all, but passing them to a specialist",
+            "It requires the shop to store card data carefully",
+            "It is handled automatically by the bank"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Somebody whose entire job is doing that safely” — the safest way to hold data is not to hold it."
+        },
+        {
+          "id": "cc7",
+          "prompt": "What is “the part that goes wrong”?",
+          "options": [
+            "The systems are too expensive for small shops",
+            "Owners keep the old habits, the figures drift, and everyone goes back to guessing",
+            "Staff refuse to use the new equipment"
+          ],
+          "answerIndex": 1,
+          "explanation": "One person taking milk without recording it is enough to break trust in the numbers."
+        },
+        {
+          "id": "cc8",
+          "prompt": "What does the writer say is “the actual product being bought”?",
+          "options": [
+            "The discipline around the software, not the software itself",
+            "The hardware in the shop",
+            "The support contract"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The software is only as good as the discipline around it.”"
+        }
+      ]
+    },
+    {
+      "id": "b1-cit-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "ctt1",
+          "statement": "The writer says the ordering system's main value is saving money on staff.",
+          "answer": false,
+          "explanation": "False — it frees staff “to make coffee rather than repeat prices”, and removes errors. Cutting staff is not mentioned."
+        },
+        {
+          "id": "ctt2",
+          "statement": "Stock counting works by subtracting from a running total as each sale is made.",
+          "answer": true,
+          "explanation": "True — “every flat white removes a measured quantity of beans and milk”."
+        },
+        {
+          "id": "ctt3",
+          "statement": "Sending promotions to past customers is described as cheaper than advertising broadly.",
+          "answer": true,
+          "explanation": "True — “a different and far cheaper proposition than advertising to a town”."
+        },
+        {
+          "id": "ctt4",
+          "statement": "The text says the data usually produces dramatic results immediately.",
+          "answer": false,
+          "explanation": "False — “none of this is dramatic on any single day”; the gains show up over time."
+        },
+        {
+          "id": "ctt5",
+          "statement": "One person not recording a change is enough to make the stock figures untrustworthy.",
+          "answer": true,
+          "explanation": "True — and once trust goes, “everyone goes back to guessing”."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "“The software is only as good as the discipline around it.” Where have you seen a good system defeated by habits?",
+    "Owners believe they know what sells and are partly wrong. What do you think you know about your own work that the numbers might contradict?",
+    "Is it better for a small business to hold customer data or to avoid holding it wherever possible?",
+    "The useful discoveries are described as dull. Why do people expect data to produce dramatic findings?",
+    "Write about 150 words describing a small business you know and one thing software could genuinely improve about it."
+  ]
+}

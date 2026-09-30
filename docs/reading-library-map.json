@@ -17,14 +17,15 @@
       "level": "B1",
       "topic": "work",
       "action": "CONVERT",
-      "audio": "n/a",
-      "reason": "Pure simple-past gap-fill on accounting tasks; no prose passage. Becomes a fill-blank block.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Pure simple-past gap-fill on accounting tasks; no prose passage. Becomes a fill-blank block. — DONE: Converted. The source was a pure conjugation drill — roughly 200 'I ______ (prepare)' slots across six tense sections and no prose at all. Replaced by a real first-person account of freelance work, with the tense contrast kept as a manageable exercise covering the same five time frames.",
+      "status": "IMPLEMENTED",
       "card_title": "A Freelance Accounting Assignment",
       "card_desc": "Exercises on vocabulary and scenarios related to freelance accounting.",
       "source_files": [
         "cefr/texts/a-freelance-accounting-assignment.pdf"
-      ]
+      ],
+      "page": "reading/b1/a-freelance-accounting-assignment.html"
     },
     {
       "slug": "a1-review-and-a1-review-2",
@@ -299,14 +300,15 @@
       "level": "B1",
       "topic": "work",
       "action": "CONVERT",
-      "audio": "n/a",
-      "reason": "Word-bank gap-fill; its answer key is a separate file to fold in.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Word-bank gap-fill; its answer key is a separate file to fold in. — DONE: Converted: the gap-fill text becomes a real reading and the verb gaps become a fill-blank block, with coffee-and-it-answers merged in as the answers. Rewritten from a bulleted feature list into prose, 'an IT guy' neutralised, and a closing section added on why these systems fail in practice — the discipline, not the software.",
+      "status": "IMPLEMENTED",
       "card_title": "Coffee and It",
       "card_desc": "Exercises combining coffee culture and IT terminology, with answers provided.",
       "source_files": [
         "cefr/texts/coffee-and-it.pdf"
-      ]
+      ],
+      "page": "reading/b1/coffee-and-it.html"
     },
     {
       "slug": "coffee-and-it-answers",
@@ -315,14 +317,15 @@
       "level": "B1",
       "topic": "work",
       "action": "MERGE",
-      "audio": "n/a",
+      "audio": "exists",
       "merge_into": "coffee-and-it",
-      "reason": "Answer key for coffee-and-it; becomes that block's answers/explanations.",
-      "status": "NOT STARTED",
+      "reason": "Answer key for coffee-and-it; becomes that block's answers/explanations. — DONE: Merged into reading/b1/coffee-and-it.html as the answers and explanations for its fill-blank block — see that entry.",
+      "status": "IMPLEMENTED",
       "card_title": "Coffee and It Answers",
       "source_files": [
         "cefr/texts/coffee-and-it-answers.docx"
-      ]
+      ],
+      "page": "reading/b1/coffee-and-it.html"
     },
     {
       "slug": "coffee-brewing",
@@ -534,13 +537,14 @@
       "level": "B2",
       "topic": "sports",
       "action": "CONVERT",
-      "audio": "n/a",
-      "reason": "Technical word-bank gap-fill; answer key is a separate file.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Technical word-bank gap-fill; answer key is a separate file. — DONE: Converted: the technical gap-fill becomes a fill-blank block and the text becomes a real explanation, with formula-1-exercises-answers merged in as the answers. Expanded so each system is explained rather than named, including why grip depends on speed and why braking harder in a fast corner is the wrong instinct.",
+      "status": "IMPLEMENTED",
       "card_title": "Formula 1",
       "source_files": [
         "cefr/texts/formula-1.pdf"
-      ]
+      ],
+      "page": "reading/b2/formula-1.html"
     },
     {
       "slug": "formula-1-exercises-answers",
@@ -549,14 +553,15 @@
       "level": "B2",
       "topic": "sports",
       "action": "MERGE",
-      "audio": "n/a",
+      "audio": "exists",
       "merge_into": "formula-1",
-      "reason": "Answer key for formula-1.",
-      "status": "NOT STARTED",
+      "reason": "Answer key for formula-1. — DONE: Merged into reading/b2/formula-1.html as the answers for its gap-fill — see that entry.",
+      "status": "IMPLEMENTED",
       "card_title": "Formula 1 Exercises Answers",
       "source_files": [
         "cefr/texts/formula-1-exercises-answers.docx"
-      ]
+      ],
+      "page": "reading/b2/formula-1.html"
     },
     {
       "slug": "glamping",
@@ -1126,14 +1131,15 @@
       "level": "B1",
       "topic": "travel",
       "action": "CONVERT",
-      "audio": "n/a",
-      "reason": "Word-bank gap-fill about hiking in Rio; keep as a drill.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Word-bank gap-fill about hiking in Rio; keep as a drill. — DONE: Converted: the noun gap-fill becomes a vocabulary block and the text becomes a genuine hiking reading. Added the fact the source omitted — Tijuca's forest is a deliberate nineteenth-century replanting after coffee clearance threatened the city's water — plus practical advice on heat, water and local safety knowledge.",
+      "status": "IMPLEMENTED",
       "card_title": "Rio De Janeiro Exercises",
       "card_desc": "Exercises on Rio de Janeiro culture.",
       "source_files": [
         "cefr/texts/rio-de-janeiro-exercises.pdf"
-      ]
+      ],
+      "page": "reading/b1/rio-de-janeiro-exercises.html"
     },
     {
       "slug": "romania",

@@ -1,0 +1,367 @@
+{
+  "id": "b1-reading-detective-story",
+  "level": "B1",
+  "slug": "detective-story",
+  "topic": "society",
+  "title": "The False Wall",
+  "subtitle": "A safe is emptied, a note is found, and the person nobody suspected turns out to have done it.",
+  "description": "A B1 crime-fiction reading and listening text following a burglary investigation, with the vocabulary of crime and police work and comprehension exercises.",
+  "source": "cefr/texts/detective-story.docx",
+  "provenance": "edited",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "3:20"
+  },
+  "passage": [
+    "It was a dreary Monday morning when Detective Julia Kendall was called out to a burglary. The house belonged to a wealthy businessman, and he had woken to find his safe standing open and emptied — a considerable amount of cash, and his wife's jewellery.",
+    "What struck Kendall first was that nothing else had been touched. There was no broken glass, no forced door, nothing disturbed in any other room. Whoever had done this had walked in, gone straight to the safe, and left. That narrowed the list of possibilities immediately, because it meant two things: the burglar had known where the safe was, and had known how to open it.",
+    "On the floor near the safe she found a scrap of paper, torn and crumpled, with a few words still legible: “Meet at the park. Richard.” She bagged it without much confidence. It could have been months old, and it named a first name and nothing else.",
+    "The name turned out to matter. As she went through the household's recent history, she learned that the businessman had dismissed his personal assistant three months earlier — a man named Richard — after money had gone missing from a company account. The businessman had chosen not to press charges, on the grounds that it would take a year and achieve nothing, and had simply let him go. Two of the staff remembered Richard being furious, and one recalled him saying he would get even.",
+    "It was suggestive, and it was not evidence. Kendall had a former employee with a grudge, a note with a common first name, and a safe that had been opened by someone who knew the combination. None of that would survive ten minutes in a courtroom.",
+    "What broke it was a phone call. A man named Douglas, who had worked alongside Richard and had kept in touch, rang to say that he had seen him at the weekend wearing a watch he was certain belonged to the businessman's wife — he had noticed it years earlier because of an unusual green face. He sounded reluctant on the phone, and said twice that he hoped he was wrong.",
+    "That was enough for a warrant. Kendall and two officers went to Richard's flat on the Thursday morning. They found nothing in the obvious places, and were almost finished when one of the officers noticed that a kitchen cupboard was a good deal shallower inside than the wall behind it should have allowed. Behind it was a cavity, and in the cavity were the cash, the jewellery, and — folded into a jacket pocket — the other half of the torn note.",
+    "Richard denied everything for the first twenty minutes of the interview. He stopped when Kendall put the two halves of the paper on the table in front of him and did not say anything at all. Then he asked whether it would help him to explain, and by the end of the afternoon he had admitted all of it.",
+    "What surprised people afterwards was not that the money had gone. It was who had taken it. Richard had coached a junior football team for six years, and several of the neighbours interviewed said, in almost the same words, that he was the last person they would have expected. Kendall had heard that sentence at the end of a great many cases, and had stopped finding it remarkable. She wrote up the file and went back to her desk, where there were four more."
+  ],
+  "vocabulary": [
+    {
+      "term": "dreary",
+      "definition": "dull, grey and depressing"
+    },
+    {
+      "term": "burglary",
+      "definition": "the crime of entering a building illegally to steal"
+    },
+    {
+      "term": "safe",
+      "definition": "a locked metal box or cabinet for valuables"
+    },
+    {
+      "term": "to strike someone",
+      "definition": "to make an immediate impression on someone",
+      "match": "struck"
+    },
+    {
+      "term": "forced",
+      "definition": "broken open by force"
+    },
+    {
+      "term": "to narrow",
+      "definition": "to reduce the number of possibilities",
+      "match": "narrowed"
+    },
+    {
+      "term": "scrap",
+      "definition": "a small torn piece of something"
+    },
+    {
+      "term": "crumpled",
+      "definition": "crushed into folds and creases"
+    },
+    {
+      "term": "legible",
+      "definition": "clear enough to be read"
+    },
+    {
+      "term": "to bag",
+      "definition": "to seal evidence in a bag at a crime scene",
+      "match": "bagged"
+    },
+    {
+      "term": "to dismiss",
+      "definition": "to remove someone from their job",
+      "match": "dismissed"
+    },
+    {
+      "term": "to press charges",
+      "definition": "to make a formal accusation so that a prosecution can follow",
+      "match": "press charges"
+    },
+    {
+      "term": "grudge",
+      "definition": "a lasting resentment against someone"
+    },
+    {
+      "term": "to get even",
+      "definition": "to take revenge",
+      "match": "get even"
+    },
+    {
+      "term": "suggestive",
+      "definition": "pointing toward a conclusion without proving it"
+    },
+    {
+      "term": "warrant",
+      "definition": "a court document authorising a search or an arrest"
+    },
+    {
+      "term": "cavity",
+      "definition": "a hollow space inside something solid"
+    },
+    {
+      "term": "reluctant",
+      "definition": "unwilling; doing something only with hesitation"
+    },
+    {
+      "term": "to coach",
+      "definition": "to train a sports team",
+      "match": "coached"
+    },
+    {
+      "term": "to write up",
+      "definition": "to produce the finished written record of something",
+      "match": "wrote up"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-det-comprehension",
+      "type": "reading-comprehension",
+      "title": "Following the Investigation",
+      "instructions": "This is a detective story, so read for what each fact allows Kendall to conclude.",
+      "items": [
+        {
+          "id": "de1",
+          "prompt": "What did Kendall conclude from the fact that nothing else had been touched?",
+          "options": [
+            "That the burglar had been interrupted",
+            "That the burglar knew where the safe was and how to open it",
+            "That more than one person had been involved"
+          ],
+          "answerIndex": 1,
+          "explanation": "No forced entry and nothing disturbed elsewhere — “that narrowed the list of possibilities immediately”."
+        },
+        {
+          "id": "de2",
+          "prompt": "Why did Kendall bag the note “without much confidence”?",
+          "options": [
+            "Because it was too damaged to read",
+            "Because it had no fingerprints on it",
+            "Because it could have been months old and gave only a common first name"
+          ],
+          "answerIndex": 2,
+          "explanation": "Her doubt is stated plainly — which is what makes it satisfying when the note turns out to matter."
+        },
+        {
+          "id": "de3",
+          "prompt": "Why had the businessman not pressed charges over the missing money?",
+          "options": [
+            "He had no proof that Richard was responsible",
+            "He thought it would take a year and achieve nothing",
+            "Richard had repaid the money"
+          ],
+          "answerIndex": 1,
+          "explanation": "So he “simply let him go” — a decision that supplies both the grudge and the knowledge used later."
+        },
+        {
+          "id": "de4",
+          "prompt": "Why does Kendall say her case would not “survive ten minutes in a courtroom”?",
+          "options": [
+            "Because the note had been handled incorrectly",
+            "Because a grudge, a common first name and a known combination are suggestive but prove nothing",
+            "Because Richard had an alibi"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text names the distinction directly: “It was suggestive, and it was not evidence.”"
+        },
+        {
+          "id": "de5",
+          "prompt": "Why was Douglas certain about the watch?",
+          "options": [
+            "He had been given one like it himself",
+            "He had seen a photograph of it in the case file",
+            "He had noticed it years earlier because of its unusual green face"
+          ],
+          "answerIndex": 2,
+          "explanation": "A specific, memorable detail is what makes his identification worth acting on."
+        },
+        {
+          "id": "de6",
+          "prompt": "How was the hiding place discovered?",
+          "options": [
+            "An officer noticed a cupboard was shallower inside than the wall allowed",
+            "Richard admitted where it was",
+            "A neighbour had seen him building it"
+          ],
+          "answerIndex": 0,
+          "explanation": "They had found nothing in the obvious places and were almost finished — the discovery turns on noticing a discrepancy."
+        },
+        {
+          "id": "de7",
+          "prompt": "What finally stopped Richard denying the burglary?",
+          "options": [
+            "The jewellery being shown to him",
+            "The two halves of the torn note being placed together in front of him",
+            "Douglas's statement being read out"
+          ],
+          "answerIndex": 1,
+          "explanation": "The half he had kept matched the half left at the scene — and he “did not say anything at all”."
+        },
+        {
+          "id": "de8",
+          "prompt": "Why had Kendall “stopped finding it remarkable” that neighbours were surprised?",
+          "options": [
+            "Because she had heard the same sentence at the end of a great many cases",
+            "Because she had suspected him from the beginning",
+            "Because the neighbours had not known him well"
+          ],
+          "answerIndex": 0,
+          "explanation": "The ending quietly makes a point about how ordinary the people who commit such crimes usually are."
+        }
+      ]
+    },
+    {
+      "id": "b1-det-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the story.",
+      "items": [
+        {
+          "id": "dt1",
+          "statement": "There were signs of forced entry at the house.",
+          "answer": false,
+          "explanation": "False — “no broken glass, no forced door, nothing disturbed in any other room”."
+        },
+        {
+          "id": "dt2",
+          "statement": "Richard had been prosecuted for the earlier missing money.",
+          "answer": false,
+          "explanation": "False — the businessman chose not to press charges and simply dismissed him."
+        },
+        {
+          "id": "dt3",
+          "statement": "Douglas contacted the police willingly and without hesitation.",
+          "answer": false,
+          "explanation": "False — “he sounded reluctant on the phone, and said twice that he hoped he was wrong”."
+        },
+        {
+          "id": "dt4",
+          "statement": "The stolen property was found in an obvious place.",
+          "answer": false,
+          "explanation": "False — it was behind a false cupboard wall, and the team had almost finished searching."
+        },
+        {
+          "id": "dt5",
+          "statement": "Richard confessed on the same day he was arrested.",
+          "answer": true,
+          "explanation": "True — “by the end of the afternoon he had admitted all of it”."
+        },
+        {
+          "id": "dt6",
+          "statement": "Kendall had no other cases waiting.",
+          "answer": false,
+          "explanation": "False — she returned to her desk, “where there were four more”."
+        }
+      ]
+    },
+    {
+      "id": "b1-det-vocabulary",
+      "type": "fill-blank",
+      "title": "The Language of Crime",
+      "instructions": "Complete each sentence with the right word or phrase.",
+      "items": [
+        {
+          "id": "df1",
+          "prompt": "The lock had not been ___, so nobody had broken in.",
+          "answers": [
+            "forced"
+          ],
+          "options": [
+            "forced",
+            "crumpled",
+            "legible"
+          ],
+          "explanation": "Forced means broken open by force — its absence is the clue the whole case turns on."
+        },
+        {
+          "id": "df2",
+          "prompt": "The writing was still ___ despite the damage to the paper.",
+          "answers": [
+            "legible"
+          ],
+          "options": [
+            "legible",
+            "reluctant",
+            "dreary"
+          ],
+          "explanation": "Legible means clear enough to be read."
+        },
+        {
+          "id": "df3",
+          "prompt": "He had held a ___ against his employer since being ___.",
+          "answers": [
+            "grudge",
+            "dismissed"
+          ],
+          "options": [
+            [
+              "grudge",
+              "warrant",
+              "cavity"
+            ],
+            [
+              "dismissed",
+              "bagged",
+              "coached"
+            ]
+          ],
+          "explanation": "A grudge is a lasting resentment; to dismiss someone is to remove them from their job."
+        },
+        {
+          "id": "df4",
+          "prompt": "The company decided not to ___ ___ against him.",
+          "answers": [
+            "press",
+            "charges"
+          ],
+          "options": [
+            [
+              "press",
+              "push",
+              "make"
+            ],
+            [
+              "charges",
+              "warrants",
+              "grudges"
+            ]
+          ],
+          "explanation": "To press charges is to make a formal accusation so that a prosecution can follow."
+        },
+        {
+          "id": "df5",
+          "prompt": "The evidence was ___, but it did not prove anything on its own.",
+          "answers": [
+            "suggestive"
+          ],
+          "options": [
+            "suggestive",
+            "legible",
+            "reluctant"
+          ],
+          "explanation": "Suggestive means pointing toward a conclusion without proving it — the distinction Kendall makes herself."
+        },
+        {
+          "id": "df6",
+          "prompt": "They could not search the flat until they had a ___.",
+          "answers": [
+            "warrant"
+          ],
+          "options": [
+            "warrant",
+            "cavity",
+            "scrap"
+          ],
+          "explanation": "A warrant is the court document authorising a search or an arrest."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The businessman decided not to press charges the first time. Was that a reasonable decision, given what happened afterwards?",
+    "Douglas was reluctant to report a former colleague. What would you have done?",
+    "Kendall separates what is suggestive from what is evidence. Why does that distinction matter outside a courtroom too?",
+    "“The last person they would have expected.” Why do people say this so often about someone who turns out to be guilty?",
+    "Write about 150 words continuing the story: Kendall opens one of the four remaining files. What is in it?"
+  ]
+}

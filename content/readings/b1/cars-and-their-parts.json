@@ -1,0 +1,399 @@
+{
+  "id": "b1-reading-cars-and-their-parts",
+  "level": "B1",
+  "slug": "cars-and-their-parts",
+  "topic": "tech",
+  "title": "What a Car Is Made Of",
+  "subtitle": "Engine, transmission, chassis, suspension, brakes — the parts a mechanic will name, and what each one does.",
+  "description": "A B1 technology reading and listening text explaining the main systems of a car in plain English, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/cars-and-their-parts.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "3:57"
+  },
+  "passage": [
+    "A car has thousands of parts, but almost all of them belong to one of about six systems. If you know what those six do, you can follow most of what a mechanic tells you, and you can describe a problem in a way that gets it fixed.",
+    "The engine produces the power. In a petrol or diesel engine, fuel burns inside sealed cylinders, and the force of each small explosion pushes a piston down. The pistons turn a crankshaft, which converts that up-and-down movement into the rotation the car actually needs, and valves open and close to let fuel and air in and exhaust gases out. Timing is everything: the valves, the pistons and the ignition have to act within thousandths of a second of each other. An electric car does away with all of it. A battery supplies current to one or more motors, and the motors turn directly — far fewer moving parts, and almost no noise.",
+    "The transmission decides how that power reaches the wheels. An engine only produces useful power across a narrow range of speeds, so the transmission uses gears to keep it inside that range whether the car is pulling away from a stop or travelling at a hundred kilometres an hour. A low gear gives more turning force and less speed, which is what you want on a hill; a high gear gives the opposite. A manual transmission makes the driver choose; an automatic chooses for them. Electric motors produce their full turning force from a standstill, which is why most electric cars need only a single gear.",
+    "From the transmission, the power passes through the drivetrain — the shafts and the differential — to the wheels. The differential exists because of a problem that is easy to miss: when a car turns a corner, the outside wheel travels further than the inside one, so the two cannot be locked together at the same speed. The differential lets them turn at different rates. Cars send this power to the front wheels, the rear wheels, or all four, and all-wheel drive gives more grip on a loose or wet surface.",
+    "The chassis is the structure everything else is attached to — usually steel, sometimes aluminium, and designed as much to absorb the energy of a crash as to hold the car together. Mounted on it is the suspension: springs, dampers and the arms that hold the wheels in position. Its job is not only comfort. A wheel that bounces off the road surface is a wheel that is not steering or braking, so suspension is a safety system as much as a ride-quality one.",
+    "The wheels and tyres are the only parts of a car that touch the road, and every force — accelerating, braking, cornering — passes through four contact patches each about the size of a hand. Tyre condition therefore matters more than most drivers assume. Inside the wheels are the brakes: a disc that turns with the wheel, and a caliper that squeezes pads against it. The friction converts the car's movement into heat, which is why brakes get extremely hot and why they fade when used hard for too long.",
+    "Finally there is the cabin and its controls. The steering system turns the wheel's rotation into movement at the front wheels through a rack and pinion. The dashboard reports what the car is doing. Modern cars add a great deal more — screens, climate control, cameras, sensors that brake for you if you do not — but the underlying six systems are unchanged. The car still burns or stores energy, converts it to rotation, sends it to the wheels, holds itself together, stays in contact with the road, and stops."
+  ],
+  "vocabulary": [
+    {
+      "term": "cylinder",
+      "definition": "the sealed tube in an engine where fuel burns",
+      "match": "cylinders"
+    },
+    {
+      "term": "piston",
+      "definition": "the part pushed down inside a cylinder by burning fuel"
+    },
+    {
+      "term": "crankshaft",
+      "definition": "the shaft that turns up-and-down piston movement into rotation"
+    },
+    {
+      "term": "valve",
+      "definition": "a part that opens and closes to control the flow of gas or liquid",
+      "match": "valves"
+    },
+    {
+      "term": "exhaust",
+      "definition": "the waste gases produced by a burning engine"
+    },
+    {
+      "term": "ignition",
+      "definition": "the system that sets the fuel alight at the right moment"
+    },
+    {
+      "term": "transmission",
+      "definition": "the system of gears that delivers engine power to the wheels"
+    },
+    {
+      "term": "gear",
+      "definition": "a toothed wheel used to change speed or turning force",
+      "match": "gears"
+    },
+    {
+      "term": "turning force",
+      "definition": "the strength with which something is twisted or rotated"
+    },
+    {
+      "term": "standstill",
+      "definition": "a complete stop"
+    },
+    {
+      "term": "drivetrain",
+      "definition": "the parts that carry power from the transmission to the wheels"
+    },
+    {
+      "term": "differential",
+      "definition": "the part that lets the driven wheels turn at different speeds in a corner"
+    },
+    {
+      "term": "grip",
+      "definition": "the hold a tyre keeps on the road surface"
+    },
+    {
+      "term": "chassis",
+      "definition": "the structural frame everything else on a car is attached to"
+    },
+    {
+      "term": "suspension",
+      "definition": "the springs and dampers that keep the wheels on the road"
+    },
+    {
+      "term": "damper",
+      "definition": "a part that absorbs and slows down a spring's movement",
+      "match": "dampers"
+    },
+    {
+      "term": "contact patch",
+      "definition": "the small area of a tyre actually touching the road at any moment",
+      "match": "contact patches"
+    },
+    {
+      "term": "caliper",
+      "definition": "the part that squeezes the brake pads against the disc"
+    },
+    {
+      "term": "friction",
+      "definition": "the resistance between two surfaces rubbing together"
+    },
+    {
+      "term": "to fade",
+      "definition": "to lose effectiveness, said of brakes that have overheated"
+    },
+    {
+      "term": "rack and pinion",
+      "definition": "the gear arrangement that turns steering-wheel rotation into side-to-side movement"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-cars-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Each of these asks why a part exists, not only what it is called.",
+      "items": [
+        {
+          "id": "ca1",
+          "prompt": "What does the crankshaft do?",
+          "options": [
+            "It converts the pistons' up-and-down movement into rotation",
+            "It controls when the valves open",
+            "It supplies fuel to the cylinders"
+          ],
+          "answerIndex": 0,
+          "explanation": "The engine produces linear movement; the wheels need rotation. The crankshaft is what bridges them."
+        },
+        {
+          "id": "ca2",
+          "prompt": "Why does a car need a transmission at all?",
+          "options": [
+            "To reduce the noise the engine makes",
+            "Because an engine only produces useful power across a narrow range of speeds",
+            "To reverse the direction of the crankshaft"
+          ],
+          "answerIndex": 1,
+          "explanation": "The gears keep the engine inside that range “whether the car is pulling away from a stop or travelling at a hundred kilometres an hour”."
+        },
+        {
+          "id": "ca3",
+          "prompt": "Why do most electric cars need only one gear?",
+          "options": [
+            "Because they are driven more slowly",
+            "Because their motors produce full turning force from a standstill",
+            "Because they have no drivetrain"
+          ],
+          "answerIndex": 1,
+          "explanation": "The problem gears exist to solve does not arise in the same way."
+        },
+        {
+          "id": "ca4",
+          "prompt": "Why is a differential necessary?",
+          "options": [
+            "Because in a corner the outside wheel travels further than the inside one",
+            "Because the front and rear axles rotate in opposite directions",
+            "Because the engine turns faster than the wheels"
+          ],
+          "answerIndex": 0,
+          "explanation": "The text calls it “a problem that is easy to miss” — the two wheels cannot be locked at the same speed through a turn."
+        },
+        {
+          "id": "ca5",
+          "prompt": "Why does the writer say the suspension is a safety system?",
+          "options": [
+            "Because it protects the passengers in a crash",
+            "Because it stops the chassis from bending",
+            "Because a wheel bouncing off the road is not steering or braking"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Its job is not only comfort” — keeping the tyre in contact with the road is what keeps the driver in control."
+        },
+        {
+          "id": "ca6",
+          "prompt": "Why does the text say tyre condition matters more than drivers assume?",
+          "options": [
+            "Because tyres are expensive to replace",
+            "Because every force passes through four contact patches about the size of a hand",
+            "Because tyres affect fuel consumption"
+          ],
+          "answerIndex": 1,
+          "explanation": "Accelerating, braking and cornering all act through that very small total area."
+        },
+        {
+          "id": "ca7",
+          "prompt": "Why do brakes fade?",
+          "options": [
+            "The pads wear down completely",
+            "The friction converts movement into heat, and they overheat when used hard for too long",
+            "The caliper loses pressure at speed"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Which is why brakes get extremely hot and why they fade when used hard for too long.”"
+        },
+        {
+          "id": "ca8",
+          "prompt": "What is the writer's point in the final sentence?",
+          "options": [
+            "That modern electronics have replaced the mechanical systems",
+            "That the six basic jobs a car does are unchanged, however much technology is added",
+            "That older cars were simpler to repair"
+          ],
+          "answerIndex": 1,
+          "explanation": "The list at the end restates the six systems as six jobs — the frame the whole text was built on."
+        }
+      ]
+    },
+    {
+      "id": "b1-cars-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "cat1",
+          "statement": "A low gear gives more turning force and less speed.",
+          "answer": true,
+          "explanation": "True — “which is what you want on a hill”. A high gear does the opposite."
+        },
+        {
+          "id": "cat2",
+          "statement": "Electric cars have more moving parts than petrol engines.",
+          "answer": false,
+          "explanation": "False — “far fewer moving parts, and almost no noise”."
+        },
+        {
+          "id": "cat3",
+          "statement": "All-wheel drive improves grip on a loose or wet surface.",
+          "answer": true,
+          "explanation": "True — given as the reason for sending power to all four wheels."
+        },
+        {
+          "id": "cat4",
+          "statement": "The chassis is designed only to hold the car together.",
+          "answer": false,
+          "explanation": "False — it is designed “as much to absorb the energy of a crash” as to hold the car together."
+        },
+        {
+          "id": "cat5",
+          "statement": "Brakes work by converting movement into heat.",
+          "answer": true,
+          "explanation": "True — through friction between the pads and the disc."
+        },
+        {
+          "id": "cat6",
+          "statement": "A manual transmission chooses the gear for the driver.",
+          "answer": false,
+          "explanation": "False — that is an automatic. A manual “makes the driver choose”."
+        }
+      ]
+    },
+    {
+      "id": "b1-cars-matching",
+      "type": "matching",
+      "title": "Part and Purpose",
+      "instructions": "Match each part to the job it does.",
+      "items": [
+        {
+          "id": "cam1",
+          "pairs": [
+            {
+              "left": "Piston",
+              "right": "pushed down inside the cylinder by burning fuel"
+            },
+            {
+              "left": "Crankshaft",
+              "right": "turns that movement into rotation"
+            },
+            {
+              "left": "Transmission",
+              "right": "keeps the engine in its useful speed range"
+            },
+            {
+              "left": "Differential",
+              "right": "lets the driven wheels turn at different speeds in a corner"
+            },
+            {
+              "left": "Suspension",
+              "right": "keeps the tyres in contact with the road"
+            },
+            {
+              "left": "Caliper",
+              "right": "squeezes the pads against the brake disc"
+            },
+            {
+              "left": "Rack and pinion",
+              "right": "turns steering-wheel rotation into side-to-side movement"
+            }
+          ],
+          "explanation": "In order, these trace the path energy takes through a car: from the explosion in the cylinder all the way to the road, and then back to a stop."
+        }
+      ]
+    },
+    {
+      "id": "b1-cars-vocabulary",
+      "type": "fill-blank",
+      "title": "Talking to a Mechanic",
+      "instructions": "Complete each sentence with the right term.",
+      "items": [
+        {
+          "id": "caf1",
+          "prompt": "There is a noise from the ___ when I go over bumps.",
+          "answers": [
+            "suspension"
+          ],
+          "options": [
+            "suspension",
+            "ignition",
+            "differential"
+          ],
+          "explanation": "The suspension is what deals with bumps, so that is where a bump-related noise comes from."
+        },
+        {
+          "id": "caf2",
+          "prompt": "The brakes started to ___ on the long descent.",
+          "answers": [
+            "fade"
+          ],
+          "options": [
+            "fade",
+            "grip",
+            "rotate"
+          ],
+          "explanation": "To fade is to lose effectiveness through overheating — exactly what a long descent causes."
+        },
+        {
+          "id": "caf3",
+          "prompt": "The tyres have almost no ___ left in the wet.",
+          "answers": [
+            "grip"
+          ],
+          "options": [
+            "grip",
+            "friction",
+            "torque"
+          ],
+          "explanation": "Grip is the hold a tyre keeps on the road surface."
+        },
+        {
+          "id": "caf4",
+          "prompt": "The ___ is slipping — it will not stay in third ___.",
+          "answers": [
+            "transmission",
+            "gear"
+          ],
+          "options": [
+            [
+              "transmission",
+              "chassis",
+              "ignition"
+            ],
+            [
+              "gear",
+              "valve",
+              "piston"
+            ]
+          ],
+          "explanation": "The transmission holds the gears; slipping out of gear is a transmission fault."
+        },
+        {
+          "id": "caf5",
+          "prompt": "The car will not start — I think it is the ___.",
+          "answers": [
+            "ignition"
+          ],
+          "options": [
+            "ignition",
+            "suspension",
+            "drivetrain"
+          ],
+          "explanation": "The ignition sets the fuel alight; if it fails, the engine will not run at all."
+        },
+        {
+          "id": "caf6",
+          "prompt": "The ___ between the pads and the disc turns movement into heat.",
+          "answers": [
+            "friction"
+          ],
+          "options": [
+            "friction",
+            "grip",
+            "ignition"
+          ],
+          "explanation": "Friction is the resistance between two surfaces rubbing together."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The text says knowing the six systems lets you describe a problem so it gets fixed. Have you ever struggled to explain a fault to a specialist?",
+    "Electric cars remove most of the moving parts. What is gained, and is anything lost?",
+    "Which of the six systems would you least want to fail while driving, and why?",
+    "Do you think drivers should have to understand how a car works, or is that the mechanic's job?",
+    "Write about 120 words explaining how something you use every day works, naming its parts and what each one does."
+  ]
+}

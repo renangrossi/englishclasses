@@ -158,13 +158,14 @@
       "level": "B1",
       "topic": "food",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Factual slip: 'Pilsner: Pilsen is a type of lager'. Fix, tighten the style list.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Factual slip: 'Pilsner: Pilsen is a type of lager'. Fix, tighten the style list. — DONE: Factual slip fixed — the source said 'Pilsner: Pilsen is a type of lager'; Plzen/Pilsen is the CITY the style is named after. Also corrects the IPA origin story (the 'invented to survive the voyage to India' version is a later simplification) and the porter/stout relationship (porter came first; 'stout' originally meant a stronger porter). The brand directory is dropped — it read as advertising and dates badly — and replaced by an explanation of what actually distinguishes the styles.",
+      "status": "IMPLEMENTED",
       "card_title": "Beers",
       "source_files": [
         "cefr/texts/beers.pdf"
-      ]
+      ],
+      "page": "reading/b1/beers.html"
     },
     {
       "slug": "business-war-it",
@@ -190,14 +191,15 @@
       "level": "B1",
       "topic": "food",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Sound process text. Slug de-accented for safe hosting; retitle from the odd 'Distilled Spirit Visitation'.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Sound process text. Slug de-accented for safe hosting; retitle from the odd 'Distilled Spirit Visitation'. — DONE: Retitled from the odd 'Distilled Spirit Visitation'; slug de-accented to cachacas (P-3). Kept as a process text and sharpened — the fresh-juice/molasses distinction from rum, why copper matters, and the head/heart/tail cut. The two brand directories are dropped as advertising that dates.",
+      "status": "IMPLEMENTED",
       "card_title": "Cachaças",
       "source_files": [
         "cefr/texts/cachaças.pdf"
       ],
-      "card_id": "cacha-as"
+      "card_id": "cacha-as",
+      "page": "reading/b1/cachacas.html"
     },
     {
       "slug": "capetown",
@@ -244,14 +246,15 @@
       "level": "B1",
       "topic": "tech",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Good vocabulary load; over-casual asides ('this beast drives the whole operation') to even out.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Good vocabulary load; over-casual asides ('this beast drives the whole operation') to even out. — DONE: Over-casual asides evened out: 'this beast drives the whole operation', 'guide the beast', 'the beefiest engine block', 'every pothole would feel like a personal attack' and 'human ingenuity hits the gas' are gone. Also drops 'without blowing a gasket', which used a literal engine failure as a loose idiom in a text explaining engines. The vocabulary load is kept and each part now gets the reason it exists.",
+      "status": "IMPLEMENTED",
       "card_title": "Cars and Their Parts",
       "card_desc": "Vocabulary exercises on car components and automotive terms.",
       "source_files": [
         "cefr/texts/cars-and-their-parts.pdf"
-      ]
+      ],
+      "page": "reading/b1/cars-and-their-parts.html"
     },
     {
       "slug": "christmas-krampus-grinch",
@@ -260,13 +263,14 @@
       "level": "B1",
       "topic": "culture",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Text points at images that do not survive conversion ('Here is a chilling traditional image of Krampus'). Rewrite those references out.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Text points at images that do not survive conversion ('Here is a chilling traditional image of Krampus'). Rewrite those references out. — DONE: The references to images that do not survive conversion ('Here is some classic depiction', 'Here is a chilling traditional image of Krampus') are gone. The source also broke off mid-Grinch; the section is completed and the three figures are tied together.",
+      "status": "IMPLEMENTED",
       "card_title": "Christmas Krampus Grinch",
       "source_files": [
         "cefr/texts/christmas-krampus-grinch.pdf"
-      ]
+      ],
+      "page": "reading/b1/christmas-krampus-grinch.html"
     },
     {
       "slug": "climbing",
@@ -408,14 +412,15 @@
       "level": "B1",
       "topic": "society",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Good whodunnit with inline vocabulary glosses that become a real vocabulary component. Retitle (the 'Cachaca Case' name is unrelated to the plot).",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Good whodunnit with inline vocabulary glosses that become a real vocabulary component. Retitle (the 'Cachaca Case' name is unrelated to the plot). — DONE: Retitled from 'The Cachaca Case', which named an incidental detail rather than the plot. The inline glosses become a real vocabulary component. The plot is tightened so the case turns on evidence rather than coincidence: the torn note only matters once its matching half is found in the flat, and the tip is what justifies the warrant.",
+      "status": "IMPLEMENTED",
       "card_title": "Detective Story",
       "card_desc": "Reading and comprehension exercises based on a detective narrative.",
       "source_files": [
         "cefr/texts/detective-story.pdf"
-      ]
+      ],
+      "page": "reading/b1/detective-story.html"
     },
     {
       "slug": "do-make-livestock-farming",

@@ -106,6 +106,22 @@ def generate(level, slug, d, tts):
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
     if r.returncode != 0 or not out.exists() or out.stat().st_size < 2000:
         raise RuntimeError(f"edge-tts failed for {level}/{slug}: {r.stderr.strip()[:300]}")
+
+    # edge-tts can return 0 and still write a file that stops part-way
+    # through the text -- it happened once to b1/cachacas, which came out at
+    # 1:56 for a passage that needs 3:31, and nothing caught it because the
+    # old guard only rejected files under 2 KB. Narration is reliably around
+    # 2.0-2.4 KB per word at A2/B1 pacing and 1.7-1.9 at natural speed, so a
+    # file under 1.4 KB per word has lost a large part of the text. The
+    # threshold is deliberately loose: it is here to catch gross truncation,
+    # not to police normal variation between voices.
+    words = sum(len(p.split()) for p in d["passage"]) or 1
+    kb_per_word = (out.stat().st_size / 1024) / words
+    if kb_per_word < 1.4:
+        raise RuntimeError(
+            f"{level}/{slug}: narration looks truncated -- {out.stat().st_size // 1024} KB "
+            f"for {words} words ({kb_per_word:.2f} KB/word, expected >= 1.4). "
+            f"Delete the file and run again; this is usually a transient edge-tts failure.")
     return out, voice, rate
 
 

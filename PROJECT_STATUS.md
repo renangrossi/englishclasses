@@ -14,8 +14,8 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | Milestones 0–4 complete → Milestone 5 (the remaining drills and split files) |
-| **Overall completion** | ~75% (76 of 98 source entries resolved into 68 pages; `KEEP`, `EDIT`, `REPLACE` and `DELETE` are all finished, so every content defect under P-5 is fixed) |
+| **Current phase** | Conversion complete → the A1 and C2 gaps (open problem P-1) |
+| **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
 
 ### What this project is *not*
 It is not a redesign of the grammar-lesson system. `levels/{level}/*.html` + `curriculum/{level}/*.json`
@@ -152,41 +152,33 @@ so they are recorded in [The source JSON contract](#the-source-json-contract)):
 
 ## Current milestone
 
-### Milestone 4 — `EDIT`, `REPLACE` and `DELETE` ✅
-- **Date:** 2026-09-30
-- **Pushed:** yes · **Merged:** yes
+### Milestone 5 — Conversion complete ✅
+- **Date:** 2026-09-30 · **Pushed:** yes · **Merged:** yes
 
-1. **All 31 `EDIT` texts** implemented, including the five P-4 texts written only to drill a
-   form, and three that needed factual corrections (the ARPANET origin myth, the Mitnick
-   chronology, and “Pilsen is a type of lager” — Plzeň is the city the style is named after).
-2. **All 12 `REPLACE` texts** implemented, which closes **every content defect listed under
-   P-5**: the pseudo-archaeology, the derogatory passage about developing nations, the graphic
-   Haiti material, the vendor marketing copy, the unusable slang, and the rest.
-3. **All 5 `DELETE` entries** recorded as complete. Their files had already been removed in an
-   earlier milestone, but the map still read NOT STARTED and was overstating the work left.
-4. **Both `stale-on-edit` texts** (`capetown`, `physical-education`) re-narrated and their 4+4
-   superseded mp3s deleted, so no mismatched audio remains anywhere (requirement 8.6/8.7).
-5. **Typography and layout changes** requested by the user — see decisions D-11 and D-12.
-6. **A truncation guard added to the narrator** after one file shipped at half length; see
-   [Audio](#audio-architecture).
+Every `CONVERT`, `MERGE` and `SPLIT` entry is done, and the library is finished as a conversion
+project. 86 pages, all narrated, no stale audio, `check_site_integrity.py` clean.
 
-## Current milestone
+Three verdicts were changed during this milestone, each recorded in the map entry:
+- `shadows-in-the-server-room` — the audit said split into chapters; the user asked for one
+  story, so the length was solved by editing (2,407 words down to 1,362) instead.
+- `text-interpretation-aesops-fables` — split into three themed pages rather than seven, since
+  a fable is a 200-word form and a page holding one cannot carry a reading, audio and exercises.
+- `soothing-texts` — split by level rather than theme, because its scenes were not written at
+  one level.
 
-### Milestone 5 — The drills and the split files (IN PROGRESS)
+The grammar drills were removed rather than converted, on the user's instruction that this area
+is for reading texts: the grammar system already lives in `levels/` + `curriculum/` (D-2).
 
-**Goal:** finish the remaining 22 entries, then fill the A1 and C2 gaps.
+### Milestone 6 — A1 and C2 (NOT STARTED)
 
-**What remains**
-1. The **7 remaining `CONVERT`** drills (4 done).
-2. The **7 remaining `MERGE`** sources (8 done) — all of them drill or review files.
-3. The **8 `SPLIT`** files, each holding several unrelated exercises.
-4. New A1 and C2 content for open problem P-1, labelled `provenance: "new"`.
+**This is authoring, not conversion.** Nothing remains in `cefr/texts/` to convert.
 
-**The CONVERT/MERGE pattern, now established:** the gapped text becomes a real passage with the
-gaps filled, and the gaps themselves become a `fill-blank` block. Where a separate answer-key
-file exists, it merges in as that block's answers. A drill with no prose at all (see
-`a-freelance-accounting-assignment`) needs a short authentic passage written for it — the
-builder requires `passage`, and a page of bare exercises is not a reading.
+1. **A1 has no material at all.** Its single source was a review drill and was deleted with the
+   others, so the level is absent from the hub entirely. Everything here must be written new,
+   labelled `provenance: "new"` (requirement 6).
+2. **C2 has never had any**, as the original audit found.
+3. Both should follow the editorial rules, in particular rule 8 — at A1 especially, do not spend
+   highlights on words a Portuguese speaker reads for free.
 
 **Next exact actions:** see [NEXT SESSION](#next-session).
 
@@ -269,7 +261,7 @@ The 2 `stale-on-edit` texts are `capetown` (4 mp3s) and `physical-education` (4 
 | **Exercise engine** | `assets/js/exercises.js` (1841 lines). **No JS changes needed.** |
 | **Exercise types available** | `multiple-choice`, `true-false`, `fill-blank`, `matching`, `ordering`, `correction`, `typing`, `reading-comprehension`, `vocabulary`, `writing` |
 | **Audio player** | Native `<audio controls preload="metadata">` at the top of the reading section, with a download link as fallback. Gives play/pause, progress, elapsed/total time, keyboard access and the browser's own speed menu on desktop and mobile, with no JS to fail. The grammar lessons' listening blocks keep their `<details class="transcript-toggle">` pattern; a reading page shows the text itself, so it needs no transcript toggle. |
-| **HTML migration** | 76 / 98 source entries resolved → 68 reading pages (12 A2, 31 B1, 16 B2, 9 C1), each with narration. Fewer pages than entries because merges combine several sources into one page |
+| **HTML migration** | **Complete.** 98 / 98 source entries resolved → 86 reading pages (15 A2, 37 B1, 23 B2, 11 C1), each with narration. Fewer pages than entries because merges combine sources and splits divide them |
 | **CSS** | Reading pages reuse `.summary-list` (lessons.css) and the site-wide `audio` rule (components.css). `.reading-passage` in exercises.css has been rewritten twice on purpose — see decisions D-8 and D-11. No other CSS has been touched |
 | **JavaScript** | **No changes made.** `assets/js/exercises.js` renders the new pages unmodified |
 | **Navigation** | `exercises.html` is currently a flat alphabetical grid of 117 "Open PDF" cards — to be restructured |
@@ -360,10 +352,10 @@ progress can be tracked and resumed. `docs/content-audit.md` is the human-readab
 | DELETE | 5 | nothing worth migrating |
 | **Total** | **98** | |
 
-**Progress:** 71 IMPLEMENTED · 5 COMPLETE (deleted) · 22 NOT STARTED · 98 AUDITED
+**Progress:** 87 IMPLEMENTED · 11 COMPLETE (deleted) · 0 NOT STARTED · 98 AUDITED
 
-Finished actions: **KEEP** 15/15, **EDIT** 31/31, **REPLACE** 12/12, **DELETE** 5/5.
-Remaining: **CONVERT** 7, **MERGE** 7, **SPLIT** 8.
+Every action is finished: **KEEP** 15, **EDIT** 31, **REPLACE** 12, **MERGE** 15, **CONVERT** 8,
+**SPLIT** 6, **DELETE** 11. Nothing in `cefr/texts/` is awaiting conversion.
 
 ---
 
@@ -558,31 +550,17 @@ belongs in `discussion` — which is what every reading page does — not in a `
 
 ### Work order
 
-1. ~~**`KEEP`**~~, ~~**`EDIT`**~~, ~~**`REPLACE`**~~, ~~**`DELETE`**~~ — **all finished.**
-   No `KEEP` text ever matched its existing audio: the old mp3s in `cefr/texts/` were split
-   into 2–4 parts narrating an earlier wording, so every one was re-narrated as a single file
-   and the superseded segments removed.
-2. ~~**`exercises.html` → the levelled hub**~~ — done in Milestone 2. Regenerate it with
-   `python3 scripts/build_exercises_hub.py` after any map change; implemented cards take their
-   title and subtitle from the reading JSON, not from `card_title`/`card_desc`.
-3. **The 7 remaining `CONVERT` drills** — `a2-review`, `grammar-practice-i`,
-   `grocery-shopping`, `review-prepositions-some-any-no-tenses-comparatives`,
-   `say-talk-speak-tell-exercises`, `questionnaire-company-management`,
-   `questionnaire-company-tech-leader`.
-4. **The 7 remaining `MERGE` sources**, which form three targets:
-   `simple-past-+-present-continuous-+-future-1` + `-2`; `two-texts-sp-to-pp` + `-ii`;
-   and `daily-activities` + `unfortunate-events` + `navigating-finance`, which are three
-   copies of one gap-fill template.
-5. **The 8 `SPLIT` files.** Each holds several unrelated materials and becomes more than one
-   page; `a1-review-and-a1-review-2`, `verb-tense-review` (5,091 words) and
-   `text-interpretation-aesops-fables` are the large ones.
-6. **New A1 and C2 content** for P-1, labelled `provenance: "new"`. A1 is the real gap — one
-   source text exists for the whole level.
+Conversion is finished; there is no queue left in `cefr/texts/`. What remains:
 
-**Slug note:** a merged or replaced text keeps the original slug so the map entry stays
-traceable, even where the title no longer matches (`maringa` is a Chicago reading,
-`milan-restaurants` is about regional American food, `haiti` is about reading the news). The
-`page` field on each entry is what points at the built page.
+1. **A1 from scratch.** Aim for a spread a beginner can actually finish: greetings and names,
+   numbers and time, family, food and ordering, a room described, a short day. Keep passages
+   under about 150 words, sentences short, and vocabulary concrete.
+2. **A small, honest C2 set.** Only where a text genuinely needs that level — argument,
+   register, irony, implication. Better to write four good ones than twelve padded ones.
+3. **Images for the texts already built.** 84 source documents contain images and 55 of those
+   are genuine content; only a handful have been carried across so far. Use
+   `scripts/extract_source_images.py --list <stem>` to see what a text has. Check the rights
+   before publishing — two images have already been held back for copyright.
 
 **Audit the verdict as you go.** Two texts have now had their audited action changed on a close
 read — `nfl` (KEEP→EDIT, factual errors) and `investigation-story` (KEEP→EDIT, a graphic and

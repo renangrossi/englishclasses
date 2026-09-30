@@ -479,6 +479,12 @@
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
  },
+ "c1/shadows-in-the-server-room": {
+  "bytes": 3032496,
+  "fingerprint": "e65aa4a5924147e6",
+  "rate": "+0%",
+  "voice": "en-US-AriaNeural"
+ },
  "c1/technology-and-ethics": {
   "bytes": 958032,
   "fingerprint": "615a8fb456ea5806",

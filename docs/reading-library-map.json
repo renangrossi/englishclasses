@@ -1263,13 +1263,14 @@
       "level": "C1",
       "topic": "work",
       "action": "SPLIT",
-      "audio": "required",
-      "reason": "Strong long-form workplace mystery (2407w) — too long for one page and one audio file. Split into chapters, per requirement 8's guidance against huge audio files.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Strong long-form workplace mystery (2407w) — too long for one page and one audio file. Split into chapters, per requirement 8's guidance against huge audio files. — DONE: VERDICT CHANGED. The audit said split into chapters because of the audio length; the user asked for it kept as one story, so it is one page. The length problem is handled by editing instead — the source's 2,407 words are cut to 1,362 by pruning the similes ('like a lion in a cage', 'a digital tsunami', 'a scowl that could curdle milk'), which brings the recording to 8:25 and 2.9 MB. The source's own glossary of idioms and IT terms becomes the vocabulary, filtered by the no-cognate rule.",
+      "status": "IMPLEMENTED",
       "card_title": "Shadows in the Server Room",
       "source_files": [
         "cefr/texts/shadows-in-the-server-room.pdf"
-      ]
+      ],
+      "page": "reading/c1/shadows-in-the-server-room.html"
     },
     {
       "slug": "simple-past-+-present-continuous-+-future-1",

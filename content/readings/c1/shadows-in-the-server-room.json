@@ -1,0 +1,540 @@
+{
+  "id": "c1-reading-shadows-server-room",
+  "level": "C1",
+  "slug": "shadows-in-the-server-room",
+  "topic": "work",
+  "title": "Shadows in the Server Room",
+  "subtitle": "An outage at 2:47 on a Thursday, and the argument the team had been avoiding for six months.",
+  "description": "A C1 long-form workplace story: a database failure, the blame that follows, and a manager who changes his mind in public — with the idioms and technical vocabulary of an IT department under pressure.",
+  "source": "cefr/texts/shadows-in-the-server-room.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "8:25"
+  },
+  "passage": [
+    "The IT floor at TechNova ran on a kind of controlled disorder. Two monitors per desk, cables nobody had ever traced, coffee cups at various stages of abandonment, and the faint smell of hot electronics that anybody who has worked near a server rack recognises immediately. It was late October in Seattle, raining, and the rain had been going on long enough that people had stopped mentioning it.",
+    "Alex Rivera was debugging an API integration that had been failing intermittently for three days, which is the worst kind. Across the aisle, Jamie Patel kept the infrastructure running — firewalls, backups, and the machines in the server room that everything else depended on. His desk was the only tidy one on the floor. Sam Lee tested what the others built, and her desk was the opposite of Jamie's, a landscape of sticky notes in three colours whose system only she understood.",
+    "Their manager, Harlan Thompson, had come up through the same job twenty years earlier and had the confidence of somebody who had once been very good at something that had since changed. He managed by walking about and by deadline. His view of infrastructure was that if it was working you left it alone, which had served him well for a decade and had stopped serving him at some point he had not noticed.",
+    "The outage began at 2:47.",
+    "Alex's screen froze first. He tried the usual things, got nothing, and looked at the status board. The client portal — where TechNova's largest accounts logged in to track shipments and pull their analytics — was not slow. It was down. A ping to the database told him why: the primary cluster had overheated and taken itself offline, and half the network had gone with it.",
+    "The email started within ninety seconds. One client asked whether the company understood that it was invoicing week. Another used the word “unacceptable” and mentioned their legal team.",
+    "Jamie was already moving. The server room was a converted store cupboard at the back of the floor behind a biometric lock, and inside it the air was warm and the fans were working far harder than fans should have to. He had the diagnostic panel open in under a minute.",
+    "“Node 3,” he said, to nobody. “Cooling's failed again. Full restore from backup. Two hours, minimum.”",
+    "Back in the open office, Alex put his mouse down harder than he meant to. “Two hours. Jamie, you told me you'd patched the cooling last week. I have been saying for months that we need redundant nodes, and every time the answer is budget.”",
+    "It carried further than he intended. Two people from the floor below looked up.",
+    "Jamie came out of the server room with his sleeves pushed up and his composure visibly thinner than usual. “Your deploy last night took eighty per cent of the CPU for four hours. I asked you to throttle those queries and you didn't. And neither of us chose to run production on hardware this old.” He did not look at Harlan's office when he said it, which was how everybody knew that was where the sentence was aimed.",
+    "Harlan came out anyway.",
+    "“What is happening out here? My inbox is on fire. I have just had the VP at Apex on the phone threatening to pull a six-figure contract.” He turned to Jamie. “I signed off on that cooling fix myself. If you had followed the process—”",
+    "“The process.” Jamie did not raise his voice, which made it worse. “Harlan, we have been asking for upgrades since June. I sent you a risk assessment in the Q3 review. Thermal throttling. Single points of failure. It is four pages and you have never mentioned it. You cut the hardware budget to pay for the offsite in Tahoe. So no — the clients are offline, we are losing money by the hour, and this is not a mistake I made on Tuesday.”",
+    "Alex stood up. “He's right. We have been limping for months. I can't optimise code around a machine that fails on a warm afternoon, and Sam's whole test cycle just became worthless. We are patching holes in a boat that is still taking on water because nobody will say so upstairs.”",
+    "Sam, who normally kept the peace, had been quiet long enough to be noticeable. She stood too.",
+    "“Shouting will not bring the database back,” she said. “But Harlan — this is the third warning this quarter. Two of them I logged myself. Not acting on them isn't a decision to accept the risk. It's a decision not to look at it.”",
+    "The floor went very quiet. People a few desks away typed with great concentration at nothing.",
+    "For a few seconds it could have gone either way. Harlan had the look of a man deciding whether to end somebody's afternoon. Then he put his mug down on the nearest desk, harder than necessary, and let out a breath.",
+    "“All right,” he said. “You're right. All three of you.”",
+    "Nobody said anything, because nobody had prepared for that.",
+    "“I've had tunnel vision on the numbers,” he went on. “I've been managing the budget and not the system. This is a wake-up call and I'd rather have it today than in January.” He nodded at the server room door. “We fix it together, and we stop assigning blame until it's back up. Conference room. Now.”",
+    "What followed was the most competent hour the department had had in a year, and it was competent because somebody finally wrote things down.",
+    "Harlan drew a line down the whiteboard. On the left he wrote Stabilise. Jamie owned the restore, with a status update every fifteen minutes whether or not there was anything to report. Alex would draft the client communication — an apology, a realistic estimate, and waived fees for the affected period, which Harlan authorised on the spot rather than asking. Sam would verify the restore before anything went live, and Harlan said the words “no shortcuts” in a way that was clearly aimed at himself.",
+    "On the right he wrote Prevent. A proposal by the end of the following week, from all of them together rather than from him: redundant cooling, a hybrid cloud migration, whatever the evidence supported. He would take the budget fight upstairs and said so in front of everybody, which is a harder thing to walk back than a promise made privately.",
+    "Then he added a third line, and this was the one that mattered. A weekly fifteen-minute stand-up for risks only — no project updates, no status theatre, only things that could break. And a quarterly session with the C-suite where those risks are flagged directly rather than filtered through him.",
+    "“If I'd read that risk assessment in July,” he said, “we would not be here. That's on me. So now it goes where I can't ignore it.”",
+    "The database came back at 5:12, twenty minutes ahead of Jamie's estimate, and Sam found two corrupted records in the verification pass that would have caused a much worse problem on Monday. They went live at 5:40. Alex's email went out before the clients had to ask.",
+    "The thermal audit that night found that the cooling unit had been failing intermittently since August and had been logging warnings the whole time, to a dashboard nobody had been assigned to read.",
+    "That detail is the story, really. Not the overheating, which is ordinary, and not the argument, which was overdue. The system had been telling them for two months, in writing, and the failure was that nobody owned the reading of it. Harlan's third line on the whiteboard — the dull one, the fifteen-minute meeting about things that might break — was the only part of the afternoon that would stop it happening again.",
+    "It is also the part most likely to be quietly dropped in about four months, when nothing has gone wrong for a while and the calendar is full. Everybody in that conference room knew it. That is why Sam asked, before they left, who owned the stand-up if Harlan was travelling — and why it mattered that he answered."
+  ],
+  "vocabulary": [
+    {
+      "term": "controlled disorder",
+      "definition": "a mess that works, and that the people in it understand"
+    },
+    {
+      "term": "intermittently",
+      "definition": "happening sometimes and not others, with no obvious pattern"
+    },
+    {
+      "term": "backup",
+      "definition": "a stored copy of data, kept so it can be recovered",
+      "match": "backups"
+    },
+    {
+      "term": "firewall",
+      "definition": "a system that filters traffic in and out of a network",
+      "match": "firewalls"
+    },
+    {
+      "term": "outage",
+      "definition": "a period when a service is unavailable"
+    },
+    {
+      "term": "to ping",
+      "definition": "to send a quick signal to check whether a machine is reachable"
+    },
+    {
+      "term": "cluster",
+      "definition": "a group of servers working together as one system"
+    },
+    {
+      "term": "node",
+      "definition": "a single machine within a cluster or network"
+    },
+    {
+      "term": "to restore",
+      "definition": "to rebuild a system or its data from a backup",
+      "match": "restore"
+    },
+    {
+      "term": "redundant",
+      "definition": "duplicated on purpose, so that one failure does not stop everything"
+    },
+    {
+      "term": "to deploy",
+      "definition": "to release new code into the live system",
+      "match": "deploy"
+    },
+    {
+      "term": "to throttle",
+      "definition": "to deliberately slow something down to stop it overloading a system"
+    },
+    {
+      "term": "single point of failure",
+      "definition": "a part whose failure brings the whole system down",
+      "match": "Single points of failure"
+    },
+    {
+      "term": "to sign off on",
+      "definition": "to approve something formally",
+      "match": "signed off on"
+    },
+    {
+      "term": "to cut a budget",
+      "definition": "to reduce the money available",
+      "match": "cut the hardware budget"
+    },
+    {
+      "term": "offsite",
+      "definition": "a company trip away from the office, usually for team-building"
+    },
+    {
+      "term": "to be limping",
+      "definition": "to keep working, but badly and at risk",
+      "match": "limping"
+    },
+    {
+      "term": "to take on water",
+      "definition": "to be sinking — said of a boat, and of anything failing slowly",
+      "match": "taking on water"
+    },
+    {
+      "term": "to keep the peace",
+      "definition": "to stop other people from arguing",
+      "match": "kept the peace"
+    },
+    {
+      "term": "tunnel vision",
+      "definition": "focusing on one thing so hard that everything else disappears"
+    },
+    {
+      "term": "wake-up call",
+      "definition": "an unpleasant event that forces you to see a problem"
+    },
+    {
+      "term": "to own something",
+      "definition": "to be the person responsible for it, by name",
+      "match": "owned the restore"
+    },
+    {
+      "term": "to walk something back",
+      "definition": "to retreat from a position you have already stated",
+      "match": "walk back"
+    },
+    {
+      "term": "stand-up",
+      "definition": "a short standing meeting, kept brief on purpose"
+    },
+    {
+      "term": "status theatre",
+      "definition": "reporting that exists to look busy rather than to inform anyone"
+    },
+    {
+      "term": "C-suite",
+      "definition": "the most senior executives of a company"
+    },
+    {
+      "term": "to flag",
+      "definition": "to raise something formally so that it is on record"
+    },
+    {
+      "term": "corrupted",
+      "definition": "damaged so that the data can no longer be read correctly"
+    },
+    {
+      "term": "dashboard",
+      "definition": "a screen showing the current state of a system at a glance"
+    },
+    {
+      "term": "overdue",
+      "definition": "later than it should have been"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-ssr-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading the Story",
+      "instructions": "This is a workplace story with an argument at the centre of it. Read for what each person is actually claiming.",
+      "items": [
+        {
+          "id": "ss1",
+          "prompt": "What does the writer say about Harlan's view of infrastructure?",
+          "options": [
+            "He had never worked in the role himself",
+            "It had served him well for a decade and had stopped working at a point he had not noticed",
+            "He refused to listen to anyone below him"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The confidence of somebody who had once been very good at something that had since changed” — the problem is dated competence, not stupidity."
+        },
+        {
+          "id": "ss2",
+          "prompt": "Why is an intermittent failure “the worst kind”?",
+          "options": [
+            "It is the hardest to reproduce, and so the hardest to fix",
+            "It damages data permanently",
+            "It cannot be logged"
+          ],
+          "answerIndex": 0,
+          "explanation": "The word is defined in the vocabulary as happening sometimes with no obvious pattern — which is exactly what makes it resist debugging."
+        },
+        {
+          "id": "ss3",
+          "prompt": "What did Jamie do that made his accusation unmistakable?",
+          "options": [
+            "He raised his voice",
+            "He named Harlan directly",
+            "He did not look at Harlan's office while saying nobody had chosen the old hardware"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Which was how everybody knew that was where the sentence was aimed” — the avoidance is the accusation."
+        },
+        {
+          "id": "ss4",
+          "prompt": "What is Jamie's central point about the risk assessment?",
+          "options": [
+            "It was written after the outage",
+            "He sent it in the Q3 review and Harlan has never mentioned it",
+            "It was rejected on technical grounds"
+          ],
+          "answerIndex": 1,
+          "explanation": "“It is four pages and you have never mentioned it” — the failure is that it was never engaged with at all."
+        },
+        {
+          "id": "ss5",
+          "prompt": "How does Sam reframe Harlan's inaction?",
+          "options": [
+            "As a decision not to look at the risk, rather than a decision to accept it",
+            "As a failure of technical understanding",
+            "As something the team should have escalated sooner"
+          ],
+          "answerIndex": 0,
+          "explanation": "The distinction is sharp: accepting a known risk is management; not looking is something else."
+        },
+        {
+          "id": "ss6",
+          "prompt": "Why does the writer say the hour that followed was competent?",
+          "options": [
+            "Because the database came back quickly",
+            "Because Harlan apologised",
+            "Because somebody finally wrote things down"
+          ],
+          "answerIndex": 2,
+          "explanation": "The whiteboard, the named owners and the fixed reporting interval are what change the outcome, not the mood in the room."
+        },
+        {
+          "id": "ss7",
+          "prompt": "Why does it matter that Harlan promised to fight for the budget in front of everybody?",
+          "options": [
+            "It is harder to walk back than a promise made privately",
+            "It meant the team could quote him to the C-suite",
+            "It was recorded in the meeting notes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated directly — a public commitment costs more to abandon."
+        },
+        {
+          "id": "ss8",
+          "prompt": "What did Sam find during the verification pass?",
+          "options": [
+            "The cooling unit had failed again",
+            "Two corrupted records that would have caused a worse problem on Monday",
+            "That the backup was incomplete"
+          ],
+          "answerIndex": 1,
+          "explanation": "Which is the payoff for Harlan's “no shortcuts” — the verification step was the one most likely to be skipped."
+        },
+        {
+          "id": "ss9",
+          "prompt": "What does the thermal audit reveal?",
+          "options": [
+            "The cooling had been logging warnings since August, to a dashboard nobody was assigned to read",
+            "The hardware was faulty when it was bought",
+            "Somebody had disabled the alerts"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The system had been telling them for two months, in writing” — the information existed and ownership of it did not."
+        },
+        {
+          "id": "ss10",
+          "prompt": "Why does the writer say the third line on the whiteboard is the one that matters?",
+          "options": [
+            "It was the only item with a budget attached",
+            "It was the only one the C-suite approved",
+            "The weekly risk stand-up is the only part that would stop the failure recurring"
+          ],
+          "answerIndex": 2,
+          "explanation": "The restore fixes today; the roadmap fixes the hardware; only the standing meeting fixes the fact that nobody was reading the warnings."
+        },
+        {
+          "id": "ss11",
+          "prompt": "Why does the story end on Sam's question about who owns the stand-up?",
+          "options": [
+            "Because she expected Harlan to leave the company",
+            "Because the dull, repeatable part is the part most likely to be quietly dropped",
+            "Because she wanted the role herself"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Everybody in that conference room knew it” — asking who owns it when he is away is what turns an intention into a process."
+        }
+      ]
+    },
+    {
+      "id": "c1-ssr-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Several of these are close to the story without matching it.",
+      "items": [
+        {
+          "id": "st1",
+          "statement": "The outage was caused solely by Alex's code deploy.",
+          "answer": false,
+          "explanation": "False — the deploy took eighty per cent of the CPU, but the cooling had been failing since August on hardware everybody agreed was too old. The story deliberately gives no single cause."
+        },
+        {
+          "id": "st2",
+          "statement": "Jamie had warned Harlan in writing before the outage.",
+          "answer": true,
+          "explanation": "True — a four-page risk assessment sent in the Q3 review, naming thermal throttling and single points of failure."
+        },
+        {
+          "id": "st3",
+          "statement": "Harlan fired somebody.",
+          "answer": false,
+          "explanation": "False — “it could have gone either way”, and then he conceded instead."
+        },
+        {
+          "id": "st4",
+          "statement": "The restore took longer than Jamie estimated.",
+          "answer": false,
+          "explanation": "False — it came back at 5:12, twenty minutes ahead of his estimate."
+        },
+        {
+          "id": "st5",
+          "statement": "The waived fees had to be approved by someone above Harlan.",
+          "answer": false,
+          "explanation": "False — he “authorised on the spot rather than asking”, which is part of what changes in that hour."
+        },
+        {
+          "id": "st6",
+          "statement": "The warnings from the cooling unit had been going to nobody in particular.",
+          "answer": true,
+          "explanation": "True — “to a dashboard nobody had been assigned to read”. The data existed; the ownership did not."
+        }
+      ]
+    },
+    {
+      "id": "c1-ssr-idioms",
+      "type": "fill-blank",
+      "title": "The Idioms of a Bad Afternoon",
+      "instructions": "Complete each sentence with the expression from the story.",
+      "items": [
+        {
+          "id": "si1",
+          "prompt": "We have been ___ on this hardware since the summer.",
+          "answers": [
+            "limping"
+          ],
+          "options": [
+            "limping",
+            "flagging",
+            "throttling"
+          ],
+          "explanation": "To be limping is to keep working, but badly and at risk."
+        },
+        {
+          "id": "si2",
+          "prompt": "We are patching holes in a boat that is still ___ ___ ___.",
+          "answers": [
+            "taking",
+            "on",
+            "water"
+          ],
+          "options": [
+            [
+              "taking",
+              "letting",
+              "getting"
+            ],
+            [
+              "on",
+              "in",
+              "up"
+            ],
+            [
+              "water",
+              "leaks",
+              "damage"
+            ]
+          ],
+          "explanation": "To take on water is to be sinking — used of boats and of anything failing slowly while still afloat."
+        },
+        {
+          "id": "si3",
+          "prompt": "I had ___ ___ on the budget and stopped seeing the system.",
+          "answers": [
+            "tunnel",
+            "vision"
+          ],
+          "options": [
+            [
+              "tunnel",
+              "narrow",
+              "short"
+            ],
+            [
+              "vision",
+              "sight",
+              "focus"
+            ]
+          ],
+          "explanation": "Tunnel vision is focusing on one thing so hard that everything else disappears."
+        },
+        {
+          "id": "si4",
+          "prompt": "This outage is a ___-___ ___.",
+          "answers": [
+            "wake",
+            "up",
+            "call"
+          ],
+          "options": [
+            [
+              "wake",
+              "get",
+              "stand"
+            ],
+            [
+              "up",
+              "on",
+              "out"
+            ],
+            [
+              "call",
+              "alarm",
+              "signal"
+            ]
+          ],
+          "explanation": "A wake-up call is an unpleasant event that forces you to see a problem you had been ignoring."
+        },
+        {
+          "id": "si5",
+          "prompt": "He said it in front of the whole team, which is harder to ___ ___.",
+          "answers": [
+            "walk",
+            "back"
+          ],
+          "options": [
+            [
+              "walk",
+              "take",
+              "turn"
+            ],
+            [
+              "back",
+              "away",
+              "down"
+            ]
+          ],
+          "explanation": "To walk something back is to retreat from a position you have already stated publicly."
+        },
+        {
+          "id": "si6",
+          "prompt": "Nobody ___ the dashboard, so nobody read it.",
+          "answers": [
+            "owned"
+          ],
+          "options": [
+            "owned",
+            "flagged",
+            "deployed"
+          ],
+          "explanation": "To own something at work is to be the named person responsible for it — the idea the whole story turns on."
+        }
+      ]
+    },
+    {
+      "id": "c1-ssr-technical",
+      "type": "matching",
+      "title": "The Technical Vocabulary",
+      "instructions": "Match each term to what it means in this story.",
+      "items": [
+        {
+          "id": "sm1",
+          "pairs": [
+            {
+              "left": "outage",
+              "right": "a period when a service is unavailable"
+            },
+            {
+              "left": "node",
+              "right": "a single machine within a cluster"
+            },
+            {
+              "left": "to restore",
+              "right": "to rebuild a system from a backup"
+            },
+            {
+              "left": "redundant",
+              "right": "duplicated on purpose, so one failure stops nothing"
+            },
+            {
+              "left": "to throttle",
+              "right": "to slow something down deliberately to protect the system"
+            },
+            {
+              "left": "single point of failure",
+              "right": "a part whose failure brings everything down"
+            },
+            {
+              "left": "to deploy",
+              "right": "to release new code into the live system"
+            },
+            {
+              "left": "stand-up",
+              "right": "a short meeting kept brief on purpose"
+            }
+          ],
+          "explanation": "Notice that the technical terms and the idioms describe the same events from two directions — the machine's and the team's."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Sam says not acting on a warning is “a decision not to look at it” rather than a decision to accept the risk. Is that fair to Harlan?",
+    "Harlan changes his mind in public, in front of people who have just criticised him. How rare is that where you work, and what makes it possible?",
+    "The warnings existed for two months and nobody was assigned to read them. What is going unread in a system you rely on?",
+    "The writer predicts the risk stand-up will quietly be dropped in four months. What would stop that happening?",
+    "Alex, Jamie, Sam and Harlan all have a share of the blame. Divide it, and defend how you divided it.",
+    "Write about 250 words describing something that went wrong at work, in the order it happened, ending with the one change that would prevent it recurring."
+  ]
+}

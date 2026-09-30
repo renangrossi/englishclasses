@@ -1,0 +1,356 @@
+{
+  "id": "b2-reading-north-sentinel-island",
+  "level": "B2",
+  "slug": "north-sentinel-island",
+  "topic": "society",
+  "title": "North Sentinel Island",
+  "subtitle": "A people who have refused contact for as long as anyone has tried to make it — and the law that now protects their refusal.",
+  "description": "A B2 reading and listening text on North Sentinel Island and its inhabitants, the history of attempted contact, and why isolation is now legally protected, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/north-sentinel-island.docx",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "3:58"
+  },
+  "passage": [
+    "North Sentinel Island lies in the Bay of Bengal, part of the Andaman chain administered by India. It is roughly the size of Manhattan, densely forested, and ringed by reefs that make approach by boat difficult. Its inhabitants, the Sentinelese, are thought to number somewhere between fifty and a few hundred — nobody can count them, because nobody can land. They live by hunting, fishing and gathering, and they do not farm.",
+    "They are also, by every indication, one of the last peoples on earth to have had almost no sustained contact with anyone outside their island, and this appears to be a choice rather than an accident. Outsiders have been arriving for centuries. The Sentinelese have consistently made it clear that they do not want them there.",
+    "The record of attempted contact is long and mostly grim. In 1771, a passing East India Company vessel noted lights on the shore and sailed on. In 1867 an Indian merchant ship ran aground in monsoon weather; the crew spent several days on the beach before being driven off under a volley of arrows, and were eventually taken off by a naval party. In 1880 a British colonial officer landed, found the villages emptied, and took six people away with him — an elderly couple and four children. The two adults died within days of illnesses they had no resistance to. The children were returned to the island, almost certainly carrying whatever had killed the adults. Whatever the officer intended, that expedition is the clearest single reason the Sentinelese have to treat visitors as a threat.",
+    "That fact is central to the modern policy. Peoples who have lived in isolation for many generations carry no immunity to common infectious diseases. Measles, influenza or a respiratory virus that would inconvenience a visitor could kill a substantial part of a small, closed population within weeks. The history of the wider Andaman Islands supplies the evidence: neighbouring groups that were contacted and settled saw their numbers collapse, and some disappeared altogether.",
+    "Indian anthropologists made a series of careful approaches through the later twentieth century, leaving coconuts and other gifts on the shore, and a few of these meetings were peaceable. The programme was ended in the 1990s. The reasoning was straightforward: the encounters achieved little, and every one of them carried a risk of infection that the Sentinelese had no way to consent to and no way to survive. Since then, Indian law has prohibited approaching the island, and the navy patrols the surrounding waters.",
+    "The prohibition has been tested. In 2018 a young American missionary paid fishermen to take him close to the shore, intending to convert the islanders. He had been warned, both by the law and by people who understood the danger, and he went anyway. He was killed on the beach, and his body was never recovered. The episode was widely reported as a tragedy, which it was; it was also an entirely predictable outcome of ignoring a rule that exists to protect the people on the island as much as the people approaching it.",
+    "It is tempting to describe the Sentinelese as living in the past, and the description is worth resisting. They are not a surviving fragment of an earlier stage of human history. They are a contemporary people with their own language, technology and social arrangements, who have adapted to their island over a very long period and who have repeatedly and unambiguously declined to be drawn into anyone else's world. What is unusual about them is not that they are primitive — they are not — but that their refusal has been successful, and is now backed by law.",
+    "Almost everything else said about them is inference. Their language has not been recorded well enough to be classified. Their numbers are estimated from aerial photographs and from the deck of a passing boat. What can be said with confidence is short: they are there, they have been there a very long time, and they have made their answer to the question of contact about as plain as it can be made."
+  ],
+  "vocabulary": [
+    {
+      "term": "to administer",
+      "definition": "to govern or manage a territory officially",
+      "match": "administered"
+    },
+    {
+      "term": "reef",
+      "definition": "a ridge of rock or coral near the surface of the sea",
+      "match": "reefs"
+    },
+    {
+      "term": "sustained",
+      "definition": "continued over a long period rather than occasional"
+    },
+    {
+      "term": "to run aground",
+      "definition": "to have a ship strike the bottom in shallow water and stop",
+      "match": "ran aground"
+    },
+    {
+      "term": "volley",
+      "definition": "a large number of projectiles released at once"
+    },
+    {
+      "term": "resistance",
+      "definition": "the body's ability to fight off a particular disease"
+    },
+    {
+      "term": "immunity",
+      "definition": "protection against a disease, built up through exposure or vaccination"
+    },
+    {
+      "term": "infectious",
+      "definition": "able to spread from one person to another"
+    },
+    {
+      "term": "to collapse",
+      "definition": "to fall suddenly and catastrophically",
+      "match": "collapse"
+    },
+    {
+      "term": "anthropologist",
+      "definition": "a scholar who studies human societies and cultures",
+      "match": "anthropologists"
+    },
+    {
+      "term": "peaceable",
+      "definition": "not hostile; conducted without violence"
+    },
+    {
+      "term": "to consent",
+      "definition": "to agree to something with full knowledge of what it involves"
+    },
+    {
+      "term": "to prohibit",
+      "definition": "to forbid by law",
+      "match": "prohibited"
+    },
+    {
+      "term": "to patrol",
+      "definition": "to travel around an area regularly to keep watch over it",
+      "match": "patrols"
+    },
+    {
+      "term": "predictable",
+      "definition": "able to be foreseen; happening as anyone might have expected"
+    },
+    {
+      "term": "contemporary",
+      "definition": "existing now, in the same period as ourselves"
+    },
+    {
+      "term": "unambiguously",
+      "definition": "in a way that leaves no room for a second interpretation"
+    },
+    {
+      "term": "inference",
+      "definition": "a conclusion reached from evidence rather than direct knowledge"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-nsi-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Several of these ask why the writer says something, not only what is said.",
+      "items": [
+        {
+          "id": "ns1",
+          "prompt": "Why can nobody give an exact population figure for the island?",
+          "options": [
+            "Because the population changes constantly",
+            "Because the Sentinelese refuse to answer questions",
+            "Because no one can land, so the figure is estimated from aerial photographs and passing boats"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Nobody can count them, because nobody can land” — and the closing paragraph says the numbers are estimated from the air and from a boat."
+        },
+        {
+          "id": "ns2",
+          "prompt": "Why does the writer call the 1880 expedition “the clearest single reason the Sentinelese have to treat visitors as a threat”?",
+          "options": [
+            "Because six people were taken, two died of imported illness, and the children were sent back carrying it",
+            "Because the villages were burned",
+            "Because it was the first contact ever recorded"
+          ],
+          "answerIndex": 0,
+          "explanation": "The expedition demonstrated the exact danger — abduction and disease — in a single episode, and the returned children may well have carried the infection home."
+        },
+        {
+          "id": "ns3",
+          "prompt": "Why is a common illness so much more dangerous to the Sentinelese than to a visitor?",
+          "options": [
+            "Because the island has no medical facilities",
+            "Because generations of isolation mean no immunity, so an ordinary infection could kill a large share of a small closed population",
+            "Because the climate makes infections more severe"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Measles, influenza or a respiratory virus that would inconvenience a visitor could kill a substantial part of a small, closed population within weeks.”"
+        },
+        {
+          "id": "ns4",
+          "prompt": "What evidence does the writer give that this danger is real rather than theoretical?",
+          "options": [
+            "Medical studies conducted on the island",
+            "The testimony of the anthropologists who landed in the 1990s",
+            "Neighbouring Andaman groups who were contacted saw their numbers collapse, and some disappeared"
+          ],
+          "answerIndex": 2,
+          "explanation": "“The history of the wider Andaman Islands supplies the evidence.” The argument rests on what already happened nearby."
+        },
+        {
+          "id": "ns5",
+          "prompt": "Why was the Indian contact programme stopped, even though some meetings had been peaceful?",
+          "options": [
+            "Because the encounters achieved little and each one risked an infection the islanders could not consent to or survive",
+            "Because an anthropologist was killed",
+            "Because the government ran out of funding"
+          ],
+          "answerIndex": 0,
+          "explanation": "The reasoning is given directly, and the phrase “no way to consent to” is doing real work — the risk was being imposed on people who could not weigh it."
+        },
+        {
+          "id": "ns6",
+          "prompt": "How does the writer treat the 2018 death of the missionary?",
+          "options": [
+            "As a crime committed by the islanders",
+            "As both a genuine tragedy and the predictable result of ignoring a rule that protects both sides",
+            "As evidence that the law should be relaxed"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The episode was widely reported as a tragedy, which it was; it was also an entirely predictable outcome of ignoring a rule…” Both halves are held together deliberately."
+        },
+        {
+          "id": "ns7",
+          "prompt": "Why does the writer say the phrase “living in the past” is “worth resisting”?",
+          "options": [
+            "Because the Sentinelese have modern tools obtained from visitors",
+            "Because the islanders' history is well documented",
+            "Because they are a present-day people who have adapted to their island, not a leftover stage of human development"
+          ],
+          "answerIndex": 2,
+          "explanation": "“They are not a surviving fragment of an earlier stage of human history. They are a contemporary people…”"
+        },
+        {
+          "id": "ns8",
+          "prompt": "What does the writer say is genuinely unusual about the Sentinelese?",
+          "options": [
+            "That they are primitive",
+            "That their refusal of contact has succeeded and is now protected by law",
+            "That they have survived on so small an island"
+          ],
+          "answerIndex": 1,
+          "explanation": "“What is unusual about them is not that they are primitive — they are not — but that their refusal has been successful, and is now backed by law.”"
+        }
+      ]
+    },
+    {
+      "id": "b2-nsi-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Check each statement against what the text establishes.",
+      "items": [
+        {
+          "id": "nst1",
+          "statement": "The Sentinelese practice agriculture.",
+          "answer": false,
+          "explanation": "False — “they live by hunting, fishing and gathering, and they do not farm”."
+        },
+        {
+          "id": "nst2",
+          "statement": "The 1867 crew were rescued after being attacked.",
+          "answer": true,
+          "explanation": "True — they were driven off under arrows and “eventually taken off by a naval party”."
+        },
+        {
+          "id": "nst3",
+          "statement": "All six people taken from the island in 1880 died.",
+          "answer": false,
+          "explanation": "False — the two adults died; the four children were returned to the island."
+        },
+        {
+          "id": "nst4",
+          "statement": "Every recorded approach to the island has been met with violence.",
+          "answer": false,
+          "explanation": "False — “a few of these meetings were peaceable” during the Indian anthropological approaches."
+        },
+        {
+          "id": "nst5",
+          "statement": "Approaching the island is now against Indian law.",
+          "answer": true,
+          "explanation": "True — approach is prohibited and the navy patrols the surrounding waters."
+        },
+        {
+          "id": "nst6",
+          "statement": "The Sentinelese language has been recorded and classified by linguists.",
+          "answer": false,
+          "explanation": "False — it “has not been recorded well enough to be classified”."
+        }
+      ]
+    },
+    {
+      "id": "b2-nsi-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "nsf1",
+          "prompt": "Generations of isolation left them with no ___ to common diseases.",
+          "answers": [
+            "immunity"
+          ],
+          "options": [
+            "immunity",
+            "inference",
+            "resistance"
+          ],
+          "explanation": "Immunity is protection against a disease. Note that “resistance” would also make sense here — the text uses both, and they are near-synonyms in this context."
+        },
+        {
+          "id": "nsf2",
+          "prompt": "The ship ___ ___ on the reef during the storm.",
+          "answers": [
+            "ran",
+            "aground"
+          ],
+          "options": [
+            [
+              "ran",
+              "went",
+              "came"
+            ],
+            [
+              "aground",
+              "ashore",
+              "adrift"
+            ]
+          ],
+          "explanation": "To run aground is to strike the bottom in shallow water and stop."
+        },
+        {
+          "id": "nsf3",
+          "prompt": "They made their position ___ clear: no one was to come ashore.",
+          "answers": [
+            "unambiguously"
+          ],
+          "options": [
+            "unambiguously",
+            "peaceably",
+            "predictably"
+          ],
+          "explanation": "Unambiguously means in a way that leaves no room for a second interpretation."
+        },
+        {
+          "id": "nsf4",
+          "prompt": "Most of what is written about them is ___ rather than observation.",
+          "answers": [
+            "inference"
+          ],
+          "options": [
+            "inference",
+            "immunity",
+            "consent"
+          ],
+          "explanation": "An inference is a conclusion drawn from evidence rather than direct knowledge."
+        },
+        {
+          "id": "nsf5",
+          "prompt": "Indian law ___ any approach to the island, and the navy ___ the waters around it.",
+          "answers": [
+            "prohibits",
+            "patrols"
+          ],
+          "options": [
+            [
+              "prohibits",
+              "administers",
+              "consents"
+            ],
+            [
+              "patrols",
+              "collapses",
+              "infers"
+            ]
+          ],
+          "explanation": "To prohibit is to forbid by law; to patrol is to travel around an area regularly keeping watch."
+        },
+        {
+          "id": "nsf6",
+          "prompt": "They are a ___ people, not a relic of an earlier age.",
+          "answers": [
+            "contemporary"
+          ],
+          "options": [
+            "contemporary",
+            "peaceable",
+            "sustained"
+          ],
+          "explanation": "Contemporary means existing now, in the same period as ourselves — the point the text most wants to make."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The text says the Sentinelese could not consent to the risk that contact brought. What follows from that for anyone who wants to visit?",
+    "Is it right for a government to make contact with a group of people illegal, when that group cannot take part in the decision?",
+    "The writer argues against calling the Sentinelese “primitive”. What does that word actually claim, and why does it mislead here?",
+    "Should the island be studied from a distance at all — by drone or satellite — or is even that intrusive?",
+    "Write about 150 words on a case where the most respectful action was to do nothing at all."
+  ]
+}

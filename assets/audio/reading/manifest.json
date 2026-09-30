@@ -107,11 +107,23 @@
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
+ "b2/it-and-jiu-jitsu": {
+  "bytes": 980064,
+  "fingerprint": "d80ff9c510075da5",
+  "rate": "+0%",
+  "voice": "en-US-EricNeural"
+ },
  "b2/it-interview": {
   "bytes": 885312,
   "fingerprint": "7642162d73e22994",
   "rate": "+0%",
   "voice": "en-US-BrianNeural"
+ },
+ "b2/north-sentinel-island": {
+  "bytes": 1432944,
+  "fingerprint": "313e70bbe2575b73",
+  "rate": "+0%",
+  "voice": "en-US-EmmaNeural"
  },
  "b2/phrasal-verbs-01-bed-and-breakfast": {
   "bytes": 985968,
@@ -131,9 +143,21 @@
   "rate": "+0%",
   "voice": "en-US-JennyNeural"
  },
+ "b2/recent-advancements-in-it": {
+  "bytes": 1409616,
+  "fingerprint": "a4ebd46a7476d880",
+  "rate": "+0%",
+  "voice": "en-US-ChristopherNeural"
+ },
  "b2/sales-strategy": {
   "bytes": 1524240,
   "fingerprint": "63d48a9c87005983",
+  "rate": "+0%",
+  "voice": "en-US-JennyNeural"
+ },
+ "b2/soma-nomaoi": {
+  "bytes": 1296720,
+  "fingerprint": "c60dfd04d9f2e3ef",
   "rate": "+0%",
   "voice": "en-US-JennyNeural"
  },

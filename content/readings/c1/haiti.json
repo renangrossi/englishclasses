@@ -1,0 +1,373 @@
+{
+  "id": "c1-reading-reading-the-news",
+  "level": "C1",
+  "slug": "haiti",
+  "topic": "society",
+  "title": "How to Read a News Report",
+  "subtitle": "Attribution, hedging and the passive — the small words that tell you how much a reporter actually knows.",
+  "description": "A C1 reading and listening text on the analytical language of news reporting — sourcing, attribution, hedging and framing — with advanced vocabulary and interpretation exercises.",
+  "source": "cefr/texts/haiti.docx",
+  "provenance": "new",
+  "audio": {
+    "duration_label": "3:50"
+  },
+  "passage": [
+    "A competent news report tells you two things at once: what is being claimed, and how confident the reporter is about it. The second is carried almost entirely by small words that readers skim past, and learning to notice them is the single most useful reading skill for anyone following events in a second language — or, for that matter, a first.",
+    "Start with attribution. Compare three sentences. “The minister resigned.” “The ministry said the minister had resigned.” “The minister is reported to have resigned.” The first is the reporter's own statement of fact, and a serious outlet will not print it unless the fact is established. The second attributes the claim to an interested party, which is not the same as confirming it. The third attributes it to nobody in particular and is the weakest form of all — “reported” without a source named means somebody else has said it and this outlet has not checked.",
+    "That sequence — asserted, attributed, unattributed — is a ladder of confidence, and a well-edited report moves up and down it deliberately within a single paragraph. A reader who does not notice the movement will come away believing the whole paragraph carries equal weight, which is precisely what a careless or dishonest writer relies on.",
+    "Then hedging: allegedly, apparently, reportedly, is understood to, is believed to. These are not decoration and they are not cowardice. “Allegedly” in particular has a legal function — it marks a claim that has been made in a formal proceeding and not yet proved — and removing it from a story about a criminal charge is not a stylistic simplification but a statement that the outlet has convicted somebody the court has not. Conversely, a hedge appearing where no hedge is needed, or several stacked together, usually indicates a writer who wants the implication without the responsibility.",
+    "The passive voice deserves its own attention. “Several protesters were injured” and “police injured several protesters” describe the same event and are not the same sentence. The passive removes the agent. Sometimes that is honest — the reporter genuinely does not know who caused the injuries, and to guess would be worse. Sometimes it is a choice, and the pattern over many sentences is more revealing than any single one: if agents disappear consistently when one side acts and reappear when the other does, that asymmetry is the story's real position, whatever the text says about itself.",
+    "Numbers need reading too. “Up to forty per cent” includes zero. “As many as two thousand” is a ceiling, not an estimate. “More than doubled” is uninformative without the starting figure, because a rise from two cases to five has more than doubled. And a figure with no source attached — no survey, no agency, no date — is not evidence; it is an assertion with digits in it.",
+    "Framing is harder to see because it operates on what is not there. Every report selects: which events are covered at all, who is quoted first, whose account frames the others, what is called context and what is called background and what is left out. Two outlets can publish stories in which no individual sentence is false and which nonetheless leave a reader with incompatible impressions. Detecting this requires reading more than one account of the same event, which is inconvenient and has no substitute.",
+    "None of this is an argument for cynicism, which is the lazy conclusion and an unhelpful one. “Everybody has an agenda, so nothing can be known” is not scepticism; it is a way of avoiding the work that scepticism requires. The reporters who mark their uncertainty carefully are telling you something true about the state of the evidence, and a report that hedges honestly is more trustworthy than one that sounds certain. The aim is not to distrust everything. It is to read closely enough to know what you have actually been told, which is usually less than it appeared to be and occasionally a great deal more."
+  ],
+  "vocabulary": [
+    {
+      "term": "attribution",
+      "definition": "identifying who a statement or claim comes from"
+    },
+    {
+      "term": "outlet",
+      "definition": "a newspaper, broadcaster or site that publishes news"
+    },
+    {
+      "term": "interested party",
+      "definition": "someone with a stake in how a matter is understood"
+    },
+    {
+      "term": "to assert",
+      "definition": "to state something as fact on your own authority",
+      "match": "asserted"
+    },
+    {
+      "term": "unattributed",
+      "definition": "given without naming a source"
+    },
+    {
+      "term": "to hedge",
+      "definition": "to qualify a claim so as not to state it flatly",
+      "match": "hedges"
+    },
+    {
+      "term": "allegedly",
+      "definition": "as claimed in a formal proceeding but not yet proved"
+    },
+    {
+      "term": "proceeding",
+      "definition": "a formal legal process"
+    },
+    {
+      "term": "stylistic",
+      "definition": "concerning style rather than substance"
+    },
+    {
+      "term": "implication",
+      "definition": "something suggested without being stated"
+    },
+    {
+      "term": "agent",
+      "definition": "the person or thing performing the action in a sentence"
+    },
+    {
+      "term": "asymmetry",
+      "definition": "an imbalance between two sides that should match"
+    },
+    {
+      "term": "ceiling",
+      "definition": "an upper limit rather than an expected value"
+    },
+    {
+      "term": "uninformative",
+      "definition": "carrying no useful information"
+    },
+    {
+      "term": "assertion",
+      "definition": "a statement made without supporting evidence"
+    },
+    {
+      "term": "framing",
+      "definition": "the way a story's selection and arrangement shape its meaning"
+    },
+    {
+      "term": "incompatible",
+      "definition": "unable to both be true, or to sit together"
+    },
+    {
+      "term": "cynicism",
+      "definition": "the assumption that everyone acts from bad motives"
+    },
+    {
+      "term": "agenda",
+      "definition": "an underlying purpose someone is pursuing"
+    },
+    {
+      "term": "scepticism",
+      "definition": "the practice of withholding belief until evidence supports it"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-news-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading for Argument",
+      "instructions": "This text is about close reading, so read it closely.",
+      "items": [
+        {
+          "id": "nw1",
+          "prompt": "What two things does the writer say a competent report conveys at once?",
+          "options": [
+            "What is claimed, and how confident the reporter is about it",
+            "What happened, and what should be done about it",
+            "The facts, and the opinions of those involved"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the second is “carried almost entirely by small words that readers skim past”."
+        },
+        {
+          "id": "nw2",
+          "prompt": "Why is “The minister is reported to have resigned” the weakest of the three sentences?",
+          "options": [
+            "It uses the passive voice",
+            "It attributes the claim to nobody in particular, meaning the outlet has not checked it",
+            "It is grammatically ambiguous"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Somebody else has said it and this outlet has not checked.”"
+        },
+        {
+          "id": "nw3",
+          "prompt": "What does the writer mean by “a ladder of confidence”?",
+          "options": [
+            "The order in which facts are checked before publication",
+            "The hierarchy of sources within a news organisation",
+            "The sequence from asserted to attributed to unattributed, which a report moves along deliberately"
+          ],
+          "answerIndex": 2,
+          "explanation": "And the risk is that a reader who misses the movement “will come away believing the whole paragraph carries equal weight”."
+        },
+        {
+          "id": "nw4",
+          "prompt": "Why does the writer say removing “allegedly” is not a stylistic simplification?",
+          "options": [
+            "Because it makes the sentence harder to read",
+            "Because it states that the outlet has convicted someone the court has not",
+            "Because the word is required by most style guides"
+          ],
+          "answerIndex": 1,
+          "explanation": "The word has “a legal function” — it marks a claim made formally and not yet proved."
+        },
+        {
+          "id": "nw5",
+          "prompt": "When does the writer say hedging becomes a warning sign?",
+          "options": [
+            "When it appears in any report of a criminal case",
+            "When a hedge appears where none is needed, or several are stacked together",
+            "Whenever more than one hedge appears in an article"
+          ],
+          "answerIndex": 1,
+          "explanation": "That pattern “indicates a writer who wants the implication without the responsibility”."
+        },
+        {
+          "id": "nw6",
+          "prompt": "When is a passive construction honest, according to the text?",
+          "options": [
+            "Whenever the subject is more important than the agent",
+            "When the reporter genuinely does not know who acted, and guessing would be worse",
+            "When the agent has not yet been charged"
+          ],
+          "answerIndex": 1,
+          "explanation": "The writer is careful not to treat the passive as automatically evasive — it is the pattern across sentences that reveals a position."
+        },
+        {
+          "id": "nw7",
+          "prompt": "Why is “more than doubled” described as uninformative?",
+          "options": [
+            "Because doubling is rarely significant",
+            "Because it is usually an estimate",
+            "Because without the starting figure, a rise from two to five also qualifies"
+          ],
+          "answerIndex": 2,
+          "explanation": "The example is given precisely to show how large a proportional change can be while remaining trivial in absolute terms."
+        },
+        {
+          "id": "nw8",
+          "prompt": "Why is framing harder to detect than the other techniques?",
+          "options": [
+            "Because it operates on what is not there — what was never covered, quoted or included",
+            "Because it requires knowledge of the subject",
+            "Because it only appears in opinion writing"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hence two reports can contain no false sentence and still leave incompatible impressions."
+        },
+        {
+          "id": "nw9",
+          "prompt": "Why does the writer reject “everybody has an agenda, so nothing can be known”?",
+          "options": [
+            "Because most outlets are in fact impartial",
+            "Because it is not scepticism but a way of avoiding the work scepticism requires",
+            "Because agendas are usually declared openly"
+          ],
+          "answerIndex": 1,
+          "explanation": "The distinction between cynicism and scepticism is the text's closing argument."
+        },
+        {
+          "id": "nw10",
+          "prompt": "What does the writer say about a report that hedges honestly?",
+          "options": [
+            "It is more trustworthy than one that sounds certain",
+            "It should be treated with the same caution as any other",
+            "It indicates the story was rushed"
+          ],
+          "answerIndex": 0,
+          "explanation": "Careful marking of uncertainty “is telling you something true about the state of the evidence”."
+        }
+      ]
+    },
+    {
+      "id": "c1-news-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "These reward precision about what is claimed.",
+      "items": [
+        {
+          "id": "nwt1",
+          "statement": "Attributing a claim to a ministry is the same as confirming it.",
+          "answer": false,
+          "explanation": "False — it attributes the claim “to an interested party, which is not the same as confirming it”."
+        },
+        {
+          "id": "nwt2",
+          "statement": "The writer treats hedging words as a sign of weak journalism.",
+          "answer": false,
+          "explanation": "False — “they are not decoration and they are not cowardice”. Only misplaced or stacked hedges are a warning."
+        },
+        {
+          "id": "nwt3",
+          "statement": "“Up to forty per cent” includes the possibility of no change at all.",
+          "answer": true,
+          "explanation": "True — “up to” states a ceiling, and zero is within it."
+        },
+        {
+          "id": "nwt4",
+          "statement": "A figure with no source is described as evidence.",
+          "answer": false,
+          "explanation": "False — “it is not evidence; it is an assertion with digits in it”."
+        },
+        {
+          "id": "nwt5",
+          "statement": "Detecting framing requires reading more than one account of the same event.",
+          "answer": true,
+          "explanation": "True — and the writer concedes this “is inconvenient and has no substitute”."
+        },
+        {
+          "id": "nwt6",
+          "statement": "The writer concludes that readers should distrust everything.",
+          "answer": false,
+          "explanation": "False — “the aim is not to distrust everything”, but to know what you have actually been told."
+        }
+      ]
+    },
+    {
+      "id": "c1-news-vocabulary",
+      "type": "fill-blank",
+      "title": "The Language of Reporting",
+      "instructions": "Complete each sentence with the precise term.",
+      "items": [
+        {
+          "id": "nwf1",
+          "prompt": "The claim was ___ — no source was named anywhere in the piece.",
+          "answers": [
+            "unattributed"
+          ],
+          "options": [
+            "unattributed",
+            "asserted",
+            "uninformative"
+          ],
+          "explanation": "Unattributed means given without naming a source — the weakest rung on the ladder."
+        },
+        {
+          "id": "nwf2",
+          "prompt": "He is ___ accused of falsifying the accounts.",
+          "answers": [
+            "allegedly"
+          ],
+          "options": [
+            "allegedly",
+            "apparently",
+            "certainly"
+          ],
+          "explanation": "Allegedly marks a claim made in a formal proceeding and not yet proved."
+        },
+        {
+          "id": "nwf3",
+          "prompt": "The passive removes the ___ from the sentence.",
+          "answers": [
+            "agent"
+          ],
+          "options": [
+            "agent",
+            "outlet",
+            "ceiling"
+          ],
+          "explanation": "The agent is the person or thing performing the action."
+        },
+        {
+          "id": "nwf4",
+          "prompt": "The ___ between the two sides' coverage is the report's real position.",
+          "answers": [
+            "asymmetry"
+          ],
+          "options": [
+            "asymmetry",
+            "attribution",
+            "implication"
+          ],
+          "explanation": "An asymmetry is an imbalance between two things that should match."
+        },
+        {
+          "id": "nwf5",
+          "prompt": "“As many as two thousand” is a ___, not an estimate.",
+          "answers": [
+            "ceiling"
+          ],
+          "options": [
+            "ceiling",
+            "assertion",
+            "proceeding"
+          ],
+          "explanation": "A ceiling is an upper limit; the actual figure may be far below it."
+        },
+        {
+          "id": "nwf6",
+          "prompt": "___ withholds belief until evidence supports it; ___ assumes bad motives and stops there.",
+          "answers": [
+            "Scepticism",
+            "cynicism"
+          ],
+          "options": [
+            [
+              "Scepticism",
+              "Cynicism",
+              "Framing"
+            ],
+            [
+              "cynicism",
+              "scepticism",
+              "hedging"
+            ]
+          ],
+          "explanation": "The distinction the text ends on: one is work, the other is a way of avoiding it."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Take a news story you read this week and mark every hedge and every attribution in it. What is actually established?",
+    "Is the passive voice in reporting more often honest uncertainty or a deliberate choice? Argue with an example.",
+    "The writer says detecting framing requires reading several accounts and has no substitute. Is that realistic for an ordinary reader?",
+    "“A report that hedges honestly is more trustworthy than one that sounds certain.” Does that match how readers actually respond to confidence?",
+    "Write about 250 words analysing one news report: who is quoted, in what order, what is asserted outright, and what is left to implication."
+  ]
+}

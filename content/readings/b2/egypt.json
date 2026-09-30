@@ -1,0 +1,378 @@
+{
+  "id": "b2-reading-hatshepsut",
+  "level": "B2",
+  "slug": "egypt",
+  "topic": "society",
+  "title": "Erasing a Pharaoh",
+  "subtitle": "Someone tried to remove Hatshepsut from the record, and the attempt is how we know she mattered.",
+  "description": "A B2 history reading and listening text on Hatshepsut, the deliberate erasure of her monuments, and how archaeologists reconstruct a reign from damaged evidence, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/egypt.docx",
+  "provenance": "new",
+  "audio": {
+    "duration_label": "3:58"
+  },
+  "passage": [
+    "At Karnak, on the east bank of the Nile at Luxor, two enormous granite obelisks were raised in the fifteenth century BC. One still stands. Around the base of it, at some point after it went up, a wall was built that hid the lower portion from view, and the inscriptions on that hidden section survived in far better condition than those left exposed. The wall was not built to protect them. It was built to conceal whose they were.",
+    "The obelisks belonged to Hatshepsut, who ruled Egypt for roughly two decades in the Eighteenth Dynasty. She began as regent for her young stepson Thutmose III after the death of her husband, which was an ordinary enough arrangement. What was not ordinary is that within a few years she was not acting as regent but reigning as pharaoh, with the full titles, and had herself depicted in the conventional royal images — including, in many of them, the ceremonial false beard that was part of the office.",
+    "Her reign was, by the evidence that survives, a successful one. It was largely peaceful. She rebuilt trade networks that had lapsed, most famously sending an expedition to a land the Egyptians called Punt, which returned with incense trees, ebony and live animals; the voyage is recorded in relief on the walls of her mortuary temple at Deir el-Bahari, which is itself among the most striking buildings to survive from the ancient world. She built extensively at Karnak. There is no sign of the instability that a disputed succession usually leaves behind.",
+    "Then, decades after her death, somebody set about removing her. Her name was chiselled out of inscriptions. Her statues were broken up and buried in a pit near her temple. Her images were replaced with those of her husband or her father or her stepson. In king lists compiled later, her reign simply does not appear, and the years are quietly attributed to others.",
+    "For a long time the explanation seemed obvious: Thutmose III, who had waited twenty years for a throne he should have inherited immediately, took revenge on his stepmother as soon as he could. It is a satisfying story and the evidence does not support it. The erasure did not begin at his accession. It began around twenty years into his sole reign, when he was an old and secure king with an unbroken record of military success behind him, and it was carried out selectively rather than furiously — public monuments were targeted, and material in places nobody would see was often left alone.",
+    "The explanation historians now generally prefer is less dramatic and more political. Thutmose III was arranging the succession of his own son, and a female pharaoh in the recent record was an awkward precedent — not a personal insult but a constitutional problem. Removing her from the public account made the line of succession look uninterrupted and male. The work was done to the record rather than to her memory, which is why it stopped where nobody was looking.",
+    "The irony is that the erasure is now the reason so much survives. The buried statues, smashed and put out of sight, were protected from the weathering and reuse that destroyed other monuments, and archaeologists excavating the pit at Deir el-Bahari in the 1920s recovered enough fragments to reassemble a number of them. The wall built to hide the obelisk base preserved the inscription behind it. An attempt to make somebody disappear turned into one of the better-documented reigns of the period.",
+    "It is a useful case for thinking about how history is actually made. What survives is not what was most important; it is what happened to last, and that is often decided by accident, or by somebody's attempt to destroy it. The gaps in the record are evidence too — a name cut out of a wall tells you that a name was there, and that somebody with resources wanted it gone."
+  ],
+  "vocabulary": [
+    {
+      "term": "obelisk",
+      "definition": "a tall four-sided stone pillar narrowing to a point",
+      "match": "obelisks"
+    },
+    {
+      "term": "inscription",
+      "definition": "words carved into stone",
+      "match": "inscriptions"
+    },
+    {
+      "term": "to conceal",
+      "definition": "to hide something deliberately"
+    },
+    {
+      "term": "regent",
+      "definition": "someone who rules on behalf of a monarch who is too young"
+    },
+    {
+      "term": "to reign",
+      "definition": "to rule as monarch in your own right",
+      "match": "reigning"
+    },
+    {
+      "term": "to depict",
+      "definition": "to show someone in a picture or carving",
+      "match": "depicted"
+    },
+    {
+      "term": "ceremonial",
+      "definition": "belonging to formal ritual rather than practical use"
+    },
+    {
+      "term": "to lapse",
+      "definition": "to fall out of use through neglect",
+      "match": "lapsed"
+    },
+    {
+      "term": "incense",
+      "definition": "a substance burned for its scent in religious ritual"
+    },
+    {
+      "term": "relief",
+      "definition": "a carving raised from a flat stone surface"
+    },
+    {
+      "term": "mortuary temple",
+      "definition": "a temple built for the worship of a dead ruler"
+    },
+    {
+      "term": "succession",
+      "definition": "the passing of a throne from one ruler to the next"
+    },
+    {
+      "term": "to chisel out",
+      "definition": "to cut something away from stone with a sharp tool",
+      "match": "chiselled out"
+    },
+    {
+      "term": "to attribute",
+      "definition": "to credit something to a particular person",
+      "match": "attributed"
+    },
+    {
+      "term": "accession",
+      "definition": "the moment a ruler comes to the throne"
+    },
+    {
+      "term": "selectively",
+      "definition": "choosing only certain cases rather than all of them"
+    },
+    {
+      "term": "precedent",
+      "definition": "an earlier case that may be used to justify a later one"
+    },
+    {
+      "term": "uninterrupted",
+      "definition": "continuous, with no break"
+    },
+    {
+      "term": "irony",
+      "definition": "an outcome that is the opposite of what was intended"
+    },
+    {
+      "term": "weathering",
+      "definition": "the wearing away of stone by wind, rain and sun"
+    },
+    {
+      "term": "to excavate",
+      "definition": "to dig a site up in order to study it",
+      "match": "excavating"
+    },
+    {
+      "term": "fragment",
+      "definition": "a broken piece of something larger",
+      "match": "fragments"
+    },
+    {
+      "term": "to reassemble",
+      "definition": "to put the pieces of something back together"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-hat-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading for Argument",
+      "instructions": "This text corrects a popular explanation. Follow the evidence it uses.",
+      "items": [
+        {
+          "id": "ha1",
+          "prompt": "Why were the inscriptions behind the wall in better condition?",
+          "options": [
+            "They were carved more deeply than the rest",
+            "The wall built to conceal them also sheltered them",
+            "They were restored in the 1920s"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The wall was not built to protect them. It was built to conceal whose they were” — the protection was accidental."
+        },
+        {
+          "id": "ha2",
+          "prompt": "How did Hatshepsut's position change after she became regent?",
+          "options": [
+            "Within a few years she was reigning as pharaoh in her own right, with the full titles",
+            "She was removed by Thutmose III's supporters",
+            "She shared the throne equally with her stepson throughout"
+          ],
+          "answerIndex": 0,
+          "explanation": "The regency was “an ordinary enough arrangement”; what followed was not."
+        },
+        {
+          "id": "ha3",
+          "prompt": "What does the text offer as evidence that her reign was successful?",
+          "options": [
+            "Later king lists praise her achievements",
+            "Records of extensive military conquest",
+            "Peace, revived trade including the Punt expedition, major building, and no sign of instability"
+          ],
+          "answerIndex": 2,
+          "explanation": "The absence of trouble is treated as evidence too — “no sign of the instability that a disputed succession usually leaves behind”."
+        },
+        {
+          "id": "ha4",
+          "prompt": "What is wrong with the revenge explanation?",
+          "options": [
+            "There is no evidence any erasure took place",
+            "The erasure began about twenty years into Thutmose III's sole reign, not at his accession, and it was selective",
+            "Thutmose III died before the erasure began"
+          ],
+          "answerIndex": 1,
+          "explanation": "“It is a satisfying story and the evidence does not support it.” Timing and selectivity are the two objections."
+        },
+        {
+          "id": "ha5",
+          "prompt": "What explanation do historians now generally prefer?",
+          "options": [
+            "That a later dynasty removed her for religious reasons",
+            "That the monuments were reused for building material",
+            "That a female pharaoh was an awkward precedent while Thutmose III was arranging his own son's succession"
+          ],
+          "answerIndex": 2,
+          "explanation": "The text calls it “not a personal insult but a constitutional problem”."
+        },
+        {
+          "id": "ha6",
+          "prompt": "Why does the selective nature of the erasure support that explanation?",
+          "options": [
+            "Because public monuments were targeted while hidden material was often left alone — the work was done to the record, not to her memory",
+            "Because only stone carvings were affected",
+            "Because it was carried out by a small number of workers"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Which is why it stopped where nobody was looking” — the pattern fits a political purpose, not a private grudge."
+        },
+        {
+          "id": "ha7",
+          "prompt": "What is the irony the writer identifies?",
+          "options": [
+            "That Thutmose III is now less remembered than Hatshepsut",
+            "That the attempt to erase her is why so much of her survives",
+            "That the obelisk fell down anyway"
+          ],
+          "answerIndex": 1,
+          "explanation": "Buried statues escaped weathering and reuse; the concealing wall preserved the inscription behind it."
+        },
+        {
+          "id": "ha8",
+          "prompt": "What general point does the text draw about history?",
+          "options": [
+            "That what survives is not what mattered most, but what happened to last",
+            "That archaeology can now recover almost anything",
+            "That written records are more reliable than monuments"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the closing sentence adds that gaps are evidence: “a name cut out of a wall tells you that a name was there”."
+        }
+      ]
+    },
+    {
+      "id": "b2-hat-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Be precise about what the text establishes.",
+      "items": [
+        {
+          "id": "hat1",
+          "statement": "Hatshepsut ruled only as regent.",
+          "answer": false,
+          "explanation": "False — she was “not acting as regent but reigning as pharaoh, with the full titles”."
+        },
+        {
+          "id": "hat2",
+          "statement": "The Punt expedition is recorded at Deir el-Bahari.",
+          "answer": true,
+          "explanation": "True — in relief on the walls of her mortuary temple."
+        },
+        {
+          "id": "hat3",
+          "statement": "The erasure began immediately after Hatshepsut's death.",
+          "answer": false,
+          "explanation": "False — it began “decades after her death”, about twenty years into Thutmose III's sole reign."
+        },
+        {
+          "id": "hat4",
+          "statement": "Her statues were destroyed completely and nothing was recovered.",
+          "answer": false,
+          "explanation": "False — they were broken and buried, and enough fragments were recovered in the 1920s to reassemble a number of them."
+        },
+        {
+          "id": "hat5",
+          "statement": "Her reign is absent from later king lists.",
+          "answer": true,
+          "explanation": "True — and the years are “quietly attributed to others”."
+        },
+        {
+          "id": "hat6",
+          "statement": "The text says Thutmose III's reign was militarily unsuccessful.",
+          "answer": false,
+          "explanation": "False — he is described as having “an unbroken record of military success behind him”, which is part of why revenge is an unconvincing motive."
+        }
+      ]
+    },
+    {
+      "id": "b2-hat-vocabulary",
+      "type": "fill-blank",
+      "title": "The Vocabulary of History",
+      "instructions": "Complete each sentence with the right term.",
+      "items": [
+        {
+          "id": "haf1",
+          "prompt": "She acted as ___ until her stepson was old enough to rule.",
+          "answers": [
+            "regent"
+          ],
+          "options": [
+            "regent",
+            "pharaoh",
+            "precedent"
+          ],
+          "explanation": "A regent rules on behalf of a monarch who is too young."
+        },
+        {
+          "id": "haf2",
+          "prompt": "Her name was ___ ___ of the stone.",
+          "answers": [
+            "chiselled",
+            "out"
+          ],
+          "options": [
+            [
+              "chiselled",
+              "carved",
+              "written"
+            ],
+            [
+              "out",
+              "off",
+              "down"
+            ]
+          ],
+          "explanation": "To chisel out is to cut something away from stone with a sharp tool."
+        },
+        {
+          "id": "haf3",
+          "prompt": "A female ruler was an awkward ___ for the next generation.",
+          "answers": [
+            "precedent"
+          ],
+          "options": [
+            "precedent",
+            "accession",
+            "inscription"
+          ],
+          "explanation": "A precedent is an earlier case that may be used to justify a later one."
+        },
+        {
+          "id": "haf4",
+          "prompt": "The team ___ the pit and ___ the broken statues.",
+          "answers": [
+            "excavated",
+            "reassembled"
+          ],
+          "options": [
+            [
+              "excavated",
+              "concealed",
+              "attributed"
+            ],
+            [
+              "reassembled",
+              "depicted",
+              "chiselled"
+            ]
+          ],
+          "explanation": "To excavate is to dig a site up for study; to reassemble is to put the pieces back together."
+        },
+        {
+          "id": "haf5",
+          "prompt": "The years of her reign were ___ to other rulers.",
+          "answers": [
+            "attributed"
+          ],
+          "options": [
+            "attributed",
+            "concealed",
+            "excavated"
+          ],
+          "explanation": "To attribute is to credit something to a particular person."
+        },
+        {
+          "id": "haf6",
+          "prompt": "The ___ is that hiding it is what saved it.",
+          "answers": [
+            "irony"
+          ],
+          "options": [
+            "irony",
+            "precedent",
+            "succession"
+          ],
+          "explanation": "An irony is an outcome that is the opposite of what was intended."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "“The gaps in the record are evidence too.” What can an absence tell you that a presence cannot?",
+    "The revenge explanation is more satisfying than the political one. Why do we prefer stories with a motive we recognise?",
+    "Is it possible to remove someone from history now, when so much is recorded and copied?",
+    "The text says what survives is often decided by accident. Does that change how much confidence we should have in what we know about the past?",
+    "Write about 250 words on someone or something that was deliberately removed from an official record in your own country's history, and what the attempt reveals."
+  ]
+}

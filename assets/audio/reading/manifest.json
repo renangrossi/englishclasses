@@ -251,9 +251,21 @@
   "rate": "+0%",
   "voice": "en-US-AriaNeural"
  },
+ "b2/egypt": {
+  "bytes": 1432800,
+  "fingerprint": "931bd49e53c30196",
+  "rate": "+0%",
+  "voice": "en-US-AriaNeural"
+ },
  "b2/egypt-a-journey-through-history-and-culture": {
   "bytes": 1854288,
   "fingerprint": "40ca3df0210712dd",
+  "rate": "+0%",
+  "voice": "en-US-EricNeural"
+ },
+ "b2/formal-informal": {
+  "bytes": 1399248,
+  "fingerprint": "b87fa6b3dd0c5b5e",
   "rate": "+0%",
   "voice": "en-US-EricNeural"
  },
@@ -328,6 +340,12 @@
   "fingerprint": "ed6b946f99ae2a41",
   "rate": "+0%",
   "voice": "en-US-ChristopherNeural"
+ },
+ "c1/haiti": {
+  "bytes": 1382544,
+  "fingerprint": "5298f059af5c1235",
+  "rate": "+0%",
+  "voice": "en-US-BrianNeural"
  },
  "c1/it-management": {
   "bytes": 2006784,

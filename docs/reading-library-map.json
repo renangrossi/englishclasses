@@ -468,13 +468,14 @@
       "level": "B2",
       "topic": "society",
       "action": "REPLACE",
-      "audio": "required",
-      "reason": "Presents a UFO sighting as documented history and invites the student to research it 'as a doctoral student'. Misinformation framed as scholarship; replace with a real Thutmose III / Karnak reading.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Presents a UFO sighting as documented history and invites the student to research it 'as a doctoral student'. Misinformation framed as scholarship; replace with a real Thutmose III / Karnak reading. — DONE: Pseudo-history replaced. The UFO sighting presented as documented fact and the invitation to research it 'as a doctoral student' are gone. New reading on Hatshepsut and the deliberate erasure of her monuments — which also lets the text make the point the original violated: that evidence has to be weighed, and that the satisfying explanation (Thutmose III's revenge) is the one the evidence does not support.",
+      "status": "IMPLEMENTED",
       "card_title": "Egypt",
       "source_files": [
         "cefr/texts/egypt.pdf"
-      ]
+      ],
+      "page": "reading/b2/egypt.html"
     },
     {
       "slug": "egypt-a-journey-through-history-and-culture",
@@ -517,13 +518,14 @@
       "level": "B2",
       "topic": "society",
       "action": "REPLACE",
-      "audio": "required",
-      "reason": "The register contrast is worth teaching, but the informal sample argues developing nations are poor because 'they suck at running their countries'. Keep the formal/informal exercise shape, replace the topic with a neutral one.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "The register contrast is worth teaching, but the informal sample argues developing nations are poor because 'they suck at running their countries'. Keep the formal/informal exercise shape, replace the topic with a neutral one. — DONE: The passage arguing that developing nations are poor because 'they suck at running their countries' is gone. The register contrast is kept and made sharper: one office closure written as a company announcement and as a message to a friend, with nominalisation, the agentless passive and the Latin/Anglo-Saxon split analysed from the two samples.",
+      "status": "IMPLEMENTED",
       "card_title": "Formal Informal",
       "source_files": [
         "cefr/texts/formal-informal.pdf"
-      ]
+      ],
+      "page": "reading/b2/formal-informal.html"
     },
     {
       "slug": "formula-1",
@@ -628,14 +630,15 @@
       "level": "C1",
       "topic": "society",
       "action": "REPLACE",
-      "audio": "required",
-      "reason": "Blog-register news brief with an emoji mid-text, and graphic content (gang rape, torture, starvation) unsuitable for a general adult English class. Replace with a current-affairs reading that teaches the same analytical language.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Blog-register news brief with an emoji mid-text, and graphic content (gang rape, torture, starvation) unsuitable for a general adult English class. Replace with a current-affairs reading that teaches the same analytical language. — DONE: Graphic content and blog register replaced entirely. New reading that teaches the same analytical language the original was meant to — attribution, hedging, the agentless passive, misleading numbers and framing — using news reporting itself as the subject, with no distressing material.",
+      "status": "IMPLEMENTED",
       "card_title": "Haiti",
       "card_desc": "Exercises exploring Haitian culture and history.",
       "source_files": [
         "cefr/texts/haiti.pdf"
-      ]
+      ],
+      "page": "reading/c1/haiti.html"
     },
     {
       "slug": "hiking-in-the-mountains",

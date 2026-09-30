@@ -5,17 +5,35 @@
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
+ "a2/dream-bistro": {
+  "bytes": 895248,
+  "fingerprint": "1bfd4eb677a2e24f",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
+ },
  "a2/hiking-in-the-mountains": {
   "bytes": 771408,
   "fingerprint": "c102f388c1795ba0",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
+ "a2/restaurant-dialogue": {
+  "bytes": 916848,
+  "fingerprint": "173e73c0151636dc",
+  "rate": "-8%",
+  "voice": "en-US-JennyNeural"
+ },
  "a2/saying-and-telling": {
   "bytes": 627120,
   "fingerprint": "28c9b381473d437c",
   "rate": "-8%",
   "voice": "en-US-BrianNeural"
+ },
+ "a2/st-patricks-day": {
+  "bytes": 746352,
+  "fingerprint": "704260c9a1afe656",
+  "rate": "-8%",
+  "voice": "en-US-JennyNeural"
  },
  "a2/the-day-at-the-market": {
   "bytes": 737568,

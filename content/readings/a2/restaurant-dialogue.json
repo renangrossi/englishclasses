@@ -1,0 +1,300 @@
+{
+  "id": "a2-reading-restaurant-dialogue",
+  "level": "A2",
+  "slug": "restaurant-dialogue",
+  "topic": "food",
+  "title": "Ordering at a New York Pizzeria",
+  "subtitle": "A family orders dinner — including the part visitors to the US find hardest: the tip.",
+  "description": "An A2 listening and reading dialogue set in a New York pizzeria, covering ordering, asking for recommendations, paying and tipping, with useful expressions and exercises.",
+  "source": "cefr/texts/restaurant-dialogue.docx",
+  "provenance": "edited",
+  "passage": [
+    "The Bennett family — Mark, his wife Laura and their son Kevin — walk into Joe's Pizza on a cold evening. The place smells of fresh dough, and it is loud with conversation.",
+    "Server: Hi there, welcome to Joe's! Table for three?",
+    "Mark: Yes, please. We've heard a lot about this place — we'd love to try some real New York pizza.",
+    "Server: You've come to the right spot. Would you like a classic cheese pizza, or something a little more adventurous?",
+    "Laura: Let's be adventurous. What do you recommend?",
+    "Server: The pepperoni is always popular. But if you want something special, try the Sicilian with sausage and peppers. That's the one regulars keep coming back for.",
+    "Kevin: Can we get garlic knots too, Dad?",
+    "Mark: Of course we can. We're not leaving without the garlic knots.",
+    "Server: Great. One large Sicilian with sausage and peppers, and an order of garlic knots. Anything to drink?",
+    "Mark: Three waters, please.",
+    "Laura: And a soda for Kevin, if that's all right.",
+    "Server: Sure. We have Coke, Sprite or Fanta.",
+    "Kevin: Fanta, please.",
+    "Server: You got it. I'll bring the drinks right out.",
+    "Forty minutes later, the pizza is gone and the server brings the check.",
+    "Server: Here you go. That comes to twenty-six fifty, whenever you're ready.",
+    "Mark: Thanks. Here's thirty-two — keep the change.",
+    "Server: Thank you very much! Have a good night, and come see us again.",
+    "Outside, Laura asks Mark why he left five and a half dollars on a twenty-six dollar meal. In the United States, she explains, servers are usually paid a low base wage and depend on tips. Leaving about eighteen to twenty percent at a sit-down restaurant is normal, and leaving nothing would be a real insult. Mark had left just over twenty percent.",
+    "\"So it's not really optional,\" Kevin says.",
+    "\"Not at a place like this,\" his mother says. \"It's part of the price.\""
+  ],
+  "vocabulary": [
+    {
+      "term": "the check",
+      "definition": "the piece of paper showing what you owe (British English: the bill)"
+    },
+    {
+      "term": "a tip",
+      "definition": "extra money you leave for the person who served you"
+    },
+    {
+      "term": "Keep the change.",
+      "definition": "what you say when the server should keep the extra money as a tip"
+    },
+    {
+      "term": "a regular",
+      "definition": "a customer who comes to the same place often"
+    },
+    {
+      "term": "to recommend",
+      "definition": "to suggest something because you think it is good"
+    },
+    {
+      "term": "a soda",
+      "definition": "a sweet fizzy drink (American English; British: a fizzy drink)"
+    },
+    {
+      "term": "You got it.",
+      "definition": "informal American English for \"yes, certainly\""
+    },
+    {
+      "term": "sit-down restaurant",
+      "definition": "a restaurant where a server brings food to your table"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-restaurant-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Dialogue",
+      "instructions": "Answer from the dialogue.",
+      "items": [
+        {
+          "id": "rd1",
+          "prompt": "What does the server recommend?",
+          "options": [
+            "The classic cheese pizza",
+            "The Sicilian with sausage and peppers",
+            "The garlic knots"
+          ],
+          "answerIndex": 1,
+          "explanation": "The server says the pepperoni is popular, but recommends the Sicilian as the special one regulars come back for."
+        },
+        {
+          "id": "rd2",
+          "prompt": "Who asks for the garlic knots?",
+          "options": [
+            "Kevin",
+            "Laura",
+            "The server"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Can we get garlic knots too, Dad?\""
+        },
+        {
+          "id": "rd3",
+          "prompt": "What does Kevin drink?",
+          "options": [
+            "Water",
+            "Coke",
+            "Fanta"
+          ],
+          "answerIndex": 2,
+          "explanation": "Offered Coke, Sprite or Fanta, Kevin chooses Fanta."
+        },
+        {
+          "id": "rd4",
+          "prompt": "How much was the meal?",
+          "options": [
+            "$26.50",
+            "$32.00",
+            "$5.50"
+          ],
+          "answerIndex": 0,
+          "explanation": "The server says it \"comes to twenty-six fifty\". Mark hands over $32, and $5.50 is the tip."
+        },
+        {
+          "id": "rd5",
+          "prompt": "Why did Mark leave extra money?",
+          "options": [
+            "He made a mistake",
+            "As a tip, because servers depend on tips in the US",
+            "To pay for the garlic knots"
+          ],
+          "answerIndex": 1,
+          "explanation": "Laura explains that servers are usually paid a low base wage and depend on tips."
+        },
+        {
+          "id": "rd6",
+          "prompt": "About what percentage is a normal tip at a sit-down restaurant?",
+          "options": [
+            "About 5 percent",
+            "About 18 to 20 percent",
+            "About 50 percent"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Leaving about eighteen to twenty percent at a sit-down restaurant is normal.\""
+        },
+        {
+          "id": "rd7",
+          "prompt": "What does \"Keep the change\" mean here?",
+          "options": [
+            "Give me my money back",
+            "The server should keep the extra as a tip",
+            "I want a different bill"
+          ],
+          "answerIndex": 1,
+          "explanation": "It tells the server to keep the difference between what you handed over and the total."
+        }
+      ]
+    },
+    {
+      "id": "a2-restaurant-expressions",
+      "type": "vocabulary",
+      "title": "Useful Restaurant Expressions",
+      "instructions": "Choose the expression that fits the situation.",
+      "items": [
+        {
+          "id": "rde1",
+          "prompt": "You want the server's opinion about what to order. You say:",
+          "options": [
+            "What do you recommend?",
+            "What do you want?",
+            "What is this?"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"What do you recommend?\" asks for a suggestion — exactly what Laura says."
+        },
+        {
+          "id": "rde2",
+          "prompt": "You are ready to pay. You ask for:",
+          "options": [
+            "the check",
+            "the tip",
+            "the change"
+          ],
+          "answerIndex": 0,
+          "explanation": "In American English you ask for the check. (British English: the bill.)"
+        },
+        {
+          "id": "rde3",
+          "prompt": "The server has understood your order and says:",
+          "options": [
+            "You got it.",
+            "You have it.",
+            "You get it."
+          ],
+          "answerIndex": 0,
+          "explanation": "\"You got it\" is a fixed informal expression meaning \"yes, certainly\"."
+        },
+        {
+          "id": "rde4",
+          "prompt": "A customer who eats at the same place every week is:",
+          "options": [
+            "a regular",
+            "a server",
+            "a special"
+          ],
+          "answerIndex": 0,
+          "explanation": "A regular is a frequent customer."
+        },
+        {
+          "id": "rde5",
+          "prompt": "You want a sweet fizzy drink in the US. You ask for:",
+          "options": [
+            "a soda",
+            "a fizzy drink",
+            "a water"
+          ],
+          "answerIndex": 0,
+          "explanation": "American English uses 'soda' (or in some regions 'pop'); 'fizzy drink' is British."
+        }
+      ]
+    },
+    {
+      "id": "a2-restaurant-fillblank",
+      "type": "fill-blank",
+      "title": "Complete the Conversation",
+      "instructions": "Choose the missing word in each line.",
+      "items": [
+        {
+          "id": "rdf1",
+          "prompt": "Server: Welcome to Joe's! ___ for three?",
+          "answers": [
+            "Table"
+          ],
+          "options": [
+            "Table",
+            "Check",
+            "Order"
+          ],
+          "explanation": "\"Table for three?\" is how a server asks how many people are in your party."
+        },
+        {
+          "id": "rdf2",
+          "prompt": "Mark: We'd ___ to try some real New York pizza.",
+          "answers": [
+            "love"
+          ],
+          "options": [
+            "love",
+            "want",
+            "like to"
+          ],
+          "explanation": "\"We'd love to…\" is a natural, enthusiastic way to say what you want."
+        },
+        {
+          "id": "rdf3",
+          "prompt": "Server: Anything to ___?",
+          "answers": [
+            "drink"
+          ],
+          "options": [
+            "drink",
+            "eat",
+            "pay"
+          ],
+          "explanation": "After taking the food order, the server asks about drinks."
+        },
+        {
+          "id": "rdf4",
+          "prompt": "Mark: Here's thirty-two — keep the ___.",
+          "answers": [
+            "change"
+          ],
+          "options": [
+            "change",
+            "check",
+            "tip"
+          ],
+          "explanation": "The change is the money left over; telling the server to keep it makes it the tip."
+        },
+        {
+          "id": "rdf5",
+          "prompt": "Server: Have a good night, and come ___ us again.",
+          "answers": [
+            "see"
+          ],
+          "options": [
+            "see",
+            "look",
+            "visit to"
+          ],
+          "explanation": "\"Come see us again\" is a warm, very common American way to invite someone back."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "How does tipping work where you live? Is it expected, optional, or unusual?",
+    "Role-play this scene with a partner: one of you is the server, the other orders a meal, asks for a recommendation, and pays.",
+    "Kevin says tipping is \"not really optional\". Do you think a tip should be part of the price instead? Why?",
+    "Write a short dialogue (about 8 lines) in which you order food and ask two questions about the menu."
+  ],
+  "audio": {
+    "duration_label": "2:32"
+  }
+}

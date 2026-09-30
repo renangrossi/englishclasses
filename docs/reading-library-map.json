@@ -437,14 +437,15 @@
    "level": "A2",
    "topic": "work",
    "action": "EDIT",
-   "audio": "required",
-   "reason": "Good present/past A2 narrative. Relocate to a US setting and use an English name, per the project's American-context brief.",
-   "status": "NOT STARTED",
-   "card_title": "Dream Bistro",
-   "card_desc": "Exercises on restaurant-related vocabulary and scenarios.",
+   "audio": "exists",
+   "reason": "Good A2 narrative mixing present simple, present continuous and simple past. Re-set in Portland, Oregon with an English name per the American-context brief and the naming rule, and given concrete business detail (rent, suppliers, hiring) so the tense contrasts have something real to describe.",
+   "status": "IMPLEMENTED",
+   "card_title": "Opening a Bistro",
+   "card_desc": "One man’s plan to open a small restaurant, in three tenses.",
    "source_files": [
     "cefr/texts/dream-bistro.pdf"
-   ]
+   ],
+   "page": "reading/a2/dream-bistro.html"
   },
   {
    "slug": "egypt",
@@ -1057,14 +1058,15 @@
    "level": "A2",
    "topic": "food",
    "action": "EDIT",
-   "audio": "required",
-   "reason": "Useful ordering dialogue. Rename the family to English names per instruction; keep as the dialogue counterpart to ny-visitation.",
-   "status": "NOT STARTED",
-   "card_title": "Restaurant Dialogue",
-   "card_desc": "Exercises on restaurant conversations and vocabulary.",
+   "audio": "exists",
+   "reason": "Useful ordering dialogue. The family is renamed to English names per instruction; the inconsistent speaker labels ('Joe’s Pizza employee' vs 'Server') are unified; and the tip is corrected — the original left $3.50 on $26.50, about 13%, which misteaches American practice, so it is now just over 20% with a short explanation of why servers depend on tips.",
+   "status": "IMPLEMENTED",
+   "card_title": "Ordering at a New York Pizzeria",
+   "card_desc": "Ordering, asking for a recommendation, paying — and how tipping works in the US.",
    "source_files": [
     "cefr/texts/restaurant-dialogue.pdf"
-   ]
+   ],
+   "page": "reading/a2/restaurant-dialogue.html"
   },
   {
    "slug": "review-prepositions-some-any-no-tenses-comparatives",
@@ -1330,15 +1332,16 @@
    "level": "A2",
    "topic": "culture",
    "action": "EDIT",
-   "audio": "required",
-   "reason": "Charming short story, English names already. Fix the letter-spacing artifacts inherited from the source layout.",
-   "status": "NOT STARTED",
-   "card_title": "St. Patricks Day",
-   "card_desc": "Exercises on St. Patrick&#x27;s Day history and traditions.",
+   "audio": "exists",
+   "reason": "Charming short story with English names already. Edited: the letter-spacing artifacts from the source layout are gone, the American pinching custom is now explained up front instead of assumed, 'St. Patty’s' is corrected to 'St. Paddy’s', and the original multiple-choice distractors ('an underpaid teacher', 'her single mother', 'she ate dubious medicinal plants') are replaced with real ones — they were snarky rather than pedagogically useful.",
+   "status": "IMPLEMENTED",
+   "card_title": "The Day Erica Forgot to Wear Green",
+   "card_desc": "A short St. Patrick’s Day story, and the American wear-green custom behind it.",
    "source_files": [
     "cefr/texts/st.-patricks-day.pdf"
    ],
-   "card_id": "st-patricks-day"
+   "card_id": "st-patricks-day",
+   "page": "reading/a2/st-patricks-day.html"
   },
   {
    "slug": "technology-and-ethics",
@@ -1580,7 +1583,7 @@
   }
  ],
  "_progress": {
-  "implemented": 5,
+  "implemented": 8,
   "merged_away": 0,
   "total": 98
  }

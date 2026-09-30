@@ -71,6 +71,12 @@
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
  },
+ "b1/a-freelance-accounting-assignment": {
+  "bytes": 979632,
+  "fingerprint": "eaccccee6a54075a",
+  "rate": "-8%",
+  "voice": "en-US-AriaNeural"
+ },
  "b1/animal-solutions": {
   "bytes": 1127664,
   "fingerprint": "24b9050433c5643a",
@@ -118,6 +124,12 @@
   "fingerprint": "eae1e41a74f7fcd4",
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
+ },
+ "b1/coffee-and-it": {
+  "bytes": 986976,
+  "fingerprint": "81ff577dfeb7b257",
+  "rate": "-8%",
+  "voice": "en-US-EmmaNeural"
  },
  "b1/common-chores": {
   "bytes": 1127808,
@@ -203,6 +215,12 @@
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
+ "b1/rio-de-janeiro-exercises": {
+  "bytes": 1051776,
+  "fingerprint": "6d4ca8e20a4d7ddb",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
+ },
  "b1/santa-catarina": {
   "bytes": 963792,
   "fingerprint": "1edce731cc9c8ae9",
@@ -268,6 +286,12 @@
   "fingerprint": "b87fa6b3dd0c5b5e",
   "rate": "+0%",
   "voice": "en-US-EricNeural"
+ },
+ "b2/formula-1": {
+  "bytes": 1041696,
+  "fingerprint": "460ec78e0633a823",
+  "rate": "+0%",
+  "voice": "en-US-GuyNeural"
  },
  "b2/it-and-jiu-jitsu": {
   "bytes": 980064,

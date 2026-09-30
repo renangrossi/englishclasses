@@ -1,0 +1,368 @@
+{
+  "id": "b1-reading-rio-hiking",
+  "level": "B1",
+  "slug": "rio-de-janeiro-exercises",
+  "topic": "travel",
+  "title": "Hiking in Rio de Janeiro",
+  "subtitle": "A city with the largest urban forest in the world, and four ways into it.",
+  "description": "A B1 travel reading and listening text on hiking in Rio de Janeiro — Tijuca, Pedra da Gávea and Sugarloaf — with a vocabulary gap-fill and comprehension exercises.",
+  "source": "cefr/texts/rio-de-janeiro-exercises.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "2:55"
+  },
+  "passage": [
+    "Rio de Janeiro is known for its beaches, its Carnival and its landmarks, and rather less for the fact that a substantial mountain range runs straight through the middle of it. You can be on a city bus and forty minutes later be in rainforest, which is not true of many places of this size.",
+    "The reason is Tijuca National Park, the largest urban forest in the world. What is less widely known is that most of it is not original growth. The area was cleared for coffee plantations in the eighteenth and nineteenth centuries, and by the 1850s the deforestation had begun to threaten the city's own water supply. The response was to replant it, largely by hand, over several decades. The forest that now covers those hills is a deliberate nineteenth-century restoration project, and it worked.",
+    "Within the park the trails range from level walks suitable for anybody to genuine treks that take most of a day, and the flora and fauna are worth slowing down for — there are monkeys, toucans, and, if you are unusually fortunate, sloths that most visitors walk directly underneath without noticing.",
+    "Pedra da Gávea is the serious one. It is a vast block of rock above São Conrado, and the route to the summit involves a section of bare rock steep enough that many people hire a guide for it. It is not a walk and should not be attempted casually or alone. What you get in return is a view along the whole coast that is better than anything reachable by cable car, and the particular satisfaction of having earned it.",
+    "Sugarloaf Mountain is the opposite proposition. A cable car takes you up in two stages, the view at the top is a full circle of the city and the bay, and it is busy at sunset for good reason. There are also paths on the lower section for anyone who would rather walk one stage and ride the other, which is a reasonable compromise and considerably cheaper.",
+    "A few practical points that guidebooks tend to leave out. Start early: the heat by eleven is serious and the afternoon cloud often takes the view away entirely. Carry more water than you think you need. Ask locally about which trails are fine to walk alone, because the honest answer varies by trail and by day and people who live there will tell you straight. And check the weather for the two days before, not just the day itself — the rock on Gávea stays slippery long after the rain has stopped.",
+    "What stays with most people is the contrast. You climb for two hours through dense forest, hearing nothing but insects and your own breathing, come out on a ridge, and there is a city of six million people directly below with the Atlantic behind it."
+  ],
+  "vocabulary": [
+    {
+      "term": "landmark",
+      "definition": "a well-known building or feature that identifies a place",
+      "match": "landmarks"
+    },
+    {
+      "term": "range",
+      "definition": "a connected line of mountains"
+    },
+    {
+      "term": "rainforest",
+      "definition": "dense forest in a region of heavy rainfall"
+    },
+    {
+      "term": "urban",
+      "definition": "belonging to a city"
+    },
+    {
+      "term": "original growth",
+      "definition": "forest that has never been cut down"
+    },
+    {
+      "term": "plantation",
+      "definition": "a large estate growing a single crop",
+      "match": "plantations"
+    },
+    {
+      "term": "deforestation",
+      "definition": "the clearing of forest from an area"
+    },
+    {
+      "term": "to replant",
+      "definition": "to plant an area again after it has been cleared"
+    },
+    {
+      "term": "restoration",
+      "definition": "the work of returning something to an earlier condition"
+    },
+    {
+      "term": "trail",
+      "definition": "a marked route for walking",
+      "match": "trails"
+    },
+    {
+      "term": "trek",
+      "definition": "a long and demanding walk",
+      "match": "treks"
+    },
+    {
+      "term": "flora",
+      "definition": "the plant life of an area"
+    },
+    {
+      "term": "fauna",
+      "definition": "the animal life of an area"
+    },
+    {
+      "term": "summit",
+      "definition": "the highest point of a mountain"
+    },
+    {
+      "term": "cable car",
+      "definition": "a cabin carried up a mountain on a suspended cable"
+    },
+    {
+      "term": "compromise",
+      "definition": "a solution that gives each side part of what it wanted"
+    },
+    {
+      "term": "ridge",
+      "definition": "a long narrow crest of high ground"
+    },
+    {
+      "term": "slippery",
+      "definition": "difficult to stand or walk on without sliding"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-rio-gapfill",
+      "type": "fill-blank",
+      "title": "Vocabulary Gap-Fill",
+      "instructions": "Complete each sentence with the word that fits.",
+      "items": [
+        {
+          "id": "ri1",
+          "prompt": "Tijuca is the largest ___ forest in the world.",
+          "answers": [
+            "urban"
+          ],
+          "options": [
+            "urban",
+            "original",
+            "slippery"
+          ],
+          "explanation": "Urban means belonging to a city — which is what makes the park unusual."
+        },
+        {
+          "id": "ri2",
+          "prompt": "The ___ range from level walks to full-day ___.",
+          "answers": [
+            "trails",
+            "treks"
+          ],
+          "options": [
+            [
+              "trails",
+              "ridges",
+              "summits"
+            ],
+            [
+              "treks",
+              "landmarks",
+              "plantations"
+            ]
+          ],
+          "explanation": "A trail is a marked route; a trek is a long and demanding walk."
+        },
+        {
+          "id": "ri3",
+          "prompt": "The park's ___ and ___ include monkeys, toucans and sloths.",
+          "answers": [
+            "flora",
+            "fauna"
+          ],
+          "options": [
+            [
+              "flora",
+              "fauna",
+              "forest"
+            ],
+            [
+              "fauna",
+              "flora",
+              "range"
+            ]
+          ],
+          "explanation": "Flora is plant life and fauna is animal life — always in that order in the fixed phrase."
+        },
+        {
+          "id": "ri4",
+          "prompt": "The view from the ___ is better than anything you can reach by ___ ___.",
+          "answers": [
+            "summit",
+            "cable",
+            "car"
+          ],
+          "options": [
+            [
+              "summit",
+              "ridge",
+              "trail"
+            ],
+            [
+              "cable",
+              "cabin",
+              "chair"
+            ],
+            [
+              "car",
+              "lift",
+              "way"
+            ]
+          ],
+          "explanation": "The summit is the highest point; a cable car is a cabin carried on a suspended cable."
+        },
+        {
+          "id": "ri5",
+          "prompt": "Coffee ___ caused the ___ that threatened the city's water.",
+          "answers": [
+            "plantations",
+            "deforestation"
+          ],
+          "options": [
+            [
+              "plantations",
+              "landmarks",
+              "trails"
+            ],
+            [
+              "deforestation",
+              "restoration",
+              "compromise"
+            ]
+          ],
+          "explanation": "A plantation grows a single crop on a large estate; deforestation is the clearing that followed."
+        },
+        {
+          "id": "ri6",
+          "prompt": "The rock stays ___ for a long time after rain.",
+          "answers": [
+            "slippery"
+          ],
+          "options": [
+            "slippery",
+            "urban",
+            "dense"
+          ],
+          "explanation": "Slippery means difficult to walk on without sliding — the reason to check two days of weather, not one."
+        }
+      ]
+    },
+    {
+      "id": "b1-rio-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for what the text says that a guidebook would not.",
+      "items": [
+        {
+          "id": "rc1",
+          "prompt": "What is surprising about Tijuca National Park's forest?",
+          "options": [
+            "It is the oldest forest in Brazil",
+            "Most of it is not original growth but a deliberate nineteenth-century replanting",
+            "It is entirely closed to visitors"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cleared for coffee, then replanted largely by hand over several decades — “and it worked”."
+        },
+        {
+          "id": "rc2",
+          "prompt": "Why was the forest replanted?",
+          "options": [
+            "To create a tourist attraction",
+            "To provide timber for the growing city",
+            "Because deforestation had begun to threaten the city's water supply"
+          ],
+          "answerIndex": 2,
+          "explanation": "A practical emergency rather than an environmental ideal — which is what makes it an early and effective restoration."
+        },
+        {
+          "id": "rc3",
+          "prompt": "Why does the writer say Pedra da Gávea “is not a walk”?",
+          "options": [
+            "It involves a section of bare rock steep enough that many people hire a guide",
+            "It is closed to individual hikers",
+            "It takes more than one day"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the text adds directly that it “should not be attempted casually or alone”."
+        },
+        {
+          "id": "rc4",
+          "prompt": "How does the text describe Sugarloaf compared with Pedra da Gávea?",
+          "options": [
+            "As more demanding but with a better view",
+            "As the opposite proposition — reachable by cable car, busy at sunset",
+            "As closed for most of the year"
+          ],
+          "answerIndex": 1,
+          "explanation": "Effort against access: one is earned, the other is bought, and the text recommends a middle option too."
+        },
+        {
+          "id": "rc5",
+          "prompt": "What is the “reasonable compromise” the writer mentions?",
+          "options": [
+            "Visiting Sugarloaf early rather than at sunset",
+            "Hiring a guide for part of the climb",
+            "Walking the lower section and taking the cable car for the upper one"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Considerably cheaper” as well, which the writer notes without making it the main argument."
+        },
+        {
+          "id": "rc6",
+          "prompt": "Why does the writer say to check the weather for the two preceding days?",
+          "options": [
+            "Because the trails close after heavy rain",
+            "Because the rock on Gávea stays slippery long after the rain has stopped",
+            "Because the cable car does not run in poor visibility"
+          ],
+          "answerIndex": 1,
+          "explanation": "A specific piece of practical knowledge that a forecast for the day itself would not give you."
+        },
+        {
+          "id": "rc7",
+          "prompt": "What does the writer advise about walking trails alone?",
+          "options": [
+            "Never do it anywhere in the park",
+            "Ask locally, because the honest answer varies by trail and by day",
+            "Only walk alone on the marked routes"
+          ],
+          "answerIndex": 1,
+          "explanation": "“People who live there will tell you straight” — the advice is to get current local knowledge rather than a general rule."
+        },
+        {
+          "id": "rc8",
+          "prompt": "What does the writer say stays with most people?",
+          "options": [
+            "The contrast between silent forest and a city of six million directly below",
+            "The difficulty of the climb",
+            "The wildlife in the park"
+          ],
+          "answerIndex": 0,
+          "explanation": "The final image is built entirely on that juxtaposition, which is what makes hiking in this city different."
+        }
+      ]
+    },
+    {
+      "id": "b1-rio-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "rt1",
+          "statement": "You can reach rainforest from the city by bus in under an hour.",
+          "answer": true,
+          "explanation": "True — “forty minutes later be in rainforest”."
+        },
+        {
+          "id": "rt2",
+          "statement": "The Tijuca forest has never been cut down.",
+          "answer": false,
+          "explanation": "False — it was cleared for coffee plantations and replanted from the 1850s onward."
+        },
+        {
+          "id": "rt3",
+          "statement": "Sloths are easy to spot in the park.",
+          "answer": false,
+          "explanation": "False — most visitors “walk directly underneath without noticing” them."
+        },
+        {
+          "id": "rt4",
+          "statement": "There are walking paths on part of Sugarloaf.",
+          "answer": true,
+          "explanation": "True — on the lower section, for people who want to walk one stage and ride the other."
+        },
+        {
+          "id": "rt5",
+          "statement": "The writer recommends starting late to avoid crowds.",
+          "answer": false,
+          "explanation": "False — start early: the heat by eleven is serious and afternoon cloud often removes the view."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Tijuca was replanted to protect a water supply and became a national park. Can you think of another practical decision that turned out to have a much larger benefit?",
+    "The writer says to ask locals rather than follow a general rule about safety. When is local knowledge better than a guidebook?",
+    "Would you rather earn a view over two hours or reach it by cable car in ten minutes? Be honest about why.",
+    "Is there a piece of nature inside a city you know? What would be lost if it were built on?",
+    "Write about 150 words describing a walk you have done, including one piece of practical advice a guidebook would not give."
+  ]
+}

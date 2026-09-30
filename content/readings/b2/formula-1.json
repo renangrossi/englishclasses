@@ -1,0 +1,372 @@
+{
+  "id": "b2-reading-formula-1",
+  "level": "B2",
+  "slug": "formula-1",
+  "topic": "sports",
+  "title": "How a Formula One Car Works",
+  "subtitle": "A hybrid power unit, a wing that pushes down instead of up, and a car built to be light in the places that matter.",
+  "description": "A B2 technology and sport reading and listening text explaining the main systems of a Formula One car, with a technical vocabulary gap-fill and comprehension exercises.",
+  "source": "cefr/texts/formula-1.docx + cefr/texts/formula-1-exercises-answers.docx",
+  "provenance": "merged",
+  "audio": {
+    "duration_label": "2:53"
+  },
+  "passage": [
+    "A Formula One car is a single-seater built to do two things an ordinary car cannot: accelerate extremely hard in a straight line, and change direction at speeds where a road car would simply leave the track. Almost every design decision follows from the second of those.",
+    "The engine is a hybrid power unit, and the word is accurate rather than marketing. It combines a small turbocharged internal combustion engine — 1.6 litres, which is less than most family cars — with an energy recovery system. The combustion engine converts fuel into the power that drives the rear wheels. The recovery system captures energy that would otherwise be thrown away as heat under braking, stores it, and returns it as a boost the driver can deploy. The combined output is over a thousand horsepower from an engine the size of a suitcase, and the thermal efficiency of these units is higher than any road engine ever built.",
+    "Aerodynamics is where the real difference lies, and the principle is counter-intuitive. An aircraft wing is shaped to produce lift. An F1 wing is the same shape inverted, so it produces the opposite: downforce, pressing the car onto the track. The faster the car goes, the harder it is pressed down, and the more grip the tyres have. This is why these cars corner at speeds that seem impossible — they are not relying on the weight of the car but on air pushing it into the ground. At full speed the downforce exceeds the weight of the car several times over, which is the origin of the often-repeated claim that the car could in theory drive along a ceiling.",
+    "The consequence is that grip depends on speed, which makes the car behave in a way that takes drivers a long time to trust. Slow corners have relatively little downforce and the car slides; fast corners have enormous downforce and the car holds. The instinct to brake harder in a fast corner is exactly wrong, because slowing down is what removes the grip.",
+    "Suspension keeps the tyres in contact with an uneven surface and, just as importantly, holds the car at the right height and angle for the aerodynamics to work. It is extremely stiff — far stiffer than anything road-legal — because a car that moves on its springs is a car whose wings are constantly at the wrong angle.",
+    "The structure is built from carbon fibre composites, which give a lightweight shell with more strength for its mass than steel. The minimum weight is set by the rules, so teams do not simply build the lightest car possible; they build a car that is under the limit and then add ballast exactly where they want it, which is a way of controlling balance that is not available if the car is already too heavy.",
+    "Finally, the car reports on itself constantly. A modern car carries several hundred sensors feeding telemetry to the pit wall in real time — tyre temperatures, brake temperatures, fuel flow, pressures, the loads going through the suspension. The engineers often know what has failed before the driver has finished the lap, and the strategy decisions that decide most races are made from that data rather than from what anybody can see."
+  ],
+  "vocabulary": [
+    {
+      "term": "single-seater",
+      "definition": "a racing car with room for the driver only"
+    },
+    {
+      "term": "hybrid",
+      "definition": "using two power sources together, here petrol and recovered electrical energy"
+    },
+    {
+      "term": "turbocharged",
+      "definition": "using exhaust gas to force extra air into the engine for more power"
+    },
+    {
+      "term": "internal combustion engine",
+      "definition": "an engine that burns fuel inside its own cylinders"
+    },
+    {
+      "term": "energy recovery system",
+      "definition": "equipment that captures energy normally lost and stores it for reuse"
+    },
+    {
+      "term": "to deploy",
+      "definition": "to release or use something at a chosen moment"
+    },
+    {
+      "term": "thermal efficiency",
+      "definition": "how much of a fuel's energy an engine turns into useful work"
+    },
+    {
+      "term": "aerodynamics",
+      "definition": "the study of how air flows around a moving object"
+    },
+    {
+      "term": "counter-intuitive",
+      "definition": "true, but the opposite of what you would expect"
+    },
+    {
+      "term": "lift",
+      "definition": "the upward force a wing generates"
+    },
+    {
+      "term": "inverted",
+      "definition": "turned upside down"
+    },
+    {
+      "term": "downforce",
+      "definition": "aerodynamic force pressing a car onto the track"
+    },
+    {
+      "term": "grip",
+      "definition": "the hold the tyres keep on the surface"
+    },
+    {
+      "term": "to exceed",
+      "definition": "to be greater than",
+      "match": "exceeds"
+    },
+    {
+      "term": "suspension",
+      "definition": "the springs and linkages connecting the wheels to the car"
+    },
+    {
+      "term": "stiff",
+      "definition": "resisting bending or movement"
+    },
+    {
+      "term": "carbon fibre composite",
+      "definition": "a material of carbon threads set in resin, very strong for its weight",
+      "match": "carbon fibre composites"
+    },
+    {
+      "term": "lightweight",
+      "definition": "weighing little for its size"
+    },
+    {
+      "term": "ballast",
+      "definition": "weight added deliberately to reach a limit or adjust balance"
+    },
+    {
+      "term": "sensor",
+      "definition": "a device that measures a physical quantity and reports it",
+      "match": "sensors"
+    },
+    {
+      "term": "telemetry",
+      "definition": "measurements transmitted automatically from a machine to those monitoring it"
+    },
+    {
+      "term": "pit wall",
+      "definition": "where the team's engineers sit and direct the race"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-f1-gapfill",
+      "type": "fill-blank",
+      "title": "Technical Vocabulary",
+      "instructions": "Complete each sentence with the correct technical term.",
+      "items": [
+        {
+          "id": "f11",
+          "prompt": "The car is powered by a ___ power unit combining an engine and an energy recovery system.",
+          "answers": [
+            "hybrid"
+          ],
+          "options": [
+            "hybrid",
+            "turbocharged",
+            "lightweight"
+          ],
+          "explanation": "Hybrid means using two power sources together. Turbocharged describes the combustion engine specifically."
+        },
+        {
+          "id": "f12",
+          "prompt": "The combustion engine drives the ___ wheels.",
+          "answers": [
+            "rear"
+          ],
+          "options": [
+            "rear",
+            "front",
+            "inner"
+          ],
+          "explanation": "Formula One cars are rear-wheel drive."
+        },
+        {
+          "id": "f13",
+          "prompt": "The wings generate ___, which presses the car onto the track.",
+          "answers": [
+            "downforce"
+          ],
+          "options": [
+            "downforce",
+            "lift",
+            "grip"
+          ],
+          "explanation": "Downforce is the aerodynamic force pushing down; lift is its opposite, which is what an aircraft wing produces."
+        },
+        {
+          "id": "f14",
+          "prompt": "The car's ___ system keeps the tyres on an uneven surface and holds the ride height steady.",
+          "answers": [
+            "suspension"
+          ],
+          "options": [
+            "suspension",
+            "telemetry",
+            "ballast"
+          ],
+          "explanation": "And the second job matters as much as the first, because the aerodynamics depend on the car's angle."
+        },
+        {
+          "id": "f15",
+          "prompt": "The ___ construction uses carbon fibre composites rather than steel.",
+          "answers": [
+            "lightweight"
+          ],
+          "options": [
+            "lightweight",
+            "inverted",
+            "stiff"
+          ],
+          "explanation": "Lightweight means weighing little for its size — carbon fibre gives more strength per kilogram than steel."
+        },
+        {
+          "id": "f16",
+          "prompt": "Several hundred ___ send ___ to the pit wall during the race.",
+          "answers": [
+            "sensors",
+            "telemetry"
+          ],
+          "options": [
+            [
+              "sensors",
+              "engines",
+              "wings"
+            ],
+            [
+              "telemetry",
+              "ballast",
+              "downforce"
+            ]
+          ],
+          "explanation": "A sensor measures; telemetry is the transmission of those measurements to the people monitoring them."
+        },
+        {
+          "id": "f17",
+          "prompt": "Teams build the car under the weight limit and add ___ where it helps the balance.",
+          "answers": [
+            "ballast"
+          ],
+          "options": [
+            "ballast",
+            "downforce",
+            "grip"
+          ],
+          "explanation": "Ballast is weight added deliberately — useless in itself, valuable because you choose where it goes."
+        }
+      ]
+    },
+    {
+      "id": "b2-f1-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for the reasoning, particularly where the text says something is counter-intuitive.",
+      "items": [
+        {
+          "id": "fc1",
+          "prompt": "Which of the car's two abilities does the writer say drives almost every design decision?",
+          "options": [
+            "Accelerating hard in a straight line",
+            "Changing direction at speeds a road car could not survive",
+            "Braking from high speed"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Almost every design decision follows from the second of those.”"
+        },
+        {
+          "id": "fc2",
+          "prompt": "What does the energy recovery system capture?",
+          "options": [
+            "Energy that would otherwise be thrown away as heat under braking",
+            "Air forced through the turbocharger",
+            "Surplus fuel not burned in the cylinders"
+          ],
+          "answerIndex": 0,
+          "explanation": "It stores that energy and returns it as a boost the driver can deploy."
+        },
+        {
+          "id": "fc3",
+          "prompt": "Why does the writer call the aerodynamic principle counter-intuitive?",
+          "options": [
+            "Because the car is faster with more weight",
+            "Because an F1 wing is an aircraft wing inverted, producing downward rather than upward force",
+            "Because air resistance helps acceleration"
+          ],
+          "answerIndex": 1,
+          "explanation": "Same shape, opposite orientation, opposite effect — which is the whole basis of the car's cornering."
+        },
+        {
+          "id": "fc4",
+          "prompt": "Why do these cars corner at apparently impossible speeds?",
+          "options": [
+            "Because their tyres are unusually wide",
+            "Because they are heavier than they look",
+            "Because air pressing them into the ground provides the grip, not their weight"
+          ],
+          "answerIndex": 2,
+          "explanation": "And at full speed that force “exceeds the weight of the car several times over”."
+        },
+        {
+          "id": "fc5",
+          "prompt": "Why is the instinct to brake harder in a fast corner “exactly wrong”?",
+          "options": [
+            "Because the brakes overheat at speed",
+            "Because slowing down removes the downforce that is providing the grip",
+            "Because the suspension cannot absorb the load"
+          ],
+          "answerIndex": 1,
+          "explanation": "Grip depends on speed, so the natural reaction destroys the thing keeping the car on the track."
+        },
+        {
+          "id": "fc6",
+          "prompt": "Why is the suspension so stiff?",
+          "options": [
+            "To make the car lighter",
+            "To protect the driver in a crash",
+            "Because a car moving on its springs has its wings constantly at the wrong angle"
+          ],
+          "answerIndex": 2,
+          "explanation": "The suspension is serving the aerodynamics as much as the tyres."
+        },
+        {
+          "id": "fc7",
+          "prompt": "Why do teams build the car under the minimum weight?",
+          "options": [
+            "To allow for fuel added later",
+            "So they can add ballast exactly where they want it and control the balance",
+            "Because the rules reward lighter cars"
+          ],
+          "answerIndex": 1,
+          "explanation": "“A way of controlling balance that is not available if the car is already too heavy.”"
+        },
+        {
+          "id": "fc8",
+          "prompt": "What does the writer say decides most races?",
+          "options": [
+            "Strategy decisions made from telemetry rather than from what anyone can see",
+            "The power output of the engine",
+            "The driver's reaction at the start"
+          ],
+          "answerIndex": 0,
+          "explanation": "Engineers “often know what has failed before the driver has finished the lap”."
+        }
+      ]
+    },
+    {
+      "id": "b2-f1-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "ft1",
+          "statement": "An F1 engine is larger than a typical family car engine.",
+          "answer": false,
+          "explanation": "False — 1.6 litres, “which is less than most family cars”, yet it produces over a thousand horsepower with the recovery system."
+        },
+        {
+          "id": "ft2",
+          "statement": "These power units are more thermally efficient than any road engine.",
+          "answer": true,
+          "explanation": "True — stated directly, and it is the reason the technology interests road manufacturers."
+        },
+        {
+          "id": "ft3",
+          "statement": "Downforce increases as the car goes faster.",
+          "answer": true,
+          "explanation": "True — “the faster the car goes, the harder it is pressed down”, which is why grip varies with speed."
+        },
+        {
+          "id": "ft4",
+          "statement": "The car slides more in fast corners than in slow ones.",
+          "answer": false,
+          "explanation": "False — the opposite. Slow corners have little downforce and the car slides; fast corners have a great deal and it holds."
+        },
+        {
+          "id": "ft5",
+          "statement": "Carbon fibre is stronger for its weight than steel.",
+          "answer": true,
+          "explanation": "True — “more strength for its mass than steel”, which is why the shell is made of it."
+        },
+        {
+          "id": "ft6",
+          "statement": "Ballast is added because the rules set a minimum weight.",
+          "answer": true,
+          "explanation": "True — and the placement of that ballast is itself a design tool."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The car's grip depends on its speed, which means the safe reaction feels wrong. Where else does correct action feel counter-intuitive?",
+    "Engineers often know a component has failed before the driver does. Does that make the driver's judgement less important?",
+    "Formula One develops technology that later reaches road cars. Is that a good justification for the sport's cost?",
+    "The minimum weight is set by rules, so teams compete on where to put the weight rather than how little to have. What does that say about how regulations shape engineering?",
+    "Write about 150 words explaining a piece of technology from a sport you follow, to someone who does not follow it."
+  ]
+}

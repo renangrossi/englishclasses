@@ -9,7 +9,7 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 65 of 98 implemented.**
+**Progress: 71 of 98 implemented.**
 
 ## Totals
 
@@ -46,9 +46,9 @@ content rather than as pre-existing.
 | Audio | Docs | |
 |---|---:|---|
 | `required` | 10 | must be generated |
-| `exists` | 60 | mp3 present and matches the text |
+| `exists` | 66 | mp3 present and matches the text |
 | `stale-on-edit` | 0 | mp3 present but the text is being edited -- **must be regenerated** |
-| `n/a` | 28 | drill / answer key / discussion bank -- not a reading text |
+| `n/a` | 22 | drill / answer key / discussion bank -- not a reading text |
 
 ---
 
@@ -89,11 +89,11 @@ Two or more files teach essentially the same language in essentially the same co
 
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
-| `coffee-and-it-answers`<br>→ `coffee-and-it` | 295 | reference | B1 | work | `n/a` | NOT STARTED | Answer key for coffee-and-it; becomes that block's answers/explanations. |
+| `coffee-and-it-answers`<br>→ `coffee-and-it`<br>[page](../reading/b1/coffee-and-it.html) | 295 | reference | B1 | work | `exists` | IMPLEMENTED | Answer key for coffee-and-it; becomes that block's answers/explanations. — DONE: Merged into reading/b1/coffee-and-it.html as the answers and explanations for its fill-blank block — see that entry. |
 | `common-chores`<br>→ `household-chores`<br>[page](../reading/b1/common-chores.html) | 340 | reading | B1 | everyday | `exists` | IMPLEMENTED | Phrasal-verb chores text. Unnatural line to fix: 'you hang up or toss into the dryer the clothes'. Merges with common-chores-ii. — DONE: Merged with common-chores-ii. The audit's instruction was followed: the American setting (Mike, Austin) is the frame, and the phrasal-verb load from this file is carried inside it. The unnatural 'you hang up or toss into the dryer the clothes' is fixed. |
 | `common-chores-ii`<br>→ `household-chores`<br>[page](../reading/b1/common-chores.html) | 337 | reading | A2 | everyday | `exists` | IMPLEMENTED | Same teaching goal as common-chores, narrative form (Mike, Austin TX). Keep the American setting as the merged version's frame. — DONE: Merged into reading/b1/common-chores.html as the narrative frame — see that entry. |
 | `daily-activities`<br>→ `routines-and-prepositions-drill` | 442 | drill | B1 | work | `n/a` | NOT STARTED | Identical '_____ (to verb) ___ (in/on/at)' template to navigating-finance and unfortunate-events; three copies of one exercise. |
-| `formula-1-exercises-answers`<br>→ `formula-1` | — | reference | B2 | sports | `n/a` | NOT STARTED | Answer key for formula-1. |
+| `formula-1-exercises-answers`<br>→ `formula-1`<br>[page](../reading/b2/formula-1.html) | — | reference | B2 | sports | `exists` | IMPLEMENTED | Answer key for formula-1. — DONE: Merged into reading/b2/formula-1.html as the answers for its gap-fill — see that entry. |
 | `kitchen-chaos-i`<br>→ `kitchen-phrasal-verbs`<br>[page](../reading/b1/kitchen-chaos.html) | 228 | reading | B1 | everyday | `exists` | IMPLEMENTED | Same premise and teaching goal as kitchen-chaos-ii (IT worker cooking, phrasal verbs). Two texts teaching one thing. — DONE: Merged with kitchen-chaos-ii into one phrasal-verb text. The two sources taught the same thing with the same premise (an IT worker cooking); the merged version keeps the cooking/coding parallel as an actual argument rather than a closing remark. |
 | `kitchen-chaos-ii`<br>→ `kitchen-phrasal-verbs`<br>[page](../reading/b1/kitchen-chaos.html) | 310 | reading | B1 | everyday | `exists` | IMPLEMENTED | Merges with kitchen-chaos-i into one stronger phrasal-verb text. — DONE: Merged with kitchen-chaos-i into reading/b1/kitchen-chaos.html — see that entry. |
 | `navigating-finance`<br>→ `routines-and-prepositions-drill` | 734 | drill | B2 | business | `n/a` | NOT STARTED | Third copy of the same gap-fill template as daily-activities and unfortunate-events. |
@@ -165,16 +165,16 @@ Not a reading text -- a drill, answer key or discussion bank. Becomes an HTML ex
 
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
-| `a-freelance-accounting-assignment` | 655 | drill | B1 | work | `n/a` | NOT STARTED | Pure simple-past gap-fill on accounting tasks; no prose passage. Becomes a fill-blank block. |
+| `a-freelance-accounting-assignment`<br>[page](../reading/b1/a-freelance-accounting-assignment.html) | 655 | drill | B1 | work | `exists` | IMPLEMENTED | Pure simple-past gap-fill on accounting tasks; no prose passage. Becomes a fill-blank block. — DONE: Converted. The source was a pure conjugation drill — roughly 200 'I ______ (prepare)' slots across six tense sections and no prose at all. Replaced by a real first-person account of freelance work, with the tense contrast kept as a manageable exercise covering the same five time frames. |
 | `a2-review` | 1158 | drill | A2 | review | `n/a` | NOT STARTED | Well-formed A2 mixed-grammar drill set; converts cleanly to fill-blank/multiple-choice. |
-| `coffee-and-it` | 285 | drill | B1 | work | `n/a` | NOT STARTED | Word-bank gap-fill; its answer key is a separate file to fold in. |
-| `formula-1` | 808 | drill | B2 | sports | `n/a` | NOT STARTED | Technical word-bank gap-fill; answer key is a separate file. |
+| `coffee-and-it`<br>[page](../reading/b1/coffee-and-it.html) | 285 | drill | B1 | work | `exists` | IMPLEMENTED | Word-bank gap-fill; its answer key is a separate file to fold in. — DONE: Converted: the gap-fill text becomes a real reading and the verb gaps become a fill-blank block, with coffee-and-it-answers merged in as the answers. Rewritten from a bulleted feature list into prose, 'an IT guy' neutralised, and a closing section added on why these systems fail in practice — the discipline, not the software. |
+| `formula-1`<br>[page](../reading/b2/formula-1.html) | 808 | drill | B2 | sports | `exists` | IMPLEMENTED | Technical word-bank gap-fill; answer key is a separate file. — DONE: Converted: the technical gap-fill becomes a fill-blank block and the text becomes a real explanation, with formula-1-exercises-answers merged in as the answers. Expanded so each system is explained rather than named, including why grip depends on speed and why braking harder in a fast corner is the wrong instinct. |
 | `grammar-practice-i` | 1050 | drill | A2 | review | `n/a` | NOT STARTED | Multiple-choice-in-brackets dialogue drill; maps directly to fill-blank with options. |
 | `grocery-shopping` | 160 | drill | A2 | everyday | `n/a` | NOT STARTED | A writing worksheet whose body is blank rules for handwriting. Becomes guided writing prompts, not a reading. |
 | `questionnaire-company-management` | 568 | discussion | C1 | business | `n/a` | NOT STARTED | A bank of executive discussion prompts; becomes a speaking/discussion component, not a reading. |
 | `questionnaire-company-tech-leader` | 216 | discussion | C1 | interviews | `n/a` | NOT STARTED | Same — senior-interview speaking prompts. |
 | `review-prepositions-some-any-no-tenses-comparatives` | 707 | drill | A2 | review | `n/a` | NOT STARTED | Clean multiple-choice mixed review; converts directly. |
-| `rio-de-janeiro-exercises` | 342 | drill | B1 | travel | `n/a` | NOT STARTED | Word-bank gap-fill about hiking in Rio; keep as a drill. |
+| `rio-de-janeiro-exercises`<br>[page](../reading/b1/rio-de-janeiro-exercises.html) | 342 | drill | B1 | travel | `exists` | IMPLEMENTED | Word-bank gap-fill about hiking in Rio; keep as a drill. — DONE: Converted: the noun gap-fill becomes a vocabulary block and the text becomes a genuine hiking reading. Added the fact the source omitted — Tijuca's forest is a deliberate nineteenth-century replanting after coffee clearance threatened the city's water — plus practical advice on heat, water and local safety knowledge. |
 | `say-talk-speak-tell-exercises` | — | drill | A2 | everyday | `n/a` | NOT STARTED | The drill half of the say/speak/talk/tell set; attach to the merged reading. |
 
 ## KEEP (15)

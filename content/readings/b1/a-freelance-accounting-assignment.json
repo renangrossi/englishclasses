@@ -1,0 +1,367 @@
+{
+  "id": "b1-reading-freelance-accounting",
+  "level": "B1",
+  "slug": "a-freelance-accounting-assignment",
+  "topic": "work",
+  "title": "Working for Yourself",
+  "subtitle": "A freelance accountant on the work, the clients, and the two things nobody warns you about.",
+  "description": "A B1 work reading and listening text on freelance accounting, with a tense-practice exercise covering past, present, continuous and future forms, plus comprehension questions.",
+  "source": "cefr/texts/a-freelance-accounting-assignment.pdf",
+  "provenance": "rewritten",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "2:43"
+  },
+  "passage": [
+    "I have been working as a freelance accountant for six years. Before that I spent nine years at a firm, which I mention because people considering the move usually want to know whether it is better, and the honest answer is that it is different in ways that suit some people and make others miserable.",
+    "The work itself is much the same. Last month I prepared a year-end report for a retail client, reconciled three months of bank statements that had not been touched since March, and found a discrepancy in the ledger that turned out to be a supplier invoice entered twice. That last one took an afternoon to find and about four seconds to fix, which is the shape of a great deal of this job.",
+    "At the moment I am handling a client's year-end closing, and I am also training on a new accounting system because two of my clients are moving to it and I would rather learn it before they do than after. Next month I will start an audit for somebody new, and in six months I will present a full-year plan to my largest client, which is the piece of work the whole year is arranged around.",
+    "What is genuinely better is the control. I choose the clients, which means I have stopped working for the two who used to ruin my Decembers. I work the hours that suit the work rather than the hours that suit an office, and if the report is finished at two in the afternoon I stop. Nobody has ever asked me to look busy.",
+    "The first thing nobody warns you about is that you are not paid for a large part of what you do. Quoting, invoicing, chasing invoices, keeping your own books, the conversation with a prospective client who then disappears — none of that is billable, and it takes a day a week. If you calculate your rate from your old salary and divide by working hours, you will price yourself too low, and this is the single most common mistake people make in their first year.",
+    "The second is the loneliness, which sounds soft and is not. In a firm you ask the person opposite whether a treatment is right and get an answer in ten seconds. Alone you either look it up, which takes an hour, or you carry the uncertainty. I now pay to be part of a small professional group precisely so that I have someone to ask, and it is the most useful money I spend.",
+    "Would I go back? No. But I would tell anyone considering it that the skill you need most is not technical. It is being able to say what you charge, out loud, to somebody's face, without apologising for it."
+  ],
+  "vocabulary": [
+    {
+      "term": "freelance",
+      "definition": "working for yourself on contracts rather than for one employer"
+    },
+    {
+      "term": "firm",
+      "definition": "a business, especially one providing professional services"
+    },
+    {
+      "term": "to prepare",
+      "definition": "to produce a document ready for use",
+      "match": "prepared"
+    },
+    {
+      "term": "to reconcile",
+      "definition": "to check two sets of financial records against each other",
+      "match": "reconciled"
+    },
+    {
+      "term": "bank statement",
+      "definition": "the record of what has gone in and out of an account",
+      "match": "bank statements"
+    },
+    {
+      "term": "discrepancy",
+      "definition": "a difference between figures that should match"
+    },
+    {
+      "term": "ledger",
+      "definition": "the main record of a business's financial transactions"
+    },
+    {
+      "term": "supplier",
+      "definition": "a company that provides goods or services to another"
+    },
+    {
+      "term": "invoice",
+      "definition": "a document requesting payment for work done"
+    },
+    {
+      "term": "year-end closing",
+      "definition": "the work of finalising a company's accounts for the year"
+    },
+    {
+      "term": "audit",
+      "definition": "a formal examination of financial records"
+    },
+    {
+      "term": "to quote",
+      "definition": "to state in advance what a piece of work will cost",
+      "match": "Quoting"
+    },
+    {
+      "term": "to chase",
+      "definition": "to pursue someone for something they owe you",
+      "match": "chasing"
+    },
+    {
+      "term": "prospective",
+      "definition": "possible in the future; not yet confirmed"
+    },
+    {
+      "term": "billable",
+      "definition": "able to be charged to a client"
+    },
+    {
+      "term": "rate",
+      "definition": "the amount you charge per hour or per job"
+    },
+    {
+      "term": "treatment",
+      "definition": "the accounting method applied to a particular item"
+    },
+    {
+      "term": "to carry uncertainty",
+      "definition": "to continue working without being sure you are right",
+      "match": "carry the uncertainty"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-fa-tenses",
+      "type": "fill-blank",
+      "title": "Which Tense?",
+      "instructions": "This text moves through five time frames. Choose the form each one needs.",
+      "items": [
+        {
+          "id": "fa1",
+          "prompt": "I ___ as a freelance accountant for six years.",
+          "answers": [
+            "have been working"
+          ],
+          "options": [
+            "have been working",
+            "work",
+            "worked"
+          ],
+          "explanation": "An activity running from the past up to now, with a stated duration — present perfect continuous."
+        },
+        {
+          "id": "fa2",
+          "prompt": "Last month I ___ a year-end report and ___ three months of statements.",
+          "answers": [
+            "prepared",
+            "reconciled"
+          ],
+          "options": [
+            [
+              "prepared",
+              "have prepared",
+              "prepare"
+            ],
+            [
+              "reconciled",
+              "have reconciled",
+              "reconcile"
+            ]
+          ],
+          "explanation": "“Last month” fixes both verbs in finished past time, so the past simple throughout."
+        },
+        {
+          "id": "fa3",
+          "prompt": "At the moment I ___ a client's year-end closing.",
+          "answers": [
+            "am handling"
+          ],
+          "options": [
+            "am handling",
+            "handle",
+            "will handle"
+          ],
+          "explanation": "Present continuous for something in progress right now. “I handle” would describe a general duty instead."
+        },
+        {
+          "id": "fa4",
+          "prompt": "Next month I ___ an audit for a new client.",
+          "answers": [
+            "will start"
+          ],
+          "options": [
+            "will start",
+            "started",
+            "have started"
+          ],
+          "explanation": "A future intention at a stated future time."
+        },
+        {
+          "id": "fa5",
+          "prompt": "I ___ the clients, which means I ___ working for the difficult ones.",
+          "answers": [
+            "choose",
+            "have stopped"
+          ],
+          "options": [
+            [
+              "choose",
+              "am choosing",
+              "chose"
+            ],
+            [
+              "have stopped",
+              "stopped",
+              "stop"
+            ]
+          ],
+          "explanation": "Present simple for what is generally true, and present perfect for a change whose result still holds."
+        },
+        {
+          "id": "fa6",
+          "prompt": "If you ___ your rate from your old salary, you ___ yourself too low.",
+          "answers": [
+            "calculate",
+            "will price"
+          ],
+          "options": [
+            [
+              "calculate",
+              "will calculate",
+              "calculated"
+            ],
+            [
+              "will price",
+              "price",
+              "priced"
+            ]
+          ],
+          "explanation": "The first conditional: present simple in the if-clause, will plus infinitive in the result."
+        },
+        {
+          "id": "fa7",
+          "prompt": "I ___ to be part of a professional group so that I ___ someone to ask.",
+          "answers": [
+            "pay",
+            "have"
+          ],
+          "options": [
+            [
+              "pay",
+              "am paying",
+              "paid"
+            ],
+            [
+              "have",
+              "will have",
+              "had"
+            ]
+          ],
+          "explanation": "Present simple for an ongoing arrangement, and present simple after “so that” for its purpose."
+        }
+      ]
+    },
+    {
+      "id": "b1-fa-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for what the writer actually recommends, which is not quite what she says she prefers.",
+      "items": [
+        {
+          "id": "fc1",
+          "prompt": "How does the writer answer whether freelancing is better?",
+          "options": [
+            "That it is better in almost every respect",
+            "That it is different in ways that suit some people and make others miserable",
+            "That it depends entirely on the money"
+          ],
+          "answerIndex": 1,
+          "explanation": "She refuses the comparison the question assumes, which is why the rest of the text lists trade-offs rather than advantages."
+        },
+        {
+          "id": "fc2",
+          "prompt": "What does she mean by “the shape of a great deal of this job”?",
+          "options": [
+            "That most tasks are repetitive",
+            "That clients rarely keep their records in order",
+            "That finding a problem can take an afternoon and fixing it four seconds"
+          ],
+          "answerIndex": 2,
+          "explanation": "The duplicated supplier invoice is the example: nearly all the effort is in the diagnosis."
+        },
+        {
+          "id": "fc3",
+          "prompt": "Why is she learning the new accounting system now?",
+          "options": [
+            "Because her current software is being withdrawn",
+            "Because two clients are moving to it and she would rather learn it before they do",
+            "Because a client is paying for the training"
+          ],
+          "answerIndex": 1,
+          "explanation": "Anticipating the need rather than responding to it — which is itself a freelancing skill."
+        },
+        {
+          "id": "fc4",
+          "prompt": "What does she say is genuinely better about freelancing?",
+          "options": [
+            "The income",
+            "The variety of the work",
+            "The control — choosing clients and working the hours the work needs"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Nobody has ever asked me to look busy” is the sharpest version of the point."
+        },
+        {
+          "id": "fc5",
+          "prompt": "What is the first thing nobody warns you about?",
+          "options": [
+            "That much of the work — quoting, invoicing, chasing, your own books — is not billable and takes a day a week",
+            "That clients pay late",
+            "That tax is more complicated"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the consequence is the pricing error: dividing an old salary by working hours ignores that unpaid day."
+        },
+        {
+          "id": "fc6",
+          "prompt": "Why does she say the loneliness “sounds soft and is not”?",
+          "options": [
+            "Because freelancers work longer hours alone",
+            "Because a question answered in ten seconds in an office takes an hour alone, or goes unanswered",
+            "Because clients do not socialise with contractors"
+          ],
+          "answerIndex": 1,
+          "explanation": "The cost is professional, not emotional — which is why her solution is a paid professional group."
+        },
+        {
+          "id": "fc7",
+          "prompt": "What does she say is the most important skill?",
+          "options": [
+            "Technical knowledge of accounting standards",
+            "Managing time across several clients",
+            "Being able to say what you charge, out loud, without apologising"
+          ],
+          "answerIndex": 2,
+          "explanation": "“The skill you need most is not technical” — and the text closes on it deliberately."
+        }
+      ]
+    },
+    {
+      "id": "b1-fa-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "ft1",
+          "statement": "The writer worked at a firm before going freelance.",
+          "answer": true,
+          "explanation": "True — nine years, which is why she can compare them."
+        },
+        {
+          "id": "ft2",
+          "statement": "The discrepancy in the ledger was difficult to correct.",
+          "answer": false,
+          "explanation": "False — it took “an afternoon to find and about four seconds to fix”."
+        },
+        {
+          "id": "ft3",
+          "statement": "She still works for the clients who used to ruin her Decembers.",
+          "answer": false,
+          "explanation": "False — choosing her clients means she has stopped."
+        },
+        {
+          "id": "ft4",
+          "statement": "Unpaid administrative work takes about a day a week.",
+          "answer": true,
+          "explanation": "True — quoting, invoicing, chasing, her own books, and unsuccessful client conversations."
+        },
+        {
+          "id": "ft5",
+          "statement": "She would return to working at a firm.",
+          "answer": false,
+          "explanation": "False — “Would I go back? No.” But she is explicit about what it costs."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "“Nobody has ever asked me to look busy.” Is that a real benefit, or a small one made to sound large?",
+    "A day a week of unpaid work changes the arithmetic entirely. How should someone price for that?",
+    "She pays for a professional group so she has someone to ask. What does your own work give you that you would have to buy if you left?",
+    "Is saying your price without apologising a skill that can be learned, or a matter of temperament?",
+    "Write about 150 words comparing working for yourself with working for an employer, using the past for what you did and the present for what you do now."
+  ]
+}

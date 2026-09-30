@@ -103,6 +103,7 @@ Do not "fix" them as part of this work; log them and move on.
 
 ### Milestone 2 — Volume conversion: the `KEEP` texts & the hub ✅
 - **Date:** 2026-09-30
+- **Commit:** `7627ba4` (merge `819c85a`)
 - **Branches:** `content/reading-a2-batch-1`, `content/reading-a2-batch-2`,
   `content/levelled-hub-and-deletions`, `feature/reading-print-to-pdf`,
   `feature/inline-vocabulary-tooltips`, `content/reading-b1-keep-batch` → all merged to `main`

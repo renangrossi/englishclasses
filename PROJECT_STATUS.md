@@ -453,26 +453,34 @@ Every action is finished: **KEEP** 15, **EDIT** 31, **REPLACE** 12, **MERGE** 15
 
 ### Open problems
 
-- **P-1 — A1 and C2 gaps.** 1 A1 and 0 C2 source texts. A coherent progression needs new authored
-  A1 material and a small, genuinely justified C2 set.
-- **P-2 — Heavy non-American concentration.** A large share of the library is set in Brazil,
-  or in South Africa / Romania / Thailand / Italy / Japan / Austria / Egypt, while the brief asks
-  for an American-English, American-culture centre of gravity. Resolution: keep the genuinely
-  good international texts as a *Travel & World* thread, and re-set the weak or list-shaped ones
-  in US contexts — rather than deleting good material merely for being non-American.
-- **P-3 — Two non-ASCII source filenames** (`cachaças`, `maringá`) and one with a literal `+`
-  (`simple-past-+-present-continuous-+-future-*`). New slugs must be ASCII and hyphen-only.
-- **P-4 — Several texts exist only to drill a tense** and read unnaturally as a result
-  (`capetown`, `physical-education`, `say-speak-talk-tell-02`, `my-day-in-vienna-to-by-for`,
-  `cybersecurity`). These need real editing, not relabelling — see requirement 6.
-- **P-5 — Content defects requiring removal/replacement**, recorded with reasons in the audit:
-  inappropriate slang in a family text (`santa-catarina`), a derogatory passage about developing
-  nations (`formal-informal`), pseudo-history presented as scholarship (`egypt`), graphic content
-  and blog register (`haiti`), vendor marketing copy (`animal-solutions`), a Portuguese-only file
-  (`it-ptbr`), a defective duplicate verb list (`irregular-verbs-list`), and ephemeral news
-  (`market-sumup`, `el-niño-2027`).
+- **P-1 — A1 and C2 gaps.** OPEN, and now the main one. A1 has **no** material at all (its one
+  source was a grammar drill and was deleted); C2 has never had any. Both need new authoring,
+  `provenance: "new"`. The library is 15 A2 / 37 B1 / 23 B2 / 11 C1.
+- **P-2 — Non-American concentration.** OPEN. Travel is still the largest topic at 17 of 86, and
+  much of the library is set in Brazil, South Africa, Romania, Thailand, Italy, Japan, Austria
+  and Egypt. The agreed resolution stands: keep the good international texts as a *Travel &
+  World* thread and re-set weak ones in US contexts — do not delete good material for being
+  non-American.
 - **P-6 — The 51 pre-existing integrity warnings** in the grammar lessons are logged and
   deliberately untouched.
+
+**Resolved since the original audit:**
+
+- ~~P-3 — non-ASCII source filenames.~~ Moot: the source files are no longer read by anything,
+  and every slug shipped is ASCII and hyphen-only.
+- ~~P-4 — texts existing only to drill a tense.~~ All five rewritten: `capetown`,
+  `physical-education`, `say-speak-talk-tell-02`, `my-day-in-vienna-to-by-for` edited,
+  `cybersecurity` replaced.
+- ~~P-5 — content defects.~~ All resolved: `santa-catarina`, `formal-informal`, `egypt`, `haiti`
+  and `animal-solutions` replaced; `it-ptbr`, `irregular-verbs-list`, `market-sumup` and
+  `el-nino-2027` deleted.
+
+### Smaller work outstanding
+
+- **Illustration.** 12 of 86 pages carry artwork. The rest are unillustrated — deliberately in
+  many cases, since a decorative picture on a phrasal-verb page only pushes the reading down the
+  screen. Worth revisiting page by page, not in bulk. `docs/image-credits.md` has the rights
+  position and `scripts/fetch_public_domain_image.py` refuses anything not public domain.
 
 ---
 

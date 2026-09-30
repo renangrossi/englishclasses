@@ -95,13 +95,14 @@
       "level": "B1",
       "topic": "work",
       "action": "REPLACE",
-      "audio": "required",
-      "reason": "Reads as marketing copy for a named vendor (Gallagher), not a teaching text. Replace with a neutral do/make farm-work reading.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Reads as marketing copy for a named vendor (Gallagher), not a teaching text. Replace with a neutral do/make farm-work reading. — DONE: Vendor marketing copy replaced by a new, neutral reading on the technology livestock farms actually use — electric fencing, ear tags and traceability, and rumination sensors — including an explicit note that the equipment reports but does not decide. NOTE: the audit said 'replace with a neutral do/make farm-work reading', but do-make-livestock-farming has since been rewritten and now covers do/make on a farm, so this takes the technology angle instead to avoid duplicating it.",
+      "status": "IMPLEMENTED",
       "card_title": "Animal Solutions",
       "source_files": [
         "cefr/texts/animal-solutions.pdf"
-      ]
+      ],
+      "page": "reading/b1/animal-solutions.html"
     },
     {
       "slug": "arriving-in-johannesburg",
@@ -382,14 +383,15 @@
       "level": "B1",
       "topic": "tech",
       "action": "REPLACE",
-      "audio": "required",
-      "reason": "Whole text written in the past tense for a simple-past drill, which makes it factually wrong: 'Cybersecurity protected computers...', 'Today, we used the internet'. Rewrite in present tense and move the past-tense practice to a separate drill.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Whole text written in the past tense for a simple-past drill, which makes it factually wrong: 'Cybersecurity protected computers...', 'Today, we used the internet'. Rewrite in present tense and move the past-tense practice to a separate drill. — DONE: Rewritten in the present tense, which fixes the factual nonsense the past-tense drill produced ('Cybersecurity protected computers...'). Re-pitched at personal security — password reuse, two-factor, updates, phishing, backups — so it does not duplicate business-war-it at B2, and it corrects the obsolete advice about substituting characters in passwords.",
+      "status": "IMPLEMENTED",
       "card_title": "Cybersecurity",
       "card_desc": "Exercises on cybersecurity terminology and scenarios.",
       "source_files": [
         "cefr/texts/cybersecurity.pdf"
-      ]
+      ],
+      "page": "reading/b1/cybersecurity.html"
     },
     {
       "slug": "daily-activities",
@@ -811,14 +813,15 @@
       "level": "B1",
       "topic": "travel",
       "action": "REPLACE",
-      "audio": "required",
-      "reason": "City-attractions list for a Brazilian city; list format and off-brief. Replace with a US city reading serving the same 'describing a city' language.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "City-attractions list for a Brazilian city; list format and off-brief. Replace with a US city reading serving the same 'describing a city' language. — DONE: Replaced by a new US city reading (Chicago) serving the same 'describing a city' language: grid, downtown, skyline, waterfront, neighbourhoods, climate. Slug left as maringa so the map entry stays traceable; the title and content are new.",
+      "status": "IMPLEMENTED",
       "card_title": "Maringá",
       "source_files": [
         "cefr/texts/maringá.pdf"
       ],
-      "card_id": "maring"
+      "card_id": "maring",
+      "page": "reading/b1/maringa.html"
     },
     {
       "slug": "market-sumup",
@@ -842,14 +845,15 @@
       "level": "B1",
       "topic": "food",
       "action": "REPLACE",
-      "audio": "required",
-      "reason": "Annotated restaurant list for Milan — no connected prose, no American context. Replace with a US dining-out reading.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Annotated restaurant list for Milan — no connected prose, no American context. Replace with a US dining-out reading. — DONE: Replaced by a new reading on regional American cooking — barbecue, Tex-Mex, New England seafood, soul food, Californian and the diner. Connected prose rather than an annotated list, and it complements restaurant-dialogue (A2) rather than repeating it.",
+      "status": "IMPLEMENTED",
       "card_title": "Milan Restaurants",
       "card_desc": "Exercises on restaurant culture and vocabulary in Milan.",
       "source_files": [
         "cefr/texts/milan-restaurants.pdf"
-      ]
+      ],
+      "page": "reading/b1/milan-restaurants.html"
     },
     {
       "slug": "my-day-in-vienna-to-by-for",
@@ -1185,14 +1189,15 @@
       "level": "B1",
       "topic": "travel",
       "action": "REPLACE",
-      "audio": "required",
-      "reason": "A wholesome family-travel text in which the father 'decided to change careers and become a michê' — Brazilian slang for a male prostitute. Unusable as written; keep the present-perfect-continuous travel premise and rewrite.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "A wholesome family-travel text in which the father 'decided to change careers and become a michê' — Brazilian slang for a male prostitute. Unusable as written; keep the present-perfect-continuous travel premise and rewrite. — DONE: Rewritten. The unusable line about the father's career change is gone. The present-perfect-continuous travel premise is kept and re-set on the Oregon coast, with a simple/continuous contrast exercise.",
+      "status": "IMPLEMENTED",
       "card_title": "Santa Catarina",
       "card_desc": "Exercises about the Brazilian state of Santa Catarina.",
       "source_files": [
         "cefr/texts/santa-catarina.docx"
-      ]
+      ],
+      "page": "reading/b1/santa-catarina.html"
     },
     {
       "slug": "say-speak-talk-tell",

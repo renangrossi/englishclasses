@@ -1,0 +1,336 @@
+{
+  "id": "b1-reading-oregon-coast",
+  "level": "B1",
+  "slug": "santa-catarina",
+  "topic": "travel",
+  "title": "Driving the Oregon Coast",
+  "subtitle": "A family in a rented car, eight days of rain, and a holiday nobody would have chosen and everybody remembers.",
+  "description": "A B1 travel reading and listening text following a family road trip along the Oregon coast, written to practise the present perfect continuous, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/santa-catarina.docx",
+  "provenance": "rewritten",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "2:40"
+  },
+  "passage": [
+    "We have been driving down the Oregon coast for eight days, and it has been raining for six of them. I want to be clear that this is not a complaint. It is simply the central fact of the holiday, and everything else has arranged itself around it.",
+    "The plan, when we made it in March, involved beaches. My husband had been looking at photographs of long empty sand with the sun going down behind sea stacks, and he had been saying for weeks that we would eat outside every evening. We have eaten outside once. It was cold, and we did it out of stubbornness.",
+    "What we have actually been doing is driving Highway 101 in a rented car with two children in the back, stopping whenever the rain eases, and discovering that the coast is more interesting in this weather than it would have been in the sun. The Pacific here is not a swimming ocean. It is cold and enormous and loud, and on a grey day with the cloud sitting low on the water it looks like something that has been going on for a very long time without needing anyone to watch it.",
+    "The children have adapted faster than we have. Ben, who is nine, has been collecting things — agates, pieces of driftwood, a crab shell that we have been negotiating about since Tuesday — and he has worked out that the best time to look is immediately after a storm, when the tide has turned everything over. Maya has been reading in the back of the car for most of eight days and has finished four books, which she would not have done at home.",
+    "We have found the things you find when the original plan has collapsed. A bakery in a town of nine hundred people where we have now stopped three times. A lighthouse we walked up in horizontal rain and had entirely to ourselves, because nobody else was foolish enough. An aquarium on a genuinely terrible afternoon that turned out to be the best two hours of the trip. The tide pools at low tide, where Ben lay on his front for forty minutes watching an anemone that was not doing anything.",
+    "My husband has stopped mentioning the photographs. Yesterday evening the rain eased for about an hour near Bandon and we walked out among the sea stacks at low tide, the light came through underneath the cloud the way it does about twice a week here, and everything he had been imagining in March happened for fifty minutes and then stopped. He said it was worth the drive. I think he meant the whole eight days.",
+    "We have two days left. It is forecast to rain on both of them. We have been checking the forecast less often than we were at the start, which is probably the clearest sign that the holiday has worked."
+  ],
+  "vocabulary": [
+    {
+      "term": "to arrange itself around",
+      "definition": "to organise itself with something else as the fixed centre",
+      "match": "arranged itself around"
+    },
+    {
+      "term": "sea stack",
+      "definition": "a tall column of rock standing in the sea near a coast",
+      "match": "sea stacks"
+    },
+    {
+      "term": "stubbornness",
+      "definition": "the refusal to change your mind even when you should"
+    },
+    {
+      "term": "to ease",
+      "definition": "to become less intense",
+      "match": "eases"
+    },
+    {
+      "term": "to adapt",
+      "definition": "to change in order to fit new conditions",
+      "match": "adapted"
+    },
+    {
+      "term": "agate",
+      "definition": "a banded semi-precious stone found on some beaches",
+      "match": "agates"
+    },
+    {
+      "term": "driftwood",
+      "definition": "wood washed up on a shore by the sea"
+    },
+    {
+      "term": "to negotiate",
+      "definition": "to discuss something in order to reach an agreement",
+      "match": "negotiating"
+    },
+    {
+      "term": "tide",
+      "definition": "the regular rise and fall of the sea"
+    },
+    {
+      "term": "to turn over",
+      "definition": "to move things so that what was underneath is now on top",
+      "match": "turned everything over"
+    },
+    {
+      "term": "to collapse",
+      "definition": "to fail completely",
+      "match": "collapsed"
+    },
+    {
+      "term": "lighthouse",
+      "definition": "a tower with a light warning ships away from a coast"
+    },
+    {
+      "term": "horizontal",
+      "definition": "flat, parallel to the ground — said of rain driven by strong wind"
+    },
+    {
+      "term": "tide pool",
+      "definition": "a pool of seawater left among rocks when the tide goes out",
+      "match": "tide pools"
+    },
+    {
+      "term": "anemone",
+      "definition": "a soft sea creature that attaches itself to rock and looks like a flower"
+    },
+    {
+      "term": "forecast",
+      "definition": "a prediction of what the weather will do"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-oc-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for the writer's attitude, which changes less than the weather does.",
+      "items": [
+        {
+          "id": "oc1",
+          "prompt": "Why does the writer say the rain “is not a complaint”?",
+          "options": [
+            "Because they expected it before they came",
+            "Because it is the fact everything else has arranged itself around, rather than a grievance",
+            "Because the children do not mind it"
+          ],
+          "answerIndex": 1,
+          "explanation": "The sentence sets the tone of the whole text: the weather is a condition, not a disappointment."
+        },
+        {
+          "id": "oc2",
+          "prompt": "How many times have they eaten outside?",
+          "options": [
+            "Once, out of stubbornness",
+            "Every evening as planned",
+            "Not at all"
+          ],
+          "answerIndex": 0,
+          "explanation": "A quiet joke at the husband's expense — the plan survived exactly one cold evening."
+        },
+        {
+          "id": "oc3",
+          "prompt": "What does the writer say about the Pacific in this weather?",
+          "options": [
+            "That it is dangerous to approach",
+            "That it is warmer than expected",
+            "That it looks like something going on without needing anyone to watch it"
+          ],
+          "answerIndex": 2,
+          "explanation": "The image conveys indifference and scale, and explains why the grey weather suits the coast."
+        },
+        {
+          "id": "oc4",
+          "prompt": "What has Ben worked out about collecting?",
+          "options": [
+            "That the best time to look is just after a storm, when the tide has turned everything over",
+            "That agates are only found at high tide",
+            "That the northern beaches are better than the southern ones"
+          ],
+          "answerIndex": 0,
+          "explanation": "A genuine piece of beachcombing knowledge, arrived at by a nine-year-old over eight days."
+        },
+        {
+          "id": "oc5",
+          "prompt": "Why did they have the lighthouse entirely to themselves?",
+          "options": [
+            "It was outside the tourist season",
+            "Because nobody else was foolish enough to walk up in horizontal rain",
+            "It had been closed to groups that day"
+          ],
+          "answerIndex": 1,
+          "explanation": "The writer includes themselves in the judgement, which is what makes the line work."
+        },
+        {
+          "id": "oc6",
+          "prompt": "What does “the things you find when the original plan has collapsed” refer to?",
+          "options": [
+            "Cheaper accommodation found at short notice",
+            "The bakery, the lighthouse, the aquarium and the tide pools",
+            "Places recommended by other travellers"
+          ],
+          "answerIndex": 1,
+          "explanation": "Four unplanned discoveries, each of which happened because the beach days did not."
+        },
+        {
+          "id": "oc7",
+          "prompt": "What happened near Bandon?",
+          "options": [
+            "The weather cleared for the rest of the trip",
+            "The rain eased for about an hour and the trip briefly became what the husband had imagined",
+            "They decided to end the holiday early"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Everything he had been imagining in March happened for fifty minutes and then stopped.”"
+        },
+        {
+          "id": "oc8",
+          "prompt": "Why is checking the forecast less often “the clearest sign that the holiday has worked”?",
+          "options": [
+            "Because they have stopped needing the weather to be different",
+            "Because the forecast has been unreliable",
+            "Because they have run out of phone signal"
+          ],
+          "answerIndex": 0,
+          "explanation": "At the start the weather was a problem to monitor. By the end it is simply what is happening."
+        }
+      ]
+    },
+    {
+      "id": "b1-oc-tenses",
+      "type": "fill-blank",
+      "title": "Present Perfect Continuous",
+      "instructions": "Use the continuous for an activity that started earlier and is still going on. Use the simple form for something completed, or for a number of times.",
+      "items": [
+        {
+          "id": "oct1",
+          "prompt": "We ___ down the coast for eight days.",
+          "answers": [
+            "have been driving"
+          ],
+          "options": [
+            "have been driving",
+            "have driven",
+            "drove"
+          ],
+          "explanation": "An activity continuing over a stated period up to now — the classic use of the continuous."
+        },
+        {
+          "id": "oct2",
+          "prompt": "It ___ for six of them.",
+          "answers": [
+            "has been raining"
+          ],
+          "options": [
+            "has been raining",
+            "has rained",
+            "rained"
+          ],
+          "explanation": "Weather over a continuing period takes the continuous. “Has rained” would count occasions instead."
+        },
+        {
+          "id": "oct3",
+          "prompt": "We ___ outside exactly once.",
+          "answers": [
+            "have eaten"
+          ],
+          "options": [
+            "have eaten",
+            "have been eating",
+            "ate"
+          ],
+          "explanation": "A counted number of completed occasions takes the simple form, not the continuous."
+        },
+        {
+          "id": "oct4",
+          "prompt": "Maya ___ in the back of the car, and she ___ four books.",
+          "answers": [
+            "has been reading",
+            "has finished"
+          ],
+          "options": [
+            [
+              "has been reading",
+              "has read",
+              "read"
+            ],
+            [
+              "has finished",
+              "has been finishing",
+              "finished"
+            ]
+          ],
+          "explanation": "The activity is continuous; the result — four completed books — is simple. Both in one sentence."
+        },
+        {
+          "id": "oct5",
+          "prompt": "We ___ about that crab shell since Tuesday.",
+          "answers": [
+            "have been negotiating"
+          ],
+          "options": [
+            "have been negotiating",
+            "have negotiated",
+            "negotiated"
+          ],
+          "explanation": "“Since Tuesday” with an unresolved argument — the continuous carries the sense that it is still going on."
+        },
+        {
+          "id": "oct6",
+          "prompt": "Yesterday evening the rain ___ for about an hour.",
+          "answers": [
+            "eased"
+          ],
+          "options": [
+            "eased",
+            "has eased",
+            "has been easing"
+          ],
+          "explanation": "“Yesterday evening” is finished past time, so no present perfect of any kind is possible."
+        }
+      ]
+    },
+    {
+      "id": "b1-oc-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "oct7",
+          "statement": "The family planned the trip around beaches.",
+          "answer": true,
+          "explanation": "True — the husband had been looking at photographs of sand and sea stacks since March."
+        },
+        {
+          "id": "oct8",
+          "statement": "The writer regrets the trip.",
+          "answer": false,
+          "explanation": "False — she says explicitly that the rain is not a complaint, and ends by saying the holiday has worked."
+        },
+        {
+          "id": "oct9",
+          "statement": "Ben is older than Maya.",
+          "answer": false,
+          "explanation": "False — the text does not say. Only Ben's age is given, as nine."
+        },
+        {
+          "id": "oc10",
+          "statement": "They visited the aquarium on a day with bad weather.",
+          "answer": true,
+          "explanation": "True — “on a genuinely terrible afternoon”, and it became the best two hours of the trip."
+        },
+        {
+          "id": "oc11",
+          "statement": "The forecast for the last two days is good.",
+          "answer": false,
+          "explanation": "False — “it is forecast to rain on both of them”."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The trip they had planned did not happen, and they remember the one they got. Has that happened to you?",
+    "The writer says checking the forecast less often shows the holiday worked. What is your own sign that you have stopped worrying?",
+    "Ben collects and Maya reads. Do children adapt to changed plans better than adults, and if so why?",
+    "Is bad weather a reason to change a destination, or does it show you something a sunny day would hide?",
+    "Write about 150 words about a trip that went differently from the plan, using the present perfect continuous for what was going on and the simple form for what you finished."
+  ]
+}

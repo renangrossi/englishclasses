@@ -223,27 +223,37 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
    the passage's own measure so it never breaks the column, and given the same
    restrained frame as the rest of the page. */
 .reading-figure {
-  margin: var(--space-lg) 0;
-  max-width: 62ch;
+  /* Held to roughly half the 62ch measure and centred. An illustration in a
+     reading is an aside, not the subject; at full column width it stopped the
+     eye and pushed the next paragraph off the screen. */
+  margin: var(--space-lg) auto;
+  max-width: min(34ch, 100%);
 }
 .reading-figure img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: var(--radius-sm);
-  border: var(--border-hairline);
+  /* A gold frame with a cream mount inside it: the outer border is the frame,
+     the padding is the mount, and the inset shadow draws the hairline where
+     the mount meets the picture. --color-gold already darkens for dark mode. */
+  padding: 0.5rem;
   background: var(--color-surface);
+  border: 2px solid var(--color-gold);
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgb(169 129 45 / 35%), var(--shadow-sm);
 }
 .reading-figure figcaption {
-  margin-top: 0.6em;
+  margin-top: 0.7em;
   font-family: var(--font-body, inherit);
   font-size: var(--step--1);
   line-height: var(--leading-normal);
   color: var(--color-text-muted);
+  text-align: center;
   text-indent: 0;
 }
 @media print {
-  .reading-figure { break-inside: avoid; }
+  .reading-figure { break-inside: avoid; max-width: 60mm; }
+  .reading-figure img { box-shadow: none; }
 }
 
 /* ---- Passage typography ------------------------------------------------

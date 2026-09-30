@@ -1,0 +1,372 @@
+{
+  "id": "c1-reading-attention-economy",
+  "level": "C1",
+  "slug": "attention-economy",
+  "topic": "society",
+  "title": "The Attention Economy",
+  "subtitle": "How platforms engineered for engagement have changed the way we read, argue and decide what is true.",
+  "description": "A C1 reading and listening text on the attention economy and the erosion of deep thinking, with advanced vocabulary and interpretation exercises.",
+  "source": "cefr/texts/attention-economy.docx",
+  "provenance": "as-published",
+  "audio": {
+    "duration_label": "2:22"
+  },
+  "passage": [
+    "In the last two decades, the way people consume information has changed more radically than at any other moment in modern history. Digital platforms are no longer neutral tools for communication; they are carefully engineered environments designed to capture and retain attention. This phenomenon, often described as the attention economy, has become one of the most pressing challenges of contemporary society.",
+    "At the center of the issue is the monetization of human focus. Social media feeds, video platforms and news aggregators rely on algorithms that prioritize engagement over accuracy, depth or long-term value. Users are therefore exposed, continuously, to content optimized to provoke an emotional reaction — outrage, fear, instant gratification — rather than reflection or critical analysis. Over time, that constant stimulation reshapes cognitive habits, and sustained concentration becomes progressively harder to summon.",
+    "One significant consequence is the decline of deep reading and complex reasoning. Lengthy texts, nuanced arguments and ambiguous ideas demand patience and mental effort. In an environment dominated by short videos, headlines and notifications, that effort comes to feel unnatural. Many people report difficulty finishing books, following long discussions, or engaging at all with ideas that cannot be immediately summarized or consumed.",
+    "The shift has social and political implications as well. When public debate is reduced to slogans and fragments, complex problems get framed as simplistic conflicts. Misinformation spreads more easily — not necessarily because people believe it blindly, but because the speed of consumption leaves little room for verification or skepticism. In this sense the attention economy does not merely distract. It subtly alters how truth itself is evaluated.",
+    "Addressing the problem does not require rejecting technology altogether, but rather redefining the relationship between users and digital systems. Media literacy, ethical platform design and deliberate habits of slow thinking are the essential responses. Without them, society risks trading depth for immediacy, and understanding for constant stimulation."
+  ],
+  "vocabulary": [
+    {
+      "term": "to engineer",
+      "definition": "to design something deliberately to produce a particular result",
+      "match": "engineered"
+    },
+    {
+      "term": "to retain",
+      "definition": "to keep hold of something that might otherwise be lost"
+    },
+    {
+      "term": "pressing",
+      "definition": "urgent; demanding attention now rather than later"
+    },
+    {
+      "term": "monetization",
+      "definition": "the act of turning something into a source of revenue"
+    },
+    {
+      "term": "aggregator",
+      "definition": "a service that gathers content from many sources into one place",
+      "match": "aggregators"
+    },
+    {
+      "term": "to prioritize",
+      "definition": "to treat one thing as more important than another",
+      "match": "prioritize"
+    },
+    {
+      "term": "gratification",
+      "definition": "the pleasure of having a desire satisfied"
+    },
+    {
+      "term": "cognitive",
+      "definition": "relating to thinking, understanding and remembering"
+    },
+    {
+      "term": "sustained",
+      "definition": "continued without interruption over a long period"
+    },
+    {
+      "term": "to summon",
+      "definition": "to call up an effort or a quality from within yourself"
+    },
+    {
+      "term": "nuanced",
+      "definition": "containing fine distinctions rather than simple oppositions"
+    },
+    {
+      "term": "ambiguous",
+      "definition": "open to more than one interpretation"
+    },
+    {
+      "term": "to frame",
+      "definition": "to present something in a way that shapes how it is understood",
+      "match": "framed"
+    },
+    {
+      "term": "simplistic",
+      "definition": "treating a complicated thing as simpler than it is — a criticism, not a compliment"
+    },
+    {
+      "term": "verification",
+      "definition": "the act of checking that something is true"
+    },
+    {
+      "term": "skepticism",
+      "definition": "the habit of doubting claims until they are supported"
+    },
+    {
+      "term": "media literacy",
+      "definition": "the ability to judge how media is made, funded and intended to affect you"
+    },
+    {
+      "term": "immediacy",
+      "definition": "the quality of happening or being available at once"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-attn-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading for Argument",
+      "instructions": "These questions ask about the writer's reasoning and attitude, not only about stated facts.",
+      "items": [
+        {
+          "id": "at1",
+          "prompt": "Why does the writer insist that platforms are “no longer neutral tools”?",
+          "options": [
+            "Because they are now owned by a small number of companies",
+            "Because their environments are built to a purpose — holding attention — which a neutral tool would not have",
+            "Because they carry political advertising"
+          ],
+          "answerIndex": 1,
+          "explanation": "The contrast is between a tool and “carefully engineered environments designed to capture and retain attention”. Design with an interest of its own is what neutrality excludes."
+        },
+        {
+          "id": "at2",
+          "prompt": "What does the phrase “the monetization of human focus” imply about the reader's role on these platforms?",
+          "options": [
+            "That the reader is the customer buying a service",
+            "That the reader's attention is the product being sold",
+            "That the reader is expected to pay a subscription"
+          ],
+          "answerIndex": 1,
+          "explanation": "If focus is what is monetized, the attention is what the platform sells. The phrase places the user on the supply side, not the demand side."
+        },
+        {
+          "id": "at3",
+          "prompt": "The algorithms are said to “prioritize engagement over accuracy, depth or long-term value”. What does the writer imply by the ordering of that list?",
+          "options": [
+            "That these three are alternatives to each other",
+            "That accuracy matters more than the other two",
+            "That three quite different goods are all sacrificed to a single measurable one"
+          ],
+          "answerIndex": 2,
+          "explanation": "Truth, seriousness and durability are unrelated virtues; the point is that one metric displaces all of them at once."
+        },
+        {
+          "id": "at4",
+          "prompt": "Why does the writer describe sustained concentration as something that must be “summoned”?",
+          "options": [
+            "To suggest it now takes deliberate effort rather than occurring naturally",
+            "To suggest it is a skill only some people possess",
+            "To suggest it must be taught formally"
+          ],
+          "answerIndex": 0,
+          "explanation": "You summon what does not arrive by itself. The verb carries the claim that the default state has changed."
+        },
+        {
+          "id": "at5",
+          "prompt": "What is the writer's explanation for the spread of misinformation?",
+          "options": [
+            "That people are more credulous than they used to be",
+            "That the speed of consumption leaves no interval in which to check anything, regardless of belief",
+            "That platforms deliberately promote false claims"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Not necessarily because people believe it blindly, but because the speed of consumption leaves little room for verification or skepticism.” The writer explicitly declines the easier explanation."
+        },
+        {
+          "id": "at6",
+          "prompt": "“It does not merely distract. It subtly alters how truth itself is evaluated.” What is the force of this distinction?",
+          "options": [
+            "Distraction is temporary; a change in how we judge truth is structural and lasting",
+            "Distraction is worse than the alternative described",
+            "The two amount to the same thing in practice"
+          ],
+          "answerIndex": 0,
+          "explanation": "The sentence escalates: the writer is refusing the lesser charge in order to make a larger one about standards of judgment, not momentary focus."
+        },
+        {
+          "id": "at7",
+          "prompt": "What position does the writer take on technology in the final paragraph?",
+          "options": [
+            "That use of these platforms should be legally restricted",
+            "That the relationship needs redefining, not that technology should be rejected",
+            "That the problem cannot be solved"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Addressing the problem does not require rejecting technology altogether, but rather redefining the relationship between users and digital systems.”"
+        },
+        {
+          "id": "at8",
+          "prompt": "The three proposed responses are media literacy, ethical platform design and slow thinking. What do they have in common structurally?",
+          "options": [
+            "All three are individual habits",
+            "All three depend on government regulation",
+            "They address the problem at three different levels — the reader, the platform, and the practice"
+          ],
+          "answerIndex": 2,
+          "explanation": "One is a capacity the user acquires, one is an obligation on the designer, one is a discipline in how reading is done. The writer is refusing to place the burden in any single place."
+        }
+      ]
+    },
+    {
+      "id": "c1-attn-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Be careful: several of these are almost, but not quite, what the text says.",
+      "items": [
+        {
+          "id": "att1",
+          "statement": "The writer claims that people have become less intelligent.",
+          "answer": false,
+          "explanation": "False — the claim is about habits and conditions, not capacity: constant stimulation “reshapes cognitive habits”."
+        },
+        {
+          "id": "att2",
+          "statement": "The writer says engagement-driven content is designed to produce emotional rather than reflective responses.",
+          "answer": true,
+          "explanation": "True — “optimized to provoke an emotional reaction… rather than reflection or critical analysis”."
+        },
+        {
+          "id": "att3",
+          "statement": "According to the text, people who share misinformation necessarily believe it.",
+          "answer": false,
+          "explanation": "False — the text explicitly says “not necessarily because people believe it blindly”."
+        },
+        {
+          "id": "att4",
+          "statement": "The writer holds platform design partly responsible for the problem.",
+          "answer": true,
+          "explanation": "True — “ethical platform design” is named as one of the essential responses, which presupposes that current design is part of the cause."
+        },
+        {
+          "id": "att5",
+          "statement": "The text argues that ambiguity in ideas is a flaw to be removed.",
+          "answer": false,
+          "explanation": "False — ambiguity is grouped with nuance and length as something that deserves patience, not as a defect."
+        },
+        {
+          "id": "att6",
+          "statement": "The final sentence presents the risk as a trade rather than a loss.",
+          "answer": true,
+          "explanation": "True — “trading depth for immediacy, and understanding for constant stimulation”. Something is received in return, which is what makes the bargain tempting."
+        }
+      ]
+    },
+    {
+      "id": "c1-attn-vocabulary",
+      "type": "fill-blank",
+      "title": "Precision in Academic Register",
+      "instructions": "Complete each sentence with the word that carries the exact shade of meaning required.",
+      "items": [
+        {
+          "id": "atf1",
+          "prompt": "Her argument was ___, distinguishing three cases the earlier study had treated as one.",
+          "answers": [
+            "nuanced"
+          ],
+          "options": [
+            "nuanced",
+            "ambiguous",
+            "simplistic"
+          ],
+          "explanation": "Nuanced means containing fine distinctions. Ambiguous would mean unclear, and simplistic is a criticism."
+        },
+        {
+          "id": "atf2",
+          "prompt": "The wording is ___ — it can be read two ways, and the contract does not say which.",
+          "answers": [
+            "ambiguous"
+          ],
+          "options": [
+            "ambiguous",
+            "nuanced",
+            "pressing"
+          ],
+          "explanation": "Ambiguous means open to more than one interpretation. Note that nuance is a virtue and ambiguity usually a problem."
+        },
+        {
+          "id": "atf3",
+          "prompt": "The way a question is ___ often decides the answer you get.",
+          "answers": [
+            "framed"
+          ],
+          "options": [
+            "framed",
+            "retained",
+            "summoned"
+          ],
+          "explanation": "To frame something is to present it in a way that shapes how it is understood."
+        },
+        {
+          "id": "atf4",
+          "prompt": "Healthy ___ is not cynicism: it means withholding assent until there is evidence.",
+          "answers": [
+            "skepticism"
+          ],
+          "options": [
+            "skepticism",
+            "gratification",
+            "immediacy"
+          ],
+          "explanation": "Skepticism is the habit of doubting claims until they are supported."
+        },
+        {
+          "id": "atf5",
+          "prompt": "The report calls the housing shortage the most ___ issue facing the city.",
+          "answers": [
+            "pressing"
+          ],
+          "options": [
+            "pressing",
+            "cognitive",
+            "sustained"
+          ],
+          "explanation": "Pressing means urgent — demanding attention now."
+        },
+        {
+          "id": "atf6",
+          "prompt": "Two hours of ___ attention is worth more than a whole day of interruptions.",
+          "answers": [
+            "sustained"
+          ],
+          "options": [
+            "sustained",
+            "simplistic",
+            "ambiguous"
+          ],
+          "explanation": "Sustained means continued without interruption."
+        }
+      ]
+    },
+    {
+      "id": "c1-attn-collocations",
+      "type": "matching",
+      "title": "Academic Collocations",
+      "instructions": "Match each phrase from the text to what it means.",
+      "items": [
+        {
+          "id": "atc1",
+          "pairs": [
+            {
+              "left": "to capture and retain attention",
+              "right": "to attract interest and then prevent it moving elsewhere"
+            },
+            {
+              "left": "the monetization of human focus",
+              "right": "turning people's attention into revenue"
+            },
+            {
+              "left": "to reshape cognitive habits",
+              "right": "to change how a mind routinely works"
+            },
+            {
+              "left": "reduced to slogans and fragments",
+              "right": "cut down to phrases too short to carry an argument"
+            },
+            {
+              "left": "to leave little room for verification",
+              "right": "to allow no practical opportunity to check"
+            },
+            {
+              "left": "deliberate habits of slow thinking",
+              "right": "chosen practices that resist hurry"
+            }
+          ],
+          "explanation": "Each of these is a noun phrase doing the work of a whole clause — a habit of academic English worth imitating in your own writing."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The writer says the problem is not belief but speed. Test that against your own experience: when you last shared something, how long had you had it?",
+    "“Ethical platform design” places an obligation on the designer. Is that realistic when engagement is what the business is paid for?",
+    "Is the decline in deep reading a genuine loss, or nostalgia for a way of reading that was never as common as we imagine?",
+    "The text was written about digital platforms. Which of its arguments, if any, applied equally to television or to the newspaper?",
+    "Write about 250 words arguing either for or against the claim that the attention economy “alters how truth is evaluated”. Address the strongest objection to your own position."
+  ]
+}

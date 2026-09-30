@@ -1,0 +1,398 @@
+{
+  "id": "c1-reading-physiological-stressors",
+  "level": "C1",
+  "slug": "physiological-stressors",
+  "topic": "sports",
+  "title": "Physiological Stressors in Endurance Running",
+  "subtitle": "Why runners are sick and why they nearly faint — six systems failing to keep up at once.",
+  "description": "A C1 technical reading and listening text on exercise-induced nausea and near-syncope during endurance running, with advanced scientific vocabulary and interpretation exercises.",
+  "source": "cefr/texts/physiological-stressors.docx",
+  "provenance": "as-published",
+  "audio": {
+    "duration_label": "5:16"
+  },
+  "passage": [
+    "Exercise-induced vomiting and near-syncope — the sensation of being about to faint — are common during endurance events such as a ten-kilometer run, and they are a good deal more complex than they look. The phenomenon typically results from intense physical exertion, gastrointestinal distress, and inadequate physiological adaptation to extreme stress, acting together. Each of those factors sits at the intersection of the cardiovascular, respiratory, neurological and metabolic systems, all of which come under strain during prolonged exercise. Six mechanisms are worth examining in turn.",
+    "The first is the cardiovascular response itself. During prolonged aerobic exercise, the cardiovascular system is under heavy demand to deliver oxygen to the working muscles. Cardiac output rises, and blood is shunted away from the gastrointestinal tract to meet the metabolic demands of skeletal muscle. With circulation to non-essential organs reduced, the digestive system receives very little blood, struggles to absorb fluids and nutrients, and begins to register discomfort. The stomach becomes more sensitive, and nausea, then vomiting, become more likely. In some individuals, sustained cardiovascular stress also produces a brief, acute fall in blood pressure as they approach the limit of their endurance — which is what the sensation of near-fainting actually is.",
+    "The second is heat. Running generates a great deal of body heat, which the body sheds through sweating and increased blood flow to the skin. Thermoregulation, however, demands cardiovascular resources of its own. Combined with a hot day or a hard effort, core temperature can rise quickly, producing heat stress and dehydration. That thermoregulatory strain can temporarily impair brain function, since overheated neurons struggle to sustain normal activity, and the result is dizziness or near-syncope. Dehydration compounds all of it, lowering blood volume, hindering circulation and raising the risk of both vomiting and fainting.",
+    "The third is mechanical. Running exerts continuous mechanical stress on the abdominal organs, and the jostling agitates the stomach, particularly when there is food or fluid in it. Under intense exercise the lower esophageal sphincter, which normally keeps gastric contents from rising, can weaken — especially under the pressure changes produced by rapid breathing and the pounding of each stride. The body may then induce vomiting reflexively, to relieve the pressure of the gastric contents against the sphincter. Exercise also acts on the autonomic nervous system in ways that disturb gastric emptying: high-intensity running tends to delay it, leaving undigested food and fluid in the stomach longer than usual, which leads to nausea and eventually to vomiting.",
+    "The fourth is metabolic. Energy demand is high throughout a ten-kilometer run, and without adequate fueling a runner may become hypoglycemic, which brings weakness, dizziness and nausea. Hypoglycemia triggers the release of stress hormones such as cortisol and epinephrine, which raise blood sugar by mobilizing stored glucose from the liver. Those same hormones, however, also stimulate the vomiting center in the medulla. Meanwhile, as glucose falls, the brain is deprived of its primary fuel, which produces lightheadedness and the sense of impending faint. The condition is much more likely in runners who take in too little carbohydrate beforehand, or who run on an empty stomach.",
+    "The fifth is neurological and psychological. Endurance running makes considerable demands on the central nervous system, particularly when an athlete pushes past their established limits. As the CNS fatigues, it coordinates posture, balance and gastrointestinal regulation less well, and dizziness or fainting can follow. Psychological stress works in the same direction: performance anxiety, or simply the anticipation of exhaustion, heightens sympathetic activation, which disturbs the balance of the autonomic nervous system and aggravates both nausea and the feeling of near-syncope. Psychological stressors also change the perception of fatigue itself, through a cascade of neurochemical changes that can make the physical discomfort feel worse than it is.",
+    "The sixth is fluid and electrolyte balance, which is critical during prolonged exercise and easy to get wrong in either direction. Poor hydration practice can produce dehydration or, at the other extreme, hyponatremia — sodium diluted below the level the body needs. Both disrupt cellular fluid balance, impair cognition, cause disorientation and lead to vomiting. In severe cases they bring muscle cramps and abdominal discomfort, and compromise the brain's ability to maintain consciousness. Sodium depletion in particular interferes with neural signaling, and can produce nausea and confusion on its own.",
+    "Exercise-induced vomiting and near-syncope, then, are the visible end of a combination of mechanical, cardiovascular and neurological factors. As the body struggles to meet the demands of a prolonged run, several systems become overstressed at once, and the symptoms cascade. Understanding the interaction — between oxygen delivery, temperature regulation, metabolic stability and neural coordination — is also what explains why preparation, training and pacing prevent these outcomes far more reliably than toughness does."
+  ],
+  "vocabulary": [
+    {
+      "term": "syncope",
+      "definition": "a temporary loss of consciousness — fainting",
+      "match": "near-syncope"
+    },
+    {
+      "term": "exertion",
+      "definition": "sustained physical effort"
+    },
+    {
+      "term": "gastrointestinal",
+      "definition": "relating to the stomach and intestines"
+    },
+    {
+      "term": "cardiac output",
+      "definition": "the volume of blood the heart pumps per minute"
+    },
+    {
+      "term": "to shunt",
+      "definition": "to divert something, especially blood, from one route to another",
+      "match": "shunted"
+    },
+    {
+      "term": "acute",
+      "definition": "sudden and severe, rather than long-lasting"
+    },
+    {
+      "term": "to shed heat",
+      "definition": "to get rid of excess body heat",
+      "match": "sheds"
+    },
+    {
+      "term": "thermoregulation",
+      "definition": "the body's control of its own core temperature"
+    },
+    {
+      "term": "to compound",
+      "definition": "to make an existing problem worse",
+      "match": "compounds"
+    },
+    {
+      "term": "to agitate",
+      "definition": "to shake or disturb something physically",
+      "match": "agitates"
+    },
+    {
+      "term": "sphincter",
+      "definition": "a ring of muscle that opens and closes a passage in the body"
+    },
+    {
+      "term": "reflexively",
+      "definition": "automatically, without any conscious decision"
+    },
+    {
+      "term": "autonomic nervous system",
+      "definition": "the part of the nervous system that runs the body's involuntary functions"
+    },
+    {
+      "term": "gastric emptying",
+      "definition": "the rate at which the stomach passes its contents on"
+    },
+    {
+      "term": "hypoglycemic",
+      "definition": "having abnormally low blood sugar"
+    },
+    {
+      "term": "to mobilize",
+      "definition": "to release a stored resource so the body can use it",
+      "match": "mobilizing"
+    },
+    {
+      "term": "medulla",
+      "definition": "the lowest part of the brain stem, which controls automatic functions including vomiting"
+    },
+    {
+      "term": "impending",
+      "definition": "about to happen"
+    },
+    {
+      "term": "sympathetic activation",
+      "definition": "the fight-or-flight arousal of the nervous system"
+    },
+    {
+      "term": "cascade",
+      "definition": "a sequence in which each event sets off the next"
+    },
+    {
+      "term": "hyponatremia",
+      "definition": "a dangerously low concentration of sodium in the blood"
+    },
+    {
+      "term": "depletion",
+      "definition": "the reduction of a supply to a level that causes problems"
+    },
+    {
+      "term": "to pace",
+      "definition": "to control your speed so that effort lasts the whole distance",
+      "match": "pacing"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-physio-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading for Mechanism",
+      "instructions": "Each question asks about a causal chain. Follow the mechanism, not the keyword.",
+      "items": [
+        {
+          "id": "ph1",
+          "prompt": "Why does the digestive system suffer during a hard run?",
+          "options": [
+            "Because it has to process fluid taken on during the race",
+            "Because blood is diverted from it to the working muscles, leaving it poorly supplied",
+            "Because body temperature rises above what the stomach can tolerate"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Blood is shunted away from the gastrointestinal tract to meet the metabolic demands of skeletal muscle” — the gut is treated as non-essential while the effort lasts."
+        },
+        {
+          "id": "ph2",
+          "prompt": "According to the text, what is the sensation of near-fainting, physiologically?",
+          "options": [
+            "A brief, sharp drop in blood pressure near the limit of endurance",
+            "A rise in core body temperature",
+            "The stomach pressing against the diaphragm"
+          ],
+          "answerIndex": 0,
+          "explanation": "“A brief, acute fall in blood pressure as they approach the limit of their endurance — which is what the sensation of near-fainting actually is.”"
+        },
+        {
+          "id": "ph3",
+          "prompt": "Why does heat make the cardiovascular problem worse rather than being a separate issue?",
+          "options": [
+            "Because sweating removes sodium from the blood",
+            "Because cooling the body requires blood flow to the skin, competing for the same circulatory capacity the muscles need",
+            "Because heat directly slows the heart"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Thermoregulation, however, demands cardiovascular resources of its own” — the two demands draw on one supply."
+        },
+        {
+          "id": "ph4",
+          "prompt": "What makes the lower esophageal sphincter fail under running conditions?",
+          "options": [
+            "Dehydration weakening the muscle tissue",
+            "The pressure changes of rapid breathing combined with the repeated impact of each stride",
+            "The acidity of the stomach contents"
+          ],
+          "answerIndex": 1,
+          "explanation": "It “can weaken — especially under the pressure changes produced by rapid breathing and the pounding of each stride”."
+        },
+        {
+          "id": "ph5",
+          "prompt": "The text describes the hormonal response to low blood sugar as working against itself. In what sense?",
+          "options": [
+            "Cortisol and epinephrine raise blood sugar, but the same hormones also stimulate the brain's vomiting center",
+            "The hormones raise blood sugar too slowly to help",
+            "The hormones are released only after the runner has stopped"
+          ],
+          "answerIndex": 0,
+          "explanation": "They mobilize glucose from the liver, which is the corrective action — and simultaneously “stimulate the vomiting center in the medulla”."
+        },
+        {
+          "id": "ph6",
+          "prompt": "Why is psychological stress included in a list of physiological mechanisms?",
+          "options": [
+            "To acknowledge that some runners imagine their symptoms",
+            "Because anxiety raises sympathetic activation, which disturbs the autonomic balance and worsens the physical symptoms",
+            "Because it is the most common cause of the six"
+          ],
+          "answerIndex": 1,
+          "explanation": "The route is physical: anxiety → heightened sympathetic activation → autonomic imbalance → nausea and near-syncope. The text also notes it alters the perception of fatigue itself."
+        },
+        {
+          "id": "ph7",
+          "prompt": "Why does the text say fluid balance is “easy to get wrong in either direction”?",
+          "options": [
+            "Because thirst is an unreliable guide during exercise",
+            "Because drinking too little and drinking too much both cause problems — dehydration on one side, hyponatremia on the other",
+            "Because sports drinks contain too much sugar"
+          ],
+          "answerIndex": 1,
+          "explanation": "Both “disrupt cellular fluid balance, impair cognition, cause disorientation and lead to vomiting” — the error is symmetrical."
+        },
+        {
+          "id": "ph8",
+          "prompt": "What does the final sentence imply about how these problems are usually treated by athletes?",
+          "options": [
+            "That they are treated as a matter of endurance or willpower, when preparation and pacing are what actually prevent them",
+            "That they are usually treated medically",
+            "That they cannot be prevented at all"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Preparation, training and pacing prevent these outcomes far more reliably than toughness does” — the contrast is with an attitude the writer is quietly correcting."
+        }
+      ]
+    },
+    {
+      "id": "c1-physio-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "These reward precision. Read each one against what the text actually claims.",
+      "items": [
+        {
+          "id": "pht1",
+          "statement": "The text attributes these symptoms to a single dominant cause.",
+          "answer": false,
+          "explanation": "False — it presents six mechanisms that act together, and the conclusion stresses that “several systems become overstressed at once”."
+        },
+        {
+          "id": "pht2",
+          "statement": "Intense running speeds up gastric emptying.",
+          "answer": false,
+          "explanation": "False — “high-intensity running tends to delay it”, which is exactly why the stomach's contents cause trouble."
+        },
+        {
+          "id": "pht3",
+          "statement": "Running on an empty stomach protects against nausea.",
+          "answer": false,
+          "explanation": "False — hypoglycemia is “much more likely in runners who take in too little carbohydrate beforehand, or who run on an empty stomach”."
+        },
+        {
+          "id": "pht4",
+          "statement": "Dehydration reduces blood volume.",
+          "answer": true,
+          "explanation": "True — it lowers blood volume, hinders circulation and raises the risk of vomiting and fainting."
+        },
+        {
+          "id": "pht5",
+          "statement": "Hyponatremia is caused by drinking too little.",
+          "answer": false,
+          "explanation": "False — it is sodium “diluted below the level the body needs”, the opposite extreme from dehydration."
+        },
+        {
+          "id": "pht6",
+          "statement": "Central nervous system fatigue can affect balance as well as digestion.",
+          "answer": true,
+          "explanation": "True — a fatigued CNS “coordinates posture, balance and gastrointestinal regulation less well”."
+        }
+      ]
+    },
+    {
+      "id": "c1-physio-vocabulary",
+      "type": "fill-blank",
+      "title": "Scientific Register",
+      "instructions": "Complete each sentence with the term used in technical writing.",
+      "items": [
+        {
+          "id": "phf1",
+          "prompt": "Blood is ___ away from the gut toward the working muscles.",
+          "answers": [
+            "shunted"
+          ],
+          "options": [
+            "shunted",
+            "mobilized",
+            "depleted"
+          ],
+          "explanation": "To shunt is to divert something from one route to another."
+        },
+        {
+          "id": "phf2",
+          "prompt": "The onset was ___ rather than gradual — it came on within a minute.",
+          "answers": [
+            "acute"
+          ],
+          "options": [
+            "acute",
+            "chronic",
+            "impending"
+          ],
+          "explanation": "Acute means sudden and severe; chronic would mean long-lasting."
+        },
+        {
+          "id": "phf3",
+          "prompt": "Heat stress ___ the effects of dehydration rather than simply adding to them.",
+          "answers": [
+            "compounds"
+          ],
+          "options": [
+            "compounds",
+            "agitates",
+            "shunts"
+          ],
+          "explanation": "To compound a problem is to make an existing one worse."
+        },
+        {
+          "id": "phf4",
+          "prompt": "Cortisol ___ glucose stored in the liver.",
+          "answers": [
+            "mobilizes"
+          ],
+          "options": [
+            "mobilizes",
+            "depletes",
+            "regulates"
+          ],
+          "explanation": "To mobilize is to release a stored resource so the body can use it."
+        },
+        {
+          "id": "phf5",
+          "prompt": "Sodium ___ interferes with the signaling between nerve cells.",
+          "answers": [
+            "depletion"
+          ],
+          "options": [
+            "depletion",
+            "exertion",
+            "syncope"
+          ],
+          "explanation": "Depletion is the reduction of a supply to a level that causes problems."
+        },
+        {
+          "id": "phf6",
+          "prompt": "One failure sets off the next, and the symptoms arrive as a ___.",
+          "answers": [
+            "cascade"
+          ],
+          "options": [
+            "cascade",
+            "sphincter",
+            "medulla"
+          ],
+          "explanation": "A cascade is a sequence in which each event triggers the one after it."
+        }
+      ]
+    },
+    {
+      "id": "c1-physio-matching",
+      "type": "matching",
+      "title": "Mechanism and Effect",
+      "instructions": "Match each mechanism to the symptom the text attributes to it.",
+      "items": [
+        {
+          "id": "phm1",
+          "pairs": [
+            {
+              "left": "Blood shunted from the gut to the muscles",
+              "right": "a sensitive stomach and poor absorption of fluid"
+            },
+            {
+              "left": "Rising core temperature",
+              "right": "impaired brain function and dizziness"
+            },
+            {
+              "left": "A weakened lower esophageal sphincter",
+              "right": "gastric contents rising and reflexive vomiting"
+            },
+            {
+              "left": "Falling blood glucose",
+              "right": "lightheadedness as the brain loses its primary fuel"
+            },
+            {
+              "left": "Central nervous system fatigue",
+              "right": "poor coordination of posture and balance"
+            },
+            {
+              "left": "Sodium diluted below normal",
+              "right": "confusion and disrupted neural signaling"
+            }
+          ],
+          "explanation": "Reading the six side by side shows the shape of the argument: no single failure explains the symptoms, but each one lowers the threshold for the next."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The conclusion implies that runners often treat these symptoms as a test of toughness. Why might a sport encourage that reading of them?",
+    "Which of the six mechanisms is most within an athlete's control before the race begins? Which is least?",
+    "The text is written for a reader who already knows some physiology. Rewrite its first paragraph for a reader who does not, without losing anything true.",
+    "Fluid balance can go wrong in both directions. Where else in health or training does the safe course lie between two errors rather than at one end?",
+    "Write about 250 words explaining to a first-time ten-kilometer runner how to avoid these outcomes, using the mechanisms rather than simply issuing rules."
+  ]
+}

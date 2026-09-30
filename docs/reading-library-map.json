@@ -125,15 +125,13 @@
       "topic": "society",
       "action": "KEEP",
       "audio": "exists",
-      "reason": "Clean, well-pitched C1 argument text. Already has 3 mp3 segments.",
-      "status": "NOT STARTED",
+      "reason": "Clean, well-pitched C1 argument text. The three old mp3 segments narrated an earlier wording and were replaced by a single file.",
+      "status": "IMPLEMENTED",
       "card_title": "Attention Economy",
       "source_files": [
-        "cefr/texts/attention-economy.pdf",
-        "cefr/texts/attention-economy-01.mp3",
-        "cefr/texts/attention-economy-02.mp3",
-        "cefr/texts/attention-economy-03.mp3"
-      ]
+        "cefr/texts/attention-economy.pdf"
+      ],
+      "page": "reading/c1/attention-economy.html"
     },
     {
       "slug": "australia-and-thailand",
@@ -981,13 +979,14 @@
       "level": "C1",
       "topic": "sports",
       "action": "KEEP",
-      "audio": "required",
+      "audio": "exists",
       "reason": "Authentically C1 technical prose; good for advanced learners who read in their field.",
-      "status": "NOT STARTED",
+      "status": "IMPLEMENTED",
       "card_title": "Physiological Stressors",
       "source_files": [
         "cefr/texts/physiological-stressors.pdf"
-      ]
+      ],
+      "page": "reading/c1/physiological-stressors.html"
     },
     {
       "slug": "project-management-can-could-able-do-make",
@@ -1367,14 +1366,15 @@
       "level": "C1",
       "topic": "tech",
       "action": "KEEP",
-      "audio": "required",
+      "audio": "exists",
       "reason": "Genuinely C1, professionally relevant, natural register.",
-      "status": "NOT STARTED",
+      "status": "IMPLEMENTED",
       "card_title": "Technology and Ethics",
       "card_desc": "Exercises on ethical issues in technology.",
       "source_files": [
         "cefr/texts/technology-and-ethics.pdf"
-      ]
+      ],
+      "page": "reading/c1/technology-and-ethics.html"
     },
     {
       "slug": "text-interpretation",

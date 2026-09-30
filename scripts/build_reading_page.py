@@ -85,6 +85,13 @@ def _surface_patterns(term):
                 forms |= {h[:-1] + "ing", h[:-1] + "er", h[:-1] + "est"}
             if len(h) > 3 and h.endswith("y"):
                 forms |= {h[:-1] + "ies", h[:-1] + "ied", h[:-1] + "ier"}
+            # Consonant doubling: flag -> flagged, plan -> planned, stop ->
+            # stopped. Without this the generator produced "flaged", so a
+            # headword like "to flag" never matched its own passage.
+            if (len(h) >= 3 and h[-1].isalpha() and h[-1] not in "aeiouwxy"
+                    and h[-2] in "aeiou" and h[-3] not in "aeiou"):
+                d2 = h + h[-1]
+                forms |= {d2 + "ed", d2 + "ing", d2 + "er", d2 + "est"}
         IRREG = {"be": ["is", "are", "was", "were", "been", "'re", "'s", "'m"],
                  "tell": ["told"], "speak": ["spoke", "spoken"],
                  "take": ["took", "taken"], "get": ["got", "gotten"],

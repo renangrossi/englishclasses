@@ -1,0 +1,388 @@
+{
+  "id": "b2-reading-soma-nomaoi",
+  "level": "B2",
+  "slug": "soma-nomaoi",
+  "topic": "culture",
+  "title": "Soma Nomaoi",
+  "subtitle": "A thousand-year-old cavalry festival in Fukushima, and what it now means to the people who ride in it.",
+  "description": "A B2 reading and listening text on the Soma Nomaoi horse festival in Fukushima — its samurai origins, its three days of events and its meaning after 2011 — with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/soma-nomaoi.docx",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "3:36"
+  },
+  "passage": [
+    "Soma Nomaoi is held each year in the Soma region of Fukushima Prefecture, on the northeastern coast of Japan. It is designated a National Important Intangible Folk Cultural Property, and it is frequently described as one of the great horse festivals anywhere in the world. Around four hundred riders take part, in full traditional armor, on horses carrying the banners of their districts.",
+    "Its origins are usually traced back more than a thousand years, to the Heian period. The story attaches it to Taira no Masakado, a warlord and an ancestor of the Soma clan, who is said to have released wild horses across open ground so that his cavalry could practice pursuing them as though they were enemy troops. When the exercise ended, the horses that had been caught were offered to Shinto deities. Military training and religious observance were bound together from the beginning, and the festival has kept both.",
+    "What survives today is a reenactment on a large scale. Hundreds of participants ride in armor that has in many cases been in the same family for generations, and descendants of the Soma clan still take the ceremonial roles, including that of commander-in-chief. The festival runs over three days at the end of May, across the Hibarigahara festival grounds and a number of local shrines.",
+    "The first day belongs to the processions. Riders assemble in their districts and set out with portable shrines and their commanders, and the local parades bring the armor out into ordinary streets before anything competitive begins.",
+    "The second day is the main one. It opens with a full parade of armored riders and continues into Kachu Keiba, the armored horse race — which is exactly what it sounds like, and considerably harder than an ordinary race, since the riders are carrying the weight of a complete set of armor. The event most people come for is the Shinki Sodatsusen, the sacred flag competition. Flags are launched into the air by fireworks, and the riders compete to catch them as they fall. It is fast, genuinely chaotic, and the closest thing the festival has to a spectacle in the modern sense.",
+    "The third day is quieter and more ritual. At Soma Odaka Shrine, participants dressed in white take part in Nomakake, the wild horse chase, in which a horse is pursued and symbolically captured as an offering — the oldest element of the whole festival, and the one closest to what Masakado's men are supposed to have done. The festival closes with the sounding of conch shells.",
+    "None of this is without risk. These are real horses ridden at speed by riders in heavy armor, in front of crowds, and injuries to riders and occasionally to spectators do happen when a horse bolts. The organizers manage the risk rather than eliminate it, which is the honest position for an event of this kind.",
+    "The festival's modern significance is harder to separate from where it takes place. The Soma region lies on the coast that was struck by the earthquake and tsunami of March 2011, and by the nuclear accident that followed. Communities were evacuated, some for years. Holding the festival at all in the years immediately afterward required horses, armor, grounds and people who had all been displaced, and in some cases lost. That it continued, and that families who had left still returned to ride, is why participants tend to talk about it now in terms of continuity rather than pageantry. It is a thousand-year-old ritual that has become, without anyone planning it, a demonstration that the community still exists."
+  ],
+  "vocabulary": [
+    {
+      "term": "prefecture",
+      "definition": "one of the administrative regions Japan is divided into"
+    },
+    {
+      "term": "intangible",
+      "definition": "not physical — a practice or tradition rather than an object"
+    },
+    {
+      "term": "banner",
+      "definition": "a long flag carried as the sign of a group",
+      "match": "banners"
+    },
+    {
+      "term": "to trace back",
+      "definition": "to follow the history of something to its origin",
+      "match": "traced back"
+    },
+    {
+      "term": "warlord",
+      "definition": "a military leader holding power over a territory"
+    },
+    {
+      "term": "cavalry",
+      "definition": "soldiers who fight on horseback"
+    },
+    {
+      "term": "deity",
+      "definition": "a god",
+      "match": "deities"
+    },
+    {
+      "term": "observance",
+      "definition": "the practice of keeping a religious custom"
+    },
+    {
+      "term": "reenactment",
+      "definition": "a performance that recreates a historical event"
+    },
+    {
+      "term": "descendant",
+      "definition": "someone descended from a particular ancestor",
+      "match": "descendants"
+    },
+    {
+      "term": "ceremonial",
+      "definition": "belonging to formal ritual rather than to practical duty"
+    },
+    {
+      "term": "procession",
+      "definition": "a formal parade of people moving together",
+      "match": "processions"
+    },
+    {
+      "term": "to bolt",
+      "definition": "to run away suddenly and uncontrollably, said of a horse",
+      "match": "bolts"
+    },
+    {
+      "term": "spectator",
+      "definition": "someone watching an event",
+      "match": "spectators"
+    },
+    {
+      "term": "to evacuate",
+      "definition": "to move people out of a dangerous area",
+      "match": "evacuated"
+    },
+    {
+      "term": "to displace",
+      "definition": "to force people to leave their homes",
+      "match": "displaced"
+    },
+    {
+      "term": "continuity",
+      "definition": "the fact of something carrying on unbroken"
+    },
+    {
+      "term": "pageantry",
+      "definition": "elaborate display staged for its own sake"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-soma-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Some of these ask about the meaning the festival has acquired, not only its programme.",
+      "items": [
+        {
+          "id": "so1",
+          "prompt": "What were the festival's origins, according to the traditional account?",
+          "options": [
+            "A religious ceremony that later added horses",
+            "A cavalry training exercise in which released horses stood in for enemy troops, with the captured horses then offered to the gods",
+            "A competition between neighbouring clans"
+          ],
+          "answerIndex": 1,
+          "explanation": "Masakado “released wild horses… so that his cavalry could practice pursuing them as though they were enemy troops”, and the horses caught became offerings."
+        },
+        {
+          "id": "so2",
+          "prompt": "Why does the writer say military training and religious observance “were bound together from the beginning”?",
+          "options": [
+            "Because the samurai were priests as well as soldiers",
+            "Because the shrines paid for the training",
+            "Because the same exercise served both purposes — the drill ended in an offering"
+          ],
+          "answerIndex": 2,
+          "explanation": "The two were not separate activities held on the same day; the capture that completed the drill was itself the offering."
+        },
+        {
+          "id": "so3",
+          "prompt": "What makes Kachu Keiba harder than an ordinary horse race?",
+          "options": [
+            "The riders carry the weight of a full set of armor",
+            "The course is longer than usual",
+            "The horses are not trained for racing"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Considerably harder than an ordinary race, since the riders are carrying the weight of a complete set of armor.”"
+        },
+        {
+          "id": "so4",
+          "prompt": "How do riders compete in the Shinki Sodatsusen?",
+          "options": [
+            "They race to a shrine carrying their district's banner",
+            "They catch flags launched into the air by fireworks as the flags fall",
+            "They are judged on the condition of their armor"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Flags are launched into the air by fireworks, and the riders compete to catch them as they fall.”"
+        },
+        {
+          "id": "so5",
+          "prompt": "Why does the writer call Nomakake “the oldest element of the whole festival”?",
+          "options": [
+            "Because it is held at the oldest shrine",
+            "Because it was the first event to be revived after 2011",
+            "Because it most closely resembles what Masakado's men are said to have done"
+          ],
+          "answerIndex": 2,
+          "explanation": "It is the chase and symbolic capture of a horse as an offering — the original exercise, stripped of the competition that surrounds it on the other days."
+        },
+        {
+          "id": "so6",
+          "prompt": "How does the text handle the danger of the event?",
+          "options": [
+            "It states plainly that injuries happen and that organizers manage rather than remove the risk",
+            "It argues the event should be made safer",
+            "It avoids mentioning any danger"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The organizers manage the risk rather than eliminate it, which is the honest position for an event of this kind.”"
+        },
+        {
+          "id": "so7",
+          "prompt": "Why do participants now speak of the festival in terms of “continuity rather than pageantry”?",
+          "options": [
+            "Because the competitive events have been reduced",
+            "Because holding it after 2011 required displaced people, horses and armor to be brought back — so its survival is the point",
+            "Because fewer visitors attend than before"
+          ],
+          "answerIndex": 1,
+          "explanation": "Communities were evacuated and things were lost; “that it continued, and that families who had left still returned to ride” is what changed its meaning."
+        },
+        {
+          "id": "so8",
+          "prompt": "What does the writer mean by “without anyone planning it” in the final sentence?",
+          "options": [
+            "That the modern meaning was not designed, but arrived through circumstance",
+            "That the festival is organized informally",
+            "That the 2011 disaster had been anticipated"
+          ],
+          "answerIndex": 0,
+          "explanation": "A thousand-year-old ritual acquired a new significance because of an event nobody chose — the meaning was not added to it deliberately."
+        }
+      ]
+    },
+    {
+      "id": "b2-soma-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "sot1",
+          "statement": "Around four hundred riders take part.",
+          "answer": true,
+          "explanation": "True — “around four hundred riders take part, in full traditional armor”."
+        },
+        {
+          "id": "sot2",
+          "statement": "The festival lasts a single day.",
+          "answer": false,
+          "explanation": "False — it “runs over three days at the end of May”."
+        },
+        {
+          "id": "sot3",
+          "statement": "Descendants of the Soma clan still hold ceremonial roles.",
+          "answer": true,
+          "explanation": "True — including that of commander-in-chief."
+        },
+        {
+          "id": "sot4",
+          "statement": "The flag competition is held on the final day.",
+          "answer": false,
+          "explanation": "False — the Shinki Sodatsusen is on the second, main day. The third day is the quieter Nomakake."
+        },
+        {
+          "id": "sot5",
+          "statement": "The armor worn is newly made for each festival.",
+          "answer": false,
+          "explanation": "False — it “has in many cases been in the same family for generations”."
+        },
+        {
+          "id": "sot6",
+          "statement": "The festival closes with the sounding of conch shells.",
+          "answer": true,
+          "explanation": "True — that is how the third day, and the festival, ends."
+        }
+      ]
+    },
+    {
+      "id": "b2-soma-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "sof1",
+          "prompt": "A tradition is ___ cultural heritage: it is a practice, not an object.",
+          "answers": [
+            "intangible"
+          ],
+          "options": [
+            "intangible",
+            "ceremonial",
+            "ancestral"
+          ],
+          "explanation": "Intangible means not physical — a practice or custom rather than a building or artifact."
+        },
+        {
+          "id": "sof2",
+          "prompt": "The family ___ its history ___ to the tenth century.",
+          "answers": [
+            "traces",
+            "back"
+          ],
+          "options": [
+            [
+              "traces",
+              "takes",
+              "runs"
+            ],
+            [
+              "back",
+              "down",
+              "over"
+            ]
+          ],
+          "explanation": "To trace something back is to follow its history to its origin."
+        },
+        {
+          "id": "sof3",
+          "prompt": "The horse ___ when the fireworks went off.",
+          "answers": [
+            "bolted"
+          ],
+          "options": [
+            "bolted",
+            "evacuated",
+            "displaced"
+          ],
+          "explanation": "To bolt is to run away suddenly and uncontrollably — used of horses."
+        },
+        {
+          "id": "sof4",
+          "prompt": "Thousands of residents were ___ from the coast after the accident.",
+          "answers": [
+            "evacuated"
+          ],
+          "options": [
+            "evacuated",
+            "reenacted",
+            "designated"
+          ],
+          "explanation": "To evacuate is to move people out of a dangerous area."
+        },
+        {
+          "id": "sof5",
+          "prompt": "What matters to them is ___, not display.",
+          "answers": [
+            "continuity"
+          ],
+          "options": [
+            "continuity",
+            "pageantry",
+            "observance"
+          ],
+          "explanation": "Continuity is the fact of something carrying on unbroken — set directly against pageantry in the text."
+        },
+        {
+          "id": "sof6",
+          "prompt": "The role is purely ___: it carries honor but no command.",
+          "answers": [
+            "ceremonial"
+          ],
+          "options": [
+            "ceremonial",
+            "intangible",
+            "ancestral"
+          ],
+          "explanation": "Ceremonial means belonging to formal ritual rather than practical duty."
+        }
+      ]
+    },
+    {
+      "id": "b2-soma-matching",
+      "type": "matching",
+      "title": "The Three Days",
+      "instructions": "Match each Japanese term to what it refers to.",
+      "items": [
+        {
+          "id": "som1",
+          "pairs": [
+            {
+              "left": "Soma Nomaoi",
+              "right": "the festival itself, held each year in Fukushima"
+            },
+            {
+              "left": "Kachu Keiba",
+              "right": "the armored horse race on the main day"
+            },
+            {
+              "left": "Shinki Sodatsusen",
+              "right": "the competition to catch flags launched by fireworks"
+            },
+            {
+              "left": "Nomakake",
+              "right": "the ritual wild horse chase on the final day"
+            },
+            {
+              "left": "Hibarigahara",
+              "right": "the festival grounds where the main events are held"
+            },
+            {
+              "left": "horagai",
+              "right": "the conch shells sounded to close the festival"
+            }
+          ],
+          "explanation": "Read in order, these trace the festival's shape: from the competitive spectacle of the second day back toward the older ritual it grew out of."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The festival began as military training and is now a reenactment. Does a tradition lose something when its original purpose disappears?",
+    "Organizers “manage the risk rather than eliminate it”. Where should the line be drawn for a traditional event that is genuinely dangerous?",
+    "After 2011 the festival came to mean something it had not meant before. Can a community choose what its traditions mean, or does that happen to them?",
+    "Is there an event where you live that would be missed most if it stopped? What would its absence actually signal?",
+    "Write about 150 words describing a tradition from your own country to someone who has never heard of it — including what it costs the people who keep it going."
+  ]
+}

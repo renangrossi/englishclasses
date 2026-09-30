@@ -1,0 +1,415 @@
+{
+  "id": "b2-reading-recent-advancements-in-it",
+  "level": "B2",
+  "slug": "recent-advancements-in-it",
+  "topic": "tech",
+  "title": "Data Centers and Digital Agents",
+  "subtitle": "The buildings that make modern AI possible, and the shift from software that answers to software that acts.",
+  "description": "A B2 technology reading and listening text on hyperscale data centers and agentic AI — what they are, what they cost and why they matter — with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/recent-advancements-in-it.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "3:54"
+  },
+  "passage": [
+    "Two developments have done more than any others to change what software can do: an enormous increase in the computing power available to train artificial intelligence, and a change in what that software is asked to do once trained. The first is a story about buildings. The second is a story about responsibility.",
+    "Modern AI systems — particularly large language models and the multimodal systems that handle text, images and audio together — require computing power on a scale that has no real precedent in civilian technology. That power lives in hyperscale data centers: purpose-built facilities, often the size of several warehouses, packed with specialized processors and built for nothing except training and running these models.",
+    "The engineering problem such buildings present is less about computing than about heat and electricity. Packing tens of thousands of processors into one facility produces an extraordinary thermal load, and the power draw of a large site can approach that of a small city. Operators have responded by rethinking cooling — liquid systems in place of moving cold air around — and by siting facilities where power is abundant or where they can be built alongside dedicated generation. Whether the resulting energy demand can be met without a significant increase in emissions is a genuinely open question, and one that the industry is under growing pressure to answer rather than defer.",
+    "The reason for all this construction is that the capability of these systems has, so far, scaled with the resources devoted to them. More computing power and more data have generally produced more capable models. Whether that relationship continues indefinitely is disputed, but it has held long enough to justify very large amounts of capital, and it explains why organizations that cannot build such facilities increasingly rent time on someone else's.",
+    "The second development matters more for how the software is actually used. Earlier systems were generative: you supplied a prompt and they produced text, an image or code in response. Each exchange stood on its own, and the person remained in control of every step. Newer systems are described as agentic. Given an objective rather than an instruction, they break it into steps, choose and use tools, evaluate their own intermediate results, recover from some of their own errors, and work at a task over hours or days with limited supervision.",
+    "The practical difference is substantial. An agentic system can work inside a real codebase, make design decisions, run searches on its own initiative and act on what it finds. Organizations are already deploying such systems in software development, customer operations and research support, and the direction of travel is clear enough that the interesting questions have moved on from whether the technology works.",
+    "Those questions are mostly about oversight. A tool that answers a question can be checked before anything happens. A system that acts over an extended period makes many small decisions that nobody reviews individually, and errors can compound before they are noticed. The organizations getting the most out of these systems tend to be the ones that have thought hardest about where a human being is required to approve something, what the software is permitted to touch, and how its work is logged so that a mistake can be traced afterwards. Enthusiasm is easy to find; the constraints are what distinguish a serious deployment from an experiment.",
+    "It is worth being careful about the analogies. Calling these systems colleagues or interns flatters them: they do not understand the organization they work in, they have no stake in the outcome, and their confidence is unrelated to their accuracy. What is genuinely new is narrower and still significant — software that can be given a goal instead of an instruction, and that will do a useful amount of the intervening work without being told how."
+  ],
+  "vocabulary": [
+    {
+      "term": "multimodal",
+      "definition": "handling more than one kind of input, such as text and images together"
+    },
+    {
+      "term": "precedent",
+      "definition": "an earlier case that serves as a comparison"
+    },
+    {
+      "term": "hyperscale",
+      "definition": "built for computing at the very largest scale"
+    },
+    {
+      "term": "purpose-built",
+      "definition": "designed and constructed for one specific use"
+    },
+    {
+      "term": "thermal load",
+      "definition": "the total amount of heat that has to be removed from a space"
+    },
+    {
+      "term": "power draw",
+      "definition": "the quantity of electricity a system consumes while running"
+    },
+    {
+      "term": "to site",
+      "definition": "to choose a location for something and build it there",
+      "match": "siting"
+    },
+    {
+      "term": "abundant",
+      "definition": "available in large quantities"
+    },
+    {
+      "term": "emissions",
+      "definition": "the greenhouse gases released by an activity"
+    },
+    {
+      "term": "to defer",
+      "definition": "to put off dealing with something"
+    },
+    {
+      "term": "to scale with",
+      "definition": "to increase in proportion to something else",
+      "match": "scaled with"
+    },
+    {
+      "term": "disputed",
+      "definition": "argued about; not settled"
+    },
+    {
+      "term": "capital",
+      "definition": "money invested in building something that will produce returns"
+    },
+    {
+      "term": "generative",
+      "definition": "producing new content in response to a prompt"
+    },
+    {
+      "term": "prompt",
+      "definition": "the instruction or question given to an AI system"
+    },
+    {
+      "term": "agentic",
+      "definition": "able to pursue a goal independently rather than responding to single instructions"
+    },
+    {
+      "term": "intermediate",
+      "definition": "occurring between the start and the end of a process"
+    },
+    {
+      "term": "supervision",
+      "definition": "the act of watching over work as it is done"
+    },
+    {
+      "term": "codebase",
+      "definition": "the whole body of source code belonging to a project"
+    },
+    {
+      "term": "oversight",
+      "definition": "responsible supervision of a process, to catch what goes wrong"
+    },
+    {
+      "term": "to compound",
+      "definition": "to accumulate, each error making the next one worse"
+    },
+    {
+      "term": "to log",
+      "definition": "to record actions as they happen so they can be reviewed later",
+      "match": "logged"
+    },
+    {
+      "term": "to flatter",
+      "definition": "to describe something as better than it is",
+      "match": "flatters"
+    },
+    {
+      "term": "stake",
+      "definition": "a personal interest in how something turns out"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-recentit-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for the argument the writer is making, which is more cautious than the subject usually attracts.",
+      "items": [
+        {
+          "id": "ri1",
+          "prompt": "The writer calls the first development “a story about buildings” and the second “a story about responsibility”. What does that framing announce?",
+          "options": [
+            "That the first is a physical, infrastructural problem and the second is a question of control and accountability",
+            "That the second is less important than the first",
+            "That both are primarily financial questions"
+          ],
+          "answerIndex": 0,
+          "explanation": "The essay follows exactly that division: heat, power and capital in the first half, oversight and permission in the second."
+        },
+        {
+          "id": "ri2",
+          "prompt": "What is the main engineering difficulty of a hyperscale data center, according to the text?",
+          "options": [
+            "Writing software that can use so many processors",
+            "Removing the heat and supplying the electricity, rather than the computing itself",
+            "Finding enough staff to operate the facility"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The engineering problem such buildings present is less about computing than about heat and electricity.”"
+        },
+        {
+          "id": "ri3",
+          "prompt": "How does the writer treat the environmental question?",
+          "options": [
+            "As solved by liquid cooling and better siting",
+            "As exaggerated by critics of the industry",
+            "As genuinely unresolved, and something the industry is under pressure to address rather than postpone"
+          ],
+          "answerIndex": 2,
+          "explanation": "“A genuinely open question, and one that the industry is under growing pressure to answer rather than defer.” The writer neither dismisses nor resolves it."
+        },
+        {
+          "id": "ri4",
+          "prompt": "Why has so much capital gone into these facilities?",
+          "options": [
+            "Because governments have subsidized their construction",
+            "Because capability has so far increased with the resources devoted to it",
+            "Because the buildings retain their value as property"
+          ],
+          "answerIndex": 1,
+          "explanation": "“More computing power and more data have generally produced more capable models” — and the writer immediately notes that whether this continues is disputed."
+        },
+        {
+          "id": "ri5",
+          "prompt": "What is the central difference between a generative and an agentic system?",
+          "options": [
+            "Generative systems are faster; agentic ones are more accurate",
+            "A generative system responds to an instruction; an agentic one is given an objective and works out the steps itself",
+            "Agentic systems run on different hardware"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Given an objective rather than an instruction, they break it into steps, choose and use tools… with limited supervision.”"
+        },
+        {
+          "id": "ri6",
+          "prompt": "Why does an agentic system create a harder oversight problem?",
+          "options": [
+            "Because it produces more output than a person can read",
+            "Because it makes many unreviewed decisions over time, so errors can accumulate before anyone notices",
+            "Because its decisions cannot be logged"
+          ],
+          "answerIndex": 1,
+          "explanation": "“A tool that answers a question can be checked before anything happens” — the contrast is with a process nobody inspects step by step."
+        },
+        {
+          "id": "ri7",
+          "prompt": "What distinguishes a serious deployment from an experiment, in the writer's view?",
+          "options": [
+            "The constraints — where approval is required, what may be touched, and how the work is logged",
+            "The size of the model being used",
+            "The amount of enthusiasm within the organization"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Enthusiasm is easy to find; the constraints are what distinguish a serious deployment from an experiment.”"
+        },
+        {
+          "id": "ri8",
+          "prompt": "Why does the writer object to calling these systems “colleagues” or “interns”?",
+          "options": [
+            "Because it will offend people who do those jobs",
+            "Because such systems cannot yet complete long tasks",
+            "Because they lack understanding of the organization, any stake in the result, and any link between confidence and accuracy"
+          ],
+          "answerIndex": 2,
+          "explanation": "The three reasons are given directly, and the writer then restates the real claim in narrower terms."
+        }
+      ]
+    },
+    {
+      "id": "b2-recentit-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "The writer is careful about what is established and what is not. Read accordingly.",
+      "items": [
+        {
+          "id": "rit1",
+          "statement": "The text says capability will certainly keep increasing with more computing power.",
+          "answer": false,
+          "explanation": "False — “whether that relationship continues indefinitely is disputed”. It says only that it has held long enough to justify the investment."
+        },
+        {
+          "id": "rit2",
+          "statement": "Liquid cooling is mentioned as a response to the heat problem.",
+          "answer": true,
+          "explanation": "True — “liquid systems in place of moving cold air around”."
+        },
+        {
+          "id": "rit3",
+          "statement": "Organizations that cannot build their own facilities are shut out of using these models.",
+          "answer": false,
+          "explanation": "False — they “increasingly rent time on someone else's”."
+        },
+        {
+          "id": "rit4",
+          "statement": "Agentic systems are described as working with limited supervision over extended periods.",
+          "answer": true,
+          "explanation": "True — they “work at a task over hours or days with limited supervision”."
+        },
+        {
+          "id": "rit5",
+          "statement": "The writer argues that these systems understand the organizations they work for.",
+          "answer": false,
+          "explanation": "False — the opposite: “they do not understand the organization they work in”."
+        },
+        {
+          "id": "rit6",
+          "statement": "The writer thinks the important questions are now about oversight rather than capability.",
+          "answer": true,
+          "explanation": "True — “the interesting questions have moved on from whether the technology works”, and the next paragraph is about oversight."
+        }
+      ]
+    },
+    {
+      "id": "b2-recentit-vocabulary",
+      "type": "fill-blank",
+      "title": "Technology Vocabulary",
+      "instructions": "Complete each sentence with the right term.",
+      "items": [
+        {
+          "id": "rif1",
+          "prompt": "A system that handles text, images and audio together is called ___.",
+          "answers": [
+            "multimodal"
+          ],
+          "options": [
+            "multimodal",
+            "generative",
+            "agentic"
+          ],
+          "explanation": "Multimodal means handling more than one kind of input."
+        },
+        {
+          "id": "rif2",
+          "prompt": "The ___ ___ of the site is close to that of a small city.",
+          "answers": [
+            "power",
+            "draw"
+          ],
+          "options": [
+            [
+              "power",
+              "thermal",
+              "capital"
+            ],
+            [
+              "draw",
+              "load",
+              "scale"
+            ]
+          ],
+          "explanation": "Power draw is the electricity a system consumes while running; thermal load is the heat that must be removed."
+        },
+        {
+          "id": "rif3",
+          "prompt": "Small errors ___ until the output was unusable.",
+          "answers": [
+            "compounded"
+          ],
+          "options": [
+            "compounded",
+            "deferred",
+            "scaled"
+          ],
+          "explanation": "To compound is to accumulate, each error making the next worse."
+        },
+        {
+          "id": "rif4",
+          "prompt": "Every action is ___ so that a mistake can be traced afterwards.",
+          "answers": [
+            "logged"
+          ],
+          "options": [
+            "logged",
+            "sited",
+            "prompted"
+          ],
+          "explanation": "To log is to record actions as they happen so they can be reviewed later."
+        },
+        {
+          "id": "rif5",
+          "prompt": "Calling it a colleague ___ it: it has no ___ in whether the project succeeds.",
+          "answers": [
+            "flatters",
+            "stake"
+          ],
+          "options": [
+            [
+              "flatters",
+              "defers",
+              "logs"
+            ],
+            [
+              "stake",
+              "precedent",
+              "prompt"
+            ]
+          ],
+          "explanation": "To flatter is to describe something as better than it is; a stake is a personal interest in the outcome."
+        },
+        {
+          "id": "rif6",
+          "prompt": "The question has been ___ rather than answered.",
+          "answers": [
+            "deferred"
+          ],
+          "options": [
+            "deferred",
+            "disputed",
+            "logged"
+          ],
+          "explanation": "To defer is to put off dealing with something — precisely what the text says the industry can no longer do."
+        }
+      ]
+    },
+    {
+      "id": "b2-recentit-matching",
+      "type": "matching",
+      "title": "Terms and Meanings",
+      "instructions": "Match each term to what it means in this text.",
+      "items": [
+        {
+          "id": "rim1",
+          "pairs": [
+            {
+              "left": "hyperscale data center",
+              "right": "a purpose-built facility for training and running large models"
+            },
+            {
+              "left": "thermal load",
+              "right": "the heat that has to be removed from the building"
+            },
+            {
+              "left": "generative",
+              "right": "producing content in response to a single prompt"
+            },
+            {
+              "left": "agentic",
+              "right": "pursuing a goal over time, choosing its own steps"
+            },
+            {
+              "left": "codebase",
+              "right": "the whole body of source code belonging to a project"
+            },
+            {
+              "left": "oversight",
+              "right": "the supervision that catches what has gone wrong"
+            }
+          ],
+          "explanation": "The first two belong to the infrastructure half of the text and the last four to the question of control — the division the opening paragraph sets up."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The writer says enthusiasm is easy and constraints are what matter. What constraints would you want before letting software act on your behalf?",
+    "Is it fair to describe an AI system as a colleague? What does the metaphor get right, and what does it hide?",
+    "Who should bear the environmental cost of computing at this scale — the operators, the customers, or the users?",
+    "“Their confidence is unrelated to their accuracy.” Why does that combination make a system harder to supervise than one that is simply unreliable?",
+    "Write about 150 words describing a task you would be willing to hand to an autonomous system, and one you would not, with your reasons."
+  ]
+}

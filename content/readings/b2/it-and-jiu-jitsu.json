@@ -1,0 +1,367 @@
+{
+  "id": "b2-reading-it-and-jiu-jitsu",
+  "level": "B2",
+  "slug": "it-and-jiu-jitsu",
+  "topic": "work",
+  "title": "Two Kinds of Problem",
+  "subtitle": "A story about coding and jiu-jitsu, and the phrasal verbs that carry a career decision.",
+  "description": "A B2 reading and listening text following a programmer who postpones a job offer to compete in jiu-jitsu, built around the phrasal verbs of work and ambition, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/it-and-jiu-jitsu.docx",
+  "provenance": "edited",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "2:43"
+  },
+  "passage": [
+    "James had been drawn to two things for as long as he could remember: computers and jiu-jitsu. He took after his father in that, which he found slightly annoying and mostly reassuring. His father was a software engineer during the day and a jiu-jitsu black belt in the evenings, and he moved between the two without appearing to notice the distance. James wanted to live up to that.",
+    "Through his teenage years he spent most of his free hours coding, and kept running into the kind of problem that makes people give up. He did not give up. He had a knack for taking a complicated algorithm apart, seeing which piece was actually wrong, and putting it back together — which, he came to realize, is close to what happens on a mat. You do not overpower a good opponent. You find the one point where their position depends on something they cannot hold.",
+    "The work paid off. He graduated, and a well-regarded firm offered him a job. It was a good offer, and he found he could not quite bring himself to take it, because accepting meant putting jiu-jitsu aside for years. After thinking it over longer than his family thought reasonable, he asked the firm to hold the offer open, and set out to win the regional championship.",
+    "It was harder than he expected. Training was relentless, and results came slowly enough to be discouraging. He applied the same stubbornness he had used on difficult code: work out what is actually failing, fix that, test it again. Between sessions he picked up freelance contracts to cover his rent, because chasing one ambition is not a reason to let the other fall apart.",
+    "About a year in, he ran into an old university friend who had moved into technical recruiting. They caught up over coffee, and she mentioned a role at a company he had been quietly watching for years — one that would suit him better than the offer he had postponed. He applied, and more importantly, he now had someone inside who could speak for him.",
+    "Holding the two together was difficult, and for several months he was doing neither as well as he wanted. But he kept at it. He won the regional championship that spring, and took the job that summer after an interview in which he was asked to debug something unfamiliar in front of two strangers — a situation he found considerably less stressful than a competitive match.",
+    "He had lived up to his father's example, which was what he thought he wanted. What he had not expected was how much of the second discipline turned out to be useful in the first: the patience, the willingness to lose repeatedly while learning something, and the habit of looking for the one weak point instead of pushing harder against the strong ones."
+  ],
+  "vocabulary": [
+    {
+      "term": "to take after someone",
+      "definition": "to resemble an older relative in character or ability",
+      "match": "took after"
+    },
+    {
+      "term": "to live up to",
+      "definition": "to meet a standard that someone else has set",
+      "match": "live up to"
+    },
+    {
+      "term": "to run into",
+      "definition": "to meet something or someone unexpectedly",
+      "match": "running into"
+    },
+    {
+      "term": "to give up",
+      "definition": "to stop trying",
+      "match": "give up"
+    },
+    {
+      "term": "to have a knack for",
+      "definition": "to have a natural skill at something",
+      "match": "knack for"
+    },
+    {
+      "term": "to take apart",
+      "definition": "to separate something into its pieces in order to understand it",
+      "match": "taking a complicated algorithm apart"
+    },
+    {
+      "term": "to pay off",
+      "definition": "to produce a good result after a long effort",
+      "match": "paid off"
+    },
+    {
+      "term": "to put aside",
+      "definition": "to postpone something in order to deal with something else",
+      "match": "putting jiu-jitsu aside"
+    },
+    {
+      "term": "to think over",
+      "definition": "to consider something carefully before deciding",
+      "match": "thinking it over"
+    },
+    {
+      "term": "to set out",
+      "definition": "to begin a task with a clear goal in mind",
+      "match": "set out"
+    },
+    {
+      "term": "relentless",
+      "definition": "continuing without any let-up"
+    },
+    {
+      "term": "to pick up",
+      "definition": "to acquire work casually or as it becomes available",
+      "match": "picked up"
+    },
+    {
+      "term": "to fall apart",
+      "definition": "to break down or stop functioning",
+      "match": "fall apart"
+    },
+    {
+      "term": "to catch up",
+      "definition": "to exchange news with someone you have not seen for a while",
+      "match": "caught up"
+    },
+    {
+      "term": "to postpone",
+      "definition": "to move something to a later time",
+      "match": "postponed"
+    },
+    {
+      "term": "to keep at it",
+      "definition": "to continue with something difficult",
+      "match": "kept at it"
+    },
+    {
+      "term": "to debug",
+      "definition": "to find and remove the errors in a program"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-jj-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for what James decides and why, not just what happens to him.",
+      "items": [
+        {
+          "id": "jj1",
+          "prompt": "What did James find “slightly annoying and mostly reassuring”?",
+          "options": [
+            "That his father would not give him career advice",
+            "That his own two interests were the same as his father's",
+            "That he was expected to become a black belt"
+          ],
+          "answerIndex": 1,
+          "explanation": "He “took after his father in that” — the mixed feeling is about discovering you have inherited someone else's enthusiasms."
+        },
+        {
+          "id": "jj2",
+          "prompt": "What connection does James draw between debugging and jiu-jitsu?",
+          "options": [
+            "Both reward finding the one weak point rather than applying more force",
+            "Both require physical stamina",
+            "Both are best learned young"
+          ],
+          "answerIndex": 0,
+          "explanation": "“You do not overpower a good opponent. You find the one point where their position depends on something they cannot hold” — the same move as isolating the failing piece of code."
+        },
+        {
+          "id": "jj3",
+          "prompt": "Why couldn't James accept the job offer straight away?",
+          "options": [
+            "Because the salary was too low",
+            "Because he had not yet graduated",
+            "Because taking it meant setting jiu-jitsu aside for years"
+          ],
+          "answerIndex": 2,
+          "explanation": "The offer was good; the cost was the other ambition, which is what made it a genuine decision rather than an easy one."
+        },
+        {
+          "id": "jj4",
+          "prompt": "Why did James keep taking freelance contracts while training?",
+          "options": [
+            "To build a portfolio for future interviews",
+            "To pay his rent, on the principle that pursuing one ambition is no reason to let the other collapse",
+            "Because his father insisted"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Chasing one ambition is not a reason to let the other fall apart.”"
+        },
+        {
+          "id": "jj5",
+          "prompt": "What did the meeting with his old friend actually give him?",
+          "options": [
+            "A guaranteed job offer",
+            "Financial support during training",
+            "A suitable opening and, more valuably, someone inside who could vouch for him"
+          ],
+          "answerIndex": 2,
+          "explanation": "“He applied, and more importantly, he now had someone inside who could speak for him.” The text is explicit about which mattered more."
+        },
+        {
+          "id": "jj6",
+          "prompt": "Why did James find the technical interview less stressful than a match?",
+          "options": [
+            "Because he had already been offered the job",
+            "Because competition had given him practice at performing under far greater pressure",
+            "Because the problem was one he had seen before"
+          ],
+          "answerIndex": 1,
+          "explanation": "The problem was unfamiliar and there were two strangers watching — and he still found it “considerably less stressful than a competitive match”."
+        },
+        {
+          "id": "jj7",
+          "prompt": "What surprised James most at the end?",
+          "options": [
+            "How much jiu-jitsu had improved his work — patience, tolerance of failure, and looking for the weak point",
+            "That his father had been right all along",
+            "That he preferred competing to programming"
+          ],
+          "answerIndex": 0,
+          "explanation": "“What he had not expected was how much of the second discipline turned out to be useful in the first.”"
+        }
+      ]
+    },
+    {
+      "id": "b2-jj-phrasal",
+      "type": "fill-blank",
+      "title": "Phrasal Verbs of Work and Ambition",
+      "instructions": "Complete each sentence with the particle that gives the right meaning.",
+      "items": [
+        {
+          "id": "jjf1",
+          "prompt": "He takes ___ his father — same stubbornness, same interests.",
+          "answers": [
+            "after"
+          ],
+          "options": [
+            "after",
+            "up",
+            "over"
+          ],
+          "explanation": "To take after someone is to resemble an older relative."
+        },
+        {
+          "id": "jjf2",
+          "prompt": "Four years of training finally paid ___.",
+          "answers": [
+            "off"
+          ],
+          "options": [
+            "off",
+            "up",
+            "out"
+          ],
+          "explanation": "To pay off is to produce a good result after long effort."
+        },
+        {
+          "id": "jjf3",
+          "prompt": "I ___ ___ an old colleague at the conference and we ___ ___ over lunch.",
+          "answers": [
+            "ran",
+            "into",
+            "caught",
+            "up"
+          ],
+          "options": [
+            [
+              "ran",
+              "went",
+              "came"
+            ],
+            [
+              "into",
+              "across",
+              "over"
+            ],
+            [
+              "caught",
+              "kept",
+              "picked"
+            ],
+            [
+              "up",
+              "on",
+              "in"
+            ]
+          ],
+          "explanation": "To run into someone is to meet them unexpectedly; to catch up is to exchange news after time apart."
+        },
+        {
+          "id": "jjf4",
+          "prompt": "She asked for a week to think it ___ before answering.",
+          "answers": [
+            "over"
+          ],
+          "options": [
+            "over",
+            "up",
+            "through"
+          ],
+          "explanation": "To think something over is to consider it carefully before deciding."
+        },
+        {
+          "id": "jjf5",
+          "prompt": "It was discouraging, but he kept ___ it.",
+          "answers": [
+            "at"
+          ],
+          "options": [
+            "at",
+            "on",
+            "up"
+          ],
+          "explanation": "To keep at something is to continue with it despite difficulty."
+        },
+        {
+          "id": "jjf6",
+          "prompt": "He has a lot to ___ ___ ___, with a father like that.",
+          "answers": [
+            "live",
+            "up",
+            "to"
+          ],
+          "options": [
+            [
+              "live",
+              "keep",
+              "stand"
+            ],
+            [
+              "up",
+              "on",
+              "out"
+            ],
+            [
+              "to",
+              "for",
+              "with"
+            ]
+          ],
+          "explanation": "To live up to something is to meet a standard someone else has set."
+        }
+      ]
+    },
+    {
+      "id": "b2-jj-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the story.",
+      "items": [
+        {
+          "id": "jjt1",
+          "statement": "James turned the first job offer down permanently.",
+          "answer": false,
+          "explanation": "False — he asked the firm to hold it open. He postponed rather than refused."
+        },
+        {
+          "id": "jjt2",
+          "statement": "His family thought he made the decision quickly.",
+          "answer": false,
+          "explanation": "False — he thought it over “longer than his family thought reasonable”."
+        },
+        {
+          "id": "jjt3",
+          "statement": "He stopped working entirely while he trained.",
+          "answer": false,
+          "explanation": "False — he picked up freelance contracts between training sessions to cover his rent."
+        },
+        {
+          "id": "jjt4",
+          "statement": "The job he eventually took was the one he had originally been offered.",
+          "answer": false,
+          "explanation": "False — his friend mentioned a role at a different company, one that “would suit him better than the offer he had postponed”."
+        },
+        {
+          "id": "jjt5",
+          "statement": "He won the championship before starting the new job.",
+          "answer": true,
+          "explanation": "True — he won in the spring and took the job that summer."
+        },
+        {
+          "id": "jjt6",
+          "statement": "For a period he felt he was doing both things badly.",
+          "answer": true,
+          "explanation": "True — “for several months he was doing neither as well as he wanted”."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "James postponed a job rather than refusing it. When is delaying a decision the right move, and when is it just avoiding one?",
+    "He says patience and a tolerance for losing carried over from sport into his work. What has one part of your life taught you that you use in another?",
+    "Was asking a firm to hold an offer open a reasonable request, or too much to ask?",
+    "“You find the one point where their position depends on something they cannot hold.” Describe a problem you solved that way rather than by working harder.",
+    "Write about 150 words about a time you pursued two things at once. What did it cost, and was it worth it?"
+  ]
+}

@@ -701,14 +701,15 @@
       "level": "B2",
       "topic": "work",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Likeable text; remove the gratuitous aside about breaking an opponent's 'defense (or face)'.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Likeable text; remove the gratuitous aside about breaking an opponent's 'defense (or face)'. — DONE: The gratuitous 'defense (or face)' aside removed. Also fixed the source's own inconsistency (a 'neighborhood' championship that became 'national' three paragraphs later) and replaced the real company name with none.",
+      "status": "IMPLEMENTED",
       "card_title": "It and Jiu Jitsu",
       "card_desc": "Exercises combining IT terminology with jiu-jitsu scenarios.",
       "source_files": [
         "cefr/texts/it-and-jiu-jitsu.pdf"
-      ]
+      ],
+      "page": "reading/b2/it-and-jiu-jitsu.html"
     },
     {
       "slug": "it-interview",
@@ -895,14 +896,15 @@
       "level": "B2",
       "topic": "society",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Genuinely interesting factual text; check the framing of the islanders stays respectful and drop the 'Stone Age' comparison.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Genuinely interesting factual text; check the framing of the islanders stays respectful and drop the 'Stone Age' comparison. — DONE: The 'Stone Age' comparison is gone and the framing reworked: the islanders are presented as a contemporary people who have declined contact, with the immunity argument and the legal protection explained as the reason the refusal is respected.",
+      "status": "IMPLEMENTED",
       "card_title": "North Sentinel Island",
       "card_desc": "Exercises exploring the history and culture of North Sentinel Island.",
       "source_files": [
         "cefr/texts/north-sentinel-island.pdf"
-      ]
+      ],
+      "page": "reading/b2/north-sentinel-island.html"
     },
     {
       "slug": "ny-visitation",
@@ -1059,13 +1061,14 @@
       "level": "B2",
       "topic": "tech",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Pegged to 'What's new in 2026'; rewrite so it does not date, and tone down 'insane'/'revolutionary'.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Pegged to 'What's new in 2026'; rewrite so it does not date, and tone down 'insane'/'revolutionary'. — DONE: De-dated: 'What's new in 2026', 'early 2026' and the unverifiable named tool release are gone, and 'insane'/'revolutionary' toned down. Rewritten around what is durable — the infrastructure constraint and the oversight problem.",
+      "status": "IMPLEMENTED",
       "card_title": "Recent Advancements in It",
       "source_files": [
         "cefr/texts/recent-advancements-in-it.pdf"
-      ]
+      ],
+      "page": "reading/b2/recent-advancements-in-it.html"
     },
     {
       "slug": "restaurant-dialogue",
@@ -1305,13 +1308,14 @@
       "level": "B2",
       "topic": "culture",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Good festival text; strip the raw x.com link and keep the Japanese terms glossed.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Good festival text; strip the raw x.com link and keep the Japanese terms glossed. — DONE: Raw x.com links stripped, the year-specific schedule generalised to 'the end of May', and the one-off injury report replaced by an honest standing note on risk. Japanese terms kept and glossed.",
+      "status": "IMPLEMENTED",
       "card_title": "Soma Nomaoi",
       "source_files": [
         "cefr/texts/soma-nomaoi.docx"
-      ]
+      ],
+      "page": "reading/b2/soma-nomaoi.html"
     },
     {
       "slug": "soothing-texts",

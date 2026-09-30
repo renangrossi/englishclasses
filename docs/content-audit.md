@@ -9,7 +9,7 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 5 of 98 implemented.**
+**Progress: 8 of 98 implemented.**
 
 ## Totals
 
@@ -45,8 +45,8 @@ content rather than as pre-existing.
 
 | Audio | Docs | |
 |---|---:|---|
-| `required` | 60 | must be generated |
-| `exists` | 8 | mp3 present and matches the text |
+| `required` | 57 | must be generated |
+| `exists` | 11 | mp3 present and matches the text |
 | `stale-on-edit` | 2 | mp3 present but the text is being edited -- **must be regenerated** |
 | `n/a` | 28 | drill / answer key / discussion bank -- not a reading text |
 
@@ -134,7 +134,7 @@ Useful material that needs correction before it goes on the site.
 | `christmas-krampus-grinch` | 261 | reading | B1 | culture | `required` | NOT STARTED | Text points at images that do not survive conversion ('Here is a chilling traditional image of Krampus'). Rewrite those references out. |
 | `detective-story` | 526 | reading | B1 | society | `required` | NOT STARTED | Good whodunnit with inline vocabulary glosses that become a real vocabulary component. Retitle (the 'Cachaca Case' name is unrelated to the plot). |
 | `do-make-livestock-farming` | 406 | reading | B1 | work | `required` | NOT STARTED | do/make contrast is forced into unnatural English ('Do the feeding of the cattle'). Rewrite with collocations people actually use. |
-| `dream-bistro` | 430 | reading | A2 | work | `required` | NOT STARTED | Good present/past A2 narrative. Relocate to a US setting and use an English name, per the project's American-context brief. |
+| `dream-bistro`<br>[page](../reading/a2/dream-bistro.html) | 430 | reading | A2 | work | `exists` | IMPLEMENTED | Good A2 narrative mixing present simple, present continuous and simple past. Re-set in Portland, Oregon with an English name per the American-context brief and the naming rule, and given concrete business detail (rent, suppliers, hiring) so the tense contrasts have something real to describe. |
 | `egypt-a-journey-through-history-and-culture` | 1086 | reading | B2 | culture | `required` | NOT STARTED | The legitimate Egypt text; keep as the single Egypt reading and trim. |
 | `golden-gate-bridge-present-perfect` | 274 | reading | B1 | culture | `required` | NOT STARTED | Idioms crammed in at an unnatural density, one of them crude for a classroom ('crews have busted their butts'). Keep the present-perfect focus, rewrite the register. |
 | `it-and-jiu-jitsu` | 356 | reading | B2 | work | `required` | NOT STARTED | Likeable text; remove the gratuitous aside about breaking an opponent's 'defense (or face)'. |
@@ -146,13 +146,13 @@ Useful material that needs correction before it goes on the site.
 | `physical-education` | 392 | reading | B1 | sports | `stale-on-edit` | NOT STARTED | Present perfect and past perfect are misused ('Last month, she had organized a relay race' with no later anchor). Fix the tenses, then regenerate the 4 existing mp3s. |
 | `real-estate` | 634 | reading | C1 | business | `required` | NOT STARTED | Strong market-analysis register, but wholly about Porto Alegre neighborhoods. Re-set in a US market to match the brief. |
 | `recent-advancements-in-it` | 367 | reading | B2 | tech | `required` | NOT STARTED | Pegged to 'What's new in 2026'; rewrite so it does not date, and tone down 'insane'/'revolutionary'. |
-| `restaurant-dialogue` | 345 | dialogue | A2 | food | `required` | NOT STARTED | Useful ordering dialogue. Rename the family to English names per instruction; keep as the dialogue counterpart to ny-visitation. |
+| `restaurant-dialogue`<br>[page](../reading/a2/restaurant-dialogue.html) | 345 | dialogue | A2 | food | `exists` | IMPLEMENTED | Useful ordering dialogue. The family is renamed to English names per instruction; the inconsistent speaker labels ('Joe’s Pizza employee' vs 'Server') are unified; and the tip is corrected — the original left $3.50 on $26.50, about 13%, which misteaches American practice, so it is now just over 20% with a short explanation of why servers depend on tips. |
 | `romania` | 575 | reading | B2 | culture | `required` | NOT STARTED | Competent country overview; slightly encyclopedic, tighten into themed paragraphs. |
 | `rs-japan` | 945 | reading | C1 | culture | `required` | NOT STARTED | Overwritten ('neon-veined precision', 'cultural whiplash'); the cultural-contrast idea is good but the prose needs heavy pruning to read as natural C1. |
 | `say-speak-talk-tell-02` | 353 | reading | B1 | tech | `required` | NOT STARTED | Present perfect applied where it is wrong: 'I've known there are some exciting purchases', 'The salesperson has told me...'. Rewrite the tense scheme. |
 | `soma-nomaoi` | 446 | reading | B2 | culture | `required` | NOT STARTED | Good festival text; strip the raw x.com link and keep the Japanese terms glossed. |
 | `southeast-asia-adventure` | 572 | reading | B1 | travel | `required` | NOT STARTED | Good present-perfect travel narrative; rename the cast to English names per instruction. |
-| `st.-patricks-day` | 371 | reading | A2 | culture | `required` | NOT STARTED | Charming short story, English names already. Fix the letter-spacing artifacts inherited from the source layout. |
+| `st.-patricks-day`<br>[page](../reading/a2/st-patricks-day.html) | 371 | reading | A2 | culture | `exists` | IMPLEMENTED | Charming short story with English names already. Edited: the letter-spacing artifacts from the source layout are gone, the American pinching custom is now explained up front instead of assumed, 'St. Patty’s' is corrected to 'St. Paddy’s', and the original multiple-choice distractors ('an underpaid teacher', 'her single mother', 'she ate dubious medicinal plants') are replaced with real ones — they were snarky rather than pedagogically useful. |
 | `travel-dialogues` | 935 | dialogue | A2 | travel | `required` | NOT STARTED | Strong functional dialogues (airline booking, etc.) but student lines are blank, prices are in euros and times are 24-hour. Supply model answers and convert to US conventions ($, 4:45 PM) per requirement 16. |
 | `travel-dialogues-02` | 905 | dialogue | B1 | travel | `required` | NOT STARTED | Hotel-reception training dialogue; same treatment, good workplace-English value. |
 | `trip-through-rs` | 785 | reading | A2 | travel | `required` | NOT STARTED | Good there is/there are practice in dialogue. Re-set in a US road-trip frame with English names to match the brief. |

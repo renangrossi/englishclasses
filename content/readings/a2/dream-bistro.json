@@ -1,0 +1,300 @@
+{
+  "id": "a2-reading-dream-bistro",
+  "level": "A2",
+  "slug": "dream-bistro",
+  "topic": "work",
+  "title": "Opening a Bistro",
+  "subtitle": "One man's plan to open a small restaurant — what he has done, what he is doing now, and what comes next.",
+  "description": "An A2 reading and listening text about someone planning to open a bistro, contrasting present simple, present continuous and simple past, with work and food vocabulary.",
+  "source": "cefr/texts/dream-bistro.docx",
+  "provenance": "edited",
+  "narrator": "male",
+  "passage": [
+    "Daniel Brooks lives in Portland, Oregon. He is thirty-two, and for years he has wanted to open his own bistro — a small, relaxed restaurant with a short menu and good coffee.",
+    "Daniel loves food. He cooks at home for his friends and family, and every weekend he tries a new recipe. Last month he decided it was time to stop dreaming about the idea and start working on it.",
+    "Right now he is planning everything carefully. First, he needs a location. He is looking for a small space downtown, on a street where people already walk to work. Last Saturday he visited three places. One of them was perfect, but the rent was too high. He is now thinking about a second space, which costs less and has big front windows.",
+    "He is also spending a lot of time on the menu. He wants simple dishes made with fresh ingredients — salads, sandwiches, a pasta of the day — plus breakfast and coffee. For dessert he is planning cakes and cookies. Last week he tested a new chocolate cake on his family. They loved it, so it is going on the menu.",
+    "Hiring people is the part that worries him most. He knows he cannot run a restaurant alone. He needs a cook, someone to serve customers, and someone to help clean at the end of the day. He is looking for people who are friendly, who work hard, and who are good with customers. Yesterday he interviewed two cooks. He is still deciding between them.",
+    "These days he gets up at five. He writes down ideas, calls suppliers, and drives out to the farmers market to talk to growers about prices. On Tuesdays he visits a bakery on the east side to taste their bread. He is excited, but he is nervous too, because there is still a great deal to do and the money will not last forever.",
+    "In a few months, if everything goes well, Daniel hopes to open the doors and welcome his first customers. He thinks his bistro will become the kind of place where people sit for an hour, eat something good, and talk. His family and friends believe he can do it — they have watched how hard he is working."
+  ],
+  "vocabulary": [
+    {
+      "term": "a bistro",
+      "definition": "a small, informal restaurant"
+    },
+    {
+      "term": "a location",
+      "definition": "the place where a business is"
+    },
+    {
+      "term": "rent",
+      "definition": "the money you pay every month to use a building"
+    },
+    {
+      "term": "downtown",
+      "definition": "the central business area of an American city"
+    },
+    {
+      "term": "to hire",
+      "definition": "to give someone a job"
+    },
+    {
+      "term": "a supplier",
+      "definition": "a company or person who sells you what your business needs"
+    },
+    {
+      "term": "an ingredient",
+      "definition": "one of the foods used to make a dish"
+    },
+    {
+      "term": "to be good with customers",
+      "definition": "to deal with customers in a friendly, effective way"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-bistro-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the text.",
+      "items": [
+        {
+          "id": "db1",
+          "prompt": "Where does Daniel live?",
+          "options": [
+            "Portland, Oregon",
+            "Portland, Maine",
+            "Seattle"
+          ],
+          "answerIndex": 0,
+          "explanation": "The first sentence says Portland, Oregon."
+        },
+        {
+          "id": "db2",
+          "prompt": "What is a bistro?",
+          "options": [
+            "A large formal restaurant",
+            "A small, relaxed restaurant",
+            "A bakery"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text defines it as \"a small, relaxed restaurant with a short menu and good coffee\"."
+        },
+        {
+          "id": "db3",
+          "prompt": "Why did he not take the first space he liked?",
+          "options": [
+            "It was too small",
+            "The rent was too high",
+            "It was too far from downtown"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"One of them was perfect, but the rent was too high.\""
+        },
+        {
+          "id": "db4",
+          "prompt": "What is good about the second space?",
+          "options": [
+            "It is cheaper and has big front windows",
+            "It already has a kitchen",
+            "It is next to a bakery"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"…a second space, which costs less and has big front windows.\""
+        },
+        {
+          "id": "db5",
+          "prompt": "Why is the chocolate cake going on the menu?",
+          "options": [
+            "Because it is cheap to make",
+            "Because his family loved it",
+            "Because a supplier recommended it"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Last week he tested a new chocolate cake on his family. They loved it, so it is going on the menu.\""
+        },
+        {
+          "id": "db6",
+          "prompt": "Which part worries him most?",
+          "options": [
+            "The menu",
+            "Hiring people",
+            "The coffee"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Hiring people is the part that worries him most.\""
+        },
+        {
+          "id": "db7",
+          "prompt": "Why is he nervous?",
+          "options": [
+            "There is a lot to do and the money will not last forever",
+            "He cannot cook",
+            "He has no friends in the city"
+          ],
+          "answerIndex": 0,
+          "explanation": "The text gives both reasons together at the end of that paragraph."
+        }
+      ]
+    },
+    {
+      "id": "a2-bistro-tenses",
+      "type": "fill-blank",
+      "title": "Present Simple, Present Continuous or Past?",
+      "instructions": "Choose the correct form. Think about whether it is a habit, something happening now, or something finished.",
+      "items": [
+        {
+          "id": "dbt1",
+          "prompt": "Every weekend he ___ a new recipe.",
+          "answers": [
+            "tries"
+          ],
+          "options": [
+            "tries",
+            "is trying",
+            "tried"
+          ],
+          "explanation": "\"Every weekend\" signals a repeated habit, so the present simple is right."
+        },
+        {
+          "id": "dbt2",
+          "prompt": "Right now he ___ everything carefully.",
+          "answers": [
+            "is planning"
+          ],
+          "options": [
+            "is planning",
+            "plans",
+            "planned"
+          ],
+          "explanation": "\"Right now\" signals something in progress, so the present continuous is right."
+        },
+        {
+          "id": "dbt3",
+          "prompt": "Last Saturday he ___ three places.",
+          "answers": [
+            "visited"
+          ],
+          "options": [
+            "visited",
+            "visits",
+            "is visiting"
+          ],
+          "explanation": "\"Last Saturday\" is a finished time, so the simple past is right."
+        },
+        {
+          "id": "dbt4",
+          "prompt": "Yesterday he ___ two cooks.",
+          "answers": [
+            "interviewed"
+          ],
+          "options": [
+            "interviewed",
+            "interviews",
+            "is interviewing"
+          ],
+          "explanation": "\"Yesterday\" is finished time — simple past."
+        },
+        {
+          "id": "dbt5",
+          "prompt": "He ___ still deciding between them.",
+          "answers": [
+            "is"
+          ],
+          "options": [
+            "is",
+            "was",
+            "does"
+          ],
+          "explanation": "The decision is unfinished, so the present continuous: \"he is still deciding\"."
+        },
+        {
+          "id": "dbt6",
+          "prompt": "These days he ___ up at five.",
+          "answers": [
+            "gets"
+          ],
+          "options": [
+            "gets",
+            "is getting",
+            "got"
+          ],
+          "explanation": "This is his current routine — a habit — so the present simple."
+        }
+      ]
+    },
+    {
+      "id": "a2-bistro-vocabulary",
+      "type": "vocabulary",
+      "title": "Business Words",
+      "instructions": "Choose the word that matches the meaning.",
+      "items": [
+        {
+          "id": "dbv1",
+          "prompt": "The money you pay each month to use a building is the ___.",
+          "options": [
+            "rent",
+            "menu",
+            "tip"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rent is the monthly payment for using a space."
+        },
+        {
+          "id": "dbv2",
+          "prompt": "To give someone a job is to ___ them.",
+          "options": [
+            "hire",
+            "serve",
+            "visit"
+          ],
+          "answerIndex": 0,
+          "explanation": "To hire someone is to employ them."
+        },
+        {
+          "id": "dbv3",
+          "prompt": "A company that sells your business what it needs is a ___.",
+          "options": [
+            "supplier",
+            "customer",
+            "grower"
+          ],
+          "answerIndex": 0,
+          "explanation": "A supplier supplies goods to a business; a customer buys from it."
+        },
+        {
+          "id": "dbv4",
+          "prompt": "The central business area of an American city is ___.",
+          "options": [
+            "downtown",
+            "the suburb",
+            "the location"
+          ],
+          "answerIndex": 0,
+          "explanation": "Downtown is the American term for the city center."
+        },
+        {
+          "id": "dbv5",
+          "prompt": "The individual foods you use to cook a dish are the ___.",
+          "options": [
+            "ingredients",
+            "recipes",
+            "dishes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ingredients go into a dish; a recipe is the instructions."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "If you opened a small restaurant, what three things would be on the menu, and why?",
+    "Daniel says hiring is the hardest part. What would worry you most about starting a business?",
+    "Describe something you are working on right now, and something you finished last month. Use the present continuous and the simple past.",
+    "Write about 80 words describing a small business you like near your home. What does it do well?"
+  ],
+  "audio": {
+    "duration_label": "2:29"
+  }
+}

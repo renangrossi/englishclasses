@@ -76,14 +76,15 @@
       "level": "B2",
       "topic": "culture",
       "action": "SPLIT",
-      "audio": "required",
-      "reason": "Three unrelated things in one file: a culture overview, a corndog/state-fair food piece, and passive-voice grammar drills. Split into a B2 culture reading, a B1 food reading, and a drill block.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Three unrelated things in one file: a culture overview, a corndog/state-fair food piece, and passive-voice grammar drills. Split into a B2 culture reading, a B1 food reading, and a drill block. — DONE: split into two readings — b2/american-culture (the melting-pot vs salad-bowl argument, and what actually holds the country together) and b1/state-fair-food (the corndog, the fair, and the three foods argued over as American). The audit also called for a drill block from the passive-voice, phrasal-verb, perfect-tense and comparative exercises in the same file; those are dropped instead, since this library is for reading texts and the grammar system lives in levels/ + curriculum/.",
+      "status": "IMPLEMENTED",
       "card_title": "American Culture",
       "card_desc": "Explore cultural aspects of the United States through reading and comprehension exercises.",
       "source_files": [
         "cefr/texts/american-culture.pdf"
-      ]
+      ],
+      "page": "reading/b2/american-culture.html"
     },
     {
       "slug": "animal-solutions",

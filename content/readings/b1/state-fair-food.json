@@ -1,0 +1,381 @@
+{
+  "id": "b1-reading-state-fair-food",
+  "level": "B1",
+  "slug": "state-fair-food",
+  "topic": "food",
+  "title": "Food on a Stick",
+  "subtitle": "The corndog, the state fair, and the three foods Americans argue about being American.",
+  "description": "A B1 food reading and listening text on the American state fair, the corndog, and the dishes the country treats as its own, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/american-culture.docx (part 2 of 2)",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "3:08"
+  },
+  "passage": [
+    "Every American state holds a fair, usually in late summer, and it is one of the few things in the country that looks the same in almost every state. There are prize animals, a competition for the largest vegetable somebody has managed to grow, rides that were assembled that morning by people who travel with them, and — the part everybody actually comes for — a very long row of stalls selling food you would not eat at any other time of year.",
+    "The defining item is the corndog. A hot dog is put on a stick, dipped in a thick cornmeal batter and deep-fried until the outside is golden and firm. It is eaten walking, which is the entire point: the stick exists so that you do not need a plate, a fork or a table, and can keep moving through the crowd.",
+    "Its origin is claimed by several places, which is usual for foods of this kind. Texas is the most confident claimant and dates it to the 1940s at the state fair in Dallas; Minnesota disputes this. The argument is unresolvable and mostly enjoyable. What is certain is that the form caught on, and that the state fair has since applied the same logic to almost everything else. Deep-fried Oreos, deep-fried butter, deep-fried ice cream, and an annual competition to invent something more improbable than last year's winner. It is not health food and nobody has ever claimed otherwise.",
+    "Away from the fairground, three foods get argued about as specifically American.",
+    "Apple pie is the oldest claim, and the phrase “as American as apple pie” is so common that it has become the standard way of saying that something is typical of the country. The pie itself is not American — versions were being baked in England and the Netherlands centuries before anybody brought one across the Atlantic. What is American is the association, and the fact that it turns up at Thanksgiving next to the pumpkin pie, which has a much better claim and gets less credit.",
+    "The hamburger has a German name and an American career. Whether it was first served in Connecticut, Ohio, Wisconsin or Texas is another unresolved dispute with several museums attached to it.",
+    "Barbecue is the one with the strongest claim and the least agreement inside the country, since Texas, the Carolinas, Kansas City and Memphis each regard the others as doing it wrong, and each is prepared to explain why at length.",
+    "There is a pattern in all of this. Almost nothing on the list was invented in the United States. The corndog is a sausage in batter, which exists in a dozen countries. The hamburger is German. Apple pie is English and Dutch. What is American is the treatment: the scale of it, the stick, the competition, the regional loyalty, and the insistence that a thing from somewhere else is now indisputably ours — which, given how the rest of the culture was assembled, is about what you would expect."
+  ],
+  "vocabulary": [
+    {
+      "term": "fair",
+      "definition": "a large public event with competitions, rides and food stalls"
+    },
+    {
+      "term": "prize animal",
+      "definition": "an animal entered into a competition to be judged",
+      "match": "prize animals"
+    },
+    {
+      "term": "ride",
+      "definition": "a machine at a fair that people pay to be carried on",
+      "match": "rides"
+    },
+    {
+      "term": "stall",
+      "definition": "a small open shop or counter at a market or fair",
+      "match": "stalls"
+    },
+    {
+      "term": "batter",
+      "definition": "a thick liquid mixture of flour and egg that food is dipped in"
+    },
+    {
+      "term": "to deep-fry",
+      "definition": "to cook by putting food completely under hot oil",
+      "match": "deep-fried"
+    },
+    {
+      "term": "claimant",
+      "definition": "somebody who says something belongs to them"
+    },
+    {
+      "term": "to dispute",
+      "definition": "to argue that something is not true",
+      "match": "disputes"
+    },
+    {
+      "term": "unresolvable",
+      "definition": "impossible to settle"
+    },
+    {
+      "term": "to catch on",
+      "definition": "to become popular",
+      "match": "caught on"
+    },
+    {
+      "term": "improbable",
+      "definition": "unlikely; hard to believe"
+    },
+    {
+      "term": "fairground",
+      "definition": "the open space where a fair is held"
+    },
+    {
+      "term": "association",
+      "definition": "a connection in people's minds between two things"
+    },
+    {
+      "term": "to turn up",
+      "definition": "to appear, often without being planned",
+      "match": "turns up"
+    },
+    {
+      "term": "to get credit",
+      "definition": "to be recognised for something you deserve",
+      "match": "gets less credit"
+    },
+    {
+      "term": "at length",
+      "definition": "for a long time and in detail"
+    },
+    {
+      "term": "loyalty",
+      "definition": "firm support for one side over others"
+    },
+    {
+      "term": "indisputably",
+      "definition": "in a way nobody can argue with"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-sf-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for the argument the writer builds in the last paragraph.",
+      "items": [
+        {
+          "id": "sf1",
+          "prompt": "What does the writer say everybody actually comes to the fair for?",
+          "options": [
+            "The prize animals",
+            "The rides",
+            "The row of stalls selling food"
+          ],
+          "answerIndex": 2,
+          "explanation": "The aside is doing the work: “the part everybody actually comes for”."
+        },
+        {
+          "id": "sf2",
+          "prompt": "Why is the corndog on a stick?",
+          "options": [
+            "So that it cooks evenly in the oil",
+            "So that you need no plate, fork or table and can keep walking",
+            "So that it stays hot for longer"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Which is the entire point” — the stick is the design, not a decoration."
+        },
+        {
+          "id": "sf3",
+          "prompt": "How does the writer treat the dispute over where the corndog was invented?",
+          "options": [
+            "As unresolvable and mostly enjoyable",
+            "As settled in Texas's favour",
+            "As a serious historical question"
+          ],
+          "answerIndex": 0,
+          "explanation": "Texas is “the most confident claimant” and Minnesota disputes it; the writer declines to adjudicate."
+        },
+        {
+          "id": "sf4",
+          "prompt": "What does the writer say about apple pie?",
+          "options": [
+            "It was invented in New England in the 1700s",
+            "It is not American — what is American is the association",
+            "It is no longer eaten at Thanksgiving"
+          ],
+          "answerIndex": 1,
+          "explanation": "Versions were baked in England and the Netherlands centuries earlier."
+        },
+        {
+          "id": "sf5",
+          "prompt": "Which pie does the writer say has a better claim and gets less credit?",
+          "options": [
+            "Pecan pie",
+            "Pumpkin pie",
+            "Cherry pie"
+          ],
+          "answerIndex": 1,
+          "explanation": "It sits next to the apple pie at Thanksgiving and is genuinely of the Americas."
+        },
+        {
+          "id": "sf6",
+          "prompt": "What does the writer say about barbecue?",
+          "options": [
+            "It has the strongest claim and the least agreement inside the country",
+            "It is the only one invented in the United States",
+            "It is the same in every region"
+          ],
+          "answerIndex": 0,
+          "explanation": "Texas, the Carolinas, Kansas City and Memphis “each regard the others as doing it wrong”."
+        },
+        {
+          "id": "sf7",
+          "prompt": "What is the pattern the writer identifies at the end?",
+          "options": [
+            "Almost nothing on the list was invented in the US; what is American is the treatment",
+            "American food is mostly fried",
+            "Each region invented its own version independently"
+          ],
+          "answerIndex": 0,
+          "explanation": "The scale, the stick, the competition, the regional loyalty — and the insistence that it is now indisputably theirs."
+        },
+        {
+          "id": "sf8",
+          "prompt": "Why does the writer say that pattern is “about what you would expect”?",
+          "options": [
+            "Because most countries adopt foreign foods",
+            "Because the rest of the culture was assembled the same way",
+            "Because the fairs are organised nationally"
+          ],
+          "answerIndex": 1,
+          "explanation": "The food is treated as a small version of how the country was put together generally."
+        }
+      ]
+    },
+    {
+      "id": "b1-sf-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "st1",
+          "statement": "State fairs happen in almost every state and look broadly similar.",
+          "answer": true,
+          "explanation": "True — “one of the few things in the country that looks the same in almost every state”."
+        },
+        {
+          "id": "st2",
+          "statement": "The writer claims fair food is healthy.",
+          "answer": false,
+          "explanation": "False — “it is not health food and nobody has ever claimed otherwise”."
+        },
+        {
+          "id": "st3",
+          "statement": "The hamburger's origin is agreed.",
+          "answer": false,
+          "explanation": "False — Connecticut, Ohio, Wisconsin and Texas all claim it, “with several museums attached”."
+        },
+        {
+          "id": "st4",
+          "statement": "There is a competition each year to invent a stranger deep-fried food.",
+          "answer": true,
+          "explanation": "True — “more improbable than last year's winner”."
+        },
+        {
+          "id": "st5",
+          "statement": "Apple pie is served at Thanksgiving.",
+          "answer": true,
+          "explanation": "True — next to the pumpkin pie, which the writer says deserves more credit."
+        }
+      ]
+    },
+    {
+      "id": "b1-sf-vocabulary",
+      "type": "fill-blank",
+      "title": "Food and Fairground Vocabulary",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "ff1",
+          "prompt": "The sausage is dipped in ___ and then ___-___.",
+          "answers": [
+            "batter",
+            "deep",
+            "fried"
+          ],
+          "options": [
+            [
+              "batter",
+              "dough",
+              "sauce"
+            ],
+            [
+              "deep",
+              "pan",
+              "stir"
+            ],
+            [
+              "fried",
+              "baked",
+              "boiled"
+            ]
+          ],
+          "explanation": "Batter is a thick flour-and-egg mixture; to deep-fry is to cook food completely submerged in hot oil."
+        },
+        {
+          "id": "ff2",
+          "prompt": "There were twenty food ___ along one side of the ___.",
+          "answers": [
+            "stalls",
+            "fairground"
+          ],
+          "options": [
+            [
+              "stalls",
+              "rides",
+              "claims"
+            ],
+            [
+              "fairground",
+              "batter",
+              "loyalty"
+            ]
+          ],
+          "explanation": "A stall is a small open counter; the fairground is the space the fair is held on."
+        },
+        {
+          "id": "ff3",
+          "prompt": "The idea ___ ___ quickly and spread to other states.",
+          "answers": [
+            "caught",
+            "on"
+          ],
+          "options": [
+            [
+              "caught",
+              "took",
+              "went"
+            ],
+            [
+              "on",
+              "up",
+              "over"
+            ]
+          ],
+          "explanation": "To catch on is to become popular."
+        },
+        {
+          "id": "ff4",
+          "prompt": "The dispute is ___ and nobody really wants it resolved.",
+          "answers": [
+            "unresolvable"
+          ],
+          "options": [
+            "unresolvable",
+            "improbable",
+            "indisputable"
+          ],
+          "explanation": "Unresolvable means impossible to settle."
+        },
+        {
+          "id": "ff5",
+          "prompt": "The pumpkin pie has a better claim but ___ less ___.",
+          "answers": [
+            "gets",
+            "credit"
+          ],
+          "options": [
+            [
+              "gets",
+              "takes",
+              "makes"
+            ],
+            [
+              "credit",
+              "praise",
+              "value"
+            ]
+          ],
+          "explanation": "To get credit is to be recognised for something you deserve."
+        },
+        {
+          "id": "ff6",
+          "prompt": "Each region will defend its own barbecue ___ ___.",
+          "answers": [
+            "at",
+            "length"
+          ],
+          "options": [
+            [
+              "at",
+              "in",
+              "on"
+            ],
+            [
+              "length",
+              "long",
+              "detail"
+            ]
+          ],
+          "explanation": "At length means for a long time and in detail."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "“As American as apple pie” describes something that is not American. Does your language have a phrase like that?",
+    "The stick exists so you can keep walking. What other foods are designed around how they will be eaten rather than how they taste?",
+    "Four regions each think the others do barbecue wrong. Is there a food in your country people argue about that way?",
+    "The writer says what is American is the treatment, not the invention. Is adopting something and making it yours a real kind of originality?",
+    "Write about 150 words describing a food event where you live — what is sold, who comes, and why people go."
+  ]
+}

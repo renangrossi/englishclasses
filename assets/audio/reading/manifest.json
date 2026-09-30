@@ -281,6 +281,12 @@
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
+ "b1/state-fair-food": {
+  "bytes": 1133424,
+  "fingerprint": "8e5bd8d367349dab",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
+ },
  "b1/travel-dialogues-02": {
   "bytes": 1258560,
   "fingerprint": "0d30b08fad9d261e",
@@ -310,6 +316,12 @@
   "fingerprint": "9b2763bb69c45f6c",
   "rate": "+0%",
   "voice": "en-US-ChristopherNeural"
+ },
+ "b2/american-culture": {
+  "bytes": 1413216,
+  "fingerprint": "d936f50c5d27be21",
+  "rate": "+0%",
+  "voice": "en-US-AriaNeural"
  },
  "b2/business-war-it": {
   "bytes": 1652544,

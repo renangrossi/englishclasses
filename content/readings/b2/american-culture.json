@@ -1,0 +1,385 @@
+{
+  "id": "b2-reading-american-culture",
+  "level": "B2",
+  "slug": "american-culture",
+  "topic": "culture",
+  "title": "A Country Made of Other Countries",
+  "subtitle": "The melting pot, the salad bowl, and why the metaphor you choose is an argument.",
+  "description": "A B2 culture reading and listening text on how American culture was assembled from immigrant traditions, and what the competing metaphors for that actually claim, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/american-culture.docx (part 1 of 2)",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "3:55"
+  },
+  "passage": [
+    "American culture is usually introduced with a metaphor, and the metaphor does more work than the sentence around it.",
+    "The old one is the melting pot. It comes from a 1908 play of that name, and it says that people arrive from everywhere, and what comes out is one new thing that is not quite any of the originals. It was meant generously. It also describes a process in which what you brought is expected to dissolve, which is why later writers proposed the salad bowl instead: everything in one dish, each ingredient still identifiable. Which image somebody reaches for tells you what they think immigrants owe the country they arrive in, and the argument between the two is not settled and is not really about food.",
+    "What is not in dispute is the ingredients. Native American nations were here first and their influence survives in names more than in anything else — more than half the states carry one. European settlement brought English law and language, and with them Irish, German, Italian, Polish and Scandinavian communities, each of which was treated as foreign on arrival and is now simply American, which is worth remembering whenever a newer group is described as impossible to absorb.",
+    "African American culture is the part most often understated and hardest to overstate. Almost every musical form the United States has exported — blues, jazz, gospel, rock and roll, soul, funk, hip hop — came out of Black American communities, usually in conditions of enforced poverty and legal exclusion, and was then adopted, commercialised and frequently credited elsewhere. You cannot describe American popular culture accurately without putting that at the centre of it, and a great deal of writing about the subject manages to avoid doing so.",
+    "Latin American influence is the largest current one and is not new: Spanish was spoken in what is now the United States before English was, and the oldest continuously occupied European settlement in the country was founded by Spain. Asian communities, arriving in significant numbers from the middle of the nineteenth century onward and again after 1965, have reshaped the food, the universities and the technology industry.",
+    "The pattern that repeats is worth naming. A group arrives and is regarded as unassimilable. Its food is considered strange, then becomes a novelty, then becomes ordinary, and eventually becomes so ordinary that people forget it came from anywhere. Pizza, bagels, tacos and fried chicken are all in that final category. Meanwhile the same arguments about the newest arrivals are made in almost the same words, by people whose own grandparents were the subject of them.",
+    "There are things that are genuinely shared. A written constitution treated with something close to reverence. A strong preference for the individual over the group, which produces both the ambition the country is admired for and the thinness of its safety net. An unusual comfort with self-invention — moving state, changing career, starting again — which is easier in a country where nobody's family has been in the same village for four hundred years. And a habit of talking about the nation in the language of principle rather than ancestry, which is what lets somebody become American in a way it is harder to become French or Japanese.",
+    "None of this makes it harmonious. A culture assembled this way argues constantly about who belongs, and the argument is not a sign that the system is broken. It is the system. The interesting question about the United States has never been whether it is unified, because it plainly is not. It is how something this various holds together at all, and the answer seems to be that the shared thing is not a background but a set of claims — which anybody can adopt, and which everybody can be held to."
+  ],
+  "vocabulary": [
+    {
+      "term": "melting pot",
+      "definition": "the image of many peoples fusing into one new people"
+    },
+    {
+      "term": "salad bowl",
+      "definition": "the rival image — many peoples in one country, each still distinct"
+    },
+    {
+      "term": "to dissolve",
+      "definition": "to disappear into something larger"
+    },
+    {
+      "term": "to reach for",
+      "definition": "to choose a word or idea instinctively",
+      "match": "reaches for"
+    },
+    {
+      "term": "to owe",
+      "definition": "to have an obligation to give"
+    },
+    {
+      "term": "in dispute",
+      "definition": "argued about; not agreed"
+    },
+    {
+      "term": "settler",
+      "definition": "somebody who moves to live in a new land",
+      "match": "settlement"
+    },
+    {
+      "term": "to absorb",
+      "definition": "to take a group in and make it part of the whole"
+    },
+    {
+      "term": "to understate",
+      "definition": "to describe something as smaller than it is",
+      "match": "understated"
+    },
+    {
+      "term": "to overstate",
+      "definition": "to describe something as bigger than it is"
+    },
+    {
+      "term": "enforced",
+      "definition": "imposed by force or law, not chosen"
+    },
+    {
+      "term": "exclusion",
+      "definition": "being deliberately kept out"
+    },
+    {
+      "term": "to credit",
+      "definition": "to name somebody as the source of something",
+      "match": "credited"
+    },
+    {
+      "term": "unassimilable",
+      "definition": "supposedly impossible to absorb into a society"
+    },
+    {
+      "term": "novelty",
+      "definition": "something new and briefly fashionable"
+    },
+    {
+      "term": "reverence",
+      "definition": "deep respect, close to the religious"
+    },
+    {
+      "term": "safety net",
+      "definition": "the support a state gives people who fall on hard times"
+    },
+    {
+      "term": "self-invention",
+      "definition": "remaking who you are, by choice"
+    },
+    {
+      "term": "ancestry",
+      "definition": "the family and people you are descended from"
+    },
+    {
+      "term": "various",
+      "definition": "made of many different kinds"
+    },
+    {
+      "term": "to hold somebody to something",
+      "definition": "to insist they live up to what they claimed",
+      "match": "held to"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-ac-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading for Argument",
+      "instructions": "The writer is arguing about how the subject is usually described, not only describing it.",
+      "items": [
+        {
+          "id": "ac1",
+          "prompt": "Why does the writer say the metaphor “does more work than the sentence around it”?",
+          "options": [
+            "Because metaphors are easier to remember",
+            "Because choosing between melting pot and salad bowl states a position on what immigrants owe",
+            "Because both images come from food"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The argument between the two is not settled and is not really about food.”"
+        },
+        {
+          "id": "ac2",
+          "prompt": "What is the objection to the melting pot image?",
+          "options": [
+            "It is too old to be useful",
+            "It was invented by somebody hostile to immigration",
+            "It describes a process in which what you brought is expected to dissolve"
+          ],
+          "answerIndex": 2,
+          "explanation": "The writer notes it “was meant generously” and still carries that implication — both things at once."
+        },
+        {
+          "id": "ac3",
+          "prompt": "What point does the writer make about earlier European immigrant groups?",
+          "options": [
+            "Each was treated as foreign on arrival and is now simply American",
+            "They arrived with fewer difficulties than later groups",
+            "They kept their languages longer than expected"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the point of saying so is given directly: it is “worth remembering whenever a newer group is described as impossible to absorb”."
+        },
+        {
+          "id": "ac4",
+          "prompt": "How does the writer describe African American influence on music?",
+          "options": [
+            "As one tradition among several of equal weight",
+            "As the source of almost every musical form the country has exported",
+            "As mainly confined to jazz and blues"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The part most often understated and hardest to overstate” — and the writer names the pattern of adoption and misattribution that followed."
+        },
+        {
+          "id": "ac5",
+          "prompt": "What does the writer note about Spanish in the United States?",
+          "options": [
+            "It was spoken there before English was",
+            "It is now the second official language",
+            "It arrived with twentieth-century migration"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the oldest continuously occupied European settlement in the country was founded by Spain — which makes the influence old, not new."
+        },
+        {
+          "id": "ac6",
+          "prompt": "What is the repeating pattern the writer names?",
+          "options": [
+            "A group arrives, is called unassimilable, and its food goes from strange to novelty to ordinary to forgotten",
+            "Each wave of immigrants settles in a different region",
+            "Every group eventually returns to its country of origin"
+          ],
+          "answerIndex": 0,
+          "explanation": "Pizza, bagels, tacos and fried chicken are given as things now so ordinary that people forget where they came from."
+        },
+        {
+          "id": "ac7",
+          "prompt": "Why does the writer say self-invention is easier in the United States?",
+          "options": [
+            "Because moving is cheaper there",
+            "Because nobody's family has been in the same village for four hundred years",
+            "Because employers expect frequent career changes"
+          ],
+          "answerIndex": 1,
+          "explanation": "The absence of deep local roots is treated as what makes starting again ordinary rather than remarkable."
+        },
+        {
+          "id": "ac8",
+          "prompt": "What does the writer say about the constant argument over who belongs?",
+          "options": [
+            "It shows the system is failing",
+            "It is temporary and will settle",
+            "It is not a sign the system is broken — it is the system"
+          ],
+          "answerIndex": 2,
+          "explanation": "Which reframes disunity from a symptom into a feature, and sets up the final answer about shared claims."
+        },
+        {
+          "id": "ac9",
+          "prompt": "What does the writer say holds the country together?",
+          "options": [
+            "A shared background",
+            "A set of claims anybody can adopt and everybody can be held to",
+            "The strength of its institutions"
+          ],
+          "answerIndex": 1,
+          "explanation": "Membership by principle rather than ancestry — which is why, the writer says, becoming American is easier than becoming French or Japanese."
+        }
+      ]
+    },
+    {
+      "id": "b2-ac-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Several of these are close to the text without matching it.",
+      "items": [
+        {
+          "id": "at1",
+          "statement": "The melting pot metaphor was intended as an insult.",
+          "answer": false,
+          "explanation": "False — “it was meant generously”. The objection is to what it implies, not to its intent."
+        },
+        {
+          "id": "at2",
+          "statement": "More than half of US states have names of Native American origin.",
+          "answer": true,
+          "explanation": "True — given as the clearest surviving trace."
+        },
+        {
+          "id": "at3",
+          "statement": "The writer says American musical forms were fairly credited to their originators.",
+          "answer": false,
+          "explanation": "False — they were “adopted, commercialised and frequently credited elsewhere”."
+        },
+        {
+          "id": "at4",
+          "statement": "Asian migration to the United States began only after 1965.",
+          "answer": false,
+          "explanation": "False — significant numbers arrived from the middle of the nineteenth century, and again after 1965."
+        },
+        {
+          "id": "at5",
+          "statement": "The writer says the country is unified.",
+          "answer": false,
+          "explanation": "False — “it plainly is not”. The interesting question is how it holds together anyway."
+        },
+        {
+          "id": "at6",
+          "statement": "The preference for the individual is described as having a cost.",
+          "answer": true,
+          "explanation": "True — it produces both the admired ambition and “the thinness of its safety net”."
+        }
+      ]
+    },
+    {
+      "id": "b2-ac-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right term.",
+      "items": [
+        {
+          "id": "af1",
+          "prompt": "Every new group is called ___ until it is not.",
+          "answers": [
+            "unassimilable"
+          ],
+          "options": [
+            "unassimilable",
+            "various",
+            "enforced"
+          ],
+          "explanation": "Unassimilable means supposedly impossible to absorb into a society."
+        },
+        {
+          "id": "af2",
+          "prompt": "The contribution is usually ___, never ___.",
+          "answers": [
+            "understated",
+            "overstated"
+          ],
+          "options": [
+            [
+              "understated",
+              "overstated",
+              "credited"
+            ],
+            [
+              "overstated",
+              "understated",
+              "excluded"
+            ]
+          ],
+          "explanation": "To understate is to make something sound smaller than it is; to overstate is the opposite."
+        },
+        {
+          "id": "af3",
+          "prompt": "The music was taken up elsewhere and rarely ___ to the people who made it.",
+          "answers": [
+            "credited"
+          ],
+          "options": [
+            "credited",
+            "dissolved",
+            "absorbed"
+          ],
+          "explanation": "To credit somebody is to name them as the source."
+        },
+        {
+          "id": "af4",
+          "prompt": "The country has a thin ___ ___ compared with most of Europe.",
+          "answers": [
+            "safety",
+            "net"
+          ],
+          "options": [
+            [
+              "safety",
+              "social",
+              "welfare"
+            ],
+            [
+              "net",
+              "system",
+              "fund"
+            ]
+          ],
+          "explanation": "A safety net is the support a state gives people who fall on hard times."
+        },
+        {
+          "id": "af5",
+          "prompt": "Belonging rests on principle rather than on ___.",
+          "answers": [
+            "ancestry"
+          ],
+          "options": [
+            "ancestry",
+            "reverence",
+            "novelty"
+          ],
+          "explanation": "Ancestry is the family and people you descend from — the basis of membership the text says the US mostly avoids."
+        },
+        {
+          "id": "af6",
+          "prompt": "If you make the claim, you can be ___ ___ it.",
+          "answers": [
+            "held",
+            "to"
+          ],
+          "options": [
+            [
+              "held",
+              "kept",
+              "put"
+            ],
+            [
+              "to",
+              "for",
+              "on"
+            ]
+          ],
+          "explanation": "To hold somebody to something is to insist they live up to what they claimed — the sentence the whole text ends on."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Melting pot or salad bowl — which image does your own country use about itself, and what does it imply?",
+    "“The same arguments about the newest arrivals are made in almost the same words.” Is that true where you live?",
+    "The writer says belonging by principle is easier to acquire than belonging by ancestry. Is that a strength or a weakness?",
+    "“The argument is not a sign that the system is broken. It is the system.” Do you find that convincing?",
+    "Write about 250 words on what somebody would have to accept in order to belong in your country, and whether that is a fair thing to ask."
+  ]
+}

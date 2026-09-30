@@ -9,7 +9,7 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 84 of 98 implemented.**
+**Progress: 85 of 98 implemented.**
 
 ## Totals
 
@@ -45,8 +45,8 @@ content rather than as pre-existing.
 
 | Audio | Docs | |
 |---|---:|---|
-| `required` | 8 | must be generated |
-| `exists` | 79 | mp3 present and matches the text |
+| `required` | 7 | must be generated |
+| `exists` | 80 | mp3 present and matches the text |
 | `stale-on-edit` | 0 | mp3 present but the text is being edited -- **must be regenerated** |
 | `n/a` | 11 | drill / answer key / discussion bank -- not a reading text |
 
@@ -117,7 +117,7 @@ Several unrelated materials share one file; each deserves its own page, exercise
 
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
-| `american-culture` | 1072 | reading | B2 | culture | `required` | NOT STARTED | Three unrelated things in one file: a culture overview, a corndog/state-fair food piece, and passive-voice grammar drills. Split into a B2 culture reading, a B1 food reading, and a drill block. |
+| `american-culture`<br>[page](../reading/b2/american-culture.html) | 1072 | reading | B2 | culture | `exists` | IMPLEMENTED | Three unrelated things in one file: a culture overview, a corndog/state-fair food piece, and passive-voice grammar drills. Split into a B2 culture reading, a B1 food reading, and a drill block. — DONE: split into two readings — b2/american-culture (the melting-pot vs salad-bowl argument, and what actually holds the country together) and b1/state-fair-food (the corndog, the fair, and the three foods argued over as American). The audit also called for a drill block from the passive-voice, phrasal-verb, perfect-tense and comparative exercises in the same file; those are dropped instead, since this library is for reading texts and the grammar system lives in levels/ + curriculum/. |
 | `shadows-in-the-server-room` | 2407 | reading | C1 | work | `required` | NOT STARTED | Strong long-form workplace mystery (2407w) — too long for one page and one audio file. Split into chapters, per requirement 8's guidance against huge audio files. |
 | `soothing-texts` | 2225 | reading | C1 | everyday | `required` | NOT STARTED | Several unrelated descriptive scenes (kitchen, etc.) in one 2225w file. Split into short descriptive readings — excellent sensory-vocabulary material once separated. |
 | `text-interpretation`<br>[page](../reading/b1/robot-birds.html) | 1039 | reading | B2 | society | `exists` | IMPLEMENTED | Several unrelated short articles ('Robot Birds' and others) in one file; split so each gets its own page, questions and audio. — DONE: split into four pages, each with its own questions and audio — b1/robot-birds, b1/hachiko, b2/intelligence-pills and b2/john-snow. The source's Right / Wrong / Doesn't say format is kept, because the third option teaches something true-false cannot: telling what a text states from what a reader assumes. Each article was fact-checked and updated where it had drifted — Snow's outbreak was 1854 not 1855 and the Board of Health rejected his finding; Hachiko was fed and housed by others, and the present statue is a 1948 replacement; the Liverpool robops and the 'intelligence pills' predictions were both de-dated. |

@@ -212,6 +212,66 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   cursor: help;
 }
 
+/* Glossary words inside a reading passage carry their own definition, so a
+   reader can hover (or tap, or tab to) the word instead of scrolling to a
+   separate list. The definition lives in data-definition and is rendered by
+   ::after, which keeps this dependency-free -- there is no tooltip JS. */
+.reading-passage .vocab-term,
+.exercise-block .vocab-term { position: relative; }
+
+.reading-passage .vocab-term::after,
+.exercise-block .vocab-term::after {
+  content: attr(data-definition);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 0.55em);
+  transform: translateX(-50%);
+  z-index: 40;
+  width: max-content;
+  max-width: min(30ch, 78vw);
+  padding: 0.5em 0.75em;
+  border: var(--border-hairline);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  color: var(--color-text);
+  box-shadow: 0 6px 20px rgb(0 0 0 / 18%);
+  font-family: var(--font-body, inherit);
+  font-size: var(--step--1);
+  font-weight: 400;
+  line-height: var(--leading-normal);
+  text-align: left;
+  white-space: normal;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 120ms ease;
+  pointer-events: none;
+}
+
+.reading-passage .vocab-term:hover::after,
+.reading-passage .vocab-term:focus-visible::after,
+.reading-passage .vocab-term:focus::after,
+.exercise-block .vocab-term:hover::after,
+.exercise-block .vocab-term:focus-visible::after,
+.exercise-block .vocab-term:focus::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* tabindex makes the word reachable by keyboard and tappable on a phone;
+   it should not draw a focus ring on a plain mouse click. */
+.vocab-term:focus { outline: none; }
+.vocab-term:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+
+/* A printed page has no hover and no on-page vocabulary list, so the
+   definitions reappear as a glossary that exists only on paper. */
+.reading-glossary { display: none; }
+@media print {
+  .reading-glossary { display: block; margin-top: var(--space-lg); break-inside: avoid; }
+  .reading-glossary h3 { margin-bottom: var(--space-xs); }
+  .vocab-term { color: inherit; border-bottom: none; }
+  .vocab-term::after { content: none !important; }
+}
+
 /* Item-level feedback (shown after submit) */
 .item-feedback {
   display: none;

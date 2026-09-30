@@ -1,0 +1,311 @@
+{
+  "id": "a2-reading-bus-to-the-mountains",
+  "level": "A2",
+  "slug": "bus-to-the-mountains",
+  "topic": "travel",
+  "title": "The Bus to the Mountains",
+  "subtitle": "A brother and sister on a long bus ride — and all the ways to say how much of something there is.",
+  "description": "An A2 reading and listening text about a bus trip into the North Carolina mountains, built around there is / there are and quantifiers (some, any, much, many, a few, a little).",
+  "source": "cefr/texts/trip-through-rs.docx",
+  "provenance": "rewritten",
+  "narrator": "female",
+  "passage": [
+    "My name is Emma, and I love a long bus ride. My brother Jack always comes with me. Today we are on a big, noisy bus heading west from Charlotte to Asheville, up in the North Carolina mountains. Asheville is famous for its old houses, its cool summers and the flowers in its gardens. The road stretches out ahead of us, and I am excited.",
+    "Jack looks out of the window. \"There's a lake down there,\" he says. \"It's so blue.\"",
+    "\"There are birds on it too,\" I say. \"Look — three of them, near the far side.\"",
+    "\"Is there a town near here where we can stop?\" he asks.",
+    "I check the map. \"There's a small one in about ten minutes. There aren't many houses — just a few farms and a lot of trees.\"",
+    "The bus pulls in next to a shop with a red roof. \"Let's get some water and a snack,\" I say.",
+    "Jack looks in his bag and frowns. \"I don't have any money with me.\"",
+    "\"Isn't there any cash in your jacket? Check again.\"",
+    "He shakes his head. \"There's none at all. I left my wallet at home.\"",
+    "I open my wallet and laugh. There are a lot of coins in it but only a few bills. \"It's enough for both of us,\" I say. \"Just don't order much.\"",
+    "\"How much time do we have?\" Jack asks.",
+    "\"Not much. Ten minutes, maybe.\" I look out at the hills. \"There are so many places to see up here, and we have so little time today. We can't stop everywhere.\"",
+    "Inside, we eat a sandwich at a small table by the window. The coffee smells good. \"Are you having juice?\" Jack asks.",
+    "\"No, just water,\" I say. \"I'll have coffee later.\"",
+    "Jack cannot sit still. He walks around the shop looking at the postcards and the jars of local honey.",
+    "Yesterday we stopped in a town called Hendersonville, which is famous for its apples. Jack asked me whether I had tried the cider. I hadn't, so we bought a bottle and shared it on a bench in the sun. It was cold and very sweet.",
+    "Suddenly Jack points out of the window. \"There's a river over there!\" The water is shining in the afternoon light.",
+    "\"There's a lot of water in these mountains,\" I say. \"Rivers, waterfalls, lakes — they're everywhere.\"",
+    "The driver sounds the horn and we grab our bags. As we climb back on board, I think about how much I like these trips. Tomorrow we will drive up to Mount Mitchell, the highest point east of the Mississippi. Today is already full of things worth remembering."
+  ],
+  "vocabulary": [
+    {
+      "term": "there is / there are",
+      "definition": "used to say that something exists in a place: there IS a lake, there ARE birds"
+    },
+    {
+      "term": "some / any",
+      "definition": "some in positive sentences, any in questions and negatives"
+    },
+    {
+      "term": "much / many",
+      "definition": "much with uncountable nouns (much time), many with countable ones (many houses)"
+    },
+    {
+      "term": "a few / a little",
+      "definition": "a few + countable (a few bills), a little + uncountable (a little water)"
+    },
+    {
+      "term": "a bill",
+      "definition": "a piece of paper money (American English; British English: a note)"
+    },
+    {
+      "term": "cash",
+      "definition": "money as coins and bills, not a card"
+    },
+    {
+      "term": "to pull in",
+      "definition": "(of a vehicle) to stop at the side of the road"
+    },
+    {
+      "term": "cider",
+      "definition": "in the US, usually unfiltered apple juice, often sold at farms"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-bus-thereis",
+      "type": "fill-blank",
+      "title": "There is / There are",
+      "instructions": "Choose the correct form. Look carefully at whether the noun is singular or plural.",
+      "items": [
+        {
+          "id": "bt1",
+          "prompt": "___ a lake down there.",
+          "answers": [
+            "There's"
+          ],
+          "options": [
+            "There's",
+            "There are",
+            "There have"
+          ],
+          "explanation": "'Lake' is singular, so: there is (there's) a lake."
+        },
+        {
+          "id": "bt2",
+          "prompt": "___ birds on it too.",
+          "answers": [
+            "There are"
+          ],
+          "options": [
+            "There are",
+            "There's",
+            "There is"
+          ],
+          "explanation": "'Birds' is plural, so: there are birds."
+        },
+        {
+          "id": "bt3",
+          "prompt": "___ many houses in that town.",
+          "answers": [
+            "There aren't"
+          ],
+          "options": [
+            "There aren't",
+            "There isn't",
+            "There don't"
+          ],
+          "explanation": "Plural noun in a negative: there aren't many houses."
+        },
+        {
+          "id": "bt4",
+          "prompt": "___ a town near here where we can stop?",
+          "answers": [
+            "Is there"
+          ],
+          "options": [
+            "Is there",
+            "Are there",
+            "Has there"
+          ],
+          "explanation": "Singular question: Is there a town…?"
+        },
+        {
+          "id": "bt5",
+          "prompt": "___ a lot of water in these mountains.",
+          "answers": [
+            "There's"
+          ],
+          "options": [
+            "There's",
+            "There are",
+            "There aren't"
+          ],
+          "explanation": "'Water' is uncountable and takes the singular: there's a lot of water."
+        }
+      ]
+    },
+    {
+      "id": "a2-bus-quantifiers",
+      "type": "fill-blank",
+      "title": "How Much? How Many?",
+      "instructions": "Choose the correct quantifier.",
+      "items": [
+        {
+          "id": "bq1",
+          "prompt": "I don't have ___ money with me.",
+          "answers": [
+            "any"
+          ],
+          "options": [
+            "any",
+            "some",
+            "much of"
+          ],
+          "explanation": "Use 'any' in a negative sentence; 'some' belongs in positive ones."
+        },
+        {
+          "id": "bq2",
+          "prompt": "Let's get ___ water and a snack.",
+          "answers": [
+            "some"
+          ],
+          "options": [
+            "some",
+            "any",
+            "many"
+          ],
+          "explanation": "A positive sentence takes 'some'."
+        },
+        {
+          "id": "bq3",
+          "prompt": "How ___ time do we have?",
+          "answers": [
+            "much"
+          ],
+          "options": [
+            "much",
+            "many",
+            "few"
+          ],
+          "explanation": "'Time' is uncountable, so 'how much'."
+        },
+        {
+          "id": "bq4",
+          "prompt": "There are so ___ places to see up here.",
+          "answers": [
+            "many"
+          ],
+          "options": [
+            "many",
+            "much",
+            "little"
+          ],
+          "explanation": "'Places' is countable, so 'many'."
+        },
+        {
+          "id": "bq5",
+          "prompt": "There are a lot of coins but only ___ bills.",
+          "answers": [
+            "a few"
+          ],
+          "options": [
+            "a few",
+            "a little",
+            "much"
+          ],
+          "explanation": "'Bills' is countable, so 'a few'. 'A little' goes with uncountable nouns."
+        },
+        {
+          "id": "bq6",
+          "prompt": "We have so ___ time today.",
+          "answers": [
+            "little"
+          ],
+          "options": [
+            "little",
+            "few",
+            "many"
+          ],
+          "explanation": "'Time' is uncountable, so 'little' (meaning not enough)."
+        }
+      ]
+    },
+    {
+      "id": "a2-bus-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the text.",
+      "items": [
+        {
+          "id": "bc1",
+          "prompt": "Where are Emma and Jack going?",
+          "options": [
+            "From Charlotte to Asheville",
+            "From Asheville to Charlotte",
+            "To the coast"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"heading west from Charlotte to Asheville, up in the North Carolina mountains\"."
+        },
+        {
+          "id": "bc2",
+          "prompt": "Why is Asheville famous, according to the text?",
+          "options": [
+            "Its beaches",
+            "Its old houses, cool summers and gardens",
+            "Its airport"
+          ],
+          "answerIndex": 1,
+          "explanation": "Those three things are listed in the first paragraph."
+        },
+        {
+          "id": "bc3",
+          "prompt": "Why can't Jack buy anything?",
+          "options": [
+            "The shop is closed",
+            "He left his wallet at home",
+            "He doesn't want anything"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"There's none at all. I left my wallet at home.\""
+        },
+        {
+          "id": "bc4",
+          "prompt": "What does Emma have in her wallet?",
+          "options": [
+            "A lot of coins and a few bills",
+            "Only a card",
+            "Nothing"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"There are a lot of coins in it but only a few bills.\""
+        },
+        {
+          "id": "bc5",
+          "prompt": "What did they do in Hendersonville yesterday?",
+          "options": [
+            "Bought apples",
+            "Shared a bottle of cider on a bench",
+            "Climbed a mountain"
+          ],
+          "answerIndex": 1,
+          "explanation": "They bought a bottle of cider and shared it in the sun."
+        },
+        {
+          "id": "bc6",
+          "prompt": "What are they going to do tomorrow?",
+          "options": [
+            "Go back to Charlotte",
+            "Drive up Mount Mitchell",
+            "Take the bus to the coast"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Tomorrow we will drive up to Mount Mitchell, the highest point east of the Mississippi.\""
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Describe a long journey you have taken by bus, train or car. Who was with you?",
+    "Emma says there is never enough time to stop everywhere. How do you decide what to see when you visit a new place?",
+    "Look around the room you are in and describe it using 'there is' and 'there are' five times.",
+    "Write about 80 words describing a place in your country that is worth a long trip, and say why."
+  ],
+  "audio": {
+    "duration_label": "3:07"
+  }
+}

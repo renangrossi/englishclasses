@@ -9,17 +9,17 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 8 of 98 implemented.**
+**Progress: 11 of 98 implemented.**
 
 ## Totals
 
 | Action | Count | Meaning |
 |---|---:|---|
 | DELETE | 5 | Nothing worth migrating. |
-| REPLACE | 9 | The slot is worth keeping, but authoring a new text beats repairing this one. |
+| REPLACE | 11 | The slot is worth keeping, but authoring a new text beats repairing this one. |
 | MERGE | 15 | Two or more files teach essentially the same language in essentially the same context. |
-| SPLIT | 8 | Several unrelated materials share one file; each deserves its own page, exercises and audio. |
-| EDIT | 34 | Useful material that needs correction before it goes on the site. |
+| SPLIT | 9 | Several unrelated materials share one file; each deserves its own page, exercises and audio. |
+| EDIT | 31 | Useful material that needs correction before it goes on the site. |
 | CONVERT | 11 | Not a reading text -- a drill, answer key or discussion bank. |
 | KEEP | 16 | Already good; convert as-is. |
 | **Total** | **98** | |
@@ -45,8 +45,8 @@ content rather than as pre-existing.
 
 | Audio | Docs | |
 |---|---:|---|
-| `required` | 57 | must be generated |
-| `exists` | 11 | mp3 present and matches the text |
+| `required` | 54 | must be generated |
+| `exists` | 14 | mp3 present and matches the text |
 | `stale-on-edit` | 2 | mp3 present but the text is being edited -- **must be regenerated** |
 | `n/a` | 28 | drill / answer key / discussion bank -- not a reading text |
 
@@ -64,13 +64,14 @@ Nothing worth migrating. Each reason is given -- no existing material is dropped
 | `market-sumup` | 759 | reading | C1 | business | `n/a` | NOT STARTED | Single-day market report ('The S&P 500 fell about 0.7%... third straight weekly loss') tied to a specific Fed nomination. Already stale and cannot be kept current. |
 | `mind-games` | — | reference | n/a | n/a | `n/a` | NOT STARTED | PDF-only and image-based — the only extractable text is 'ACTIVITY 1/2/3', so there is no content to migrate. Deletion confirmed by the user. |
 
-## REPLACE (9)
+## REPLACE (11)
 
 The slot is worth keeping, but authoring a new text beats repairing this one.
 
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
 | `animal-solutions` | 271 | reading | B1 | work | `required` | NOT STARTED | Reads as marketing copy for a named vendor (Gallagher), not a teaching text. Replace with a neutral do/make farm-work reading. |
+| `australia-and-thailand`<br>[page](../reading/a2/two-very-different-trips.html) | 954 | reading | A2 | travel | `exists` | IMPLEMENTED | The source is two bulleted lists of attractions with no connected prose, so there was nothing to read or narrate. Rewritten as a single A2 text that compares the two destinations, which keeps both halves of the original material, gives the comparatives something real to do, and adds the recommendation language (you should, it's worth, don't miss) the lists only implied. |
 | `cybersecurity` | 898 | reading | B1 | tech | `required` | NOT STARTED | Whole text written in the past tense for a simple-past drill, which makes it factually wrong: 'Cybersecurity protected computers...', 'Today, we used the internet'. Rewrite in present tense and move the past-tense practice to a separate drill. |
 | `egypt` | 413 | reading | B2 | society | `required` | NOT STARTED | Presents a UFO sighting as documented history and invites the student to research it 'as a doctoral student'. Misinformation framed as scholarship; replace with a real Thutmose III / Karnak reading. |
 | `formal-informal` | 535 | reading | B2 | society | `required` | NOT STARTED | The register contrast is worth teaching, but the informal sample argues developing nations are poor because 'they suck at running their countries'. Keep the formal/informal exercise shape, replace the topic with a neutral one. |
@@ -79,6 +80,7 @@ The slot is worth keeping, but authoring a new text beats repairing this one.
 | `milan-restaurants` | 608 | reading | B1 | food | `required` | NOT STARTED | Annotated restaurant list for Milan — no connected prose, no American context. Replace with a US dining-out reading. |
 | `santa-catarina` | 340 | reading | B1 | travel | `required` | NOT STARTED | A wholesome family-travel text in which the father 'decided to change careers and become a michê' — Brazilian slang for a male prostitute. Unusable as written; keep the present-perfect-continuous travel premise and rewrite. |
 | `say-speak-talk-tell`<br>[page](../reading/a2/saying-and-telling.html) | 330 | reading | A2 | everyday | `exists` | IMPLEMENTED | AUDIT CORRECTION: first classified as a duplicate of the-day-at-the-market because the two share the title 'A Day at the Market'. They are in fact different texts — that one is a present-simple habitual description, this one a past-tense narrative built around say/tell/speak/talk and quantifiers. Keeping both as market texts would still have been repetitive, so the teaching point was preserved and re-set in a new workplace context, which also serves the brief's workplace-English focus. |
+| `trip-through-rs`<br>[page](../reading/a2/bus-to-the-mountains.html) | 785 | reading | A2 | travel | `exists` | IMPLEMENTED | Good there is/there are practice, but the source crams nine separate grammar points (there is/are, can/could/may, some/any/no, much/many/few/little, present simple, will, present continuous, past simple, question forms) into one narrative, and it breaks down: 'Do you visit the mountains a lot?' is answered 'No, I don't visit the coast often', which is a non-sequitur, and 'I'm reading a map upstairs later' is not English. Rewritten around the one dominant point (there is/are plus quantifiers) and re-set as a Charlotte-to-Asheville bus trip with English names; the other grammar points already have their own lessons under levels/. |
 
 ## MERGE (15)
 
@@ -102,7 +104,7 @@ Two or more files teach essentially the same language in essentially the same co
 | `two-texts-sp-to-pp-ii`<br>→ `past-to-present-perfect-drill` | — | drill | B1 | review | `n/a` | NOT STARTED | Second half of the same exercise. |
 | `unfortunate-events`<br>→ `routines-and-prepositions-drill` | 570 | drill | B1 | everyday | `n/a` | NOT STARTED | Same gap-fill template as daily-activities and navigating-finance. |
 
-## SPLIT (8)
+## SPLIT (9)
 
 Several unrelated materials share one file; each deserves its own page, exercises and audio.
 
@@ -115,9 +117,10 @@ Several unrelated materials share one file; each deserves its own page, exercise
 | `soothing-texts` | 2225 | reading | C1 | everyday | `required` | NOT STARTED | Several unrelated descriptive scenes (kitchen, etc.) in one 2225w file. Split into short descriptive readings — excellent sensory-vocabulary material once separated. |
 | `text-interpretation` | 1039 | reading | B2 | society | `required` | NOT STARTED | Several unrelated short articles ('Robot Birds' and others) in one file; split so each gets its own page, questions and audio. |
 | `text-interpretation-aesops-fables` | 1921 | reading | B2 | literature | `required` | NOT STARTED | Multiple fables in one file. Split per fable; keep the literary register but gloss the archaic phrasing. |
+| `travel-dialogues`<br>[page](../reading/a2/flying-to-the-us.html) | 935 | dialogue | A2 | travel | `exists` | IMPLEMENTED | Strong functional dialogues, but eight unrelated scenarios in one worksheet (airline booking, reconfirming, passport control, booking a hotel room, checking out, ordering dinner, buying clothes, asking for a photo) with every student line left blank. Split into three coherent pages and given model answers so the dialogues can actually be read and narrated. Americanized throughout per requirement 16: euros to dollars, 24-hour times to 12-hour ('16:45' to '4:45 p.m.'), 'the trout is off' to 'we're out of the trout', 'colours' to 'colors', traveller's cheques to a card; the inconsistent 'Northwind Airways'/'Northwind Airlines' is unified, and the source's acute accents used as apostrophes ('There´s') are fixed. |
 | `verb-tense-review` | 5091 | drill | B1 | review | `n/a` | NOT STARTED | Largest file in the library (5091w) — many separate gap-fill texts, several with good American settings (hotel near Times Square). Split into per-scenario drill blocks. |
 
-## EDIT (34)
+## EDIT (31)
 
 Useful material that needs correction before it goes on the site.
 
@@ -125,7 +128,6 @@ Useful material that needs correction before it goes on the site.
 |---|---:|---|---|---|---|---|---|
 | `america-in-1776` | 1154 | reading | C1 | culture | `required` | NOT STARTED | Strong, genuinely C1 essay on the founding. Dense academic register; trim and break into sections for readability. |
 | `arriving-in-johannesburg` | 1306 | dialogue | B1 | travel | `required` | NOT STARTED | Excellent airport-arrival functional dialogue. Traveler renamed to an English name; trim repetition in the shuttle exchange. |
-| `australia-and-thailand` | 954 | reading | A2 | travel | `required` | NOT STARTED | Bulleted travel-tips list, not connected prose. Rewrite the Sydney half as a short A2 reading; drop or fold the Thailand half. |
 | `beers` | 694 | reading | B1 | food | `required` | NOT STARTED | Factual slip: 'Pilsner: Pilsen is a type of lager'. Fix, tighten the style list. |
 | `business-war-it` | 689 | reading | B2 | tech | `required` | NOT STARTED | Useful tech-history angle but list-like and abrupt; convert to connected prose. |
 | `cachaças` | 672 | reading | B1 | food | `required` | NOT STARTED | Sound process text. Slug de-accented for safe hosting; retitle from the odd 'Distilled Spirit Visitation'. |
@@ -153,9 +155,7 @@ Useful material that needs correction before it goes on the site.
 | `soma-nomaoi` | 446 | reading | B2 | culture | `required` | NOT STARTED | Good festival text; strip the raw x.com link and keep the Japanese terms glossed. |
 | `southeast-asia-adventure` | 572 | reading | B1 | travel | `required` | NOT STARTED | Good present-perfect travel narrative; rename the cast to English names per instruction. |
 | `st.-patricks-day`<br>[page](../reading/a2/st-patricks-day.html) | 371 | reading | A2 | culture | `exists` | IMPLEMENTED | Charming short story with English names already. Edited: the letter-spacing artifacts from the source layout are gone, the American pinching custom is now explained up front instead of assumed, 'St. Patty’s' is corrected to 'St. Paddy’s', and the original multiple-choice distractors ('an underpaid teacher', 'her single mother', 'she ate dubious medicinal plants') are replaced with real ones — they were snarky rather than pedagogically useful. |
-| `travel-dialogues` | 935 | dialogue | A2 | travel | `required` | NOT STARTED | Strong functional dialogues (airline booking, etc.) but student lines are blank, prices are in euros and times are 24-hour. Supply model answers and convert to US conventions ($, 4:45 PM) per requirement 16. |
 | `travel-dialogues-02` | 905 | dialogue | B1 | travel | `required` | NOT STARTED | Hotel-reception training dialogue; same treatment, good workplace-English value. |
-| `trip-through-rs` | 785 | reading | A2 | travel | `required` | NOT STARTED | Good there is/there are practice in dialogue. Re-set in a US road-trip frame with English names to match the brief. |
 | `usa-restaurants` | 1318 | reading | B1 | travel | `required` | NOT STARTED | Titled 'U.S.A. Restaurants' but the body is a bulleted list of Florida attractions — title and content do not match, and it is a list rather than a reading. Rewrite as a Florida travel reading, and let the dining material live in the food thread. |
 
 ## CONVERT (11)

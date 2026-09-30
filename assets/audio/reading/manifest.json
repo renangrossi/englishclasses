@@ -1,4 +1,16 @@
 {
+ "a2/at-the-hotel": {
+  "bytes": 1033056,
+  "fingerprint": "435d4766684efe36",
+  "rate": "-8%",
+  "voice": "en-US-GuyNeural"
+ },
+ "a2/bus-to-the-mountains": {
+  "bytes": 1122480,
+  "fingerprint": "80a16cdb159c0257",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
+ },
  "a2/coffee-brewing": {
   "bytes": 758160,
   "fingerprint": "f86c0069c8d9d13e",
@@ -11,9 +23,21 @@
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
  },
+ "a2/everyday-service-english": {
+  "bytes": 1059264,
+  "fingerprint": "7d2ab977773f9be9",
+  "rate": "-8%",
+  "voice": "en-US-EricNeural"
+ },
+ "a2/flying-to-the-us": {
+  "bytes": 1318032,
+  "fingerprint": "c2b3561140d53268",
+  "rate": "-8%",
+  "voice": "en-US-GuyNeural"
+ },
  "a2/hiking-in-the-mountains": {
-  "bytes": 771408,
-  "fingerprint": "c102f388c1795ba0",
+  "bytes": 772416,
+  "fingerprint": "f83700e5b3a608da",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
@@ -40,6 +64,12 @@
   "fingerprint": "0a5c8cf47983866f",
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
+ },
+ "a2/two-very-different-trips": {
+  "bytes": 1042272,
+  "fingerprint": "5d1fc8f62e27968d",
+  "rate": "-8%",
+  "voice": "en-US-JennyNeural"
  },
  "b1/nfl": {
   "bytes": 1312272,

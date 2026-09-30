@@ -111,46 +111,56 @@ def roman(n):
     return out
 
 
-def card(t, n):
-    """One text. Links to its reading page once converted; until then, to the
-    source document it still lives in."""
+def built_card(level, slug, d, n):
+    """A converted text. Its own source JSON is the truth about what exists --
+    which is what makes splits (one source -> several pages) and merges
+    (several sources -> one page) list correctly."""
+    page = f"reading/{level}/{slug}.html"
+    has_audio = (rc.audio_path(level, slug)).exists()
+    badge = f'<span class="badge badge--audio"> {AUDIO_SVG}Audio</span>' if has_audio else ""
+    note = GENRE_NOTE.get(d.get("genre", "reading"), "Reading")
+    dur = d.get("audio", {}).get("duration_label", "")
+    meta = f"{note}{' &middot; ' + esc(dur) if dur else ''}{badge}"
+    return (f'<article class="lesson-card" id="ex-{esc(slug)}">'
+            f'<span class="lesson-card__index" aria-hidden="true">{roman(n)}</span>'
+            f"<h3>{esc(d['title'])}</h3><p>{esc(d['subtitle'])}</p>"
+            f'<div class="lesson-card__actions">'
+            f'<a class="btn btn--accent btn--small" href="{page}">{READ_SVG}Read &amp; Listen</a></div>'
+            f'<p class="lesson-card__meta" style="color:var(--color-text-muted);font-size:var(--step--1);margin-top:auto;">{meta}</p>'
+            f"</article>")
+
+
+def pending_card(t, n):
+    """A text still waiting to be converted. It keeps a link to the document it
+    currently lives in, so nothing is unreachable mid-migration."""
     slug = t["slug"]
-    level = t["level"].lower()
     title = t.get("card_title") or slug.replace("-", " ").title()
     desc = t.get("card_desc", "")
     cid = t.get("card_id") or t.get("source_slug") or slug
     actions = []
-
-    if t.get("status") == "IMPLEMENTED" and t.get("page"):
-        actions.append(f'<a class="btn btn--accent btn--small" href="{t["page"]}">{READ_SVG}Read &amp; Listen</a>')
-        note = GENRE_NOTE.get(t.get("genre", ""), "")
-        badge = f'<span class="badge badge--audio">{AUDIO_SVG}Audio</span>' if t["audio"] != "n/a" else ""
-    else:
-        for f in t.get("source_files", []):
-            if f.endswith(".pdf"):
-                actions.append(f'<a class="btn btn--ghost btn--small" href="{f}" target="_blank" rel="noopener">{DOC_SVG}Open PDF</a>')
-            elif f.endswith(".docx"):
-                actions.append(f'<a class="btn btn--ghost btn--small" href="{f}" target="_blank" rel="noopener">{WORD_SVG}Open Word</a>')
-        badge = ""
-        note = "Not yet converted"
-
-    note_html = f'<p class="lesson-card__meta" style="color:var(--color-text-muted);font-size:var(--step--1);margin-top:auto;">{esc(note)}{badge}</p>' if note else ""
+    for f in t.get("source_files", []):
+        if f.endswith(".pdf"):
+            actions.append(f'<a class="btn btn--ghost btn--small" href="{f}" target="_blank" rel="noopener">{DOC_SVG}Open PDF</a>')
+        elif f.endswith(".docx"):
+            actions.append(f'<a class="btn btn--ghost btn--small" href="{f}" target="_blank" rel="noopener">{WORD_SVG}Open Word</a>')
     desc_html = f"<p>{esc(desc)}</p>" if desc else ""
     return (f'<article class="lesson-card" id="ex-{esc(cid)}">'
             f'<span class="lesson-card__index" aria-hidden="true">{roman(n)}</span>'
             f"<h3>{esc(title)}</h3>{desc_html}"
-            f'<div class="lesson-card__actions">{"".join(actions)}</div>{note_html}'
+            f'<div class="lesson-card__actions">{"".join(actions)}</div>'
+            f'<p class="lesson-card__meta" style="color:var(--color-text-muted);font-size:var(--step--1);margin-top:auto;">Not yet converted</p>'
             f"</article>")
 
 
-def level_section(code, texts, n_start):
+def level_section(code, built, pending, n_start):
     info = LEVEL_INFO[code]
     cards = []
     n = n_start
-    for t in texts:
-        cards.append(card(t, n))
-        n += 1
-    done = sum(1 for t in texts if t.get("status") == "IMPLEMENTED")
+    for level, slug, d in built:
+        cards.append(built_card(level, slug, d, n)); n += 1
+    for t in pending:
+        cards.append(pending_card(t, n)); n += 1
+    done, texts = len(built), built + pending
     return n, f"""<section class="section" id="level-{code}" aria-labelledby="h-{code}">
         <div class="section__inner">
             <p class="eyebrow">{code.upper()} &middot; {info['name']}</p>
@@ -167,20 +177,24 @@ def level_section(code, texts, n_start):
 
 
 def main():
+    # What exists on the site: every built reading page, from its own source.
+    built = {c: [] for c in LEVEL_INFO}
+    for level, slug, d in rc.all_sources():
+        built.setdefault(level, []).append((level, slug, d))
+    for c in built:
+        built[c].sort(key=lambda x: x[2]["title"].lower())
+
+    # What is still waiting: map entries not yet converted or merged away.
     T = [t for t in json.loads(MAP.read_text(encoding="utf-8"))["texts"]
-         if t["action"] != "DELETE" and t["level"] != "n/a"]
-    # A merge source stays listed (and reachable) until its merge target is
-    # actually built; at that point the source's status becomes MERGED and the
-    # target's own entry represents it. Filtering on merge_into alone would
-    # have hidden 16 not-yet-converted texts behind a page that does not exist.
-    T = [t for t in T if t.get("status") != "MERGED"]
-
-    by_level = {c: [] for c in ["a1", "a2", "b1", "b2", "c1", "c2"]}
+         if t["action"] != "DELETE" and t["level"] != "n/a"
+         and t.get("status") not in ("IMPLEMENTED", "MERGED")]
+    pending = {c: [] for c in LEVEL_INFO}
     for t in sorted(T, key=lambda t: (t.get("card_title") or t["slug"]).lower()):
-        by_level.setdefault(t["level"].lower(), []).append(t)
+        pending.setdefault(t["level"].lower(), []).append(t)
 
-    total = sum(len(v) for v in by_level.values())
-    done = sum(1 for t in T if t.get("status") == "IMPLEMENTED")
+    done = sum(len(v) for v in built.values())
+    total = done + sum(len(v) for v in pending.values())
+    by_level = {c: built.get(c, []) + pending.get(c, []) for c in LEVEL_INFO}
 
     title = "Reading & Listening Library — Renan the Teacher"
     description = ("A CEFR-levelled library of reading and listening texts for English learners — "
@@ -194,7 +208,7 @@ def main():
     n = 1
     for c in ["a1", "a2", "b1", "b2", "c1", "c2"]:
         if by_level[c]:
-            n, sec = level_section(c, by_level[c], n)
+            n, sec = level_section(c, built.get(c, []), pending.get(c, []), n)
             sections.append(sec)
 
     out = [
@@ -219,9 +233,9 @@ def main():
     OUT.write_text("\n".join(out), encoding="utf-8")
     print(f"exercises.html: {total} texts across {sum(1 for v in by_level.values() if v)} levels, "
           f"{done} implemented")
-    for c, v in by_level.items():
-        if v:
-            print(f"  {c.upper():5} {len(v):3}  ({sum(1 for t in v if t.get('status')=='IMPLEMENTED')} ready)")
+    for c in ["a1", "a2", "b1", "b2", "c1", "c2"]:
+        if by_level[c]:
+            print(f"  {c.upper():5} {len(by_level[c]):3}  ({len(built.get(c, []))} ready)")
 
 
 STAR = ('<svg class="stars-row__star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">'

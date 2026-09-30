@@ -1,0 +1,275 @@
+{
+  "id": "a2-reading-at-the-hotel",
+  "level": "A2",
+  "slug": "at-the-hotel",
+  "topic": "travel",
+  "title": "At the Hotel",
+  "subtitle": "Booking a room by phone, and checking out when the bill has something on it you did not expect.",
+  "description": "An A2 listening and reading page with two model hotel dialogues — reserving a room and checking out, including querying a charge on the bill.",
+  "source": "cefr/texts/travel-dialogues.docx",
+  "provenance": "rewritten",
+  "passage": [
+    "Two conversations at a hotel. The guest's lines are written out here as models. Read them, then cover them and try the dialogue yourself.",
+    "1. BOOKING A ROOM",
+    "Receptionist: Good afternoon, the Lakeview Hotel. May I help you?",
+    "You: Good afternoon. I'd like to book a room, please.",
+    "Receptionist: Certainly. For which dates?",
+    "You: For the nights of June 3rd and 4th.",
+    "Receptionist: And how long will you be staying?",
+    "You: Two nights. I'll check out on the morning of the 5th.",
+    "Receptionist: What kind of room would you like?",
+    "You: A double room with a private bathroom, if you have one.",
+    "Receptionist: Let me check what's available… Yes, we have a room on the fourth floor with a view of the lake.",
+    "You: That sounds perfect. How much is it per night?",
+    "Receptionist: A hundred and forty dollars, including breakfast.",
+    "You: Does that include tax?",
+    "Receptionist: Tax is extra — it comes to about sixteen dollars a night.",
+    "You: All right, I'll take it. The name is Karen Jones.",
+    "Receptionist: Thank you, Ms. Jones. We'll see you on the third.",
+    "2. CHECKING OUT",
+    "Receptionist: Good morning. May I help you?",
+    "You: Good morning. I'd like to check out, please. Room 412.",
+    "Receptionist: One moment, please, ma'am… Here's your bill. Would you like to check that the amount is correct?",
+    "You: Thank you. Excuse me — what's this charge here, for eighteen dollars?",
+    "Receptionist: That's for the phone calls made from your room.",
+    "You: I see. I didn't realize the room phone was charged separately.",
+    "Receptionist: It is, I'm afraid. Would you like me to print the call log?",
+    "You: No, that's all right. And could I pay by card?",
+    "Receptionist: Certainly. May I see some ID?",
+    "You: Here's my passport.",
+    "Receptionist: Thank you. Could you sign here for me?",
+    "You: Of course. Could I also get a receipt for my company?",
+    "Receptionist: Here are your receipt and your card, ma'am. Thank you for staying with us.",
+    "You: Thank you — we had a very comfortable stay."
+  ],
+  "vocabulary": [
+    {
+      "term": "to check in / to check out",
+      "definition": "to arrive and register / to pay and leave"
+    },
+    {
+      "term": "a double room",
+      "definition": "a room with a bed for two people (compare: a single room)"
+    },
+    {
+      "term": "per night",
+      "definition": "for each night"
+    },
+    {
+      "term": "a charge",
+      "definition": "an amount of money added to your bill for something"
+    },
+    {
+      "term": "a bill",
+      "definition": "the paper showing what you owe (in restaurants, American English prefers 'the check')"
+    },
+    {
+      "term": "a receipt",
+      "definition": "the paper proving you paid"
+    },
+    {
+      "term": "tax",
+      "definition": "money added by the government; in US hotels it is usually not in the advertised price"
+    },
+    {
+      "term": "I'm afraid…",
+      "definition": "a polite way to introduce bad news"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-hotel-responses",
+      "type": "multiple-choice",
+      "title": "What Would You Say?",
+      "instructions": "Choose the best response.",
+      "items": [
+        {
+          "id": "ht1",
+          "prompt": "Receptionist: \"How long will you be staying?\"",
+          "options": [
+            "Two nights.",
+            "A double room.",
+            "On the third."
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long' asks about duration. 'On the third' answers when you arrive."
+        },
+        {
+          "id": "ht2",
+          "prompt": "You want a room for two people. You ask for:",
+          "options": [
+            "a double room",
+            "a single room",
+            "two rooms"
+          ],
+          "answerIndex": 0,
+          "explanation": "A double room has a bed for two; a single is for one person."
+        },
+        {
+          "id": "ht3",
+          "prompt": "You do not understand an amount on the bill. You say:",
+          "options": [
+            "Excuse me — what's this charge for?",
+            "This bill is wrong.",
+            "I don't pay this."
+          ],
+          "answerIndex": 0,
+          "explanation": "Asking what a charge is for is polite and gets you an answer. Accusing first does not."
+        },
+        {
+          "id": "ht4",
+          "prompt": "Receptionist: \"May I see some ID?\"",
+          "options": [
+            "Here's my passport.",
+            "Yes, you may see.",
+            "I am Karen Jones."
+          ],
+          "answerIndex": 0,
+          "explanation": "The request is for a document, so hand one over."
+        },
+        {
+          "id": "ht5",
+          "prompt": "You need proof of payment for your employer. You ask:",
+          "options": [
+            "Could I get a receipt?",
+            "Could I get a bill?",
+            "Could I get the change?"
+          ],
+          "answerIndex": 0,
+          "explanation": "A receipt proves you paid; a bill shows what you owe."
+        },
+        {
+          "id": "ht6",
+          "prompt": "The receptionist has to give you bad news politely. She says:",
+          "options": [
+            "It is, I'm afraid.",
+            "It is, I'm afraid of.",
+            "It is, I fear it."
+          ],
+          "answerIndex": 0,
+          "explanation": "\"I'm afraid\" used this way softens bad news and is very common in service English."
+        }
+      ]
+    },
+    {
+      "id": "a2-hotel-vocabulary",
+      "type": "fill-blank",
+      "title": "Hotel Words",
+      "instructions": "Choose the word that fits.",
+      "items": [
+        {
+          "id": "htv1",
+          "prompt": "The room costs $140 ___ night.",
+          "answers": [
+            "per"
+          ],
+          "options": [
+            "per",
+            "for",
+            "each of"
+          ],
+          "explanation": "'Per night' means for each night."
+        },
+        {
+          "id": "htv2",
+          "prompt": "I'd like to ___ out at ten tomorrow morning.",
+          "answers": [
+            "check"
+          ],
+          "options": [
+            "check",
+            "book",
+            "sign"
+          ],
+          "explanation": "You check out when you leave a hotel."
+        },
+        {
+          "id": "htv3",
+          "prompt": "What is this ___ for eighteen dollars?",
+          "answers": [
+            "charge"
+          ],
+          "options": [
+            "charge",
+            "receipt",
+            "change"
+          ],
+          "explanation": "A charge is an amount added to your bill."
+        },
+        {
+          "id": "htv4",
+          "prompt": "In US hotels, ___ is usually added on top of the advertised price.",
+          "answers": [
+            "tax"
+          ],
+          "options": [
+            "tax",
+            "breakfast",
+            "a tip"
+          ],
+          "explanation": "Hotel tax is normally extra — a common surprise for visitors."
+        },
+        {
+          "id": "htv5",
+          "prompt": "Could I have a ___ for my company, please?",
+          "answers": [
+            "receipt"
+          ],
+          "options": [
+            "receipt",
+            "bill",
+            "charge"
+          ],
+          "explanation": "A receipt is the proof of payment you submit for expenses."
+        }
+      ]
+    },
+    {
+      "id": "a2-hotel-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the dialogues.",
+      "items": [
+        {
+          "id": "htt1",
+          "statement": "The room is on the fourth floor and looks out at the lake.",
+          "answer": true,
+          "explanation": "True — \"a room on the fourth floor with a view of the lake\"."
+        },
+        {
+          "id": "htt2",
+          "statement": "The price of $140 includes tax.",
+          "answer": false,
+          "explanation": "False — breakfast is included, but tax is extra, about $16 a night."
+        },
+        {
+          "id": "htt3",
+          "statement": "The guest is staying three nights.",
+          "answer": false,
+          "explanation": "False — two nights, the 3rd and the 4th, checking out on the 5th."
+        },
+        {
+          "id": "htt4",
+          "statement": "The extra charge was for phone calls from the room.",
+          "answer": true,
+          "explanation": "True — the receptionist explains exactly that."
+        },
+        {
+          "id": "htt5",
+          "statement": "The guest asks for the call log to be printed.",
+          "answer": false,
+          "explanation": "False — it is offered, but the guest says \"No, that's all right\"."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Role-play dialogue 1: one of you is the receptionist, the other books a room for a specific weekend.",
+    "Have you ever found a charge on a bill you did not expect? What did you do?",
+    "In the US, hotel prices usually exclude tax, and restaurant prices exclude the tip. Is that the same where you live?",
+    "Write a dialogue (about 10 lines) in which you check into a hotel and ask two questions about the room."
+  ],
+  "audio": {
+    "duration_label": "2:52"
+  }
+}

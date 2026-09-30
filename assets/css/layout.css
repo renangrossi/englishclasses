@@ -183,6 +183,14 @@
     line-height: 1.6;
   }
   .reading-passage p { orphans: 3; widows: 3; }
+  .reading-passage p + p { text-indent: 1.5em; }
+  .reading-passage p.reading-passage__heading,
+  .reading-passage p.reading-passage__opener,
+  .reading-passage p.reading-passage__turn { text-indent: 0; }
+  /* The drop cap prints too -- it is sized in em, so it follows the smaller
+     print body size down without any separate value. Keep it in ink-friendly
+     black rather than the accent red. */
+  .reading-passage__lead::first-letter { color: inherit; }
 
   /* A heading stranded at the foot of a page, or a single exercise item
      split across the fold, is the usual way a printed worksheet goes

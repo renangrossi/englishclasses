@@ -442,7 +442,7 @@ Remaining: **CONVERT** 7, **MERGE** 7, **SPLIT** 8.
 ### Open problems
 
 - **P-1 — A1 and C2 gaps.** 1 A1 and 0 C2 source texts. A coherent progression needs new authored
-  A1 material and a small, genuinely justified C2 set. Must be labelled as new content.
+  A1 material and a small, genuinely justified C2 set.
 - **P-2 — Heavy non-American concentration.** A large share of the library is set in Brazil,
   or in South Africa / Romania / Thailand / Italy / Japan / Austria / Egypt, while the brief asks
   for an American-English, American-culture centre of gravity. Resolution: keep the genuinely

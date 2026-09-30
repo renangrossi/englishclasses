@@ -244,7 +244,9 @@ def build(lesson_path: Path):
     toc_ids = present_ids + (["lesson-test-yourself"] if ty_anchor else [])
 
     out = []
-    out.append(site_chrome.head(REL, title, description))
+    out.append(site_chrome.head(REL, title, description,
+                                page_path=f"levels/{level_slug}/{lesson_slug}.html",
+                                og_type="article"))
     out.append(site_chrome.header(REL, lesson["level"], breadcrumb))
     out.append(page_header(lesson))
     out.append(toc(toc_ids))

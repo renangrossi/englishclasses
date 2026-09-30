@@ -47,7 +47,7 @@ Do not "fix" them as part of this work; log them and move on.
 ### Milestone 0 — Audit & inventory ✅
 - **Date:** 2026-09-29
 - **Branch:** `content/reading-library-audit` → merged to `main`
-- **Commit:** `<M0_COMMIT>`
+- **Commit:** `6e72706` (merge `593c1bd`)
 - **Pushed:** yes · **Merged:** yes
 
 **What was completed**

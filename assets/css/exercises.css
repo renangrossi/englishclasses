@@ -318,6 +318,12 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   font-weight: 400;
   line-height: var(--leading-normal);
   text-align: left;
+  /* The tooltip sits inside an indented paragraph and would otherwise inherit
+     its 1.5em first-line indent, and inside the opening paragraph it would
+     inherit the small caps from ::first-line. It is a separate box of plain
+     prose, so both are reset here. */
+  text-indent: 0;
+  font-variant-caps: normal;
   white-space: normal;
   opacity: 0;
   visibility: hidden;

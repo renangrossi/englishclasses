@@ -328,5 +328,19 @@
     "Krampus frightens children deliberately. Is that a reasonable part of a children's tradition?",
     "Does your country have a Christmas or winter figure that visitors would find strange? Describe it.",
     "Write about 120 words about a tradition from your childhood, explaining where it came from and what it was actually for."
+  ],
+  "images": [
+    {
+      "src": "01.png",
+      "after": 1,
+      "alt": "A worn fresco of Saint Nicholas in bishop's robes, holding a scroll",
+      "caption": "Saint Nicholas of Myra, in a medieval fresco. Almost nothing of the modern Santa Claus is visible here except the idea of the man."
+    },
+    {
+      "src": "02.png",
+      "after": 3,
+      "alt": "An old greeting card showing Krampus, a horned figure with a long tongue, carrying a child in a basket on his back and holding a birch switch",
+      "caption": "A Krampuskarte, the greeting card Austrians and Germans sent at the start of December. The basket and the birch switch are the two details every version keeps."
+    }
   ]
 }

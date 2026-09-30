@@ -517,6 +517,29 @@ Copy `content/readings/b1/nfl.json` as the template. Required: `id`, `level`, `s
 Optional: `vocabulary`, `exercises`, `discussion`, `narrator` (`"male"`/`"female"` only when the
 text genuinely has a narrator of that gender), `audio.duration_label`, `audio.voice`, `audio.rate`.
 
+**Images.** A text's own artwork lives in a top-level `images` array, never inside `passage`:
+
+```json
+"images": [
+  {"src": "01.png", "after": 1, "alt": "...", "caption": "..."}
+]
+```
+
+`after` is the index of the paragraph the figure follows, and the file is read from
+`assets/img/reading/{level}/{slug}/`. Keeping images out of `passage` is deliberate: the
+narration fingerprint covers the passage only, so adding or changing a picture never marks the
+audio stale and never forces a re-record.
+
+Extract them with `python3 scripts/extract_source_images.py <docx-stem> <level>/<slug>`
+(`--list` to look first). It skips the two boilerplate images by hash — a 36 KB logo present in
+72 of the source documents and a 1.2 MB decorative header present in 12 — so only the artwork
+belonging to the text comes out. 84 source documents contain images and 55 of them are genuine
+content, so most texts still to be converted have artwork worth carrying across.
+
+**Check the rights before publishing one.** Most of these are old engravings, frescoes and
+period postcards, which are fine. Some are not: the Grinch still in `christmas-krampus-grinch`
+is a frame from the 1966 television special and was deliberately left out.
+
 **Exercise item shapes the engine actually implements** — these differ per type and getting them
 wrong fails silently in the browser, so follow them exactly:
 
@@ -526,6 +549,7 @@ wrong fails silently in the browser, so follow them exactly:
 | `true-false` | `id`, **`statement`**, `answer` (bool), `explanation` |
 | `fill-blank` | `id`, `prompt` with `___` per blank, **`answers`** (one per blank), `options` (flat array for a single blank, array-of-arrays for several), `explanation` |
 | `matching` | **one item** per block: `id`, **`pairs`** (an array of `{left, right}`), `explanation`. One item per pair renders nothing. |
+| `correction` | `id`, **`incorrect`** (the wrong sentence), **`answer`** (an array of accepted rewrites), `explanation`. It is `incorrect`, not `prompt`. |
 | `true-false` explanation | begin it with "True —" or "False —" so the printed feedback stands alone |
 
 `writing` blocks are **ungraded textareas**: the engine renders the prompt and a "Save my

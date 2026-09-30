@@ -1,0 +1,337 @@
+{
+  "id": "b1-reading-animal-solutions",
+  "level": "B1",
+  "slug": "animal-solutions",
+  "topic": "work",
+  "title": "The Technology in a Field",
+  "subtitle": "Ear tags, electric fences and an app on a phone — how livestock farming actually works now.",
+  "description": "A B1 work and technology reading and listening text on the equipment modern livestock farms depend on and what each piece is for, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/animal-solutions.docx",
+  "provenance": "new",
+  "audio": {
+    "duration_label": "3:07"
+  },
+  "passage": [
+    "A field with cattle in it looks much the same as it did a century ago. Almost nothing else about the operation does, and most of what has changed is invisible from the gate.",
+    "Start with the fence. A traditional fence has to be strong enough to physically stop an animal that weighs six hundred kilograms and has decided to leave. An electric fence does not: it is a single thin wire carrying a brief, high-voltage pulse, and it works because the animal touches it once, does not enjoy the experience, and thereafter treats the wire as a wall. It is far cheaper, it can be moved by one person in an afternoon, and that portability is the real advantage. Farmers use it to divide a large field into sections and move the herd between them every few days, which lets the grass in each section recover instead of being grazed to nothing.",
+    "Then the ear tag. Every animal in a commercial herd carries one, with a number that identifies it for its whole life. In most countries this is a legal requirement rather than a convenience, because if a disease appears in an abattoir, the authorities need to trace which farm the animal came from and which other animals it travelled with. The plain plastic tags are read by eye. Electronic ones contain a small chip that a handheld reader picks up at a distance, which matters when you are recording two hundred animals through a gate and cannot stop to squint at each one.",
+    "Once animals are identified individually, everything else becomes possible. A farmer can record each animal's weight over time, its treatments, its calves, and how much milk it gives, and can see which animals are worth keeping. Before tagging, that was guesswork and memory. The difference it makes is not dramatic on any single day; it accumulates over years.",
+    "The newest layer is monitoring. A collar or an ear sensor tracks how much an animal moves, how long it spends ruminating — chewing — and sometimes its temperature. A cow that is becoming ill usually reduces its rumination time a day or more before anything is visible to a person, so the system flags it early, when treatment is simpler and cheaper. The same sensors detect when a cow is ready to breed, which used to depend on somebody watching the herd at the right moment.",
+    "None of this replaces the farmer, and the people who sell it sometimes imply otherwise. The equipment reports; somebody still has to decide what to do, and a sensor that says an animal is unwell does not know why. It also has to be paid for, kept charged, and repaired when it fails in a wet field in February, which it will.",
+    "What has genuinely changed is the kind of attention the job requires. A hundred years ago a good stockman knew his animals by sight and carried the whole herd in his head, which worked up to a few dozen animals and not beyond. The technology does not make him better at that. It extends how far that kind of knowledge can reach."
+  ],
+  "vocabulary": [
+    {
+      "term": "operation",
+      "definition": "a business considered as the activity it carries out"
+    },
+    {
+      "term": "pulse",
+      "definition": "a short burst of electrical current"
+    },
+    {
+      "term": "portability",
+      "definition": "the quality of being easy to move from place to place"
+    },
+    {
+      "term": "to graze",
+      "definition": "to eat growing grass",
+      "match": "grazed"
+    },
+    {
+      "term": "ear tag",
+      "definition": "a numbered plastic or electronic label fixed to an animal's ear"
+    },
+    {
+      "term": "commercial",
+      "definition": "run as a business rather than for personal use"
+    },
+    {
+      "term": "abattoir",
+      "definition": "a place where animals are slaughtered for meat"
+    },
+    {
+      "term": "to trace",
+      "definition": "to follow something back to its origin"
+    },
+    {
+      "term": "chip",
+      "definition": "a tiny electronic component storing information"
+    },
+    {
+      "term": "handheld",
+      "definition": "small enough to be operated in one hand"
+    },
+    {
+      "term": "to squint",
+      "definition": "to narrow your eyes in order to see something more clearly"
+    },
+    {
+      "term": "calf",
+      "definition": "a young cow",
+      "match": "calves"
+    },
+    {
+      "term": "guesswork",
+      "definition": "judgement based on no real evidence"
+    },
+    {
+      "term": "to accumulate",
+      "definition": "to build up gradually over time",
+      "match": "accumulates"
+    },
+    {
+      "term": "to ruminate",
+      "definition": "to chew food a second time, as cattle do",
+      "match": "ruminating"
+    },
+    {
+      "term": "to flag",
+      "definition": "to mark something as needing attention",
+      "match": "flags"
+    },
+    {
+      "term": "to breed",
+      "definition": "to produce young"
+    },
+    {
+      "term": "stockman",
+      "definition": "someone whose job is caring for farm animals"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-as-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Each of these asks why a piece of equipment exists, not only what it is.",
+      "items": [
+        {
+          "id": "as1",
+          "prompt": "Why does an electric fence not need to be physically strong?",
+          "options": [
+            "Because cattle rarely push against fences",
+            "Because the animal learns from one contact to treat the wire as a wall",
+            "Because the current holds the animal back"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The animal touches it once, does not enjoy the experience, and thereafter treats the wire as a wall.” The barrier is learned, not physical."
+        },
+        {
+          "id": "as2",
+          "prompt": "What does the writer call the real advantage of an electric fence?",
+          "options": [
+            "Its portability — one person can move it in an afternoon",
+            "Its low cost",
+            "Its resistance to weather"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cost is mentioned first, but the text says “that portability is the real advantage”, because it is what enables rotational grazing."
+        },
+        {
+          "id": "as3",
+          "prompt": "Why is the herd moved between sections every few days?",
+          "options": [
+            "To keep the animals from becoming bored",
+            "To spread manure evenly across the field",
+            "So the grass in each section can recover instead of being grazed to nothing"
+          ],
+          "answerIndex": 2,
+          "explanation": "The fence makes the rotation practical, and the rotation is what protects the grass."
+        },
+        {
+          "id": "as4",
+          "prompt": "Why are ear tags a legal requirement in most countries?",
+          "options": [
+            "To prove ownership in case of theft",
+            "So that a disease found at an abattoir can be traced to its farm and contacts",
+            "To calculate tax on each animal"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text is explicit that this is “a legal requirement rather than a convenience”, and gives the traceability reason."
+        },
+        {
+          "id": "as5",
+          "prompt": "What advantage do electronic tags have over plain ones?",
+          "options": [
+            "They last longer in wet conditions",
+            "They can be read at a distance, which matters when processing many animals quickly",
+            "They store the animal's medical history directly"
+          ],
+          "answerIndex": 1,
+          "explanation": "“When you are recording two hundred animals through a gate and cannot stop to squint at each one.”"
+        },
+        {
+          "id": "as6",
+          "prompt": "How does a sensor detect illness before a person can?",
+          "options": [
+            "It measures the animal's blood chemistry",
+            "It notices a drop in rumination time a day or more before anything is visible",
+            "It compares the animal against the rest of the herd's weight"
+          ],
+          "answerIndex": 1,
+          "explanation": "Which matters because “treatment is simpler and cheaper” when it starts early."
+        },
+        {
+          "id": "as7",
+          "prompt": "What limitation does the writer insist on?",
+          "options": [
+            "The equipment reports, but somebody still has to decide, and a sensor does not know why an animal is unwell",
+            "The sensors are frequently inaccurate",
+            "Only large farms can use any of it"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the writer notes that “the people who sell it sometimes imply otherwise” — a quiet warning about vendor claims."
+        },
+        {
+          "id": "as8",
+          "prompt": "What does the writer say has genuinely changed about the job?",
+          "options": [
+            "It requires less skill than it used to",
+            "Not the skill itself, but how far that kind of knowledge can reach",
+            "It has become mainly office work"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The technology does not make him better at that. It extends how far that kind of knowledge can reach.”"
+        }
+      ]
+    },
+    {
+      "id": "b1-as-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "ast1",
+          "statement": "An electric fence carries a continuous current.",
+          "answer": false,
+          "explanation": "False — it carries “a brief, high-voltage pulse”, not a continuous flow."
+        },
+        {
+          "id": "ast2",
+          "statement": "Every animal in a commercial herd carries an identifying number for life.",
+          "answer": true,
+          "explanation": "True — that is what the ear tag is for."
+        },
+        {
+          "id": "ast3",
+          "statement": "Before tagging, farmers kept accurate individual records on paper.",
+          "answer": false,
+          "explanation": "False — “that was guesswork and memory”."
+        },
+        {
+          "id": "ast4",
+          "statement": "Sensors can indicate when a cow is ready to breed.",
+          "answer": true,
+          "explanation": "True — a task that “used to depend on somebody watching the herd at the right moment”."
+        },
+        {
+          "id": "ast5",
+          "statement": "The writer says the equipment replaces the farmer's judgement.",
+          "answer": false,
+          "explanation": "False — the opposite: “somebody still has to decide what to do”."
+        },
+        {
+          "id": "ast6",
+          "statement": "The benefit of individual records shows up mainly over years.",
+          "answer": true,
+          "explanation": "True — “it is not dramatic on any single day; it accumulates over years”."
+        }
+      ]
+    },
+    {
+      "id": "b1-as-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "asf1",
+          "prompt": "The field is divided so the grass can recover between periods of ___.",
+          "answers": [
+            "grazing"
+          ],
+          "options": [
+            "grazing",
+            "breeding",
+            "tracing"
+          ],
+          "explanation": "To graze is to eat growing grass."
+        },
+        {
+          "id": "asf2",
+          "prompt": "If a disease appears, inspectors must be able to ___ the animal back to its farm.",
+          "answers": [
+            "trace"
+          ],
+          "options": [
+            "trace",
+            "flag",
+            "squint"
+          ],
+          "explanation": "To trace is to follow something back to its origin."
+        },
+        {
+          "id": "asf3",
+          "prompt": "The system ___ any animal whose behaviour has changed.",
+          "answers": [
+            "flags"
+          ],
+          "options": [
+            "flags",
+            "traces",
+            "accumulates"
+          ],
+          "explanation": "To flag is to mark something as needing attention."
+        },
+        {
+          "id": "asf4",
+          "prompt": "Small gains ___ over several seasons.",
+          "answers": [
+            "accumulate"
+          ],
+          "options": [
+            "accumulate",
+            "graze",
+            "breed"
+          ],
+          "explanation": "To accumulate is to build up gradually."
+        },
+        {
+          "id": "asf5",
+          "prompt": "Without records, the decision was pure ___.",
+          "answers": [
+            "guesswork"
+          ],
+          "options": [
+            "guesswork",
+            "portability",
+            "rumination"
+          ],
+          "explanation": "Guesswork is judgement based on no real evidence."
+        },
+        {
+          "id": "asf6",
+          "prompt": "Cattle ___ — they chew their food a second time.",
+          "answers": [
+            "ruminate"
+          ],
+          "options": [
+            "ruminate",
+            "graze",
+            "accumulate"
+          ],
+          "explanation": "Rumination is the second chewing, and the time spent on it is what the sensors measure."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The writer warns that sellers sometimes imply the equipment replaces judgement. Where else have you seen that claim made?",
+    "A sensor notices illness a day before a person can. Would you trust it over an experienced farmer's eye?",
+    "The technology “extends how far that kind of knowledge can reach”. Is that a fair description of what technology does in your own field?",
+    "All of this has to be paid for and repaired. When is a farm too small for it to be worth having?",
+    "Write about 150 words describing a piece of equipment used in your work, explaining what problem it solves and what it cannot do."
+  ]
+}

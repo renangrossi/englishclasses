@@ -1,0 +1,347 @@
+{
+  "id": "b1-reading-chicago",
+  "level": "B1",
+  "slug": "maringa",
+  "topic": "travel",
+  "title": "Describing Chicago",
+  "subtitle": "A lake, a grid, and a fire that let the city rebuild itself in a way nowhere else could.",
+  "description": "A B1 travel reading and listening text describing Chicago — its layout, architecture, neighbourhoods, weather and food — with the language of describing a city, plus vocabulary and comprehension exercises.",
+  "source": "cefr/texts/maringá.docx",
+  "provenance": "new",
+  "audio": {
+    "duration_label": "3:26"
+  },
+  "passage": [
+    "Chicago sits on the southwestern shore of Lake Michigan, which is large enough that standing on the beach in the middle of the city feels like standing at the sea. There is no other side visible. That lake explains a good deal about the place — the weather, the shape of the streets, and the fact that the whole eastern edge of a major American city is public park rather than private property.",
+    "The city is laid out on a grid, and once you understand it you cannot get lost. Streets run north–south and east–west, numbered outwards from a single point downtown, and eight blocks make a mile. If somebody tells you an address is at 3200 north, you know exactly how far away it is before you have looked at a map. Visitors from older European cities find this either wonderfully practical or slightly inhuman, and usually both.",
+    "The reason Chicago looks the way it does is a fire. In 1871 most of the city burned down over two days — the centre was built largely of wood — and the rebuilding happened at exactly the moment when steel frames and passenger lifts made tall buildings possible for the first time. The result is that modern architecture effectively begins here. The first steel-framed skyscraper went up in 1885, and for a century afterwards the city kept competing with itself. You can stand on one corner downtown and see four distinct eras of building without turning your head.",
+    "It is a city of neighbourhoods rather than a single centre, and they are genuinely different from one another. Pilsen is Mexican and covered in murals. Bronzeville was the heart of Black Chicago during the Great Migration, when hundreds of thousands of people moved north from the southern states. Devon Avenue is Indian and Pakistani. Andersonville is Swedish in origin and has kept the shop fronts if not the population. The city is also, historically, one of the most segregated in the country, and that is not an accident of preference — it was built into housing policy for decades and has not undone itself since.",
+    "The weather is the thing visitors underestimate. Winter is long and the wind off the lake is genuinely dangerous in January, though the nickname “the Windy City” probably referred to the boastfulness of its politicians rather than the weather. Summer is hot and humid and the entire population moves outdoors at once. Spring and autumn are short and excellent.",
+    "The food is more serious than the clichés suggest. Deep-dish pizza exists, and locals eat it perhaps twice a year, mostly with visitors; the everyday pizza is thin and cut into squares. The genuine local specialities are the Italian beef sandwich — thin beef, wet with its own cooking juices, on a roll you have to lean forward to eat — and a hot dog served with a specific list of things that does not include ketchup, about which people are not joking.",
+    "What most surprises people is the scale of the public waterfront. Eighteen miles of lakefront are parks, beaches and a path, because in the nineteenth century the city decided the shoreline would stay “forever open, clear and free” and then, unusually, kept to it. On a warm Saturday the beaches are full and the skyline stands directly behind them, which is not a view most cities can offer."
+  ],
+  "vocabulary": [
+    {
+      "term": "shore",
+      "definition": "the land along the edge of a sea or lake"
+    },
+    {
+      "term": "grid",
+      "definition": "a pattern of streets crossing at right angles"
+    },
+    {
+      "term": "block",
+      "definition": "the distance between two street corners",
+      "match": "blocks"
+    },
+    {
+      "term": "downtown",
+      "definition": "the central business district of an American city"
+    },
+    {
+      "term": "inhuman",
+      "definition": "lacking warmth or human character"
+    },
+    {
+      "term": "to burn down",
+      "definition": "to be destroyed completely by fire",
+      "match": "burned down"
+    },
+    {
+      "term": "steel frame",
+      "definition": "the internal metal structure that lets a building rise high",
+      "match": "steel frames"
+    },
+    {
+      "term": "skyscraper",
+      "definition": "a very tall building"
+    },
+    {
+      "term": "era",
+      "definition": "a distinct period of time",
+      "match": "eras"
+    },
+    {
+      "term": "mural",
+      "definition": "a painting made directly on a wall",
+      "match": "murals"
+    },
+    {
+      "term": "migration",
+      "definition": "the movement of large numbers of people to a new area"
+    },
+    {
+      "term": "segregated",
+      "definition": "with communities kept separate, especially by race"
+    },
+    {
+      "term": "housing policy",
+      "definition": "the rules governing where homes are built and who may buy them"
+    },
+    {
+      "term": "to underestimate",
+      "definition": "to expect less of something than it turns out to be"
+    },
+    {
+      "term": "humid",
+      "definition": "with a lot of moisture in the air"
+    },
+    {
+      "term": "boastfulness",
+      "definition": "the habit of talking too proudly about yourself"
+    },
+    {
+      "term": "cliché",
+      "definition": "an idea repeated so often it has stopped being informative",
+      "match": "clichés"
+    },
+    {
+      "term": "speciality",
+      "definition": "a dish a place is known for",
+      "match": "specialities"
+    },
+    {
+      "term": "waterfront",
+      "definition": "the part of a city that faces the water"
+    },
+    {
+      "term": "skyline",
+      "definition": "the outline a city's buildings make against the sky"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-chi-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for how the writer explains why the city is as it is.",
+      "items": [
+        {
+          "id": "ci1",
+          "prompt": "What three things does the writer say the lake explains?",
+          "options": [
+            "The weather, the shape of the streets, and the public eastern edge of the city",
+            "The weather, the food, and the architecture",
+            "The wind, the beaches, and the population"
+          ],
+          "answerIndex": 0,
+          "explanation": "All three are listed in the first paragraph, and each is returned to later."
+        },
+        {
+          "id": "ci2",
+          "prompt": "Why can you judge a distance from a Chicago address before looking at a map?",
+          "options": [
+            "Because streets are named alphabetically",
+            "Because the streets are numbered outwards from one downtown point, and eight blocks make a mile",
+            "Because all addresses include the distance"
+          ],
+          "answerIndex": 1,
+          "explanation": "3200 north therefore means four miles north — the grid does the arithmetic for you."
+        },
+        {
+          "id": "ci3",
+          "prompt": "Why does the writer say modern architecture “effectively begins here”?",
+          "options": [
+            "Because the city's architects invented the passenger lift",
+            "Because the fire of 1871 coincided with steel frames and lifts making tall buildings possible",
+            "Because European architects moved there after 1871"
+          ],
+          "answerIndex": 1,
+          "explanation": "The rebuilding “happened at exactly the moment” the technology arrived — destruction and opportunity in the same decade."
+        },
+        {
+          "id": "ci4",
+          "prompt": "How does the writer treat Chicago's segregation?",
+          "options": [
+            "As a natural result of communities preferring to live together",
+            "As a thing of the past",
+            "As built into housing policy for decades and not since undone"
+          ],
+          "answerIndex": 2,
+          "explanation": "“That is not an accident of preference” — the sentence explicitly rejects the easier explanation."
+        },
+        {
+          "id": "ci5",
+          "prompt": "What does the writer say about the nickname “the Windy City”?",
+          "options": [
+            "It probably referred to the boastfulness of politicians rather than the weather",
+            "It comes from the wind off the lake in January",
+            "It was invented by tourists"
+          ],
+          "answerIndex": 0,
+          "explanation": "The wind is real and dangerous; the nickname's origin is a separate matter, and the writer keeps them apart."
+        },
+        {
+          "id": "ci6",
+          "prompt": "What does the text say locals actually eat?",
+          "options": [
+            "Deep-dish pizza several times a month",
+            "Thin pizza cut into squares; deep-dish maybe twice a year, mostly with visitors",
+            "Mainly Italian beef, rarely pizza of any kind"
+          ],
+          "answerIndex": 1,
+          "explanation": "The cliché is acknowledged and then corrected with what people eat on an ordinary day."
+        },
+        {
+          "id": "ci7",
+          "prompt": "Why is eighteen miles of lakefront public?",
+          "options": [
+            "The land was too unstable to build on",
+            "It was bought by the city in the twentieth century",
+            "A nineteenth-century decision that the shoreline stay “forever open, clear and free”, which was kept to"
+          ],
+          "answerIndex": 2,
+          "explanation": "The writer adds “and then, unusually, kept to it” — the keeping is the remarkable part."
+        },
+        {
+          "id": "ci8",
+          "prompt": "Why do visitors find the grid “wonderfully practical or slightly inhuman, and usually both”?",
+          "options": [
+            "Because it never varies, which makes navigation effortless and the city feel machine-made",
+            "Because the street names are difficult",
+            "Because it makes distances longer than they need to be"
+          ],
+          "answerIndex": 0,
+          "explanation": "The same quality produces both reactions, which is why the writer says most people have both at once."
+        }
+      ]
+    },
+    {
+      "id": "b1-chi-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "cit1",
+          "statement": "You can see the far side of Lake Michigan from the city beaches.",
+          "answer": false,
+          "explanation": "False — “there is no other side visible”, which is why it feels like the sea."
+        },
+        {
+          "id": "cit2",
+          "statement": "Most of Chicago was destroyed by fire in 1871.",
+          "answer": true,
+          "explanation": "True — over two days, because the centre was largely wooden."
+        },
+        {
+          "id": "cit3",
+          "statement": "The first steel-framed skyscraper was built in 1885.",
+          "answer": true,
+          "explanation": "True — and the city “kept competing with itself” for a century afterwards."
+        },
+        {
+          "id": "cit4",
+          "statement": "Andersonville still has a largely Swedish population.",
+          "answer": false,
+          "explanation": "False — it is Swedish in origin and “has kept the shop fronts if not the population”."
+        },
+        {
+          "id": "cit5",
+          "statement": "Ketchup is a standard topping on a Chicago hot dog.",
+          "answer": false,
+          "explanation": "False — the list “does not include ketchup, about which people are not joking”."
+        },
+        {
+          "id": "cit6",
+          "statement": "Spring and autumn are described as short.",
+          "answer": true,
+          "explanation": "True — “short and excellent”, between a long winter and a hot summer."
+        }
+      ]
+    },
+    {
+      "id": "b1-chi-vocabulary",
+      "type": "fill-blank",
+      "title": "Describing a City",
+      "instructions": "Complete each sentence with the word you would use to describe a place.",
+      "items": [
+        {
+          "id": "cif1",
+          "prompt": "The streets are laid out on a ___, crossing at right angles.",
+          "answers": [
+            "grid"
+          ],
+          "options": [
+            "grid",
+            "shore",
+            "block"
+          ],
+          "explanation": "A grid is a pattern of streets crossing at right angles."
+        },
+        {
+          "id": "cif2",
+          "prompt": "The ___ is best seen from the water at night.",
+          "answers": [
+            "skyline"
+          ],
+          "options": [
+            "skyline",
+            "waterfront",
+            "era"
+          ],
+          "explanation": "The skyline is the outline the buildings make against the sky; the waterfront is the land facing the water."
+        },
+        {
+          "id": "cif3",
+          "prompt": "Summer here is hot and ___.",
+          "answers": [
+            "humid"
+          ],
+          "options": [
+            "humid",
+            "inhuman",
+            "segregated"
+          ],
+          "explanation": "Humid means with a lot of moisture in the air."
+        },
+        {
+          "id": "cif4",
+          "prompt": "Visitors always ___ how cold it gets.",
+          "answers": [
+            "underestimate"
+          ],
+          "options": [
+            "underestimate",
+            "undervalue",
+            "understate"
+          ],
+          "explanation": "To underestimate is to expect less of something than it turns out to be."
+        },
+        {
+          "id": "cif5",
+          "prompt": "The neighbourhood is covered in ___ painted on the walls.",
+          "answers": [
+            "murals"
+          ],
+          "options": [
+            "murals",
+            "clichés",
+            "specialities"
+          ],
+          "explanation": "A mural is a painting made directly on a wall."
+        },
+        {
+          "id": "cif6",
+          "prompt": "The city's real ___ is a beef sandwich, not the pizza people expect.",
+          "answers": [
+            "speciality"
+          ],
+          "options": [
+            "speciality",
+            "cliché",
+            "migration"
+          ],
+          "explanation": "A speciality is a dish a place is known for — set here against the cliché that outsiders arrive with."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "A grid makes a city easy to navigate and, some say, less human. Which kind of city do you prefer to walk in?",
+    "Chicago rebuilt after a fire and invented something new in the process. Can a disaster genuinely be an opportunity, or is that only visible afterwards?",
+    "The writer says the segregation was built into policy, not chosen. Why does that distinction matter?",
+    "Locals eat deep-dish pizza twice a year. What does your city get famous for that residents rarely do?",
+    "Write about 150 words describing a city you know, explaining one thing about its shape or weather that determines how people live there."
+  ]
+}

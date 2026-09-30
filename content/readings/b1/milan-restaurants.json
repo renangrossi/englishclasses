@@ -1,0 +1,403 @@
+{
+  "id": "b1-reading-regional-american-food",
+  "level": "B1",
+  "slug": "milan-restaurants",
+  "topic": "food",
+  "title": "Eating Across America",
+  "subtitle": "There is no such thing as American food — there are about six of them, and they do not much resemble each other.",
+  "description": "A B1 food reading and listening text on the regional cooking of the United States — barbecue, Tex-Mex, New England seafood, soul food, Californian and the diner — with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/milan-restaurants.docx",
+  "provenance": "new",
+  "audio": {
+    "duration_label": "3:30"
+  },
+  "passage": [
+    "Visitors often arrive in the United States expecting the food to be one thing, and are surprised to find it is not a cuisine at all but a collection of regional ones that developed separately and still barely overlap. A meal in Charleston and a meal in Portland have almost nothing in common except the language on the menu.",
+    "Barbecue is the clearest example. The word means something specific: meat cooked slowly over wood smoke for many hours, not food grilled quickly over a flame. Every region that takes it seriously does it differently and considers the others wrong. Texas does beef brisket with salt, pepper and smoke, and sauce is optional and slightly suspect. North Carolina does pork with a thin vinegar sauce. Kansas City does a thick sweet tomato sauce and will smoke almost anything. Memphis does ribs, dry-rubbed or wet. These are not variations on a theme; they are separate traditions, and people will argue about them with more energy than they bring to politics.",
+    "Tex-Mex is the food of the Texas–Mexico border, and it is not the same as Mexican food, though it grew out of it. It is the source of things many people assume are Mexican — the hard-shell taco, chilli con carne, fajitas, and the use of yellow cheese and cumin, both of which a cook in Mexico City would find peculiar. It is a genuine border cuisine, made by Mexican families living in Texas, and calling it inauthentic misses what it actually is.",
+    "The northeast is seafood. In New England that means clam chowder — thick, cream-based, and the subject of a long-running quarrel with Manhattan, which makes it with tomatoes and is regarded locally as an eccentric — along with lobster rolls, which are lobster, a little mayonnaise or butter, and a bun, and which cost what they cost because lobster does.",
+    "Soul food comes from the cooking of enslaved African Americans in the South and travelled north with the Great Migration. Fried chicken, collard greens, cornbread, black-eyed peas, macaroni and cheese. It is food built on making excellent use of cheap or unwanted ingredients, which is true of most of the world's best cooking, and it has shaped what the whole country eats far more than is usually acknowledged.",
+    "California cooking is the most recent and the most exportable. It is built on the fact that the state grows an enormous share of America's produce, so the ingredients arrive fresh and the cooking gets out of their way. Lighter, vegetable-heavy, heavily influenced by Mexican and East and Southeast Asian cooking, and responsible for the fact that a restaurant anywhere in the world may now describe something as “farm to table”.",
+    "And then there is the diner, which is less a cuisine than an institution: open early, open late, laminated menu running to several pages, coffee refilled without being asked. The food is eggs, pancakes, burgers, pie. Nobody claims it is the country's best cooking. It is where you end up at eleven at night in an unfamiliar town, and there is a reason it appears in so many American films.",
+    "A useful rule for eating well in the United States is to ignore what a place looks like. Some of the best food in the country is served in buildings that would not pass for restaurants anywhere else — a shed with a smoker behind it, a counter with eight stools, a truck parked in the same spot every day. The queue outside tells you more than the decoration inside."
+  ],
+  "vocabulary": [
+    {
+      "term": "cuisine",
+      "definition": "the characteristic cooking of a place or culture"
+    },
+    {
+      "term": "to overlap",
+      "definition": "to have parts in common",
+      "match": "overlap"
+    },
+    {
+      "term": "brisket",
+      "definition": "a cut of beef from the lower chest, suited to long slow cooking"
+    },
+    {
+      "term": "dry rub",
+      "definition": "a mix of dry spices pressed onto meat before cooking",
+      "match": "dry-rubbed"
+    },
+    {
+      "term": "variation",
+      "definition": "a slightly different version of the same thing",
+      "match": "variations"
+    },
+    {
+      "term": "border",
+      "definition": "the line where two countries meet"
+    },
+    {
+      "term": "cumin",
+      "definition": "a warm, earthy spice used in many cuisines"
+    },
+    {
+      "term": "peculiar",
+      "definition": "strange or unfamiliar"
+    },
+    {
+      "term": "inauthentic",
+      "definition": "not a genuine version of what it claims to be"
+    },
+    {
+      "term": "chowder",
+      "definition": "a thick soup usually made with seafood"
+    },
+    {
+      "term": "quarrel",
+      "definition": "a long-running disagreement"
+    },
+    {
+      "term": "eccentric",
+      "definition": "someone or something unusual in a harmless way"
+    },
+    {
+      "term": "enslaved",
+      "definition": "held as property and forced to work without freedom or pay"
+    },
+    {
+      "term": "collard greens",
+      "definition": "a leafy green vegetable slow-cooked in Southern cooking"
+    },
+    {
+      "term": "to acknowledge",
+      "definition": "to admit or recognise something publicly",
+      "match": "acknowledged"
+    },
+    {
+      "term": "produce",
+      "definition": "fresh fruit and vegetables"
+    },
+    {
+      "term": "exportable",
+      "definition": "able to be adopted successfully elsewhere"
+    },
+    {
+      "term": "institution",
+      "definition": "something so long-established it is part of a culture"
+    },
+    {
+      "term": "laminated",
+      "definition": "covered in a protective plastic film"
+    },
+    {
+      "term": "to refill",
+      "definition": "to fill something again",
+      "match": "refilled"
+    },
+    {
+      "term": "stool",
+      "definition": "a seat with no back, often at a counter",
+      "match": "stools"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-food-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for the distinctions the writer insists on.",
+      "items": [
+        {
+          "id": "fo1",
+          "prompt": "What is the writer's central claim?",
+          "options": [
+            "That American food is better than its reputation",
+            "That the United States has not one cuisine but several that developed separately",
+            "That American cooking is mostly imported"
+          ],
+          "answerIndex": 1,
+          "explanation": "“A meal in Charleston and a meal in Portland have almost nothing in common except the language on the menu.”"
+        },
+        {
+          "id": "fo2",
+          "prompt": "What does “barbecue” specifically mean in this text?",
+          "options": [
+            "Any food cooked outdoors",
+            "Meat grilled quickly over a flame",
+            "Meat cooked slowly over wood smoke for many hours"
+          ],
+          "answerIndex": 2,
+          "explanation": "The definition is given precisely, and the contrast with quick grilling is drawn in the same sentence."
+        },
+        {
+          "id": "fo3",
+          "prompt": "Why does the writer say the regional barbecues are “not variations on a theme”?",
+          "options": [
+            "Because they use different meats, sauces and methods and grew up as separate traditions",
+            "Because only one of them is genuine",
+            "Because they come from different countries"
+          ],
+          "answerIndex": 0,
+          "explanation": "Texas beef, Carolina vinegar pork, Kansas City sweet sauce, Memphis ribs — “they are separate traditions”."
+        },
+        {
+          "id": "fo4",
+          "prompt": "How does the writer defend Tex-Mex?",
+          "options": [
+            "By arguing it is more popular than Mexican food",
+            "By pointing out it is a genuine border cuisine made by Mexican families in Texas, so “inauthentic” misses the point",
+            "By showing it is older than Mexican cooking"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text grants that it differs from Mexican food, then rejects the conclusion usually drawn from that."
+        },
+        {
+          "id": "fo5",
+          "prompt": "What is the quarrel about clam chowder?",
+          "options": [
+            "Whether it should contain clams at all",
+            "Whether it is a soup or a stew",
+            "New England makes it cream-based; Manhattan uses tomatoes and is regarded locally as eccentric"
+          ],
+          "answerIndex": 2,
+          "explanation": "The word “locally” is doing the work — the judgement belongs to New England, and the writer reports rather than shares it."
+        },
+        {
+          "id": "fo6",
+          "prompt": "What does the writer say about soul food's origins?",
+          "options": [
+            "It comes from the cooking of enslaved African Americans in the South and moved north with the Great Migration",
+            "It developed in northern cities in the twentieth century",
+            "It was created in restaurants rather than homes"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the writer adds that it “has shaped what the whole country eats far more than is usually acknowledged”."
+        },
+        {
+          "id": "fo7",
+          "prompt": "Why does California cooking “get out of the way” of its ingredients?",
+          "options": [
+            "Because the state grows a huge share of America's produce, so it arrives fresh",
+            "Because chefs there have less training",
+            "Because the climate makes heavy cooking unpleasant"
+          ],
+          "answerIndex": 0,
+          "explanation": "The cooking style follows from the supply — which is also why it exported so successfully as “farm to table”."
+        },
+        {
+          "id": "fo8",
+          "prompt": "What is the writer's practical advice?",
+          "options": [
+            "Book well-reviewed restaurants in advance",
+            "Ignore what a place looks like — the queue outside tells you more than the decoration inside",
+            "Eat where the locals eat at lunchtime"
+          ],
+          "answerIndex": 1,
+          "explanation": "The examples given are a shed with a smoker, a counter with eight stools, and a truck."
+        }
+      ]
+    },
+    {
+      "id": "b1-food-matching",
+      "type": "matching",
+      "title": "Region and Dish",
+      "instructions": "Match each region or tradition to what the text says it is known for.",
+      "items": [
+        {
+          "id": "fom1",
+          "pairs": [
+            {
+              "left": "Texas barbecue",
+              "right": "beef brisket with salt, pepper and smoke"
+            },
+            {
+              "left": "North Carolina barbecue",
+              "right": "pork with a thin vinegar sauce"
+            },
+            {
+              "left": "Tex-Mex",
+              "right": "the hard-shell taco, chilli con carne and fajitas"
+            },
+            {
+              "left": "New England",
+              "right": "cream-based clam chowder and lobster rolls"
+            },
+            {
+              "left": "Soul food",
+              "right": "fried chicken, collard greens and cornbread"
+            },
+            {
+              "left": "California",
+              "right": "light, vegetable-heavy cooking built on fresh produce"
+            },
+            {
+              "left": "The diner",
+              "right": "eggs, pancakes, burgers and bottomless coffee"
+            }
+          ],
+          "explanation": "Seven entries, and no two of them would appear on the same menu — which is the argument the text opens with."
+        }
+      ]
+    },
+    {
+      "id": "b1-food-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "fot1",
+          "statement": "Barbecue and grilling mean the same thing.",
+          "answer": false,
+          "explanation": "False — barbecue is slow cooking over wood smoke, “not food grilled quickly over a flame”."
+        },
+        {
+          "id": "fot2",
+          "statement": "Cumin and yellow cheese are typical of cooking in Mexico City.",
+          "answer": false,
+          "explanation": "False — a cook there “would find them peculiar”. They are Tex-Mex markers."
+        },
+        {
+          "id": "fot3",
+          "statement": "The writer says Tex-Mex is inauthentic.",
+          "answer": false,
+          "explanation": "False — the opposite: calling it inauthentic “misses what it actually is”."
+        },
+        {
+          "id": "fot4",
+          "statement": "Soul food was built on making good use of cheap ingredients.",
+          "answer": true,
+          "explanation": "True — and the text notes this is “true of most of the world's best cooking”."
+        },
+        {
+          "id": "fot5",
+          "statement": "The writer claims diner food is among the country's best cooking.",
+          "answer": false,
+          "explanation": "False — “nobody claims it is”. Its value is that it is open when nothing else is."
+        }
+      ]
+    },
+    {
+      "id": "b1-food-vocabulary",
+      "type": "fill-blank",
+      "title": "Food Vocabulary",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "fof1",
+          "prompt": "The two regional ___ barely ___ at all.",
+          "answers": [
+            "cuisines",
+            "overlap"
+          ],
+          "options": [
+            [
+              "cuisines",
+              "variations",
+              "institutions"
+            ],
+            [
+              "overlap",
+              "acknowledge",
+              "refill"
+            ]
+          ],
+          "explanation": "A cuisine is the characteristic cooking of a place; to overlap is to have parts in common."
+        },
+        {
+          "id": "fof2",
+          "prompt": "The meat is covered in a ___ ___ before it goes in the smoker.",
+          "answers": [
+            "dry",
+            "rub"
+          ],
+          "options": [
+            [
+              "dry",
+              "wet",
+              "thin"
+            ],
+            [
+              "rub",
+              "sauce",
+              "coat"
+            ]
+          ],
+          "explanation": "A dry rub is a mix of spices pressed onto the meat before cooking."
+        },
+        {
+          "id": "fof3",
+          "prompt": "The state grows most of the country's ___.",
+          "answers": [
+            "produce"
+          ],
+          "options": [
+            "produce",
+            "cuisine",
+            "chowder"
+          ],
+          "explanation": "Produce means fresh fruit and vegetables."
+        },
+        {
+          "id": "fof4",
+          "prompt": "The diner is less a restaurant than an ___.",
+          "answers": [
+            "institution"
+          ],
+          "options": [
+            "institution",
+            "eccentric",
+            "variation"
+          ],
+          "explanation": "An institution is something so long-established that it is part of the culture."
+        },
+        {
+          "id": "fof5",
+          "prompt": "Its influence is greater than most people ___.",
+          "answers": [
+            "acknowledge"
+          ],
+          "options": [
+            "acknowledge",
+            "overlap",
+            "refill"
+          ],
+          "explanation": "To acknowledge is to admit or recognise something publicly."
+        },
+        {
+          "id": "fof6",
+          "prompt": "The coffee is ___ without your having to ask.",
+          "answers": [
+            "refilled"
+          ],
+          "options": [
+            "refilled",
+            "acknowledged",
+            "laminated"
+          ],
+          "explanation": "To refill is to fill again — a defining detail of the American diner."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "“The queue outside tells you more than the decoration inside.” Is that true where you live?",
+    "The writer defends Tex-Mex against the charge of being inauthentic. When does a food stop being a copy and become its own thing?",
+    "Soul food is described as built on cheap ingredients, like much of the world's best cooking. Does your country's traditional food fit that pattern?",
+    "People argue about barbecue “with more energy than they bring to politics”. Why does food produce such strong loyalty?",
+    "Write about 150 words explaining the regional differences in your own country's cooking to someone who assumes it is all the same."
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "id": "b1-reading-cybersecurity",
+  "level": "B1",
+  "slug": "cybersecurity",
+  "topic": "tech",
+  "title": "Protecting Your Own Accounts",
+  "subtitle": "Five things that actually work, and why the advice you were given ten years ago was wrong.",
+  "description": "A B1 technology reading and listening text on personal online security — passwords, two-factor authentication, updates, phishing and backups — with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/cybersecurity.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "3:37"
+  },
+  "passage": [
+    "Most people's picture of online crime involves somebody breaking through a wall of security. Almost none of it works that way. The accounts that get taken over are taken over because a password was reused, or because somebody was persuaded to type it into the wrong box, and the defences that help are correspondingly unglamorous.",
+    "The first is not reusing passwords. This matters more than making them complicated. When a company is breached, the stolen list of email addresses and passwords is sold, and the buyers try those combinations on every other service they can think of. If your email password is also your bank password, one company's bad day becomes yours. A password used in exactly one place is worth more than a clever password used in five.",
+    "The advice to build passwords out of substituted characters — replacing an o with a zero, adding an exclamation mark at the end — has quietly been abandoned, because the software that guesses passwords has known those tricks for twenty years, and because it produces passwords that are hard for people to remember and easy for machines to crack. A long ordinary phrase is stronger than a short mangled word. The practical answer for most people is a password manager: one genuinely strong password you remember, and a program that stores the rest, so that they can all be long and all be different without you memorising anything.",
+    "The second defence is two-factor authentication, usually a code from an app on your phone in addition to your password. It is the single most effective thing on this list, because it means a stolen password on its own is not enough. It is also mildly annoying, which is why many people do not switch it on, and that trade — a few seconds against losing an account entirely — is the whole argument.",
+    "The third is installing updates. A great many attacks use a weakness that was found, reported, and fixed months earlier, and they work only on devices where the fix was never installed. Postponing an update for a week is fine. Postponing it for a year is how an ordinary phone becomes an easy target.",
+    "The fourth is suspicion about messages. Phishing means a message designed to make you hand over a password or open an attachment, and the good ones do not look suspicious at all — they look like your bank, or a delivery company, or your employer's IT department. What they share is urgency: your account will be closed, a payment has failed, act now. Urgency is the tell. A genuine organisation is content for you to close the message, open the app yourself, and check.",
+    "The fifth is backups, which are not about crime until suddenly they are. If a device is lost, broken or locked by ransomware, the only thing that matters is whether a copy of your files exists somewhere else. The rule people use is three copies, on two kinds of storage, with one somewhere other than your home.",
+    "None of this makes anybody safe, which is not the standard to aim at. The standard is being harder work than the next person, because almost all of this is automated and automated attacks move on. Most of the damage in ordinary people's lives comes from a small number of very common mistakes, and five habits remove nearly all of them."
+  ],
+  "vocabulary": [
+    {
+      "term": "to take over",
+      "definition": "to gain control of something that belongs to someone else",
+      "match": "taken over"
+    },
+    {
+      "term": "to reuse",
+      "definition": "to use the same thing again in another place",
+      "match": "reused"
+    },
+    {
+      "term": "unglamorous",
+      "definition": "dull and unimpressive, though effective"
+    },
+    {
+      "term": "to breach",
+      "definition": "to break into a system and take data from it",
+      "match": "breached"
+    },
+    {
+      "term": "combination",
+      "definition": "a particular pairing, such as an email address and a password",
+      "match": "combinations"
+    },
+    {
+      "term": "to substitute",
+      "definition": "to put one thing in place of another",
+      "match": "substituted"
+    },
+    {
+      "term": "to abandon",
+      "definition": "to stop using or believing something",
+      "match": "abandoned"
+    },
+    {
+      "term": "to crack",
+      "definition": "to work out a password or code by force"
+    },
+    {
+      "term": "mangled",
+      "definition": "damaged and distorted out of its proper form"
+    },
+    {
+      "term": "password manager",
+      "definition": "a program that stores all your passwords behind one master password"
+    },
+    {
+      "term": "two-factor authentication",
+      "definition": "proving who you are with two separate things, such as a password and a phone code"
+    },
+    {
+      "term": "trade",
+      "definition": "an exchange in which you accept one cost to avoid another"
+    },
+    {
+      "term": "to postpone",
+      "definition": "to delay something to a later time",
+      "match": "Postponing"
+    },
+    {
+      "term": "phishing",
+      "definition": "a message designed to trick you into giving up a password or opening a harmful file"
+    },
+    {
+      "term": "attachment",
+      "definition": "a file sent together with a message"
+    },
+    {
+      "term": "urgency",
+      "definition": "pressure to act immediately"
+    },
+    {
+      "term": "tell",
+      "definition": "a small sign that gives away what is really going on"
+    },
+    {
+      "term": "ransomware",
+      "definition": "software that locks your files and demands payment to release them"
+    },
+    {
+      "term": "backup",
+      "definition": "a spare copy of your files kept in case the original is lost",
+      "match": "backups"
+    },
+    {
+      "term": "automated",
+      "definition": "carried out by software without a person directing each step"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-cy-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Several of these correct advice the reader may already believe.",
+      "items": [
+        {
+          "id": "cy1",
+          "prompt": "How does the text say accounts are usually taken over?",
+          "options": [
+            "By breaking through security systems",
+            "Because a password was reused, or somebody typed it into the wrong box",
+            "By guessing common passwords at random"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Almost none of it works that way” — the opening paragraph replaces the dramatic picture with the ordinary one."
+        },
+        {
+          "id": "cy2",
+          "prompt": "Why does reusing a password matter more than how complicated it is?",
+          "options": [
+            "Because complicated passwords are easier to steal",
+            "Because most services now require simple passwords",
+            "Because when one company is breached, the stolen pairs are tried everywhere else"
+          ],
+          "answerIndex": 2,
+          "explanation": "“If your email password is also your bank password, one company's bad day becomes yours.”"
+        },
+        {
+          "id": "cy3",
+          "prompt": "Why has the advice about substituting characters been abandoned?",
+          "options": [
+            "Because guessing software has known those tricks for twenty years, and the results are hard for people and easy for machines",
+            "Because some sites no longer accept symbols",
+            "Because it makes passwords too long"
+          ],
+          "answerIndex": 0,
+          "explanation": "The text draws the conclusion directly: “a long ordinary phrase is stronger than a short mangled word”."
+        },
+        {
+          "id": "cy4",
+          "prompt": "What does a password manager let you do?",
+          "options": [
+            "Use the same strong password everywhere safely",
+            "Remember one strong password while every other one is long and different",
+            "Avoid needing passwords at all"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Without you memorising anything” — it removes the trade-off between strength and memorability."
+        },
+        {
+          "id": "cy5",
+          "prompt": "Why does the text call two-factor authentication the most effective item on the list?",
+          "options": [
+            "Because it replaces the need for a password",
+            "Because it is the easiest to set up",
+            "Because a stolen password on its own is then not enough"
+          ],
+          "answerIndex": 2,
+          "explanation": "And the text is honest that it is “mildly annoying”, which is why people skip it."
+        },
+        {
+          "id": "cy6",
+          "prompt": "Why do updates matter?",
+          "options": [
+            "They add security features that did not exist before",
+            "Many attacks only work on devices where an already-published fix was never installed",
+            "They remove software that has become unsafe"
+          ],
+          "answerIndex": 1,
+          "explanation": "The weakness “was found, reported, and fixed months earlier” — the attack targets the gap between the fix and its installation."
+        },
+        {
+          "id": "cy7",
+          "prompt": "What does the text identify as the sign of a phishing message?",
+          "options": [
+            "Spelling mistakes",
+            "An unfamiliar sender address",
+            "Urgency — pressure to act immediately"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Urgency is the tell”, and the contrast is that a genuine organisation is content for you to check independently."
+        },
+        {
+          "id": "cy8",
+          "prompt": "What is the writer's standard for personal security?",
+          "options": [
+            "Being completely safe from attack",
+            "Being harder work than the next person, because automated attacks move on",
+            "Using only the most secure services"
+          ],
+          "answerIndex": 1,
+          "explanation": "“None of this makes anybody safe, which is not the standard to aim at.”"
+        }
+      ]
+    },
+    {
+      "id": "b1-cy-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "cyt1",
+          "statement": "A clever password used on five sites is safer than a simple one used on one.",
+          "answer": false,
+          "explanation": "False — “a password used in exactly one place is worth more than a clever password used in five”."
+        },
+        {
+          "id": "cyt2",
+          "statement": "Delaying an update by a week is treated as acceptable.",
+          "answer": true,
+          "explanation": "True — “postponing an update for a week is fine”. A year is the problem."
+        },
+        {
+          "id": "cyt3",
+          "statement": "Good phishing messages usually look obviously suspicious.",
+          "answer": false,
+          "explanation": "False — “the good ones do not look suspicious at all”; they imitate a bank, a courier or an IT department."
+        },
+        {
+          "id": "cyt4",
+          "statement": "The backup rule is three copies, two kinds of storage, one kept elsewhere.",
+          "answer": true,
+          "explanation": "True — stated as the rule people use."
+        },
+        {
+          "id": "cyt5",
+          "statement": "Two-factor authentication is described as completely convenient.",
+          "answer": false,
+          "explanation": "False — it is “mildly annoying”, and the text presents that annoyance as the trade being made."
+        },
+        {
+          "id": "cyt6",
+          "statement": "Backups only matter in cases of crime.",
+          "answer": false,
+          "explanation": "False — “not about crime until suddenly they are”; a lost or broken device needs them just as much."
+        }
+      ]
+    },
+    {
+      "id": "b1-cy-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "cyf1",
+          "prompt": "The company was ___ and its customer list was stolen.",
+          "answers": [
+            "breached"
+          ],
+          "options": [
+            "breached",
+            "cracked",
+            "postponed"
+          ],
+          "explanation": "To breach is to break into a system and take data from it."
+        },
+        {
+          "id": "cyf2",
+          "prompt": "Never ___ a password across different accounts.",
+          "answers": [
+            "reuse"
+          ],
+          "options": [
+            "reuse",
+            "abandon",
+            "substitute"
+          ],
+          "explanation": "To reuse is to use the same thing again somewhere else — the single most common mistake in the text."
+        },
+        {
+          "id": "cyf3",
+          "prompt": "The message wanted me to open an ___ I had not expected.",
+          "answers": [
+            "attachment"
+          ],
+          "options": [
+            "attachment",
+            "authentication",
+            "urgency"
+          ],
+          "explanation": "An attachment is a file sent with a message — a standard phishing method."
+        },
+        {
+          "id": "cyf4",
+          "prompt": "The ___ in the message was the ___ that it was fake.",
+          "answers": [
+            "urgency",
+            "tell"
+          ],
+          "options": [
+            [
+              "urgency",
+              "backup",
+              "trade"
+            ],
+            [
+              "tell",
+              "trade",
+              "breach"
+            ]
+          ],
+          "explanation": "Urgency is pressure to act now; a tell is the small sign that gives something away."
+        },
+        {
+          "id": "cyf5",
+          "prompt": "Keep a ___ somewhere other than your home.",
+          "answers": [
+            "backup"
+          ],
+          "options": [
+            "backup",
+            "password",
+            "attachment"
+          ],
+          "explanation": "A backup is a spare copy kept in case the original is lost."
+        },
+        {
+          "id": "cyf6",
+          "prompt": "Most attacks are ___, so they move on when a target is difficult.",
+          "answers": [
+            "automated"
+          ],
+          "options": [
+            "automated",
+            "mangled",
+            "unglamorous"
+          ],
+          "explanation": "Automated means carried out by software without a person directing each step — which is why being harder work is enough."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "“Urgency is the tell.” Think of the last message that tried to hurry you. What was it asking for?",
+    "Two-factor authentication is effective and annoying. Where else do you accept a small daily cost to avoid a rare large one?",
+    "The advice about substituted characters was taught for years and is now abandoned. How should ordinary people keep up when expert advice changes?",
+    "Is “being harder work than the next person” a fair standard, or does it just move the problem to someone else?",
+    "Write about 150 words giving security advice to a relative who is not confident with technology. Choose the two things you would tell them first."
+  ]
+}

@@ -71,6 +71,12 @@
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
  },
+ "b1/animal-solutions": {
+  "bytes": 1127664,
+  "fingerprint": "24b9050433c5643a",
+  "rate": "-8%",
+  "voice": "en-US-BrianNeural"
+ },
  "b1/arriving-in-johannesburg": {
   "bytes": 1303488,
   "fingerprint": "31df992e4599c6cb",
@@ -119,6 +125,12 @@
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
+ "b1/cybersecurity": {
+  "bytes": 1303488,
+  "fingerprint": "305432f832d8ca69",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
+ },
  "b1/detective-story": {
   "bytes": 1200096,
   "fingerprint": "95db2478ec5b4b5d",
@@ -155,6 +167,18 @@
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
  },
+ "b1/maringa": {
+  "bytes": 1238976,
+  "fingerprint": "3db207360b9498b4",
+  "rate": "-8%",
+  "voice": "en-US-BrianNeural"
+ },
+ "b1/milan-restaurants": {
+  "bytes": 1263888,
+  "fingerprint": "10bc5ee92b32efae",
+  "rate": "-8%",
+  "voice": "en-US-EmmaNeural"
+ },
  "b1/my-day-in-vienna-to-by-for": {
   "bytes": 766944,
   "fingerprint": "8b33f84e28ec7745",
@@ -178,6 +202,12 @@
   "fingerprint": "6ca62b7c15c9e103",
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
+ },
+ "b1/santa-catarina": {
+  "bytes": 963792,
+  "fingerprint": "1edce731cc9c8ae9",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
  },
  "b1/say-speak-talk-tell-02": {
   "bytes": 736128,

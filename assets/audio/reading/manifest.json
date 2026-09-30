@@ -197,6 +197,12 @@
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
  },
+ "b1/hachiko": {
+  "bytes": 1047744,
+  "fingerprint": "6339ae591862b4ff",
+  "rate": "-8%",
+  "voice": "en-US-BrianNeural"
+ },
  "b1/investigation-story": {
   "bytes": 934848,
   "fingerprint": "db0e590f0106cb61",
@@ -256,6 +262,12 @@
   "fingerprint": "6d4ca8e20a4d7ddb",
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
+ },
+ "b1/robot-birds": {
+  "bytes": 821520,
+  "fingerprint": "c1a4cf8eec63d886",
+  "rate": "-8%",
+  "voice": "en-US-BrianNeural"
  },
  "b1/santa-catarina": {
   "bytes": 963792,
@@ -329,6 +341,12 @@
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
  },
+ "b2/intelligence-pills": {
+  "bytes": 1096992,
+  "fingerprint": "2f30e7dbe83639e1",
+  "rate": "+0%",
+  "voice": "en-US-GuyNeural"
+ },
  "b2/it-and-jiu-jitsu": {
   "bytes": 980064,
   "fingerprint": "d80ff9c510075da5",
@@ -340,6 +358,12 @@
   "fingerprint": "7642162d73e22994",
   "rate": "+0%",
   "voice": "en-US-BrianNeural"
+ },
+ "b2/john-snow": {
+  "bytes": 1128528,
+  "fingerprint": "537767a0d432285b",
+  "rate": "+0%",
+  "voice": "en-US-MichelleNeural"
  },
  "b2/north-sentinel-island": {
   "bytes": 1432944,

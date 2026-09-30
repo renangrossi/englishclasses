@@ -1429,13 +1429,14 @@
       "level": "B2",
       "topic": "society",
       "action": "SPLIT",
-      "audio": "required",
-      "reason": "Several unrelated short articles ('Robot Birds' and others) in one file; split so each gets its own page, questions and audio.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Several unrelated short articles ('Robot Birds' and others) in one file; split so each gets its own page, questions and audio. — DONE: split into four pages, each with its own questions and audio — b1/robot-birds, b1/hachiko, b2/intelligence-pills and b2/john-snow. The source's Right / Wrong / Doesn't say format is kept, because the third option teaches something true-false cannot: telling what a text states from what a reader assumes. Each article was fact-checked and updated where it had drifted — Snow's outbreak was 1854 not 1855 and the Board of Health rejected his finding; Hachiko was fed and housed by others, and the present statue is a 1948 replacement; the Liverpool robops and the 'intelligence pills' predictions were both de-dated.",
+      "status": "IMPLEMENTED",
       "card_title": "Text Interpretation",
       "source_files": [
         "cefr/texts/text-interpretation.pdf"
-      ]
+      ],
+      "page": "reading/b1/robot-birds.html"
     },
     {
       "slug": "text-interpretation-aesops-fables",

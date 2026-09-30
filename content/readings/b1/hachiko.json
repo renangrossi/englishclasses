@@ -1,0 +1,378 @@
+{
+  "id": "b1-reading-hachiko",
+  "level": "B1",
+  "slug": "hachiko",
+  "topic": "culture",
+  "title": "Japan's Most Famous Dog",
+  "subtitle": "A bronze dog outside Shibuya station, and the nine years that put him there.",
+  "description": "A B1 reading and listening text telling the story of Hachiko, with a Right / Wrong / Doesn't say comprehension exercise that teaches the difference between what a text states and what a reader assumes.",
+  "source": "cefr/texts/text-interpretation.docx (part 3 of 4)",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "2:54"
+  },
+  "passage": [
+    "In front of Shibuya station in Tokyo, one of the busiest railway stations in the world, there is a life-size bronze statue of a dog. It is small next to the enormous screens and neon signs above it, and it is still the easiest thing in the area to find, because there is always a crowd standing around it. Since the 1930s it has been the place people in Tokyo arrange to meet. You do not look for the statue. You look for the people waiting.",
+    "The dog was called Hachiko. He was an Akita, born in 1923 and brought to Tokyo the following year by Professor Ueno, who taught agricultural science at what was then the Imperial University. The two of them were inseparable almost immediately. Every morning Hachiko walked with him to the station and watched him leave for work, and every evening he was there again when the professor came back.",
+    "In 1925, a little over a year after Hachiko arrived, the professor had a brain haemorrhage at the university and died. He did not come home, and he did not come back to the station.",
+    "Hachiko kept going. He returned to Shibuya at roughly the same hour, day after day, and waited. He did this for nine years, until his own death in 1935.",
+    "It is worth being careful about the story, because it has been retold so many times that the sentimental version has almost replaced the facts. Hachiko did not live at the station the whole time; he was taken in by former gardeners and relatives of the professor, and he came to the station from where he lived. Street vendors and commuters fed him, and some people have argued that the food is the real reason he kept coming back — an argument that is impossible to settle and, to be fair, does not explain the timing, since he tended to arrive around the hour the train had once brought the professor in.",
+    "What is certain is that he was there for nine years, that the commuters came to know him, and that a newspaper article in 1932 made him famous across the country. The statue went up in 1934, while he was still alive, and he is said to have attended the unveiling. The original was melted down for metal during the war; the one standing there now was made in 1948 by the son of the sculptor who made the first.",
+    "Hachiko died in March 1935, near the station, of causes that were only established much later — he had cancer and a heart infection, and, as it turned out, several skewers from grilled meat in his stomach, which had not killed him.",
+    "The story is told in Japan as a lesson about loyalty, and abroad, usually, as a sad film. What is genuinely striking about it is smaller than either: an animal built a habit around a person, the person stopped arriving, and the habit held for nine years in a place where several hundred thousand strangers walked past it every day."
+  ],
+  "vocabulary": [
+    {
+      "term": "life-size",
+      "definition": "the same size as the real thing"
+    },
+    {
+      "term": "bronze",
+      "definition": "a hard brown metal used for statues"
+    },
+    {
+      "term": "to arrange to meet",
+      "definition": "to agree a place and time to see somebody",
+      "match": "arrange to meet"
+    },
+    {
+      "term": "inseparable",
+      "definition": "always together; impossible to keep apart"
+    },
+    {
+      "term": "haemorrhage",
+      "definition": "heavy bleeding, here inside the brain"
+    },
+    {
+      "term": "sentimental",
+      "definition": "appealing to feeling more than to fact"
+    },
+    {
+      "term": "to take someone in",
+      "definition": "to give somebody a home",
+      "match": "taken in"
+    },
+    {
+      "term": "vendor",
+      "definition": "somebody who sells things, often in the street",
+      "match": "vendors"
+    },
+    {
+      "term": "commuter",
+      "definition": "somebody who travels to work every day",
+      "match": "commuters"
+    },
+    {
+      "term": "to settle an argument",
+      "definition": "to end it by showing which side is right",
+      "match": "settle"
+    },
+    {
+      "term": "to be fair",
+      "definition": "a phrase used when you admit a point against your own case",
+      "match": "to be fair"
+    },
+    {
+      "term": "unveiling",
+      "definition": "the ceremony where a statue is shown to the public for the first time"
+    },
+    {
+      "term": "to melt down",
+      "definition": "to heat metal until it becomes liquid, so it can be reused",
+      "match": "melted down"
+    },
+    {
+      "term": "skewer",
+      "definition": "a thin stick used to hold food while it is grilled",
+      "match": "skewers"
+    },
+    {
+      "term": "loyalty",
+      "definition": "staying faithful to somebody, even when there is nothing to gain"
+    },
+    {
+      "term": "striking",
+      "definition": "noticeable and hard to forget"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-hachi-rwd",
+      "type": "multiple-choice",
+      "title": "Right, Wrong, or Doesn't Say?",
+      "instructions": "This is harder than it looks. Choose RIGHT only if the text states it, WRONG if the text contradicts it, and DOESN'T SAY if the text simply does not tell you — even when you think you can guess the answer.",
+      "items": [
+        {
+          "id": "hr1",
+          "prompt": "The statue of Hachiko is small.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — it is life-size, and the text calls it “small next to the enormous screens and neon signs”."
+        },
+        {
+          "id": "hr2",
+          "prompt": "The statue is easy to find because of the crowd around it.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — “You do not look for the statue. You look for the people waiting.”"
+        },
+        {
+          "id": "hr3",
+          "prompt": "Professor Ueno worked in a school.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — he taught at a university. This is the item most people get wrong, because “teacher” and “school” feel interchangeable until you check."
+        },
+        {
+          "id": "hr4",
+          "prompt": "The professor died at work.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 0,
+          "explanation": "Right — he had a brain haemorrhage at the university."
+        },
+        {
+          "id": "hr5",
+          "prompt": "Hachiko lived at the station.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — the text corrects this directly: he was taken in by other people and came to the station from where he lived."
+        },
+        {
+          "id": "hr6",
+          "prompt": "Nobody gave Hachiko any food.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — street vendors and commuters fed him, and that is the basis of the sceptical explanation."
+        },
+        {
+          "id": "hr7",
+          "prompt": "Hachiko was present when the statue was unveiled.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 2,
+          "explanation": "Doesn't say for certain — the text says he “is said to have attended”, which reports a claim rather than confirming it. Notice how much work those four words do."
+        },
+        {
+          "id": "hr8",
+          "prompt": "The statue standing outside the station today is the original one.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wrong — the original was melted down during the war; the present one dates from 1948."
+        },
+        {
+          "id": "hr9",
+          "prompt": "Hachiko was more popular than other dogs in Tokyo.",
+          "options": [
+            "Right",
+            "Wrong",
+            "Doesn't say"
+          ],
+          "answerIndex": 2,
+          "explanation": "Doesn't say — the text says a newspaper article made him famous, but never compares him with any other dog."
+        }
+      ]
+    },
+    {
+      "id": "b1-hachi-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for how the writer handles a story that has been told many times.",
+      "items": [
+        {
+          "id": "hc1",
+          "prompt": "How long did Hachiko return to the station?",
+          "options": [
+            "Nine years, until his own death in 1935",
+            "Until the statue was built in 1934",
+            "For about a year after the professor died"
+          ],
+          "answerIndex": 0,
+          "explanation": "1925 to 1935 — roughly nine years after the professor stopped coming."
+        },
+        {
+          "id": "hc2",
+          "prompt": "Why does the writer say it is “worth being careful about the story”?",
+          "options": [
+            "Because the dates are disputed",
+            "Because the sentimental version has almost replaced the facts",
+            "Because the statue has been moved several times"
+          ],
+          "answerIndex": 1,
+          "explanation": "Which is why the next sentences correct two things most retellings get wrong."
+        },
+        {
+          "id": "hc3",
+          "prompt": "What is the sceptical explanation for Hachiko's return, and how does the writer treat it?",
+          "options": [
+            "That he was fed there — and the writer calls it impossible to settle, while noting it does not explain the timing",
+            "That he was lost and could not find his way home",
+            "That the station staff brought him each day"
+          ],
+          "answerIndex": 0,
+          "explanation": "The writer neither dismisses nor accepts it, and the point about the hour is a genuine objection rather than a rhetorical one."
+        },
+        {
+          "id": "hc4",
+          "prompt": "What happened to the original statue?",
+          "options": [
+            "It was moved inside the station",
+            "It was melted down for metal during the war",
+            "It was destroyed in an earthquake"
+          ],
+          "answerIndex": 1,
+          "explanation": "And the replacement was made in 1948 by the son of the original sculptor."
+        },
+        {
+          "id": "hc5",
+          "prompt": "What does the writer find “genuinely striking” about the story?",
+          "options": [
+            "That it became a film",
+            "That the statue is a meeting place",
+            "That a habit built around one person held for nine years in a place full of strangers"
+          ],
+          "answerIndex": 2,
+          "explanation": "The final paragraph explicitly rejects both the loyalty reading and the sad-film reading in favour of something smaller and stranger."
+        }
+      ]
+    },
+    {
+      "id": "b1-hachi-vocabulary",
+      "type": "fill-blank",
+      "title": "Vocabulary in Context",
+      "instructions": "Complete each sentence with the right word or phrase.",
+      "items": [
+        {
+          "id": "hf1",
+          "prompt": "The two of them were ___ — you never saw one without the other.",
+          "answers": [
+            "inseparable"
+          ],
+          "options": [
+            "inseparable",
+            "sentimental",
+            "striking"
+          ],
+          "explanation": "Inseparable means impossible to keep apart."
+        },
+        {
+          "id": "hf2",
+          "prompt": "After his owner died, a neighbour ___ him ___.",
+          "answers": [
+            "took",
+            "in"
+          ],
+          "options": [
+            [
+              "took",
+              "brought",
+              "gave"
+            ],
+            [
+              "in",
+              "on",
+              "up"
+            ]
+          ],
+          "explanation": "To take somebody in is to give them a home."
+        },
+        {
+          "id": "hf3",
+          "prompt": "Thousands of ___ pass through the station every morning.",
+          "answers": [
+            "commuters"
+          ],
+          "options": [
+            "commuters",
+            "vendors",
+            "skewers"
+          ],
+          "explanation": "A commuter travels to work every day; a vendor sells things."
+        },
+        {
+          "id": "hf4",
+          "prompt": "The argument cannot be ___ either way.",
+          "answers": [
+            "settled"
+          ],
+          "options": [
+            "settled",
+            "melted",
+            "unveiled"
+          ],
+          "explanation": "To settle an argument is to end it by showing which side is right."
+        },
+        {
+          "id": "hf5",
+          "prompt": "It is a ___ story, and, ___ ___ ___, a slightly strange one.",
+          "answers": [
+            "striking",
+            "to",
+            "be",
+            "fair"
+          ],
+          "options": [
+            [
+              "striking",
+              "loyal",
+              "bronze"
+            ],
+            [
+              "to",
+              "for",
+              "in"
+            ],
+            [
+              "be",
+              "being",
+              "been"
+            ],
+            [
+              "fair",
+              "honest",
+              "true"
+            ]
+          ],
+          "explanation": "Striking means hard to forget; “to be fair” introduces a point against your own argument."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The writer separates the loyalty story from what can actually be established. Does the sceptical version make the story less moving?",
+    "“He is said to have attended.” Why does a careful writer use that phrasing instead of simply saying he was there?",
+    "The statue is used as a meeting point by people who may not know the story at all. Does that matter?",
+    "Is there a famous animal story in your country? How much of it do you think is true?",
+    "Write about 150 words about a habit somebody you know has kept for years, and say what started it."
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": "a2-reading-the-day-at-the-market",
+  "level": "A2",
+  "slug": "the-day-at-the-market",
+  "topic": "food",
+  "title": "A Saturday at the Market",
+  "subtitle": "A weekly routine at the farmers market — and why it is about more than the shopping.",
+  "description": "An A2 reading and listening text about a weekly trip to the farmers market, with food vocabulary, present-simple practice and comprehension exercises.",
+  "source": "cefr/texts/the-day-at-the-market.docx",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "2:02"
+  },
+  "passage": [
+    "Every Saturday, I go to the farmers market with my friend Grace. It is always busy and full of people. We like to go early in the morning, because it is not too hot yet and the best things are still there.",
+    "First, we look at the vegetables. There are so many colors: red tomatoes, green peppers, yellow corn. Grace loves to cook, so she buys a lot of these. She always says that good food starts with good ingredients.",
+    "Next, we go to the fruit stands. There are apples, bananas, peaches and strawberries. I love strawberries, so I always buy a small box. They are sweet and fresh, and they are perfect for breakfast.",
+    "After the fruit and vegetables, we walk to the meat and fish counter. There is chicken, beef and fish. Fish is my favorite. It is good for you, and I like to grill it for dinner.",
+    "We also stop at the bread stand. Fresh bread smells wonderful. We buy a loaf to eat with butter and jam. It is simple, but it is delicious.",
+    "The market is not only about food. There are clothes too, and sometimes there is live music. It makes the shopping fun. We see people we know, we say hello, and we talk for a few minutes. It feels like a community.",
+    "Before we leave, we get a cup of coffee. It is nice to sit down after walking around for two hours. We talk about our week, our plans, and what we are going to cook with everything we bought.",
+    "Going to the market is more than shopping. It is about enjoying the morning, seeing friends and trying something new. It is one of my favorite parts of the week."
+  ],
+  "vocabulary": [
+    {
+      "term": "a stand / a stall",
+      "definition": "a small open shop at a market"
+    },
+    {
+      "term": "fresh",
+      "definition": "recently picked or made; not old"
+    },
+    {
+      "term": "ingredients",
+      "definition": "the different foods you use to cook a dish"
+    },
+    {
+      "term": "a loaf (of bread)",
+      "definition": "one whole piece of bread, before you cut it"
+    },
+    {
+      "term": "to grill",
+      "definition": "to cook over direct heat, often outside"
+    },
+    {
+      "term": "a counter",
+      "definition": "the long flat surface in a store where you are served"
+    },
+    {
+      "term": "a community",
+      "definition": "the people who live in one place and know each other"
+    },
+    {
+      "term": "to stop by / stop at",
+      "definition": "to visit a place for a short time"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-market-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer the questions from the text.",
+      "items": [
+        {
+          "id": "mk1",
+          "prompt": "When do they go to the market?",
+          "options": [
+            "Every Saturday morning",
+            "Every Sunday evening",
+            "Every day after work"
+          ],
+          "answerIndex": 0,
+          "explanation": "The text begins: \"Every Saturday, I go to the farmers market.\" They go early in the morning."
+        },
+        {
+          "id": "mk2",
+          "prompt": "Why do they go early?",
+          "options": [
+            "Because it is cheaper",
+            "Because it is not too hot and the best things are still there",
+            "Because the market closes at nine"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"We like to go early in the morning, because it is not too hot yet and the best things are still there.\""
+        },
+        {
+          "id": "mk3",
+          "prompt": "Who loves to cook?",
+          "options": [
+            "The writer",
+            "Grace",
+            "Both of them"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Grace loves to cook, so she buys a lot of these.\""
+        },
+        {
+          "id": "mk4",
+          "prompt": "What does the writer always buy at the fruit stands?",
+          "options": [
+            "Bananas",
+            "Peaches",
+            "A small box of strawberries"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"I love strawberries, so I always buy a small box.\""
+        },
+        {
+          "id": "mk5",
+          "prompt": "How does the writer like to cook fish?",
+          "options": [
+            "Grilled",
+            "Fried",
+            "In soup"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"I like to grill it for dinner.\""
+        },
+        {
+          "id": "mk6",
+          "prompt": "What do they do before they leave?",
+          "options": [
+            "They buy flowers",
+            "They get a cup of coffee and sit down",
+            "They go back for more bread"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Before we leave, we get a cup of coffee. It is nice to sit down.\""
+        },
+        {
+          "id": "mk7",
+          "prompt": "Why does the market feel like a community?",
+          "options": [
+            "Because it is very large",
+            "Because they see people they know and talk to them",
+            "Because the food is cheap"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"We see people we know, we say hello, and we talk for a few minutes. It feels like a community.\""
+        }
+      ]
+    },
+    {
+      "id": "a2-market-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each sentence is true according to the text.",
+      "items": [
+        {
+          "id": "mkt1",
+          "statement": "They go to the market in the afternoon.",
+          "answer": false,
+          "explanation": "False — they go early in the morning."
+        },
+        {
+          "id": "mkt2",
+          "statement": "The market sells only food.",
+          "answer": false,
+          "explanation": "False — \"The market is not only about food. There are clothes too, and sometimes there is live music.\""
+        },
+        {
+          "id": "mkt3",
+          "statement": "They buy a loaf of bread to eat with butter and jam.",
+          "answer": true,
+          "explanation": "True — that is exactly what the bread stand paragraph says."
+        },
+        {
+          "id": "mkt4",
+          "statement": "The writer thinks fish is good for you.",
+          "answer": true,
+          "explanation": "True — \"It is good for you, and I like to grill it for dinner.\""
+        },
+        {
+          "id": "mkt5",
+          "statement": "They stay at the market for about ten minutes.",
+          "answer": false,
+          "explanation": "False — they walk around for about two hours before they sit down for coffee."
+        }
+      ]
+    },
+    {
+      "id": "a2-market-vocabulary",
+      "type": "fill-blank",
+      "title": "Market Words",
+      "instructions": "Choose the word that fits each sentence.",
+      "items": [
+        {
+          "id": "mkf1",
+          "prompt": "The tomatoes are very ___ — they picked them this morning.",
+          "answers": [
+            "fresh"
+          ],
+          "options": [
+            "fresh",
+            "busy",
+            "simple"
+          ],
+          "explanation": "Fresh means recently picked or made."
+        },
+        {
+          "id": "mkf2",
+          "prompt": "We buy a ___ of bread every week.",
+          "answers": [
+            "loaf"
+          ],
+          "options": [
+            "loaf",
+            "box",
+            "cup"
+          ],
+          "explanation": "Bread comes in a loaf. Strawberries come in a box, and coffee in a cup."
+        },
+        {
+          "id": "mkf3",
+          "prompt": "Good food starts with good ___.",
+          "answers": [
+            "ingredients"
+          ],
+          "options": [
+            "ingredients",
+            "stands",
+            "counters"
+          ],
+          "explanation": "Ingredients are the foods you use to cook a dish."
+        },
+        {
+          "id": "mkf4",
+          "prompt": "I like to ___ fish for dinner in the summer.",
+          "answers": [
+            "grill"
+          ],
+          "options": [
+            "grill",
+            "smell",
+            "talk"
+          ],
+          "explanation": "To grill is to cook over direct heat."
+        },
+        {
+          "id": "mkf5",
+          "prompt": "We always ___ by the bread stand on our way out.",
+          "answers": [
+            "stop"
+          ],
+          "options": [
+            "stop",
+            "leave",
+            "sit"
+          ],
+          "explanation": "To stop by a place is to visit it for a short time."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Is there a market near you? What can you buy there, and how often do you go?",
+    "Do you prefer a market or a supermarket? Give two reasons.",
+    "Describe your own Saturday morning routine, using 'always', 'usually' and 'sometimes'.",
+    "Write a short paragraph (about 60 words) about a place near your home where people meet and talk."
+  ]
+}

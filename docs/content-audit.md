@@ -9,15 +9,15 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 1 of 98 implemented.**
+**Progress: 5 of 98 implemented.**
 
 ## Totals
 
 | Action | Count | Meaning |
 |---|---:|---|
 | DELETE | 5 | Nothing worth migrating. |
-| REPLACE | 8 | The slot is worth keeping, but authoring a new text beats repairing this one. |
-| MERGE | 16 | Two or more files teach essentially the same language in essentially the same context. |
+| REPLACE | 9 | The slot is worth keeping, but authoring a new text beats repairing this one. |
+| MERGE | 15 | Two or more files teach essentially the same language in essentially the same context. |
 | SPLIT | 8 | Several unrelated materials share one file; each deserves its own page, exercises and audio. |
 | EDIT | 34 | Useful material that needs correction before it goes on the site. |
 | CONVERT | 11 | Not a reading text -- a drill, answer key or discussion bank. |
@@ -45,8 +45,8 @@ content rather than as pre-existing.
 
 | Audio | Docs | |
 |---|---:|---|
-| `required` | 63 | must be generated |
-| `exists` | 5 | mp3 present and matches the text |
+| `required` | 60 | must be generated |
+| `exists` | 8 | mp3 present and matches the text |
 | `stale-on-edit` | 2 | mp3 present but the text is being edited -- **must be regenerated** |
 | `n/a` | 28 | drill / answer key / discussion bank -- not a reading text |
 
@@ -64,7 +64,7 @@ Nothing worth migrating. Each reason is given -- no existing material is dropped
 | `market-sumup` | 759 | reading | C1 | business | `n/a` | NOT STARTED | Single-day market report ('The S&P 500 fell about 0.7%... third straight weekly loss') tied to a specific Fed nomination. Already stale and cannot be kept current. |
 | `mind-games` | — | reference | n/a | n/a | `n/a` | NOT STARTED | PDF-only and image-based — the only extractable text is 'ACTIVITY 1/2/3', so there is no content to migrate. Deletion confirmed by the user. |
 
-## REPLACE (8)
+## REPLACE (9)
 
 The slot is worth keeping, but authoring a new text beats repairing this one.
 
@@ -78,8 +78,9 @@ The slot is worth keeping, but authoring a new text beats repairing this one.
 | `maringá` | 387 | reading | B1 | travel | `required` | NOT STARTED | City-attractions list for a Brazilian city; list format and off-brief. Replace with a US city reading serving the same 'describing a city' language. |
 | `milan-restaurants` | 608 | reading | B1 | food | `required` | NOT STARTED | Annotated restaurant list for Milan — no connected prose, no American context. Replace with a US dining-out reading. |
 | `santa-catarina` | 340 | reading | B1 | travel | `required` | NOT STARTED | A wholesome family-travel text in which the father 'decided to change careers and become a michê' — Brazilian slang for a male prostitute. Unusable as written; keep the present-perfect-continuous travel premise and rewrite. |
+| `say-speak-talk-tell`<br>[page](../reading/a2/saying-and-telling.html) | 330 | reading | A2 | everyday | `exists` | IMPLEMENTED | AUDIT CORRECTION: first classified as a duplicate of the-day-at-the-market because the two share the title 'A Day at the Market'. They are in fact different texts — that one is a present-simple habitual description, this one a past-tense narrative built around say/tell/speak/talk and quantifiers. Keeping both as market texts would still have been repetitive, so the teaching point was preserved and re-set in a new workplace context, which also serves the brief's workplace-English focus. |
 
-## MERGE (16)
+## MERGE (15)
 
 Two or more files teach essentially the same language in essentially the same context.
 
@@ -93,7 +94,6 @@ Two or more files teach essentially the same language in essentially the same co
 | `kitchen-chaos-i`<br>→ `kitchen-phrasal-verbs` | 228 | reading | B1 | everyday | `required` | NOT STARTED | Same premise and teaching goal as kitchen-chaos-ii (IT worker cooking, phrasal verbs). Two texts teaching one thing. |
 | `kitchen-chaos-ii`<br>→ `kitchen-phrasal-verbs` | 310 | reading | B1 | everyday | `required` | NOT STARTED | Merges with kitchen-chaos-i into one stronger phrasal-verb text. |
 | `navigating-finance`<br>→ `routines-and-prepositions-drill` | 734 | drill | B2 | business | `n/a` | NOT STARTED | Third copy of the same gap-fill template as daily-activities and unfortunate-events. |
-| `say-speak-talk-tell`<br>→ `the-day-at-the-market` | 330 | reading | A2 | everyday | `required` | NOT STARTED | This is the same text as the-day-at-the-market ('A Day at the Market') with say/tell verbs foregrounded. One text, two files. |
 | `simple-past-+-present-continuous-+-future-1`<br>→ `tense-contrast-drill` | 1009 | drill | A2 | review | `n/a` | NOT STARTED | Parts 1 and 2 of one exercise split across two files. |
 | `simple-past-+-present-continuous-+-future-2`<br>→ `tense-contrast-drill` | 1018 | drill | A2 | review | `n/a` | NOT STARTED | Second half of the same exercise. |
 | `trials`<br>→ `american-courtroom-cases` | 671 | reading | C1 | society | `required` | NOT STARTED | Both 'Court Trials' files cover famous US cases; merge into one curated reading and even out the register ('some crazy courthouse cases'). |
@@ -185,9 +185,9 @@ Already good; convert as-is.
 | `attention-economy` | 327 | reading | C1 | society | `exists` | NOT STARTED | Clean, well-pitched C1 argument text. Already has 3 mp3 segments. |
 | `cars` | 967 | reading | B1 | society | `exists` | NOT STARTED | Clear, well-levelled text on income and car choice. Has 4 mp3 segments. |
 | `climbing` | 494 | reading | B1 | sports | `required` | NOT STARTED | Clean informational sports text with a natural vocabulary set. |
-| `coffee-brewing` | 321 | reading | A2 | food | `required` | NOT STARTED | Well-formed procedural text; good imperative/sequencing practice. |
+| `coffee-brewing`<br>[page](../reading/a2/coffee-brewing.html) | 321 | reading | A2 | food | `exists` | IMPLEMENTED | Well-formed procedural text; good imperative/sequencing practice. |
 | `glamping` | 520 | reading | B1 | travel | `required` | NOT STARTED | Natural, well-levelled travel-trend text. |
-| `hiking-in-the-mountains` | 292 | reading | A2 | everyday | `exists` | NOT STARTED | Simple, natural past-tense narrative. Has 2 mp3 segments. |
+| `hiking-in-the-mountains`<br>[page](../reading/a2/hiking-in-the-mountains.html) | 292 | reading | A2 | everyday | `exists` | IMPLEMENTED | Simple, natural past-tense narrative. Has 2 mp3 segments. |
 | `investigation-story` | 408 | dialogue | B1 | society | `required` | NOT STARTED | Tight interrogation dialogue, natural past continuous, English names already. |
 | `it-interview` | 447 | dialogue | B2 | interviews | `required` | NOT STARTED | Realistic technical job interview; directly serves the job-interview brief. |
 | `phrasal-verbs-01-bed-and-breakfast` | 1153 | reading | B2 | everyday | `required` | NOT STARTED | Dense but natural phrasal-verb narrative; among the strongest material in the library. |
@@ -197,13 +197,13 @@ Already good; convert as-is.
 | `sales-strategy` | 701 | reading | B2 | business | `required` | NOT STARTED | Natural business-English text with genuinely useful collocations and acronyms. |
 | `snowy-days` | 473 | reading | B1 | everyday | `exists` | NOT STARTED | Authentic conversational register, a genuinely useful model of informal opinion writing. Light polish only. Has 2 mp3 segments. |
 | `technology-and-ethics` | 648 | reading | C1 | tech | `required` | NOT STARTED | Genuinely C1, professionally relevant, natural register. |
-| `the-day-at-the-market` | 269 | reading | A2 | everyday | `required` | NOT STARTED | Simple, natural, well-levelled. Serves as the merge target for say-speak-talk-tell. |
+| `the-day-at-the-market`<br>[page](../reading/a2/the-day-at-the-market.html) | 269 | reading | A2 | everyday | `exists` | IMPLEMENTED | Simple, natural and well-levelled present-simple description. Lightly edited: the friend is named, the market is identified as a farmers market, and the American 'stand' is used alongside 'stall'. |
 
 ---
 
 ## Merge targets
 
-The 16 MERGE entries collapse into these 9 pages:
+The 15 MERGE entries collapse into these 8 pages:
 
 | Merge target | Sources |
 |---|---|
@@ -215,4 +215,3 @@ The 16 MERGE entries collapse into these 9 pages:
 | `past-to-present-perfect-drill` | `two-texts-sp-to-pp`, `two-texts-sp-to-pp-ii` |
 | `routines-and-prepositions-drill` | `daily-activities`, `navigating-finance`, `unfortunate-events` |
 | `tense-contrast-drill` | `simple-past-+-present-continuous-+-future-1`, `simple-past-+-present-continuous-+-future-2` |
-| `the-day-at-the-market` | `say-speak-talk-tell` |

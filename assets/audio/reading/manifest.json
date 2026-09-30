@@ -1,4 +1,28 @@
 {
+ "a2/coffee-brewing": {
+  "bytes": 758160,
+  "fingerprint": "f86c0069c8d9d13e",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
+ },
+ "a2/hiking-in-the-mountains": {
+  "bytes": 771408,
+  "fingerprint": "c102f388c1795ba0",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
+ },
+ "a2/saying-and-telling": {
+  "bytes": 627120,
+  "fingerprint": "28c9b381473d437c",
+  "rate": "-8%",
+  "voice": "en-US-BrianNeural"
+ },
+ "a2/the-day-at-the-market": {
+  "bytes": 737568,
+  "fingerprint": "0a5c8cf47983866f",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
+ },
  "b1/nfl": {
   "bytes": 1312272,
   "fingerprint": "a1141181de8194f9",

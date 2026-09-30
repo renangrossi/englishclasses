@@ -1350,14 +1350,15 @@
       "level": "C1",
       "topic": "everyday",
       "action": "SPLIT",
-      "audio": "required",
-      "reason": "Several unrelated descriptive scenes (kitchen, etc.) in one 2225w file. Split into short descriptive readings — excellent sensory-vocabulary material once separated.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Several unrelated descriptive scenes (kitchen, etc.) in one 2225w file. Split into short descriptive readings — excellent sensory-vocabulary material once separated. — DONE: split by LEVEL rather than by theme, because the scenes were not written at one level. a2/two-small-errands takes the bakery and gas station, which are simple service exchanges; b1/a-day-in-the-house takes the family day, which is really a tour of household vocabulary; b2/describing-a-place takes the four sensory scenes (kitchen, campsite, training room, shopping centre) and uses them to teach description, with a closing paragraph on why sound and smell carry a place and sight does not. The overwritten prose — 'a symphony of commerce', 'retail roulette', 'the human labyrinth' — is pruned.",
+      "status": "IMPLEMENTED",
       "card_title": "Soothing Texts",
       "card_desc": "Exercises with calming and reflective reading passages.",
       "source_files": [
         "cefr/texts/soothing-texts.pdf"
-      ]
+      ],
+      "page": "reading/b2/describing-a-place.html"
     },
     {
       "slug": "southeast-asia-adventure",

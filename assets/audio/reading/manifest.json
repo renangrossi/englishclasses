@@ -77,11 +77,23 @@
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
  },
+ "a2/two-small-errands": {
+  "bytes": 1013616,
+  "fingerprint": "94de0c5b7b2cbfc1",
+  "rate": "-8%",
+  "voice": "en-US-GuyNeural"
+ },
  "a2/two-very-different-trips": {
   "bytes": 1042272,
   "fingerprint": "5d1fc8f62e27968d",
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
+ },
+ "b1/a-day-in-the-house": {
+  "bytes": 1023408,
+  "fingerprint": "ccdfad82e737c2fb",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
  },
  "b1/a-day-in-the-office": {
   "bytes": 971280,
@@ -334,6 +346,12 @@
   "fingerprint": "c1b8156bc5bad653",
   "rate": "+0%",
   "voice": "en-US-AriaNeural"
+ },
+ "b2/describing-a-place": {
+  "bytes": 1274976,
+  "fingerprint": "12857f8045e1a638",
+  "rate": "+0%",
+  "voice": "en-US-EmmaNeural"
  },
  "b2/egypt": {
   "bytes": 1432800,

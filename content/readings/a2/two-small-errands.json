@@ -1,0 +1,367 @@
+{
+  "id": "a2-reading-two-small-errands",
+  "level": "A2",
+  "slug": "two-small-errands",
+  "topic": "everyday",
+  "title": "Two Small Errands",
+  "subtitle": "Buying breakfast, and filling the car — the two conversations you will have in any country.",
+  "description": "An A2 reading and listening text with two short service scenes, a bakery and a gas station, teaching the everyday language of being served, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/soothing-texts.docx (scenes 5 and 6)",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "2:48"
+  },
+  "passage": [
+    "Two short errands, and the language you need for both.",
+    "At the Bakery",
+    "The sun comes through the window of the little bakery, and it smells wonderful inside. There are croissants, pastries, cakes and coffee. When the door opens, a small bell rings above it.",
+    "The baker wears a white apron with flour on it. “Good morning! What can I get you?”",
+    "The customer looks at everything for a moment. It takes her a while, because everything looks good. “A croissant, please. And a chocolate pastry, and a slice of the carrot cake. And a cappuccino.”",
+    "The baker puts the pastries in a paper bag and makes the coffee. The cappuccino comes in a tall cup with a thick layer of foam on top and a little cocoa powder.",
+    "The customer sits by the window and eats slowly. The croissant is crisp outside and soft inside. The chocolate pastry has thin layers that melt. The carrot cake is heavy and sweet, and she eats the whole slice, which she had not planned to do.",
+    "Then she goes back to the counter. “How much is that?” She pays, and the baker says goodbye. She leaves with a full stomach and the rest of her coffee in her hand.",
+    "At the Gas Station",
+    "The gas station is busy. The driver pulls up next to a pump and an attendant walks over.",
+    "“Good morning. What can I do for you?”",
+    "The driver puts his window down. “Fill it up, please. Regular.”",
+    "The attendant starts the pump. “Do you want me to check the oil while I'm here?”",
+    "“Yes, please — thank you.”",
+    "The attendant opens the hood and checks the oil, and it is fine. While the tank fills, the driver gets his wallet out. He can pay in cash or by card; the attendant has a small machine for cards. The driver pays by card and takes the receipt.",
+    "Then he notices something. “I think one of my tires is a bit flat.”",
+    "The attendant looks at it. “The front left. I can put some air in it now, but you should get that looked at — it may have a slow puncture.”",
+    "He brings the air line over and fills the tire. Then, without being asked, he cleans the windshield with a sponge and a squeegee.",
+    "“That's very kind, thank you.”",
+    "“No problem. Drive safely.”",
+    "The driver pulls out with a full tank, a clean windshield, and a job for Saturday morning."
+  ],
+  "vocabulary": [
+    {
+      "term": "errand",
+      "definition": "a short trip to do one small job",
+      "match": "errands"
+    },
+    {
+      "term": "apron",
+      "definition": "a cloth you wear over your clothes to keep them clean"
+    },
+    {
+      "term": "flour",
+      "definition": "the powder that bread and cakes are made from"
+    },
+    {
+      "term": "pastry",
+      "definition": "a small sweet baked item",
+      "match": "pastries"
+    },
+    {
+      "term": "slice",
+      "definition": "a flat piece cut from something larger"
+    },
+    {
+      "term": "foam",
+      "definition": "the soft white bubbles on top of a coffee"
+    },
+    {
+      "term": "crisp",
+      "definition": "hard and dry in a pleasant way"
+    },
+    {
+      "term": "to melt",
+      "definition": "to become soft or liquid",
+      "match": "melt"
+    },
+    {
+      "term": "counter",
+      "definition": "the long table in a shop where you pay"
+    },
+    {
+      "term": "pump",
+      "definition": "the machine at a gas station that puts fuel in a car"
+    },
+    {
+      "term": "attendant",
+      "definition": "somebody whose job is to serve you at a station or a desk"
+    },
+    {
+      "term": "to fill up",
+      "definition": "to put as much fuel in the tank as it holds",
+      "match": "Fill it up"
+    },
+    {
+      "term": "hood",
+      "definition": "the cover over a car's engine (British: bonnet)"
+    },
+    {
+      "term": "tank",
+      "definition": "the container that holds a car's fuel"
+    },
+    {
+      "term": "receipt",
+      "definition": "the small paper showing what you paid"
+    },
+    {
+      "term": "flat",
+      "definition": "with not enough air in it, said of a tire"
+    },
+    {
+      "term": "puncture",
+      "definition": "a small hole letting the air out of a tire"
+    },
+    {
+      "term": "windshield",
+      "definition": "the front window of a car (British: windscreen)"
+    },
+    {
+      "term": "squeegee",
+      "definition": "a rubber blade for wiping water off glass"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-err-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the two scenes.",
+      "items": [
+        {
+          "id": "e1",
+          "prompt": "Why does it take the customer a while to choose?",
+          "options": [
+            "She cannot read the prices",
+            "Everything looks good",
+            "She is waiting for a friend"
+          ],
+          "answerIndex": 1,
+          "explanation": "“It takes her a while, because everything looks good.”"
+        },
+        {
+          "id": "e2",
+          "prompt": "What does she order?",
+          "options": [
+            "A croissant, a chocolate pastry, carrot cake and a cappuccino",
+            "Only a coffee and a croissant",
+            "Bread and two coffees"
+          ],
+          "answerIndex": 0,
+          "explanation": "Four things, which is why the baker uses a paper bag."
+        },
+        {
+          "id": "e3",
+          "prompt": "What does the text say she had not planned to do?",
+          "options": [
+            "Sit by the window",
+            "Pay by card",
+            "Eat the whole slice of cake"
+          ],
+          "answerIndex": 2,
+          "explanation": "A small joke, and the only opinion the narrator offers in the scene."
+        },
+        {
+          "id": "e4",
+          "prompt": "What does the driver ask for?",
+          "options": [
+            "Ten dollars of fuel",
+            "A full tank of regular",
+            "Diesel and an oil change"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Fill it up, please. Regular.” This is the standard way to ask."
+        },
+        {
+          "id": "e5",
+          "prompt": "What does the attendant offer to do without being asked?",
+          "options": [
+            "Check the oil, and later clean the windshield",
+            "Change the tire",
+            "Check the brakes"
+          ],
+          "answerIndex": 0,
+          "explanation": "He asks about the oil, and cleans the windshield unprompted at the end."
+        },
+        {
+          "id": "e6",
+          "prompt": "What does the attendant say about the tire?",
+          "options": [
+            "It needs replacing immediately",
+            "He can add air now, but it should be looked at — it may have a slow puncture",
+            "There is nothing wrong with it"
+          ],
+          "answerIndex": 1,
+          "explanation": "He fixes the symptom and names the possible cause, which is what good service looks like."
+        },
+        {
+          "id": "e7",
+          "prompt": "What does “a job for Saturday morning” mean at the end?",
+          "options": [
+            "He has to work on Saturday",
+            "He will get the tire repaired at the weekend",
+            "He will return to the gas station"
+          ],
+          "answerIndex": 1,
+          "explanation": "The puncture is not fixed, only postponed — said without explaining itself."
+        }
+      ]
+    },
+    {
+      "id": "a2-err-functional",
+      "type": "fill-blank",
+      "title": "Being Served",
+      "instructions": "Complete each line with what people actually say.",
+      "items": [
+        {
+          "id": "ef1",
+          "prompt": "“Good morning! What ___ I get you?”",
+          "answers": [
+            "can"
+          ],
+          "options": [
+            "can",
+            "do",
+            "will"
+          ],
+          "explanation": "“What can I get you?” is the standard friendly way to take an order."
+        },
+        {
+          "id": "ef2",
+          "prompt": "“A croissant, ___, and a cappuccino.”",
+          "answers": [
+            "please"
+          ],
+          "options": [
+            "please",
+            "thanks",
+            "sorry"
+          ],
+          "explanation": "Please goes with the request; thank you comes after you receive it."
+        },
+        {
+          "id": "ef3",
+          "prompt": "“___ ___ is that?”",
+          "answers": [
+            "How",
+            "much"
+          ],
+          "options": [
+            [
+              "How",
+              "What",
+              "Which"
+            ],
+            [
+              "much",
+              "many",
+              "cost"
+            ]
+          ],
+          "explanation": "Money cannot be counted, so how much, never how many."
+        },
+        {
+          "id": "ef4",
+          "prompt": "“___ ___ ___, please. Regular.”",
+          "answers": [
+            "Fill",
+            "it",
+            "up"
+          ],
+          "options": [
+            [
+              "Fill",
+              "Full",
+              "Put"
+            ],
+            [
+              "it",
+              "them",
+              "him"
+            ],
+            [
+              "up",
+              "in",
+              "on"
+            ]
+          ],
+          "explanation": "To fill it up is to put in as much fuel as the tank holds."
+        },
+        {
+          "id": "ef5",
+          "prompt": "“I think one of my tires is ___.”",
+          "answers": [
+            "flat"
+          ],
+          "options": [
+            "flat",
+            "empty",
+            "open"
+          ],
+          "explanation": "A flat tire has lost its air. Empty is used for the fuel tank, not the tire."
+        },
+        {
+          "id": "ef6",
+          "prompt": "“That's very ___, thank you.” — “___ problem.”",
+          "answers": [
+            "kind",
+            "No"
+          ],
+          "options": [
+            [
+              "kind",
+              "good",
+              "nice"
+            ],
+            [
+              "No",
+              "Not",
+              "Any"
+            ]
+          ],
+          "explanation": "“That's very kind” thanks somebody for something extra; “no problem” is the usual reply."
+        }
+      ]
+    },
+    {
+      "id": "a2-err-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "et1",
+          "statement": "The baker puts the pastries in a box.",
+          "answer": false,
+          "explanation": "False — in a paper bag."
+        },
+        {
+          "id": "et2",
+          "statement": "The customer takes her coffee away with her.",
+          "answer": true,
+          "explanation": "True — “the rest of her coffee in her hand”."
+        },
+        {
+          "id": "et3",
+          "statement": "The driver pays in cash.",
+          "answer": false,
+          "explanation": "False — he could have, but he pays by card and takes the receipt."
+        },
+        {
+          "id": "et4",
+          "statement": "The oil was low.",
+          "answer": false,
+          "explanation": "False — the attendant checks it “and it is fine”."
+        },
+        {
+          "id": "et5",
+          "statement": "The attendant repaired the tire.",
+          "answer": false,
+          "explanation": "False — he put air in it and said it should be looked at."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Order breakfast at a bakery with a partner. One of you serves, one of you buys.",
+    "At a gas station near you, does somebody serve you or do you do it yourself? Which do you prefer?",
+    "The attendant cleaned the windshield without being asked. When has somebody done something extra for you?",
+    "“A job for Saturday morning.” What is on your list that you keep putting off?",
+    "Write about 100 words about a small errand you did this week, and what you said."
+  ]
+}

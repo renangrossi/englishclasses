@@ -1,0 +1,351 @@
+{
+  "id": "b1-reading-southeast-asia-adventure",
+  "level": "B1",
+  "slug": "southeast-asia-adventure",
+  "topic": "travel",
+  "title": "Four Months in Southeast Asia",
+  "subtitle": "Singapore, Cambodia, Vietnam and Bali — told over the phone, in the tense English uses for a trip that is still going on.",
+  "description": "A B1 travel reading and listening text following a couple through four countries in Southeast Asia, written to practise the present perfect and present perfect continuous, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/southeast-asia-adventure.docx",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "3:27"
+  },
+  "passage": [
+    "Patricia and Christopher have been travelling through Southeast Asia for four months. They are somewhere near the end of it now, and the way they describe the trip has changed — the first calls home were lists of everything they had seen in a day, and the recent ones are mostly about people they have met.",
+    "“We've been in Singapore a week,” Patricia told their son on the phone at the start. “We've done Gardens by the Bay, we've walked all through Chinatown, and last night we went round the zoo after dark, which sounds strange and was the best thing so far.” Christopher added that they had been eating almost entirely in hawker centres — the covered food halls where dozens of small stalls each cook one or two things extremely well — and that a plate of chicken rice had cost about the same as a bottle of water at the airport. They ate chilli crab, which requires both hands and a considerable number of napkins, and laksa, a coconut noodle soup that Patricia has been trying to reproduce ever since.",
+    "From Singapore they went to Cambodia. “We've been here three days,” Christopher told his parents, “and we've spent almost all of it at the temples.” Angkor Wat is the one everybody knows, but the complex around it runs for kilometres, and the temples they both remember are the smaller ones where the forest has been left to grow through the stonework. They have been reading about the Khmer Empire in the evenings, partly because the guides kept referring to a history neither of them knew anything about. They ate amok, a fish curry steamed in banana leaf, and lok lak, and drank Khmer coffee, which is strong enough to change the shape of an afternoon.",
+    "Vietnam was the part they had planned least and enjoyed most. They hired a motorbike and a guide and spent five days riding through the countryside north of Huế. “We've been going through rice fields and villages all week,” Patricia told her sister. “It's been hard work — I hadn't ridden a motorbike in twenty years — but you see how people actually live, which you don't from a bus.” They also took an overnight boat through Ha Long Bay, among the limestone islands that rise straight out of the water, and ate a great deal of street food: banh mi, pho, and iced coffee made with condensed milk, which Christopher has now had every single day for three months.",
+    "Bali was deliberately last, because they knew they would need it. They have been staying in a small place outside Ubud, and the pace of the trip has dropped to almost nothing. Patricia has been doing yoga in the mornings. They walk through the rice terraces, they have taken a cooking class — mostly so they could keep making nasi goreng and satay when they got home — and Christopher went snorkelling off the coast at Amed and came back talking about turtles for two days.",
+    "Ask them now what the trip has been about and neither says the temples or the beaches. Patricia says it has been the food, and specifically eating it at a plastic table on a street with people who live there. Christopher says it has been finding out how much of what he was certain about was just what he was used to. They have three weeks left, and they have already started saying “next time”, which is usually a sign that a trip has worked."
+  ],
+  "vocabulary": [
+    {
+      "term": "hawker centre",
+      "definition": "a covered hall of small food stalls, common in Singapore and Malaysia",
+      "match": "hawker centres"
+    },
+    {
+      "term": "stall",
+      "definition": "a small booth or counter selling one kind of thing",
+      "match": "stalls"
+    },
+    {
+      "term": "napkin",
+      "definition": "a cloth or paper square for wiping your hands and mouth",
+      "match": "napkins"
+    },
+    {
+      "term": "to reproduce",
+      "definition": "to make something again exactly as it was"
+    },
+    {
+      "term": "complex",
+      "definition": "a group of connected buildings forming a single site"
+    },
+    {
+      "term": "stonework",
+      "definition": "the built stone parts of a structure"
+    },
+    {
+      "term": "to refer to",
+      "definition": "to mention something as though it is already known",
+      "match": "referring to"
+    },
+    {
+      "term": "to steam",
+      "definition": "to cook over boiling water rather than in it",
+      "match": "steamed"
+    },
+    {
+      "term": "to hire",
+      "definition": "to pay to use something for a period",
+      "match": "hired"
+    },
+    {
+      "term": "rice terrace",
+      "definition": "a flat step cut into a hillside for growing rice",
+      "match": "rice terraces"
+    },
+    {
+      "term": "limestone",
+      "definition": "a pale rock that weathers into dramatic shapes"
+    },
+    {
+      "term": "condensed milk",
+      "definition": "thick sweetened milk with the water removed"
+    },
+    {
+      "term": "pace",
+      "definition": "the speed at which something happens"
+    },
+    {
+      "term": "to snorkel",
+      "definition": "to swim at the surface with a mask and breathing tube",
+      "match": "snorkelling"
+    },
+    {
+      "term": "to be certain",
+      "definition": "to have no doubt",
+      "match": "certain"
+    },
+    {
+      "term": "to be used to",
+      "definition": "to be familiar with something through habit",
+      "match": "used to"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-sea-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read for how the trip changes them, not only where they go.",
+      "items": [
+        {
+          "id": "sa1",
+          "prompt": "How have their phone calls home changed over four months?",
+          "options": [
+            "They have become shorter",
+            "They have gone from lists of sights to talking about people they have met",
+            "They now call less often"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stated in the first paragraph, and the change is the quiet subject of the whole text."
+        },
+        {
+          "id": "sa2",
+          "prompt": "What is a hawker centre?",
+          "options": [
+            "A covered hall of small stalls, each cooking one or two things very well",
+            "A market selling raw ingredients",
+            "A chain of budget restaurants"
+          ],
+          "answerIndex": 0,
+          "explanation": "The text defines it in passing, and notes that a plate of chicken rice cost about as much as airport water."
+        },
+        {
+          "id": "sa3",
+          "prompt": "Which temples do the couple actually remember from Cambodia?",
+          "options": [
+            "Angkor Wat itself",
+            "The ones inside the main entrance",
+            "The smaller ones where the forest has grown through the stonework"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Angkor Wat is the one everybody knows” — but the sentence deliberately moves past it."
+        },
+        {
+          "id": "sa4",
+          "prompt": "Why did they start reading about the Khmer Empire?",
+          "options": [
+            "It was required before entering the temples",
+            "Because the guides kept referring to a history neither of them knew",
+            "To prepare for the next country"
+          ],
+          "answerIndex": 1,
+          "explanation": "The reading is a response to realising what they were missing, not preparation."
+        },
+        {
+          "id": "sa5",
+          "prompt": "What does Patricia say the motorbike trip gave them?",
+          "options": [
+            "A cheaper way to cover the distance",
+            "A chance to practise a skill she had lost",
+            "A sight of how people actually live, which you do not get from a bus"
+          ],
+          "answerIndex": 2,
+          "explanation": "She admits it was hard work — “I hadn't ridden a motorbike in twenty years” — and says the view of daily life is what made it worth it."
+        },
+        {
+          "id": "sa6",
+          "prompt": "Why was Bali deliberately last?",
+          "options": [
+            "Because flights were cheaper at the end",
+            "Because they knew they would need the rest by then",
+            "Because the weather is best late in the year"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Because they knew they would need it” — and the pace “has dropped to almost nothing”."
+        },
+        {
+          "id": "sa7",
+          "prompt": "What does Christopher say the trip has been about?",
+          "options": [
+            "Discovering how much of what he was certain about was just what he was used to",
+            "The temples and the beaches",
+            "Learning to cook"
+          ],
+          "answerIndex": 0,
+          "explanation": "Neither of them names a sight. Patricia says the food and the plastic tables; Christopher says this."
+        },
+        {
+          "id": "sa8",
+          "prompt": "Why does the writer say “next time” is usually a sign that a trip has worked?",
+          "options": [
+            "Because it means they have money left over",
+            "Because people only plan to repeat something they have genuinely enjoyed",
+            "Because it means they did not see everything"
+          ],
+          "answerIndex": 1,
+          "explanation": "The observation closes the text without explaining itself, which is part of why it lands."
+        }
+      ]
+    },
+    {
+      "id": "b1-sea-tenses",
+      "type": "fill-blank",
+      "title": "Present Perfect and Present Perfect Continuous",
+      "instructions": "Use the simple form for a completed action or a number of times; use the continuous for an activity that has been going on and may still be going on.",
+      "items": [
+        {
+          "id": "sat1",
+          "prompt": "They ___ through Southeast Asia for four months.",
+          "answers": [
+            "have been travelling"
+          ],
+          "options": [
+            "have been travelling",
+            "have travelled",
+            "travelled"
+          ],
+          "explanation": "An activity continuing over a stated period up to now takes the continuous."
+        },
+        {
+          "id": "sat2",
+          "prompt": "“We ___ Gardens by the Bay and we ___ all through Chinatown.”",
+          "answers": [
+            "have done",
+            "have walked"
+          ],
+          "options": [
+            [
+              "have done",
+              "have been doing",
+              "did"
+            ],
+            [
+              "have walked",
+              "have been walking",
+              "walked"
+            ]
+          ],
+          "explanation": "Completed actions with no stated time — the simple form. The focus is on the result, not the activity."
+        },
+        {
+          "id": "sat3",
+          "prompt": "“Last night we ___ round the zoo after dark.”",
+          "answers": [
+            "went"
+          ],
+          "options": [
+            "went",
+            "have gone",
+            "have been going"
+          ],
+          "explanation": "“Last night” is a finished past time, so the past simple. A present perfect is impossible with it."
+        },
+        {
+          "id": "sat4",
+          "prompt": "Patricia ___ to reproduce that soup ever since.",
+          "answers": [
+            "has been trying"
+          ],
+          "options": [
+            "has been trying",
+            "has tried",
+            "tried"
+          ],
+          "explanation": "“Ever since” plus a repeated ongoing effort — the continuous is what carries that."
+        },
+        {
+          "id": "sat5",
+          "prompt": "They ___ a cooking class, and Christopher ___ iced coffee every day for three months.",
+          "answers": [
+            "have taken",
+            "has had"
+          ],
+          "options": [
+            [
+              "have taken",
+              "have been taking",
+              "took"
+            ],
+            [
+              "has had",
+              "has been having",
+              "had"
+            ]
+          ],
+          "explanation": "One completed event, and a repeated habit counted over a period. Note that “have” in the sense of eat or drink resists the continuous here."
+        },
+        {
+          "id": "sat6",
+          "prompt": "The pace ___ to almost nothing, and Patricia ___ yoga in the mornings.",
+          "answers": [
+            "has dropped",
+            "has been doing"
+          ],
+          "options": [
+            [
+              "has dropped",
+              "has been dropping",
+              "dropped"
+            ],
+            [
+              "has been doing",
+              "has done",
+              "did"
+            ]
+          ],
+          "explanation": "A change that has happened and now holds, followed by an activity still going on."
+        }
+      ]
+    },
+    {
+      "id": "b1-sea-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "sst1",
+          "statement": "They visited four countries.",
+          "answer": true,
+          "explanation": "True — Singapore, Cambodia, Vietnam and Bali, in that order."
+        },
+        {
+          "id": "sst2",
+          "statement": "Patricia rides motorbikes regularly at home.",
+          "answer": false,
+          "explanation": "False — “I hadn't ridden a motorbike in twenty years”."
+        },
+        {
+          "id": "sst3",
+          "statement": "They took the cooking class mainly to fill a free afternoon.",
+          "answer": false,
+          "explanation": "False — “mostly so they could keep making nasi goreng and satay when they got home”."
+        },
+        {
+          "id": "sst4",
+          "statement": "Vietnam was the part they had planned most carefully.",
+          "answer": false,
+          "explanation": "False — it was “the part they had planned least and enjoyed most”."
+        },
+        {
+          "id": "sst5",
+          "statement": "The trip is already over.",
+          "answer": false,
+          "explanation": "False — “they have three weeks left”, which is why so much of the text is in the present perfect."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Their calls home changed from lists of sights to stories about people. Why might that happen on a long trip?",
+    "Vietnam was planned least and enjoyed most. How much of a trip should be planned?",
+    "Christopher says he found out how much of what he was certain about was just habit. Has travelling ever done that to you?",
+    "Patricia says the trip was about eating at a plastic table with people who live there. Is that a better way to understand a place than visiting its monuments?",
+    "Write about 150 words about a trip you are on or have just taken, using the present perfect for what you have done and the continuous for what you have been doing."
+  ]
+}

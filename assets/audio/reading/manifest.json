@@ -71,6 +71,12 @@
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
  },
+ "b1/arriving-in-johannesburg": {
+  "bytes": 1303488,
+  "fingerprint": "31df992e4599c6cb",
+  "rate": "-8%",
+  "voice": "en-US-AriaNeural"
+ },
  "b1/beers": {
   "bytes": 1439280,
   "fingerprint": "b9266929d643e876",
@@ -149,6 +155,12 @@
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
  },
+ "b1/ny-visitation": {
+  "bytes": 1388880,
+  "fingerprint": "089ac9371f8c2627",
+  "rate": "-8%",
+  "voice": "en-US-EricNeural"
+ },
  "b1/physical-education": {
   "bytes": 933984,
   "fingerprint": "6ca62b7c15c9e103",
@@ -166,6 +178,24 @@
   "fingerprint": "d7f4715282212b6e",
   "rate": "-8%",
   "voice": "en-US-EricNeural"
+ },
+ "b1/southeast-asia-adventure": {
+  "bytes": 1246896,
+  "fingerprint": "48e46cbb1c197624",
+  "rate": "-8%",
+  "voice": "en-US-EricNeural"
+ },
+ "b1/travel-dialogues-02": {
+  "bytes": 1258560,
+  "fingerprint": "0d30b08fad9d261e",
+  "rate": "-8%",
+  "voice": "en-US-BrianNeural"
+ },
+ "b1/usa-restaurants": {
+  "bytes": 1480464,
+  "fingerprint": "1175a708c5a58839",
+  "rate": "-8%",
+  "voice": "en-US-EmmaNeural"
  },
  "b2/business-war-it": {
   "bytes": 1652544,

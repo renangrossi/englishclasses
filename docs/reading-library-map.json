@@ -110,13 +110,14 @@
       "level": "B1",
       "topic": "travel",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Excellent airport-arrival functional dialogue. Traveler renamed to an English name; trim repetition in the shuttle exchange.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Excellent airport-arrival functional dialogue. Traveler renamed to an English name; trim repetition in the shuttle exchange. — DONE: Traveller renamed Mauro -> Michael and Lara -> Laura per the naming rule. The shuttle exchange is trimmed from five near-identical questions to two that each add something, and the attendant now asks what the travellers are optimising for rather than reciting options.",
+      "status": "IMPLEMENTED",
       "card_title": "Arriving in Johannesburg",
       "source_files": [
         "cefr/texts/arriving-in-johannesburg.pdf"
-      ]
+      ],
+      "page": "reading/b1/arriving-in-johannesburg.html"
     },
     {
       "slug": "attention-economy",
@@ -920,14 +921,15 @@
       "level": "B1",
       "topic": "travel",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Good hotel/recommendation narrative. Overlaps restaurant-dialogue (same Joe's Pizza scene) — keep this as the narrative, that as the dialogue, and cross-reference.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Good hotel/recommendation narrative. Overlaps restaurant-dialogue (same Joe's Pizza scene) — keep this as the narrative, that as the dialogue, and cross-reference. — DONE: Kept as the narrative, with restaurant-dialogue (A2) as the dialogue, and cross-referenced from the discussion prompts. Wife and son given names; the family now has to choose between sights rather than seeing everything, which is what makes it a story.",
+      "status": "IMPLEMENTED",
       "card_title": "Ny Visitation",
       "card_desc": "Exercises on describing travel and visitation experiences in New York.",
       "source_files": [
         "cefr/texts/ny-visitation.docx"
-      ]
+      ],
+      "page": "reading/b1/ny-visitation.html"
     },
     {
       "slug": "phrasal-verbs-01-bed-and-breakfast",
@@ -1346,14 +1348,15 @@
       "level": "B1",
       "topic": "travel",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Good present-perfect travel narrative; rename the cast to English names per instruction.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Good present-perfect travel narrative; rename the cast to English names per instruction. — DONE: Cast renamed to English names (Patricia and Christopher) per the naming rule. Kept as a present-perfect travel narrative and sharpened, with a simple/continuous contrast exercise added.",
+      "status": "IMPLEMENTED",
       "card_title": "Southeast Asia Adventure",
       "card_desc": "Exercises on travel and cultural experiences in Southeast Asia.",
       "source_files": [
         "cefr/texts/southeast-asia-adventure.pdf"
-      ]
+      ],
+      "page": "reading/b1/southeast-asia-adventure.html"
     },
     {
       "slug": "st.-patricks-day",
@@ -1467,15 +1470,16 @@
       "level": "B1",
       "topic": "travel",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Hotel-reception training dialogue; same treatment, good workplace-English value.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Hotel-reception training dialogue; same treatment, good workplace-English value. — DONE: Kept as the hotel-reception training dialogue for its workplace-English value. The board types (full/half/bed and breakfast/room only) and the self-catering distinction are now taught explicitly, with late check-out, luggage storage and the walk-in case added. The source's teacher-contact header is extraction noise and does not appear.",
+      "status": "IMPLEMENTED",
       "card_title": "Travel Dialogues II",
       "card_desc": "Exercises on travel-related conversations and vocabulary.",
       "source_files": [
         "cefr/texts/travel-dialogues-02.pdf"
       ],
-      "card_id": "travel-dialogues-ii"
+      "card_id": "travel-dialogues-ii",
+      "page": "reading/b1/travel-dialogues-02.html"
     },
     {
       "slug": "trials",
@@ -1584,14 +1588,15 @@
       "level": "B1",
       "topic": "travel",
       "action": "EDIT",
-      "audio": "required",
-      "reason": "Titled 'U.S.A. Restaurants' but the body is a bulleted list of Florida attractions — title and content do not match, and it is a list rather than a reading. Rewrite as a Florida travel reading, and let the dining material live in the food thread.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Titled 'U.S.A. Restaurants' but the body is a bulleted list of Florida attractions — title and content do not match, and it is a list rather than a reading. Rewrite as a Florida travel reading, and let the dining material live in the food thread. — DONE: Rewritten. The source was titled 'U.S.A. Restaurants' but its body was a bulleted directory of Florida attractions followed by a restaurant list — title and content did not match, and neither part was a reading. It is now a Florida travel reading (the regions, the Everglades as a river rather than a swamp, St Augustine, the panhandle springs), with the dining material kept as one paragraph rather than a directory.",
+      "status": "IMPLEMENTED",
       "card_title": "Usa Restaurants",
       "card_desc": "Exercises on American restaurant culture and vocabulary.",
       "source_files": [
         "cefr/texts/usa-restaurants.pdf"
-      ]
+      ],
+      "page": "reading/b1/usa-restaurants.html"
     },
     {
       "slug": "verb-tense-review",

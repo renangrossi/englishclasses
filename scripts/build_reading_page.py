@@ -128,6 +128,12 @@ def _surface_patterns(term):
     return [p for _, p in sorted(set(pats), key=lambda x: -x[0])]
 
 
+# "Receptionist:", "You:", "Emma:" -- a dialogue turn, as opposed to prose
+# that merely contains a colon. The label is short, starts capitalised and is
+# followed by the speaker's line.
+SPEAKER_RE = re.compile(r"^[A-Z][\w .'\-]{0,24}:\s")
+
+
 def annotate(paras, vocab):
     """Bold the first occurrence of each glossary word in the passage and hang
     its definition off it, so the reader can hover (or tap, or tab to) the word
@@ -149,15 +155,17 @@ def annotate(paras, vocab):
         todo.append((v["term"], v["definition"], pats))
     out = []
     placed = set()
+    headings = set()  # indices of all-caps section headings inside the passage
     slot = []  # rendered spans, substituted back after escaping
 
-    for para in paras:
+    for idx, para in enumerate(paras):
         text = para
         # An all-caps line is a section heading inside the passage, not prose.
         # Highlighting a word there produced "1. BOOKING A FLIGHT BY PHONE"
         # with the definition hanging off the heading itself.
         letters = [c for c in para if c.isalpha()]
         if letters and sum(c.isupper() for c in letters) / len(letters) > 0.6:
+            headings.add(idx)
             out.append(text)
             continue
         # Find, for this paragraph, the earliest match of any unplaced term.
@@ -189,7 +197,7 @@ def annotate(paras, vocab):
                 f'<span class="vocab-term" tabindex="0" role="note" '
                 f'data-definition="{html.escape(definition, quote=True)}">{esc(word)}</span>')
         rendered.append(t)
-    return rendered, placed
+    return rendered, placed, headings
 
 
 def page_header(d):
@@ -221,8 +229,31 @@ def listen_and_read(d, level, slug):
     access and a playback-speed menu on every modern browser, desktop and
     mobile, with no JavaScript to fail. The <p> inside it is the fallback for
     a browser that cannot play the file at all."""
-    marked, placed = annotate(d["passage"], d.get("vocabulary"))
-    paras = "\n            ".join(f"<p>{p}</p>" for p in marked)
+    marked, placed, headings = annotate(d["passage"], d.get("vocabulary"))
+    # Classify each paragraph so the stylesheet can set it correctly. Only
+    # running prose takes the first-line indent: an all-caps section heading
+    # does not, the paragraph that opens a section does not (it begins the
+    # section rather than marking a break inside it), and a dialogue turn
+    # does not -- the speaker's name already marks where the turn starts, and
+    # indenting turns makes a conversation look like a misprint. Texts that
+    # mix the two, such as a prose introduction wrapped around a dialogue,
+    # therefore come out right without anyone tagging them by hand.
+    def _ptag(i):
+        if i in headings:
+            return '<p class="reading-passage__heading">'
+        if SPEAKER_RE.match(d["passage"][i]):
+            return '<p class="reading-passage__turn">'
+        if i == 0:
+            # The drop cap hangs on this paragraph, so it has to be long
+            # enough to sit beside. Under about 200 characters there is not
+            # enough text for a three-line cap and it would overhang into
+            # whatever follows, so those texts get the two-line version.
+            short = " reading-passage__lead--short" if len(d["passage"][0]) < 200 else ""
+            return f'<p class="reading-passage__lead{short}">'
+        if (i - 1) in headings:
+            return '<p class="reading-passage__opener">'
+        return "<p>"
+    paras = "\n            ".join(f"{_ptag(i)}{p}</p>" for i, p in enumerate(marked))
     # Hovering works on screen, but a printed page has no hover, and the
     # on-page vocabulary list is gone -- so the definitions come back as a
     # glossary that only exists in print.

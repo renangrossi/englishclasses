@@ -209,6 +209,70 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   margin: 0 0 var(--space-lg);
 }
 .reading-passage p:not(:last-child) { margin-bottom: 1.1em; }
+/* ---- Passage typography ------------------------------------------------
+   The passage is set like a page of a book rather than like a web page.
+   Everything below is inherited by every reading page; no page or builder
+   output needs to know about it. */
+
+/* Indent each new paragraph. The first paragraph stays flush -- it starts the
+   text rather than marking a break within it, which is how prose has been set
+   for as long as it has been printed. Section headings, the paragraph that
+   opens a section, and dialogue turns are all tagged by the builder and stay
+   flush too: a speaker's name already marks where a turn begins. */
+.reading-passage p + p { text-indent: 1.5em; }
+.reading-passage p.reading-passage__heading,
+.reading-passage p.reading-passage__opener,
+.reading-passage p.reading-passage__turn { text-indent: 0; }
+
+/* Common ligatures (fi, fl, ffi) and old-style figures, which sit on the
+   baseline with ascenders and descenders like lowercase letters instead of
+   standing at cap height. In running prose a date set in old-style figures
+   stops shouting; this is the single change that most makes a text look
+   typeset rather than rendered. Both degrade silently if the face lacks
+   them. */
+.reading-passage {
+  font-variant-ligatures: common-ligatures contextual;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+}
+
+/* Keep a last line from falling to one orphaned word. Ignored where
+   unsupported, which costs nothing. */
+.reading-passage p { text-wrap: pretty; }
+
+/* A drop cap on the opening paragraph -- the newspaper and magazine
+   convention. The builder tags that paragraph, and tags it only where the
+   text opens in prose: a dialogue beginning "Receptionist:" would otherwise
+   hang the cap on a speaker's label. */
+.reading-passage__lead::first-letter {
+  float: left;
+  /* The floated box is font-size x line-height tall, and the passage runs at
+     line-height 1.75 -- so 6.9 x 0.76 = 5.25em, exactly three lines of text
+     for the cap to sit against. */
+  font-size: 6.9em;
+  line-height: 0.76;
+  padding: 0.06em 0.09em 0 0;
+  color: var(--color-accent);
+  font-weight: 500;
+  /* A drop cap is a display letter: lining figures, no small-cap treatment
+     from the rule below. */
+  font-variant: normal;
+}
+/* A short opening paragraph cannot hold a three-line cap -- it would overhang
+   the heading or the first line of dialogue underneath. Two lines (4.6 x 0.76
+   = 3.5em) fits those texts without leaving the cap stranded. */
+.reading-passage__lead--short::first-letter { font-size: 4.6em; }
+
+/* The classic partner to a drop cap: the opening line in small capitals,
+   carrying the eye from the outsized letter back into the text. */
+.reading-passage__lead::first-line {
+  font-variant-caps: small-caps;
+  letter-spacing: 0.02em;
+}
+
+/* Belt and braces: whatever the cap's height, a section heading or a
+   dialogue turn always starts on its own line, never wrapped beside it. */
+.reading-passage p.reading-passage__heading,
+.reading-passage p.reading-passage__turn { clear: left; }
 .vocab-term {
   font-weight: 700;
   color: var(--color-accent);

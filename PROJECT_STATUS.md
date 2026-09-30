@@ -246,7 +246,7 @@ The 2 `stale-on-edit` texts are `capetown` (4 mp3s) and `physical-education` (4 
 | **Exercise types available** | `multiple-choice`, `true-false`, `fill-blank`, `matching`, `ordering`, `correction`, `typing`, `reading-comprehension`, `vocabulary`, `writing` |
 | **Audio player** | Native `<audio controls preload="metadata">` at the top of the reading section, with a download link as fallback. Gives play/pause, progress, elapsed/total time, keyboard access and the browser's own speed menu on desktop and mobile, with no JS to fail. The grammar lessons' listening blocks keep their `<details class="transcript-toggle">` pattern; a reading page shows the text itself, so it needs no transcript toggle. |
 | **HTML migration** | 24 / 98 source docs converted → 26 reading pages (12 A2, 6 B1, 5 B2, 3 C1), each with narration |
-| **CSS** | **No changes made.** Reading pages reuse `.reading-passage` (exercises.css), `.summary-list` (lessons.css) and the site-wide `audio` rule (components.css) |
+| **CSS** | Reading pages reuse `.summary-list` (lessons.css) and the site-wide `audio` rule (components.css). `.reading-passage` in exercises.css has been rewritten twice on purpose — see decisions D-8 and D-11. No other CSS has been touched |
 | **JavaScript** | **No changes made.** `assets/js/exercises.js` renders the new pages unmodified |
 | **Navigation** | `exercises.html` is currently a flat alphabetical grid of 117 "Open PDF" cards — to be restructured |
 | **Responsive** | Inherited from existing chrome/CSS; must be re-verified per new page type |
@@ -365,6 +365,28 @@ progress can be tracked and resumed. `docs/content-audit.md` is the human-readab
   `merged` / `new`) and the audit still reports on it — requirement 6 is satisfied by the
   project record, not by a footnote on the page. `PROVENANCE_LABELS` was replaced by
   `VALID_PROVENANCE` in `scripts/reading_common.py`.
+
+- **D-11 — The passage is set as book typography: indented paragraphs and a drop cap.**
+  Requested by the user. Each new paragraph of running prose takes a 1.5em first-line indent;
+  the first paragraph of the text, the first paragraph of a section, and every dialogue turn
+  stay flush, because a speaker's name already marks where a turn begins and indenting turns
+  makes a conversation look like a misprint. The opening paragraph carries a drop cap over
+  three lines with its first line in small capitals — the newspaper convention. Two supporting
+  details matter and are easy to lose:
+  - **The builder classifies each paragraph**, so a text that mixes prose and dialogue (such as
+    `project-management-can-could-able-do-make`, a prose frame around a dialogue) comes out
+    right with nothing tagged by hand. The classes are `reading-passage__lead`,
+    `__lead--short`, `__heading`, `__opener` and `__turn`; `SPEAKER_RE` in
+    `build_reading_page.py` is what detects a turn.
+  - **A short opening paragraph gets a two-line cap** (`__lead--short`, under 200 characters).
+    A three-line cap on a two-line paragraph overhangs whatever follows it. Section headings
+    and dialogue turns also carry `clear: left` as a second guard.
+
+  Also added, as classic text settings that cost nothing where unsupported: common ligatures,
+  old-style figures (numerals that sit on the baseline rather than standing at cap height),
+  and `text-wrap: pretty` for orphan control. Justified text with automatic hyphenation was
+  **considered and not applied** — at a 62-character measure it opens rivers of white space,
+  and ragged-right reads better on a phone.
 
 ### Open problems
 

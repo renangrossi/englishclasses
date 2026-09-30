@@ -140,8 +140,20 @@
       });
   }
 
+  // On a phone the panel opens as just the search field (see the
+  // max-width:640px block in search.css). This flag is what reveals the
+  // rest once the student has actually typed something; on desktop the
+  // CSS ignores it entirely.
+  function syncQueryState() {
+    if (!input) return;
+    if (input.value.trim()) panel.setAttribute("data-query", "");
+    else panel.removeAttribute("data-query");
+  }
+  if (input) input.addEventListener("input", syncQueryState);
+
   function open() {
     panel.hidden = false;
+    syncQueryState();
     trigger.setAttribute("aria-expanded", "true");
     lockBodyScrollForPanel();
     loadVerbTable();

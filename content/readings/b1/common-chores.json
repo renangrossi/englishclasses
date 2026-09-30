@@ -1,0 +1,409 @@
+{
+  "id": "b1-reading-common-chores",
+  "level": "B1",
+  "slug": "common-chores",
+  "topic": "everyday",
+  "title": "Saturday in Austin",
+  "subtitle": "One ordinary weekend morning, and the phrasal verbs Americans use for everything in it.",
+  "description": "A B1 reading and listening text following a Saturday of errands and chores in Texas, built around the everyday phrasal verbs of housework and shopping, with vocabulary and comprehension exercises.",
+  "source": "cefr/texts/common-chores.docx + cefr/texts/common-chores-ii.docx",
+  "provenance": "merged",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "3:07"
+  },
+  "passage": [
+    "Mike woke up before his alarm on Saturday, which almost never happens, and lay there for a minute working out whether he could get the shopping done before the heat set in. In Austin in August you do the outdoor part of your day early or you do not do it at all.",
+    "He rolled out of bed, stretched, and put the coffee on. While it brewed he caught up on the news on his phone, which he had been meaning to stop doing first thing, and then gave up on making anything and just munched on a granola bar standing at the counter.",
+    "The kitchen needed dealing with first. There were dishes in the sink from Thursday — he had been telling himself he would get around to them for two days, which is how dishes work — so he did them, cleared out the sink, and wiped down the counters. Then he threw in a load of laundry, because if he did not start it now it would not be dry before evening. He would hang up the shirts and toss the rest in the dryer when it finished.",
+    "He got dressed: jeans, a light blue t-shirt, sneakers. He picked up his reusable bags, his keys, his wallet, and a water bottle, which in Texas is not optional. Then he headed out to the truck.",
+    "The drive was short. He took the quieter streets, past front gardens and a couple of kids on bikes, and pulled into the H-E-B parking lot, which was already filling up. He grabbed a cart and started in the produce section — avocados, tomatoes, cilantro, checking each one instead of just picking up whatever was in front. Then the meat counter, then dairy for cheese and eggs, then the middle aisles for chips, salsa and a jar of jelly he did not need. He also picked up a bottle of Texas wine, which people outside the state are always surprised by.",
+    "Halfway down the cereal aisle he ran into his neighbours and spent ten minutes catching up about the high school football season and a road closure that nobody could explain. At the checkout the cashier recognised him and they chatted while she scanned everything through.",
+    "Back at the apartment he unloaded the truck, put away the groceries, and thought about making guacamole with the avocados before they went over. The laundry buzzed. He hung up the shirts, tossed the rest in the dryer, and sat down.",
+    "That was the morning gone, and none of it was interesting, and he did not mind at all. The rest of it he could leave. He would vacuum up the living room and dust off the shelves at some point over the weekend, or he would not, and either way it would still be there on Monday. In the evening he would settle down in front of something undemanding, catch up on the emails he had been ignoring, and wind down early.",
+    "If you fall behind on this kind of thing, it is not worth worrying about. You catch up when you have a free morning, and if somebody offers to help out, you take them up on it."
+  ],
+  "vocabulary": [
+    {
+      "term": "to set in",
+      "definition": "to begin and become established, said of weather or a condition",
+      "match": "set in"
+    },
+    {
+      "term": "to roll out of bed",
+      "definition": "to get up, without much energy",
+      "match": "rolled out of bed"
+    },
+    {
+      "term": "to catch up on",
+      "definition": "to do something you have fallen behind with",
+      "match": "caught up on"
+    },
+    {
+      "term": "to munch on",
+      "definition": "to eat something steadily and casually",
+      "match": "munched on"
+    },
+    {
+      "term": "to get around to",
+      "definition": "to finally do something you have been putting off",
+      "match": "get around to"
+    },
+    {
+      "term": "to clear out",
+      "definition": "to empty something completely",
+      "match": "cleared out"
+    },
+    {
+      "term": "to wipe down",
+      "definition": "to clean a surface with a cloth",
+      "match": "wiped down"
+    },
+    {
+      "term": "to throw in a load",
+      "definition": "to start a batch of washing",
+      "match": "threw in a load"
+    },
+    {
+      "term": "to hang up",
+      "definition": "to put clothes on a line or hanger to dry",
+      "match": "hang up"
+    },
+    {
+      "term": "to toss",
+      "definition": "to throw something casually"
+    },
+    {
+      "term": "to pick up",
+      "definition": "to collect or buy something",
+      "match": "picked up"
+    },
+    {
+      "term": "to head out",
+      "definition": "to leave for somewhere",
+      "match": "headed out"
+    },
+    {
+      "term": "to pull into",
+      "definition": "to drive in and stop",
+      "match": "pulled into"
+    },
+    {
+      "term": "produce",
+      "definition": "fresh fruit and vegetables, as a section of a store"
+    },
+    {
+      "term": "to run into",
+      "definition": "to meet someone unexpectedly",
+      "match": "ran into"
+    },
+    {
+      "term": "to put away",
+      "definition": "to store things in their proper places",
+      "match": "put away"
+    },
+    {
+      "term": "to go over",
+      "definition": "to become too ripe or spoil",
+      "match": "went over"
+    },
+    {
+      "term": "to vacuum up",
+      "definition": "to clean a floor with a vacuum cleaner",
+      "match": "vacuum up"
+    },
+    {
+      "term": "to dust off",
+      "definition": "to remove dust from a surface",
+      "match": "dust off"
+    },
+    {
+      "term": "to settle down",
+      "definition": "to get comfortable for a quiet period",
+      "match": "settle down"
+    },
+    {
+      "term": "to wind down",
+      "definition": "to relax gradually at the end of the day",
+      "match": "wind down"
+    },
+    {
+      "term": "to fall behind",
+      "definition": "to fail to keep up with what needs doing",
+      "match": "fall behind"
+    },
+    {
+      "term": "to help out",
+      "definition": "to give someone assistance",
+      "match": "help out"
+    },
+    {
+      "term": "to take someone up on something",
+      "definition": "to accept an offer someone has made",
+      "match": "take them up on it"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-cch-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Answer from the sense of the morning described.",
+      "items": [
+        {
+          "id": "ch1",
+          "prompt": "Why does Mike want to shop early?",
+          "options": [
+            "The store is less busy first thing",
+            "Because in Austin in August you do the outdoor part of the day early or not at all",
+            "The fresh produce sells out by midday"
+          ],
+          "answerIndex": 1,
+          "explanation": "The heat sets the timetable — stated in the first paragraph as a general rule about the city."
+        },
+        {
+          "id": "ch2",
+          "prompt": "What does the writer mean by “which is how dishes work”?",
+          "options": [
+            "That dishes are always harder to clean after two days",
+            "That putting them off is the normal and expected behaviour",
+            "That he shares the kitchen with someone else"
+          ],
+          "answerIndex": 1,
+          "explanation": "A dry aside acknowledging that everybody tells themselves they will get around to it."
+        },
+        {
+          "id": "ch3",
+          "prompt": "Why does he start the laundry before leaving?",
+          "options": [
+            "So it will be dry before evening",
+            "Because the machine is shared with neighbours",
+            "Because he needs the shirts that afternoon"
+          ],
+          "answerIndex": 0,
+          "explanation": "“If he did not start it now it would not be dry before evening.”"
+        },
+        {
+          "id": "ch4",
+          "prompt": "What does the text say about the water bottle?",
+          "options": [
+            "That it is not optional in Texas",
+            "That he forgot it and had to go back",
+            "That he buys one at the store instead"
+          ],
+          "answerIndex": 0,
+          "explanation": "The joke depends on the heat established in the first paragraph."
+        },
+        {
+          "id": "ch5",
+          "prompt": "How does he choose the produce?",
+          "options": [
+            "He buys whatever is on offer",
+            "He checks each item instead of taking whatever is nearest",
+            "He asks the staff for recommendations"
+          ],
+          "answerIndex": 1,
+          "explanation": "A small detail that tells you what kind of shopper he is, without saying so."
+        },
+        {
+          "id": "ch6",
+          "prompt": "What does he say about the rest of the housework?",
+          "options": [
+            "That he will finish it before the end of the day",
+            "That he will do it or not, and either way it will still be there on Monday",
+            "That he has asked someone to help"
+          ],
+          "answerIndex": 1,
+          "explanation": "The attitude the final paragraph then states outright as advice."
+        },
+        {
+          "id": "ch7",
+          "prompt": "What is the writer's closing advice about falling behind?",
+          "options": [
+            "Keep a schedule so it does not happen",
+            "Do the most urgent tasks first",
+            "Don't worry about it, catch up when you can, and accept help when it is offered"
+          ],
+          "answerIndex": 2,
+          "explanation": "“If somebody offers to help out, you take them up on it.”"
+        }
+      ]
+    },
+    {
+      "id": "b1-cch-phrasal",
+      "type": "fill-blank",
+      "title": "Everyday Phrasal Verbs",
+      "instructions": "Complete each sentence with the particle. These are the forms Americans use for ordinary household tasks.",
+      "items": [
+        {
+          "id": "chf1",
+          "prompt": "I keep meaning to get ___ ___ washing the car.",
+          "answers": [
+            "around",
+            "to"
+          ],
+          "options": [
+            [
+              "around",
+              "along",
+              "over"
+            ],
+            [
+              "to",
+              "for",
+              "with"
+            ]
+          ],
+          "explanation": "To get around to something is to finally do what you have been putting off."
+        },
+        {
+          "id": "chf2",
+          "prompt": "Could you throw ___ a load before you go out?",
+          "answers": [
+            "in"
+          ],
+          "options": [
+            "in",
+            "on",
+            "up"
+          ],
+          "explanation": "To throw in a load is to start a batch of washing."
+        },
+        {
+          "id": "chf3",
+          "prompt": "Hang ___ the shirts and toss the rest in the dryer.",
+          "answers": [
+            "up"
+          ],
+          "options": [
+            "up",
+            "out",
+            "over"
+          ],
+          "explanation": "To hang up is to put clothes on a line or hanger. Note that hang up also means to end a phone call."
+        },
+        {
+          "id": "chf4",
+          "prompt": "I ___ ___ an old colleague at the store.",
+          "answers": [
+            "ran",
+            "into"
+          ],
+          "options": [
+            [
+              "ran",
+              "came",
+              "went"
+            ],
+            [
+              "into",
+              "across",
+              "over"
+            ]
+          ],
+          "explanation": "To run into someone is to meet them unexpectedly."
+        },
+        {
+          "id": "chf5",
+          "prompt": "Use the avocados tonight before they go ___.",
+          "answers": [
+            "over"
+          ],
+          "options": [
+            "over",
+            "off",
+            "out"
+          ],
+          "explanation": "To go over is to become too ripe. Go off is also used, more commonly of milk or meat."
+        },
+        {
+          "id": "chf6",
+          "prompt": "I'll settle ___ with a film and wind ___ for the evening.",
+          "answers": [
+            "down",
+            "down"
+          ],
+          "options": [
+            [
+              "down",
+              "up",
+              "in"
+            ],
+            [
+              "down",
+              "up",
+              "off"
+            ]
+          ],
+          "explanation": "Both take down: settle down is to get comfortable, wind down is to relax gradually."
+        },
+        {
+          "id": "chf7",
+          "prompt": "If you fall ___, just catch ___ at the weekend.",
+          "answers": [
+            "behind",
+            "up"
+          ],
+          "options": [
+            [
+              "behind",
+              "back",
+              "down"
+            ],
+            [
+              "up",
+              "on",
+              "over"
+            ]
+          ],
+          "explanation": "To fall behind is to stop keeping up; to catch up is to get level again."
+        }
+      ]
+    },
+    {
+      "id": "b1-cch-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text.",
+      "items": [
+        {
+          "id": "cht1",
+          "statement": "Mike cooked himself a full breakfast.",
+          "answer": false,
+          "explanation": "False — he gave up on making anything and ate a granola bar standing at the counter."
+        },
+        {
+          "id": "cht2",
+          "statement": "The dishes had been in the sink since Thursday.",
+          "answer": true,
+          "explanation": "True — two days of telling himself he would get around to them."
+        },
+        {
+          "id": "cht3",
+          "statement": "He bought something he did not need.",
+          "answer": true,
+          "explanation": "True — “a jar of jelly he did not need”."
+        },
+        {
+          "id": "cht4",
+          "statement": "He vacuumed the living room that morning.",
+          "answer": false,
+          "explanation": "False — that is on the list for “some point over the weekend, or he would not”."
+        },
+        {
+          "id": "cht5",
+          "statement": "He was disappointed that the morning was uneventful.",
+          "answer": false,
+          "explanation": "False — “none of it was interesting, and he did not mind at all”."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "“I'll get around to it” — what is on your list that has been there longest?",
+    "Mike does the outdoor part of his day early because of the heat. How does the climate where you live shape an ordinary day?",
+    "The text ends by saying it is not worth worrying about falling behind. Do you agree, or does that just make it worse?",
+    "Describe your own Saturday morning using at least eight phrasal verbs from this text.",
+    "Write about 150 words about an ordinary day that you would not change."
+  ]
+}

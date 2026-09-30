@@ -1,5 +1,5 @@
 {
-  "_about": "Content map for the reading-library project (see PROJECT_STATUS.md). One entry per source document in cefr/texts/. Drives conversion to reading/{level}/{slug}.html + assets/audio/reading/{level}/{slug}.mp3. Authored from a full read of all 98 extracted source documents, not from filenames.",
+  "_about": "Content map for the reading-library project (see PROJECT_STATUS.md). One entry per source document in cefr/texts/. Drives conversion to reading/{level}/{slug}.html + assets/audio/reading/{level}/{slug}.mp3. Authored from a full read of all 98 extracted source documents, not from filenames. NOTE on source_files: it records where a text came FROM, so the paths stay even where the file is gone. Two things removed files legitimately: the per-text PDFs were retired in Milestone 2 when print/save-as-PDF replaced them (decision D-7's exception), and the DELETE entries were removed outright on the audit's verdict. Neither is a broken link to chase; check_site_integrity.py is what guards the live site.",
   "_fields": {
     "words": "word count of the .docx-extracted source (docx preferred over pdf per instruction)",
     "genre": "reading | dialogue | drill | discussion | reference — drills/discussions are not reading texts, so audio is n/a",
@@ -347,15 +347,16 @@
       "level": "B1",
       "topic": "everyday",
       "action": "MERGE",
-      "audio": "required",
+      "audio": "exists",
       "merge_into": "household-chores",
-      "reason": "Phrasal-verb chores text. Unnatural line to fix: 'you hang up or toss into the dryer the clothes'. Merges with common-chores-ii.",
-      "status": "NOT STARTED",
+      "reason": "Phrasal-verb chores text. Unnatural line to fix: 'you hang up or toss into the dryer the clothes'. Merges with common-chores-ii. — DONE: Merged with common-chores-ii. The audit's instruction was followed: the American setting (Mike, Austin) is the frame, and the phrasal-verb load from this file is carried inside it. The unnatural 'you hang up or toss into the dryer the clothes' is fixed.",
+      "status": "IMPLEMENTED",
       "card_title": "Common Chores",
       "card_desc": "Vocabulary and comprehension exercises on everyday household tasks.",
       "source_files": [
         "cefr/texts/common-chores.pdf"
-      ]
+      ],
+      "page": "reading/b1/common-chores.html"
     },
     {
       "slug": "common-chores-ii",
@@ -364,14 +365,15 @@
       "level": "A2",
       "topic": "everyday",
       "action": "MERGE",
-      "audio": "required",
+      "audio": "exists",
       "merge_into": "household-chores",
-      "reason": "Same teaching goal as common-chores, narrative form (Mike, Austin TX). Keep the American setting as the merged version's frame.",
-      "status": "NOT STARTED",
+      "reason": "Same teaching goal as common-chores, narrative form (Mike, Austin TX). Keep the American setting as the merged version's frame. — DONE: Merged into reading/b1/common-chores.html as the narrative frame — see that entry.",
+      "status": "IMPLEMENTED",
       "card_title": "Common Chores II",
       "source_files": [
         "cefr/texts/common-chores-ii.pdf"
-      ]
+      ],
+      "page": "reading/b1/common-chores.html"
     },
     {
       "slug": "cybersecurity",
@@ -498,8 +500,8 @@
       "topic": "society",
       "action": "DELETE",
       "audio": "n/a",
-      "reason": "Dated to a specific forecast year and written for one Brazilian city ('what does it mean for someone who lives in porto alegre'). Stale and off-brief; nothing here is worth migrating.",
-      "status": "NOT STARTED",
+      "reason": "Dated to a specific forecast year and written for one Brazilian city ('what does it mean for someone who lives in porto alegre'). Stale and off-brief; nothing here is worth migrating. — DONE: source removed; nothing migrated. Files already deleted: cefr/texts/el-niño-2027.docx.",
+      "status": "COMPLETE",
       "card_title": "El Niño",
       "source_files": [
         "cefr/texts/el-niño-2027.docx"
@@ -694,8 +696,8 @@
       "topic": "reference",
       "action": "DELETE",
       "audio": "n/a",
-      "reason": "Duplicates the existing irregular-verbs.html page, and this copy is defective: lists regular verbs as irregular ('Clap/Clapped'), invents 'Abidden', and drops the participle column for many entries.",
-      "status": "NOT STARTED",
+      "reason": "Duplicates the existing irregular-verbs.html page, and this copy is defective: lists regular verbs as irregular ('Clap/Clapped'), invents 'Abidden', and drops the participle column for many entries. — DONE: source removed; nothing migrated. Files already deleted: cefr/texts/irregular-verbs-list.pdf.",
+      "status": "COMPLETE",
       "card_title": "Irregular Verbs List",
       "source_files": [
         "cefr/texts/irregular-verbs-list.pdf"
@@ -759,8 +761,8 @@
       "topic": "n/a",
       "action": "DELETE",
       "audio": "n/a",
-      "reason": "Written entirely in Portuguese — a translation of it-management, not an English exercise. The English original is kept.",
-      "status": "NOT STARTED",
+      "reason": "Written entirely in Portuguese — a translation of it-management, not an English exercise. The English original is kept. — DONE: source removed; nothing migrated. Files already deleted: cefr/texts/it-ptbr.docx.",
+      "status": "COMPLETE",
       "card_title": "IT Management (Portuguese)",
       "source_files": [
         "cefr/texts/it-ptbr.docx"
@@ -774,14 +776,15 @@
       "level": "B1",
       "topic": "everyday",
       "action": "MERGE",
-      "audio": "required",
+      "audio": "exists",
       "merge_into": "kitchen-phrasal-verbs",
-      "reason": "Same premise and teaching goal as kitchen-chaos-ii (IT worker cooking, phrasal verbs). Two texts teaching one thing.",
-      "status": "NOT STARTED",
+      "reason": "Same premise and teaching goal as kitchen-chaos-ii (IT worker cooking, phrasal verbs). Two texts teaching one thing. — DONE: Merged with kitchen-chaos-ii into one phrasal-verb text. The two sources taught the same thing with the same premise (an IT worker cooking); the merged version keeps the cooking/coding parallel as an actual argument rather than a closing remark.",
+      "status": "IMPLEMENTED",
       "card_title": "Kitchen Chaos I",
       "source_files": [
         "cefr/texts/kitchen-chaos-i.pdf"
-      ]
+      ],
+      "page": "reading/b1/kitchen-chaos.html"
     },
     {
       "slug": "kitchen-chaos-ii",
@@ -790,14 +793,15 @@
       "level": "B1",
       "topic": "everyday",
       "action": "MERGE",
-      "audio": "required",
+      "audio": "exists",
       "merge_into": "kitchen-phrasal-verbs",
-      "reason": "Merges with kitchen-chaos-i into one stronger phrasal-verb text.",
-      "status": "NOT STARTED",
+      "reason": "Merges with kitchen-chaos-i into one stronger phrasal-verb text. — DONE: Merged with kitchen-chaos-i into reading/b1/kitchen-chaos.html — see that entry.",
+      "status": "IMPLEMENTED",
       "card_title": "Kitchen Chaos II",
       "source_files": [
         "cefr/texts/kitchen-chaos-ii.pdf"
-      ]
+      ],
+      "page": "reading/b1/kitchen-chaos.html"
     },
     {
       "slug": "maringa",
@@ -824,8 +828,8 @@
       "topic": "business",
       "action": "DELETE",
       "audio": "n/a",
-      "reason": "Single-day market report ('The S&P 500 fell about 0.7%... third straight weekly loss') tied to a specific Fed nomination. Already stale and cannot be kept current.",
-      "status": "NOT STARTED",
+      "reason": "Single-day market report ('The S&P 500 fell about 0.7%... third straight weekly loss') tied to a specific Fed nomination. Already stale and cannot be kept current. — DONE: source removed; nothing migrated. Files already deleted: cefr/texts/market-sumup.pdf.",
+      "status": "COMPLETE",
       "card_title": "Market Sumup",
       "source_files": [
         "cefr/texts/market-sumup.pdf"
@@ -1488,15 +1492,16 @@
       "level": "C1",
       "topic": "society",
       "action": "MERGE",
-      "audio": "required",
+      "audio": "exists",
       "merge_into": "american-courtroom-cases",
-      "reason": "Both 'Court Trials' files cover famous US cases; merge into one curated reading and even out the register ('some crazy courthouse cases').",
-      "status": "NOT STARTED",
+      "reason": "Both 'Court Trials' files cover famous US cases; merge into one curated reading and even out the register ('some crazy courthouse cases'). — DONE: Merged with trials-mayors into one curated reading. Register evened out ('some crazy courthouse cases' is gone) and the unsubstantiated alternative-suspect theories about the Simpson case are dropped. Two factual additions the sources lacked: the Scopes conviction was overturned in 1926 on a technicality, and the criminal/civil split in Simpson turns on the standard of proof.",
+      "status": "IMPLEMENTED",
       "card_title": "Trials",
       "card_desc": "Exercises on legal and trial-related vocabulary.",
       "source_files": [
         "cefr/texts/trials.pdf"
-      ]
+      ],
+      "page": "reading/c1/trials.html"
     },
     {
       "slug": "trials-mayors",
@@ -1505,14 +1510,15 @@
       "level": "C1",
       "topic": "society",
       "action": "MERGE",
-      "audio": "required",
+      "audio": "exists",
       "merge_into": "american-courtroom-cases",
-      "reason": "Same title and theme as trials, focused on mayoral corruption cases.",
-      "status": "NOT STARTED",
+      "reason": "Same title and theme as trials, focused on mayoral corruption cases. — DONE: Merged into reading/c1/trials.html as the Kilpatrick case. Updated: the 28-year sentence was commuted in 2021 after about seven years, which the source predates. The source's internal inconsistency (indicted on 24 counts, then 'guilty on 24 of the 30') is resolved.",
+      "status": "IMPLEMENTED",
       "card_title": "Trials Mayors",
       "source_files": [
         "cefr/texts/trials-mayors.pdf"
-      ]
+      ],
+      "page": "reading/c1/trials.html"
     },
     {
       "slug": "trip-through-rs",
@@ -1621,8 +1627,8 @@
       "topic": "n/a",
       "action": "DELETE",
       "audio": "n/a",
-      "reason": "PDF-only and image-based — the only extractable text is 'ACTIVITY 1/2/3', so there is no content to migrate. Deletion confirmed by the user.",
-      "status": "NOT STARTED"
+      "reason": "PDF-only and image-based — the only extractable text is 'ACTIVITY 1/2/3', so there is no content to migrate. Deletion confirmed by the user. — DONE: source removed; nothing migrated. No source file remained.",
+      "status": "COMPLETE"
     }
   ],
   "_progress": {

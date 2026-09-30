@@ -113,6 +113,12 @@
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
  },
+ "b1/common-chores": {
+  "bytes": 1127808,
+  "fingerprint": "52f2db429ca20e31",
+  "rate": "-8%",
+  "voice": "en-US-EricNeural"
+ },
  "b1/detective-story": {
   "bytes": 1200096,
   "fingerprint": "95db2478ec5b4b5d",
@@ -142,6 +148,12 @@
   "fingerprint": "db0e590f0106cb61",
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
+ },
+ "b1/kitchen-chaos": {
+  "bytes": 1019952,
+  "fingerprint": "587f9ccdfe69bcca",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
  },
  "b1/my-day-in-vienna-to-by-for": {
   "bytes": 766944,
@@ -316,5 +328,11 @@
   "fingerprint": "615a8fb456ea5806",
   "rate": "+0%",
   "voice": "en-US-AriaNeural"
+ },
+ "c1/trials": {
+  "bytes": 1621296,
+  "fingerprint": "bf6b36da1708a209",
+  "rate": "+0%",
+  "voice": "en-US-BrianNeural"
  }
 }

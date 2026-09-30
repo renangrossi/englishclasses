@@ -126,7 +126,7 @@ Do not "fix" them as part of this work; log them and move on.
 ### Milestone 3 — Finishing the `KEEP` texts ✅
 - **Date:** 2026-09-30
 - **Branches:** `content/reading-b2-keep-batch`, `content/reading-c1-keep-batch` → merged to `main`
-- **Commits:** `923899e` (merge `989b408`), `98f0d0e` (merge recorded below)
+- **Commits:** `923899e` (merge `989b408`), `98f0d0e` (merge `a04e021`)
 - **Pushed:** yes · **Merged:** yes
 
 **What was completed**

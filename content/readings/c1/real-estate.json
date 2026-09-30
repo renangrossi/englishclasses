@@ -1,0 +1,416 @@
+{
+  "id": "c1-reading-real-estate",
+  "level": "C1",
+  "slug": "real-estate",
+  "topic": "business",
+  "title": "Selling Real Estate in a Segmented Market",
+  "subtitle": "Why the best agents diagnose before they sell, and treat negotiation as protecting value rather than cutting price.",
+  "description": "A C1 business-English reading and listening text on real-estate market dynamics and high-performance sales technique, set in the Denver market, with advanced vocabulary and interpretation exercises.",
+  "source": "cefr/texts/real-estate.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "4:36"
+  },
+  "passage": [
+    "Denver is a complex and highly segmented real-estate market. Demand varies sharply by neighborhood, by lifestyle and by buyer profile — from compact apartments in Capitol Hill and Baker, to high-end houses in Cherry Creek, Country Club and Hilltop, to family developments out toward the southeast suburbs. Any agent hoping to work the city seriously has to understand those micro-markets as separate places, because that is how buyers experience them.",
+    "Buyers have also become markedly better informed and more cautious in recent years. They compare price per square foot across listings, scrutinize HOA dues, weigh sun exposure, ventilation, security and access to services, and they negotiate hard. Selling well now depends much less on persuasion than on strategy, credibility and genuine knowledge of the market.",
+    "The strongest agents begin by diagnosing what the buyer actually needs, rather than by promoting whatever they currently have to sell. They ask precise questions about lifestyle, family structure, working patterns, budget ceilings and long-term plans. A young professional working remotely may care most about natural light, reliable internet and somewhere to walk for coffee; a family with school-age children will weigh parking, safety, schools and green space far more heavily. The consultative approach builds trust and prevents wasted showings. In a city where commuting time, altitude and weather all shape the texture of daily life, matching a property to a buyer's routine is frequently the factor that decides the sale.",
+    "Top agents also do not merely describe an apartment; they place it in context. They can explain why one street is quieter than the next, why a neighborhood is currently undervalued and likely to appreciate, or how a planned transit extension may change what a block is worth. In Denver, floodplain designation along the Platte, elevation and the intensity of the sun at altitude, older housing stock, and decades of zoning decisions all bear on desirability and price in ways a newcomer will not see. Translating that technical knowledge into a clear advantage is what turns an agent from an intermediary into an advisor.",
+    "Buying a property is a rational investment and an emotional decision at the same time, and good salespeople work on both. They help a client picture a future in the space — friends on the back deck in September, a west-facing room that holds the winter light, a short walk to Washington Park on a Saturday. But storytelling on its own is not enough, and clients increasingly know it. The best professionals anchor the emotional appeal in hard evidence: comparable recent sales, construction quality, energy performance, resale potential and a realistic figure for maintenance. That combination reassures a buyer and shortens the time it takes them to decide.",
+    "Presentation, similarly, is strategic rather than cosmetic. Clean, well-lit, neutral spaces sell faster and at better prices, and modest interventions — decluttering, repainting, improving the lighting, rethinking the furniture layout — can change how a property reads entirely. Where the housing stock is older, as much of Denver's is, it pays to be specific about renovations, structural maintenance and sound insulation. Being transparent about a property's condition raises credibility and heads off objections before they are raised.",
+    "Advanced negotiation treats the process as protecting value rather than conceding discounts. Skilled agents anticipate objections, justify the asking price with market evidence, and frame any concession as a mutual gain rather than a retreat. They know when silence does more work than argument, and they create urgency only where real demand justifies it — manufactured scarcity is both unethical and, in a market where buyers talk to each other, ineffective. In a city where buyers expect to negotiate, defending a price while keeping the relationship intact is the skill that separates the best agents from the rest.",
+    "Finally, the most successful professionals think past the individual transaction. They stay in contact, offer support after the sale, and make themselves the person a former client refers a friend to years later. Where local networks are strong and word of mouth carries weight, reputation is the most durable asset an agent has. Market intelligence, emotional intelligence, disciplined communication and ethical negotiation together are what allow a good agent to outperform an average one consistently, and to create value on both sides of the deal."
+  ],
+  "vocabulary": [
+    {
+      "term": "segmented",
+      "definition": "divided into distinct parts that behave differently"
+    },
+    {
+      "term": "micro-market",
+      "definition": "a small area whose prices and demand move independently of the wider market",
+      "match": "micro-markets"
+    },
+    {
+      "term": "buyer profile",
+      "definition": "the characteristics and priorities of a particular kind of purchaser"
+    },
+    {
+      "term": "to scrutinize",
+      "definition": "to examine closely and critically"
+    },
+    {
+      "term": "HOA dues",
+      "definition": "the monthly charge owners pay toward shared maintenance and services"
+    },
+    {
+      "term": "credibility",
+      "definition": "the quality of being believed because you have earned it"
+    },
+    {
+      "term": "to diagnose",
+      "definition": "to identify what is actually wrong or actually needed"
+    },
+    {
+      "term": "budget ceiling",
+      "definition": "the highest figure a buyer is willing or able to reach",
+      "match": "budget ceilings"
+    },
+    {
+      "term": "consultative",
+      "definition": "advising rather than pitching"
+    },
+    {
+      "term": "showing",
+      "definition": "an appointment at which a property is viewed",
+      "match": "showings"
+    },
+    {
+      "term": "to appreciate",
+      "definition": "to rise in value over time"
+    },
+    {
+      "term": "undervalued",
+      "definition": "priced below what it is actually worth"
+    },
+    {
+      "term": "floodplain",
+      "definition": "the low ground beside a river that is liable to flood"
+    },
+    {
+      "term": "housing stock",
+      "definition": "the total supply of dwellings in an area, considered by age and type"
+    },
+    {
+      "term": "zoning",
+      "definition": "the legal rules governing what may be built where"
+    },
+    {
+      "term": "intermediary",
+      "definition": "someone who merely passes things between two parties"
+    },
+    {
+      "term": "comparable",
+      "definition": "a recent sale of a similar property, used to justify a price",
+      "match": "comparable"
+    },
+    {
+      "term": "resale potential",
+      "definition": "how readily and at what price a property could be sold again"
+    },
+    {
+      "term": "to declutter",
+      "definition": "to remove excess possessions so a space reads as larger and calmer",
+      "match": "decluttering"
+    },
+    {
+      "term": "concession",
+      "definition": "something given up in a negotiation to move it forward"
+    },
+    {
+      "term": "manufactured scarcity",
+      "definition": "a false impression that little is available, created to force a decision"
+    },
+    {
+      "term": "word of mouth",
+      "definition": "recommendation passed personally from one customer to another"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-realest-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading for Argument",
+      "instructions": "These ask about the reasoning behind each technique, not simply what the technique is.",
+      "items": [
+        {
+          "id": "re1",
+          "prompt": "Why does the text insist that micro-markets be understood as separate places?",
+          "options": [
+            "Because city regulations differ between neighborhoods",
+            "Because commission rates vary by district",
+            "Because demand, price and buyer type differ so much between them that a city-wide view tells you nothing useful"
+          ],
+          "answerIndex": 2,
+          "explanation": "Demand “varies sharply by neighborhood, by lifestyle and by buyer profile” — and the text adds that this is “how buyers experience them”."
+        },
+        {
+          "id": "re2",
+          "prompt": "What consequence does the text draw from buyers becoming better informed?",
+          "options": [
+            "That persuasion matters less and strategy, credibility and market knowledge matter more",
+            "That agents are becoming unnecessary",
+            "That prices have stopped rising"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Selling well now depends much less on persuasion than on strategy, credibility and genuine knowledge of the market.”"
+        },
+        {
+          "id": "re3",
+          "prompt": "Why does diagnosing the buyer first prevent wasted showings?",
+          "options": [
+            "Because it lets the agent screen out buyers who cannot afford to purchase",
+            "Because properties that do not fit the buyer's actual routine are never visited at all",
+            "Because it shortens the legal process"
+          ],
+          "answerIndex": 1,
+          "explanation": "The diagnosis establishes what the buyer needs before anything is shown, so the mismatch is caught in conversation rather than in a car."
+        },
+        {
+          "id": "re4",
+          "prompt": "What distinguishes an advisor from an intermediary in this text?",
+          "options": [
+            "The advisor holds a professional license",
+            "The advisor works for the buyer rather than the seller",
+            "The advisor translates technical knowledge into an advantage the buyer can act on, instead of merely passing information along"
+          ],
+          "answerIndex": 2,
+          "explanation": "“Translating that technical knowledge into a clear advantage is what turns an agent from an intermediary into an advisor.”"
+        },
+        {
+          "id": "re5",
+          "prompt": "Why is storytelling alone described as insufficient?",
+          "options": [
+            "Because clients increasingly recognize it and expect evidence alongside it",
+            "Because emotional appeals are unethical",
+            "Because most buyers are purely rational"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Storytelling on its own is not enough, and clients increasingly know it” — which is why comparables, construction quality and maintenance costs follow."
+        },
+        {
+          "id": "re6",
+          "prompt": "Why does the text say transparency about a property's condition raises credibility?",
+          "options": [
+            "Because disclosure is legally required in Colorado",
+            "Because raising a flaw yourself removes the buyer's opportunity to discover it and doubt everything else",
+            "Because buyers rarely inspect older properties"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text says transparency “raises credibility and heads off objections before they are raised” — the flaw is disarmed by being stated first."
+        },
+        {
+          "id": "re7",
+          "prompt": "What is the argument against manufactured scarcity?",
+          "options": [
+            "That it is both unethical and ineffective where buyers compare notes with each other",
+            "That it is illegal in most states",
+            "That it slows the sale down"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Manufactured scarcity is both unethical and, in a market where buyers talk to each other, ineffective.” The practical objection reinforces the ethical one."
+        },
+        {
+          "id": "re8",
+          "prompt": "Why is negotiation described as “protecting value” rather than conceding price?",
+          "options": [
+            "Because the seller sets the price and the agent cannot alter it",
+            "Because discounts are forbidden by most listing agreements",
+            "Because the goal is to defend the asking price with evidence and frame any concession as a mutual gain, not a retreat"
+          ],
+          "answerIndex": 2,
+          "explanation": "Skilled agents “anticipate objections, justify the asking price with market evidence, and frame any concession as a mutual gain rather than a retreat”."
+        }
+      ]
+    },
+    {
+      "id": "c1-realest-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Several of these are close to the text without matching it.",
+      "items": [
+        {
+          "id": "ret1",
+          "statement": "The text says emotional appeal should be avoided in property sales.",
+          "answer": false,
+          "explanation": "False — buying is “a rational investment and an emotional decision at the same time, and good salespeople work on both”."
+        },
+        {
+          "id": "ret2",
+          "statement": "A young remote worker and a family are described as weighing the same features differently.",
+          "answer": true,
+          "explanation": "True — light, internet and walkable coffee for one; parking, safety, schools and green space for the other."
+        },
+        {
+          "id": "ret3",
+          "statement": "Presentation is described as a cosmetic matter of limited importance.",
+          "answer": false,
+          "explanation": "False — “presentation… is strategic rather than cosmetic”, and modest changes can alter how a property reads entirely."
+        },
+        {
+          "id": "ret4",
+          "statement": "The text says urgency should never be used in a negotiation.",
+          "answer": false,
+          "explanation": "False — agents “create urgency only where real demand justifies it”. It is the fabricated kind that is ruled out."
+        },
+        {
+          "id": "ret5",
+          "statement": "Silence is described as sometimes more effective than argument.",
+          "answer": true,
+          "explanation": "True — “they know when silence does more work than argument”."
+        },
+        {
+          "id": "ret6",
+          "statement": "The text treats reputation as the agent's most durable asset.",
+          "answer": true,
+          "explanation": "True — “reputation is the most durable asset an agent has”, because local networks and word of mouth carry the referrals."
+        }
+      ]
+    },
+    {
+      "id": "c1-realest-vocabulary",
+      "type": "fill-blank",
+      "title": "The Vocabulary of a Market",
+      "instructions": "Complete each sentence with the term used in the trade.",
+      "items": [
+        {
+          "id": "ref1",
+          "prompt": "The asking price is defended with recent ___ from the same three blocks.",
+          "answers": [
+            "comparables"
+          ],
+          "options": [
+            "comparables",
+            "concessions",
+            "intermediaries"
+          ],
+          "explanation": "A comparable is a recent sale of a similar property, used as evidence for a price."
+        },
+        {
+          "id": "ref2",
+          "prompt": "The neighborhood is currently ___ and is likely to ___ once the transit line opens.",
+          "answers": [
+            "undervalued",
+            "appreciate"
+          ],
+          "options": [
+            [
+              "undervalued",
+              "segmented",
+              "consultative"
+            ],
+            [
+              "appreciate",
+              "scrutinize",
+              "declutter"
+            ]
+          ],
+          "explanation": "Undervalued means priced below what it is worth; to appreciate is to rise in value over time."
+        },
+        {
+          "id": "ref3",
+          "prompt": "Buyers now ___ the monthly HOA ___ as carefully as the asking price.",
+          "answers": [
+            "scrutinize",
+            "dues"
+          ],
+          "options": [
+            [
+              "scrutinize",
+              "diagnose",
+              "appreciate"
+            ],
+            [
+              "dues",
+              "comparables",
+              "ceilings"
+            ]
+          ],
+          "explanation": "To scrutinize is to examine closely; HOA dues are the monthly charge toward shared maintenance."
+        },
+        {
+          "id": "ref4",
+          "prompt": "A good agent will ___ the client's real requirements before showing anything.",
+          "answers": [
+            "diagnose"
+          ],
+          "options": [
+            "diagnose",
+            "declutter",
+            "concede"
+          ],
+          "explanation": "To diagnose is to identify what is actually needed — the word deliberately borrows from medicine."
+        },
+        {
+          "id": "ref5",
+          "prompt": "Much of the ___ ___ in this part of the city dates from before 1950.",
+          "answers": [
+            "housing",
+            "stock"
+          ],
+          "options": [
+            [
+              "housing",
+              "market",
+              "buyer"
+            ],
+            [
+              "stock",
+              "profile",
+              "zone"
+            ]
+          ],
+          "explanation": "Housing stock is the total supply of dwellings in an area, considered by age and type."
+        },
+        {
+          "id": "ref6",
+          "prompt": "Every ___ should be presented as a mutual gain, never as a retreat.",
+          "answers": [
+            "concession"
+          ],
+          "options": [
+            "concession",
+            "comparable",
+            "credibility"
+          ],
+          "explanation": "A concession is something given up in a negotiation to move it forward."
+        }
+      ]
+    },
+    {
+      "id": "c1-realest-matching",
+      "type": "matching",
+      "title": "Technique and Purpose",
+      "instructions": "Match each practice to the reason the text gives for it.",
+      "items": [
+        {
+          "id": "rem1",
+          "pairs": [
+            {
+              "left": "Asking about routine and long-term plans first",
+              "right": "to avoid showing properties that were never going to fit"
+            },
+            {
+              "left": "Explaining zoning, floodplain and elevation",
+              "right": "to become an advisor rather than an intermediary"
+            },
+            {
+              "left": "Citing recent comparable sales",
+              "right": "to anchor an emotional appeal in evidence"
+            },
+            {
+              "left": "Decluttering and improving the lighting",
+              "right": "to change how the space is perceived before any price is discussed"
+            },
+            {
+              "left": "Naming a defect before the buyer finds it",
+              "right": "to raise credibility and remove the objection in advance"
+            },
+            {
+              "left": "Staying in contact after the sale",
+              "right": "to earn the referrals that word of mouth generates"
+            }
+          ],
+          "explanation": "Read down the right-hand column and the argument of the whole text appears: every technique is justified by what it does for the buyer's confidence, not by what it extracts from them."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The text says the best agents diagnose before they sell. Where else does a seller's first instinct — to present the product — work against them?",
+    "Is there a real difference between creating urgency “ethically” and manufacturing scarcity, or is it only a question of degree?",
+    "How informed are buyers in your own market? What can they check now that they could not have checked twenty years ago?",
+    "The text treats reputation as an agent's most durable asset. What would destroy it fastest?",
+    "Write about 250 words presenting a property you know well to one specific buyer profile — naming the evidence you would bring as well as the picture you would paint."
+  ]
+}

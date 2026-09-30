@@ -9,7 +9,7 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 24 of 98 implemented.**
+**Progress: 28 of 98 implemented.**
 
 ## Totals
 
@@ -45,8 +45,8 @@ content rather than as pre-existing.
 
 | Audio | Docs | |
 |---|---:|---|
-| `required` | 49 | must be generated |
-| `exists` | 19 | mp3 present and matches the text |
+| `required` | 45 | must be generated |
+| `exists` | 23 | mp3 present and matches the text |
 | `stale-on-edit` | 2 | mp3 present but the text is being edited -- **must be regenerated** |
 | `n/a` | 28 | drill / answer key / discussion bank -- not a reading text |
 
@@ -126,7 +126,7 @@ Useful material that needs correction before it goes on the site.
 
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
-| `america-in-1776` | 1154 | reading | C1 | culture | `required` | NOT STARTED | Strong, genuinely C1 essay on the founding. Dense academic register; trim and break into sections for readability. |
+| `america-in-1776`<br>[page](../reading/c1/america-in-1776.html) | 1154 | reading | C1 | culture | `exists` | IMPLEMENTED | Strong, genuinely C1 essay on the founding. Dense academic register; trim and break into sections for readability. — DONE: Trimmed and broken into shorter sections for readability; the source's own acknowledgement of slavery, displacement and nativism is kept, since the essay's honesty depends on it. |
 | `arriving-in-johannesburg` | 1306 | dialogue | B1 | travel | `required` | NOT STARTED | Excellent airport-arrival functional dialogue. Traveler renamed to an English name; trim repetition in the shuttle exchange. |
 | `beers` | 694 | reading | B1 | food | `required` | NOT STARTED | Factual slip: 'Pilsner: Pilsen is a type of lager'. Fix, tighten the style list. |
 | `business-war-it` | 689 | reading | B2 | tech | `required` | NOT STARTED | Useful tech-history angle but list-like and abrupt; convert to connected prose. |
@@ -141,17 +141,17 @@ Useful material that needs correction before it goes on the site.
 | `golden-gate-bridge-present-perfect` | 274 | reading | B1 | culture | `required` | NOT STARTED | Idioms crammed in at an unnatural density, one of them crude for a classroom ('crews have busted their butts'). Keep the present-perfect focus, rewrite the register. |
 | `investigation-story`<br>[page](../reading/b1/investigation-story.html) | 408 | dialogue | B1 | literature | `required` | IMPLEMENTED | Tight interrogation dialogue with natural past continuous and English names already. Audited as KEEP, but a close read found the closing exchange unusable: it was graphic (stab wounds 'all over her torso', the body 'dragged to the forest for the wild animals to feast upon') and abusive ('you lying bastard', 'You are evil. And stupid.') -- the same defect class that made P-5 texts REPLACE. Reclassified KEEP->EDIT. The deduction that drives the scene is the source's own and was kept: Rogers claims he heard gunshots, but the victim was never shot. The gore and the insults are gone, and the interview now ends with the lie exposed and the case deliberately unresolved, which is what the discussion questions work on. |
 | `it-and-jiu-jitsu` | 356 | reading | B2 | work | `required` | NOT STARTED | Likeable text; remove the gratuitous aside about breaking an opponent's 'defense (or face)'. |
-| `it-management` | 432 | reading | C1 | business | `required` | NOT STARTED | Dense, authentic exec-meeting register. Rename the cast to English names per instruction; the source's hyphens (risk-adjusted, per-transaction) must survive extraction. |
+| `it-management`<br>[page](../reading/c1/it-management.html) | 432 | reading | C1 | business | `exists` | IMPLEMENTED | Dense, authentic exec-meeting register. Rename the cast to English names per instruction; the source's hyphens (risk-adjusted, per-transaction) must survive extraction. — DONE: Cast renamed to English names (Claire, Raymond, Megan, Jonas, Paula) per the naming rule; the telegraphic source expanded into connected prose while keeping the dense finance register and the hyphenated terms intact. |
 | `my-day-in-vienna-to-by-for` | 319 | reading | B1 | travel | `required` | NOT STARTED | Passives exist only to demo the form and read badly ('The tickets were bought by her', 'I gave a big hug to her'). Rewrite naturally. |
 | `nfl`<br>[page](../reading/b1/nfl.html) | 566 | reading | B1 | sports | `exists` | IMPLEMENTED | Clear explainer on an American sport, squarely on brief. Audited as KEEP, but a close read turned up factual errors that had to be corrected: the season format was the pre-2021 one (16 games/17 weeks, two wildcards per conference -- now 17 games/18 weeks and seven playoff teams per conference), Walter Payton was called the all-time rushing leader (Emmitt Smith passed him in 2002), and the title read 'National Footbal League'. Some B2 vocabulary was also eased to sit properly at B1. |
 | `north-sentinel-island` | 270 | reading | B2 | society | `required` | NOT STARTED | Genuinely interesting factual text; check the framing of the islanders stays respectful and drop the 'Stone Age' comparison. |
 | `ny-visitation` | 789 | reading | B1 | travel | `required` | NOT STARTED | Good hotel/recommendation narrative. Overlaps restaurant-dialogue (same Joe's Pizza scene) — keep this as the narrative, that as the dialogue, and cross-reference. |
 | `physical-education` | 392 | reading | B1 | sports | `stale-on-edit` | NOT STARTED | Present perfect and past perfect are misused ('Last month, she had organized a relay race' with no later anchor). Fix the tenses, then regenerate the 4 existing mp3s. |
-| `real-estate` | 634 | reading | C1 | business | `required` | NOT STARTED | Strong market-analysis register, but wholly about Porto Alegre neighborhoods. Re-set in a US market to match the brief. |
+| `real-estate`<br>[page](../reading/c1/real-estate.html) | 634 | reading | C1 | business | `exists` | IMPLEMENTED | Strong market-analysis register, but wholly about Porto Alegre neighborhoods. Re-set in a US market to match the brief. — DONE: Re-set from Porto Alegre to the Denver market per the American-English brief (P-2): neighborhoods, price per square foot, HOA dues, floodplain and altitude replace the local references. The argument and structure are the source's. |
 | `recent-advancements-in-it` | 367 | reading | B2 | tech | `required` | NOT STARTED | Pegged to 'What's new in 2026'; rewrite so it does not date, and tone down 'insane'/'revolutionary'. |
 | `restaurant-dialogue`<br>[page](../reading/a2/restaurant-dialogue.html) | 345 | dialogue | A2 | food | `exists` | IMPLEMENTED | Useful ordering dialogue. The family is renamed to English names per instruction; the inconsistent speaker labels ('Joe’s Pizza employee' vs 'Server') are unified; and the tip is corrected — the original left $3.50 on $26.50, about 13%, which misteaches American practice, so it is now just over 20% with a short explanation of why servers depend on tips. |
 | `romania` | 575 | reading | B2 | culture | `required` | NOT STARTED | Competent country overview; slightly encyclopedic, tighten into themed paragraphs. |
-| `rs-japan` | 945 | reading | C1 | culture | `required` | NOT STARTED | Overwritten ('neon-veined precision', 'cultural whiplash'); the cultural-contrast idea is good but the prose needs heavy pruning to read as natural C1. |
+| `rs-japan`<br>[page](../reading/c1/rs-japan.html) | 945 | reading | C1 | culture | `exists` | IMPLEMENTED | Overwritten ('neon-veined precision', 'cultural whiplash'); the cultural-contrast idea is good but the prose needs heavy pruning to read as natural C1. — DONE: Heavily pruned: 'neon-veined precision', 'cultural whiplash', 'rewires your senses' and the two-souls ending are gone. The cultural-contrast argument is kept and sharpened so neither place is ranked. |
 | `say-speak-talk-tell-02` | 353 | reading | B1 | tech | `required` | NOT STARTED | Present perfect applied where it is wrong: 'I've known there are some exciting purchases', 'The salesperson has told me...'. Rewrite the tense scheme. |
 | `soma-nomaoi` | 446 | reading | B2 | culture | `required` | NOT STARTED | Good festival text; strip the raw x.com link and keep the Japanese terms glossed. |
 | `southeast-asia-adventure` | 572 | reading | B1 | travel | `required` | NOT STARTED | Good present-perfect travel narrative; rename the cast to English names per instruction. |

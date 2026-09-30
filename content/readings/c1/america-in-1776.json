@@ -1,0 +1,447 @@
+{
+  "id": "c1-reading-america-in-1776",
+  "level": "C1",
+  "slug": "america-in-1776",
+  "topic": "culture",
+  "title": "America in 1776",
+  "subtitle": "A republic founded on an argument rather than a bloodline — and the long distance between the claim and the practice.",
+  "description": "A C1 reading and listening essay on the revolutionary origins of the United States, the world it broke from, and the gap between its founding ideals and its history, with advanced vocabulary and interpretation exercises.",
+  "source": "cefr/texts/america-in-1776.docx",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "7:16"
+  },
+  "passage": [
+    "In 1776, most of the world's population lived under hereditary monarchs, empires or rigidly hierarchical systems. That year, thirteen British colonies along the eastern seaboard of North America issued a document that challenged the prevailing political order outright. The Declaration of Independence asserted that governments derive their just powers from the consent of the governed, and that individuals hold unalienable rights to life, liberty and the pursuit of happiness. This was not simply a local rebellion over taxes and distant administration. It was a radical experiment in self-government, rooted in Enlightenment thought, and the subsequent history of the United States has continued to reflect both the power and the strain of those founding claims.",
+    "The world it departed from is worth recalling precisely. France was ruled by Louis XVI under the doctrine of divine right. The Russian Empire was expanding under Catherine the Great. The Habsburgs and the Ottoman sultans governed multi-ethnic territories with little notion of popular sovereignty. In East Asia, the Qing dynasty administered a vast Confucian bureaucracy built on hierarchy and continuity rather than individual rights. Across much of Africa, the Middle East and South Asia, authority flowed downward from rulers rather than upward from citizens. Even Britain, the most constitutionally advanced power in Europe, combined monarchy with a parliament representing a narrow propertied elite.",
+    "Against that background the colonies advanced a different set of principles. Drawing on John Locke's account of natural rights and the social contract, and on Montesquieu's argument for the separation of powers, they rejected the claim that legitimate authority required royal blood or divine sanction. They declared that “all men are created equal” — a statement that in practice applied at first mainly to free white men of property, yet which established an egalitarian standard against which every later generation would measure the country's failures. The new republic was to be a government of laws rather than of men, limited in scope and answerable to the people. No other large political community of the era rested its legitimacy so explicitly on such foundations.",
+    "Those values found more durable expression in the Constitution of 1787 and the Bill of Rights that followed. Federalism divided power between national and state governments; checks and balances prevented any single branch from dominating; and specific protections for speech, religion, assembly and due process were written into fundamental law. Such arrangements were unusual. Most societies of the period either concentrated authority or left rights dependent on the goodwill of whoever held it.",
+    "The early republic also treated property rights and the freedom to pursue opportunity as closely bound up with political liberty. Slavery remained a flat contradiction of the proclaimed ideals, and the contradiction was visible to contemporaries. The northern states abolished it gradually, and the Northwest Ordinance of 1787 prohibited it in the territory northwest of the Ohio River, but the institution was left intact where it was strongest. Immigration, limited by later standards, had already begun to shape a society defined less by ancient bloodlines than by shared political principles and the possibility of advancement.",
+    "The nineteenth century tested and extended these foundations, and exposed their limits. Westward expansion brought opportunity alongside profound injustice toward Native American nations. The Civil War became the decisive trial of the Union and of the proposition that a government dedicated to liberty could not indefinitely tolerate human bondage. The Thirteenth, Fourteenth and Fifteenth Amendments abolished slavery, established birthright citizenship and sought to guarantee equal protection and the vote — though segregation and systematic discrimination delayed the substance of those promises for generations.",
+    "Industrialization, mass immigration and technological innovation then turned the country into an economic power of the first rank. The Progressive Era and later the New Deal expanded the government's role in regulating markets and providing social insurance, while the underlying commitment to private enterprise and individual initiative held. The United States emerged from two world wars as a global superpower, and framed its Cold War leadership, at least in part, as a defense of open societies against totalitarian alternatives. At home, women's suffrage and then the civil rights movement of the 1950s and 1960s showed a capacity for self-correction through democratic pressure, legislation and judicial interpretation — correction that was neither automatic nor granted without long struggle.",
+    "Certain patterns persisted through all of it: comparatively high social mobility, a culture that prized innovation and risk, and a political system that, for all its polarization and institutional friction, continued to transfer power through elections rather than by inheritance or force.",
+    "Several features distinguish the American case. The country was founded on universalist political ideas rather than on ethnicity, dynasty or sacred geography, and that civic nationalism — loyalty to a constitution and a creed — has repeatedly absorbed new waves of immigrants and supplied the framework for arguing about who belongs. The written Constitution has endured more than two centuries with relatively few formal amendments, remaining adaptable through interpretation and practice; few nations possess a founding document of comparable longevity and symbolic weight. And the combination of political liberty, secure property rights and a large internal market has produced exceptional scientific, technological and entrepreneurial dynamism, while the reach of American ideas, universities and entertainment has often exceeded what military or economic strength alone would explain.",
+    "None of this implies perfection, and the essay would be dishonest if it pretended otherwise. Slavery, the displacement of indigenous peoples, recurring nativism, racial injustice and persistent inequality are all part of the record. The distance between professed ideals and lived reality has been a standing source of criticism at home and abroad. Yet those same ideals have also supplied the language and the institutional means by which reformers pressed for change; the Declaration has been quoted against the country far more often than for it. The capacity to confront such contradictions openly — through free debate, elections and legal process — remains among the system's more durable strengths.",
+    "In 1776 the United States was an improbable experiment on the periphery of the European world. Over two and a half centuries it has become a continental republic whose founding principles still shape its domestic argument and its role abroad. The contrast with the monarchical and imperial orders of the late eighteenth century was real. So is the unfinished effort to live up to what was claimed in that first document — and it is that effort, rather than any completed achievement, that gives the American story its particular character."
+  ],
+  "vocabulary": [
+    {
+      "term": "hereditary",
+      "definition": "passed down by birth rather than earned or chosen"
+    },
+    {
+      "term": "prevailing",
+      "definition": "most common or dominant at the time"
+    },
+    {
+      "term": "to derive",
+      "definition": "to obtain something from a particular source"
+    },
+    {
+      "term": "consent of the governed",
+      "definition": "the principle that authority is legitimate only if the people agree to it"
+    },
+    {
+      "term": "unalienable",
+      "definition": "impossible to take away or give up"
+    },
+    {
+      "term": "Enlightenment",
+      "definition": "the eighteenth-century movement that made reason and individual rights the test of institutions"
+    },
+    {
+      "term": "divine right",
+      "definition": "the claim that a monarch's authority comes directly from God"
+    },
+    {
+      "term": "popular sovereignty",
+      "definition": "the doctrine that ultimate political authority rests with the people"
+    },
+    {
+      "term": "propertied elite",
+      "definition": "the small class that owned land and therefore held political power"
+    },
+    {
+      "term": "social contract",
+      "definition": "the idea that government rests on an agreement between rulers and ruled"
+    },
+    {
+      "term": "sanction",
+      "definition": "official approval or authorization"
+    },
+    {
+      "term": "egalitarian",
+      "definition": "holding that people should be treated as equals"
+    },
+    {
+      "term": "federalism",
+      "definition": "the division of power between a national government and regional ones"
+    },
+    {
+      "term": "checks and balances",
+      "definition": "the arrangement by which each branch of government can limit the others"
+    },
+    {
+      "term": "due process",
+      "definition": "the requirement that the state follow fair legal procedure before depriving anyone of rights"
+    },
+    {
+      "term": "bondage",
+      "definition": "the condition of being owned as property; slavery"
+    },
+    {
+      "term": "birthright citizenship",
+      "definition": "citizenship acquired automatically by being born in a country"
+    },
+    {
+      "term": "suffrage",
+      "definition": "the right to vote"
+    },
+    {
+      "term": "social mobility",
+      "definition": "the possibility of moving between social and economic classes"
+    },
+    {
+      "term": "polarization",
+      "definition": "the movement of opinion toward two hostile extremes"
+    },
+    {
+      "term": "universalist",
+      "definition": "claiming to apply to all people rather than to one group"
+    },
+    {
+      "term": "civic nationalism",
+      "definition": "national identity founded on shared political principles rather than shared ancestry"
+    },
+    {
+      "term": "longevity",
+      "definition": "the quality of lasting a long time"
+    },
+    {
+      "term": "nativism",
+      "definition": "political hostility to immigrants in favor of the established population"
+    },
+    {
+      "term": "periphery",
+      "definition": "the outer edge of a region or system, away from its centers of power"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-1776-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading for Argument",
+      "instructions": "This is an essay with a case to make and qualifications it takes seriously. Read for both.",
+      "items": [
+        {
+          "id": "am1",
+          "prompt": "Why does the writer spend a whole paragraph describing France, Russia, the Qing dynasty and Britain?",
+          "options": [
+            "To establish the baseline the American claim broke from, so that its novelty can be measured rather than asserted",
+            "To argue that those societies were less developed",
+            "To explain which powers supported the revolution"
+          ],
+          "answerIndex": 0,
+          "explanation": "Even Britain, “the most constitutionally advanced power in Europe”, is included — the point is comparative, and the inclusion of the closest case is what makes it rigorous."
+        },
+        {
+          "id": "am2",
+          "prompt": "How does the writer handle the fact that “all men are created equal” did not apply to most people in 1776?",
+          "options": [
+            "By treating it as evidence that the Declaration was insincere",
+            "By stating the limitation plainly, then arguing the phrase set a standard later generations used against the country itself",
+            "By leaving it to a later paragraph about slavery"
+          ],
+          "answerIndex": 1,
+          "explanation": "It “applied at first mainly to free white men of property, yet… established an egalitarian standard against which every later generation would measure the country's failures”."
+        },
+        {
+          "id": "am3",
+          "prompt": "What does the writer mean by “a government of laws rather than of men”?",
+          "options": [
+            "That the government would be staffed by lawyers",
+            "That legislation would be more important than the executive",
+            "That authority would rest in rules binding on everyone, rather than in the will of whoever holds office"
+          ],
+          "answerIndex": 2,
+          "explanation": "It is contrasted with systems where rights “depend on the goodwill of whoever held” authority."
+        },
+        {
+          "id": "am4",
+          "prompt": "The text says the Northwest Ordinance banned slavery in new territory “but the institution was left intact where it was strongest”. What is the effect of that clause?",
+          "options": [
+            "It prevents the reader from reading a partial measure as a solution",
+            "It suggests the Ordinance was never enforced",
+            "It implies the northern states acted in bad faith"
+          ],
+          "answerIndex": 0,
+          "explanation": "The qualification stops a genuine restriction from standing in for abolition — the writer credits the step and refuses to overstate it."
+        },
+        {
+          "id": "am5",
+          "prompt": "Why does the writer add that self-correction was “neither automatic nor granted without long struggle”?",
+          "options": [
+            "To question whether the civil rights movement succeeded",
+            "To prevent the system's adaptability from being read as something it conceded willingly",
+            "To argue that legislation was ineffective"
+          ],
+          "answerIndex": 1,
+          "explanation": "The capacity for correction is real, but the sentence refuses to let the credit fall on the institutions rather than on those who forced them."
+        },
+        {
+          "id": "am6",
+          "prompt": "What is the significance of the claim that the country was founded on ideas “rather than on ethnicity, dynasty or sacred geography”?",
+          "options": [
+            "That it explains the country's territorial expansion",
+            "That it has allowed successive waves of immigrants to be absorbed, and supplied the terms for arguing about who belongs",
+            "That it made the Constitution unnecessary"
+          ],
+          "answerIndex": 1,
+          "explanation": "Civic nationalism “has repeatedly absorbed new waves of immigrants and supplied the framework for arguing about who belongs” — membership is by creed, so it can be contested by argument."
+        },
+        {
+          "id": "am7",
+          "prompt": "“The Declaration has been quoted against the country far more often than for it.” What is the writer's point?",
+          "options": [
+            "That the document has been misused by its critics",
+            "That its language was deliberately vague",
+            "That the founding ideals have functioned mainly as a standard for reformers to hold the country to"
+          ],
+          "answerIndex": 2,
+          "explanation": "It develops the earlier claim that those ideals “supplied the language and the institutional means by which reformers pressed for change”."
+        },
+        {
+          "id": "am8",
+          "prompt": "Where does the writer finally locate what is distinctive about the American story?",
+          "options": [
+            "In the unfinished effort to live up to the founding claims, rather than in any completed achievement",
+            "In the Constitution's longevity",
+            "In the country's economic and military power"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It is that effort, rather than any completed achievement, that gives the American story its particular character.”"
+        },
+        {
+          "id": "am9",
+          "prompt": "How would you best describe the essay's overall stance?",
+          "options": [
+            "Critical, treating the founding ideals as a cover for injustice",
+            "Admiring of the founding claim while insisting on the distance between it and the record",
+            "Neutral, presenting facts without taking a position"
+          ],
+          "answerIndex": 1,
+          "explanation": "It calls the experiment radical and its principles distinctive, and it lists slavery, displacement, nativism and inequality as “part of the record”. Both are held at once."
+        }
+      ]
+    },
+    {
+      "id": "c1-1776-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Precision matters here. Check each against exactly what the text says.",
+      "items": [
+        {
+          "id": "amt1",
+          "statement": "The text presents Britain in 1776 as a democracy comparable to the new republic.",
+          "answer": false,
+          "explanation": "False — Britain is called the most constitutionally advanced European power, but it “combined monarchy with a parliament representing a narrow propertied elite”."
+        },
+        {
+          "id": "amt2",
+          "statement": "Locke and Montesquieu are named as sources for the revolutionaries' principles.",
+          "answer": true,
+          "explanation": "True — Locke for natural rights and the social contract, Montesquieu for the separation of powers."
+        },
+        {
+          "id": "amt3",
+          "statement": "The text claims the contradiction of slavery went unnoticed at the time.",
+          "answer": false,
+          "explanation": "False — “the contradiction was visible to contemporaries”."
+        },
+        {
+          "id": "amt4",
+          "statement": "The Fourteenth Amendment established birthright citizenship.",
+          "answer": true,
+          "explanation": "True — the three Reconstruction amendments abolished slavery, established birthright citizenship and sought to guarantee equal protection and the vote."
+        },
+        {
+          "id": "amt5",
+          "statement": "According to the text, the Reconstruction amendments delivered their promises immediately.",
+          "answer": false,
+          "explanation": "False — “segregation and systematic discrimination delayed the substance of those promises for generations”."
+        },
+        {
+          "id": "amt6",
+          "statement": "The Constitution has been amended frequently, according to the text.",
+          "answer": false,
+          "explanation": "False — it has endured “with relatively few formal amendments”, adapting instead through interpretation and practice."
+        },
+        {
+          "id": "amt7",
+          "statement": "The text attributes American global influence partly to things other than military or economic strength.",
+          "answer": true,
+          "explanation": "True — the reach of American ideas, universities and entertainment “has often exceeded what military or economic strength alone would explain”."
+        }
+      ]
+    },
+    {
+      "id": "c1-1776-vocabulary",
+      "type": "fill-blank",
+      "title": "The Language of Political History",
+      "instructions": "Complete each sentence with the precise term.",
+      "items": [
+        {
+          "id": "amf1",
+          "prompt": "Rights described as ___ cannot be surrendered even voluntarily.",
+          "answers": [
+            "unalienable"
+          ],
+          "options": [
+            "unalienable",
+            "hereditary",
+            "prevailing"
+          ],
+          "explanation": "Unalienable means impossible to take away or give up."
+        },
+        {
+          "id": "amf2",
+          "prompt": "The doctrine of ___ ___ held that a king answered to God alone.",
+          "answers": [
+            "divine",
+            "right"
+          ],
+          "options": [
+            [
+              "divine",
+              "natural",
+              "civic"
+            ],
+            [
+              "right",
+              "sanction",
+              "contract"
+            ]
+          ],
+          "explanation": "Divine right is the claim that a monarch's authority comes directly from God — exactly what the colonists rejected."
+        },
+        {
+          "id": "amf3",
+          "prompt": "___ divides authority between a national government and the states.",
+          "answers": [
+            "Federalism"
+          ],
+          "options": [
+            "Federalism",
+            "Nativism",
+            "Suffrage"
+          ],
+          "explanation": "Federalism is the division of power between a national government and regional ones."
+        },
+        {
+          "id": "amf4",
+          "prompt": "___ ___ means the state must follow fair procedure before it may deprive you of anything.",
+          "answers": [
+            "Due",
+            "process"
+          ],
+          "options": [
+            [
+              "Due",
+              "Fair",
+              "Legal"
+            ],
+            [
+              "process",
+              "sanction",
+              "consent"
+            ]
+          ],
+          "explanation": "Due process is the requirement of fair legal procedure — written into the Bill of Rights."
+        },
+        {
+          "id": "amf5",
+          "prompt": "___ ___ rests national identity on shared principles rather than shared ancestry.",
+          "answers": [
+            "Civic",
+            "nationalism"
+          ],
+          "options": [
+            [
+              "Civic",
+              "Ethnic",
+              "Popular"
+            ],
+            [
+              "nationalism",
+              "sovereignty",
+              "mobility"
+            ]
+          ],
+          "explanation": "That distinction is central to the essay's argument about who could be absorbed into the republic."
+        },
+        {
+          "id": "amf6",
+          "prompt": "Political hostility to immigrants in favor of the established population is called ___.",
+          "answers": [
+            "nativism"
+          ],
+          "options": [
+            "nativism",
+            "federalism",
+            "polarization"
+          ],
+          "explanation": "The text lists recurring nativism among the things that are “part of the record”."
+        }
+      ]
+    },
+    {
+      "id": "c1-1776-matching",
+      "type": "matching",
+      "title": "Documents and Developments",
+      "instructions": "Match each item to what the text says it did.",
+      "items": [
+        {
+          "id": "amm1",
+          "pairs": [
+            {
+              "left": "The Declaration of Independence",
+              "right": "asserted government by consent and unalienable rights"
+            },
+            {
+              "left": "The Constitution of 1787",
+              "right": "divided power and built in checks and balances"
+            },
+            {
+              "left": "The Bill of Rights",
+              "right": "wrote protections for speech, religion and assembly into fundamental law"
+            },
+            {
+              "left": "The Northwest Ordinance of 1787",
+              "right": "barred slavery from the territory northwest of the Ohio River"
+            },
+            {
+              "left": "The Thirteenth Amendment",
+              "right": "abolished slavery"
+            },
+            {
+              "left": "The Fourteenth Amendment",
+              "right": "established birthright citizenship and equal protection"
+            },
+            {
+              "left": "The New Deal",
+              "right": "expanded the government's role in markets and social insurance"
+            }
+          ],
+          "explanation": "Laid out in sequence, these show the pattern the essay describes: a claim made in 1776, then institutionalized, then repeatedly extended to people it had originally excluded."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The essay argues that a country founded on an argument can be held to that argument. Does that make ideals a stronger foundation than tradition, or a more fragile one?",
+    "“The Declaration has been quoted against the country far more often than for it.” Is a standard valuable even when it is not met?",
+    "Which do you find more persuasive as the source of American influence — its institutions, its market, or its culture?",
+    "Compare the founding story your own country tells with the one described here. What does each choose to emphasize, and what does each leave out?",
+    "Write about 250 words on whether a nation should teach its founding ideals and its failures together or separately, and what is lost either way."
+  ]
+}

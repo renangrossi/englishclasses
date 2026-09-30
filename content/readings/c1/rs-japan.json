@@ -1,0 +1,379 @@
+{
+  "id": "c1-reading-rs-japan",
+  "level": "C1",
+  "slug": "rs-japan",
+  "topic": "culture",
+  "title": "Two Kinds of Courtesy",
+  "subtitle": "Travelling from southern Brazil to Japan, and finding that warmth and order are both forms of consideration.",
+  "description": "A C1 reading and listening text contrasting everyday life in Rio Grande do Sul with Japan — sociability, infrastructure, food and beauty — with advanced vocabulary and interpretation exercises.",
+  "source": "cefr/texts/rs-japan.docx",
+  "provenance": "rewritten",
+  "audio": {
+    "duration_label": "5:14"
+  },
+  "passage": [
+    "Flying from Rio Grande do Sul to Japan is a longer journey than the map suggests. You board in Porto Alegre with the taste of chimarrão still in your mouth, and some hours later you are standing on a platform in Tokyo where nobody is speaking above a murmur. The adjustment is not difficult, exactly. It is simply total, and it begins before you have left the airport.",
+    "Life in Rio Grande do Sul is rooted in land and in people. The state's rolling hills and grasslands run out under an enormous sky, and Porto Alegre sits along the Guaíba, its skyline a mix of glass towers and colonial buildings. The wind carries woodsmoke and grilled meat, and Portuguese spoken with an accent that no one from the state will let you mistake for any other. Social life is warm, loud and unguarded: strangers become acquaintances over a shared gourd of chimarrão, and weekends are built around long tables where everyone talks at once and nobody minds. The infrastructure runs on a human rhythm rather than a mechanical one. Buses are late, but the conversation on board is good. Traffic jams, and nobody appears to be in a hurry about it.",
+    "Food carries most of the culture. A churrasco means thick cuts of picanha and costela over an open fire, shared with farofa, rice and cold beer, and it lasts as long as the stories do. People embrace on meeting, gesture while they talk, and say what they think. Personal space is negotiable; warmth is not.",
+    "Japan greets you with a bow instead of a handshake, and the difference is not coldness but a different theory of how to treat people. The first time a stranger steps aside on a crowded platform so that you can pass, or a shopkeeper thanks you with a nod held a half-second longer than you expected, you register the shift. Harmony is the unstated rule. Voices stay low on trains, shoes come off at the genkan, and silence functions as a form of respect rather than an absence of conversation. Consideration is collective: people do not eat while walking, rubbish is sorted with real precision, and a single “sumimasen” can carry the weight of a full apology. The language is genuinely difficult at first — the rolling Portuguese r against the clipped, even syllables of Japanese — but courtesy translates without help. Returning a bow slightly deeper than the one you received will open more doors than any phrasebook.",
+    "The contrast in infrastructure is the one most visitors notice first. Cities in Rio Grande do Sul are lively and imperfect: uneven sidewalks, public transport that is reliable without being punctual, and the occasional power cut or flood in a subtropical climate. Japan, by comparison, runs like a well-maintained machine. The streets are genuinely clean. Trains arrive at the minute printed on the board, and the Shinkansen crosses the countryside at three hundred kilometres an hour without spilling the coffee on your tray. Vending machines on every corner sell hot coffee and umbrellas. Buildings are engineered to move with an earthquake rather than resist it. None of this feels sterile once you understand what it is for: the system is built around the people using it, and its reliability is a courtesy extended at scale.",
+    "The beauty of each place works differently too. Rio Grande do Sul offers its landscape without arranging it — the misty valleys of the Serra Gaúcha, the Atlantic breaking at Torres, the low gold light across the pampas at the end of the day. Japan's is cultivated, and its seasons are observed almost as events. Spring brings the cherry blossom, pale over wooden temples and glass office blocks alike; autumn turns the mountains red and gold; and every park is composed rather than simply planted.",
+    "Walk through Kyoto during hanami and the phrase mono no aware begins to make sense — the quiet sadness attached to things precisely because they do not last. Petals come down like slow snow while families picnic beneath the trees, talking softly, which is about as far as you can get from a barbecue in Bento Gonçalves without leaving the subject of families enjoying an afternoon.",
+    "Standing at the foot of Mount Fuji, snow still on the summit against a hard blue sky, you understand why it appears in so much of the country's art. It is less a mountain than a fixed point. In Rio Grande do Sul nature feels like something you argue with and are fond of. In Japan it feels like something you stand in front of quietly.",
+    "The landmarks make the same point in miniature. In Rio Grande do Sul you might visit the sites of the Farroupilha Revolution, or the Italian-founded towns of the Serra where the wine is local and the polenta arrives whether you asked for it or not. In Japan you stand before Senso-ji at dusk in Asakusa, red lanterns moving slightly, incense drifting, the Tokyo Skytree lit in the distance. You miss the spontaneous embraces and the noise that made you feel immediately at home. You also acquire a taste for order as a form of kindness, for silence as a form of attention, and for a beauty that is admired precisely because it is about to end.",
+    "The journey does not merely change your itinerary. You come back — or you stay — wanting two incompatible things at once: a churrasco under an open sky, and the particular calm of a train that arrives exactly when it said it would. Neither place is the better one. They are answers to different questions, and having asked both is what makes the difference worth having."
+  ],
+  "vocabulary": [
+    {
+      "term": "unguarded",
+      "definition": "open and unreserved, without caution about what is revealed"
+    },
+    {
+      "term": "gourd",
+      "definition": "the hollowed shell from which chimarrão is drunk, passed around a group"
+    },
+    {
+      "term": "to register a shift",
+      "definition": "to notice a change consciously for the first time",
+      "match": "register the shift"
+    },
+    {
+      "term": "unstated",
+      "definition": "understood and obeyed without ever being said aloud"
+    },
+    {
+      "term": "genkan",
+      "definition": "the sunken entryway of a Japanese home, where shoes are removed"
+    },
+    {
+      "term": "consideration",
+      "definition": "the practice of taking other people's comfort into account"
+    },
+    {
+      "term": "sumimasen",
+      "definition": "a Japanese expression covering apology, thanks and getting someone's attention"
+    },
+    {
+      "term": "clipped",
+      "definition": "pronounced short and evenly, without drawn-out sounds"
+    },
+    {
+      "term": "punctual",
+      "definition": "arriving at exactly the stated time"
+    },
+    {
+      "term": "sterile",
+      "definition": "clean to the point of feeling lifeless"
+    },
+    {
+      "term": "at scale",
+      "definition": "applied consistently to very large numbers of people"
+    },
+    {
+      "term": "cultivated",
+      "definition": "deliberately shaped and tended rather than left wild"
+    },
+    {
+      "term": "hanami",
+      "definition": "the custom of gathering to view cherry blossom in spring"
+    },
+    {
+      "term": "mono no aware",
+      "definition": "a Japanese term for the gentle sadness attached to things because they are impermanent"
+    },
+    {
+      "term": "impermanent",
+      "definition": "not lasting; certain to end",
+      "match": "do not last"
+    },
+    {
+      "term": "in miniature",
+      "definition": "on a small scale, showing the same pattern as the larger thing"
+    },
+    {
+      "term": "spontaneous",
+      "definition": "done on impulse, without being planned"
+    },
+    {
+      "term": "incompatible",
+      "definition": "unable to exist together"
+    },
+    {
+      "term": "itinerary",
+      "definition": "the planned route and schedule of a journey"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-rsjapan-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading for Attitude",
+      "instructions": "This writer is comparing two places without ranking them. Read for how that balance is maintained.",
+      "items": [
+        {
+          "id": "rj1",
+          "prompt": "“The adjustment is not difficult, exactly. It is simply total.” What is the writer conveying?",
+          "options": [
+            "That the change is easy for some travellers and hard for others",
+            "That nothing in particular is hard, but everything at once is different",
+            "That the journey itself is exhausting"
+          ],
+          "answerIndex": 1,
+          "explanation": "The correction — not difficult, but total — replaces a question of degree with a question of scope."
+        },
+        {
+          "id": "rj2",
+          "prompt": "Why does the writer say the bow is “not coldness but a different theory of how to treat people”?",
+          "options": [
+            "To correct an interpretation a visitor from a demonstrative culture would naturally reach for",
+            "To argue that Japanese manners are superior",
+            "To explain that bowing is a religious practice"
+          ],
+          "answerIndex": 0,
+          "explanation": "Coming from a place where warmth is expressed by contact and volume, reserve reads as distance. The sentence blocks that reading before it forms."
+        },
+        {
+          "id": "rj3",
+          "prompt": "What does “personal space is negotiable; warmth is not” say about social life in Rio Grande do Sul?",
+          "options": [
+            "That people there dislike physical contact",
+            "That friendships take a long time to form",
+            "That physical closeness varies but the obligation to be warm does not"
+          ],
+          "answerIndex": 2,
+          "explanation": "The two halves are deliberately unequal: one thing can be adjusted, the other is not up for discussion."
+        },
+        {
+          "id": "rj4",
+          "prompt": "Why does the writer insist that Japan's infrastructure “does not feel sterile once you understand what it is for”?",
+          "options": [
+            "Because the cleanliness is less thorough than it first appears",
+            "Because the precision exists to serve the people using it, which makes it an act of consideration rather than coldness",
+            "Because visitors get used to it quickly"
+          ],
+          "answerIndex": 1,
+          "explanation": "“The system is built around the people using it, and its reliability is a courtesy extended at scale” — the same argument as the bow, applied to trains."
+        },
+        {
+          "id": "rj5",
+          "prompt": "How does the writer distinguish the two kinds of beauty?",
+          "options": [
+            "Rio Grande do Sul's is offered unarranged; Japan's is cultivated and composed",
+            "Rio Grande do Sul's is natural and Japan's is urban",
+            "Japan's is more beautiful but less varied"
+          ],
+          "answerIndex": 0,
+          "explanation": "The landscape “without arranging it” against parks that are “composed rather than simply planted”."
+        },
+        {
+          "id": "rj6",
+          "prompt": "The Kyoto sentence ends by noting that both scenes involve “families enjoying an afternoon”. What is that doing?",
+          "options": [
+            "Conceding that the comparison had gone too far",
+            "Suggesting the two cultures are essentially identical",
+            "Holding the contrast and the similarity together — the manner is opposite, the thing being done is the same"
+          ],
+          "answerIndex": 2,
+          "explanation": "The sentence stretches the distance as far as it will go and then names what survives it, which keeps the comparison from becoming a ranking."
+        },
+        {
+          "id": "rj7",
+          "prompt": "“In Rio Grande do Sul nature feels like something you argue with and are fond of. In Japan it feels like something you stand in front of quietly.” What distinction is this drawing?",
+          "options": [
+            "Between a dangerous landscape and a safe one",
+            "Between familiarity on equal terms and a more reverent distance",
+            "Between wilderness and countryside"
+          ],
+          "answerIndex": 1,
+          "explanation": "One relationship is companionable and even contentious; the other is watchful. Neither is disparaged."
+        },
+        {
+          "id": "rj8",
+          "prompt": "What does the writer conclude?",
+          "options": [
+            "That Japan's order is ultimately preferable to Brazilian informality",
+            "That the two places answer different questions, and having asked both is the gain",
+            "That the traveller should settle in one place or the other"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Neither place is the better one. They are answers to different questions, and having asked both is what makes the difference worth having.”"
+        }
+      ]
+    },
+    {
+      "id": "c1-rsjapan-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Check each against what the writer actually claims.",
+      "items": [
+        {
+          "id": "rjt1",
+          "statement": "The writer describes public transport in Rio Grande do Sul as unreliable.",
+          "answer": false,
+          "explanation": "False — it is “reliable without being punctual”, which is a distinction the text makes deliberately."
+        },
+        {
+          "id": "rjt2",
+          "statement": "Silence on Japanese trains is presented as a form of respect.",
+          "answer": true,
+          "explanation": "True — “silence functions as a form of respect rather than an absence of conversation”."
+        },
+        {
+          "id": "rjt3",
+          "statement": "The writer says the language barrier prevented any real contact.",
+          "answer": false,
+          "explanation": "False — the language is difficult, but “courtesy translates without help”."
+        },
+        {
+          "id": "rjt4",
+          "statement": "Japanese buildings are described as resisting earthquakes rigidly.",
+          "answer": false,
+          "explanation": "False — they are “engineered to move with an earthquake rather than resist it”."
+        },
+        {
+          "id": "rjt5",
+          "statement": "Mono no aware attaches sadness to things because they will end.",
+          "answer": true,
+          "explanation": "True — “the quiet sadness attached to things precisely because they do not last”."
+        },
+        {
+          "id": "rjt6",
+          "statement": "The writer ends up preferring one country to the other.",
+          "answer": false,
+          "explanation": "False — “Neither place is the better one.” The closing image is of wanting both at once."
+        }
+      ]
+    },
+    {
+      "id": "c1-rsjapan-vocabulary",
+      "type": "fill-blank",
+      "title": "Describing Places and Manners",
+      "instructions": "Complete each sentence with the word that carries the right nuance.",
+      "items": [
+        {
+          "id": "rjf1",
+          "prompt": "The train was ___ to the minute, as it always is.",
+          "answers": [
+            "punctual"
+          ],
+          "options": [
+            "punctual",
+            "reliable",
+            "spontaneous"
+          ],
+          "explanation": "Punctual means arriving at exactly the stated time. Reliable would only mean it comes."
+        },
+        {
+          "id": "rjf2",
+          "prompt": "The garden is ___ rather than wild — every stone has been placed.",
+          "answers": [
+            "cultivated"
+          ],
+          "options": [
+            "cultivated",
+            "sterile",
+            "unguarded"
+          ],
+          "explanation": "Cultivated means deliberately shaped and tended."
+        },
+        {
+          "id": "rjf3",
+          "prompt": "The rule is ___: nobody explains it, and everybody follows it.",
+          "answers": [
+            "unstated"
+          ],
+          "options": [
+            "unstated",
+            "incompatible",
+            "clipped"
+          ],
+          "explanation": "Unstated means understood and obeyed without ever being said aloud."
+        },
+        {
+          "id": "rjf4",
+          "prompt": "It was an entirely ___ invitation — he thought of it as he said it.",
+          "answers": [
+            "spontaneous"
+          ],
+          "options": [
+            "spontaneous",
+            "punctual",
+            "cultivated"
+          ],
+          "explanation": "Spontaneous means done on impulse, without planning."
+        },
+        {
+          "id": "rjf5",
+          "prompt": "The two demands are ___: you cannot satisfy both at once.",
+          "answers": [
+            "incompatible"
+          ],
+          "options": [
+            "incompatible",
+            "impermanent",
+            "unguarded"
+          ],
+          "explanation": "Incompatible means unable to exist together — which is exactly the closing image of the text."
+        },
+        {
+          "id": "rjf6",
+          "prompt": "The apartment was spotless, but so bare it felt ___.",
+          "answers": [
+            "sterile"
+          ],
+          "options": [
+            "sterile",
+            "cultivated",
+            "punctual"
+          ],
+          "explanation": "Sterile means clean to the point of feeling lifeless — the charge the writer explicitly rejects about Japan."
+        }
+      ]
+    },
+    {
+      "id": "c1-rsjapan-matching",
+      "type": "matching",
+      "title": "Two Places, Paired",
+      "instructions": "Match each detail to the place the text associates it with.",
+      "items": [
+        {
+          "id": "rjm1",
+          "pairs": [
+            {
+              "left": "A shared gourd passed around a long table",
+              "right": "Rio Grande do Sul: warmth expressed by proximity"
+            },
+            {
+              "left": "Shoes removed at the genkan",
+              "right": "Japan: consideration expressed by observance"
+            },
+            {
+              "left": "Buses late, but the conversation good",
+              "right": "Rio Grande do Sul: a human rather than mechanical rhythm"
+            },
+            {
+              "left": "Trains arriving at the printed minute",
+              "right": "Japan: reliability as a courtesy extended at scale"
+            },
+            {
+              "left": "Low gold light across the pampas",
+              "right": "Rio Grande do Sul: landscape offered unarranged"
+            },
+            {
+              "left": "Cherry blossom over temples and office blocks",
+              "right": "Japan: beauty observed as a seasonal event"
+            }
+          ],
+          "explanation": "Set side by side, the pairs show the text's real argument: both columns describe consideration for other people, expressed through opposite conventions."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The text argues that order and warmth are both forms of consideration. Which does your own culture use, and what does a visitor usually misread about it?",
+    "“Reliability is a courtesy extended at scale.” Is punctuality a moral quality or merely a practical one?",
+    "Is it possible to describe two cultures in contrast without implicitly ranking them? How close does this writer come?",
+    "Mono no aware values something because it is about to end. Name something in your own life that is valuable for that reason.",
+    "Write about 250 words contrasting two places you know well, holding to the rule this text sets itself: no ranking, and one concrete detail for every generalization."
+  ]
+}

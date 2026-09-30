@@ -1,0 +1,359 @@
+{
+  "id": "c1-reading-technology-and-ethics",
+  "level": "C1",
+  "slug": "technology-and-ethics",
+  "topic": "tech",
+  "title": "Technology and Ethics",
+  "subtitle": "What a software architect is responsible for once the technical problem has been solved.",
+  "description": "A C1 professional reading and listening text on the ethical obligations of a software architect — privacy regulation, algorithmic bias, sustainability and stakeholder communication — with advanced vocabulary and interpretation exercises.",
+  "source": "cefr/texts/technology-and-ethics.docx",
+  "provenance": "as-published",
+  "audio": {
+    "duration_label": "2:39"
+  },
+  "passage": [
+    "In the rapidly evolving landscape of information technology, software architects face challenges that reach well beyond technical expertise. As systems grow in complexity — absorbing artificial intelligence, cloud computing and distributed architectures — ethical considerations have become paramount. A senior programmer specializing in architecture has to navigate the delicate balance between innovation and responsibility. Designing a scalable microservices architecture for a healthcare application, for instance, demands not only technical precision but adherence to data privacy regulations such as GDPR or HIPAA. A single oversight in data handling can produce a breach that costs patient trust and invites legal consequences.",
+    "The rise of AI-driven systems introduces a further set of dilemmas, around bias and fairness. Algorithms embedded in a software architecture can inadvertently perpetuate existing social inequalities if they are never audited. Consider a recommendation system used in hiring: the architect has to ensure it does not favor certain demographics simply because the training data did. That requires a working understanding of both the technical mechanisms of machine learning and the ethical implications of what those mechanisms output.",
+    "Sustainability is another critical concern. The energy consumption of large-scale systems, particularly those running on cloud infrastructure, has environmental consequences that do not appear anywhere in the architecture diagram. Architects are expected to optimize resource usage — through serverless computing, perhaps, or through more energy-efficient algorithms — in order to reduce the carbon footprint of what they build. This intersection of technical design and ethical responsibility marks the change in the role: the architect is not simply a builder of systems but a steward of values that the systems will carry.",
+    "Collaboration matters just as much. Architects work with cross-functional teams — product managers, data scientists, compliance officers — to bring technical solutions into line with business and ethical goals. Effective communication, and a genuine grasp of what each stakeholder needs, is what allows a complex technical decision to be translated into terms a non-technical audience can act on. The modern software architect, in the end, has to combine technical mastery with ethical foresight, and make sure that the systems they design are not only robust and scalable but equitable and sustainable as well."
+  ],
+  "vocabulary": [
+    {
+      "term": "paramount",
+      "definition": "more important than anything else"
+    },
+    {
+      "term": "to navigate",
+      "definition": "to find a workable way through something difficult"
+    },
+    {
+      "term": "adherence",
+      "definition": "the act of following a rule or standard closely"
+    },
+    {
+      "term": "oversight",
+      "definition": "a failure to notice something, with consequences"
+    },
+    {
+      "term": "breach",
+      "definition": "a failure of security that lets protected data escape"
+    },
+    {
+      "term": "dilemma",
+      "definition": "a choice between options that are each objectionable in some way",
+      "match": "dilemmas"
+    },
+    {
+      "term": "inadvertently",
+      "definition": "without intending to"
+    },
+    {
+      "term": "to perpetuate",
+      "definition": "to cause something to continue, usually something undesirable"
+    },
+    {
+      "term": "to audit",
+      "definition": "to examine something formally to check that it does what it should",
+      "match": "audited"
+    },
+    {
+      "term": "demographic",
+      "definition": "a group defined by a shared characteristic such as age, sex or origin",
+      "match": "demographics"
+    },
+    {
+      "term": "training data",
+      "definition": "the examples a machine-learning system learns its behavior from"
+    },
+    {
+      "term": "carbon footprint",
+      "definition": "the total greenhouse gas an activity is responsible for"
+    },
+    {
+      "term": "steward",
+      "definition": "someone entrusted with looking after something that is not their own"
+    },
+    {
+      "term": "cross-functional",
+      "definition": "made up of people from several different specialisms"
+    },
+    {
+      "term": "stakeholder",
+      "definition": "anyone with a legitimate interest in the outcome of a project"
+    },
+    {
+      "term": "foresight",
+      "definition": "the ability to anticipate consequences before they arrive"
+    },
+    {
+      "term": "robust",
+      "definition": "able to keep working when conditions are unfavorable"
+    },
+    {
+      "term": "equitable",
+      "definition": "fair in effect, not merely fair in intention"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-techeth-comprehension",
+      "type": "reading-comprehension",
+      "title": "Reading for Argument",
+      "instructions": "Several of these turn on a distinction the text makes rather than a fact it states.",
+      "items": [
+        {
+          "id": "te1",
+          "prompt": "Why does the writer choose a healthcare application as the first example?",
+          "options": [
+            "Because healthcare systems are technically the most complex",
+            "Because it makes the cost of a technical oversight immediately human and legal, not merely inconvenient",
+            "Because GDPR applies only to healthcare"
+          ],
+          "answerIndex": 1,
+          "explanation": "The consequence named is a breach that “costs patient trust and invites legal consequences” — the example is chosen for its stakes."
+        },
+        {
+          "id": "te2",
+          "prompt": "What does “inadvertently perpetuate existing social inequalities” claim about how bias enters a system?",
+          "options": [
+            "That it arrives through data and inattention rather than through anyone's intention",
+            "That engineers deliberately encode their prejudices",
+            "That inequality is a problem no algorithm can affect"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Inadvertently” rules out intent; the source given is training data that was never audited. That is why auditing, not good faith, is the remedy proposed."
+        },
+        {
+          "id": "te3",
+          "prompt": "The hiring example says a system might favor certain demographics “simply because the training data did”. What is the underlying point?",
+          "options": [
+            "That hiring data is usually falsified",
+            "That such systems should not be used for hiring at all",
+            "That a model reproduces the pattern of its history, so a fair procedure can still produce an unfair result"
+          ],
+          "answerIndex": 2,
+          "explanation": "The mechanism is inheritance: the algorithm treats the past as the template. Nothing in the code needs to be discriminatory for the output to be."
+        },
+        {
+          "id": "te4",
+          "prompt": "Why does the writer note that energy consumption “does not appear anywhere in the architecture diagram”?",
+          "options": [
+            "To explain that diagrams are technically inadequate",
+            "To point out that the cost is real but invisible in the artifacts architects normally work from",
+            "To argue that cloud providers should publish their figures"
+          ],
+          "answerIndex": 1,
+          "explanation": "The observation is about attention: a consequence absent from the representation is a consequence easily ignored."
+        },
+        {
+          "id": "te5",
+          "prompt": "What is the force of calling the architect “a steward of values” rather than a builder?",
+          "options": [
+            "That the responsibility is held on behalf of others, and outlasts the act of building",
+            "That architects should stop writing code",
+            "That the role is now primarily managerial"
+          ],
+          "answerIndex": 0,
+          "explanation": "A steward looks after what is not their own. The word transfers the obligation from the artifact to the people the artifact affects."
+        },
+        {
+          "id": "te6",
+          "prompt": "Why is communication with non-technical stakeholders presented as an ethical matter and not just a practical one?",
+          "options": [
+            "Because compliance officers have legal authority over the design",
+            "Because a decision that cannot be explained cannot be examined or consented to by those it affects",
+            "Because product managers set the budget"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text ties communication to translating decisions “into terms a non-technical audience can act on” — the point of the translation is that others can then hold the decision to account."
+        },
+        {
+          "id": "te7",
+          "prompt": "The closing sentence lists robust, scalable, equitable and sustainable. What does the pairing imply?",
+          "options": [
+            "That the ethical qualities are now stated as requirements of the same kind as the technical ones",
+            "That robustness is the most important of the four",
+            "That the four are in conflict and only two can be achieved"
+          ],
+          "answerIndex": 0,
+          "explanation": "Putting the four in a single list, joined by “not only… but… as well”, refuses to treat fairness and sustainability as optional extras beside performance."
+        }
+      ]
+    },
+    {
+      "id": "c1-techeth-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Some of these are close to the text but not what it says.",
+      "items": [
+        {
+          "id": "tet1",
+          "statement": "The text argues that ethical questions are separate from technical ones and handled by other people.",
+          "answer": false,
+          "explanation": "False — its whole claim is the opposite: the two intersect in the architect's own decisions."
+        },
+        {
+          "id": "tet2",
+          "statement": "GDPR and HIPAA are given as examples of data privacy regulation.",
+          "answer": true,
+          "explanation": "True — both are named as regulations a healthcare architecture must adhere to."
+        },
+        {
+          "id": "tet3",
+          "statement": "The writer says biased outcomes usually come from deliberate discrimination.",
+          "answer": false,
+          "explanation": "False — the word used is “inadvertently”, and the cause given is unaudited training data."
+        },
+        {
+          "id": "tet4",
+          "statement": "Serverless computing is offered as one way of reducing resource use.",
+          "answer": true,
+          "explanation": "True — “through serverless computing, perhaps, or through more energy-efficient algorithms”."
+        },
+        {
+          "id": "tet5",
+          "statement": "Compliance officers are described as obstacles to the architect's work.",
+          "answer": false,
+          "explanation": "False — they are listed as members of the cross-functional team the architect works with."
+        },
+        {
+          "id": "tet6",
+          "statement": "The text treats scalability as sufficient evidence of a well-designed system.",
+          "answer": false,
+          "explanation": "False — a system must be “not only robust and scalable but equitable and sustainable as well”."
+        }
+      ]
+    },
+    {
+      "id": "c1-techeth-vocabulary",
+      "type": "fill-blank",
+      "title": "Professional Register",
+      "instructions": "Complete each sentence with the precise word. Several of the alternatives are close in meaning but wrong in register or nuance.",
+      "items": [
+        {
+          "id": "tef1",
+          "prompt": "A single ___ in the access rules exposed six months of records.",
+          "answers": [
+            "oversight"
+          ],
+          "options": [
+            "oversight",
+            "dilemma",
+            "breach"
+          ],
+          "explanation": "An oversight is the failure to notice; the breach is what follows from it."
+        },
+        {
+          "id": "tef2",
+          "prompt": "The model was never ___, so nobody noticed which applicants it was quietly filtering out.",
+          "answers": [
+            "audited"
+          ],
+          "options": [
+            "audited",
+            "adhered",
+            "navigated"
+          ],
+          "explanation": "To audit is to examine something formally to check that it does what it should."
+        },
+        {
+          "id": "tef3",
+          "prompt": "Nobody intended the result; the system ___ a pattern that was already in the data.",
+          "answers": [
+            "perpetuated"
+          ],
+          "options": [
+            "perpetuated",
+            "navigated",
+            "translated"
+          ],
+          "explanation": "To perpetuate is to cause something to continue — typically something undesirable."
+        },
+        {
+          "id": "tef4",
+          "prompt": "Every ___ has to be consulted before the architecture is signed off.",
+          "answers": [
+            "stakeholder"
+          ],
+          "options": [
+            "stakeholder",
+            "demographic",
+            "steward"
+          ],
+          "explanation": "A stakeholder is anyone with a legitimate interest in the outcome."
+        },
+        {
+          "id": "tef5",
+          "prompt": "Equal treatment is not always ___: the same rule can fall much harder on one group than another.",
+          "answers": [
+            "equitable"
+          ],
+          "options": [
+            "equitable",
+            "robust",
+            "scalable"
+          ],
+          "explanation": "Equitable means fair in effect, not merely identical in application — which is exactly the distinction the sentence draws."
+        },
+        {
+          "id": "tef6",
+          "prompt": "Strict ___ to the standard is what keeps the certification valid.",
+          "answers": [
+            "adherence"
+          ],
+          "options": [
+            "adherence",
+            "oversight",
+            "foresight"
+          ],
+          "explanation": "Adherence is the act of following a rule or standard closely."
+        }
+      ]
+    },
+    {
+      "id": "c1-techeth-matching",
+      "type": "matching",
+      "title": "Concepts in the Text",
+      "instructions": "Match each term to its role in the argument.",
+      "items": [
+        {
+          "id": "tem1",
+          "pairs": [
+            {
+              "left": "GDPR / HIPAA",
+              "right": "the regulations a healthcare architecture must comply with"
+            },
+            {
+              "left": "training data",
+              "right": "where algorithmic bias generally originates"
+            },
+            {
+              "left": "serverless computing",
+              "right": "one means of reducing a system's energy use"
+            },
+            {
+              "left": "microservices",
+              "right": "the architectural style used in the healthcare example"
+            },
+            {
+              "left": "cross-functional team",
+              "right": "the group whose differing goals the architect must align"
+            },
+            {
+              "left": "carbon footprint",
+              "right": "the environmental cost absent from the architecture diagram"
+            }
+          ],
+          "explanation": "Each pair links a technical term to the ethical point the text uses it to make — which is the structure of the whole piece."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The text says bias enters “inadvertently”. Does that make the architect less responsible for the outcome, or more?",
+    "Who should carry the cost of auditing an algorithm — the company that builds it, the company that buys it, or the regulator?",
+    "“A steward of societal values.” Is that a fair description of an engineer's job, or does it place an impossible burden on one role?",
+    "Energy use does not appear in the architecture diagram. What else that matters is missing from the documents you work with?",
+    "Write about 250 words explaining one significant technical decision from your own field to a reader who has no technical background, including what could go wrong and who would be affected."
+  ]
+}

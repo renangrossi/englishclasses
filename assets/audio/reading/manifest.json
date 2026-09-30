@@ -136,5 +136,23 @@
   "fingerprint": "63d48a9c87005983",
   "rate": "+0%",
   "voice": "en-US-JennyNeural"
+ },
+ "c1/attention-economy": {
+  "bytes": 852480,
+  "fingerprint": "ed6b946f99ae2a41",
+  "rate": "+0%",
+  "voice": "en-US-ChristopherNeural"
+ },
+ "c1/physiological-stressors": {
+  "bytes": 1901664,
+  "fingerprint": "be132ce625b41ea5",
+  "rate": "+0%",
+  "voice": "en-US-GuyNeural"
+ },
+ "c1/technology-and-ethics": {
+  "bytes": 958032,
+  "fingerprint": "615a8fb456ea5806",
+  "rate": "+0%",
+  "voice": "en-US-AriaNeural"
  }
 }

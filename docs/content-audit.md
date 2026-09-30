@@ -9,7 +9,7 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 21 of 98 implemented.**
+**Progress: 24 of 98 implemented.**
 
 ## Totals
 
@@ -45,8 +45,8 @@ content rather than as pre-existing.
 
 | Audio | Docs | |
 |---|---:|---|
-| `required` | 51 | must be generated |
-| `exists` | 17 | mp3 present and matches the text |
+| `required` | 49 | must be generated |
+| `exists` | 19 | mp3 present and matches the text |
 | `stale-on-edit` | 2 | mp3 present but the text is being edited -- **must be regenerated** |
 | `n/a` | 28 | drill / answer key / discussion bank -- not a reading text |
 
@@ -183,7 +183,7 @@ Already good; convert as-is.
 
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
-| `attention-economy` | 327 | reading | C1 | society | `exists` | NOT STARTED | Clean, well-pitched C1 argument text. Already has 3 mp3 segments. |
+| `attention-economy`<br>[page](../reading/c1/attention-economy.html) | 327 | reading | C1 | society | `exists` | IMPLEMENTED | Clean, well-pitched C1 argument text. The three old mp3 segments narrated an earlier wording and were replaced by a single file. |
 | `cars`<br>[page](../reading/b1/cars.html) | 967 | reading | B1 | tech | `required` | IMPLEMENTED | Strong B1 explainer moving from consumer choice to the EV market. Kept as published. Its Tesla/BYD figures are explicitly dated to June 2026 in the text itself, so they read as a snapshot rather than as current fact. |
 | `climbing`<br>[page](../reading/b1/climbing.html) | 494 | reading | B1 | sports | `required` | IMPLEMENTED | Clean informational sports text with a natural vocabulary set. Converted from the .docx, whose content is a bulleted gear-and-technique guide rather than continuous prose; it was reset as connected paragraphs so it can be read and narrated, with all the original content retained. |
 | `coffee-brewing`<br>[page](../reading/a2/coffee-brewing.html) | 321 | reading | A2 | food | `exists` | IMPLEMENTED | Well-formed procedural text; good imperative/sequencing practice. |
@@ -192,11 +192,11 @@ Already good; convert as-is.
 | `it-interview`<br>[page](../reading/b2/it-interview.html) | 447 | dialogue | B2 | interviews | `exists` | IMPLEMENTED | Realistic technical job interview; directly serves the job-interview brief. |
 | `phrasal-verbs-01-bed-and-breakfast`<br>[page](../reading/b2/phrasal-verbs-01-bed-and-breakfast.html) | 1153 | reading | B2 | everyday | `exists` | IMPLEMENTED | Dense but natural phrasal-verb narrative; among the strongest material in the library. |
 | `phrasal-verbs-02-trip-abroad`<br>[page](../reading/b2/phrasal-verbs-02-trip-abroad.html) | 1019 | reading | B2 | travel | `exists` | IMPLEMENTED | Same strength, US travel setting, English names already. |
-| `physiological-stressors` | 832 | reading | C1 | sports | `required` | NOT STARTED | Authentically C1 technical prose; good for advanced learners who read in their field. |
+| `physiological-stressors`<br>[page](../reading/c1/physiological-stressors.html) | 832 | reading | C1 | sports | `exists` | IMPLEMENTED | Authentically C1 technical prose; good for advanced learners who read in their field. |
 | `project-management-can-could-able-do-make`<br>[page](../reading/b2/project-management-can-could-able-do-make.html) | 597 | reading | B2 | work | `exists` | IMPLEMENTED | Solid workplace-modality text with an English-named cast. |
 | `sales-strategy`<br>[page](../reading/b2/sales-strategy.html) | 701 | reading | B2 | business | `exists` | IMPLEMENTED | Natural business-English text with genuinely useful collocations and acronyms. |
 | `snowy-days`<br>[page](../reading/b1/snowy-days.html) | 473 | reading | B1 | everyday | `required` | IMPLEMENTED | Authentic informal American register -- exactly the colloquial English the library is short of. Kept as published; only the source's ellipses were normalized to dashes and 'public transportation' spelled out. |
-| `technology-and-ethics` | 648 | reading | C1 | tech | `required` | NOT STARTED | Genuinely C1, professionally relevant, natural register. |
+| `technology-and-ethics`<br>[page](../reading/c1/technology-and-ethics.html) | 648 | reading | C1 | tech | `exists` | IMPLEMENTED | Genuinely C1, professionally relevant, natural register. |
 | `the-day-at-the-market`<br>[page](../reading/a2/the-day-at-the-market.html) | 269 | reading | A2 | everyday | `exists` | IMPLEMENTED | Simple, natural and well-levelled present-simple description. Lightly edited: the friend is named, the market is identified as a farmers market, and the American 'stand' is used alongside 'stall'. |
 
 ---

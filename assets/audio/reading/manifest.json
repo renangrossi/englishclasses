@@ -71,10 +71,40 @@
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
  },
+ "b1/cars": {
+  "bytes": 2364192,
+  "fingerprint": "269e5404b5dab3e5",
+  "rate": "-8%",
+  "voice": "en-US-AriaNeural"
+ },
+ "b1/climbing": {
+  "bytes": 1555200,
+  "fingerprint": "eae1e41a74f7fcd4",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
+ },
+ "b1/glamping": {
+  "bytes": 1109952,
+  "fingerprint": "5e3a48121277a5c7",
+  "rate": "-8%",
+  "voice": "en-US-BrianNeural"
+ },
+ "b1/investigation-story": {
+  "bytes": 934848,
+  "fingerprint": "db0e590f0106cb61",
+  "rate": "-8%",
+  "voice": "en-US-EmmaNeural"
+ },
  "b1/nfl": {
   "bytes": 1312272,
   "fingerprint": "a1141181de8194f9",
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
+ },
+ "b1/snowy-days": {
+  "bytes": 1146528,
+  "fingerprint": "d7f4715282212b6e",
+  "rate": "-8%",
+  "voice": "en-US-EricNeural"
  }
 }

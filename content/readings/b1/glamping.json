@@ -1,0 +1,158 @@
+{
+  "id": "b1-reading-glamping",
+  "level": "B1",
+  "slug": "glamping",
+  "topic": "travel",
+  "title": "Glamping",
+  "subtitle": "Camping with a real bed in it — where the trend came from and who it is for.",
+  "description": "A B1 reading and listening text about glamping, the luxury end of camping, with travel and accommodation vocabulary and comprehension exercises.",
+  "source": "cefr/texts/glamping.docx",
+  "provenance": "as-published",
+  "audio": {
+    "duration_label": "3:06"
+  },
+  "passage": [
+    "Glamping, short for \"glamorous camping,\" is a relatively new trend in outdoor recreation and travel. It combines the comfort of a hotel or resort with the experience of camping in nature. Glamping offers an upscale way to enjoy the outdoors, giving people the chance to disconnect from the rush of everyday life while still having modern amenities around them.",
+    "One of the key aspects of glamping is the accommodation itself. Instead of a traditional tent and a sleeping bag on the ground, glamping accommodations range from spacious, well-furnished tents to cabins, yurts, treehouses, domes, and even converted vintage trailers. These structures are designed for comfort, convenience, and style. They often have comfortable beds, good linens, electricity, heating or air conditioning, and private bathrooms, and some include hot tubs, fireplaces, or a private deck. Each site has its own character, somewhere between rustic charm and modern elegance.",
+    "Glamping destinations can be found in a wide variety of striking locations: national parks, forests, mountains, deserts, and stretches of coast. Whether a site sits in the middle of a redwood forest, on a cliff above the ocean, or in a quiet meadow, the locations are chosen to give guests remarkable surroundings and a sense of calm.",
+    "Much of the appeal is the chance to be close to nature without giving up comfort. Guests can spend the day hiking, biking, fishing, or simply exploring, knowing there is a warm place waiting for them in the evening. Traditional camping can mean wrestling with tent poles, cooking over a fire, and sharing a bathroom block; glamping removes most of that friction. It lets people take the parts of the outdoors they came for and skip the parts they did not.",
+    "Many sites add further comforts and services. Some have their own restaurants, where guests eat meals prepared by professional chefs from ingredients grown nearby. Others offer spa treatments, yoga classes, guided nature walks, or organized stargazing. These extras are a large part of the sense of rest and well-being that glamping is sold on.",
+    "The appeal is fairly broad. It attracts couples looking for a quiet weekend away and families who want a vacation their children will remember, and it suits anyone who likes the idea of the outdoors but not the discomfort that usually comes with it. It is a way of being in a landscape while keeping the conveniences you are used to at home.",
+    "Glamping, then, is a luxurious twist on traditional camping, and its balance of comfort and adventure explains the growth. For a weekend or for a longer stay, it offers an experience that borrows from both the hotel and the campsite — and, for a great many travelers, improves on each of them."
+  ],
+  "vocabulary": [
+    { "term": "glamorous", "definition": "attractive in a stylish, expensive way" },
+    { "term": "upscale", "definition": "expensive and aimed at people with money" },
+    { "term": "amenities", "definition": "useful features or services provided in a place to stay" },
+    { "term": "accommodation", "definition": "a place where travelers stay", "match": "accommodations" },
+    { "term": "a yurt", "definition": "a round tent with solid walls, originally from Central Asia", "match": "yurts" },
+    { "term": "linens", "definition": "sheets, pillowcases and towels" },
+    { "term": "rustic", "definition": "simple and plain, in the style of the countryside" },
+    { "term": "a meadow", "definition": "a field of grass and wild flowers" },
+    { "term": "friction", "definition": "difficulty or annoyance that slows something down" },
+    { "term": "to disconnect", "definition": "to step away from work, phones and daily pressures" },
+    { "term": "well-being", "definition": "the state of being healthy and content" },
+    { "term": "stargazing", "definition": "looking at the stars for pleasure" }
+  ],
+  "exercises": [
+    {
+      "id": "b1-glamping-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "The options are paraphrased rather than copied from the text. Some questions ask you to put two facts together.",
+      "items": [
+        {
+          "id": "gl1",
+          "prompt": "What two things does glamping bring together?",
+          "options": [
+            "Hotel-style comfort and the experience of being outdoors",
+            "Cheap travel and long stays",
+            "Sport and sightseeing"
+          ],
+          "answerIndex": 0,
+          "explanation": "It “combines the comfort of a hotel or resort with the experience of camping in nature”."
+        },
+        {
+          "id": "gl2",
+          "prompt": "What do the different types of glamping accommodation have in common?",
+          "options": [
+            "They are all built from wood",
+            "They are all designed around comfort, convenience and style",
+            "They are all temporary and moved each season"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tents, cabins, yurts, treehouses, domes and trailers differ in form but are all “designed for comfort, convenience, and style”."
+        },
+        {
+          "id": "gl3",
+          "prompt": "How are glamping locations chosen?",
+          "options": [
+            "For their remarkable surroundings and the sense of calm they give",
+            "For being as close as possible to major cities",
+            "For having the flattest ground available"
+          ],
+          "answerIndex": 0,
+          "explanation": "Locations “are chosen to give guests remarkable surroundings and a sense of calm”."
+        },
+        {
+          "id": "gl4",
+          "prompt": "What does the writer mean by saying glamping 'removes most of that friction'?",
+          "options": [
+            "It is cheaper than staying in a hotel",
+            "It takes away the awkward, uncomfortable work that traditional camping involves",
+            "It reduces the number of guests at a site"
+          ],
+          "answerIndex": 1,
+          "explanation": "The friction is the tent poles, the cooking over a fire and the shared bathroom block — guests “take the parts of the outdoors they came for and skip the parts they did not”."
+        },
+        {
+          "id": "gl5",
+          "prompt": "Why do sites offer spa treatments, yoga and guided walks?",
+          "options": [
+            "To keep guests away from the local area",
+            "Because guests are not allowed to leave the site",
+            "Because they add to the feeling of rest and well-being that glamping is sold on"
+          ],
+          "answerIndex": 2,
+          "explanation": "These extras “are a large part of the sense of rest and well-being that glamping is sold on”."
+        },
+        {
+          "id": "gl6",
+          "prompt": "Who, according to the text, is glamping particularly suited to?",
+          "options": [
+            "Experienced campers who want a harder challenge",
+            "People drawn to the outdoors but not to the discomfort of camping",
+            "Travelers on a very small budget"
+          ],
+          "answerIndex": 1,
+          "explanation": "“It suits anyone who likes the idea of the outdoors but not the discomfort that usually comes with it.”"
+        },
+        {
+          "id": "gl7",
+          "prompt": "What is the writer's attitude to glamping in the final paragraph?",
+          "options": [
+            "Positive — they think it improves on both the hotel and the campsite for many travelers",
+            "Critical — they think it is not really camping",
+            "Neutral — they refuse to give an opinion"
+          ],
+          "answerIndex": 0,
+          "explanation": "It “borrows from both the hotel and the campsite — and, for a great many travelers, improves on each of them”."
+        }
+      ]
+    },
+    {
+      "id": "b1-glamping-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text. The wording has been changed.",
+      "items": [
+        { "id": "glt1", "statement": "The word 'glamping' is a blend of two other words.", "answer": true, "explanation": "True — it is “short for 'glamorous camping'”." },
+        { "id": "glt2", "statement": "Guests at a glamping site sleep on the ground.", "answer": false, "explanation": "False — glamping replaces the sleeping bag on the ground with a comfortable bed." },
+        { "id": "glt3", "statement": "Every glamping site has a hot tub.", "answer": false, "explanation": "False — “some include hot tubs”, not all of them." },
+        { "id": "glt4", "statement": "Glamping sites are found in several different kinds of landscape.", "answer": true, "explanation": "True — national parks, forests, mountains, deserts and coastline are all mentioned." },
+        { "id": "glt5", "statement": "Some sites serve food made with ingredients from the surrounding area.", "answer": true, "explanation": "True — meals are prepared “from ingredients grown nearby”." },
+        { "id": "glt6", "statement": "The text says glamping only appeals to couples.", "answer": false, "explanation": "False — the appeal is described as “fairly broad”, including families." }
+      ]
+    },
+    {
+      "id": "b1-glamping-vocabulary",
+      "type": "fill-blank",
+      "title": "Travel & Accommodation Words",
+      "instructions": "Choose the word that completes each sentence.",
+      "items": [
+        { "id": "glf1", "prompt": "The cabin was small but had every ___ we needed.", "answers": ["amenity"], "options": ["amenity", "friction", "meadow"], "explanation": "An amenity is a useful feature or service provided in a place to stay." },
+        { "id": "glf2", "prompt": "The furniture was deliberately ___, all rough wood and iron.", "answers": ["rustic"], "options": ["rustic", "upscale", "glamorous"], "explanation": "Rustic means simple and plain, in a countryside style." },
+        { "id": "glf3", "prompt": "The hotel is ___, so the rooms are not cheap.", "answers": ["upscale"], "options": ["upscale", "rustic", "temporary"], "explanation": "Upscale means expensive and aimed at people with money." },
+        { "id": "glf4", "prompt": "We went away for a week to ___ from work completely.", "answers": ["disconnect"], "options": ["disconnect", "stargaze", "furnish"], "explanation": "To disconnect is to step away from work and daily pressures." },
+        { "id": "glf5", "prompt": "The tents were pitched in a ___ full of wild flowers.", "answers": ["meadow"], "options": ["meadow", "deck", "dome"], "explanation": "A meadow is a field of grass and wild flowers." },
+        { "id": "glf6", "prompt": "The clear desert sky makes it a good place for ___.", "answers": ["stargazing"], "options": ["stargazing", "linens", "friction"], "explanation": "Stargazing is looking at the stars for pleasure." }
+      ]
+    }
+  ],
+  "discussion": [
+    "Would you rather spend a weekend glamping or in a traditional tent? Give two reasons.",
+    "The text calls glamping a way to 'skip the parts you did not come for'. Is anything lost by skipping them?",
+    "Describe the best place you have ever stayed. What made it good — the place, the building, or the service?",
+    "A glamping site is opening near your town. Write about 100 words for or against it."
+  ]
+}

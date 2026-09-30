@@ -14,8 +14,8 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | Milestones 0–1 complete → Milestone 2 (volume conversion) |
-| **Overall completion** | ~14% (audit done; pipeline built and proven; 1 of 98 source documents converted) |
+| **Current phase** | Milestones 0–2 complete → Milestone 3 (the `EDIT` texts) |
+| **Overall completion** | ~25% (audit done; pipeline proven; 18 of 98 source documents converted; hub rebuilt as a CEFR progression) |
 
 ### What this project is *not*
 It is not a redesign of the grammar-lesson system. `levels/{level}/*.html` + `curriculum/{level}/*.json`
@@ -99,17 +99,41 @@ Do not "fix" them as part of this work; log them and move on.
 
 ---
 
+## Completed milestone 2
+
+### Milestone 2 — Volume conversion: the `KEEP` texts & the hub ✅
+- **Date:** 2026-09-30
+- **Branches:** `content/reading-a2-batch-1`, `content/reading-a2-batch-2`,
+  `content/levelled-hub-and-deletions`, `feature/reading-print-to-pdf`,
+  `feature/inline-vocabulary-tooltips`, `content/reading-b1-keep-batch` → all merged to `main`
+
+**What was completed**
+1. **17 texts converted** beyond the `nfl` pilot: 12 at A2 and 5 at B1, each with a built page,
+   inline vocabulary tooltips, graded exercise blocks, discussion prompts and edge-tts narration.
+2. **`exercises.html` rebuilt as a CEFR progression** (requirement 18), replacing the flat
+   alphabetical "Open PDF" grid. One button per card; unconverted texts still link to their
+   printable source and are labelled "Not yet converted" (decision D-7).
+3. **Print / Save-as-PDF** on every reading page, replacing the generated PDF files.
+4. **Inline vocabulary tooltips** (requirement 7, decision D-9): key words are bold in the
+   passage and carry their definition on hover. The separate on-page Vocabulary section is gone;
+   the definitions survive in a print-only glossary.
+5. **The passage set as prose** rather than a tinted callout panel (decision D-8).
+6. **The per-text provenance line removed from the page** (decision D-10).
+
+**Current tally by level:** A2 12 · B1 6 · A1/B2/C1/C2 0.
+
 ## Current milestone
 
-### Milestone 2 — Volume conversion (NOT STARTED)
+### Milestone 3 — The `EDIT` texts (NOT STARTED)
 
-**Goal:** convert the library level by level using the proven pipeline, cheapest work first.
+**Goal:** work through the 31 `EDIT` texts, which carry the real editorial load, then the
+`MERGE`/`SPLIT` groups, then `REPLACE` and `CONVERT`.
 
-**What remains** — all of it. Order of attack:
-1. The remaining **16 `KEEP`** texts (no editorial work, fastest throughput).
-2. The **33 `EDIT`** texts (the real editorial work; see the editorial rules).
-3. The **16 `MERGE`** → 8 targets, and the **8 `SPLIT`** files.
-4. The **8 `REPLACE`** texts and the **11 `CONVERT`** drills.
+**What remains**
+1. The **11 remaining `KEEP`** texts — 5 at B2, 3 at C1, and the rest (fastest throughput left).
+2. The **31 `EDIT`** texts (see the editorial rules).
+3. The **15 `MERGE`** → merge targets, and the **9 `SPLIT`** files.
+4. The **11 `REPLACE`** texts and the **11 `CONVERT`** drills.
 5. New A1 and C2 content for open problem P-1.
 
 **Next exact actions:** see [NEXT SESSION](#next-session).
@@ -193,7 +217,7 @@ The 2 `stale-on-edit` texts are `capetown` (4 mp3s) and `physical-education` (4 
 | **Exercise engine** | `assets/js/exercises.js` (1841 lines). **No JS changes needed.** |
 | **Exercise types available** | `multiple-choice`, `true-false`, `fill-blank`, `matching`, `ordering`, `correction`, `typing`, `reading-comprehension`, `vocabulary`, `writing` |
 | **Audio player** | Native `<audio controls preload="metadata">` at the top of the reading section, with a download link as fallback. Gives play/pause, progress, elapsed/total time, keyboard access and the browser's own speed menu on desktop and mobile, with no JS to fail. The grammar lessons' listening blocks keep their `<details class="transcript-toggle">` pattern; a reading page shows the text itself, so it needs no transcript toggle. |
-| **HTML migration** | 1 / 98 source docs converted (`reading/b1/nfl.html`) |
+| **HTML migration** | 18 / 98 source docs converted → 18 reading pages (12 A2, 6 B1), each with narration |
 | **CSS** | **No changes made.** Reading pages reuse `.reading-passage` (exercises.css), `.summary-list` (lessons.css) and the site-wide `audio` rule (components.css) |
 | **JavaScript** | **No changes made.** `assets/js/exercises.js` renders the new pages unmodified |
 | **Navigation** | `exercises.html` is currently a flat alphabetical grid of 117 "Open PDF" cards — to be restructured |
@@ -264,7 +288,7 @@ progress can be tracked and resumed. `docs/content-audit.md` is the human-readab
 | DELETE | 5 | nothing worth migrating |
 | **Total** | **98** | |
 
-**Progress:** 0 IMPLEMENTED · 0 CONVERTED · 98 AUDITED
+**Progress:** 18 IMPLEMENTED · 80 NOT STARTED · 98 AUDITED
 
 ---
 
@@ -298,6 +322,21 @@ progress can be tracked and resumed. `docs/content-audit.md` is the human-readab
   62-character measure, with no background, border or panel. The print rule drops the frame too.
   No new class and no new JS — only the existing rule was rewritten, so every reading page and
   every future one inherits it.
+
+- **D-9 — Key vocabulary is bold in the passage with the meaning on hover, and there is no
+  separate Vocabulary section.** A word list sitting below the text is read once and forgotten;
+  a definition attached to the word where it actually occurs is read at the moment it is needed.
+  Glossary words carry `.vocab-term` + `data-definition`, and the builder matches a headword to
+  its inflected forms automatically (pin `match` on the entry when auto-matching picks the wrong
+  sense). Because hover does not exist on paper, the definitions come back as a **print-only
+  glossary** (`.reading-glossary { display: none }` on screen, shown under `@media print`).
+- **D-10 — The per-text provenance line is not printed on the page.** Pages used to end with
+  "Adapted from the original course material." or similar. It is edit-history metadata, not
+  something a student reading the text needs, and it undercut the material to no purpose.
+  Each source JSON still records `provenance` (`as-published` / `edited` / `rewritten` /
+  `merged` / `new`) and the audit still reports on it — requirement 6 is satisfied by the
+  project record, not by a footnote on the page. `PROVENANCE_LABELS` was replaced by
+  `VALID_PROVENANCE` in `scripts/reading_common.py`.
 
 ### Open problems
 
@@ -368,26 +407,32 @@ wrong fails silently in the browser, so follow them exactly:
 
 ### Work order
 
-1. **The 16 remaining `KEEP` texts** — no rewriting needed, so these build fastest and put real
-   content on the site quickly. In level order: `the-day-at-the-market` (A2),
-   `coffee-brewing` (A2), `climbing` (B1), `glamping` (B1), `investigation-story` (B1),
-   `cars` (B1, audio already exists), `hiking-in-the-mountains` (A2, audio exists),
-   `snowy-days` (B1, audio exists), `attention-economy` (C1, audio exists),
-   `it-interview` (B2), `phrasal-verbs-01-bed-and-breakfast` (B2),
+1. **The 11 remaining `KEEP` texts** — no rewriting needed, so these build fastest.
+   Done so far: `the-day-at-the-market` (A2), `coffee-brewing` (A2),
+   `hiking-in-the-mountains` (A2), `climbing` (B1), `glamping` (B1),
+   `investigation-story` (B1 — reclassified to EDIT, see below), `cars` (B1), `snowy-days` (B1).
+   **Still to do:** `it-interview` (B2), `phrasal-verbs-01-bed-and-breakfast` (B2),
    `phrasal-verbs-02-trip-abroad` (B2), `project-management-can-could-able-do-make` (B2),
-   `sales-strategy` (B2), `technology-and-ethics` (C1), `physiological-stressors` (C1).
-   For the four with existing mp3s in `cefr/texts/`, move the file to
+   `sales-strategy` (B2), `attention-economy` (C1, audio exists),
+   `technology-and-ethics` (C1), `physiological-stressors` (C1).
+   For any with existing mp3s in `cefr/texts/`, move the file to
    `assets/audio/reading/{level}/{slug}.mp3` and record its fingerprint rather than re-narrating,
    **but only if the passage is byte-identical** to what those files narrate; otherwise re-narrate.
-2. **`exercises.html` → the levelled hub** (requirement 18). Replace the flat 97-card
-   alphabetical "Open PDF" grid with A1 → A2 → B1 → B2 → C1 → C2, each level carrying a short
-   description, the English it practices, its main topics, and links to its readings. Keep a
-   clearly-labelled link to the printable PDF/DOCX for each text (decision D-7) — the PDFs stay,
-   they just stop being the only way in.
-3. **The 33 `EDIT` texts**, then the `MERGE`/`SPLIT` groups, then `REPLACE`, then `CONVERT`.
+   In practice none has matched yet: the existing mp3s are split into 2–4 parts narrating an
+   older wording, so every text so far has been re-narrated as a single file.
+2. ~~**`exercises.html` → the levelled hub**~~ — **done** in Milestone 2. Regenerate it with
+   `python3 scripts/build_exercises_hub.py` after any map change; implemented cards take their
+   title and subtitle from the reading JSON, not from `card_title`/`card_desc`.
+3. **The 31 `EDIT` texts**, then the `MERGE`/`SPLIT` groups, then `REPLACE`, then `CONVERT`.
 4. **The two `stale-on-edit` texts** (`capetown`, `physical-education`): once edited, their 4+4
    old mp3s in `cefr/texts/` must be replaced, not left behind.
 5. **New A1 and C2 content** for P-1, labelled `provenance: "new"`.
+
+**Audit the verdict as you go.** Two texts have now had their audited action changed on a close
+read — `nfl` (KEEP→EDIT, factual errors) and `investigation-story` (KEEP→EDIT, a graphic and
+abusive closing exchange that the audit had not flagged). The audit was written from a full read,
+but a verdict is not binding: if a text turns out to need work the map does not record, change
+the `action`, write the reason into the entry, and say so in the commit.
 
 ### Milestone discipline
 

@@ -38,15 +38,11 @@ TOPIC_LABELS = {
     "society": "Society", "literature": "Stories & Literature", "review": "Review",
 }
 
-# How the page labels where a text came from, so edited and newly written
-# material is never passed off as original source material (requirement 19).
-PROVENANCE_LABELS = {
-    "as-published": "From the original course material.",
-    "edited": "Adapted from the original course material.",
-    "rewritten": "Substantially rewritten from the original course material.",
-    "merged": "Combined from two or more of the original course texts.",
-    "new": "Newly written for this level.",
-}
+# Each source JSON still records "provenance" (as-published / edited /
+# rewritten / merged / new) -- it is the project's own record of how a text
+# was produced, and the audit reports on it. It is deliberately NOT printed
+# on the page: a student reading the text does not need its edit history.
+VALID_PROVENANCE = ("as-published", "edited", "rewritten", "merged", "new")
 
 
 def src_path(level, slug):

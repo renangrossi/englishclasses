@@ -1,0 +1,185 @@
+{
+  "id": "b1-reading-investigation-story",
+  "level": "B1",
+  "slug": "investigation-story",
+  "topic": "literature",
+  "title": "The Interview Room",
+  "subtitle": "A detective, a neighbor who says he took the trash out, and one detail that does not fit.",
+  "description": "A B1 reading and listening dialogue: a police interview that turns on a single inconsistency, with past continuous practice, detective vocabulary and inference exercises.",
+  "source": "cefr/texts/investigation-story.docx",
+  "provenance": "edited",
+  "audio": {
+    "duration_label": "2:36"
+  },
+  "passage": [
+    "Detective Wayne: Good morning, Mr. Rogers. Thank you for coming in. I'd like to start with Sunday night. What were you doing at two in the morning?",
+    "Rogers: Good morning, detective. I was waiting up for my favorite show. It airs late.",
+    "Detective Wayne: Was anyone with you?",
+    "Rogers: My wife, Sharon.",
+    "Detective Wayne: Sharon told us she fell asleep at one thirty.",
+    "Rogers: That's right. We were watching television and she started snoring. That's how I knew she'd fallen asleep.",
+    "Detective Wayne: Your neighbor Philip says he saw you through his window at ten past two. He says you were running down the street.",
+    "Rogers: Then he's lying. Philip loves a rumor. He'll repeat anything.",
+    "Detective Wayne: Two security cameras on that block agree with him. You were outside on Sunday night, Mr. Rogers. Why did you tell me you weren't?",
+    "Rogers: All right — I took the trash out. That's all. It didn't seem worth mentioning.",
+    "Detective Wayne: It wasn't worth mentioning. Mrs. Carter was killed on that street while she was walking home, and you were the one person outside.",
+    "Rogers: That wasn't me. I swear it wasn't me.",
+    "Detective Wayne: Did you see Mrs. Carter while you were out there?",
+    "Rogers: Yes. She was arguing with a man near the corner. Tall, dark coat. He looked a lot like Philip, actually.",
+    "Detective Wayne: Arguing about what?",
+    "Rogers: He was shouting that she'd been seeing someone else. He was furious.",
+    "Detective Wayne: And then what did you hear?",
+    "Rogers: Gunshots. Two of them. I ran straight back inside and locked the door.",
+    "Detective Wayne: Two gunshots.",
+    "Rogers: Yes. That's why I was running. Anyone would have run.",
+    "Detective Wayne: Mr. Rogers, Mrs. Carter was not shot. There was no firearm on that street on Sunday night, and no neighbor reported a shot — not Philip, not anyone. So I'd like you to tell me again what you heard.",
+    "Rogers: I… I may have been mistaken. It was late.",
+    "Detective Wayne: You were certain thirty seconds ago. You gave me a number. Would you like to start again, or would you like to call a lawyer first?",
+    "Rogers: I think I'd like the lawyer.",
+    "Detective Wayne: That's your right. Interview suspended at nine forty-one."
+  ],
+  "vocabulary": [
+    { "term": "to wait up", "definition": "to stay awake instead of going to bed", "match": "waiting up" },
+    { "term": "to air", "definition": "to be broadcast on television or radio", "match": "airs" },
+    { "term": "a rumor", "definition": "information passed between people that may not be true" },
+    { "term": "a security camera", "definition": "a camera that records a place to prevent or prove crime", "match": "security cameras" },
+    { "term": "to swear", "definition": "to say very seriously that something is true" },
+    { "term": "furious", "definition": "extremely angry" },
+    { "term": "a firearm", "definition": "a gun" },
+    { "term": "to be mistaken", "definition": "to be wrong about something", "match": "mistaken" },
+    { "term": "a lawyer", "definition": "a person qualified to advise and represent you in law" },
+    { "term": "to suspend", "definition": "to stop something temporarily", "match": "suspended" }
+  ],
+  "exercises": [
+    {
+      "id": "b1-investigation-comprehension",
+      "type": "reading-comprehension",
+      "title": "Following the Interview",
+      "instructions": "This is a puzzle as much as a text. Work out what the detective works out.",
+      "items": [
+        {
+          "id": "in1",
+          "prompt": "What was Rogers's first account of his night?",
+          "options": [
+            "That he was asleep beside his wife",
+            "That he was awake indoors, waiting for a late television show",
+            "That he was walking the neighborhood with Philip"
+          ],
+          "answerIndex": 1,
+          "explanation": "“I was waiting up for my favorite show. It airs late.” He placed himself inside the house."
+        },
+        {
+          "id": "in2",
+          "prompt": "How did Rogers know Sharon had fallen asleep?",
+          "options": [
+            "She told him she was going to bed",
+            "She began snoring while they were watching television",
+            "He checked the bedroom"
+          ],
+          "answerIndex": 1,
+          "explanation": "“She started snoring. That's how I knew she'd fallen asleep.”"
+        },
+        {
+          "id": "in3",
+          "prompt": "Why does the camera footage matter so much to the detective?",
+          "options": [
+            "It shows the argument on the corner",
+            "It identifies the man in the dark coat",
+            "It supports Philip's account, so Rogers's denial collapses"
+          ],
+          "answerIndex": 2,
+          "explanation": "Rogers called Philip a liar, but “two security cameras on that block agree with him” — which is why the detective asks why Rogers denied being outside."
+        },
+        {
+          "id": "in4",
+          "prompt": "How does Rogers explain being outside once he can no longer deny it?",
+          "options": [
+            "He says he was taking out the trash and it seemed too minor to mention",
+            "He says he was looking for his wife",
+            "He says he was following Philip"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I took the trash out. That's all. It didn't seem worth mentioning.”"
+        },
+        {
+          "id": "in5",
+          "prompt": "What is the single detail that undoes Rogers's story?",
+          "options": [
+            "He claimed to hear two gunshots, but Mrs. Carter was not shot and no gun was involved",
+            "He said Philip was wearing a dark coat",
+            "He got the time of the television show wrong"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Mrs. Carter was not shot. There was no firearm on that street.” Rogers described a sound that nobody could have heard."
+        },
+        {
+          "id": "in6",
+          "prompt": "Why does the detective repeat “Two gunshots” back to him?",
+          "options": [
+            "She did not hear him clearly",
+            "She is letting him commit firmly to a detail she already knows is false",
+            "She is checking the recording is working"
+          ],
+          "answerIndex": 1,
+          "explanation": "She says afterward, “You were certain thirty seconds ago. You gave me a number.” The repetition pins the claim down before she takes it apart."
+        },
+        {
+          "id": "in7",
+          "prompt": "What does Rogers's answer “It was late” suggest about him at that moment?",
+          "options": [
+            "That he has a clear memory he is willing to defend",
+            "That he is retreating, looking for any explanation for a detail he invented",
+            "That he is about to accuse Philip again"
+          ],
+          "answerIndex": 1,
+          "explanation": "He moves from “Two of them” to “I may have been mistaken” in a few seconds — the certainty disappears as soon as it is tested."
+        },
+        {
+          "id": "in8",
+          "prompt": "Why does the writer end the dialogue where they do?",
+          "options": [
+            "Because the case has been formally closed",
+            "Because Rogers has confessed in full",
+            "Because Rogers has been caught in a lie but not proved guilty, which leaves the reader to judge"
+          ],
+          "answerIndex": 2,
+          "explanation": "Asking for a lawyer suspends the interview. A lie has been exposed; who killed Mrs. Carter is still open."
+        }
+      ]
+    },
+    {
+      "id": "b1-investigation-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement is supported by the dialogue.",
+      "items": [
+        { "id": "int1", "statement": "Sharon can confirm where her husband was at two in the morning.", "answer": false, "explanation": "False — she was asleep from one thirty, so she can account for nothing after that." },
+        { "id": "int2", "statement": "Philip's account turned out to be accurate.", "answer": true, "explanation": "True — the cameras agreed with him, despite Rogers calling him a liar." },
+        { "id": "int3", "statement": "Rogers admitted straight away that he had gone outside.", "answer": false, "explanation": "False — he admitted it only after being told about the cameras." },
+        { "id": "int4", "statement": "A neighbor reported hearing a shot that night.", "answer": false, "explanation": "False — “no neighbor reported a shot — not Philip, not anyone”." },
+        { "id": "int5", "statement": "The detective proves that Rogers killed Mrs. Carter.", "answer": false, "explanation": "False — she proves he lied. The killing is not resolved in the dialogue." },
+        { "id": "int6", "statement": "Rogers has the right to speak to a lawyer.", "answer": true, "explanation": "True — the detective answers, “That's your right.”" }
+      ]
+    },
+    {
+      "id": "b1-investigation-pastcontinuous",
+      "type": "fill-blank",
+      "title": "Past Continuous & Past Simple",
+      "instructions": "The interview keeps asking what was in progress and what interrupted it. Complete each sentence with the correct form.",
+      "items": [
+        { "id": "inf1", "prompt": "What ___ you ___ at two in the morning?", "answers": ["were", "doing"], "options": [["were", "was", "did"], ["doing", "do", "done"]], "explanation": "Past continuous for an action in progress at a particular past time: what were you doing?" },
+        { "id": "inf2", "prompt": "While we ___ television, she started snoring.", "answers": ["were watching"], "options": ["were watching", "watched", "have watched"], "explanation": "The longer background action takes the past continuous; the sudden one takes the past simple." },
+        { "id": "inf3", "prompt": "Philip says he saw Rogers while he ___ down the street.", "answers": ["was running"], "options": ["was running", "ran", "runs"], "explanation": "Running was in progress when Philip saw him." },
+        { "id": "inf4", "prompt": "Mrs. Carter was killed while she ___ home.", "answers": ["was walking"], "options": ["was walking", "walked", "walks"], "explanation": "Walking home was interrupted by the killing." },
+        { "id": "inf5", "prompt": "She ___ with a man when Rogers came outside.", "answers": ["was arguing"], "options": ["was arguing", "argued", "argues"], "explanation": "The argument was already under way when he arrived." },
+        { "id": "inf6", "prompt": "I ___ straight back inside and ___ the door.", "answers": ["ran", "locked"], "options": [["ran", "was running", "run"], ["locked", "was locking", "lock"]], "explanation": "Two completed actions in sequence — both past simple." }
+      ]
+    }
+  ],
+  "discussion": [
+    "Who do you think killed Mrs. Carter, and what in the dialogue makes you think so?",
+    "Rogers lied about something small — taking the trash out. Why do innocent people sometimes lie to the police?",
+    "The detective never raises her voice. Is that more effective than shouting? Why?",
+    "Continue the story: write about 120 words of the next interview, with Philip in the chair."
+  ]
+}

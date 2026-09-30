@@ -1,0 +1,375 @@
+{
+  "id": "c1-reading-talking-about-your-work",
+  "level": "C1",
+  "slug": "questionnaire-company-management",
+  "topic": "business",
+  "title": "Talking About Your Own Work",
+  "subtitle": "The hardest thing to do well in a second language is explain what you actually do all day.",
+  "description": "A C1 professional reading and listening text on how to talk about your own work at length — structuring an answer, describing a decision, handling the questions that go wrong — with an extended question bank for practice.",
+  "source": "cefr/texts/questionnaire-company-management.docx + questionnaire-company-tech-leader.docx",
+  "provenance": "merged",
+  "audio": {
+    "duration_label": "3:17"
+  },
+  "passage": [
+    "Most people who reach an advanced level in English can discuss politics, films and the weather, and then find themselves unable to explain their own job to somebody outside it. This is not a vocabulary problem. It is a structure problem, and it shows up in interviews, at conferences, and in the first ten minutes of every meeting with a new client.",
+    "The difficulty is that you know your work too well. You have stopped being able to see which parts of it are obvious and which are not, so you either start three layers too deep — naming systems and teams the listener has never heard of — or you retreat into something so general that it tells them nothing. “I work in technology” is true of several million people.",
+    "The reliable fix is to give a shape to the answer before you give the detail. A description of a role that works for a stranger has three parts, in this order: who you do it for, what problem you solve for them, and what you personally touch. “I work for a bank. When their customers move money between countries, something has to check it is not fraud before it goes through, and I look after the part that makes that decision.” Thirty seconds, no jargon, and the listener now has somewhere to put everything you say next.",
+    "The same shape works for a typical week, which is the question people answer worst. The bad answer is a list of meetings. The good one names the two or three things that actually consume the time and says what each is for. If you cannot say what a recurring meeting is for, that is worth knowing about your own week.",
+    "The question that separates a fluent speaker from a merely correct one is the difficult decision. Almost everybody tells it wrong, by giving the outcome first and the reasoning afterwards, which removes all the tension and makes the decision sound obvious. The order that works is the order you lived it: what the situation was, what made it genuinely hard — and if nothing made it hard, choose a different example — what you weighed against what, what you decided, and only then what happened. The last part matters least. A well-explained decision that turned out badly is far more impressive than a lucky one described in hindsight.",
+    "There is a matching trap in the question about challenges. The instinct is to name something external and unsolvable: the market, the budget, the pace of change. Those answers are safe and empty. The interesting ones are specific and admit a tension — that the people who understand the technology are rarely the people with the authority to fund it, say, or that every process you add to stop one kind of mistake makes the team slower at everything else.",
+    "Two smaller things. When you are asked how you keep up with your field, “I read a lot” is not an answer; name what, and say what you did because of something you read. And when you are asked what you would change about your industry, avoid the complaint everybody makes. The answer is more revealing than it looks, because what somebody chooses to be annoyed by tells you what they pay attention to.",
+    "Finally, the question that ends most of these conversations — is there anything else you would like to talk about? — is not politeness. It is the one moment where you choose the subject, and the only wrong answer is no."
+  ],
+  "vocabulary": [
+    {
+      "term": "to show up",
+      "definition": "to become visible or apparent",
+      "match": "shows up"
+    },
+    {
+      "term": "layer",
+      "definition": "a level of detail",
+      "match": "layers"
+    },
+    {
+      "term": "to retreat into",
+      "definition": "to fall back on something safe when you are uncomfortable",
+      "match": "retreat into"
+    },
+    {
+      "term": "jargon",
+      "definition": "the specialist words of a trade, meaningless to outsiders"
+    },
+    {
+      "term": "to look after",
+      "definition": "to be responsible for something",
+      "match": "look after"
+    },
+    {
+      "term": "to consume time",
+      "definition": "to take up a large share of it",
+      "match": "consume the time"
+    },
+    {
+      "term": "recurring",
+      "definition": "happening again and again at regular intervals"
+    },
+    {
+      "term": "to weigh one thing against another",
+      "definition": "to compare the costs of two options before deciding",
+      "match": "weighed against"
+    },
+    {
+      "term": "in hindsight",
+      "definition": "looking back, knowing how it turned out"
+    },
+    {
+      "term": "trap",
+      "definition": "a mistake that is easy to walk into"
+    },
+    {
+      "term": "instinct",
+      "definition": "the first reaction you have without thinking"
+    },
+    {
+      "term": "to keep up with",
+      "definition": "to stay level with something that keeps moving",
+      "match": "keep up with"
+    },
+    {
+      "term": "to be annoyed by",
+      "definition": "to be irritated by something",
+      "match": "annoyed by"
+    },
+    {
+      "term": "to pay attention to",
+      "definition": "to notice and take seriously",
+      "match": "pay attention to"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-work-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Advice",
+      "instructions": "Read for the reasoning behind each piece of advice.",
+      "items": [
+        {
+          "id": "wk1",
+          "prompt": "Why does the writer say this is not a vocabulary problem?",
+          "options": [
+            "Because the words are the same in most languages",
+            "Because it is a problem of structure — knowing what to say in what order",
+            "Because it only affects people at a low level"
+          ],
+          "answerIndex": 1,
+          "explanation": "Advanced speakers who can discuss politics still fail at this, which is the evidence for the claim."
+        },
+        {
+          "id": "wk2",
+          "prompt": "Why does knowing your work too well make it harder to describe?",
+          "options": [
+            "You have too much to say in the time available",
+            "You have stopped being able to see which parts are obvious to an outsider",
+            "You use vocabulary you only half understand"
+          ],
+          "answerIndex": 1,
+          "explanation": "Which produces the two opposite failures the text names: starting too deep, or retreating into something useless."
+        },
+        {
+          "id": "wk3",
+          "prompt": "What are the three parts of a good role description, in order?",
+          "options": [
+            "Your title, your employer, your experience",
+            "The industry, the technology, your team",
+            "Who you do it for, what problem you solve, what you personally touch"
+          ],
+          "answerIndex": 2,
+          "explanation": "The example that follows — the bank and the fraud check — follows exactly that order in about thirty seconds."
+        },
+        {
+          "id": "wk4",
+          "prompt": "What does the writer say is wrong with answering “a typical week” as a list of meetings?",
+          "options": [
+            "It is too long for the listener to follow",
+            "It does not say what any of them are for",
+            "Meetings are not real work"
+          ],
+          "answerIndex": 1,
+          "explanation": "And the text turns it back on the speaker: if you cannot say what a recurring meeting is for, that is worth knowing."
+        },
+        {
+          "id": "wk5",
+          "prompt": "Why is giving the outcome first the wrong way to tell a difficult decision?",
+          "options": [
+            "It removes the tension and makes the decision sound obvious",
+            "It takes too long",
+            "The listener will not believe it"
+          ],
+          "answerIndex": 0,
+          "explanation": "The fix is to tell it “in the order you lived it”, so the difficulty is visible before the answer is."
+        },
+        {
+          "id": "wk6",
+          "prompt": "What does the writer say about a decision that turned out badly?",
+          "options": [
+            "It should not be used as an example",
+            "It should be presented as a success",
+            "Well explained, it is more impressive than a lucky one described in hindsight"
+          ],
+          "answerIndex": 2,
+          "explanation": "“The last part matters least” — the reasoning is what is being assessed, not the result."
+        },
+        {
+          "id": "wk7",
+          "prompt": "What makes an answer about challenges “safe and empty”?",
+          "options": [
+            "Naming something external and unsolvable, like the market or the pace of change",
+            "Admitting that something is your own fault",
+            "Giving more than one example"
+          ],
+          "answerIndex": 0,
+          "explanation": "The good answers “are specific and admit a tension” — and the text gives two real ones."
+        },
+        {
+          "id": "wk8",
+          "prompt": "Why is “what would you change about your industry” more revealing than it looks?",
+          "options": [
+            "It shows how long you have worked in it",
+            "What somebody chooses to be annoyed by shows what they pay attention to",
+            "It tests whether you follow the news"
+          ],
+          "answerIndex": 1,
+          "explanation": "Which is why the text warns against reaching for the complaint everybody makes."
+        },
+        {
+          "id": "wk9",
+          "prompt": "What does the writer say about the closing question?",
+          "options": [
+            "It is politeness and can be declined",
+            "It is the moment you choose the subject, and the only wrong answer is no",
+            "It is a test of how long you can keep talking"
+          ],
+          "answerIndex": 1,
+          "explanation": "The one point in the conversation where the topic is yours to pick."
+        }
+      ]
+    },
+    {
+      "id": "c1-work-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the advice.",
+      "items": [
+        {
+          "id": "wt1",
+          "statement": "“I work in technology” is given as an example of a good opening.",
+          "answer": false,
+          "explanation": "False — it is the example of retreating into something so general it says nothing."
+        },
+        {
+          "id": "wt2",
+          "statement": "The role description example avoids specialist terms entirely.",
+          "answer": true,
+          "explanation": "True — “thirty seconds, no jargon”, and it still explains what the person does."
+        },
+        {
+          "id": "wt3",
+          "statement": "The writer says the outcome of a difficult decision is the most important part.",
+          "answer": false,
+          "explanation": "False — “the last part matters least”."
+        },
+        {
+          "id": "wt4",
+          "statement": "If nothing made a decision hard, the writer advises choosing another example.",
+          "answer": true,
+          "explanation": "True — stated inside the list, as an aside that quietly sets a standard."
+        },
+        {
+          "id": "wt5",
+          "statement": "“I read a lot” is accepted as a sufficient answer about keeping up.",
+          "answer": false,
+          "explanation": "False — you should “name what, and say what you did because of something you read”."
+        }
+      ]
+    },
+    {
+      "id": "c1-work-vocabulary",
+      "type": "fill-blank",
+      "title": "Talking About Work",
+      "instructions": "Complete each sentence with the expression a professional would use.",
+      "items": [
+        {
+          "id": "wf1",
+          "prompt": "I ___ ___ the part of the system that checks each payment.",
+          "answers": [
+            "look",
+            "after"
+          ],
+          "options": [
+            [
+              "look",
+              "take",
+              "keep"
+            ],
+            [
+              "after",
+              "for",
+              "at"
+            ]
+          ],
+          "explanation": "To look after something is to be responsible for it — plainer and better than “I am responsible for”."
+        },
+        {
+          "id": "wf2",
+          "prompt": "Avoid ___ when you are talking to somebody outside your field.",
+          "answers": [
+            "jargon"
+          ],
+          "options": [
+            "jargon",
+            "hindsight",
+            "instinct"
+          ],
+          "explanation": "Jargon is the specialist vocabulary of a trade, meaningless to outsiders."
+        },
+        {
+          "id": "wf3",
+          "prompt": "We had to ___ the cost ___ the risk of doing nothing.",
+          "answers": [
+            "weigh",
+            "against"
+          ],
+          "options": [
+            [
+              "weigh",
+              "measure",
+              "count"
+            ],
+            [
+              "against",
+              "with",
+              "to"
+            ]
+          ],
+          "explanation": "To weigh one thing against another is to compare their costs before deciding."
+        },
+        {
+          "id": "wf4",
+          "prompt": "___ ___, we should have started six months earlier.",
+          "answers": [
+            "In",
+            "hindsight"
+          ],
+          "options": [
+            [
+              "In",
+              "With",
+              "By"
+            ],
+            [
+              "hindsight",
+              "instinct",
+              "jargon"
+            ]
+          ],
+          "explanation": "In hindsight means looking back, knowing how it turned out."
+        },
+        {
+          "id": "wf5",
+          "prompt": "It is hard to ___ ___ ___ a field that changes this fast.",
+          "answers": [
+            "keep",
+            "up",
+            "with"
+          ],
+          "options": [
+            [
+              "keep",
+              "hold",
+              "stay"
+            ],
+            [
+              "up",
+              "on",
+              "in"
+            ],
+            [
+              "with",
+              "to",
+              "of"
+            ]
+          ],
+          "explanation": "To keep up with something is to stay level with it as it moves."
+        },
+        {
+          "id": "wf6",
+          "prompt": "Those two meetings ___ most of my week.",
+          "answers": [
+            "consume"
+          ],
+          "options": [
+            "consume",
+            "recur",
+            "weigh"
+          ],
+          "explanation": "To consume time is to take up a large share of it."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Introduce your current role to somebody outside your industry, in thirty seconds, using the three-part shape: who you do it for, what problem you solve, what you personally touch.",
+    "What does a typical week look like for you? Name the two or three things that actually consume the time, and say what each is for.",
+    "Describe the most interesting thing you have worked on recently, and say precisely what made it interesting.",
+    "Describe a genuinely difficult decision in the order you lived it: the situation, what made it hard, what you weighed, what you chose, and only then what happened.",
+    "What is the biggest challenge in your field right now? Avoid the external and unsolvable answer — name something specific that contains a real tension.",
+    "How has the way you work changed in the last few years? Give a concrete example rather than a general trend.",
+    "How do you keep up with your field? Name what you actually read or attend, and one thing you did because of it.",
+    "What skills matter most in your work now that mattered less five years ago?",
+    "If you could change one thing about your industry, what would it be? Avoid the complaint everybody makes.",
+    "Which part of your work gives you the most satisfaction, and is that the same as the part you are best at?",
+    "Is there anything about your job you would like to talk about that nobody ever asks?"
+  ]
+}

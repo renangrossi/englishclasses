@@ -5,9 +5,15 @@
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
+ "a2/a2-review": {
+  "bytes": 844416,
+  "fingerprint": "65b5f241c7423462",
+  "rate": "-8%",
+  "voice": "en-US-EmmaNeural"
+ },
  "a2/at-the-hotel": {
   "bytes": 1033056,
-  "fingerprint": "435d4766684efe36",
+  "fingerprint": "821e6bbdcc41263f",
   "rate": "-8%",
   "voice": "en-US-GuyNeural"
  },
@@ -31,15 +37,27 @@
  },
  "a2/everyday-service-english": {
   "bytes": 1059264,
-  "fingerprint": "7d2ab977773f9be9",
+  "fingerprint": "6924a595484c0957",
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
  "a2/flying-to-the-us": {
   "bytes": 1318032,
-  "fingerprint": "c2b3561140d53268",
+  "fingerprint": "0dc1f82ec26a1bf6",
   "rate": "-8%",
   "voice": "en-US-GuyNeural"
+ },
+ "a2/grammar-practice-i": {
+  "bytes": 1120032,
+  "fingerprint": "5ac3a32588f07eb5",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
+ },
+ "a2/grocery-shopping": {
+  "bytes": 685872,
+  "fingerprint": "36a86870260363b4",
+  "rate": "-8%",
+  "voice": "en-US-JennyNeural"
  },
  "a2/hiking-in-the-mountains": {
   "bytes": 772416,
@@ -400,6 +418,12 @@
   "fingerprint": "be132ce625b41ea5",
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
+ },
+ "c1/questionnaire-company-management": {
+  "bytes": 1185552,
+  "fingerprint": "af27cac7dd28f2b4",
+  "rate": "+0%",
+  "voice": "en-US-ChristopherNeural"
  },
  "c1/real-estate": {
   "bytes": 1656864,

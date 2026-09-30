@@ -49,13 +49,14 @@
       "level": "A2",
       "topic": "review",
       "action": "CONVERT",
-      "audio": "n/a",
-      "reason": "Well-formed A2 mixed-grammar drill set; converts cleanly to fill-blank/multiple-choice.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Well-formed A2 mixed-grammar drill set; converts cleanly to fill-blank/multiple-choice. — DONE: Converted. The bare gap-fill bank becomes a short text explaining WHEN each of the four tenses is used — the time word decides it — with the drill items kept as three exercise blocks.",
+      "status": "IMPLEMENTED",
       "card_title": "A2 Review",
       "source_files": [
         "cefr/texts/a2-review.pdf"
-      ]
+      ],
+      "page": "reading/a2/a2-review.html"
     },
     {
       "slug": "america-in-1776",
@@ -605,13 +606,14 @@
       "level": "A2",
       "topic": "review",
       "action": "CONVERT",
-      "audio": "n/a",
-      "reason": "Multiple-choice-in-brackets dialogue drill; maps directly to fill-blank with options.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Multiple-choice-in-brackets dialogue drill; maps directly to fill-blank with options. — DONE: Converted and merged with review-prepositions-some-any-no-tenses-comparatives (VERDICT NOTE: the audit marked both CONVERT separately, but they drill the same three areas — prepositions, quantifiers, comparatives — and two near-identical review pages would have been duplication). One page now, with the some/any offer exception and the a-few/few distinction explained rather than only drilled.",
+      "status": "IMPLEMENTED",
       "card_title": "Grammar Practice I",
       "source_files": [
         "cefr/texts/grammar-practice-i.pdf"
-      ]
+      ],
+      "page": "reading/a2/grammar-practice-i.html"
     },
     {
       "slug": "grocery-shopping",
@@ -620,14 +622,15 @@
       "level": "A2",
       "topic": "everyday",
       "action": "CONVERT",
-      "audio": "n/a",
-      "reason": "A writing worksheet whose body is blank rules for handwriting. Becomes guided writing prompts, not a reading.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "A writing worksheet whose body is blank rules for handwriting. Becomes guided writing prompts, not a reading. — DONE: Converted. The source was a story with blank lines for the student to invent the menu, which is a writing prompt rather than a reading. Rewritten as a real shopping narrative; the invention survives in the discussion prompts.",
+      "status": "IMPLEMENTED",
       "card_title": "Grocery Shopping",
       "card_desc": "Exercises on grocery shopping scenarios and vocabulary.",
       "source_files": [
         "cefr/texts/grocery-shopping.pdf"
-      ]
+      ],
+      "page": "reading/a2/grocery-shopping.html"
     },
     {
       "slug": "haiti",
@@ -1039,13 +1042,14 @@
       "level": "C1",
       "topic": "business",
       "action": "CONVERT",
-      "audio": "n/a",
-      "reason": "A bank of executive discussion prompts; becomes a speaking/discussion component, not a reading.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "A bank of executive discussion prompts; becomes a speaking/discussion component, not a reading. — DONE: Converted and merged with questionnaire-company-tech-leader. Both were bare question banks with no prose, so a passage was written for them: how to structure an answer about your own work, why the difficult-decision question is usually told in the wrong order, and which answers about challenges are empty. The questions themselves survive, sharpened, as the discussion prompts.",
+      "status": "IMPLEMENTED",
       "card_title": "Questionnaire Company Management",
       "source_files": [
         "cefr/texts/questionnaire-company-management.pdf"
-      ]
+      ],
+      "page": "reading/c1/questionnaire-company-management.html"
     },
     {
       "slug": "questionnaire-company-tech-leader",
@@ -1054,13 +1058,14 @@
       "level": "C1",
       "topic": "interviews",
       "action": "CONVERT",
-      "audio": "n/a",
-      "reason": "Same — senior-interview speaking prompts.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Same — senior-interview speaking prompts. — DONE: Merged into reading/c1/questionnaire-company-management.html — see that entry.",
+      "status": "IMPLEMENTED",
       "card_title": "Questionnaire Company Tech Leader",
       "source_files": [
         "cefr/texts/questionnaire-company-tech-leader.pdf"
-      ]
+      ],
+      "page": "reading/c1/questionnaire-company-management.html"
     },
     {
       "slug": "real-estate",
@@ -1118,13 +1123,14 @@
       "level": "A2",
       "topic": "review",
       "action": "CONVERT",
-      "audio": "n/a",
-      "reason": "Clean multiple-choice mixed review; converts directly.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "Clean multiple-choice mixed review; converts directly. — DONE: Merged into reading/a2/grammar-practice-i.html — see that entry.",
+      "status": "IMPLEMENTED",
       "card_title": "Review Prepositions Some Any No Tenses Comparatives",
       "source_files": [
         "cefr/texts/review-prepositions-some-any-no-tenses-comparatives.pdf"
-      ]
+      ],
+      "page": "reading/a2/grammar-practice-i.html"
     },
     {
       "slug": "rio-de-janeiro-exercises",
@@ -1253,13 +1259,14 @@
       "level": "A2",
       "topic": "everyday",
       "action": "CONVERT",
-      "audio": "n/a",
-      "reason": "The drill half of the say/speak/talk/tell set; attach to the merged reading.",
-      "status": "NOT STARTED",
+      "audio": "exists",
+      "reason": "The drill half of the say/speak/talk/tell set; attach to the merged reading. — DONE: Converted into two new exercise blocks on the existing say-speak-talk-tell-02 page rather than a page of its own: a correction block and a past-simple/present-perfect choice block. Two pages already teach these four verbs, so a third would have been duplication.",
+      "status": "IMPLEMENTED",
       "card_title": "Say, Talk, Speak, Tell &mdash; Exercises",
       "source_files": [
         "cefr/texts/say-talk-speak-tell-exercises.pdf"
-      ]
+      ],
+      "page": "reading/b1/say-speak-talk-tell-02.html"
     },
     {
       "slug": "shadows-in-the-server-room",

@@ -283,6 +283,19 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
    dialogue turn always starts on its own line, never wrapped beside it. */
 .reading-passage p.reading-passage__heading,
 .reading-passage p.reading-passage__turn { clear: left; }
+
+/* A section heading inside the passage is set bold rather than in capitals.
+   The sources wrote these in caps, which read as smaller than the prose
+   around them and shouted at the same time; bold in ordinary sentence case
+   marks the break without either problem. The extra space above is what
+   actually separates one section from the last. */
+.reading-passage p.reading-passage__heading {
+  font-weight: 700;
+  margin-top: 1.6em;
+  /* Caps in the source are gone, so nothing here should re-impose them. */
+  text-transform: none;
+}
+.reading-passage p.reading-passage__heading:first-child { margin-top: 0; }
 .vocab-term {
   font-weight: 700;
   color: var(--color-accent);

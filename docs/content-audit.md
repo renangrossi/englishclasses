@@ -9,7 +9,7 @@ Extraction used the `.docx` wherever one exists (the `.pdf` is an export of the 
 
 See `PROJECT_STATUS.md` for the target architecture, the editorial rules and the next actions.
 
-**Progress: 78 of 98 implemented.**
+**Progress: 85 of 98 implemented.**
 
 ## Totals
 
@@ -46,9 +46,9 @@ content rather than as pre-existing.
 | Audio | Docs | |
 |---|---:|---|
 | `required` | 10 | must be generated |
-| `exists` | 73 | mp3 present and matches the text |
+| `exists` | 80 | mp3 present and matches the text |
 | `stale-on-edit` | 0 | mp3 present but the text is being edited -- **must be regenerated** |
-| `n/a` | 15 | drill / answer key / discussion bank -- not a reading text |
+| `n/a` | 8 | drill / answer key / discussion bank -- not a reading text |
 
 ---
 
@@ -166,16 +166,16 @@ Not a reading text -- a drill, answer key or discussion bank. Becomes an HTML ex
 | Source | Words | Genre | Level | Topic | Audio | Status | Reason |
 |---|---:|---|---|---|---|---|---|
 | `a-freelance-accounting-assignment`<br>[page](../reading/b1/a-freelance-accounting-assignment.html) | 655 | drill | B1 | work | `exists` | IMPLEMENTED | Pure simple-past gap-fill on accounting tasks; no prose passage. Becomes a fill-blank block. — DONE: Converted. The source was a pure conjugation drill — roughly 200 'I ______ (prepare)' slots across six tense sections and no prose at all. Replaced by a real first-person account of freelance work, with the tense contrast kept as a manageable exercise covering the same five time frames. |
-| `a2-review` | 1158 | drill | A2 | review | `n/a` | NOT STARTED | Well-formed A2 mixed-grammar drill set; converts cleanly to fill-blank/multiple-choice. |
+| `a2-review`<br>[page](../reading/a2/a2-review.html) | 1158 | drill | A2 | review | `exists` | IMPLEMENTED | Well-formed A2 mixed-grammar drill set; converts cleanly to fill-blank/multiple-choice. — DONE: Converted. The bare gap-fill bank becomes a short text explaining WHEN each of the four tenses is used — the time word decides it — with the drill items kept as three exercise blocks. |
 | `coffee-and-it`<br>[page](../reading/b1/coffee-and-it.html) | 285 | drill | B1 | work | `exists` | IMPLEMENTED | Word-bank gap-fill; its answer key is a separate file to fold in. — DONE: Converted: the gap-fill text becomes a real reading and the verb gaps become a fill-blank block, with coffee-and-it-answers merged in as the answers. Rewritten from a bulleted feature list into prose, 'an IT guy' neutralised, and a closing section added on why these systems fail in practice — the discipline, not the software. |
 | `formula-1`<br>[page](../reading/b2/formula-1.html) | 808 | drill | B2 | sports | `exists` | IMPLEMENTED | Technical word-bank gap-fill; answer key is a separate file. — DONE: Converted: the technical gap-fill becomes a fill-blank block and the text becomes a real explanation, with formula-1-exercises-answers merged in as the answers. Expanded so each system is explained rather than named, including why grip depends on speed and why braking harder in a fast corner is the wrong instinct. |
-| `grammar-practice-i` | 1050 | drill | A2 | review | `n/a` | NOT STARTED | Multiple-choice-in-brackets dialogue drill; maps directly to fill-blank with options. |
-| `grocery-shopping` | 160 | drill | A2 | everyday | `n/a` | NOT STARTED | A writing worksheet whose body is blank rules for handwriting. Becomes guided writing prompts, not a reading. |
-| `questionnaire-company-management` | 568 | discussion | C1 | business | `n/a` | NOT STARTED | A bank of executive discussion prompts; becomes a speaking/discussion component, not a reading. |
-| `questionnaire-company-tech-leader` | 216 | discussion | C1 | interviews | `n/a` | NOT STARTED | Same — senior-interview speaking prompts. |
-| `review-prepositions-some-any-no-tenses-comparatives` | 707 | drill | A2 | review | `n/a` | NOT STARTED | Clean multiple-choice mixed review; converts directly. |
+| `grammar-practice-i`<br>[page](../reading/a2/grammar-practice-i.html) | 1050 | drill | A2 | review | `exists` | IMPLEMENTED | Multiple-choice-in-brackets dialogue drill; maps directly to fill-blank with options. — DONE: Converted and merged with review-prepositions-some-any-no-tenses-comparatives (VERDICT NOTE: the audit marked both CONVERT separately, but they drill the same three areas — prepositions, quantifiers, comparatives — and two near-identical review pages would have been duplication). One page now, with the some/any offer exception and the a-few/few distinction explained rather than only drilled. |
+| `grocery-shopping`<br>[page](../reading/a2/grocery-shopping.html) | 160 | drill | A2 | everyday | `exists` | IMPLEMENTED | A writing worksheet whose body is blank rules for handwriting. Becomes guided writing prompts, not a reading. — DONE: Converted. The source was a story with blank lines for the student to invent the menu, which is a writing prompt rather than a reading. Rewritten as a real shopping narrative; the invention survives in the discussion prompts. |
+| `questionnaire-company-management`<br>[page](../reading/c1/questionnaire-company-management.html) | 568 | discussion | C1 | business | `exists` | IMPLEMENTED | A bank of executive discussion prompts; becomes a speaking/discussion component, not a reading. — DONE: Converted and merged with questionnaire-company-tech-leader. Both were bare question banks with no prose, so a passage was written for them: how to structure an answer about your own work, why the difficult-decision question is usually told in the wrong order, and which answers about challenges are empty. The questions themselves survive, sharpened, as the discussion prompts. |
+| `questionnaire-company-tech-leader`<br>[page](../reading/c1/questionnaire-company-management.html) | 216 | discussion | C1 | interviews | `exists` | IMPLEMENTED | Same — senior-interview speaking prompts. — DONE: Merged into reading/c1/questionnaire-company-management.html — see that entry. |
+| `review-prepositions-some-any-no-tenses-comparatives`<br>[page](../reading/a2/grammar-practice-i.html) | 707 | drill | A2 | review | `exists` | IMPLEMENTED | Clean multiple-choice mixed review; converts directly. — DONE: Merged into reading/a2/grammar-practice-i.html — see that entry. |
 | `rio-de-janeiro-exercises`<br>[page](../reading/b1/rio-de-janeiro-exercises.html) | 342 | drill | B1 | travel | `exists` | IMPLEMENTED | Word-bank gap-fill about hiking in Rio; keep as a drill. — DONE: Converted: the noun gap-fill becomes a vocabulary block and the text becomes a genuine hiking reading. Added the fact the source omitted — Tijuca's forest is a deliberate nineteenth-century replanting after coffee clearance threatened the city's water — plus practical advice on heat, water and local safety knowledge. |
-| `say-talk-speak-tell-exercises` | — | drill | A2 | everyday | `n/a` | NOT STARTED | The drill half of the say/speak/talk/tell set; attach to the merged reading. |
+| `say-talk-speak-tell-exercises`<br>[page](../reading/b1/say-speak-talk-tell-02.html) | — | drill | A2 | everyday | `exists` | IMPLEMENTED | The drill half of the say/speak/talk/tell set; attach to the merged reading. — DONE: Converted into two new exercise blocks on the existing say-speak-talk-tell-02 page rather than a page of its own: a correction block and a past-simple/present-perfect choice block. Two pages already teach these four verbs, so a third would have been duplication. |
 
 ## KEEP (15)
 

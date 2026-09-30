@@ -103,7 +103,13 @@ def _surface_patterns(term):
                 tail.append(r"\s+" + re.escape(w))
         tail_re = "".join(tail)
 
-        for f in sorted(forms, key=len, reverse=True):
+        # Longest first so "checked in" wins over "check", then alphabetically:
+        # forms is a set, and sorting on length alone leaves equal-length forms
+        # in hash order, which changes per process. The first pattern that
+        # matches is the one that claims the word, so that made the build
+        # non-reproducible -- rebuilding a page moved highlights between
+        # occurrences ("the agent" vs "agents") with no source change.
+        for f in sorted(forms, key=lambda w: (-len(w), w)):
             pats.append((len(alt), r"(?<![\w-])(" + re.escape(f).replace(r"\ ", r"\s+") + tail_re + r")(?![\w-])"))
 
         # "to be out of something" carries its meaning in the tail, and the
@@ -125,13 +131,35 @@ def _surface_patterns(term):
             stem = r"(?<![\w-])(" + re.escape(head) + "".join(tail[:-1]) + r"\s+" + re.escape(last)
             for suf in ("s", "es"):
                 pats.append((len(alt), stem + suf + r")(?![\w-])"))
-    return [p for _, p in sorted(set(pats), key=lambda x: -x[0])]
+    # Dedupe without losing insertion order, then sort stably. set(pats) here
+    # discarded the order the patterns were built in, and the sort key only
+    # compares the phrase length, so every pattern from the same headword tied
+    # and fell back on the set's hash order -- which differs per process. The
+    # first matching pattern is the one that claims the word, so two builds of
+    # an unchanged page could highlight different occurrences of it.
+    seen = set()
+    uniq = [p for p in pats if not (p in seen or seen.add(p))]
+    return [p for _, p in sorted(uniq, key=lambda x: -x[0])]
 
 
 # "Receptionist:", "You:", "Emma:" -- a dialogue turn, as opposed to prose
 # that merely contains a colon. The label is short, starts capitalised and is
 # followed by the speaker's line.
 SPEAKER_RE = re.compile(r"^[A-Z][\w .'\-]{0,24}:\s")
+
+
+# A numbered section heading inside a passage -- "1. Booking a room" --
+# as opposed to a sentence that merely starts with a figure. It is short,
+# it does not end in sentence punctuation, and it opens with "N.".
+NUMBERED_HEADING_RE = re.compile(r"^\d+\.\s+\S")
+
+
+def is_heading(para):
+    t = para.strip()
+    if NUMBERED_HEADING_RE.match(t) and len(t) <= 70 and t[-1] not in ".!?:;":
+        return True
+    letters = [c for c in t if c.isalpha()]
+    return bool(letters) and sum(c.isupper() for c in letters) / len(letters) > 0.6
 
 
 def annotate(paras, vocab):
@@ -160,11 +188,13 @@ def annotate(paras, vocab):
 
     for idx, para in enumerate(paras):
         text = para
-        # An all-caps line is a section heading inside the passage, not prose.
-        # Highlighting a word there produced "1. BOOKING A FLIGHT BY PHONE"
-        # with the definition hanging off the heading itself.
-        letters = [c for c in para if c.isalpha()]
-        if letters and sum(c.isupper() for c in letters) / len(letters) > 0.6:
+        # A section heading inside the passage is not prose, and highlighting
+        # a word in one produced "1. Booking a flight by phone" with the
+        # definition hanging off the heading itself. Two shapes count: a
+        # short numbered line with no sentence-ending punctuation, which is
+        # how these texts number their sections, and a line in capitals,
+        # kept because the sources originally wrote them that way.
+        if is_heading(para):
             headings.add(idx)
             out.append(text)
             continue

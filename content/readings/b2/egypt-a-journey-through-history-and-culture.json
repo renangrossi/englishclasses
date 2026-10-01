@@ -28,6 +28,22 @@
     "The food along the way was better than its reputation abroad. Koshari — rice, lentils, macaroni, fried onions and a sharp tomato sauce — is the national dish and costs almost nothing. Ful medames, slow-cooked fava beans, is what much of the country eats for breakfast. A few words of Arabic go a long way: shukran, thank you, changes the temperature of a conversation immediately.",
     "The journey ended in Alexandria, on the Mediterranean, which feels like a different country — sea air, Greek and Roman layers under the streets, a long curving corniche. The ancient Library is gone, and almost nothing of it survives to see. In its place stands the Bibliotheca Alexandrina, opened in 2002, which is a working library and a deliberate gesture rather than a reconstruction. Sitting on the seafront afterwards with fresh fish, the thing that stayed was not any single monument. It was the continuity — that people have been living along this river, arguing and building and burying their dead, for longer than most countries have existed at all."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "A crowd of people and camels on open ground below the domes and minarets of the Cairo citadel",
+      "source": "cesare-biseo-the-citadel-of-cairo-1883.jpeg",
+      "caption": "*The Citadel of Cairo* — Cesare Biseo, 1883."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "A temple standing at the water's edge on the Nile, a small boat passing in front of its columns",
+      "source": "david-roberts-temple-on-the-nile.jpeg",
+      "caption": "*Temple on the Nile* — David Roberts."
+    }
+  ],
   "vocabulary": [
     {
       "term": "to ease someone in",

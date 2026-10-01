@@ -28,6 +28,22 @@
     "That limitations section is the most useful paragraph in any paper and the least read. Authors are generally candid there, partly from honesty and partly because reviewers insist. It is also where you will find the finding's real shape: the sample was healthier than the population, the follow-up was short, the food diaries were self-reported and people lie about what they eat. None of that reaches the headline, and almost none of it is hidden.",
     "The conclusion is not that research reporting is worthless, which is the lazy position and the one that leaves a reader believing whatever they already believed. It is that the hedges are load-bearing. A sentence saying a trial suggests a treatment may reduce risk by up to forty per cent has told you, in four separate places, that it does not know — and a reader who can hear all four is better informed than one who distrusts the whole enterprise, because they can also tell when a claim is strong."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "A total eclipse observed from open ground, the corona showing around the black disc of the sun",
+      "source": "wilhelm-kranz-total-eclipse-of-the-sun-1897.jpeg",
+      "caption": "*Total Eclipse of the Sun* — Wilhelm Kranz, 1897."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "A great comet over a landscape at night, its tail reaching across most of the sky",
+      "source": "edmund-weiss-great-comet-of-1861-1888.jpeg",
+      "caption": "*The Great Comet of 1861* — Edmund Weiss, 1888. Observed carefully, reported carefully, and still the subject of a great deal of nonsense at the time."
+    }
+  ],
   "vocabulary": [
     {
       "term": "skepticism",

@@ -14,7 +14,7 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | 115 texts, all six levels; filters renamed for students, illustration under way (A1 and A2 done) |
+| **Current phase** | 115 texts, all six levels, 111 of them illustrated; filters named for students |
 | **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
 
 ### What this project is *not*
@@ -305,9 +305,9 @@ person who built it can see.
 The subject spread per level was audited and left alone: everyday / food / travel / work at
 A1–A2, society from B2, business at C1–C2 — it already climbs the way it should.
 
-### Milestone 11 — Illustrating the library (IN PROGRESS)
-- **Branch:** `content/illustrate-the-library` (merged to `main` as a checkpoint; **not
-  finished** — B1, B2, C1 and C2 are still unillustrated)
+### Milestone 11 — Illustrating the library ✅
+- **Date:** 2026-10-01 · **Branches:** `content/illustrate-the-library`,
+  `content/illustrate-b1`, `content/illustrate-b2-c1-c2` → all merged to `main` · **Pushed:** yes
 
 **Where the pictures come from.** `/media/amaterasu/Wallpapers` — a local gallery of about
 1,100 museum-grade scans of paintings and prints, with two curation notes in it
@@ -336,12 +336,18 @@ those `source` fields, between the `<!-- gallery:start -->` markers.
   it. Several first choices were wrong — `peder-mork-monsted-going-to-market-1911` is a quiet
   river, not a market.
 
-**Done so far: 45 images.** A1 (16, all 15 texts) and A2 (29, all 18 texts).
+**Done: 144 images across all six levels — 111 of the 115 texts now carry artwork** (A1 16,
+A2 29, B1 53, B2 24, C1 14, C2 8, plus the 12 images already on the pages illustrated earlier).
 
-**Still to do: B1 (35 texts), B2 (21), C1 (13), C2 (7).** The curation for B1 was worked out
-before the checkpoint and is not written down anywhere but here — redo it from the passages.
-One deliberate skip so far: `b1/cars-and-their-parts`, a parts list with no narrative and no
-matching period image.
+**Four texts are deliberately bare**, because the gallery holds nothing that genuinely speaks to
+them and a decorative picture would only push the reading down the screen:
+`b1/cars-and-their-parts` (a parts list, no narrative), `b1/coffee-and-it`,
+`b2/phrasal-verbs-01-bed-and-breakfast` (a phrasal-verb drill) and `c1/physiological-stressors`.
+If they are ever illustrated it should be from Commons, not by forcing a painting to fit.
+
+Two subjects were refused on grounds other than fit: classical nudes (Poynter's
+*A Visit to Aesculapius*, Siemiradzki's *Conversation by the Spring*) — the site is used by
+children, and there are plenty of other pictures.
 
 **The loop per batch:**
 ```bash
@@ -652,9 +658,8 @@ Every action is finished: **KEEP** 15, **EDIT** 31, **REPLACE** 12, **MERGE** 15
 
 ### Smaller work outstanding
 
-- **Illustration.** Under way as Milestone 11: A1 and A2 are illustrated from the local gallery,
-  B1 upwards are not. Page by page, not in bulk — a decorative picture on a phrasal-verb page
-  only pushes the reading down the screen. `docs/image-credits.md` has the rights position,
+- **Illustration.** Done as Milestone 11 for 111 of 115 texts, from the local gallery. The four
+  that are bare are listed there and were left bare on purpose. `docs/image-credits.md` has the rights position,
   `scripts/import_local_artwork.py` imports from the gallery and
   `scripts/fetch_public_domain_image.py` refuses anything on Commons that is not public domain.
 

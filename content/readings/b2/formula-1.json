@@ -26,6 +26,15 @@
     "The structure is built from carbon fibre composites, which give a lightweight shell with more strength for its mass than steel. The minimum weight is set by the rules, so teams do not simply build the lightest car possible; they build a car that is under the limit and then add ballast exactly where they want it, which is a way of controlling balance that is not available if the car is already too heavy.",
     "Finally, the car reports on itself constantly. A modern car carries several hundred sensors feeding telemetry to the pit wall in real time — tyre temperatures, brake temperatures, fuel flow, pressures, the loads going through the suspension. The engineers often know what has failed before the driver has finished the lap, and the strategy decisions that decide most races are made from that data rather than from what anybody can see."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "Chariots racing abreast towards the viewer, horses at full stretch and the crowd behind",
+      "source": "alexander-von-wagner-the-chariot-race.jpeg",
+      "caption": "*The Chariot Race* — Alexander von Wagner."
+    }
+  ],
   "vocabulary": [
     {
       "term": "single-seater",

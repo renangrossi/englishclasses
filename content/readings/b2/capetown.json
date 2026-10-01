@@ -26,6 +26,22 @@
     "Most visitors who have the time rent a car, and it is the right decision. The peninsula drive south — Hout Bay, Chapman's Peak, Cape Point — is one of the great coastal roads anywhere, and the wine towns inland, Stellenbosch and Franschhoek, are close enough to do in a day. Book the car before you fly; the rates at the airport desk on arrival are rarely the good ones.",
     "What stays with people afterwards is usually not a single sight. It is the combination — a mountain at the end of the street, cold water on one side and wine country on the other, and a city that has been through a great deal and is still working out what it wants to be."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "A deep rock gorge lit red by the last of the sun, with a stream in the bottom of it",
+      "source": "tinus-de-jongh-mountain-gorge-at-sunset.jpeg",
+      "caption": "*Mountain Gorge at Sunset* — Tinus de Jongh."
+    },
+    {
+      "src": "02.jpg",
+      "after": 6,
+      "alt": "Dry open country under a high sky, a track running away between low hills",
+      "source": "tinus-de-jongh-near-burghersdorp-1885-1942.jpg",
+      "caption": "*Near Burghersdorp* — Tinus de Jongh."
+    }
+  ],
   "vocabulary": [
     {
       "term": "flat-topped",

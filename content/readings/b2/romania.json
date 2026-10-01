@@ -26,6 +26,22 @@
     "Romania has also produced a remarkable number of significant figures for a country of its size: the sculptor Constantin Brâncuși, who did as much as anyone to shape modern sculpture; the composer George Enescu; the gymnast Nadia Comăneci; and Herta Müller, who won the Nobel Prize in Literature for work largely about life under the Ceaușescu dictatorship.",
     "For a country this varied, tourism is still comparatively light, which is much of the appeal. The painted monasteries of Bucovina, the Saxon villages of Transylvania, the delta and the mountains are all reachable and none of them is overrun. That will not last indefinitely."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "Forested hills in autumn with the ruins of a castle on the ridge above the trees",
+      "source": "anton-hlavacek-forest-landscape-with-castle-ruins.jpeg",
+      "caption": "*Forest Landscape with Castle Ruins* — Anton Hlavacek."
+    },
+    {
+      "src": "02.jpg",
+      "after": 3,
+      "alt": "A night attack by torchlight, ranks of fire moving across a dark field",
+      "source": "theodor-aman-draculas-night-attack-at-targoviste.jpg",
+      "caption": "*Vlad the Impaler's Night Attack at Târgoviște* — Theodor Aman. The historical figure, painted by a Romanian, before the novel got to him."
+    }
+  ],
   "vocabulary": [
     {
       "term": "legacy",

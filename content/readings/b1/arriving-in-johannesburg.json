@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "3:37"
   },
+  "grammar": [
+    "passive",
+    "modals",
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "Michael and Laura have landed at OR Tambo International Airport after an overnight flight. Michael goes to the information desk.",
     "Michael: Hi — could you help me? We've just arrived and we need to get to our hotel.",

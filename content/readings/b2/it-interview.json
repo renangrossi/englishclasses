@@ -2,7 +2,7 @@
   "id": "b2-reading-it-interview",
   "level": "B2",
   "slug": "it-interview",
-  "topic": "interviews",
+  "topic": "work",
   "title": "A Developer's Job Interview",
   "subtitle": "A full technical interview, from the opening question to the closing handshake.",
   "description": "A B2 reading and listening dialogue in American English: a software developer answers the five questions almost every technical interview asks, with vocabulary and comprehension exercises.",
@@ -12,6 +12,12 @@
   "audio": {
     "duration_label": "2:27"
   },
+  "grammar": [
+    "past-simple",
+    "modals",
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "Interviewer: Good morning, and thank you for coming in. Could you start by introducing yourself and telling us about your previous experience in the field?",
     "Douglas: Good morning. My name is Douglas, and I've been working as a software developer for the past seven years. Most of my experience is in web development — JavaScript, React and Node.js — and I've also worked with databases such as MongoDB and MySQL.",

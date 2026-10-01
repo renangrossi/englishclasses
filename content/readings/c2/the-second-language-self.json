@@ -12,6 +12,12 @@
   "audio": {
     "duration_label": "4:11"
   },
+  "grammar": [
+    "passive",
+    "comparatives",
+    "relative-clauses",
+    "present-simple"
+  ],
   "passage": [
     "Ask anyone who lives in two languages and you will get some version of the same report. They are blunter in one and more careful in the other; funnier in the first language and, in the second, a person who does not quite make jokes. Many say they are a colder decision-maker in the language they learned later, and a few say, uneasily, that they prefer the person they are in it. The experience is near-universal and is usually explained badly, so it is worth separating what is real from what is flattering.",
     "The weakest explanation is the one people reach for first: that each language carries a spirit, and that speaking Portuguese makes you warm in the way Portuguese is warm. This has the structure of an astrology column. It survives because it is unfalsifiable and pleasant, and because the alternative explanations are less charming.",

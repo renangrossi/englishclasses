@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "3:02"
   },
+  "grammar": [
+    "passive",
+    "past-simple",
+    "comparatives",
+    "relative-clauses"
+  ],
   "passage": [
     "For about twenty years, a version of the same prediction has circulated: that healthy adults and children will take drugs to sharpen their thinking, and that this will become as ordinary as drinking coffee. The prediction keeps being made, which is itself worth noticing, because it has not yet come true in the way it was meant.",
     "What is true is narrower. Drugs that improve attention and concentration exist and are widely prescribed, mainly for conditions they were developed to treat — methylphenidate for attention disorders, modafinil for sleep disorders. Both are also used without a prescription by people who have neither condition, particularly students, and this is common enough that surveys of university populations regularly find it.",

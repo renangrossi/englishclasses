@@ -2,7 +2,7 @@
   "id": "b1-reading-detective-story",
   "level": "B1",
   "slug": "detective-story",
-  "topic": "society",
+  "topic": "literature",
   "title": "The False Wall",
   "subtitle": "A safe is emptied, a note is found, and the person nobody suspected turns out to have done it.",
   "description": "A B1 crime-fiction reading and listening text following a burglary investigation, with the vocabulary of crime and police work and comprehension exercises.",
@@ -12,6 +12,11 @@
   "audio": {
     "duration_label": "3:20"
   },
+  "grammar": [
+    "present-perfect",
+    "past-simple",
+    "modals"
+  ],
   "passage": [
     "It was a dreary Monday morning when Detective Julia Kendall was called out to a burglary. The house belonged to a wealthy businessman, and he had woken to find his safe standing open and emptied — a considerable amount of cash, and his wife's jewellery.",
     "What struck Kendall first was that nothing else had been touched. There was no broken glass, no forced door, nothing disturbed in any other room. Whoever had done this had walked in, gone straight to the safe, and left. That narrowed the list of possibilities immediately, because it meant two things: the burglar had known where the safe was, and had known how to open it.",

@@ -11,6 +11,10 @@
   "audio": {
     "duration_label": "2:44"
   },
+  "grammar": [
+    "past-simple",
+    "continuous"
+  ],
   "passage": [
     "John decided to clean up his bedroom. He started by picking up his clothes from the floor and putting them away in the closet. Then he made up his bed, straightening out the sheets and fluffing up the pillows. He noticed some books scattered across the floor, so he picked those up too and put them back on the shelf. Next he dusted off his desk and wiped down the surfaces. With everything in order, he decided to lie down for a few minutes.",
     "While he was lying there, John remembered the coding project he still had to finish. He got up, sat down at his desk and booted up his computer. There was a bug that had been causing problems in the system for two days. After looking through the code for a while, he managed to figure out what was wrong: a variable was being read before it had been set. He fixed up the error and ran the program again, and this time everything worked.",

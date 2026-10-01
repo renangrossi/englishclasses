@@ -1,0 +1,261 @@
+{
+  "id": "a1-reading-jack-works-from-home",
+  "level": "A1",
+  "slug": "jack-works-from-home",
+  "order": 13,
+  "topic": "work",
+  "title": "Jack Works from Home",
+  "subtitle": "No commute, no boss in the room — and nobody to have lunch with.",
+  "description": "An A1 reading and listening text about working from home: the day, the good parts and the lonely parts.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:09"
+  },
+  "grammar": [
+    "present-simple"
+  ],
+  "passage": [
+    "My husband Jack works from home. He is a web designer. He makes websites for small companies.",
+    "He starts at nine. His desk is in the bedroom, next to the window, with a computer, a big screen, and a cup of coffee that is always cold.",
+    "In the morning he has meetings on the computer. He wears a good shirt and old pants, because people only see the top half.",
+    "He has no boss in the room, so nobody tells him what to do. But he has nobody to talk to either, and some days he does not leave the apartment.",
+    "At one o'clock he has lunch alone. Then he works until six.",
+    "“Do you like it?” I ask him.",
+    "“I like the work,” he says. “I don't like the quiet.”",
+    "On Wednesday he takes his computer to a café. It is noisy and the coffee is expensive, but there are people, and he comes home happier."
+  ],
+  "vocabulary": [
+    {
+      "term": "website",
+      "definition": "a place on the internet with pages you can read",
+      "match": "websites"
+    },
+    {
+      "term": "desk",
+      "definition": "a table for working or writing"
+    },
+    {
+      "term": "screen",
+      "definition": "the flat part of a computer you look at"
+    },
+    {
+      "term": "meeting",
+      "definition": "a time when people talk about work together",
+      "match": "meetings"
+    },
+    {
+      "term": "to wear",
+      "definition": "to have clothes on your body",
+      "match": "wears"
+    },
+    {
+      "term": "pants",
+      "definition": "the clothes you wear on your legs — American; British say trousers"
+    },
+    {
+      "term": "top half",
+      "definition": "the part of you above the middle",
+      "match": "top half"
+    },
+    {
+      "term": "boss",
+      "definition": "the person who tells you what to do at work"
+    },
+    {
+      "term": "alone",
+      "definition": "with nobody else"
+    },
+    {
+      "term": "quiet",
+      "definition": "with little or no noise"
+    },
+    {
+      "term": "noisy",
+      "definition": "with a lot of noise"
+    },
+    {
+      "term": "happier",
+      "definition": "more happy than before"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-wfh-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "h1",
+          "prompt": "What is Jack's job?",
+          "options": [
+            "He makes websites",
+            "He sells coffee",
+            "He is a teacher"
+          ],
+          "answerIndex": 0,
+          "explanation": "“He is a web designer. He makes websites for small companies.”"
+        },
+        {
+          "id": "h2",
+          "prompt": "Where does he work?",
+          "options": [
+            "At a desk in the bedroom",
+            "In an office",
+            "In a café every day"
+          ],
+          "answerIndex": 0,
+          "explanation": "“His desk is in the bedroom, next to the window.”"
+        },
+        {
+          "id": "h3",
+          "prompt": "Why does he wear a good shirt and old pants?",
+          "options": [
+            "People only see the top half on the computer",
+            "He has no other clothes",
+            "He goes out after work"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated directly in the third paragraph."
+        },
+        {
+          "id": "h4",
+          "prompt": "What does Jack like about working from home?",
+          "options": [
+            "Nobody tells him what to do",
+            "The lunch",
+            "The quiet"
+          ],
+          "answerIndex": 0,
+          "explanation": "“He does not have a boss in the room… He likes that.”"
+        },
+        {
+          "id": "h5",
+          "prompt": "What does he not like?",
+          "options": [
+            "The quiet, and having nobody to talk to",
+            "The work",
+            "His computer"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I like the work. I don't like the quiet.”"
+        },
+        {
+          "id": "h6",
+          "prompt": "Why does he go to a café on Wednesday?",
+          "options": [
+            "Because there are other people there",
+            "Because the coffee is cheap",
+            "Because it is quiet"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It is noisy and the coffee is expensive, but there are people.”"
+        }
+      ]
+    },
+    {
+      "id": "a1-wfh-vocab",
+      "type": "vocabulary",
+      "title": "Work Words",
+      "instructions": "Choose the word that matches the meaning.",
+      "items": [
+        {
+          "id": "hv1",
+          "prompt": "A table for working or writing is a ___.",
+          "options": [
+            "desk",
+            "screen",
+            "shirt"
+          ],
+          "answerIndex": 0,
+          "explanation": "Jack's desk is next to the window."
+        },
+        {
+          "id": "hv2",
+          "prompt": "When people talk about work together, they have a ___.",
+          "options": [
+            "meeting",
+            "website",
+            "boss"
+          ],
+          "answerIndex": 0,
+          "explanation": "Jack has meetings on the computer."
+        },
+        {
+          "id": "hv3",
+          "prompt": "With nobody else is ___.",
+          "options": [
+            "alone",
+            "noisy",
+            "happier"
+          ],
+          "answerIndex": 0,
+          "explanation": "He has lunch alone at one o'clock."
+        },
+        {
+          "id": "hv4",
+          "prompt": "A place with a lot of noise is ___.",
+          "options": [
+            "noisy",
+            "quiet",
+            "cold"
+          ],
+          "answerIndex": 0,
+          "explanation": "The café is noisy — and he likes that."
+        },
+        {
+          "id": "hv5",
+          "prompt": "In American English, the clothes on your legs are ___.",
+          "options": [
+            "pants",
+            "trousers",
+            "shirts"
+          ],
+          "answerIndex": 0,
+          "explanation": "British English says trousers."
+        }
+      ]
+    },
+    {
+      "id": "a1-wfh-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Is it true or false?",
+      "items": [
+        {
+          "id": "ht1",
+          "statement": "Jack starts work at nine.",
+          "answer": true,
+          "explanation": "True. “He starts at nine.”"
+        },
+        {
+          "id": "ht2",
+          "statement": "Jack has a boss in the room with him.",
+          "answer": false,
+          "explanation": "False. “He does not have a boss in the room.”"
+        },
+        {
+          "id": "ht3",
+          "statement": "He eats lunch with other people.",
+          "answer": false,
+          "explanation": "False. “At one o'clock he has lunch alone.”"
+        },
+        {
+          "id": "ht4",
+          "statement": "The café makes him feel better.",
+          "answer": true,
+          "explanation": "True. “He comes home happier.”"
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Do you work at home or in an office?",
+    "Which do you prefer? Why?",
+    "Is your home quiet or noisy?",
+    "Who do you have lunch with?"
+  ]
+}

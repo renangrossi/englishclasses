@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "3:55"
   },
+  "grammar": [
+    "passive",
+    "past-simple",
+    "comparatives",
+    "relative-clauses"
+  ],
   "passage": [
     "American culture is usually introduced with a metaphor, and the metaphor does more work than the sentence around it.",
     "The old one is the melting pot. It comes from a 1908 play of that name, and it says that people arrive from everywhere, and what comes out is one new thing that is not quite any of the originals. It was meant generously. It also describes a process in which what you brought is expected to dissolve, which is why later writers proposed the salad bowl instead: everything in one dish, each ingredient still identifiable. Which image somebody reaches for tells you what they think immigrants owe the country they arrive in, and the argument between the two is not settled and is not really about food.",

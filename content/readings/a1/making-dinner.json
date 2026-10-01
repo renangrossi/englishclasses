@@ -1,0 +1,290 @@
+{
+  "id": "a1-reading-making-dinner",
+  "level": "A1",
+  "slug": "making-dinner",
+  "order": 14,
+  "topic": "food",
+  "title": "Making Dinner",
+  "subtitle": "Rice, chicken, and one thing Emma always forgets.",
+  "description": "An A1 reading and listening text about cooking at home: the food, the steps and the kitchen words.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:07"
+  },
+  "grammar": [
+    "present-simple"
+  ],
+  "passage": [
+    "Tonight it is my turn to cook. I am not a good cook, but I make three or four things well, and chicken with rice is one of them.",
+    "First I look in the refrigerator. I have chicken, rice, onions, and half a lemon. I do not have bread. I always forget the bread.",
+    "I put water in a pot for the rice. While the water gets hot, I cut the onions. My eyes hurt a little, but only for a minute.",
+    "I put oil in a pan and I cook the chicken. It takes about fifteen minutes. The kitchen smells very good.",
+    "Jack comes in. “Can I help?”",
+    "“Yes. Put the plates on the table, please. And open the window — it's hot in here.”",
+    "We eat at half past seven. It is not a special dinner, but it is hot, we are hungry, and there is enough for tomorrow."
+  ],
+  "vocabulary": [
+    {
+      "term": "my turn",
+      "definition": "the time when it is my job to do something",
+      "match": "my turn"
+    },
+    {
+      "term": "refrigerator",
+      "definition": "the cold machine where you keep food"
+    },
+    {
+      "term": "onion",
+      "definition": "a strong white or red vegetable that makes your eyes water",
+      "match": "onions"
+    },
+    {
+      "term": "to forget",
+      "definition": "to not remember",
+      "match": "forget"
+    },
+    {
+      "term": "pot",
+      "definition": "a deep round container for cooking food in water"
+    },
+    {
+      "term": "while",
+      "definition": "during the same time as"
+    },
+    {
+      "term": "to cut",
+      "definition": "to divide something with a knife",
+      "match": "cut"
+    },
+    {
+      "term": "to hurt",
+      "definition": "to give you pain",
+      "match": "hurt"
+    },
+    {
+      "term": "oil",
+      "definition": "the liquid fat you cook with"
+    },
+    {
+      "term": "pan",
+      "definition": "a wide flat container for cooking on the stove"
+    },
+    {
+      "term": "to smell",
+      "definition": "to have a smell",
+      "match": "smells"
+    },
+    {
+      "term": "plate",
+      "definition": "the flat dish you eat from",
+      "match": "plates"
+    },
+    {
+      "term": "enough",
+      "definition": "as much as you need"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-dinner-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "n1",
+          "prompt": "What does Emma say about her cooking?",
+          "options": [
+            "She makes a few things well",
+            "She cooks very badly",
+            "She is a professional cook"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I make three or four things well.”"
+        },
+        {
+          "id": "n2",
+          "prompt": "What does she not have?",
+          "options": [
+            "Bread",
+            "Rice",
+            "Chicken"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I do not have bread. I always forget the bread.”"
+        },
+        {
+          "id": "n3",
+          "prompt": "What does she do while the water gets hot?",
+          "options": [
+            "She cuts the onions",
+            "She eats",
+            "She calls Jack"
+          ],
+          "answerIndex": 0,
+          "explanation": "“While the water gets hot, I cut the onions.”"
+        },
+        {
+          "id": "n4",
+          "prompt": "Why do her eyes hurt?",
+          "options": [
+            "Because of the onions",
+            "Because of the oil",
+            "Because the kitchen is hot"
+          ],
+          "answerIndex": 0,
+          "explanation": "Onions make your eyes water."
+        },
+        {
+          "id": "n5",
+          "prompt": "What does Jack do to help?",
+          "options": [
+            "He puts the plates on the table and opens the window",
+            "He cooks the chicken",
+            "He goes to buy bread"
+          ],
+          "answerIndex": 0,
+          "explanation": "That is what Emma asks him to do."
+        },
+        {
+          "id": "n6",
+          "prompt": "Why is Emma happy with the dinner?",
+          "options": [
+            "It is hot, they are hungry, and there is food for tomorrow",
+            "It is a special meal",
+            "It was fast"
+          ],
+          "answerIndex": 0,
+          "explanation": "“there is enough for tomorrow.”"
+        }
+      ]
+    },
+    {
+      "id": "a1-dinner-order",
+      "type": "ordering",
+      "title": "Make the Sentence",
+      "instructions": "Put the words in the correct order.",
+      "items": [
+        {
+          "id": "no1",
+          "prompt": "Say whose turn it is.",
+          "words": [
+            "Tonight",
+            "it",
+            "is",
+            "my",
+            "turn",
+            "to",
+            "cook"
+          ]
+        },
+        {
+          "id": "no2",
+          "prompt": "Ask for help with the table.",
+          "words": [
+            "Put",
+            "the",
+            "plates",
+            "on",
+            "the",
+            "table,",
+            "please"
+          ]
+        },
+        {
+          "id": "no3",
+          "prompt": "Say how long it takes.",
+          "words": [
+            "It",
+            "takes",
+            "about",
+            "fifteen",
+            "minutes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-dinner-fill",
+      "type": "fill-blank",
+      "title": "In the Kitchen",
+      "instructions": "Complete each sentence with one word.",
+      "items": [
+        {
+          "id": "nf1",
+          "prompt": "I keep the milk in the ___.",
+          "answers": [
+            "refrigerator"
+          ],
+          "options": [
+            "refrigerator",
+            "pot",
+            "plate"
+          ],
+          "explanation": "The refrigerator keeps food cold."
+        },
+        {
+          "id": "nf2",
+          "prompt": "Put the water in a ___ and make it hot.",
+          "answers": [
+            "pot"
+          ],
+          "options": [
+            "pot",
+            "pan",
+            "plate"
+          ],
+          "explanation": "A pot is deep; a pan is wide and flat."
+        },
+        {
+          "id": "nf3",
+          "prompt": "I ___ the onions with a knife.",
+          "answers": [
+            "cut"
+          ],
+          "options": [
+            "cut",
+            "smell",
+            "forget"
+          ],
+          "explanation": "To cut is to divide with a knife."
+        },
+        {
+          "id": "nf4",
+          "prompt": "The kitchen ___ very good tonight.",
+          "answers": [
+            "smells"
+          ],
+          "options": [
+            "smells",
+            "hurts",
+            "forgets"
+          ],
+          "explanation": "To smell is to have a smell."
+        },
+        {
+          "id": "nf5",
+          "prompt": "There is ___ food for tomorrow.",
+          "answers": [
+            "enough"
+          ],
+          "options": [
+            "enough",
+            "while",
+            "hot"
+          ],
+          "explanation": "Enough means as much as you need."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Who cooks in your home?",
+    "What can you cook well?",
+    "What do you always forget to buy?",
+    "What did you eat yesterday?"
+  ]
+}

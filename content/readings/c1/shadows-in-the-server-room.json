@@ -11,6 +11,14 @@
   "audio": {
     "duration_label": "8:25"
   },
+  "grammar": [
+    "present-perfect",
+    "past-simple",
+    "continuous",
+    "modals",
+    "comparatives",
+    "relative-clauses"
+  ],
   "passage": [
     "The IT floor at TechNova ran on a kind of controlled disorder. Two monitors per desk, cables nobody had ever traced, coffee cups at various stages of abandonment, and the faint smell of hot electronics that anybody who has worked near a server rack recognises immediately. It was late October in Seattle, raining, and the rain had been going on long enough that people had stopped mentioning it.",
     "Alex Rivera was debugging an API integration that had been failing intermittently for three days, which is the worst kind. Across the aisle, Jamie Patel kept the infrastructure running — firewalls, backups, and the machines in the server room that everything else depended on. His desk was the only tidy one on the floor. Sam Lee tested what the others built, and her desk was the opposite of Jamie's, a landscape of sticky notes in three colours whose system only she understood.",

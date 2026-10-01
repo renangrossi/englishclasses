@@ -12,6 +12,16 @@
   "audio": {
     "duration_label": "2:01"
   },
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple",
+    "future",
+    "continuous",
+    "comparatives",
+    "relative-clauses",
+    "present-simple"
+  ],
   "passage": [
     "Every day I start the morning with a coffee. I love the smell of it more than the taste, honestly, and it makes me feel ready for whatever the day contains. That is the routine, and it has not changed in about four years.",
     "Yesterday I tried a new place near the station. It was better than my usual one and slightly more expensive, which is how these things generally work. While I was sitting there I was reading a book about travelling in Japan, and I stayed about forty minutes longer than I had intended, because the chapter was good and nobody asked me to leave.",

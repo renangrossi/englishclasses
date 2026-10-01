@@ -2,7 +2,7 @@
   "id": "b1-reading-robot-birds",
   "level": "B1",
   "slug": "robot-birds",
-  "topic": "society",
+  "topic": "tech",
   "title": "Robot Birds",
   "subtitle": "A city with too many pigeons, and a solution that worked for about as long as you would expect.",
   "description": "A B1 reading and listening text about Liverpool's robotic falcons and why feeding city pigeons is the real problem, with a Right / Wrong / Doesn't say comprehension exercise.",
@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "2:16"
   },
+  "grammar": [
+    "passive",
+    "past-simple",
+    "continuous",
+    "relative-clauses"
+  ],
   "passage": [
     "Liverpool city council had a pigeon problem, and its answer was to put mechanical falcons on the roofs.",
     "The problem itself is common to most European city centres and is not really about pigeons. A pigeon's natural diet is seeds and insects, and on that diet a pigeon stays a normal size and a normal number. In a city centre it eats what people drop and what people hand it, which is bread, chips and whatever else is going, and on that diet the birds get heavier and, far more importantly, they breed more often. A city pigeon population is a direct measurement of how much food it is being given.",

@@ -12,6 +12,15 @@
   "audio": {
     "duration_label": "4:04"
   },
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple",
+    "continuous",
+    "modals",
+    "relative-clauses",
+    "present-simple"
+  ],
   "passage": [
     "Everyone is in favour of plain English, which should be the first warning. Positions that attract no opposition are rarely examined, and an unexamined position tends to be applied in places it was never meant to reach. The plain-language movement was right about almost everything it set out to fix, and the few things it got wrong are worth stating precisely, because stating them badly has given comfort to people who simply want to keep writing obscurely.",
     "The case for plainness is overwhelming and should be conceded at once. Insurance contracts that no policyholder can parse, medical consent forms that defeat the patients signing them, benefit letters written in a register calculated to make a claimant give up — these are not neutral stylistic choices. They are transfers of power, carried out in prose, from the person who must act to the institution that drafted the document. Against that, plain English is not a matter of taste. It is closer to a civic obligation, and the movement that imposed it on government and finance did more practical good than most literary criticism has managed in a century.",

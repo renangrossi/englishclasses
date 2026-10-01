@@ -12,6 +12,17 @@
   "audio": {
     "duration_label": "2:35"
   },
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple",
+    "future",
+    "continuous",
+    "modals",
+    "comparatives",
+    "relative-clauses",
+    "present-simple"
+  ],
   "passage": [
     "Caroline has taught physical education at the same primary school for five years, and in that time she has worked out something that took her a while to accept: most children do not dislike exercise. They dislike being bad at it in front of other people. Once she understood that, she changed how she taught.",
     "The first thing she did was stop picking teams the old way. Standing two children at the front to choose their friends in order tells every child exactly where they rank, and the ones picked last had usually stopped trying before the game began. Now she divides the class herself, differently every week, and nobody knows who is supposed to be the good one.",

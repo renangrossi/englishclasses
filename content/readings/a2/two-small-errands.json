@@ -11,6 +11,11 @@
   "audio": {
     "duration_label": "2:48"
   },
+  "grammar": [
+    "modals",
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "Two short errands, and the language you need for both.",
     "At the Bakery",

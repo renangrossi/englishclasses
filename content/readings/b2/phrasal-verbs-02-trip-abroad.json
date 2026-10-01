@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "1:46"
   },
+  "grammar": [
+    "present-perfect",
+    "past-simple",
+    "continuous",
+    "present-simple"
+  ],
   "passage": [
     "Anna and Mark had been planning their trip to the United States for months, and the day had finally come to set off. They had packed up their suitcases the night before and made sure to check in online for the flight, so that the morning would be one thing less to worry about.",
     "At the airport they checked in their luggage and went through security without any trouble. That left a couple of hours before boarding, so they browsed around the duty-free shops. Anna found a perfume she liked and picked it up as a souvenir.",

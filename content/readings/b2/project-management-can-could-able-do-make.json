@@ -12,6 +12,12 @@
   "audio": {
     "duration_label": "3:41"
   },
+  "grammar": [
+    "passive",
+    "modals",
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "In project management and sales, clear communication and well-defined roles decide whether a project lands. That matters most under a tight deadline, with a client who cannot be kept waiting. Being able to say precisely what you can do now, what you could do later, and what you might be able to achieve given the right conditions is a professional skill in itself. So is knowing whether you do something or make something, because the choice quietly shapes how a responsibility is understood.",
     "Emma, an experienced project manager, is overseeing the development of a new e-commerce platform for a major retail client. Her job is to coordinate across departments — sales, development, design and quality assurance. Mark, the sales manager, is the client's main point of contact, and he is usually the one negotiating timelines and deliverables.",

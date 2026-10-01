@@ -8,6 +8,12 @@
   "description": "An A2 listening and reading page with three short service dialogues — ordering when something is sold out, buying clothes, and asking someone to take a photo — with polite-request practice.",
   "source": "cefr/texts/travel-dialogues.docx",
   "provenance": "rewritten",
+  "grammar": [
+    "future",
+    "modals",
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "Three short conversations you will need sooner or later. Your lines are written out as models.",
     "1. When what you wanted is not available",

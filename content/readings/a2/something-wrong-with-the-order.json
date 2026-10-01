@@ -12,6 +12,16 @@
   "audio": {
     "duration_label": "2:22"
   },
+  "grammar": [
+    "passive",
+    "past-simple",
+    "future",
+    "continuous",
+    "modals",
+    "conditionals",
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "Something goes wrong in a restaurant perhaps one time in ten. The food is cold, the order is wrong, or the bill does not match the menu. None of this is a disaster, but a lot of learners find it the hardest moment of the whole meal, because the words they know are too strong.",
     "The problem is that a direct translation usually sounds like an accusation. “You brought the wrong dish” is correct English and almost nobody says it. The normal pattern puts the problem first and the person nowhere: “I think there's been a mix-up with the order.” Nobody is blamed, and the server can fix it without having to apologize first.",

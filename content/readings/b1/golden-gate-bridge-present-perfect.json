@@ -11,6 +11,13 @@
   "audio": {
     "duration_label": "2:49"
   },
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple",
+    "comparatives",
+    "present-simple"
+  ],
   "passage": [
     "The Golden Gate Bridge has stood across the entrance to San Francisco Bay since 1937, and in that time it has become one of the most recognisable structures in the world. It was a genuinely difficult thing to build. The strait it crosses is deep, the current runs hard through it twice a day, and the fog can close in within minutes. Plenty of engineers said at the time that a bridge there could not be built at all.",
     "It was built anyway, as a suspension bridge, with a main span of about 1,280 metres. That made it the longest suspension span in the world when it opened, and it held that record for twenty-seven years. The two towers rise 227 metres above the water, and for a long time they were the tallest things in the city by a wide margin.",

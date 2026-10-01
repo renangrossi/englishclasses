@@ -12,6 +12,12 @@
   "audio": {
     "duration_label": "2:08"
   },
+  "grammar": [
+    "past-simple",
+    "continuous",
+    "modals",
+    "present-simple"
+  ],
   "passage": [
     "Last weekend, I went hiking with my friends. We all love being outdoors, so we picked a trail up in the mountains. The weather was perfect — sunny, but not too hot.",
     "We started early in the morning. The trail was quiet and we could hear birds singing. The path went through a forest of tall trees. The air smelled fresh, and the leaves under our feet made a soft sound as we walked.",

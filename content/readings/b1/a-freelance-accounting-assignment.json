@@ -12,6 +12,14 @@
   "audio": {
     "duration_label": "2:43"
   },
+  "grammar": [
+    "passive",
+    "future",
+    "continuous",
+    "comparatives",
+    "relative-clauses",
+    "present-simple"
+  ],
   "passage": [
     "I have been working as a freelance accountant for six years. Before that I spent nine years at a firm, which I mention because people considering the move usually want to know whether it is better, and the honest answer is that it is different in ways that suit some people and make others miserable.",
     "The work itself is much the same. Last month I prepared a year-end report for a retail client, reconciled three months of bank statements that had not been touched since March, and found a discrepancy in the ledger that turned out to be a supplier invoice entered twice. That last one took an afternoon to find and about four seconds to fix, which is the shape of a great deal of this job.",

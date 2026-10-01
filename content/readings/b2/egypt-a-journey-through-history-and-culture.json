@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "5:09"
   },
+  "grammar": [
+    "passive",
+    "past-simple",
+    "comparatives",
+    "relative-clauses"
+  ],
   "passage": [
     "The journey began in Cairo, which is not a city that eases you in. Twenty-odd million people, traffic that treats lane markings as a suggestion, and, in the middle of it, the Egyptian Museum holding more of the ancient world than any building reasonably should. The collection runs to well over a hundred thousand objects and only a fraction is ever on display. The Tutankhamun rooms are the ones everyone comes for, and the gold funerary mask genuinely does stop people where they stand — though the more affecting things are often smaller: a child's sandals, a folding stool, a board game.",
     "What the museum makes clear is how much of this is one continuous inheritance. The objects span thousands of years, and the country they came from is still there, still farming the same strip of river valley.",

@@ -12,6 +12,11 @@
   "audio": {
     "duration_label": "4:15"
   },
+  "grammar": [
+    "passive",
+    "modals",
+    "comparatives"
+  ],
   "passage": [
     "There is a familiar list of words said to be untranslatable. The Portuguese saudade is always on it. So is the German Schadenfreude, the Japanese komorebi, the Welsh hiraeth. The list circulates endlessly and flatters everyone who reads it, because each of us gets to believe that our language holds something the others cannot reach. Almost all of it is nonsense, and the small part that is not is far more interesting than the list suggests.",
     "Start with the nonsense. Saudade can be translated. It takes a clause rather than a word — the ache of missing something you may never have again, which is not quite longing and not quite grief — and the translation is perfectly serviceable. English has no single term for it, which is a fact about English vocabulary, not about the limits of English. Schadenfreude was untranslatable until English simply took it, which is what English does, and it is now ordinary. The claim of untranslatability usually turns out to mean one word there, several words here, and that is a difference of economy, not of possibility.",

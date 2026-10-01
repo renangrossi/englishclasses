@@ -1,0 +1,331 @@
+{
+  "id": "b2-reading-the-marathon-and-the-wall",
+  "level": "B2",
+  "slug": "the-marathon-and-the-wall",
+  "topic": "sports",
+  "title": "The Marathon and the Wall",
+  "subtitle": "At about thirty kilometres, something happens that no amount of willpower prevents.",
+  "description": "A B2 reading and listening text about the marathon: the physiology of 'the wall', why it happens where it does, and what runners do about it.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "2:42"
+  },
+  "grammar": [
+    "passive",
+    "continuous",
+    "comparatives",
+    "relative-clauses"
+  ],
+  "passage": [
+    "Runners call it the wall, and the name is accurate. It arrives somewhere between thirty and thirty-five kilometres, and it does not feel like ordinary tiredness. The legs stop answering. The pace falls by a minute a kilometre or more, and no amount of willpower reverses it.",
+    "What is happening is simple enough to explain and very hard to avoid. The body stores carbohydrate as glycogen, in the muscles and the liver, and a trained adult holds perhaps two thousand calories of it. A marathon costs somewhere near two thousand six hundred. The arithmetic is the whole problem: at racing pace you run out before the finish.",
+    "Fat is the alternative fuel and there is plenty of it — even a lean runner carries enough for several marathons. But fat is metabolised more slowly, and it needs more oxygen for the same energy. When glycogen runs low the body switches over, and the switch is what the runner feels: the same effort now produces a slower pace. Worse, the brain depends on glucose, so the mental symptoms arrive with the physical ones. Runners describe losing the thread of simple arithmetic, misreading their own watch, and in bad cases a strange emotional flatness.",
+    "Three things postpone it. The first is pacing. Running the first half too fast burns glycogen disproportionately, because the faster you go the greater the share of energy that comes from carbohydrate rather than fat. Most people who hit the wall at thirty kilometres caused it at ten.",
+    "The second is fuelling during the race. Taking in thirty to sixty grams of carbohydrate an hour does not replace what is being spent, but it extends the supply. The practical difficulty is that the stomach tolerates much less at racing effort than at rest, which is why fuelling has to be rehearsed in training rather than attempted for the first time on the day.",
+    "The third is the training itself. Long slow runs improve the body's ability to use fat at a given pace, which spares glycogen, and they increase how much glycogen can be stored. This adaptation takes months and is the least glamorous part of a training plan.",
+    "What does not work is willpower alone. This is the part that surprises people, because the marathon has a century of literature attached to it about mental strength, and at thirty-two kilometres with no glycogen left the mind is simply not the limiting factor. A runner can want it enormously and still slow by fifteen per cent. The useful mental skill is narrower and less romantic: recognising the early signs, accepting the slower pace immediately rather than fighting it for two kilometres and paying for it, and continuing to take fuel when the stomach has stopped wanting any.",
+    "Elite runners hit the wall less often, and not because they suffer better. They have larger glycogen stores, use fat more efficiently, have practised their fuelling to the gram, and — most of all — pace the first half with a discipline that looks conservative to anyone watching. The wall is not a test of character. It is a budget, and the people who avoid it are the ones who did the arithmetic beforehand."
+  ],
+  "vocabulary": [
+    {
+      "term": "pace",
+      "definition": "the speed you are running or walking at"
+    },
+    {
+      "term": "willpower",
+      "definition": "the mental strength to force yourself to continue"
+    },
+    {
+      "term": "carbohydrate",
+      "definition": "the food group the body burns fastest for energy"
+    },
+    {
+      "term": "glycogen",
+      "definition": "the form the body stores carbohydrate in"
+    },
+    {
+      "term": "liver",
+      "definition": "the large organ that stores and processes what you eat"
+    },
+    {
+      "term": "lean",
+      "definition": "with very little body fat"
+    },
+    {
+      "term": "to metabolise",
+      "definition": "to break down for energy in the body",
+      "match": "metabolised"
+    },
+    {
+      "term": "to switch over",
+      "definition": "to change from one thing to another",
+      "match": "switches over"
+    },
+    {
+      "term": "glucose",
+      "definition": "the simple sugar the brain runs on"
+    },
+    {
+      "term": "to lose the thread",
+      "definition": "to stop being able to follow something",
+      "match": "losing the thread"
+    },
+    {
+      "term": "flatness",
+      "definition": "an absence of feeling"
+    },
+    {
+      "term": "to postpone",
+      "definition": "to push to a later time",
+      "match": "postpone"
+    },
+    {
+      "term": "disproportionately",
+      "definition": "much more than the size of the cause would suggest"
+    },
+    {
+      "term": "to fuel",
+      "definition": "to take in energy during exercise",
+      "match": "fuelling"
+    },
+    {
+      "term": "to tolerate",
+      "definition": "to be able to accept without trouble",
+      "match": "tolerates"
+    },
+    {
+      "term": "to rehearse",
+      "definition": "to practise in advance",
+      "match": "rehearsed"
+    },
+    {
+      "term": "to spare",
+      "definition": "to use less of something, saving it",
+      "match": "spares"
+    },
+    {
+      "term": "adaptation",
+      "definition": "a lasting change the body makes in response to training"
+    },
+    {
+      "term": "glamorous",
+      "definition": "exciting and attractive to look at"
+    },
+    {
+      "term": "limiting factor",
+      "definition": "the one thing that decides how far you can go",
+      "match": "limiting factor"
+    },
+    {
+      "term": "elite",
+      "definition": "at the very top level"
+    },
+    {
+      "term": "conservative",
+      "definition": "cautious; holding back"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-wall-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Several answers depend on the numbers. Read them carefully.",
+      "items": [
+        {
+          "id": "w1",
+          "prompt": "Where does the wall usually arrive?",
+          "options": [
+            "Between thirty and thirty-five kilometres",
+            "In the first ten kilometres",
+            "At the halfway point"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated in the opening paragraph."
+        },
+        {
+          "id": "w2",
+          "prompt": "What is the basic arithmetic of the problem?",
+          "options": [
+            "A runner stores about 2,000 calories of glycogen and a marathon costs about 2,600",
+            "Runners burn fat too quickly",
+            "The race is longer than the body expects"
+          ],
+          "answerIndex": 0,
+          "explanation": "“at racing pace you run out before the finish.”"
+        },
+        {
+          "id": "w3",
+          "prompt": "Why does switching to fat slow a runner down?",
+          "options": [
+            "Fat is metabolised more slowly and needs more oxygen for the same energy",
+            "There is not enough fat available",
+            "Fat cannot fuel muscles"
+          ],
+          "answerIndex": 0,
+          "explanation": "Even a lean runner carries enough fat for several marathons; the problem is the rate."
+        },
+        {
+          "id": "w4",
+          "prompt": "Why do mental symptoms appear alongside the physical ones?",
+          "options": [
+            "The brain depends on glucose",
+            "Runners panic",
+            "Dehydration affects the brain first"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hence losing the thread of arithmetic and misreading a watch."
+        },
+        {
+          "id": "w5",
+          "prompt": "What does the author mean by “caused it at ten”?",
+          "options": [
+            "Going out too fast early burns glycogen disproportionately",
+            "The wall begins at ten kilometres",
+            "Most runners start too slowly"
+          ],
+          "answerIndex": 0,
+          "explanation": "The faster the pace, the greater the share of energy from carbohydrate."
+        },
+        {
+          "id": "w6",
+          "prompt": "Why must fuelling be practised in training?",
+          "options": [
+            "The stomach tolerates much less at racing effort than at rest",
+            "Gels taste unpleasant",
+            "Race organisers require it"
+          ],
+          "answerIndex": 0,
+          "explanation": "“rather than attempted for the first time on the day.”"
+        },
+        {
+          "id": "w7",
+          "prompt": "What do long slow runs achieve?",
+          "options": [
+            "Better fat use at a given pace and greater glycogen storage",
+            "Faster race pace immediately",
+            "Stronger willpower"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the adaptation takes months."
+        },
+        {
+          "id": "w8",
+          "prompt": "What is the author's view of mental strength here?",
+          "options": [
+            "It is not the limiting factor once glycogen is gone",
+            "It is the most important factor",
+            "It matters only for elite runners"
+          ],
+          "answerIndex": 0,
+          "explanation": "“A runner can want it enormously and still slow by fifteen per cent.”"
+        },
+        {
+          "id": "w9",
+          "prompt": "What is the useful mental skill, according to the text?",
+          "options": [
+            "Noticing early signs, accepting the slower pace at once, and continuing to fuel",
+            "Ignoring the pain",
+            "Increasing effort"
+          ],
+          "answerIndex": 0,
+          "explanation": "“narrower and less romantic” than willpower."
+        },
+        {
+          "id": "w10",
+          "prompt": "Why do elite runners hit the wall less often?",
+          "options": [
+            "Bigger stores, better fat use, rehearsed fuelling and disciplined early pacing",
+            "They suffer better",
+            "They run shorter races"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The wall is not a test of character. It is a budget.”"
+        }
+      ]
+    },
+    {
+      "id": "b2-wall-vocab",
+      "type": "vocabulary",
+      "title": "Physiology and Pacing",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "wv1",
+          "prompt": "The form the body stores carbohydrate in is ___.",
+          "options": [
+            "glycogen",
+            "glucose",
+            "adaptation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Glucose is the circulating sugar; glycogen is the store."
+        },
+        {
+          "id": "wv2",
+          "prompt": "To use less of something so that it lasts is to ___ it.",
+          "options": [
+            "spare",
+            "tolerate",
+            "postpone"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fat use spares glycogen."
+        },
+        {
+          "id": "wv3",
+          "prompt": "The one thing that decides how far you can go is the ___.",
+          "options": [
+            "limiting factor",
+            "adaptation",
+            "pace"
+          ],
+          "answerIndex": 0,
+          "explanation": "The author argues the mind is not it."
+        },
+        {
+          "id": "wv4",
+          "prompt": "Much more than the size of the cause would suggest is ___.",
+          "options": [
+            "disproportionately",
+            "conservatively",
+            "enormously"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fast early running burns glycogen disproportionately."
+        },
+        {
+          "id": "wv5",
+          "prompt": "A lasting change the body makes in response to training is an ___.",
+          "options": [
+            "adaptation",
+            "arithmetic",
+            "elite"
+          ],
+          "answerIndex": 0,
+          "explanation": "It takes months and is the least glamorous part of a plan."
+        },
+        {
+          "id": "wv6",
+          "prompt": "Cautious and holding back is ___.",
+          "options": [
+            "conservative",
+            "lean",
+            "flat"
+          ],
+          "answerIndex": 0,
+          "explanation": "How elite first-half pacing looks to a spectator."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Have you ever run out of energy during exercise? What did it feel like?",
+    "The author says the wall is a budget, not a test of character. Do you agree?",
+    "Where else in life do people blame willpower for an arithmetic problem?",
+    "What would you have to rehearse in advance for something you are planning?",
+    "Write about 250 words on a time you paced something badly at the start."
+  ]
+}

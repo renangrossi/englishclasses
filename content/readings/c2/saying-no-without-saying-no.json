@@ -12,6 +12,14 @@
   "audio": {
     "duration_label": "4:30"
   },
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple",
+    "modals",
+    "comparatives",
+    "relative-clauses"
+  ],
   "passage": [
     "The proposal went to the steering group in March. Nobody objected. One director said it was an interesting direction; another wondered aloud whether the timing was quite right; a third asked, pleasantly, what the appetite was elsewhere in the business. The minutes record no opposition, because none was expressed. The project was quietly dropped in April, and the person who had written it spent the summer wondering what had gone wrong in May.",
     "Nothing had gone wrong in May. It had gone wrong in March, in a room where three people said no and one person did not hear it.",

@@ -2,7 +2,7 @@
   "id": "b2-reading-sales-strategy",
   "level": "B2",
   "slug": "sales-strategy",
-  "topic": "business",
+  "topic": "work",
   "title": "Sales Strategy in Modern Business",
   "subtitle": "The vocabulary of a sales team: funnels, metrics, SPIN questions and the language of objection handling.",
   "description": "A B2 business-English reading and listening text on modern sales strategy — CRM, KPIs, the sales funnel and the SPIN method — with vocabulary and comprehension exercises.",
@@ -11,6 +11,10 @@
   "audio": {
     "duration_label": "4:14"
   },
+  "grammar": [
+    "comparatives",
+    "questions"
+  ],
   "passage": [
     "In a crowded marketplace, sales professionals have to go further than the traditional tactics if they want to connect with clients and close deals. Much of that work comes down to understanding a customer's pain points and offering a value proposition that actually speaks to them. Successful salespeople rely on a range of tools, from CRM (Customer Relationship Management) systems to pipeline management techniques, to track prospects and hold relationships together over the long term.",
     "Sales teams work to specific numbers, usually called KPIs (Key Performance Indicators). These include the lead conversion rate, the customer acquisition cost (CAC) and the customer lifetime value (CLV), and each one says something different about how efficient and how profitable the effort really is. Reading and improving those numbers is what keeps the sales funnel healthy, from lead generation at the top to conversions at the bottom.",

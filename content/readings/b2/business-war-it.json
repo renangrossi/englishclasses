@@ -11,6 +11,11 @@
   "audio": {
     "duration_label": "4:35"
   },
+  "grammar": [
+    "passive",
+    "past-simple",
+    "comparatives"
+  ],
   "passage": [
     "A great deal of the technology now used for ordinary commercial purposes began with military funding, and the relationship runs in both directions. Satellite navigation was built by the United States Department of Defense and opened to civilian use afterwards. Jet engines, radar, and much of early computing were developed or accelerated under wartime pressure. The pattern is consistent enough that it is worth understanding properly rather than through the version usually told.",
     "The internet is the standard example, and the standard account of it is wrong. ARPANET, its ancestor, was funded by the Advanced Research Projects Agency, part of the US defense establishment — so the military money is real. But it was not built to keep communications running through a nuclear attack. It was built so that a small number of extremely expensive computers at different universities could be shared by researchers who could not all be in the same building. The nuclear-survivability idea comes from separate work by Paul Baran at the RAND Corporation on distributed networks, which did influence the design of packet switching, but was not ARPANET's purpose. The distinction matters, because the popular version makes the internet sound like a weapon that escaped, when it was closer to a tool for sharing scarce equipment that turned out to have much wider uses.",

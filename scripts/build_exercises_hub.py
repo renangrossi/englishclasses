@@ -22,6 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import reading_common as rc
+import tag_grammar
 import site_chrome
 
 REL = ""
@@ -112,6 +113,12 @@ def topic_rank(topic):
     return TOPIC_ORDER.index(topic) if topic in TOPIC_ORDER else len(TOPIC_ORDER)
 
 
+def tag_list(d):
+    """Every tag a card can be filtered by: its subject topic, then the grammar
+    points detected in its passage (see scripts/tag_grammar.py)."""
+    return [f"topic:{d.get('topic','')}"] + [f"g:{g}" for g in (d.get("grammar") or [])]
+
+
 def built_card(level, slug, d, n):
     """A converted text. Its own source JSON is the truth about what exists --
     which is what makes splits (one source -> several pages) and merges
@@ -120,7 +127,8 @@ def built_card(level, slug, d, n):
     # One button and nothing else. The genre, the running time and an "Audio"
     # badge used to sit under it on their own line, which crowded the card for
     # information the reading page itself states the moment you open it.
-    return (f'<article class="lesson-card" id="ex-{esc(slug)}">'
+    return (f'<article class="lesson-card" id="ex-{esc(slug)}" '
+            f'data-tags="{esc(" ".join(tag_list(d)))}">'
             f'<span class="lesson-card__index" aria-hidden="true">{roman(n)}</span>'
             f"<h3>{esc(d['title'])}</h3><p>{esc(d['subtitle'])}</p>"
             f'<div class="lesson-card__actions">'
@@ -148,6 +156,42 @@ def pending_card(t, n):
             f'<div class="lesson-card__actions">{"".join(actions)}</div>'
             f'<p class="lesson-card__meta" style="color:var(--color-text-muted);font-size:var(--step--1);margin-top:auto;">Not yet converted</p>'
             f"</article>")
+
+
+def filter_bar(code, built):
+    """The tags a student can click, in place of the three lines of prose this
+    replaced. A tag is only offered if at least two texts in this level carry
+    it: a filter that returns a single card is a worse answer than not being
+    offered the question, and it makes the level look thinner than it is.
+    Subject topics come first because that is what most people browse by."""
+    from collections import Counter
+    counts = Counter(t for _, _, d in built for t in tag_list(d))
+    topics = [(t, n) for t, n in counts.items() if t.startswith("topic:") and n >= 2]
+    gram = [(t, n) for t, n in counts.items() if t.startswith("g:") and n >= 2]
+    topics.sort(key=lambda x: (topic_rank(x[0].split(":", 1)[1]), x[0]))
+    gram.sort(key=lambda x: (-x[1], x[0]))
+    if not topics and not gram:
+        return ""
+
+    def chip(tag, n, label):
+        return (f'<button type="button" class="tag-chip" data-tag="{esc(tag)}" '
+                f'aria-pressed="false">{esc(label)}'
+                f'<span class="tag-chip__n">{n}</span></button>')
+
+    groups = ""
+    if topics:
+        groups += ('<div class="tag-row"><span class="tag-row__label">Subject</span>'
+                   + "".join(chip(t, n, rc.TOPIC_LABELS.get(t.split(":", 1)[1], t.split(":", 1)[1].title()))
+                             for t, n in topics) + "</div>")
+    if gram:
+        groups += ('<div class="tag-row"><span class="tag-row__label">Grammar</span>'
+                   + "".join(chip(t, n, tag_grammar.LABELS.get(t.split(":", 1)[1], t.split(":", 1)[1]))
+                             for t, n in gram) + "</div>")
+    return (f'<div class="tag-filter" data-tag-filter="{esc(code)}">{groups}'
+            f'<p class="tag-filter__status" data-tag-status role="status">'
+            f'Showing all {len(built)} texts.</p>'
+            f'<button type="button" class="tag-filter__clear" data-tag-clear hidden>Clear filters</button>'
+            f"</div>")
 
 
 def level_section(code, built, pending, n_start):
@@ -180,11 +224,7 @@ def level_section(code, built, pending, n_start):
             <p class="eyebrow">{code.upper()} &middot; {info['name']}</p>
             <h2 id="h-{code}">{info['name']} &mdash; {len(texts)} text{'s' if len(texts) != 1 else ''}</h2>
             <p class="section__head" style="max-width:66ch;">{info['blurb']}</p>
-            <ul class="summary-list" style="max-width:66ch;margin-bottom:var(--space-lg);">
-                <li><strong>English you practice:</strong> {info['practices']}</li>
-                <li><strong>Topics:</strong> {info['topics']}</li>
-                <li><strong>Ready to read now:</strong> {done} of {len(texts)}</li>
-            </ul>
+            {filter_bar(code, built)}
             {''.join(blocks)}
         </div>
     </section>"""
@@ -213,8 +253,12 @@ def main():
         pending.setdefault(t["level"].lower(), []).append(t)
 
     done = sum(len(v) for v in built.values())
+    pending_note = ""  # only shown while a conversion backlog actually exists
     total = done + sum(len(v) for v in pending.values())
     by_level = {c: built.get(c, []) + pending.get(c, []) for c in LEVEL_INFO}
+    if total > done:
+        pending_note = (f"{done} are ready to read now; the rest are still in their "
+                        f"original documents while they are converted. ")
 
     title = "Reading & Listening Library — Renan the Teacher"
     description = ("A CEFR-levelled library of reading and listening texts for English learners — "
@@ -222,7 +266,10 @@ def main():
     breadcrumb = ('<li><a href="index.html">Home</a></li>'
                   '<li aria-current="page">Reading Library</li>')
 
-    jump = "".join(f'<a href="#level-{c}">{c.upper()}</a>' for c in by_level if by_level[c])
+    # The code alone ("B2") says nothing to a student who does not already know
+    # the CEFR ladder, which is exactly the student most likely to be using this.
+    jump = "".join(f'<a href="#level-{c}"><strong>{c.upper()}</strong> {esc(LEVEL_INFO[c]["name"])}</a>'
+                   for c in by_level if by_level[c])
 
     sections = []
     n = 1
@@ -240,7 +287,7 @@ def main():
             <div class="page-header__text">
                 <p class="eyebrow hero__eyebrow">Practice Library</p>
                 <h1>Reading &amp; Listening Library</h1>
-                <p class="page-header__lede">{total} texts, ordered the way you would actually learn them &mdash; A1 through C2. Every reading has a recording, vocabulary and exercises you can check yourself, and a Print / Save as PDF button. {done} are ready to read now; the rest are still in their original documents while they are converted.</p>
+                <p class="page-header__lede">{total} texts, ordered the way you would actually learn them &mdash; A1 through C2. Every reading has a recording, vocabulary and exercises you can check yourself, and a Print / Save as PDF button. {pending_note}Use the tags under each level to find texts by subject or by the grammar they practice.</p>
             </div>
             <img class="page-header__badge" src="assets/img/badges/badge-single-star.webp" alt="" width="88" height="88" loading="lazy">
         </div>
@@ -248,7 +295,10 @@ def main():
 <div class="level-toc"><div class="level-toc__inner">{jump}</div></div>
 <div class="section section--tight" style="padding-bottom:0;"><div class="section__inner"><img class="section-banner" src="assets/img/the-boxers-(1954),-by-william-george.jpg" alt="" loading="lazy"></div></div>""",
         *sections,
-        site_chrome.footer(REL),
+        # Only this page has the filter, so the script is injected here rather
+        # than added to the chrome every page on the site shares.
+        site_chrome.footer(REL).replace(
+            "</body>", f'    <script src="{REL}assets/js/tag-filter.js"></script>\n</body>'),
     ]
     OUT.write_text("\n".join(out), encoding="utf-8")
     print(f"exercises.html: {total} texts across {sum(1 for v in by_level.values() if v)} levels, "

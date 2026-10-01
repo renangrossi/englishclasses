@@ -8,6 +8,12 @@
   "description": "An A2 listening and reading page with two model hotel dialogues — reserving a room and checking out, including querying a charge on the bill.",
   "source": "cefr/texts/travel-dialogues.docx",
   "provenance": "rewritten",
+  "grammar": [
+    "passive",
+    "modals",
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "Two conversations at a hotel. The guest's lines are written out here as models. Read them, then cover them and try the dialogue yourself.",
     "1. Booking a room",

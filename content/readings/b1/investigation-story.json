@@ -11,6 +11,13 @@
   "audio": {
     "duration_label": "2:36"
   },
+  "grammar": [
+    "past-simple",
+    "continuous",
+    "modals",
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "Detective Wayne: Good morning, Mr. Rogers. Thank you for coming in. I'd like to start with Sunday night. What were you doing at two in the morning?",
     "Rogers: Good morning, detective. I was waiting up for my favorite show. It airs late.",

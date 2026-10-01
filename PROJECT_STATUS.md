@@ -14,7 +14,7 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | All six levels populated — 108 texts. P-1 closed. |
+| **Current phase** | 115 texts, all six levels, filterable by subject and grammar |
 | **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
 
 ### What this project is *not*
@@ -242,13 +242,51 @@ day" was literal both times, and the repetition in `b1/beers` is deliberate para
    CSS (`.vocab-term + .vocab-term`) rather than by rewriting a dozen passages and re-recording
    them for a styling problem.
 
-### Milestone 9 — What is left (NOT STARTED)
+### Milestone 9 — Tag filter, and no topic left alone ✅
+- **Date:** 2026-09-30 · **Pushed:** yes · **Merged:** yes
 
-No level is empty and no source document is unconverted. What remains is discretionary:
+**The level jump strip reads the full name** — "A1 Beginner", not "A1". The code alone says
+nothing to the student most likely to need it.
 
-1. **P-2, the geography balance.** Travel is still the largest topic and much of B1 is set
-   abroad, against a brief asking for an American centre of gravity.
-2. **Depth at C1 and C2** (13 and 6) against B1's 37.
+**Each level now carries a tag filter** in place of the three lines of prose that used to sit
+there ("English you practice", "Topics", "Ready to read now"). Those lines described the level
+but gave nobody a way to act on it. The chips combine **OR within a row and AND across rows**:
+Travel + Food shows either, Travel + Passive voice shows travel texts practising the passive.
+Each level filters independently, and with JavaScript off every card stays visible.
+
+- **Subject tags** come from each text's `topic`.
+- **Grammar tags** come from `scripts/tag_grammar.py`, which is new. It detects fourteen
+  grammar points from unambiguous surface patterns and writes them to each source JSON as
+  `grammar`. Thresholds scale with passage length, because a 130-word A1 text written entirely
+  in the present simple otherwise fails a threshold set for a 900-word essay and ends up with no
+  tags at all. Under-tagging is the intended failure: a missing tag costs a student one text, a
+  wrong one costs them their trust in the filter. 3.8 tags per text; one text (`b1/cars-and-
+  their-parts`, a parts list) legitimately has none.
+- **A tag is only offered where at least two texts in that level carry it.** A filter that
+  returns a single card is a worse answer than not being asked the question.
+
+**No subject topic is left with one text**, which the rule above would otherwise have hidden.
+Twelve singletons were resolved two ways:
+
+- **Six retagged**, only where the new topic is at least as accurate: `detective-story` to
+  literature (it is a crime story, like `investigation-story`), `robot-birds` to tech,
+  `it-interview` and `sales-strategy` to work, `physiological-stressors` to society,
+  `the-same-news-four-ways` to business.
+- **Seven partner texts written**, where the topic genuinely deserved to exist at that level:
+  A1 work / food / travel, A2 culture (Thanksgiving), B2 sports (the marathon wall), C1 tech
+  (the cost of convenience), C2 culture (the accent you keep).
+
+115 texts: 15 A1 / 18 A2 / 37 B1 / 24 B2 / 14 C1 / 7 C2.
+
+Two incidental fixes: the hub lede still promised texts "still in their original documents",
+which stopped being true when the backlog closed, so that sentence now only prints while a
+backlog exists; and the truncation guard in `generate_reading_audio.py` caught a real partial
+file (296 KB for 599 words) rather than letting it ship.
+
+### Milestone 10 — What is left (NOT STARTED)
+
+1. **P-2, the geography balance** — travel is still the largest topic in B1.
+2. **Depth at C1 and C2** (14 and 7) against B1's 37.
 3. **Illustration**, page by page — `docs/image-credits.md`.
 
 ## Target architecture

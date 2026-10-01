@@ -9,6 +9,10 @@
   "source": "cefr/texts/trip-through-rs.docx",
   "provenance": "rewritten",
   "narrator": "female",
+  "grammar": [
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "My name is Emma, and I love a long bus ride. My brother Jack always comes with me. Today we are on a big, noisy bus heading west from Charlotte to Asheville, up in the North Carolina mountains. Asheville is famous for its old houses, its cool summers and the flowers in its gardens. The road stretches out ahead of us, and I am excited.",
     "Jack looks out of the window. \"There's a lake down there,\" he says. \"It's so blue.\"",

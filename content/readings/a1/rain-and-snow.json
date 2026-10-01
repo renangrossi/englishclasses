@@ -25,6 +25,22 @@
     "Fall is my favorite. It is not hot and it is not cold. The trees are red and yellow for three weeks, and then the wind takes the leaves away.",
     "Then it is cold again. In Chicago, you always have a coat near the door."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "A woman with an umbrella walking a narrow path through a meadow of tall white flowers",
+      "source": "ivan-shishkin-a-woman-under-an-umbrella-on-a-flowering-meadow-1881.jpg",
+      "caption": "*A Woman Under an Umbrella on a Flowering Meadow* — Ivan Shishkin, 1881."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "A woodland path covered in red and yellow fallen leaves, with two small figures walking away under the trees",
+      "source": "olga-wisinger-florian-falling-leaves-1899.jpeg",
+      "caption": "*Falling Leaves* — Olga Wisinger-Florian, 1899."
+    }
+  ],
   "vocabulary": [
     {
       "term": "season",

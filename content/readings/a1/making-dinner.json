@@ -26,6 +26,15 @@
     "“Yes. Put the plates on the table, please. And open the window — it's hot in here.”",
     "We eat at half past seven. It is not a special dinner, but it is hot, we are hungry, and there is enough for tomorrow."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 3,
+      "alt": "Women working dough on a long table in a dark kitchen, with the open fire of a bread oven glowing behind them",
+      "source": "anders-leonard-zorn-horneando-pan-1860-1920.jpeg",
+      "caption": "*Baking Bread* — Anders Zorn."
+    }
+  ],
   "vocabulary": [
     {
       "term": "my turn",

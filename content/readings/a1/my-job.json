@@ -25,6 +25,15 @@
     "The money is not good. But I like the mornings, I like the people, and at two o'clock I am free.",
     "Jack says I should look for a better job. Maybe. But not this year."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "Two women working at a large brick oven in a bakery, one sliding a loaf in on a long wooden peel",
+      "source": "gustaf-olof-cederstrom-inside-a-bakery-1845-1933.jpeg",
+      "caption": "*Inside a Bakery* — Gustaf Cederström."
+    }
+  ],
   "vocabulary": [
     {
       "term": "difficult",

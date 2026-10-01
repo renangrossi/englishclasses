@@ -28,6 +28,22 @@
     "The hike back was easier, because it was downhill almost the whole way. We were tired, but we were happy. The sun was going down and the sky turned orange and pink behind the peaks.",
     "Hiking is more than just walking. It is about being outside, seeing somewhere new, and spending a whole day with people you like. It makes me feel alive, and I cannot wait to go again."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "A steep valley path climbing between two mountainsides, with light breaking over the ridge",
+      "source": "sidney-richard-percy-the-mountain-pass.jpg",
+      "caption": "*The Mountain Pass* — Sidney Richard Percy."
+    },
+    {
+      "src": "02.jpg",
+      "after": 5,
+      "alt": "A wide lake under a tall sky of cumulus cloud, with mountains standing around the far shore",
+      "source": "robert-zund-landscape-at-lake-of-lucerne-1827-1909.jpg",
+      "caption": "*Landscape at the Lake of Lucerne* — Robert Zünd."
+    }
+  ],
   "vocabulary": [
     {
       "term": "a trail",

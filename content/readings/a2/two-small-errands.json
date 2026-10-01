@@ -39,6 +39,22 @@
     "“No problem. Drive safely.”",
     "The driver pulls out with a full tank, a clean windshield, and a job for Saturday morning."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 6,
+      "alt": "A woman standing in the sun at a terrace wall, taking her time over the view",
+      "source": "paul-fischer-on-the-terrace-1912.jpeg",
+      "caption": "*On the Terrace* — Paul Fischer, 1912."
+    },
+    {
+      "src": "02.jpg",
+      "after": 13,
+      "alt": "A farrier's archway on a town street, with a cart waiting and a horse being shod inside",
+      "source": "jacques-carabain-a-town-scene-with-a-farrier.jpeg",
+      "caption": "*A Town Scene with a Farrier* — Jacques Carabain. The service station of its day: you pulled in, somebody checked the thing that carried you."
+    }
+  ],
   "vocabulary": [
     {
       "term": "errand",

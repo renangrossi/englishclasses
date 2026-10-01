@@ -14,7 +14,7 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | 115 texts, all six levels, filterable by subject and grammar |
+| **Current phase** | 115 texts, all six levels; filters renamed for students, illustration under way (A1 and A2 done) |
 | **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
 
 ### What this project is *not*
@@ -283,11 +283,79 @@ which stopped being true when the backlog closed, so that sentence now only prin
 backlog exists; and the truncation guard in `generate_reading_audio.py` caught a real partial
 file (296 KB for 599 words) rather than letting it ship.
 
-### Milestone 10 — What is left (NOT STARTED)
+### Milestone 10 — The filter a student can read ✅
+- **Date:** 2026-10-01 · **Branch:** `feat/filter-naming-and-grouping` → merged · **Pushed:** yes
+
+**Grammar tags now carry the names a learner would recognise.** `Continuous aspect` was the
+term a syntax class uses, and it was also dishonest: the detector fired on *she is walking* and
+*they were walking* alike, so a text tagged only on past forms sat under a label that said
+nothing about the past. It is now two detectors — **Present Continuous (-ing)** and **Past
+Continuous (was / were -ing)** — and every other label reads the way a coursebook prints it:
+Future (will / going to), Comparatives & Superlatives, Relative Clauses (who / which), Linking
+Words, Question Forms, Conditionals (if). `scripts/tag_grammar.py --write` retagged all 115
+texts; `grammar` keys in the source JSONs changed with it.
+
+**Subject and Grammar are visibly two groups.** The label sits on its own line above its chips,
+with space and one faint hairline between the groups (`.tag-row + .tag-row` in
+`components.css`), because the two rows ask different questions and combine differently —
+OR inside a group, AND between them. Chips are **alphabetical by label** within each group;
+they had been ordered by an editorial topic sequence and by hit count, a ranking only the
+person who built it can see.
+
+The subject spread per level was audited and left alone: everyday / food / travel / work at
+A1–A2, society from B2, business at C1–C2 — it already climbs the way it should.
+
+### Milestone 11 — Illustrating the library (IN PROGRESS)
+- **Branch:** `content/illustrate-the-library` (merged to `main` as a checkpoint; **not
+  finished** — B1, B2, C1 and C2 are still unillustrated)
+
+**Where the pictures come from.** `/media/amaterasu/Wallpapers` — a local gallery of about
+1,100 museum-grade scans of paintings and prints, with two curation notes in it
+(`01a painting-taste-analysis.md`, `01b painters-by-region-and-subject.md`). **The gallery is
+the first place to look**; Wikimedia Commons (`scripts/fetch_public_domain_image.py`) is only
+for what it cannot answer. `scripts/import_local_artwork.py` is new and does the whole job:
+resizes to a web size, writes `assets/img/reading/{level}/{slug}/NN.jpg`, and adds the entry to
+the text's `images` array with the gallery filename recorded as `source`.
+`scripts/build_image_credits.py` regenerates the credits table in `docs/image-credits.md` from
+those `source` fields, between the `<!-- gallery:start -->` markers.
+
+**Rules being followed:**
+- A picture goes **inside** the text, at a turn in it — a change of scene, subject or
+  argument — never as a cover at the top. One image for a short text, two for 8–20 paragraphs,
+  three for the long dialogue pages.
+- It has to **say something about the passage**. The most beautiful painting in the gallery is
+  the wrong one if the text is about something else.
+- **Only work old enough to be out of copyright.** The gallery also holds living and recent
+  artists (Terpning, Rutkowski, Gurney, Künstler, Cuneo, Stobart, Maggiori, the Stuart Brown
+  military set, the LOTR and game illustration) — none of that may be published.
+- Every image gets an `alt` that describes the picture, and a caption in the form
+  `*Title* — Artist, year.` (`build_reading_page.py` turns the asterisks into `<em>`; a year is
+  only printed when it is actually known, never guessed.)
+- **Verify before committing a choice.** A filename is not a picture: build a contact sheet
+  (`magick montage -label '%f' … -tile 4x -geometry 300x300+6+6`) of the candidates and look at
+  it. Several first choices were wrong — `peder-mork-monsted-going-to-market-1911` is a quiet
+  river, not a market.
+
+**Done so far: 45 images.** A1 (16, all 15 texts) and A2 (29, all 18 texts).
+
+**Still to do: B1 (35 texts), B2 (21), C1 (13), C2 (7).** The curation for B1 was worked out
+before the checkpoint and is not written down anywhere but here — redo it from the passages.
+One deliberate skip so far: `b1/cars-and-their-parts`, a parts list with no narrative and no
+matching period image.
+
+**The loop per batch:**
+```bash
+python3 scripts/show_passages.py b1/            # title, subtitle and each paragraph opening
+# choose images, check them on a contact sheet, write a plan JSON
+python3 scripts/import_local_artwork.py --plan plan-b1.json
+for f in content/readings/b1/*.json; do python3 scripts/build_reading_page.py b1/$(basename $f .json); done
+python3 scripts/build_image_credits.py && python3 scripts/check_site_integrity.py
+```
+
+### Milestone 12 — What is left after that
 
 1. **P-2, the geography balance** — travel is still the largest topic in B1.
 2. **Depth at C1 and C2** (14 and 7) against B1's 37.
-3. **Illustration**, page by page — `docs/image-credits.md`.
 
 ## Target architecture
 
@@ -584,10 +652,11 @@ Every action is finished: **KEEP** 15, **EDIT** 31, **REPLACE** 12, **MERGE** 15
 
 ### Smaller work outstanding
 
-- **Illustration.** 12 of 86 pages carry artwork. The rest are unillustrated — deliberately in
-  many cases, since a decorative picture on a phrasal-verb page only pushes the reading down the
-  screen. Worth revisiting page by page, not in bulk. `docs/image-credits.md` has the rights
-  position and `scripts/fetch_public_domain_image.py` refuses anything not public domain.
+- **Illustration.** Under way as Milestone 11: A1 and A2 are illustrated from the local gallery,
+  B1 upwards are not. Page by page, not in bulk — a decorative picture on a phrasal-verb page
+  only pushes the reading down the screen. `docs/image-credits.md` has the rights position,
+  `scripts/import_local_artwork.py` imports from the gallery and
+  `scripts/fetch_public_domain_image.py` refuses anything on Commons that is not public domain.
 
 ---
 

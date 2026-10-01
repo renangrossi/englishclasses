@@ -25,6 +25,22 @@
     "The next day is called Black Friday. The stores open early and everything is cheap, and some people go shopping at five in the morning. Other people stay at home and eat the same meal again, cold, which is better.",
     "Not every family is happy. Thanksgiving puts relatives in one room for six hours, and not all of them agree about everything. But most people go. It is that kind of day."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "A cut wheat field stretching to the horizon under a wide sky, with two small figures standing in it",
+      "source": "vladimir-orlovsky-harvest-in-the-ukraine-1880.jpeg",
+      "caption": "*Harvest* — Vladimir Orlovsky, 1880."
+    },
+    {
+      "src": "02.jpg",
+      "after": 3,
+      "alt": "A long table in a panelled hall, a roast being carried in and the whole company turning towards it",
+      "source": "frank-moss-bennett-the-roast-beef-of-old-england.jpeg",
+      "caption": "*The Roast Beef of Old England* — Frank Moss Bennett."
+    }
+  ],
   "vocabulary": [
     {
       "term": "holiday",

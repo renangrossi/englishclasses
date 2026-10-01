@@ -1,0 +1,291 @@
+{
+  "id": "a1-reading-numbers-and-time",
+  "level": "A1",
+  "slug": "numbers-and-time",
+  "topic": "everyday",
+  "title": "Five in the Morning",
+  "subtitle": "Emma starts work before the city wakes up. This is her day, hour by hour.",
+  "description": "An A1 reading and listening text about times of day and the 12-hour clock, told through one woman's working day in Chicago.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:03"
+  },
+  "passage": [
+    "I start work early. The coffee shop opens at six in the morning, so I get up at five.",
+    "I don't like five o'clock. But I get up, I take a shower, and I make coffee at home. Jack is still in bed. He works from home, and he starts at nine.",
+    "I leave the apartment at half past five. The bus comes at 5:40 and takes twenty minutes.",
+    "The first hour is quiet. Then, at seven, the shop is busy. Everybody wants coffee before work, and from seven to ten I don't stop.",
+    "I have lunch at half past twelve, but only for thirty minutes. I finish at two in the afternoon and I am home at three.",
+    "Jack finishes at six. We have dinner together at seven, and I go to bed at ten. Tomorrow I get up at five again."
+  ],
+  "vocabulary": [
+    {
+      "term": "early",
+      "definition": "before the usual time"
+    },
+    {
+      "term": "to get up",
+      "definition": "to leave your bed in the morning",
+      "match": "get up"
+    },
+    {
+      "term": "to take a shower",
+      "definition": "to wash your body under water",
+      "match": "take a shower"
+    },
+    {
+      "term": "still",
+      "definition": "continuing now; not finished"
+    },
+    {
+      "term": "to leave",
+      "definition": "to go away from a place",
+      "match": "leave"
+    },
+    {
+      "term": "half past",
+      "definition": "thirty minutes after the hour"
+    },
+    {
+      "term": "to take",
+      "definition": "to need an amount of time",
+      "match": "takes"
+    },
+    {
+      "term": "quiet",
+      "definition": "with little noise"
+    },
+    {
+      "term": "busy",
+      "definition": "with a lot of work or a lot of people"
+    },
+    {
+      "term": "to finish",
+      "definition": "to end; to stop doing something",
+      "match": "finish"
+    },
+    {
+      "term": "together",
+      "definition": "with each other"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-time-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "t1",
+          "prompt": "Why does Emma get up at five?",
+          "options": [
+            "Because her work opens very early",
+            "Because she is not tired",
+            "Because the bus is late"
+          ],
+          "answerIndex": 0,
+          "explanation": "The coffee shop opens at six, so she has to get up at five."
+        },
+        {
+          "id": "t2",
+          "prompt": "What is Jack doing when Emma gets up?",
+          "options": [
+            "He is sleeping",
+            "He is making coffee",
+            "He is on the bus"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Jack is still in bed” — he is not up yet."
+        },
+        {
+          "id": "t3",
+          "prompt": "How does Emma go to work?",
+          "options": [
+            "By bus",
+            "By car",
+            "She walks"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The bus comes at 5:40.”"
+        },
+        {
+          "id": "t4",
+          "prompt": "When is the shop quiet?",
+          "options": [
+            "In the first hour, from six to seven",
+            "From seven to ten",
+            "At half past twelve"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The first hour is quiet. Then, at seven, the shop is busy.”"
+        },
+        {
+          "id": "t5",
+          "prompt": "How long is Emma's lunch?",
+          "options": [
+            "Half an hour",
+            "Two hours",
+            "Ten minutes"
+          ],
+          "answerIndex": 0,
+          "explanation": "“only for thirty minutes” — thirty minutes is half an hour."
+        },
+        {
+          "id": "t6",
+          "prompt": "Who finishes work later, Emma or Jack?",
+          "options": [
+            "Jack. He finishes at six and she finishes at two",
+            "Emma",
+            "They finish at the same time"
+          ],
+          "answerIndex": 0,
+          "explanation": "Emma finishes at two in the afternoon; Jack finishes at six."
+        }
+      ]
+    },
+    {
+      "id": "a1-time-fill",
+      "type": "fill-blank",
+      "title": "Times and Days",
+      "instructions": "Complete each sentence with one word.",
+      "items": [
+        {
+          "id": "tf1",
+          "prompt": "I ___ ___ at five o'clock every morning.",
+          "answers": [
+            "get",
+            "up"
+          ],
+          "options": [
+            [
+              "get",
+              "take",
+              "leave"
+            ],
+            [
+              "up",
+              "on",
+              "in"
+            ]
+          ],
+          "explanation": "To get up is to leave your bed."
+        },
+        {
+          "id": "tf2",
+          "prompt": "The shop is ___ from seven to ten. A lot of people come in.",
+          "answers": [
+            "busy"
+          ],
+          "options": [
+            "busy",
+            "quiet",
+            "early"
+          ],
+          "explanation": "Busy means with a lot of people or work."
+        },
+        {
+          "id": "tf3",
+          "prompt": "At six in the morning the street is ___. Nobody is there.",
+          "answers": [
+            "quiet"
+          ],
+          "options": [
+            "quiet",
+            "busy",
+            "late"
+          ],
+          "explanation": "Quiet means with little noise."
+        },
+        {
+          "id": "tf4",
+          "prompt": "It's 7:30. We say: ___ ___ seven.",
+          "answers": [
+            "half",
+            "past"
+          ],
+          "options": [
+            [
+              "half",
+              "ten",
+              "one"
+            ],
+            [
+              "past",
+              "to",
+              "at"
+            ]
+          ],
+          "explanation": "Half past seven is thirty minutes after seven."
+        },
+        {
+          "id": "tf5",
+          "prompt": "The bus ___ twenty minutes to the city.",
+          "answers": [
+            "takes"
+          ],
+          "options": [
+            "takes",
+            "gives",
+            "makes"
+          ],
+          "explanation": "We use take for an amount of time."
+        },
+        {
+          "id": "tf6",
+          "prompt": "It's nine o'clock and Jack is ___ in bed.",
+          "answers": [
+            "still"
+          ],
+          "options": [
+            "still",
+            "again",
+            "early"
+          ],
+          "explanation": "Still means it is continuing now."
+        }
+      ]
+    },
+    {
+      "id": "a1-time-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Is it true or false?",
+      "items": [
+        {
+          "id": "tt1",
+          "statement": "Emma gets up before Jack.",
+          "answer": true,
+          "explanation": "True. She gets up at five; he is still in bed."
+        },
+        {
+          "id": "tt2",
+          "statement": "Emma works in the afternoon and at night.",
+          "answer": false,
+          "explanation": "False. She finishes at two in the afternoon."
+        },
+        {
+          "id": "tt3",
+          "statement": "Jack goes to an office every day.",
+          "answer": false,
+          "explanation": "False. “He works from home.”"
+        },
+        {
+          "id": "tt4",
+          "statement": "Emma and Jack eat dinner at the same time.",
+          "answer": true,
+          "explanation": "True. “We have dinner together at seven.”"
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "What time do you get up?",
+    "What time do you start and finish work?",
+    "Is the morning quiet or busy where you live?",
+    "What do you do before you go to bed?"
+  ]
+}

@@ -14,7 +14,7 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | Conversion complete → the A1 and C2 gaps (open problem P-1) |
+| **Current phase** | A1 opened with six authored texts → grow A1, then C2 (P-1) |
 | **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
 
 ### What this project is *not*
@@ -169,18 +169,41 @@ Three verdicts were changed during this milestone, each recorded in the map entr
 The grammar drills were removed rather than converted, on the user's instruction that this area
 is for reading texts: the grammar system already lives in `levels/` + `curriculum/` (D-2).
 
-### Milestone 6 — A1 and C2 (NOT STARTED)
+### Milestone 6 — A1 ✅ (C2 still open)
+- **Date:** 2026-09-30 · **Pushed:** yes · **Merged:** yes
 
-**This is authoring, not conversion.** Nothing remains in `cefr/texts/` to convert.
+Six authored A1 readings, `provenance: "new"` — the first material on the site that was not
+converted from a source document. They are built as one small curriculum rather than six
+separate texts: the same cast (Emma, her husband Jack, her family in Ohio, the new neighbor
+Sam) runs through all six, and each text deliberately recycles vocabulary from the ones before
+it, so a beginner meets *get up*, *leave*, *still*, *busy*, *quiet*, *tired* and *together*
+several times in different situations. One pinned voice (`audio.voice`) across all six, since
+they share a narrator.
 
-1. **A1 has no material at all.** Its single source was a review drill and was deleted with the
-   others, so the level is absent from the hub entirely. Everything here must be written new,
-   labelled `provenance: "new"` (requirement 6).
-2. **C2 has never had any**, as the original audit found.
-3. Both should follow the editorial rules, in particular rule 8 — at A1 especially, do not spend
-   highlights on words a Portuguese speaker reads for free.
+Editorial rules applied on top of the existing ones:
 
-**Next exact actions:** see [NEXT SESSION](#next-session).
+- **Frequency first.** Prefer the commoner word unless the topic needs the rarer one.
+- **No cognate highlights** (rule 8), which bites hardest at A1: *apartment*, *coffee*, *park*,
+  *restaurant*, *minute* are left plain. The highlights go to non-cognates (*tired*, *shelf*,
+  *stove*, *store*, *nurse*, *upstairs*) and to fixed expressions (*Here you go*, *It's on me*,
+  *that's all*, *Anything else?*, *my turn*, *that's okay*).
+- **One real false friend**, taught deliberately: *parents* ≠ *parentes*. Its definition says so.
+- **Americanisms where a student will actually meet them**: *server*, *the check*, *fries*,
+  and the tip left on the table.
+- **Exercise language is also A1.** Questions reword the passage instead of letting a student
+  match a string: "What is Emma's job?" with "She makes and sells coffee", not "Where does she
+  work?" with "coffee shop".
+
+Texts run 120–152 words and 1:03–1:14 at the A1 rate of -15% (105–142 wpm, against ~158 at B2).
+
+### Milestone 7 — Grow A1, then C2 (NOT STARTED)
+
+1. **More A1.** Six is an entry point, not a level. Natural next topics that reuse the same
+   cast: shopping and money, getting around the city, the weather, a weekend, at the doctor,
+   on the phone. Keep the recycling discipline — the point is spaced repetition, not coverage.
+2. **A small C2 set.** Only where a text genuinely needs that level: argument, register, irony,
+   implication. Four good ones beat twelve padded ones.
+3. **Illustration** remains page by page — see `docs/image-credits.md`.
 
 ## Target architecture
 
@@ -453,9 +476,10 @@ Every action is finished: **KEEP** 15, **EDIT** 31, **REPLACE** 12, **MERGE** 15
 
 ### Open problems
 
-- **P-1 — A1 and C2 gaps.** OPEN, and now the main one. A1 has **no** material at all (its one
-  source was a grammar drill and was deleted); C2 has never had any. Both need new authoring,
-  `provenance: "new"`. The library is 15 A2 / 37 B1 / 23 B2 / 11 C1.
+- **P-1 — A1 and C2 gaps.** PARTLY DONE. A1 now has a first authored collection of six texts
+  (see Milestone 7); the level is no longer empty. C2 still has nothing. The library is
+  6 A1 / 15 A2 / 37 B1 / 23 B2 / 11 C1. Six is a working entry point, not a full level — A2 has
+  fifteen — so A1 should grow before C2 is started.
 - **P-2 — Non-American concentration.** OPEN. Travel is still the largest topic at 17 of 86, and
   much of the library is set in Brazil, South Africa, Romania, Thailand, Italy, Japan, Austria
   and Egypt. The agreed resolution stands: keep the good international texts as a *Travel &

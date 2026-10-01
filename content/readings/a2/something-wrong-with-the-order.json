@@ -34,7 +34,16 @@
     "There is one more thing worth knowing. In the United States, servers are often paid very little and live on tips, and a problem in the kitchen is usually not their fault. Being pleasant costs you nothing and changes the whole exchange. If the service was good and only the food was wrong, the tip should not change.",
     "Two sentences will cover almost everything: “Sorry, I think there's been a mix-up” and “Could you check this for me?” Learn those two and you will never need the angry version."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A restaurant table with a tall glass of juice, a plate of fried food, bottles of sauce and a checked tablecloth",
+      "source": "commons:File:Dominican Restaurant (Unsplash).jpg",
+      "caption": "An order as it arrives. The conversation in this text starts about ten seconds after a photograph like this one.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "bill",

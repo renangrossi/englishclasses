@@ -169,7 +169,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-94 images the gallery could not answer -- flags, maps, photographs and
+103 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything that is not public domain.
 
@@ -189,11 +189,13 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `a2/boston-tea-party` | `01.jpg` | The Destruction of Tea at Boston Harbor | `File:Boston Tea Party Currier colored.jpg` |
 | `a2/california-gold-rush` | `01.jpg` | Miners washing gravel with a “long tom”, California, around 1850. | `File:California gold miners with long tom.jpg` |
 | `a2/california-gold-rush` | `02.jpg` | Yerba Buena Cove, San Francisco, 1849. The crews had walked off to the gold fields and left the ships where they lay. | `File:Ships-abandoned-in-Yerba-Buena-Cove-San-Francisco-during-the-California-gold-rush.-1849.jpg` |
+| `a2/coffee-brewing` | `01.jpg` | Pouring over the filter. Everything this text describes is in the picture: the grind, the water, the paper and the time it takes. | `File:Brewing coffee in a jug (Unsplash).jpg` |
 | `a2/declaration-of-independence` | `02.jpg` | The document itself, now in Washington, D.C. The large signature at the top left of the names is John Hancock's. | `File:United States Declaration of Independence.jpg` |
 | `a2/flying-to-the-us` | `01.jpg` | The first United Airlines service into Allentown, 1935. Flying was still something a town turned out to watch. | `File:1935 - United Airlines begins service to Allentown Airport.jpg` |
 | `a2/oregon-trail` | `02.jpg` | Emigrants Crossing the Plains | `File:Emigrants Crossing the Plains, or The Oregon Trail (Albert Bierstadt), 1869.jpg` |
 | `a2/sacagawea` | `01.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
 | `a2/saying-and-telling` | `01.jpg` | A Piggly Wiggly store | `File:Interior view of a Piggly Wiggly self-service grocery store showing check out counter with cash registers LCCN92520726.jpg` |
+| `a2/something-wrong-with-the-order` | `01.jpg` | An order as it arrives. The conversation in this text starts about ten seconds after a photograph like this one. | `File:Dominican Restaurant (Unsplash).jpg` |
 | `b1/a-day-in-the-office` | `01.jpg` | Interior with a Woman Standing | `File:Interior with a Woman Standing by Vilhelm Hammershøi, 1913.jpg` |
 | `b1/american-flag-symbols` | `01.jpg` | Join, or Die | `File:Benjamin Franklin - Join or Die.jpg` |
 | `b1/american-flag-symbols` | `02.jpg` | The Grand Union flag, or Continental Colors, used from late 1775. Thirteen colonies acting together | `File:Grand Union Flag.svg` |
@@ -206,6 +208,9 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b1/american-flag-symbols` | `09.jpg` | Fifty stars since 1960. Thirteen stripes, by the law of 1818, for the colonies that started it. | `File:Flag of the United States.svg` |
 | `b1/cachacas` | `01.jpg` | Harvesting the Sugar-Cane in Minas Gerais, Brazil | `File:Marianne North (1830-1890) - Harvesting the Sugar-Cane in Minas Geraes, Brazil - MN45 - Marianne North Gallery.jpg` |
 | `b1/cars-and-their-parts` | `01.jpg` | A 1920 Handley-Knight engine with the chain case off. Almost every part this text names is somewhere in this picture. | `File:Handley-Knight-Engine 1920.jpg` |
+| `b1/coffee-and-it` | `01.jpg` | A full room on an ordinary afternoon. This text is about the software that sits behind a place like this, which nobody in the picture is thinking about. | `File:Chatting in a coffee shop (Unsplash).jpg` |
+| `b1/common-chores` | `01.jpg` | Washing out on the lines behind a row of houses | `File:An elevated view of row houses probably in S.W., showing laundry hanging on clothesline in backyards LCCN2016647096.jpg` |
+| `b1/cybersecurity` | `01.jpg` | A cybersecurity operations floor | `File:Cybersecurity Operations at Port San Antonio.jpg` |
 | `b1/frederick-douglass` | `01.jpg` | Frederick Douglass in 1856. He sat for photographs constantly and deliberately: he was the most photographed American of the nineteenth century. | `File:Frederick Douglass ambrotype (1856).jpg` |
 | `b1/golden-gate-bridge-present-perfect` | `01.jpg` | The Golden Gate Bridge | `File:Golden Gate Bridge, HAER CA-31-4.jpg` |
 | `b1/hachiko` | `01.jpg` | Hachiko at Shibuya station, around 1933 | `File:Chuken Hachiko at Shibuya Station c1933.png` |
@@ -231,10 +236,13 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b2/it-and-jiu-jitsu` | `01.jpg` | A jujutsu lock, from *Japanese Physical Training*, 1904. The whole point of the technique is that force applied in the wrong direction does the work for you | `File:Japanese Physical Training illustration 16.jpg` |
 | `b2/it-interview` | `01.jpg` | “A worried applicant waiting to be interviewed” | `File:Los Angeles, California. Lockheed Employment. A worried applicant waiting to be interviewed - NARA - 532210.jpg` |
 | `b2/jackie-robinson` | `01.jpg` | Jackie Robinson, Brooklyn Dodgers, 1954 | `File:Jackie Robinson, Brooklyn Dodgers, 1954.jpg` |
+| `b2/phrasal-verbs-01-bed-and-breakfast` | `01.jpg` | A bed-making class, around 1937 | `File:Home Economics - bed making, c.1937 (22052712661).jpg` |
+| `b2/phrasal-verbs-02-trip-abroad` | `01.jpg` | Manhattan from the air, 1932 | `File:New York City, circa 1932.jpg` |
 | `b2/project-management-can-could-able-do-make` | `01.jpg` | Working through county land-use plans together | `File:Working on the county maps at the colored County Land Use Pl... (3110578334).jpg` |
 | `b2/recent-advancements-in-it` | `02.jpg` | ENIAC, around 1946 | `File:Classic shot of the ENIAC.jpg` |
 | `b2/reconstruction` | `01.jpg` | The First Vote | `File:"The first vote" by A.R. Waud Harper's Weekly 1867-11-16 Retrieved from the Library of Congress.jpg` |
 | `b2/reconstruction` | `02.jpg` | The first Black senator and representatives in Congress, printed in 1872. Within thirty years almost none of their voters were still on the rolls. | `File:First Colored Senator and Representatives.jpg` |
+| `b2/sales-strategy` | `01.jpg` | A shop assistant showing a customer a product, Selfridges, 1940 | `File:A shop assistant shows a customer a luminous flower in Selfridge's department store, London. These flowers were one of numerous blackout accessories available in 1940 to make pedestrians more visible on the dark street D73.jpg` |
 | `b2/trail-of-tears` | `01.jpg` | Sequoyah with his syllabary | `File:Henry Inman - Sequoyah - Google Art Project.jpg` |
 | `b2/trail-of-tears` | `02.jpg` | West of the Mississippi, as mapped in 1804. This is where removal sent sixteen thousand people, on foot, in winter. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
 | `c1/apollo-11` | `01.jpg` | Buzz Aldrin on the surface | `File:Aldrin Apollo 11.jpg` |
@@ -264,6 +272,7 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `c2/immigration-and-modern-america` | `02.jpg` | The Chinese Exclusion Act, 1882, in the enrolled original. The first federal law to bar a group of people from the United States by nationality, and it opens by reciting that their coming “endangers the good order of certain localities”. It was renewed repeatedly and not fully repealed until 1943. | `File:Chineseexclusionact.JPG` |
 | `c2/manifest-destiny` | `01.jpg` | American Progress | `File:American Progress (1872) by John Gast.jpg` |
 | `c2/reconstruction-revolution` | `01.jpg` | One of the data portraits W. E. B. Du Bois and his students prepared for the 1900 Paris Exposition. Industrial training, 2,252 students; the classical course, 98. The bar is folded because the page could not hold it. Thirty-five years before the book that was ignored, he was already answering the question with evidence. | `File:The Georgia Negro LCCN2013650436.jpg` |
+| `c2/saying-no-without-saying-no` | `01.jpg` | A Senate Armed Services Committee hearing | `File:US Navy 040408-N-2383B-070 Adm. Vern Clark, Chief of Naval Operations (CNO) answers questions by members of the Senate Armed Services Committee as he shares the witness table alongside the Honorable William H. Taft, Legal Advis.jpg` |
 | `c2/slavery-and-the-american-economy` | `01.jpg` | Auction broadside, New Orleans, 14 January 1860. Twenty-eight people by name, age and trade | `File:SlaveAuctionBroadside-1860-01-14.jpg` |
 | `c2/slavery-and-the-american-economy` | `02.jpg` | Cotton Merchants in New Orleans | `File:Edgar Degas - Cotton Merchants in New Orleans.jpg` |
 | `c2/the-american-dream` | `01.jpg` | Toward Los Angeles | `File:Toward Los Angeles, California LOC 3549663710.jpg` |

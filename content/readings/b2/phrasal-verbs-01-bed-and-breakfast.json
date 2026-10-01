@@ -28,6 +28,16 @@
     "“Nice work,” John said.",
     "“Thanks. Now let's shut down these computers and head out for a walk. We've earned it.”"
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A 1937 home economics class, students in white uniforms making up a bed in a demonstration room",
+      "source": "commons:File:Home Economics - bed making, c.1937 (22052712661).jpg",
+      "caption": "A bed-making class, around 1937 — State Records New South Wales. Not a bedroom at home, but every verb in this text's first paragraph is being done in it.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "to straighten out",

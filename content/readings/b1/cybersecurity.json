@@ -27,7 +27,16 @@
     "The fifth is backups, which are not about crime until suddenly they are. If a device is lost, broken or locked by ransomware, the only thing that matters is whether a copy of your files exists somewhere else. The rule people use is three copies, on two kinds of storage, with one somewhere other than your home.",
     "None of this makes anybody safe, which is not the standard to aim at. The standard is being harder work than the next person, because almost all of this is automated and automated attacks move on. Most of the damage in ordinary people's lives comes from a small number of very common mistakes, and five habits remove nearly all of them."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A cybersecurity operations room with several people at desks, each facing banks of monitors showing dashboards, maps and code",
+      "source": "commons:File:Cybersecurity Operations at Port San Antonio.jpg",
+      "caption": "A cybersecurity operations floor — Maj. Christopher Vasquez, US Air Force. Note what the work actually looks like: people watching screens and answering alerts, not anybody repelling an assault on a wall.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "to take over",

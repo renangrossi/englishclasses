@@ -29,7 +29,16 @@
     "That was the morning gone, and none of it was interesting, and he did not mind at all. The rest of it he could leave. He would vacuum up the living room and dust off the shelves at some point over the weekend, or he would not, and either way it would still be there on Monday. In the evening he would settle down in front of something undemanding, catch up on the emails he had been ignoring, and wind down early.",
     "If you fall behind on this kind of thing, it is not worth worrying about. You catch up when you have a free morning, and if somebody offers to help out, you take them up on it."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "An elevated view of the backyards of brick row houses, with washing hung out on lines between them",
+      "source": "commons:File:An elevated view of row houses probably in S.W., showing laundry hanging on clothesline in backyards LCCN2016647096.jpg",
+      "caption": "Washing out on the lines behind a row of houses — Library of Congress. Saturday, and the part of it nobody puts off any longer.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "to set in",

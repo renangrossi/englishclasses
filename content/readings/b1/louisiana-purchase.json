@@ -1,0 +1,341 @@
+{
+  "id": "b1-reading-louisiana-purchase",
+  "level": "B1",
+  "slug": "louisiana-purchase",
+  "order": 100,
+  "topic": "history",
+  "title": "The Louisiana Purchase",
+  "subtitle": "Jefferson sent two men to buy a city. They came home with a third of a continent.",
+  "description": "A B1 reading and listening text on the Louisiana Purchase of 1803: why France sold, what the United States actually bought, and the question the deal left open.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "In 1802 the United States had a practical problem. Farmers in the west sent their crops down the Mississippi River to the port of New Orleans, and from there ships carried everything to the east coast and to Europe. Without New Orleans, the whole western economy stopped.",
+    "The trouble was that New Orleans did not belong to the United States. Spain had controlled it for years and had allowed American boats to use it. Then Spain quietly gave the territory back to France, and France was now run by Napoleon Bonaparte.",
+    "President Thomas Jefferson sent two men to Paris with instructions to buy the city, or at least to buy the right to use the port. He authorised them to offer up to ten million dollars.",
+    "They arrived to find that the French government wanted to talk about something much larger. Napoleon's foreign minister asked what the United States would pay for the whole of Louisiana.",
+    "Louisiana, in 1803, did not mean the modern state. It meant a territory of more than two million square kilometres, stretching from the Gulf of Mexico up to today's Canadian border.",
+    "Napoleon had reasons to sell. His plan for an American empire had depended on the sugar island of Saint-Domingue, and the enslaved people there had risen against French rule and defeated three armies, one of them destroyed as much by yellow fever as by fighting. Another war with Britain was coming, and France needed money more than it needed a territory it could not defend.",
+    "The two Americans had no authority to buy a continent. They bought it anyway, for fifteen million dollars, and sent the news home. The price worked out at roughly three cents a hectare.",
+    "Jefferson then had a problem of his own making. He had spent his career arguing that the federal government could only do what the Constitution specifically allowed, and the Constitution said nothing about buying territory. He considered a constitutional amendment, decided there was no time, and sent the treaty to the Senate, which approved it.",
+    "The purchase doubled the size of the country at a stroke, and it is usually described as the best deal in American history. It is worth being precise about what was sold. France sold its claim to the territory. It did not sell the land in any practical sense, because the land was lived in — by the Osage, the Sioux, the Pawnee, the Mandan and many other nations, none of whom were consulted and most of whom had never seen a French official.",
+    "Everything that followed grew out of that distinction. The United States now claimed a west it had never seen, which is why Jefferson sent Lewis and Clark up the Missouri the following year, and why the next sixty years of American history are largely the story of what happened when the claim met the people already living on it."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "A wide river falling over rocks in open country, with figures small on the bank",
+      "source": "albert-bierstadt-the-falls-of-st-anthony-1887.jpg",
+      "caption": "*The Falls of St Anthony* — Albert Bierstadt, 1887. The upper Mississippi: everything grown in the west travelled on this water."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "An 1804 engraved map of the Louisiana territory, with rivers drawn in detail near the Mississippi and large empty spaces further west",
+      "source": "commons:File:Map of \"Louisiana\" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg",
+      "caption": "Louisiana, mapped by Samuel Lewis in 1804. Notice how much of it is blank: this is the map the United States had just bought.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a crop",
+      "definition": "a plant grown in large amounts for food or sale"
+    },
+    {
+      "term": "a territory",
+      "definition": "a large area of land, especially one belonging to a government"
+    },
+    {
+      "term": "to authorise",
+      "definition": "to give somebody official permission to do something"
+    },
+    {
+      "term": "a foreign minister",
+      "definition": "the member of a government responsible for relations with other countries"
+    },
+    {
+      "term": "an empire",
+      "definition": "a group of countries or territories ruled by one state"
+    },
+    {
+      "term": "a treaty",
+      "definition": "a formal written agreement between countries"
+    },
+    {
+      "term": "the Senate",
+      "definition": "the upper house of the United States Congress"
+    },
+    {
+      "term": "an amendment",
+      "definition": "a formal change to a law or a constitution"
+    },
+    {
+      "term": "a claim",
+      "definition": "a statement that something belongs to you"
+    },
+    {
+      "term": "to consult",
+      "definition": "to ask somebody for their opinion before deciding"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-lp-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "lp-c1",
+          "prompt": "Why did the United States need New Orleans?",
+          "options": [
+            "It was the largest American city",
+            "Western farmers sent their crops through its port",
+            "The president had a house there"
+          ],
+          "answerIndex": 1,
+          "explanation": "Everything grown in the west went down the Mississippi and out through New Orleans."
+        },
+        {
+          "id": "lp-c2",
+          "prompt": "What were Jefferson's two men sent to Paris to do?",
+          "options": [
+            "Buy the whole of Louisiana",
+            "Buy New Orleans or the right to use the port",
+            "Declare war on France"
+          ],
+          "answerIndex": 1,
+          "explanation": "They were authorised to offer up to ten million dollars for the city or the use of the port."
+        },
+        {
+          "id": "lp-c3",
+          "prompt": "Why was Napoleon willing to sell?",
+          "options": [
+            "He had lost Saint-Domingue and needed money for a coming war",
+            "He did not like the territory",
+            "The United States threatened him"
+          ],
+          "answerIndex": 0,
+          "explanation": "The empire plan depended on Saint-Domingue, which was lost; war with Britain was coming and France needed money."
+        },
+        {
+          "id": "lp-c4",
+          "prompt": "What was Jefferson's constitutional problem?",
+          "options": [
+            "The Senate could not approve treaties",
+            "He had argued the government could only do what the Constitution allowed, and it said nothing about buying land",
+            "He was not allowed to send anybody to Paris"
+          ],
+          "answerIndex": 1,
+          "explanation": "His own political principle got in the way. He considered an amendment, then decided there was no time."
+        },
+        {
+          "id": "lp-c5",
+          "prompt": "According to the text, what exactly did France sell?",
+          "options": [
+            "Its claim to the territory",
+            "The land and the people on it",
+            "Only the city of New Orleans"
+          ],
+          "answerIndex": 0,
+          "explanation": "France sold a claim. The land was lived in by many nations who were not consulted."
+        },
+        {
+          "id": "lp-c6",
+          "prompt": "Why did Jefferson send Lewis and Clark the following year?",
+          "options": [
+            "To fight the French",
+            "Because the United States now claimed land it had never seen",
+            "To build a city"
+          ],
+          "answerIndex": 1,
+          "explanation": "The purchase created the need for the expedition."
+        }
+      ]
+    },
+    {
+      "id": "b1-lp-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "lp-t1",
+          "statement": "The two American negotiators had permission to buy the whole territory.",
+          "answer": false,
+          "explanation": "False — they had no authority to buy a continent. They did it anyway and sent the news home."
+        },
+        {
+          "id": "lp-t2",
+          "statement": "Louisiana in 1803 meant the same area as the modern state of Louisiana.",
+          "answer": false,
+          "explanation": "False — it was more than two million square kilometres, from the Gulf of Mexico to today's Canadian border."
+        },
+        {
+          "id": "lp-t3",
+          "statement": "The purchase doubled the size of the United States.",
+          "answer": true,
+          "explanation": "True — at a stroke."
+        },
+        {
+          "id": "lp-t4",
+          "statement": "The Native nations living in the territory agreed to the sale.",
+          "answer": false,
+          "explanation": "False — none of them were consulted, and most had never seen a French official."
+        },
+        {
+          "id": "lp-t5",
+          "statement": "The Senate approved the treaty.",
+          "answer": true,
+          "explanation": "True — Jefferson sent it to the Senate and the Senate approved it."
+        }
+      ]
+    },
+    {
+      "id": "b1-lp-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "lp-v1",
+          "prompt": "A formal written agreement between countries is a ___.",
+          "options": [
+            "treaty",
+            "trial",
+            "trade"
+          ],
+          "answerIndex": 0,
+          "explanation": "A treaty. The Senate approves treaties in the American system."
+        },
+        {
+          "id": "lp-v2",
+          "prompt": "To give somebody official permission is to ___ them.",
+          "options": [
+            "authorise",
+            "announce",
+            "assume"
+          ],
+          "answerIndex": 0,
+          "explanation": "To authorise."
+        },
+        {
+          "id": "lp-v3",
+          "prompt": "A statement that something belongs to you is a ___.",
+          "options": [
+            "claim",
+            "clause",
+            "class"
+          ],
+          "answerIndex": 0,
+          "explanation": "A claim — the key word in the last part of this text."
+        },
+        {
+          "id": "lp-v4",
+          "prompt": "A formal change to a constitution is an ___.",
+          "options": [
+            "amendment",
+            "agreement",
+            "appointment"
+          ],
+          "answerIndex": 0,
+          "explanation": "An amendment. Jefferson considered one and ran out of time."
+        },
+        {
+          "id": "lp-v5",
+          "prompt": "To ask somebody's opinion before deciding is to ___ them.",
+          "options": [
+            "consult",
+            "consider",
+            "control"
+          ],
+          "answerIndex": 0,
+          "explanation": "To consult. Nobody consulted the nations living in Louisiana."
+        }
+      ]
+    },
+    {
+      "id": "b1-lp-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "lp-b1",
+          "prompt": "In 1803 the United States bought Louisiana for ___ million dollars.",
+          "answers": [
+            "fifteen"
+          ],
+          "options": [
+            "fifteen",
+            "ten",
+            "fifty"
+          ],
+          "explanation": "Fifteen million. Jefferson had authorised up to ten million for a city."
+        },
+        {
+          "id": "lp-b2",
+          "prompt": "The port that mattered most was ___.",
+          "answers": [
+            "New Orleans"
+          ],
+          "options": [
+            "New Orleans",
+            "New York",
+            "Boston"
+          ],
+          "explanation": "New Orleans, at the mouth of the Mississippi."
+        },
+        {
+          "id": "lp-b3",
+          "prompt": "France was led at the time by ___.",
+          "answers": [
+            "Napoleon"
+          ],
+          "options": [
+            "Napoleon",
+            "Jefferson",
+            "George III"
+          ],
+          "explanation": "Napoleon Bonaparte."
+        },
+        {
+          "id": "lp-b4",
+          "prompt": "The purchase ___ the size of the country.",
+          "answers": [
+            "doubled"
+          ],
+          "options": [
+            "doubled",
+            "halved",
+            "divided"
+          ],
+          "explanation": "It doubled it."
+        },
+        {
+          "id": "lp-b5",
+          "prompt": "France sold its ___ to the territory, not the land itself.",
+          "answers": [
+            "claim"
+          ],
+          "options": [
+            "claim",
+            "crop",
+            "crown"
+          ],
+          "explanation": "Its claim."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The negotiators went far beyond their instructions. Was that the right thing to do?",
+    "Jefferson believed in a small, limited government and then made the biggest land purchase in the country's history. Can you think of a modern leader who had to act against their own principles?",
+    "How would you explain the difference between selling a claim to land and selling land that people are living on?"
+  ],
+  "audio": {
+    "duration_label": "3:04"
+  }
+}

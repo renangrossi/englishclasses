@@ -1,0 +1,340 @@
+{
+  "id": "a2-reading-california-gold-rush",
+  "level": "A2",
+  "slug": "california-gold-rush",
+  "order": 104,
+  "topic": "history",
+  "title": "The California Gold Rush",
+  "subtitle": "One man at a river in January 1848, and three hundred thousand people behind him.",
+  "description": "An A2 reading and listening text on the California Gold Rush: the discovery at Sutter's Mill, the journey west, life in the camps, and who lost.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "On 24 January 1848, a carpenter called James Marshall was working at a mill on a river in California. He looked down into the water and saw something shining.",
+    "It was gold. Marshall and his boss, John Sutter, tried to keep it secret. They could not. By the summer, men all over California had left their jobs to look for gold.",
+    "In December the president of the United States told Congress about the gold, and the news crossed the world. In 1849 about eighty thousand people arrived. People called them the forty-niners.",
+    "Getting there was the first problem. Some travelled five months across the continent in wagons. Others went by ship around South America, which took six months.",
+    "San Francisco changed almost overnight. In 1848 it was a small town of about a thousand people. Two years later, twenty-five thousand people lived there. Ships stood empty in the bay because the sailors had run away to the gold fields.",
+    "Life in the camps was hard. Men stood in cold water all day with a pan, washing stones and sand. Food was extremely expensive, and so were boots, shovels and eggs.",
+    "A few people became rich. Most did not. The people who made the most reliable money were the ones who sold things to the miners — food, tools, clothes and transport.",
+    "People came from everywhere: Mexico, Chile, China, Ireland, France, Australia. Many of them stayed, and that is one reason California is the state it is today.",
+    "But the gold rush was a catastrophe for the Native peoples of California. Miners took their land and their water, brought diseases, and killed thousands of them. The Native population fell by about eighty per cent in twenty years.",
+    "In 1850 California became a state. The easy gold was finished in a few years, and by then the real wealth of the place was the land, the farms and the ports."
+  ],
+  "images": [
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "San Francisco bay crowded with sailing ships left empty at anchor, the small town behind them",
+      "source": "commons:File:Ships-abandoned-in-Yerba-Buena-Cove-San-Francisco-during-the-California-gold-rush.-1849.jpg",
+      "caption": "Yerba Buena Cove, San Francisco, 1849. The crews had walked off to the gold fields and left the ships where they lay."
+    },
+    {
+      "src": "01.jpg",
+      "after": 5,
+      "alt": "An early photograph of miners standing in a stream with a long wooden washing box, water running through it",
+      "source": "commons:File:California gold miners with long tom.jpg",
+      "caption": "Miners washing gravel with a “long tom”, California, around 1850."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a carpenter",
+      "definition": "a person who makes things out of wood"
+    },
+    {
+      "term": "a mill",
+      "definition": "a building with machines, often next to a river"
+    },
+    {
+      "term": "to shine",
+      "definition": "to give out light, like the sun or gold in water"
+    },
+    {
+      "term": "a secret",
+      "definition": "something you do not tell other people"
+    },
+    {
+      "term": "a wagon",
+      "definition": "a vehicle with four wheels, pulled by animals"
+    },
+    {
+      "term": "a camp",
+      "definition": "a place where people live for a short time, often in tents"
+    },
+    {
+      "term": "a pan",
+      "definition": "a flat dish; miners used one to wash gold out of sand"
+    },
+    {
+      "term": "a miner",
+      "definition": "a person who digs for gold, coal or other things in the ground"
+    },
+    {
+      "term": "a disease",
+      "definition": "an illness"
+    },
+    {
+      "term": "wealth",
+      "definition": "a large amount of money or valuable things"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-gr-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "gr-c1",
+          "prompt": "Who found the gold?",
+          "options": [
+            "John Sutter",
+            "James Marshall, a carpenter",
+            "The president"
+          ],
+          "answerIndex": 1,
+          "explanation": "James Marshall, working at a mill on a river in January 1848."
+        },
+        {
+          "id": "gr-c2",
+          "prompt": "Why were people called forty-niners?",
+          "options": [
+            "They were forty-nine years old",
+            "They arrived in 1849",
+            "They worked forty-nine hours a week"
+          ],
+          "answerIndex": 1,
+          "explanation": "About eighty thousand people arrived in 1849."
+        },
+        {
+          "id": "gr-c3",
+          "prompt": "How long did the journey by ship around South America take?",
+          "options": [
+            "Six weeks",
+            "Six months",
+            "Six years"
+          ],
+          "answerIndex": 1,
+          "explanation": "About six months. Going across the continent took about five."
+        },
+        {
+          "id": "gr-c4",
+          "prompt": "What happened to San Francisco?",
+          "options": [
+            "It grew from about 1,000 to 25,000 people",
+            "It became empty",
+            "It did not change"
+          ],
+          "answerIndex": 0,
+          "explanation": "It grew from about a thousand people to twenty-five thousand in two years."
+        },
+        {
+          "id": "gr-c5",
+          "prompt": "Who made money most reliably?",
+          "options": [
+            "The miners",
+            "The people who sold things to the miners",
+            "The sailors"
+          ],
+          "answerIndex": 1,
+          "explanation": "The sellers: food, tools, clothes and transport."
+        },
+        {
+          "id": "gr-c6",
+          "prompt": "What happened to the Native peoples of California?",
+          "options": [
+            "Their population fell by about eighty per cent",
+            "They became rich",
+            "Nothing changed for them"
+          ],
+          "answerIndex": 0,
+          "explanation": "Their land and water were taken, disease spread, thousands were killed, and the population fell by about eighty per cent in twenty years."
+        }
+      ]
+    },
+    {
+      "id": "a2-gr-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "gr-t1",
+          "statement": "Marshall and Sutter kept the gold secret.",
+          "answer": false,
+          "explanation": "False — they tried, and they could not."
+        },
+        {
+          "id": "gr-t2",
+          "statement": "Only Americans came to California.",
+          "answer": false,
+          "explanation": "False — people came from Mexico, Chile, China, Ireland, France and Australia."
+        },
+        {
+          "id": "gr-t3",
+          "statement": "Most miners became rich.",
+          "answer": false,
+          "explanation": "False — a few did; most did not."
+        },
+        {
+          "id": "gr-t4",
+          "statement": "Ships stood empty because sailors left for the gold fields.",
+          "answer": true,
+          "explanation": "True — the crews ran away."
+        },
+        {
+          "id": "gr-t5",
+          "statement": "California became a state in 1850.",
+          "answer": true,
+          "explanation": "True — two years after the discovery."
+        }
+      ]
+    },
+    {
+      "id": "a2-gr-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "gr-v1",
+          "prompt": "A person who digs for gold is a ___.",
+          "options": [
+            "miner",
+            "mayor",
+            "minor"
+          ],
+          "answerIndex": 0,
+          "explanation": "A miner. Careful: minor means small or young."
+        },
+        {
+          "id": "gr-v2",
+          "prompt": "A vehicle with four wheels pulled by animals is a ___.",
+          "options": [
+            "wagon",
+            "wheel",
+            "wall"
+          ],
+          "answerIndex": 0,
+          "explanation": "A wagon."
+        },
+        {
+          "id": "gr-v3",
+          "prompt": "Something you do not tell other people is a ___.",
+          "options": [
+            "secret",
+            "section",
+            "second"
+          ],
+          "answerIndex": 0,
+          "explanation": "A secret."
+        },
+        {
+          "id": "gr-v4",
+          "prompt": "Another word for illness is ___.",
+          "options": [
+            "disease",
+            "decision",
+            "distance"
+          ],
+          "answerIndex": 0,
+          "explanation": "Disease."
+        },
+        {
+          "id": "gr-v5",
+          "prompt": "A large amount of money and valuable things is ___.",
+          "options": [
+            "wealth",
+            "weather",
+            "weight"
+          ],
+          "answerIndex": 0,
+          "explanation": "Wealth."
+        }
+      ]
+    },
+    {
+      "id": "a2-gr-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with one word in each gap.",
+      "items": [
+        {
+          "id": "gr-b1",
+          "prompt": "Gold was found in ___ in January 1848.",
+          "answers": [
+            "California"
+          ],
+          "options": [
+            "California",
+            "Alaska",
+            "Virginia"
+          ],
+          "explanation": "California."
+        },
+        {
+          "id": "gr-b2",
+          "prompt": "People who arrived in 1849 were called the ___.",
+          "answers": [
+            "forty-niners"
+          ],
+          "options": [
+            "forty-niners",
+            "pioneers",
+            "settlers"
+          ],
+          "explanation": "The forty-niners."
+        },
+        {
+          "id": "gr-b3",
+          "prompt": "Miners washed stones and sand in a ___.",
+          "answers": [
+            "pan"
+          ],
+          "options": [
+            "pan",
+            "pot",
+            "pipe"
+          ],
+          "explanation": "A pan."
+        },
+        {
+          "id": "gr-b4",
+          "prompt": "Food and tools in the camps were very ___.",
+          "answers": [
+            "expensive"
+          ],
+          "options": [
+            "expensive",
+            "cheap",
+            "heavy"
+          ],
+          "explanation": "Expensive — which is how the sellers made their money."
+        },
+        {
+          "id": "gr-b5",
+          "prompt": "The Native population of California fell by about eighty per ___.",
+          "answers": [
+            "cent"
+          ],
+          "options": [
+            "cent",
+            "year",
+            "day"
+          ],
+          "explanation": "Per cent, in twenty years."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Would you travel six months by ship for a chance to become rich? Why or why not?",
+    "The sellers made more money than the miners. Can you think of a modern example of the same thing?",
+    "The gold rush was good news for some people and a catastrophe for others. How should a country tell a story like that?"
+  ],
+  "audio": {
+    "duration_label": "2:03"
+  }
+}

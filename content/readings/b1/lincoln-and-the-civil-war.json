@@ -1,0 +1,295 @@
+{
+  "id": "b1-reading-lincoln-and-the-civil-war",
+  "level": "B1",
+  "slug": "lincoln-and-the-civil-war",
+  "order": 104,
+  "topic": "history",
+  "title": "Abraham Lincoln and the Civil War",
+  "subtitle": "He was elected without a single southern vote, and eleven states left before he reached the capital.",
+  "description": "A B1 reading and listening text on Lincoln and the Civil War: why the south left, how the war changed its purpose, and what the Gettysburg Address actually said.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "passage": [
+    "In the election of November 1860, Abraham Lincoln won without carrying a single southern state. In several of them his name had not even been printed on the ballot.",
+    "Lincoln was not promising to abolish slavery where it already existed. He was promising to stop it spreading into the new western territories. For the southern states that was enough, because a country that kept adding free states would eventually have the votes to end slavery everywhere.",
+    "Between December 1860 and the following spring, eleven states declared that they were leaving the United States and formed the Confederate States of America. Their own declarations give the reason in plain language: they say that slavery is the cause.",
+    "The war began in April 1861, when Confederate guns fired on Fort Sumter, a federal fort in the harbour of Charleston, South Carolina. Nobody was killed in the bombardment. The next four years killed something like 620,000 soldiers, and modern estimates go higher.",
+    "Both sides expected a short war. Civilians drove out from Washington with picnics to watch the first big battle, at Bull Run in July 1861, and then fled back to the city with the defeated army.",
+    "At the start Lincoln said the war was about the Union, not about slavery, because four slave states had stayed loyal and he could not afford to lose them. He wrote that if he could save the Union without freeing a single enslaved person, he would do it.",
+    "That changed in 1862. Enslaved people were already making the decision for him, walking into Union camps in their thousands. In September, after a hard battle at Antietam, Lincoln announced the Emancipation Proclamation, which took effect on 1 January 1863 and declared free the enslaved people in the states still in rebellion.",
+    "Its limits were real: it did not apply to the loyal slave states. Its effect was enormous anyway. It turned a war about the Union into a war about slavery, made European support for the Confederacy politically impossible, and opened the army to Black soldiers. About 180,000 of them served.",
+    "In November 1863 Lincoln spoke for about two minutes at the dedication of a cemetery at Gettysburg. The main speaker that day talked for two hours; almost nobody remembers a word of it. Lincoln's 272 words argued that the war was a test of whether a country founded on the idea of equality could survive at all.",
+    "The Confederate army surrendered at Appomattox on 9 April 1865. Five days later Lincoln was shot in a theatre in Washington. In December, the Thirteenth Amendment abolished slavery throughout the United States — the legal end of the thing the war had been fought over."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 3,
+      "alt": "A painting of massed infantry and artillery in action across open fields, with smoke lying over the lines",
+      "source": "commons:File:Thure de Thulstrup - Battle of Antietam.jpg",
+      "caption": "*The Battle of Antietam* — Thure de Thulstrup. The battle after which Lincoln announced the Emancipation Proclamation."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a ballot",
+      "definition": "the paper on which people record their vote"
+    },
+    {
+      "term": "to abolish",
+      "definition": "to end a law or system officially"
+    },
+    {
+      "term": "to secede",
+      "definition": "to formally leave a country or union"
+    },
+    {
+      "term": "the Confederacy",
+      "definition": "the eleven southern states that left the United States in 1860–61"
+    },
+    {
+      "term": "the Union",
+      "definition": "the United States, and in the war the northern side"
+    },
+    {
+      "term": "a bombardment",
+      "definition": "a continuous attack with guns or bombs"
+    },
+    {
+      "term": "a civilian",
+      "definition": "a person who is not in the army"
+    },
+    {
+      "term": "loyal",
+      "definition": "staying faithful to a country, person or cause"
+    },
+    {
+      "term": "emancipation",
+      "definition": "the act of setting people free"
+    },
+    {
+      "term": "to surrender",
+      "definition": "to stop fighting and accept defeat"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-lcw-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "lcw-c1",
+          "prompt": "What was Lincoln actually promising in 1860?",
+          "options": [
+            "To abolish slavery everywhere",
+            "To stop slavery spreading into the western territories",
+            "To leave slavery completely alone"
+          ],
+          "answerIndex": 1,
+          "explanation": "And the south understood what that would mean over time: more free states, and eventually the votes to end slavery everywhere."
+        },
+        {
+          "id": "lcw-c2",
+          "prompt": "How do we know why the southern states left?",
+          "options": [
+            "Historians guess",
+            "Their own declarations say slavery was the cause",
+            "Nobody knows"
+          ],
+          "answerIndex": 1,
+          "explanation": "The declarations of secession state it in plain language."
+        },
+        {
+          "id": "lcw-c3",
+          "prompt": "What happened at Fort Sumter in April 1861?",
+          "options": [
+            "Confederate guns fired on a federal fort and the war began",
+            "Lincoln was captured",
+            "The war ended"
+          ],
+          "answerIndex": 0,
+          "explanation": "Nobody was killed in the bombardment itself; the four years that followed killed about 620,000 soldiers."
+        },
+        {
+          "id": "lcw-c4",
+          "prompt": "Why did Lincoln say at first that the war was about the Union, not slavery?",
+          "options": [
+            "He supported slavery",
+            "Four slave states had stayed loyal and he could not afford to lose them",
+            "He had not thought about it"
+          ],
+          "answerIndex": 1,
+          "explanation": "A political calculation, which he put in writing."
+        },
+        {
+          "id": "lcw-c5",
+          "prompt": "What did the Emancipation Proclamation NOT do?",
+          "options": [
+            "Free people in the states in rebellion",
+            "Apply to the loyal slave states",
+            "Open the army to Black soldiers"
+          ],
+          "answerIndex": 1,
+          "explanation": "It did not apply to the loyal slave states. Its effect was still enormous."
+        },
+        {
+          "id": "lcw-c6",
+          "prompt": "How long did Lincoln speak at Gettysburg?",
+          "options": [
+            "Two hours",
+            "About two minutes",
+            "A whole afternoon"
+          ],
+          "answerIndex": 1,
+          "explanation": "272 words, about two minutes. The main speaker that day talked for two hours."
+        }
+      ]
+    },
+    {
+      "id": "b1-lcw-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "lcw-t1",
+          "statement": "Lincoln won southern states in the 1860 election.",
+          "answer": false,
+          "explanation": "False — he won without a single southern state, and in several his name was not on the ballot."
+        },
+        {
+          "id": "lcw-t2",
+          "statement": "Both sides expected a long war.",
+          "answer": false,
+          "explanation": "False — both expected a short one. Civilians went out with picnics to watch the first big battle."
+        },
+        {
+          "id": "lcw-t3",
+          "statement": "About 180,000 Black soldiers served in the Union army.",
+          "answer": true,
+          "explanation": "True — the Proclamation opened the army to them."
+        },
+        {
+          "id": "lcw-t4",
+          "statement": "The Confederate army surrendered in April 1865.",
+          "answer": true,
+          "explanation": "True — at Appomattox on 9 April. Lincoln was shot five days later."
+        },
+        {
+          "id": "lcw-t5",
+          "statement": "The Emancipation Proclamation ended slavery throughout the United States.",
+          "answer": false,
+          "explanation": "False — that was the Thirteenth Amendment in December 1865."
+        }
+      ]
+    },
+    {
+      "id": "b1-lcw-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "lcw-v1",
+          "prompt": "To formally leave a country or union is to ___.",
+          "options": [
+            "secede",
+            "succeed",
+            "settle"
+          ],
+          "answerIndex": 0,
+          "explanation": "To secede. The noun is secession."
+        },
+        {
+          "id": "lcw-v2",
+          "prompt": "A person who is not in the army is a ___.",
+          "options": [
+            "civilian",
+            "citizen",
+            "colonist"
+          ],
+          "answerIndex": 0,
+          "explanation": "A civilian."
+        },
+        {
+          "id": "lcw-v3",
+          "prompt": "To stop fighting and accept defeat is to ___.",
+          "options": [
+            "surrender",
+            "survive",
+            "supply"
+          ],
+          "answerIndex": 0,
+          "explanation": "To surrender."
+        },
+        {
+          "id": "lcw-v4",
+          "prompt": "The act of setting people free is ___.",
+          "options": [
+            "emancipation",
+            "evacuation",
+            "examination"
+          ],
+          "answerIndex": 0,
+          "explanation": "Emancipation."
+        },
+        {
+          "id": "lcw-v5",
+          "prompt": "The paper on which you record a vote is a ___.",
+          "options": [
+            "ballot",
+            "bullet",
+            "balance"
+          ],
+          "answerIndex": 0,
+          "explanation": "A ballot."
+        }
+      ]
+    },
+    {
+      "id": "b1-lcw-order",
+      "type": "matching",
+      "title": "Match the Date",
+      "instructions": "Match each date with what happened.",
+      "items": [
+        {
+          "id": "lcw-m1",
+          "pairs": [
+            {
+              "left": "November 1860",
+              "right": "Lincoln is elected without a southern state"
+            },
+            {
+              "left": "April 1861",
+              "right": "Confederate guns fire on Fort Sumter"
+            },
+            {
+              "left": "1 January 1863",
+              "right": "the Emancipation Proclamation takes effect"
+            },
+            {
+              "left": "November 1863",
+              "right": "the Gettysburg Address"
+            },
+            {
+              "left": "9 April 1865",
+              "right": "the Confederate army surrenders at Appomattox"
+            }
+          ],
+          "explanation": "Five dates carry the whole shape of the war: an election, a first shot, a change of purpose, a statement of what it was for, and a surrender."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Lincoln changed what the war was about in the middle of it. Was that leadership or politics — or both?",
+    "The Gettysburg Address is remembered and the two-hour speech is forgotten. What makes a short speech last?",
+    "Enslaved people walked into Union camps before any law freed them. How much of history is decided by people acting before the law catches up?"
+  ],
+  "audio": {
+    "duration_label": "2:59"
+  }
+}

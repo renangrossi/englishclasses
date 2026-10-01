@@ -1,0 +1,334 @@
+{
+  "id": "b1-reading-frederick-douglass",
+  "level": "B1",
+  "slug": "frederick-douglass",
+  "order": 103,
+  "topic": "history",
+  "title": "Frederick Douglass",
+  "subtitle": "His owner's wife taught him the alphabet. Her husband stopped the lessons, and explained exactly why.",
+  "description": "A B1 reading and listening text on Frederick Douglass: how he learned to read, how he escaped, and how he became the most famous speaker in nineteenth-century America.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "passage": [
+    "When Frederick Douglass was about eight years old, the wife of the family that owned him began teaching him his letters. Her husband found out and ordered her to stop. Teaching a slave to read, he said, would make him unfit to be a slave: he would become dissatisfied and unmanageable.",
+    "Douglass was listening. He wrote later that this was the first time anybody had explained the system to him, and that he understood from that moment what reading was worth.",
+    "He was born into slavery in Maryland around 1818 and never knew his exact birthday, which was normal: ages were not recorded for enslaved children. He was separated from his mother as a baby and saw her only a handful of times before she died.",
+    "After the lessons stopped he taught himself. He traded bread to poor white boys in the street in exchange for reading lessons. He copied letters from the markings on timber in a shipyard. At about twelve he bought a schoolbook of famous speeches with fifty cents he had saved, and read the arguments against slavery in it until he knew them.",
+    "At fifteen he was sent to a farmer with a reputation for breaking difficult young men. After months of beatings, Douglass fought back physically and won, and the beatings stopped. He always described that fight as the turning point of his life, the moment a slave became, in his own mind, a man.",
+    "He escaped in September 1838 and it took less than twenty-four hours. Dressed as a sailor, carrying identification papers borrowed from a free Black seaman, he took a train north, then a steamboat, then another train, and arrived in New York the next morning.",
+    "In the north he became a speaker for the anti-slavery movement, and he was so effective that audiences began to doubt he had ever been enslaved; he did not sound like their idea of a slave. His answer was to publish his life story in 1845, with real names and places in it.",
+    "That answer created a new problem. The book proved he was telling the truth, and it also told his legal owner exactly where he was. He sailed to Britain and Ireland, spoke to large audiences for two years, and British supporters raised the money to buy his freedom legally so that he could return.",
+    "Back in the United States he started his own newspaper, The North Star, with a line under the title: “Right is of no sex — Truth is of no color”. He argued for the vote for women as well as for Black Americans, and was the only Black man to speak at the women's rights convention at Seneca Falls in 1848.",
+    "During the Civil War he pressed Lincoln to let Black soldiers fight, and then to pay them the same as white soldiers. He met the president three times. He lived until 1895, long enough to see slavery abolished and long enough to watch the country start taking the new rights back again — which is what most of his late speeches are about."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "An 1856 photographic portrait of Frederick Douglass as a young man, formally dressed, looking steadily at the camera",
+      "source": "commons:File:Frederick Douglass ambrotype (1856).jpg",
+      "caption": "Frederick Douglass in 1856. He sat for photographs constantly and deliberately: he was the most photographed American of the nineteenth century."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "unfit",
+      "definition": "not suitable or not able to do something"
+    },
+    {
+      "term": "dissatisfied",
+      "definition": "not happy with a situation"
+    },
+    {
+      "term": "to trade",
+      "definition": "to give one thing in exchange for another"
+    },
+    {
+      "term": "a shipyard",
+      "definition": "a place where ships are built and repaired"
+    },
+    {
+      "term": "a beating",
+      "definition": "a violent attack in which somebody is hit repeatedly"
+    },
+    {
+      "term": "a turning point",
+      "definition": "the moment when an important change begins"
+    },
+    {
+      "term": "identification papers",
+      "definition": "documents that show who a person is"
+    },
+    {
+      "term": "an audience",
+      "definition": "the people watching or listening to a speaker or performance"
+    },
+    {
+      "term": "a convention",
+      "definition": "a large meeting of people with a shared interest or cause"
+    },
+    {
+      "term": "to abolish",
+      "definition": "to end a law or system officially"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-fd-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "fd-c1",
+          "prompt": "Why did the husband stop the reading lessons?",
+          "options": [
+            "He thought Douglass was too young",
+            "He said reading would make him dissatisfied and unmanageable",
+            "He wanted to teach him himself"
+          ],
+          "answerIndex": 1,
+          "explanation": "And Douglass was listening — the explanation told him exactly what reading was worth."
+        },
+        {
+          "id": "fd-c2",
+          "prompt": "How did Douglass continue learning to read?",
+          "options": [
+            "He went to a school at night",
+            "He traded bread for lessons from boys in the street and copied letters in a shipyard",
+            "A teacher came to the farm"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bread for lessons, letters copied off timber, and a book of speeches bought with fifty cents."
+        },
+        {
+          "id": "fd-c3",
+          "prompt": "What did Douglass call the turning point of his life?",
+          "options": [
+            "The day he learned the alphabet",
+            "The fight with the farmer who beat him",
+            "His first speech"
+          ],
+          "answerIndex": 1,
+          "explanation": "After he fought back and won, the beatings stopped, and he said a slave became a man in his own mind."
+        },
+        {
+          "id": "fd-c4",
+          "prompt": "How did he escape in 1838?",
+          "options": [
+            "He walked for weeks",
+            "By train and steamboat, dressed as a sailor with borrowed papers",
+            "He hid on a ship to Britain"
+          ],
+          "answerIndex": 1,
+          "explanation": "It took less than twenty-four hours."
+        },
+        {
+          "id": "fd-c5",
+          "prompt": "Why did he publish his life story?",
+          "options": [
+            "To make money",
+            "Because audiences doubted he had ever been enslaved",
+            "Because Lincoln asked him to"
+          ],
+          "answerIndex": 1,
+          "explanation": "He did not sound like their idea of a slave, so he published names and places — which also told his owner where he was."
+        },
+        {
+          "id": "fd-c6",
+          "prompt": "What did he argue for besides the end of slavery?",
+          "options": [
+            "The vote for women",
+            "A new capital city",
+            "A return to Britain"
+          ],
+          "answerIndex": 0,
+          "explanation": "He spoke at Seneca Falls in 1848 and his newspaper's line was “Right is of no sex — Truth is of no color”."
+        }
+      ]
+    },
+    {
+      "id": "b1-fd-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "fd-t1",
+          "statement": "Douglass knew his exact date of birth.",
+          "answer": false,
+          "explanation": "False — ages were not recorded for enslaved children."
+        },
+        {
+          "id": "fd-t2",
+          "statement": "British supporters raised money to buy his freedom.",
+          "answer": true,
+          "explanation": "True — which is how he could return to the United States legally."
+        },
+        {
+          "id": "fd-t3",
+          "statement": "He never met Abraham Lincoln.",
+          "answer": false,
+          "explanation": "False — he met the president three times and pressed him on Black soldiers and equal pay."
+        },
+        {
+          "id": "fd-t4",
+          "statement": "His newspaper was called The North Star.",
+          "answer": true,
+          "explanation": "True — named after the star escaping people followed north."
+        },
+        {
+          "id": "fd-t5",
+          "statement": "He died before slavery was abolished.",
+          "answer": false,
+          "explanation": "False — he died in 1895, thirty years after abolition, and spent his last years arguing about rights being taken back."
+        }
+      ]
+    },
+    {
+      "id": "b1-fd-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "fd-v1",
+          "prompt": "To end a law or system officially is to ___ it.",
+          "options": [
+            "abolish",
+            "absorb",
+            "accuse"
+          ],
+          "answerIndex": 0,
+          "explanation": "To abolish. People who wanted to end slavery were called abolitionists."
+        },
+        {
+          "id": "fd-v2",
+          "prompt": "The moment when an important change begins is a ___.",
+          "options": [
+            "turning point",
+            "time limit",
+            "trade-off"
+          ],
+          "answerIndex": 0,
+          "explanation": "A turning point."
+        },
+        {
+          "id": "fd-v3",
+          "prompt": "The people listening to a speaker are the ___.",
+          "options": [
+            "audience",
+            "assembly",
+            "attendance"
+          ],
+          "answerIndex": 0,
+          "explanation": "The audience."
+        },
+        {
+          "id": "fd-v4",
+          "prompt": "A place where ships are built is a ___.",
+          "options": [
+            "shipyard",
+            "shipment",
+            "shelter"
+          ],
+          "answerIndex": 0,
+          "explanation": "A shipyard — where he copied letters from marks on timber."
+        },
+        {
+          "id": "fd-v5",
+          "prompt": "Somebody who is not happy with a situation is ___.",
+          "options": [
+            "dissatisfied",
+            "disqualified",
+            "disconnected"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dissatisfied — the word in the owner's warning."
+        }
+      ]
+    },
+    {
+      "id": "b1-fd-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "fd-b1",
+          "prompt": "Douglass was born into ___ in Maryland around 1818.",
+          "answers": [
+            "slavery"
+          ],
+          "options": [
+            "slavery",
+            "poverty",
+            "freedom"
+          ],
+          "explanation": "Slavery."
+        },
+        {
+          "id": "fd-b2",
+          "prompt": "He traded ___ with poor boys in exchange for reading lessons.",
+          "answers": [
+            "bread"
+          ],
+          "options": [
+            "bread",
+            "books",
+            "money"
+          ],
+          "explanation": "Bread."
+        },
+        {
+          "id": "fd-b3",
+          "prompt": "He escaped dressed as a ___.",
+          "answers": [
+            "sailor"
+          ],
+          "options": [
+            "sailor",
+            "soldier",
+            "servant"
+          ],
+          "explanation": "A sailor, with papers borrowed from a free Black seaman."
+        },
+        {
+          "id": "fd-b4",
+          "prompt": "He published his life ___ in 1845.",
+          "answers": [
+            "story"
+          ],
+          "options": [
+            "story",
+            "song",
+            "speech"
+          ],
+          "explanation": "His life story, with real names and places."
+        },
+        {
+          "id": "fd-b5",
+          "prompt": "He pressed Lincoln to let Black ___ fight and to pay them equally.",
+          "answers": [
+            "soldiers"
+          ],
+          "options": [
+            "soldiers",
+            "students",
+            "sailors"
+          ],
+          "explanation": "Soldiers."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The owner said that reading would make an enslaved person “unmanageable”. What did he understand about education?",
+    "Douglass published his real name and address to prove he was telling the truth, and put himself in danger by doing it. Was that worth the risk?",
+    "He argued for the rights of women as well as his own. Why do you think he connected the two?"
+  ],
+  "audio": {
+    "duration_label": "3:13"
+  }
+}

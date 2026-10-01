@@ -22,13 +22,15 @@ END = "<!-- gallery:end -->"
 
 
 def main():
-    rows = []
+    rows, commons = [], []
     for level, slug, d in rc.all_sources():
         for img in (d.get("images") or []):
-            if not img.get("source"):
+            src = img.get("source")
+            if not src:
                 continue
-            rows.append((f"`{level}/{slug}`", img["src"], img["source"],
-                         (img.get("caption") or "").split(" — ")[0].strip("*")))
+            row = (f"`{level}/{slug}`", img["src"], src,
+                   (img.get("caption") or "").split(" — ")[0].strip("*"))
+            (commons if src.startswith("commons:") else rows).append(row)
     body = [START,
             "",
             f"{len(rows)} images, imported with `scripts/import_local_artwork.py` from the local",
@@ -39,6 +41,17 @@ def main():
             "|---|---|---|---|"]
     for page, src, source, work in sorted(rows):
         body.append(f"| {page} | `{src}` | {work} | `{source}` |")
+    body += ["",
+             "### From Wikimedia Commons (public domain)",
+             "",
+             f"{len(commons)} images the gallery could not answer -- flags, maps, photographs and",
+             "portraits of particular people. Fetched with `scripts/add_commons_image.py`, which",
+             "reads the Commons licence metadata and refuses anything that is not public domain.",
+             "",
+             "| Page | File | Work | Commons file |",
+             "|---|---|---|---|"]
+    for page, src, source, work in sorted(commons):
+        body.append(f"| {page} | `{src}` | {work} | `{source[8:]}` |")
     body += ["", END]
 
     text = DOC.read_text(encoding="utf-8")

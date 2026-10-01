@@ -1,0 +1,336 @@
+{
+  "id": "a2-reading-lewis-and-clark-west",
+  "level": "A2",
+  "slug": "lewis-and-clark-west",
+  "order": 102,
+  "topic": "history",
+  "title": "Lewis and Clark: Exploring the West",
+  "subtitle": "Two officers, forty men, one river, and a map with nothing on it.",
+  "description": "An A2 reading and listening text on the Lewis and Clark expedition of 1804–1806: why they went, what they found, and how they got home.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "In May 1804, a boat left St. Louis and started up the Missouri River. On the boat were about forty men, a dog, and orders from the president.",
+    "The year before, the United States had bought a huge piece of land from France. Nobody in the government knew exactly what was in it.",
+    "President Thomas Jefferson wanted answers. Was there a river across the continent? What plants and animals lived there? Who lived there?",
+    "He chose two officers: Meriwether Lewis, his own secretary, and William Clark, an old army friend of Lewis. They called the group the Corps of Discovery.",
+    "They travelled west all summer. In the autumn they stopped and built a small fort near a Mandan village in today's North Dakota, and they stayed there for the winter.",
+    "There they met a young Shoshone woman called Sacagawea. She joined the expedition in the spring with her husband and her new baby.",
+    "In the summer of 1805 they reached the Rocky Mountains. This was the bad news: there was no easy river across America. They had to cross the mountains with horses, and they almost starved.",
+    "In November 1805 they finally saw the Pacific Ocean. Clark wrote in his journal that the men were happy and extremely wet. They built another fort and waited for the winter to pass.",
+    "They arrived back in St. Louis in September 1806, after two years and about 13,000 kilometres. Most people had decided they were dead.",
+    "They brought back maps, notes on 178 plants and 122 animals, and a great deal of information about the nations who were already living there. Only one man died on the whole journey, probably of a problem with his appendix."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 4,
+      "alt": "A great herd of buffalo coming up from a river under a wide morning sky on the northern plains",
+      "source": "charles-marion-russell-when-the-land-belonged-to-god-1914.jpeg",
+      "caption": "*When the Land Belonged to God* — Charles M. Russell, 1914."
+    },
+    {
+      "src": "02.jpg",
+      "after": 6,
+      "alt": "A huge mountain wall above a valley with a waterfall, a camp of small figures on the flat ground below",
+      "source": "albert-bierstadt-the-rocky-mountains-landers-peak.jpg",
+      "caption": "*The Rocky Mountains, Lander's Peak* — Albert Bierstadt, 1863."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "an expedition",
+      "definition": "a long journey for a special purpose, such as exploring"
+    },
+    {
+      "term": "to explore",
+      "definition": "to travel somewhere to learn about it"
+    },
+    {
+      "term": "a continent",
+      "definition": "one of the large areas of land on earth, like Africa or Europe"
+    },
+    {
+      "term": "an officer",
+      "definition": "a person with an important position in the army"
+    },
+    {
+      "term": "a fort",
+      "definition": "a strong building where soldiers live and defend themselves"
+    },
+    {
+      "term": "to starve",
+      "definition": "to suffer or die because you have no food"
+    },
+    {
+      "term": "a journal",
+      "definition": "a book where you write what happens each day"
+    },
+    {
+      "term": "a nation",
+      "definition": "a people with its own land, language and government"
+    },
+    {
+      "term": "to reach",
+      "definition": "to arrive at a place"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-lc-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "lc-c1",
+          "prompt": "When did the expedition start?",
+          "options": [
+            "May 1804",
+            "November 1805",
+            "September 1806"
+          ],
+          "answerIndex": 0,
+          "explanation": "It left St. Louis in May 1804 and came back in September 1806."
+        },
+        {
+          "id": "lc-c2",
+          "prompt": "Why did Jefferson send the expedition?",
+          "options": [
+            "To start a war",
+            "To learn what was in the new land",
+            "To build a city"
+          ],
+          "answerIndex": 1,
+          "explanation": "The United States had bought a huge piece of land and nobody in the government knew what was in it."
+        },
+        {
+          "id": "lc-c3",
+          "prompt": "What did they hope to find?",
+          "options": [
+            "Gold",
+            "A river across the continent",
+            "A new ocean"
+          ],
+          "answerIndex": 1,
+          "explanation": "A river across the continent — and there was none. That was the bad news of 1805."
+        },
+        {
+          "id": "lc-c4",
+          "prompt": "Where did they spend the first winter?",
+          "options": [
+            "Near a Mandan village",
+            "On the Pacific coast",
+            "In St. Louis"
+          ],
+          "answerIndex": 0,
+          "explanation": "They built a fort near a Mandan village in today's North Dakota."
+        },
+        {
+          "id": "lc-c5",
+          "prompt": "When did they see the Pacific Ocean?",
+          "options": [
+            "In May 1804",
+            "In November 1805",
+            "They never saw it"
+          ],
+          "answerIndex": 1,
+          "explanation": "In November 1805, after crossing the mountains."
+        },
+        {
+          "id": "lc-c6",
+          "prompt": "How many men died on the journey?",
+          "options": [
+            "None",
+            "One",
+            "Twenty"
+          ],
+          "answerIndex": 1,
+          "explanation": "Only one, probably of a problem with his appendix."
+        }
+      ]
+    },
+    {
+      "id": "a2-lc-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "lc-t1",
+          "statement": "The land was empty when they arrived.",
+          "answer": false,
+          "explanation": "False — they brought back information about the nations who were already living there, and they stayed next to a Mandan village all winter."
+        },
+        {
+          "id": "lc-t2",
+          "statement": "Crossing the Rocky Mountains was easy.",
+          "answer": false,
+          "explanation": "False — they needed horses and they almost starved."
+        },
+        {
+          "id": "lc-t3",
+          "statement": "Sacagawea joined the expedition with her baby.",
+          "answer": true,
+          "explanation": "True — she joined in the spring with her husband and her new baby."
+        },
+        {
+          "id": "lc-t4",
+          "statement": "People at home thought the expedition was dead.",
+          "answer": true,
+          "explanation": "True — “most people had decided they were dead.”"
+        },
+        {
+          "id": "lc-t5",
+          "statement": "They came back with no information.",
+          "answer": false,
+          "explanation": "False — maps, 178 plants, 122 animals and much more."
+        }
+      ]
+    },
+    {
+      "id": "a2-lc-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "lc-v1",
+          "prompt": "A long journey to explore somewhere is an ___.",
+          "options": [
+            "expedition",
+            "exhibition",
+            "experiment"
+          ],
+          "answerIndex": 0,
+          "explanation": "An expedition."
+        },
+        {
+          "id": "lc-v2",
+          "prompt": "A book where you write what happens each day is a ___.",
+          "options": [
+            "journal",
+            "journey",
+            "jacket"
+          ],
+          "answerIndex": 0,
+          "explanation": "A journal. Clark's journals are still read today."
+        },
+        {
+          "id": "lc-v3",
+          "prompt": "To suffer because you have no food is to ___.",
+          "options": [
+            "starve",
+            "stare",
+            "store"
+          ],
+          "answerIndex": 0,
+          "explanation": "To starve."
+        },
+        {
+          "id": "lc-v4",
+          "prompt": "To arrive at a place is to ___ it.",
+          "options": [
+            "reach",
+            "ride",
+            "raise"
+          ],
+          "answerIndex": 0,
+          "explanation": "To reach. They reached the Rockies in 1805."
+        },
+        {
+          "id": "lc-v5",
+          "prompt": "A strong building where soldiers stay is a ___.",
+          "options": [
+            "fort",
+            "farm",
+            "field"
+          ],
+          "answerIndex": 0,
+          "explanation": "A fort. They built two of them on the journey."
+        }
+      ]
+    },
+    {
+      "id": "a2-lc-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with one word in each gap.",
+      "items": [
+        {
+          "id": "lc-b1",
+          "prompt": "The expedition went up the ___ River.",
+          "answers": [
+            "Missouri"
+          ],
+          "options": [
+            "Missouri",
+            "Hudson",
+            "Thames"
+          ],
+          "explanation": "The Missouri."
+        },
+        {
+          "id": "lc-b2",
+          "prompt": "President ___ sent them.",
+          "answers": [
+            "Jefferson"
+          ],
+          "options": [
+            "Jefferson",
+            "Washington",
+            "Lincoln"
+          ],
+          "explanation": "Thomas Jefferson, who also wrote the Declaration of Independence."
+        },
+        {
+          "id": "lc-b3",
+          "prompt": "They crossed the Rocky ___ with horses.",
+          "answers": [
+            "Mountains"
+          ],
+          "options": [
+            "Mountains",
+            "Rivers",
+            "Islands"
+          ],
+          "explanation": "The Rocky Mountains."
+        },
+        {
+          "id": "lc-b4",
+          "prompt": "In November 1805 they saw the ___ Ocean.",
+          "answers": [
+            "Pacific"
+          ],
+          "options": [
+            "Pacific",
+            "Atlantic",
+            "Indian"
+          ],
+          "explanation": "The Pacific — the western ocean."
+        },
+        {
+          "id": "lc-b5",
+          "prompt": "They were away for about two ___.",
+          "answers": [
+            "years"
+          ],
+          "options": [
+            "years",
+            "months",
+            "weeks"
+          ],
+          "explanation": "Two years and four months."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Would you like to go on an expedition like this? What would be the hardest part for you?",
+    "The men wrote in journals every day. Do you ever write about your day?",
+    "What do you think the Mandan people thought when the boat arrived?"
+  ],
+  "audio": {
+    "duration_label": "2:05"
+  }
+}

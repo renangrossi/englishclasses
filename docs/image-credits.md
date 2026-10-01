@@ -55,13 +55,14 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-144 images, imported with `scripts/import_local_artwork.py` from the local
+152 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
 | Page | File | Work | Gallery source |
 |---|---|---|---|
 | `a1/at-the-store` | `01.jpg` | Venetian Fruit Sellers | `stefano-novo-venetian-fruit-sellers-1898.jpeg` |
+| `a1/george-washington` | `01.jpg` | Washington Crossing the Delaware | `emanuel-leutze-washington-crossing-the-delaware.jpg` |
 | `a1/going-to-the-airport` | `01.jpg` | London Bridge, Half Tide | `john-atkinson-grimshaw-london-bridge-half-tide.jpeg` |
 | `a1/greetings-and-names` | `01.jpg` | The Fan Shop | `utagawa-toyokuni-the-fan-shop-ca-1800.jpeg` |
 | `a1/i-dont-feel-good` | `01.jpg` | The Quack | `albert-anker-the-quack-1897.jpeg` |
@@ -83,6 +84,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `a2/bus-to-the-mountains` | `01.jpg` | Drovers on a Bridge in an Alpine Landscape | `carl-schweich-drovers-on-a-bridge-in-an-alpine-landscape-1854.jpeg` |
 | `a2/bus-to-the-mountains` | `02.jpg` | Mountain Landscape with River | `zankovsky-ilya-nikolaevich-mountain-landscape-with-river-3.jpg` |
 | `a2/coffee-brewing` | `01.jpg` | Le Verre de Vin | `leon-augustin-lhermitte-le-verre-de-vin.jpeg` |
+| `a2/declaration-of-independence` | `01.jpg` | Declaration of Independence | `john-trumbull-declaration-of-independence-1819.jpeg` |
 | `a2/dream-bistro` | `01.jpg` | A Market Scene in Naples | `vincenzo-caprile-a-market-scene-in-naples.jpeg` |
 | `a2/everyday-service-english` | `01.jpg` | The Principal Market in Münster | `cornelis-springer-1840-1891-the-principal-market-in-munster.jpeg` |
 | `a2/everyday-service-english` | `02.jpg` | Photographed at the Acropolis | `genthe-arnold-kanellos-dance-group-performing-at-acropolis-photographed-1929.jpeg` |
@@ -93,6 +95,9 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `a2/grocery-shopping` | `01.jpg` | Still Life: Three Salmon Steaks | `francisco-goya-still-life-three-salmon-steaks-painted-1746-1828.jpeg` |
 | `a2/hiking-in-the-mountains` | `01.jpg` | The Mountain Pass | `sidney-richard-percy-the-mountain-pass.jpg` |
 | `a2/hiking-in-the-mountains` | `02.jpg` | Landscape at the Lake of Lucerne | `robert-zund-landscape-at-lake-of-lucerne-1827-1909.jpg` |
+| `a2/lewis-and-clark-west` | `01.jpg` | When the Land Belonged to God | `charles-marion-russell-when-the-land-belonged-to-god-1914.jpeg` |
+| `a2/lewis-and-clark-west` | `02.jpg` | The Rocky Mountains, Lander's Peak | `albert-bierstadt-the-rocky-mountains-landers-peak.jpg` |
+| `a2/oregon-trail` | `01.jpg` | Evening on the Prairie | `albert-bierstadt-evening-on-the-prairie-1870.jpeg` |
 | `a2/restaurant-dialogue` | `01.jpg` | At the Inn | `alexandre-louis-leloir-at-the-inn-1868.jpeg` |
 | `a2/saying-and-telling` | `01.jpg` | New Acquaintance | `karl-lemoch-new-acquaintance.jpg` |
 | `a2/something-wrong-with-the-order` | `01.jpg` | It's Touch and Go to Laugh or No | `sophie-gengembre-anderson-its-touch-and-go-to-laugh-or-no-1857.jpeg` |
@@ -135,6 +140,8 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b1/investigation-story` | `02.jpg` | A Moonlit Night | `august-piepenhagen-a-moonlit-night.jpg` |
 | `b1/investigation-story` | `03.jpg` | Lost Honour | `eduard-schulz-briesen-lost-honour.jpeg` |
 | `b1/kitchen-chaos` | `01.jpg` | The Dinner at the Ball | `adolph-von-menzel-the-dinner-at-the-ball-1878.jpg` |
+| `b1/lewis-and-clark-unknown` | `01.jpg` | Among the Sierra Nevada Mountains | `albert-bierstadt-among-the-sierra-nevada-mountains-1868.jpg` |
+| `b1/louisiana-purchase` | `01.jpg` | The Falls of St Anthony | `albert-bierstadt-the-falls-of-st-anthony-1887.jpg` |
 | `b1/milan-restaurants` | `01.jpg` | Oregon Trail Campfire | `albert-bierstadt-oregon-trail-campfire-1863.jpeg` |
 | `b1/milan-restaurants` | `02.jpg` | Fishermen | `hans-gude-adolph-tidemand-fishermen-1851.jpeg` |
 | `b1/my-day-in-vienna-to-by-for` | `01.jpg` | St Stephen's Cathedral in Vienna | `rudolf-von-alt-st-stephens-cathedral-in-vienna-1832.jpg` |
@@ -156,6 +163,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b1/southeast-asia-adventure` | `02.jpg` | Evening on a Lake | `vasily-vereshchagin-evening-on-a-lake-a-pavilion-on-the-marble-embankment-in-rajnagar-udaipur-principality-1874.jpg` |
 | `b1/state-fair-food` | `01.jpg` | Village Fair by Night | `hendrik-gerrit-ten-cate-village-fair-by-night-1803-1856.jpeg` |
 | `b1/state-fair-food` | `02.jpg` | Fair in the Oude Beurs, Antwerp | `pierre-jean-van-der-ouderaa-fair-in-the-oude-beurs-in-antwerp-1892.jpeg` |
+| `b1/transcontinental-railroad` | `01.jpg` | The Last of the Buffalo | `albert-bierstadt-the-last-of-the-buffalo-1888.jpg` |
 | `b1/travel-dialogues-02` | `01.jpg` | A Scene of Everyday Life at the Nuremberg Town Hall | `heinrich-hansen-a-scene-of-everyday-life-at-the-nuremberg-town-hall.jpeg` |
 | `b1/usa-restaurants` | `01.jpg` | Muddy Alligators | `john-singer-sargent-muddy-alligators.jpeg` |
 | `b1/usa-restaurants` | `02.jpg` | Jamaica | `frederic-edwin-church-jamaica-1871.jpeg` |
@@ -205,5 +213,44 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `c2/the-same-news-four-ways` | `01.jpg` | A Girl Reading a Newspaper | `wada-eisaku-a-girl-reading-newspaper-1897.jpeg` |
 | `c2/the-second-language-self` | `01.jpg` | Flight and Pursuit | `william-rimmer-1816-1879-flight-and-pursuit.jpg` |
 | `c2/what-doesnt-translate` | `01.jpg` | The Song of Phemius and the Sorrow of Penelope | `thomas-ralph-spence-the-song-of-phemius-and-the-sorrow-of-penelope-1897.jpg` |
+
+### From Wikimedia Commons (public domain)
+
+30 images the gallery could not answer -- flags, maps, photographs and
+portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
+reads the Commons licence metadata and refuses anything that is not public domain.
+
+| Page | File | Work | Commons file |
+|---|---|---|---|
+| `a1/abraham-lincoln` | `01.jpg` | Abraham Lincoln, photographed by Alexander Gardner, 1863. | `File:Abraham Lincoln O-80 by Gardner, 1863.jpg` |
+| `a1/abraham-lincoln` | `02.jpg` | The Battle of Gettysburg | `File:Battle of Gettysburg, by Currier and Ives.png` |
+| `a1/george-washington` | `02.jpg` | George Washington* (the Athenaeum portrait) | `File:Gilbert Stuart - George Washington (The Athenaeum Portrait) - Google Art Project.jpg` |
+| `a1/statue-of-liberty` | `01.jpg` | Unveiling the Statue of Liberty | `File:EdwardMoran-UnveilingTheStatueofLiberty1886Large.jpg` |
+| `a1/statue-of-liberty` | `02.jpg` | Ellis Island, 1902. The island where ships from Europe stopped, a few hundred metres from the statue. | `File:Ellis island 1902.jpg` |
+| `a1/the-american-flag` | `01.jpg` | The flag of 1777: thirteen stripes and thirteen stars, one for each of the first states. | `File:Flag of the United States (1777-1795).svg` |
+| `a1/the-american-flag` | `02.jpg` | The flag today. Same thirteen stripes, fifty stars. | `File:Flag of the United States.svg` |
+| `a2/boston-tea-party` | `01.jpg` | The Destruction of Tea at Boston Harbor | `File:Boston Tea Party Currier colored.jpg` |
+| `a2/california-gold-rush` | `01.jpg` | Miners washing gravel with a “long tom”, California, around 1850. | `File:California gold miners with long tom.jpg` |
+| `a2/california-gold-rush` | `02.jpg` | Yerba Buena Cove, San Francisco, 1849. The crews had walked off to the gold fields and left the ships where they lay. | `File:Ships-abandoned-in-Yerba-Buena-Cove-San-Francisco-during-the-California-gold-rush.-1849.jpg` |
+| `a2/declaration-of-independence` | `02.jpg` | The document itself, now in Washington, D.C. The large signature at the top left of the names is John Hancock's. | `File:United States Declaration of Independence.jpg` |
+| `a2/oregon-trail` | `02.jpg` | Emigrants Crossing the Plains | `File:Emigrants Crossing the Plains, or The Oregon Trail (Albert Bierstadt), 1869.jpg` |
+| `a2/sacagawea` | `01.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
+| `b1/american-flag-symbols` | `01.jpg` | Join, or Die | `File:Benjamin Franklin - Join or Die.jpg` |
+| `b1/american-flag-symbols` | `02.jpg` | The Grand Union flag, or Continental Colors, used from late 1775. Thirteen colonies acting together | `File:Grand Union Flag.svg` |
+| `b1/american-flag-symbols` | `03.jpg` | One reading of the 1777 resolution: thirteen stars in rows. The resolution did not say how to arrange them, so flag-makers decided for themselves. | `File:Flag of the United States (1777-1795).svg` |
+| `b1/american-flag-symbols` | `04.jpg` | The circle of thirteen stars, known as the Betsy Ross flag. The design is of the period; the story that she sewed the first one is family tradition from 1870, not a contemporary record. | `File:Betsy Ross flag.svg` |
+| `b1/american-flag-symbols` | `05.jpg` | The Gadsden flag, 1775 | `File:Gadsden flag.svg` |
+| `b1/american-flag-symbols` | `06.jpg` | The Pine Tree flag, used by New England units and Washington's armed schooners in 1775, in an 1894 printed illustration. The motto is John Locke's phrase for what a people may do when no court will hear them. | `File:Pine Tree "An Appeal To Heaven" Flag Illustration from 1894.png` |
+| `b1/american-flag-symbols` | `07.jpg` | The Bennington design, photographed on a modern flag. It is traditionally tied to the battle of 1777, but the surviving historic flag is machine-woven and is now usually dated to the early nineteenth century. | `File:Bennington-Battle-Flag.jpg` |
+| `b1/american-flag-symbols` | `08.jpg` | Fifteen stars and fifteen stripes, 1795–1818. This is the flag over Fort McHenry in 1814, and the only American flag ever to have more than thirteen stripes. | `File:Flag of the United States (1795-1818).svg` |
+| `b1/american-flag-symbols` | `09.jpg` | Fifty stars since 1960. Thirteen stripes, by the law of 1818, for the colonies that started it. | `File:Flag of the United States.svg` |
+| `b1/frederick-douglass` | `01.jpg` | Frederick Douglass in 1856. He sat for photographs constantly and deliberately: he was the most photographed American of the nineteenth century. | `File:Frederick Douglass ambrotype (1856).jpg` |
+| `b1/harriet-tubman` | `01.jpg` | Harriet Tubman, photographed around 1868, about twenty years after her own escape. | `File:Harriet Tubman c1868-69.jpg` |
+| `b1/harriet-tubman` | `02.jpg` | The Underground Railroad | `File:The Underground Railroad by Charles T. Webber, 1893.jpg` |
+| `b1/lewis-and-clark-unknown` | `02.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
+| `b1/lincoln-and-the-civil-war` | `01.jpg` | The Battle of Antietam | `File:Thure de Thulstrup - Battle of Antietam.jpg` |
+| `b1/louisiana-purchase` | `02.jpg` | Louisiana, mapped by Samuel Lewis in 1804. Notice how much of it is blank: this is the map the United States had just bought. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
+| `b1/transcontinental-railroad` | `02.jpg` | Promontory Summit, Utah, 10 May 1869. No Chinese worker appears in the photograph of the line they largely built. | `File:East and West Shaking hands at the laying of last rail Union Pacific Railroad - Restoration.jpg` |
+| `b1/transcontinental-railroad` | `03.jpg` | Chinese workers on the Central Pacific in the Sierra Nevada. At the peak they were about four out of five of the company's workforce. | `File:Chinese railroad workers sierra nevada.jpg` |
 
 <!-- gallery:end -->

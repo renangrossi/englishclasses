@@ -1,0 +1,436 @@
+{
+  "id": "b1-reading-american-flag-symbols",
+  "level": "B1",
+  "slug": "american-flag-symbols",
+  "order": 106,
+  "topic": "history",
+  "title": "The American Flag: A History in Symbols",
+  "subtitle": "Before there was one flag, there were dozens — a cut-up snake, a pine tree, a rattlesnake and a line of stripes nobody could agree how to arrange.",
+  "description": "A B1 reading and listening text on the flags and symbols of the American Revolution: Join or Die, the Grand Union flag, the Betsy Ross story, the Gadsden and Pine Tree flags, the Bennington flag, and how the modern flag took shape.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "Before the United States had one national flag, American revolutionaries used a great many different symbols, and most of them were not flags at all.",
+    "The first famous one was a drawing in a newspaper. In May 1754, Benjamin Franklin printed a woodcut in the Pennsylvania Gazette: a snake cut into eight pieces, each piece labelled with a colony, under the words JOIN, OR DIE. It was a political cartoon, and its argument was not independence — Franklin wanted the colonies to cooperate in a war against France. Twenty years later the same image came back in colonial newspapers with a completely new meaning. It has been printed on flags many times since, but in the 1750s and 1770s it was a picture in a newspaper, not something anybody flew on a pole.",
+    "When fighting began, the colonies needed something to put on a ship. In late 1775 the Continental forces used what is now called the Grand Union flag, or the Continental Colors: thirteen red and white stripes with the British Union flag in the corner. Look at it for a moment and you can see the whole political position of 1775 in one object. The stripes say thirteen colonies acting together; the corner still says British. At that point most of the people flying it wanted their rights as British subjects, not a separate country.",
+    "Independence changed what the corner had to say. On 14 June 1777 the Continental Congress passed a short resolution: thirteen stripes, alternate red and white, and thirteen white stars on a blue field, “representing a new constellation”.",
+    "The resolution said nothing about how to arrange the stars. So flag-makers arranged them however they liked — in rows, in a circle, in a square, in the shape of a star. For years, two American flags could look very different and both be correct.",
+    "One arrangement, a circle of thirteen stars, is known as the Betsy Ross flag. Betsy Ross was a real person: an upholsterer in Philadelphia who certainly made flags for the Pennsylvania navy. The story that she sewed the first Stars and Stripes for George Washington comes from her grandson, who told it publicly in 1870, nearly a century after the event. No document from the 1770s supports it. Historians treat it as family tradition rather than established fact, which is not the same as calling it false — it is simply unproven.",
+    "Other flags of the period were made for particular units and particular arguments. In 1775 Christopher Gadsden of South Carolina gave the commander of the new Continental Navy a yellow flag with a coiled rattlesnake and the words DONT TREAD ON ME. The rattlesnake was already an American symbol — Franklin had joked in print that the colonies should send rattlesnakes to Britain in exchange for the convicts Britain sent them — and the warning is specific: this animal does not attack first, and it does not back away.",
+    "A different image carried a different idea. Several New England units and the small fleet of ships Washington fitted out in 1775 used a white flag with a green pine tree and the motto AN APPEAL TO HEAVEN. The pine tree was already the emblem of New England, and the phrase comes from the English philosopher John Locke: when there is no earthly judge left to appeal to, a people may appeal to heaven. On a ship's flag, that is a legal argument flying in the wind.",
+    "The Bennington flag is the one that teaches the most caution. It is a striking design — a large 76, stars with seven points, and the stripe arrangement reversed — and it is traditionally linked to the Battle of Bennington in 1777. The surviving flag, however, is made of machine-woven cloth and is now generally dated to the early nineteenth century, probably made for an anniversary. The design is genuinely old; the famous object is probably not as old as the story says.",
+    "After independence the flag kept changing with the country. In 1795, two new states brought fifteen stars and fifteen stripes — and that fifteen-stripe flag is the one Francis Scott Key watched over Fort McHenry in 1814 when he wrote the words that became the national anthem.",
+    "It quickly became obvious that adding a stripe for every state would not work. In 1818 Congress fixed the stripes at thirteen, for the original colonies, and ruled that a new star would be added for each new state on the fourth of July after it joined. That rule is still in force, and it is why the flag has changed twenty-seven times.",
+    "The last change was in 1960, when Hawaii brought the count to fifty. The design in use today was one of many submitted; the version usually credited is the work of a seventeen-year-old student from Ohio, Robert Heft, who made it for a school project.",
+    "Put the symbols in a line and you can read the argument developing. A cut snake asking colonies to cooperate. A flag with Britain still in the corner. A constellation with no fixed arrangement, because nobody had decided yet what the thing was. A rattlesnake warning. A pine tree appealing to heaven. Then one design, fixed by law, with a rule for adding states — which is a country deciding not only what it is, but how it intends to grow."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "wide": true,
+      "alt": "A woodcut of a snake cut into eight segments, each labelled with the initials of a colony, above the words JOIN, OR DIE",
+      "source": "commons:File:Benjamin Franklin - Join or Die.jpg",
+      "caption": "*Join, or Die* — Benjamin Franklin, Pennsylvania Gazette, 9 May 1754. A newspaper woodcut, not a flag: it was printed on a page, and its first argument was cooperation against France."
+    },
+    {
+      "src": "02.jpg",
+      "after": 2,
+      "wide": true,
+      "alt": "A flag of thirteen red and white stripes with the British Union flag in the upper corner",
+      "source": "commons:File:Grand Union Flag.svg",
+      "caption": "The Grand Union flag, or Continental Colors, used from late 1775. Thirteen colonies acting together — and Britain still in the corner."
+    },
+    {
+      "src": "03.jpg",
+      "after": 4,
+      "wide": true,
+      "alt": "An early United States flag with thirteen stripes and thirteen white stars arranged in rows on a blue field",
+      "source": "commons:File:Flag of the United States (1777-1795).svg",
+      "caption": "One reading of the 1777 resolution: thirteen stars in rows. The resolution did not say how to arrange them, so flag-makers decided for themselves."
+    },
+    {
+      "src": "04.jpg",
+      "after": 5,
+      "wide": true,
+      "alt": "A flag with thirteen stripes and thirteen white stars arranged in a circle on a blue field",
+      "source": "commons:File:Betsy Ross flag.svg",
+      "caption": "The circle of thirteen stars, known as the Betsy Ross flag. The design is of the period; the story that she sewed the first one is family tradition from 1870, not a contemporary record."
+    },
+    {
+      "src": "05.jpg",
+      "after": 6,
+      "wide": true,
+      "alt": "A yellow flag with a coiled rattlesnake above the words DONT TREAD ON ME",
+      "source": "commons:File:Gadsden flag.svg",
+      "caption": "The Gadsden flag, 1775 — a naval flag, not a national one. The rattlesnake strikes only if it is stepped on."
+    },
+    {
+      "src": "06.jpg",
+      "after": 7,
+      "wide": true,
+      "alt": "A black and white engraving of the Pine Tree flag: a flag on a pole with a pine tree at the hoist and the words AN APPEAL TO HEAVEN across it",
+      "source": "commons:File:Pine Tree \"An Appeal To Heaven\" Flag Illustration from 1894.png",
+      "caption": "The Pine Tree flag, used by New England units and Washington's armed schooners in 1775, in an 1894 printed illustration. The motto is John Locke's phrase for what a people may do when no court will hear them."
+    },
+    {
+      "src": "07.jpg",
+      "after": 8,
+      "wide": true,
+      "alt": "A flag flying from a pole with a large number 76 in the blue field, seven-pointed stars arranged in an arch above it, and white stripes at the outer edges",
+      "source": "commons:File:Bennington-Battle-Flag.jpg",
+      "caption": "The Bennington design, photographed on a modern flag. It is traditionally tied to the battle of 1777, but the surviving historic flag is machine-woven and is now usually dated to the early nineteenth century."
+    },
+    {
+      "src": "08.jpg",
+      "after": 9,
+      "wide": true,
+      "alt": "A flag with fifteen red and white stripes and fifteen white stars on a blue field",
+      "source": "commons:File:Flag of the United States (1795-1818).svg",
+      "caption": "Fifteen stars and fifteen stripes, 1795–1818. This is the flag over Fort McHenry in 1814, and the only American flag ever to have more than thirteen stripes."
+    },
+    {
+      "src": "09.jpg",
+      "after": 11,
+      "wide": true,
+      "alt": "The flag of the United States today: thirteen stripes and fifty white stars in alternating rows on a blue field",
+      "source": "commons:File:Flag of the United States.svg",
+      "caption": "Fifty stars since 1960. Thirteen stripes, by the law of 1818, for the colonies that started it."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a woodcut",
+      "definition": "a picture printed from a design cut into a block of wood"
+    },
+    {
+      "term": "a cartoon",
+      "definition": "a drawing in a newspaper that makes a political point"
+    },
+    {
+      "term": "to cooperate",
+      "definition": "to work together towards the same aim"
+    },
+    {
+      "term": "a resolution",
+      "definition": "a formal decision taken by a group such as a congress"
+    },
+    {
+      "term": "a constellation",
+      "definition": "a group of stars seen as a pattern in the sky"
+    },
+    {
+      "term": "an upholsterer",
+      "definition": "a person whose trade is covering furniture with fabric"
+    },
+    {
+      "term": "a motto",
+      "definition": "a short phrase that expresses the beliefs of a group"
+    },
+    {
+      "term": "an emblem",
+      "definition": "a design that represents a place, a group or an idea"
+    },
+    {
+      "term": "coiled",
+      "definition": "wound round in circles, as a snake is before it strikes"
+    },
+    {
+      "term": "an anthem",
+      "definition": "the official song of a country"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-afs-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "afs-c1",
+          "prompt": "What was “Join, or Die” when Franklin first printed it?",
+          "options": [
+            "A national flag",
+            "A woodcut in a newspaper",
+            "A naval signal"
+          ],
+          "answerIndex": 1,
+          "explanation": "A political cartoon in the Pennsylvania Gazette in 1754. It has been put on flags since, but it was not one."
+        },
+        {
+          "id": "afs-c2",
+          "prompt": "What was Franklin arguing for in 1754?",
+          "options": [
+            "Independence from Britain",
+            "Cooperation between the colonies in a war against France",
+            "A new flag"
+          ],
+          "answerIndex": 1,
+          "explanation": "The independence meaning was attached to the same image twenty years later."
+        },
+        {
+          "id": "afs-c3",
+          "prompt": "What does the Grand Union flag show about 1775?",
+          "options": [
+            "The colonies had already declared independence",
+            "The colonies were acting together but still claiming to be British",
+            "Britain had surrendered"
+          ],
+          "answerIndex": 1,
+          "explanation": "Thirteen stripes for the colonies, and the British flag still in the corner."
+        },
+        {
+          "id": "afs-c4",
+          "prompt": "What did the resolution of 14 June 1777 NOT say?",
+          "options": [
+            "How many stripes",
+            "How many stars",
+            "How the stars should be arranged"
+          ],
+          "answerIndex": 2,
+          "explanation": "It left the arrangement open, which is why period flags look so different from each other."
+        },
+        {
+          "id": "afs-c5",
+          "prompt": "What does the text say about the Betsy Ross story?",
+          "options": [
+            "It is proved by documents from the 1770s",
+            "It comes from her grandson in 1870 and is unproven",
+            "It is certainly false"
+          ],
+          "answerIndex": 1,
+          "explanation": "Unproven is not the same as false. She did make flags; the first-flag story has no contemporary record."
+        },
+        {
+          "id": "afs-c6",
+          "prompt": "Why did Congress fix the stripes at thirteen in 1818?",
+          "options": [
+            "Adding a stripe for every state did not work",
+            "Thirteen was a lucky number",
+            "The fifteen-stripe flag was illegal"
+          ],
+          "answerIndex": 0,
+          "explanation": "After fifteen stripes it was obvious the design would not survive more states. A star per state, thirteen stripes for the colonies."
+        }
+      ]
+    },
+    {
+      "id": "b1-afs-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "afs-t1",
+          "statement": "The Gadsden flag was a national flag of the United States.",
+          "answer": false,
+          "explanation": "False — it was given to the commander of the Continental Navy in 1775. It was a naval flag, not a national one."
+        },
+        {
+          "id": "afs-t2",
+          "statement": "The motto on the Pine Tree flag comes from the philosopher John Locke.",
+          "answer": true,
+          "explanation": "True — “an appeal to heaven” is Locke's phrase for what a people may do when no court will hear them."
+        },
+        {
+          "id": "afs-t3",
+          "statement": "The surviving Bennington flag is certainly from 1777.",
+          "answer": false,
+          "explanation": "False — it is machine-woven and now usually dated to the early nineteenth century."
+        },
+        {
+          "id": "afs-t4",
+          "statement": "The flag over Fort McHenry in 1814 had fifteen stripes.",
+          "answer": true,
+          "explanation": "True — fifteen stars and fifteen stripes, the only American flag with more than thirteen stripes."
+        },
+        {
+          "id": "afs-t5",
+          "statement": "The flag has changed twenty-seven times.",
+          "answer": true,
+          "explanation": "True — because of the 1818 rule adding a star for each new state."
+        }
+      ]
+    },
+    {
+      "id": "b1-afs-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "afs-v1",
+          "prompt": "A short phrase expressing a group's beliefs is a ___.",
+          "options": [
+            "motto",
+            "model",
+            "moment"
+          ],
+          "answerIndex": 0,
+          "explanation": "A motto, such as DONT TREAD ON ME."
+        },
+        {
+          "id": "afs-v2",
+          "prompt": "A design that represents a place or an idea is an ___.",
+          "options": [
+            "emblem",
+            "element",
+            "estimate"
+          ],
+          "answerIndex": 0,
+          "explanation": "An emblem. The pine tree was the emblem of New England."
+        },
+        {
+          "id": "afs-v3",
+          "prompt": "A group of stars seen as a pattern is a ___.",
+          "options": [
+            "constellation",
+            "conversation",
+            "contribution"
+          ],
+          "answerIndex": 0,
+          "explanation": "A constellation — the word used in the 1777 resolution."
+        },
+        {
+          "id": "afs-v4",
+          "prompt": "A formal decision taken by a congress is a ___.",
+          "options": [
+            "resolution",
+            "relation",
+            "reputation"
+          ],
+          "answerIndex": 0,
+          "explanation": "A resolution."
+        },
+        {
+          "id": "afs-v5",
+          "prompt": "A snake wound round in circles before it strikes is ___.",
+          "options": [
+            "coiled",
+            "cooled",
+            "called"
+          ],
+          "answerIndex": 0,
+          "explanation": "Coiled — as on the Gadsden flag."
+        }
+      ]
+    },
+    {
+      "id": "b1-afs-match",
+      "type": "matching",
+      "title": "Match the Symbol",
+      "instructions": "Match each symbol with what it was.",
+      "items": [
+        {
+          "id": "afs-m1",
+          "pairs": [
+            {
+              "left": "Join, or Die",
+              "right": "a newspaper cartoon from 1754"
+            },
+            {
+              "left": "The Grand Union flag",
+              "right": "stripes with the British flag still in the corner"
+            },
+            {
+              "left": "The Gadsden flag",
+              "right": "a rattlesnake on yellow, given to the navy in 1775"
+            },
+            {
+              "left": "The Pine Tree flag",
+              "right": "a New England emblem with a motto from John Locke"
+            },
+            {
+              "left": "The Bennington flag",
+              "right": "a design tied to 1777, on cloth probably woven later"
+            }
+          ],
+          "explanation": "Five objects, five different kinds of thing: a cartoon, a national ensign, a naval flag, a regional emblem and a disputed relic. They are not all “early American flags”."
+        }
+      ]
+    },
+    {
+      "id": "b1-afs-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "afs-b1",
+          "prompt": "The flag resolution was passed on 14 June ___.",
+          "answers": [
+            "1777"
+          ],
+          "options": [
+            "1777",
+            "1754",
+            "1818"
+          ],
+          "explanation": "1777. 1754 is Join or Die; 1818 is the law fixing thirteen stripes."
+        },
+        {
+          "id": "afs-b2",
+          "prompt": "Betsy Ross worked as an ___ in Philadelphia.",
+          "answers": [
+            "upholsterer"
+          ],
+          "options": [
+            "upholsterer",
+            "engineer",
+            "officer"
+          ],
+          "explanation": "An upholsterer, who also made flags for the Pennsylvania navy."
+        },
+        {
+          "id": "afs-b3",
+          "prompt": "The Gadsden flag shows a coiled ___.",
+          "answers": [
+            "rattlesnake"
+          ],
+          "options": [
+            "rattlesnake",
+            "eagle",
+            "pine tree"
+          ],
+          "explanation": "A rattlesnake, already an American symbol by 1775."
+        },
+        {
+          "id": "afs-b4",
+          "prompt": "In 1818 Congress fixed the number of stripes at ___.",
+          "answers": [
+            "thirteen"
+          ],
+          "options": [
+            "thirteen",
+            "fifteen",
+            "fifty"
+          ],
+          "explanation": "Thirteen, for the original colonies."
+        },
+        {
+          "id": "afs-b5",
+          "prompt": "The fiftieth star was added in ___.",
+          "answers": [
+            "1960"
+          ],
+          "options": [
+            "1960",
+            "1912",
+            "1869"
+          ],
+          "explanation": "1960, after Hawaii became a state."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Which of these symbols do you find the strongest, and why?",
+    "The Betsy Ross story survives even though there is no evidence for it. Why do countries keep stories like that?",
+    "Has the flag of your country changed? What was added or taken away, and what did the change mean?",
+    "The 1818 law added a rule for adding stars in the future. What does it say about a country that it designs its flag to change?"
+  ],
+  "audio": {
+    "duration_label": "5:58"
+  }
+}

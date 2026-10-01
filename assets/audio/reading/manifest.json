@@ -1,9 +1,21 @@
 {
+ "a1/abraham-lincoln": {
+  "bytes": 641376,
+  "fingerprint": "0996ba1c24ef069f",
+  "rate": "-15%",
+  "voice": "en-US-GuyNeural"
+ },
  "a1/at-the-store": {
   "bytes": 361296,
   "fingerprint": "275b6f312ef9b2d4",
   "rate": "-15%",
   "voice": "en-US-JennyNeural"
+ },
+ "a1/george-washington": {
+  "bytes": 657360,
+  "fingerprint": "258635b96ace3581",
+  "rate": "-15%",
+  "voice": "en-US-GuyNeural"
  },
  "a1/going-to-the-airport": {
   "bytes": 410544,
@@ -83,11 +95,23 @@
   "rate": "-15%",
   "voice": "en-US-JennyNeural"
  },
+ "a1/statue-of-liberty": {
+  "bytes": 638784,
+  "fingerprint": "f1fa4f2109e1fac9",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
  "a1/taking-the-train": {
   "bytes": 365760,
   "fingerprint": "92526dd160fce14a",
   "rate": "-15%",
   "voice": "en-US-JennyNeural"
+ },
+ "a1/the-american-flag": {
+  "bytes": 625968,
+  "fingerprint": "8a57a2af65958c94",
+  "rate": "-15%",
+  "voice": "en-US-ChristopherNeural"
  },
  "a2/a-weekend-at-the-lake": {
   "bytes": 670752,
@@ -101,17 +125,35 @@
   "rate": "-8%",
   "voice": "en-US-GuyNeural"
  },
+ "a2/boston-tea-party": {
+  "bytes": 727488,
+  "fingerprint": "8699d6a615382acd",
+  "rate": "-8%",
+  "voice": "en-US-AriaNeural"
+ },
  "a2/bus-to-the-mountains": {
   "bytes": 1122480,
   "fingerprint": "80a16cdb159c0257",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
+ "a2/california-gold-rush": {
+  "bytes": 741456,
+  "fingerprint": "e4e6a943ef1e81a5",
+  "rate": "-8%",
+  "voice": "en-US-EmmaNeural"
+ },
  "a2/coffee-brewing": {
   "bytes": 758160,
   "fingerprint": "f86c0069c8d9d13e",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
+ },
+ "a2/declaration-of-independence": {
+  "bytes": 684144,
+  "fingerprint": "d5bb398d3dfc04ce",
+  "rate": "-8%",
+  "voice": "en-US-BrianNeural"
  },
  "a2/dream-bistro": {
   "bytes": 895248,
@@ -149,11 +191,29 @@
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
+ "a2/lewis-and-clark-west": {
+  "bytes": 754848,
+  "fingerprint": "daae9989454d33c6",
+  "rate": "-8%",
+  "voice": "en-US-EricNeural"
+ },
+ "a2/oregon-trail": {
+  "bytes": 752112,
+  "fingerprint": "bb5b360cde8bae5e",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
+ },
  "a2/restaurant-dialogue": {
   "bytes": 916848,
   "fingerprint": "173e73c0151636dc",
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
+ },
+ "a2/sacagawea": {
+  "bytes": 789264,
+  "fingerprint": "138b5436e84183b7",
+  "rate": "-8%",
+  "voice": "en-US-AriaNeural"
  },
  "a2/saying-and-telling": {
   "bytes": 627120,
@@ -214,6 +274,12 @@
   "fingerprint": "eaccccee6a54075a",
   "rate": "-8%",
   "voice": "en-US-AriaNeural"
+ },
+ "b1/american-flag-symbols": {
+  "bytes": 2152512,
+  "fingerprint": "91dfc73929735797",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
  },
  "b1/animal-solutions": {
   "bytes": 1127664,
@@ -293,6 +359,12 @@
   "rate": "-8%",
   "voice": "en-US-GuyNeural"
  },
+ "b1/frederick-douglass": {
+  "bytes": 1163808,
+  "fingerprint": "9d69a0e5a8f98b6b",
+  "rate": "-8%",
+  "voice": "en-US-EricNeural"
+ },
  "b1/glamping": {
   "bytes": 1098000,
   "fingerprint": "bdf202c35d351959",
@@ -311,6 +383,12 @@
   "rate": "-8%",
   "voice": "en-US-BrianNeural"
  },
+ "b1/harriet-tubman": {
+  "bytes": 1082736,
+  "fingerprint": "ec8bea6623d9bf7a",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
+ },
  "b1/investigation-story": {
   "bytes": 934848,
   "fingerprint": "db0e590f0106cb61",
@@ -320,6 +398,24 @@
  "b1/kitchen-chaos": {
   "bytes": 1019952,
   "fingerprint": "587f9ccdfe69bcca",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
+ },
+ "b1/lewis-and-clark-unknown": {
+  "bytes": 1353456,
+  "fingerprint": "f6fbefbf3f23dc69",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
+ },
+ "b1/lincoln-and-the-civil-war": {
+  "bytes": 1079280,
+  "fingerprint": "70e27850f92ffa65",
+  "rate": "-8%",
+  "voice": "en-US-GuyNeural"
+ },
+ "b1/louisiana-purchase": {
+  "bytes": 1106208,
+  "fingerprint": "f8e65aeb197d0130",
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
  },
@@ -406,6 +502,12 @@
   "fingerprint": "8e5bd8d367349dab",
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
+ },
+ "b1/transcontinental-railroad": {
+  "bytes": 1143936,
+  "fingerprint": "e2650eed3af4faa6",
+  "rate": "-8%",
+  "voice": "en-US-EmmaNeural"
  },
  "b1/travel-dialogues-02": {
   "bytes": 1258560,

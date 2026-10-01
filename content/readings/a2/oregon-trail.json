@@ -1,0 +1,297 @@
+{
+  "id": "a2-reading-oregon-trail",
+  "level": "A2",
+  "slug": "oregon-trail",
+  "order": 105,
+  "topic": "history",
+  "title": "The Oregon Trail",
+  "subtitle": "Three thousand kilometres on foot, four months of dust, and the illness that killed more people than anything else.",
+  "description": "An A2 reading and listening text on the Oregon Trail: who went west, what a day on the trail was like, and what really killed people on the journey.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "In April, when the grass was finally high enough for the animals to eat, the wagons left Missouri and started west.",
+    "Between the 1840s and the 1860s, about four hundred thousand people walked across North America to Oregon, California and Utah. The road they used is called the Oregon Trail.",
+    "It was about three thousand two hundred kilometres long, and it took four to six months. Most people did not ride in the wagon. They walked next to it, because the wagon was full of food and tools.",
+    "Families usually travelled with oxen, not horses. Oxen were slower, but they were stronger, they ate the grass along the road, and they did not cost as much.",
+    "A normal day started at four in the morning. The group travelled about twenty-five kilometres, stopped at midday for the animals, and camped in a circle in the evening.",
+    "People went west for different reasons. Some wanted good farming land, which was free if you built a house and stayed. Some were running away from debt. After 1848, many were going to the gold.",
+    "Films show attacks by Native American nations, and this is mostly wrong. Attacks were rare. In the early years, Native people more often sold food to the travellers or helped them cross rivers.",
+    "The real danger was disease, especially cholera, which came from dirty water in the camps. A person could be healthy in the morning and dead the same night. Accidents with wagons, guns and rivers killed many others.",
+    "Perhaps one person in ten died on the trail. There are graves all along it, and the names on many of them are children's names.",
+    "The railroad arrived in 1869, and the long walk stopped being necessary. In some places in Wyoming you can still see the lines in the rock, cut by the wheels of the wagons."
+  ],
+  "images": [
+    {
+      "src": "02.jpg",
+      "after": 2,
+      "alt": "A long line of covered wagons and animals moving west into a low golden sun across open country",
+      "source": "commons:File:Emigrants Crossing the Plains, or The Oregon Trail (Albert Bierstadt), 1869.jpg",
+      "caption": "*Emigrants Crossing the Plains* — Albert Bierstadt, 1869."
+    },
+    {
+      "src": "01.jpg",
+      "after": 8,
+      "alt": "Open prairie at evening, flat to the horizon under a low sun",
+      "source": "albert-bierstadt-evening-on-the-prairie-1870.jpeg",
+      "caption": "*Evening on the Prairie* — Albert Bierstadt, 1870."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a trail",
+      "definition": "a long path or route across country"
+    },
+    {
+      "term": "an ox",
+      "definition": "a strong farm animal used to pull wagons (plural: oxen)"
+    },
+    {
+      "term": "to camp",
+      "definition": "to sleep outside, in a tent or next to a wagon"
+    },
+    {
+      "term": "debt",
+      "definition": "money that you owe to somebody"
+    },
+    {
+      "term": "rare",
+      "definition": "not happening often"
+    },
+    {
+      "term": "cholera",
+      "definition": "a serious disease that comes from dirty water"
+    },
+    {
+      "term": "an accident",
+      "definition": "something bad that happens without a plan"
+    },
+    {
+      "term": "a grave",
+      "definition": "the place in the ground where a dead person is buried"
+    },
+    {
+      "term": "a railroad",
+      "definition": "the road of metal lines that trains run on (British: railway)"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-ot-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "ot-c1",
+          "prompt": "Why did the wagons leave in April?",
+          "options": [
+            "Because the weather was cold",
+            "Because the grass was high enough for the animals",
+            "Because it was a holiday"
+          ],
+          "answerIndex": 1,
+          "explanation": "The animals ate grass along the road, so the grass had to be ready."
+        },
+        {
+          "id": "ot-c2",
+          "prompt": "How long did the journey take?",
+          "options": [
+            "Four to six weeks",
+            "Four to six months",
+            "Four to six years"
+          ],
+          "answerIndex": 1,
+          "explanation": "Four to six months for about 3,200 kilometres."
+        },
+        {
+          "id": "ot-c3",
+          "prompt": "Why did most people walk?",
+          "options": [
+            "The wagon was full of food and tools",
+            "Walking was faster",
+            "They had no wagons"
+          ],
+          "answerIndex": 0,
+          "explanation": "The wagon carried the supplies, not the family."
+        },
+        {
+          "id": "ot-c4",
+          "prompt": "Why did families choose oxen instead of horses?",
+          "options": [
+            "They were faster",
+            "They were stronger, cheaper and ate the grass on the way",
+            "They were easier to ride"
+          ],
+          "answerIndex": 1,
+          "explanation": "Slower, but stronger, cheaper and able to live off the grass."
+        },
+        {
+          "id": "ot-c5",
+          "prompt": "What killed most people on the trail?",
+          "options": [
+            "Attacks",
+            "Disease, especially cholera",
+            "Wild animals"
+          ],
+          "answerIndex": 1,
+          "explanation": "Disease, especially cholera from dirty water."
+        },
+        {
+          "id": "ot-c6",
+          "prompt": "What ended the long walk west?",
+          "options": [
+            "The railroad in 1869",
+            "A new law",
+            "The end of the gold"
+          ],
+          "answerIndex": 0,
+          "explanation": "The railroad arrived in 1869."
+        }
+      ]
+    },
+    {
+      "id": "a2-ot-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "ot-t1",
+          "statement": "Attacks by Native nations were the main danger.",
+          "answer": false,
+          "explanation": "False — attacks were rare. In the early years Native people more often sold food to the travellers or helped them cross rivers."
+        },
+        {
+          "id": "ot-t2",
+          "statement": "About four hundred thousand people used the trail.",
+          "answer": true,
+          "explanation": "True — between the 1840s and the 1860s."
+        },
+        {
+          "id": "ot-t3",
+          "statement": "A day on the trail started at four in the morning.",
+          "answer": true,
+          "explanation": "True — and the group covered about twenty-five kilometres."
+        },
+        {
+          "id": "ot-t4",
+          "statement": "Everybody who went west was looking for gold.",
+          "answer": false,
+          "explanation": "False — some wanted farming land, some were running from debt, and gold only came after 1848."
+        },
+        {
+          "id": "ot-t5",
+          "statement": "You can still see marks from the wagons today.",
+          "answer": true,
+          "explanation": "True — in some places in Wyoming the wheels cut lines into the rock."
+        }
+      ]
+    },
+    {
+      "id": "a2-ot-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "ot-v1",
+          "prompt": "A long path across country is a ___.",
+          "options": [
+            "trail",
+            "train",
+            "trade"
+          ],
+          "answerIndex": 0,
+          "explanation": "A trail."
+        },
+        {
+          "id": "ot-v2",
+          "prompt": "Money that you owe to somebody is ___.",
+          "options": [
+            "debt",
+            "doubt",
+            "dust"
+          ],
+          "answerIndex": 0,
+          "explanation": "Debt. The b is silent."
+        },
+        {
+          "id": "ot-v3",
+          "prompt": "Something that does not happen often is ___.",
+          "options": [
+            "rare",
+            "ready",
+            "real"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rare. Attacks on the trail were rare."
+        },
+        {
+          "id": "ot-v4",
+          "prompt": "A strong animal that pulled the wagons was an ___.",
+          "options": [
+            "ox",
+            "owl",
+            "orange"
+          ],
+          "answerIndex": 0,
+          "explanation": "An ox; the plural is oxen."
+        },
+        {
+          "id": "ot-v5",
+          "prompt": "The metal lines that trains run on are a ___.",
+          "options": [
+            "railroad",
+            "roadway",
+            "runway"
+          ],
+          "answerIndex": 0,
+          "explanation": "A railroad in American English; a railway in British English."
+        }
+      ]
+    },
+    {
+      "id": "a2-ot-match",
+      "type": "matching",
+      "title": "Numbers on the Trail",
+      "instructions": "Match each number with what it describes.",
+      "items": [
+        {
+          "id": "ot-m1",
+          "pairs": [
+            {
+              "left": "400,000",
+              "right": "people who travelled west"
+            },
+            {
+              "left": "3,200 km",
+              "right": "the length of the trail"
+            },
+            {
+              "left": "4 to 6 months",
+              "right": "how long the journey took"
+            },
+            {
+              "left": "25 km",
+              "right": "a normal day's travel"
+            },
+            {
+              "left": "1 in 10",
+              "right": "travellers who died on the way"
+            }
+          ],
+          "explanation": "Five numbers, five different things. Reading a text for numbers and matching each one to its meaning is a useful exam skill."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The families could take very little with them. What three things would you take?",
+    "People went west for land, for money, or to escape a problem. Which reason do you understand best?",
+    "Films often show the trail in a way that is not true. Can you think of another part of history that films get wrong?"
+  ],
+  "audio": {
+    "duration_label": "2:05"
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "id": "b1-reading-harriet-tubman",
+  "level": "B1",
+  "slug": "harriet-tubman",
+  "order": 102,
+  "topic": "history",
+  "title": "Harriet Tubman and the Underground Railroad",
+  "subtitle": "She escaped once, alone. Then she went back, about thirteen times.",
+  "description": "A B1 reading and listening text on Harriet Tubman: her escape from slavery, her rescue missions on the Underground Railroad, and her work during the Civil War.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "passage": [
+    "In the autumn of 1849, a woman of about twenty-seven walked north out of Maryland at night, alone, with no map. When she crossed into Pennsylvania she wrote later that she looked at her hands to see whether she was the same person.",
+    "Her name at birth was Araminta Ross. She had been born into slavery around 1822 and had worked since she was five years old — checking traps, carrying wood, and later cutting timber, which was heavy work usually given to men.",
+    "When she was about thirteen, an overseer threw an iron weight at another enslaved person and hit her in the head instead. She nearly died. For the rest of her life she had severe headaches and episodes in which she suddenly fell asleep, and she described vivid dreams that she understood as instructions from God.",
+    "Escaping was the beginning, not the end. Most people who reached the north stayed there. Tubman went back — historians count about thirteen journeys — and brought out around seventy people, including her parents, her brothers and their families.",
+    "The route she used is called the Underground Railroad, which was neither underground nor a railroad. It was a loose network of safe houses, hidden rooms, barns, churches and people who would move a stranger one stage further north and ask no questions.",
+    "The railway words were a code. A house was a station, the person who ran it was a stationmaster, and a guide was a conductor. Tubman became the most famous conductor of all, and she was proud that she never lost a passenger.",
+    "The work got harder, not easier. The Fugitive Slave Act of 1850 required officials in the free northern states to help capture escaped people and return them south. After that, reaching the north was no longer enough, and Tubman took her passengers all the way to Canada.",
+    "Her methods were practical. She travelled in winter, when nights were long, and left on Saturday evenings, because a runaway notice could not be printed in a newspaper until Monday. She carried a gun. She drugged babies with a few drops of medicine so that they would not cry.",
+    "When the Civil War came, she worked for the Union army as a cook, a nurse and then a scout. In June 1863 she guided a raid up the Combahee River in South Carolina which destroyed Confederate supplies and brought more than seven hundred enslaved people out in a single night. She is usually described as the first woman to lead an armed military operation in the war.",
+    "She spent the rest of her life in Auburn, New York, where she cared for elderly people with almost no money of her own, and spent years fighting the government for the army pension it had not paid her. She died in 1913, probably in her early nineties."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A photograph of Harriet Tubman seated, in a long dress, looking directly at the camera",
+      "source": "commons:File:Harriet Tubman c1868-69.jpg",
+      "caption": "Harriet Tubman, photographed around 1868, about twenty years after her own escape."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "A painting of a group of people arriving at a farm at dawn in winter, helped down from a wagon by the family who live there",
+      "source": "commons:File:The Underground Railroad by Charles T. Webber, 1893.jpg",
+      "caption": "*The Underground Railroad* — Charles T. Webber, 1893. A station: a farm, a wagon, and people who ask no questions."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "slavery",
+      "definition": "the system in which people are owned as property and forced to work"
+    },
+    {
+      "term": "an overseer",
+      "definition": "a man employed to watch and control enslaved workers"
+    },
+    {
+      "term": "to escape",
+      "definition": "to get away from a place where you are held"
+    },
+    {
+      "term": "a network",
+      "definition": "a connected group of people or places working together"
+    },
+    {
+      "term": "a safe house",
+      "definition": "a house where somebody can hide without being reported"
+    },
+    {
+      "term": "a code",
+      "definition": "a system of words or signs used so that others cannot understand"
+    },
+    {
+      "term": "a fugitive",
+      "definition": "a person who is running away from the law or from capture"
+    },
+    {
+      "term": "a scout",
+      "definition": "a soldier sent ahead to get information about the enemy"
+    },
+    {
+      "term": "a raid",
+      "definition": "a sudden short military attack"
+    },
+    {
+      "term": "a pension",
+      "definition": "money paid regularly to somebody after their service or work ends"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-ht-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "ht-c1",
+          "prompt": "What was unusual about what Tubman did after escaping?",
+          "options": [
+            "She stayed in Pennsylvania",
+            "She went back about thirteen times",
+            "She wrote a book"
+          ],
+          "answerIndex": 1,
+          "explanation": "Most people who reached the north stayed. She returned about thirteen times and brought out around seventy people."
+        },
+        {
+          "id": "ht-c2",
+          "prompt": "How was she injured as a teenager?",
+          "options": [
+            "In an accident with a wagon",
+            "An overseer threw an iron weight and hit her head",
+            "She fell from a tree"
+          ],
+          "answerIndex": 1,
+          "explanation": "The weight was aimed at somebody else. She had headaches and sleeping episodes for the rest of her life."
+        },
+        {
+          "id": "ht-c3",
+          "prompt": "What was the Underground Railroad?",
+          "options": [
+            "A tunnel under the southern states",
+            "A network of safe houses and people who moved travellers north",
+            "An early train line"
+          ],
+          "answerIndex": 1,
+          "explanation": "Neither underground nor a railroad: a loose network of houses, barns, churches and people."
+        },
+        {
+          "id": "ht-c4",
+          "prompt": "Why did the Fugitive Slave Act of 1850 change her route?",
+          "options": [
+            "Officials in free states now had to return escaped people, so she went on to Canada",
+            "It made travel cheaper",
+            "It ended slavery in Maryland"
+          ],
+          "answerIndex": 0,
+          "explanation": "The north was no longer safe, so her passengers had to reach Canada."
+        },
+        {
+          "id": "ht-c5",
+          "prompt": "Why did she leave on Saturday evenings?",
+          "options": [
+            "Because the roads were empty",
+            "Because a runaway notice could not be printed until Monday",
+            "Because it was a holiday"
+          ],
+          "answerIndex": 1,
+          "explanation": "A practical calculation: two days before the newspapers could carry the notice."
+        },
+        {
+          "id": "ht-c6",
+          "prompt": "What happened on the Combahee River in 1863?",
+          "options": [
+            "She was captured",
+            "A raid she guided freed more than seven hundred people in one night",
+            "She met Lincoln"
+          ],
+          "answerIndex": 1,
+          "explanation": "She is usually described as the first woman to lead an armed military operation in the war."
+        }
+      ]
+    },
+    {
+      "id": "b1-ht-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "ht-t1",
+          "statement": "Tubman was born free and chose to help others.",
+          "answer": false,
+          "explanation": "False — she was born into slavery around 1822 and escaped in 1849."
+        },
+        {
+          "id": "ht-t2",
+          "statement": "The words “station” and “conductor” were a code.",
+          "answer": true,
+          "explanation": "True — a house was a station, its owner a stationmaster, a guide a conductor."
+        },
+        {
+          "id": "ht-t3",
+          "statement": "She travelled in summer because the nights were warm.",
+          "answer": false,
+          "explanation": "False — she travelled in winter, when the nights were long."
+        },
+        {
+          "id": "ht-t4",
+          "statement": "She worked for the Union army during the Civil War.",
+          "answer": true,
+          "explanation": "True — as a cook, a nurse and then a scout."
+        },
+        {
+          "id": "ht-t5",
+          "statement": "The government paid her army pension without difficulty.",
+          "answer": false,
+          "explanation": "False — she spent years fighting for it."
+        }
+      ]
+    },
+    {
+      "id": "b1-ht-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "ht-v1",
+          "prompt": "A sudden short military attack is a ___.",
+          "options": [
+            "raid",
+            "race",
+            "rate"
+          ],
+          "answerIndex": 0,
+          "explanation": "A raid. The Combahee River raid freed over seven hundred people."
+        },
+        {
+          "id": "ht-v2",
+          "prompt": "A soldier sent ahead to gather information is a ___.",
+          "options": [
+            "scout",
+            "scholar",
+            "sculptor"
+          ],
+          "answerIndex": 0,
+          "explanation": "A scout."
+        },
+        {
+          "id": "ht-v3",
+          "prompt": "A person running away from capture is a ___.",
+          "options": [
+            "fugitive",
+            "founder",
+            "farmer"
+          ],
+          "answerIndex": 0,
+          "explanation": "A fugitive — the word in the title of the 1850 law."
+        },
+        {
+          "id": "ht-v4",
+          "prompt": "A connected group of people working together is a ___.",
+          "options": [
+            "network",
+            "nation",
+            "notice"
+          ],
+          "answerIndex": 0,
+          "explanation": "A network."
+        },
+        {
+          "id": "ht-v5",
+          "prompt": "Money paid regularly after your service ends is a ___.",
+          "options": [
+            "pension",
+            "payment",
+            "permission"
+          ],
+          "answerIndex": 0,
+          "explanation": "A pension. Tubman had to fight for hers for years."
+        }
+      ]
+    },
+    {
+      "id": "b1-ht-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "ht-b1",
+          "prompt": "Tubman escaped from slavery in ___ in 1849.",
+          "answers": [
+            "Maryland"
+          ],
+          "options": [
+            "Maryland",
+            "Canada",
+            "New York"
+          ],
+          "explanation": "Maryland — she walked north into Pennsylvania."
+        },
+        {
+          "id": "ht-b2",
+          "prompt": "She brought out around ___ people in about thirteen journeys.",
+          "answers": [
+            "seventy"
+          ],
+          "options": [
+            "seventy",
+            "seven",
+            "seven hundred"
+          ],
+          "explanation": "Around seventy on the Underground Railroad; more than seven hundred in one night at Combahee."
+        },
+        {
+          "id": "ht-b3",
+          "prompt": "A guide on the Underground Railroad was called a ___.",
+          "answers": [
+            "conductor"
+          ],
+          "options": [
+            "conductor",
+            "captain",
+            "carrier"
+          ],
+          "explanation": "A conductor."
+        },
+        {
+          "id": "ht-b4",
+          "prompt": "After 1850 she took her passengers all the way to ___.",
+          "answers": [
+            "Canada"
+          ],
+          "options": [
+            "Canada",
+            "Mexico",
+            "Boston"
+          ],
+          "explanation": "Canada, because the free states were no longer safe."
+        },
+        {
+          "id": "ht-b5",
+          "prompt": "During the war she worked for the ___ army.",
+          "answers": [
+            "Union"
+          ],
+          "options": [
+            "Union",
+            "Confederate",
+            "British"
+          ],
+          "explanation": "The Union army — the northern side."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Tubman said she never lost a passenger. What do you think made her so careful?",
+    "The Underground Railroad depended on ordinary people taking a risk for a stranger. Would that network be possible today?",
+    "She is now on American stamps and in school books, but spent her last years poor and fighting for a pension. Why does that happen to people like her?"
+  ],
+  "audio": {
+    "duration_label": "3:00"
+  }
+}

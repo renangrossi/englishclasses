@@ -1,0 +1,297 @@
+{
+  "id": "a1-reading-george-washington",
+  "level": "A1",
+  "slug": "george-washington",
+  "order": 100,
+  "topic": "history",
+  "title": "George Washington: The First President",
+  "subtitle": "A farmer, a soldier, and the man who said no to being king.",
+  "description": "An A1 reading and listening text on George Washington: his farm in Virginia, the war, and why he went home after eight years as president.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "passage": [
+    "On a cold night in December 1776, a man stood in a small boat on a river full of ice. His name was George Washington.",
+    "Washington was born in 1732 in Virginia. His family had a farm. His father died when George was eleven years old.",
+    "Young George did not go to university. He worked. He learned to measure land, and he rode a horse very well.",
+    "In 1775, the American colonies started a war against Britain. Washington was the leader of the American army. The war was long and difficult. His men were cold and hungry, and many of them went home.",
+    "But Washington did not stop. The war finished in 1783, and America was free.",
+    "Some people wanted Washington to be a king. He said no. In 1789 he became the first president of the United States.",
+    "He was president for eight years. Then he did something new: he went home. He went back to his farm in Virginia.",
+    "Washington died in 1799. Today his face is on the American dollar, and the capital city has his name: Washington, D.C.",
+    "One more thing is true about Washington, and it is not comfortable. He had more than three hundred enslaved people on his farm. Many Americans at that time talked about freedom and were not free to everybody."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "Soldiers rowing a boat through broken ice at dawn while a tall officer stands in the bow looking ahead",
+      "source": "emanuel-leutze-washington-crossing-the-delaware.jpg",
+      "caption": "*Washington Crossing the Delaware* — Emanuel Leutze, 1851. Painted 75 years after the night it shows."
+    },
+    {
+      "src": "02.jpg",
+      "after": 5,
+      "alt": "An unfinished portrait of George Washington as an older man, in a black coat against a plain background",
+      "source": "commons:File:Gilbert Stuart - George Washington (The Athenaeum Portrait) - Google Art Project.jpg",
+      "caption": "*George Washington* (the Athenaeum portrait) — Gilbert Stuart, 1796. The painting on the one-dollar bill."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a colony",
+      "definition": "a country or area that another country controls"
+    },
+    {
+      "term": "an army",
+      "definition": "a large group of soldiers"
+    },
+    {
+      "term": "a leader",
+      "definition": "the person who tells a group what to do"
+    },
+    {
+      "term": "a king",
+      "definition": "a man who rules a country for all his life"
+    },
+    {
+      "term": "a president",
+      "definition": "the leader of a country, chosen by the people"
+    },
+    {
+      "term": "free",
+      "definition": "able to do what you want; not controlled by another person or country"
+    },
+    {
+      "term": "a farm",
+      "definition": "land where people grow food and keep animals"
+    },
+    {
+      "term": "enslaved people",
+      "definition": "people who were owned by other people and had to work for no money"
+    },
+    {
+      "term": "the capital",
+      "definition": "the city where the government of a country is"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-gw-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "gw-c1",
+          "prompt": "Where was George Washington born?",
+          "options": [
+            "In Virginia",
+            "In Britain",
+            "In Washington, D.C."
+          ],
+          "answerIndex": 0,
+          "explanation": "The text says he was born in 1732 in Virginia. The city of Washington, D.C. came much later."
+        },
+        {
+          "id": "gw-c2",
+          "prompt": "How old was George when his father died?",
+          "options": [
+            "Eight",
+            "Eleven",
+            "Twenty"
+          ],
+          "answerIndex": 1,
+          "explanation": "“His father died when George was eleven years old.”"
+        },
+        {
+          "id": "gw-c3",
+          "prompt": "What was Washington's job in the war?",
+          "options": [
+            "He was a doctor",
+            "He was the leader of the army",
+            "He was a king"
+          ],
+          "answerIndex": 1,
+          "explanation": "He was the leader of the American army from 1775."
+        },
+        {
+          "id": "gw-c4",
+          "prompt": "Some people wanted Washington to be a king. What did he say?",
+          "options": [
+            "He said yes",
+            "He said no",
+            "He said “later”"
+          ],
+          "answerIndex": 1,
+          "explanation": "He said no. This is one reason people still talk about him."
+        },
+        {
+          "id": "gw-c5",
+          "prompt": "How many years was he president?",
+          "options": [
+            "Four",
+            "Eight",
+            "Twenty"
+          ],
+          "answerIndex": 1,
+          "explanation": "“He was president for eight years.” That is two times four."
+        },
+        {
+          "id": "gw-c6",
+          "prompt": "What did Washington do after he was president?",
+          "options": [
+            "He went back to his farm",
+            "He started a new war",
+            "He went to Britain"
+          ],
+          "answerIndex": 0,
+          "explanation": "He went home to his farm in Virginia. At that time this surprised people."
+        }
+      ]
+    },
+    {
+      "id": "a1-gw-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "gw-t1",
+          "statement": "Washington went to university.",
+          "answer": false,
+          "explanation": "False — the text says he did not go to university. He worked and learned to measure land."
+        },
+        {
+          "id": "gw-t2",
+          "statement": "The war with Britain was short and easy.",
+          "answer": false,
+          "explanation": "False — the text says the war was long and difficult."
+        },
+        {
+          "id": "gw-t3",
+          "statement": "The war finished in 1783.",
+          "answer": true,
+          "explanation": "True — “The war finished in 1783, and America was free.”"
+        },
+        {
+          "id": "gw-t4",
+          "statement": "Washington was the first president of the United States.",
+          "answer": true,
+          "explanation": "True — he became president in 1789."
+        },
+        {
+          "id": "gw-t5",
+          "statement": "Washington had enslaved people on his farm.",
+          "answer": true,
+          "explanation": "True — the text says he had more than three hundred."
+        }
+      ]
+    },
+    {
+      "id": "a1-gw-vocab",
+      "type": "vocabulary",
+      "title": "Words from the Text",
+      "instructions": "Choose the word that matches the meaning.",
+      "items": [
+        {
+          "id": "gw-v1",
+          "prompt": "A large group of soldiers is an ___.",
+          "options": [
+            "army",
+            "office",
+            "island"
+          ],
+          "answerIndex": 0,
+          "explanation": "An army. Washington was the leader of the American army."
+        },
+        {
+          "id": "gw-v2",
+          "prompt": "A man who rules a country for all his life is a ___.",
+          "options": [
+            "king",
+            "farmer",
+            "soldier"
+          ],
+          "answerIndex": 0,
+          "explanation": "A king. The people chose a president instead."
+        },
+        {
+          "id": "gw-v3",
+          "prompt": "The city where the government is, is the ___.",
+          "options": [
+            "capital",
+            "colony",
+            "country"
+          ],
+          "answerIndex": 0,
+          "explanation": "The capital. The capital of the United States is Washington, D.C."
+        },
+        {
+          "id": "gw-v4",
+          "prompt": "Land where people grow food is a ___.",
+          "options": [
+            "farm",
+            "river",
+            "school"
+          ],
+          "answerIndex": 0,
+          "explanation": "A farm. Washington's farm was in Virginia."
+        },
+        {
+          "id": "gw-v5",
+          "prompt": "When you can do what you want, you are ___.",
+          "options": [
+            "free",
+            "cold",
+            "late"
+          ],
+          "answerIndex": 0,
+          "explanation": "Free. The word is important in this text, and the last paragraph asks you to think about it."
+        }
+      ]
+    },
+    {
+      "id": "a1-gw-dates",
+      "type": "matching",
+      "title": "Match the Year",
+      "instructions": "Match each year with what happened.",
+      "items": [
+        {
+          "id": "gw-m1",
+          "pairs": [
+            {
+              "left": "1732",
+              "right": "Washington is born in Virginia"
+            },
+            {
+              "left": "1775",
+              "right": "The war with Britain starts"
+            },
+            {
+              "left": "1783",
+              "right": "The war finishes"
+            },
+            {
+              "left": "1789",
+              "right": "Washington becomes president"
+            },
+            {
+              "left": "1799",
+              "right": "Washington dies"
+            }
+          ],
+          "explanation": "The years are all in the text, in order. Reading for dates is a good way to find information fast."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Who is a famous leader from your country? When did this person live?",
+    "Washington went home after eight years. Do you think this was a good idea? Why?",
+    "Is there a city or a street with the name of a famous person near you?"
+  ],
+  "audio": {
+    "duration_label": "1:49"
+  }
+}

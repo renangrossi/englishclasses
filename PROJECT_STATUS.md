@@ -14,7 +14,7 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | 115 texts, all six levels, 111 of them illustrated; filters named for students |
+| **Current phase** | 132 texts; the American History collection is being written (A1, A2 and B1 done) |
 | **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
 
 ### What this project is *not*
@@ -358,7 +358,65 @@ for f in content/readings/b1/*.json; do python3 scripts/build_reading_page.py b1
 python3 scripts/build_image_credits.py && python3 scripts/check_site_integrity.py
 ```
 
-### Milestone 12 — What is left after that
+### Milestone 12 — American History collection (IN PROGRESS)
+- **Branch:** `content/american-history` (merged to `main` as a checkpoint; **not finished**)
+
+A new collection of readings on the history of the United States, A1 to C2, authored for this
+site. It is English practice told through history, not a history course: every text opens on a
+scene rather than a birth date, and the language is held to its CEFR level while the subject is
+allowed to be serious.
+
+**Done so far (17 texts):**
+- **A1 (4):** `george-washington`, `abraham-lincoln`, `statue-of-liberty`, `the-american-flag`
+- **A2 (6):** `declaration-of-independence`, `boston-tea-party`, `lewis-and-clark-west`,
+  `sacagawea`, `california-gold-rush`, `oregon-trail`
+- **B1 (7):** `louisiana-purchase`, `lewis-and-clark-unknown`, `harriet-tubman`,
+  `frederick-douglass`, `lincoln-and-the-civil-war`, `transcontinental-railroad`,
+  **`american-flag-symbols`** (the visual centrepiece: nine full-width flag plates inside the text)
+
+**Still to write:**
+- **B2 (6):** The Trail of Tears · The Civil War: A Nation Divided · Reconstruction ·
+  The Great Depression · Franklin D. Roosevelt and the New Deal · Jackie Robinson Breaks
+  Baseball's Color Line
+- **C1 (7):** Rosa Parks and the Montgomery Bus Boycott · Martin Luther King Jr. ·
+  Malcolm X and Two Visions of Civil Rights · Women Win the Right to Vote · The Space Race ·
+  Apollo 11 · Watergate
+- **C2 (7):** Manifest Destiny: Expansion or Ideology? · The West Was Not Empty · Slavery and
+  the Making of the American Economy · Reconstruction: A Revolution That Did Not Last ·
+  The American Dream · Immigration and the Making of Modern America · What Makes an American Hero?
+
+**How these are built** (same pipeline, nothing new to invent):
+```bash
+python3 -m venv /tmp/rl-venv && /tmp/rl-venv/bin/pip install edge-tts   # once per machine
+# 1. author content/readings/{level}/{slug}.json  — topic: "history", order: 100+
+# 2. images: local gallery first, Commons only for what it cannot answer
+python3 scripts/import_local_artwork.py --plan plan.json
+python3 scripts/add_commons_image.py --plan plan.json     # refuses anything not public domain
+# 3. build + narrate + finish
+python3 scripts/build_reading_page.py {level}/{slug}
+python3 scripts/generate_reading_audio.py {level}/{slug} --tts /tmp/rl-venv/bin/edge-tts
+python3 scripts/finish_reading_batch.py     # durations, indexes, hub, audit, validation
+```
+`scripts/show_passages.py {level}/` prints paragraph openings when placing images.
+
+**Rules this collection follows, and the next session must keep:**
+- `topic: "history"` → the Subject chip reads **American History** (`reading_common.TOPIC_LABELS`),
+  sorted after Culture on the hub. No new filter system, no counters, no Text Type.
+- `order: 100+` keeps the collection after the existing texts inside its topic group.
+- Images go **inside** the text at a turn in it. `"wide": true` on an image gives it the full
+  measure — for flags, maps and anything read for detail.
+- Captions are `*Title* — Artist, year.`; every image has a real `alt`.
+- **Facts are checked before they are written**, and where the popular story is wrong the text
+  says so: Sacagawea was not a guide; attacks on the Oregon Trail were rare and cholera was not;
+  Join or Die was a newspaper woodcut, not a flag; the Betsy Ross attribution is family tradition
+  from 1870; the surviving Bennington flag is probably nineteenth-century. Nothing is invented —
+  no dates, quotations, attributions or causal claims.
+- The uncomfortable parts stay in: Washington's three hundred enslaved people, Jefferson writing
+  that all men are equal while owning people, the eighty per cent fall in the Native Californian
+  population, the Chinese workers missing from the Promontory photograph.
+- Each level batch is committed, pushed and merged on its own.
+
+### Milestone 13 — What is left after that
 
 1. **P-2, the geography balance** — travel is still the largest topic in B1.
 2. **Depth at C1 and C2** (14 and 7) against B1's 37.

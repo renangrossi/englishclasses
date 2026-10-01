@@ -11,6 +11,10 @@
   "audio": {
     "duration_label": "2:39"
   },
+  "grammar": [
+    "passive",
+    "modals"
+  ],
   "passage": [
     "In the rapidly evolving landscape of information technology, software architects face challenges that reach well beyond technical expertise. As systems grow in complexity — absorbing artificial intelligence, cloud computing and distributed architectures — ethical considerations have become paramount. A senior programmer specializing in architecture has to navigate the delicate balance between innovation and responsibility. Designing a scalable microservices architecture for a healthcare application, for instance, demands not only technical precision but adherence to data privacy regulations such as GDPR or HIPAA. A single oversight in data handling can produce a breach that costs patient trust and invites legal consequences.",
     "The rise of AI-driven systems introduces a further set of dilemmas, around bias and fairness. Algorithms embedded in a software architecture can inadvertently perpetuate existing social inequalities if they are never audited. Consider a recommendation system used in hiring: the architect has to ensure it does not favor certain demographics simply because the training data did. That requires a working understanding of both the technical mechanisms of machine learning and the ethical implications of what those mechanisms output.",

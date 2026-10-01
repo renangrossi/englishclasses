@@ -11,6 +11,11 @@
   "audio": {
     "duration_label": "2:41"
   },
+  "grammar": [
+    "future",
+    "continuous",
+    "present-simple"
+  ],
   "passage": [
     "Every day, Emily works as a financial analyst in an office on the twenty-second floor. She manages a set of client portfolios, she arrives at about half past seven because the market opens early, and she leaves at six unless something has gone wrong. Michael sits opposite her. He advises clients on where to put their money, he talks on the phone for most of the day, and he claims he has never once eaten lunch away from his desk.",
     "That is what they do. What they are doing at this moment is something else entirely.",

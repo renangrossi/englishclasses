@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "3:30"
   },
+  "grammar": [
+    "passive",
+    "comparatives",
+    "relative-clauses",
+    "present-simple"
+  ],
   "passage": [
     "Visitors often arrive in the United States expecting the food to be one thing, and are surprised to find it is not a cuisine at all but a collection of regional ones that developed separately and still barely overlap. A meal in Charleston and a meal in Portland have almost nothing in common except the language on the menu.",
     "Barbecue is the clearest example. The word means something specific: meat cooked slowly over wood smoke for many hours, not food grilled quickly over a flame. Every region that takes it seriously does it differently and considers the others wrong. Texas does beef brisket with salt, pepper and smoke, and sauce is optional and slightly suspect. North Carolina does pork with a thin vinegar sauce. Kansas City does a thick sweet tomato sauce and will smoke almost anything. Memphis does ribs, dry-rubbed or wet. These are not variations on a theme; they are separate traditions, and people will argue about them with more energy than they bring to politics.",

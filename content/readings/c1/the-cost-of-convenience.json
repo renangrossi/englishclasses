@@ -1,0 +1,356 @@
+{
+  "id": "c1-reading-the-cost-of-convenience",
+  "level": "C1",
+  "slug": "the-cost-of-convenience",
+  "topic": "tech",
+  "title": "The Cost of Convenience",
+  "subtitle": "Every convenience you accept is a small transfer of control, and most of them are worth it. The difficulty is noticing which.",
+  "description": "A C1 reading and listening text on the trade-offs built into convenient technology: what is given up, who benefits, and the few cases where the trade is not worth making.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "3:22"
+  },
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple",
+    "modals",
+    "comparatives",
+    "relative-clauses",
+    "present-simple"
+  ],
+  "passage": [
+    "A convenience is something that removes a step. The phone that unlocks when it sees your face has removed the step of typing; the car that parks itself has removed the step of parking. Each removal is small, agreeable, and almost never examined, because examining it costs more effort than the step it replaced.",
+    "What is given up is usually one of three things, and it is worth being able to name them.",
+    "The first is capability. A skill that is never exercised decays, and this is not sentimental — it is measurable. Drivers who rely on satellite navigation build weaker mental maps of cities they have lived in for years, and the effect appears after months rather than decades. Whether that matters depends entirely on whether you will ever need the capability unaided. For most people, most of the time, the answer is no, and the trade is good. The difficulty is that you discover you needed the skill at the moment the system fails, which is also the moment you cannot practise it.",
+    "The second is visibility. A convenient system hides its workings, and hiding them is precisely what makes it convenient. The trouble is that a hidden system cannot be audited by the person it acts on. When an algorithm decides which applications reach a human recruiter, the applicant cannot see the rule, cannot know whether it was applied correctly, and in many cases cannot establish that it was applied at all. Opacity here is not a side effect of complexity; it is a design choice that happens to be cheaper than the alternative.",
+    "The third is leverage, and this is the one that compounds. Convenience is habitually bought with data, and data creates a relationship that is difficult to leave. The cost of switching away from a service that holds a decade of your documents, contacts and history is not the price of the alternative but the price of the migration, and that cost rises every month you stay. Nobody is deceived by this. It is simply a good deal at the start and a progressively worse one later, which is the shape of most arrangements people regret.",
+    "The reflexive response — that one should therefore resist convenience — does not survive contact with how people actually live. A person who refuses navigation, online banking and recommendation systems in order to preserve capability, visibility and independence has spent a large quantity of the only genuinely non-renewable resource they have in order to protect against risks that may never arrive. Inconvenience is not a virtue, and the aesthetic of self-reliance has sold a great many people a worse life.",
+    "The usable distinction is between conveniences that are reversible and conveniences that are not. If you can stop using the navigation app tomorrow and find your way with a map, the trade was cheap and you may take it freely. If you cannot leave a platform without losing material you cannot reconstruct, the trade was not really about convenience at all, and it deserved a different kind of attention at the moment you made it — which was years before you noticed.",
+    "The question worth asking of any new convenience is therefore not whether it makes something easier. It will. It is what specifically happens if it disappears, and whether the answer is an inconvenience or a loss. Most of the time it is the first, and the thing should be adopted without agonising. Occasionally it is the second, and that is the case where the five minutes of examination costs less than the decade of dependence."
+  ],
+  "vocabulary": [
+    {
+      "term": "convenience",
+      "definition": "something that makes a task easier by removing a step"
+    },
+    {
+      "term": "agreeable",
+      "definition": "pleasant; easy to accept"
+    },
+    {
+      "term": "capability",
+      "definition": "the ability to do something yourself"
+    },
+    {
+      "term": "to decay",
+      "definition": "to weaken gradually through disuse",
+      "match": "decays"
+    },
+    {
+      "term": "sentimental",
+      "definition": "based on feeling rather than evidence"
+    },
+    {
+      "term": "unaided",
+      "definition": "without help"
+    },
+    {
+      "term": "to audit",
+      "definition": "to examine formally to check it is correct",
+      "match": "audited"
+    },
+    {
+      "term": "applicant",
+      "definition": "a person applying for a job or a place"
+    },
+    {
+      "term": "opacity",
+      "definition": "the quality of being impossible to see into"
+    },
+    {
+      "term": "side effect",
+      "definition": "an unintended result",
+      "match": "side effect"
+    },
+    {
+      "term": "leverage",
+      "definition": "the power one side holds over the other in a relationship"
+    },
+    {
+      "term": "to compound",
+      "definition": "to grow by building on itself",
+      "match": "compounds"
+    },
+    {
+      "term": "migration",
+      "definition": "the work of moving everything from one system to another"
+    },
+    {
+      "term": "to deceive",
+      "definition": "to make somebody believe something untrue",
+      "match": "deceived"
+    },
+    {
+      "term": "progressively",
+      "definition": "more and more as time passes"
+    },
+    {
+      "term": "reflexive",
+      "definition": "done automatically, without thought"
+    },
+    {
+      "term": "non-renewable",
+      "definition": "impossible to replace once used"
+    },
+    {
+      "term": "self-reliance",
+      "definition": "depending on yourself rather than on others"
+    },
+    {
+      "term": "reversible",
+      "definition": "able to be undone"
+    },
+    {
+      "term": "to reconstruct",
+      "definition": "to build again from what remains"
+    },
+    {
+      "term": "to agonise",
+      "definition": "to worry at length over a decision",
+      "match": "agonising"
+    },
+    {
+      "term": "dependence",
+      "definition": "the state of needing something you cannot do without"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-conv-comp",
+      "type": "reading-comprehension",
+      "title": "Following the Argument",
+      "instructions": "The essay names three costs, rejects the obvious conclusion, and then draws a narrower one.",
+      "items": [
+        {
+          "id": "k1",
+          "prompt": "Why does the author say conveniences are almost never examined?",
+          "options": [
+            "Examining one costs more effort than the step it removed",
+            "People are not interested in technology",
+            "The companies hide them"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated in the opening paragraph."
+        },
+        {
+          "id": "k2",
+          "prompt": "What is the author's evidence that capability decays?",
+          "options": [
+            "Drivers using satellite navigation build weaker mental maps within months",
+            "Older people forget faster",
+            "Surveys of self-reported skill"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the author stresses the effect is measurable rather than sentimental."
+        },
+        {
+          "id": "k3",
+          "prompt": "What is the trap in losing a capability?",
+          "options": [
+            "You discover you needed it exactly when the system fails and you cannot practise",
+            "The skill never returns",
+            "It happens without warning signs"
+          ],
+          "answerIndex": 0,
+          "explanation": "“which is also the moment you cannot practise it.”"
+        },
+        {
+          "id": "k4",
+          "prompt": "Why does the author say hiding a system's workings is unavoidable?",
+          "options": [
+            "Hiding them is what makes the system convenient in the first place",
+            "Companies protect trade secrets",
+            "Users would not understand them"
+          ],
+          "answerIndex": 0,
+          "explanation": "Convenience and visibility pull against each other by definition."
+        },
+        {
+          "id": "k5",
+          "prompt": "How does the author characterise algorithmic opacity in hiring?",
+          "options": [
+            "A design choice that is cheaper than the alternative, not a side effect of complexity",
+            "An unavoidable technical limit",
+            "A legal requirement"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated explicitly at the end of that paragraph."
+        },
+        {
+          "id": "k6",
+          "prompt": "Why does leverage compound?",
+          "options": [
+            "The cost of leaving rises every month you stay",
+            "Prices increase annually",
+            "Competitors disappear"
+          ],
+          "answerIndex": 0,
+          "explanation": "“a good deal at the start and a progressively worse one later.”"
+        },
+        {
+          "id": "k7",
+          "prompt": "Why does the author reject simply resisting convenience?",
+          "options": [
+            "It spends time — the only non-renewable resource — against risks that may never arrive",
+            "Because the technology always wins",
+            "Because resistance is impractical for employees"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Inconvenience is not a virtue.”"
+        },
+        {
+          "id": "k8",
+          "prompt": "What is the “usable distinction” the essay offers?",
+          "options": [
+            "Between conveniences that are reversible and those that are not",
+            "Between free and paid services",
+            "Between hardware and software"
+          ],
+          "answerIndex": 0,
+          "explanation": "If you can stop tomorrow, the trade was cheap."
+        },
+        {
+          "id": "k9",
+          "prompt": "What question does the author say to ask of a new convenience?",
+          "options": [
+            "What specifically happens if it disappears — an inconvenience, or a loss?",
+            "Does it save time?",
+            "Who owns the company?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Not whether it makes something easier: “It will.”"
+        },
+        {
+          "id": "k10",
+          "prompt": "What is the author's advice in the common case?",
+          "options": [
+            "Adopt it without agonising",
+            "Delay the decision",
+            "Seek an alternative first"
+          ],
+          "answerIndex": 0,
+          "explanation": "Most of the time the answer is mere inconvenience."
+        }
+      ]
+    },
+    {
+      "id": "c1-conv-match",
+      "type": "matching",
+      "title": "The Three Costs",
+      "instructions": "Match each cost to the example the text uses for it.",
+      "items": [
+        {
+          "id": "km1",
+          "pairs": [
+            {
+              "left": "Capability",
+              "right": "Drivers with weaker mental maps of their own city"
+            },
+            {
+              "left": "Visibility",
+              "right": "An applicant who cannot see the rule that filtered them out"
+            },
+            {
+              "left": "Leverage",
+              "right": "A decade of documents that would cost more to move than to keep"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-conv-vocab",
+      "type": "vocabulary",
+      "title": "Argument Vocabulary",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "kv1",
+          "prompt": "The quality of being impossible to see into is ___.",
+          "options": [
+            "opacity",
+            "leverage",
+            "capability"
+          ],
+          "answerIndex": 0,
+          "explanation": "The author calls it a design choice, not a technical necessity."
+        },
+        {
+          "id": "kv2",
+          "prompt": "The power one side holds over the other in a relationship is ___.",
+          "options": [
+            "leverage",
+            "migration",
+            "dependence"
+          ],
+          "answerIndex": 0,
+          "explanation": "And it compounds with time."
+        },
+        {
+          "id": "kv3",
+          "prompt": "Able to be undone is ___.",
+          "options": [
+            "reversible",
+            "reflexive",
+            "progressive"
+          ],
+          "answerIndex": 0,
+          "explanation": "The essay's central test."
+        },
+        {
+          "id": "kv4",
+          "prompt": "Done automatically, without thought, is ___.",
+          "options": [
+            "reflexive",
+            "sentimental",
+            "agreeable"
+          ],
+          "answerIndex": 0,
+          "explanation": "The reflexive response is to resist convenience, which the author rejects."
+        },
+        {
+          "id": "kv5",
+          "prompt": "To weaken gradually through disuse is to ___.",
+          "options": [
+            "decay",
+            "deceive",
+            "audit"
+          ],
+          "answerIndex": 0,
+          "explanation": "What happens to an unexercised skill."
+        },
+        {
+          "id": "kv6",
+          "prompt": "The work of moving everything from one system to another is ___.",
+          "options": [
+            "migration",
+            "opacity",
+            "adaptation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Its cost, not the price of the alternative, is what traps people."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Name a convenience you use daily. What specifically happens if it disappears tomorrow?",
+    "Which of the three costs — capability, visibility, leverage — worries you most, and why?",
+    "“Inconvenience is not a virtue.” Do you agree?",
+    "Is there a service you would struggle to leave? When did that become true?",
+    "Write about 300 words on a convenience you decided was not worth the trade."
+  ]
+}

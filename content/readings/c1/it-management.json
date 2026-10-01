@@ -12,6 +12,10 @@
   "audio": {
     "duration_label": "5:34"
   },
+  "grammar": [
+    "past-simple",
+    "present-simple"
+  ],
   "passage": [
     "Claire came in with a laptop in one hand and a coffee in the other. “Morning, everyone.” Around the table at Meridian FinTech: Raymond, the CFO; Megan, head of engineering; Jonas, the product lead; and Paula, chief risk officer. The item on the agenda was the one nobody had yet solved — the finances of a software firm whose customers are banks.",
     "Raymond opened the dashboard. “The board wants us to maximize risk-adjusted NPV across the product lines without breaching our SLAs. So how do we actually do that?”",

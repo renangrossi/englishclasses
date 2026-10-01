@@ -12,6 +12,12 @@
   "audio": {
     "duration_label": "2:11"
   },
+  "grammar": [
+    "continuous",
+    "modals",
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "Dani is moving to Denver for a new job, and she has three weeks to find a place to live.",
     "Her budget is fourteen hundred dollars a month. In Denver that is not a lot, so she makes a list of what she really needs. The apartment must be near a bus line, because she does not have a car. It must allow cats. And it must have a washing machine in the building, because she does not want to spend every Saturday at a laundromat.",

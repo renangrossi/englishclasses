@@ -8,6 +8,12 @@
   "description": "An A2 listening and reading dialogue set in a New York pizzeria, covering ordering, asking for recommendations, paying and tipping, with useful expressions and exercises.",
   "source": "cefr/texts/restaurant-dialogue.docx",
   "provenance": "edited",
+  "grammar": [
+    "past-simple",
+    "modals",
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "The Bennett family — Mark, his wife Laura and their son Kevin — walk into Joe's Pizza on a cold evening. The place smells of fresh dough, and it is loud with conversation.",
     "Server: Hi there, welcome to Joe's! Table for three?",

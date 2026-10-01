@@ -14,6 +14,10 @@
     "voice": "en-US-JennyNeural",
     "duration_label": "1:14"
   },
+  "grammar": [
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "My name is Emma. I live in Chicago with my husband, Jack. We have a small apartment near a park, and I work at a coffee shop on the same street.",
     "This morning a man comes in. I don't know him. He looks tired.",

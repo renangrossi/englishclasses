@@ -11,6 +11,11 @@
   "audio": {
     "duration_label": "3:37"
   },
+  "grammar": [
+    "passive",
+    "comparatives",
+    "present-simple"
+  ],
   "passage": [
     "Most people's picture of online crime involves somebody breaking through a wall of security. Almost none of it works that way. The accounts that get taken over are taken over because a password was reused, or because somebody was persuaded to type it into the wrong box, and the defences that help are correspondingly unglamorous.",
     "The first is not reusing passwords. This matters more than making them complicated. When a company is breached, the stolen list of email addresses and passwords is sold, and the buyers try those combinations on every other service they can think of. If your email password is also your bank password, one company's bad day becomes yours. A password used in exactly one place is worth more than a clever password used in five.",

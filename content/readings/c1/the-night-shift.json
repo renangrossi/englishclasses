@@ -12,6 +12,13 @@
   "audio": {
     "duration_label": "3:24"
   },
+  "grammar": [
+    "passive",
+    "past-simple",
+    "comparatives",
+    "relative-clauses",
+    "present-simple"
+  ],
   "passage": [
     "The handover is at seven in the evening and it takes eleven minutes. The day team speaks quickly, in the clipped half-sentences of people who want to go home, and then they go home, and the corridor empties, and the building becomes something else.",
     "Marisol has worked nights for nine years. She did not choose them in any strong sense. The post was advertised, the differential was thirty per cent, and she had a daughter starting school who could not be left at six in the morning. The decision made itself, as most such decisions do, and then it became a life.",

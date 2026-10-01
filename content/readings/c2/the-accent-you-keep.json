@@ -1,0 +1,342 @@
+{
+  "id": "c2-reading-the-accent-you-keep",
+  "level": "C2",
+  "slug": "the-accent-you-keep",
+  "topic": "culture",
+  "title": "The Accent You Keep",
+  "subtitle": "Almost nobody who learns a language after childhood loses their accent, and the interesting question is not why — it is why that bothers anybody.",
+  "description": "A C2 reading and listening text on foreign accents: what the evidence says about losing one, what listeners actually do with accent, and the difference between intelligibility and approval.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "3:37"
+  },
+  "grammar": [
+    "passive",
+    "relative-clauses",
+    "present-simple"
+  ],
+  "passage": [
+    "The ambition is nearly universal among adult learners and almost never achieved. Somewhere beyond a certain age — the exact threshold is disputed and the disputes are more interesting than the number — the probability of acquiring a native-sounding accent in a second language falls close to zero, and it stays there regardless of how long you live in the country, how fluent you become, or how hard you work at it. A small number of adults do manage it. They are rare enough that they are studied individually, which tells you what you need to know about the odds.",
+    "The mechanism is not mysterious. An infant discriminates every sound contrast used by any human language and then, over the first year, stops: the brain prunes the distinctions its environment never uses, because committing to a sound system is what makes rapid comprehension possible. By the time an adult meets a new contrast, the perceptual categories have long since set. The familiar difficulty a Brazilian learner has with the English vowels in ship and sheep is not a failure of the tongue but of the ear — the two are being heard as the same sound, and nobody reliably produces a distinction they cannot hear.",
+    "So far this is uncontroversial. What follows is where the subject becomes worth arguing about.",
+    "The standard consolation is that accent does not matter as long as you are intelligible, and it is half true. Intelligibility and nativeness really are separable: a strong accent with accurate stress and rhythm is easier to follow than a mild one that puts the stress in the wrong place, which is why prosody repays practice far more than individual vowels do. If the goal is being understood, the work has a different shape than most learners assume, and it is finishable.",
+    "But the claim that accent therefore does not matter is a statement about how the world ought to work, offered as though it were a description of how it does. The research is uncomfortable and consistent. Listeners rate identical content as less truthful when it is delivered in an accent they find foreign, and they do so at speeds that rule out deliberation. In hiring, in housing, in the credibility given to testimony, accent carries a penalty that is not explained by comprehension difficulty, because it persists when the speech is perfectly comprehensible. The penalty is not really about understanding at all. It is a signal of outsider status, processed fast and below the level anybody would endorse if asked.",
+    "The honest conclusion is therefore double, and resists the single sentence people want from it. The accent is not going away, and the energy spent on it is better spent on prosody, on vocabulary, on the register work that actually determines whether a sentence lands. And the penalty is real, which means a learner who notices they are taken less seriously is not imagining it and should not be told they are. Those two facts sit together uncomfortably, and the advice industry tends to drop whichever one does not fit the slogan it is selling.",
+    "There is a third thing, less often said. An accent is also the only part of a second language that carries where the speaker came from. A person who has spent fifteen years acquiring English has, in the sound of it, a continuous record of having started somewhere else — and framing that as a defect to be eliminated is a strange way to describe evidence of the hardest intellectual work most adults ever do. The ambition to sound native is, examined closely, an ambition to conceal an achievement.",
+    "Which is not an argument for complacency about being understood. It is an argument about where the shame belongs. A listener who discounts an argument because of the vowels it arrives in has made an error, and it is theirs. The learner's job is to be clear. The rest is not their failure to fix."
+  ],
+  "vocabulary": [
+    {
+      "term": "threshold",
+      "definition": "the point at which something changes"
+    },
+    {
+      "term": "to dispute",
+      "definition": "to argue that something is not correct",
+      "match": "disputed"
+    },
+    {
+      "term": "odds",
+      "definition": "the probability of something happening"
+    },
+    {
+      "term": "to discriminate",
+      "definition": "to tell two things apart",
+      "match": "discriminates"
+    },
+    {
+      "term": "contrast",
+      "definition": "a difference between two sounds that changes meaning"
+    },
+    {
+      "term": "to prune",
+      "definition": "to cut away what is not needed",
+      "match": "prunes"
+    },
+    {
+      "term": "perceptual",
+      "definition": "relating to how the senses take things in"
+    },
+    {
+      "term": "to set",
+      "definition": "to become fixed and no longer changeable",
+      "match": "set"
+    },
+    {
+      "term": "uncontroversial",
+      "definition": "accepted by everybody; not argued about"
+    },
+    {
+      "term": "consolation",
+      "definition": "something said to make a hard fact easier to bear"
+    },
+    {
+      "term": "intelligible",
+      "definition": "able to be understood"
+    },
+    {
+      "term": "nativeness",
+      "definition": "the quality of sounding like a first-language speaker"
+    },
+    {
+      "term": "separable",
+      "definition": "able to be treated as two different things"
+    },
+    {
+      "term": "prosody",
+      "definition": "the rhythm, stress and melody of speech"
+    },
+    {
+      "term": "to repay",
+      "definition": "to be worth the effort put in",
+      "match": "repays"
+    },
+    {
+      "term": "deliberation",
+      "definition": "careful conscious thought"
+    },
+    {
+      "term": "testimony",
+      "definition": "a formal statement, especially in court"
+    },
+    {
+      "term": "penalty",
+      "definition": "a cost imposed on somebody"
+    },
+    {
+      "term": "to persist",
+      "definition": "to continue despite the conditions changing",
+      "match": "persists"
+    },
+    {
+      "term": "to endorse",
+      "definition": "to say publicly that you support something",
+      "match": "endorse"
+    },
+    {
+      "term": "to land",
+      "definition": "to have its intended effect on a listener",
+      "match": "lands"
+    },
+    {
+      "term": "slogan",
+      "definition": "a short phrase used to sell an idea"
+    },
+    {
+      "term": "to conceal",
+      "definition": "to hide"
+    },
+    {
+      "term": "complacency",
+      "definition": "being satisfied when you should not be"
+    },
+    {
+      "term": "to discount",
+      "definition": "to treat as worth less than it is",
+      "match": "discounts"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-acc-comp",
+      "type": "reading-comprehension",
+      "title": "Reading for Position",
+      "instructions": "The essay accepts one common claim, rejects another, and adds a third nobody made.",
+      "items": [
+        {
+          "id": "v1",
+          "prompt": "What does the author say about adults who do acquire a native accent?",
+          "options": [
+            "They are rare enough to be studied individually, which indicates the odds",
+            "They are more common than assumed",
+            "They began before age ten"
+          ],
+          "answerIndex": 0,
+          "explanation": "“which tells you what you need to know about the odds.”"
+        },
+        {
+          "id": "v2",
+          "prompt": "Why does an infant stop hearing contrasts it does not need?",
+          "options": [
+            "Committing to one sound system is what makes rapid comprehension possible",
+            "The ear physically changes",
+            "Parents correct them"
+          ],
+          "answerIndex": 0,
+          "explanation": "Pruning is described as a feature, not damage."
+        },
+        {
+          "id": "v3",
+          "prompt": "Why does the author call ship and sheep a problem of the ear, not the tongue?",
+          "options": [
+            "The two are heard as one sound, and you cannot reliably produce what you cannot hear",
+            "The tongue position is identical",
+            "Portuguese has no long vowels"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated directly at the end of that paragraph."
+        },
+        {
+          "id": "v4",
+          "prompt": "Why does prosody repay practice more than individual vowels?",
+          "options": [
+            "A strong accent with correct stress is easier to follow than a mild one with wrong stress",
+            "Vowels cannot be improved",
+            "Listeners ignore vowels"
+          ],
+          "answerIndex": 0,
+          "explanation": "Intelligibility and nativeness are separable."
+        },
+        {
+          "id": "v5",
+          "prompt": "What is the author's objection to “accent doesn't matter if you're intelligible”?",
+          "options": [
+            "It describes how the world ought to work as though it described how it does",
+            "It is factually wrong about intelligibility",
+            "It discourages practice"
+          ],
+          "answerIndex": 0,
+          "explanation": "The author grants the first half and rejects the inference."
+        },
+        {
+          "id": "v6",
+          "prompt": "Why does the author say the accent penalty is not about comprehension?",
+          "options": [
+            "It persists when the speech is perfectly comprehensible",
+            "Listeners say so when asked",
+            "It only affects written work"
+          ],
+          "answerIndex": 0,
+          "explanation": "It functions as a signal of outsider status, processed too fast for deliberation."
+        },
+        {
+          "id": "v7",
+          "prompt": "What does the author say a learner who feels taken less seriously should be told?",
+          "options": [
+            "That they are not imagining it",
+            "That it will pass with fluency",
+            "That they should work on vowels"
+          ],
+          "answerIndex": 0,
+          "explanation": "“should not be told they are.”"
+        },
+        {
+          "id": "v8",
+          "prompt": "What does the author accuse the advice industry of?",
+          "options": [
+            "Dropping whichever of the two facts does not fit its slogan",
+            "Inventing the research",
+            "Overcharging"
+          ],
+          "answerIndex": 0,
+          "explanation": "The honest conclusion is double and resists a single sentence."
+        },
+        {
+          "id": "v9",
+          "prompt": "What is the “third thing, less often said”?",
+          "options": [
+            "An accent is a record of the hardest intellectual work most adults ever do",
+            "Accents are attractive",
+            "Accents fade eventually"
+          ],
+          "answerIndex": 0,
+          "explanation": "“an ambition to conceal an achievement.”"
+        },
+        {
+          "id": "v10",
+          "prompt": "What is the final distinction the author draws?",
+          "options": [
+            "The learner's job is clarity; the listener's prejudice is the listener's error",
+            "Learners should stop worrying about clarity",
+            "Accents should be corrected early"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It is an argument about where the shame belongs.”"
+        }
+      ]
+    },
+    {
+      "id": "c2-acc-vocab",
+      "type": "vocabulary",
+      "title": "Precision Words",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "vv1",
+          "prompt": "The rhythm, stress and melody of speech is ___.",
+          "options": [
+            "prosody",
+            "nativeness",
+            "contrast"
+          ],
+          "answerIndex": 0,
+          "explanation": "The author argues it repays practice more than vowels do."
+        },
+        {
+          "id": "vv2",
+          "prompt": "Able to be understood is ___.",
+          "options": [
+            "intelligible",
+            "separable",
+            "perceptual"
+          ],
+          "answerIndex": 0,
+          "explanation": "Intelligibility is separable from nativeness."
+        },
+        {
+          "id": "vv3",
+          "prompt": "To treat something as worth less than it is, is to ___ it.",
+          "options": [
+            "discount",
+            "endorse",
+            "dispute"
+          ],
+          "answerIndex": 0,
+          "explanation": "What a listener does to an argument because of its vowels."
+        },
+        {
+          "id": "vv4",
+          "prompt": "Careful conscious thought is ___.",
+          "options": [
+            "deliberation",
+            "complacency",
+            "consolation"
+          ],
+          "answerIndex": 0,
+          "explanation": "The speed of the judgement rules it out."
+        },
+        {
+          "id": "vv5",
+          "prompt": "Being satisfied when you should not be is ___.",
+          "options": [
+            "complacency",
+            "testimony",
+            "opacity"
+          ],
+          "answerIndex": 0,
+          "explanation": "The author is careful not to argue for it."
+        },
+        {
+          "id": "vv6",
+          "prompt": "To cut away what is not needed is to ___.",
+          "options": [
+            "prune",
+            "conceal",
+            "persist"
+          ],
+          "answerIndex": 0,
+          "explanation": "What the infant brain does to unused sound contrasts."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Which English sounds do you hear as the same? Try ship and sheep, and then produce them.",
+    "Have you been treated differently because of your accent? Describe it precisely.",
+    "The author says the ambition to sound native is an ambition to conceal an achievement. Do you accept that?",
+    "If prosody matters more than vowels, how would you change the way you practise?",
+    "Write about 300 words on where you think the responsibility sits between speaker and listener."
+  ]
+}

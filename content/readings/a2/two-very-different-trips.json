@@ -8,6 +8,11 @@
   "description": "An A2 reading and listening text comparing a trip to Sydney with a trip to Bangkok, practicing comparatives and the language of recommendation (you should, it's worth, don't miss).",
   "source": "cefr/texts/australia-and-thailand.docx",
   "provenance": "rewritten",
+  "grammar": [
+    "past-simple",
+    "comparatives",
+    "present-simple"
+  ],
   "passage": [
     "My sister and I took two long trips last year: one to Sydney, in Australia, and one to Bangkok, in Thailand. People often ask which was better. That is the wrong question. They were so different that comparing them is almost unfair — but here is what we learned.",
     "Sydney is an outdoor city, and it is built around its harbor. You should start there. Walk along Circular Quay, where the ferries come in, and you will see the Opera House on one side and the Harbour Bridge on the other. The ferry to Manly costs very little and gives you better views than most paid tours.",

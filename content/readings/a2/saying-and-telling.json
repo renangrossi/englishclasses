@@ -12,6 +12,14 @@
   "audio": {
     "duration_label": "1:44"
   },
+  "grammar": [
+    "present-perfect",
+    "past-simple",
+    "continuous",
+    "modals",
+    "reported-speech",
+    "present-simple"
+  ],
   "passage": [
     "On my first day at the store, my manager told me to arrive at eight. I got there at ten to eight, because I did not want to be late on the first morning.",
     "My manager's name is Diane. She said good morning, and then she talked to me for about twenty minutes about how the store works. She told me where the break room was, she told me when my lunch break was, and she said I could ask her anything at all.",

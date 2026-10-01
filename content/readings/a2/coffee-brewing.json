@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "2:06"
   },
+  "grammar": [
+    "future",
+    "continuous",
+    "imperatives",
+    "present-simple"
+  ],
   "passage": [
     "Brewing coffee means getting the flavor and the smell out of ground coffee beans by adding hot water. It sounds simple, and it is — but a few small choices make the difference between a good cup and a disappointing one. Here are the steps.",
     "First, grind the beans. Use fresh beans if you can, and grind them just before you brew. How fine you grind them depends on your method: a French press needs a coarse grind, while an espresso machine needs a very fine one.",

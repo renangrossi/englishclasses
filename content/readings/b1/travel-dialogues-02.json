@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "3:29"
   },
+  "grammar": [
+    "comparatives",
+    "questions",
+    "imperatives",
+    "present-simple"
+  ],
   "passage": [
     "Manager: So you'll be working here at reception, by the entrance. Your main job is talking to guests and sorting out whatever they need. They're paying to be here, so whatever else happens, you stay polite.",
     "New Employee: Understood. So when someone arrives and wants to check in, I take their details and give them the key?",

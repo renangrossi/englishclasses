@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "3:08"
   },
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple",
+    "comparatives"
+  ],
   "passage": [
     "John Snow was born in York in 1813, the eldest of nine children in a family with no money to speak of. At fourteen he was apprenticed to a surgeon, which was how medicine was entered at the time, and he went on to qualify in London. He became one of the best anaesthetists in the country — he gave chloroform to Queen Victoria at two of her births — and that is not what he is remembered for.",
     "In the summer of 1854, cholera broke out in Soho, in central London. It killed with a speed that is hard to convey: a person could be well in the morning and dead before the next morning. In the worst week, more than five hundred people died within a few streets.",

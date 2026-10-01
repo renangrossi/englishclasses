@@ -1,0 +1,289 @@
+{
+  "id": "a1-reading-going-to-the-airport",
+  "level": "A1",
+  "slug": "going-to-the-airport",
+  "order": 15,
+  "topic": "travel",
+  "title": "Going to the Airport",
+  "subtitle": "Emma's sister is flying in at six, and the traffic is bad.",
+  "description": "An A1 reading and listening text about an airport trip: time, directions and the words you need at arrivals.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:08"
+  },
+  "grammar": [
+    "present-simple"
+  ],
+  "passage": [
+    "My sister Kate is coming from Ohio today. Her plane arrives at six o'clock in the evening.",
+    "The airport is far — forty minutes by car, more when the traffic is bad. Jack drives. We leave at half past four, because I do not want to be late.",
+    "The traffic is bad. Of course it is. We arrive at ten past five and we park the car.",
+    "Inside, I look at the big screen. Flight 412 from Columbus: on time. We have fifty minutes, so we buy two coffees and we wait.",
+    "At six o'clock the people start coming out. I see Kate with a small bag and a very tired face.",
+    "“How was the flight?”",
+    "“Long,” she says. “And the man next to me talked for two hours.”",
+    "We walk to the car. Outside it is cold and dark, and it is good to have her here."
+  ],
+  "vocabulary": [
+    {
+      "term": "plane",
+      "definition": "the machine that flies people from city to city"
+    },
+    {
+      "term": "to arrive",
+      "definition": "to get to a place",
+      "match": "arrives"
+    },
+    {
+      "term": "airport",
+      "definition": "the place where planes leave from and come to"
+    },
+    {
+      "term": "far",
+      "definition": "a long way away"
+    },
+    {
+      "term": "traffic",
+      "definition": "all the cars on the road"
+    },
+    {
+      "term": "to drive",
+      "definition": "to make a car go",
+      "match": "drives"
+    },
+    {
+      "term": "to park",
+      "definition": "to leave a car in a place and stop",
+      "match": "park"
+    },
+    {
+      "term": "screen",
+      "definition": "the flat board or display with information on it"
+    },
+    {
+      "term": "flight",
+      "definition": "a trip in a plane"
+    },
+    {
+      "term": "on time",
+      "definition": "not early and not late",
+      "match": "on time"
+    },
+    {
+      "term": "to wait",
+      "definition": "to stay in a place until something happens",
+      "match": "wait"
+    },
+    {
+      "term": "bag",
+      "definition": "the thing you carry your clothes in when you travel"
+    },
+    {
+      "term": "tired",
+      "definition": "when you need to rest or sleep"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-air-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "p1",
+          "prompt": "Who is coming to visit?",
+          "options": [
+            "Emma's sister",
+            "Emma's mother",
+            "Emma's brother"
+          ],
+          "answerIndex": 0,
+          "explanation": "“My sister Kate is coming from Ohio today.”"
+        },
+        {
+          "id": "p2",
+          "prompt": "Why do they leave at half past four?",
+          "options": [
+            "Because Emma does not want to be late",
+            "Because the plane is early",
+            "Because Jack finishes work then"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated directly — and the traffic is bad, so she was right."
+        },
+        {
+          "id": "p3",
+          "prompt": "How do they go to the airport?",
+          "options": [
+            "By car",
+            "By bus",
+            "By train"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Jack drives.”"
+        },
+        {
+          "id": "p4",
+          "prompt": "What time do they arrive?",
+          "options": [
+            "Ten past five",
+            "Half past four",
+            "Six o'clock"
+          ],
+          "answerIndex": 0,
+          "explanation": "“We arrive at ten past five and we park the car.”"
+        },
+        {
+          "id": "p5",
+          "prompt": "Is the plane late?",
+          "options": [
+            "No, it is on time",
+            "Yes, by an hour",
+            "The text does not say"
+          ],
+          "answerIndex": 0,
+          "explanation": "The screen says “Flight 412 from Columbus: on time.”"
+        },
+        {
+          "id": "p6",
+          "prompt": "Why was Kate's flight difficult?",
+          "options": [
+            "It was long and a man talked for two hours",
+            "The plane was late",
+            "She had no seat"
+          ],
+          "answerIndex": 0,
+          "explanation": "“And the man next to me talked for two hours.”"
+        }
+      ]
+    },
+    {
+      "id": "a1-air-match",
+      "type": "matching",
+      "title": "At the Airport",
+      "instructions": "Match each word to its meaning.",
+      "items": [
+        {
+          "id": "pm1",
+          "pairs": [
+            {
+              "left": "a flight",
+              "right": "a trip in a plane"
+            },
+            {
+              "left": "on time",
+              "right": "not early and not late"
+            },
+            {
+              "left": "traffic",
+              "right": "all the cars on the road"
+            },
+            {
+              "left": "to park",
+              "right": "to leave a car in a place and stop"
+            },
+            {
+              "left": "to arrive",
+              "right": "to get to a place"
+            },
+            {
+              "left": "far",
+              "right": "a long way away"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-air-fill",
+      "type": "fill-blank",
+      "title": "Travel Words",
+      "instructions": "Complete each sentence with one word.",
+      "items": [
+        {
+          "id": "pf1",
+          "prompt": "The ___ was bad, so we were slow.",
+          "answers": [
+            "traffic"
+          ],
+          "options": [
+            "traffic",
+            "flight",
+            "screen"
+          ],
+          "explanation": "Traffic is all the cars on the road."
+        },
+        {
+          "id": "pf2",
+          "prompt": "Her plane ___ at six o'clock.",
+          "answers": [
+            "arrives"
+          ],
+          "options": [
+            "arrives",
+            "waits",
+            "parks"
+          ],
+          "explanation": "To arrive is to get to a place."
+        },
+        {
+          "id": "pf3",
+          "prompt": "The flight is not late. It is ___ ___.",
+          "answers": [
+            "on",
+            "time"
+          ],
+          "options": [
+            [
+              "on",
+              "at",
+              "in"
+            ],
+            [
+              "time",
+              "hour",
+              "clock"
+            ]
+          ],
+          "explanation": "On time means not early and not late."
+        },
+        {
+          "id": "pf4",
+          "prompt": "The airport is ___ from our apartment — forty minutes by car.",
+          "answers": [
+            "far"
+          ],
+          "options": [
+            "far",
+            "near",
+            "cold"
+          ],
+          "explanation": "Far means a long way away."
+        },
+        {
+          "id": "pf5",
+          "prompt": "We ___ for fifty minutes and drank coffee.",
+          "answers": [
+            "waited"
+          ],
+          "options": [
+            "waited",
+            "arrived",
+            "parked"
+          ],
+          "explanation": "To wait is to stay until something happens."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "When did you last go to an airport?",
+    "Do you like flying?",
+    "Who comes to visit you?",
+    "Is the traffic bad where you live?"
+  ]
+}

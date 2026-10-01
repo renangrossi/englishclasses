@@ -2,7 +2,7 @@
   "id": "c2-reading-the-same-news-four-ways",
   "level": "C2",
   "slug": "the-same-news-four-ways",
-  "topic": "work",
+  "topic": "business",
   "title": "The Same News, Four Ways",
   "subtitle": "One decision, four documents, four registers — and four different quantities of truth.",
   "description": "A C2 reading and listening text on register: the same corporate decision written as a press release, an internal email, a legal notice and a message between colleagues, and what each form is built to conceal.",
@@ -12,6 +12,15 @@
   "audio": {
     "duration_label": "4:17"
   },
+  "grammar": [
+    "passive",
+    "future",
+    "continuous",
+    "modals",
+    "comparatives",
+    "relative-clauses",
+    "present-simple"
+  ],
   "passage": [
     "A company is closing a factory. Six hundred people will lose their jobs in November. That is the entire content of the news, and it does not change in anything that follows. What changes is the register, and with it the quantity of truth that survives the journey from the decision to the reader.",
     "The press release says that the company is consolidating its manufacturing footprint to better serve evolving customer needs, and that the transition will be managed with the greatest possible care for colleagues affected. Three features of that sentence are worth noting. The agent has disappeared: nobody closes anything, a footprint is consolidated. The timeframe has gone soft, a decision with a date becoming a transition without one. And the people have been renamed twice over — first as colleagues, which implies a relationship that is in fact being terminated, and then as affected, which is the grammar of weather rather than of choice. Nothing in the sentence is false. It is simply built so that no reader can be hurt by it, which means built so that no reader can quite understand it either.",

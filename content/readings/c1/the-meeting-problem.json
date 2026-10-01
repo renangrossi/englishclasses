@@ -12,6 +12,12 @@
   "audio": {
     "duration_label": "3:23"
   },
+  "grammar": [
+    "passive",
+    "continuous",
+    "comparatives",
+    "relative-clauses"
+  ],
   "passage": [
     "Surveys of office workers return the same result with tedious reliability: most people believe at least half the meetings they attend are unnecessary. The finding is stable across countries and industries, and it has been known for decades. What is interesting is not the complaint but the fact that nothing much happens as a result. The people who hold this view include the people who schedule the meetings.",
     "The usual explanation is bad management, which is true in the sense that every organizational problem is bad management and useless for the same reason. A better account starts by asking what a meeting does besides the thing it claims to do.",

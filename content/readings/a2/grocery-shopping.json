@@ -12,6 +12,11 @@
   "audio": {
     "duration_label": "1:54"
   },
+  "grammar": [
+    "present-perfect",
+    "past-simple",
+    "questions"
+  ],
   "passage": [
     "Cynthia wanted to cook something special. Her husband had started a new job that week, and she thought a good dinner was a better way to celebrate than a card.",
     "She did not know yet what she was going to make. She had a rough idea — a salad, a main course and something sweet — but nothing more than that, so she went to the store to look for ideas.",

@@ -645,6 +645,85 @@ body:not(:has(.level-toc)) .section {
 .card__foot { margin-top: auto; padding-top: var(--space-xs); display: flex; justify-content: center; }
 
 /* Lesson card — used across level & hub pages for individual downloadable items */
+/* =======================================================================
+   TAG FILTER (reading hub)
+   Replaces the three lines of prose that used to sit under each level --
+   "English you practice", "Topics", "Ready to read now" -- which told a
+   student what was in the level but gave them no way to act on it.
+   ======================================================================= */
+.tag-filter { max-width: 72ch; margin-bottom: var(--space-lg); }
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4em;
+  margin-bottom: 0.6em;
+}
+.tag-row__label {
+  flex: 0 0 auto;
+  min-width: 5.5em;
+  font-size: var(--step--1);
+  font-weight: 700;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  font: inherit;
+  font-size: var(--step--1);
+  line-height: 1.2;
+  padding: 0.38em 0.75em;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 999px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+.tag-chip:hover { border-color: var(--color-accent); color: var(--color-accent); }
+.tag-chip:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.tag-chip[aria-pressed="true"] {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-text-on-dark);
+}
+.tag-chip__n {
+  font-size: 0.82em;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.65;
+}
+.tag-chip[aria-pressed="true"] .tag-chip__n { opacity: 0.85; }
+
+.tag-filter__status {
+  font-size: var(--step--1);
+  color: var(--color-text-muted);
+  margin: 0.5em 0 0;
+}
+.tag-filter__clear {
+  font: inherit;
+  font-size: var(--step--1);
+  margin-top: 0.4em;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-accent);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* A topic heading and its grid are hidden together when the filter empties
+   the group, so a lone heading never sits above nothing. */
+.topic-group[hidden], .grid[hidden], .lesson-card[hidden] { display: none !important; }
+
+@media (max-width: 640px) {
+  .tag-row__label { min-width: 100%; margin-bottom: 0.15em; }
+}
+
 /* Heading above each topic group on the reading hub. The library is ordered
    by level first and by topic inside it, and without a label the grouping is
    invisible -- a student just sees the order change for no stated reason. */

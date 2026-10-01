@@ -11,6 +11,10 @@
   "audio": {
     "duration_label": "3:31"
   },
+  "grammar": [
+    "passive",
+    "relative-clauses"
+  ],
   "passage": [
     "Cachaça is a Brazilian spirit distilled from sugarcane, and it is the base of the caipirinha. It is often described as a kind of rum, which is close enough to be useful and wrong in one important respect. Most rum is made from molasses, the thick dark syrup left over once sugar has been crystallised out of the cane juice. Cachaça is made from the fresh juice itself, pressed and fermented within hours of cutting. That single difference is why the two taste as unlike each other as they do: cachaça keeps a grassy, vegetal quality that molasses-based spirits lose.",
     "The process has four stages, and the first is the one with the tightest deadline. The cane is cut and crushed, and the juice is filtered. From the moment the cane is cut it begins to deteriorate, so a serious producer presses within a day. The juice is then fermented in tanks for anything from a day to a few days, with yeast converting the sugar into alcohol. Some distilleries use commercial yeast for consistency; others use strains they have cultivated on the farm for generations, which is one of the things that makes a producer's cachaça taste like theirs and nobody else's.",

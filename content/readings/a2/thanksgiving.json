@@ -1,0 +1,282 @@
+{
+  "id": "a2-reading-thanksgiving",
+  "level": "A2",
+  "slug": "thanksgiving",
+  "topic": "culture",
+  "title": "Thanksgiving",
+  "subtitle": "The biggest meal of the American year, and the busiest travel day.",
+  "description": "An A2 reading and listening text about Thanksgiving in the United States: the food, the travel, the football and the arguments.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "1:42"
+  },
+  "grammar": [
+    "passive",
+    "relative-clauses"
+  ],
+  "passage": [
+    "Thanksgiving is on the fourth Thursday of November. For many Americans it is a bigger day than Christmas.",
+    "People travel to be with family. The Wednesday before Thanksgiving is one of the busiest travel days of the year: the airports are full, the roads are slow, and everybody is tired before the holiday starts.",
+    "The meal is almost always the same. There is turkey, and there are potatoes, and there is a sauce made from a small red fruit called a cranberry. At the end there is pumpkin pie. Families argue about the details — what goes inside the turkey, whose recipe is correct — and the argument is part of the day.",
+    "Cooking takes a long time. A big turkey needs four or five hours in the oven, so somebody gets up very early. Everybody else arrives at one or two o'clock and says the kitchen smells wonderful.",
+    "People eat at about three in the afternoon, which is late for lunch and early for dinner. After the meal, some of the family watch American football on television and some of them fall asleep in a chair.",
+    "The next day is called Black Friday. The stores open early and everything is cheap, and some people go shopping at five in the morning. Other people stay at home and eat the same meal again, cold, which is better.",
+    "Not every family is happy. Thanksgiving puts relatives in one room for six hours, and not all of them agree about everything. But most people go. It is that kind of day."
+  ],
+  "vocabulary": [
+    {
+      "term": "holiday",
+      "definition": "a special day when people do not work"
+    },
+    {
+      "term": "turkey",
+      "definition": "a large bird Americans eat at Thanksgiving"
+    },
+    {
+      "term": "sauce",
+      "definition": "a thick liquid you put on food"
+    },
+    {
+      "term": "recipe",
+      "definition": "the instructions for cooking something"
+    },
+    {
+      "term": "to argue",
+      "definition": "to disagree in words",
+      "match": "argue"
+    },
+    {
+      "term": "oven",
+      "definition": "the closed hot box you cook food inside"
+    },
+    {
+      "term": "wonderful",
+      "definition": "very good"
+    },
+    {
+      "term": "to fall asleep",
+      "definition": "to start sleeping",
+      "match": "fall asleep"
+    },
+    {
+      "term": "store",
+      "definition": "a place where you buy things — American; British say shop",
+      "match": "stores"
+    },
+    {
+      "term": "cheap",
+      "definition": "not costing a lot of money"
+    },
+    {
+      "term": "relative",
+      "definition": "a person in your family",
+      "match": "relatives"
+    },
+    {
+      "term": "to agree",
+      "definition": "to have the same opinion",
+      "match": "agree"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-thx-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "t1",
+          "prompt": "When is Thanksgiving?",
+          "options": [
+            "The fourth Thursday in November",
+            "The fourth Friday in November",
+            "The first Thursday in December"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated in the first sentence."
+        },
+        {
+          "id": "t2",
+          "prompt": "Why is the Wednesday before it so busy?",
+          "options": [
+            "People are travelling to be with family",
+            "The stores are cheap",
+            "People are cooking"
+          ],
+          "answerIndex": 0,
+          "explanation": "“one of the busiest travel days of the year”."
+        },
+        {
+          "id": "t3",
+          "prompt": "What does the text say about the arguments over the food?",
+          "options": [
+            "They are part of the day",
+            "They ruin the meal",
+            "They are rare"
+          ],
+          "answerIndex": 0,
+          "explanation": "“the argument is part of the day.”"
+        },
+        {
+          "id": "t4",
+          "prompt": "Why does somebody get up very early?",
+          "options": [
+            "Because a big turkey needs four or five hours to cook",
+            "Because the stores open early",
+            "Because the family arrives at six"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated in the fourth paragraph."
+        },
+        {
+          "id": "t5",
+          "prompt": "What is unusual about the time of the meal?",
+          "options": [
+            "Three in the afternoon is late for lunch and early for dinner",
+            "It is at midnight",
+            "It is at breakfast time"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated directly."
+        },
+        {
+          "id": "t6",
+          "prompt": "What is Black Friday?",
+          "options": [
+            "The day after, when stores open early and things are cheap",
+            "A day of fasting",
+            "The Thursday itself"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The stores open early and everything is cheap.”"
+        },
+        {
+          "id": "t7",
+          "prompt": "What does the writer think is better than shopping?",
+          "options": [
+            "Staying home and eating the same meal cold",
+            "Going to the airport",
+            "Watching football"
+          ],
+          "answerIndex": 0,
+          "explanation": "“…eat the same meal again, cold, which is better.”"
+        },
+        {
+          "id": "t8",
+          "prompt": "What does the text admit about families at Thanksgiving?",
+          "options": [
+            "Not everyone agrees, but most people still go",
+            "Everyone is always happy",
+            "Most families do not meet"
+          ],
+          "answerIndex": 0,
+          "explanation": "“But most people go. It is that kind of day.”"
+        }
+      ]
+    },
+    {
+      "id": "a2-thx-vocab",
+      "type": "vocabulary",
+      "title": "Holiday Words",
+      "instructions": "Choose the word that matches the meaning.",
+      "items": [
+        {
+          "id": "tv1",
+          "prompt": "The instructions for cooking something are a ___.",
+          "options": [
+            "recipe",
+            "sauce",
+            "holiday"
+          ],
+          "answerIndex": 0,
+          "explanation": "Families argue about whose recipe is correct."
+        },
+        {
+          "id": "tv2",
+          "prompt": "The closed hot box you cook inside is an ___.",
+          "options": [
+            "oven",
+            "airport",
+            "store"
+          ],
+          "answerIndex": 0,
+          "explanation": "The turkey needs four or five hours in it."
+        },
+        {
+          "id": "tv3",
+          "prompt": "A person in your family is a ___.",
+          "options": [
+            "relative",
+            "recipe",
+            "holiday"
+          ],
+          "answerIndex": 0,
+          "explanation": "Thanksgiving puts relatives in one room for six hours."
+        },
+        {
+          "id": "tv4",
+          "prompt": "To have the same opinion is to ___.",
+          "options": [
+            "agree",
+            "argue",
+            "travel"
+          ],
+          "answerIndex": 0,
+          "explanation": "To argue is the opposite."
+        },
+        {
+          "id": "tv5",
+          "prompt": "In American English, a place where you buy things is a ___.",
+          "options": [
+            "store",
+            "shop",
+            "market"
+          ],
+          "answerIndex": 0,
+          "explanation": "British English says shop."
+        }
+      ]
+    },
+    {
+      "id": "a2-thx-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Is it true or false?",
+      "items": [
+        {
+          "id": "tt1",
+          "statement": "For many Americans, Thanksgiving is bigger than Christmas.",
+          "answer": true,
+          "explanation": "True — stated in the first paragraph."
+        },
+        {
+          "id": "tt2",
+          "statement": "The food is different in every family.",
+          "answer": false,
+          "explanation": "False. “The meal is almost always the same” — only the details are argued about."
+        },
+        {
+          "id": "tt3",
+          "statement": "People eat at about three in the afternoon.",
+          "answer": true,
+          "explanation": "True — late for lunch, early for dinner."
+        },
+        {
+          "id": "tt4",
+          "statement": "Everybody goes shopping on Black Friday.",
+          "answer": false,
+          "explanation": "False. Some do; others stay home and eat leftovers."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "What is the biggest family holiday where you live?",
+    "What food must be on the table?",
+    "Do people travel a long way for it?",
+    "Is there an argument every year? What is it about?"
+  ]
+}

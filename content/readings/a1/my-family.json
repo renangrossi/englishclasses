@@ -14,6 +14,9 @@
     "voice": "en-US-JennyNeural",
     "duration_label": "1:07"
   },
+  "grammar": [
+    "present-simple"
+  ],
   "passage": [
     "My family is not big. I have one brother and one sister.",
     "My parents live in Ohio, in the same house for thirty years. My father, Dan, is sixty-two. He works in a store. My mother, Laura, is sixty, and she is a nurse. She works at night.",

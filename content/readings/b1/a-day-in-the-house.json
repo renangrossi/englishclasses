@@ -12,6 +12,12 @@
   "audio": {
     "duration_label": "2:50"
   },
+  "grammar": [
+    "present-perfect",
+    "past-simple",
+    "continuous",
+    "relative-clauses"
+  ],
   "passage": [
     "The sun came through the blinds and woke Sarah before her alarm, which almost never happens and which she decided to treat as a good sign. She stretched, pushed the covers off, and went downstairs.",
     "Her father John was already in the kitchen. The coffee machine was making the noise it makes — a gurgle and then a long hiss — and the smell had reached the stairs before she did. He had the radio on low and was laying the table: plates, bowls, and a handful of silverware he was distributing without much attention to which side anything went on.",

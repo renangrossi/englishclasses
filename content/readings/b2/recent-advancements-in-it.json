@@ -11,6 +11,13 @@
   "audio": {
     "duration_label": "3:54"
   },
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple",
+    "modals",
+    "comparatives"
+  ],
   "passage": [
     "Two developments have done more than any others to change what software can do: an enormous increase in the computing power available to train artificial intelligence, and a change in what that software is asked to do once trained. The first is a story about buildings. The second is a story about responsibility.",
     "Modern AI systems — particularly large language models and the multimodal systems that handle text, images and audio together — require computing power on a scale that has no real precedent in civilian technology. That power lives in hyperscale data centers: purpose-built facilities, often the size of several warehouses, packed with specialized processors and built for nothing except training and running these models.",

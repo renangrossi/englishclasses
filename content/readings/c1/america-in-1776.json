@@ -11,6 +11,11 @@
   "audio": {
     "duration_label": "7:16"
   },
+  "grammar": [
+    "passive",
+    "past-simple",
+    "comparatives"
+  ],
   "passage": [
     "In 1776, most of the world's population lived under hereditary monarchs, empires or rigidly hierarchical systems. That year, thirteen British colonies along the eastern seaboard of North America issued a document that challenged the prevailing political order outright. The Declaration of Independence asserted that governments derive their just powers from the consent of the governed, and that individuals hold unalienable rights to life, liberty and the pursuit of happiness. This was not simply a local rebellion over taxes and distant administration. It was a radical experiment in self-government, rooted in Enlightenment thought, and the subsequent history of the United States has continued to reflect both the power and the strain of those founding claims.",
     "The world it departed from is worth recalling precisely. France was ruled by Louis XVI under the doctrine of divine right. The Russian Empire was expanding under Catherine the Great. The Habsburgs and the Ottoman sultans governed multi-ethnic territories with little notion of popular sovereignty. In East Asia, the Qing dynasty administered a vast Confucian bureaucracy built on hierarchy and continuity rather than individual rights. Across much of Africa, the Middle East and South Asia, authority flowed downward from rulers rather than upward from citizens. Even Britain, the most constitutionally advanced power in Europe, combined monarchy with a parliament representing a narrow propertied elite.",

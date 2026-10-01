@@ -11,6 +11,15 @@
   "audio": {
     "duration_label": "3:53"
   },
+  "grammar": [
+    "passive",
+    "future",
+    "continuous",
+    "modals",
+    "comparatives",
+    "relative-clauses",
+    "present-simple"
+  ],
   "passage": [
     "Register is the part of English that textbooks describe last and employers notice first. It is not politeness, exactly, and it is not vocabulary size. It is the set of choices that tells a reader what kind of relationship you think you are in. The clearest way to see it is to take one piece of news and write it twice.",
     "Here is the formal version — a message from a company to its staff.",

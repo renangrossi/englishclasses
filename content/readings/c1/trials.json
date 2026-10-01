@@ -11,6 +11,11 @@
   "audio": {
     "duration_label": "4:30"
   },
+  "grammar": [
+    "passive",
+    "past-simple",
+    "comparatives"
+  ],
   "passage": [
     "A trial is a narrower instrument than it appears from outside. It does not establish what happened; it establishes whether a particular charge has been proved to a particular standard by a particular party. Three American cases, very different from one another, show how much that distinction matters — and how reliably the public ignores it.",
     "The first is the Scopes trial of 1925. Tennessee had passed the Butler Act, prohibiting the teaching in state schools of any theory denying the biblical account of creation, and a young high-school teacher named John Scopes agreed to stand as a test case. The trial brought Clarence Darrow, the most famous defence attorney of his generation, against William Jennings Bryan, three times a presidential candidate and the country's leading religious populist. It was carried live on radio, which had barely been done before.",

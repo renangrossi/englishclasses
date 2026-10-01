@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "3:59"
   },
+  "grammar": [
+    "passive",
+    "past-simple",
+    "future",
+    "present-simple"
+  ],
   "passage": [
     "Beer is made from four things: grain, water, hops and yeast. The grain is usually barley, which is malted — allowed to begin sprouting, then dried — so that its starch turns into sugar the yeast can eat. The yeast then ferments that sugar — eats it, and gives off alcohol as it goes. The hops are flowers, added mainly for bitterness and aroma, and they are the reason one beer tastes sharp and another tastes soft. Everything on a beer menu is a variation on those four ingredients.",
     "The first split is between lager and ale, and it is not about colour, despite what most people assume. It is about the yeast. Lager yeast works slowly, at cool temperatures, settling to the bottom of the tank; the beer is then stored for weeks while the flavours settle. That is where the name comes from — lagern is German for “to store”. Ale yeast works fast and warm, at the top of the tank, and produces more fruity flavours as it goes. A lager can be almost black and an ale can be pale gold. The yeast is what decides the category.",

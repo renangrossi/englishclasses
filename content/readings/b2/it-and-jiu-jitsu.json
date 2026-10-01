@@ -12,6 +12,13 @@
   "audio": {
     "duration_label": "2:43"
   },
+  "grammar": [
+    "present-perfect",
+    "past-simple",
+    "modals",
+    "comparatives",
+    "relative-clauses"
+  ],
   "passage": [
     "James had been drawn to two things for as long as he could remember: computers and jiu-jitsu. He took after his father in that, which he found slightly annoying and mostly reassuring. His father was a software engineer during the day and a jiu-jitsu black belt in the evenings, and he moved between the two without appearing to notice the distance. James wanted to live up to that.",
     "Through his teenage years he spent most of his free hours coding, and kept running into the kind of problem that makes people give up. He did not give up. He had a knack for taking a complicated algorithm apart, seeing which piece was actually wrong, and putting it back together — which, he came to realize, is close to what happens on a mat. You do not overpower a good opponent. You find the one point where their position depends on something they cannot hold.",

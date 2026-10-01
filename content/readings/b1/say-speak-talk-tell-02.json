@@ -11,6 +11,17 @@
   "audio": {
     "duration_label": "2:02"
   },
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple",
+    "future",
+    "continuous",
+    "comparatives",
+    "reported-speech",
+    "relative-clauses",
+    "present-simple"
+  ],
   "passage": [
     "I had been putting off buying a new laptop for about a year, and last Saturday the old one finally made the decision for me by refusing to turn on. So I spent the day shopping, which I do not enjoy, and came home having spent more than I meant to, which is the usual outcome.",
     "The first shop was the good one. I told the assistant what I actually needed — something that could handle video editing without sounding like it was about to take off — and she listened, which is rarer than it should be. She spoke about three machines in turn and was honest that the most expensive one was more than I needed. Then she said something that decided it: “This one will still be fast in four years. That one won't.” I said I would take it.",

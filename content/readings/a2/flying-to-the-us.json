@@ -8,6 +8,11 @@
   "description": "An A2 listening and reading page with three model dialogues: booking a flight by phone, reconfirming a reservation, and answering questions at US passport control.",
   "source": "cefr/texts/travel-dialogues.docx",
   "provenance": "rewritten",
+  "grammar": [
+    "modals",
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "Three short conversations you are likely to have on the way to the United States. The traveler's lines are filled in here as models — read them, then cover them and try your own.",
     "1. Booking a flight by phone",

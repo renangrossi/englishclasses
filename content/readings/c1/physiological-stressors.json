@@ -2,7 +2,7 @@
   "id": "c1-reading-physiological-stressors",
   "level": "C1",
   "slug": "physiological-stressors",
-  "topic": "sports",
+  "topic": "society",
   "title": "Physiological Stressors in Endurance Running",
   "subtitle": "Why runners are sick and why they nearly faint — six systems failing to keep up at once.",
   "description": "A C1 technical reading and listening text on exercise-induced nausea and near-syncope during endurance running, with advanced scientific vocabulary and interpretation exercises.",
@@ -11,6 +11,11 @@
   "audio": {
     "duration_label": "5:16"
   },
+  "grammar": [
+    "modals",
+    "comparatives",
+    "relative-clauses"
+  ],
   "passage": [
     "Exercise-induced vomiting and near-syncope — the sensation of being about to faint — are common during endurance events such as a ten-kilometer run, and they are a good deal more complex than they look. The phenomenon typically results from intense physical exertion, gastrointestinal distress, and inadequate physiological adaptation to extreme stress, acting together. Each of those factors sits at the intersection of the cardiovascular, respiratory, neurological and metabolic systems, all of which come under strain during prolonged exercise. Six mechanisms are worth examining in turn.",
     "The first is the cardiovascular response itself. During prolonged aerobic exercise, the cardiovascular system is under heavy demand to deliver oxygen to the working muscles. Cardiac output rises, and blood is shunted away from the gastrointestinal tract to meet the metabolic demands of skeletal muscle. With circulation to non-essential organs reduced, the digestive system receives very little blood, struggles to absorb fluids and nutrients, and begins to register discomfort. The stomach becomes more sensitive, and nausea, then vomiting, become more likely. In some individuals, sustained cardiovascular stress also produces a brief, acute fall in blood pressure as they approach the limit of their endurance — which is what the sensation of near-fainting actually is.",

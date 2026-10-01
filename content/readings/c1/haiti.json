@@ -11,6 +11,11 @@
   "audio": {
     "duration_label": "3:50"
   },
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "relative-clauses"
+  ],
   "passage": [
     "A competent news report tells you two things at once: what is being claimed, and how confident the reporter is about it. The second is carried almost entirely by small words that readers skim past, and learning to notice them is the single most useful reading skill for anyone following events in a second language — or, for that matter, a first.",
     "Start with attribution. Compare three sentences. “The minister resigned.” “The ministry said the minister had resigned.” “The minister is reported to have resigned.” The first is the reporter's own statement of fact, and a serious outlet will not print it unless the fact is established. The second attributes the claim to an interested party, which is not the same as confirming it. The third attributes it to nobody in particular and is the weakest form of all — “reported” without a source named means somebody else has said it and this outlet has not checked.",

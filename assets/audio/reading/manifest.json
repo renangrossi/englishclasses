@@ -5,6 +5,12 @@
   "rate": "-15%",
   "voice": "en-US-JennyNeural"
  },
+ "a1/going-to-the-airport": {
+  "bytes": 410544,
+  "fingerprint": "2a9edfdf52a8f0d7",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
  "a1/greetings-and-names": {
   "bytes": 447552,
   "fingerprint": "9873aefd0f16eff2",
@@ -14,6 +20,18 @@
  "a1/i-dont-feel-good": {
   "bytes": 397728,
   "fingerprint": "dd6baea634158e23",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
+ "a1/jack-works-from-home": {
+  "bytes": 416880,
+  "fingerprint": "c2a474455c57b941",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
+ "a1/making-dinner": {
+  "bytes": 404928,
+  "fingerprint": "4ea83ba2ba8b7ec1",
   "rate": "-15%",
   "voice": "en-US-JennyNeural"
  },
@@ -154,6 +172,12 @@
   "fingerprint": "704260c9a1afe656",
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
+ },
+ "a2/thanksgiving": {
+  "bytes": 613728,
+  "fingerprint": "1adbd3502d00dabc",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
  },
  "a2/the-day-at-the-market": {
   "bytes": 737568,
@@ -533,6 +557,12 @@
   "rate": "+0%",
   "voice": "en-US-JennyNeural"
  },
+ "b2/the-marathon-and-the-wall": {
+  "bytes": 974160,
+  "fingerprint": "99972cde8a117bd2",
+  "rate": "+0%",
+  "voice": "en-US-BrianNeural"
+ },
  "c1/america-in-1776": {
   "bytes": 2620080,
   "fingerprint": "7477e39702b37844",
@@ -593,6 +623,12 @@
   "rate": "+0%",
   "voice": "en-US-AriaNeural"
  },
+ "c1/the-cost-of-convenience": {
+  "bytes": 1213344,
+  "fingerprint": "66b3aae54bbda6de",
+  "rate": "+0%",
+  "voice": "en-US-MichelleNeural"
+ },
  "c1/the-meeting-problem": {
   "bytes": 1220832,
   "fingerprint": "c772d3c765ecc91b",
@@ -620,6 +656,12 @@
  "c2/saying-no-without-saying-no": {
   "bytes": 1625328,
   "fingerprint": "bf61e5726e32d6d4",
+  "rate": "+0%",
+  "voice": "en-US-GuyNeural"
+ },
+ "c2/the-accent-you-keep": {
+  "bytes": 1306944,
+  "fingerprint": "20018c0835fb970f",
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
  },

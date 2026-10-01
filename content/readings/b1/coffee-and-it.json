@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "2:44"
   },
+  "grammar": [
+    "passive",
+    "modals",
+    "comparatives",
+    "relative-clauses"
+  ],
   "passage": [
     "A coffee shop looks like the last place that needs a developer. It sells one product in a room with eight tables. In practice a well-run shop is a scheduling problem, a stock problem and a pricing problem at once, and the owner is usually solving all three from memory. Software helps with all of them, though not always in the way the sales pitch suggests.",
     "The most visible change is to the ordering process. A system that connects to the till can streamline how orders are taken — customers order from a tablet or a kiosk, the order arrives at the machine directly, and the queue stops being the limiting factor on a busy morning. That frees the staff to make coffee rather than repeat prices. It also, and this matters more than owners expect, removes the errors that come from somebody shouting an order across a noisy room.",

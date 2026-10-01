@@ -11,6 +11,11 @@
   "audio": {
     "duration_label": "3:17"
   },
+  "grammar": [
+    "comparatives",
+    "relative-clauses",
+    "present-simple"
+  ],
   "passage": [
     "Most people who reach an advanced level in English can discuss politics, films and the weather, and then find themselves unable to explain their own job to somebody outside it. This is not a vocabulary problem. It is a structure problem, and it shows up in interviews, at conferences, and in the first ten minutes of every meeting with a new client.",
     "The difficulty is that you know your work too well. You have stopped being able to see which parts of it are obvious and which are not, so you either start three layers too deep — naming systems and teams the listener has never heard of — or you retreat into something so general that it tells them nothing. “I work in technology” is true of several million people.",

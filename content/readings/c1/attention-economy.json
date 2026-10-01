@@ -11,6 +11,10 @@
   "audio": {
     "duration_label": "2:22"
   },
+  "grammar": [
+    "passive",
+    "comparatives"
+  ],
   "passage": [
     "In the last two decades, the way people consume information has changed more radically than at any other moment in modern history. Digital platforms are no longer neutral tools for communication; they are carefully engineered environments designed to capture and retain attention. This phenomenon, often described as the attention economy, has become one of the most pressing challenges of contemporary society.",
     "At the center of the issue is the monetization of human focus. Social media feeds, video platforms and news aggregators rely on algorithms that prioritize engagement over accuracy, depth or long-term value. Users are therefore exposed, continuously, to content optimized to provoke an emotional reaction — outrage, fear, instant gratification — rather than reflection or critical analysis. Over time, that constant stimulation reshapes cognitive habits, and sustained concentration becomes progressively harder to summon.",

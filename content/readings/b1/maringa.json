@@ -11,6 +11,10 @@
   "audio": {
     "duration_label": "3:26"
   },
+  "grammar": [
+    "past-simple",
+    "comparatives"
+  ],
   "passage": [
     "Chicago sits on the southwestern shore of Lake Michigan, which is large enough that standing on the beach in the middle of the city feels like standing at the sea. There is no other side visible. That lake explains a good deal about the place — the weather, the shape of the streets, and the fact that the whole eastern edge of a major American city is public park rather than private property.",
     "The city is laid out on a grid, and once you understand it you cannot get lost. Streets run north–south and east–west, numbered outwards from a single point downtown, and eight blocks make a mile. If somebody tells you an address is at 3200 north, you know exactly how far away it is before you have looked at a map. Visitors from older European cities find this either wonderfully practical or slightly inhuman, and usually both.",

@@ -8,6 +8,12 @@
   "description": "A B1 reading and listening text on the National Football League: the basic rules, three famous plays, and the players Americans still argue about. With vocabulary, comprehension and discussion practice.",
   "source": "cefr/texts/nfl.docx",
   "provenance": "edited",
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple",
+    "relative-clauses"
+  ],
   "passage": [
     "The National Football League, or NFL, is the top professional American football league, and for many Americans it is far more than a sport. Games fill stadiums on autumn weekends, the Super Bowl is one of the most-watched television events of the year, and many families treat game day as a social occasion built around food and friends.",
     "The league has 32 teams, split into two conferences: the National Football Conference (NFC) and the American Football Conference (AFC). Each conference is divided into four divisions. In the regular season, every team plays 17 games across 18 weeks, which means each team gets one week off, called a bye week. Fourteen teams then reach the playoffs, seven from each conference, and those playoffs end with the Super Bowl.",

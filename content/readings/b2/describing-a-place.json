@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "3:32"
   },
+  "grammar": [
+    "present-perfect",
+    "continuous",
+    "comparatives",
+    "relative-clauses"
+  ],
   "passage": [
     "Most people describing a place list what they can see, and the result is flat. What makes a written place feel real is usually a sound, a smell, or something physical you would notice with your eyes shut. Here are four, each built around a different sense.",
     "A Kitchen in the Morning",

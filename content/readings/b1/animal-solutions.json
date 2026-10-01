@@ -11,6 +11,12 @@
   "audio": {
     "duration_label": "3:07"
   },
+  "grammar": [
+    "passive",
+    "continuous",
+    "modals",
+    "relative-clauses"
+  ],
   "passage": [
     "A field with cattle in it looks much the same as it did a century ago. Almost nothing else about the operation does, and most of what has changed is invisible from the gate.",
     "Start with the fence. A traditional fence has to be strong enough to physically stop an animal that weighs six hundred kilograms and has decided to leave. An electric fence does not: it is a single thin wire carrying a brief, high-voltage pulse, and it works because the animal touches it once, does not enjoy the experience, and thereafter treats the wire as a wall. It is far cheaper, it can be moved by one person in an afternoon, and that portability is the real advantage. Farmers use it to divide a large field into sections and move the herd between them every few days, which lets the grass in each section recover instead of being grazed to nothing.",

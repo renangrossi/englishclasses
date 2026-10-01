@@ -12,6 +12,12 @@
   "audio": {
     "duration_label": "4:00"
   },
+  "grammar": [
+    "passive",
+    "modals",
+    "comparatives",
+    "present-simple"
+  ],
   "passage": [
     "A headline says that drinking coffee is linked to a lower risk of liver disease. Nothing in it is false, and almost nothing in it is informative. The useful skill is not skepticism, which costs nothing and protects no one, but the narrower ability to read the sentence for what it has quietly declined to claim.",
     "Begin with linked to. It is the standard formula for a correlation, and it is chosen precisely because it asserts no direction and no mechanism. Coffee drinkers differ from non-drinkers in income, in working hours, in whether they smoke, and in a hundred other ways nobody measured. A study can adjust for the variables it thought of; it cannot adjust for the ones it did not. When the writer means that the coffee did it, the language available is causes, and the reason you are not reading that word is that nobody has earned it.",

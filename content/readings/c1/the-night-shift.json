@@ -1,0 +1,331 @@
+{
+  "id": "c1-reading-the-night-shift",
+  "level": "C1",
+  "slug": "the-night-shift",
+  "topic": "society",
+  "title": "The Night Shift",
+  "subtitle": "A hospital at three in the morning is a different institution from the one the day staff know.",
+  "description": "A C1 reading and listening narrative about working nights: how the hours change the work, the body and the people who do it.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "3:24"
+  },
+  "passage": [
+    "The handover is at seven in the evening and it takes eleven minutes. The day team speaks quickly, in the clipped half-sentences of people who want to go home, and then they go home, and the corridor empties, and the building becomes something else.",
+    "Marisol has worked nights for nine years. She did not choose them in any strong sense. The post was advertised, the differential was thirty per cent, and she had a daughter starting school who could not be left at six in the morning. The decision made itself, as most such decisions do, and then it became a life.",
+    "The first thing she will tell you is that the work is not slower at night, only differently shaped. Fewer patients arrive, but there are fewer people to receive them, and the specialists who can be summoned in four minutes at noon are at home asleep. A decision that would be referred upward during the day is simply made. Night staff are more autonomous than they are supposed to be, which is both the attraction and the thing that wakes them at four in the afternoon.",
+    "Around two o'clock the ward develops its particular quality. Patients who were stoical at eleven begin to ask questions they would not ask in daylight, and the questions are rarely medical. Marisol has learned that a request for water at two in the morning is sometimes a request for water, and is often a request for somebody to stand there for ninety seconds. She gives the ninety seconds when she has them. The arithmetic of the ward decides whether she has them.",
+    "Her own body has been arguing with her for nine years and is winning on points. The research is not reassuring: shift work is associated with elevated cardiovascular risk, with metabolic disruption, with a measurable deficit in reaction time toward the end of a run of nights. She knows this literature better than most of the day staff, because people who work nights tend to read about working nights. She also knows that the studies describe populations and not individuals, which is the consolation available, and that it is a thin one.",
+    "The social cost is harder to quantify and, she says, larger. Her daughter is nineteen now. Marisol missed a great many evenings in the middle of that, and the missing was not dramatic — no single catastrophe, just the steady absence of a person at the hour when a household talks. Friendships thinned by the same mechanism. The people who remained were the ones who would meet at odd hours or not mind a reply at three in the morning, and that selection, she notes, is not accidental: most of them also work nights.",
+    "There are compensations and she is precise about them. The commute is twenty minutes instead of an hour. She has never once queued in a bank. There is a camaraderie among people who are awake together while a city sleeps that she has not found anywhere else, and it is not nostalgia talking, because it is still happening. And there is the specific satisfaction of being the person who is there — not the best clinician in the building, which she is not, but the one present at the moment when presence is what is required.",
+    "At six the light changes in the windows along the east corridor and the building starts to refill. The day team arrives with coffee and weather and the loud competence of people who have slept. Marisol gives the handover, which takes eleven minutes, and the ward becomes somebody else's.",
+    "She drives home against the traffic. She is asleep by eight, and the city she lives in is one she mostly reads about."
+  ],
+  "vocabulary": [
+    {
+      "term": "handover",
+      "definition": "the formal transfer of responsibility between shifts"
+    },
+    {
+      "term": "clipped",
+      "definition": "short and abrupt, said of speech"
+    },
+    {
+      "term": "differential",
+      "definition": "extra pay for working unsocial hours"
+    },
+    {
+      "term": "to summon",
+      "definition": "to call somebody to come",
+      "match": "summoned"
+    },
+    {
+      "term": "to refer upward",
+      "definition": "to pass a decision to somebody more senior",
+      "match": "referred upward"
+    },
+    {
+      "term": "autonomous",
+      "definition": "acting without needing permission"
+    },
+    {
+      "term": "ward",
+      "definition": "a room or section of a hospital holding several patients"
+    },
+    {
+      "term": "stoical",
+      "definition": "enduring difficulty without complaining"
+    },
+    {
+      "term": "arithmetic",
+      "definition": "the plain counting of what there is — here, of time and staff"
+    },
+    {
+      "term": "on points",
+      "definition": "winning narrowly over time rather than decisively",
+      "match": "on points"
+    },
+    {
+      "term": "elevated",
+      "definition": "higher than normal"
+    },
+    {
+      "term": "disruption",
+      "definition": "a breaking of the normal working order"
+    },
+    {
+      "term": "deficit",
+      "definition": "a shortfall against what there should be"
+    },
+    {
+      "term": "literature",
+      "definition": "the body of published research on a subject"
+    },
+    {
+      "term": "consolation",
+      "definition": "something that makes a hard fact easier to bear"
+    },
+    {
+      "term": "to quantify",
+      "definition": "to express as a number"
+    },
+    {
+      "term": "catastrophe",
+      "definition": "a sudden great disaster"
+    },
+    {
+      "term": "to thin",
+      "definition": "to become fewer or weaker",
+      "match": "thinned"
+    },
+    {
+      "term": "selection",
+      "definition": "the process by which some are kept and others fall away"
+    },
+    {
+      "term": "compensation",
+      "definition": "something good that makes up for something bad",
+      "match": "compensations"
+    },
+    {
+      "term": "to queue",
+      "definition": "to wait in a line",
+      "match": "queued"
+    },
+    {
+      "term": "camaraderie",
+      "definition": "warm trust between people sharing hard conditions"
+    },
+    {
+      "term": "nostalgia",
+      "definition": "fond feeling for a past that is over"
+    },
+    {
+      "term": "clinician",
+      "definition": "a medical professional who treats patients"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-night-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Several answers depend on what is implied rather than stated.",
+      "items": [
+        {
+          "id": "g1",
+          "prompt": "How did Marisol come to work nights?",
+          "options": [
+            "Practical pressures made the decision for her",
+            "She preferred the work",
+            "She was moved by management"
+          ],
+          "answerIndex": 0,
+          "explanation": "The post, the 30% differential, a daughter who could not be left at six. “The decision made itself.”"
+        },
+        {
+          "id": "g2",
+          "prompt": "Why is night work not simply slower?",
+          "options": [
+            "Fewer patients, but fewer staff and no specialists on hand",
+            "Patients are sicker at night",
+            "There is more paperwork"
+          ],
+          "answerIndex": 0,
+          "explanation": "“A decision that would be referred upward during the day is simply made.”"
+        },
+        {
+          "id": "g3",
+          "prompt": "Why is autonomy described as both attraction and burden?",
+          "options": [
+            "It is satisfying and it is what wakes her in the afternoon",
+            "It brings extra pay",
+            "It annoys the day staff"
+          ],
+          "answerIndex": 0,
+          "explanation": "The responsibility follows her home."
+        },
+        {
+          "id": "g4",
+          "prompt": "What has Marisol learned about requests for water at two in the morning?",
+          "options": [
+            "They are often requests for somebody to be present for a short time",
+            "They indicate dehydration",
+            "They should be refused"
+          ],
+          "answerIndex": 0,
+          "explanation": "“a request for somebody to stand there for ninety seconds.”"
+        },
+        {
+          "id": "g5",
+          "prompt": "What limits whether she can give the ninety seconds?",
+          "options": [
+            "The staffing and workload of the ward that night",
+            "Hospital policy",
+            "Her own tiredness"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The arithmetic of the ward decides whether she has them.”"
+        },
+        {
+          "id": "g6",
+          "prompt": "What consolation does she take from the research?",
+          "options": [
+            "That studies describe populations rather than individuals — and she calls it thin",
+            "That the risks are unproven",
+            "That she is young enough"
+          ],
+          "answerIndex": 0,
+          "explanation": "“which is the consolation available, and… it is a thin one.”"
+        },
+        {
+          "id": "g7",
+          "prompt": "How does the text describe the social cost?",
+          "options": [
+            "Not dramatic — a steady absence at the hour a household talks",
+            "A single painful break",
+            "Easily measured"
+          ],
+          "answerIndex": 0,
+          "explanation": "“no single catastrophe, just the steady absence.”"
+        },
+        {
+          "id": "g8",
+          "prompt": "What does she notice about the friends who remained?",
+          "options": [
+            "Most of them also work nights — the selection was not accidental",
+            "They live nearby",
+            "They are from work only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated at the end of that paragraph."
+        },
+        {
+          "id": "g9",
+          "prompt": "How does she describe her satisfaction in the job?",
+          "options": [
+            "Being the one present when presence is what is needed, rather than the most skilled",
+            "Being the best clinician there",
+            "Being left alone"
+          ],
+          "answerIndex": 0,
+          "explanation": "She is explicit that she is not the best clinician in the building."
+        },
+        {
+          "id": "g10",
+          "prompt": "What does the last line convey?",
+          "options": [
+            "She lives in a city she experiences mostly second-hand",
+            "She is planning to move",
+            "She reads a great deal"
+          ],
+          "answerIndex": 0,
+          "explanation": "Asleep by eight, awake while it sleeps — the city is something she reads about."
+        }
+      ]
+    },
+    {
+      "id": "c1-night-vocab",
+      "type": "vocabulary",
+      "title": "Precise Words",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "gv1",
+          "prompt": "Extra pay for working unsocial hours is a ___.",
+          "options": [
+            "differential",
+            "deficit",
+            "compensation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Thirty per cent, in Marisol's case."
+        },
+        {
+          "id": "gv2",
+          "prompt": "Enduring difficulty without complaining is being ___.",
+          "options": [
+            "stoical",
+            "clipped",
+            "autonomous"
+          ],
+          "answerIndex": 0,
+          "explanation": "Patients who were stoical at eleven ask questions at two."
+        },
+        {
+          "id": "gv3",
+          "prompt": "Warm trust between people sharing hard conditions is ___.",
+          "options": [
+            "camaraderie",
+            "nostalgia",
+            "selection"
+          ],
+          "answerIndex": 0,
+          "explanation": "She insists it is not nostalgia, because it is still happening."
+        },
+        {
+          "id": "gv4",
+          "prompt": "The published research on a subject is the ___.",
+          "options": [
+            "literature",
+            "arithmetic",
+            "disruption"
+          ],
+          "answerIndex": 0,
+          "explanation": "“people who work nights tend to read about working nights.”"
+        },
+        {
+          "id": "gv5",
+          "prompt": "To pass a decision to somebody more senior is to ___ it.",
+          "options": [
+            "refer upward",
+            "summon",
+            "quantify"
+          ],
+          "answerIndex": 0,
+          "explanation": "What cannot be done at three in the morning."
+        },
+        {
+          "id": "gv6",
+          "prompt": "Winning narrowly over a long period rather than decisively is winning ___.",
+          "options": [
+            "on points",
+            "on paper",
+            "at a remove"
+          ],
+          "answerIndex": 0,
+          "explanation": "From boxing: her body is winning on points."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Have you ever worked unsocial hours? What did it cost and what did it pay?",
+    "“The decision made itself, as most such decisions do.” Is that true of a decision in your own life?",
+    "Marisol's remaining friends also work nights. What does that suggest about how friendships survive?",
+    "Should employers be allowed to staff hospitals this way, given the health evidence?",
+    "Write about 300 words describing a place you know at an hour most people never see it."
+  ]
+}

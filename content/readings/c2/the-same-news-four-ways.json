@@ -69,7 +69,7 @@
     },
     {
       "term": "flat",
-      "definition": "without emotional colour"
+      "definition": "without emotional color"
     },
     {
       "term": "obscurity",
@@ -109,7 +109,7 @@
     },
     {
       "term": "decency",
-      "definition": "ordinary moral good behaviour"
+      "definition": "ordinary moral good behavior"
     },
     {
       "term": "inverse",
@@ -309,7 +309,7 @@
             "inverse"
           ],
           "answerIndex": 0,
-          "explanation": "Incentives explain behaviour without requiring bad motives."
+          "explanation": "Incentives explain behavior without requiring bad motives."
         },
         {
           "id": "yv4",

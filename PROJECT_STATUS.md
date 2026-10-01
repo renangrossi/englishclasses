@@ -14,7 +14,7 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | A1 built out to twelve texts → C2 is the last gap (P-1) |
+| **Current phase** | All six levels populated — 108 texts. P-1 closed. |
 | **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
 
 ### What this project is *not*
@@ -215,10 +215,41 @@ Note the consequence: topic grouping outranks the sequence, so "Lunch on Saturda
 the intended trade — a student browsing by subject is better served than one reading straight
 down the page.
 
-### Milestone 8 — C2 (NOT STARTED)
+### Milestone 8 — C2 opened, library grown, padding audited ✅
+- **Date:** 2026-09-30 · **Pushed:** yes · **Merged:** yes
 
-The last gap. Only where a text genuinely needs that level: argument, register, irony,
-implication. Four good ones beat twelve padded ones. Everything else on the site is complete.
+**C2 exists.** Six texts, each turning on implication, register or argument rather than on hard
+vocabulary: professional indirectness, four registers of one redundancy announcement, what
+survives translation, an argument that concedes more than it wins, how personality shifts
+between languages, and how to read a scientific claim.
+
+**Grown** to 108: A2 +2 (complaining politely, renting), C1 +2 (meetings, the night shift).
+
+**Padding audited.** `scripts/check_padding.py` is new. It reports FILLER, REPEAT, DIVERSITY and
+THIN, and DIVERSITY calibrates itself against this library's own bottom decile per length band
+rather than against a number picked in advance. 15 of 108 flagged; two were real
+(`b1/glamping`'s "a wide variety of", `b1/physical-education`'s three sentences opening "She
+has"), and the rest were honest exceptions now documented in the script: "at the end of the
+day" was literal both times, and the repetition in `b1/beers` is deliberate parallelism.
+
+**Two faults of my own, found by widening the checks:**
+1. **British spellings in nine files I authored**, against the American-English rule — apologise,
+   behaviour, colour, organisation, judgement, scepticism, defence, programme, centre, cancelled,
+   randomised, travelling. Corrected and re-recorded. "Specialist" is correct in both and was
+   left alone.
+2. **Adjacent vocabulary highlights** on 13 pages read as one long highlight, because the space
+   between two spans sits outside both and the dotted rules stop and restart invisibly. Fixed in
+   CSS (`.vocab-term + .vocab-term`) rather than by rewriting a dozen passages and re-recording
+   them for a styling problem.
+
+### Milestone 9 — What is left (NOT STARTED)
+
+No level is empty and no source document is unconverted. What remains is discretionary:
+
+1. **P-2, the geography balance.** Travel is still the largest topic and much of B1 is set
+   abroad, against a brief asking for an American centre of gravity.
+2. **Depth at C1 and C2** (13 and 6) against B1's 37.
+3. **Illustration**, page by page — `docs/image-credits.md`.
 
 ## Target architecture
 
@@ -491,9 +522,9 @@ Every action is finished: **KEEP** 15, **EDIT** 31, **REPLACE** 12, **MERGE** 15
 
 ### Open problems
 
-- **P-1 — A1 and C2 gaps.** A1 DONE, C2 OPEN. A1 now has twelve authored texts, comparable to
-  A2's fifteen, and covers the situations a beginner meets first. C2 still has nothing and is
-  the last gap. The library is 12 A1 / 15 A2 / 37 B1 / 23 B2 / 11 C1 = 98 pages.
+- ~~**P-1** — A1 and C2 gaps.~~ CLOSED. Every CEFR level now has texts:
+  12 A1 / 17 A2 / 37 B1 / 23 B2 / 13 C1 / 6 C2 = **108 pages**, all narrated.
+
 - **P-2 — Non-American concentration.** OPEN. Travel is still the largest topic at 17 of 86, and
   much of the library is set in Brazil, South Africa, Romania, Thailand, Italy, Japan, Austria
   and Egypt. The agreed resolution stands: keep the good international texts as a *Travel &

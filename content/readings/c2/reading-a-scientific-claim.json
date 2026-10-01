@@ -1,0 +1,366 @@
+{
+  "id": "c2-reading-reading-a-scientific-claim",
+  "level": "C2",
+  "slug": "reading-a-scientific-claim",
+  "topic": "society",
+  "title": "Reading a Scientific Claim",
+  "subtitle": "\"Linked to\" is doing more work in that headline than the study it describes.",
+  "description": "A C2 reading and listening text on the language of research reporting: hedges, relative risk, and the specific words that mark a claim as weaker than it sounds.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "4:00"
+  },
+  "passage": [
+    "A headline says that drinking coffee is linked to a lower risk of liver disease. Nothing in it is false, and almost nothing in it is informative. The useful skill is not skepticism, which costs nothing and protects no one, but the narrower ability to read the sentence for what it has quietly declined to claim.",
+    "Begin with linked to. It is the standard formula for a correlation, and it is chosen precisely because it asserts no direction and no mechanism. Coffee drinkers differ from non-drinkers in income, in working hours, in whether they smoke, and in a hundred other ways nobody measured. A study can adjust for the variables it thought of; it cannot adjust for the ones it did not. When the writer means that the coffee did it, the language available is causes, and the reason you are not reading that word is that nobody has earned it.",
+    "Then the risk itself. A forty per cent reduction in risk sounds decisive until you ask forty per cent of what. If the condition affects two people in a thousand, the reduction moves it to roughly one in a thousand, and the honest description of the benefit is one person per thousand rather than forty per cent. Both numbers are correct. Relative risk is the one that appears in headlines, because it is the larger number, and the absolute figure is the one that tells you whether to change anything. A claim that gives relative risk without the baseline has not told you the thing you need.",
+    "Three further words deserve attention because they are doing concealed work. Up to sets a ceiling and promises nothing beneath it; a treatment that improves outcomes up to sixty per cent is compatible with improving them by two. May is unbounded in the same direction and, in careful writing, signals that the finding did not reach the threshold the authors set themselves. And suggests, in a scientific abstract, is close to a technical term: it marks a result the authors consider real but insufficient, and its appearance should lower your confidence, not raise it.",
+    "The study design matters more than any of the vocabulary, and one distinction carries most of the weight. An observational study watches what people already do; a randomized trial assigns them. Only the second can support a causal claim, because only the second breaks the link between the treatment and everything else that travels with it. Most nutritional findings are observational, for the obvious reason that you cannot randomize twenty thousand people to a diet for thirty years. This is not a scandal. It is a structural limit, and the correct response is to read nutritional claims as hypotheses rather than instructions.",
+    "Sample size is where attention is usually misdirected. A large sample makes a small effect detectable; it does not make a biased study true, and a hundred thousand people recruited from a group that differs systematically from everyone else will produce a very precise estimate of the wrong number. Precision and accuracy are different virtues, and the press release will quote the first while the limitations section discusses the second.",
+    "That limitations section is the most useful paragraph in any paper and the least read. Authors are generally candid there, partly from honesty and partly because reviewers insist. It is also where you will find the finding's real shape: the sample was healthier than the population, the follow-up was short, the food diaries were self-reported and people lie about what they eat. None of that reaches the headline, and almost none of it is hidden.",
+    "The conclusion is not that research reporting is worthless, which is the lazy position and the one that leaves a reader believing whatever they already believed. It is that the hedges are load-bearing. A sentence saying a trial suggests a treatment may reduce risk by up to forty per cent has told you, in four separate places, that it does not know — and a reader who can hear all four is better informed than one who distrusts the whole enterprise, because they can also tell when a claim is strong."
+  ],
+  "vocabulary": [
+    {
+      "term": "skepticism",
+      "definition": "a general attitude of doubt"
+    },
+    {
+      "term": "to decline",
+      "definition": "to choose not to do something",
+      "match": "declined"
+    },
+    {
+      "term": "correlation",
+      "definition": "a relationship in which two things vary together, with no direction implied"
+    },
+    {
+      "term": "mechanism",
+      "definition": "the process by which one thing actually causes another"
+    },
+    {
+      "term": "to adjust for",
+      "definition": "to correct a result for the effect of another factor",
+      "match": "adjust for"
+    },
+    {
+      "term": "variable",
+      "definition": "anything measured that can differ between people",
+      "match": "variables"
+    },
+    {
+      "term": "relative risk",
+      "definition": "a change in risk given as a proportion of the original risk"
+    },
+    {
+      "term": "absolute",
+      "definition": "given as a plain quantity rather than as a proportion"
+    },
+    {
+      "term": "baseline",
+      "definition": "the starting level a change is measured from"
+    },
+    {
+      "term": "concealed",
+      "definition": "hidden"
+    },
+    {
+      "term": "ceiling",
+      "definition": "an upper limit"
+    },
+    {
+      "term": "unbounded",
+      "definition": "with no limit set"
+    },
+    {
+      "term": "threshold",
+      "definition": "the level a result must reach to count"
+    },
+    {
+      "term": "abstract",
+      "definition": "the summary at the head of a scientific paper"
+    },
+    {
+      "term": "observational",
+      "definition": "watching what people already do, without assigning anything"
+    },
+    {
+      "term": "randomized trial",
+      "definition": "a study that assigns people to groups by chance"
+    },
+    {
+      "term": "causal",
+      "definition": "concerning what actually makes something happen"
+    },
+    {
+      "term": "hypothesis",
+      "definition": "a proposal still to be tested",
+      "match": "hypotheses"
+    },
+    {
+      "term": "to misdirect",
+      "definition": "to send attention to the wrong place",
+      "match": "misdirected"
+    },
+    {
+      "term": "biased",
+      "definition": "systematically off in one direction"
+    },
+    {
+      "term": "precision",
+      "definition": "how tightly repeated measurements agree"
+    },
+    {
+      "term": "accuracy",
+      "definition": "how close a measurement is to the truth"
+    },
+    {
+      "term": "candid",
+      "definition": "honest, including about what is unflattering"
+    },
+    {
+      "term": "self-reported",
+      "definition": "supplied by the participants about themselves, and so unreliable"
+    },
+    {
+      "term": "load-bearing",
+      "definition": "carrying real weight; not decorative"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-sci-comp",
+      "type": "reading-comprehension",
+      "title": "Reading the Hedges",
+      "instructions": "Each question turns on a specific word and what it does not claim.",
+      "items": [
+        {
+          "id": "r1",
+          "prompt": "Why is “linked to” the chosen formula?",
+          "options": [
+            "It asserts a correlation while committing to no direction and no mechanism",
+            "It is shorter than the alternatives",
+            "It is required by journals"
+          ],
+          "answerIndex": 0,
+          "explanation": "“When the writer means that the coffee did it, the language available is causes.”"
+        },
+        {
+          "id": "r2",
+          "prompt": "What does the author say a study cannot do?",
+          "options": [
+            "Adjust for variables nobody thought to measure",
+            "Measure income",
+            "Report absolute risk"
+          ],
+          "answerIndex": 0,
+          "explanation": "“it cannot adjust for the ones it did not.”"
+        },
+        {
+          "id": "r3",
+          "prompt": "Why does a 40% risk reduction need a baseline?",
+          "options": [
+            "Without it you cannot tell whether the real change is one person in a thousand",
+            "Because percentages are often miscalculated",
+            "Because risk varies by country"
+          ],
+          "answerIndex": 0,
+          "explanation": "Both numbers are correct; only the absolute one tells you whether to act."
+        },
+        {
+          "id": "r4",
+          "prompt": "What does “up to” guarantee?",
+          "options": [
+            "Nothing below the ceiling it sets",
+            "A minimum of the figure quoted",
+            "An average effect"
+          ],
+          "answerIndex": 0,
+          "explanation": "“compatible with improving them by two.”"
+        },
+        {
+          "id": "r5",
+          "prompt": "What does “suggests” signal in a scientific abstract?",
+          "options": [
+            "A result the authors think real but insufficient — it should lower your confidence",
+            "A strong finding",
+            "A replication"
+          ],
+          "answerIndex": 0,
+          "explanation": "“its appearance should lower your confidence, not raise it.”"
+        },
+        {
+          "id": "r6",
+          "prompt": "Why can only a randomized trial support a causal claim?",
+          "options": [
+            "Assignment breaks the link between the treatment and everything traveling with it",
+            "It uses more participants",
+            "It lasts longer"
+          ],
+          "answerIndex": 0,
+          "explanation": "Observation leaves the confounders attached."
+        },
+        {
+          "id": "r7",
+          "prompt": "How does the author characterise the observational nature of nutrition research?",
+          "options": [
+            "A structural limit, not a scandal — so read the claims as hypotheses",
+            "Evidence of corruption",
+            "A failure of funding"
+          ],
+          "answerIndex": 0,
+          "explanation": "You cannot randomize twenty thousand people to a diet for thirty years."
+        },
+        {
+          "id": "r8",
+          "prompt": "What is the author's point about large samples?",
+          "options": [
+            "They make small effects detectable but cannot repair bias",
+            "They are always better",
+            "They reduce cost"
+          ],
+          "answerIndex": 0,
+          "explanation": "“a very precise estimate of the wrong number.”"
+        },
+        {
+          "id": "r9",
+          "prompt": "Why is the limitations section described as the most useful paragraph?",
+          "options": [
+            "Authors are candid there, and the finding's real shape is stated plainly",
+            "It summarizes the results",
+            "It lists the funding"
+          ],
+          "answerIndex": 0,
+          "explanation": "“almost none of it is hidden” — it simply does not reach the headline."
+        },
+        {
+          "id": "r10",
+          "prompt": "Why does the author reject blanket distrust of research reporting?",
+          "options": [
+            "A reader who hears the hedges can also tell when a claim is strong",
+            "Because journalists are reliable",
+            "Because most studies replicate"
+          ],
+          "answerIndex": 0,
+          "explanation": "Blanket distrust “leaves a reader believing whatever they already believed”."
+        }
+      ]
+    },
+    {
+      "id": "c2-sci-match",
+      "type": "matching",
+      "title": "What the Word Concedes",
+      "instructions": "Match each hedge to what the text says it quietly admits.",
+      "items": [
+        {
+          "id": "rm1",
+          "pairs": [
+            {
+              "left": "linked to",
+              "right": "A correlation, with no direction and no mechanism claimed"
+            },
+            {
+              "left": "up to",
+              "right": "A ceiling, with nothing promised beneath it"
+            },
+            {
+              "left": "may",
+              "right": "Unbounded — often that a threshold was not reached"
+            },
+            {
+              "left": "suggests",
+              "right": "Real in the authors' view, but insufficient"
+            },
+            {
+              "left": "causes",
+              "right": "The word used when the claim has actually been earned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-sci-vocab",
+      "type": "vocabulary",
+      "title": "Method Words",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "rv1",
+          "prompt": "How close a measurement is to the truth is its ___.",
+          "options": [
+            "accuracy",
+            "precision",
+            "baseline"
+          ],
+          "answerIndex": 0,
+          "explanation": "Precision is agreement between repeats; accuracy is closeness to truth."
+        },
+        {
+          "id": "rv2",
+          "prompt": "A study that assigns participants to groups by chance is a ___.",
+          "options": [
+            "randomized trial",
+            "observational study",
+            "correlation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Only this design supports a causal claim."
+        },
+        {
+          "id": "rv3",
+          "prompt": "A result that is systematically off in one direction is ___.",
+          "options": [
+            "biased",
+            "unbounded",
+            "candid"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bias is not repaired by a larger sample."
+        },
+        {
+          "id": "rv4",
+          "prompt": "Data supplied by participants about themselves is ___.",
+          "options": [
+            "self-reported",
+            "absolute",
+            "causal"
+          ],
+          "answerIndex": 0,
+          "explanation": "“people lie about what they eat.”"
+        },
+        {
+          "id": "rv5",
+          "prompt": "Honest, including about what is unflattering, is ___.",
+          "options": [
+            "candid",
+            "concealed",
+            "relative"
+          ],
+          "answerIndex": 0,
+          "explanation": "The author's description of a good limitations section."
+        },
+        {
+          "id": "rv6",
+          "prompt": "A hedge that carries real weight rather than being decorative is ___.",
+          "options": [
+            "load-bearing",
+            "unbounded",
+            "observational"
+          ],
+          "answerIndex": 0,
+          "explanation": "The essay's closing claim about hedges."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Find a health headline today. Which of the five hedges does it use?",
+    "Does it give relative risk, absolute risk, or neither?",
+    "Is the study behind it observational or randomized? How long did it take you to find out?",
+    "The author says skepticism “costs nothing and protects no one”. Is that fair?",
+    "Write about 300 words rewriting a real headline so that it is accurate, then say what it lost in appeal."
+  ]
+}

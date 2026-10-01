@@ -1,0 +1,294 @@
+{
+  "id": "a2-reading-boston-tea-party",
+  "level": "A2",
+  "slug": "boston-tea-party",
+  "order": 101,
+  "topic": "history",
+  "title": "The Boston Tea Party",
+  "subtitle": "A cold December night, three ships, and ninety thousand pounds of tea in the water.",
+  "description": "An A2 reading and listening text on the Boston Tea Party of 1773: the tax on tea, the protest in the harbour, and what Britain did next.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "On the night of 16 December 1773, about a hundred men walked down to the harbour in Boston. It was cold and dark, and they were going to destroy a very large amount of tea.",
+    "The problem had started years before. Britain needed money after a long war, so it put taxes on things the American colonists bought.",
+    "The colonists did not like paying taxes to a parliament in London, because they had nobody there to speak for them. They stopped buying British goods, and Britain removed most of the taxes.",
+    "But one tax stayed: the tax on tea. For London it was a small tax. For the colonists it was a question of principle.",
+    "In 1773 a new law gave one British company, the East India Company, the right to sell tea in America more cheaply than anybody else. Many colonists saw a trap. If they bought the cheap tea, they accepted the tax.",
+    "Three ships with tea arrived in Boston. The colonists asked the governor to send the ships back to England. He said no.",
+    "So the men went down to the harbour. Some of them had put blankets around their shoulders and paint on their faces, because they did not want anybody to recognise them.",
+    "They worked for about three hours. They opened 342 big boxes of tea and threw everything into the water. They broke nothing else, and they hurt nobody.",
+    "In the morning, tea was floating all over the harbour. People say the water smelled of tea for days.",
+    "Britain was furious. Parliament closed the port of Boston and sent soldiers. Instead of ending the protest, this brought the thirteen colonies together, and eighteen months later the war began."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 6,
+      "alt": "A coloured print of men on a moored ship throwing boxes of tea into the harbour while a crowd watches from the quay",
+      "source": "commons:File:Boston Tea Party Currier colored.jpg",
+      "caption": "*The Destruction of Tea at Boston Harbor* — Nathaniel Currier, 1846. Printed seventy years afterwards, with a crowd on the quay that the written accounts do not entirely support."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a harbour",
+      "definition": "a place where ships stop next to a city (American spelling: harbor)"
+    },
+    {
+      "term": "to destroy",
+      "definition": "to damage something completely"
+    },
+    {
+      "term": "goods",
+      "definition": "things that people buy and sell"
+    },
+    {
+      "term": "a principle",
+      "definition": "a strong idea about what is right"
+    },
+    {
+      "term": "a trap",
+      "definition": "a clever plan to catch somebody"
+    },
+    {
+      "term": "a governor",
+      "definition": "the person who governs a colony or a state"
+    },
+    {
+      "term": "to recognise",
+      "definition": "to know who somebody is when you see them"
+    },
+    {
+      "term": "to float",
+      "definition": "to stay on the top of water"
+    },
+    {
+      "term": "furious",
+      "definition": "extremely angry"
+    },
+    {
+      "term": "a port",
+      "definition": "a city or place where ships load and unload"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-btp-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "btp-c1",
+          "prompt": "When did the Boston Tea Party happen?",
+          "options": [
+            "16 December 1773",
+            "4 July 1776",
+            "In 1775"
+          ],
+          "answerIndex": 0,
+          "explanation": "The night of 16 December 1773."
+        },
+        {
+          "id": "btp-c2",
+          "prompt": "Why did Britain put taxes on the colonies?",
+          "options": [
+            "It needed money after a long war",
+            "It wanted more tea",
+            "The colonists asked for taxes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Britain needed money after a long war."
+        },
+        {
+          "id": "btp-c3",
+          "prompt": "Which tax stayed after the others were removed?",
+          "options": [
+            "The tax on paper",
+            "The tax on tea",
+            "The tax on ships"
+          ],
+          "answerIndex": 1,
+          "explanation": "The tax on tea — small in money, large in principle."
+        },
+        {
+          "id": "btp-c4",
+          "prompt": "Why did many colonists not want the cheap tea?",
+          "options": [
+            "They did not like the taste",
+            "Buying it meant accepting the tax",
+            "It arrived too late"
+          ],
+          "answerIndex": 1,
+          "explanation": "They saw a trap: if they bought the cheap tea, they accepted the tax with it."
+        },
+        {
+          "id": "btp-c5",
+          "prompt": "What did the men do at the harbour?",
+          "options": [
+            "They burned the ships",
+            "They threw the tea into the water",
+            "They took the tea home"
+          ],
+          "answerIndex": 1,
+          "explanation": "They opened 342 boxes and threw the tea into the water. They broke nothing else."
+        },
+        {
+          "id": "btp-c6",
+          "prompt": "What did Britain do after the protest?",
+          "options": [
+            "It removed the tax",
+            "It closed the port of Boston and sent soldiers",
+            "It did nothing"
+          ],
+          "answerIndex": 1,
+          "explanation": "It closed the port and sent soldiers — which brought the colonies together instead of dividing them."
+        }
+      ]
+    },
+    {
+      "id": "a2-btp-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "btp-t1",
+          "statement": "The men hurt the sailors on the ships.",
+          "answer": false,
+          "explanation": "False — “They broke nothing else, and they hurt nobody.”"
+        },
+        {
+          "id": "btp-t2",
+          "statement": "The governor sent the ships back to England.",
+          "answer": false,
+          "explanation": "False — the colonists asked him to, and he said no."
+        },
+        {
+          "id": "btp-t3",
+          "statement": "The men covered their faces.",
+          "answer": true,
+          "explanation": "True — they used blankets and paint so that nobody would recognise them."
+        },
+        {
+          "id": "btp-t4",
+          "statement": "The protest took about three hours.",
+          "answer": true,
+          "explanation": "True — they worked for about three hours."
+        },
+        {
+          "id": "btp-t5",
+          "statement": "The war started on the same night.",
+          "answer": false,
+          "explanation": "False — the war began about eighteen months later."
+        }
+      ]
+    },
+    {
+      "id": "a2-btp-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "btp-v1",
+          "prompt": "A place where ships stop next to a city is a ___.",
+          "options": [
+            "harbour",
+            "highway",
+            "hotel"
+          ],
+          "answerIndex": 0,
+          "explanation": "A harbour (harbor in American English)."
+        },
+        {
+          "id": "btp-v2",
+          "prompt": "When you are extremely angry, you are ___.",
+          "options": [
+            "furious",
+            "famous",
+            "formal"
+          ],
+          "answerIndex": 0,
+          "explanation": "Furious. Parliament was furious about the tea."
+        },
+        {
+          "id": "btp-v3",
+          "prompt": "Things that people buy and sell are ___.",
+          "options": [
+            "goods",
+            "gifts",
+            "guests"
+          ],
+          "answerIndex": 0,
+          "explanation": "Goods. The colonists stopped buying British goods."
+        },
+        {
+          "id": "btp-v4",
+          "prompt": "To stay on the top of water is to ___.",
+          "options": [
+            "float",
+            "fall",
+            "fill"
+          ],
+          "answerIndex": 0,
+          "explanation": "To float. The tea floated all over the harbour."
+        },
+        {
+          "id": "btp-v5",
+          "prompt": "A strong idea about what is right is a ___.",
+          "options": [
+            "principle",
+            "practice",
+            "present"
+          ],
+          "answerIndex": 0,
+          "explanation": "A principle. The tax was small; the principle was not."
+        }
+      ]
+    },
+    {
+      "id": "a2-btp-order",
+      "type": "matching",
+      "title": "Put the Story Together",
+      "instructions": "Match each event with the reason or result.",
+      "items": [
+        {
+          "id": "btp-m1",
+          "pairs": [
+            {
+              "left": "Britain needs money after a war",
+              "right": "it puts taxes on the colonies"
+            },
+            {
+              "left": "The colonists stop buying British goods",
+              "right": "Britain removes most of the taxes"
+            },
+            {
+              "left": "The governor will not send the ships back",
+              "right": "the colonists destroy the tea"
+            },
+            {
+              "left": "The tea is destroyed",
+              "right": "Britain closes the port of Boston"
+            },
+            {
+              "left": "Britain punishes Boston",
+              "right": "the thirteen colonies come together"
+            }
+          ],
+          "explanation": "Each event in this story is an answer to the one before it. That is how the war arrived: nobody planned it in 1773."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Was destroying the tea a good way to protest? What else could the colonists have done?",
+    "Have you ever stopped buying something because you did not agree with a company or a government?",
+    "Britain punished the whole city of Boston. Why can punishing a group make a problem bigger?"
+  ],
+  "audio": {
+    "duration_label": "2:01"
+  }
+}

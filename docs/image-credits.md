@@ -55,7 +55,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-145 images, imported with `scripts/import_local_artwork.py` from the local
+149 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -84,6 +84,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `a2/bus-to-the-mountains` | `01.jpg` | Drovers on a Bridge in an Alpine Landscape | `carl-schweich-drovers-on-a-bridge-in-an-alpine-landscape-1854.jpeg` |
 | `a2/bus-to-the-mountains` | `02.jpg` | Mountain Landscape with River | `zankovsky-ilya-nikolaevich-mountain-landscape-with-river-3.jpg` |
 | `a2/coffee-brewing` | `01.jpg` | Le Verre de Vin | `leon-augustin-lhermitte-le-verre-de-vin.jpeg` |
+| `a2/declaration-of-independence` | `01.jpg` | Declaration of Independence | `john-trumbull-declaration-of-independence-1819.jpeg` |
 | `a2/dream-bistro` | `01.jpg` | A Market Scene in Naples | `vincenzo-caprile-a-market-scene-in-naples.jpeg` |
 | `a2/everyday-service-english` | `01.jpg` | The Principal Market in Münster | `cornelis-springer-1840-1891-the-principal-market-in-munster.jpeg` |
 | `a2/everyday-service-english` | `02.jpg` | Photographed at the Acropolis | `genthe-arnold-kanellos-dance-group-performing-at-acropolis-photographed-1929.jpeg` |
@@ -94,6 +95,9 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `a2/grocery-shopping` | `01.jpg` | Still Life: Three Salmon Steaks | `francisco-goya-still-life-three-salmon-steaks-painted-1746-1828.jpeg` |
 | `a2/hiking-in-the-mountains` | `01.jpg` | The Mountain Pass | `sidney-richard-percy-the-mountain-pass.jpg` |
 | `a2/hiking-in-the-mountains` | `02.jpg` | Landscape at the Lake of Lucerne | `robert-zund-landscape-at-lake-of-lucerne-1827-1909.jpg` |
+| `a2/lewis-and-clark-west` | `01.jpg` | When the Land Belonged to God | `charles-marion-russell-when-the-land-belonged-to-god-1914.jpeg` |
+| `a2/lewis-and-clark-west` | `02.jpg` | The Rocky Mountains, Lander's Peak | `albert-bierstadt-the-rocky-mountains-landers-peak.jpg` |
+| `a2/oregon-trail` | `01.jpg` | Evening on the Prairie | `albert-bierstadt-evening-on-the-prairie-1870.jpeg` |
 | `a2/restaurant-dialogue` | `01.jpg` | At the Inn | `alexandre-louis-leloir-at-the-inn-1868.jpeg` |
 | `a2/saying-and-telling` | `01.jpg` | New Acquaintance | `karl-lemoch-new-acquaintance.jpg` |
 | `a2/something-wrong-with-the-order` | `01.jpg` | It's Touch and Go to Laugh or No | `sophie-gengembre-anderson-its-touch-and-go-to-laugh-or-no-1857.jpeg` |
@@ -209,7 +213,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-7 images the gallery could not answer -- flags, maps, photographs and
+13 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything that is not public domain.
 
@@ -222,5 +226,11 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `a1/statue-of-liberty` | `02.jpg` | Ellis Island, 1902. The island where ships from Europe stopped, a few hundred metres from the statue. | `File:Ellis island 1902.jpg` |
 | `a1/the-american-flag` | `01.jpg` | The flag of 1777: thirteen stripes and thirteen stars, one for each of the first states. | `File:Flag of the United States (1777-1795).svg` |
 | `a1/the-american-flag` | `02.jpg` | The flag today. Same thirteen stripes, fifty stars. | `File:Flag of the United States.svg` |
+| `a2/boston-tea-party` | `01.jpg` | The Destruction of Tea at Boston Harbor | `File:Boston Tea Party Currier colored.jpg` |
+| `a2/california-gold-rush` | `01.jpg` | Miners washing gravel with a “long tom”, California, around 1850. | `File:California gold miners with long tom.jpg` |
+| `a2/california-gold-rush` | `02.jpg` | Yerba Buena Cove, San Francisco, 1849. The crews had walked off to the gold fields and left the ships where they lay. | `File:Ships-abandoned-in-Yerba-Buena-Cove-San-Francisco-during-the-California-gold-rush.-1849.jpg` |
+| `a2/declaration-of-independence` | `02.jpg` | The document itself, now in Washington, D.C. The large signature at the top left of the names is John Hancock's. | `File:United States Declaration of Independence.jpg` |
+| `a2/oregon-trail` | `02.jpg` | Emigrants Crossing the Plains | `File:Emigrants Crossing the Plains, or The Oregon Trail (Albert Bierstadt), 1869.jpg` |
+| `a2/sacagawea` | `01.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
 
 <!-- gallery:end -->

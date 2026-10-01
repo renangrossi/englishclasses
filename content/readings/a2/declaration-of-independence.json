@@ -1,0 +1,341 @@
+{
+  "id": "a2-reading-declaration-of-independence",
+  "level": "A2",
+  "slug": "declaration-of-independence",
+  "order": 100,
+  "topic": "history",
+  "title": "The Declaration of Independence",
+  "subtitle": "Thirteen colonies, one hot summer in Philadelphia, and a letter to a king.",
+  "description": "An A2 reading and listening text on the Declaration of Independence: why the colonies were angry, who wrote the document, and what happened on 4 July 1776.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "In the summer of 1776, a small group of men sat in a hot room in Philadelphia and decided to leave their country.",
+    "At that time, thirteen colonies on the Atlantic coast belonged to Britain. The king was George III, and he lived more than five thousand kilometres away.",
+    "The colonists were angry about taxes. Britain made them pay money for tea, paper and other things, but the colonists had nobody in the British parliament. They said: no taxation without representation.",
+    "The war with Britain started in 1775. For more than a year the colonies fought, but they still called themselves British.",
+    "Then, in June 1776, a group called the Continental Congress asked five men to write a document. The document had to explain to the world why America wanted to be a separate country.",
+    "One of the five men did most of the writing. His name was Thomas Jefferson, and he was thirty-three years old. He worked on it for about two weeks.",
+    "The most famous sentence is short: “all men are created equal”. Jefferson wrote that people have rights that no king can take away: life, liberty and the pursuit of happiness.",
+    "Congress discussed the text and changed parts of it. On 4 July 1776, they accepted it. Most of the men signed it one month later, in August.",
+    "There is a hard fact behind the beautiful words. Jefferson wrote that all men are equal, and Jefferson owned enslaved people. So did many of the other men in the room.",
+    "Americans celebrate the fourth of July every year with family dinners, music and fireworks. The war, however, continued for seven more years."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 4,
+      "alt": "Five men standing at a table in a crowded hall, presenting a document to the seated members of Congress",
+      "source": "john-trumbull-declaration-of-independence-1819.jpeg",
+      "caption": "*Declaration of Independence* — John Trumbull, 1819. The committee of five hands in its draft; this is not the signing, although it is often described as one."
+    },
+    {
+      "src": "02.jpg",
+      "after": 7,
+      "alt": "The handwritten Declaration of Independence, with its large opening words and the signatures beneath",
+      "source": "commons:File:United States Declaration of Independence.jpg",
+      "caption": "The document itself, now in Washington, D.C. The large signature at the top left of the names is John Hancock's.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a colony",
+      "definition": "an area controlled by another country (people there are colonists)"
+    },
+    {
+      "term": "a tax",
+      "definition": "money that people must pay to a government"
+    },
+    {
+      "term": "parliament",
+      "definition": "the group of people who make the laws in Britain"
+    },
+    {
+      "term": "representation",
+      "definition": "having somebody who speaks for you in a government"
+    },
+    {
+      "term": "a document",
+      "definition": "an important piece of writing"
+    },
+    {
+      "term": "to sign",
+      "definition": "to write your name on a document"
+    },
+    {
+      "term": "rights",
+      "definition": "the things everybody should be allowed to have or do"
+    },
+    {
+      "term": "liberty",
+      "definition": "freedom"
+    },
+    {
+      "term": "equal",
+      "definition": "the same as somebody else in value or importance"
+    },
+    {
+      "term": "to celebrate",
+      "definition": "to do something special because of an important day"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-doi-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "doi-c1",
+          "prompt": "How many colonies were there?",
+          "options": [
+            "Five",
+            "Thirteen",
+            "Fifty"
+          ],
+          "answerIndex": 1,
+          "explanation": "Thirteen colonies on the Atlantic coast. The thirteen stripes on the flag are those colonies."
+        },
+        {
+          "id": "doi-c2",
+          "prompt": "Why were the colonists angry about taxes?",
+          "options": [
+            "The taxes were new",
+            "They had nobody in the British parliament",
+            "They did not drink tea"
+          ],
+          "answerIndex": 1,
+          "explanation": "“No taxation without representation”: they paid, but nobody spoke for them in parliament."
+        },
+        {
+          "id": "doi-c3",
+          "prompt": "Who did most of the writing?",
+          "options": [
+            "King George III",
+            "Thomas Jefferson",
+            "The whole Congress together"
+          ],
+          "answerIndex": 1,
+          "explanation": "Five men were asked, but Jefferson did most of the writing."
+        },
+        {
+          "id": "doi-c4",
+          "prompt": "When did Congress accept the Declaration?",
+          "options": [
+            "4 July 1776",
+            "In August 1776",
+            "In 1775"
+          ],
+          "answerIndex": 0,
+          "explanation": "They accepted it on 4 July 1776. Most of them signed it in August."
+        },
+        {
+          "id": "doi-c5",
+          "prompt": "What does the text say about Jefferson and slavery?",
+          "options": [
+            "He owned enslaved people",
+            "He never met an enslaved person",
+            "He ended slavery in 1776"
+          ],
+          "answerIndex": 0,
+          "explanation": "He wrote that all men are equal, and he owned enslaved people. The text asks you to hold both facts at the same time."
+        },
+        {
+          "id": "doi-c6",
+          "prompt": "What happened after July 1776?",
+          "options": [
+            "The war stopped",
+            "The war continued for seven more years",
+            "Britain gave the colonies money"
+          ],
+          "answerIndex": 1,
+          "explanation": "Declaring independence and winning it are two different things. The war went on until 1783."
+        }
+      ]
+    },
+    {
+      "id": "a2-doi-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "doi-t1",
+          "statement": "The war started after the Declaration.",
+          "answer": false,
+          "explanation": "False — the war started in 1775, more than a year before the Declaration."
+        },
+        {
+          "id": "doi-t2",
+          "statement": "Jefferson was over sixty when he wrote it.",
+          "answer": false,
+          "explanation": "False — he was thirty-three."
+        },
+        {
+          "id": "doi-t3",
+          "statement": "Congress changed parts of Jefferson's text.",
+          "answer": true,
+          "explanation": "True — “Congress discussed the text and changed parts of it.”"
+        },
+        {
+          "id": "doi-t4",
+          "statement": "King George III lived in America.",
+          "answer": false,
+          "explanation": "False — he lived more than five thousand kilometres away, in Britain."
+        },
+        {
+          "id": "doi-t5",
+          "statement": "Americans celebrate the fourth of July every year.",
+          "answer": true,
+          "explanation": "True — with family dinners, music and fireworks."
+        }
+      ]
+    },
+    {
+      "id": "a2-doi-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "doi-v1",
+          "prompt": "Money that people must pay to a government is a ___.",
+          "options": [
+            "tax",
+            "price",
+            "ticket"
+          ],
+          "answerIndex": 0,
+          "explanation": "A tax. The verb is also tax: Britain taxed tea and paper."
+        },
+        {
+          "id": "doi-v2",
+          "prompt": "To write your name on a document is to ___ it.",
+          "options": [
+            "sign",
+            "send",
+            "say"
+          ],
+          "answerIndex": 0,
+          "explanation": "To sign. The men signed the Declaration in August 1776."
+        },
+        {
+          "id": "doi-v3",
+          "prompt": "Another word for freedom is ___.",
+          "options": [
+            "liberty",
+            "loyalty",
+            "luxury"
+          ],
+          "answerIndex": 0,
+          "explanation": "Liberty. It is in the famous sentence: life, liberty and the pursuit of happiness."
+        },
+        {
+          "id": "doi-v4",
+          "prompt": "If two people have the same value and importance, they are ___.",
+          "options": [
+            "equal",
+            "easy",
+            "empty"
+          ],
+          "answerIndex": 0,
+          "explanation": "Equal. “All men are created equal.”"
+        },
+        {
+          "id": "doi-v5",
+          "prompt": "Having somebody who speaks for you in a government is ___.",
+          "options": [
+            "representation",
+            "reputation",
+            "registration"
+          ],
+          "answerIndex": 0,
+          "explanation": "Representation — the key word in the colonists' slogan."
+        }
+      ]
+    },
+    {
+      "id": "a2-doi-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with one word in each gap.",
+      "items": [
+        {
+          "id": "doi-b1",
+          "prompt": "Thirteen ___ on the Atlantic coast belonged to Britain.",
+          "answers": [
+            "colonies"
+          ],
+          "options": [
+            "colonies",
+            "countries",
+            "cities"
+          ],
+          "explanation": "Colonies. A colony is controlled by another country."
+        },
+        {
+          "id": "doi-b2",
+          "prompt": "The colonists said: no taxation without ___.",
+          "answers": [
+            "representation"
+          ],
+          "options": [
+            "representation",
+            "information",
+            "education"
+          ],
+          "explanation": "Representation."
+        },
+        {
+          "id": "doi-b3",
+          "prompt": "Thomas ___ did most of the writing.",
+          "answers": [
+            "Jefferson"
+          ],
+          "options": [
+            "Jefferson",
+            "Washington",
+            "Lincoln"
+          ],
+          "explanation": "Jefferson. Washington was leading the army at the time; Lincoln was born in 1809."
+        },
+        {
+          "id": "doi-b4",
+          "prompt": "Congress accepted the document on ___ July 1776.",
+          "answers": [
+            "4"
+          ],
+          "options": [
+            "4",
+            "14",
+            "24"
+          ],
+          "explanation": "The fourth of July."
+        },
+        {
+          "id": "doi-b5",
+          "prompt": "Americans ___ this day every year with fireworks.",
+          "answers": [
+            "celebrate"
+          ],
+          "options": [
+            "celebrate",
+            "cancel",
+            "complete"
+          ],
+          "explanation": "Celebrate."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Does your country have a national day? What happened on that date?",
+    "The Declaration says people have a right to “life, liberty and the pursuit of happiness”. What rights do you think are most important?",
+    "Jefferson wrote that all men are equal, and he owned enslaved people. How should a country remember a person like that?"
+  ],
+  "audio": {
+    "duration_label": "1:54"
+  }
+}

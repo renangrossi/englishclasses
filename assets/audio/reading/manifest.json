@@ -125,17 +125,35 @@
   "rate": "-8%",
   "voice": "en-US-GuyNeural"
  },
+ "a2/boston-tea-party": {
+  "bytes": 727488,
+  "fingerprint": "8699d6a615382acd",
+  "rate": "-8%",
+  "voice": "en-US-AriaNeural"
+ },
  "a2/bus-to-the-mountains": {
   "bytes": 1122480,
   "fingerprint": "80a16cdb159c0257",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
+ "a2/california-gold-rush": {
+  "bytes": 741456,
+  "fingerprint": "e4e6a943ef1e81a5",
+  "rate": "-8%",
+  "voice": "en-US-EmmaNeural"
+ },
  "a2/coffee-brewing": {
   "bytes": 758160,
   "fingerprint": "f86c0069c8d9d13e",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
+ },
+ "a2/declaration-of-independence": {
+  "bytes": 684144,
+  "fingerprint": "d5bb398d3dfc04ce",
+  "rate": "-8%",
+  "voice": "en-US-BrianNeural"
  },
  "a2/dream-bistro": {
   "bytes": 895248,
@@ -173,11 +191,29 @@
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
+ "a2/lewis-and-clark-west": {
+  "bytes": 754848,
+  "fingerprint": "daae9989454d33c6",
+  "rate": "-8%",
+  "voice": "en-US-EricNeural"
+ },
+ "a2/oregon-trail": {
+  "bytes": 752112,
+  "fingerprint": "bb5b360cde8bae5e",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
+ },
  "a2/restaurant-dialogue": {
   "bytes": 916848,
   "fingerprint": "173e73c0151636dc",
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
+ },
+ "a2/sacagawea": {
+  "bytes": 789264,
+  "fingerprint": "138b5436e84183b7",
+  "rate": "-8%",
+  "voice": "en-US-AriaNeural"
  },
  "a2/saying-and-telling": {
   "bytes": 627120,

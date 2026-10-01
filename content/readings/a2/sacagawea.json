@@ -1,0 +1,330 @@
+{
+  "id": "a2-reading-sacagawea",
+  "level": "A2",
+  "slug": "sacagawea",
+  "order": 103,
+  "topic": "history",
+  "title": "Sacagawea and the Journey West",
+  "subtitle": "A sixteen-year-old with a baby on her back, and the moment she recognised her brother.",
+  "description": "An A2 reading and listening text on Sacagawea: who she was, what she really did on the Lewis and Clark expedition, and what we do not know about her.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "passage": [
+    "In August 1805, high in the Rocky Mountains, a young woman looked at the chief of a Shoshone group and started to cry. The chief was her brother. She had not seen him for about five years.",
+    "Her name was Sacagawea. She was born around 1788 in a Shoshone community in today's Idaho.",
+    "When she was about twelve, men from another nation, the Hidatsa, attacked her village and took her away. Later she became the wife of a French-Canadian trader called Toussaint Charbonneau.",
+    "In the winter of 1804, the Lewis and Clark expedition stopped near her village. They needed somebody who could speak with the Shoshone, because they would need horses to cross the mountains.",
+    "Charbonneau was hired, and Sacagawea went with him. In February 1805 she had a baby boy, Jean Baptiste. She carried him on her back for the whole journey.",
+    "People often call her a guide. That is not quite right. She did not know most of the country, and she did not lead the expedition.",
+    "But she did things that nobody else could do. She translated. She found plants that the men could eat. One day, when a boat turned over in a river, she saved the books and instruments that were floating away.",
+    "There was something else. In those years, a war party never travelled with a woman and a baby. When people saw Sacagawea, they understood that this group had not come to fight.",
+    "And in August 1805 she met her brother, Cameahwait, and the Shoshone sold the expedition the horses it needed. Without those horses the men could not have crossed the mountains.",
+    "We do not know much about her life after 1806. Most historians think she died in 1812, when she was about twenty-four. Today her face is on an American dollar coin — with her baby on her back."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 7,
+      "alt": "A painting of the expedition's canoes meeting Native canoes on a wide river, with Sacagawea standing in the nearest boat and raising her hand in greeting",
+      "source": "commons:File:Lewis and clark-expedition.jpg",
+      "caption": "*Lewis and Clark on the Lower Columbia* — Charles M. Russell, 1905. Sacagawea stands in the near canoe with her hand raised."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a chief",
+      "definition": "the leader of a group or community"
+    },
+    {
+      "term": "a trader",
+      "definition": "a person who buys and sells things"
+    },
+    {
+      "term": "to hire",
+      "definition": "to pay somebody to work for you"
+    },
+    {
+      "term": "a guide",
+      "definition": "a person who shows other people the way"
+    },
+    {
+      "term": "to translate",
+      "definition": "to say in one language what somebody said in another"
+    },
+    {
+      "term": "an instrument",
+      "definition": "a tool for measuring or doing careful work"
+    },
+    {
+      "term": "a war party",
+      "definition": "a group of people travelling together to fight"
+    },
+    {
+      "term": "a historian",
+      "definition": "a person who studies history"
+    },
+    {
+      "term": "a coin",
+      "definition": "a round piece of metal money"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-sac-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "sac-c1",
+          "prompt": "Who was the Shoshone chief she met in August 1805?",
+          "options": [
+            "Her husband",
+            "Her brother",
+            "Her father"
+          ],
+          "answerIndex": 1,
+          "explanation": "Her brother, Cameahwait. She had not seen him for about five years."
+        },
+        {
+          "id": "sac-c2",
+          "prompt": "How did Sacagawea leave her community as a child?",
+          "options": [
+            "She moved with her parents",
+            "The Hidatsa attacked her village and took her",
+            "She went to school"
+          ],
+          "answerIndex": 1,
+          "explanation": "The Hidatsa attacked her village when she was about twelve."
+        },
+        {
+          "id": "sac-c3",
+          "prompt": "Why did the expedition want somebody who spoke Shoshone?",
+          "options": [
+            "To write the journals",
+            "To buy horses for crossing the mountains",
+            "To cook"
+          ],
+          "answerIndex": 1,
+          "explanation": "They knew they would need horses, and the Shoshone had them."
+        },
+        {
+          "id": "sac-c4",
+          "prompt": "Why does the text say she was not really a guide?",
+          "options": [
+            "She did not know most of the country and did not lead the group",
+            "She stayed at home",
+            "She was too young"
+          ],
+          "answerIndex": 0,
+          "explanation": "She did not know most of the land and did not lead the expedition — but she did other things nobody else could."
+        },
+        {
+          "id": "sac-c5",
+          "prompt": "What did she save when a boat turned over?",
+          "options": [
+            "The food",
+            "The books and instruments",
+            "The horses"
+          ],
+          "answerIndex": 1,
+          "explanation": "The books and instruments that were floating away."
+        },
+        {
+          "id": "sac-c6",
+          "prompt": "Why was a woman with a baby important for the group?",
+          "options": [
+            "She could carry more",
+            "People understood the group had not come to fight",
+            "She knew the rivers"
+          ],
+          "answerIndex": 1,
+          "explanation": "A war party never travelled with a woman and a baby."
+        }
+      ]
+    },
+    {
+      "id": "a2-sac-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "sac-t1",
+          "statement": "Sacagawea was about sixteen during the expedition.",
+          "answer": true,
+          "explanation": "True — she was born around 1788 and the journey was in 1804–1806."
+        },
+        {
+          "id": "sac-t2",
+          "statement": "She left her baby at the village.",
+          "answer": false,
+          "explanation": "False — she carried him on her back for the whole journey."
+        },
+        {
+          "id": "sac-t3",
+          "statement": "She could speak with the Shoshone.",
+          "answer": true,
+          "explanation": "True — that is why the expedition wanted her."
+        },
+        {
+          "id": "sac-t4",
+          "statement": "Historians know exactly what happened to her after 1806.",
+          "answer": false,
+          "explanation": "False — we do not know much. Most historians think she died in 1812."
+        },
+        {
+          "id": "sac-t5",
+          "statement": "Her face is on an American dollar coin.",
+          "answer": true,
+          "explanation": "True — with her baby on her back."
+        }
+      ]
+    },
+    {
+      "id": "a2-sac-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "sac-v1",
+          "prompt": "To say in English what somebody said in Shoshone is to ___.",
+          "options": [
+            "translate",
+            "transport",
+            "travel"
+          ],
+          "answerIndex": 0,
+          "explanation": "To translate."
+        },
+        {
+          "id": "sac-v2",
+          "prompt": "The leader of a community is a ___.",
+          "options": [
+            "chief",
+            "child",
+            "cook"
+          ],
+          "answerIndex": 0,
+          "explanation": "A chief."
+        },
+        {
+          "id": "sac-v3",
+          "prompt": "To pay somebody to work for you is to ___ them.",
+          "options": [
+            "hire",
+            "hurry",
+            "hide"
+          ],
+          "answerIndex": 0,
+          "explanation": "To hire. Charbonneau was hired, and Sacagawea came with him."
+        },
+        {
+          "id": "sac-v4",
+          "prompt": "A person who studies history is a ___.",
+          "options": [
+            "historian",
+            "hero",
+            "host"
+          ],
+          "answerIndex": 0,
+          "explanation": "A historian."
+        },
+        {
+          "id": "sac-v5",
+          "prompt": "A round piece of metal money is a ___.",
+          "options": [
+            "coin",
+            "card",
+            "cash"
+          ],
+          "answerIndex": 0,
+          "explanation": "A coin."
+        }
+      ]
+    },
+    {
+      "id": "a2-sac-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with one word in each gap.",
+      "items": [
+        {
+          "id": "sac-b1",
+          "prompt": "Sacagawea was born in a ___ community around 1788.",
+          "answers": [
+            "Shoshone"
+          ],
+          "options": [
+            "Shoshone",
+            "Spanish",
+            "Scottish"
+          ],
+          "explanation": "Shoshone, in today's Idaho."
+        },
+        {
+          "id": "sac-b2",
+          "prompt": "She carried her ___ on her back for the whole journey.",
+          "answers": [
+            "baby"
+          ],
+          "options": [
+            "baby",
+            "boat",
+            "book"
+          ],
+          "explanation": "Her baby, Jean Baptiste."
+        },
+        {
+          "id": "sac-b3",
+          "prompt": "The expedition needed ___ to cross the mountains.",
+          "answers": [
+            "horses"
+          ],
+          "options": [
+            "horses",
+            "houses",
+            "hotels"
+          ],
+          "explanation": "Horses, which the Shoshone sold them."
+        },
+        {
+          "id": "sac-b4",
+          "prompt": "When a boat turned over, she saved the ___ and instruments.",
+          "answers": [
+            "books"
+          ],
+          "options": [
+            "books",
+            "boots",
+            "boxes"
+          ],
+          "explanation": "The books — the journals and notes of the expedition."
+        },
+        {
+          "id": "sac-b5",
+          "prompt": "Her brother was the ___ of a Shoshone group.",
+          "answers": [
+            "chief"
+          ],
+          "options": [
+            "chief",
+            "cook",
+            "child"
+          ],
+          "explanation": "The chief, Cameahwait."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Sacagawea is famous today, but we know very little about her. Why do you think that is?",
+    "Which of the things she did do you think was the most important?",
+    "Is there a person in your country's history who helped a famous event but is less famous than they should be?"
+  ],
+  "audio": {
+    "duration_label": "2:11"
+  }
+}

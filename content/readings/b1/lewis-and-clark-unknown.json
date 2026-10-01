@@ -1,0 +1,301 @@
+{
+  "id": "b1-reading-lewis-and-clark-unknown",
+  "level": "B1",
+  "slug": "lewis-and-clark-unknown",
+  "order": 101,
+  "topic": "history",
+  "title": "Lewis and Clark: Into the Unknown",
+  "subtitle": "A month to carry the boats around one waterfall, and a vote on the Pacific coast that should not have been possible.",
+  "description": "A B1 reading and listening text on the Lewis and Clark expedition in detail: the portage at the Great Falls, the crossing of the Bitterroots, the vote at the ocean and the return.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "Everything about the expedition's first summer went roughly to plan, which turned out to be the exception rather than the rule.",
+    "The Corps of Discovery left the Missouri near St. Louis in May 1804 and worked upriver against the current all summer. Thirty-odd men pushed, rowed and pulled a heavy boat about twenty kilometres a day. In August one sergeant, Charles Floyd, died suddenly — almost certainly of a burst appendix, which no doctor in the world could have treated at the time. He was the only member of the party to die in two and a half years.",
+    "They spent the winter of 1804 at Fort Mandan, in today's North Dakota, among the Mandan and Hidatsa, whose towns were a major trading centre long before any American arrived. There they hired the interpreter Toussaint Charbonneau, and with him came his young Shoshone wife, Sacagawea, who gave birth to a son in February.",
+    "The following June, the river gave them the first serious problem. At the Great Falls of the Missouri they expected a short walk around a waterfall. They found a series of five falls, and the detour took a month: boats emptied, loads carried on improvised wooden wheels over ground covered in cactus, through heat, hail and grizzly bears.",
+    "The second problem was geography itself. Jefferson's instructions assumed a short portage between the Missouri and a river running to the Pacific. In August, standing on a pass in today's Idaho, Lewis looked west and saw mountains to the horizon in every direction. There was no water route across the continent. That fact, more than anything else they brought home, changed how the United States understood its own map.",
+    "They bought horses from Sacagawea's Shoshone relatives and crossed the Bitterroot Mountains in September on the Lolo Trail. It was the worst eleven days of the journey. There was no game, snow was already falling, and they ate candles and a horse. They came down the western side starving and were fed by the Nez Perce, who could have taken everything they had and instead kept them alive.",
+    "By canoe down the Clearwater, the Snake and the Columbia, they reached the Pacific in November 1805. Clark wrote “Ocian in view! O! the joy” — his spelling, not a printing error.",
+    "What happened next is one of the reasons the expedition is still studied. They had to decide where to spend the winter, so they held a vote. Every member voted, including York, an enslaved man owned by Clark, and Sacagawea, a Native woman. Neither of them could have voted anywhere in the United States at the time, and neither gained anything permanent from it: York was not freed for years afterwards, and Sacagawea's later life is almost unrecorded.",
+    "They built Fort Clatsop, waited out a wet winter, and started home in March 1806. They reached St. Louis in September, after about 13,000 kilometres. The town fired a gun in welcome; most people had assumed they were dead.",
+    "The expedition brought back journals describing 178 plants and 122 animals previously unknown to science, maps that were used for decades, and detailed accounts of nearly fifty Native nations. It also brought back the route that the fur trade, the wagon trains and eventually the railroads would follow — which is why, for the people who had fed the Corps on its way through, the expedition was less a discovery than an announcement."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 4,
+      "alt": "A mountain range rising range behind range above a lake, the far peaks disappearing into light",
+      "source": "albert-bierstadt-among-the-sierra-nevada-mountains-1868.jpg",
+      "caption": "*Among the Sierra Nevada Mountains* — Albert Bierstadt, 1868. What Lewis saw from the pass was this, in every direction, where a river to the Pacific should have been."
+    },
+    {
+      "src": "02.jpg",
+      "after": 7,
+      "alt": "The expedition's canoes meeting Native canoes on a wide river under high cliffs",
+      "source": "commons:File:Lewis and clark-expedition.jpg",
+      "caption": "*Lewis and Clark on the Lower Columbia* — Charles M. Russell, 1905."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "upriver",
+      "definition": "in the direction opposite to the flow of a river"
+    },
+    {
+      "term": "a current",
+      "definition": "the movement of water in a river or the sea"
+    },
+    {
+      "term": "a portage",
+      "definition": "the act of carrying boats and loads overland between two stretches of water"
+    },
+    {
+      "term": "a detour",
+      "definition": "a longer way around something that is blocking the direct route"
+    },
+    {
+      "term": "game",
+      "definition": "wild animals hunted for food"
+    },
+    {
+      "term": "an interpreter",
+      "definition": "a person who translates speech from one language to another"
+    },
+    {
+      "term": "to starve",
+      "definition": "to suffer or die from lack of food"
+    },
+    {
+      "term": "a journal",
+      "definition": "a daily written record"
+    },
+    {
+      "term": "the fur trade",
+      "definition": "the business of buying and selling animal skins"
+    },
+    {
+      "term": "an account",
+      "definition": "a written or spoken description of something that happened"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-lcu-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "lcu-c1",
+          "prompt": "How did Sergeant Charles Floyd die?",
+          "options": [
+            "In a fight",
+            "Almost certainly of a burst appendix",
+            "He drowned"
+          ],
+          "answerIndex": 1,
+          "explanation": "No doctor at the time could have treated it. He was the only member of the party to die."
+        },
+        {
+          "id": "lcu-c2",
+          "prompt": "What was Fort Mandan?",
+          "options": [
+            "A French fort",
+            "Where the expedition spent the first winter, among the Mandan and Hidatsa",
+            "The end of the journey"
+          ],
+          "answerIndex": 1,
+          "explanation": "The winter camp of 1804, next to towns that were already a major trading centre."
+        },
+        {
+          "id": "lcu-c3",
+          "prompt": "Why did the Great Falls take a month?",
+          "options": [
+            "There were five falls, not one, and everything had to be carried overland",
+            "The boats sank",
+            "They waited for snow"
+          ],
+          "answerIndex": 0,
+          "explanation": "They expected a short walk around one waterfall and found a series of five."
+        },
+        {
+          "id": "lcu-c4",
+          "prompt": "What did Lewis see from the pass in August 1805?",
+          "options": [
+            "The Pacific Ocean",
+            "Mountains to the horizon in every direction",
+            "A wide river running west"
+          ],
+          "answerIndex": 1,
+          "explanation": "There was no water route across the continent — the most important thing the expedition established."
+        },
+        {
+          "id": "lcu-c5",
+          "prompt": "Who fed the starving party after the Bitterroots?",
+          "options": [
+            "The Shoshone",
+            "The Nez Perce",
+            "A French trading post"
+          ],
+          "answerIndex": 1,
+          "explanation": "The Nez Perce, who could have taken everything and instead kept them alive."
+        },
+        {
+          "id": "lcu-c6",
+          "prompt": "What was unusual about the vote on the Pacific coast?",
+          "options": [
+            "Nobody voted",
+            "York and Sacagawea voted, although neither could vote in the United States",
+            "Only the two captains voted"
+          ],
+          "answerIndex": 1,
+          "explanation": "An enslaved man and a Native woman both voted — and neither gained anything lasting from it."
+        }
+      ]
+    },
+    {
+      "id": "b1-lcu-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "lcu-t1",
+          "statement": "The expedition found a river route across the continent.",
+          "answer": false,
+          "explanation": "False — they established that no such route existed, which was the opposite of what Jefferson hoped."
+        },
+        {
+          "id": "lcu-t2",
+          "statement": "The crossing of the Bitterroot Mountains was the hardest part of the journey.",
+          "answer": true,
+          "explanation": "True — eleven days, no game, snow falling, and they ate candles and a horse."
+        },
+        {
+          "id": "lcu-t3",
+          "statement": "Clark's journals are written in perfect standard spelling.",
+          "answer": false,
+          "explanation": "False — “Ocian in view! O! the joy” is his own spelling."
+        },
+        {
+          "id": "lcu-t4",
+          "statement": "York was freed immediately after the expedition.",
+          "answer": false,
+          "explanation": "False — he was not freed for years afterwards."
+        },
+        {
+          "id": "lcu-t5",
+          "statement": "The expedition brought back descriptions of nearly fifty Native nations.",
+          "answer": true,
+          "explanation": "True — along with 178 plants, 122 animals and maps used for decades."
+        }
+      ]
+    },
+    {
+      "id": "b1-lcu-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "lcu-v1",
+          "prompt": "Carrying boats overland between two rivers is a ___.",
+          "options": [
+            "portage",
+            "passage",
+            "package"
+          ],
+          "answerIndex": 0,
+          "explanation": "A portage — the word comes from French porter, to carry."
+        },
+        {
+          "id": "lcu-v2",
+          "prompt": "Wild animals hunted for food are called ___.",
+          "options": [
+            "game",
+            "gear",
+            "grain"
+          ],
+          "answerIndex": 0,
+          "explanation": "Game. “There was no game” means there was nothing to hunt."
+        },
+        {
+          "id": "lcu-v3",
+          "prompt": "A person who translates speech is an ___.",
+          "options": [
+            "interpreter",
+            "inspector",
+            "instructor"
+          ],
+          "answerIndex": 0,
+          "explanation": "An interpreter translates speech; a translator usually works with written text."
+        },
+        {
+          "id": "lcu-v4",
+          "prompt": "A longer way around an obstacle is a ___.",
+          "options": [
+            "detour",
+            "degree",
+            "demand"
+          ],
+          "answerIndex": 0,
+          "explanation": "A detour."
+        },
+        {
+          "id": "lcu-v5",
+          "prompt": "Travelling against the flow of a river is going ___.",
+          "options": [
+            "upriver",
+            "offshore",
+            "downhill"
+          ],
+          "answerIndex": 0,
+          "explanation": "Upriver — which is why the first summer was such hard physical work."
+        }
+      ]
+    },
+    {
+      "id": "b1-lcu-order",
+      "type": "matching",
+      "title": "Where and When",
+      "instructions": "Match each place or date with what happened there.",
+      "items": [
+        {
+          "id": "lcu-m1",
+          "pairs": [
+            {
+              "left": "Fort Mandan, winter 1804",
+              "right": "Charbonneau and Sacagawea join the expedition"
+            },
+            {
+              "left": "The Great Falls, June 1805",
+              "right": "a month spent carrying boats around five waterfalls"
+            },
+            {
+              "left": "A pass in Idaho, August 1805",
+              "right": "Lewis sees mountains instead of a river to the Pacific"
+            },
+            {
+              "left": "The Bitterroots, September 1805",
+              "right": "eleven days of snow and no food"
+            },
+            {
+              "left": "Fort Clatsop, winter 1805",
+              "right": "the party waits out the rain on the Pacific coast"
+            }
+          ],
+          "explanation": "A long journey is easier to remember as five places than as two years. Each of these is a turning point in the story."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The expedition depended on help from the people it met. Does that change how you think about the word “discovery”?",
+    "Everybody voted on where to spend the winter, including people who had no rights at home. Why do you think that happened on the coast and not in Washington?",
+    "If you had to choose one of the hardships in this text to avoid — the river, the portage or the mountains — which would it be?"
+  ],
+  "audio": {
+    "duration_label": "3:45"
+  }
+}

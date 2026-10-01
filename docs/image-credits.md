@@ -55,7 +55,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-149 images, imported with `scripts/import_local_artwork.py` from the local
+152 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -140,6 +140,8 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b1/investigation-story` | `02.jpg` | A Moonlit Night | `august-piepenhagen-a-moonlit-night.jpg` |
 | `b1/investigation-story` | `03.jpg` | Lost Honour | `eduard-schulz-briesen-lost-honour.jpeg` |
 | `b1/kitchen-chaos` | `01.jpg` | The Dinner at the Ball | `adolph-von-menzel-the-dinner-at-the-ball-1878.jpg` |
+| `b1/lewis-and-clark-unknown` | `01.jpg` | Among the Sierra Nevada Mountains | `albert-bierstadt-among-the-sierra-nevada-mountains-1868.jpg` |
+| `b1/louisiana-purchase` | `01.jpg` | The Falls of St Anthony | `albert-bierstadt-the-falls-of-st-anthony-1887.jpg` |
 | `b1/milan-restaurants` | `01.jpg` | Oregon Trail Campfire | `albert-bierstadt-oregon-trail-campfire-1863.jpeg` |
 | `b1/milan-restaurants` | `02.jpg` | Fishermen | `hans-gude-adolph-tidemand-fishermen-1851.jpeg` |
 | `b1/my-day-in-vienna-to-by-for` | `01.jpg` | St Stephen's Cathedral in Vienna | `rudolf-von-alt-st-stephens-cathedral-in-vienna-1832.jpg` |
@@ -161,6 +163,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b1/southeast-asia-adventure` | `02.jpg` | Evening on a Lake | `vasily-vereshchagin-evening-on-a-lake-a-pavilion-on-the-marble-embankment-in-rajnagar-udaipur-principality-1874.jpg` |
 | `b1/state-fair-food` | `01.jpg` | Village Fair by Night | `hendrik-gerrit-ten-cate-village-fair-by-night-1803-1856.jpeg` |
 | `b1/state-fair-food` | `02.jpg` | Fair in the Oude Beurs, Antwerp | `pierre-jean-van-der-ouderaa-fair-in-the-oude-beurs-in-antwerp-1892.jpeg` |
+| `b1/transcontinental-railroad` | `01.jpg` | The Last of the Buffalo | `albert-bierstadt-the-last-of-the-buffalo-1888.jpg` |
 | `b1/travel-dialogues-02` | `01.jpg` | A Scene of Everyday Life at the Nuremberg Town Hall | `heinrich-hansen-a-scene-of-everyday-life-at-the-nuremberg-town-hall.jpeg` |
 | `b1/usa-restaurants` | `01.jpg` | Muddy Alligators | `john-singer-sargent-muddy-alligators.jpeg` |
 | `b1/usa-restaurants` | `02.jpg` | Jamaica | `frederic-edwin-church-jamaica-1871.jpeg` |
@@ -213,7 +216,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-13 images the gallery could not answer -- flags, maps, photographs and
+30 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything that is not public domain.
 
@@ -232,5 +235,22 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `a2/declaration-of-independence` | `02.jpg` | The document itself, now in Washington, D.C. The large signature at the top left of the names is John Hancock's. | `File:United States Declaration of Independence.jpg` |
 | `a2/oregon-trail` | `02.jpg` | Emigrants Crossing the Plains | `File:Emigrants Crossing the Plains, or The Oregon Trail (Albert Bierstadt), 1869.jpg` |
 | `a2/sacagawea` | `01.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
+| `b1/american-flag-symbols` | `01.jpg` | Join, or Die | `File:Benjamin Franklin - Join or Die.jpg` |
+| `b1/american-flag-symbols` | `02.jpg` | The Grand Union flag, or Continental Colors, used from late 1775. Thirteen colonies acting together | `File:Grand Union Flag.svg` |
+| `b1/american-flag-symbols` | `03.jpg` | One reading of the 1777 resolution: thirteen stars in rows. The resolution did not say how to arrange them, so flag-makers decided for themselves. | `File:Flag of the United States (1777-1795).svg` |
+| `b1/american-flag-symbols` | `04.jpg` | The circle of thirteen stars, known as the Betsy Ross flag. The design is of the period; the story that she sewed the first one is family tradition from 1870, not a contemporary record. | `File:Betsy Ross flag.svg` |
+| `b1/american-flag-symbols` | `05.jpg` | The Gadsden flag, 1775 | `File:Gadsden flag.svg` |
+| `b1/american-flag-symbols` | `06.jpg` | The Pine Tree flag, used by New England units and Washington's armed schooners in 1775, in an 1894 printed illustration. The motto is John Locke's phrase for what a people may do when no court will hear them. | `File:Pine Tree "An Appeal To Heaven" Flag Illustration from 1894.png` |
+| `b1/american-flag-symbols` | `07.jpg` | The Bennington design, photographed on a modern flag. It is traditionally tied to the battle of 1777, but the surviving historic flag is machine-woven and is now usually dated to the early nineteenth century. | `File:Bennington-Battle-Flag.jpg` |
+| `b1/american-flag-symbols` | `08.jpg` | Fifteen stars and fifteen stripes, 1795–1818. This is the flag over Fort McHenry in 1814, and the only American flag ever to have more than thirteen stripes. | `File:Flag of the United States (1795-1818).svg` |
+| `b1/american-flag-symbols` | `09.jpg` | Fifty stars since 1960. Thirteen stripes, by the law of 1818, for the colonies that started it. | `File:Flag of the United States.svg` |
+| `b1/frederick-douglass` | `01.jpg` | Frederick Douglass in 1856. He sat for photographs constantly and deliberately: he was the most photographed American of the nineteenth century. | `File:Frederick Douglass ambrotype (1856).jpg` |
+| `b1/harriet-tubman` | `01.jpg` | Harriet Tubman, photographed around 1868, about twenty years after her own escape. | `File:Harriet Tubman c1868-69.jpg` |
+| `b1/harriet-tubman` | `02.jpg` | The Underground Railroad | `File:The Underground Railroad by Charles T. Webber, 1893.jpg` |
+| `b1/lewis-and-clark-unknown` | `02.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
+| `b1/lincoln-and-the-civil-war` | `01.jpg` | The Battle of Antietam | `File:Thure de Thulstrup - Battle of Antietam.jpg` |
+| `b1/louisiana-purchase` | `02.jpg` | Louisiana, mapped by Samuel Lewis in 1804. Notice how much of it is blank: this is the map the United States had just bought. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
+| `b1/transcontinental-railroad` | `02.jpg` | Promontory Summit, Utah, 10 May 1869. No Chinese worker appears in the photograph of the line they largely built. | `File:East and West Shaking hands at the laying of last rail Union Pacific Railroad - Restoration.jpg` |
+| `b1/transcontinental-railroad` | `03.jpg` | Chinese workers on the Central Pacific in the Sierra Nevada. At the peak they were about four out of five of the company's workforce. | `File:Chinese railroad workers sierra nevada.jpg` |
 
 <!-- gallery:end -->

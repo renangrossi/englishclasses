@@ -275,6 +275,12 @@
   "rate": "-8%",
   "voice": "en-US-AriaNeural"
  },
+ "b1/american-flag-symbols": {
+  "bytes": 2152512,
+  "fingerprint": "91dfc73929735797",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
+ },
  "b1/animal-solutions": {
   "bytes": 1127664,
   "fingerprint": "24b9050433c5643a",
@@ -353,6 +359,12 @@
   "rate": "-8%",
   "voice": "en-US-GuyNeural"
  },
+ "b1/frederick-douglass": {
+  "bytes": 1163808,
+  "fingerprint": "9d69a0e5a8f98b6b",
+  "rate": "-8%",
+  "voice": "en-US-EricNeural"
+ },
  "b1/glamping": {
   "bytes": 1098000,
   "fingerprint": "bdf202c35d351959",
@@ -371,6 +383,12 @@
   "rate": "-8%",
   "voice": "en-US-BrianNeural"
  },
+ "b1/harriet-tubman": {
+  "bytes": 1082736,
+  "fingerprint": "ec8bea6623d9bf7a",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
+ },
  "b1/investigation-story": {
   "bytes": 934848,
   "fingerprint": "db0e590f0106cb61",
@@ -380,6 +398,24 @@
  "b1/kitchen-chaos": {
   "bytes": 1019952,
   "fingerprint": "587f9ccdfe69bcca",
+  "rate": "-8%",
+  "voice": "en-US-ChristopherNeural"
+ },
+ "b1/lewis-and-clark-unknown": {
+  "bytes": 1353456,
+  "fingerprint": "f6fbefbf3f23dc69",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
+ },
+ "b1/lincoln-and-the-civil-war": {
+  "bytes": 1079280,
+  "fingerprint": "70e27850f92ffa65",
+  "rate": "-8%",
+  "voice": "en-US-GuyNeural"
+ },
+ "b1/louisiana-purchase": {
+  "bytes": 1106208,
+  "fingerprint": "f8e65aeb197d0130",
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
  },
@@ -466,6 +502,12 @@
   "fingerprint": "8e5bd8d367349dab",
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
+ },
+ "b1/transcontinental-railroad": {
+  "bytes": 1143936,
+  "fingerprint": "e2650eed3af4faa6",
+  "rate": "-8%",
+  "voice": "en-US-EmmaNeural"
  },
  "b1/travel-dialogues-02": {
   "bytes": 1258560,

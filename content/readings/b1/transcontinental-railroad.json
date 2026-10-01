@@ -1,0 +1,347 @@
+{
+  "id": "b1-reading-transcontinental-railroad",
+  "level": "B1",
+  "slug": "transcontinental-railroad",
+  "order": 105,
+  "topic": "history",
+  "title": "The Transcontinental Railroad",
+  "subtitle": "Six months by wagon, or one week by train. The difference was built by people who were left out of the photograph.",
+  "description": "A B1 reading and listening text on the first transcontinental railroad: the two companies, the workers who built it, the meeting at Promontory Summit, and what it cost the Plains nations.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "Before 1869, getting from New York to San Francisco took about six months by wagon or by ship around South America. After 1869 it took about a week. Almost nothing else in the nineteenth century changed a country that fast.",
+    "Congress approved the plan in 1862, in the middle of the Civil War, and gave the work to two companies. The Union Pacific built west from Omaha, Nebraska. The Central Pacific built east from Sacramento, California. They were paid by the mile, which explains a great deal about how they behaved.",
+    "The Central Pacific had the harder problem: the Sierra Nevada, a wall of granite with heavy winter snow. The company could not find enough workers, so it began hiring Chinese immigrants, and then recruiting directly from southern China. At the peak, something like four out of five of its workers were Chinese.",
+    "They cut fifteen tunnels through solid rock, mostly by hand, with hammers, drills and black powder. Progress through the longest tunnel was measured in centimetres a day. Men worked through winters in snow tunnels, with the camp buried and the sky invisible for weeks. Hundreds died in accidents and avalanches, and the companies kept no careful record of how many.",
+    "They were paid less than white workers and had to buy their own food. In 1867 about three thousand of them went on strike for equal pay and shorter hours. The company cut off the food supply to the camps, and the strike ended in a week.",
+    "The Union Pacific, crossing the plains, had easier ground and a different problem: it was building straight through the hunting grounds of the Lakota, Cheyenne and Arapaho, who understood very well what the line meant. The army was sent to protect the work.",
+    "On 10 May 1869 the two lines met at Promontory Summit, Utah. A ceremonial golden spike was driven to join them, the news went out by telegraph, and cities across the country celebrated the same hour. The famous photograph shows the two locomotives and a crowd of officials and workers. No Chinese worker appears in it.",
+    "The effects were immediate. Goods that had cost a fortune to move became cheap. Towns appeared along the line because the line was there. Standard time zones were invented a few years later because the railroads could not run on hundreds of different local clocks.",
+    "For the Plains nations the railroad was the end of a way of life. It cut the buffalo herds in two, carried hunters who shot the animals from the train windows, and moved soldiers and settlers west faster than any treaty could be negotiated. Within twenty years the herds were practically gone.",
+    "Many of the Chinese workers went on to build other lines, and many were then pushed out of the country they had built across: the Chinese Exclusion Act of 1882 banned almost all immigration from China for sixty years. The railroad is usually told as a story about engineering. It is at least as much a story about who the country decided to count."
+  ],
+  "images": [
+    {
+      "src": "03.jpg",
+      "after": 3,
+      "alt": "A photograph of Chinese workers on the railway grade in the Sierra Nevada, with hand tools and a wooden trestle behind them",
+      "source": "commons:File:Chinese railroad workers sierra nevada.jpg",
+      "caption": "Chinese workers on the Central Pacific in the Sierra Nevada. At the peak they were about four out of five of the company's workforce."
+    },
+    {
+      "src": "02.jpg",
+      "after": 6,
+      "alt": "Two locomotives facing each other nose to nose, surrounded by a crowd of railway workers and officials raising bottles",
+      "source": "commons:File:East and West Shaking hands at the laying of last rail Union Pacific Railroad - Restoration.jpg",
+      "caption": "Promontory Summit, Utah, 10 May 1869. No Chinese worker appears in the photograph of the line they largely built."
+    },
+    {
+      "src": "01.jpg",
+      "after": 8,
+      "alt": "A plain covered with buffalo, some fallen, a hunter on horseback among them",
+      "source": "albert-bierstadt-the-last-of-the-buffalo-1888.jpg",
+      "caption": "*The Last of the Buffalo* — Albert Bierstadt, 1888. Painted when the herds were already gone."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "transcontinental",
+      "definition": "crossing a continent"
+    },
+    {
+      "term": "granite",
+      "definition": "a very hard grey rock"
+    },
+    {
+      "term": "a tunnel",
+      "definition": "a passage cut through rock or under the ground"
+    },
+    {
+      "term": "a drill",
+      "definition": "a tool for making holes"
+    },
+    {
+      "term": "an avalanche",
+      "definition": "a mass of snow falling suddenly down a mountain"
+    },
+    {
+      "term": "to go on strike",
+      "definition": "to stop working in order to demand better pay or conditions"
+    },
+    {
+      "term": "a spike",
+      "definition": "a large metal nail; railway rails are fixed down with them"
+    },
+    {
+      "term": "a telegraph",
+      "definition": "a nineteenth-century system for sending messages along wires"
+    },
+    {
+      "term": "a herd",
+      "definition": "a large group of animals that live and move together"
+    },
+    {
+      "term": "exclusion",
+      "definition": "the act of keeping somebody out"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-trr-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "trr-c1",
+          "prompt": "How long did the journey across the country take after 1869?",
+          "options": [
+            "About six months",
+            "About a week",
+            "About a day"
+          ],
+          "answerIndex": 1,
+          "explanation": "About a week, against roughly six months before."
+        },
+        {
+          "id": "trr-c2",
+          "prompt": "Why does the text say the companies were paid by the mile?",
+          "options": [
+            "Because it explains a great deal about how they behaved",
+            "Because it was cheap",
+            "Because Congress had no money"
+          ],
+          "answerIndex": 0,
+          "explanation": "Paying by the mile rewards distance, not quality or sense."
+        },
+        {
+          "id": "trr-c3",
+          "prompt": "Who built most of the Central Pacific line?",
+          "options": [
+            "Soldiers",
+            "Chinese workers",
+            "Local farmers"
+          ],
+          "answerIndex": 1,
+          "explanation": "At the peak, about four out of five of the company's workers were Chinese."
+        },
+        {
+          "id": "trr-c4",
+          "prompt": "How did the 1867 strike end?",
+          "options": [
+            "The workers got equal pay",
+            "The company cut off the food supply and the strike collapsed in a week",
+            "The army arrived"
+          ],
+          "answerIndex": 1,
+          "explanation": "The camps depended on the company for food."
+        },
+        {
+          "id": "trr-c5",
+          "prompt": "What is missing from the famous Promontory photograph?",
+          "options": [
+            "The locomotives",
+            "Any Chinese worker",
+            "The golden spike"
+          ],
+          "answerIndex": 1,
+          "explanation": "The men who built most of the western line are not in the picture of its completion."
+        },
+        {
+          "id": "trr-c6",
+          "prompt": "Why were standard time zones invented?",
+          "options": [
+            "Because of the railroads",
+            "Because of the telegraph alone",
+            "Because of the Civil War"
+          ],
+          "answerIndex": 0,
+          "explanation": "Railroads could not run on hundreds of different local clocks."
+        }
+      ]
+    },
+    {
+      "id": "b1-trr-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "trr-t1",
+          "statement": "Congress approved the railroad during the Civil War.",
+          "answer": true,
+          "explanation": "True — in 1862, in the middle of the war."
+        },
+        {
+          "id": "trr-t2",
+          "statement": "The Sierra Nevada tunnels were dug mostly by machine.",
+          "answer": false,
+          "explanation": "False — mostly by hand, with hammers, drills and black powder."
+        },
+        {
+          "id": "trr-t3",
+          "statement": "Chinese workers were paid the same as white workers.",
+          "answer": false,
+          "explanation": "False — they were paid less and had to buy their own food, which is what the 1867 strike was about."
+        },
+        {
+          "id": "trr-t4",
+          "statement": "The two lines met at Promontory Summit in Utah.",
+          "answer": true,
+          "explanation": "True — on 10 May 1869."
+        },
+        {
+          "id": "trr-t5",
+          "statement": "The buffalo herds were unaffected by the railroad.",
+          "answer": false,
+          "explanation": "False — the line cut the herds in two and within twenty years they were practically gone."
+        }
+      ]
+    },
+    {
+      "id": "b1-trr-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "trr-v1",
+          "prompt": "To stop working to demand better pay is to go on ___.",
+          "options": [
+            "strike",
+            "stage",
+            "stock"
+          ],
+          "answerIndex": 0,
+          "explanation": "To go on strike."
+        },
+        {
+          "id": "trr-v2",
+          "prompt": "A mass of snow falling down a mountain is an ___.",
+          "options": [
+            "avalanche",
+            "accident",
+            "altitude"
+          ],
+          "answerIndex": 0,
+          "explanation": "An avalanche — one of the ways men died in the Sierra."
+        },
+        {
+          "id": "trr-v3",
+          "prompt": "A large group of animals moving together is a ___.",
+          "options": [
+            "herd",
+            "heap",
+            "hedge"
+          ],
+          "answerIndex": 0,
+          "explanation": "A herd."
+        },
+        {
+          "id": "trr-v4",
+          "prompt": "A passage cut through rock is a ___.",
+          "options": [
+            "tunnel",
+            "trench",
+            "track"
+          ],
+          "answerIndex": 0,
+          "explanation": "A tunnel. The Central Pacific cut fifteen of them."
+        },
+        {
+          "id": "trr-v5",
+          "prompt": "Crossing a continent is ___.",
+          "options": [
+            "transcontinental",
+            "international",
+            "intercontinental"
+          ],
+          "answerIndex": 0,
+          "explanation": "Transcontinental: trans- means across."
+        }
+      ]
+    },
+    {
+      "id": "b1-trr-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "trr-b1",
+          "prompt": "The ___ Pacific built east from Sacramento.",
+          "answers": [
+            "Central"
+          ],
+          "options": [
+            "Central",
+            "Union",
+            "Northern"
+          ],
+          "explanation": "The Central Pacific; the Union Pacific built west from Omaha."
+        },
+        {
+          "id": "trr-b2",
+          "prompt": "The hardest ground was the ___ Nevada.",
+          "answers": [
+            "Sierra"
+          ],
+          "options": [
+            "Sierra",
+            "Rocky",
+            "Blue"
+          ],
+          "explanation": "The Sierra Nevada, with fifteen tunnels through granite."
+        },
+        {
+          "id": "trr-b3",
+          "prompt": "The two lines met on 10 May ___.",
+          "answers": [
+            "1869"
+          ],
+          "options": [
+            "1869",
+            "1862",
+            "1882"
+          ],
+          "explanation": "1869. 1862 is the law, 1882 is the Exclusion Act."
+        },
+        {
+          "id": "trr-b4",
+          "prompt": "A ceremonial golden ___ joined the two lines.",
+          "answers": [
+            "spike"
+          ],
+          "options": [
+            "spike",
+            "stone",
+            "sign"
+          ],
+          "explanation": "A spike — the large nail that fixes a rail down."
+        },
+        {
+          "id": "trr-b5",
+          "prompt": "The Chinese ___ Act of 1882 banned almost all immigration from China.",
+          "answers": [
+            "Exclusion"
+          ],
+          "options": [
+            "Exclusion",
+            "Inclusion",
+            "Extension"
+          ],
+          "explanation": "Exclusion — for sixty years."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The railroad made the country richer and destroyed a way of life at the same time. How should a history book handle that?",
+    "The men who built most of the line are not in the photograph of its completion. Who gets left out of the pictures we take today?",
+    "What is the biggest change in transport in your own country's history?"
+  ],
+  "audio": {
+    "duration_label": "3:10"
+  }
+}

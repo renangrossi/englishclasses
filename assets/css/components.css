@@ -653,21 +653,31 @@ body:not(:has(.level-toc)) .section {
    ======================================================================= */
 .tag-filter { max-width: 72ch; margin-bottom: var(--space-lg); }
 
-.tag-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.4em;
-  margin-bottom: 0.6em;
+/* Subject and Grammar are two different questions, and the chips answer them
+   differently -- OR inside a group, AND between the groups. Side by side on one
+   line they read as a single cloud of tags, so each group gets its own block:
+   heading on its own line, chips beneath it, and real air between the two. The
+   hairline rule above the second group is deliberately faint; a boxed panel
+   here would turn an editorial page into a dashboard. */
+.tag-row + .tag-row {
+  margin-top: var(--space-sm);
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--color-border);
 }
 .tag-row__label {
-  flex: 0 0 auto;
-  min-width: 5.5em;
+  display: block;
+  margin: 0 0 0.5em;
+  font-family: inherit;
   font-size: var(--step--1);
   font-weight: 700;
   color: var(--color-text-muted);
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
+}
+.tag-row__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
 }
 
 .tag-chip {
@@ -702,7 +712,7 @@ body:not(:has(.level-toc)) .section {
 .tag-filter__status {
   font-size: var(--step--1);
   color: var(--color-text-muted);
-  margin: 0.5em 0 0;
+  margin: var(--space-sm) 0 0;
 }
 .tag-filter__clear {
   font: inherit;
@@ -721,7 +731,7 @@ body:not(:has(.level-toc)) .section {
 .topic-group[hidden], .grid[hidden], .lesson-card[hidden] { display: none !important; }
 
 @media (max-width: 640px) {
-  .tag-row__label { min-width: 100%; margin-bottom: 0.15em; }
+  .tag-chip { font-size: var(--step--2); padding: 0.34em 0.65em; }
 }
 
 /* Heading above each topic group on the reading hub. The library is ordered

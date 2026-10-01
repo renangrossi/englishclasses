@@ -30,21 +30,26 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import reading_common as rc
 
 LABELS = {
-    "present-simple": "Present simple",
-    "past-simple": "Past simple",
-    "present-perfect": "Present perfect",
-    "future": "Future forms",
-    "continuous": "Continuous aspect",
-    "passive": "Passive voice",
-    "modals": "Modal verbs",
-    "conditionals": "Conditionals",
-    "comparatives": "Comparatives",
-    "questions": "Questions",
-    "phrasal-verbs": "Phrasal verbs",
-    "reported-speech": "Reported speech",
-    "relative-clauses": "Relative clauses",
-    "connectors": "Connectors",
-    "imperatives": "Imperatives",
+    # Student-facing names. These are what a learner sees on the filter, so they
+    # use the names a course or a coursebook would use -- not linguistic ones.
+    # "Continuous aspect" was the worst offender: it is the term a syntax class
+    # uses and it means nothing to somebody looking for "-ing".
+    "present-simple": "Present Simple",
+    "past-simple": "Past Simple",
+    "present-perfect": "Present Perfect",
+    "future": "Future (will / going to)",
+    "present-continuous": "Present Continuous (-ing)",
+    "past-continuous": "Past Continuous (was / were -ing)",
+    "passive": "Passive Voice",
+    "modals": "Modal Verbs",
+    "conditionals": "Conditionals (if)",
+    "comparatives": "Comparatives & Superlatives",
+    "questions": "Question Forms",
+    "phrasal-verbs": "Phrasal Verbs",
+    "reported-speech": "Reported Speech",
+    "relative-clauses": "Relative Clauses (who / which)",
+    "connectors": "Linking Words",
+    "imperatives": "Imperatives (instructions)",
 }
 
 # Irregular past forms that are not also participles, so finding one is
@@ -62,7 +67,11 @@ PATTERNS = {
     "passive": rf"\b(is|are|was|were|been|being|be)\s+(?:not\s+|also\s+|often\s+|usually\s+)?{PARTICIPLE}\b",
     "past-simple": PAST_ONLY,
     "future": r"\b(will|won't|shall)\s+\w+|\bgoing to\s+\w+|\babout to\s+\w+",
-    "continuous": r"\b(am|is|are|was|were|been|being)\s+\w+ing\b",
+    # One "continuous" detector could not be labelled honestly: it fired on
+    # "she is walking" and "they were walking" alike, so a text tagged only on
+    # past forms would have read "Present Continuous". Split per tense instead.
+    "present-continuous": r"\b(am|is|are|being)\s+(?:not\s+|just\s+|still\s+|now\s+|always\s+)?\w+ing\b",
+    "past-continuous": r"\b(was|were|been)\s+(?:not\s+|just\s+|still\s+|always\s+)?\w+ing\b",
     "modals": r"\b(must|should|shouldn't|might|may|can|cannot|can't|could|couldn't|would|wouldn't|ought to|have to|has to|had to)\b",
     "conditionals": r"\bif\b[^.!?]{0,80}\b(would|will|could|might|were)\b|\bunless\b",
     "comparatives": r"\b\w+er than\b|\bmore \w+ than\b|\bless \w+ than\b|\bthe (most|least|biggest|best|worst|largest) \w+",
@@ -81,7 +90,8 @@ PATTERNS = {
 REFERENCE_WORDS = 500
 MIN = {
     "present-simple": 12, "questions": 3, "modals": 5, "connectors": 3,
-    "relative-clauses": 4, "comparatives": 2, "continuous": 3,
+    "relative-clauses": 4, "comparatives": 2,
+    "present-continuous": 3, "past-continuous": 3,
     "passive": 3, "present-perfect": 3, "past-simple": 6, "future": 3,
     "conditionals": 2, "reported-speech": 2, "imperatives": 3,
 }

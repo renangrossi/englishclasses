@@ -3,7 +3,7 @@
   "level": "B1",
   "slug": "transcontinental-railroad",
   "order": 105,
-  "topic": "history",
+  "topic": "american-history",
   "title": "The Transcontinental Railroad",
   "subtitle": "Six months by wagon, or one week by train. The difference was built by people who were left out of the photograph.",
   "description": "A B1 reading and listening text on the first transcontinental railroad: the two companies, the workers who built it, the meeting at Promontory Summit, and what it cost the Plains nations.",
@@ -19,7 +19,7 @@
     "Before 1869, getting from New York to San Francisco took about six months by wagon or by ship around South America. After 1869 it took about a week. Almost nothing else in the nineteenth century changed a country that fast.",
     "Congress approved the plan in 1862, in the middle of the Civil War, and gave the work to two companies. The Union Pacific built west from Omaha, Nebraska. The Central Pacific built east from Sacramento, California. They were paid by the mile, which explains a great deal about how they behaved.",
     "The Central Pacific had the harder problem: the Sierra Nevada, a wall of granite with heavy winter snow. The company could not find enough workers, so it began hiring Chinese immigrants, and then recruiting directly from southern China. At the peak, something like four out of five of its workers were Chinese.",
-    "They cut fifteen tunnels through solid rock, mostly by hand, with hammers, drills and black powder. Progress through the longest tunnel was measured in centimetres a day. Men worked through winters in snow tunnels, with the camp buried and the sky invisible for weeks. Hundreds died in accidents and avalanches, and the companies kept no careful record of how many.",
+    "They cut fifteen tunnels through solid rock, mostly by hand, with hammers, drills and black powder. Progress through the longest tunnel was measured in centimeters a day. Men worked through winters in snow tunnels, with the camp buried and the sky invisible for weeks. Hundreds died in accidents and avalanches, and the companies kept no careful record of how many.",
     "They were paid less than white workers and had to buy their own food. In 1867 about three thousand of them went on strike for equal pay and shorter hours. The company cut off the food supply to the camps, and the strike ended in a week.",
     "The Union Pacific, crossing the plains, had easier ground and a different problem: it was building straight through the hunting grounds of the Lakota, Cheyenne and Arapaho, who understood very well what the line meant. The army was sent to protect the work.",
     "On 10 May 1869 the two lines met at Promontory Summit, Utah. A ceremonial golden spike was driven to join them, the news went out by telegraph, and cities across the country celebrated the same hour. The famous photograph shows the two locomotives and a crowd of officials and workers. No Chinese worker appears in it.",
@@ -57,7 +57,7 @@
     },
     {
       "term": "granite",
-      "definition": "a very hard grey rock"
+      "definition": "a very hard gray rock"
     },
     {
       "term": "a tunnel",

@@ -3,7 +3,7 @@
   "level": "A1",
   "slug": "statue-of-liberty",
   "order": 102,
-  "topic": "history",
+  "topic": "american-history",
   "title": "The Statue of Liberty",
   "subtitle": "A present from France, a long trip in 214 boxes, and the first thing new Americans saw.",
   "description": "An A1 reading and listening text on the Statue of Liberty: where it came from, how it arrived, and what it meant to people on the ships.",
@@ -17,11 +17,11 @@
     "present-simple"
   ],
   "passage": [
-    "In New York, a green woman stands in the water. She is forty-six metres tall. In her right hand she has a light.",
+    "In New York, a green woman stands in the water. She is forty-six meters tall. In her right hand she has a light.",
     "The statue is a present. It is a present from France to the United States.",
     "A French artist, Frédéric Auguste Bartholdi, made it. People in France paid for the statue. People in the United States paid for the big stone under it.",
     "In 1885 the statue came to New York in a ship, in 214 big boxes. Workers built it on a small island. It opened in October 1886.",
-    "The statue is green now, but it was brown at first. It is made of copper, and copper changes colour in the rain and the wind. This takes about thirty years.",
+    "The statue is green now, but it was brown at first. It is made of copper, and copper changes color in the rain and the wind. This takes about thirty years.",
     "After 1892, ships with new people from Europe arrived next to the island. The statue was the first big thing they saw in America.",
     "Many of these people were poor. They were tired after two or three weeks on the sea. Some of them cried.",
     "There are words on the statue, from a poem by Emma Lazarus: “Give me your tired, your poor...”",
@@ -32,7 +32,7 @@
     {
       "src": "01.jpg",
       "after": 3,
-      "alt": "The Statue of Liberty on its island on opening day, surrounded by ships and small boats under a grey sky",
+      "alt": "The Statue of Liberty on its island on opening day, surrounded by ships and small boats under a gray sky",
       "source": "commons:File:EdwardMoran-UnveilingTheStatueofLiberty1886Large.jpg",
       "caption": "*Unveiling the Statue of Liberty* — Edward Moran, 1886."
     },
@@ -41,7 +41,7 @@
       "after": 6,
       "alt": "A crowd of newly arrived immigrants with bags and bundles waiting outside the buildings at Ellis Island",
       "source": "commons:File:Ellis island 1902.jpg",
-      "caption": "Ellis Island, 1902. The island where ships from Europe stopped, a few hundred metres from the statue."
+      "caption": "Ellis Island, 1902. The island where ships from Europe stopped, a few hundred meters from the statue."
     }
   ],
   "vocabulary": [

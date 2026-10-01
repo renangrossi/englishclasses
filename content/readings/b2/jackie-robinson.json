@@ -3,10 +3,10 @@
   "level": "B2",
   "slug": "jackie-robinson",
   "order": 105,
-  "topic": "history",
+  "topic": "american-history",
   "title": "Jackie Robinson Breaks Baseball's Color Line",
   "subtitle": "The hardest condition of the job was that for three years he was not allowed to answer back.",
-  "description": "A B2 reading and listening text on Jackie Robinson: the colour line in baseball, the agreement he made with Branch Rickey, the 1947 season, and what it cost.",
+  "description": "A B2 reading and listening text on Jackie Robinson: the color line in baseball, the agreement he made with Branch Rickey, the 1947 season, and what it cost.",
   "source": "authored for this site; no source document",
   "provenance": "new",
   "grammar": [
@@ -22,7 +22,7 @@
     "Baseball had no written rule excluding Black players. It had something more durable: a gentlemen's agreement among the club owners, in place since the 1880s, that simply was not discussed. Black professionals played in the Negro Leagues, which were serious, well-attended businesses with some of the best players in the country in them.",
     "Robinson was not chosen because he was the best player available — several men in the Negro Leagues were at least as good, and Satchel Paige had been a national figure for years. He was chosen because of what came with him: a university education at UCLA, military service as an officer, a steady fiancée, and a temperament that could survive what was coming. He had also been court-martialled in the army for refusing to move to the back of a bus, and acquitted, which told Rickey what he needed to know.",
     "The agreement was that for three seasons Robinson would not respond to anything. Not to pitchers throwing at his head, not to runners spiking his legs, not to the insults from the stands, not to hotels that refused him a room while his teammates checked in.",
-    "He debuted at first base on 15 April 1947. Some of his own teammates circulated a petition saying they would not play with him; the manager told them they could leave instead. The Philadelphia Phillies' manager led a campaign of abuse so unrestrained that it began to turn public opinion in Robinson's favour, which is not what it was intended to do.",
+    "He debuted at first base on 15 April 1947. Some of his own teammates circulated a petition saying they would not play with him; the manager told them they could leave instead. The Philadelphia Phillies' manager led a campaign of abuse so unrestrained that it began to turn public opinion in Robinson's favor, which is not what it was intended to do.",
     "He hit .297 that season, led the league in stolen bases, and was named Rookie of the Year. Two years later, when the three years of silence were over and he could answer back — and did, loudly, for the rest of his life — he was named the league's Most Valuable Player.",
     "Attendance records followed him from city to city. Within a decade most teams had integrated, and the Negro Leagues, which had been Black-owned businesses employing hundreds of people, collapsed because their best players and their audiences had gone. Integration had a bill, and it was paid by Black owners and by the players who were too old to be signed.",
     "Robinson spent his later life campaigning on civil rights and on the absence of Black managers and executives in the game. He was often described as bitter, mostly by people who had enjoyed the part of the story where he said nothing.",
@@ -75,8 +75,8 @@
       "definition": "to end the separation of racial groups in an institution"
     },
     {
-      "term": "to retire a number",
-      "definition": "to withdraw a player's shirt number so that nobody else may use it"
+      "term": "to retire (a number)",
+      "definition": "to take a player's shirt number out of use permanently, in their honor"
     }
   ],
   "exercises": [

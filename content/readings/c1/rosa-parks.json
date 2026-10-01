@@ -3,10 +3,10 @@
   "level": "C1",
   "slug": "rosa-parks",
   "order": 100,
-  "topic": "history",
+  "topic": "american-history",
   "title": "Rosa Parks and the Montgomery Bus Boycott",
-  "subtitle": "The story says a tired seamstress refused to move. She was a trained organiser, and the refusal was the least remarkable thing about what followed.",
-  "description": "A C1 reading and listening text on Rosa Parks and the Montgomery bus boycott: the organisation behind it, the 381 days of walking, the legal case that actually ended segregation on the buses, and the cost to Parks herself.",
+  "subtitle": "The story says a tired seamstress refused to move. She was a trained organizer, and the refusal was the least remarkable thing about what followed.",
+  "description": "A C1 reading and listening text on Rosa Parks and the Montgomery bus boycott: the organization behind it, the 381 days of walking, the legal case that actually ended segregation on the buses, and the cost to Parks herself.",
   "source": "authored for this site; no source document",
   "provenance": "new",
   "narrator": "female",
@@ -17,14 +17,14 @@
   ],
   "passage": [
     "The version most people know is short enough to fit on a poster: a tired seamstress, on her way home from work, refused to give up her seat, and a movement began. Almost every element of it is misleading, and the accurate version is considerably more interesting.",
-    "Rosa Parks was forty-two, and she was tired in the specific sense she later described — tired of giving in. She had been secretary of the Montgomery branch of the NAACP for twelve years, work that involved documenting cases of violence against Black residents of Alabama, including sexual assaults that no local court would hear. A few months before her arrest she had spent two weeks at the Highlander Folk School in Tennessee, at a workshop on desegregation. She was not a bystander who happened to be in the wrong seat; she was an experienced organiser who knew exactly what the law was and what refusing it would cost.",
-    "She was also not the first. Claudette Colvin, fifteen years old, had been arrested in Montgomery nine months earlier for refusing the same demand, and two other women had been arrested in similar circumstances. Local leaders had considered building a legal challenge around Colvin and decided against it, partly because she was young and pregnant and they judged that a prosecutor would destroy her in public. That calculation — the search for a case that would survive scrutiny — is itself a reminder that this was organised work rather than spontaneous outrage.",
-    "The arrest on 1 December 1955 was the moment that calculation found its case. Within four days, the Women's Political Council had printed and distributed something like fifty thousand leaflets, and Black Montgomery stayed off the buses on the Monday. That evening a mass meeting voted to continue, and a new organisation, the Montgomery Improvement Association, chose as its president a twenty-six-year-old minister who had been in the city barely a year: Martin Luther King Jr. He was chosen in part because he was new enough to have no local enemies.",
-    "What followed was not a gesture but a logistical operation that lasted 381 days. Roughly forty thousand people needed to get to work. Black-owned taxi companies charged bus fare until the city made that illegal; a car pool was then organised with some three hundred vehicles, dispatch points, schedules and volunteer drivers, and it ran six days a week for over a year. Insurance companies cancelled the policies on the pool cars until a broker in London agreed to cover them. Many people simply walked, in some cases several miles each way.",
-    "The response from the city was systematic. Drivers of the car pool were arrested for minor traffic offences in large numbers. King's house was bombed. More than eighty boycott leaders were indicted under an old anti-boycott statute, which produced exactly the national press coverage the prosecution had not wanted.",
-    "It is worth being precise about how the boycott ended, because the popular account compresses it. The buses were not desegregated by the boycott itself but by *Browder v. Gayle*, a federal case brought on behalf of four women — Aurelia Browder, Susie McDonald, Claudette Colvin and Mary Louise Smith — which held Alabama's bus segregation laws unconstitutional. The Supreme Court affirmed that ruling in November 1956, and the boycott ended when the written order reached Montgomery on 20 December. The boycott created the pressure, the public attention and the organisation; the court delivered the legal result. Neither would have been sufficient alone.",
+    "Rosa Parks was forty-two, and she was tired in the specific sense she later described — tired of giving in. She had been secretary of the Montgomery branch of the NAACP for twelve years, work that involved documenting cases of violence against Black residents of Alabama, including sexual assaults that no local court would hear. A few months before her arrest she had spent two weeks at the Highlander Folk School in Tennessee, at a workshop on desegregation. She was not a bystander who happened to be in the wrong seat; she was an experienced organizer who knew exactly what the law was and what refusing it would cost.",
+    "She was also not the first. Claudette Colvin, fifteen years old, had been arrested in Montgomery nine months earlier for refusing the same demand, and two other women had been arrested in similar circumstances. Local leaders had considered building a legal challenge around Colvin and decided against it, partly because she was young and pregnant and they judged that a prosecutor would destroy her in public. That calculation — the search for a case that would survive scrutiny — is itself a reminder that this was organized work rather than spontaneous outrage.",
+    "The arrest on 1 December 1955 was the moment that calculation found its case. Within four days, the Women's Political Council had printed and distributed something like fifty thousand leaflets, and Black Montgomery stayed off the buses on the Monday. That evening a mass meeting voted to continue, and a new organization, the Montgomery Improvement Association, chose as its president a twenty-six-year-old minister who had been in the city barely a year: Martin Luther King Jr. He was chosen in part because he was new enough to have no local enemies.",
+    "What followed was not a gesture but a logistical operation that lasted 381 days. Roughly forty thousand people needed to get to work. Black-owned taxi companies charged bus fare until the city made that illegal; a car pool was then organized with some three hundred vehicles, dispatch points, schedules and volunteer drivers, and it ran six days a week for over a year. Insurance companies canceled the policies on the pool cars until a broker in London agreed to cover them. Many people simply walked, in some cases several miles each way.",
+    "The response from the city was systematic. Drivers of the car pool were arrested for minor traffic offenses in large numbers. King's house was bombed. More than eighty boycott leaders were indicted under an old anti-boycott statute, which produced exactly the national press coverage the prosecution had not wanted.",
+    "It is worth being precise about how the boycott ended, because the popular account compresses it. The buses were not desegregated by the boycott itself but by *Browder v. Gayle*, a federal case brought on behalf of four women — Aurelia Browder, Susie McDonald, Claudette Colvin and Mary Louise Smith — which held Alabama's bus segregation laws unconstitutional. The Supreme Court affirmed that ruling in November 1956, and the boycott ended when the written order reached Montgomery on 20 December. The boycott created the pressure, the public attention and the organization; the court delivered the legal result. Neither would have been sufficient alone.",
     "Parks herself paid for it in the ordinary, unspectacular way that activists usually do. She lost her job at the department store. Her husband lost his. They received threatening telephone calls for years, and in 1957 they left Alabama for Detroit, where she worked in a congressman's office and lived modestly for decades.",
-    "The flattening of her story into a single tired moment was not accidental. A spontaneous refusal is comfortable: it suggests that justice arrives when an individual finally has enough. An organiser with twelve years of training, a legal strategy, a communications network and a transport system is a different kind of story, because it implies that this sort of change is available to anyone willing to do that amount of work — and that it is extremely hard work."
+    "The flattening of her story into a single tired moment was not accidental. A spontaneous refusal is comfortable: it suggests that justice arrives when an individual finally has enough. An organizer with twelve years of training, a legal strategy, a communications network and a transport system is a different kind of story, because it implies that this sort of change is available to anyone willing to do that amount of work — and that it is extremely hard work."
   ],
   "images": [
     {
@@ -78,7 +78,7 @@
     },
     {
       "term": "a car pool",
-      "definition": "an organised arrangement for sharing cars between many passengers"
+      "definition": "an organized arrangement for sharing cars between many passengers"
     },
     {
       "term": "to indict",
@@ -344,7 +344,7 @@
     }
   ],
   "discussion": [
-    "Why do movements so often get remembered through one individual rather than through their organisation?",
+    "Why do movements so often get remembered through one individual rather than through their organization?",
     "The leaders chose their test case carefully rather than taking the first one available. Is that strategic or unfair to the people passed over?",
     "The text separates the boycott from the court ruling. What does each one contribute that the other cannot?"
   ],

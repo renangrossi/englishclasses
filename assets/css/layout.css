@@ -152,11 +152,10 @@
 @media print {
   .site-header, .back-to-top, .theme-toggle, .nav-toggle, .site-footer { display: none; }
 
-  /* Reading pages are the document now -- the downloadable PDFs they
-     replaced are gone, so "Print / Save as PDF" has to produce
-     something a student can actually hand in or a teacher can put on a
-     desk. Drop the interactive furniture, keep the text, vocabulary and
-     exercises, and let the passage break across pages naturally. */
+  /* Interactive furniture that no page should print. A reading page's own
+     print layout -- margins, title block, figures, glossary, what is dropped
+     -- lives in assets/css/reading-print.css, scoped to .reading-page, and is
+     the single source of truth for it. Nothing reading-specific belongs here. */
   .level-toc,
   .dict-widget-toggle,
   .dict-widget-panel,
@@ -170,29 +169,9 @@
 
   .page-header { padding: 0 0 var(--space-md); border-bottom: 1px solid #000; margin-bottom: var(--space-md); }
   .page-header__lede { font-style: italic; }
-  /* On a reading page the banner's instruction line is about playing audio
-     and hovering, neither of which exists on paper. The generic heading above
-     it stays, so the banner does not print as an empty block. Scoped via
-     __label so that other pages, where the lede is the page's own
-     description, still print theirs. */
-  .page-header__label + .page-header__lede { display: none; }
   .section { padding: 0; margin-bottom: var(--space-lg); break-inside: auto; }
   .section--surface { background: none; }
   .section__inner { max-width: none; padding: 0; }
-
-  .reading-passage {
-    background: none;
-    border: none;
-    padding: 0;
-    max-width: none;
-    font-size: 11.5pt;
-    line-height: 1.6;
-  }
-  .reading-passage p { orphans: 3; widows: 3; }
-  .reading-passage p + p { text-indent: 1.5em; }
-  .reading-passage p.reading-passage__heading,
-  .reading-passage p.reading-passage__opener,
-  .reading-passage p.reading-passage__turn { text-indent: 0; }
 
   /* A heading stranded at the foot of a page, or a single exercise item
      split across the fold, is the usual way a printed worksheet goes

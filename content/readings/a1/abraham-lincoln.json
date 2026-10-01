@@ -3,7 +3,7 @@
   "level": "A1",
   "slug": "abraham-lincoln",
   "order": 101,
-  "topic": "history",
+  "topic": "american-history",
   "title": "Abraham Lincoln",
   "subtitle": "A poor boy from a small wooden house, and the president who ended slavery.",
   "description": "An A1 reading and listening text on Abraham Lincoln: his childhood, his books, the Civil War and the end of slavery in the United States.",
@@ -17,7 +17,7 @@
   "passage": [
     "Abraham Lincoln was born in 1809 in a small wooden house in Kentucky. The house had one room. The family was poor.",
     "Lincoln went to school for less than one year. But he loved books. He read in the evening, next to the fire, after a long day of work.",
-    "He was very tall — one metre ninety-three. People remembered him for that, and for his quiet voice.",
+    "He was very tall — one meter ninety-three. People remembered him for that, and for his quiet voice.",
     "Lincoln worked as a lawyer. Then he went into politics, and in 1860 Americans chose him as president.",
     "At that time, some states in the south had slavery. Black people there were not free. They worked for no money, and they were bought and sold.",
     "Eleven southern states did not want Lincoln as president. They left the country, and a terrible war started. We call it the Civil War. It was Americans against Americans.",
@@ -37,7 +37,7 @@
     {
       "src": "02.jpg",
       "after": 5,
-      "alt": "A coloured print of the Battle of Gettysburg, with lines of soldiers, smoke and horses across an open field",
+      "alt": "A colored print of the Battle of Gettysburg, with lines of soldiers, smoke and horses across an open field",
       "source": "commons:File:Battle of Gettysburg, by Currier and Ives.png",
       "caption": "*The Battle of Gettysburg* — Currier and Ives. The battle in July 1863 that turned the war."
     }

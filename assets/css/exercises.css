@@ -209,8 +209,28 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   margin: 0 0 var(--space-lg);
 }
 .reading-passage p:not(:last-child) { margin-bottom: 1.1em; }
-/* The text's own title and subtitle, opening the reading section directly
-   above the audio and the passage. */
+
+/* The section label ("Reading", "Practice") is a real heading so the document
+   outline and a screen reader's heading list are correct, but it is set as an
+   eyebrow because the page's title is the banner's <h1> and a second large
+   heading immediately under it would compete with it. An <h2> carries the
+   display face and its own margins by default, so both are reset here. */
+.eyebrow--as-heading {
+  font-family: var(--font-body);
+  font-size: var(--step--1);
+  font-weight: 600;
+  line-height: var(--leading-normal);
+  margin: 0;
+}
+
+/* The one line of instructions, next to the player it is about. */
+.reading-intro {
+  color: var(--color-text-muted);
+  max-width: 62ch;
+  margin: var(--space-xs) 0 var(--space-md);
+}
+
+/* Kept for pages built before the title moved into the banner; harmless now. */
 .reading-title { margin-top: var(--space-xs); }
 .reading-subtitle {
   color: var(--color-text-muted);
@@ -256,10 +276,8 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   text-align: center;
   text-indent: 0;
 }
-@media print {
-  .reading-figure { break-inside: avoid; max-width: 60mm; }
-  .reading-figure img { box-shadow: none; }
-}
+/* Printed sizing, breaking and caption binding for figures now live in
+   assets/css/reading-print.css with the rest of the reading print layout. */
 
 /* ---- Passage typography ------------------------------------------------
    The passage is set like a page of a book rather than like a web page.
@@ -422,14 +440,52 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
 .vocab-term:focus { outline: none; }
 .vocab-term:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
 
-/* A printed page has no hover and no on-page vocabulary list, so the
-   definitions reappear as a glossary that exists only on paper. */
-.reading-glossary { display: none; }
-@media print {
-  .reading-glossary { display: block; margin-top: var(--space-lg); break-inside: avoid; }
-  .reading-glossary h3 { margin-bottom: var(--space-xs); }
-  .vocab-term { color: inherit; border-bottom: none; }
-  .vocab-term::after { content: none !important; }
+/* ---- Key Vocabulary ----------------------------------------------------
+   The same list answers three readers. Somebody skimming before they start
+   wants to see the words in one place. Somebody on a screen reader cannot
+   reach the hover tooltip at all -- every highlighted word in the passage
+   carries aria-describedby pointing at its entry here, which is what makes
+   the definitions audible. Somebody holding a printout has nothing to hover
+   over, and this is what prints (laid out in assets/css/reading-print.css).
+
+   It was hidden on screen for a while, on the argument that the tooltip had
+   replaced it. The tooltip replaces it only for a reader using a mouse. */
+.reading-glossary {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-md);
+  border-top: var(--border-hairline);
+}
+.reading-glossary__heading {
+  font-size: var(--step-1);
+  margin: 0 0 var(--space-sm);
+}
+.reading-glossary__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* Two columns once there is room for them; a glossary is a reference list,
+     not prose, so a short measure reads faster than a long one. */
+  columns: 2;
+  column-gap: var(--space-xl);
+  max-width: 76ch;
+}
+@media (max-width: 720px) {
+  .reading-glossary__list { columns: 1; }
+}
+.reading-glossary__list li {
+  break-inside: avoid;
+  margin: 0 0 0.75em;
+  padding: 0;
+  font-size: var(--step--1);
+  line-height: var(--leading-normal);
+}
+.reading-glossary__list strong { color: var(--color-text); }
+.reading-glossary__def { color: var(--color-text-muted); }
+.reading-glossary__def::before { content: "\2014\00a0"; }
+/* The target of an aria-describedby jump should be findable by eye too. */
+.reading-glossary__list li:target {
+  background: var(--color-surface-alt, rgb(169 129 45 / 12%));
+  border-radius: var(--radius-sm);
 }
 
 /* Item-level feedback (shown after submit) */

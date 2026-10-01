@@ -3,7 +3,7 @@
   "level": "A1",
   "slug": "george-washington",
   "order": 100,
-  "topic": "history",
+  "topic": "american-history",
   "title": "George Washington: The First President",
   "subtitle": "A farmer, a soldier, and the man who said no to being king.",
   "description": "An A1 reading and listening text on George Washington: his farm in Virginia, the war, and why he went home after eight years as president.",
@@ -30,7 +30,8 @@
       "after": 0,
       "alt": "Soldiers rowing a boat through broken ice at dawn while a tall officer stands in the bow looking ahead",
       "source": "emanuel-leutze-washington-crossing-the-delaware.jpg",
-      "caption": "*Washington Crossing the Delaware* — Emanuel Leutze, 1851. Painted 75 years after the night it shows."
+      "caption": "*Washington Crossing the Delaware* — Emanuel Leutze, 1851. Painted 75 years after the night it shows.",
+      "relation": "depicts"
     },
     {
       "src": "02.jpg",

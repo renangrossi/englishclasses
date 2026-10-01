@@ -3,10 +3,10 @@
   "level": "C2",
   "slug": "what-makes-an-american-hero",
   "order": 106,
-  "topic": "history",
+  "topic": "american-history",
   "title": "What Makes an American Hero?",
   "subtitle": "The template requires one person. Almost everything in this collection was done by organisations, and the gap between those two facts is not an accident.",
-  "description": "A C2 reading and listening text that closes the American History collection by examining the hero template itself: why individuals are remembered and organisations are not, what that costs, and the strongest defence of the simplified story.",
+  "description": "A C2 reading and listening text that closes the American History collection by examining the hero template itself: why individuals are remembered and organisations are not, what that costs, and the strongest defense of the simplified story.",
   "source": "authored for this site; no source document",
   "provenance": "new",
   "narrator": "female",
@@ -19,13 +19,13 @@
   ],
   "passage": [
     "Run back over the episodes in this collection and a template becomes visible. There is one person. The person acts at a moment of maximum visibility. The act is a refusal or a step rather than a plan, and it is done without institutional backing, which is what certifies it as courage. The consequences follow from the act as though caused by it directly.",
-    "Almost nothing in the record happened that way. The bus boycott was run by an organisation with a transport system, a legal strategy and a press operation; the refusal that began it was made by a woman who had been doing documentation work for the association for twelve years, and it was not the first refusal — it was the one the lawyers judged would survive a hostile courtroom. The Moon landing was accomplished by four hundred thousand people, and the decisive engineering was a decision, taken years earlier, about how software should behave when overloaded. Even the fall of a president ran through a security guard, two reporters, a Senate committee, a special prosecutor, a unanimous court and a taping system the president had installed himself.",
+    "Almost nothing in the record happened that way. The bus boycott was run by an organization with a transport system, a legal strategy and a press operation; the refusal that began it was made by a woman who had been doing documentation work for the association for twelve years, and it was not the first refusal — it was the one the lawyers judged would survive a hostile courtroom. The Moon landing was accomplished by four hundred thousand people, and the decisive engineering was a decision, taken years earlier, about how software should behave when overloaded. Even the fall of a president ran through a security guard, two reporters, a Senate committee, a special prosecutor, a unanimous court and a taping system the president had installed himself.",
     "So the question is not whether the heroic template is accurate. It plainly is not. The question is what it is for, and why it survives so much contrary evidence.",
     "Part of the answer is that a story needs somebody to want something. Organisations do not want things in a way that narrative can represent; committees have no face, and a decision arrived at over eighteen months by people who disagreed does not produce a scene. The template is not primarily a political distortion. It is a constraint of the medium, and it operates in countries with entirely different politics.",
-    "But the specifically American version adds something, and it is worth naming. In a national story organised around self-making, a hero who succeeds because of an institution is a slightly embarrassing hero. The institution has to be minimised for the achievement to count. This is why the committees get edited out while the moment of personal refusal is enlarged, and it is why Americans find a collective achievement easier to celebrate when it can be attributed to a representative individual standing in for the whole.",
-    "The cost of this is not sentimental, it is practical. If change is made by exceptional individuals at moments of crisis, then the appropriate response to injustice is to wait for such a person and recognise them when they appear. If change is made by organisations, then the appropriate response is to join one, to do unglamorous work for years, and to accept that your name will not be attached to the result. The first story produces admiration. The second produces members. Only one of them is a method, and the template systematically teaches the one that is not.",
-    "The strongest defence of the template deserves a proper statement, because it is better than it looks. Nothing is transmitted that is not remembered, and nothing is remembered that cannot be told. A movement with no face does not get into the schoolbooks at all, and a history that refused all simplification would be read by specialists and nobody else. The individual story is the carrier wave; the organisation is the signal, and a signal nobody receives has no advantage over silence. On this view, the template is not a falsification but a compression, and compression is the price of transmission.",
-    "That defence succeeds up to a point, and the point is identifiable. A compression is legitimate when it preserves the thing a reader would need in order to act, and illegitimate when it removes exactly that. Telling a child that Rosa Parks refused to move is a compression. Telling a child that she was tired is a falsification, because it deletes the twelve years, the training, the legal strategy and the fifty thousand leaflets, and what it deletes is the part that could be copied.",
+    "But the specifically American version adds something, and it is worth naming. In a national story organized around self-making, a hero who succeeds because of an institution is a slightly embarrassing hero. The institution has to be minimised for the achievement to count. This is why the committees get edited out while the moment of personal refusal is enlarged, and it is why Americans find a collective achievement easier to celebrate when it can be attributed to a representative individual standing in for the whole.",
+    "The cost of this is not sentimental, it is practical. If change is made by exceptional individuals at moments of crisis, then the appropriate response to injustice is to wait for such a person and recognize them when they appear. If change is made by organisations, then the appropriate response is to join one, to do unglamorous work for years, and to accept that your name will not be attached to the result. The first story produces admiration. The second produces members. Only one of them is a method, and the template systematically teaches the one that is not.",
+    "The strongest defense of the template deserves a proper statement, because it is better than it looks. Nothing is transmitted that is not remembered, and nothing is remembered that cannot be told. A movement with no face does not get into the schoolbooks at all, and a history that refused all simplification would be read by specialists and nobody else. The individual story is the carrier wave; the organization is the signal, and a signal nobody receives has no advantage over silence. On this view, the template is not a falsification but a compression, and compression is the price of transmission.",
+    "That defense succeeds up to a point, and the point is identifiable. A compression is legitimate when it preserves the thing a reader would need in order to act, and illegitimate when it removes exactly that. Telling a child that Rosa Parks refused to move is a compression. Telling a child that she was tired is a falsification, because it deletes the twelve years, the training, the legal strategy and the fifty thousand leaflets, and what it deletes is the part that could be copied.",
     "That is the test this collection has tried to apply throughout, and it is a test rather than a conclusion. Keep the person, because the person is how anybody remembers anything. Keep whatever the person was standing on as well. The useful question to put to any national hero — in any country, including yours — is not whether the story is inspiring but whether, having heard it, you would know what to do next."
   ],
   "images": [
@@ -49,7 +49,7 @@
     },
     {
       "term": "backing",
-      "definition": "support, especially organised or financial"
+      "definition": "support, especially organized or financial"
     },
     {
       "term": "to certify",
@@ -370,7 +370,7 @@
     }
   ],
   "discussion": [
-    "Pick a hero from your own country's history. What organisation has been edited out of the story?",
+    "Pick a hero from your own country's history. What organization has been edited out of the story?",
     "The essay says the template is a constraint of narrative rather than a political distortion, then says the American version adds something political. Are both claims compatible?",
     "\"The first story produces admiration. The second produces members.\" Is that too neat?",
     "Where exactly is the line between a compression and a falsification? Try to state a rule and then find a case that breaks it.",

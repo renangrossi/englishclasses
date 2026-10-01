@@ -3,7 +3,7 @@
   "level": "A2",
   "slug": "declaration-of-independence",
   "order": 100,
-  "topic": "history",
+  "topic": "american-history",
   "title": "The Declaration of Independence",
   "subtitle": "Thirteen colonies, one hot summer in Philadelphia, and a letter to a king.",
   "description": "An A2 reading and listening text on the Declaration of Independence: why the colonies were angry, who wrote the document, and what happened on 4 July 1776.",
@@ -14,7 +14,7 @@
   ],
   "passage": [
     "In the summer of 1776, a small group of men sat in a hot room in Philadelphia and decided to leave their country.",
-    "At that time, thirteen colonies on the Atlantic coast belonged to Britain. The king was George III, and he lived more than five thousand kilometres away.",
+    "At that time, thirteen colonies on the Atlantic coast belonged to Britain. The king was George III, and he lived more than five thousand kilometers away.",
     "The colonists were angry about taxes. Britain made them pay money for tea, paper and other things, but the colonists had nobody in the British parliament. They said: no taxation without representation.",
     "The war with Britain started in 1775. For more than a year the colonies fought, but they still called themselves British.",
     "Then, in June 1776, a group called the Continental Congress asked five men to write a document. The document had to explain to the world why America wanted to be a separate country.",
@@ -30,7 +30,8 @@
       "after": 4,
       "alt": "Five men standing at a table in a crowded hall, presenting a document to the seated members of Congress",
       "source": "john-trumbull-declaration-of-independence-1819.jpeg",
-      "caption": "*Declaration of Independence* — John Trumbull, 1819. The committee of five hands in its draft; this is not the signing, although it is often described as one."
+      "caption": "*Declaration of Independence* — John Trumbull, 1819. The committee of five hands in its draft; this is not the signing, although it is often described as one.",
+      "relation": "depicts"
     },
     {
       "src": "02.jpg",

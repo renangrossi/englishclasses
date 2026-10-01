@@ -3,9 +3,9 @@
   "level": "A2",
   "slug": "sacagawea",
   "order": 103,
-  "topic": "history",
+  "topic": "american-history",
   "title": "Sacagawea and the Journey West",
-  "subtitle": "A sixteen-year-old with a baby on her back, and the moment she recognised her brother.",
+  "subtitle": "A sixteen-year-old with a baby on her back, and the moment she recognized her brother.",
   "description": "An A2 reading and listening text on Sacagawea: who she was, what she really did on the Lewis and Clark expedition, and what we do not know about her.",
   "source": "authored for this site; no source document",
   "provenance": "new",
@@ -25,7 +25,7 @@
     "Charbonneau was hired, and Sacagawea went with him. In February 1805 she had a baby boy, Jean Baptiste. She carried him on her back for the whole journey.",
     "People often call her a guide. That is not quite right. She did not know most of the country, and she did not lead the expedition.",
     "But she did things that nobody else could do. She translated. She found plants that the men could eat. One day, when a boat turned over in a river, she saved the books and instruments that were floating away.",
-    "There was something else. In those years, a war party never travelled with a woman and a baby. When people saw Sacagawea, they understood that this group had not come to fight.",
+    "There was something else. In those years, a war party never traveled with a woman and a baby. When people saw Sacagawea, they understood that this group had not come to fight.",
     "And in August 1805 she met her brother, Cameahwait, and the Shoshone sold the expedition the horses it needed. Without those horses the men could not have crossed the mountains.",
     "We do not know much about her life after 1806. Most historians think she died in 1812, when she was about twenty-four. Today her face is on an American dollar coin — with her baby on her back."
   ],
@@ -65,7 +65,7 @@
     },
     {
       "term": "a war party",
-      "definition": "a group of people travelling together to fight"
+      "definition": "a group of people traveling together to fight"
     },
     {
       "term": "a historian",

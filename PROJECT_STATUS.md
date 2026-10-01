@@ -14,7 +14,7 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | 152 texts; the American History collection is **complete** (37 texts, A1 to C2) |
+| **Current phase** | 152 texts; the American History collection is complete, and the library has had a full audit pass (print, hierarchy, taxonomy, images, vocabulary, dialect) |
 | **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
 
 ### What this project is *not*
@@ -429,12 +429,103 @@ file. Both are idempotent and derived from the JSON, so running them is always s
   population, the Chinese workers missing from the Promontory photograph.
 - Each level batch is committed, pushed and merged on its own.
 
-### Milestone 13 — What is left after that
+### Milestone 13 — Site-wide audit and overhaul pass ✅
+- **Date:** 2026-10-01
+- **Branch:** `chore/library-overhaul-pass` → merged to `main`
+
+A full audit-and-fix pass over the library, driven by a brief that asked for root-cause fixes
+rather than per-page patches. Everything below was fixed in the generator, the shared CSS or the
+source data, never in a built page.
+
+**Print / Save as PDF — rebuilt.** New `assets/css/reading-print.css`, scoped to
+`body.reading-page` (set via `site_chrome.header(body_class=…)`) so grammar lessons, which print
+through `booklet-print.css`, inherit none of it. It gives A4 with 18/17/20mm margins, turns the
+dark banner into a title block (level · topic, title, subtitle, rule), drops every piece of
+interactive furniture *and* the exercises and discussion, binds each figure to its caption with
+`break-inside: avoid`, caps plate heights in millimetres, sets the glossary in two columns and
+prints a source line with the page URL. The exercises are not lost: each block already prints
+itself through the overlay in `exercises.js`, with its own document header, which is a better
+worksheet than appending them to the handout ever was. Verified by rendering real PDFs at A1,
+A2, B1 (the nine-plate flag text), B2 and C2.
+
+**Page hierarchy.** The banner said "The Text" in display type and the real title arrived a
+screen later. The title and subtitle are now the banner's content and the page's only `<h1>`;
+the reading section opens on the audio and the prose under a `Reading` label that is a real
+`<h2>` set as an eyebrow.
+
+**Key Vocabulary is visible again.** It had been hidden on screen on the argument that the hover
+tooltip replaced it — which is true only for a reader using a mouse. Every highlight now carries
+`aria-describedby` pointing at its entry, so a screen reader can reach the definitions at all.
+
+**Taxonomy.** `culture` was labelled "American Culture", so a Japanese dog, a Romanian valley and
+a festival in Fukushima all filed themselves under American Culture. Labels fixed; the key
+`history` renamed to `american-history` so a key that names a region says so; `world-history` and
+`science` added; seven texts refiled.
+
+**Images.** Three were replaced because they contradicted their own text — grapes over a text
+about sugarcane, Dordrecht over a text about Denver, an Edo temple over a 1930s Tokyo station —
+and four analogues were re-captioned so they stop reading as photographs of their subject. The
+schema gained `relation` (`depicts` | `analogue`), and `check_content.py` warns when an analogue
+carries a bare caption.
+
+**Two real bugs found and fixed in the tooling.**
+`add_commons_image.py` and `import_local_artwork.py` both named new files `len(images)+1`, which
+silently overwrote an existing picture whenever one had been removed from a text's set. Both now
+take the next free number. And `*italics*` were converted in captions but not in passages, so six
+texts printed literal asterisks around case names; the conversion now runs on passages too, and
+the narrator no longer reads the asterisks.
+
+**Three new checkers**, because the gap was that nothing validated the source data:
+`check_content.py` (schema, vocabulary that never matches its own passage, image files, alt text,
+exercise ids), `check_vocabulary.py` (Portuguese-aware: transparent cognates, unglossed false
+friends, size against the level) and `check_dialect.py` (American/British spelling, with `--fix`).
+`content/readings/SCHEMA.md` documents the data and the editorial rules.
+
+**Vocabulary.** The matcher's inflection table was too thin — `built`, `oxen`, `acquitted`,
+`court-martialled`, `formidably`, `bureaux` all failed to match their own passages. Fixed, plus
+six semantic mismatches corrected in the content: 17 unmatched headwords down to 4. Nine verified
+false friends added in house style (`"normal, usual — careful: it is not an insult"`).
+
+**Dialect.** The library was roughly half British: 255 strings across 93 texts normalised to
+American spelling, with `hawker centre` and `Labour Party` protected. Word choice
+(`rubbish`/`trash`, `flat`/`apartment`) was deliberately left alone and reported.
+
+**Narration pacing.** The pause between paragraphs went from 0.43s to **1.03s**. edge-tts takes
+plain text and builds its own SSML, so there is no `<break>` to ask for; the lever is the text.
+Blank lines are collapsed and do nothing, but a line holding a single full stop is rendered as
+silence rather than spoken, and each adds almost exactly 0.2s — measured with ffmpeg
+`silencedetect`, with the added silence matching the growth in file duration exactly.
+`PARAGRAPH_BREAK` in `generate_reading_audio.py` is now `"\n\n" + ".\n\n" * 3`.
+
+> **The library currently has two pause lengths.** The 46 files re-recorded in this pass have the
+> 1s pause; the other 106 still have 0.43s and will report as stale until they are re-rendered,
+> which was the owner's instruction (remaining and future audio only). Clearing it is one command
+> and about ninety minutes:
+> `python3 scripts/generate_reading_audio.py --tts /tmp/rl-venv/bin/edge-tts`
+
+**Not changed, needs a decision.** Six decorative page banners are by living or recently-deceased
+artists (William George 1954, Robert McCall, Mort Künstler, Don Oelze, Howard Terpning, Tom
+Freeman) and appear to be in copyright, which contradicts the policy stated at the top of
+`docs/image-credits.md`. They are on `exercises.html`, `simulated-exams.html` and
+`levels/{a1,a2,b1,b2}.html`. Left untouched at the owner's instruction.
+
+### Milestone 14 — What is left after that
 
 1. **P-2, the geography balance** — travel is still the largest topic in B1.
 2. **Depth at C1 and C2.** The American History collection has largely answered this: C1 went
    from 14 to 21 and C2 from 7 to 14, against B1's 44. The top of the library is no longer thin,
    but it is now heavily weighted towards history, which is the next imbalance to watch.
+3. **The banner rights question** above — the owner's call.
+4. **102 analogue images with a bare caption** (`check_content.py --warnings`). Each names its
+   work and never says why it is there. Most sit over a generic scene and are harmless; the
+   dangerous ones are over a named place or person, and those were fixed. The rest is an
+   editorial backlog, not a bug.
+5. **Glossary sizes.** `check_vocabulary.py` reports 87 glossaries above the level's guidance and
+   193 transparent cognates that could give way to better words. The tool ranks them; the
+   trimming is a judgement call per text and was deliberately not done in bulk.
+6. **Four headwords taught in exercises but absent from their passage** (`to explore`,
+   `to secede`, `transcontinental`, `a bank holiday`). Either the passage should use the word or
+   the exercise should stop testing it.
 
 ## Target architecture
 

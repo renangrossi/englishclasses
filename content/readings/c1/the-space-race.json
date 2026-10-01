@@ -3,7 +3,7 @@
   "level": "C1",
   "slug": "the-space-race",
   "order": 104,
-  "topic": "history",
+  "topic": "american-history",
   "title": "The Space Race",
   "subtitle": "Two countries spent a decade proving they could put something above the other's head. The rockets were the same rockets that carried warheads.",
   "description": "A C1 reading and listening text on the space race: Sputnik and the panic it caused, Gagarin, Kennedy's decision, the men who built the rockets and where they learned to build them, and what each side paid.",
@@ -15,14 +15,14 @@
   ],
   "passage": [
     "On 4 October 1957 a polished metal sphere the size of a beach ball went into orbit, and amateur radio operators across the world found they could hear it. Sputnik 1 did almost nothing — it transmitted a beep for three weeks and burned up in January — but the beep was audible from American soil, which was the point nobody missed. A machine was passing over the United States several times a day, and the United States could not stop it.",
-    "The panic that followed was not really about the satellite. A rocket capable of lifting eighty-three kilograms into orbit is a rocket capable of delivering a warhead to another continent, and everyone involved understood that the two capabilities were the same capability. The civilian space programmes of both countries grew out of ballistic missile programmes and were never fully separable from them.",
+    "The panic that followed was not really about the satellite. A rocket capable of lifting eighty-three kilograms into orbit is a rocket capable of delivering a warhead to another continent, and everyone involved understood that the two capabilities were the same capability. The civilian space programs of both countries grew out of ballistic missile programs and were never fully separable from them.",
     "They also grew out of the same source. The German V-2 that fell on London in 1944 was the first ballistic missile, and at the end of the war both sides took what they could of the team that built it. The Americans took Wernher von Braun and more than a hundred of his engineers; the Soviets took much of the hardware and many of the technicians. This is the part of the story that tends to be left out of the celebration: the V-2 was assembled by prisoners at Mittelbau-Dora, where more people died building the weapon than were killed by it, and von Braun had visited the works.",
-    "The Soviet lead held for four years, and it was mostly the work of one man whose name was a state secret. Sergei Korolev had been arrested in 1938, beaten, and sent to a labour camp in Kolyma; he was brought back to work on rockets and spent the rest of his life designing them under the anonymous title of Chief Designer. He was announced to the world only after he died in 1966.",
+    "The Soviet lead held for four years, and it was mostly the work of one man whose name was a state secret. Sergei Korolev had been arrested in 1938, beaten, and sent to a labor camp in Kolyma; he was brought back to work on rockets and spent the rest of his life designing them under the anonymous title of Chief Designer. He was announced to the world only after he died in 1966.",
     "Under Korolev the firsts came quickly: the first satellite, the first animal in orbit, the first photographs of the far side of the Moon, and on 12 April 1961 the first human being. Yuri Gagarin's flight lasted 108 minutes and a single orbit, and he landed by parachute, having ejected from the capsule — a detail the Soviet Union concealed for years because the record rules of the time required a pilot to land with his craft.",
     "Three weeks later, in a speech to Congress on 25 May 1961, President Kennedy committed the United States to landing a man on the Moon before the decade was out. The choice of the Moon was strategic rather than scientific. It was far enough away that the existing Soviet lead in heavy rockets would not decide it, which meant it was the first contest the United States had a reasonable prospect of winning.",
-    "What followed was an industrial effort on a scale that is easy to state and hard to feel: at its height Apollo employed some four hundred thousand people across twenty thousand firms and universities, and consumed more than four per cent of the federal budget in 1966. The Soviet programme, by contrast, was never unified. Korolev's giant N1 rocket was developed in competition with rival design bureaux rather than alongside them, and it failed on all four of its test launches.",
-    "Both sides killed people. Three astronauts — Grissom, White and Chaffee — died in a fire inside a sealed Apollo 1 capsule during a ground test in January 1967, in a pure oxygen atmosphere nobody had thought of as a fuel. Three months later Vladimir Komarov died when the parachutes of Soyuz 1 failed, on a flight that engineers had reportedly warned was not ready. Neither programme stopped, and neither was quite the same afterwards.",
-    "The race ended in July 1969, and it ended suddenly. The Soviet Union had not publicly committed to a Moon landing and so, having lost, could maintain that it had never been running, which is why the existence of the Soviet lunar programme was denied until 1989. Within four years both sides had turned to space stations, and in 1975 an Apollo capsule docked with a Soyuz in orbit and the two commanders shook hands on television.",
+    "What followed was an industrial effort on a scale that is easy to state and hard to feel: at its height Apollo employed some four hundred thousand people across twenty thousand firms and universities, and consumed more than four per cent of the federal budget in 1966. The Soviet program, by contrast, was never unified. Korolev's giant N1 rocket was developed in competition with rival design bureaux rather than alongside them, and it failed on all four of its test launches.",
+    "Both sides killed people. Three astronauts — Grissom, White and Chaffee — died in a fire inside a sealed Apollo 1 capsule during a ground test in January 1967, in a pure oxygen atmosphere nobody had thought of as a fuel. Three months later Vladimir Komarov died when the parachutes of Soyuz 1 failed, on a flight that engineers had reportedly warned was not ready. Neither program stopped, and neither was quite the same afterwards.",
+    "The race ended in July 1969, and it ended suddenly. The Soviet Union had not publicly committed to a Moon landing and so, having lost, could maintain that it had never been running, which is why the existence of the Soviet lunar program was denied until 1989. Within four years both sides had turned to space stations, and in 1975 an Apollo capsule docked with a Soyuz in orbit and the two commanders shook hands on television.",
     "It is tempting to describe the whole thing as a detour — enormous sums spent to plant a flag. But the decade left behind the deep-space tracking network, satellite weather forecasting, communications satellites, and a way of running vast technical projects that had not existed before. It also left a photograph of the Earth taken from beside the Moon, which turned out to persuade more people of the planet's fragility than any argument had."
   ],
   "images": [
@@ -45,7 +45,7 @@
       "after": 6,
       "alt": "A very large rocket with a tapering conical body standing beside a tall lattice service tower on an open launch pad, with people visible at its base",
       "source": "commons:File:N1 1M1 mockup on the launch pad at the Baikonur Cosmodrome in late 1967.jpg",
-      "caption": "An N1 mockup on the pad at Baikonur, 1967. The figures at the base give the scale: it stood as tall as a Saturn V, it failed on all four launch attempts, and the Soviet Union denied that the programme existed until 1989.",
+      "caption": "An N1 mockup on the pad at Baikonur, 1967. The figures at the base give the scale: it stood as tall as a Saturn V, it failed on all four launch attempts, and the Soviet Union denied that the program existed until 1989.",
       "wide": true
     }
   ],
@@ -80,7 +80,7 @@
     },
     {
       "term": "unified",
-      "definition": "brought together into one organised whole"
+      "definition": "brought together into one organized whole"
     },
     {
       "term": "a detour",

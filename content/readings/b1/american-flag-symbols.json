@@ -3,7 +3,7 @@
   "level": "B1",
   "slug": "american-flag-symbols",
   "order": 106,
-  "topic": "history",
+  "topic": "american-history",
   "title": "The American Flag: A History in Symbols",
   "subtitle": "Before there was one flag, there were dozens — a cut-up snake, a pine tree, a rattlesnake and a line of stripes nobody could agree how to arrange.",
   "description": "A B1 reading and listening text on the flags and symbols of the American Revolution: Join or Die, the Grand Union flag, the Betsy Ross story, the Gadsden and Pine Tree flags, the Bennington flag, and how the modern flag took shape.",
@@ -143,6 +143,10 @@
     {
       "term": "an anthem",
       "definition": "the official song of a country"
+    },
+    {
+      "term": "to support",
+      "definition": "to back up, to provide evidence for — careful: not to put up with or endure"
     }
   ],
   "exercises": [

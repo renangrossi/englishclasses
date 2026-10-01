@@ -3,7 +3,7 @@
   "level": "A1",
   "slug": "the-american-flag",
   "order": 103,
-  "topic": "history",
+  "topic": "american-history",
   "title": "The American Flag",
   "subtitle": "Thirteen stripes, fifty stars, and one teenager who changed the design.",
   "description": "An A1 reading and listening text on the flag of the United States: what the stripes and stars mean, how the flag changed, and the student who designed the one we see today.",
@@ -13,7 +13,7 @@
     "past-simple"
   ],
   "passage": [
-    "The American flag has three colours: red, white and blue.",
+    "The American flag has three colors: red, white and blue.",
     "It has thirteen stripes. Seven are red and six are white. The thirteen stripes are the first thirteen states.",
     "In the corner there are fifty small white stars on blue. One star is one state. There are fifty states in the United States today.",
     "The flag is not old in this form. The first flag with thirteen stars is from 1777. Then the country got bigger, and the flag changed many times.",
@@ -45,11 +45,11 @@
   "vocabulary": [
     {
       "term": "a flag",
-      "definition": "a piece of cloth with colours or a design, for a country or a group"
+      "definition": "a piece of cloth with colors or a design, for a country or a group"
     },
     {
       "term": "a stripe",
-      "definition": "a long line of colour"
+      "definition": "a long line of color"
     },
     {
       "term": "a star",
@@ -292,7 +292,7 @@
     }
   ],
   "discussion": [
-    "What are the colours of your country's flag?",
+    "What are the colors of your country's flag?",
     "Is there a star, an animal or a plant on your flag? What does it mean?",
     "Where do you see your country's flag? At school? At sports games?"
   ],

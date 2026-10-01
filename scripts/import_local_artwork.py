@@ -81,7 +81,14 @@ def add(level, slug, image, after, alt, caption, gallery=GALLERY, check=False):
         raise SystemExit(f"{level}/{slug}: --after {after} is outside the "
                          f"{n_paras} paragraphs of the passage")
     imgs = list(d.get("images") or [])
-    nxt = f"{len(imgs) + 1:02d}.jpg"
+    # Next FREE number, not len+1 -- see the matching note in
+    # scripts/add_commons_image.py. After an image is removed from a text's set,
+    # len+1 points back at a filename that is still on disk and overwrites it.
+    taken = {i["src"] for i in imgs} | {f.name for f in (IMG_ROOT / level / slug).glob("*")}
+    n = 1
+    while f"{n:02d}.jpg" in taken:
+        n += 1
+    nxt = f"{n:02d}.jpg"
     entry = {"src": nxt, "after": after, "alt": alt, "source": src.name}
     if caption:
         entry["caption"] = caption

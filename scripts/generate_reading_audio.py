@@ -26,6 +26,7 @@ Usage:
 import argparse
 import hashlib
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -35,10 +36,33 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import reading_common as rc
 
 
+# edge-tts takes plain text and builds its own SSML, so there is no <break> to
+# ask for -- the only lever on pacing is what the text itself contains. A blank
+# line between paragraphs gives about 0.43s, and extra blank lines do nothing
+# at all (they are collapsed). A line containing a single full stop is read as
+# silence rather than spoken, and each one adds almost exactly 0.2s:
+#
+#     paragraph break alone ....... 0.43s
+#     + one "." line .............. 0.63s
+#     + two ....................... 0.83s
+#     + three ..................... 1.03s   <- this
+#     + four ...................... 1.23s
+#
+# Measured with ffmpeg silencedetect on en-US-EmmaNeural at +0%; the added
+# silence matches the growth in file duration exactly, so nothing is spoken.
+# A second is long enough for a learner following the text to find the next
+# paragraph without the recording starting to drag.
+PARAGRAPH_BREAK = "\n\n" + ".\n\n" * 3
+
+
 def narration_text(d):
-    """What the narrator reads: the title, then the passage. Paragraphs are
-    joined with blank lines so the voice takes a real pause between them."""
-    return "\n\n".join([d["title"].rstrip(".") + "."] + list(d["passage"]))
+    """What the narrator reads: the title, then the passage, with a one-second
+    pause between paragraphs (see PARAGRAPH_BREAK above).
+
+    Asterisks around a title ("*Browder v. Gayle*") are typographic markup for
+    the page, not something to say out loud, so they come off here."""
+    paras = [re.sub(r"\*([^*\n]+)\*", r"\1", p) for p in d["passage"]]
+    return PARAGRAPH_BREAK.join([d["title"].rstrip(".") + "."] + paras)
 
 
 # Staleness is decided by the narration text, not by file timestamps. Editing

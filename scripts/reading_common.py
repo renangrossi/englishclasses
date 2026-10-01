@@ -31,12 +31,22 @@ LEVEL_RATE = {
 VOICES_F = ["en-US-JennyNeural", "en-US-AriaNeural", "en-US-EmmaNeural", "en-US-MichelleNeural"]
 VOICES_M = ["en-US-GuyNeural", "en-US-ChristopherNeural", "en-US-EricNeural", "en-US-BrianNeural"]
 
+# The subject chip on a card, and the filter group on the hub. The key is the
+# value stored in a text's JSON; the label is what a student reads.
+#
+# Two rules, learned the hard way. A key must mean what its label says: "culture"
+# was labelled "American Culture", so a text about a Japanese dog, a Romanian
+# valley and a festival in Fukushima all filed themselves under American
+# Culture. And a key that names a region must say so, which is why the
+# collection's own key is "american-history" rather than a bare "history" that
+# the next non-American text would quietly inherit.
 TOPIC_LABELS = {
     "work": "Work & Career", "interviews": "Job Interviews", "business": "Business English",
-    "travel": "Travel", "everyday": "Everyday Life", "food": "Food & Dining",
-    "sports": "Sports", "culture": "American Culture", "tech": "Technology",
-    "society": "Society", "literature": "Stories & Literature", "review": "Review",
-    "history": "American History",
+    "travel": "Travel & Places", "everyday": "Everyday Life", "food": "Food & Dining",
+    "sports": "Sports", "culture": "Culture & Traditions", "tech": "Technology",
+    "science": "Science", "society": "Society", "literature": "Stories & Literature",
+    "review": "Review",
+    "american-history": "American History", "world-history": "World History",
 }
 
 # Each source JSON still records "provenance" (as-published / edited /

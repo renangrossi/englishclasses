@@ -3,7 +3,7 @@
   "level": "A2",
   "slug": "lewis-and-clark-west",
   "order": 102,
-  "topic": "history",
+  "topic": "american-history",
   "title": "Lewis and Clark: Exploring the West",
   "subtitle": "Two officers, forty men, one river, and a map with nothing on it.",
   "description": "An A2 reading and listening text on the Lewis and Clark expedition of 1804–1806: why they went, what they found, and how they got home.",
@@ -19,11 +19,11 @@
     "The year before, the United States had bought a huge piece of land from France. Nobody in the government knew exactly what was in it.",
     "President Thomas Jefferson wanted answers. Was there a river across the continent? What plants and animals lived there? Who lived there?",
     "He chose two officers: Meriwether Lewis, his own secretary, and William Clark, an old army friend of Lewis. They called the group the Corps of Discovery.",
-    "They travelled west all summer. In the autumn they stopped and built a small fort near a Mandan village in today's North Dakota, and they stayed there for the winter.",
+    "They traveled west all summer. In the autumn they stopped and built a small fort near a Mandan village in today's North Dakota, and they stayed there for the winter.",
     "There they met a young Shoshone woman called Sacagawea. She joined the expedition in the spring with her husband and her new baby.",
     "In the summer of 1805 they reached the Rocky Mountains. This was the bad news: there was no easy river across America. They had to cross the mountains with horses, and they almost starved.",
     "In November 1805 they finally saw the Pacific Ocean. Clark wrote in his journal that the men were happy and extremely wet. They built another fort and waited for the winter to pass.",
-    "They arrived back in St. Louis in September 1806, after two years and about 13,000 kilometres. Most people had decided they were dead.",
+    "They arrived back in St. Louis in September 1806, after two years and about 13,000 kilometers. Most people had decided they were dead.",
     "They brought back maps, notes on 178 plants and 122 animals, and a great deal of information about the nations who were already living there. Only one man died on the whole journey, probably of a problem with his appendix."
   ],
   "images": [
@@ -39,7 +39,8 @@
       "after": 6,
       "alt": "A huge mountain wall above a valley with a waterfall, a camp of small figures on the flat ground below",
       "source": "albert-bierstadt-the-rocky-mountains-landers-peak.jpg",
-      "caption": "*The Rocky Mountains, Lander's Peak* — Albert Bierstadt, 1863."
+      "caption": "*The Rocky Mountains, Lander's Peak* — Albert Bierstadt, 1863.",
+      "relation": "depicts"
     }
   ],
   "vocabulary": [

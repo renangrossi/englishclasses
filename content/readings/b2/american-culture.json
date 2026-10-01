@@ -21,7 +21,7 @@
     "American culture is usually introduced with a metaphor, and the metaphor does more work than the sentence around it.",
     "The old one is the melting pot. It comes from a 1908 play of that name, and it says that people arrive from everywhere, and what comes out is one new thing that is not quite any of the originals. It was meant generously. It also describes a process in which what you brought is expected to dissolve, which is why later writers proposed the salad bowl instead: everything in one dish, each ingredient still identifiable. Which image somebody reaches for tells you what they think immigrants owe the country they arrive in, and the argument between the two is not settled and is not really about food.",
     "What is not in dispute is the ingredients. Native American nations were here first and their influence survives in names more than in anything else — more than half the states carry one. European settlement brought English law and language, and with them Irish, German, Italian, Polish and Scandinavian communities, each of which was treated as foreign on arrival and is now simply American, which is worth remembering whenever a newer group is described as impossible to absorb.",
-    "African American culture is the part most often understated and hardest to overstate. Almost every musical form the United States has exported — blues, jazz, gospel, rock and roll, soul, funk, hip hop — came out of Black American communities, usually in conditions of enforced poverty and legal exclusion, and was then adopted, commercialised and frequently credited elsewhere. You cannot describe American popular culture accurately without putting that at the centre of it, and a great deal of writing about the subject manages to avoid doing so.",
+    "African American culture is the part most often understated and hardest to overstate. Almost every musical form the United States has exported — blues, jazz, gospel, rock and roll, soul, funk, hip hop — came out of Black American communities, usually in conditions of enforced poverty and legal exclusion, and was then adopted, commercialised and frequently credited elsewhere. You cannot describe American popular culture accurately without putting that at the center of it, and a great deal of writing about the subject manages to avoid doing so.",
     "Latin American influence is the largest current one and is not new: Spanish was spoken in what is now the United States before English was, and the oldest continuously occupied European settlement in the country was founded by Spain. Asian communities, arriving in significant numbers from the middle of the nineteenth century onward and again after 1965, have reshaped the food, the universities and the technology industry.",
     "The pattern that repeats is worth naming. A group arrives and is regarded as unassimilable. Its food is considered strange, then becomes a novelty, then becomes ordinary, and eventually becomes so ordinary that people forget it came from anywhere. Pizza, bagels, tacos and fried chicken are all in that final category. Meanwhile the same arguments about the newest arrivals are made in almost the same words, by people whose own grandparents were the subject of them.",
     "There are things that are genuinely shared. A written constitution treated with something close to reverence. A strong preference for the individual over the group, which produces both the ambition the country is admired for and the thinness of its safety net. An unusual comfort with self-invention — moving state, changing career, starting again — which is easier in a country where nobody's family has been in the same village for four hundred years. And a habit of talking about the nation in the language of principle rather than ancestry, which is what lets somebody become American in a way it is harder to become French or Japanese.",
@@ -33,14 +33,16 @@
       "after": 1,
       "alt": "A wide American river valley seen from a wooded height, half of it under storm and half in clear light",
       "source": "cole-thomas-the-oxbow-the-connecticut-river-near-northampton-1836.jpg",
-      "caption": "*The Oxbow* — Thomas Cole, 1836."
+      "caption": "*The Oxbow* — Thomas Cole, 1836.",
+      "relation": "depicts"
     },
     {
       "src": "02.jpg",
       "after": 2,
       "alt": "A herd of buffalo moving across the shallows of the upper Missouri, with bluffs rising beyond",
       "source": "karl-bodmer-landscape-with-buffalo-on-the-upper-missouri-1833.jpg",
-      "caption": "*Landscape with Buffalo on the Upper Missouri* — Karl Bodmer, 1833."
+      "caption": "*Landscape with Buffalo on the Upper Missouri* — Karl Bodmer, 1833.",
+      "relation": "depicts"
     }
   ],
   "vocabulary": [
@@ -132,6 +134,14 @@
       "term": "to hold somebody to something",
       "definition": "to insist they live up to what they claimed",
       "match": "held to"
+    },
+    {
+      "term": "eventually",
+      "definition": "in the end, after a long time — careful: not 'from time to time'"
+    },
+    {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
     }
   ],
   "exercises": [

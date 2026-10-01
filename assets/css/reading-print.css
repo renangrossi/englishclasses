@@ -1,0 +1,247 @@
+/* ============================================================================
+   Printing a reading page
+   ============================================================================
+   A reading page replaced a downloadable PDF, so "Print / Save as PDF" has to
+   produce a document a teacher can photocopy and a student can write on -- not
+   a screenshot of a web page.
+
+   What prints: level and topic, the title, the subtitle, the passage, its
+   images with their captions, and the vocabulary as a glossary (there is no
+   hovering on paper). What does not: every piece of interactive furniture,
+   the exercises and the discussion prompts. Those are not dropped from the
+   product -- each exercise block prints itself through the overlay built in
+   assets/js/exercises.js, with its own document header, which is a better
+   worksheet than appending them here ever produced.
+
+   Everything is scoped to body.reading-page (set by scripts/site_chrome.py via
+   scripts/build_reading_page.py) so that grammar lessons, which print through
+   assets/css/booklet-print.css, inherit none of it.
+   ========================================================================= */
+
+@page {
+  size: A4;
+  /* Wider at the foot so the last line never sits on the trim. */
+  margin: 18mm 17mm 20mm;
+}
+
+@media print {
+  /* --- what never prints ------------------------------------------------ */
+  .reading-page .site-header,
+  .reading-page .breadcrumbs,
+  .reading-page .level-toc,
+  .reading-page .site-footer,
+  .reading-page .back-to-top,
+  .reading-page .theme-toggle,
+  .reading-page .nav-toggle,
+  .reading-page .skip-link,
+  .reading-page .stars-row,
+  .reading-page .search-overlay,
+  .reading-page .dict-widget-toggle,
+  .reading-page .dict-widget-panel,
+  .reading-page .ai-teacher-toggle,
+  .reading-page .ai-teacher-panel,
+  .reading-page .progress-panel,
+  .reading-page .reading-intro,
+  .reading-page .page-header__actions,
+  .reading-page .print-hidden,
+  .reading-page audio,
+  /* The practice and discussion sections are screen features: the exercises
+     are interactive and print themselves properly elsewhere, and a list of
+     discussion prompts is not part of the handout. */
+  .reading-page #practice,
+  .reading-page #discussion { display: none !important; }
+
+  /* --- page shell ------------------------------------------------------- */
+  .reading-page {
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
+  }
+  .reading-page .site-main { padding: 0; margin: 0; }
+  .reading-page .section { padding: 0; margin: 0; background: none; }
+  .reading-page .section--surface { background: none; }
+  .reading-page .section__inner { max-width: none; padding: 0; margin: 0; }
+  /* The section label ("Reading") is a screen signpost between the banner and
+     the prose. On paper the rule under the title already does that job. */
+  .reading-page .eyebrow--as-heading { display: none; }
+
+  /* --- document header -------------------------------------------------- */
+  /* The dark banner becomes a title block: level and topic, the title, the
+     subtitle, and a rule. Nothing else from it survives. */
+  .reading-page .page-header {
+    background: none !important;
+    color: #000;
+    border: 0;
+    border-bottom: 1.2pt solid #000;
+    padding: 0 0 4mm;
+    margin: 0 0 7mm;
+    break-after: avoid-page;
+  }
+  .reading-page .page-header__inner {
+    display: block;
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+  .reading-page .page-header .eyebrow {
+    display: block;
+    color: #000;
+    font-size: 8.5pt;
+    letter-spacing: 0.12em;
+    margin: 0 0 2mm;
+  }
+  /* The eyebrow's leading rule is a screen flourish and prints as a stray
+     dash in front of the level. */
+  .reading-page .page-header .eyebrow::before { content: none; }
+  .reading-page .page-header__title {
+    color: #000;
+    max-width: none;
+    font-size: 20pt;
+    line-height: 1.15;
+    margin: 0;
+  }
+  .reading-page .page-header__lede {
+    color: #222;
+    max-width: 78ch;
+    font-size: 10.5pt;
+    font-style: italic;
+    line-height: 1.45;
+    margin: 2.5mm 0 0;
+  }
+
+  /* --- the passage ------------------------------------------------------ */
+  .reading-page .reading-passage {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: 0;
+    font-size: 11pt;
+    line-height: 1.55;
+    color: #000;
+  }
+  .reading-page .reading-passage p { orphans: 3; widows: 3; margin-bottom: 0; }
+  .reading-page .reading-passage p + p { text-indent: 1.5em; }
+  .reading-page .reading-passage p.reading-passage__heading,
+  .reading-page .reading-passage p.reading-passage__opener,
+  .reading-page .reading-passage p.reading-passage__turn { text-indent: 0; }
+  .reading-page .reading-passage p.reading-passage__heading {
+    margin-top: 4mm;
+    break-after: avoid-page;
+  }
+  /* A drop cap is a screen ornament here; at print sizes it straddles the
+     first lines badly and the small caps that follow it cost legibility. */
+  .reading-page .reading-passage__lead::first-letter {
+    float: none;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0;
+    color: inherit;
+    font-weight: inherit;
+  }
+  .reading-page .reading-passage__lead::first-line {
+    font-variant-caps: normal;
+    letter-spacing: normal;
+  }
+  /* Highlighted words keep their meaning on paper through the glossary, so
+     they are set as plain text -- and the tooltip must never be printed. */
+  .reading-page .vocab-term {
+    color: inherit;
+    font-weight: inherit;
+    border-bottom: none;
+  }
+  .reading-page .vocab-term::after { content: none !important; display: none !important; }
+
+  /* --- figures ---------------------------------------------------------- */
+  /* A picture and its caption are one editorial unit and must not be split,
+     and neither may be split from the other. Sizes are given in millimetres
+     because the measure on paper is fixed: the text block is 176mm wide. */
+  .reading-page .reading-figure {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin: 5mm auto;
+    max-width: 78mm;
+    text-align: center;
+  }
+  .reading-page .reading-figure--wide { max-width: 128mm; }
+  .reading-page .reading-figure img {
+    /* max-width AND max-height with width:auto, so the box always shrinks to
+       the picture. Sizing the img to 100% and letting object-fit letterbox it
+       instead left the border drawn around the empty box, which printed as a
+       rectangle floating around a portrait plate. A tall plate at full column
+       width would otherwise eat a whole sheet, hence the height cap. */
+    display: inline-block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 95mm;
+    padding: 0;
+    background: none;
+    border: 0.5pt solid #999;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .reading-page .reading-figure--wide img { max-height: 112mm; }
+  .reading-page .reading-figure figcaption {
+    break-inside: avoid;
+    break-before: avoid;
+    margin-top: 1.5mm;
+    font-size: 8.5pt;
+    line-height: 1.35;
+    color: #333;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  /* --- glossary --------------------------------------------------------- */
+  .reading-page .reading-glossary {
+    display: block;
+    margin-top: 8mm;
+    padding-top: 3mm;
+    border-top: 0.5pt solid #999;
+    break-inside: avoid;
+  }
+  .reading-page .reading-glossary__heading {
+    font-size: 11pt;
+    margin: 0 0 2mm;
+    break-after: avoid-page;
+  }
+  .reading-page .reading-glossary__list {
+    display: block;
+    columns: 2;
+    column-gap: 9mm;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 9.5pt;
+    line-height: 1.4;
+  }
+  .reading-page .reading-glossary__list li {
+    break-inside: avoid;
+    margin: 0 0 1.8mm;
+    padding: 0;
+    border-bottom: 0;
+    font-size: 9.5pt;
+    background: none;
+  }
+
+  /* --- footer ----------------------------------------------------------- */
+  /* Printed once at the end: where this came from, so a photocopied handout
+     can be traced back to the page it was made from. */
+  .reading-page .print-source {
+    display: block;
+    margin-top: 8mm;
+    padding-top: 2.5mm;
+    border-top: 0.5pt solid #999;
+    font-size: 8pt;
+    line-height: 1.4;
+    color: #444;
+    break-inside: avoid;
+  }
+  .reading-page .print-source a { color: inherit; text-decoration: none; }
+
+  .reading-page a { color: inherit; text-decoration: none; }
+}
+
+/* On screen the print-only footer does not exist. */
+.print-source { display: none; }

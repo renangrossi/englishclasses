@@ -1,7 +1,7 @@
 {
  "a1/abraham-lincoln": {
   "bytes": 641376,
-  "fingerprint": "0996ba1c24ef069f",
+  "fingerprint": "4f7ea2089b2ffe01",
   "rate": "-15%",
   "voice": "en-US-GuyNeural"
  },
@@ -97,7 +97,7 @@
  },
  "a1/statue-of-liberty": {
   "bytes": 638784,
-  "fingerprint": "f1fa4f2109e1fac9",
+  "fingerprint": "b788437723ce24dc",
   "rate": "-15%",
   "voice": "en-US-JennyNeural"
  },
@@ -108,8 +108,8 @@
   "voice": "en-US-JennyNeural"
  },
  "a1/the-american-flag": {
-  "bytes": 625968,
-  "fingerprint": "8a57a2af65958c94",
+  "bytes": 624384,
+  "fingerprint": "af45c0ec4aedeb23",
   "rate": "-15%",
   "voice": "en-US-ChristopherNeural"
  },
@@ -126,8 +126,8 @@
   "voice": "en-US-GuyNeural"
  },
  "a2/boston-tea-party": {
-  "bytes": 727488,
-  "fingerprint": "8699d6a615382acd",
+  "bytes": 727776,
+  "fingerprint": "835353e5b1e503d8",
   "rate": "-8%",
   "voice": "en-US-AriaNeural"
  },
@@ -139,7 +139,7 @@
  },
  "a2/california-gold-rush": {
   "bytes": 741456,
-  "fingerprint": "e4e6a943ef1e81a5",
+  "fingerprint": "9011f61747a3126c",
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
@@ -150,8 +150,8 @@
   "voice": "en-US-MichelleNeural"
  },
  "a2/declaration-of-independence": {
-  "bytes": 684144,
-  "fingerprint": "d5bb398d3dfc04ce",
+  "bytes": 684000,
+  "fingerprint": "6656c73d9adbae26",
   "rate": "-8%",
   "voice": "en-US-BrianNeural"
  },
@@ -192,14 +192,14 @@
   "voice": "en-US-MichelleNeural"
  },
  "a2/lewis-and-clark-west": {
-  "bytes": 754848,
-  "fingerprint": "daae9989454d33c6",
+  "bytes": 754272,
+  "fingerprint": "26102146f0c8aab6",
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
  "a2/oregon-trail": {
   "bytes": 752112,
-  "fingerprint": "bb5b360cde8bae5e",
+  "fingerprint": "2a85f93e01220cb4",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
@@ -211,7 +211,7 @@
  },
  "a2/sacagawea": {
   "bytes": 789264,
-  "fingerprint": "138b5436e84183b7",
+  "fingerprint": "2159c03a0ae1f19a",
   "rate": "-8%",
   "voice": "en-US-AriaNeural"
  },
@@ -253,7 +253,7 @@
  },
  "a2/two-very-different-trips": {
   "bytes": 1042272,
-  "fingerprint": "5d1fc8f62e27968d",
+  "fingerprint": "5196f0142093934d",
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
  },
@@ -271,7 +271,7 @@
  },
  "b1/a-freelance-accounting-assignment": {
   "bytes": 979632,
-  "fingerprint": "eaccccee6a54075a",
+  "fingerprint": "f4c6fe42785d0c45",
   "rate": "-8%",
   "voice": "en-US-AriaNeural"
  },
@@ -282,20 +282,20 @@
   "voice": "en-US-ChristopherNeural"
  },
  "b1/animal-solutions": {
-  "bytes": 1127664,
-  "fingerprint": "24b9050433c5643a",
+  "bytes": 1127808,
+  "fingerprint": "732037af8e50c318",
   "rate": "-8%",
   "voice": "en-US-BrianNeural"
  },
  "b1/arriving-in-johannesburg": {
   "bytes": 1303488,
-  "fingerprint": "31df992e4599c6cb",
+  "fingerprint": "7ee59cd2fb263a93",
   "rate": "-8%",
   "voice": "en-US-AriaNeural"
  },
  "b1/beers": {
   "bytes": 1439280,
-  "fingerprint": "b9266929d643e876",
+  "fingerprint": "b5c71a0a6ae0a379",
   "rate": "-8%",
   "voice": "en-US-AriaNeural"
  },
@@ -312,14 +312,14 @@
   "voice": "en-US-AriaNeural"
  },
  "b1/cars-and-their-parts": {
-  "bytes": 1424304,
-  "fingerprint": "d1d9e0a04da4ebfe",
+  "bytes": 1422576,
+  "fingerprint": "576566b79b08ac01",
   "rate": "-8%",
   "voice": "en-US-AriaNeural"
  },
  "b1/christmas-krampus-grinch": {
-  "bytes": 1351296,
-  "fingerprint": "fad02d673c63d413",
+  "bytes": 1351584,
+  "fingerprint": "bde812f1d08cefb7",
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
@@ -337,25 +337,25 @@
  },
  "b1/common-chores": {
   "bytes": 1127808,
-  "fingerprint": "52f2db429ca20e31",
+  "fingerprint": "e2cbe98c6b6493ec",
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
  "b1/cybersecurity": {
-  "bytes": 1303488,
-  "fingerprint": "305432f832d8ca69",
+  "bytes": 1303632,
+  "fingerprint": "76c5468a28d63470",
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
  },
  "b1/detective-story": {
   "bytes": 1200096,
-  "fingerprint": "95db2478ec5b4b5d",
+  "fingerprint": "d320394330a73024",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
  "b1/do-make-livestock-farming": {
-  "bytes": 956736,
-  "fingerprint": "62fd733dde288a0c",
+  "bytes": 956880,
+  "fingerprint": "9afc2ed8b64cd342",
   "rate": "-8%",
   "voice": "en-US-GuyNeural"
  },
@@ -373,7 +373,7 @@
  },
  "b1/golden-gate-bridge-present-perfect": {
   "bytes": 1015776,
-  "fingerprint": "a2cbccd747c0e51b",
+  "fingerprint": "61f0109d576d4b19",
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
  },
@@ -385,7 +385,7 @@
  },
  "b1/harriet-tubman": {
   "bytes": 1082736,
-  "fingerprint": "ec8bea6623d9bf7a",
+  "fingerprint": "7a60623322a71bab",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
@@ -402,44 +402,44 @@
   "voice": "en-US-ChristopherNeural"
  },
  "b1/lewis-and-clark-unknown": {
-  "bytes": 1353456,
-  "fingerprint": "f6fbefbf3f23dc69",
+  "bytes": 1353024,
+  "fingerprint": "9491931f8a0f76b3",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
  "b1/lincoln-and-the-civil-war": {
   "bytes": 1079280,
-  "fingerprint": "70e27850f92ffa65",
+  "fingerprint": "6d3d707dd9970fcb",
   "rate": "-8%",
   "voice": "en-US-GuyNeural"
  },
  "b1/louisiana-purchase": {
-  "bytes": 1106208,
-  "fingerprint": "f8e65aeb197d0130",
+  "bytes": 1106064,
+  "fingerprint": "466b7b56cde0290c",
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
  },
  "b1/maringa": {
-  "bytes": 1238976,
-  "fingerprint": "3db207360b9498b4",
+  "bytes": 1238832,
+  "fingerprint": "d82a27b5281c4ede",
   "rate": "-8%",
   "voice": "en-US-BrianNeural"
  },
  "b1/milan-restaurants": {
-  "bytes": 1263888,
-  "fingerprint": "10bc5ee92b32efae",
+  "bytes": 1295280,
+  "fingerprint": "631093c0543777c5",
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
  "b1/my-day-in-vienna-to-by-for": {
   "bytes": 766944,
-  "fingerprint": "8b33f84e28ec7745",
+  "fingerprint": "8cf9789675d8a370",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
  "b1/my-life-and-plans": {
-  "bytes": 729360,
-  "fingerprint": "9b15ca71e80562d4",
+  "bytes": 756576,
+  "fingerprint": "82d869494d0e69a6",
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
@@ -451,7 +451,7 @@
  },
  "b1/ny-visitation": {
   "bytes": 1388880,
-  "fingerprint": "089ac9371f8c2627",
+  "fingerprint": "86e3f1e2e5adcde8",
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
@@ -468,14 +468,14 @@
   "voice": "en-US-ChristopherNeural"
  },
  "b1/robot-birds": {
-  "bytes": 821520,
-  "fingerprint": "c1a4cf8eec63d886",
+  "bytes": 843264,
+  "fingerprint": "d9d52b0e2a67a935",
   "rate": "-8%",
   "voice": "en-US-BrianNeural"
  },
  "b1/santa-catarina": {
   "bytes": 963792,
-  "fingerprint": "1edce731cc9c8ae9",
+  "fingerprint": "57d787d9c4cb7c7e",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
@@ -492,8 +492,8 @@
   "voice": "en-US-EricNeural"
  },
  "b1/southeast-asia-adventure": {
-  "bytes": 1246896,
-  "fingerprint": "48e46cbb1c197624",
+  "bytes": 1246752,
+  "fingerprint": "eebda6687284f30a",
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
@@ -504,20 +504,20 @@
   "voice": "en-US-ChristopherNeural"
  },
  "b1/transcontinental-railroad": {
-  "bytes": 1143936,
-  "fingerprint": "e2650eed3af4faa6",
+  "bytes": 1183104,
+  "fingerprint": "e26e6220ae99c507",
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
  "b1/travel-dialogues-02": {
-  "bytes": 1258560,
-  "fingerprint": "0d30b08fad9d261e",
+  "bytes": 1332864,
+  "fingerprint": "d6fdbec2b6777081",
   "rate": "-8%",
   "voice": "en-US-BrianNeural"
  },
  "b1/usa-restaurants": {
-  "bytes": 1480464,
-  "fingerprint": "1175a708c5a58839",
+  "bytes": 1511136,
+  "fingerprint": "e79159010b204119",
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
@@ -535,31 +535,31 @@
  },
  "b2/aesop-what-we-tell-ourselves": {
   "bytes": 1014624,
-  "fingerprint": "9b2763bb69c45f6c",
+  "fingerprint": "7c5fcb880179aa3d",
   "rate": "+0%",
   "voice": "en-US-ChristopherNeural"
  },
  "b2/american-culture": {
   "bytes": 1413216,
-  "fingerprint": "d936f50c5d27be21",
+  "fingerprint": "7be37155e7ddfb8a",
   "rate": "+0%",
   "voice": "en-US-AriaNeural"
  },
  "b2/business-war-it": {
   "bytes": 1652544,
-  "fingerprint": "9471c43002fa162f",
+  "fingerprint": "349cfccaaade0f54",
   "rate": "+0%",
   "voice": "en-US-ChristopherNeural"
  },
  "b2/capetown": {
   "bytes": 1304064,
-  "fingerprint": "c1b8156bc5bad653",
+  "fingerprint": "cb554be7f1f9ce6e",
   "rate": "+0%",
   "voice": "en-US-AriaNeural"
  },
  "b2/civil-war-nation-divided": {
-  "bytes": 1215504,
-  "fingerprint": "176dffafb7873d22",
+  "bytes": 1255248,
+  "fingerprint": "597d747c655713a5",
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  },
@@ -576,20 +576,20 @@
   "voice": "en-US-AriaNeural"
  },
  "b2/egypt-a-journey-through-history-and-culture": {
-  "bytes": 1854288,
-  "fingerprint": "40ca3df0210712dd",
+  "bytes": 1854432,
+  "fingerprint": "3a5d1adc470f87b8",
   "rate": "+0%",
   "voice": "en-US-EricNeural"
  },
  "b2/fdr-new-deal": {
   "bytes": 1295280,
-  "fingerprint": "3b9ab51d7de414b4",
+  "fingerprint": "e0663524ffed020e",
   "rate": "+0%",
   "voice": "en-US-EricNeural"
  },
  "b2/formal-informal": {
   "bytes": 1399248,
-  "fingerprint": "b87fa6b3dd0c5b5e",
+  "fingerprint": "1aee4d28e85ca369",
   "rate": "+0%",
   "voice": "en-US-EricNeural"
  },
@@ -601,13 +601,13 @@
  },
  "b2/great-depression": {
   "bytes": 1132992,
-  "fingerprint": "d90aa815ba441b4a",
+  "fingerprint": "aa1eb9af76ae2008",
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
  },
  "b2/intelligence-pills": {
   "bytes": 1096992,
-  "fingerprint": "2f30e7dbe83639e1",
+  "fingerprint": "130ff9f8cf237048",
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
  },
@@ -625,19 +625,19 @@
  },
  "b2/jackie-robinson": {
   "bytes": 1178496,
-  "fingerprint": "b00cb2a47d23fff0",
+  "fingerprint": "078a49d3b66781ac",
   "rate": "+0%",
   "voice": "en-US-EricNeural"
  },
  "b2/john-snow": {
-  "bytes": 1128528,
-  "fingerprint": "537767a0d432285b",
+  "bytes": 1128096,
+  "fingerprint": "439a0f5decb87a86",
   "rate": "+0%",
   "voice": "en-US-MichelleNeural"
  },
  "b2/north-sentinel-island": {
-  "bytes": 1432944,
-  "fingerprint": "313e70bbe2575b73",
+  "bytes": 1461168,
+  "fingerprint": "52773636c8a5fd97",
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  },
@@ -672,8 +672,8 @@
   "voice": "en-US-EmmaNeural"
  },
  "b2/romania": {
-  "bytes": 1464480,
-  "fingerprint": "e2f355f023ae99ea",
+  "bytes": 1495872,
+  "fingerprint": "76f2cee24d66fe14",
   "rate": "+0%",
   "voice": "en-US-BrianNeural"
  },
@@ -690,26 +690,26 @@
   "voice": "en-US-JennyNeural"
  },
  "b2/the-marathon-and-the-wall": {
-  "bytes": 974160,
-  "fingerprint": "99972cde8a117bd2",
+  "bytes": 1108080,
+  "fingerprint": "977f9c6aa3c4ee4d",
   "rate": "+0%",
   "voice": "en-US-BrianNeural"
  },
  "b2/trail-of-tears": {
-  "bytes": 1213056,
-  "fingerprint": "8aec4bfc91042487",
+  "bytes": 1259424,
+  "fingerprint": "4014ae4dab916868",
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  },
  "c1/america-in-1776": {
-  "bytes": 2620080,
-  "fingerprint": "7477e39702b37844",
+  "bytes": 2619936,
+  "fingerprint": "467d9d9f2813d779",
   "rate": "+0%",
   "voice": "en-US-JennyNeural"
  },
  "c1/apollo-11": {
-  "bytes": 1562112,
-  "fingerprint": "985dc1f734a6b11b",
+  "bytes": 1561968,
+  "fingerprint": "4ccceeae530a7133",
   "rate": "+0%",
   "voice": "en-US-EricNeural"
  },
@@ -720,8 +720,8 @@
   "voice": "en-US-ChristopherNeural"
  },
  "c1/haiti": {
-  "bytes": 1382544,
-  "fingerprint": "5298f059af5c1235",
+  "bytes": 1410192,
+  "fingerprint": "4d1e40b10b517a1a",
   "rate": "+0%",
   "voice": "en-US-BrianNeural"
  },
@@ -733,13 +733,13 @@
  },
  "c1/malcolm-x": {
   "bytes": 1537056,
-  "fingerprint": "a47b0bb95de13435",
+  "fingerprint": "6fc93c0d44cd4acb",
   "rate": "+0%",
   "voice": "en-US-EricNeural"
  },
  "c1/martin-luther-king": {
-  "bytes": 1526976,
-  "fingerprint": "9cc771b3885179ca",
+  "bytes": 1527552,
+  "fingerprint": "6eaf5bf1f972775c",
   "rate": "+0%",
   "voice": "en-US-EricNeural"
  },
@@ -762,20 +762,20 @@
   "voice": "en-US-BrianNeural"
  },
  "c1/rosa-parks": {
-  "bytes": 1545696,
-  "fingerprint": "2f1269e153ad6b2b",
+  "bytes": 1545984,
+  "fingerprint": "c1172b03d1f942a9",
   "rate": "+0%",
   "voice": "en-US-MichelleNeural"
  },
  "c1/rs-japan": {
-  "bytes": 1886688,
-  "fingerprint": "08d2e56c485d5409",
+  "bytes": 1886832,
+  "fingerprint": "81a11bcbc181f62d",
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
  },
  "c1/shadows-in-the-server-room": {
-  "bytes": 3032496,
-  "fingerprint": "e65aa4a5924147e6",
+  "bytes": 3033216,
+  "fingerprint": "8c1d2882fdf3210f",
   "rate": "+0%",
   "voice": "en-US-AriaNeural"
  },
@@ -787,7 +787,7 @@
  },
  "c1/the-cost-of-convenience": {
   "bytes": 1213344,
-  "fingerprint": "66b3aae54bbda6de",
+  "fingerprint": "5f87dceb591c0dc2",
   "rate": "+0%",
   "voice": "en-US-MichelleNeural"
  },
@@ -804,32 +804,32 @@
   "voice": "en-US-MichelleNeural"
  },
  "c1/the-space-race": {
-  "bytes": 1544544,
-  "fingerprint": "921319a4fcf554d8",
+  "bytes": 1577808,
+  "fingerprint": "34a346a34ce422fe",
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  },
  "c1/trials": {
-  "bytes": 1621296,
-  "fingerprint": "bf6b36da1708a209",
+  "bytes": 1653696,
+  "fingerprint": "bff7bc2f17bc8067",
   "rate": "+0%",
   "voice": "en-US-BrianNeural"
  },
  "c1/watergate": {
-  "bytes": 1557648,
-  "fingerprint": "03c2b3723ff61b35",
+  "bytes": 1558800,
+  "fingerprint": "30589f807800ec2c",
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
  },
  "c1/women-win-the-vote": {
-  "bytes": 1596960,
-  "fingerprint": "03bb4059558a988d",
+  "bytes": 1633536,
+  "fingerprint": "aea6d28dc79a5510",
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  },
  "c2/immigration-and-modern-america": {
   "bytes": 1628784,
-  "fingerprint": "92c516d8e7b7f86e",
+  "fingerprint": "e9716bbdc545d05c",
   "rate": "+0%",
   "voice": "en-US-ChristopherNeural"
  },
@@ -846,8 +846,8 @@
   "voice": "en-US-ChristopherNeural"
  },
  "c2/reconstruction-revolution": {
-  "bytes": 1620288,
-  "fingerprint": "abf8405f798e39d5",
+  "bytes": 1648944,
+  "fingerprint": "efeedb61362261d7",
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  },
@@ -858,8 +858,8 @@
   "voice": "en-US-GuyNeural"
  },
  "c2/slavery-and-the-american-economy": {
-  "bytes": 1557936,
-  "fingerprint": "57d5c7425f9706b9",
+  "bytes": 1557648,
+  "fingerprint": "5c98362ba827012b",
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
  },
@@ -871,13 +871,13 @@
  },
  "c2/the-american-dream": {
   "bytes": 1582560,
-  "fingerprint": "294bbf000b759c41",
+  "fingerprint": "f2a2d813ba23b05d",
   "rate": "+0%",
   "voice": "en-US-JennyNeural"
  },
  "c2/the-case-against-plain-english": {
-  "bytes": 1468512,
-  "fingerprint": "d4b4a412b112f73c",
+  "bytes": 1497024,
+  "fingerprint": "e2efe70df6ad2f04",
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  },
@@ -894,8 +894,8 @@
   "voice": "en-US-EmmaNeural"
  },
  "c2/the-west-was-not-empty": {
-  "bytes": 1445040,
-  "fingerprint": "c413e84b4f036162",
+  "bytes": 1444752,
+  "fingerprint": "824ce8271c11d90b",
   "rate": "+0%",
   "voice": "en-US-MichelleNeural"
  },
@@ -906,8 +906,8 @@
   "voice": "en-US-ChristopherNeural"
  },
  "c2/what-makes-an-american-hero": {
-  "bytes": 1480752,
-  "fingerprint": "5a74ce312ec03339",
+  "bytes": 1511568,
+  "fingerprint": "e33109ecf93cc995",
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  }

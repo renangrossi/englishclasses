@@ -26,6 +26,15 @@
     "The doctor looks at my throat. “It's not serious,” she says. “Drink a lot of water, take this medicine, and rest for two days.”",
     "At home I sleep all afternoon. In the evening I feel a little better. Tomorrow, maybe. But not today."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 3,
+      "alt": "A crowded village room where a healer mixes a remedy while a family waits, a child held on a woman's lap",
+      "source": "albert-anker-the-quack-1897.jpeg",
+      "caption": "*The Quack* — Albert Anker, 1897."
+    }
+  ],
   "vocabulary": [
     {
       "term": "to feel",

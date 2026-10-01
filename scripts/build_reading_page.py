@@ -49,6 +49,14 @@ def esc(s):
     return html.escape(str(s), quote=False)
 
 
+def _caption(text):
+    """Escape, then turn *...* into italics. Captions carry a work's title, and
+    a title is set in italics -- but the JSON is written by hand, so it uses
+    asterisks rather than HTML."""
+    out = esc(text)
+    return re.sub(r"\*([^*]+)\*", r"<em>\1</em>", out)
+
+
 def _surface_patterns(term):
     """Regexes for the ways a glossary headword can appear in running text.
 
@@ -330,7 +338,10 @@ def listen_and_read(d, level, slug):
         # Aesop pages all draw on b2/aesop/.
         rel = img["src"] if "/" in img["src"] else f"{level}/{slug}/{img['src']}"
         src = f"{REL}assets/img/reading/{rel}"
-        cap = (f'<figcaption>{esc(img["caption"])}</figcaption>'
+        # A caption names the work: *Title* -- Artist, year. The asterisks are
+        # written in the source JSON the way anyone would type an italic title,
+        # and become <em> here; nothing else in a caption is markup.
+        cap = (f'<figcaption>{_caption(img["caption"])}</figcaption>'
                if img.get("caption") else "")
         figures.setdefault(int(img.get("after", 0)), []).append(
             f'<figure class="reading-figure">'

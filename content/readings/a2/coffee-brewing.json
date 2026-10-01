@@ -28,6 +28,15 @@
     "Finally, take out the filter, throw away the grounds, and pour the coffee into a mug. Drink it while it is hot.",
     "The taste of your coffee depends on the beans, the grind, the water temperature and the time. Change one thing at a time, and you will soon find the cup you like best."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 7,
+      "alt": "Workers in a stone kitchen pausing for a drink, one tipping his head back to finish the glass",
+      "source": "leon-augustin-lhermitte-le-verre-de-vin.jpeg",
+      "caption": "*Le Verre de Vin* — Léon Augustin Lhermitte. The point of any drink made carefully: the moment somebody actually tastes it."
+    }
+  ],
   "vocabulary": [
     {
       "term": "to grind",

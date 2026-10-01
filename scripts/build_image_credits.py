@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+"""
+Regenerate the "From the local art gallery" table in docs/image-credits.md.
+
+Every image imported by scripts/import_local_artwork.py records the gallery file
+it came from as "source" in the text's JSON, so the credits list is derived
+rather than maintained by hand. The hand-written sections of the file (Wikimedia
+Commons, carried over from the source documents, deliberately not used) are left
+alone: only the block between the markers is rewritten.
+
+Usage: python3 scripts/build_image_credits.py
+"""
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import reading_common as rc
+
+DOC = rc.REPO_ROOT / "docs" / "image-credits.md"
+START = "<!-- gallery:start -->"
+END = "<!-- gallery:end -->"
+
+
+def main():
+    rows = []
+    for level, slug, d in rc.all_sources():
+        for img in (d.get("images") or []):
+            if not img.get("source"):
+                continue
+            rows.append((f"`{level}/{slug}`", img["src"], img["source"],
+                         (img.get("caption") or "").split(" — ")[0].strip("*")))
+    body = [START,
+            "",
+            f"{len(rows)} images, imported with `scripts/import_local_artwork.py` from the local",
+            "gallery of painting and print scans. Each one is a work old enough to be free of",
+            "rights; the gallery also holds living and recent artists, and none of that is used.",
+            "",
+            "| Page | File | Work | Gallery source |",
+            "|---|---|---|---|"]
+    for page, src, source, work in sorted(rows):
+        body.append(f"| {page} | `{src}` | {work} | `{source}` |")
+    body += ["", END]
+
+    text = DOC.read_text(encoding="utf-8")
+    block = "\n".join(body)
+    if START in text:
+        head, rest = text.split(START, 1)
+        _, tail = rest.split(END, 1)
+        text = head + block + tail
+    else:
+        text = text.rstrip("\n") + "\n\n## From the local art gallery\n\n" + block + "\n"
+    DOC.write_text(text, encoding="utf-8")
+    print(f"docs/image-credits.md: {len(rows)} gallery images")
+
+
+if __name__ == "__main__":
+    main()

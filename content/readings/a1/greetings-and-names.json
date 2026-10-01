@@ -29,6 +29,15 @@
     "I give him his coffee. “Here you go. It's on me today. Welcome to the building.”",
     "“Thank you,” he says. “See you later, Emma.”"
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A Japanese woodblock print of a fan shop, with customers and shopkeepers talking across the open front of the store",
+      "source": "utagawa-toyokuni-the-fan-shop-ca-1800.jpeg",
+      "caption": "*The Fan Shop* — Utagawa Toyokuni, around 1800."
+    }
+  ],
   "vocabulary": [
     {
       "term": "near",

@@ -24,6 +24,15 @@
     "My brother, Nick, is younger. He is twenty-eight and he is not married. He lives in Denver and works for a small company. We talk on the phone every Sunday.",
     "I live far from all of them. But every December we go to Ohio, and for one week the house is full and loud and very warm."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 3,
+      "alt": "A family gathered around a table in a stone-walled room, with children playing on the floor",
+      "source": "pietro-saltini-le-gioie-di-casa.jpeg",
+      "caption": "*Le gioie di casa* (The Joys of Home) — Pietro Saltini."
+    }
+  ],
   "vocabulary": [
     {
       "term": "parents",

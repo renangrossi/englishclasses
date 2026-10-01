@@ -24,6 +24,22 @@
     "If you leave the city, the islands in the south have clear water and good snorkeling, and the old ruins at Ayutthaya are a short train ride north. In Chiang Mai, further north again, you can take a Thai cooking class in the morning and eat what you made for lunch.",
     "So which was better? Sydney is easier — the language, the transport, the water. Bangkok is harder work and rewards you more, especially if you like food. If you have never traveled far from home before, go to Sydney. If you have, go to Bangkok."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "A long open beach seen from the dunes, with a few small figures at the water's edge",
+      "source": "amaldus-nielsen-people-on-a-beach-1894.jpg",
+      "caption": "*People on a Beach* — Amaldus Nielsen, 1894."
+    },
+    {
+      "src": "02.jpg",
+      "after": 6,
+      "alt": "A Buddhist temple with a painted wooden front and tall prayer flags standing around it",
+      "source": "vasily-vereshchagin-buddhist-temple-in-darjiling-sikkim-1874.jpg",
+      "caption": "*Buddhist Temple in Darjeeling, Sikkim* — Vasily Vereshchagin, 1874."
+    }
+  ],
   "vocabulary": [
     {
       "term": "a harbor",

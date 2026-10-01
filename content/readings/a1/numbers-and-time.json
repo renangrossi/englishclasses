@@ -25,6 +25,15 @@
     "I have lunch at half past twelve, but only for thirty minutes. I finish at two in the afternoon and I am home at three.",
     "Jack finishes at six. We have dinner together at seven, and I go to bed at ten. Tomorrow I get up at five again."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "A city square at night under a bright moon, almost empty, with lamps burning along the waterfront",
+      "source": "ippolito-caffi-piazza-san-marco-in-venice-by-moonlight.jpg",
+      "caption": "*Piazza San Marco in Venice by Moonlight* — Ippolito Caffi. A city before it wakes up."
+    }
+  ],
   "vocabulary": [
     {
       "term": "early",

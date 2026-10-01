@@ -25,6 +25,22 @@
     "Before we leave, we get a cup of coffee. It is nice to sit down after walking around for two hours. We talk about our week, our plans, and what we are going to cook with everything we bought.",
     "Going to the market is more than shopping. It is about enjoying the morning, seeing friends and trying something new. It is one of my favorite parts of the week."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A canal-side market under tall trees, with stalls, shoppers and the city behind",
+      "source": "gerrit-berckheyde-the-nieuwezijds-voorburgswal-with-the-flower-market-amsterdam-1686.jpg",
+      "caption": "*The Nieuwezijds Voorburgwal with the Flower Market, Amsterdam* — Gerrit Berckheyde, 1686."
+    },
+    {
+      "src": "02.jpg",
+      "after": 3,
+      "alt": "Customers at a butcher's stall choosing from the meat hanging above the counter",
+      "source": "eduard-von-grutzner-a-good-roast-1889.jpeg",
+      "caption": "*A Good Roast* — Eduard von Grützner, 1889."
+    }
+  ],
   "vocabulary": [
     {
       "term": "a stand / a stall",

@@ -28,6 +28,15 @@
     "“I know. The train.”",
     "She laughs. “It's always the train.”"
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 4,
+      "alt": "A steamer on a still grey fjord seen from the shore, with mountains rising on both sides",
+      "source": "anders-askevold-steamboat-pier-in-naeroyfjorden-1894.jpg",
+      "caption": "*Steamboat Pier in Nærøyfjorden* — Anders Askevold, 1894."
+    }
+  ],
   "vocabulary": [
     {
       "term": "downtown",

@@ -343,8 +343,12 @@ def listen_and_read(d, level, slug):
         # and become <em> here; nothing else in a caption is markup.
         cap = (f'<figcaption>{_caption(img["caption"])}</figcaption>'
                if img.get("caption") else "")
+        # Most illustrations are an aside and sit at about half the measure.
+        # Some are the subject: a student comparing one flag with the next has
+        # to see the stars. Those are marked "wide" in the source JSON.
+        cls = "reading-figure reading-figure--wide" if img.get("wide") else "reading-figure"
         figures.setdefault(int(img.get("after", 0)), []).append(
-            f'<figure class="reading-figure">'
+            f'<figure class="{cls}">'
             f'<img src="{src}" alt="{html.escape(img.get("alt", ""), quote=True)}" loading="lazy">'
             f'{cap}</figure>')
     blocks = []

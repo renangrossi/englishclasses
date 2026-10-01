@@ -1,0 +1,299 @@
+{
+  "id": "a1-reading-the-american-flag",
+  "level": "A1",
+  "slug": "the-american-flag",
+  "order": 103,
+  "topic": "history",
+  "title": "The American Flag",
+  "subtitle": "Thirteen stripes, fifty stars, and one teenager who changed the design.",
+  "description": "An A1 reading and listening text on the flag of the United States: what the stripes and stars mean, how the flag changed, and the student who designed the one we see today.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "The American flag has three colours: red, white and blue.",
+    "It has thirteen stripes. Seven are red and six are white. The thirteen stripes are the first thirteen states.",
+    "In the corner there are fifty small white stars on blue. One star is one state. There are fifty states in the United States today.",
+    "The flag is not old in this form. The first flag with thirteen stars is from 1777. Then the country got bigger, and the flag changed many times.",
+    "When a new state arrived, the country put a new star on the flag. The stripes stayed at thirteen.",
+    "Alaska became a state in 1959. Hawaii became a state in 1959 too. So in 1960 the country needed a new flag with fifty stars.",
+    "A student from Ohio, Robert Heft, made a fifty-star design for a school project in 1958. His teacher gave him a B.",
+    "Then the government chose his design. The teacher changed the mark to an A.",
+    "Americans see this flag every day: in schools, in front of houses, at sports games. There is also a flag on the moon, from 1969.",
+    "People call the flag “the Stars and Stripes”. Now you know why."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 3,
+      "alt": "An early United States flag: thirteen red and white stripes with thirteen white stars in rows on a blue square",
+      "source": "commons:File:Flag of the United States (1777-1795).svg",
+      "caption": "The flag of 1777: thirteen stripes and thirteen stars, one for each of the first states.",
+      "wide": true
+    },
+    {
+      "src": "02.jpg",
+      "after": 8,
+      "alt": "The flag of the United States today: thirteen red and white stripes with fifty white stars on a blue square",
+      "source": "commons:File:Flag of the United States.svg",
+      "caption": "The flag today. Same thirteen stripes, fifty stars.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a flag",
+      "definition": "a piece of cloth with colours or a design, for a country or a group"
+    },
+    {
+      "term": "a stripe",
+      "definition": "a long line of colour"
+    },
+    {
+      "term": "a star",
+      "definition": "a shape with points, like a light in the night sky"
+    },
+    {
+      "term": "a corner",
+      "definition": "the place where two sides meet"
+    },
+    {
+      "term": "a design",
+      "definition": "the plan or the shape of something"
+    },
+    {
+      "term": "a state",
+      "definition": "one of the fifty parts of the United States"
+    },
+    {
+      "term": "to change",
+      "definition": "to become different, or to make something different"
+    },
+    {
+      "term": "a mark",
+      "definition": "a letter or a number for your work at school, like A or B"
+    },
+    {
+      "term": "the government",
+      "definition": "the group of people who run a country"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-af-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "af-c1",
+          "prompt": "How many stripes does the flag have?",
+          "options": [
+            "Thirteen",
+            "Fifty",
+            "Seven"
+          ],
+          "answerIndex": 0,
+          "explanation": "Thirteen: seven red and six white."
+        },
+        {
+          "id": "af-c2",
+          "prompt": "What do the fifty stars mean?",
+          "options": [
+            "Fifty years",
+            "Fifty states",
+            "Fifty cities"
+          ],
+          "answerIndex": 1,
+          "explanation": "One star is one state, and there are fifty states."
+        },
+        {
+          "id": "af-c3",
+          "prompt": "What do the thirteen stripes mean?",
+          "options": [
+            "The first thirteen states",
+            "Thirteen presidents",
+            "Thirteen colours"
+          ],
+          "answerIndex": 0,
+          "explanation": "The first thirteen states — the old colonies."
+        },
+        {
+          "id": "af-c4",
+          "prompt": "What happened when a new state arrived?",
+          "options": [
+            "The country put a new star on the flag",
+            "The country put a new stripe on the flag",
+            "Nothing changed"
+          ],
+          "answerIndex": 0,
+          "explanation": "A new star. The stripes stayed at thirteen."
+        },
+        {
+          "id": "af-c5",
+          "prompt": "Who made the fifty-star design?",
+          "options": [
+            "A president",
+            "A student from Ohio",
+            "An artist from France"
+          ],
+          "answerIndex": 1,
+          "explanation": "Robert Heft, a student, for a school project in 1958."
+        },
+        {
+          "id": "af-c6",
+          "prompt": "What mark did his teacher give him at first?",
+          "options": [
+            "An A",
+            "A B",
+            "No mark"
+          ],
+          "answerIndex": 1,
+          "explanation": "A B. The teacher changed it to an A after the government chose the design."
+        }
+      ]
+    },
+    {
+      "id": "a1-af-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "af-t1",
+          "statement": "The flag has four colours.",
+          "answer": false,
+          "explanation": "False — it has three: red, white and blue."
+        },
+        {
+          "id": "af-t2",
+          "statement": "The flag changed many times.",
+          "answer": true,
+          "explanation": "True — the country got bigger, and the flag changed many times."
+        },
+        {
+          "id": "af-t3",
+          "statement": "The first flag with thirteen stars is from 1777.",
+          "answer": true,
+          "explanation": "True — that is the date in the text."
+        },
+        {
+          "id": "af-t4",
+          "statement": "There are fifty stripes on the flag.",
+          "answer": false,
+          "explanation": "False — there are fifty stars and thirteen stripes."
+        },
+        {
+          "id": "af-t5",
+          "statement": "There is an American flag on the moon.",
+          "answer": true,
+          "explanation": "True — from 1969."
+        }
+      ]
+    },
+    {
+      "id": "a1-af-vocab",
+      "type": "vocabulary",
+      "title": "Words from the Text",
+      "instructions": "Choose the word that matches the meaning.",
+      "items": [
+        {
+          "id": "af-v1",
+          "prompt": "A long line of colour is a ___.",
+          "options": [
+            "stripe",
+            "star",
+            "state"
+          ],
+          "answerIndex": 0,
+          "explanation": "A stripe. The flag has thirteen."
+        },
+        {
+          "id": "af-v2",
+          "prompt": "The place where two sides meet is the ___.",
+          "options": [
+            "corner",
+            "middle",
+            "centre"
+          ],
+          "answerIndex": 0,
+          "explanation": "The corner. The stars are in the corner."
+        },
+        {
+          "id": "af-v3",
+          "prompt": "The plan or shape of something is the ___.",
+          "options": [
+            "design",
+            "price",
+            "number"
+          ],
+          "answerIndex": 0,
+          "explanation": "The design. Robert Heft made the fifty-star design."
+        },
+        {
+          "id": "af-v4",
+          "prompt": "The group of people who run a country is the ___.",
+          "options": [
+            "government",
+            "family",
+            "team"
+          ],
+          "answerIndex": 0,
+          "explanation": "The government."
+        },
+        {
+          "id": "af-v5",
+          "prompt": "A letter for your work at school, like A or B, is a ___.",
+          "options": [
+            "mark",
+            "map",
+            "match"
+          ],
+          "answerIndex": 0,
+          "explanation": "A mark. His first mark was a B."
+        }
+      ]
+    },
+    {
+      "id": "a1-af-numbers",
+      "type": "matching",
+      "title": "Match the Number",
+      "instructions": "Match each number with the correct thing.",
+      "items": [
+        {
+          "id": "af-m1",
+          "pairs": [
+            {
+              "left": "13",
+              "right": "stripes on the flag"
+            },
+            {
+              "left": "50",
+              "right": "stars on the flag"
+            },
+            {
+              "left": "7",
+              "right": "red stripes"
+            },
+            {
+              "left": "6",
+              "right": "white stripes"
+            },
+            {
+              "left": "3",
+              "right": "colours on the flag"
+            }
+          ],
+          "explanation": "All five numbers are in the first three paragraphs. Numbers are often the easiest information to find in a text."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "What are the colours of your country's flag?",
+    "Is there a star, an animal or a plant on your flag? What does it mean?",
+    "Where do you see your country's flag? At school? At sports games?"
+  ],
+  "audio": {
+    "duration_label": "1:44"
+  }
+}

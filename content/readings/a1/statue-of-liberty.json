@@ -1,0 +1,264 @@
+{
+  "id": "a1-reading-statue-of-liberty",
+  "level": "A1",
+  "slug": "statue-of-liberty",
+  "order": 102,
+  "topic": "history",
+  "title": "The Statue of Liberty",
+  "subtitle": "A present from France, a long trip in 214 boxes, and the first thing new Americans saw.",
+  "description": "An A1 reading and listening text on the Statue of Liberty: where it came from, how it arrived, and what it meant to people on the ships.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "passage": [
+    "In New York, a green woman stands in the water. She is forty-six metres tall. In her right hand she has a light.",
+    "The statue is a present. It is a present from France to the United States.",
+    "A French artist, Frédéric Auguste Bartholdi, made it. People in France paid for the statue. People in the United States paid for the big stone under it.",
+    "In 1885 the statue came to New York in a ship, in 214 big boxes. Workers built it on a small island. It opened in October 1886.",
+    "The statue is green now, but it was brown at first. It is made of copper, and copper changes colour in the rain and the wind. This takes about thirty years.",
+    "After 1892, ships with new people from Europe arrived next to the island. The statue was the first big thing they saw in America.",
+    "Many of these people were poor. They were tired after two or three weeks on the sea. Some of them cried.",
+    "There are words on the statue, from a poem by Emma Lazarus: “Give me your tired, your poor...”",
+    "Today you can take a boat to the island. You can go inside the statue and look at New York from her head.",
+    "More than four million people visit her every year. She is not only a statue now. For many people, she is a word: welcome."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 3,
+      "alt": "The Statue of Liberty on its island on opening day, surrounded by ships and small boats under a grey sky",
+      "source": "commons:File:EdwardMoran-UnveilingTheStatueofLiberty1886Large.jpg",
+      "caption": "*Unveiling the Statue of Liberty* — Edward Moran, 1886."
+    },
+    {
+      "src": "02.jpg",
+      "after": 6,
+      "alt": "A crowd of newly arrived immigrants with bags and bundles waiting outside the buildings at Ellis Island",
+      "source": "commons:File:Ellis island 1902.jpg",
+      "caption": "Ellis Island, 1902. The island where ships from Europe stopped, a few hundred metres from the statue."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a statue",
+      "definition": "a figure of a person made of stone or metal"
+    },
+    {
+      "term": "a present",
+      "definition": "something you give to somebody"
+    },
+    {
+      "term": "copper",
+      "definition": "a brown metal that turns green in the air and the rain"
+    },
+    {
+      "term": "an island",
+      "definition": "land with water all around it"
+    },
+    {
+      "term": "to build",
+      "definition": "to make something big, like a house (past: built)"
+    },
+    {
+      "term": "a poem",
+      "definition": "a short piece of writing with special rhythm"
+    },
+    {
+      "term": "to arrive",
+      "definition": "to come to a place"
+    },
+    {
+      "term": "to visit",
+      "definition": "to go and see a place or a person"
+    },
+    {
+      "term": "welcome",
+      "definition": "a happy word for a person who arrives"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-sl-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "sl-c1",
+          "prompt": "Who gave the statue to the United States?",
+          "options": [
+            "France",
+            "Britain",
+            "Italy"
+          ],
+          "answerIndex": 0,
+          "explanation": "It was a present from France."
+        },
+        {
+          "id": "sl-c2",
+          "prompt": "How did the statue travel to New York?",
+          "options": [
+            "In a plane",
+            "In a ship, in 214 boxes",
+            "People walked with it"
+          ],
+          "answerIndex": 1,
+          "explanation": "In a ship, in 214 big boxes, in 1885."
+        },
+        {
+          "id": "sl-c3",
+          "prompt": "Why is the statue green?",
+          "options": [
+            "Somebody painted it green",
+            "The copper changed colour",
+            "It is made of grass"
+          ],
+          "answerIndex": 1,
+          "explanation": "It is copper, and copper turns green in the rain and the wind."
+        },
+        {
+          "id": "sl-c4",
+          "prompt": "What was the statue for people on the ships?",
+          "options": [
+            "The first big thing they saw in America",
+            "A hotel",
+            "A school"
+          ],
+          "answerIndex": 0,
+          "explanation": "After 1892 the ships arrived next to the island, and the statue was the first big thing they saw."
+        },
+        {
+          "id": "sl-c5",
+          "prompt": "Where are the words “Give me your tired, your poor” from?",
+          "options": [
+            "A song",
+            "A poem by Emma Lazarus",
+            "A letter from France"
+          ],
+          "answerIndex": 1,
+          "explanation": "From a poem by Emma Lazarus."
+        },
+        {
+          "id": "sl-c6",
+          "prompt": "How many people visit the statue every year?",
+          "options": [
+            "More than four thousand",
+            "More than four hundred",
+            "More than four million"
+          ],
+          "answerIndex": 2,
+          "explanation": "More than four million people a year."
+        }
+      ]
+    },
+    {
+      "id": "a1-sl-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "sl-t1",
+          "statement": "The statue was green at the beginning.",
+          "answer": false,
+          "explanation": "False — it was brown. The copper changed colour over about thirty years."
+        },
+        {
+          "id": "sl-t2",
+          "statement": "The statue opened in 1886.",
+          "answer": true,
+          "explanation": "True — in October 1886."
+        },
+        {
+          "id": "sl-t3",
+          "statement": "The statue is on an island.",
+          "answer": true,
+          "explanation": "True — workers built it on a small island in the water."
+        },
+        {
+          "id": "sl-t4",
+          "statement": "People in the United States paid for everything.",
+          "answer": false,
+          "explanation": "False — people in France paid for the statue; people in the United States paid for the stone under it."
+        },
+        {
+          "id": "sl-t5",
+          "statement": "You can go inside the statue today.",
+          "answer": true,
+          "explanation": "True — you can go inside and look at New York from her head."
+        }
+      ]
+    },
+    {
+      "id": "a1-sl-vocab",
+      "type": "vocabulary",
+      "title": "Words from the Text",
+      "instructions": "Choose the word that matches the meaning.",
+      "items": [
+        {
+          "id": "sl-v1",
+          "prompt": "Land with water all around it is an ___.",
+          "options": [
+            "island",
+            "ocean",
+            "avenue"
+          ],
+          "answerIndex": 0,
+          "explanation": "An island."
+        },
+        {
+          "id": "sl-v2",
+          "prompt": "Something you give to a person is a ___.",
+          "options": [
+            "present",
+            "ticket",
+            "problem"
+          ],
+          "answerIndex": 0,
+          "explanation": "A present. The statue was a present from France."
+        },
+        {
+          "id": "sl-v3",
+          "prompt": "A brown metal that turns green is ___.",
+          "options": [
+            "copper",
+            "glass",
+            "wood"
+          ],
+          "answerIndex": 0,
+          "explanation": "Copper."
+        },
+        {
+          "id": "sl-v4",
+          "prompt": "To come to a place is to ___.",
+          "options": [
+            "arrive",
+            "leave",
+            "wait"
+          ],
+          "answerIndex": 0,
+          "explanation": "To arrive. The ships arrived next to the island."
+        },
+        {
+          "id": "sl-v5",
+          "prompt": "A short piece of writing with special rhythm is a ___.",
+          "options": [
+            "poem",
+            "price",
+            "map"
+          ],
+          "answerIndex": 0,
+          "explanation": "A poem."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "What is the most famous statue or building in your city?",
+    "The statue says “welcome” to people who arrive. How do people in your country welcome visitors?",
+    "Do you want to visit New York? What do you want to see there?"
+  ],
+  "audio": {
+    "duration_label": "1:46"
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "id": "a1-reading-abraham-lincoln",
+  "level": "A1",
+  "slug": "abraham-lincoln",
+  "order": 101,
+  "topic": "history",
+  "title": "Abraham Lincoln",
+  "subtitle": "A poor boy from a small wooden house, and the president who ended slavery.",
+  "description": "An A1 reading and listening text on Abraham Lincoln: his childhood, his books, the Civil War and the end of slavery in the United States.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "passage": [
+    "Abraham Lincoln was born in 1809 in a small wooden house in Kentucky. The house had one room. The family was poor.",
+    "Lincoln went to school for less than one year. But he loved books. He read in the evening, next to the fire, after a long day of work.",
+    "He was very tall — one metre ninety-three. People remembered him for that, and for his quiet voice.",
+    "Lincoln worked as a lawyer. Then he went into politics, and in 1860 Americans chose him as president.",
+    "At that time, some states in the south had slavery. Black people there were not free. They worked for no money, and they were bought and sold.",
+    "Eleven southern states did not want Lincoln as president. They left the country, and a terrible war started. We call it the Civil War. It was Americans against Americans.",
+    "In 1863, in the middle of the war, Lincoln said that enslaved people in the southern states were free.",
+    "The war finished in April 1865. The United States was one country again. Later that year, a new law ended slavery everywhere in the country.",
+    "Five days later, a man shot Lincoln in a theater in Washington. The president died the next morning.",
+    "Today you can see Lincoln on the five-dollar bill, and in a big white building in Washington, D.C., where he sits in a chair and looks at the city."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "A photograph of Abraham Lincoln seated, a tall thin man with a beard and a tired face",
+      "source": "commons:File:Abraham Lincoln O-80 by Gardner, 1863.jpg",
+      "caption": "Abraham Lincoln, photographed by Alexander Gardner, 1863."
+    },
+    {
+      "src": "02.jpg",
+      "after": 5,
+      "alt": "A coloured print of the Battle of Gettysburg, with lines of soldiers, smoke and horses across an open field",
+      "source": "commons:File:Battle of Gettysburg, by Currier and Ives.png",
+      "caption": "*The Battle of Gettysburg* — Currier and Ives. The battle in July 1863 that turned the war."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "poor",
+      "definition": "with very little money"
+    },
+    {
+      "term": "a lawyer",
+      "definition": "a person whose job is the law"
+    },
+    {
+      "term": "politics",
+      "definition": "the work of government"
+    },
+    {
+      "term": "a state",
+      "definition": "one of the fifty parts of the United States"
+    },
+    {
+      "term": "slavery",
+      "definition": "a system where some people are owned by other people and work for no money"
+    },
+    {
+      "term": "the south",
+      "definition": "the southern part of the country"
+    },
+    {
+      "term": "a civil war",
+      "definition": "a war between two groups inside one country"
+    },
+    {
+      "term": "to shoot",
+      "definition": "to fire a gun at somebody (past: shot)"
+    },
+    {
+      "term": "a bill",
+      "definition": "a piece of paper money"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-al-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "al-c1",
+          "prompt": "What was Lincoln's first house like?",
+          "options": [
+            "Big and new",
+            "Small, with one room",
+            "In a big city"
+          ],
+          "answerIndex": 1,
+          "explanation": "A small wooden house in Kentucky with one room. The family was poor."
+        },
+        {
+          "id": "al-c2",
+          "prompt": "How long did Lincoln go to school?",
+          "options": [
+            "Less than one year",
+            "Ten years",
+            "He never worked, only studied"
+          ],
+          "answerIndex": 0,
+          "explanation": "Less than one year — but he read a lot at home."
+        },
+        {
+          "id": "al-c3",
+          "prompt": "When did Americans choose Lincoln as president?",
+          "options": [
+            "In 1809",
+            "In 1860",
+            "In 1865"
+          ],
+          "answerIndex": 1,
+          "explanation": "They chose him in 1860. 1809 is the year he was born."
+        },
+        {
+          "id": "al-c4",
+          "prompt": "Why did eleven southern states leave the country?",
+          "options": [
+            "They did not want Lincoln as president",
+            "They wanted a bigger army",
+            "They wanted a new capital"
+          ],
+          "answerIndex": 0,
+          "explanation": "They did not want Lincoln as president, and they wanted to keep slavery."
+        },
+        {
+          "id": "al-c5",
+          "prompt": "What is a civil war?",
+          "options": [
+            "A war between two countries",
+            "A war inside one country",
+            "A war with no soldiers"
+          ],
+          "answerIndex": 1,
+          "explanation": "A war between two groups inside one country. The text says: Americans against Americans."
+        },
+        {
+          "id": "al-c6",
+          "prompt": "What happened five days after the war finished?",
+          "options": [
+            "Lincoln went home",
+            "A man shot Lincoln",
+            "Lincoln became president again"
+          ],
+          "answerIndex": 1,
+          "explanation": "A man shot him in a theater in Washington, and he died the next morning."
+        }
+      ]
+    },
+    {
+      "id": "a1-al-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "al-t1",
+          "statement": "Lincoln's family was rich.",
+          "answer": false,
+          "explanation": "False — the text says the family was poor."
+        },
+        {
+          "id": "al-t2",
+          "statement": "Lincoln liked books.",
+          "answer": true,
+          "explanation": "True — he read in the evening, next to the fire."
+        },
+        {
+          "id": "al-t3",
+          "statement": "Lincoln was a short man.",
+          "answer": false,
+          "explanation": "False — he was very tall: one metre ninety-three."
+        },
+        {
+          "id": "al-t4",
+          "statement": "The Civil War finished in 1865.",
+          "answer": true,
+          "explanation": "True — it finished in April 1865."
+        },
+        {
+          "id": "al-t5",
+          "statement": "Slavery continued after the war.",
+          "answer": false,
+          "explanation": "False — the country was one again, and later that year a new law ended slavery everywhere."
+        }
+      ]
+    },
+    {
+      "id": "a1-al-vocab",
+      "type": "vocabulary",
+      "title": "Words from the Text",
+      "instructions": "Choose the word that matches the meaning.",
+      "items": [
+        {
+          "id": "al-v1",
+          "prompt": "A person whose job is the law is a ___.",
+          "options": [
+            "lawyer",
+            "teacher",
+            "soldier"
+          ],
+          "answerIndex": 0,
+          "explanation": "A lawyer. Lincoln worked as a lawyer before politics."
+        },
+        {
+          "id": "al-v2",
+          "prompt": "A war between two groups inside one country is a ___ war.",
+          "options": [
+            "civil",
+            "cold",
+            "world"
+          ],
+          "answerIndex": 0,
+          "explanation": "A civil war."
+        },
+        {
+          "id": "al-v3",
+          "prompt": "Kentucky, Virginia and Texas are American ___.",
+          "options": [
+            "states",
+            "cities",
+            "countries"
+          ],
+          "answerIndex": 0,
+          "explanation": "States. There are fifty of them."
+        },
+        {
+          "id": "al-v4",
+          "prompt": "A person with very little money is ___.",
+          "options": [
+            "poor",
+            "tall",
+            "quiet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Poor."
+        },
+        {
+          "id": "al-v5",
+          "prompt": "Five dollars on paper is a five-dollar ___.",
+          "options": [
+            "bill",
+            "card",
+            "coin"
+          ],
+          "answerIndex": 0,
+          "explanation": "A bill. In American English, paper money is a bill."
+        }
+      ]
+    },
+    {
+      "id": "a1-al-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete each sentence with the correct word.",
+      "items": [
+        {
+          "id": "al-b1",
+          "prompt": "Lincoln was born in ___ in a small wooden house.",
+          "answers": [
+            "1809"
+          ],
+          "options": [
+            "1809",
+            "1860",
+            "1865"
+          ],
+          "explanation": "1809. He became president in 1860 and died in 1865."
+        },
+        {
+          "id": "al-b2",
+          "prompt": "He read books next to the ___ after work.",
+          "answers": [
+            "fire"
+          ],
+          "options": [
+            "fire",
+            "river",
+            "school"
+          ],
+          "explanation": "Next to the fire — the house had no electric light."
+        },
+        {
+          "id": "al-b3",
+          "prompt": "Eleven ___ states left the country.",
+          "answers": [
+            "southern"
+          ],
+          "options": [
+            "southern",
+            "northern",
+            "western"
+          ],
+          "explanation": "Southern states, where slavery was legal."
+        },
+        {
+          "id": "al-b4",
+          "prompt": "In 1863 Lincoln said that enslaved people in the south were ___.",
+          "answers": [
+            "free"
+          ],
+          "options": [
+            "free",
+            "poor",
+            "tall"
+          ],
+          "explanation": "Free."
+        },
+        {
+          "id": "al-b5",
+          "prompt": "A man shot Lincoln in a ___ in Washington.",
+          "answers": [
+            "theater"
+          ],
+          "options": [
+            "theater",
+            "hospital",
+            "station"
+          ],
+          "explanation": "In a theater, five days after the war finished."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Lincoln read books after work every evening. When do you read or study?",
+    "Why do you think Lincoln is on American money?",
+    "Is there a person from your country's history that everybody knows? What did this person do?"
+  ],
+  "audio": {
+    "duration_label": "1:46"
+  }
+}

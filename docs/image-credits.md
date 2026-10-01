@@ -55,13 +55,14 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-144 images, imported with `scripts/import_local_artwork.py` from the local
+145 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
 | Page | File | Work | Gallery source |
 |---|---|---|---|
 | `a1/at-the-store` | `01.jpg` | Venetian Fruit Sellers | `stefano-novo-venetian-fruit-sellers-1898.jpeg` |
+| `a1/george-washington` | `01.jpg` | Washington Crossing the Delaware | `emanuel-leutze-washington-crossing-the-delaware.jpg` |
 | `a1/going-to-the-airport` | `01.jpg` | London Bridge, Half Tide | `john-atkinson-grimshaw-london-bridge-half-tide.jpeg` |
 | `a1/greetings-and-names` | `01.jpg` | The Fan Shop | `utagawa-toyokuni-the-fan-shop-ca-1800.jpeg` |
 | `a1/i-dont-feel-good` | `01.jpg` | The Quack | `albert-anker-the-quack-1897.jpeg` |
@@ -205,5 +206,21 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `c2/the-same-news-four-ways` | `01.jpg` | A Girl Reading a Newspaper | `wada-eisaku-a-girl-reading-newspaper-1897.jpeg` |
 | `c2/the-second-language-self` | `01.jpg` | Flight and Pursuit | `william-rimmer-1816-1879-flight-and-pursuit.jpg` |
 | `c2/what-doesnt-translate` | `01.jpg` | The Song of Phemius and the Sorrow of Penelope | `thomas-ralph-spence-the-song-of-phemius-and-the-sorrow-of-penelope-1897.jpg` |
+
+### From Wikimedia Commons (public domain)
+
+7 images the gallery could not answer -- flags, maps, photographs and
+portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
+reads the Commons licence metadata and refuses anything that is not public domain.
+
+| Page | File | Work | Commons file |
+|---|---|---|---|
+| `a1/abraham-lincoln` | `01.jpg` | Abraham Lincoln, photographed by Alexander Gardner, 1863. | `File:Abraham Lincoln O-80 by Gardner, 1863.jpg` |
+| `a1/abraham-lincoln` | `02.jpg` | The Battle of Gettysburg | `File:Battle of Gettysburg, by Currier and Ives.png` |
+| `a1/george-washington` | `02.jpg` | George Washington* (the Athenaeum portrait) | `File:Gilbert Stuart - George Washington (The Athenaeum Portrait) - Google Art Project.jpg` |
+| `a1/statue-of-liberty` | `01.jpg` | Unveiling the Statue of Liberty | `File:EdwardMoran-UnveilingTheStatueofLiberty1886Large.jpg` |
+| `a1/statue-of-liberty` | `02.jpg` | Ellis Island, 1902. The island where ships from Europe stopped, a few hundred metres from the statue. | `File:Ellis island 1902.jpg` |
+| `a1/the-american-flag` | `01.jpg` | The flag of 1777: thirteen stripes and thirteen stars, one for each of the first states. | `File:Flag of the United States (1777-1795).svg` |
+| `a1/the-american-flag` | `02.jpg` | The flag today. Same thirteen stripes, fifty stars. | `File:Flag of the United States.svg` |
 
 <!-- gallery:end -->

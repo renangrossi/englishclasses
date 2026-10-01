@@ -1,9 +1,21 @@
 {
+ "a1/abraham-lincoln": {
+  "bytes": 641376,
+  "fingerprint": "0996ba1c24ef069f",
+  "rate": "-15%",
+  "voice": "en-US-GuyNeural"
+ },
  "a1/at-the-store": {
   "bytes": 361296,
   "fingerprint": "275b6f312ef9b2d4",
   "rate": "-15%",
   "voice": "en-US-JennyNeural"
+ },
+ "a1/george-washington": {
+  "bytes": 657360,
+  "fingerprint": "258635b96ace3581",
+  "rate": "-15%",
+  "voice": "en-US-GuyNeural"
  },
  "a1/going-to-the-airport": {
   "bytes": 410544,
@@ -83,11 +95,23 @@
   "rate": "-15%",
   "voice": "en-US-JennyNeural"
  },
+ "a1/statue-of-liberty": {
+  "bytes": 638784,
+  "fingerprint": "f1fa4f2109e1fac9",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
  "a1/taking-the-train": {
   "bytes": 365760,
   "fingerprint": "92526dd160fce14a",
   "rate": "-15%",
   "voice": "en-US-JennyNeural"
+ },
+ "a1/the-american-flag": {
+  "bytes": 625968,
+  "fingerprint": "8a57a2af65958c94",
+  "rate": "-15%",
+  "voice": "en-US-ChristopherNeural"
  },
  "a2/a-weekend-at-the-lake": {
   "bytes": 670752,

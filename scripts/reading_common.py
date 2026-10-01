@@ -36,6 +36,7 @@ TOPIC_LABELS = {
     "travel": "Travel", "everyday": "Everyday Life", "food": "Food & Dining",
     "sports": "Sports", "culture": "American Culture", "tech": "Technology",
     "society": "Society", "literature": "Stories & Literature", "review": "Review",
+    "history": "American History",
 }
 
 # Each source JSON still records "provenance" (as-published / edited /

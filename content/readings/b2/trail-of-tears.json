@@ -1,0 +1,343 @@
+{
+  "id": "b2-reading-trail-of-tears",
+  "level": "B2",
+  "slug": "trail-of-tears",
+  "order": 100,
+  "topic": "history",
+  "title": "The Trail of Tears",
+  "subtitle": "The Cherokee took their case to the Supreme Court and won. It made no difference.",
+  "description": "A B2 reading and listening text on Indian Removal and the Trail of Tears: the Removal Act of 1830, the Cherokee legal case, the forced march of 1838 and the arguments that justified it.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "In the winter of 1838, soldiers moved roughly sixteen thousand Cherokee people out of Georgia, Tennessee, Alabama and North Carolina and marched them about twelve hundred miles west. Somewhere between four and eight thousand of them died on the way, mostly of disease, exposure and hunger. The Cherokee name for it translates as “the trail where they cried”.",
+    "What makes the episode difficult to explain away is that it was not the work of a frontier mob. It was federal policy, passed by Congress, signed by a president, and carried out by the United States Army after the Supreme Court had decided against it.",
+    "The background was land, and specifically cotton. The invention of the cotton gin in the 1790s made short-staple cotton enormously profitable, and the best land for it was in the southeast — land held by the Cherokee, Muscogee, Choctaw, Chickasaw and Seminole nations. The discovery of gold in Cherokee territory in Georgia in 1829 removed any remaining patience.",
+    "The Cherokee had done, deliberately and successfully, everything that white Americans claimed to want. They had farms, roads, mills and schools. Sequoyah had created a writing system for the Cherokee language in the 1820s, and literacy spread so fast that the nation founded a bilingual newspaper. In 1827 they wrote a constitution modelled on the American one.",
+    "None of it helped, and some historians argue it made matters worse: a people who could not be described as wandering hunters was harder to dismiss, and therefore more inconvenient.",
+    "The Indian Removal Act passed Congress in 1830 by a narrow margin after a bitter debate — it is worth remembering that it was contested, and that many Americans opposed it. It authorised the president to negotiate the exchange of eastern land for territory west of the Mississippi.",
+    "The Cherokee response was to sue. In *Worcester v. Georgia* in 1832, Chief Justice John Marshall ruled that the Cherokee Nation was a distinct community in which the laws of Georgia had no force, and that dealings with it were the business of the federal government alone.",
+    "The decision was ignored. President Andrew Jackson is popularly quoted as saying “John Marshall has made his decision; now let him enforce it”, and although the quotation is almost certainly not authentic, it describes what happened accurately enough: nothing was enforced.",
+    "Removal was then achieved through a document called the Treaty of New Echota, signed in 1835 by a small faction of about twenty Cherokee men who had no authority to sign anything on the nation's behalf. More than fifteen thousand Cherokee signed a petition against it. The Senate ratified the treaty anyway, by one vote.",
+    "When the deadline passed in 1838, the army built stockades, collected families from their homes at short notice, and moved them west in detachments. People left with what they could carry, and property behind them was looted while they were still within sight of it.",
+    "The Cherokee were not the only nation removed — the Choctaw, Muscogee, Chickasaw and Seminole were all forced west, and the Seminole fought a long and costly war in Florida rather than go — but the Cherokee case is the one most often studied, because the legal record is so complete.",
+    "That record is the uncomfortable part. This was not a failure of law. The law worked: a case was brought, argued and won. What was missing was any mechanism, or any political will, to make the result mean anything."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 3,
+      "alt": "A painted portrait of Sequoyah holding up a tablet showing the characters of the Cherokee syllabary",
+      "source": "commons:File:Henry Inman - Sequoyah - Google Art Project.jpg",
+      "caption": "Sequoyah with his syllabary — Henry Inman, after a lost original. One man invented a writing system, and a nation became literate in it within a few years."
+    },
+    {
+      "src": "02.jpg",
+      "after": 9,
+      "alt": "An 1804 engraved map of the territory west of the Mississippi, much of it blank",
+      "source": "commons:File:Map of \"Louisiana\" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg",
+      "caption": "West of the Mississippi, as mapped in 1804. This is where removal sent sixteen thousand people, on foot, in winter.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "removal",
+      "definition": "the official policy of forcing a people to leave their land"
+    },
+    {
+      "term": "exposure",
+      "definition": "the harmful effect of being outside in extreme weather without shelter"
+    },
+    {
+      "term": "a cotton gin",
+      "definition": "a machine that separates cotton fibre from its seeds"
+    },
+    {
+      "term": "literacy",
+      "definition": "the ability to read and write"
+    },
+    {
+      "term": "to sue",
+      "definition": "to take a legal case against somebody to a court"
+    },
+    {
+      "term": "to enforce",
+      "definition": "to make people obey a law or a decision"
+    },
+    {
+      "term": "a faction",
+      "definition": "a small group inside a larger one, acting on its own"
+    },
+    {
+      "term": "to ratify",
+      "definition": "to give formal approval to a treaty or agreement"
+    },
+    {
+      "term": "a stockade",
+      "definition": "an enclosure with a high wooden fence, used to hold people"
+    },
+    {
+      "term": "to loot",
+      "definition": "to steal from homes or shops, especially during disorder"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-tot-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "tot-c1",
+          "prompt": "What does the text emphasise about who carried out the removal?",
+          "options": [
+            "It was a frontier mob",
+            "It was federal policy carried out by the army",
+            "It was done by state militias alone"
+          ],
+          "answerIndex": 1,
+          "explanation": "Passed by Congress, signed by a president, carried out by the United States Army — after the Supreme Court had decided against it."
+        },
+        {
+          "id": "tot-c2",
+          "prompt": "Why was Cherokee land so valuable in the 1820s?",
+          "options": [
+            "It was good for cotton, and gold was found there in 1829",
+            "It had the best harbours",
+            "It was near the capital"
+          ],
+          "answerIndex": 0,
+          "explanation": "The cotton gin made short-staple cotton profitable; gold in Georgia removed the remaining patience."
+        },
+        {
+          "id": "tot-c3",
+          "prompt": "What did the Cherokee do in the 1820s that complicated the argument for removal?",
+          "options": [
+            "They declared war",
+            "They built farms and schools, created a writing system and wrote a constitution",
+            "They moved west voluntarily"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sequoyah's syllabary, a bilingual newspaper, and an 1827 constitution modelled on the American one."
+        },
+        {
+          "id": "tot-c4",
+          "prompt": "What did the Supreme Court decide in Worcester v. Georgia?",
+          "options": [
+            "Georgia's laws had no force in Cherokee territory",
+            "The Cherokee had to leave",
+            "The case could not be heard"
+          ],
+          "answerIndex": 0,
+          "explanation": "A distinct community, with dealings reserved to the federal government. And the decision was ignored."
+        },
+        {
+          "id": "tot-c5",
+          "prompt": "What was wrong with the Treaty of New Echota?",
+          "options": [
+            "It was never signed",
+            "It was signed by about twenty men with no authority to sign for the nation",
+            "It was written in Cherokee only"
+          ],
+          "answerIndex": 1,
+          "explanation": "More than fifteen thousand Cherokee petitioned against it; the Senate ratified it by one vote."
+        },
+        {
+          "id": "tot-c6",
+          "prompt": "What is the final paragraph's argument?",
+          "options": [
+            "The law failed completely",
+            "The law worked, but nothing existed to enforce the result",
+            "The Cherokee should have gone to court earlier"
+          ],
+          "answerIndex": 1,
+          "explanation": "A case was brought, argued and won. What was missing was any mechanism or political will to make it mean anything."
+        }
+      ]
+    },
+    {
+      "id": "b2-tot-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "tot-t1",
+          "statement": "The Indian Removal Act passed Congress unanimously.",
+          "answer": false,
+          "explanation": "False — it passed by a narrow margin after a bitter debate, and many Americans opposed it."
+        },
+        {
+          "id": "tot-t2",
+          "statement": "Jackson's famous quotation about John Marshall is probably not authentic.",
+          "answer": true,
+          "explanation": "True — the text says the quotation is almost certainly not authentic, while adding that it describes what actually happened accurately enough."
+        },
+        {
+          "id": "tot-t3",
+          "statement": "The Cherokee were the only nation removed.",
+          "answer": false,
+          "explanation": "False — the Choctaw, Muscogee, Chickasaw and Seminole were also forced west, and the Seminole fought a long war instead."
+        },
+        {
+          "id": "tot-t4",
+          "statement": "Sequoyah created a writing system for the Cherokee language.",
+          "answer": true,
+          "explanation": "True — in the 1820s, and literacy spread fast enough to support a bilingual newspaper."
+        },
+        {
+          "id": "tot-t5",
+          "statement": "Between four and eight thousand Cherokee died on the march.",
+          "answer": true,
+          "explanation": "True — mostly of disease, exposure and hunger."
+        }
+      ]
+    },
+    {
+      "id": "b2-tot-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "tot-v1",
+          "prompt": "To take a legal case against somebody is to ___ them.",
+          "options": [
+            "sue",
+            "suit",
+            "sum"
+          ],
+          "answerIndex": 0,
+          "explanation": "To sue. The Cherokee response to the Removal Act was to sue."
+        },
+        {
+          "id": "tot-v2",
+          "prompt": "To make people obey a decision is to ___ it.",
+          "options": [
+            "enforce",
+            "endorse",
+            "enclose"
+          ],
+          "answerIndex": 0,
+          "explanation": "To enforce — the word the whole story turns on."
+        },
+        {
+          "id": "tot-v3",
+          "prompt": "To give formal approval to a treaty is to ___ it.",
+          "options": [
+            "ratify",
+            "rectify",
+            "reinforce"
+          ],
+          "answerIndex": 0,
+          "explanation": "To ratify. The Senate ratified New Echota by one vote."
+        },
+        {
+          "id": "tot-v4",
+          "prompt": "A small group acting on its own inside a larger one is a ___.",
+          "options": [
+            "faction",
+            "fraction",
+            "fixture"
+          ],
+          "answerIndex": 0,
+          "explanation": "A faction."
+        },
+        {
+          "id": "tot-v5",
+          "prompt": "The harm caused by being outside in extreme weather is ___.",
+          "options": [
+            "exposure",
+            "expansion",
+            "expression"
+          ],
+          "answerIndex": 0,
+          "explanation": "Exposure — one of the main causes of death on the march."
+        }
+      ]
+    },
+    {
+      "id": "b2-tot-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "tot-b1",
+          "prompt": "The Indian Removal Act was passed in ___.",
+          "answers": [
+            "1830"
+          ],
+          "options": [
+            "1830",
+            "1838",
+            "1832"
+          ],
+          "explanation": "1830. The court case was 1832; the march was 1838."
+        },
+        {
+          "id": "tot-b2",
+          "prompt": "In Worcester v. Georgia the Supreme Court ruled in favour of the ___.",
+          "answers": [
+            "Cherokee"
+          ],
+          "options": [
+            "Cherokee",
+            "state",
+            "army"
+          ],
+          "explanation": "The Cherokee — and the ruling was ignored."
+        },
+        {
+          "id": "tot-b3",
+          "prompt": "The Treaty of New ___ was signed by a small faction in 1835.",
+          "answers": [
+            "Echota"
+          ],
+          "options": [
+            "Echota",
+            "Orleans",
+            "England"
+          ],
+          "explanation": "New Echota."
+        },
+        {
+          "id": "tot-b4",
+          "prompt": "The march covered about twelve hundred ___.",
+          "answers": [
+            "miles"
+          ],
+          "options": [
+            "miles",
+            "metres",
+            "months"
+          ],
+          "explanation": "About 1,200 miles, roughly 1,900 kilometres."
+        },
+        {
+          "id": "tot-b5",
+          "prompt": "The discovery of ___ in Georgia in 1829 made the situation worse.",
+          "answers": [
+            "gold"
+          ],
+          "options": [
+            "gold",
+            "coal",
+            "oil"
+          ],
+          "explanation": "Gold."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The Cherokee won their case and were removed anyway. What does that tell you about the relationship between law and power?",
+    "Some historians argue that Cherokee success at farming, writing and self-government made removal more likely rather than less. How can that be?",
+    "Many Americans at the time opposed the Removal Act. Does it matter, historically, that an injustice was contested?"
+  ],
+  "audio": {
+    "duration_label": "3:22"
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "id": "b2-reading-jackie-robinson",
+  "level": "B2",
+  "slug": "jackie-robinson",
+  "order": 105,
+  "topic": "history",
+  "title": "Jackie Robinson Breaks Baseball's Color Line",
+  "subtitle": "The hardest condition of the job was that for three years he was not allowed to answer back.",
+  "description": "A B2 reading and listening text on Jackie Robinson: the colour line in baseball, the agreement he made with Branch Rickey, the 1947 season, and what it cost.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "In the summer of 1945, the general manager of the Brooklyn Dodgers, Branch Rickey, interviewed a young infielder called Jackie Robinson for three hours. For most of that time Rickey played the part of a hostile hotel clerk, an opposing player and an abusive spectator, shouting insults at him across the desk to see what he would do.",
+    "At one point Robinson asked whether Rickey wanted a player who was afraid to fight back. Rickey's answer has been quoted ever since: he wanted a player with enough courage not to fight back.",
+    "Baseball had no written rule excluding Black players. It had something more durable: a gentlemen's agreement among the club owners, in place since the 1880s, that simply was not discussed. Black professionals played in the Negro Leagues, which were serious, well-attended businesses with some of the best players in the country in them.",
+    "Robinson was not chosen because he was the best player available — several men in the Negro Leagues were at least as good, and Satchel Paige had been a national figure for years. He was chosen because of what came with him: a university education at UCLA, military service as an officer, a steady fiancée, and a temperament that could survive what was coming. He had also been court-martialled in the army for refusing to move to the back of a bus, and acquitted, which told Rickey what he needed to know.",
+    "The agreement was that for three seasons Robinson would not respond to anything. Not to pitchers throwing at his head, not to runners spiking his legs, not to the insults from the stands, not to hotels that refused him a room while his teammates checked in.",
+    "He debuted at first base on 15 April 1947. Some of his own teammates circulated a petition saying they would not play with him; the manager told them they could leave instead. The Philadelphia Phillies' manager led a campaign of abuse so unrestrained that it began to turn public opinion in Robinson's favour, which is not what it was intended to do.",
+    "He hit .297 that season, led the league in stolen bases, and was named Rookie of the Year. Two years later, when the three years of silence were over and he could answer back — and did, loudly, for the rest of his life — he was named the league's Most Valuable Player.",
+    "Attendance records followed him from city to city. Within a decade most teams had integrated, and the Negro Leagues, which had been Black-owned businesses employing hundreds of people, collapsed because their best players and their audiences had gone. Integration had a bill, and it was paid by Black owners and by the players who were too old to be signed.",
+    "Robinson spent his later life campaigning on civil rights and on the absence of Black managers and executives in the game. He was often described as bitter, mostly by people who had enjoyed the part of the story where he said nothing.",
+    "He died in 1972, aged fifty-three, his health wrecked by diabetes and, his family believed, by years of pressure that no statistic records. His number, 42, is now retired across all of Major League Baseball — the only number in the sport that no player on any team may wear."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 5,
+      "alt": "A photograph of Jackie Robinson in Brooklyn Dodgers uniform, crouched and ready, looking out at the field",
+      "source": "commons:File:Jackie Robinson, Brooklyn Dodgers, 1954.jpg",
+      "caption": "Jackie Robinson, Brooklyn Dodgers, 1954 — by which time he was answering back."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a general manager",
+      "definition": "the executive who runs a sports team's operations"
+    },
+    {
+      "term": "hostile",
+      "definition": "unfriendly and aggressive"
+    },
+    {
+      "term": "a gentlemen's agreement",
+      "definition": "an unwritten understanding that people keep without a formal rule"
+    },
+    {
+      "term": "a temperament",
+      "definition": "a person's nature, especially how they react under pressure"
+    },
+    {
+      "term": "to court-martial",
+      "definition": "to try a member of the armed forces in a military court"
+    },
+    {
+      "term": "to acquit",
+      "definition": "to decide officially that somebody is not guilty"
+    },
+    {
+      "term": "to debut",
+      "definition": "to appear for the first time"
+    },
+    {
+      "term": "a petition",
+      "definition": "a written request signed by many people"
+    },
+    {
+      "term": "to integrate",
+      "definition": "to end the separation of racial groups in an institution"
+    },
+    {
+      "term": "to retire a number",
+      "definition": "to withdraw a player's shirt number so that nobody else may use it"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-jr-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "jr-c1",
+          "prompt": "Why did Rickey shout insults at Robinson in the interview?",
+          "options": [
+            "He disliked him",
+            "To find out whether he could avoid reacting",
+            "To test his hearing"
+          ],
+          "answerIndex": 1,
+          "explanation": "He wanted a player with enough courage not to fight back."
+        },
+        {
+          "id": "jr-c2",
+          "prompt": "What kept Black players out of the major leagues?",
+          "options": [
+            "A written rule",
+            "An unwritten gentlemen's agreement among owners",
+            "A federal law"
+          ],
+          "answerIndex": 1,
+          "explanation": "In place since the 1880s and simply not discussed — which made it more durable than a rule."
+        },
+        {
+          "id": "jr-c3",
+          "prompt": "Why was Robinson chosen?",
+          "options": [
+            "He was clearly the best player available",
+            "For his education, military record, temperament and record of standing his ground",
+            "He was the cheapest signing"
+          ],
+          "answerIndex": 1,
+          "explanation": "Several Negro League players were at least as good. The court martial for refusing to move to the back of a bus told Rickey what he needed to know."
+        },
+        {
+          "id": "jr-c4",
+          "prompt": "What was the three-year agreement?",
+          "options": [
+            "That he would play only at first base",
+            "That he would not respond to any abuse",
+            "That he would retire after three years"
+          ],
+          "answerIndex": 1,
+          "explanation": "Not to pitchers, runners, spectators or hotels."
+        },
+        {
+          "id": "jr-c5",
+          "prompt": "What happened to the Negro Leagues after integration?",
+          "options": [
+            "They grew",
+            "They collapsed, taking Black-owned businesses with them",
+            "They merged with the major leagues"
+          ],
+          "answerIndex": 1,
+          "explanation": "Their best players and their audiences went. Integration had a bill, and this is who paid it."
+        },
+        {
+          "id": "jr-c6",
+          "prompt": "What is unusual about the number 42 in baseball?",
+          "options": [
+            "It is retired across the whole league",
+            "It can only be worn by rookies",
+            "It is never used in Brooklyn"
+          ],
+          "answerIndex": 0,
+          "explanation": "No player on any team may wear it."
+        }
+      ]
+    },
+    {
+      "id": "b2-jr-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "jr-t1",
+          "statement": "Some of Robinson's own teammates signed a petition against playing with him.",
+          "answer": true,
+          "explanation": "True — and the manager told them they could leave instead."
+        },
+        {
+          "id": "jr-t2",
+          "statement": "The abuse from the Philadelphia manager helped Robinson's cause.",
+          "answer": true,
+          "explanation": "True — it was so unrestrained that it began to turn public opinion, which was not the intention."
+        },
+        {
+          "id": "jr-t3",
+          "statement": "Robinson stayed silent about racial injustice for the rest of his career.",
+          "answer": false,
+          "explanation": "False — once the three years were over he spoke loudly for the rest of his life."
+        },
+        {
+          "id": "jr-t4",
+          "statement": "He was named Rookie of the Year in 1947.",
+          "answer": true,
+          "explanation": "True — he hit .297 and led the league in stolen bases."
+        },
+        {
+          "id": "jr-t5",
+          "statement": "He lived a long life in comfortable retirement.",
+          "answer": false,
+          "explanation": "False — he died in 1972 at fifty-three."
+        }
+      ]
+    },
+    {
+      "id": "b2-jr-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "jr-v1",
+          "prompt": "An unwritten understanding kept without a formal rule is a ___.",
+          "options": [
+            "gentlemen's agreement",
+            "general warning",
+            "golden rule"
+          ],
+          "answerIndex": 0,
+          "explanation": "A gentlemen's agreement."
+        },
+        {
+          "id": "jr-v2",
+          "prompt": "To decide officially that somebody is not guilty is to ___ them.",
+          "options": [
+            "acquit",
+            "accuse",
+            "assign"
+          ],
+          "answerIndex": 0,
+          "explanation": "To acquit."
+        },
+        {
+          "id": "jr-v3",
+          "prompt": "A person's nature under pressure is their ___.",
+          "options": [
+            "temperament",
+            "temperature",
+            "testimony"
+          ],
+          "answerIndex": 0,
+          "explanation": "Temperament."
+        },
+        {
+          "id": "jr-v4",
+          "prompt": "To end racial separation in an institution is to ___ it.",
+          "options": [
+            "integrate",
+            "interrupt",
+            "intervene"
+          ],
+          "answerIndex": 0,
+          "explanation": "To integrate; the noun is integration."
+        },
+        {
+          "id": "jr-v5",
+          "prompt": "Unfriendly and aggressive behaviour is ___.",
+          "options": [
+            "hostile",
+            "hospitable",
+            "hesitant"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hostile."
+        }
+      ]
+    },
+    {
+      "id": "b2-jr-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "jr-b1",
+          "prompt": "Robinson debuted for the Brooklyn ___ in April 1947.",
+          "answers": [
+            "Dodgers"
+          ],
+          "options": [
+            "Dodgers",
+            "Yankees",
+            "Giants"
+          ],
+          "explanation": "The Brooklyn Dodgers."
+        },
+        {
+          "id": "jr-b2",
+          "prompt": "Branch Rickey wanted a player with the courage not to ___ back.",
+          "answers": [
+            "fight"
+          ],
+          "options": [
+            "fight",
+            "look",
+            "come"
+          ],
+          "explanation": "Not to fight back — for three seasons."
+        },
+        {
+          "id": "jr-b3",
+          "prompt": "Black professionals played in the Negro ___.",
+          "answers": [
+            "Leagues"
+          ],
+          "options": [
+            "Leagues",
+            "Lines",
+            "Lodges"
+          ],
+          "explanation": "The Negro Leagues."
+        },
+        {
+          "id": "jr-b4",
+          "prompt": "In 1947 he was named ___ of the Year.",
+          "answers": [
+            "Rookie"
+          ],
+          "options": [
+            "Rookie",
+            "Manager",
+            "Captain"
+          ],
+          "explanation": "Rookie of the Year; two years later, Most Valuable Player."
+        },
+        {
+          "id": "jr-b5",
+          "prompt": "His number, ___, is retired across the whole of Major League Baseball.",
+          "answers": [
+            "42"
+          ],
+          "options": [
+            "42",
+            "24",
+            "7"
+          ],
+          "explanation": "Number 42."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Rickey asked Robinson to accept abuse without answering. Was that a fair thing to ask of one person?",
+    "Integration ended the Negro Leagues and the businesses behind them. How should progress be judged when it costs somebody something?",
+    "Robinson was called bitter when he spoke out later. Why do people prefer the silent version of a story like his?"
+  ],
+  "audio": {
+    "duration_label": "3:16"
+  }
+}

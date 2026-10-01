@@ -557,6 +557,12 @@
   "rate": "+0%",
   "voice": "en-US-AriaNeural"
  },
+ "b2/civil-war-nation-divided": {
+  "bytes": 1215504,
+  "fingerprint": "176dffafb7873d22",
+  "rate": "+0%",
+  "voice": "en-US-EmmaNeural"
+ },
  "b2/describing-a-place": {
   "bytes": 1273680,
   "fingerprint": "29d78f72b62647f6",
@@ -575,6 +581,12 @@
   "rate": "+0%",
   "voice": "en-US-EricNeural"
  },
+ "b2/fdr-new-deal": {
+  "bytes": 1295280,
+  "fingerprint": "3b9ab51d7de414b4",
+  "rate": "+0%",
+  "voice": "en-US-EricNeural"
+ },
  "b2/formal-informal": {
   "bytes": 1399248,
   "fingerprint": "b87fa6b3dd0c5b5e",
@@ -584,6 +596,12 @@
  "b2/formula-1": {
   "bytes": 1041696,
   "fingerprint": "460ec78e0633a823",
+  "rate": "+0%",
+  "voice": "en-US-GuyNeural"
+ },
+ "b2/great-depression": {
+  "bytes": 1132992,
+  "fingerprint": "d90aa815ba441b4a",
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
  },
@@ -604,6 +622,12 @@
   "fingerprint": "7642162d73e22994",
   "rate": "+0%",
   "voice": "en-US-BrianNeural"
+ },
+ "b2/jackie-robinson": {
+  "bytes": 1178496,
+  "fingerprint": "b00cb2a47d23fff0",
+  "rate": "+0%",
+  "voice": "en-US-EricNeural"
  },
  "b2/john-snow": {
   "bytes": 1128528,
@@ -641,6 +665,12 @@
   "rate": "+0%",
   "voice": "en-US-ChristopherNeural"
  },
+ "b2/reconstruction": {
+  "bytes": 1270224,
+  "fingerprint": "aad4a30e733a6eb1",
+  "rate": "+0%",
+  "voice": "en-US-EmmaNeural"
+ },
  "b2/romania": {
   "bytes": 1464480,
   "fingerprint": "e2f355f023ae99ea",
@@ -664,6 +694,12 @@
   "fingerprint": "99972cde8a117bd2",
   "rate": "+0%",
   "voice": "en-US-BrianNeural"
+ },
+ "b2/trail-of-tears": {
+  "bytes": 1213056,
+  "fingerprint": "8aec4bfc91042487",
+  "rate": "+0%",
+  "voice": "en-US-EmmaNeural"
  },
  "c1/america-in-1776": {
   "bytes": 2620080,

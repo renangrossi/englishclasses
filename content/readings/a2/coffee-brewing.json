@@ -28,7 +28,16 @@
     "Finally, take out the filter, throw away the grounds, and pour the coffee into a mug. Drink it while it is hot.",
     "The taste of your coffee depends on the beans, the grind, the water temperature and the time. Change one thing at a time, and you will soon find the cup you like best."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A gooseneck kettle pouring a thin stream of hot water over a paper filter in a glass brewer, with a second brewer beside it",
+      "source": "commons:File:Brewing coffee in a jug (Unsplash).jpg",
+      "caption": "Pouring over the filter. Everything this text describes is in the picture: the grind, the water, the paper and the time it takes.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "to grind",

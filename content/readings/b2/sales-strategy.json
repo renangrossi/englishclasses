@@ -29,7 +29,16 @@
     "Sales enablement is the work of giving a team what it needs to sell: scripts, playbooks, training and competitor analysis. Paired with data-driven selling, where analytics point to the leads most likely to convert, it lets a team spend its time where the time will pay. And as more business moves online, salespeople are learning social selling — using social media to reach prospects and build interest — and running their calls over video rather than across a desk.",
     "Modern selling, in short, is a blend of strategic planning, digital tools and ordinary interpersonal skill. The leaders in the field know that success is not one closed deal; it is the relationship, the data behind it, and the willingness to keep adapting as the customer changes."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "Two women at a shop counter, one showing the other a small item from a display of goods laid out under a sign",
+      "source": "commons:File:A shop assistant shows a customer a luminous flower in Selfridge's department store, London. These flowers were one of numerous blackout accessories available in 1940 to make pedestrians more visible on the dark street D73.jpg",
+      "caption": "A shop assistant showing a customer a product, Selfridges, 1940 — Ministry of Information. The whole of this text's vocabulary describes what is happening in this one exchange.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "pain point",

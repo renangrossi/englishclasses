@@ -26,6 +26,16 @@
     "Now the part that goes wrong. Owners buy the system and keep the old habits, so the stock figures drift within a month because somebody takes milk from the fridge without recording it, and after that nobody trusts the numbers and everyone goes back to guessing. The software is only as good as the discipline around it, and that discipline is the actual product being bought.",
     "Used properly, none of this is dramatic on any single day. It shows up as a shop that runs out of things less often, staffs itself closer to its real demand, and knows which half of its menu is paying for the other half."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A busy modern coffee shop with brick walls, copper lamps over the counter and customers at every table",
+      "source": "commons:File:Chatting in a coffee shop (Unsplash).jpg",
+      "caption": "A full room on an ordinary afternoon. This text is about the software that sits behind a place like this, which nobody in the picture is thinking about.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "sales pitch",

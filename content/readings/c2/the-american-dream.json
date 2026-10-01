@@ -1,0 +1,378 @@
+{
+  "id": "c2-reading-the-american-dream",
+  "level": "C2",
+  "slug": "the-american-dream",
+  "order": 104,
+  "topic": "history",
+  "title": "The American Dream",
+  "subtitle": "The phrase was coined in 1931, at the bottom of the Depression, by a man who was explicit that he did not mean money. It has been doing other work ever since.",
+  "description": "A C2 reading and listening text on the American Dream: who coined the phrase and what he meant, what the mobility data actually show, and why a belief can be both empirically weak and socially powerful.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "grammar": [
+    "passive",
+    "past-simple",
+    "comparatives",
+    "relative-clauses"
+  ],
+  "passage": [
+    "The American Dream is younger than the Ford Model T. The phrase was given its modern currency by James Truslow Adams in 1931, in a popular history written while a quarter of the American workforce was out of a job, and Adams took care to say what he did not mean by it: not a dream of motor cars and high wages, but of a social order in which each person could attain the fullest stature of which they were capable, and be recognised for what they were rather than for the circumstances of their birth.",
+    "Two things about that are worth holding on to. The first is that the phrase was coined as an argument, not as a description — an assertion about what the country was for, made at a moment when the evidence was conspicuously against it. The second is that the version Adams explicitly rejected is the version that survived. Within a generation the Dream had become a house, a car and a lawn, which is to say a standard of consumption rather than a standard of recognition.",
+    "Taken as a claim about consumption, it had a remarkable run and then stopped. The cleanest measure is absolute mobility: the proportion of children who, by their early thirties, earn more than their parents did at the same age. For Americans born in 1940, that figure is around ninety per cent. For those born in 1980, it is close to half. A coin toss is not a dream, and the collapse is not explained by slower growth alone; a substantial part of it is the change in how the growth was distributed.",
+    "Relative mobility — the chance of moving between positions rather than simply exceeding your parents' income — tells a less dramatic but more awkward story. The probability that a child born into the poorest fifth of American families reaches the richest fifth is roughly seven or eight per cent. That number is not catastrophic in isolation. It becomes awkward when set beside Denmark or Canada, where it is nearly twice as high, because the United States is the country whose self-description rests on this particular statistic, and it is not winning on it.",
+    "The finding that ought to unsettle everybody, though, is geographical. Mobility varies so widely between American cities that the national figure conceals more than it reveals: a child raised in the bottom fifth in one metropolitan area has several times the chance of reaching the top fifth as an identical child raised in another. Whatever the Dream is, it is not distributed evenly across the country that believes in it, and the variation tracks things — segregation, school quality, family structure, the density of civic institutions — that are matters of policy rather than of national character.",
+    "Against all this sits a stubborn fact that no amount of data has dislodged: Americans substantially overestimate how much mobility there is, and have gone on doing so while the figures moved against them. That gap is usually reported as an error to be corrected, which is too quick. A belief about the future is not only a prediction; it is also an instruction about how to behave, and it is at least arguable that a population which overestimates its chances takes more of them. Nobody starts a business on the base rate.",
+    "But the same belief does a second job, and it is less attractive. If positions are earned, then the distribution of positions is deserved, and inequality becomes a temporary feature of a fair process rather than a standing question about an unfair one. This is the quiet political utility of the Dream: it converts a structural fact into a personal verdict, and it does so in both directions, which is why the American poor have historically been more likely than their European counterparts to blame themselves. A myth that flatters the winners is ordinary. One that persuades the losers is formidable.",
+    "Where this leaves Adams is an open question, and he deserves a fairer hearing than either camp gives him. The thing he actually proposed — recognition independent of birth, a society arranged so that people can become what they are capable of becoming — is not measured by the mobility statistics at all, and it is not obviously refuted by them. It is also not achieved. The honest summary is that the United States is a country with an unusually powerful story about opportunity and an unexceptional record at producing it, and that the gap between those two is not a failure of individual effort but the main thing worth arguing about."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "Two men walking away from the camera along a dirt verge beside an empty paved road, both barefoot, one carrying a suitcase and one a bundle, passing a billboard showing a man reclining comfortably in a train seat",
+      "source": "commons:File:Toward Los Angeles, California LOC 3549663710.jpg",
+      "caption": "*Toward Los Angeles* — Dorothea Lange, 1937. Two barefoot men walking out of the frame past an advertisement telling them to relax and take the train.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "currency",
+      "definition": "here, general circulation or acceptance of a word or idea"
+    },
+    {
+      "term": "stature",
+      "definition": "height; by extension, the standing a person achieves"
+    },
+    {
+      "term": "conspicuously",
+      "definition": "in a way that is obvious and hard to ignore"
+    },
+    {
+      "term": "an assertion",
+      "definition": "a confident statement made without proof"
+    },
+    {
+      "term": "consumption",
+      "definition": "the buying and using of goods"
+    },
+    {
+      "term": "absolute mobility",
+      "definition": "whether children earn more than their parents did"
+    },
+    {
+      "term": "relative mobility",
+      "definition": "whether children move between income positions"
+    },
+    {
+      "term": "to exceed",
+      "definition": "to be greater than"
+    },
+    {
+      "term": "catastrophic",
+      "definition": "disastrous"
+    },
+    {
+      "term": "in isolation",
+      "definition": "considered on its own, without comparison"
+    },
+    {
+      "term": "self-description",
+      "definition": "the account a person or country gives of itself"
+    },
+    {
+      "term": "to unsettle",
+      "definition": "to disturb the confidence of"
+    },
+    {
+      "term": "to conceal",
+      "definition": "to hide",
+      "match": "conceals"
+    },
+    {
+      "term": "metropolitan",
+      "definition": "relating to a large city and its surroundings"
+    },
+    {
+      "term": "segregation",
+      "definition": "enforced separation of groups, especially by race"
+    },
+    {
+      "term": "civic",
+      "definition": "relating to the shared life of a community"
+    },
+    {
+      "term": "stubborn",
+      "definition": "resisting change or removal"
+    },
+    {
+      "term": "to dislodge",
+      "definition": "to force out of a fixed position",
+      "match": "dislodged"
+    },
+    {
+      "term": "a base rate",
+      "definition": "the underlying statistical probability of an event"
+    },
+    {
+      "term": "a verdict",
+      "definition": "a judgement on a person's merit or guilt"
+    },
+    {
+      "term": "a counterpart",
+      "definition": "a person holding the equivalent position elsewhere",
+      "match": "counterparts"
+    },
+    {
+      "term": "formidable",
+      "definition": "powerful enough to be feared or respected"
+    },
+    {
+      "term": "to refute",
+      "definition": "to prove to be false",
+      "match": "refuted"
+    },
+    {
+      "term": "unexceptional",
+      "definition": "ordinary; not out of the common run"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-ad-comp",
+      "type": "reading-comprehension",
+      "title": "A Belief and Its Evidence",
+      "instructions": "This essay separates what the phrase meant, what the data show, and what the belief does. Track the three.",
+      "items": [
+        {
+          "id": "ad1",
+          "prompt": "What did Adams explicitly say the Dream was not?",
+          "options": [
+            "A dream of motor cars and high wages",
+            "A dream available to immigrants",
+            "A political programme"
+          ],
+          "answerIndex": 0,
+          "explanation": "He meant recognition independent of the circumstances of birth."
+        },
+        {
+          "id": "ad2",
+          "prompt": "Why does it matter that the phrase was coined in 1931?",
+          "options": [
+            "It was an argument about what the country was for, made when the evidence was against it",
+            "It shows the idea is very old",
+            "It explains the focus on consumption"
+          ],
+          "answerIndex": 0,
+          "explanation": "A quarter of the workforce was out of a job."
+        },
+        {
+          "id": "ad3",
+          "prompt": "What is absolute mobility?",
+          "options": [
+            "The proportion of children who earn more than their parents did at the same age",
+            "The number of people who change jobs",
+            "Movement between regions"
+          ],
+          "answerIndex": 0,
+          "explanation": "About ninety per cent for the 1940 cohort, close to half for the 1980 cohort."
+        },
+        {
+          "id": "ad4",
+          "prompt": "What does the author say besides slower growth explains the collapse?",
+          "options": [
+            "A change in how the growth was distributed",
+            "A fall in educational standards",
+            "Rising immigration"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"A coin toss is not a dream.\""
+        },
+        {
+          "id": "ad5",
+          "prompt": "Why is the relative mobility figure described as awkward rather than catastrophic?",
+          "options": [
+            "It is unremarkable in isolation but poor beside countries that do not build their identity on it",
+            "It is based on weak data",
+            "It has been falling faster than elsewhere"
+          ],
+          "answerIndex": 0,
+          "explanation": "Roughly seven or eight per cent, against nearly twice that in Denmark or Canada."
+        },
+        {
+          "id": "ad6",
+          "prompt": "What does the geographical finding show?",
+          "options": [
+            "Mobility varies so much between cities that the national figure conceals more than it reveals",
+            "Rural areas always do better",
+            "The data are unreliable"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the variation tracks matters of policy rather than national character."
+        },
+        {
+          "id": "ad7",
+          "prompt": "What is the author's first response to Americans overestimating mobility?",
+          "options": [
+            "That calling it an error to be corrected is too quick, since a belief is also an instruction about how to behave",
+            "That the surveys are flawed",
+            "That it proves the data wrong"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Nobody starts a business on the base rate.\""
+        },
+        {
+          "id": "ad8",
+          "prompt": "What is the \"second job\" the belief does?",
+          "options": [
+            "It makes inequality look like a temporary feature of a fair process",
+            "It encourages saving",
+            "It raises political participation"
+          ],
+          "answerIndex": 0,
+          "explanation": "It converts a structural fact into a personal verdict."
+        },
+        {
+          "id": "ad9",
+          "prompt": "Why does the author call the myth formidable?",
+          "options": [
+            "Because it persuades the losers as well as flattering the winners",
+            "Because it is very old",
+            "Because it cannot be measured"
+          ],
+          "answerIndex": 0,
+          "explanation": "The American poor have been more likely than European counterparts to blame themselves."
+        },
+        {
+          "id": "ad10",
+          "prompt": "What is the author's final position on Adams?",
+          "options": [
+            "What he proposed is not measured by the statistics, not refuted by them, and not achieved",
+            "He was straightforwardly wrong",
+            "He predicted the decline in mobility"
+          ],
+          "answerIndex": 0,
+          "explanation": "The gap between the story and the record is \"the main thing worth arguing about\"."
+        }
+      ]
+    },
+    {
+      "id": "c2-ad-shape",
+      "type": "matching",
+      "title": "The Shape of the Argument",
+      "instructions": "Match each stage of the essay to what it does.",
+      "items": [
+        {
+          "id": "adm1",
+          "pairs": [
+            {
+              "left": "Opening two paragraphs",
+              "right": "Date the phrase and show the meaning that survived was the one rejected"
+            },
+            {
+              "left": "Third to fifth paragraphs",
+              "right": "Set out absolute, relative and geographical mobility"
+            },
+            {
+              "left": "Sixth paragraph",
+              "right": "Defends the overestimate as an instruction rather than an error"
+            },
+            {
+              "left": "Seventh paragraph",
+              "right": "Turns that defence around: the belief also makes inequality look deserved"
+            },
+            {
+              "left": "Close",
+              "right": "Returns to Adams and separates his claim from the statistics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-ad-vocab",
+      "type": "vocabulary",
+      "title": "The Language of Argument",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "adv1",
+          "prompt": "The underlying statistical probability of an event is the ___.",
+          "options": [
+            "base rate",
+            "benchmark",
+            "baseline of error"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Nobody starts a business on the base rate.\""
+        },
+        {
+          "id": "adv2",
+          "prompt": "Considered on its own, without comparison, is ___.",
+          "options": [
+            "in isolation",
+            "in principle",
+            "in proportion"
+          ],
+          "answerIndex": 0,
+          "explanation": "The relative mobility figure is not catastrophic in isolation."
+        },
+        {
+          "id": "adv3",
+          "prompt": "Powerful enough to be feared or respected is ___.",
+          "options": [
+            "formidable",
+            "forbidding",
+            "formative"
+          ],
+          "answerIndex": 0,
+          "explanation": "A myth that persuades the losers is formidable."
+        },
+        {
+          "id": "adv4",
+          "prompt": "To force something out of a fixed position is to ___ it.",
+          "options": [
+            "dislodge",
+            "discharge",
+            "disclaim"
+          ],
+          "answerIndex": 0,
+          "explanation": "No amount of data has dislodged the overestimate."
+        },
+        {
+          "id": "adv5",
+          "prompt": "A confident statement made without proof is an ___.",
+          "options": [
+            "assertion",
+            "assumption",
+            "assessment"
+          ],
+          "answerIndex": 0,
+          "explanation": "The phrase was coined as an assertion about what the country was for."
+        },
+        {
+          "id": "adv6",
+          "prompt": "Ordinary, not out of the common run, is ___.",
+          "options": [
+            "unexceptional",
+            "unexceptionable",
+            "unexampled"
+          ],
+          "answerIndex": 0,
+          "explanation": "An unusually powerful story and an unexceptional record. Note that \"unexceptionable\" means something quite different: beyond objection."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The essay argues that overestimating your chances may be useful. Is that a defence of the belief or a criticism of it?",
+    "\"A myth that flatters the winners is ordinary. One that persuades the losers is formidable.\" Does your country have one of each?",
+    "Adams's version cannot be measured by mobility statistics. Is a claim that resists measurement worth less, or differently?",
+    "If mobility varies that much between cities, what follows for how the Dream should be discussed politically?",
+    "Write about 300 words on a national story about your own country: what it asserts, what the evidence says, and what the story does for people who hold it."
+  ],
+  "audio": {
+    "duration_label": "4:23"
+  }
+}

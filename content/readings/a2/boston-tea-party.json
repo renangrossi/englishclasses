@@ -9,6 +9,12 @@
   "description": "An A2 reading and listening text on the Boston Tea Party of 1773: the tax on tea, the protest in the harbour, and what Britain did next.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "grammar": [
+    "present-perfect",
+    "past-simple",
+    "past-continuous",
+    "present-simple"
+  ],
   "passage": [
     "On the night of 16 December 1773, about a hundred men walked down to the harbour in Boston. It was cold and dark, and they were going to destroy a very large amount of tea.",
     "The problem had started years before. Britain needed money after a long war, so it put taxes on things the American colonists bought.",

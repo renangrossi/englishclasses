@@ -1,0 +1,382 @@
+{
+  "id": "c2-reading-what-makes-an-american-hero",
+  "level": "C2",
+  "slug": "what-makes-an-american-hero",
+  "order": 106,
+  "topic": "history",
+  "title": "What Makes an American Hero?",
+  "subtitle": "The template requires one person. Almost everything in this collection was done by organisations, and the gap between those two facts is not an accident.",
+  "description": "A C2 reading and listening text that closes the American History collection by examining the hero template itself: why individuals are remembered and organisations are not, what that costs, and the strongest defence of the simplified story.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "grammar": [
+    "passive",
+    "past-simple",
+    "modals",
+    "comparatives",
+    "present-simple"
+  ],
+  "passage": [
+    "Run back over the episodes in this collection and a template becomes visible. There is one person. The person acts at a moment of maximum visibility. The act is a refusal or a step rather than a plan, and it is done without institutional backing, which is what certifies it as courage. The consequences follow from the act as though caused by it directly.",
+    "Almost nothing in the record happened that way. The bus boycott was run by an organisation with a transport system, a legal strategy and a press operation; the refusal that began it was made by a woman who had been doing documentation work for the association for twelve years, and it was not the first refusal — it was the one the lawyers judged would survive a hostile courtroom. The Moon landing was accomplished by four hundred thousand people, and the decisive engineering was a decision, taken years earlier, about how software should behave when overloaded. Even the fall of a president ran through a security guard, two reporters, a Senate committee, a special prosecutor, a unanimous court and a taping system the president had installed himself.",
+    "So the question is not whether the heroic template is accurate. It plainly is not. The question is what it is for, and why it survives so much contrary evidence.",
+    "Part of the answer is that a story needs somebody to want something. Organisations do not want things in a way that narrative can represent; committees have no face, and a decision arrived at over eighteen months by people who disagreed does not produce a scene. The template is not primarily a political distortion. It is a constraint of the medium, and it operates in countries with entirely different politics.",
+    "But the specifically American version adds something, and it is worth naming. In a national story organised around self-making, a hero who succeeds because of an institution is a slightly embarrassing hero. The institution has to be minimised for the achievement to count. This is why the committees get edited out while the moment of personal refusal is enlarged, and it is why Americans find a collective achievement easier to celebrate when it can be attributed to a representative individual standing in for the whole.",
+    "The cost of this is not sentimental, it is practical. If change is made by exceptional individuals at moments of crisis, then the appropriate response to injustice is to wait for such a person and recognise them when they appear. If change is made by organisations, then the appropriate response is to join one, to do unglamorous work for years, and to accept that your name will not be attached to the result. The first story produces admiration. The second produces members. Only one of them is a method, and the template systematically teaches the one that is not.",
+    "The strongest defence of the template deserves a proper statement, because it is better than it looks. Nothing is transmitted that is not remembered, and nothing is remembered that cannot be told. A movement with no face does not get into the schoolbooks at all, and a history that refused all simplification would be read by specialists and nobody else. The individual story is the carrier wave; the organisation is the signal, and a signal nobody receives has no advantage over silence. On this view, the template is not a falsification but a compression, and compression is the price of transmission.",
+    "That defence succeeds up to a point, and the point is identifiable. A compression is legitimate when it preserves the thing a reader would need in order to act, and illegitimate when it removes exactly that. Telling a child that Rosa Parks refused to move is a compression. Telling a child that she was tired is a falsification, because it deletes the twelve years, the training, the legal strategy and the fifty thousand leaflets, and what it deletes is the part that could be copied.",
+    "That is the test this collection has tried to apply throughout, and it is a test rather than a conclusion. Keep the person, because the person is how anybody remembers anything. Keep whatever the person was standing on as well. The useful question to put to any national hero — in any country, including yours — is not whether the story is inspiring but whether, having heard it, you would know what to do next."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A crowded mission control room, rows of consoles with dozens of men at them, the main screen showing the Apollo 11 badge and Kennedy's 1961 commitment to Congress",
+      "source": "commons:File:Mission Operations Control Room at the conclusion of Apollo 11.jpg",
+      "caption": "Mission Control at the end of Apollo 11 — NASA, July 1969. The screen carries Kennedy's sentence from 1961 beside the words “Task Accomplished”. This room, and the twenty thousand firms behind it, is what the single photograph of a man on the Moon leaves out.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a template",
+      "definition": "a fixed pattern that other things are made to fit"
+    },
+    {
+      "term": "visibility",
+      "definition": "the state of being seen or noticed"
+    },
+    {
+      "term": "backing",
+      "definition": "support, especially organised or financial"
+    },
+    {
+      "term": "to certify",
+      "definition": "to confirm officially that something is what it claims to be"
+    },
+    {
+      "term": "documentation",
+      "definition": "the systematic recording of facts and cases"
+    },
+    {
+      "term": "hostile",
+      "definition": "unfriendly; opposed"
+    },
+    {
+      "term": "to overload",
+      "definition": "to give more work than can be handled",
+      "match": "overloaded"
+    },
+    {
+      "term": "unanimous",
+      "definition": "agreed by everybody involved"
+    },
+    {
+      "term": "contrary",
+      "definition": "opposed; pointing the other way"
+    },
+    {
+      "term": "to represent",
+      "definition": "here, to present in a form an audience can follow"
+    },
+    {
+      "term": "a constraint",
+      "definition": "a limit imposed by the conditions of something"
+    },
+    {
+      "term": "a medium",
+      "definition": "a means by which something is communicated"
+    },
+    {
+      "term": "self-making",
+      "definition": "the idea that a person creates their own position unaided"
+    },
+    {
+      "term": "to minimise",
+      "definition": "to make something seem smaller than it is",
+      "match": "minimised"
+    },
+    {
+      "term": "to attribute",
+      "definition": "to assign as belonging to",
+      "match": "attributed"
+    },
+    {
+      "term": "to stand in for",
+      "definition": "to represent in place of",
+      "match": "standing in for"
+    },
+    {
+      "term": "sentimental",
+      "definition": "concerned with feeling rather than with consequence"
+    },
+    {
+      "term": "unglamorous",
+      "definition": "dull and attracting no admiration"
+    },
+    {
+      "term": "to transmit",
+      "definition": "to pass on to others",
+      "match": "transmitted"
+    },
+    {
+      "term": "a carrier wave",
+      "definition": "in radio, the signal that carries the content"
+    },
+    {
+      "term": "a falsification",
+      "definition": "a version altered so that it is no longer true"
+    },
+    {
+      "term": "compression",
+      "definition": "the reduction of something to a smaller form"
+    },
+    {
+      "term": "legitimate",
+      "definition": "justifiable; allowable"
+    },
+    {
+      "term": "to delete",
+      "definition": "to remove",
+      "match": "deletes"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-wmh-comp",
+      "type": "reading-comprehension",
+      "title": "Testing a Story Form",
+      "instructions": "This essay attacks a narrative template, states the best defence of it, and then finds the limit of that defence.",
+      "items": [
+        {
+          "id": "wmh1",
+          "prompt": "What four features does the author identify in the template?",
+          "options": [
+            "One person, maximum visibility, an act rather than a plan, no institutional backing",
+            "A long struggle, a committee, a court case, a law",
+            "A villain, a crisis, a speech, a victory"
+          ],
+          "answerIndex": 0,
+          "explanation": "The absence of backing is what \"certifies it as courage\"."
+        },
+        {
+          "id": "wmh2",
+          "prompt": "What does the author say was the decisive engineering of the Moon landing?",
+          "options": [
+            "A decision taken years earlier about how software should behave when overloaded",
+            "The design of the Saturn V engines",
+            "The choice of landing site"
+          ],
+          "answerIndex": 0,
+          "explanation": "Offered as an example of an achievement with no possible face."
+        },
+        {
+          "id": "wmh3",
+          "prompt": "What is the author's first explanation for the template's survival?",
+          "options": [
+            "Narrative needs somebody to want something, and organisations cannot want things in a representable way",
+            "Political censorship",
+            "A shortage of records"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Committees have no face.\" This is called a constraint of the medium, not a distortion."
+        },
+        {
+          "id": "wmh4",
+          "prompt": "What does the author say the specifically American version adds?",
+          "options": [
+            "In a story organised around self-making, a hero helped by an institution is embarrassing",
+            "A religious dimension",
+            "A preference for military figures"
+          ],
+          "answerIndex": 0,
+          "explanation": "So the institution is minimised for the achievement to count."
+        },
+        {
+          "id": "wmh5",
+          "prompt": "What practical cost does the template carry?",
+          "options": [
+            "It teaches people to wait for an exceptional individual rather than to join an organisation",
+            "It makes history less enjoyable",
+            "It discourages reading"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"The first story produces admiration. The second produces members.\""
+        },
+        {
+          "id": "wmh6",
+          "prompt": "What is the strongest defence of the template?",
+          "options": [
+            "Nothing is transmitted that is not remembered, and a movement with no face is not remembered",
+            "That heroes genuinely act alone",
+            "That organisations prefer anonymity"
+          ],
+          "answerIndex": 0,
+          "explanation": "The individual is \"the carrier wave\"; compression is the price of transmission."
+        },
+        {
+          "id": "wmh7",
+          "prompt": "Where does the author locate the limit of that defence?",
+          "options": [
+            "A compression is legitimate unless it removes what a reader would need in order to act",
+            "It fails whenever any detail is lost",
+            "It fails only for recent events"
+          ],
+          "answerIndex": 0,
+          "explanation": "The test is about what is deleted, not about how much."
+        },
+        {
+          "id": "wmh8",
+          "prompt": "Why is \"she was tired\" a falsification rather than a compression?",
+          "options": [
+            "It deletes the training, the strategy and the organisation — the part that could be copied",
+            "It is factually impossible",
+            "It is too short"
+          ],
+          "answerIndex": 0,
+          "explanation": "The deleted part is precisely the transferable part."
+        },
+        {
+          "id": "wmh9",
+          "prompt": "What does the author recommend keeping?",
+          "options": [
+            "The person, and whatever the person was standing on",
+            "Only the organisation",
+            "Only the verifiable documents"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"The person is how anybody remembers anything.\""
+        },
+        {
+          "id": "wmh10",
+          "prompt": "What final test does the author propose for any national hero story?",
+          "options": [
+            "Whether, having heard it, you would know what to do next",
+            "Whether it is inspiring",
+            "Whether it is popular"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the author applies it to every country, not only to the United States."
+        }
+      ]
+    },
+    {
+      "id": "c2-wmh-shape",
+      "type": "matching",
+      "title": "The Shape of the Argument",
+      "instructions": "Match each stage of the essay to what it does.",
+      "items": [
+        {
+          "id": "wmhm1",
+          "pairs": [
+            {
+              "left": "Opening two paragraphs",
+              "right": "State the template, then show the record contradicting it"
+            },
+            {
+              "left": "Fourth paragraph",
+              "right": "Excuses the template as a constraint of narrative, not politics"
+            },
+            {
+              "left": "Fifth and sixth paragraphs",
+              "right": "Add the American element and name the practical cost"
+            },
+            {
+              "left": "Seventh paragraph",
+              "right": "States the best defence: compression is the price of transmission"
+            },
+            {
+              "left": "Eighth paragraph",
+              "right": "Draws the line between compression and falsification"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-wmh-vocab",
+      "type": "vocabulary",
+      "title": "The Language of Argument",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "wmhv1",
+          "prompt": "A fixed pattern that other things are made to fit is a ___.",
+          "options": [
+            "template",
+            "temperament",
+            "testament"
+          ],
+          "answerIndex": 0,
+          "explanation": "The essay's subject."
+        },
+        {
+          "id": "wmhv2",
+          "prompt": "A version altered so that it is no longer true is a ___.",
+          "options": [
+            "falsification",
+            "fabrication of record",
+            "formulation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Distinguished in the essay from a compression."
+        },
+        {
+          "id": "wmhv3",
+          "prompt": "A limit imposed by the conditions of something is a ___.",
+          "options": [
+            "constraint",
+            "constriction",
+            "construct"
+          ],
+          "answerIndex": 0,
+          "explanation": "The template is called a constraint of the medium."
+        },
+        {
+          "id": "wmhv4",
+          "prompt": "To make something seem smaller than it is, is to ___ it.",
+          "options": [
+            "minimise",
+            "mitigate",
+            "misplace"
+          ],
+          "answerIndex": 0,
+          "explanation": "The institution has to be minimised for the achievement to count."
+        },
+        {
+          "id": "wmhv5",
+          "prompt": "Dull and attracting no admiration is ___.",
+          "options": [
+            "unglamorous",
+            "ungenerous",
+            "ungrateful"
+          ],
+          "answerIndex": 0,
+          "explanation": "The work the second story asks for."
+        },
+        {
+          "id": "wmhv6",
+          "prompt": "To represent in place of somebody or something is to ___ them.",
+          "options": [
+            "stand in for",
+            "stand up to",
+            "stand down from"
+          ],
+          "answerIndex": 0,
+          "explanation": "A representative individual standing in for the whole."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Pick a hero from your own country's history. What organisation has been edited out of the story?",
+    "The essay says the template is a constraint of narrative rather than a political distortion, then says the American version adds something political. Are both claims compatible?",
+    "\"The first story produces admiration. The second produces members.\" Is that too neat?",
+    "Where exactly is the line between a compression and a falsification? Try to state a rule and then find a case that breaks it.",
+    "Write about 300 words retelling a famous story from your country so that someone reading it would know what to do next."
+  ],
+  "audio": {
+    "duration_label": "4:06"
+  }
+}

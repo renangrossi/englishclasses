@@ -1,0 +1,391 @@
+{
+  "id": "c2-reading-immigration-and-modern-america",
+  "level": "C2",
+  "slug": "immigration-and-modern-america",
+  "order": 105,
+  "topic": "history",
+  "title": "Immigration and the Making of Modern America",
+  "subtitle": "Every wave has been declared the one that could not be absorbed. The argument has been made in almost identical words for a hundred and seventy years, which is a fact about the argument.",
+  "description": "A C2 reading and listening text on American immigration: the recurring claim of unassimilability, the laws built on it, the 1965 act whose sponsors mispredicted its effects, and what a historical pattern can and cannot settle.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple"
+  ],
+  "passage": [
+    "The United States describes itself as a nation of immigrants, and the phrase is doing at least two things at once. It is a reasonably accurate account of where most Americans came from, and it is a piece of flattery that quietly excludes the people who were already there and the people who arrived in chains. A story that begins with a voluntary crossing has already left out the two populations with the oldest claims on the country.",
+    "Set that aside and the remaining history has a pattern so regular that it is worth stating as a pattern first and arguing about afterwards. Each major wave of arrivals has been met with the claim that this group, unlike the earlier ones, cannot be assimilated: that its religion is incompatible with republican government, that its loyalty lies elsewhere, that it will depress wages and raise crime, and that the previous waves — now reclassified as the good immigrants — were different.",
+    "The Irish arriving after the famine were the first to receive the full treatment, and the objections were explicitly religious: a Catholic population was said to owe its allegiance to a foreign sovereign and therefore to be incapable of self-government. The party organised around that proposition won control of several state legislatures in the 1850s. Chinese labourers, recruited for the railroads and the mines, were then excluded by name in 1882, in the first federal law to bar a group defined by nationality. By the 1910s the target was southern and eastern Europe, and the argument had acquired a scientific vocabulary: eugenics supplied skull measurements and intelligence testing supplied the rest.",
+    "That vocabulary produced the most consequential immigration law in American history. The 1924 act set quotas by national origin, calculated deliberately from the census of 1890 rather than a recent one, because 1890 predated the arrivals the law was designed to stop. It is an unusually clean example of a statute whose technical machinery is the whole of its intent. The quotas held for forty years, and they were still in force in the late 1930s, when they did a specific and documented harm to people attempting to leave Europe.",
+    "The repeal in 1965 is where the pattern becomes most instructive, because its sponsors were quite clear about what they expected. The Hart-Celler Act replaced national-origin quotas with preferences for family reunification and skills, and its supporters assured Congress that the ethnic composition of American immigration would not be substantially altered. They were comprehensively wrong. Family preference compounded across networks, the sending regions shifted from Europe to Latin America and Asia, and the demographic character of the country changed more than any immigration law before it had managed. The lesson is not that the sponsors were dishonest. It is that they were sincere, confident, in possession of the relevant expertise, and mistaken.",
+    "What does the pattern prove? Less than its users generally want. That a prediction of unassimilability has been made repeatedly and has repeatedly proved wrong is a strong reason to treat the next one sceptically, but it is not a demonstration that no such prediction could ever be right. Circumstances differ; the scale, the speed, the labour market and the receiving institutions are not constants. An argument from historical pattern is an argument about prior probability, and anybody who presents it as a proof has overstated it.",
+    "What the record does establish is narrower and still substantial. It establishes that the confident prediction of cultural incompatibility has an exceptionally poor track record; that the groups declared unassimilable were, within two or three generations, indistinguishable from the population that had declared them so; that assimilation ran in both directions, since the receiving culture was altered as much as the arriving one; and that the laws passed in the panic outlasted the panic and did damage that was neither intended nor repaired.",
+    "There is one more thing the history settles, and it is the part most often skipped. The question of how many people a country should admit is a genuine political question on which reasonable people differ, and it is not answered by any of the above. The question of whether a particular group of human beings is capable of becoming American has been asked a dozen times, answered in the negative by serious and respectable people on every occasion, and found to be wrong every single time. Those are two different questions, and the first is debased by being conducted in the language of the second."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "A cartoon of an Irishman drawn with ape-like features, seated on a barrel marked 'Uncle Sam's gunpowder' with a lit fuse, raising a bottle of whiskey",
+      "source": "commons:File:TheUsualIrishWayofDoingThings.jpg",
+      "caption": "*The Usual Irish Way of Doing Things* — Thomas Nast, 1871. Reproduced as evidence rather than as illustration: this is what a respectable magazine of the day considered a reasonable description of a population now routinely held up as having assimilated without difficulty."
+    },
+    {
+      "src": "02.jpg",
+      "after": 3,
+      "alt": "The handwritten enrolled original of the 1882 Chinese Exclusion Act, in copperplate on ruled paper with a red margin rule",
+      "source": "commons:File:Chineseexclusionact.JPG",
+      "caption": "The Chinese Exclusion Act, 1882, in the enrolled original. The first federal law to bar a group of people from the United States by nationality, and it opens by reciting that their coming “endangers the good order of certain localities”. It was renewed repeatedly and not fully repealed until 1943."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "flattery",
+      "definition": "praise that is not entirely deserved"
+    },
+    {
+      "term": "in chains",
+      "definition": "as a prisoner or an enslaved person"
+    },
+    {
+      "term": "a claim on",
+      "definition": "a right to something",
+      "match": "claims on"
+    },
+    {
+      "term": "to assimilate",
+      "definition": "to absorb into the main body of a society",
+      "match": "assimilated"
+    },
+    {
+      "term": "incompatible with",
+      "definition": "unable to exist together with"
+    },
+    {
+      "term": "allegiance",
+      "definition": "loyalty owed to a ruler, country or cause"
+    },
+    {
+      "term": "to depress",
+      "definition": "to push downwards"
+    },
+    {
+      "term": "to reclassify",
+      "definition": "to put into a different category",
+      "match": "reclassified"
+    },
+    {
+      "term": "a famine",
+      "definition": "an extreme and widespread shortage of food"
+    },
+    {
+      "term": "a proposition",
+      "definition": "a statement put forward for acceptance"
+    },
+    {
+      "term": "to bar",
+      "definition": "to forbid entry to"
+    },
+    {
+      "term": "eugenics",
+      "definition": "the discredited movement to improve a population by controlling who reproduces"
+    },
+    {
+      "term": "consequential",
+      "definition": "having important results"
+    },
+    {
+      "term": "a quota",
+      "definition": "a fixed limited number permitted",
+      "match": "quotas"
+    },
+    {
+      "term": "to predate",
+      "definition": "to come before in time",
+      "match": "predated"
+    },
+    {
+      "term": "a statute",
+      "definition": "a written law passed by a legislature"
+    },
+    {
+      "term": "repeal",
+      "definition": "the official cancellation of a law"
+    },
+    {
+      "term": "reunification",
+      "definition": "the bringing back together of a family or a country"
+    },
+    {
+      "term": "to compound",
+      "definition": "to grow by building on its own results",
+      "match": "compounded"
+    },
+    {
+      "term": "demographic",
+      "definition": "relating to the structure of a population"
+    },
+    {
+      "term": "sceptically",
+      "definition": "with doubt rather than acceptance"
+    },
+    {
+      "term": "prior probability",
+      "definition": "how likely something is before the specific evidence is examined"
+    },
+    {
+      "term": "to overstate",
+      "definition": "to claim more than the evidence supports",
+      "match": "overstated"
+    },
+    {
+      "term": "indistinguishable",
+      "definition": "impossible to tell apart"
+    },
+    {
+      "term": "to debase",
+      "definition": "to lower the quality or dignity of",
+      "match": "debased"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-ima-comp",
+      "type": "reading-comprehension",
+      "title": "What a Pattern Can Prove",
+      "instructions": "This essay builds a historical pattern and then limits what it establishes. Track the limiting.",
+      "items": [
+        {
+          "id": "ima1",
+          "prompt": "What does the author say the phrase \"a nation of immigrants\" leaves out?",
+          "options": [
+            "The people already there and the people who arrived in chains",
+            "Recent arrivals",
+            "Immigrants who later returned home"
+          ],
+          "answerIndex": 0,
+          "explanation": "The two populations with the oldest claims on the country."
+        },
+        {
+          "id": "ima2",
+          "prompt": "What is the recurring claim made about each wave?",
+          "options": [
+            "That this group, unlike the earlier ones, cannot be assimilated",
+            "That the group is too small to matter",
+            "That the group will not stay"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the previous waves are reclassified as the good immigrants."
+        },
+        {
+          "id": "ima3",
+          "prompt": "On what grounds were Irish arrivals opposed?",
+          "options": [
+            "Religious: that Catholics owed allegiance to a foreign sovereign",
+            "Economic only",
+            "Linguistic"
+          ],
+          "answerIndex": 0,
+          "explanation": "The party built on that proposition won several state legislatures in the 1850s."
+        },
+        {
+          "id": "ima4",
+          "prompt": "What was distinctive about the 1882 law?",
+          "options": [
+            "It was the first federal law to bar a group defined by nationality",
+            "It was the first to set a numerical cap",
+            "It applied only to one state"
+          ],
+          "answerIndex": 0,
+          "explanation": "Chinese labourers had been recruited for the railroads and the mines."
+        },
+        {
+          "id": "ima5",
+          "prompt": "Why was the 1890 census chosen as the base for the 1924 quotas?",
+          "options": [
+            "Because it predated the arrivals the law was designed to stop",
+            "Because it was the most accurate",
+            "Because later censuses were incomplete"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"A statute whose technical machinery is the whole of its intent.\""
+        },
+        {
+          "id": "ima6",
+          "prompt": "What did the sponsors of the 1965 act predict?",
+          "options": [
+            "That the ethnic composition of immigration would not substantially change",
+            "That immigration would fall",
+            "That family preference would be little used"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"They were comprehensively wrong.\""
+        },
+        {
+          "id": "ima7",
+          "prompt": "What lesson does the author draw from that error?",
+          "options": [
+            "That they were sincere, expert and mistaken — not dishonest",
+            "That expertise is worthless",
+            "That the act should be repealed"
+          ],
+          "answerIndex": 0,
+          "explanation": "The point is about confident prediction, not about bad faith."
+        },
+        {
+          "id": "ima8",
+          "prompt": "What limit does the author place on the argument from pattern?",
+          "options": [
+            "It is an argument about prior probability, not a proof that no such prediction could be right",
+            "It applies only to Europe",
+            "It cannot be used in politics"
+          ],
+          "answerIndex": 0,
+          "explanation": "Scale, speed, labour markets and institutions are not constants."
+        },
+        {
+          "id": "ima9",
+          "prompt": "Which of these does the author say the record does establish?",
+          "options": [
+            "That assimilation ran in both directions, altering the receiving culture too",
+            "That immigration always raises wages",
+            "That quotas never work"
+          ],
+          "answerIndex": 0,
+          "explanation": "Along with the poor track record of incompatibility predictions."
+        },
+        {
+          "id": "ima10",
+          "prompt": "What two questions does the final paragraph separate?",
+          "options": [
+            "How many people to admit, and whether a given group can become American",
+            "Whether to admit refugees, and whether to admit workers",
+            "Who enforces the law, and who writes it"
+          ],
+          "answerIndex": 0,
+          "explanation": "The first is legitimate and is \"debased by being conducted in the language of the second\"."
+        }
+      ]
+    },
+    {
+      "id": "c2-ima-shape",
+      "type": "matching",
+      "title": "The Shape of the Argument",
+      "instructions": "Match each stage of the essay to what it does.",
+      "items": [
+        {
+          "id": "imam1",
+          "pairs": [
+            {
+              "left": "Opening",
+              "right": "Concedes what the national self-description leaves out"
+            },
+            {
+              "left": "Second to fourth paragraphs",
+              "right": "Establish the recurring claim and the laws built on it"
+            },
+            {
+              "left": "Fifth paragraph",
+              "right": "Shows expert sponsors confidently mispredicting their own law"
+            },
+            {
+              "left": "Sixth paragraph",
+              "right": "Limits the pattern to a claim about prior probability"
+            },
+            {
+              "left": "Close",
+              "right": "Separates a legitimate political question from a discredited one"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-ima-vocab",
+      "type": "vocabulary",
+      "title": "The Language of Argument",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "imav1",
+          "prompt": "How likely something is before the specific evidence is examined is its ___.",
+          "options": [
+            "prior probability",
+            "proximate cause",
+            "presumed outcome"
+          ],
+          "answerIndex": 0,
+          "explanation": "What an argument from historical pattern actually supplies."
+        },
+        {
+          "id": "imav2",
+          "prompt": "To claim more than the evidence supports is to ___.",
+          "options": [
+            "overstate",
+            "overreach of law",
+            "overturn"
+          ],
+          "answerIndex": 0,
+          "explanation": "Anybody presenting the pattern as a proof has overstated it."
+        },
+        {
+          "id": "imav3",
+          "prompt": "Loyalty owed to a ruler, country or cause is ___.",
+          "options": [
+            "allegiance",
+            "adherence",
+            "affiliation"
+          ],
+          "answerIndex": 0,
+          "explanation": "The charge made against Catholic arrivals in the 1850s."
+        },
+        {
+          "id": "imav4",
+          "prompt": "To lower the quality or dignity of something is to ___ it.",
+          "options": [
+            "debase",
+            "demote",
+            "detain"
+          ],
+          "answerIndex": 0,
+          "explanation": "The legitimate question is debased by the language of the other one."
+        },
+        {
+          "id": "imav5",
+          "prompt": "To grow by building on its own results is to ___.",
+          "options": [
+            "compound",
+            "comprise",
+            "compile"
+          ],
+          "answerIndex": 0,
+          "explanation": "Family preference compounded across networks."
+        },
+        {
+          "id": "imav6",
+          "prompt": "The official cancellation of a law is its ___.",
+          "options": [
+            "repeal",
+            "recall",
+            "remand"
+          ],
+          "answerIndex": 0,
+          "explanation": "The quotas stood from 1924 until their repeal in 1965."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The essay says the 1965 sponsors were sincere, expert and wrong. How should that affect your confidence in expert prediction about policy?",
+    "Is \"a nation of immigrants\" worth keeping as a phrase, given what the author says it excludes?",
+    "The author insists the pattern establishes a prior probability rather than a proof. Is that distinction respected in public debate?",
+    "\"Assimilation ran in both directions.\" What evidence of that can you see in a country you know well?",
+    "Write about 300 words setting out the strongest honest version of an immigration argument you disagree with."
+  ],
+  "audio": {
+    "duration_label": "4:31"
+  }
+}

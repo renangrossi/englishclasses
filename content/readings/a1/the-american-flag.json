@@ -9,6 +9,9 @@
   "description": "An A1 reading and listening text on the flag of the United States: what the stripes and stars mean, how the flag changed, and the student who designed the one we see today.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "grammar": [
+    "past-simple"
+  ],
   "passage": [
     "The American flag has three colours: red, white and blue.",
     "It has thirteen stripes. Seven are red and six are white. The thirteen stripes are the first thirteen states.",

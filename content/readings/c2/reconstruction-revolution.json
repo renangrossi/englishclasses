@@ -1,0 +1,386 @@
+{
+  "id": "c2-reading-reconstruction-revolution",
+  "level": "C2",
+  "slug": "reconstruction-revolution",
+  "order": 103,
+  "topic": "history",
+  "title": "Reconstruction: A Revolution That Did Not Last",
+  "subtitle": "For fifty years it was taught as a disaster inflicted on the defeated South. The question is not only what happened, but what it cost that the history was written that way.",
+  "description": "A C2 reading and listening text on Reconstruction and its historiography: what was actually achieved, how it was defeated, how the Dunning School made that defeat respectable, and what it means that a history can have consequences of its own.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "grammar": [
+    "passive",
+    "past-simple",
+    "modals",
+    "comparatives",
+    "relative-clauses"
+  ],
+  "passage": [
+    "The word usually attached to Reconstruction is failure, and the word does a particular kind of work. Failure is intransitive. It suggests something that collapsed under its own weight, a well-meant experiment that proved unworkable. Almost everything we now know about the period indicates that it did not fail in that sense. It was defeated, which is a sentence that requires an agent.",
+    "Consider first what there was to defeat. Within a decade of the war, some two thousand Black men held public office in the South, from constable to United States senator. Black and white Republicans wrote state constitutions that established public schools where none had existed for anyone. Literacy among the formerly enslaved rose faster in those years than in any comparable period. Black churches, schools and newspapers were founded in numbers that make the period one of the most remarkable episodes of institution-building in American history. This was not a programme imposed on a passive population; it was substantially built by the people it concerned.",
+    "The defeat was neither mysterious nor gradual at first. It was conducted by organised armed violence, directed with precision at voters, officeholders and teachers. At Colfax, Louisiana, in 1873, a Black militia defending a courthouse was overwhelmed and most of those who surrendered were killed. When the federal government prosecuted under the Enforcement Acts, the Supreme Court held in 1876 that the Fourteenth Amendment restrained states rather than individuals, and that the prosecutions therefore could not stand. The judgment did not require anybody to approve of the massacre. It simply removed the instrument by which the federal government could answer it.",
+    "The political settlement followed the legal one. The disputed election of 1876 was resolved by an arrangement that put a Republican in the White House and withdrew the remaining federal troops from the South, and the apparatus of disfranchisement — poll taxes, literacy tests administered at the registrar's discretion, grandfather clauses — was assembled over the following twenty-five years with results that can be read off the registration rolls. In Louisiana, Black registered voters fell from about 130,000 in 1896 to roughly 1,300 eight years later. That is not a society losing interest in voting.",
+    "Now the second half of the subject, which is the history of the history. From roughly 1900, the dominant academic account was produced by William Dunning and his students at Columbia, and it told the story as a tragedy of misrule: ignorant freedmen, corrupt northern adventurers, a prostrate white South eventually redeemed. This account was not confined to seminar rooms. It supplied the plot of the most commercially successful film of the silent era, it furnished the textbooks of several generations, and it provided the respectable language in which disfranchisement could be defended as a restoration of competent government rather than a seizure.",
+    "It is worth being precise about the mechanism, because this is the part that generalises. The scholarship did not merely record a political outcome; it stabilised it. A regime that must defend itself as a naked interest is in a weaker position than one that can cite the universities. W. E. B. Du Bois published a comprehensive refutation in 1935, documented to a standard the Dunning School never approached, and it was substantially ignored by the profession for thirty years. The revision that is now standard, consolidated in the 1980s, largely confirms what the ignored book said.",
+    "What follows from this is uncomfortable for anyone who likes to think of scholarship as downstream of politics. For half a century the causation ran in both directions: the politics produced the history, and the history then held the politics in place. One might say the same of any field in which the respectable account and the convenient account coincide for a long time, and the appropriate response is not cynicism about scholarship but a specific question to ask of it — who was not read, and what did they say?",
+    "The period also leaves a harder question than the one it is usually asked to answer. Reconstruction is often discussed as though its lesson were about the limits of what law can achieve. The record suggests something narrower and worse: that the law achieved a great deal, quickly, and was then dismantled by violence that the law declined to punish and by courts that read the amendments as narrowly as the words allowed. The failure was not of ambition. It was of enforcement, and enforcement is a choice that somebody makes every morning."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 5,
+      "alt": "A hand-drawn bar chart on aged card titled 'Number of Negro students taking the various courses of study offered in Georgia schools', the longest bar folding back on itself to fit the page",
+      "source": "commons:File:The Georgia Negro LCCN2013650436.jpg",
+      "caption": "One of the data portraits W. E. B. Du Bois and his students prepared for the 1900 Paris Exposition. Industrial training, 2,252 students; the classical course, 98. The bar is folded because the page could not hold it. Thirty-five years before the book that was ignored, he was already answering the question with evidence.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "intransitive",
+      "definition": "(of a verb) taking no object — here, naming no one who did it"
+    },
+    {
+      "term": "an agent",
+      "definition": "the person or body that performs an action"
+    },
+    {
+      "term": "a constable",
+      "definition": "a local officer of the law"
+    },
+    {
+      "term": "formerly enslaved",
+      "definition": "previously held in slavery"
+    },
+    {
+      "term": "institution-building",
+      "definition": "the founding of lasting organisations such as schools and churches"
+    },
+    {
+      "term": "a militia",
+      "definition": "an armed force raised from the civilian population"
+    },
+    {
+      "term": "to overwhelm",
+      "definition": "to defeat by superior force",
+      "match": "overwhelmed"
+    },
+    {
+      "term": "to restrain",
+      "definition": "to place limits on",
+      "match": "restrained"
+    },
+    {
+      "term": "an instrument",
+      "definition": "here, a legal means of acting"
+    },
+    {
+      "term": "a settlement",
+      "definition": "an arrangement ending a dispute"
+    },
+    {
+      "term": "an apparatus",
+      "definition": "a system of connected mechanisms for a purpose"
+    },
+    {
+      "term": "disfranchisement",
+      "definition": "the removal of the right to vote"
+    },
+    {
+      "term": "a poll tax",
+      "definition": "a payment required in order to vote"
+    },
+    {
+      "term": "discretion",
+      "definition": "the freedom to decide something as one judges best"
+    },
+    {
+      "term": "misrule",
+      "definition": "bad or dishonest government"
+    },
+    {
+      "term": "prostrate",
+      "definition": "lying flat; by extension, defeated and helpless"
+    },
+    {
+      "term": "to redeem",
+      "definition": "to recover or restore — the word the period's victors chose",
+      "match": "redeemed"
+    },
+    {
+      "term": "to furnish",
+      "definition": "to supply",
+      "match": "furnished"
+    },
+    {
+      "term": "a seizure",
+      "definition": "the taking of something by force"
+    },
+    {
+      "term": "to stabilise",
+      "definition": "to hold something steady",
+      "match": "stabilised"
+    },
+    {
+      "term": "a refutation",
+      "definition": "a demonstration that a claim is false"
+    },
+    {
+      "term": "to consolidate",
+      "definition": "to bring together into a settled whole",
+      "match": "consolidated"
+    },
+    {
+      "term": "downstream of",
+      "definition": "determined by something that comes before it"
+    },
+    {
+      "term": "to dismantle",
+      "definition": "to take apart piece by piece",
+      "match": "dismantled"
+    },
+    {
+      "term": "enforcement",
+      "definition": "the act of making people obey a law"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-rr-comp",
+      "type": "reading-comprehension",
+      "title": "Reading a Word Choice",
+      "instructions": "The essay turns on the difference between failing and being defeated. Track what each word hides or reveals.",
+      "items": [
+        {
+          "id": "rr1",
+          "prompt": "Why does the author object to the word \"failure\"?",
+          "options": [
+            "It is intransitive and so names no agent",
+            "It is too strong",
+            "It is a modern term"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"It was defeated, which is a sentence that requires an agent.\""
+        },
+        {
+          "id": "rr2",
+          "prompt": "What does the author emphasise about who built the new institutions?",
+          "options": [
+            "They were substantially built by the people they concerned, not imposed on them",
+            "They were built entirely by northern officials",
+            "They were built by the federal army"
+          ],
+          "answerIndex": 0,
+          "explanation": "Two thousand Black officeholders, and schools, churches and newspapers founded in large numbers."
+        },
+        {
+          "id": "rr3",
+          "prompt": "What did the Supreme Court hold in 1876 about the Fourteenth Amendment?",
+          "options": [
+            "That it restrained states rather than individuals, so the prosecutions could not stand",
+            "That the massacre had not occurred",
+            "That Louisiana had acted lawfully"
+          ],
+          "answerIndex": 0,
+          "explanation": "It removed the instrument by which the federal government could answer such violence."
+        },
+        {
+          "id": "rr4",
+          "prompt": "What figure does the author use to show the scale of disfranchisement?",
+          "options": [
+            "Black registered voters in Louisiana fell from about 130,000 to roughly 1,300 in eight years",
+            "Turnout fell by half",
+            "Two thousand officeholders lost their seats"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"That is not a society losing interest in voting.\""
+        },
+        {
+          "id": "rr5",
+          "prompt": "What story did the Dunning School tell?",
+          "options": [
+            "A tragedy of misrule by ignorant freedmen and corrupt northerners, ending in redemption",
+            "A story of federal overreach corrected by Congress",
+            "A story of economic collapse"
+          ],
+          "answerIndex": 0,
+          "explanation": "It supplied the plot of the most commercially successful film of the silent era."
+        },
+        {
+          "id": "rr6",
+          "prompt": "What does the author say the scholarship did beyond recording an outcome?",
+          "options": [
+            "It stabilised the outcome by making it respectable",
+            "It predicted the outcome",
+            "It had no effect outside universities"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"A regime that must defend itself as a naked interest is in a weaker position than one that can cite the universities.\""
+        },
+        {
+          "id": "rr7",
+          "prompt": "What happened to Du Bois's 1935 account?",
+          "options": [
+            "It was substantially ignored by the profession for thirty years",
+            "It was immediately adopted",
+            "It was refuted by new evidence"
+          ],
+          "answerIndex": 0,
+          "explanation": "The now-standard revision largely confirms what the ignored book said."
+        },
+        {
+          "id": "rr8",
+          "prompt": "What does the author say about the direction of causation?",
+          "options": [
+            "Politics produced the history, and the history then held the politics in place",
+            "Scholarship is always downstream of politics",
+            "Scholarship is independent of politics"
+          ],
+          "answerIndex": 0,
+          "explanation": "The causation ran in both directions for half a century."
+        },
+        {
+          "id": "rr9",
+          "prompt": "What question does the author recommend asking of a field?",
+          "options": [
+            "Who was not read, and what did they say",
+            "Who funded the research",
+            "Which conclusions are most popular"
+          ],
+          "answerIndex": 0,
+          "explanation": "Offered as an alternative to general cynicism about scholarship."
+        },
+        {
+          "id": "rr10",
+          "prompt": "What is the \"narrower and worse\" lesson of the period?",
+          "options": [
+            "The law achieved a great deal and was then dismantled by unpunished violence and narrow courts",
+            "That law can never change a society",
+            "That ambition exceeded resources"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"The failure was not of ambition. It was of enforcement.\""
+        }
+      ]
+    },
+    {
+      "id": "c2-rr-shape",
+      "type": "matching",
+      "title": "The Shape of the Argument",
+      "instructions": "Match each stage of the essay to what it does.",
+      "items": [
+        {
+          "id": "rrm1",
+          "pairs": [
+            {
+              "left": "Opening",
+              "right": "Attacks the word \"failure\" for hiding the agent"
+            },
+            {
+              "left": "Second paragraph",
+              "right": "Establishes what was achieved, and by whom"
+            },
+            {
+              "left": "Third and fourth paragraphs",
+              "right": "Trace the defeat through violence, courts and the vote"
+            },
+            {
+              "left": "Fifth and sixth paragraphs",
+              "right": "Turn to the historiography and what it held in place"
+            },
+            {
+              "left": "Close",
+              "right": "Reframes the lesson as enforcement rather than ambition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-rr-vocab",
+      "type": "vocabulary",
+      "title": "The Language of Argument",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "rrv1",
+          "prompt": "The person or body that performs an action is the ___.",
+          "options": [
+            "agent",
+            "agency",
+            "actor of law"
+          ],
+          "answerIndex": 0,
+          "explanation": "The word \"failure\" is criticised for naming none."
+        },
+        {
+          "id": "rrv2",
+          "prompt": "The removal of the right to vote is ___.",
+          "options": [
+            "disfranchisement",
+            "disqualification",
+            "dissolution"
+          ],
+          "answerIndex": 0,
+          "explanation": "Assembled through poll taxes, literacy tests and grandfather clauses."
+        },
+        {
+          "id": "rrv3",
+          "prompt": "A demonstration that a claim is false is a ___.",
+          "options": [
+            "refutation",
+            "repudiation",
+            "retraction"
+          ],
+          "answerIndex": 0,
+          "explanation": "Du Bois published one in 1935 and it was ignored."
+        },
+        {
+          "id": "rrv4",
+          "prompt": "The freedom to decide something as one judges best is ___.",
+          "options": [
+            "discretion",
+            "discrimination",
+            "disclosure"
+          ],
+          "answerIndex": 0,
+          "explanation": "Literacy tests were administered at the registrar's discretion — which was the point of them."
+        },
+        {
+          "id": "rrv5",
+          "prompt": "To take something apart piece by piece is to ___ it.",
+          "options": [
+            "dismantle",
+            "diminish",
+            "disperse"
+          ],
+          "answerIndex": 0,
+          "explanation": "The law was dismantled rather than defeated in argument."
+        },
+        {
+          "id": "rrv6",
+          "prompt": "Determined by something that comes before it is ___ it.",
+          "options": [
+            "downstream of",
+            "upstream of",
+            "adjacent to"
+          ],
+          "answerIndex": 0,
+          "explanation": "The essay denies that scholarship is only ever downstream of politics."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "\"Failure is intransitive.\" What other political events are routinely described with verbs that name no agent?",
+    "The essay says the Dunning School stabilised an outcome it claimed only to describe. Can scholarship avoid doing this?",
+    "Du Bois's book was documented better than the work that displaced it and was ignored anyway. What would have had to change for it to be read?",
+    "Is \"the failure was of enforcement\" a more useful lesson than \"the law has limits\"? Who does each lesson serve?",
+    "Write about 300 words on a case where the accepted account of an event helped to keep its outcome in place."
+  ],
+  "audio": {
+    "duration_label": "4:30"
+  }
+}

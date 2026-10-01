@@ -30,7 +30,16 @@
     "In the evening I called my friend Marcus, who knows more about this than I do, and told him what I had bought. He said the laptop was a good choice and asked why I had bought the watch. I said I did not entirely know. We talked for half an hour about whether any of it was necessary, which is a conversation we have had before and will have again.",
     "The next morning the new laptop arrived and did in ninety seconds what the old one had stopped being able to do at all. I have not spoken to Marcus about the watch since."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A shop window display of 1920s radio sets, lettered Standard Radio Sets, RCA, Atwater Kent and J. Fred Huber Radio",
+      "source": "commons:File:J. Fred Huber Radio, window LCCN2016826306.jpg",
+      "caption": "A radio dealer's window — National Photo Company. The same errand as the one in this text, with the technology moved on by a century.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "to put off",

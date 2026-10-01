@@ -27,7 +27,16 @@
     "“Long,” she says. “And the man next to me talked for two hours.”",
     "We walk to the car. Outside it is cold and dark, and it is good to have her here."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "An airport terminal window with people standing at the glass, watching an airliner parked on the apron outside",
+      "source": "commons:File:Terminal waiting room Washington National Airport 1941 LOC fsa.8a36226.jpg",
+      "caption": "Washington National Airport, 1941 — Jack Delano for the Farm Security Administration. The waiting side of the glass, which is where this text takes place.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "plane",

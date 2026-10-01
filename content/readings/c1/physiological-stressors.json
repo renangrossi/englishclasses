@@ -26,6 +26,16 @@
     "The sixth is fluid and electrolyte balance, which is critical during prolonged exercise and easy to get wrong in either direction. Poor hydration practice can produce dehydration or, at the other extreme, hyponatremia — sodium diluted below the level the body needs. Both disrupt cellular fluid balance, impair cognition, cause disorientation and lead to vomiting. In severe cases they bring muscle cramps and abdominal discomfort, and compromise the brain's ability to maintain consciousness. Sodium depletion in particular interferes with neural signaling, and can produce nausea and confusion on its own.",
     "Exercise-induced vomiting and near-syncope, then, are the visible end of a combination of mechanical, cardiovascular and neurological factors. As the body struggles to meet the demands of a prolonged run, several systems become overstressed at once, and the symptoms cascade. Understanding the interaction — between oxygen delivery, temperature regulation, metabolic stability and neural coordination — is also what explains why preparation, training and pacing prevent these outcomes far more reliably than toughness does."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A photograph of the marathon runner Dorando Pietri at the finish, barely upright, being supported and guided by officials",
+      "source": "commons:File:Dorando Pietri 1908.jpg",
+      "caption": "Dorando Pietri at the end of the 1908 Olympic marathon. He was helped across the line and disqualified for it. This is what the six systems in this text look like when they stop coping.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "syncope",

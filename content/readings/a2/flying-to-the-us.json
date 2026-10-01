@@ -60,7 +60,16 @@
     "Officer: That's fine. Thank you — enjoy your trip.",
     "You: Thank you very much."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 17,
+      "alt": "A crowd of people standing around a propeller airliner on an airfield in 1935",
+      "source": "commons:File:1935 - United Airlines begins service to Allentown Airport.jpg",
+      "caption": "The first United Airlines service into Allentown, 1935. Flying was still something a town turned out to watch.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "round trip",

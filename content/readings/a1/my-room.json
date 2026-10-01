@@ -25,7 +25,16 @@
     "In the bedroom we have a bed, a desk, and a chair. Jack works there every day. The window is on the street, so we hear the buses.",
     "It is not big. But it is warm, it is near the park, and it is ours."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A woman sitting in an armchair in a small living room, with a dresser, a lamp, framed photographs and a radio",
+      "source": "commons:File:Mrs. Marianna Costanzo in the living room of her apartment on Waverly Place8d11560v.jpg",
+      "caption": "A living room on Waverly Place, New York, 1942 — Marjory Collins for the Office of War Information. Three rooms, and everything in them.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "next to",

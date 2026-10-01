@@ -29,7 +29,16 @@
     "I give him his coffee. “Here you go. It's on me today. Welcome to the building.”",
     "“Thank you,” he says. “See you later, Emma.”"
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "The long counter of a drug store soda fountain, staff in white jackets behind it and stools in front",
+      "source": "commons:File:Interior of People's Drug Store, 11th and G Streets, Washington, D.C., with employees behind the counter of soda fountain and customers LCCN2001701747.jpg",
+      "caption": "The soda fountain at People's Drug Store, Washington D.C. — National Photo Company. A counter, a row of stools, and somebody new coming through the door.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "near",

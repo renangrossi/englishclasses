@@ -23,6 +23,16 @@
     "The wheels and tyres are the only parts of a car that touch the road, and every force — accelerating, braking, cornering — passes through four contact patches each about the size of a hand. Tyre condition therefore matters more than most drivers assume. Inside the wheels are the brakes: a disc that turns with the wheel, and a caliper that squeezes pads against it. The friction converts the car's movement into heat, which is why brakes get extremely hot and why they fade when used hard for too long.",
     "Finally there is the cabin and its controls. The steering system turns the wheel's rotation into movement at the front wheels through a rack and pinion. The dashboard reports what the car is doing. Modern cars add a great deal more — screens, climate control, cameras, sensors that brake for you if you do not — but the underlying six systems are unchanged. The car still burns or stores energy, converts it to rotation, sends it to the wheels, holds itself together, stays in contact with the road, and stops."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A photograph of a car engine with the chain case removed, showing the gears and chain that drive the generator and camshaft",
+      "source": "commons:File:Handley-Knight-Engine 1920.jpg",
+      "caption": "A 1920 Handley-Knight engine with the chain case off. Almost every part this text names is somewhere in this picture.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "cylinder",

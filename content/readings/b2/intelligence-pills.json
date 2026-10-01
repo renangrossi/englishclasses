@@ -26,7 +26,16 @@
     "The risks are the part that gets least attention and probably deserves most. These are prescription drugs with real side effects — dependence, cardiovascular strain, disrupted sleep, which is particularly self-defeating when the point was to study — and long-term data on healthy young users barely exists, because that study has not been done. Somebody taking modafinil the night before an exam is running a small experiment on themselves with no control group.",
     "None of which means the prediction is wrong. It means it has been presented backwards. The interesting question was never whether people would take these drugs, because some already do. It is what a society does when the advantage is real, modest, unequally available and impossible to detect."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "The interior of a pharmacy around 1900, with long wooden counters and shelves of labelled bottles along both walls",
+      "source": "commons:File:Stewart's Pharmacy interior, ca 1900 (SEATTLE 282).jpg",
+      "caption": "Stewart's Pharmacy, Seattle, around 1900. Everything on these shelves was sold to somebody who wanted to feel better than they did.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "to circulate",

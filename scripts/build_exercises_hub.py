@@ -163,13 +163,23 @@ def filter_bar(code, built):
     replaced. A tag is only offered if at least two texts in this level carry
     it: a filter that returns a single card is a worse answer than not being
     offered the question, and it makes the level look thinner than it is.
-    Subject topics come first because that is what most people browse by."""
+    Subject comes first because that is what most people browse by.
+
+    Within each group the chips are **alphabetical by the label the student
+    reads**. They used to be ordered by an editorial topic sequence and by hit
+    count, which is a ranking only the person who built it can see: with twelve
+    chips in a row, the eye needs somewhere predictable to look."""
     from collections import Counter
     counts = Counter(t for _, _, d in built for t in tag_list(d))
-    topics = [(t, n) for t, n in counts.items() if t.startswith("topic:") and n >= 2]
-    gram = [(t, n) for t, n in counts.items() if t.startswith("g:") and n >= 2]
-    topics.sort(key=lambda x: (topic_rank(x[0].split(":", 1)[1]), x[0]))
-    gram.sort(key=lambda x: (-x[1], x[0]))
+
+    def labelled(prefix, label_of):
+        rows = [(label_of(t.split(":", 1)[1]), t, n)
+                for t, n in counts.items() if t.startswith(prefix) and n >= 2]
+        rows.sort(key=lambda r: r[0].lower())
+        return rows
+
+    topics = labelled("topic:", lambda k: rc.TOPIC_LABELS.get(k, k.title()))
+    gram = labelled("g:", lambda k: tag_grammar.LABELS.get(k, k))
     if not topics and not gram:
         return ""
 
@@ -178,15 +188,21 @@ def filter_bar(code, built):
                 f'aria-pressed="false">{esc(label)}'
                 f'<span class="tag-chip__n">{n}</span></button>')
 
+    def group(name, rows):
+        # The label sits on its own line above its chips rather than beside
+        # them. Side by side, the two groups read as one cloud of tags, and a
+        # student clicking "Travel" and "Past Simple" cannot see that those
+        # two things combine differently from two subjects.
+        return (f'<div class="tag-row"><p class="tag-row__label">{name}</p>'
+                f'<div class="tag-row__chips">'
+                + "".join(chip(t, n, label) for label, t, n in rows)
+                + "</div></div>")
+
     groups = ""
     if topics:
-        groups += ('<div class="tag-row"><span class="tag-row__label">Subject</span>'
-                   + "".join(chip(t, n, rc.TOPIC_LABELS.get(t.split(":", 1)[1], t.split(":", 1)[1].title()))
-                             for t, n in topics) + "</div>")
+        groups += group("Subject", topics)
     if gram:
-        groups += ('<div class="tag-row"><span class="tag-row__label">Grammar</span>'
-                   + "".join(chip(t, n, tag_grammar.LABELS.get(t.split(":", 1)[1], t.split(":", 1)[1]))
-                             for t, n in gram) + "</div>")
+        groups += group("Grammar", gram)
     return (f'<div class="tag-filter" data-tag-filter="{esc(code)}">{groups}'
             f'<p class="tag-filter__status" data-tag-status role="status">'
             f'Showing all {len(built)} texts.</p>'

@@ -55,7 +55,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-149 images, imported with `scripts/import_local_artwork.py` from the local
+143 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -175,28 +175,22 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b2/formal-informal` | `01.jpg` | Pericles' Funeral Oration | `philipp-foltz-pericles-funeral-oration-1852.jpg` |
 | `b2/formula-1` | `01.jpg` | The Chariot Race | `alexander-von-wagner-the-chariot-race.jpeg` |
 | `b2/intelligence-pills` | `01.jpg` | The Oracle | `camillo-miola-c-the-oracle-1840-1919.jpeg` |
-| `b2/it-and-jiu-jitsu` | `01.jpg` | The Sword Dance | `henryk-siemiradzki-the-sword-dance-1887.jpg` |
 | `b2/it-interview` | `01.jpg` | The Studio of Phidias | `pierre-olivier-joseph-coomans-1816-1889-the-studio-of-phidias.jpg` |
 | `b2/north-sentinel-island` | `01.jpg` | Dutch Vessels and Fishermen on a Rocky Coast | `adam-willaerts-dutch-vessels-and-fishermen-on-a-rocky-coast.jpeg` |
 | `b2/north-sentinel-island` | `02.jpg` | View of the Island of Møn | `anton-eduard-kieldrup-view-of-the-island-of-mon-denmark-1849.jpg` |
 | `b2/phrasal-verbs-02-trip-abroad` | `01.jpg` | View of the Château de Versailles from the Avenue de Paris | `pierre-patel-view-of-the-chateau-de-versailles-and-the-gardens-from-the-avenue-de-paris-c-1668.jpeg` |
 | `b2/project-management-can-could-able-do-make` | `01.jpg` | Roman Senate Scene | `stefan-bakalowicz-roman-senate-scene.jpg` |
 | `b2/recent-advancements-in-it` | `01.jpg` | The Egyptian Court, Crystal Palace, Sydenham | `philip-henry-delamotte-the-egyptian-court-crystal-palace-sydenham-1854.jpeg` |
-| `b2/recent-advancements-in-it` | `02.jpg` | The Palaces of Nimroud Restored | `james-fergusson-the-palaces-of-nimroud-restored-1853.jpeg` |
 | `b2/romania` | `01.jpg` | Forest Landscape with Castle Ruins | `anton-hlavacek-forest-landscape-with-castle-ruins.jpeg` |
 | `b2/romania` | `02.jpg` | Vlad the Impaler's Night Attack at Târgoviște | `theodor-aman-draculas-night-attack-at-targoviste.jpg` |
 | `b2/sales-strategy` | `01.jpg` | Alexander the Great Receiving the Keys of Babylon | `johann-georg-platzer-alexander-the-great-receiving-keys-of-babylon.jpeg` |
 | `b2/the-marathon-and-the-wall` | `01.jpg` | The Heraean Games | `prospero-piatti-the-heraean-games-1901.jpg` |
 | `c1/attention-economy` | `01.jpg` | Public Exhibition of a Picture | `joan-ferrer-miro-1850-1931-public-exhibition-of-a-picture.jpg` |
 | `c1/haiti` | `01.jpg` | Seeing Off a Recruit | `ilya-efimovich-repin-seeing-off-a-recruit-1879.jpeg` |
-| `c1/it-management` | `01.jpg` | The Dining Room of Baron A. L. Stieglitz | `luigi-premazzi-the-dining-room-of-the-baron-a-l-stieglitz-1870.jpeg` |
-| `c1/it-management` | `02.jpg` | Attributes of Painting, Sculpture and Architecture | `anne-vallayer-coster-attributes-of-painting-sculpture-and-architecture-1769.jpeg` |
 | `c1/questionnaire-company-management` | `01.jpg` | A Roman Studio | `lawrence-alma-tadema-a-roman-studio-1874.jpg` |
 | `c1/real-estate` | `01.jpg` | Estes Park and Longs Peak | `albert-bierstadt-estes-park-and-longs-peak-c-1876.png` |
 | `c1/shadows-in-the-server-room` | `01.jpg` | A Nocturnal Fire | `egbert-van-der-poel-a-nocturnal-fire-1621-1664.jpg` |
-| `c1/shadows-in-the-server-room` | `02.jpg` | Reply of the Zaporozhian Cossacks | `ilya-repin-reply-of-the-zaporozhian-cossacks.jpeg` |
-| `c1/shadows-in-the-server-room` | `03.jpg` | The School of Athens | `raphael-the-school-of-athens.jpeg` |
-| `c1/technology-and-ethics` | `01.jpg` | The Oracle | `camillo-miola-c-the-oracle-1840-1919.jpeg` |
+| `c1/technology-and-ethics` | `01.jpg` | The Death of Icarus | `alexandre-cabanel-the-death-of-icarus.jpeg` |
 | `c1/the-cost-of-convenience` | `01.jpg` | Hanging Gardens of Babylon | `ferdinand-knab-hanging-gardens-of-babylon-1886.jpeg` |
 | `c1/the-meeting-problem` | `01.jpg` | After a Difficult Meeting | `eduard-von-grutzner-after-a-difficult-meeting-1892.jpeg` |
 | `c1/the-night-shift` | `01.jpg` | Effect of Fog and Snow Seen Through a Ruined Gothic Colonnade | `louis-daguerre-effect-of-fog-and-snow-seen-through-a-ruined-gothic-colonnade-1826.jpeg` |
@@ -213,7 +207,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-70 images the gallery could not answer -- flags, maps, photographs and
+73 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything that is not public domain.
 
@@ -259,13 +253,16 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b2/great-depression` | `01.jpg` | A bank run in Michigan, February 1933. A bank holds only part of its deposits as cash; the rest of this picture explains itself. | `File:Bank Run in Michigan, USA, February 1933.jpg` |
 | `b2/great-depression` | `02.jpg` | Migrant Mother | `File:Lange-MigrantMother02.jpg` |
 | `b2/great-depression` | `03.jpg` | A dust storm approaching Stratford, Texas, 1935. The soil in the air had been plowed grassland a decade earlier. | `File:Dust storm approaching Stratford, Texas.jpg` |
+| `b2/it-and-jiu-jitsu` | `01.jpg` | A jujutsu lock, from *Japanese Physical Training*, 1904. The whole point of the technique is that force applied in the wrong direction does the work for you | `File:Japanese Physical Training illustration 16.jpg` |
 | `b2/jackie-robinson` | `01.jpg` | Jackie Robinson, Brooklyn Dodgers, 1954 | `File:Jackie Robinson, Brooklyn Dodgers, 1954.jpg` |
+| `b2/recent-advancements-in-it` | `02.jpg` | ENIAC, around 1946 | `File:Classic shot of the ENIAC.jpg` |
 | `b2/reconstruction` | `01.jpg` | The First Vote | `File:"The first vote" by A.R. Waud Harper's Weekly 1867-11-16 Retrieved from the Library of Congress.jpg` |
 | `b2/reconstruction` | `02.jpg` | The first Black senator and representatives in Congress, printed in 1872. Within thirty years almost none of their voters were still on the rolls. | `File:First Colored Senator and Representatives.jpg` |
 | `b2/trail-of-tears` | `01.jpg` | Sequoyah with his syllabary | `File:Henry Inman - Sequoyah - Google Art Project.jpg` |
 | `b2/trail-of-tears` | `02.jpg` | West of the Mississippi, as mapped in 1804. This is where removal sent sixteen thousand people, on foot, in winter. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
 | `c1/apollo-11` | `01.jpg` | Buzz Aldrin on the surface | `File:Aldrin Apollo 11.jpg` |
 | `c1/apollo-11` | `02.jpg` | The Laser Ranging Retroreflector, photographed where it was left | `File:AS11-40-5952 - Apollo 11 - Apollo 11 Mission image - The Laser Ranging Retroreflector (LRRR) - NARA - 16685293.jpg` |
+| `c1/it-management` | `01.jpg` | The Banker and His Wife | `File:Marinus van Reymerswale - The Banker and His Wife - WGA19323.jpg` |
 | `c1/malcolm-x` | `01.jpg` | Malcolm X and Martin Luther King Jr. | `File:MLK and Malcolm X USNWR cropped.jpg` |
 | `c1/malcolm-x` | `02.jpg` | Malcolm X | `File:Malcolm X in 1964.jpg` |
 | `c1/martin-luther-king` | `01.jpg` | Martin Luther King Jr. at the March on Washington | `File:Civil Rights March on Washington, D.C. (Dr. Martin Luther King, Jr. and Mathew Ahmann in a crowd.) - NARA - 542015 - Restoration.jpg` |

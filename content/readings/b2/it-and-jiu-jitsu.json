@@ -31,10 +31,10 @@
   "images": [
     {
       "src": "01.jpg",
-      "after": 3,
-      "alt": "A dancer performing between swords on a terrace above the sea, watched closely by a seated audience",
-      "source": "henryk-siemiradzki-the-sword-dance-1887.jpg",
-      "caption": "*The Sword Dance* — Henryk Siemiradzki, 1887."
+      "after": 1,
+      "alt": "A 1904 photograph of two men in shirtsleeves demonstrating a jujutsu wrist and arm lock, one bent forward under the hold",
+      "source": "commons:File:Japanese Physical Training illustration 16.jpg",
+      "caption": "A jujutsu lock, from *Japanese Physical Training*, 1904. The whole point of the technique is that force applied in the wrong direction does the work for you — which is also the argument this text makes about the two kinds of problem."
     }
   ],
   "vocabulary": [

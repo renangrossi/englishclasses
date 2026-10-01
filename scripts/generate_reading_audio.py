@@ -36,28 +36,30 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import reading_common as rc
 
 
+# The pause between paragraphs is about 0.97s and CANNOT be changed from here.
+#
 # edge-tts takes plain text and builds its own SSML, so there is no <break> to
-# ask for -- the only lever on pacing is what the text itself contains. A blank
-# line between paragraphs gives about 0.43s, and extra blank lines do nothing
-# at all (they are collapsed). A line containing a single full stop is read as
-# silence rather than spoken, and each one adds almost exactly 0.2s:
+# ask for, and the obvious tricks do not work: a line holding a full stop, an
+# ellipsis, a dash, a row of commas and four blank lines were each measured
+# against this separator on a real three-paragraph passage, and all seven
+# produced byte-identical timing -- same gaps to the hundredth of a second,
+# same total duration. The service discards punctuation-only lines. Writing
+# "(pause)" does change it, by reading the word out loud.
 #
-#     paragraph break alone ....... 0.43s
-#     + one "." line .............. 0.63s
-#     + two ....................... 0.83s
-#     + three ..................... 1.03s   <- this
-#     + four ...................... 1.23s
+# A short artificial sample DOES respond to those tricks, which is how this was
+# got wrong once already: two one-sentence paragraphs gave 0.43s plain and
+# 1.03s with dot lines. Real paragraphs do not behave that way -- the service
+# already inserts about a second at a paragraph boundary in long-form text, and
+# nothing in the text budges it.
 #
-# Measured with ffmpeg silencedetect on en-US-EmmaNeural at +0%; the added
-# silence matches the growth in file duration exactly, so nothing is spoken.
-# A second is long enough for a learner following the text to find the next
-# paragraph without the recording starting to drag.
-PARAGRAPH_BREAK = "\n\n" + ".\n\n" * 3
+# Lengthening it further means editing the audio after the fact: ask edge-tts
+# for --write-subtitles, find the paragraph boundaries in the word timings, and
+# splice silence in with ffmpeg. That is a real feature, not a separator.
+PARAGRAPH_BREAK = "\n\n"
 
 
 def narration_text(d):
-    """What the narrator reads: the title, then the passage, with a one-second
-    pause between paragraphs (see PARAGRAPH_BREAK above).
+    """What the narrator reads: the title, then the passage.
 
     Asterisks around a title ("*Browder v. Gayle*") are typographic markup for
     the page, not something to say out loud, so they come off here."""

@@ -490,18 +490,30 @@ false friends added in house style (`"normal, usual — careful: it is not an in
 American spelling, with `hawker centre` and `Labour Party` protected. Word choice
 (`rubbish`/`trash`, `flat`/`apartment`) was deliberately left alone and reported.
 
-**Narration pacing.** The pause between paragraphs went from 0.43s to **1.03s**. edge-tts takes
-plain text and builds its own SSML, so there is no `<break>` to ask for; the lever is the text.
-Blank lines are collapsed and do nothing, but a line holding a single full stop is rendered as
-silence rather than spoken, and each adds almost exactly 0.2s — measured with ffmpeg
-`silencedetect`, with the added silence matching the growth in file duration exactly.
-`PARAGRAPH_BREAK` in `generate_reading_audio.py` is now `"\n\n" + ".\n\n" * 3`.
+**Narration pacing — a correction.** An attempt was made to lengthen the pause between
+paragraphs. It does not work, and the finding is worth keeping so nobody tries it again.
 
-> **The library currently has two pause lengths.** The 46 files re-recorded in this pass have the
-> 1s pause; the other 106 still have 0.43s and will report as stale until they are re-rendered,
-> which was the owner's instruction (remaining and future audio only). Clearing it is one command
-> and about ninety minutes:
-> `python3 scripts/generate_reading_audio.py --tts /tmp/rl-venv/bin/edge-tts`
+edge-tts takes plain text and builds its own SSML, so there is no `<break>` to ask for. Seven
+separators were measured against a real three-paragraph passage — a line holding a full stop,
+three such lines, an ellipsis, an em dash, a row of commas, four blank lines, and the plain
+paragraph break. **All seven produced identical timing**: the same gaps to the hundredth of a
+second and the same total duration (71.8s). The service discards punctuation-only lines. Writing
+`(pause)` does change it, by reading the word out loud.
+
+A short artificial sample *does* respond — two one-sentence paragraphs gave 0.43s plain and 1.03s
+with dot lines — which is exactly how this was got wrong the first time. Real paragraphs do not
+behave that way: the service already inserts about **0.97s** at a paragraph boundary in long-form
+text, measured across every level, and nothing in the text moves it.
+
+So the library already has a one-second pause between paragraphs, and always did. `PARAGRAPH_BREAK`
+is back to a plain blank line, with the measurements recorded next to it. Going beyond ~1s means
+editing the audio after the fact: ask edge-tts for `--write-subtitles`, locate the paragraph
+boundaries in the word timings, and splice silence in with ffmpeg. That is a real feature, not a
+separator.
+
+The 46 files re-recorded in this pass were rendered from text differing only by characters the
+service discards, so they are byte-for-byte what the reverted text produces; only the manifest
+needed correcting. The library has one pause length, not two.
 
 **Not changed, needs a decision.** Six decorative page banners are by living or recently-deceased
 artists (William George 1954, Robert McCall, Mort Künstler, Don Oelze, Howard Terpning, Tom

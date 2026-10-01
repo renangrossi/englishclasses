@@ -171,7 +171,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-74 images the gallery could not answer -- flags, maps, photographs and
+88 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything that is not public domain.
 
@@ -180,6 +180,9 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `a1/abraham-lincoln` | `01.jpg` | Abraham Lincoln, photographed by Alexander Gardner, 1863. | `File:Abraham Lincoln O-80 by Gardner, 1863.jpg` |
 | `a1/abraham-lincoln` | `02.jpg` | The Battle of Gettysburg | `File:Battle of Gettysburg, by Currier and Ives.png` |
 | `a1/george-washington` | `02.jpg` | George Washington* (the Athenaeum portrait) | `File:Gilbert Stuart - George Washington (The Athenaeum Portrait) - Google Art Project.jpg` |
+| `a1/going-to-the-airport` | `01.jpg` | Washington National Airport, 1941 | `File:Terminal waiting room Washington National Airport 1941 LOC fsa.8a36226.jpg` |
+| `a1/greetings-and-names` | `01.jpg` | The soda fountain at People's Drug Store, Washington D.C. | `File:Interior of People's Drug Store, 11th and G Streets, Washington, D.C., with employees behind the counter of soda fountain and customers LCCN2001701747.jpg` |
+| `a1/my-room` | `01.jpg` | A living room on Waverly Place, New York, 1942 | `File:Mrs. Marianna Costanzo in the living room of her apartment on Waverly Place8d11560v.jpg` |
 | `a1/statue-of-liberty` | `01.jpg` | Unveiling the Statue of Liberty | `File:EdwardMoran-UnveilingTheStatueofLiberty1886Large.jpg` |
 | `a1/statue-of-liberty` | `02.jpg` | Ellis Island, 1902. The island where ships from Europe stopped, a few hundred meters from the statue. | `File:Ellis island 1902.jpg` |
 | `a1/the-american-flag` | `01.jpg` | The flag of 1777: thirteen stripes and thirteen stars, one for each of the first states. | `File:Flag of the United States (1777-1795).svg` |
@@ -188,8 +191,10 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `a2/california-gold-rush` | `01.jpg` | Miners washing gravel with a “long tom”, California, around 1850. | `File:California gold miners with long tom.jpg` |
 | `a2/california-gold-rush` | `02.jpg` | Yerba Buena Cove, San Francisco, 1849. The crews had walked off to the gold fields and left the ships where they lay. | `File:Ships-abandoned-in-Yerba-Buena-Cove-San-Francisco-during-the-California-gold-rush.-1849.jpg` |
 | `a2/declaration-of-independence` | `02.jpg` | The document itself, now in Washington, D.C. The large signature at the top left of the names is John Hancock's. | `File:United States Declaration of Independence.jpg` |
+| `a2/flying-to-the-us` | `01.jpg` | The first United Airlines service into Allentown, 1935. Flying was still something a town turned out to watch. | `File:1935 - United Airlines begins service to Allentown Airport.jpg` |
 | `a2/oregon-trail` | `02.jpg` | Emigrants Crossing the Plains | `File:Emigrants Crossing the Plains, or The Oregon Trail (Albert Bierstadt), 1869.jpg` |
 | `a2/sacagawea` | `01.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
+| `a2/saying-and-telling` | `01.jpg` | A Piggly Wiggly store | `File:Interior view of a Piggly Wiggly self-service grocery store showing check out counter with cash registers LCCN92520726.jpg` |
 | `b1/a-day-in-the-office` | `01.jpg` | Interior with a Woman Standing | `File:Interior with a Woman Standing by Vilhelm Hammershøi, 1913.jpg` |
 | `b1/american-flag-symbols` | `01.jpg` | Join, or Die | `File:Benjamin Franklin - Join or Die.jpg` |
 | `b1/american-flag-symbols` | `02.jpg` | The Grand Union flag, or Continental Colors, used from late 1775. Thirteen colonies acting together | `File:Grand Union Flag.svg` |
@@ -201,15 +206,19 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b1/american-flag-symbols` | `08.jpg` | Fifteen stars and fifteen stripes, 1795–1818. This is the flag over Fort McHenry in 1814, and the only American flag ever to have more than thirteen stripes. | `File:Flag of the United States (1795-1818).svg` |
 | `b1/american-flag-symbols` | `09.jpg` | Fifty stars since 1960. Thirteen stripes, by the law of 1818, for the colonies that started it. | `File:Flag of the United States.svg` |
 | `b1/cachacas` | `01.jpg` | Harvesting the Sugar-Cane in Minas Gerais, Brazil | `File:Marianne North (1830-1890) - Harvesting the Sugar-Cane in Minas Geraes, Brazil - MN45 - Marianne North Gallery.jpg` |
+| `b1/cars-and-their-parts` | `01.jpg` | A 1920 Handley-Knight engine with the chain case off. Almost every part this text names is somewhere in this picture. | `File:Handley-Knight-Engine 1920.jpg` |
 | `b1/frederick-douglass` | `01.jpg` | Frederick Douglass in 1856. He sat for photographs constantly and deliberately: he was the most photographed American of the nineteenth century. | `File:Frederick Douglass ambrotype (1856).jpg` |
 | `b1/golden-gate-bridge-present-perfect` | `01.jpg` | The Golden Gate Bridge | `File:Golden Gate Bridge, HAER CA-31-4.jpg` |
 | `b1/hachiko` | `01.jpg` | Hachiko at Shibuya station, around 1933 | `File:Chuken Hachiko at Shibuya Station c1933.png` |
 | `b1/hachiko` | `02.jpg` | Hachiko, photographed in the 1930s. The folded left ear is how people at the station picked him out; it had been injured years earlier and never stood up again. | `File:Faithful Dog Hachiko Photo.png` |
 | `b1/harriet-tubman` | `01.jpg` | Harriet Tubman, photographed around 1868, about twenty years after her own escape. | `File:Harriet Tubman c1868-69.jpg` |
 | `b1/harriet-tubman` | `02.jpg` | The Underground Railroad | `File:The Underground Railroad by Charles T. Webber, 1893.jpg` |
+| `b1/kitchen-chaos` | `01.jpg` | A kitchen in a federal housing project, 1942 | `File:Federal housing project. Mrs. Leslie Atkins preparing dinner8d20971v.jpg` |
 | `b1/lewis-and-clark-unknown` | `02.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
 | `b1/lincoln-and-the-civil-war` | `01.jpg` | The Battle of Antietam | `File:Thure de Thulstrup - Battle of Antietam.jpg` |
 | `b1/louisiana-purchase` | `02.jpg` | Louisiana, mapped by Samuel Lewis in 1804. Notice how much of it is blank: this is the map the United States had just bought. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
+| `b1/nfl` | `01.jpg` | Princeton against Chicago, 1922. The game in this text, before the helmets, the television contracts and the league. | `File:1922 Princeton v. Chicago football game.jpg` |
+| `b1/say-speak-talk-tell-02` | `01.jpg` | A radio dealer's window | `File:J. Fred Huber Radio, window LCCN2016826306.jpg` |
 | `b1/transcontinental-railroad` | `02.jpg` | Promontory Summit, Utah, 10 May 1869. No Chinese worker appears in the photograph of the line they largely built. | `File:East and West Shaking hands at the laying of last rail Union Pacific Railroad - Restoration.jpg` |
 | `b1/transcontinental-railroad` | `03.jpg` | Chinese workers on the Central Pacific in the Sierra Nevada. At the peak they were about four out of five of the company's workforce. | `File:Chinese railroad workers sierra nevada.jpg` |
 | `b2/civil-war-nation-divided` | `01.jpg` | Pickett's Charge at Gettysburg | `File:Thure de Thulstrup - L. Prang and Co. - Battle of Gettysburg - Restoration by Adam Cuerden.jpg` |
@@ -218,8 +227,11 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b2/great-depression` | `01.jpg` | A bank run in Michigan, February 1933. A bank holds only part of its deposits as cash; the rest of this picture explains itself. | `File:Bank Run in Michigan, USA, February 1933.jpg` |
 | `b2/great-depression` | `02.jpg` | Migrant Mother | `File:Lange-MigrantMother02.jpg` |
 | `b2/great-depression` | `03.jpg` | A dust storm approaching Stratford, Texas, 1935. The soil in the air had been plowed grassland a decade earlier. | `File:Dust storm approaching Stratford, Texas.jpg` |
+| `b2/intelligence-pills` | `01.jpg` | Stewart's Pharmacy, Seattle, around 1900. Everything on these shelves was sold to somebody who wanted to feel better than they did. | `File:Stewart's Pharmacy interior, ca 1900 (SEATTLE 282).jpg` |
 | `b2/it-and-jiu-jitsu` | `01.jpg` | A jujutsu lock, from *Japanese Physical Training*, 1904. The whole point of the technique is that force applied in the wrong direction does the work for you | `File:Japanese Physical Training illustration 16.jpg` |
+| `b2/it-interview` | `01.jpg` | “A worried applicant waiting to be interviewed” | `File:Los Angeles, California. Lockheed Employment. A worried applicant waiting to be interviewed - NARA - 532210.jpg` |
 | `b2/jackie-robinson` | `01.jpg` | Jackie Robinson, Brooklyn Dodgers, 1954 | `File:Jackie Robinson, Brooklyn Dodgers, 1954.jpg` |
+| `b2/project-management-can-could-able-do-make` | `01.jpg` | Working through county land-use plans together | `File:Working on the county maps at the colored County Land Use Pl... (3110578334).jpg` |
 | `b2/recent-advancements-in-it` | `02.jpg` | ENIAC, around 1946 | `File:Classic shot of the ENIAC.jpg` |
 | `b2/reconstruction` | `01.jpg` | The First Vote | `File:"The first vote" by A.R. Waud Harper's Weekly 1867-11-16 Retrieved from the Library of Congress.jpg` |
 | `b2/reconstruction` | `02.jpg` | The first Black senator and representatives in Congress, printed in 1872. Within thirty years almost none of their voters were still on the rolls. | `File:First Colored Senator and Representatives.jpg` |
@@ -227,11 +239,13 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b2/trail-of-tears` | `02.jpg` | West of the Mississippi, as mapped in 1804. This is where removal sent sixteen thousand people, on foot, in winter. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
 | `c1/apollo-11` | `01.jpg` | Buzz Aldrin on the surface | `File:Aldrin Apollo 11.jpg` |
 | `c1/apollo-11` | `02.jpg` | The Laser Ranging Retroreflector, photographed where it was left | `File:AS11-40-5952 - Apollo 11 - Apollo 11 Mission image - The Laser Ranging Retroreflector (LRRR) - NARA - 16685293.jpg` |
+| `c1/haiti` | `01.jpg` | The Daily Times-Advocate, 22 August 1912. Every claim on this page is attributed, hedged or stated flat, and telling the three apart is what this text teaches. | `File:Times-Advocate-Front-Page-1912-08-22.jpg` |
 | `c1/it-management` | `01.jpg` | The Banker and His Wife | `File:Marinus van Reymerswale - The Banker and His Wife - WGA19323.jpg` |
 | `c1/malcolm-x` | `01.jpg` | Malcolm X and Martin Luther King Jr. | `File:MLK and Malcolm X USNWR cropped.jpg` |
 | `c1/malcolm-x` | `02.jpg` | Malcolm X | `File:Malcolm X in 1964.jpg` |
 | `c1/martin-luther-king` | `01.jpg` | Martin Luther King Jr. at the March on Washington | `File:Civil Rights March on Washington, D.C. (Dr. Martin Luther King, Jr. and Mathew Ahmann in a crowd.) - NARA - 542015 - Restoration.jpg` |
 | `c1/martin-luther-king` | `02.jpg` | Fire hoses turned on demonstrators in Birmingham, Alabama | `File:Firemen spraying protestors in Downtown Birmingham 01.jpg` |
+| `c1/physiological-stressors` | `01.jpg` | Dorando Pietri at the end of the 1908 Olympic marathon. He was helped across the line and disqualified for it. This is what the six systems in this text look like when they stop coping. | `File:Dorando Pietri 1908.jpg` |
 | `c1/rosa-parks` | `01.jpg` | Rosa Parks fingerprinted by Deputy Sheriff D. H. Lackey | `File:Rosa Parks being fingerprinted by Deputy Sheriff D.H. Lackey after being arrested on February 22, 1956, during the Montgomery bus boycott.jpg` |
 | `c1/rosa-parks` | `02.jpg` | Flyer circulated in Montgomery after the court order, 1956 | `File:Montgomery Improvement Association, flyer on bus desegregation, c. 1956 (NYPL).jpg` |
 | `c1/rosa-parks` | `03.jpg` | Rosa Parks on a Montgomery bus | `File:Rosa Parks on bus on December 21, 1956.jpg` |

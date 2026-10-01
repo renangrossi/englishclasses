@@ -25,7 +25,16 @@
     "At quarterback, the position that usually decides games, three names come up again and again: Joe Montana, who stayed calm in enormous moments; Tom Brady, who won more Super Bowls than any other player; and Peyton Manning, who was known for reading a defense almost like a coach. On defense, the linebacker Lawrence Taylor changed how the position was played, combining speed and strength in a way offenses had not had to deal with before.",
     "From a small league in the 1920s to a global business today, the NFL has kept its hold on American attention. You do not have to follow it closely to notice it, because in the United States the season, the rivalries and the Super Bowl are part of the calendar."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "A photograph of an American football game in progress, a ball carrier breaking through a line of players near the goalposts",
+      "source": "commons:File:1922 Princeton v. Chicago football game.jpg",
+      "caption": "Princeton against Chicago, 1922. The game in this text, before the helmets, the television contracts and the league.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "a bye week",

@@ -31,7 +31,16 @@
     "Douglas: I've worked in both small and large teams. I think communication is the thing that decides whether a team works, so I try to communicate clearly and often, and I'd rather over-share than let someone find out too late. I like collaborating, and I'm always willing to help a colleague who's stuck. In my last two jobs we used Git and Jira to manage and track our work, and I'm comfortable with agile methods like Scrum.",
     "Interviewer: Thank you for your time, and for sharing your experience with us. We'll be in touch soon."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A close photograph of a young man in a jacket and open-necked shirt, looking tense and slightly away from the camera",
+      "source": "commons:File:Los Angeles, California. Lockheed Employment. A worried applicant waiting to be interviewed - NARA - 532210.jpg",
+      "caption": "“A worried applicant waiting to be interviewed” — Rondal Partridge, Lockheed, Los Angeles. The archivist's own caption, and the only part of an interview nobody rehearses.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "the field",

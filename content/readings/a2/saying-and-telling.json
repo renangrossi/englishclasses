@@ -29,7 +29,16 @@
     "By Friday I could talk to customers without feeling nervous. I still could not answer everything, but I had learned to say \"Let me find out for you\" instead of guessing.",
     "On Friday evening, Diane told me I had done well. Then she said something I did not expect: \"Next week you can start training the new person.\" I laughed and told her I had only been there five days. She said that was exactly why — I still remembered what was confusing."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "The interior of a self-service grocery store, with long counters, shelves of goods and checkout registers at the front",
+      "source": "commons:File:Interior view of a Piggly Wiggly self-service grocery store showing check out counter with cash registers LCCN92520726.jpg",
+      "caption": "A Piggly Wiggly store — Clifford H. Poland. The checkout, the shelves and the manager: the first week of a job like the one in this text.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "to say something",

@@ -548,6 +548,12 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 /* A long reading title set at --step-4 ran the full banner width and read as a
    headline rather than a title. Held to a book's measure it keeps its shape. */
 .page-header__title { max-width: 26ch; text-wrap: balance; }
+
+/* A reading page's banner holds no heading: the text's own title sits above
+   the passage where it belongs. Without one the band only needs to be deep
+   enough for the level, the topic and the Print button. */
+.page-header--slim .page-header__inner { padding-top: var(--space-md); padding-bottom: var(--space-md); }
+.page-header--slim .page-header__actions { margin: var(--space-sm) 0 0; }
 .page-header__lede { color: var(--color-text-on-dark-muted); max-width: 62ch; margin-top: var(--space-sm); font-size: var(--step-1); }
 /* The instruction line demonstrates a highlighted word, and now does so on
    the dark banner -- the accent red used on white is far too dark there. */

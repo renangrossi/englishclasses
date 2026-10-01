@@ -337,28 +337,22 @@ READING_INTRO = ('Play the audio and follow along, then read it again on your ow
 
 
 def page_header(d):
-    """Level and topic, then the text's own title and subtitle, then Print.
+    """A thin band: where you are, and the one action the page offers.
 
-    The title used to sit below, opening the reading section, with a generic
-    "The Text" standing in for it up here. That gave every reading page a
-    banner shouting a label no reader needs, the real title a screen-width
-    later, and a document outline whose <h1> was buried in the third section.
-    The title is the heading of this page, so it is the banner's heading and
-    the page's only <h1>; the section below opens straight into the audio and
-    the prose it names.
+    The text's own title belongs immediately above the text, not up here -- a
+    title separated from its prose by a navigation bar is a title for the page
+    rather than for the reading. So the banner carries the level and topic and
+    the Print button, and nothing else. It used to carry a generic "The Text"
+    in display type, which was a heading that named nothing.
     """
     topic = rc.TOPIC_LABELS.get(d.get("topic", ""), "")
     eyebrow = f'{d["level"]} &middot; {esc(topic)}' if topic else d["level"]
-    sub = (f'<p class="page-header__lede">{esc(d["subtitle"])}</p>'
-           if d.get("subtitle") else "")
-    return f"""<div class="page-header">
+    return f"""<div class="page-header page-header--slim">
         {STARS_ROW}
         <div class="page-header__inner">
             <div class="page-header__text">
                 <p class="eyebrow hero__eyebrow">{eyebrow}</p>
-                <h1 class="page-header__title">{esc(d['title'])}</h1>
-                {sub}
-                <p class="page-header__actions print-hidden" style="margin-top:var(--space-md);">{PRINT_BTN}</p>
+                <p class="page-header__actions print-hidden">{PRINT_BTN}</p>
             </div>
         </div>
     </div>"""
@@ -449,13 +443,12 @@ def listen_and_read(d, level, slug):
     # already shows it (0:00 / 2:44) as soon as the metadata loads, so a
     # second copy in the prose was duplicate furniture. duration_label is
     # still recorded in the source JSON and still checked by the batch script.
-    # The title and subtitle are the page header's job now, so this section
-    # opens on the audio and the prose. Its heading is still a real <h2> for
-    # the document outline and for a screen reader moving by heading; it is
-    # just not repeated on screen under a title the reader has already passed.
+    # The title opens the section it names, directly above the audio and the
+    # prose, and is the page's only <h1>.
     return f"""<section id="listen-and-read" class="section" aria-labelledby="lr-heading">
         <div class="section__inner">
-            <h2 id="lr-heading" class="eyebrow eyebrow--as-heading">Reading</h2>
+            <h1 id="lr-heading" class="reading-title">{esc(d['title'])}</h1>
+            <p class="reading-subtitle">{esc(d['subtitle'])}</p>
             <p class="reading-intro print-hidden">{READING_INTRO}</p>
             <audio controls preload="metadata" src="{rc.audio_href(level, slug, REL)}">
                 <p>Your browser cannot play this audio. <a href="{rc.audio_href(level, slug, REL)}">Download the MP3</a> instead.</p>

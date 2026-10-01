@@ -243,16 +243,28 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
    the passage's own measure so it never breaks the column, and given the same
    restrained frame as the rest of the page. */
 .reading-figure {
-  /* Held to roughly half the 62ch measure and centred. An illustration in a
-     reading is an aside, not the subject; at full column width it stopped the
-     eye and pushed the next paragraph off the screen. */
+  /* Every plate in the library is set to the SAME HEIGHT, and its width
+     follows from its own proportions. That is the rule a well-set illustrated
+     book uses, and it is the one thing that makes a run of pictures look
+     deliberate: two landscape paintings in one text come out identical,
+     because they are the same shape, and a tall document is narrower than a
+     wide one for a reason the eye can see.
+
+     Width used to be set by hand, per image, with a "wide" flag in the JSON.
+     Nobody can apply that consistently across 180 pictures, and it showed --
+     ten texts carried two similar paintings at two different widths. There is
+     no flag now; there is a measurement. */
   margin: var(--space-lg) auto;
-  max-width: min(34ch, 100%);
+  max-width: 100%;
+  text-align: center;
 }
 .reading-figure img {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: auto;
   height: auto;
+  max-width: 100%;
+  /* The one number that governs every illustration on the site. */
+  max-height: var(--figure-height, 24rem);
   /* A gold frame with a cream mount inside it: the outer border is the frame,
      the padding is the mount, and the inset shadow draws the hairline where
      the mount meets the picture. --color-gold already darkens for dark mode. */
@@ -262,10 +274,15 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   border-radius: 2px;
   box-shadow: inset 0 0 0 1px rgb(169 129 45 / 35%), var(--shadow-sm);
 }
-/* An illustration a student has to read detail off -- a flag, a map, a
-   diagram -- gets the whole measure instead of half of it. Still the same
-   frame, so the page does not suddenly change register. */
+/* Kept so that pages built before the height rule still render; it no longer
+   changes the width, because the picture's own proportions decide that now. */
 .reading-figure--wide { max-width: 100%; }
+
+@media (max-width: 640px) {
+  /* On a phone the measure is the screen, so a tall plate would otherwise run
+     most of the viewport. */
+  .reading-figure { --figure-height: 17rem; }
+}
 
 .reading-figure figcaption {
   margin-top: 0.7em;
@@ -441,52 +458,30 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
 .vocab-term:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
 
 /* ---- Key Vocabulary ----------------------------------------------------
-   The same list answers three readers. Somebody skimming before they start
-   wants to see the words in one place. Somebody on a screen reader cannot
-   reach the hover tooltip at all -- every highlighted word in the passage
-   carries aria-describedby pointing at its entry here, which is what makes
-   the definitions audible. Somebody holding a printout has nothing to hover
-   over, and this is what prints (laid out in assets/css/reading-print.css).
+   The highlights in the passage are how a reader meets these words, so the
+   list is not shown on screen -- it would repeat, under the text, what the
+   text already carries.
 
-   It was hidden on screen for a while, on the argument that the tooltip had
-   replaced it. The tooltip replaces it only for a reader using a mouse. */
+   It stays in the DOM, hidden the accessible way rather than with
+   display:none, for two readers who cannot use a highlight. A screen reader
+   gets nothing from a CSS tooltip, so every highlighted word carries
+   aria-describedby pointing at its entry here, and that only works if the
+   entry is still in the accessibility tree. And paper has nothing to hover
+   over, so this is what prints (laid out in assets/css/reading-print.css). */
 .reading-glossary {
-  margin-top: var(--space-xl);
-  padding-top: var(--space-md);
-  border-top: var(--border-hairline);
-}
-.reading-glossary__heading {
-  font-size: var(--step-1);
-  margin: 0 0 var(--space-sm);
-}
-.reading-glossary__list {
-  list-style: none;
-  margin: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
   padding: 0;
-  /* Two columns once there is room for them; a glossary is a reference list,
-     not prose, so a short measure reads faster than a long one. */
-  columns: 2;
-  column-gap: var(--space-xl);
-  max-width: 76ch;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
-@media (max-width: 720px) {
-  .reading-glossary__list { columns: 1; }
-}
-.reading-glossary__list li {
-  break-inside: avoid;
-  margin: 0 0 0.75em;
-  padding: 0;
-  font-size: var(--step--1);
-  line-height: var(--leading-normal);
-}
-.reading-glossary__list strong { color: var(--color-text); }
-.reading-glossary__def { color: var(--color-text-muted); }
+/* The dash between a headword and its definition is punctuation, not styling:
+   without it the printed glossary runs the two together. */
 .reading-glossary__def::before { content: "\2014\00a0"; }
-/* The target of an aria-describedby jump should be findable by eye too. */
-.reading-glossary__list li:target {
-  background: var(--color-surface-alt, rgb(169 129 45 / 12%));
-  border-radius: var(--radius-sm);
-}
 
 /* Item-level feedback (shown after submit) */
 .item-feedback {

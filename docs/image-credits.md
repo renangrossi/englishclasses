@@ -55,7 +55,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-153 images, imported with `scripts/import_local_artwork.py` from the local
+150 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -119,7 +119,6 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b1/arriving-in-johannesburg` | `01.jpg` | Cape Mountain Landscape | `gabriel-cornelis-de-jongh-cape-mountain-landscape.jpeg` |
 | `b1/arriving-in-johannesburg` | `02.jpg` | View Through an Archway | `bartholomeus-johannes-van-hove-view-through-an-archway-1790-1880.jpeg` |
 | `b1/beers` | `01.jpg` | In the Monastery Cellar | `eduard-von-grutzner-in-the-monastery-cellar-1878.jpeg` |
-| `b1/cachacas` | `01.jpg` | Bringing in the Grapes | `williams-penry-bringing-in-the-grapes.jpg` |
 | `b1/cachacas` | `02.jpg` | Interior of a Hammersmith | `hugo-charlemont-interior-of-a-hammersmith-1883.jpg` |
 | `b1/cars` | `01.jpg` | The Horse Fair | `rosa-bonheur-the-horse-fair-c-1855.jpeg` |
 | `b1/cars` | `02.jpg` | The Montgolfier brothers' balloon | `claude-louis-desrais-montgolfier-brothers-hot-air-balloon.jpg` |
@@ -133,12 +132,10 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b1/do-make-livestock-farming` | `02.jpg` | The Gleaners | `jean-francois-millet-the-gleaners-1857.jpeg` |
 | `b1/glamping` | `01.jpg` | Camping for the Night on Mansfield Mountain | `sanford-robinson-gifford-camping-for-the-night-on-mansfield-mountain.jpeg` |
 | `b1/golden-gate-bridge-present-perfect` | `01.jpg` | The Opening of Tower Bridge | `wyllie-william-lionel-the-opening-of-tower-bridge.jpg` |
-| `b1/golden-gate-bridge-present-perfect` | `02.jpg` | Landseer modelling one of the lions for Nelson's Column | `john-ballantyne-1815-1897-scottish-portrait-and-history-painter-edwin-henry-landseer-1802-1873-english-painter-and-sculptor-modelling-one-of-the-lions-for-the-base-of-nelsons-column-in-trafalgar-square.jpeg` |
-| `b1/hachiko` | `01.jpg` | The Spiral Hall at the Temple of Five Hundred Arhats | `kitao-shigemas-the-spiral-hall-at-the-temple-of-five-hundred-arhats-in-honjo-fifth-ward.jpeg` |
-| `b1/hachiko` | `02.jpg` | The Faithful Servant | `john-sargent-noble-the-faithful-servant.jpeg` |
+| `b1/golden-gate-bridge-present-perfect` | `02.jpg` | Landseer modeling one of the lions for Nelson's Column | `john-ballantyne-1815-1897-scottish-portrait-and-history-painter-edwin-henry-landseer-1802-1873-english-painter-and-sculptor-modelling-one-of-the-lions-for-the-base-of-nelsons-column-in-trafalgar-square.jpeg` |
 | `b1/investigation-story` | `01.jpg` | A Game of Piquet | `ernest-meissonier-a-game-of-piquet-1861.jpeg` |
 | `b1/investigation-story` | `02.jpg` | A Moonlit Night | `august-piepenhagen-a-moonlit-night.jpg` |
-| `b1/investigation-story` | `03.jpg` | Lost Honour | `eduard-schulz-briesen-lost-honour.jpeg` |
+| `b1/investigation-story` | `03.jpg` | Lost Honor | `eduard-schulz-briesen-lost-honour.jpeg` |
 | `b1/kitchen-chaos` | `01.jpg` | The Dinner at the Ball | `adolph-von-menzel-the-dinner-at-the-ball-1878.jpg` |
 | `b1/lewis-and-clark-unknown` | `01.jpg` | Among the Sierra Nevada Mountains | `albert-bierstadt-among-the-sierra-nevada-mountains-1868.jpg` |
 | `b1/louisiana-purchase` | `01.jpg` | The Falls of St Anthony | `albert-bierstadt-the-falls-of-st-anthony-1887.jpg` |
@@ -196,7 +193,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `c1/it-management` | `01.jpg` | The Dining Room of Baron A. L. Stieglitz | `luigi-premazzi-the-dining-room-of-the-baron-a-l-stieglitz-1870.jpeg` |
 | `c1/it-management` | `02.jpg` | Attributes of Painting, Sculpture and Architecture | `anne-vallayer-coster-attributes-of-painting-sculpture-and-architecture-1769.jpeg` |
 | `c1/questionnaire-company-management` | `01.jpg` | A Roman Studio | `lawrence-alma-tadema-a-roman-studio-1874.jpg` |
-| `c1/real-estate` | `01.jpg` | Dordrecht | `elias-pieter-van-bommel-dordrecht-1871.jpg` |
+| `c1/real-estate` | `01.jpg` | Estes Park and Longs Peak | `albert-bierstadt-estes-park-and-longs-peak-c-1876.png` |
 | `c1/shadows-in-the-server-room` | `01.jpg` | A Nocturnal Fire | `egbert-van-der-poel-a-nocturnal-fire-1621-1664.jpg` |
 | `c1/shadows-in-the-server-room` | `02.jpg` | Reply of the Zaporozhian Cossacks | `ilya-repin-reply-of-the-zaporozhian-cossacks.jpeg` |
 | `c1/shadows-in-the-server-room` | `03.jpg` | The School of Athens | `raphael-the-school-of-athens.jpeg` |
@@ -217,7 +214,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-66 images the gallery could not answer -- flags, maps, photographs and
+69 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything that is not public domain.
 
@@ -227,7 +224,7 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `a1/abraham-lincoln` | `02.jpg` | The Battle of Gettysburg | `File:Battle of Gettysburg, by Currier and Ives.png` |
 | `a1/george-washington` | `02.jpg` | George Washington* (the Athenaeum portrait) | `File:Gilbert Stuart - George Washington (The Athenaeum Portrait) - Google Art Project.jpg` |
 | `a1/statue-of-liberty` | `01.jpg` | Unveiling the Statue of Liberty | `File:EdwardMoran-UnveilingTheStatueofLiberty1886Large.jpg` |
-| `a1/statue-of-liberty` | `02.jpg` | Ellis Island, 1902. The island where ships from Europe stopped, a few hundred metres from the statue. | `File:Ellis island 1902.jpg` |
+| `a1/statue-of-liberty` | `02.jpg` | Ellis Island, 1902. The island where ships from Europe stopped, a few hundred meters from the statue. | `File:Ellis island 1902.jpg` |
 | `a1/the-american-flag` | `01.jpg` | The flag of 1777: thirteen stripes and thirteen stars, one for each of the first states. | `File:Flag of the United States (1777-1795).svg` |
 | `a1/the-american-flag` | `02.jpg` | The flag today. Same thirteen stripes, fifty stars. | `File:Flag of the United States.svg` |
 | `a2/boston-tea-party` | `01.jpg` | The Destruction of Tea at Boston Harbor | `File:Boston Tea Party Currier colored.jpg` |
@@ -245,7 +242,10 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b1/american-flag-symbols` | `07.jpg` | The Bennington design, photographed on a modern flag. It is traditionally tied to the battle of 1777, but the surviving historic flag is machine-woven and is now usually dated to the early nineteenth century. | `File:Bennington-Battle-Flag.jpg` |
 | `b1/american-flag-symbols` | `08.jpg` | Fifteen stars and fifteen stripes, 1795–1818. This is the flag over Fort McHenry in 1814, and the only American flag ever to have more than thirteen stripes. | `File:Flag of the United States (1795-1818).svg` |
 | `b1/american-flag-symbols` | `09.jpg` | Fifty stars since 1960. Thirteen stripes, by the law of 1818, for the colonies that started it. | `File:Flag of the United States.svg` |
+| `b1/cachacas` | `01.jpg` | Harvesting the Sugar-Cane in Minas Gerais, Brazil | `File:Marianne North (1830-1890) - Harvesting the Sugar-Cane in Minas Geraes, Brazil - MN45 - Marianne North Gallery.jpg` |
 | `b1/frederick-douglass` | `01.jpg` | Frederick Douglass in 1856. He sat for photographs constantly and deliberately: he was the most photographed American of the nineteenth century. | `File:Frederick Douglass ambrotype (1856).jpg` |
+| `b1/hachiko` | `01.jpg` | Hachiko at Shibuya station, around 1933 | `File:Chuken Hachiko at Shibuya Station c1933.png` |
+| `b1/hachiko` | `02.jpg` | Hachiko, photographed in the 1930s. The folded left ear is how people at the station picked him out; it had been injured years earlier and never stood up again. | `File:Faithful Dog Hachiko Photo.png` |
 | `b1/harriet-tubman` | `01.jpg` | Harriet Tubman, photographed around 1868, about twenty years after her own escape. | `File:Harriet Tubman c1868-69.jpg` |
 | `b1/harriet-tubman` | `02.jpg` | The Underground Railroad | `File:The Underground Railroad by Charles T. Webber, 1893.jpg` |
 | `b1/lewis-and-clark-unknown` | `02.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
@@ -255,10 +255,10 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b1/transcontinental-railroad` | `03.jpg` | Chinese workers on the Central Pacific in the Sierra Nevada. At the peak they were about four out of five of the company's workforce. | `File:Chinese railroad workers sierra nevada.jpg` |
 | `b2/civil-war-nation-divided` | `01.jpg` | Pickett's Charge at Gettysburg | `File:Thure de Thulstrup - L. Prang and Co. - Battle of Gettysburg - Restoration by Adam Cuerden.jpg` |
 | `b2/fdr-new-deal` | `01.jpg` | Roosevelt signs the Social Security Act, 14 August 1935 | `File:Signing Of The Social Security Act.jpg` |
-| `b2/fdr-new-deal` | `02.jpg` | A WPA poster. The agency employed artists to design the posters as well as labourers to build the roads. | `File:WPA-Work-Pays-America-Poster.jpg` |
+| `b2/fdr-new-deal` | `02.jpg` | A WPA poster. The agency employed artists to design the posters as well as laborers to build the roads. | `File:WPA-Work-Pays-America-Poster.jpg` |
 | `b2/great-depression` | `01.jpg` | A bank run in Michigan, February 1933. A bank holds only part of its deposits as cash; the rest of this picture explains itself. | `File:Bank Run in Michigan, USA, February 1933.jpg` |
 | `b2/great-depression` | `02.jpg` | Migrant Mother | `File:Lange-MigrantMother02.jpg` |
-| `b2/great-depression` | `03.jpg` | A dust storm approaching Stratford, Texas, 1935. The soil in the air had been ploughed grassland a decade earlier. | `File:Dust storm approaching Stratford, Texas.jpg` |
+| `b2/great-depression` | `03.jpg` | A dust storm approaching Stratford, Texas, 1935. The soil in the air had been plowed grassland a decade earlier. | `File:Dust storm approaching Stratford, Texas.jpg` |
 | `b2/jackie-robinson` | `01.jpg` | Jackie Robinson, Brooklyn Dodgers, 1954 | `File:Jackie Robinson, Brooklyn Dodgers, 1954.jpg` |
 | `b2/reconstruction` | `01.jpg` | The First Vote | `File:"The first vote" by A.R. Waud Harper's Weekly 1867-11-16 Retrieved from the Library of Congress.jpg` |
 | `b2/reconstruction` | `02.jpg` | The first Black senator and representatives in Congress, printed in 1872. Within thirty years almost none of their voters were still on the rolls. | `File:First Colored Senator and Representatives.jpg` |
@@ -275,10 +275,10 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `c1/rosa-parks` | `03.jpg` | Rosa Parks on a Montgomery bus | `File:Rosa Parks on bus on December 21, 1956.jpg` |
 | `c1/the-space-race` | `01.jpg` | A full-size replica of Sputnik 1 on display | `File:Sputnik 1.jpg` |
 | `c1/the-space-race` | `02.jpg` | Yuri Gagarin | `File:Yuri Gagarin (1961) - Restoration.jpg` |
-| `c1/the-space-race` | `03.jpg` | An N1 mockup on the pad at Baikonur, 1967. The figures at the base give the scale: it stood as tall as a Saturn V, it failed on all four launch attempts, and the Soviet Union denied that the programme existed until 1989. | `File:N1 1M1 mockup on the launch pad at the Baikonur Cosmodrome in late 1967.jpg` |
+| `c1/the-space-race` | `03.jpg` | An N1 mockup on the pad at Baikonur, 1967. The figures at the base give the scale: it stood as tall as a Saturn V, it failed on all four launch attempts, and the Soviet Union denied that the program existed until 1989. | `File:N1 1M1 mockup on the launch pad at the Baikonur Cosmodrome in late 1967.jpg` |
 | `c1/watergate` | `01.jpg` | The Watergate complex, Washington D.C. Offices, flats and a hotel on the Potomac; the Democratic National Committee rented the sixth floor of one of the office buildings. | `File:WatergateFromAir.JPG` |
 | `c1/watergate` | `02.jpg` | Nixon's letter of resignation, 9 August 1974. One sentence, addressed to the Secretary of State because that is where the law says such a letter goes; the pen notation in the corner | `File:Letter of Resignation of Richard M. Nixon, 1974.jpg` |
-| `c1/women-win-the-vote` | `01.jpg` | Official programme for the suffrage procession | `File:Official Program Woman Suffrage Procession - March 3, 1913.jpg` |
+| `c1/women-win-the-vote` | `01.jpg` | Official program for the suffrage procession | `File:Official Program Woman Suffrage Procession - March 3, 1913.jpg` |
 | `c1/women-win-the-vote` | `02.jpg` | The Silent Sentinels at the White House gates, 1917. They stood there daily for over two years | `File:Suffragists picketing the White House.jpg` |
 | `c2/immigration-and-modern-america` | `01.jpg` | The Usual Irish Way of Doing Things | `File:TheUsualIrishWayofDoingThings.jpg` |
 | `c2/immigration-and-modern-america` | `02.jpg` | The Chinese Exclusion Act, 1882, in the enrolled original. The first federal law to bar a group of people from the United States by nationality, and it opens by reciting that their coming “endangers the good order of certain localities”. It was renewed repeatedly and not fully repealed until 1943. | `File:Chineseexclusionact.JPG` |

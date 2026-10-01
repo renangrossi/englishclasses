@@ -55,7 +55,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-107 images, imported with `scripts/import_local_artwork.py` from the local
+105 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -156,9 +156,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b2/the-marathon-and-the-wall` | `01.jpg` | The Heraean Games | `prospero-piatti-the-heraean-games-1901.jpg` |
 | `c1/attention-economy` | `01.jpg` | Public Exhibition of a Picture | `joan-ferrer-miro-1850-1931-public-exhibition-of-a-picture.jpg` |
 | `c1/real-estate` | `01.jpg` | Estes Park and Longs Peak | `albert-bierstadt-estes-park-and-longs-peak-c-1876.png` |
-| `c1/shadows-in-the-server-room` | `01.jpg` | A Nocturnal Fire | `egbert-van-der-poel-a-nocturnal-fire-1621-1664.jpg` |
 | `c1/technology-and-ethics` | `01.jpg` | The Death of Icarus | `alexandre-cabanel-the-death-of-icarus.jpeg` |
-| `c1/the-meeting-problem` | `01.jpg` | After a Difficult Meeting | `eduard-von-grutzner-after-a-difficult-meeting-1892.jpeg` |
 | `c1/the-night-shift` | `02.jpg` | Winter Morning | `joseph-farquharson-winter-morning.jpg` |
 | `c2/reading-a-scientific-claim` | `01.jpg` | Total Eclipse of the Sun | `wilhelm-kranz-total-eclipse-of-the-sun-1897.jpeg` |
 | `c2/reading-a-scientific-claim` | `02.jpg` | The Great Comet of 1861 | `edmund-weiss-great-comet-of-1861-1888.jpeg` |
@@ -171,7 +169,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-88 images the gallery could not answer -- flags, maps, photographs and
+94 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything that is not public domain.
 
@@ -185,6 +183,7 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `a1/my-room` | `01.jpg` | A living room on Waverly Place, New York, 1942 | `File:Mrs. Marianna Costanzo in the living room of her apartment on Waverly Place8d11560v.jpg` |
 | `a1/statue-of-liberty` | `01.jpg` | Unveiling the Statue of Liberty | `File:EdwardMoran-UnveilingTheStatueofLiberty1886Large.jpg` |
 | `a1/statue-of-liberty` | `02.jpg` | Ellis Island, 1902. The island where ships from Europe stopped, a few hundred meters from the statue. | `File:Ellis island 1902.jpg` |
+| `a1/taking-the-train` | `01.jpg` | The waiting room of Chicago Union Station, 1943 | `File:Chicago, Illinois. In the waiting room of the Union Station LOC 3548859587.jpg` |
 | `a1/the-american-flag` | `01.jpg` | The flag of 1777: thirteen stripes and thirteen stars, one for each of the first states. | `File:Flag of the United States (1777-1795).svg` |
 | `a1/the-american-flag` | `02.jpg` | The flag today. Same thirteen stripes, fifty stars. | `File:Flag of the United States.svg` |
 | `a2/boston-tea-party` | `01.jpg` | The Destruction of Tea at Boston Harbor | `File:Boston Tea Party Currier colored.jpg` |
@@ -218,6 +217,7 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b1/lincoln-and-the-civil-war` | `01.jpg` | The Battle of Antietam | `File:Thure de Thulstrup - Battle of Antietam.jpg` |
 | `b1/louisiana-purchase` | `02.jpg` | Louisiana, mapped by Samuel Lewis in 1804. Notice how much of it is blank: this is the map the United States had just bought. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
 | `b1/nfl` | `01.jpg` | Princeton against Chicago, 1922. The game in this text, before the helmets, the television contracts and the league. | `File:1922 Princeton v. Chicago football game.jpg` |
+| `b1/physical-education` | `01.jpg` | Plates from *Athletic Training for School Boys*, 1910. Teaching a body to do something it cannot yet do, broken into numbered stages. | `File:Athletic training for school boys (1910) (14598149930).jpg` |
 | `b1/say-speak-talk-tell-02` | `01.jpg` | A radio dealer's window | `File:J. Fred Huber Radio, window LCCN2016826306.jpg` |
 | `b1/transcontinental-railroad` | `02.jpg` | Promontory Summit, Utah, 10 May 1869. No Chinese worker appears in the photograph of the line they largely built. | `File:East and West Shaking hands at the laying of last rail Union Pacific Railroad - Restoration.jpg` |
 | `b1/transcontinental-railroad` | `03.jpg` | Chinese workers on the Central Pacific in the Sierra Nevada. At the peak they were about four out of five of the company's workforce. | `File:Chinese railroad workers sierra nevada.jpg` |
@@ -246,9 +246,13 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `c1/martin-luther-king` | `01.jpg` | Martin Luther King Jr. at the March on Washington | `File:Civil Rights March on Washington, D.C. (Dr. Martin Luther King, Jr. and Mathew Ahmann in a crowd.) - NARA - 542015 - Restoration.jpg` |
 | `c1/martin-luther-king` | `02.jpg` | Fire hoses turned on demonstrators in Birmingham, Alabama | `File:Firemen spraying protestors in Downtown Birmingham 01.jpg` |
 | `c1/physiological-stressors` | `01.jpg` | Dorando Pietri at the end of the 1908 Olympic marathon. He was helped across the line and disqualified for it. This is what the six systems in this text look like when they stop coping. | `File:Dorando Pietri 1908.jpg` |
+| `c1/questionnaire-company-management` | `01.jpg` | The typing office of the Veterans Administration, Washington, 1924. Every person in this room could name their job in two words and would struggle to describe the day. | `File:Typists, Veterans Administration Central Office, Washington DC 20 May 1924.jpg` |
 | `c1/rosa-parks` | `01.jpg` | Rosa Parks fingerprinted by Deputy Sheriff D. H. Lackey | `File:Rosa Parks being fingerprinted by Deputy Sheriff D.H. Lackey after being arrested on February 22, 1956, during the Montgomery bus boycott.jpg` |
 | `c1/rosa-parks` | `02.jpg` | Flyer circulated in Montgomery after the court order, 1956 | `File:Montgomery Improvement Association, flyer on bus desegregation, c. 1956 (NYPL).jpg` |
 | `c1/rosa-parks` | `03.jpg` | Rosa Parks on a Montgomery bus | `File:Rosa Parks on bus on December 21, 1956.jpg` |
+| `c1/shadows-in-the-server-room` | `01.jpg` | The Columbia supercomputer at the NASA Advanced Supercomputing Facility. Rows, cold air, a raised floor and nobody in sight | `File:Columbia Supercomputer - NASA Advanced Supercomputing Facility.jpg` |
+| `c1/the-cost-of-convenience` | `01.jpg` | The Horn & Hardart Automat, Times Square, around 1939. Put in a coin, open a little glass door, take the food: a step removed, exactly as this text defines it. | `File:Horn & Hardart Times Square New York circa 1939.JPG` |
+| `c1/the-meeting-problem` | `01.jpg` | An all-hands meeting at NASA's Kennedy Space Center | `File:KSC-20170815-PH KLS01 0079 (36212683960).jpg` |
 | `c1/the-space-race` | `01.jpg` | A full-size replica of Sputnik 1 on display | `File:Sputnik 1.jpg` |
 | `c1/the-space-race` | `02.jpg` | Yuri Gagarin | `File:Yuri Gagarin (1961) - Restoration.jpg` |
 | `c1/the-space-race` | `03.jpg` | An N1 mockup on the pad at Baikonur, 1967. The figures at the base give the scale: it stood as tall as a Saturn V, it failed on all four launch attempts, and the Soviet Union denied that the program existed until 1989. | `File:N1 1M1 mockup on the launch pad at the Baikonur Cosmodrome in late 1967.jpg` |

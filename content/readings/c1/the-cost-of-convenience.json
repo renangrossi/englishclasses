@@ -31,7 +31,16 @@
     "The usable distinction is between conveniences that are reversible and conveniences that are not. If you can stop using the navigation app tomorrow and find your way with a map, the trade was cheap and you may take it freely. If you cannot leave a platform without losing material you cannot reconstruct, the trade was not really about convenience at all, and it deserved a different kind of attention at the moment you made it — which was years before you noticed.",
     "The question worth asking of any new convenience is therefore not whether it makes something easier. It will. It is what specifically happens if it disappears, and whether the answer is an inconvenience or a loss. Most of the time it is the first, and the thing should be adopted without agonising. Occasionally it is the second, and that is the case where the five minutes of examination costs less than the decade of dependence."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A coloured postcard of the Horn & Hardart Automat in Times Square, its front wall lined with small glass compartments holding dishes of food",
+      "source": "commons:File:Horn & Hardart Times Square New York circa 1939.JPG",
+      "caption": "The Horn & Hardart Automat, Times Square, around 1939. Put in a coin, open a little glass door, take the food: a step removed, exactly as this text defines it.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "convenience",

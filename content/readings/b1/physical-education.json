@@ -32,7 +32,16 @@
     "Next week she is running a treasure hunt across the playground. The clues are already hidden, and she has written them so that each one needs two children to solve it — one has to read and one has to count. In the spring she is planning a swimming day, if the weather is warm enough, and she wants to start a lunchtime fitness club before the end of the year. Parents are being invited to the sports afternoons now, which some of them find more intimidating than the children do.",
     "Ask her what the job is actually about and she will not say fitness. She says her aim is that a child leaves her class at eleven still willing to try something they are not yet good at. Everything else, she says, follows from that."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "Two figures from a 1910 athletics manual, numbered Fig. 8 and Fig. 9, showing the stages of a pole vault",
+      "source": "commons:File:Athletic training for school boys (1910) (14598149930).jpg",
+      "caption": "Plates from *Athletic Training for School Boys*, 1910. Teaching a body to do something it cannot yet do, broken into numbered stages.",
+      "relation": "depicts"
+    }
+  ],
   "vocabulary": [
     {
       "term": "primary school",

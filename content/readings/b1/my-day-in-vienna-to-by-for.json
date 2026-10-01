@@ -27,6 +27,22 @@
     "We finished the day at a Heuriger on the edge of the city — a wine tavern where the wine is made by the family that owns it, and where you queue at a counter for cold food and carry it to a table in the garden. It was busy, we found a table anyway, and we stayed until it got cold.",
     "Anna took the last train back. I walked home from the station, and the whole day had cost almost nothing, which was not the point but was pleasant all the same. It was a perfect day for both of us."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "St Stephen's Cathedral rising over the square in front of it, with people crossing in the morning light",
+      "source": "rudolf-von-alt-st-stephens-cathedral-in-vienna-1832.jpg",
+      "caption": "*St Stephen's Cathedral in Vienna* — Rudolf von Alt, 1832."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "The folly of Roman ruins in the gardens at Schönbrunn, reflected in the water in front of it",
+      "source": "ferdinand-georg-waldmuller-the-roman-ruins-at-schonbrunn-1832.jpeg",
+      "caption": "*The Roman Ruins at Schönbrunn* — Ferdinand Georg Waldmüller, 1832."
+    }
+  ],
   "vocabulary": [
     {
       "term": "to look forward to",

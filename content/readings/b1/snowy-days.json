@@ -24,6 +24,22 @@
     "Snowy days can feel isolating, too. The streets are empty, people stay inside, and the days are short and dark. It's cozy at first, but after weeks of it, cabin fever sets in. You miss sunlight and fresh air and being able to walk outside without thinking about it first. People start talking about spring like it's a distant dream, counting down the days until they can open their windows again.",
     "In the end, snowy days are a mix of nice moments and constant frustration. You complain about them the entire time, and then, when winter is finally over, you strangely miss parts of it. Not the cold or the stress — but that quiet feeling, the slower pace, and the excuse to stop rushing for once."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "The first snow lying thin over a wood, the trees still half dark beneath it",
+      "source": "ivan-shishkin-first-snow.jpeg",
+      "caption": "*First Snow* — Ivan Shishkin."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "A bare winter plain under a pale sky, with a single figure among the snow-covered stumps",
+      "source": "caspar-david-friedrich-winter-landscape.jpg",
+      "caption": "*Winter Landscape* — Caspar David Friedrich."
+    }
+  ],
   "vocabulary": [
     {
       "term": "to romanticize",

@@ -27,6 +27,22 @@
     "Barbecue is the one with the strongest claim and the least agreement inside the country, since Texas, the Carolinas, Kansas City and Memphis each regard the others as doing it wrong, and each is prepared to explain why at length.",
     "There is a pattern in all of this. Almost nothing on the list was invented in the United States. The corndog is a sausage in batter, which exists in a dozen countries. The hamburger is German. Apple pie is English and Dutch. What is American is the treatment: the scale of it, the stick, the competition, the regional loyalty, and the insistence that a thing from somewhere else is now indisputably ours — which, given how the rest of the culture was assembled, is about what you would expect."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "A village fair after dark, stalls lit by lamps and a crowd moving between them",
+      "source": "hendrik-gerrit-ten-cate-village-fair-by-night-1803-1856.jpeg",
+      "caption": "*Village Fair by Night* — Hendrik Gerrit ten Cate."
+    },
+    {
+      "src": "02.jpg",
+      "after": 3,
+      "alt": "A covered fair packed with stalls and people arguing over what is on them",
+      "source": "pierre-jean-van-der-ouderaa-fair-in-the-oude-beurs-in-antwerp-1892.jpeg",
+      "caption": "*Fair in the Oude Beurs, Antwerp* — Pierre Jean van der Ouderaa, 1892."
+    }
+  ],
   "vocabulary": [
     {
       "term": "fair",

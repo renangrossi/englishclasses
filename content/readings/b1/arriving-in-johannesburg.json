@@ -46,6 +46,22 @@
     "Michael: That's useful to know. Thank you.",
     "The card works on the first attempt. Laura drops her bag on the nearest bed and observes that they have now been awake for twenty-six hours, and that the shuttle would still have been fine."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 14,
+      "alt": "A South African landscape of dry scrub and tall trees with a rock ridge rising behind",
+      "source": "gabriel-cornelis-de-jongh-cape-mountain-landscape.jpeg",
+      "caption": "*Cape Mountain Landscape* — Gabriel Cornelis de Jongh."
+    },
+    {
+      "src": "02.jpg",
+      "after": 21,
+      "alt": "A city seen through a stone archway, with a bridge and a church tower in the light beyond",
+      "source": "bartholomeus-johannes-van-hove-view-through-an-archway-1790-1880.jpeg",
+      "caption": "*View Through an Archway* — Bartholomeus Johannes van Hove."
+    }
+  ],
   "vocabulary": [
     {
       "term": "overnight",

@@ -28,6 +28,22 @@
     "For ordinary buyers, though, battery life stays the decisive issue, because it runs straight into resale value. A used electric car with a healthy battery is far easier to sell than one that has degraded badly. So battery warranties, battery health reports, and a car's charging history are becoming real factors in the second-hand market, and manufacturers advertise durability and charging performance precisely because those things shape how confident a buyer feels about the years ahead.",
     "Meanwhile the market keeps getting more crowded. New models arrive every year, and manufacturers compete on range, on charging speed, and on price. Industry reports show electric vehicles holding a large share of global car sales, even where growth has slowed and competition has sharpened. For the buyer that means more choice, but also more to work out about long-term value, battery health, and what the car will be worth later. Those calculations reach buyers in every income group, which is what makes electric vehicles a financial question and not only a technological one."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "A crowded horse fair, animals being shown and handled in front of buyers",
+      "source": "rosa-bonheur-the-horse-fair-c-1855.jpeg",
+      "caption": "*The Horse Fair* — Rosa Bonheur, around 1855. The market where people argued about what to buy, and why, before there were cars to argue about."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "An early hot-air balloon being inflated over a fire in front of a crowd of spectators",
+      "source": "claude-louis-desrais-montgolfier-brothers-hot-air-balloon.jpg",
+      "caption": "The Montgolfier brothers' balloon — Claude-Louis Desrais. Every new technology spends years being judged on the thing people are most afraid of."
+    }
+  ],
   "vocabulary": [
     {
       "term": "income",

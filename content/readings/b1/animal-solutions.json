@@ -26,6 +26,22 @@
     "None of this replaces the farmer, and the people who sell it sometimes imply otherwise. The equipment reports; somebody still has to decide what to do, and a sensor that says an animal is unwell does not know why. It also has to be paid for, kept charged, and repaired when it fails in a wet field in February, which it will.",
     "What has genuinely changed is the kind of attention the job requires. A hundred years ago a good stockman knew his animals by sight and carried the whole herd in his head, which worked up to a few dozen animals and not beyond. The technology does not make him better at that. It extends how far that kind of knowledge can reach."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "Cattle and sheep grazing and lying in an open meadow under a wide sky",
+      "source": "thomas-sidney-cooper-cattle-and-sheep-on-canterbury-meadows-1803-1902.jpg",
+      "caption": "*Cattle and Sheep on Canterbury Meadows* — Thomas Sidney Cooper. The field has not changed; almost everything around it has."
+    },
+    {
+      "src": "02.jpg",
+      "after": 5,
+      "alt": "A herdsman resting with his cattle at the edge of a wood, mountains showing through a gap in the trees",
+      "source": "rudolf-koller-shepherd-with-cows-1828-1905.jpeg",
+      "caption": "*Shepherd with Cows* — Rudolf Koller."
+    }
+  ],
   "vocabulary": [
     {
       "term": "pulse",

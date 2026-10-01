@@ -27,6 +27,22 @@
     "Keeping it standing is constant work. Crews have been maintaining and repainting the bridge continuously since it opened; the popular belief that they finish one end and immediately start again at the other is not quite accurate, but the ironworkers and painters have never really stopped. Salt air attacks steel, and a structure this size in this position would not last a decade without them.",
     "What has not changed is what people do when they get there. They stop, they look, and they take a photograph in more or less the same spot, whether they have driven across it every working day for thirty years or have arrived from the other side of the world to see it once."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A crowded river on the day a great bridge opened, boats of every size packed around it",
+      "source": "wyllie-william-lionel-the-opening-of-tower-bridge.jpg",
+      "caption": "*The Opening of Tower Bridge* — William Lionel Wyllie."
+    },
+    {
+      "src": "02.jpg",
+      "after": 5,
+      "alt": "A sculptor at work in his studio on one of the huge bronze lions for the base of a public monument",
+      "source": "john-ballantyne-1815-1897-scottish-portrait-and-history-painter-edwin-henry-landseer-1802-1873-english-painter-and-sculptor-modelling-one-of-the-lions-for-the-base-of-nelsons-column-in-trafalgar-square.jpeg",
+      "caption": "Landseer modelling one of the lions for Nelson's Column — John Ballantyne. A landmark is somebody's continuing job."
+    }
+  ],
   "vocabulary": [
     {
       "term": "strait",

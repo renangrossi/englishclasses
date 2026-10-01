@@ -18,7 +18,7 @@
   ],
   "passage": [
     "Cape Town sits in an unusually dramatic place. Table Mountain rises almost directly behind the city center, flat-topped and often wrapped in cloud, and the Atlantic runs along the other side. The result is a city you can never quite get lost in, because the mountain tells you which way you are facing. It has been a favorite destination for travelers for a long time, and the reasons are not complicated: the setting, the food, and a history that the city has become considerably more willing to talk about.",
-    "The calendar is busy for most of the year. The Cape Town International Jazz Festival draws musicians and audiences from across the continent and beyond, and it remains the event most visitors try to plan around. The city also runs a steady programme of smaller music, film and food events, so it is worth checking what is on before you fix your dates rather than after.",
+    "The calendar is busy for most of the year. The Cape Town International Jazz Festival draws musicians and audiences from across the continent and beyond, and it remains the event most visitors try to plan around. The city also runs a steady program of smaller music, film and food events, so it is worth checking what is on before you fix your dates rather than after.",
     "For art, the obvious stop is the Zeitz Museum of Contemporary Art Africa, built inside a converted grain silo on the waterfront. It shows contemporary work from across Africa and its diaspora, it changes its exhibitions often, and the building itself — the silo's concrete tubes cut open into a central atrium — is worth the entry on its own. For the city's history rather than its art, the District Six Museum is the more important visit: it documents the neighborhood whose residents were forcibly removed under apartheid, and it is largely assembled from what those residents themselves kept.",
     "The food is the thing most visitors underestimate. Cape Town has everything from street vendors to restaurants with long waiting lists, but the dishes worth seeking out are the Cape Malay ones — bobotie, bredie, koeksisters — which come from the cooking of people brought to the Cape as slaves from Southeast Asia and which have been part of the city's food for three centuries. The seafood is excellent and genuinely local. The wine regions begin less than an hour away.",
     "As for the outdoors, Table Mountain can be walked or ridden. The cable car is quick and the queue is long; Platteklip Gorge, the most direct walking route, is a steep two hours and should not be attempted without water and an eye on the weather, which changes fast and has caught out a great many confident people. Kirstenbosch, on the eastern slope, is the gentler option — a botanical garden of indigenous plants with a walkway that runs through the tree canopy. Both are best done early, before the cloud settles on the summit.",
@@ -32,14 +32,16 @@
       "after": 0,
       "alt": "A deep rock gorge lit red by the last of the sun, with a stream in the bottom of it",
       "source": "tinus-de-jongh-mountain-gorge-at-sunset.jpeg",
-      "caption": "*Mountain Gorge at Sunset* — Tinus de Jongh."
+      "caption": "*Mountain Gorge at Sunset* — Tinus de Jongh.",
+      "relation": "depicts"
     },
     {
       "src": "02.jpg",
       "after": 6,
       "alt": "Dry open country under a high sky, a track running away between low hills",
       "source": "tinus-de-jongh-near-burghersdorp-1885-1942.jpg",
-      "caption": "*Near Burghersdorp* — Tinus de Jongh."
+      "caption": "*Near Burghersdorp* — Tinus de Jongh.",
+      "relation": "depicts"
     }
   ],
   "vocabulary": [
@@ -53,7 +55,7 @@
       "match": "draws"
     },
     {
-      "term": "programme",
+      "term": "program",
       "definition": "a planned series of events"
     },
     {

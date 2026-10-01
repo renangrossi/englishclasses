@@ -3,7 +3,7 @@
   "level": "C1",
   "slug": "watergate",
   "order": 106,
-  "topic": "history",
+  "topic": "american-history",
   "title": "Watergate",
   "subtitle": "A security guard noticed tape on a door latch. Twenty-six months later a President resigned, and the burglary was the least of it.",
   "description": "A C1 reading and listening text on Watergate: the break-in, the cover-up, the tapes, the Saturday Night Massacre, the unanimous Supreme Court ruling, and why the scandal was never really about the burglary.",
@@ -24,7 +24,7 @@
     "What converted a burglary into a constitutional crisis was the attempt to bury it. Hush money was paid to the burglars. The CIA was asked to tell the FBI to stand back on grounds of national security that did not exist. Evidence was destroyed, witnesses were coached, and the President's own staff committed a series of felonies to keep a trail from reaching the Oval Office. Nearly fifty people were eventually convicted, including the Attorney General of the United States.",
     "The decisive fact was almost absurd: Nixon had installed a voice-activated taping system in his own offices, and had recorded himself. Its existence became public in July 1973 when a former aide, Alexander Butterfield, was asked about it in a Senate hearing and answered truthfully. From that moment the question was no longer what had happened but who would get the tapes.",
     "Nixon refused to surrender them, citing executive privilege. In October 1973 he ordered the dismissal of the special prosecutor, Archibald Cox, who was subpoenaing them; the Attorney General resigned rather than carry out the order and his deputy was dismissed for the same refusal, before the Solicitor General complied. The newspapers called it the Saturday Night Massacre, and the volume of telegrams reaching Congress afterwards is usually given as the moment impeachment became a serious prospect rather than a rhetorical one.",
-    "Two things finished it. In July 1974 the Supreme Court ruled unanimously in *United States v. Nixon* that executive privilege is real but not absolute, and that the tapes had to be handed over. Then the tapes themselves produced a recording from 23 June 1972 — six days after the break-in — on which the President can be heard agreeing to have the CIA obstruct the FBI's investigation. It is still called the smoking gun. It destroyed the one defence he had left, that he had not known.",
+    "Two things finished it. In July 1974 the Supreme Court ruled unanimously in *United States v. Nixon* that executive privilege is real but not absolute, and that the tapes had to be handed over. Then the tapes themselves produced a recording from 23 June 1972 — six days after the break-in — on which the President can be heard agreeing to have the CIA obstruct the FBI's investigation. It is still called the smoking gun. It destroyed the one defense he had left, that he had not known.",
     "Nixon resigned on 9 August 1974, the only American president to do so. His successor, Gerald Ford, pardoned him a month later for any federal crimes he might have committed in office, on the argument that a trial would consume the country for years. Whether that was statesmanship or a bargain has been argued ever since, and it probably cost Ford the 1976 election.",
     "The aftershocks were legislative and lasting: new rules on campaign finance, a Freedom of Information Act with teeth, an Ethics in Government Act, statutory limits on domestic surveillance, and a permanent assumption among reporters that the official account is a claim rather than a fact. The suffix *-gate* has since been attached to several hundred scandals, most of them small, which has slowly drained the word of its weight.",
     "The lesson usually drawn is that the cover-up is worse than the crime, and that is true as far as it goes. The more uncomfortable lesson is how nearly it worked. The burglars were caught by a night-shift guard who checked a door twice, and the tapes existed only because the man they would convict had chosen to make them."
@@ -341,7 +341,7 @@
   ],
   "discussion": [
     "Ford argued that a trial would have consumed the country for years. Was the pardon justified?",
-    "The suffix -gate has been attached to hundreds of smaller scandals. Does that weaken the public's ability to recognise a serious one?",
+    "The suffix -gate has been attached to hundreds of smaller scandals. Does that weaken the public's ability to recognize a serious one?",
     "The case turned on recordings the President made of himself. What does that suggest about how institutions should handle their own records?"
   ],
   "audio": {

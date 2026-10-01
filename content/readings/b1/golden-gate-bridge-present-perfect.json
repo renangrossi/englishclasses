@@ -2,10 +2,10 @@
   "id": "b1-reading-golden-gate-bridge",
   "level": "B1",
   "slug": "golden-gate-bridge-present-perfect",
-  "topic": "culture",
+  "topic": "travel",
   "title": "The Golden Gate Bridge",
   "subtitle": "What has stood across the mouth of San Francisco Bay since 1937, and what it has taken to keep it there.",
-  "description": "A B1 reading and listening text on the Golden Gate Bridge — its construction, its colour, its fog and its maintenance — written to practise the present perfect, with vocabulary and comprehension exercises.",
+  "description": "A B1 reading and listening text on the Golden Gate Bridge — its construction, its color, its fog and its maintenance — written to practice the present perfect, with vocabulary and comprehension exercises.",
   "source": "cefr/texts/golden-gate-bridge-present-perfect.docx",
   "provenance": "rewritten",
   "audio": {
@@ -19,9 +19,9 @@
     "present-simple"
   ],
   "passage": [
-    "The Golden Gate Bridge has stood across the entrance to San Francisco Bay since 1937, and in that time it has become one of the most recognisable structures in the world. It was a genuinely difficult thing to build. The strait it crosses is deep, the current runs hard through it twice a day, and the fog can close in within minutes. Plenty of engineers said at the time that a bridge there could not be built at all.",
-    "It was built anyway, as a suspension bridge, with a main span of about 1,280 metres. That made it the longest suspension span in the world when it opened, and it held that record for twenty-seven years. The two towers rise 227 metres above the water, and for a long time they were the tallest things in the city by a wide margin.",
-    "The colour was an accident that stuck. The steel arrived coated in a reddish primer, and the consulting architect argued that the colour suited the setting better than the grey or the black-and-yellow stripes that had been proposed. The shade is called International Orange, and it has turned out to have a practical advantage as well: it stays visible in fog, which matters on a strait where the fog is a daily fact for much of the summer.",
+    "The Golden Gate Bridge has stood across the entrance to San Francisco Bay since 1937, and in that time it has become one of the most recognizable structures in the world. It was a genuinely difficult thing to build. The strait it crosses is deep, the current runs hard through it twice a day, and the fog can close in within minutes. Plenty of engineers said at the time that a bridge there could not be built at all.",
+    "It was built anyway, as a suspension bridge, with a main span of about 1,280 meters. That made it the longest suspension span in the world when it opened, and it held that record for twenty-seven years. The two towers rise 227 meters above the water, and for a long time they were the tallest things in the city by a wide margin.",
+    "The color was an accident that stuck. The steel arrived coated in a reddish primer, and the consulting architect argued that the color suited the setting better than the gray or the black-and-yellow stripes that had been proposed. The shade is called International Orange, and it has turned out to have a practical advantage as well: it stays visible in fog, which matters on a strait where the fog is a daily fact for much of the summer.",
     "Building it cost lives, though fewer than expected. A safety net was strung beneath the deck — an unusual precaution at the time, and an expensive one — and it caught nineteen men who would otherwise have fallen to their deaths. They called themselves the Halfway to Hell Club. Eleven workers died on the project, ten of them in a single accident near the end when a section of scaffolding fell through the net.",
     "Since it opened, more than two billion vehicles have crossed the bridge. It has survived earthquakes, including the one in 1989 that brought down part of another bridge in the same bay, and it has since been strengthened further against the next one. It has been closed to traffic only a handful of times, almost always because of wind.",
     "Keeping it standing is constant work. Crews have been maintaining and repainting the bridge continuously since it opened; the popular belief that they finish one end and immediately start again at the other is not quite accurate, but the ironworkers and painters have never really stopped. Salt air attacks steel, and a structure this size in this position would not last a decade without them.",
@@ -33,14 +33,14 @@
       "after": 1,
       "alt": "A crowded river on the day a great bridge opened, boats of every size packed around it",
       "source": "wyllie-william-lionel-the-opening-of-tower-bridge.jpg",
-      "caption": "*The Opening of Tower Bridge* — William Lionel Wyllie."
+      "caption": "*The Opening of Tower Bridge* — William Lionel Wyllie, 1894. Not the Golden Gate: a different bridge on another continent, forty years earlier, painted on the day it opened. Cities have always turned out on the water for this."
     },
     {
       "src": "02.jpg",
       "after": 5,
       "alt": "A sculptor at work in his studio on one of the huge bronze lions for the base of a public monument",
       "source": "john-ballantyne-1815-1897-scottish-portrait-and-history-painter-edwin-henry-landseer-1802-1873-english-painter-and-sculptor-modelling-one-of-the-lions-for-the-base-of-nelsons-column-in-trafalgar-square.jpeg",
-      "caption": "Landseer modelling one of the lions for Nelson's Column — John Ballantyne. A landmark is somebody's continuing job."
+      "caption": "Landseer modeling one of the lions for Nelson's Column — John Ballantyne. A landmark is somebody's continuing job."
     }
   ],
   "vocabulary": [
@@ -71,7 +71,7 @@
     },
     {
       "term": "shade",
-      "definition": "a particular variety of a colour"
+      "definition": "a particular variety of a color"
     },
     {
       "term": "scaffolding",
@@ -329,7 +329,7 @@
   "discussion": [
     "Engineers said the bridge could not be built. What makes people attempt something after being told that?",
     "The safety net was unusual and expensive, and it saved nineteen lives. How should that cost be weighed when it is being decided?",
-    "The colour was an accident that turned out to work. Can you think of something in your own life that worked out the same way?",
+    "The color was an accident that turned out to work. Can you think of something in your own life that worked out the same way?",
     "Is there a structure in your country that people photograph in the same spot every time? Why that one?",
     "Write about 120 words describing a famous structure you have seen, using the present perfect for what it has done and the past simple for when it was built."
   ]

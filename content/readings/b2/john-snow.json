@@ -2,7 +2,7 @@
   "id": "b2-reading-john-snow",
   "level": "B2",
   "slug": "john-snow",
-  "topic": "society",
+  "topic": "science",
   "title": "The Broad Street Pump",
   "subtitle": "A doctor with a map, an outbreak nobody could explain, and the beginning of a science.",
   "description": "A B2 reading and listening text on John Snow's investigation of the 1854 cholera outbreak in London, with past-tense practice and comprehension exercises.",
@@ -20,10 +20,10 @@
   "passage": [
     "John Snow was born in York in 1813, the eldest of nine children in a family with no money to speak of. At fourteen he was apprenticed to a surgeon, which was how medicine was entered at the time, and he went on to qualify in London. He became one of the best anaesthetists in the country — he gave chloroform to Queen Victoria at two of her births — and that is not what he is remembered for.",
     "In the summer of 1854, cholera broke out in Soho, in central London. It killed with a speed that is hard to convey: a person could be well in the morning and dead before the next morning. In the worst week, more than five hundred people died within a few streets.",
-    "Nobody knew how the disease travelled. The accepted explanation was miasma — bad air rising from filth and standing water — and it was not a stupid theory. It fitted the observation that outbreaks were worst in the poorest and dirtiest districts, and it was held by almost every serious authority in the country. Snow thought it was wrong. He had argued for years that cholera was swallowed rather than breathed, mainly because it attacked the gut first, which is not what an airborne poison would do.",
+    "Nobody knew how the disease traveled. The accepted explanation was miasma — bad air rising from filth and standing water — and it was not a stupid theory. It fitted the observation that outbreaks were worst in the poorest and dirtiest districts, and it was held by almost every serious authority in the country. Snow thought it was wrong. He had argued for years that cholera was swallowed rather than breathed, mainly because it attacked the gut first, which is not what an airborne poison would do.",
     "What he did about it was the part that mattered. He went into the affected streets and recorded every death he could trace — where the person lived, and where their household drew its water. Then he drew a map, marking each death as a bar at its address. The pattern was not subtle once it was on paper. The deaths clustered around a single public water pump in Broad Street, and they thinned out with distance from it.",
     "The anomalies were what made the case. A workhouse in the middle of the cluster, with over five hundred inmates, had almost no deaths — it had its own well. A brewery nearby lost none of its workers; the men drank beer, and the brewery too had its own supply. And a widow in Hampstead, miles away, died of cholera for no visible reason, until it emerged that she had liked the taste of Broad Street water and had it delivered by cart. Each of those cases would have looked like a problem for the theory. Each of them, examined, confirmed it.",
-    "Snow took his evidence to the parish authorities and persuaded them to remove the handle from the pump. The outbreak was already declining by then, and honest historians say the removal probably did not end it. That does not diminish what happened, because the argument was never really about one pump. Later investigation found the pump's well had been dug within a metre of an old cesspit, and that a nappy from a baby with cholera had been washed into it.",
+    "Snow took his evidence to the parish authorities and persuaded them to remove the handle from the pump. The outbreak was already declining by then, and honest historians say the removal probably did not end it. That does not diminish what happened, because the argument was never really about one pump. Later investigation found the pump's well had been dug within a meter of an old cesspit, and that a diaper from a baby with cholera had been washed into it.",
     "The Board of Health rejected his explanation. Their report concluded that the evidence pointed to the air, and Snow died in 1858 without seeing his theory accepted. The germ theory that would have explained his findings was still two decades away.",
     "What survives is not really the conclusion but the method: define the population, count the cases, map them against a suspected cause, and then hunt for the cases that do not fit. That is epidemiology, and it was assembled in a few weeks in Soho by a man who was, on the only point that mattered, alone."
   ],
@@ -31,7 +31,7 @@
     {
       "src": "01.jpg",
       "after": 2,
-      "alt": "A hand-coloured caricature of a woman recoiling as she looks at a drop of water through a magnifying glass, full of monstrous creatures",
+      "alt": "A hand-colored caricature of a woman recoiling as she looks at a drop of water through a magnifying glass, full of monstrous creatures",
       "caption": "“Monster Soup commonly called Thames Water”, William Heath, 1828. Londoners already knew the water was filthy; what nobody had established was that filthy water was what killed you."
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "term": "to qualify",
-      "definition": "to complete the training that allows you to practise a profession"
+      "definition": "to complete the training that allows you to practice a profession"
     },
     {
       "term": "anaesthetist",

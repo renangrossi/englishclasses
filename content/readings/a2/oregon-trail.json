@@ -3,9 +3,9 @@
   "level": "A2",
   "slug": "oregon-trail",
   "order": 105,
-  "topic": "history",
+  "topic": "american-history",
   "title": "The Oregon Trail",
-  "subtitle": "Three thousand kilometres on foot, four months of dust, and the illness that killed more people than anything else.",
+  "subtitle": "Three thousand kilometers on foot, four months of dust, and the illness that killed more people than anything else.",
   "description": "An A2 reading and listening text on the Oregon Trail: who went west, what a day on the trail was like, and what really killed people on the journey.",
   "source": "authored for this site; no source document",
   "provenance": "new",
@@ -18,11 +18,11 @@
   "passage": [
     "In April, when the grass was finally high enough for the animals to eat, the wagons left Missouri and started west.",
     "Between the 1840s and the 1860s, about four hundred thousand people walked across North America to Oregon, California and Utah. The road they used is called the Oregon Trail.",
-    "It was about three thousand two hundred kilometres long, and it took four to six months. Most people did not ride in the wagon. They walked next to it, because the wagon was full of food and tools.",
-    "Families usually travelled with oxen, not horses. Oxen were slower, but they were stronger, they ate the grass along the road, and they did not cost as much.",
-    "A normal day started at four in the morning. The group travelled about twenty-five kilometres, stopped at midday for the animals, and camped in a circle in the evening.",
+    "It was about three thousand two hundred kilometers long, and it took four to six months. Most people did not ride in the wagon. They walked next to it, because the wagon was full of food and tools.",
+    "Families usually traveled with oxen, not horses. Oxen were slower, but they were stronger, they ate the grass along the road, and they did not cost as much.",
+    "A normal day started at four in the morning. The group traveled about twenty-five kilometers, stopped at midday for the animals, and camped in a circle in the evening.",
     "People went west for different reasons. Some wanted good farming land, which was free if you built a house and stayed. Some were running away from debt. After 1848, many were going to the gold.",
-    "Films show attacks by Native American nations, and this is mostly wrong. Attacks were rare. In the early years, Native people more often sold food to the travellers or helped them cross rivers.",
+    "Films show attacks by Native American nations, and this is mostly wrong. Attacks were rare. In the early years, Native people more often sold food to the travelers or helped them cross rivers.",
     "The real danger was disease, especially cholera, which came from dirty water in the camps. A person could be healthy in the morning and dead the same night. Accidents with wagons, guns and rivers killed many others.",
     "Perhaps one person in ten died on the trail. There are graves all along it, and the names on many of them are children's names.",
     "The railroad arrived in 1869, and the long walk stopped being necessary. In some places in Wyoming you can still see the lines in the rock, cut by the wheels of the wagons."
@@ -40,7 +40,8 @@
       "after": 8,
       "alt": "Open prairie at evening, flat to the horizon under a low sun",
       "source": "albert-bierstadt-evening-on-the-prairie-1870.jpeg",
-      "caption": "*Evening on the Prairie* — Albert Bierstadt, 1870."
+      "caption": "*Evening on the Prairie* — Albert Bierstadt, 1870.",
+      "relation": "depicts"
     }
   ],
   "vocabulary": [

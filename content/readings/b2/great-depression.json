@@ -3,7 +3,7 @@
   "level": "B2",
   "slug": "great-depression",
   "order": 103,
-  "topic": "history",
+  "topic": "american-history",
   "title": "The Great Depression",
   "subtitle": "The stock market crashed in October 1929. The part that ruined people came later, and more quietly.",
   "description": "A B2 reading and listening text on the Great Depression: the crash, the bank failures, the Dust Bowl, and what daily life was like for the quarter of the workforce with no job.",
@@ -21,7 +21,7 @@
     "The numbers that followed are hard to hold in the mind. Unemployment reached roughly twenty-five per cent — one worker in four — and in some industrial cities it was far worse. National income fell by almost half. Industrial production halved.",
     "There was no federal unemployment insurance, no retirement pension and no food assistance, because the country had never built them. Help meant a local charity, a church, a soup kitchen, or your family.",
     "Daily life changed shape. Families moved in together. Men who had worked for twenty years stood in breadlines and were ashamed to be seen. Marriage and birth rates fell. Hundreds of thousands of people, many of them teenagers, rode freight trains around the country looking for work, and camps of the homeless appeared on the edges of cities.",
-    "On top of the economic disaster came an environmental one. Years of ploughing grassland that should never have been ploughed, followed by severe drought, turned the southern plains into the Dust Bowl. Storms of airborne topsoil darkened the sky as far east as Washington and New York. Around two and a half million people left the plains states, and the families who went west to California found the work there already taken and the welcome cold.",
+    "On top of the economic disaster came an environmental one. Years of plowing grassland that should never have been plowed, followed by severe drought, turned the southern plains into the Dust Bowl. Storms of airborne topsoil darkened the sky as far east as Washington and New York. Around two and a half million people left the plains states, and the families who went west to California found the work there already taken and the welcome cold.",
     "The response of the federal government under President Hoover was initially limited — the governing assumption was that recovery would arrive on its own and that direct federal relief would damage self-reliance. By 1932 that position had become politically impossible, and Franklin Roosevelt won the election by a distance.",
     "It is worth being clear about what ended the Depression, because it is still argued about. The New Deal from 1933 stopped the collapse, rebuilt confidence in the banks, and put millions of people to work, but unemployment was still around fourteen per cent in 1937, and a sharp recession that year showed how fragile the recovery was. Full employment arrived with the enormous government spending of the Second World War.",
     "The lasting consequences were institutional rather than economic. Deposit insurance, old-age pensions and unemployment insurance, a regulated stock market, and the general assumption that the federal government is responsible for the state of the economy all date from these years.",
@@ -45,9 +45,9 @@
     {
       "src": "03.jpg",
       "after": 5,
-      "alt": "A wall of dust hundreds of metres high rolling towards a small town across flat country",
+      "alt": "A wall of dust hundreds of meters high rolling towards a small town across flat country",
       "source": "commons:File:Dust storm approaching Stratford, Texas.jpg",
-      "caption": "A dust storm approaching Stratford, Texas, 1935. The soil in the air had been ploughed grassland a decade earlier."
+      "caption": "A dust storm approaching Stratford, Texas, 1935. The soil in the air had been plowed grassland a decade earlier."
     }
   ],
   "vocabulary": [

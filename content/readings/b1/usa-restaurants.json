@@ -20,7 +20,7 @@
     "West of Miami is the Everglades, and it is worth understanding what it actually is, because “swamp” is misleading. The Everglades is a river — a sheet of fresh water sixty miles wide and a few inches deep, moving very slowly south through sawgrass toward the sea. It is the only place on earth where alligators and crocodiles both live wild, and the water that flows through it is what the whole of south Florida drinks. It has also been shrinking for a century, drained for farmland and housing, and the long argument about how much of it to restore is one of the most expensive environmental projects anywhere.",
     "Central Florida is the theme parks, and there is no point pretending otherwise: Orlando has Walt Disney World, Universal and SeaWorld within half an hour of each other. But an hour east is the Kennedy Space Center, where launches are still flown, and where you can stand underneath a Saturn V rocket lying on its side — which does more to convey the scale of the thing than any photograph. And an hour north is St Augustine, founded by the Spanish in 1565 and the oldest continuously occupied European settlement in what is now the United States, with a stone fort that has never been taken by force.",
     "The Gulf coast, on the west side, has the calmer water and the better sunsets. Tampa has the cultural weight, and its Ybor City district was built by Cuban and Italian cigar workers in the nineteenth century. Sarasota has the beaches and an unexpected art museum built by a circus owner. Clearwater and St Pete Beach have the sand that appears in the photographs.",
-    "The panhandle, in the far northwest, is the part most visitors never reach. The sand there is startlingly white — quartz washed down from the Appalachians over millions of years — and the water is the colour that gets it called the Emerald Coast. Pensacola has been under five flags and looks it, and the Gulf Islands National Seashore runs for miles with almost nothing built on it. Inland, the springs are the surprise: dozens of them, feeding clear rivers at a constant twenty-two degrees all year, where you can swim with manatees in winter.",
+    "The panhandle, in the far northwest, is the part most visitors never reach. The sand there is startlingly white — quartz washed down from the Appalachians over millions of years — and the water is the color that gets it called the Emerald Coast. Pensacola has been under five flags and looks it, and the Gulf Islands National Seashore runs for miles with almost nothing built on it. Inland, the springs are the surprise: dozens of them, feeding clear rivers at a constant twenty-two degrees all year, where you can swim with manatees in winter.",
     "As for the food, the honest answer is that Florida's best cooking is not particularly American. It is Cuban, and it is Caribbean. A Cuban sandwich in Tampa is pressed flat and made differently from the Miami version, and people will argue about this at length. The Keys produce conch fritters and key lime pie, which should be pale yellow and never green. On the Gulf coast the grouper is caught locally and served in a sandwich that is much better than it sounds. And the state's oldest restaurant, the Columbia in Ybor City, has been open since 1905 and still serves the Spanish and Cuban dishes it started with.",
     "None of which is an argument against the theme parks. It is an argument for renting a car, because almost everything above is within a day's drive of almost everything else, and the distance between the Florida people imagine and the Florida that exists is mostly a matter of how far you are willing to drive."
   ],
@@ -30,7 +30,8 @@
       "after": 2,
       "alt": "Alligators lying in the mud of a Florida shallows, painted in loose watercolour",
       "source": "john-singer-sargent-muddy-alligators.jpeg",
-      "caption": "*Muddy Alligators* — John Singer Sargent."
+      "caption": "*Muddy Alligators* — John Singer Sargent.",
+      "relation": "depicts"
     },
     {
       "src": "02.jpg",
@@ -52,7 +53,7 @@
     },
     {
       "term": "pastel",
-      "definition": "pale and soft in colour"
+      "definition": "pale and soft in color"
     },
     {
       "term": "to demolish",

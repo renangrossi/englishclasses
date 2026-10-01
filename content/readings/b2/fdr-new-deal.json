@@ -3,10 +3,10 @@
   "level": "B2",
   "slug": "fdr-new-deal",
   "order": 104,
-  "topic": "history",
+  "topic": "american-history",
   "title": "Franklin D. Roosevelt and the New Deal",
   "subtitle": "He closed every bank in the country on his fourth day in office, and most people thanked him for it.",
-  "description": "A B2 reading and listening text on Roosevelt and the New Deal: the bank holiday, the alphabet agencies, Social Security, the limits of the programme and the argument about it.",
+  "description": "A B2 reading and listening text on Roosevelt and the New Deal: the bank holiday, the alphabet agencies, Social Security, the limits of the program and the argument about it.",
   "source": "authored for this site; no source document",
   "provenance": "new",
   "grammar": [
@@ -17,12 +17,12 @@
   "passage": [
     "Franklin Roosevelt took office on 4 March 1933, at the worst moment of the Depression. Banks were failing in dozens of states, a quarter of the workforce had no job, and nobody knew whether the banking system would exist by the end of the month.",
     "Two days later he closed every bank in the country. The idea was to stop the panic by removing the thing people were panicking about: nobody could withdraw money anywhere, so no bank could be brought down by a queue. Inspectors examined the books, and over the following week the sound institutions reopened with a federal guarantee behind them.",
-    "On the Sunday before they reopened, Roosevelt explained the plan on the radio for about thirteen minutes, in ordinary language, as though to a neighbour. When the banks opened, deposits exceeded withdrawals. The radio talks continued for twelve years and became known as the fireside chats.",
-    "What followed in the first hundred days was a volume of legislation without precedent. The programmes were known by their initials, which is why the period is sometimes called the alphabet soup.",
+    "On the Sunday before they reopened, Roosevelt explained the plan on the radio for about thirteen minutes, in ordinary language, as though to a neighbor. When the banks opened, deposits exceeded withdrawals. The radio talks continued for twelve years and became known as the fireside chats.",
+    "What followed in the first hundred days was a volume of legislation without precedent. The programs were known by their initials, which is why the period is sometimes called the alphabet soup.",
     "The Civilian Conservation Corps put three million young men to work planting trees, fighting fires and building parks, and sent most of their pay home to their families. The Works Progress Administration employed eight and a half million people over its life and built roughly 650,000 miles of road, plus schools, bridges, airports — and, deliberately, murals, plays, concerts and a national guide to every state, on the argument that artists also eat.",
     "The Tennessee Valley Authority brought flood control and electricity to one of the poorest regions in the country. The Securities and Exchange Commission put rules around the stock market. Federal deposit insurance guaranteed savings. The Social Security Act of 1935 created old-age pensions and unemployment insurance, the first time the federal government had taken responsibility for either.",
-    "The Supreme Court struck down several of the early programmes as unconstitutional, and Roosevelt responded in 1937 with a plan to add justices to the court. It was the worst political defeat of his career: Congress refused, his own party split, and the episode cost him support he never fully recovered.",
-    "The limits of the New Deal matter as much as its scale. To pass the legislation at all, Roosevelt needed southern Democrats in Congress, and the price they set was the exclusion of agricultural and domestic workers from Social Security — which, not by accident, excluded about two-thirds of Black workers. Many programmes operated segregated facilities. The New Deal reshaped American life while leaving the racial order of the south largely untouched.",
+    "The Supreme Court struck down several of the early programs as unconstitutional, and Roosevelt responded in 1937 with a plan to add justices to the court. It was the worst political defeat of his career: Congress refused, his own party split, and the episode cost him support he never fully recovered.",
+    "The limits of the New Deal matter as much as its scale. To pass the legislation at all, Roosevelt needed southern Democrats in Congress, and the price they set was the exclusion of agricultural and domestic workers from Social Security — which, not by accident, excluded about two-thirds of Black workers. Many programs operated segregated facilities. The New Deal reshaped American life while leaving the racial order of the south largely untouched.",
     "Economists still argue about the results. Unemployment fell from about twenty-five per cent to around fourteen, which is enormous and still terrible, and the spending cuts of 1937 pushed it back up. What is not in dispute is the institutional change: after 1933 the federal government was expected to manage the economy, support the old, insure the unemployed and regulate the markets.",
     "Roosevelt was elected four times, the only president ever to be, and died in office in April 1945, weeks before the end of the war in Europe. The two-term limit was written into the Constitution four years later, which is itself a measure of how much one presidency had changed."
   ],
@@ -32,7 +32,7 @@
       "after": 4,
       "alt": "A bold Works Progress Administration poster reading WORK PAYS AMERICA, with a figure striding forward carrying tools",
       "source": "commons:File:WPA-Work-Pays-America-Poster.jpg",
-      "caption": "A WPA poster. The agency employed artists to design the posters as well as labourers to build the roads.",
+      "caption": "A WPA poster. The agency employed artists to design the posters as well as laborers to build the roads.",
       "wide": true
     },
     {
@@ -81,8 +81,13 @@
       "definition": "the act of leaving somebody out of a system or benefit"
     },
     {
-      "term": "a term",
-      "definition": "a fixed period during which somebody holds office"
+      "term": "a term limit",
+      "definition": "a legal cap on how long one person may hold an office",
+      "match": "two-term limit"
+    },
+    {
+      "term": "support",
+      "definition": "backing, people on your side — careful: not the ability to put up with something"
     }
   ],
   "exercises": [

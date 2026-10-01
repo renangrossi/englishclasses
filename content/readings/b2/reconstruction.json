@@ -3,7 +3,7 @@
   "level": "B2",
   "slug": "reconstruction",
   "order": 102,
-  "topic": "history",
+  "topic": "american-history",
   "title": "Reconstruction",
   "subtitle": "Within five years of the war, Black Americans were voting, holding office and building schools. Within fifteen, almost all of it had been taken back.",
   "description": "A B2 reading and listening text on Reconstruction: what changed between 1865 and 1877, the three amendments, the violence that followed, and the deal that ended it.",
@@ -57,8 +57,8 @@
       "definition": "a formal change or addition to a constitution"
     },
     {
-      "term": "citizenship",
-      "definition": "the legal status of being a member of a country, with its rights"
+      "term": "a citizen",
+      "definition": "a legal member of a country, with its rights and protections"
     },
     {
       "term": "to prohibit",
@@ -66,7 +66,8 @@
     },
     {
       "term": "to hold office",
-      "definition": "to occupy an elected or official position"
+      "definition": "to occupy an elected or official position",
+      "match": "held public office"
     },
     {
       "term": "to suppress",
@@ -83,6 +84,10 @@
     {
       "term": "segregation",
       "definition": "the enforced separation of racial groups in public life"
+    },
+    {
+      "term": "to support",
+      "definition": "to back, to take the side of — careful: not to put up with or endure"
     }
   ],
   "exercises": [

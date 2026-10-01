@@ -3,7 +3,7 @@
   "level": "B2",
   "slug": "civil-war-nation-divided",
   "order": 101,
-  "topic": "history",
+  "topic": "american-history",
   "title": "The Civil War: A Nation Divided",
   "subtitle": "Two economies, one country, and a war that killed more Americans than every other American war combined.",
   "description": "A B2 reading and listening text on the American Civil War: the economic and political causes, the course of the war, the role of industry, and the argument about what it was fought over.",
@@ -17,7 +17,7 @@
   ],
   "passage": [
     "By 1860 the United States had two economies inside one set of borders, and they had stopped being compatible.",
-    "The northern states had factories, railways, immigration and wage labour. The southern states had an agricultural export economy built on enslaved labour: cotton alone made up well over half of all American exports, and the four million enslaved people in the south represented, in the cold language of the period, more invested capital than all the country's factories and railroads combined.",
+    "The northern states had factories, railways, immigration and wage labor. The southern states had an agricultural export economy built on enslaved labor: cotton alone made up well over half of all American exports, and the four million enslaved people in the south represented, in the cold language of the period, more invested capital than all the country's factories and railroads combined.",
     "This is why the argument about the western territories was so bitter. Every new state would arrive with senators, and those senators would eventually decide the question. Both sides understood that the future was being settled in Kansas and Nebraska rather than in Virginia.",
     "It is sometimes said that the war was about states' rights rather than slavery. The documents do not support the distinction. The declarations issued by the seceding states name slavery directly and at length, and the Confederate vice-president said plainly in March 1861 that the new government rested upon the opposite idea to the equality of men. States' rights was the mechanism; slavery was the subject.",
     "The war began at Fort Sumter in April 1861 and almost nobody expected it to last. The south had better generals at the start and the advantage of fighting defensively on its own ground. The north had three times the white population, almost all of the industry, most of the railways, and a navy.",
@@ -39,7 +39,7 @@
   ],
   "vocabulary": [
     {
-      "term": "wage labour",
+      "term": "wage labor",
       "definition": "work done for a wage, as opposed to forced or unpaid work"
     },
     {

@@ -3,10 +3,10 @@
   "level": "A2",
   "slug": "boston-tea-party",
   "order": 101,
-  "topic": "history",
+  "topic": "american-history",
   "title": "The Boston Tea Party",
   "subtitle": "A cold December night, three ships, and ninety thousand pounds of tea in the water.",
-  "description": "An A2 reading and listening text on the Boston Tea Party of 1773: the tax on tea, the protest in the harbour, and what Britain did next.",
+  "description": "An A2 reading and listening text on the Boston Tea Party of 1773: the tax on tea, the protest in the harbor, and what Britain did next.",
   "source": "authored for this site; no source document",
   "provenance": "new",
   "grammar": [
@@ -16,29 +16,29 @@
     "present-simple"
   ],
   "passage": [
-    "On the night of 16 December 1773, about a hundred men walked down to the harbour in Boston. It was cold and dark, and they were going to destroy a very large amount of tea.",
+    "On the night of 16 December 1773, about a hundred men walked down to the harbor in Boston. It was cold and dark, and they were going to destroy a very large amount of tea.",
     "The problem had started years before. Britain needed money after a long war, so it put taxes on things the American colonists bought.",
     "The colonists did not like paying taxes to a parliament in London, because they had nobody there to speak for them. They stopped buying British goods, and Britain removed most of the taxes.",
     "But one tax stayed: the tax on tea. For London it was a small tax. For the colonists it was a question of principle.",
     "In 1773 a new law gave one British company, the East India Company, the right to sell tea in America more cheaply than anybody else. Many colonists saw a trap. If they bought the cheap tea, they accepted the tax.",
     "Three ships with tea arrived in Boston. The colonists asked the governor to send the ships back to England. He said no.",
-    "So the men went down to the harbour. Some of them had put blankets around their shoulders and paint on their faces, because they did not want anybody to recognise them.",
+    "So the men went down to the harbor. Some of them had put blankets around their shoulders and paint on their faces, because they did not want anybody to recognize them.",
     "They worked for about three hours. They opened 342 big boxes of tea and threw everything into the water. They broke nothing else, and they hurt nobody.",
-    "In the morning, tea was floating all over the harbour. People say the water smelled of tea for days.",
+    "In the morning, tea was floating all over the harbor. People say the water smelled of tea for days.",
     "Britain was furious. Parliament closed the port of Boston and sent soldiers. Instead of ending the protest, this brought the thirteen colonies together, and eighteen months later the war began."
   ],
   "images": [
     {
       "src": "01.jpg",
       "after": 6,
-      "alt": "A coloured print of men on a moored ship throwing boxes of tea into the harbour while a crowd watches from the quay",
+      "alt": "A colored print of men on a moored ship throwing boxes of tea into the harbor while a crowd watches from the quay",
       "source": "commons:File:Boston Tea Party Currier colored.jpg",
       "caption": "*The Destruction of Tea at Boston Harbor* — Nathaniel Currier, 1846. Printed seventy years afterwards, with a crowd on the quay that the written accounts do not entirely support."
     }
   ],
   "vocabulary": [
     {
-      "term": "a harbour",
+      "term": "a harbor",
       "definition": "a place where ships stop next to a city (American spelling: harbor)"
     },
     {
@@ -62,7 +62,7 @@
       "definition": "the person who governs a colony or a state"
     },
     {
-      "term": "to recognise",
+      "term": "to recognize",
       "definition": "to know who somebody is when you see them"
     },
     {

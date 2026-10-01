@@ -3,7 +3,7 @@
   "level": "B1",
   "slug": "louisiana-purchase",
   "order": 100,
-  "topic": "history",
+  "topic": "american-history",
   "title": "The Louisiana Purchase",
   "subtitle": "Jefferson sent two men to buy a city. They came home with a third of a continent.",
   "description": "A B1 reading and listening text on the Louisiana Purchase of 1803: why France sold, what the United States actually bought, and the question the deal left open.",
@@ -20,7 +20,7 @@
     "The trouble was that New Orleans did not belong to the United States. Spain had controlled it for years and had allowed American boats to use it. Then Spain quietly gave the territory back to France, and France was now run by Napoleon Bonaparte.",
     "President Thomas Jefferson sent two men to Paris with instructions to buy the city, or at least to buy the right to use the port. He authorised them to offer up to ten million dollars.",
     "They arrived to find that the French government wanted to talk about something much larger. Napoleon's foreign minister asked what the United States would pay for the whole of Louisiana.",
-    "Louisiana, in 1803, did not mean the modern state. It meant a territory of more than two million square kilometres, stretching from the Gulf of Mexico up to today's Canadian border.",
+    "Louisiana, in 1803, did not mean the modern state. It meant a territory of more than two million square kilometers, stretching from the Gulf of Mexico up to today's Canadian border.",
     "Napoleon had reasons to sell. His plan for an American empire had depended on the sugar island of Saint-Domingue, and the enslaved people there had risen against French rule and defeated three armies, one of them destroyed as much by yellow fever as by fighting. Another war with Britain was coming, and France needed money more than it needed a territory it could not defend.",
     "The two Americans had no authority to buy a continent. They bought it anyway, for fifteen million dollars, and sent the news home. The price worked out at roughly three cents a hectare.",
     "Jefferson then had a problem of his own making. He had spent his career arguing that the federal government could only do what the Constitution specifically allowed, and the Constitution said nothing about buying territory. He considered a constitutional amendment, decided there was no time, and sent the treaty to the Senate, which approved it.",
@@ -33,7 +33,8 @@
       "after": 0,
       "alt": "A wide river falling over rocks in open country, with figures small on the bank",
       "source": "albert-bierstadt-the-falls-of-st-anthony-1887.jpg",
-      "caption": "*The Falls of St Anthony* — Albert Bierstadt, 1887. The upper Mississippi: everything grown in the west travelled on this water."
+      "caption": "*The Falls of St Anthony* — Albert Bierstadt, 1887. The upper Mississippi: everything grown in the west traveled on this water.",
+      "relation": "depicts"
     },
     {
       "src": "02.jpg",

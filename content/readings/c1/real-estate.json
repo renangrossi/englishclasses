@@ -27,10 +27,11 @@
   "images": [
     {
       "src": "01.jpg",
-      "after": 3,
-      "alt": "A waterfront town seen across the river, houses and a church tower packed along the quay",
-      "source": "elias-pieter-van-bommel-dordrecht-1871.jpg",
-      "caption": "*Dordrecht* — Elias Pieter van Bommel, 1871."
+      "after": 0,
+      "alt": "A painting of a broad Colorado valley seen from a wooded ridge, elk in the foreground and the snow-covered Front Range filling the distance",
+      "source": "albert-bierstadt-estes-park-and-longs-peak-c-1876.png",
+      "caption": "*Estes Park and Longs Peak* — Albert Bierstadt, around 1876. The Front Range an hour from Denver, and a large part of what the view from a window is priced on.",
+      "relation": "depicts"
     }
   ],
   "vocabulary": [

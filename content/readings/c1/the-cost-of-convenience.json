@@ -24,7 +24,7 @@
   "passage": [
     "A convenience is something that removes a step. The phone that unlocks when it sees your face has removed the step of typing; the car that parks itself has removed the step of parking. Each removal is small, agreeable, and almost never examined, because examining it costs more effort than the step it replaced.",
     "What is given up is usually one of three things, and it is worth being able to name them.",
-    "The first is capability. A skill that is never exercised decays, and this is not sentimental — it is measurable. Drivers who rely on satellite navigation build weaker mental maps of cities they have lived in for years, and the effect appears after months rather than decades. Whether that matters depends entirely on whether you will ever need the capability unaided. For most people, most of the time, the answer is no, and the trade is good. The difficulty is that you discover you needed the skill at the moment the system fails, which is also the moment you cannot practise it.",
+    "The first is capability. A skill that is never exercised decays, and this is not sentimental — it is measurable. Drivers who rely on satellite navigation build weaker mental maps of cities they have lived in for years, and the effect appears after months rather than decades. Whether that matters depends entirely on whether you will ever need the capability unaided. For most people, most of the time, the answer is no, and the trade is good. The difficulty is that you discover you needed the skill at the moment the system fails, which is also the moment you cannot practice it.",
     "The second is visibility. A convenient system hides its workings, and hiding them is precisely what makes it convenient. The trouble is that a hidden system cannot be audited by the person it acts on. When an algorithm decides which applications reach a human recruiter, the applicant cannot see the rule, cannot know whether it was applied correctly, and in many cases cannot establish that it was applied at all. Opacity here is not a side effect of complexity; it is a design choice that happens to be cheaper than the alternative.",
     "The third is leverage, and this is the one that compounds. Convenience is habitually bought with data, and data creates a relationship that is difficult to leave. The cost of switching away from a service that holds a decade of your documents, contacts and history is not the price of the alternative but the price of the migration, and that cost rises every month you stay. Nobody is deceived by this. It is simply a good deal at the start and a progressively worse one later, which is the shape of most arrangements people regret.",
     "The reflexive response — that one should therefore resist convenience — does not survive contact with how people actually live. A person who refuses navigation, online banking and recommendation systems in order to preserve capability, visibility and independence has spent a large quantity of the only genuinely non-renewable resource they have in order to protect against risks that may never arrive. Inconvenience is not a virtue, and the aesthetic of self-reliance has sold a great many people a worse life.",
@@ -134,6 +134,10 @@
     {
       "term": "dependence",
       "definition": "the state of needing something you cannot do without"
+    },
+    {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     }
   ],
   "exercises": [

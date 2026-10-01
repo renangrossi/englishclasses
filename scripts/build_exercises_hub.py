@@ -105,7 +105,8 @@ def roman(n):
 # most likely want them: the everyday situations first, then the things you do
 # with other people, then work, then the wider subjects. Anything not listed
 # here sorts to the end alphabetically rather than disappearing.
-TOPIC_ORDER = ["everyday", "food", "travel", "sports", "culture", "history", "society",
+TOPIC_ORDER = ["everyday", "food", "travel", "sports", "culture",
+               "american-history", "world-history", "society", "science",
                "work", "interviews", "business", "tech", "literature", "review"]
 
 

@@ -49,7 +49,15 @@ def add(text, title, after, alt, caption, wide=False, check=False):
     if not 0 <= after < len(d["passage"]):
         raise SystemExit(f"{text}: --after {after} is outside the passage")
     imgs = list(d.get("images") or [])
-    name = f"{len(imgs) + 1:02d}.jpg"
+    # Next FREE number, not len+1. Removing an image from the middle of a text's
+    # set leaves a shorter list whose highest number is still taken, and len+1
+    # then silently overwrote the file already sitting there -- losing the old
+    # picture while two JSON entries claimed the same filename.
+    taken = {i["src"] for i in imgs} | {f.name for f in (IMG_ROOT / level / slug).glob("*")}
+    n = 1
+    while f"{n:02d}.jpg" in taken:
+        n += 1
+    name = f"{n:02d}.jpg"
     dest = IMG_ROOT / level / slug / name
     dest.parent.mkdir(parents=True, exist_ok=True)
     raw = dest.with_suffix(".download")

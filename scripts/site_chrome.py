@@ -161,14 +161,19 @@ def head(rel, title, description, page_path=None, og_type="website"):
 <link rel="stylesheet" href="{rel}assets/css/ai-teacher.css">
 <link rel="stylesheet" href="{rel}assets/css/search.css">
 <link rel="stylesheet" href="{rel}assets/css/exercises.css"><link rel="stylesheet" href="{rel}assets/css/lessons.css">
+<link rel="stylesheet" href="{rel}assets/css/reading-print.css">
 <script>
 (function(){{try{{var t=localStorage.getItem('theme');if(!t){{t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}}document.documentElement.setAttribute('data-theme',t);}}catch(e){{}}}})();
 </script>
 </head>"""
 
 
-def header(rel, active_level_code, breadcrumb_html):
-    return f"""<body class="" data-level-code="{active_level_code}">
+def header(rel, active_level_code, breadcrumb_html, body_class=""):
+    """body_class marks what kind of page this is, so a stylesheet can scope
+    rules to it. Reading pages pass "reading-page", which is what the print
+    layout in assets/css/exercises.css keys off: a grammar lesson prints
+    through assets/css/booklet-print.css and must not inherit any of it."""
+    return f"""<body class="{body_class}" data-level-code="{active_level_code}">
     <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
         <div class="site-header__bar">

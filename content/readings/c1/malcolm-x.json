@@ -3,7 +3,7 @@
   "level": "C1",
   "slug": "malcolm-x",
   "order": 102,
-  "topic": "history",
+  "topic": "american-history",
   "title": "Malcolm X and Two Visions of Civil Rights",
   "subtitle": "One movement asked America to live up to its promises. The other asked why anyone should trust them.",
   "description": "A C1 reading and listening text on Malcolm X: his life, his argument with the nonviolent movement, the changes in his position after 1964, and what the two visions were actually disagreeing about.",
@@ -21,10 +21,10 @@
     "The two best-known figures of the American civil rights era are usually presented as opposites, and the contrast is not wrong, but it is routinely drawn in the wrong place. The disagreement between Martin Luther King Jr. and Malcolm X was not between peace and violence. It was about whether the American system could be appealed to at all.",
     "Malcolm Little was born in Nebraska in 1925. His father, a Baptist preacher and supporter of Marcus Garvey, died when Malcolm was six, run over by a streetcar in circumstances the family believed were murder; the insurance company declined to pay on the grounds that it was suicide. His mother was committed to a state mental hospital some years later and the children were separated into foster homes. He was a strong student who, by his own account, abandoned any ambition after a teacher told him that law was not a realistic goal for a Black boy and suggested carpentry.",
     "He drifted into crime in Boston and New York and was sentenced to prison in 1946, at twenty, for burglary. He spent six years there, read through the prison library systematically, taught himself to write by copying out a dictionary, and joined the Nation of Islam, a small Black nationalist religious movement. He left prison in 1952 as Malcolm X, the surname replaced by a letter standing for the African family name that slavery had erased.",
-    "As the Nation's national spokesman he was formidably effective. Membership grew from a few hundred to tens of thousands. His argument was direct: that Black Americans were not fighting for a place in a basically decent society but living inside a system built against them, that integration amounted to asking for acceptance from people who had never offered it, and that a people has the right to defend itself. The phrase most associated with him — “by any means necessary” — is a statement about self-defence and about the legitimacy of options, not an instruction to attack.",
+    "As the Nation's national spokesman he was formidably effective. Membership grew from a few hundred to tens of thousands. His argument was direct: that Black Americans were not fighting for a place in a basically decent society but living inside a system built against them, that integration amounted to asking for acceptance from people who had never offered it, and that a people has the right to defend itself. The phrase most associated with him — “by any means necessary” — is a statement about self-defense and about the legitimacy of options, not an instruction to attack.",
     "He was also funny, fast and merciless in debate, which is why his television appearances mattered so much. A generation of young Black Americans who found the language of patience intolerable heard somebody articulate what they felt, in public, without apology.",
-    "Two things then changed his position. The first was his discovery that Elijah Muhammad, the Nation's leader, had been having children with young secretaries while preaching strict morality; the disillusionment was total. The second was his pilgrimage to Mecca in 1964, where he prayed alongside Muslims of every colour, including blond and blue-eyed men he had been taught to regard as devils by definition. He wrote home that he was rearranging much of his thinking.",
-    "In the last year of his life he founded his own organisation, moved towards a position in which racism rather than white people was the enemy, began framing the issue as a matter of international human rights rather than domestic civil rights, and started tentative contact with the mainstream movement. He was assassinated in Harlem on 21 February 1965, at thirty-nine, by members of the organisation he had left.",
+    "Two things then changed his position. The first was his discovery that Elijah Muhammad, the Nation's leader, had been having children with young secretaries while preaching strict morality; the disillusionment was total. The second was his pilgrimage to Mecca in 1964, where he prayed alongside Muslims of every color, including blond and blue-eyed men he had been taught to regard as devils by definition. He wrote home that he was rearranging much of his thinking.",
+    "In the last year of his life he founded his own organization, moved towards a position in which racism rather than white people was the enemy, began framing the issue as a matter of international human rights rather than domestic civil rights, and started tentative contact with the mainstream movement. He was assassinated in Harlem on 21 February 1965, at thirty-nine, by members of the organization he had left.",
     "His influence grew enormously after his death, largely through *The Autobiography of Malcolm X*, written with Alex Haley and published later that year. It became one of the most widely read American books of the century.",
     "The two visions are best understood as answering different questions. King's campaigns were built on the premise that the country's founding documents contained a promise that could be enforced — that the point was to make America keep its word, through law, courts and public pressure. Malcolm X's position began from the observation that the promise had been available for a very long time and had not been kept, and that a people waiting to be granted rights is still a people asking permission.",
     "Both men moved towards each other at the end of their lives. Malcolm X broadened his position after 1964; King, in his last years, turned to the economics of the problem and found the system far less reformable than he had assumed in Montgomery. Each of them was killed before the argument could be finished, which is one reason it is still running."
@@ -59,12 +59,12 @@
       "definition": "here: to be placed, officially and against your will, in a hospital"
     },
     {
-      "term": "nationalism",
-      "definition": "the belief that a people should control its own institutions"
+      "term": "nationalist",
+      "definition": "believing that a people should control its own institutions and affairs"
     },
     {
       "term": "a spokesman",
-      "definition": "a person who speaks officially for an organisation"
+      "definition": "a person who speaks officially for an organization"
     },
     {
       "term": "formidable",

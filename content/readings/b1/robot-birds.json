@@ -19,9 +19,9 @@
   ],
   "passage": [
     "Liverpool city council had a pigeon problem, and its answer was to put mechanical falcons on the roofs.",
-    "The problem itself is common to most European city centres and is not really about pigeons. A pigeon's natural diet is seeds and insects, and on that diet a pigeon stays a normal size and a normal number. In a city centre it eats what people drop and what people hand it, which is bread, chips and whatever else is going, and on that diet the birds get heavier and, far more importantly, they breed more often. A city pigeon population is a direct measurement of how much food it is being given.",
-    "The council's position was therefore that everybody who feeds the birds is responsible for the number of them, which is unpopular to say and difficult to argue with. The aim was not to remove pigeons from the city but to move them out of the centre and into the parks and open spaces, where they would go back to eating what pigeons eat.",
-    "The mechanical birds were the visible part of the plan. Ten of them, known as robops, were placed on rooftops around the centre. They were modelled on the peregrine falcon, which hunts pigeons and is the fastest animal on earth in a dive, and they were built to move between positions, turn their heads, flap their wings and play recorded falcon calls. They could be moved to a different roof so that the pigeons did not learn where they were.",
+    "The problem itself is common to most European city centers and is not really about pigeons. A pigeon's natural diet is seeds and insects, and on that diet a pigeon stays a normal size and a normal number. In a city center it eats what people drop and what people hand it, which is bread, chips and whatever else is going, and on that diet the birds get heavier and, far more importantly, they breed more often. A city pigeon population is a direct measurement of how much food it is being given.",
+    "The council's position was therefore that everybody who feeds the birds is responsible for the number of them, which is unpopular to say and difficult to argue with. The aim was not to remove pigeons from the city but to move them out of the center and into the parks and open spaces, where they would go back to eating what pigeons eat.",
+    "The mechanical birds were the visible part of the plan. Ten of them, known as robops, were placed on rooftops around the center. They were modeled on the peregrine falcon, which hunts pigeons and is the fastest animal on earth in a dive, and they were built to move between positions, turn their heads, flap their wings and play recorded falcon calls. They could be moved to a different roof so that the pigeons did not learn where they were.",
     "That last detail is the interesting one, because it tells you the designers already knew the weakness. Birds habituate. A pigeon that sees a predator which never actually catches anything will, after a while, stop treating it as a predator, and no amount of wing-flapping fixes that. Scarecrows have the same problem and have had it for centuries.",
     "The scheme was introduced in the years before Liverpool became European Capital of Culture, and the city did hold that title. Whether the robots made a lasting difference is harder to say, and cities that have tried similar devices since have generally found the effect wears off. The approaches that do work are duller: covering bins properly, closing the gaps in buildings where the birds nest, and persuading people to stop feeding them — which brings the whole thing back to the sentence the council started with."
   ],
@@ -29,8 +29,8 @@
     {
       "src": "01.jpg",
       "after": 3,
-      "alt": "A colour plate of a peregrine falcon perched on a rock, seen from the side",
-      "caption": "The peregrine falcon, in a nineteenth-century ornithological plate. The robops copy the silhouette and the colouring; what they cannot copy is that a real one might be hunting."
+      "alt": "A color plate of a peregrine falcon perched on a rock, seen from the side",
+      "caption": "The peregrine falcon, in a nineteenth-century ornithological plate. The robops copy the silhouette and the coloring; what they cannot copy is that a real one might be hunting."
     }
   ],
   "vocabulary": [
@@ -68,7 +68,7 @@
     {
       "term": "to model on",
       "definition": "to build something in imitation of",
-      "match": "modelled on"
+      "match": "modeled on"
     },
     {
       "term": "peregrine falcon",

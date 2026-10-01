@@ -30,7 +30,7 @@
     "Michael: How long is the drive?",
     "Attendant: Thirty to forty-five minutes normally. Longer in rush hour — and you're arriving right at the start of it.",
     "Michael: Is the shuttle worth waiting for?",
-    "Attendant: It depends what you're optimising for. It's the cheapest if you're travelling alone, but it stops at several hotels, so you may be in the vehicle a good deal longer. For two people the price difference against an Uber is small.",
+    "Attendant: It depends what you're optimising for. It's the cheapest if you're traveling alone, but it stops at several hotels, so you may be in the vehicle a good deal longer. For two people the price difference against an Uber is small.",
     "Michael: Then we'll take an Uber. Thank you — that was genuinely helpful.",
     "Attendant: You're welcome. The pick-up point is signposted from the exit. Enjoy your stay.",
     "They reach the hotel forty minutes later, check in, and go up to the fourth floor. Michael tries the key card. Nothing happens. He tries it again, more slowly, and the light on the lock stays red.",
@@ -38,7 +38,7 @@
     "Michael: I have. Three times. It's not the card being crooked.",
     "Laura: Right. Back down to reception, then.",
     "Michael: Sorry to bother you again. We've just tried our room and the key card isn't working.",
-    "Receptionist: I do apologise. Can I confirm the room number?",
+    "Receptionist: I do apologize. Can I confirm the room number?",
     "Michael: Four-oh-five.",
     "Receptionist: Thank you. This happens occasionally — the cards deactivate if they've been near a phone or another card for too long. Let me reprogram it. It'll take a moment.",
     "Laura: No problem at all.",
@@ -52,7 +52,8 @@
       "after": 14,
       "alt": "A South African landscape of dry scrub and tall trees with a rock ridge rising behind",
       "source": "gabriel-cornelis-de-jongh-cape-mountain-landscape.jpeg",
-      "caption": "*Cape Mountain Landscape* — Gabriel Cornelis de Jongh."
+      "caption": "*Cape Mountain Landscape* — Gabriel Cornelis de Jongh.",
+      "relation": "depicts"
     },
     {
       "src": "02.jpg",
@@ -65,7 +66,7 @@
   "vocabulary": [
     {
       "term": "overnight",
-      "definition": "happening or travelling through the night"
+      "definition": "happening or traveling through the night"
     },
     {
       "term": "straightforward",
@@ -378,9 +379,9 @@
   ],
   "discussion": [
     "The attendant asks what they are optimising for before recommending anything. Is that better service than simply naming the cheapest option?",
-    "Laura's last line suggests the faster choice was not worth it. How do you decide between saving money and saving time when travelling?",
+    "Laura's last line suggests the faster choice was not worth it. How do you decide between saving money and saving time when traveling?",
     "The receptionist tells them about the corridor phone before they need it. What is the best example of anticipated help you have received?",
-    "Practise the first conversation with a partner, changing the city and the transport options.",
+    "Practice the first conversation with a partner, changing the city and the transport options.",
     "Write about 120 words describing arriving somewhere after a long journey, and the first problem you had to solve."
   ]
 }

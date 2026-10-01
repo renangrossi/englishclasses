@@ -5,7 +5,7 @@
   "topic": "travel",
   "title": "A Day in Vienna",
   "subtitle": "A friend arrives for the day — and the small prepositions that carry most of the meaning.",
-  "description": "A B1 travel reading and listening text about a day spent showing a friend around Vienna, written to practise the prepositions to, by and for, with vocabulary and comprehension exercises.",
+  "description": "A B1 travel reading and listening text about a day spent showing a friend around Vienna, written to practice the prepositions to, by and for, with vocabulary and comprehension exercises.",
   "source": "cefr/texts/my-day-in-vienna-to-by-for.docx",
   "provenance": "rewritten",
   "narrator": "female",
@@ -20,7 +20,7 @@
   ],
   "passage": [
     "Yesterday was a good day. My friend Anna came to visit from Salzburg, and I had been looking forward to it for weeks.",
-    "She arrived by train at ten in the morning. She had booked the ticket herself on the ÖBB website, which is cheaper if you do it early, and she had sent me a photo of the confirmation the night before so that I would stop worrying about it. I waited for her on the platform. When she came through the barrier I hugged her, and we walked to the city centre on foot, because it was one of those clear October mornings when taking the underground would have felt like a waste.",
+    "She arrived by train at ten in the morning. She had booked the ticket herself on the ÖBB website, which is cheaper if you do it early, and she had sent me a photo of the confirmation the night before so that I would stop worrying about it. I waited for her on the platform. When she came through the barrier I hugged her, and we walked to the city center on foot, because it was one of those clear October mornings when taking the underground would have felt like a waste.",
     "We started with coffee at a small café near Stephansplatz. The barista was Italian, and he made the best cappuccino I have had in a long time — which, in a city that takes its coffee as seriously as Vienna does, is not a small thing to say. We sat by the window for nearly an hour.",
     "Then we walked to the Hofburg, the old imperial palace, where there was a tour in English for visitors at midday. The guide was excellent. She had clearly given the same tour several thousand times and still seemed to find parts of it funny, which I always take as a good sign. We listened to her for an hour and a half and neither of us looked at a phone once.",
     "In the afternoon Anna looked for a present for her mother and settled on a snow globe of the city, which she admitted was ridiculous and bought anyway. She paid for it in cash. We spent the rest of the afternoon walking, mostly without a destination.",
@@ -33,14 +33,16 @@
       "after": 2,
       "alt": "St Stephen's Cathedral rising over the square in front of it, with people crossing in the morning light",
       "source": "rudolf-von-alt-st-stephens-cathedral-in-vienna-1832.jpg",
-      "caption": "*St Stephen's Cathedral in Vienna* — Rudolf von Alt, 1832."
+      "caption": "*St Stephen's Cathedral in Vienna* — Rudolf von Alt, 1832.",
+      "relation": "depicts"
     },
     {
       "src": "02.jpg",
       "after": 4,
       "alt": "The folly of Roman ruins in the gardens at Schönbrunn, reflected in the water in front of it",
       "source": "ferdinand-georg-waldmuller-the-roman-ruins-at-schonbrunn-1832.jpeg",
-      "caption": "*The Roman Ruins at Schönbrunn* — Ferdinand Georg Waldmüller, 1832."
+      "caption": "*The Roman Ruins at Schönbrunn* — Ferdinand Georg Waldmüller, 1832.",
+      "relation": "depicts"
     }
   ],
   "vocabulary": [

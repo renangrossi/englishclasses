@@ -3,7 +3,7 @@
   "level": "C2",
   "slug": "the-american-dream",
   "order": 104,
-  "topic": "history",
+  "topic": "american-history",
   "title": "The American Dream",
   "subtitle": "The phrase was coined in 1931, at the bottom of the Depression, by a man who was explicit that he did not mean money. It has been doing other work ever since.",
   "description": "A C2 reading and listening text on the American Dream: who coined the phrase and what he meant, what the mobility data actually show, and why a belief can be both empirically weak and socially powerful.",
@@ -17,7 +17,7 @@
     "relative-clauses"
   ],
   "passage": [
-    "The American Dream is younger than the Ford Model T. The phrase was given its modern currency by James Truslow Adams in 1931, in a popular history written while a quarter of the American workforce was out of a job, and Adams took care to say what he did not mean by it: not a dream of motor cars and high wages, but of a social order in which each person could attain the fullest stature of which they were capable, and be recognised for what they were rather than for the circumstances of their birth.",
+    "The American Dream is younger than the Ford Model T. The phrase was given its modern currency by James Truslow Adams in 1931, in a popular history written while a quarter of the American workforce was out of a job, and Adams took care to say what he did not mean by it: not a dream of motor cars and high wages, but of a social order in which each person could attain the fullest stature of which they were capable, and be recognized for what they were rather than for the circumstances of their birth.",
     "Two things about that are worth holding on to. The first is that the phrase was coined as an argument, not as a description — an assertion about what the country was for, made at a moment when the evidence was conspicuously against it. The second is that the version Adams explicitly rejected is the version that survived. Within a generation the Dream had become a house, a car and a lawn, which is to say a standard of consumption rather than a standard of recognition.",
     "Taken as a claim about consumption, it had a remarkable run and then stopped. The cleanest measure is absolute mobility: the proportion of children who, by their early thirties, earn more than their parents did at the same age. For Americans born in 1940, that figure is around ninety per cent. For those born in 1980, it is close to half. A coin toss is not a dream, and the collapse is not explained by slower growth alone; a substantial part of it is the change in how the growth was distributed.",
     "Relative mobility — the chance of moving between positions rather than simply exceeding your parents' income — tells a less dramatic but more awkward story. The probability that a child born into the poorest fifth of American families reaches the richest fifth is roughly seven or eight per cent. That number is not catastrophic in isolation. It becomes awkward when set beside Denmark or Canada, where it is nearly twice as high, because the United States is the country whose self-description rests on this particular statistic, and it is not winning on it.",
@@ -117,7 +117,7 @@
     },
     {
       "term": "a verdict",
-      "definition": "a judgement on a person's merit or guilt"
+      "definition": "a judgment on a person's merit or guilt"
     },
     {
       "term": "a counterpart",
@@ -366,7 +366,7 @@
     }
   ],
   "discussion": [
-    "The essay argues that overestimating your chances may be useful. Is that a defence of the belief or a criticism of it?",
+    "The essay argues that overestimating your chances may be useful. Is that a defense of the belief or a criticizm of it?",
     "\"A myth that flatters the winners is ordinary. One that persuades the losers is formidable.\" Does your country have one of each?",
     "Adams's version cannot be measured by mobility statistics. Is a claim that resists measurement worth less, or differently?",
     "If mobility varies that much between cities, what follows for how the Dream should be discussed politically?",

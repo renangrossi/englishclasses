@@ -1,4 +1,40 @@
 {
+ "a1/greetings-and-names": {
+  "bytes": 447552,
+  "fingerprint": "9873aefd0f16eff2",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
+ "a1/my-day": {
+  "bytes": 387792,
+  "fingerprint": "e7e4643f81448f87",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
+ "a1/my-family": {
+  "bytes": 405216,
+  "fingerprint": "a68b64d36211466e",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
+ "a1/my-room": {
+  "bytes": 384336,
+  "fingerprint": "a0fe62a74394ae10",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
+ "a1/numbers-and-time": {
+  "bytes": 381744,
+  "fingerprint": "4ee72fafdaf66be7",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
+ "a1/ordering-food": {
+  "bytes": 392976,
+  "fingerprint": "891450dbbe9e6174",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
  "a2/a-weekend-at-the-lake": {
   "bytes": 670752,
   "fingerprint": "345e5dac212cb7eb",

@@ -1,0 +1,273 @@
+{
+  "id": "a1-reading-my-day",
+  "level": "A1",
+  "slug": "my-day",
+  "topic": "everyday",
+  "title": "A Tuesday",
+  "subtitle": "One ordinary day, from five in the morning to ten at night.",
+  "description": "An A1 reading and listening text that brings together the people, times, rooms and food words from the other A1 readings in one ordinary day.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:04"
+  },
+  "passage": [
+    "I get up at five. I take a shower, I make coffee, and I leave the apartment at half past five. Jack is still in bed.",
+    "I start work at six. The first hour is quiet, and then the shop is busy until ten. I like the busy hours, because the time goes fast.",
+    "At half past twelve I have lunch. I eat a sandwich and I sit down for thirty minutes.",
+    "I finish at two and I am home at three. I am tired, but the apartment is quiet. I read on the green sofa, or I call my mother in Ohio.",
+    "Jack finishes at six. Today it is my turn to cook, so we have chicken and rice. We eat together and we talk about the day.",
+    "After dinner we watch TV. At ten I go to bed. Tomorrow is the same, and that's okay."
+  ],
+  "vocabulary": [
+    {
+      "term": "to get up",
+      "definition": "to leave your bed in the morning",
+      "match": "get up"
+    },
+    {
+      "term": "still",
+      "definition": "continuing now; not finished"
+    },
+    {
+      "term": "busy",
+      "definition": "with a lot of work or a lot of people"
+    },
+    {
+      "term": "to go fast",
+      "definition": "to pass quickly",
+      "match": "goes fast"
+    },
+    {
+      "term": "to sit down",
+      "definition": "to put your body on a chair",
+      "match": "sit down"
+    },
+    {
+      "term": "tired",
+      "definition": "when you need to rest or sleep"
+    },
+    {
+      "term": "to call",
+      "definition": "to telephone somebody",
+      "match": "call"
+    },
+    {
+      "term": "my turn",
+      "definition": "the time when it is my job to do something",
+      "match": "my turn"
+    },
+    {
+      "term": "to watch",
+      "definition": "to look at something for a time",
+      "match": "watch"
+    },
+    {
+      "term": "that's okay",
+      "definition": "it is not a problem",
+      "match": "that's okay"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-day-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "d1",
+          "prompt": "What does Emma do before she leaves home?",
+          "options": [
+            "She washes and makes coffee",
+            "She eats a big breakfast",
+            "She watches TV"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I take a shower, I make coffee…”"
+        },
+        {
+          "id": "d2",
+          "prompt": "Why does Emma like the busy hours?",
+          "options": [
+            "Because the time passes quickly",
+            "Because she can sit down",
+            "Because the shop is quiet"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I like the busy hours, because the time goes fast.”"
+        },
+        {
+          "id": "d3",
+          "prompt": "How long does Emma stop for lunch?",
+          "options": [
+            "Half an hour",
+            "Two hours",
+            "She does not stop"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I sit down for thirty minutes.”"
+        },
+        {
+          "id": "d4",
+          "prompt": "What does Emma do when she gets home?",
+          "options": [
+            "She reads or telephones her mother",
+            "She cleans the apartment",
+            "She goes to bed"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I read on the green sofa, or I call my mother in Ohio.”"
+        },
+        {
+          "id": "d5",
+          "prompt": "Who cooks dinner today?",
+          "options": [
+            "Emma",
+            "Jack",
+            "Nobody — they go out"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Today it is my turn to cook.” Emma is telling the story."
+        },
+        {
+          "id": "d6",
+          "prompt": "How does Emma feel about her days?",
+          "options": [
+            "She is happy with them",
+            "She wants a new job",
+            "She is bored and sad"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Tomorrow is the same, and that's okay. I like my days.”"
+        }
+      ]
+    },
+    {
+      "id": "a1-day-order",
+      "type": "ordering",
+      "title": "Make the Sentence",
+      "instructions": "Put the words in the correct order.",
+      "items": [
+        {
+          "id": "do1",
+          "prompt": "Say what time you get up.",
+          "words": [
+            "I",
+            "get",
+            "up",
+            "at",
+            "five",
+            "o'clock"
+          ]
+        },
+        {
+          "id": "do2",
+          "prompt": "Say when you finish.",
+          "words": [
+            "I",
+            "finish",
+            "work",
+            "at",
+            "two"
+          ]
+        },
+        {
+          "id": "do3",
+          "prompt": "Say what you do after dinner.",
+          "words": [
+            "After",
+            "dinner",
+            "we",
+            "watch",
+            "TV"
+          ]
+        },
+        {
+          "id": "do4",
+          "prompt": "Say whose turn it is.",
+          "words": [
+            "Today",
+            "it",
+            "is",
+            "my",
+            "turn",
+            "to",
+            "cook"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-day-vocab",
+      "type": "vocabulary",
+      "title": "Words from All the Texts",
+      "instructions": "Choose the word that matches the meaning.",
+      "items": [
+        {
+          "id": "dv1",
+          "prompt": "You need to sleep. You are ___.",
+          "options": [
+            "tired",
+            "busy",
+            "warm"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tired is when you need to rest."
+        },
+        {
+          "id": "dv2",
+          "prompt": "It is nine o'clock and Jack is ___ in bed.",
+          "options": [
+            "still",
+            "again",
+            "early"
+          ],
+          "answerIndex": 0,
+          "explanation": "Still means it is continuing now."
+        },
+        {
+          "id": "dv3",
+          "prompt": "To telephone somebody is to ___ them.",
+          "options": [
+            "call",
+            "watch",
+            "order"
+          ],
+          "answerIndex": 0,
+          "explanation": "To call is to telephone."
+        },
+        {
+          "id": "dv4",
+          "prompt": "Your friend says sorry for a small thing. You say: ___",
+          "options": [
+            "That's okay.",
+            "See you later.",
+            "Here you go."
+          ],
+          "answerIndex": 0,
+          "explanation": "That's okay means it is not a problem."
+        },
+        {
+          "id": "dv5",
+          "prompt": "Yesterday Jack cooked. Today Emma cooks. Today it is ___.",
+          "options": [
+            "her turn",
+            "her shelf",
+            "her check"
+          ],
+          "answerIndex": 0,
+          "explanation": "Your turn is the time when it is your job to do something."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "What time do you get up, and what time do you go to bed?",
+    "What do you do after work?",
+    "Who cooks in your home?",
+    "Is every day the same for you? Is that okay?"
+  ]
+}

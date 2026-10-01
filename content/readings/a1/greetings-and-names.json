@@ -1,0 +1,258 @@
+{
+  "id": "a1-reading-greetings-and-names",
+  "level": "A1",
+  "slug": "greetings-and-names",
+  "topic": "everyday",
+  "title": "A New Neighbor",
+  "subtitle": "Emma works in a coffee shop in Chicago. This morning somebody new comes in.",
+  "description": "An A1 reading and listening text about meeting someone for the first time: names, where you are from, and the things people say when they say hello.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:14"
+  },
+  "passage": [
+    "My name is Emma. I live in Chicago with my husband, Jack. We have a small apartment near a park, and I work at a coffee shop on the same street.",
+    "This morning a man comes in. I don't know him. He looks tired.",
+    "“Good morning,” I say. “What can I get you?”",
+    "“Coffee, please. Black.” He smiles. “I'm Sam. I live upstairs — I moved in yesterday.”",
+    "“Nice to meet you, Sam. I'm Emma. Are you from Chicago?”",
+    "“No, I'm from Texas. Everything here is new for me — the city, the people, the weather.”",
+    "“I'm from Ohio,” I say. “But I live here now. Ten years.”",
+    "I give him his coffee. “Here you go. It's on me today. Welcome to the building.”",
+    "“Thank you,” he says. “See you later, Emma.”"
+  ],
+  "vocabulary": [
+    {
+      "term": "near",
+      "definition": "close to something, not far"
+    },
+    {
+      "term": "the same",
+      "definition": "not different",
+      "match": "the same"
+    },
+    {
+      "term": "tired",
+      "definition": "when you need to rest or sleep"
+    },
+    {
+      "term": "to smile",
+      "definition": "to make a happy face",
+      "match": "smiles"
+    },
+    {
+      "term": "to move in",
+      "definition": "to come to live in a new home",
+      "match": "moved in"
+    },
+    {
+      "term": "upstairs",
+      "definition": "on a higher floor of a building"
+    },
+    {
+      "term": "Nice to meet you",
+      "definition": "what you say when you meet somebody the first time"
+    },
+    {
+      "term": "Here you go",
+      "definition": "what you say when you give somebody something"
+    },
+    {
+      "term": "It's on me",
+      "definition": "I pay for it, not you"
+    },
+    {
+      "term": "building",
+      "definition": "a place with apartments or offices inside it"
+    },
+    {
+      "term": "See you later",
+      "definition": "goodbye, until the next time"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-greet-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "g1",
+          "prompt": "What is Emma's job?",
+          "options": [
+            "She makes and sells coffee",
+            "She drives a bus",
+            "She works in a park"
+          ],
+          "answerIndex": 0,
+          "explanation": "She works at a coffee shop, so she makes and sells coffee."
+        },
+        {
+          "id": "g2",
+          "prompt": "Who lives with Emma?",
+          "options": [
+            "Her husband",
+            "Her mother",
+            "Nobody"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I live in Chicago with my husband, Jack.”"
+        },
+        {
+          "id": "g3",
+          "prompt": "Why is this the first time Emma sees Sam?",
+          "options": [
+            "He came to live in her building yesterday",
+            "He is on vacation",
+            "He works at night"
+          ],
+          "answerIndex": 0,
+          "explanation": "He says: “I moved in upstairs yesterday.”"
+        },
+        {
+          "id": "g4",
+          "prompt": "Where is Sam's home now?",
+          "options": [
+            "In the same building as Emma, on a higher floor",
+            "In Texas",
+            "In Ohio"
+          ],
+          "answerIndex": 0,
+          "explanation": "He moved in upstairs — so he lives above Emma."
+        },
+        {
+          "id": "g5",
+          "prompt": "Does Sam pay for his coffee?",
+          "options": [
+            "No. Emma pays for it",
+            "Yes, he pays twelve dollars",
+            "He pays tomorrow"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It's on me today” means Emma pays."
+        },
+        {
+          "id": "g6",
+          "prompt": "Is Emma from Chicago?",
+          "options": [
+            "No. She is from Ohio, but she lives in Chicago now",
+            "Yes, she was born there",
+            "No. She is from Texas"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I'm from Ohio… But I live here now. Ten years.”"
+        }
+      ]
+    },
+    {
+      "id": "a1-greet-vocab",
+      "type": "vocabulary",
+      "title": "Useful Words",
+      "instructions": "Choose the word or words that match the meaning.",
+      "items": [
+        {
+          "id": "gv1",
+          "prompt": "When you need to sleep, you are ___.",
+          "options": [
+            "tired",
+            "near",
+            "the same"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tired is when you need to rest or sleep."
+        },
+        {
+          "id": "gv2",
+          "prompt": "The park is ___ my apartment. I walk there in two minutes.",
+          "options": [
+            "near",
+            "upstairs",
+            "tired"
+          ],
+          "answerIndex": 0,
+          "explanation": "Near means close to, not far."
+        },
+        {
+          "id": "gv3",
+          "prompt": "My apartment is on the first floor. Sam's apartment is ___.",
+          "options": [
+            "upstairs",
+            "near",
+            "the same"
+          ],
+          "answerIndex": 0,
+          "explanation": "Upstairs is on a higher floor."
+        },
+        {
+          "id": "gv4",
+          "prompt": "You give somebody a cup of coffee. You say: ___",
+          "options": [
+            "Here you go.",
+            "See you later.",
+            "I'm from Ohio."
+          ],
+          "answerIndex": 0,
+          "explanation": "Here you go is what you say when you give somebody something."
+        },
+        {
+          "id": "gv5",
+          "prompt": "You don't want your friend to pay. You say: ___",
+          "options": [
+            "It's on me.",
+            "Nice to meet you.",
+            "Here you go."
+          ],
+          "answerIndex": 0,
+          "explanation": "It's on me means I pay, not you."
+        }
+      ]
+    },
+    {
+      "id": "a1-greet-match",
+      "type": "matching",
+      "title": "What Do You Say?",
+      "instructions": "Match each situation to the right words.",
+      "items": [
+        {
+          "id": "gm1",
+          "pairs": [
+            {
+              "left": "You meet somebody the first time",
+              "right": "Nice to meet you."
+            },
+            {
+              "left": "You give somebody their coffee",
+              "right": "Here you go."
+            },
+            {
+              "left": "You leave, and you will see them again",
+              "right": "See you later."
+            },
+            {
+              "left": "You want to pay for your friend",
+              "right": "It's on me."
+            },
+            {
+              "left": "Somebody comes to live in your building",
+              "right": "Welcome to the building."
+            },
+            {
+              "left": "You want to know somebody's city",
+              "right": "Are you from Chicago?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "What is your name, and where are you from?",
+    "Where do you live now?",
+    "What is your job?",
+    "Do you know the people in your building?"
+  ]
+}

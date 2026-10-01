@@ -1,0 +1,247 @@
+{
+  "id": "a1-reading-ordering-food",
+  "level": "A1",
+  "slug": "ordering-food",
+  "topic": "food",
+  "title": "Lunch on Saturday",
+  "subtitle": "Emma and Jack don't cook on Saturday. They go out — and this is what you say.",
+  "description": "An A1 reading and listening text set in an American restaurant: ordering, asking for the check, and tipping.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:05"
+  },
+  "passage": [
+    "On Saturday, Jack and I go out for lunch. We don't cook on Saturday.",
+    "We go to a small place near the park. It is not expensive and the food is good. We are hungry.",
+    "The server comes to our table. “Are you ready to order?”",
+    "“Yes,” I say. “I'd like the chicken sandwich, please. And a glass of water.”",
+    "“And for you, sir?”",
+    "“Can I have the chicken too? With rice, not fries.” Jack is always hungry.",
+    "“Of course. Anything else?”",
+    "“No, that's all, thank you.”",
+    "The food comes in ten minutes. We eat and we talk. At the end, Jack asks for the check. It is twenty-four dollars. He pays, and he leaves a tip on the table."
+  ],
+  "vocabulary": [
+    {
+      "term": "to go out",
+      "definition": "to leave home to do something you enjoy",
+      "match": "go out"
+    },
+    {
+      "term": "expensive",
+      "definition": "costing a lot of money"
+    },
+    {
+      "term": "hungry",
+      "definition": "wanting to eat"
+    },
+    {
+      "term": "server",
+      "definition": "the person who brings your food in a restaurant"
+    },
+    {
+      "term": "to order",
+      "definition": "to ask for the food you want in a restaurant",
+      "match": "order"
+    },
+    {
+      "term": "I'd like",
+      "definition": "a polite way to say “I want”"
+    },
+    {
+      "term": "Can I have",
+      "definition": "a polite way to ask for something"
+    },
+    {
+      "term": "fries",
+      "definition": "long pieces of potato cooked in hot oil"
+    },
+    {
+      "term": "Of course",
+      "definition": "yes, certainly"
+    },
+    {
+      "term": "Anything else",
+      "definition": "do you want more?"
+    },
+    {
+      "term": "that's all",
+      "definition": "nothing more; I am finished",
+      "match": "that's all"
+    },
+    {
+      "term": "the check",
+      "definition": "the paper that shows how much you pay — in American English",
+      "match": "the check"
+    },
+    {
+      "term": "tip",
+      "definition": "extra money you leave for the server"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-food-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "o1",
+          "prompt": "Why do Emma and Jack eat in a restaurant on Saturday?",
+          "options": [
+            "Because they don't cook on that day",
+            "Because their kitchen is small",
+            "Because it is Jack's birthday"
+          ],
+          "answerIndex": 0,
+          "explanation": "“We don't cook on Saturday.”"
+        },
+        {
+          "id": "o2",
+          "prompt": "What does Emma say about the price?",
+          "options": [
+            "It does not cost a lot",
+            "It is very expensive",
+            "She does not say"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It is not expensive.”"
+        },
+        {
+          "id": "o3",
+          "prompt": "What do Emma and Jack both eat?",
+          "options": [
+            "Chicken",
+            "Fish",
+            "Rice only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Emma orders a chicken sandwich; Jack says “Can I have the chicken too?”"
+        },
+        {
+          "id": "o4",
+          "prompt": "What does Jack not want with his food?",
+          "options": [
+            "Fries",
+            "Rice",
+            "Water"
+          ],
+          "answerIndex": 0,
+          "explanation": "“With rice, not fries.”"
+        },
+        {
+          "id": "o5",
+          "prompt": "What does “that's all” mean here?",
+          "options": [
+            "They don't want anything more",
+            "They want the check now",
+            "The food is finished"
+          ],
+          "answerIndex": 0,
+          "explanation": "The server asks “Anything else?” and they say no."
+        },
+        {
+          "id": "o6",
+          "prompt": "What does Jack leave on the table?",
+          "options": [
+            "Extra money for the server",
+            "His phone",
+            "The menu"
+          ],
+          "answerIndex": 0,
+          "explanation": "He leaves a tip — extra money for the server. This is normal in the United States."
+        }
+      ]
+    },
+    {
+      "id": "a1-food-order",
+      "type": "ordering",
+      "title": "Say It Politely",
+      "instructions": "Put the words in the correct order.",
+      "items": [
+        {
+          "id": "oo1",
+          "prompt": "Ask for a chicken sandwich.",
+          "words": [
+            "I'd",
+            "like",
+            "the",
+            "chicken",
+            "sandwich,",
+            "please"
+          ]
+        },
+        {
+          "id": "oo2",
+          "prompt": "Ask for the check.",
+          "words": [
+            "Can",
+            "I",
+            "have",
+            "the",
+            "check,",
+            "please"
+          ]
+        },
+        {
+          "id": "oo3",
+          "prompt": "Say you don't want more.",
+          "words": [
+            "No,",
+            "that's",
+            "all,",
+            "thank",
+            "you"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-food-match",
+      "type": "matching",
+      "title": "In the Restaurant",
+      "instructions": "Match each one to its meaning.",
+      "items": [
+        {
+          "id": "om1",
+          "pairs": [
+            {
+              "left": "the server",
+              "right": "the person who brings your food"
+            },
+            {
+              "left": "the check",
+              "right": "the paper that shows how much you pay"
+            },
+            {
+              "left": "a tip",
+              "right": "extra money you leave for the server"
+            },
+            {
+              "left": "fries",
+              "right": "long pieces of potato cooked in hot oil"
+            },
+            {
+              "left": "Anything else?",
+              "right": "Do you want more?"
+            },
+            {
+              "left": "Of course.",
+              "right": "Yes, certainly."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "What do you eat for lunch?",
+    "Do you cook, or do you go out?",
+    "What food do you like? What food don't you like?",
+    "In your country, do people leave a tip?"
+  ]
+}

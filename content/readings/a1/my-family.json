@@ -1,0 +1,252 @@
+{
+  "id": "a1-reading-my-family",
+  "level": "A1",
+  "slug": "my-family",
+  "topic": "everyday",
+  "title": "My Family",
+  "subtitle": "Emma's parents, her older sister, her younger brother — and one week in December.",
+  "description": "An A1 reading and listening text about family words, ages and relationships, including the false friend 'parents'.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:07"
+  },
+  "passage": [
+    "My family is not big. I have one brother and one sister.",
+    "My parents live in Ohio, in the same house for thirty years. My father, Dan, is sixty-two. He works in a store. My mother, Laura, is sixty, and she is a nurse. She works at night.",
+    "My sister, Kate, is older than me. She is thirty-five, and she has two kids, a son and a daughter. Her husband is a teacher. They live near my parents, so my mother sees the kids every week.",
+    "My brother, Nick, is younger. He is twenty-eight and he is not married. He lives in Denver and works for a small company. We talk on the phone every Sunday.",
+    "I live far from all of them. But every December we go to Ohio, and for one week the house is full and loud and very warm."
+  ],
+  "vocabulary": [
+    {
+      "term": "parents",
+      "definition": "your mother and your father — careful: not all your relatives"
+    },
+    {
+      "term": "store",
+      "definition": "a place where you buy things"
+    },
+    {
+      "term": "nurse",
+      "definition": "a person who helps sick people at a hospital"
+    },
+    {
+      "term": "older",
+      "definition": "with more years"
+    },
+    {
+      "term": "kids",
+      "definition": "children, in everyday English"
+    },
+    {
+      "term": "son",
+      "definition": "somebody's male child"
+    },
+    {
+      "term": "daughter",
+      "definition": "somebody's female child"
+    },
+    {
+      "term": "younger",
+      "definition": "with fewer years"
+    },
+    {
+      "term": "married",
+      "definition": "having a husband or a wife"
+    },
+    {
+      "term": "far from",
+      "definition": "a long way away from",
+      "match": "far from"
+    },
+    {
+      "term": "full",
+      "definition": "with no empty space"
+    },
+    {
+      "term": "loud",
+      "definition": "with a lot of noise"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-fam-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "f1",
+          "prompt": "How many brothers and sisters does Emma have?",
+          "options": [
+            "Two: one brother and one sister",
+            "Three",
+            "Only one brother"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I have one brother and one sister.”"
+        },
+        {
+          "id": "f2",
+          "prompt": "What does Emma's mother do?",
+          "options": [
+            "She helps sick people at night",
+            "She works in a store",
+            "She is a teacher"
+          ],
+          "answerIndex": 0,
+          "explanation": "She is a nurse and she works at night."
+        },
+        {
+          "id": "f3",
+          "prompt": "Who is the oldest of the three children?",
+          "options": [
+            "Kate",
+            "Emma",
+            "Nick"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kate is older than Emma, and Nick is younger."
+        },
+        {
+          "id": "f4",
+          "prompt": "Why does Emma's mother see Kate's children every week?",
+          "options": [
+            "Because Kate lives close to her parents",
+            "Because Kate has no husband",
+            "Because she is a nurse"
+          ],
+          "answerIndex": 0,
+          "explanation": "“They live near my parents.”"
+        },
+        {
+          "id": "f5",
+          "prompt": "Does Nick have a wife?",
+          "options": [
+            "No, he is not married",
+            "Yes, and two children",
+            "Yes, she is a teacher"
+          ],
+          "answerIndex": 0,
+          "explanation": "“he is not married”."
+        },
+        {
+          "id": "f6",
+          "prompt": "How often does Emma see her family in Ohio?",
+          "options": [
+            "One week a year, in December",
+            "Every Sunday",
+            "Every week"
+          ],
+          "answerIndex": 0,
+          "explanation": "Every December they go for one week. On Sunday she only talks to Nick on the phone."
+        }
+      ]
+    },
+    {
+      "id": "a1-fam-vocab",
+      "type": "vocabulary",
+      "title": "Family Words",
+      "instructions": "Choose the word that matches the meaning.",
+      "items": [
+        {
+          "id": "fv1",
+          "prompt": "Your mother and your father are your ___.",
+          "options": [
+            "parents",
+            "kids",
+            "nurses"
+          ],
+          "answerIndex": 0,
+          "explanation": "Careful: in English, parents means only your mother and father."
+        },
+        {
+          "id": "fv2",
+          "prompt": "Your brother's male child is his ___.",
+          "options": [
+            "son",
+            "daughter",
+            "husband"
+          ],
+          "answerIndex": 0,
+          "explanation": "A son is a male child."
+        },
+        {
+          "id": "fv3",
+          "prompt": "Kate is thirty-five and Emma is thirty-two. Kate is ___.",
+          "options": [
+            "older",
+            "younger",
+            "married"
+          ],
+          "answerIndex": 0,
+          "explanation": "Older means with more years."
+        },
+        {
+          "id": "fv4",
+          "prompt": "Nick has no wife. He is not ___.",
+          "options": [
+            "married",
+            "loud",
+            "full"
+          ],
+          "answerIndex": 0,
+          "explanation": "To be married is to have a husband or a wife."
+        },
+        {
+          "id": "fv5",
+          "prompt": "There are twelve people in a small room. The room is ___.",
+          "options": [
+            "full",
+            "far",
+            "quiet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Full means with no empty space."
+        }
+      ]
+    },
+    {
+      "id": "a1-fam-match",
+      "type": "matching",
+      "title": "Who Is Who?",
+      "instructions": "Match each person to the right description.",
+      "items": [
+        {
+          "id": "fm1",
+          "pairs": [
+            {
+              "left": "Dan",
+              "right": "Emma's father. He works in a store."
+            },
+            {
+              "left": "Laura",
+              "right": "Emma's mother. She is a nurse and works at night."
+            },
+            {
+              "left": "Kate",
+              "right": "Emma's older sister. She has two kids."
+            },
+            {
+              "left": "Nick",
+              "right": "Emma's younger brother. He lives in Denver."
+            },
+            {
+              "left": "Jack",
+              "right": "Emma's husband. He works from home."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Who is in your family?",
+    "Do you have brothers or sisters? Are they older or younger?",
+    "Where do your parents live?",
+    "When do you see your family?"
+  ]
+}

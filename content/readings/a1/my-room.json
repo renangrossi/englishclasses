@@ -1,0 +1,284 @@
+{
+  "id": "a1-reading-my-room",
+  "level": "A1",
+  "slug": "my-room",
+  "topic": "everyday",
+  "title": "Our Apartment",
+  "subtitle": "Three rooms, an old green sofa, and a window the sun comes through.",
+  "description": "An A1 reading and listening text describing a small apartment, teaching furniture words and the prepositions that put things in a place.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:04"
+  },
+  "passage": [
+    "Our apartment is small, but we like it. There are three rooms: a bedroom, a living room, and a kitchen. The bathroom is next to the bedroom.",
+    "I like the living room best. There is a big window, and the afternoon sun comes in. Under it is an old green sofa from my grandmother.",
+    "Next to the sofa there is a small table with books. On the wall there is a picture of Ohio. The floor is wood and cold in the morning.",
+    "The kitchen is small — two people cannot cook in it together. There is a stove, a refrigerator, and a shelf for the plates.",
+    "In the bedroom we have a bed, a desk, and a chair. Jack works there every day. The window is on the street, so we hear the buses.",
+    "It is not big. But it is warm, it is near the park, and it is ours."
+  ],
+  "vocabulary": [
+    {
+      "term": "next to",
+      "definition": "at the side of",
+      "match": "next to"
+    },
+    {
+      "term": "under",
+      "definition": "below something"
+    },
+    {
+      "term": "grandmother",
+      "definition": "the mother of your mother or your father"
+    },
+    {
+      "term": "wall",
+      "definition": "the side of a room, where you put a picture"
+    },
+    {
+      "term": "floor",
+      "definition": "the part of a room you walk on"
+    },
+    {
+      "term": "wood",
+      "definition": "the hard material that comes from trees"
+    },
+    {
+      "term": "stove",
+      "definition": "the thing in a kitchen you cook on"
+    },
+    {
+      "term": "shelf",
+      "definition": "a flat board on a wall for putting things on"
+    },
+    {
+      "term": "desk",
+      "definition": "a table for working or writing"
+    },
+    {
+      "term": "to hear",
+      "definition": "to know a sound with your ears",
+      "match": "hear"
+    },
+    {
+      "term": "warm",
+      "definition": "a little hot, in a good way"
+    },
+    {
+      "term": "ours",
+      "definition": "it belongs to us"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-room-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "r1",
+          "prompt": "How many rooms does the apartment have?",
+          "options": [
+            "Three, and a bathroom",
+            "Two",
+            "Five"
+          ],
+          "answerIndex": 0,
+          "explanation": "A bedroom, a living room and a kitchen — and the bathroom next to the bedroom."
+        },
+        {
+          "id": "r2",
+          "prompt": "Where is the sofa?",
+          "options": [
+            "Below the window",
+            "On the wall",
+            "In the kitchen"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Under the window there is an old green sofa.”"
+        },
+        {
+          "id": "r3",
+          "prompt": "Where does the sofa come from?",
+          "options": [
+            "It was her grandmother's",
+            "They buy it new",
+            "It comes with the apartment"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It is from my grandmother.”"
+        },
+        {
+          "id": "r4",
+          "prompt": "Why can only one person cook?",
+          "options": [
+            "Because the kitchen is very small",
+            "Because there is no stove",
+            "Because Jack is working"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Two people cannot cook in it together.”"
+        },
+        {
+          "id": "r5",
+          "prompt": "What does Jack use the desk for?",
+          "options": [
+            "His work",
+            "Eating dinner",
+            "Books only"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Jack works at the desk every day.” He works from home."
+        },
+        {
+          "id": "r6",
+          "prompt": "Why do they hear buses in the morning?",
+          "options": [
+            "Because the bedroom window is on the street",
+            "Because the walls are thin",
+            "Because they live near a bus station"
+          ],
+          "answerIndex": 0,
+          "explanation": "“From the window we see the street, so in the morning we hear the buses.”"
+        }
+      ]
+    },
+    {
+      "id": "a1-room-fill",
+      "type": "fill-blank",
+      "title": "Where Is It?",
+      "instructions": "Complete each sentence with the right word.",
+      "items": [
+        {
+          "id": "rf1",
+          "prompt": "The bathroom is ___ ___ the bedroom.",
+          "answers": [
+            "next",
+            "to"
+          ],
+          "options": [
+            [
+              "next",
+              "under",
+              "on"
+            ],
+            [
+              "to",
+              "of",
+              "at"
+            ]
+          ],
+          "explanation": "Next to means at the side of."
+        },
+        {
+          "id": "rf2",
+          "prompt": "The sofa is ___ the window.",
+          "answers": [
+            "under"
+          ],
+          "options": [
+            "under",
+            "on",
+            "next"
+          ],
+          "explanation": "Under means below."
+        },
+        {
+          "id": "rf3",
+          "prompt": "There is a picture ___ the wall.",
+          "answers": [
+            "on"
+          ],
+          "options": [
+            "on",
+            "in",
+            "under"
+          ],
+          "explanation": "We say on the wall."
+        },
+        {
+          "id": "rf4",
+          "prompt": "The plates are on a ___ in the kitchen.",
+          "answers": [
+            "shelf"
+          ],
+          "options": [
+            "shelf",
+            "floor",
+            "desk"
+          ],
+          "explanation": "A shelf is a flat board for putting things on."
+        },
+        {
+          "id": "rf5",
+          "prompt": "Jack writes at his ___.",
+          "answers": [
+            "desk"
+          ],
+          "options": [
+            "desk",
+            "stove",
+            "wall"
+          ],
+          "explanation": "A desk is a table for working or writing."
+        },
+        {
+          "id": "rf6",
+          "prompt": "The apartment is small, but it is ___ in the winter.",
+          "answers": [
+            "warm"
+          ],
+          "options": [
+            "warm",
+            "cold",
+            "loud"
+          ],
+          "explanation": "Warm is a little hot, in a good way."
+        }
+      ]
+    },
+    {
+      "id": "a1-room-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Is it true or false?",
+      "items": [
+        {
+          "id": "rt1",
+          "statement": "The apartment is big.",
+          "answer": false,
+          "explanation": "False. “Our apartment is small.”"
+        },
+        {
+          "id": "rt2",
+          "statement": "The living room has a big window.",
+          "answer": true,
+          "explanation": "True, and the sun comes in through it in the afternoon."
+        },
+        {
+          "id": "rt3",
+          "statement": "The floor is cold in the morning.",
+          "answer": true,
+          "explanation": "True. “The floor is wood, and in the morning it is cold.”"
+        },
+        {
+          "id": "rt4",
+          "statement": "Emma does not like the apartment.",
+          "answer": false,
+          "explanation": "False. “we like it” — it is warm, near the park, and theirs."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "What is in your room?",
+    "Is your home big or small?",
+    "What is next to your bed?",
+    "What do you hear from your window?"
+  ]
+}

@@ -1,7 +1,19 @@
 {
+ "a1/at-the-store": {
+  "bytes": 361296,
+  "fingerprint": "275b6f312ef9b2d4",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
  "a1/greetings-and-names": {
   "bytes": 447552,
   "fingerprint": "9873aefd0f16eff2",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
+ "a1/i-dont-feel-good": {
+  "bytes": 397728,
+  "fingerprint": "dd6baea634158e23",
   "rate": "-15%",
   "voice": "en-US-JennyNeural"
  },
@@ -14,6 +26,12 @@
  "a1/my-family": {
   "bytes": 405216,
   "fingerprint": "a68b64d36211466e",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
+ "a1/my-job": {
+  "bytes": 389664,
+  "fingerprint": "04f71ee06f445f51",
   "rate": "-15%",
   "voice": "en-US-JennyNeural"
  },
@@ -32,6 +50,24 @@
  "a1/ordering-food": {
   "bytes": 392976,
   "fingerprint": "891450dbbe9e6174",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
+ "a1/rain-and-snow": {
+  "bytes": 381168,
+  "fingerprint": "5d5b1d03376781d0",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
+ "a1/saturday-morning": {
+  "bytes": 378576,
+  "fingerprint": "da8b1b8abd1aaa0b",
+  "rate": "-15%",
+  "voice": "en-US-JennyNeural"
+ },
+ "a1/taking-the-train": {
+  "bytes": 365760,
+  "fingerprint": "92526dd160fce14a",
   "rate": "-15%",
   "voice": "en-US-JennyNeural"
  },

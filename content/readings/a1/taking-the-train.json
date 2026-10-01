@@ -1,0 +1,235 @@
+{
+  "id": "a1-reading-taking-the-train",
+  "level": "A1",
+  "slug": "taking-the-train",
+  "order": 8,
+  "topic": "travel",
+  "title": "Taking the Train",
+  "subtitle": "On Sunday Emma takes the train downtown. It is late.",
+  "description": "An A1 reading and listening text about getting around an American city by train: tickets, stops, and being late.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:00"
+  },
+  "passage": [
+    "On Sunday I take the train downtown. I want to see my friend Anna.",
+    "The station is ten minutes from my apartment. I buy a ticket for three dollars.",
+    "The train is late. I wait on the platform for fifteen minutes. It is cold, and I am not happy.",
+    "Then the train comes. It is full, and I don't get a seat. I stand for four stops.",
+    "At the fifth stop a man gets off and I sit down. Outside the window I see the lake. The water is gray today.",
+    "I get off downtown at ten past two. Anna is in front of the station with two coffees.",
+    "“You're late,” she says.",
+    "“I know. The train.”",
+    "She laughs. “It's always the train.”"
+  ],
+  "vocabulary": [
+    {
+      "term": "downtown",
+      "definition": "the center of an American city"
+    },
+    {
+      "term": "station",
+      "definition": "the place where you get on a train"
+    },
+    {
+      "term": "ticket",
+      "definition": "the paper or card that lets you travel"
+    },
+    {
+      "term": "late",
+      "definition": "after the right time"
+    },
+    {
+      "term": "platform",
+      "definition": "the place in a station where you wait for the train"
+    },
+    {
+      "term": "seat",
+      "definition": "a place to sit"
+    },
+    {
+      "term": "to stand",
+      "definition": "to be on your feet, not sitting",
+      "match": "stand"
+    },
+    {
+      "term": "stop",
+      "definition": "a place where the train or bus stops for people",
+      "match": "stops"
+    },
+    {
+      "term": "to get off",
+      "definition": "to leave a train or a bus",
+      "match": "gets off"
+    },
+    {
+      "term": "lake",
+      "definition": "a big area of water with land all around it"
+    },
+    {
+      "term": "to laugh",
+      "definition": "to make a happy sound when something is funny",
+      "match": "laughs"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-train-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "n1",
+          "prompt": "Why does Emma go downtown?",
+          "options": [
+            "To meet a friend",
+            "To work",
+            "To buy a ticket"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I want to see my friend Anna.”"
+        },
+        {
+          "id": "n2",
+          "prompt": "How long does Emma wait on the platform?",
+          "options": [
+            "A quarter of an hour",
+            "Four minutes",
+            "Ten minutes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fifteen minutes is a quarter of an hour."
+        },
+        {
+          "id": "n3",
+          "prompt": "Why does Emma stand on the train?",
+          "options": [
+            "Because there are no free seats",
+            "Because it is a short trip",
+            "Because she wants to see the lake"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It is full, and I don't get a seat.”"
+        },
+        {
+          "id": "n4",
+          "prompt": "When does Emma sit down?",
+          "options": [
+            "When a man leaves the train",
+            "At the first stop",
+            "She never sits down"
+          ],
+          "answerIndex": 0,
+          "explanation": "“At the fifth stop a man gets off and I sit down.”"
+        },
+        {
+          "id": "n5",
+          "prompt": "Where is Anna waiting?",
+          "options": [
+            "Outside the station",
+            "On the platform",
+            "At her home"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Anna is in front of the station with two coffees.”"
+        },
+        {
+          "id": "n6",
+          "prompt": "Is Anna angry that Emma is late?",
+          "options": [
+            "No, she laughs about it",
+            "Yes, very angry",
+            "She does not say anything"
+          ],
+          "answerIndex": 0,
+          "explanation": "“She laughs. ‘It's always the train.’”"
+        }
+      ]
+    },
+    {
+      "id": "a1-train-order",
+      "type": "ordering",
+      "title": "Make the Sentence",
+      "instructions": "Put the words in the correct order.",
+      "items": [
+        {
+          "id": "no1",
+          "prompt": "Say how you go downtown.",
+          "words": [
+            "I",
+            "take",
+            "the",
+            "train",
+            "downtown"
+          ]
+        },
+        {
+          "id": "no2",
+          "prompt": "Say where you wait.",
+          "words": [
+            "I",
+            "wait",
+            "on",
+            "the",
+            "platform"
+          ]
+        },
+        {
+          "id": "no3",
+          "prompt": "Say when you leave the train.",
+          "words": [
+            "I",
+            "get",
+            "off",
+            "at",
+            "the",
+            "fifth",
+            "stop"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-train-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Is it true or false?",
+      "items": [
+        {
+          "id": "nt1",
+          "statement": "The train comes at the right time.",
+          "answer": false,
+          "explanation": "False. “The train is late.”"
+        },
+        {
+          "id": "nt2",
+          "statement": "Emma has a seat for the whole trip.",
+          "answer": false,
+          "explanation": "False. She stands for four stops."
+        },
+        {
+          "id": "nt3",
+          "statement": "Emma can see water from the train.",
+          "answer": true,
+          "explanation": "True. “Outside the window I see the lake.”"
+        },
+        {
+          "id": "nt4",
+          "statement": "Anna brings something to drink.",
+          "answer": true,
+          "explanation": "True. She is waiting “with two coffees”."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "How do you go to work or to school?",
+    "Is it far? How long does it take?",
+    "Do you take the bus or the train?",
+    "Are the buses and trains late where you live?"
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "id": "a1-reading-at-the-store",
+  "level": "A1",
+  "slug": "at-the-store",
+  "order": 7,
+  "topic": "everyday",
+  "title": "At the Store",
+  "subtitle": "Emma needs milk, bread and coffee — and the line is long.",
+  "description": "An A1 reading and listening text about shopping and money: prices, paying, and the words American stores use.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:00"
+  },
+  "passage": [
+    "After work I go to the store. We need milk, bread, and coffee for the shop at home.",
+    "The store is near my apartment, so I walk. It is cheap, and it is open until ten.",
+    "I take a basket. The milk is two dollars. The bread is three. The coffee is expensive — nine dollars — but it is good coffee, and Jack drinks a lot of it.",
+    "I look for apples too, but today they are not fresh. I don't buy them.",
+    "At the front there is a long line. I wait for ten minutes. A woman in front of me has two kids, and they are tired and loud.",
+    "“Fourteen dollars,” the man says. I pay with a card. He gives me a bag.",
+    "“Have a good night,” he says."
+  ],
+  "vocabulary": [
+    {
+      "term": "cheap",
+      "definition": "not costing a lot of money"
+    },
+    {
+      "term": "basket",
+      "definition": "the thing you carry your shopping in"
+    },
+    {
+      "term": "to look for",
+      "definition": "to try to find something",
+      "match": "look for"
+    },
+    {
+      "term": "fresh",
+      "definition": "new and good to eat, not old"
+    },
+    {
+      "term": "line",
+      "definition": "people standing one behind the other and waiting — in American English"
+    },
+    {
+      "term": "to wait",
+      "definition": "to stay in a place until something happens",
+      "match": "wait"
+    },
+    {
+      "term": "in front of",
+      "definition": "before somebody, nearer the front",
+      "match": "in front of"
+    },
+    {
+      "term": "to pay",
+      "definition": "to give money for something",
+      "match": "pay"
+    },
+    {
+      "term": "card",
+      "definition": "the small piece of plastic you pay with"
+    },
+    {
+      "term": "bag",
+      "definition": "the thing you put your shopping in to carry it"
+    },
+    {
+      "term": "Have a good night",
+      "definition": "a friendly way to say goodbye in the evening"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-store-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "s1",
+          "prompt": "Why does Emma walk to the store?",
+          "options": [
+            "Because it is close to her home",
+            "Because she has no car",
+            "Because the bus is late"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The store is near my apartment, so I walk.”"
+        },
+        {
+          "id": "s2",
+          "prompt": "Which thing costs the most?",
+          "options": [
+            "The coffee",
+            "The bread",
+            "The milk"
+          ],
+          "answerIndex": 0,
+          "explanation": "Coffee is nine dollars; bread is three and milk is two."
+        },
+        {
+          "id": "s3",
+          "prompt": "Why doesn't Emma buy apples?",
+          "options": [
+            "They are not fresh today",
+            "They are too expensive",
+            "The store has none"
+          ],
+          "answerIndex": 0,
+          "explanation": "“today they are not fresh. I don't buy them.”"
+        },
+        {
+          "id": "s4",
+          "prompt": "What does Emma do for ten minutes?",
+          "options": [
+            "She waits in the line",
+            "She looks for coffee",
+            "She talks to a woman"
+          ],
+          "answerIndex": 0,
+          "explanation": "“There is a long line. I wait for ten minutes.”"
+        },
+        {
+          "id": "s5",
+          "prompt": "How does Emma pay?",
+          "options": [
+            "With a card",
+            "With cash",
+            "Jack pays"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I pay with a card.”"
+        },
+        {
+          "id": "s6",
+          "prompt": "What time can Emma go to this store?",
+          "options": [
+            "Any time before ten at night",
+            "Only in the morning",
+            "Only on Saturday"
+          ],
+          "answerIndex": 0,
+          "explanation": "“it is open until ten.”"
+        }
+      ]
+    },
+    {
+      "id": "a1-store-fill",
+      "type": "fill-blank",
+      "title": "Shopping Words",
+      "instructions": "Complete each sentence with one word.",
+      "items": [
+        {
+          "id": "sf1",
+          "prompt": "This store is not expensive. It is ___.",
+          "answers": [
+            "cheap"
+          ],
+          "options": [
+            "cheap",
+            "fresh",
+            "long"
+          ],
+          "explanation": "Cheap is the opposite of expensive."
+        },
+        {
+          "id": "sf2",
+          "prompt": "I can't find the bread. I ___ ___ it for five minutes.",
+          "answers": [
+            "look",
+            "for"
+          ],
+          "options": [
+            [
+              "look",
+              "wait",
+              "pay"
+            ],
+            [
+              "for",
+              "at",
+              "to"
+            ]
+          ],
+          "explanation": "To look for something is to try to find it."
+        },
+        {
+          "id": "sf3",
+          "prompt": "There are ten people in the ___. I have to wait.",
+          "answers": [
+            "line"
+          ],
+          "options": [
+            "line",
+            "bag",
+            "card"
+          ],
+          "explanation": "In American English, people waiting one behind the other are in a line."
+        },
+        {
+          "id": "sf4",
+          "prompt": "These apples are from this morning. They are ___.",
+          "answers": [
+            "fresh"
+          ],
+          "options": [
+            "fresh",
+            "cheap",
+            "tired"
+          ],
+          "explanation": "Fresh means new and good to eat."
+        },
+        {
+          "id": "sf5",
+          "prompt": "I don't have money with me, so I ___ with a card.",
+          "answers": [
+            "pay"
+          ],
+          "options": [
+            "pay",
+            "wait",
+            "need"
+          ],
+          "explanation": "To pay is to give money for something."
+        }
+      ]
+    },
+    {
+      "id": "a1-store-match",
+      "type": "matching",
+      "title": "In the Store",
+      "instructions": "Match each word to its meaning.",
+      "items": [
+        {
+          "id": "sm1",
+          "pairs": [
+            {
+              "left": "a basket",
+              "right": "the thing you carry your shopping in"
+            },
+            {
+              "left": "a line",
+              "right": "people standing and waiting, one behind the other"
+            },
+            {
+              "left": "a card",
+              "right": "the plastic you pay with"
+            },
+            {
+              "left": "a bag",
+              "right": "what the store gives you to carry things home"
+            },
+            {
+              "left": "cheap",
+              "right": "not costing a lot"
+            },
+            {
+              "left": "fresh",
+              "right": "new and good to eat"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Where do you buy your food?",
+    "Is it near your home?",
+    "What do you buy every week?",
+    "Do you pay with a card or with cash?"
+  ]
+}

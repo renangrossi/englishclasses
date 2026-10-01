@@ -1,0 +1,279 @@
+{
+  "id": "a1-reading-i-dont-feel-good",
+  "level": "A1",
+  "slug": "i-dont-feel-good",
+  "order": 10,
+  "topic": "everyday",
+  "title": "I Don't Feel Good",
+  "subtitle": "Emma wakes up sick, and for one day somebody else opens the coffee shop.",
+  "description": "An A1 reading and listening text about feeling sick: saying what hurts, calling work, and seeing a doctor.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:06"
+  },
+  "passage": [
+    "This morning I wake up and I don't feel good. My head hurts and my throat is bad. I am hot, and then I am cold.",
+    "I call the shop at five. “I'm sick,” I say. “I'm sorry.” My boss is nice about it. “Stay home. Carlos can open.”",
+    "I go back to bed. Jack makes tea and brings it to me. “Drink this,” he says. “And sleep.”",
+    "At eleven I feel worse, so Jack calls the doctor. We get an appointment at two.",
+    "The doctor looks at my throat. “It's not serious,” she says. “Drink a lot of water, take this medicine, and rest for two days.”",
+    "At home I sleep all afternoon. In the evening I feel a little better. Tomorrow, maybe. But not today."
+  ],
+  "vocabulary": [
+    {
+      "term": "to feel",
+      "definition": "to say how your body or your mind is",
+      "match": "feel"
+    },
+    {
+      "term": "to hurt",
+      "definition": "to give you pain",
+      "match": "hurts"
+    },
+    {
+      "term": "throat",
+      "definition": "the inside of your neck, where food and air go down"
+    },
+    {
+      "term": "sick",
+      "definition": "not well; ill"
+    },
+    {
+      "term": "boss",
+      "definition": "the person who tells you what to do at work"
+    },
+    {
+      "term": "to stay",
+      "definition": "to not leave a place",
+      "match": "Stay"
+    },
+    {
+      "term": "worse",
+      "definition": "not as good as before"
+    },
+    {
+      "term": "appointment",
+      "definition": "a time you agree to see a doctor or somebody else"
+    },
+    {
+      "term": "serious",
+      "definition": "bad and important"
+    },
+    {
+      "term": "medicine",
+      "definition": "what you take to get well"
+    },
+    {
+      "term": "to rest",
+      "definition": "to stop working and be quiet",
+      "match": "rest"
+    },
+    {
+      "term": "better",
+      "definition": "not as bad as before"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-sick-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "i1",
+          "prompt": "What is wrong with Emma?",
+          "options": [
+            "Her head and her throat hurt",
+            "Her leg hurts",
+            "She is only tired"
+          ],
+          "answerIndex": 0,
+          "explanation": "“My head hurts and my throat is bad.”"
+        },
+        {
+          "id": "i2",
+          "prompt": "Why does Emma call the shop at five?",
+          "options": [
+            "To say she cannot come to work",
+            "To ask for coffee",
+            "To talk to Carlos"
+          ],
+          "answerIndex": 0,
+          "explanation": "She says “I'm sick” — five is when she normally gets up for work."
+        },
+        {
+          "id": "i3",
+          "prompt": "How does her boss answer?",
+          "options": [
+            "He is kind and tells her to stay home",
+            "He is angry",
+            "He asks her to come later"
+          ],
+          "answerIndex": 0,
+          "explanation": "“My boss is nice about it. ‘Stay home. Carlos can open.’”"
+        },
+        {
+          "id": "i4",
+          "prompt": "What does Jack do for her?",
+          "options": [
+            "He makes tea and calls the doctor",
+            "He takes her to work",
+            "Nothing — he is at work"
+          ],
+          "answerIndex": 0,
+          "explanation": "He brings tea, and at eleven he calls the doctor."
+        },
+        {
+          "id": "i5",
+          "prompt": "What does the doctor say?",
+          "options": [
+            "It is not serious; drink water, take medicine and rest",
+            "She must go to the hospital",
+            "She can work tomorrow"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It's not serious… rest for two days.”"
+        },
+        {
+          "id": "i6",
+          "prompt": "How does Emma feel in the evening?",
+          "options": [
+            "A little better, but not well",
+            "Much worse",
+            "The same"
+          ],
+          "answerIndex": 0,
+          "explanation": "“In the evening I feel a little better.”"
+        }
+      ]
+    },
+    {
+      "id": "a1-sick-fill",
+      "type": "fill-blank",
+      "title": "Saying How You Feel",
+      "instructions": "Complete each sentence with one word.",
+      "items": [
+        {
+          "id": "if1",
+          "prompt": "I can't come to work today. I am ___.",
+          "answers": [
+            "sick"
+          ],
+          "options": [
+            "sick",
+            "better",
+            "serious"
+          ],
+          "explanation": "Sick means not well."
+        },
+        {
+          "id": "if2",
+          "prompt": "My head ___. I need to lie down.",
+          "answers": [
+            "hurts"
+          ],
+          "options": [
+            "hurts",
+            "rests",
+            "stays"
+          ],
+          "explanation": "To hurt is to give you pain."
+        },
+        {
+          "id": "if3",
+          "prompt": "I have an ___ with the doctor at two o'clock.",
+          "answers": [
+            "appointment"
+          ],
+          "options": [
+            "appointment",
+            "umbrella",
+            "medicine"
+          ],
+          "explanation": "An appointment is a time you agree to meet somebody."
+        },
+        {
+          "id": "if4",
+          "prompt": "Take this ___ two times a day.",
+          "answers": [
+            "medicine"
+          ],
+          "options": [
+            "medicine",
+            "boss",
+            "throat"
+          ],
+          "explanation": "Medicine is what you take to get well."
+        },
+        {
+          "id": "if5",
+          "prompt": "Yesterday I was bad. Today I am a little ___.",
+          "answers": [
+            "better"
+          ],
+          "options": [
+            "better",
+            "worse",
+            "sick"
+          ],
+          "explanation": "Better means not as bad as before."
+        },
+        {
+          "id": "if6",
+          "prompt": "Don't work this week. You need to ___.",
+          "answers": [
+            "rest"
+          ],
+          "options": [
+            "rest",
+            "hurt",
+            "wait"
+          ],
+          "explanation": "To rest is to stop working and be quiet."
+        }
+      ]
+    },
+    {
+      "id": "a1-sick-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Is it true or false?",
+      "items": [
+        {
+          "id": "it1",
+          "statement": "Emma goes to work.",
+          "answer": false,
+          "explanation": "False. Her boss tells her to stay home, and Carlos opens the shop."
+        },
+        {
+          "id": "it2",
+          "statement": "Jack stays with her.",
+          "answer": true,
+          "explanation": "True. He makes tea, brings it to her, and calls the doctor."
+        },
+        {
+          "id": "it3",
+          "statement": "The doctor says it is very serious.",
+          "answer": false,
+          "explanation": "False. “It's not serious.”"
+        },
+        {
+          "id": "it4",
+          "statement": "Emma has to rest for two days.",
+          "answer": true,
+          "explanation": "True. That is what the doctor says."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "What do you do when you are sick?",
+    "Do you call your boss, or do you go to work?",
+    "Who helps you at home?",
+    "What do you drink when you don't feel good?"
+  ]
+}

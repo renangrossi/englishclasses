@@ -1,0 +1,264 @@
+{
+  "id": "a1-reading-my-job",
+  "level": "A1",
+  "slug": "my-job",
+  "order": 11,
+  "topic": "work",
+  "title": "My Job",
+  "subtitle": "Emma has worked at the coffee shop for six years. This is what the job is really like.",
+  "description": "An A1 reading and listening text about a simple job: what you do all day, the people you work with, and what is good and bad about it.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:04"
+  },
+  "passage": [
+    "I work at a coffee shop. I am there six days a week, from six in the morning to two in the afternoon.",
+    "My job is not difficult, but it is not easy either. I stand all day. I make coffee, I take orders, I clean the tables, and I talk to a lot of people.",
+    "I work with Carlos. He is twenty-three and he is a student, so he works in the afternoon. My boss, Ray, opens the shop with me on Saturday.",
+    "Some of our customers are regular. A woman comes every morning at seven for the same thing: a large coffee, no sugar. I know her face, but I don't know her name.",
+    "The money is not good. But I like the mornings, I like the people, and at two o'clock I am free.",
+    "Jack says I should look for a better job. Maybe. But not this year."
+  ],
+  "vocabulary": [
+    {
+      "term": "difficult",
+      "definition": "hard to do"
+    },
+    {
+      "term": "easy",
+      "definition": "not difficult"
+    },
+    {
+      "term": "to take an order",
+      "definition": "to write down what a customer wants",
+      "match": "take orders"
+    },
+    {
+      "term": "to clean",
+      "definition": "to take the dirt off something",
+      "match": "clean"
+    },
+    {
+      "term": "student",
+      "definition": "a person who studies at a school or a university"
+    },
+    {
+      "term": "boss",
+      "definition": "the person who tells you what to do at work"
+    },
+    {
+      "term": "regular",
+      "definition": "happening again and again, in the same way"
+    },
+    {
+      "term": "customer",
+      "definition": "a person who buys something from a shop",
+      "match": "customers"
+    },
+    {
+      "term": "sugar",
+      "definition": "the sweet white thing you put in coffee"
+    },
+    {
+      "term": "free",
+      "definition": "with no work to do"
+    },
+    {
+      "term": "should",
+      "definition": "used to say what is a good idea"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-job-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "j1",
+          "prompt": "How many days a week does Emma work?",
+          "options": [
+            "Six",
+            "Five",
+            "Seven"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I am there six days a week.”"
+        },
+        {
+          "id": "j2",
+          "prompt": "What does Emma say about the work?",
+          "options": [
+            "It is not hard, but it is not easy",
+            "It is very hard",
+            "It is very easy"
+          ],
+          "answerIndex": 0,
+          "explanation": "“My job is not difficult, but it is not easy either.”"
+        },
+        {
+          "id": "j3",
+          "prompt": "Why does Carlos work in the afternoon?",
+          "options": [
+            "Because he studies",
+            "Because he lives far away",
+            "Because he is the boss"
+          ],
+          "answerIndex": 0,
+          "explanation": "“He is twenty-three and he is a student.”"
+        },
+        {
+          "id": "j4",
+          "prompt": "What is a regular customer?",
+          "options": [
+            "Somebody who comes again and again",
+            "Somebody who pays with a card",
+            "Somebody who works there"
+          ],
+          "answerIndex": 0,
+          "explanation": "The woman “comes every morning at seven for the same thing”."
+        },
+        {
+          "id": "j5",
+          "prompt": "What does Emma not know about the woman?",
+          "options": [
+            "Her name",
+            "Her coffee",
+            "The time she comes"
+          ],
+          "answerIndex": 0,
+          "explanation": "“I know her face, but I don't know her name.”"
+        },
+        {
+          "id": "j6",
+          "prompt": "Why does Emma stay in this job?",
+          "options": [
+            "She likes the mornings and the people, and she finishes early",
+            "The money is very good",
+            "Her boss is her friend"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The money is not good. But I like the mornings, I like the people, and at two o'clock I am free.”"
+        }
+      ]
+    },
+    {
+      "id": "a1-job-vocab",
+      "type": "vocabulary",
+      "title": "Work Words",
+      "instructions": "Choose the word that matches the meaning.",
+      "items": [
+        {
+          "id": "jv1",
+          "prompt": "A person who buys something in a shop is a ___.",
+          "options": [
+            "customer",
+            "boss",
+            "student"
+          ],
+          "answerIndex": 0,
+          "explanation": "A customer buys; a boss tells you what to do."
+        },
+        {
+          "id": "jv2",
+          "prompt": "The person who tells you what to do at work is your ___.",
+          "options": [
+            "boss",
+            "customer",
+            "order"
+          ],
+          "answerIndex": 0,
+          "explanation": "Your boss is above you at work."
+        },
+        {
+          "id": "jv3",
+          "prompt": "This exercise is not difficult. It is ___.",
+          "options": [
+            "easy",
+            "regular",
+            "free"
+          ],
+          "answerIndex": 0,
+          "explanation": "Easy is the opposite of difficult."
+        },
+        {
+          "id": "jv4",
+          "prompt": "After two o'clock I have no work. I am ___.",
+          "options": [
+            "free",
+            "regular",
+            "difficult"
+          ],
+          "answerIndex": 0,
+          "explanation": "Free means with no work to do."
+        },
+        {
+          "id": "jv5",
+          "prompt": "She comes every day at the same time. She is a ___ customer.",
+          "options": [
+            "regular",
+            "free",
+            "serious"
+          ],
+          "answerIndex": 0,
+          "explanation": "Regular means happening again and again."
+        }
+      ]
+    },
+    {
+      "id": "a1-job-order",
+      "type": "ordering",
+      "title": "Make the Sentence",
+      "instructions": "Put the words in the correct order.",
+      "items": [
+        {
+          "id": "jo1",
+          "prompt": "Say where you work.",
+          "words": [
+            "I",
+            "work",
+            "at",
+            "a",
+            "coffee",
+            "shop"
+          ]
+        },
+        {
+          "id": "jo2",
+          "prompt": "Say how often.",
+          "words": [
+            "I",
+            "work",
+            "six",
+            "days",
+            "a",
+            "week"
+          ]
+        },
+        {
+          "id": "jo3",
+          "prompt": "Say what you do.",
+          "words": [
+            "I",
+            "make",
+            "coffee",
+            "and",
+            "clean",
+            "the",
+            "tables"
+          ]
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "What is your job? What do you do every day?",
+    "Do you work with other people? Who?",
+    "What is good about your job? What is not good?",
+    "What time do you start and finish?"
+  ]
+}

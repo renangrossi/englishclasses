@@ -1,0 +1,252 @@
+{
+  "id": "a1-reading-rain-and-snow",
+  "level": "A1",
+  "slug": "rain-and-snow",
+  "order": 9,
+  "topic": "everyday",
+  "title": "Rain and Snow",
+  "subtitle": "Four seasons in Chicago, and what you wear for each one.",
+  "description": "An A1 reading and listening text about weather and clothes through the year in a cold American city.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "voice": "en-US-JennyNeural",
+    "duration_label": "1:03"
+  },
+  "passage": [
+    "Chicago has four seasons, and they are all very different.",
+    "Winter is long and cold. There is a lot of snow, and the wind from the lake is bad. I wear a big coat, a hat, and boots. Some mornings the street is white and quiet.",
+    "Spring is wet. It rains a lot, so I take an umbrella to work. The park near our apartment is green again, and the days are longer.",
+    "Summer is hot. People sit outside, the kids play in the water, and nobody wants to cook. Jack and I eat on the step in front of the building.",
+    "Fall is my favorite. It is not hot and it is not cold. The trees are red and yellow for three weeks, and then the wind takes the leaves away.",
+    "Then it is cold again. In Chicago, you always have a coat near the door."
+  ],
+  "vocabulary": [
+    {
+      "term": "season",
+      "definition": "one of the four parts of the year",
+      "match": "seasons"
+    },
+    {
+      "term": "snow",
+      "definition": "the soft white water that falls when it is very cold"
+    },
+    {
+      "term": "wind",
+      "definition": "air that moves"
+    },
+    {
+      "term": "to wear",
+      "definition": "to have clothes on your body",
+      "match": "wear"
+    },
+    {
+      "term": "coat",
+      "definition": "the warm clothes you put on to go outside"
+    },
+    {
+      "term": "boots",
+      "definition": "strong shoes that cover your foot and leg"
+    },
+    {
+      "term": "wet",
+      "definition": "covered with water"
+    },
+    {
+      "term": "to rain",
+      "definition": "when water falls from the sky",
+      "match": "rains"
+    },
+    {
+      "term": "umbrella",
+      "definition": "the thing you hold over your head in the rain"
+    },
+    {
+      "term": "outside",
+      "definition": "not in a building"
+    },
+    {
+      "term": "favorite",
+      "definition": "the one you like best"
+    },
+    {
+      "term": "leaves",
+      "definition": "the green parts of a tree"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-weather-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "w1",
+          "prompt": "What makes the Chicago winter hard?",
+          "options": [
+            "The snow and the cold wind from the lake",
+            "The rain",
+            "The long days"
+          ],
+          "answerIndex": 0,
+          "explanation": "“There is a lot of snow, and the wind from the lake is bad.”"
+        },
+        {
+          "id": "w2",
+          "prompt": "Why does Emma take an umbrella in spring?",
+          "options": [
+            "Because it rains a lot",
+            "Because it is cold",
+            "Because it is her favorite season"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Spring is wet. It rains a lot, so I take an umbrella to work.”"
+        },
+        {
+          "id": "w3",
+          "prompt": "What do people do in the summer?",
+          "options": [
+            "They stay outside and don't cook",
+            "They wear coats",
+            "They stay at home"
+          ],
+          "answerIndex": 0,
+          "explanation": "“People sit outside… nobody wants to cook.”"
+        },
+        {
+          "id": "w4",
+          "prompt": "Where do Emma and Jack eat in summer?",
+          "options": [
+            "On the step in front of their building",
+            "In the park",
+            "At the small table"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Jack and I eat on the step in front of the building.”"
+        },
+        {
+          "id": "w5",
+          "prompt": "Which season does Emma like best?",
+          "options": [
+            "Fall",
+            "Summer",
+            "Winter"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Fall is my favorite.”"
+        },
+        {
+          "id": "w6",
+          "prompt": "How long are the trees red and yellow?",
+          "options": [
+            "About three weeks",
+            "All winter",
+            "One day"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The trees are red and yellow for three weeks.”"
+        }
+      ]
+    },
+    {
+      "id": "a1-weather-match",
+      "type": "matching",
+      "title": "Season and Weather",
+      "instructions": "Match each season to the text's description.",
+      "items": [
+        {
+          "id": "wm1",
+          "pairs": [
+            {
+              "left": "Winter",
+              "right": "long and cold, with snow and a hard wind"
+            },
+            {
+              "left": "Spring",
+              "right": "wet, with a lot of rain and longer days"
+            },
+            {
+              "left": "Summer",
+              "right": "hot; people sit outside and nobody wants to cook"
+            },
+            {
+              "left": "Fall",
+              "right": "not hot, not cold, with red and yellow trees"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-weather-vocab",
+      "type": "vocabulary",
+      "title": "Weather and Clothes",
+      "instructions": "Choose the word that matches the meaning.",
+      "items": [
+        {
+          "id": "wv1",
+          "prompt": "When it rains, you hold an ___ over your head.",
+          "options": [
+            "umbrella",
+            "coat",
+            "boot"
+          ],
+          "answerIndex": 0,
+          "explanation": "An umbrella keeps the rain off you."
+        },
+        {
+          "id": "wv2",
+          "prompt": "Strong shoes for snow and water are ___.",
+          "options": [
+            "boots",
+            "hats",
+            "leaves"
+          ],
+          "answerIndex": 0,
+          "explanation": "Boots cover your foot and part of your leg."
+        },
+        {
+          "id": "wv3",
+          "prompt": "To have clothes on your body is to ___ them.",
+          "options": [
+            "wear",
+            "take",
+            "put"
+          ],
+          "answerIndex": 0,
+          "explanation": "We wear clothes."
+        },
+        {
+          "id": "wv4",
+          "prompt": "The green parts of a tree are the ___.",
+          "options": [
+            "leaves",
+            "seasons",
+            "boots"
+          ],
+          "answerIndex": 0,
+          "explanation": "Leaves grow on trees."
+        },
+        {
+          "id": "wv5",
+          "prompt": "After the rain, my coat is ___.",
+          "options": [
+            "wet",
+            "hot",
+            "quiet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Wet means covered with water."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "How many seasons are there where you live?",
+    "What is the weather today?",
+    "What do you wear when it is cold?",
+    "Which season do you like best? Why?"
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "id": "c1-reading-rosa-parks",
+  "level": "C1",
+  "slug": "rosa-parks",
+  "order": 100,
+  "topic": "history",
+  "title": "Rosa Parks and the Montgomery Bus Boycott",
+  "subtitle": "The story says a tired seamstress refused to move. She was a trained organiser, and the refusal was the least remarkable thing about what followed.",
+  "description": "A C1 reading and listening text on Rosa Parks and the Montgomery bus boycott: the organisation behind it, the 381 days of walking, the legal case that actually ended segregation on the buses, and the cost to Parks herself.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "passage": [
+    "The version most people know is short enough to fit on a poster: a tired seamstress, on her way home from work, refused to give up her seat, and a movement began. Almost every element of it is misleading, and the accurate version is considerably more interesting.",
+    "Rosa Parks was forty-two, and she was tired in the specific sense she later described — tired of giving in. She had been secretary of the Montgomery branch of the NAACP for twelve years, work that involved documenting cases of violence against Black residents of Alabama, including sexual assaults that no local court would hear. A few months before her arrest she had spent two weeks at the Highlander Folk School in Tennessee, at a workshop on desegregation. She was not a bystander who happened to be in the wrong seat; she was an experienced organiser who knew exactly what the law was and what refusing it would cost.",
+    "She was also not the first. Claudette Colvin, fifteen years old, had been arrested in Montgomery nine months earlier for refusing the same demand, and two other women had been arrested in similar circumstances. Local leaders had considered building a legal challenge around Colvin and decided against it, partly because she was young and pregnant and they judged that a prosecutor would destroy her in public. That calculation — the search for a case that would survive scrutiny — is itself a reminder that this was organised work rather than spontaneous outrage.",
+    "The arrest on 1 December 1955 was the moment that calculation found its case. Within four days, the Women's Political Council had printed and distributed something like fifty thousand leaflets, and Black Montgomery stayed off the buses on the Monday. That evening a mass meeting voted to continue, and a new organisation, the Montgomery Improvement Association, chose as its president a twenty-six-year-old minister who had been in the city barely a year: Martin Luther King Jr. He was chosen in part because he was new enough to have no local enemies.",
+    "What followed was not a gesture but a logistical operation that lasted 381 days. Roughly forty thousand people needed to get to work. Black-owned taxi companies charged bus fare until the city made that illegal; a car pool was then organised with some three hundred vehicles, dispatch points, schedules and volunteer drivers, and it ran six days a week for over a year. Insurance companies cancelled the policies on the pool cars until a broker in London agreed to cover them. Many people simply walked, in some cases several miles each way.",
+    "The response from the city was systematic. Drivers of the car pool were arrested for minor traffic offences in large numbers. King's house was bombed. More than eighty boycott leaders were indicted under an old anti-boycott statute, which produced exactly the national press coverage the prosecution had not wanted.",
+    "It is worth being precise about how the boycott ended, because the popular account compresses it. The buses were not desegregated by the boycott itself but by *Browder v. Gayle*, a federal case brought on behalf of four women — Aurelia Browder, Susie McDonald, Claudette Colvin and Mary Louise Smith — which held Alabama's bus segregation laws unconstitutional. The Supreme Court affirmed that ruling in November 1956, and the boycott ended when the written order reached Montgomery on 20 December. The boycott created the pressure, the public attention and the organisation; the court delivered the legal result. Neither would have been sufficient alone.",
+    "Parks herself paid for it in the ordinary, unspectacular way that activists usually do. She lost her job at the department store. Her husband lost his. They received threatening telephone calls for years, and in 1957 they left Alabama for Detroit, where she worked in a congressman's office and lived modestly for decades.",
+    "The flattening of her story into a single tired moment was not accidental. A spontaneous refusal is comfortable: it suggests that justice arrives when an individual finally has enough. An organiser with twelve years of training, a legal strategy, a communications network and a transport system is a different kind of story, because it implies that this sort of change is available to anyone willing to do that amount of work — and that it is extremely hard work."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 3,
+      "alt": "Rosa Parks, in a dark coat, having her fingerprints taken by a uniformed deputy sheriff who holds her hand to the card",
+      "source": "commons:File:Rosa Parks being fingerprinted by Deputy Sheriff D.H. Lackey after being arrested on February 22, 1956, during the Montgomery bus boycott.jpg",
+      "caption": "Rosa Parks fingerprinted by Deputy Sheriff D. H. Lackey — Gene Herrick for the Associated Press, 22 February 1956. This is not the December arrest: it is the second one, when more than eighty boycott leaders were indicted together."
+    },
+    {
+      "src": "02.jpg",
+      "after": 6,
+      "alt": "A printed flyer on brown paper headed 'Negroes Can Now Sit Anywhere on Buses!', quoting the federal decision beneath",
+      "source": "commons:File:Montgomery Improvement Association, flyer on bus desegregation, c. 1956 (NYPL).jpg",
+      "caption": "Flyer circulated in Montgomery after the court order, 1956 — Montgomery Improvement Association. It quotes the ruling back at the reader, in the language of the day, and ends: be calm, be quiet, be friendly, be prayerful — but be free.",
+      "wide": true
+    },
+    {
+      "src": "03.jpg",
+      "after": 7,
+      "alt": "Rosa Parks seated by a bus window looking out, a white man in a suit seated in the row behind her",
+      "source": "commons:File:Rosa Parks on bus on December 21, 1956.jpg",
+      "caption": "Rosa Parks on a Montgomery bus — United Press International, 21 December 1956, the day after the court order reached the city. The photograph was arranged for the press, which is part of how the story came to have the shape it has.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a seamstress",
+      "definition": "a woman whose job is sewing"
+    },
+    {
+      "term": "a bystander",
+      "definition": "a person who is present but not involved"
+    },
+    {
+      "term": "desegregation",
+      "definition": "the ending of enforced separation between racial groups"
+    },
+    {
+      "term": "scrutiny",
+      "definition": "close and critical examination"
+    },
+    {
+      "term": "spontaneous",
+      "definition": "happening without planning"
+    },
+    {
+      "term": "a leaflet",
+      "definition": "a printed sheet distributed to many people"
+    },
+    {
+      "term": "a car pool",
+      "definition": "an organised arrangement for sharing cars between many passengers"
+    },
+    {
+      "term": "to indict",
+      "definition": "to charge somebody formally with a crime"
+    },
+    {
+      "term": "a statute",
+      "definition": "a written law passed by a legislature"
+    },
+    {
+      "term": "to affirm",
+      "definition": "(of a higher court) to uphold a lower court's decision"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-rp-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the best answer according to the text.",
+      "items": [
+        {
+          "id": "rp-c1",
+          "prompt": "What does the text say is misleading about the popular version?",
+          "options": [
+            "The date of the arrest",
+            "The idea that Parks was an uninvolved individual acting spontaneously",
+            "The claim that a boycott followed"
+          ],
+          "answerIndex": 1,
+          "explanation": "She had been an NAACP secretary for twelve years and had trained at Highlander months earlier."
+        },
+        {
+          "id": "rp-c2",
+          "prompt": "Why was a legal challenge not built around Claudette Colvin?",
+          "options": [
+            "She refused to take part",
+            "Leaders judged that a prosecutor would destroy her in public",
+            "Her case was dismissed"
+          ],
+          "answerIndex": 1,
+          "explanation": "She was young and pregnant. The search for a case that would survive scrutiny shows how organised the work was."
+        },
+        {
+          "id": "rp-c3",
+          "prompt": "Why was King chosen to lead the Montgomery Improvement Association?",
+          "options": [
+            "He was the city's oldest minister",
+            "He was new enough to have no local enemies",
+            "He had organised the leaflets"
+          ],
+          "answerIndex": 1,
+          "explanation": "He had been in the city barely a year and was twenty-six."
+        },
+        {
+          "id": "rp-c4",
+          "prompt": "How did people get to work during the boycott?",
+          "options": [
+            "The city provided transport",
+            "A car pool of about three hundred vehicles, plus walking",
+            "They stopped working"
+          ],
+          "answerIndex": 1,
+          "explanation": "With dispatch points, schedules and volunteer drivers, six days a week, for over a year."
+        },
+        {
+          "id": "rp-c5",
+          "prompt": "What actually desegregated the Montgomery buses?",
+          "options": [
+            "The boycott alone",
+            "The ruling in Browder v. Gayle, affirmed by the Supreme Court",
+            "A city council vote"
+          ],
+          "answerIndex": 1,
+          "explanation": "The boycott created the pressure and the organisation; the court delivered the legal result. Neither alone would have been enough."
+        },
+        {
+          "id": "rp-c6",
+          "prompt": "Why, according to the final paragraph, is the simplified story attractive?",
+          "options": [
+            "It is easier to remember",
+            "It suggests justice arrives when an individual has had enough, rather than through years of organised work",
+            "It names more people"
+          ],
+          "answerIndex": 1,
+          "explanation": "The accurate version implies the change is available to anyone willing to do an enormous amount of work."
+        }
+      ]
+    },
+    {
+      "id": "c1-rp-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each statement is true or false according to the text.",
+      "items": [
+        {
+          "id": "rp-t1",
+          "statement": "Parks was the first person arrested in Montgomery for refusing to give up a seat.",
+          "answer": false,
+          "explanation": "False — Claudette Colvin had been arrested nine months earlier, and two other women in similar circumstances."
+        },
+        {
+          "id": "rp-t2",
+          "statement": "The boycott lasted a little over a year.",
+          "answer": true,
+          "explanation": "True — 381 days."
+        },
+        {
+          "id": "rp-t3",
+          "statement": "Insurance for the car pool was eventually arranged through a broker in London.",
+          "answer": true,
+          "explanation": "True — after American companies cancelled the policies."
+        },
+        {
+          "id": "rp-t4",
+          "statement": "Prosecuting the boycott leaders worked in the city's favour.",
+          "answer": false,
+          "explanation": "False — the indictments produced exactly the national press coverage the prosecution did not want."
+        },
+        {
+          "id": "rp-t5",
+          "statement": "Parks and her husband both lost their jobs.",
+          "answer": true,
+          "explanation": "True — and they left Alabama for Detroit in 1957."
+        }
+      ]
+    },
+    {
+      "id": "c1-rp-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "rp-v1",
+          "prompt": "Close and critical examination is ___.",
+          "options": [
+            "scrutiny",
+            "scarcity",
+            "security"
+          ],
+          "answerIndex": 0,
+          "explanation": "Scrutiny — the leaders needed a case that would survive it."
+        },
+        {
+          "id": "rp-v2",
+          "prompt": "To charge somebody formally with a crime is to ___ them.",
+          "options": [
+            "indict",
+            "induce",
+            "indulge"
+          ],
+          "answerIndex": 0,
+          "explanation": "To indict (pronounced in-DITE)."
+        },
+        {
+          "id": "rp-v3",
+          "prompt": "A written law passed by a legislature is a ___.",
+          "options": [
+            "statute",
+            "statue",
+            "stature"
+          ],
+          "answerIndex": 0,
+          "explanation": "A statute. The anti-boycott law was an old one."
+        },
+        {
+          "id": "rp-v4",
+          "prompt": "When a higher court upholds a lower court's decision, it ___ it.",
+          "options": [
+            "affirms",
+            "applies",
+            "appeals"
+          ],
+          "answerIndex": 0,
+          "explanation": "It affirms it — as the Supreme Court did in November 1956."
+        },
+        {
+          "id": "rp-v5",
+          "prompt": "An action that happens without any planning is ___.",
+          "options": [
+            "spontaneous",
+            "sporadic",
+            "specific"
+          ],
+          "answerIndex": 0,
+          "explanation": "Spontaneous — precisely what this was not."
+        }
+      ]
+    },
+    {
+      "id": "c1-rp-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "rp-b1",
+          "prompt": "Parks was arrested on 1 December ___.",
+          "answers": [
+            "1955"
+          ],
+          "options": [
+            "1955",
+            "1956",
+            "1963"
+          ],
+          "explanation": "1955; the boycott ended in December 1956."
+        },
+        {
+          "id": "rp-b2",
+          "prompt": "She had been secretary of the local ___ for twelve years.",
+          "answers": [
+            "NAACP"
+          ],
+          "options": [
+            "NAACP",
+            "WPA",
+            "NASA"
+          ],
+          "explanation": "The National Association for the Advancement of Colored People."
+        },
+        {
+          "id": "rp-b3",
+          "prompt": "The boycott lasted ___ days.",
+          "answers": [
+            "381"
+          ],
+          "options": [
+            "381",
+            "38",
+            "31"
+          ],
+          "explanation": "381 days."
+        },
+        {
+          "id": "rp-b4",
+          "prompt": "The case that ended bus segregation was Browder v. ___.",
+          "answers": [
+            "Gayle"
+          ],
+          "options": [
+            "Gayle",
+            "Board",
+            "Georgia"
+          ],
+          "explanation": "Browder v. Gayle."
+        },
+        {
+          "id": "rp-b5",
+          "prompt": "In 1957 the Parks family moved to ___.",
+          "answers": [
+            "Detroit"
+          ],
+          "options": [
+            "Detroit",
+            "Chicago",
+            "Atlanta"
+          ],
+          "explanation": "Detroit, after years of threats and unemployment."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Why do movements so often get remembered through one individual rather than through their organisation?",
+    "The leaders chose their test case carefully rather than taking the first one available. Is that strategic or unfair to the people passed over?",
+    "The text separates the boycott from the court ruling. What does each one contribute that the other cannot?"
+  ],
+  "audio": {
+    "duration_label": "4:17"
+  }
+}

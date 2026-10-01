@@ -1,0 +1,341 @@
+{
+  "id": "c1-reading-malcolm-x",
+  "level": "C1",
+  "slug": "malcolm-x",
+  "order": 102,
+  "topic": "history",
+  "title": "Malcolm X and Two Visions of Civil Rights",
+  "subtitle": "One movement asked America to live up to its promises. The other asked why anyone should trust them.",
+  "description": "A C1 reading and listening text on Malcolm X: his life, his argument with the nonviolent movement, the changes in his position after 1964, and what the two visions were actually disagreeing about.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "passage": [
+    "The two best-known figures of the American civil rights era are usually presented as opposites, and the contrast is not wrong, but it is routinely drawn in the wrong place. The disagreement between Martin Luther King Jr. and Malcolm X was not between peace and violence. It was about whether the American system could be appealed to at all.",
+    "Malcolm Little was born in Nebraska in 1925. His father, a Baptist preacher and supporter of Marcus Garvey, died when Malcolm was six, run over by a streetcar in circumstances the family believed were murder; the insurance company declined to pay on the grounds that it was suicide. His mother was committed to a state mental hospital some years later and the children were separated into foster homes. He was a strong student who, by his own account, abandoned any ambition after a teacher told him that law was not a realistic goal for a Black boy and suggested carpentry.",
+    "He drifted into crime in Boston and New York and was sentenced to prison in 1946, at twenty, for burglary. He spent six years there, read through the prison library systematically, taught himself to write by copying out a dictionary, and joined the Nation of Islam, a small Black nationalist religious movement. He left prison in 1952 as Malcolm X, the surname replaced by a letter standing for the African family name that slavery had erased.",
+    "As the Nation's national spokesman he was formidably effective. Membership grew from a few hundred to tens of thousands. His argument was direct: that Black Americans were not fighting for a place in a basically decent society but living inside a system built against them, that integration amounted to asking for acceptance from people who had never offered it, and that a people has the right to defend itself. The phrase most associated with him — “by any means necessary” — is a statement about self-defence and about the legitimacy of options, not an instruction to attack.",
+    "He was also funny, fast and merciless in debate, which is why his television appearances mattered so much. A generation of young Black Americans who found the language of patience intolerable heard somebody articulate what they felt, in public, without apology.",
+    "Two things then changed his position. The first was his discovery that Elijah Muhammad, the Nation's leader, had been having children with young secretaries while preaching strict morality; the disillusionment was total. The second was his pilgrimage to Mecca in 1964, where he prayed alongside Muslims of every colour, including blond and blue-eyed men he had been taught to regard as devils by definition. He wrote home that he was rearranging much of his thinking.",
+    "In the last year of his life he founded his own organisation, moved towards a position in which racism rather than white people was the enemy, began framing the issue as a matter of international human rights rather than domestic civil rights, and started tentative contact with the mainstream movement. He was assassinated in Harlem on 21 February 1965, at thirty-nine, by members of the organisation he had left.",
+    "His influence grew enormously after his death, largely through *The Autobiography of Malcolm X*, written with Alex Haley and published later that year. It became one of the most widely read American books of the century.",
+    "The two visions are best understood as answering different questions. King's campaigns were built on the premise that the country's founding documents contained a promise that could be enforced — that the point was to make America keep its word, through law, courts and public pressure. Malcolm X's position began from the observation that the promise had been available for a very long time and had not been kept, and that a people waiting to be granted rights is still a people asking permission.",
+    "Both men moved towards each other at the end of their lives. Malcolm X broadened his position after 1964; King, in his last years, turned to the economics of the problem and found the system far less reformable than he had assumed in Montgomery. Each of them was killed before the argument could be finished, which is one reason it is still running."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "Martin Luther King Jr. and Malcolm X standing close together in a crowd of men in suits, King turned towards him, both half-smiling",
+      "source": "commons:File:MLK and Malcolm X USNWR cropped.jpg",
+      "caption": "Malcolm X and Martin Luther King Jr. — Marion S. Trikosko for U.S. News & World Report, 26 March 1964. They met once, for about a minute, in a corridor of the United States Capitol, and never worked together."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "Malcolm X in a dark suit and glasses, photographed from the side while speaking, one hand raised",
+      "source": "commons:File:Malcolm X in 1964.jpg",
+      "caption": "Malcolm X — Marion S. Trikosko, 1964. The year he left the Nation of Islam, went to Mecca, and began revising almost everything he had been saying."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "to appeal to",
+      "definition": "here: to ask an authority for a decision or for justice"
+    },
+    {
+      "term": "a streetcar",
+      "definition": "a tram; a passenger vehicle running on rails in a city"
+    },
+    {
+      "term": "to be committed",
+      "definition": "here: to be placed, officially and against your will, in a hospital"
+    },
+    {
+      "term": "nationalism",
+      "definition": "the belief that a people should control its own institutions"
+    },
+    {
+      "term": "a spokesman",
+      "definition": "a person who speaks officially for an organisation"
+    },
+    {
+      "term": "formidable",
+      "definition": "impressive in a way that is also intimidating"
+    },
+    {
+      "term": "disillusionment",
+      "definition": "the loss of belief in something you had trusted"
+    },
+    {
+      "term": "a pilgrimage",
+      "definition": "a journey to a sacred place"
+    },
+    {
+      "term": "tentative",
+      "definition": "done cautiously, without commitment"
+    },
+    {
+      "term": "a premise",
+      "definition": "an idea accepted as true, on which an argument is built"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-mx-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the best answer according to the text.",
+      "items": [
+        {
+          "id": "mx-c1",
+          "prompt": "Where does the text locate the real disagreement between King and Malcolm X?",
+          "options": [
+            "Peace against violence",
+            "Whether the American system could be appealed to at all",
+            "Religion"
+          ],
+          "answerIndex": 1,
+          "explanation": "The contrast is usually drawn in the wrong place."
+        },
+        {
+          "id": "mx-c2",
+          "prompt": "What does the text say about “by any means necessary”?",
+          "options": [
+            "It was an instruction to attack",
+            "It is a statement about self-defence and the legitimacy of options",
+            "He never said it"
+          ],
+          "answerIndex": 1,
+          "explanation": "Self-defence, and the refusal to rule options out in advance."
+        },
+        {
+          "id": "mx-c3",
+          "prompt": "What happened in prison?",
+          "options": [
+            "He studied, taught himself to write and joined the Nation of Islam",
+            "He was released after a year",
+            "He trained as a carpenter"
+          ],
+          "answerIndex": 0,
+          "explanation": "Six years, the prison library read systematically, and a dictionary copied out by hand."
+        },
+        {
+          "id": "mx-c4",
+          "prompt": "What were the two events that changed his position?",
+          "options": [
+            "Prison and his father's death",
+            "The discovery about Elijah Muhammad, and the pilgrimage to Mecca",
+            "The autobiography and a trip to Africa"
+          ],
+          "answerIndex": 1,
+          "explanation": "Total disillusionment with the Nation's leader, and praying alongside Muslims of every colour in 1964."
+        },
+        {
+          "id": "mx-c5",
+          "prompt": "How did his position change in his last year?",
+          "options": [
+            "He abandoned politics",
+            "Racism rather than white people became the enemy, and the frame became international human rights",
+            "He joined King's organisation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Plus tentative contact with the mainstream movement."
+        },
+        {
+          "id": "mx-c6",
+          "prompt": "What does the text say about the two men at the end of their lives?",
+          "options": [
+            "They became identical",
+            "They moved towards each other — one broadening, the other finding the system less reformable",
+            "They stopped speaking publicly"
+          ],
+          "answerIndex": 1,
+          "explanation": "Both were killed before the argument could be finished."
+        }
+      ]
+    },
+    {
+      "id": "c1-mx-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each statement is true or false according to the text.",
+      "items": [
+        {
+          "id": "mx-t1",
+          "statement": "Malcolm X was a poor student who had no ambition at school.",
+          "answer": false,
+          "explanation": "False — he was a strong student who abandoned his ambition after a teacher told him law was unrealistic for a Black boy."
+        },
+        {
+          "id": "mx-t2",
+          "statement": "The X replaced a surname that slavery had erased.",
+          "answer": true,
+          "explanation": "True — it stands for the African family name that is not known."
+        },
+        {
+          "id": "mx-t3",
+          "statement": "He was killed by members of an organisation he had left.",
+          "answer": true,
+          "explanation": "True — in Harlem on 21 February 1965."
+        },
+        {
+          "id": "mx-t4",
+          "statement": "His influence declined after his death.",
+          "answer": false,
+          "explanation": "False — it grew enormously, largely through the autobiography written with Alex Haley."
+        },
+        {
+          "id": "mx-t5",
+          "statement": "King assumed the country's founding documents contained a promise that could be enforced.",
+          "answer": true,
+          "explanation": "True — that premise is what his campaigns were built on."
+        }
+      ]
+    },
+    {
+      "id": "c1-mx-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "mx-v1",
+          "prompt": "An idea accepted as true, on which an argument is built, is a ___.",
+          "options": [
+            "premise",
+            "promise",
+            "preface"
+          ],
+          "answerIndex": 0,
+          "explanation": "A premise. Careful with promise, which also appears in this text."
+        },
+        {
+          "id": "mx-v2",
+          "prompt": "The loss of belief in something you had trusted is ___.",
+          "options": [
+            "disillusionment",
+            "discouragement",
+            "dissatisfaction"
+          ],
+          "answerIndex": 0,
+          "explanation": "Disillusionment."
+        },
+        {
+          "id": "mx-v3",
+          "prompt": "A journey to a sacred place is a ___.",
+          "options": [
+            "pilgrimage",
+            "passage",
+            "procession"
+          ],
+          "answerIndex": 0,
+          "explanation": "A pilgrimage — in this case the hajj to Mecca."
+        },
+        {
+          "id": "mx-v4",
+          "prompt": "Impressive in a way that is also intimidating is ___.",
+          "options": [
+            "formidable",
+            "formal",
+            "foremost"
+          ],
+          "answerIndex": 0,
+          "explanation": "Formidable."
+        },
+        {
+          "id": "mx-v5",
+          "prompt": "Done cautiously and without commitment is ___.",
+          "options": [
+            "tentative",
+            "temporary",
+            "tedious"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tentative — as his late contact with the mainstream movement was."
+        }
+      ]
+    },
+    {
+      "id": "c1-mx-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "mx-b1",
+          "prompt": "He joined the Nation of ___ while in prison.",
+          "answers": [
+            "Islam"
+          ],
+          "options": [
+            "Islam",
+            "Israel",
+            "Independence"
+          ],
+          "explanation": "The Nation of Islam."
+        },
+        {
+          "id": "mx-b2",
+          "prompt": "His pilgrimage to ___ in 1964 changed his thinking about race.",
+          "answers": [
+            "Mecca"
+          ],
+          "options": [
+            "Mecca",
+            "Memphis",
+            "Montgomery"
+          ],
+          "explanation": "Mecca."
+        },
+        {
+          "id": "mx-b3",
+          "prompt": "He was assassinated in ___ in February 1965.",
+          "answers": [
+            "Harlem"
+          ],
+          "options": [
+            "Harlem",
+            "Memphis",
+            "Chicago"
+          ],
+          "explanation": "Harlem, New York."
+        },
+        {
+          "id": "mx-b4",
+          "prompt": "His autobiography was written with Alex ___.",
+          "answers": [
+            "Haley"
+          ],
+          "options": [
+            "Haley",
+            "Hughes",
+            "Harris"
+          ],
+          "explanation": "Alex Haley."
+        },
+        {
+          "id": "mx-b5",
+          "prompt": "In his last year he framed the issue as international human ___.",
+          "answers": [
+            "rights"
+          ],
+          "options": [
+            "rights",
+            "relations",
+            "resources"
+          ],
+          "explanation": "Human rights rather than domestic civil rights."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Is there a real difference between demanding a right and asking to be granted one?",
+    "Malcolm X changed his position publicly after Mecca. How do we usually treat public figures who change their minds?",
+    "Both men moved towards each other late in their lives. What do you think the argument would have become if they had lived?"
+  ],
+  "audio": {
+    "duration_label": "4:16"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "id": "c1-reading-the-space-race",
+  "level": "C1",
+  "slug": "the-space-race",
+  "order": 104,
+  "topic": "history",
+  "title": "The Space Race",
+  "subtitle": "Two countries spent a decade proving they could put something above the other's head. The rockets were the same rockets that carried warheads.",
+  "description": "A C1 reading and listening text on the space race: Sputnik and the panic it caused, Gagarin, Kennedy's decision, the men who built the rockets and where they learned to build them, and what each side paid.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "On 4 October 1957 a polished metal sphere the size of a beach ball went into orbit, and amateur radio operators across the world found they could hear it. Sputnik 1 did almost nothing — it transmitted a beep for three weeks and burned up in January — but the beep was audible from American soil, which was the point nobody missed. A machine was passing over the United States several times a day, and the United States could not stop it.",
+    "The panic that followed was not really about the satellite. A rocket capable of lifting eighty-three kilograms into orbit is a rocket capable of delivering a warhead to another continent, and everyone involved understood that the two capabilities were the same capability. The civilian space programmes of both countries grew out of ballistic missile programmes and were never fully separable from them.",
+    "They also grew out of the same source. The German V-2 that fell on London in 1944 was the first ballistic missile, and at the end of the war both sides took what they could of the team that built it. The Americans took Wernher von Braun and more than a hundred of his engineers; the Soviets took much of the hardware and many of the technicians. This is the part of the story that tends to be left out of the celebration: the V-2 was assembled by prisoners at Mittelbau-Dora, where more people died building the weapon than were killed by it, and von Braun had visited the works.",
+    "The Soviet lead held for four years, and it was mostly the work of one man whose name was a state secret. Sergei Korolev had been arrested in 1938, beaten, and sent to a labour camp in Kolyma; he was brought back to work on rockets and spent the rest of his life designing them under the anonymous title of Chief Designer. He was announced to the world only after he died in 1966.",
+    "Under Korolev the firsts came quickly: the first satellite, the first animal in orbit, the first photographs of the far side of the Moon, and on 12 April 1961 the first human being. Yuri Gagarin's flight lasted 108 minutes and a single orbit, and he landed by parachute, having ejected from the capsule — a detail the Soviet Union concealed for years because the record rules of the time required a pilot to land with his craft.",
+    "Three weeks later, in a speech to Congress on 25 May 1961, President Kennedy committed the United States to landing a man on the Moon before the decade was out. The choice of the Moon was strategic rather than scientific. It was far enough away that the existing Soviet lead in heavy rockets would not decide it, which meant it was the first contest the United States had a reasonable prospect of winning.",
+    "What followed was an industrial effort on a scale that is easy to state and hard to feel: at its height Apollo employed some four hundred thousand people across twenty thousand firms and universities, and consumed more than four per cent of the federal budget in 1966. The Soviet programme, by contrast, was never unified. Korolev's giant N1 rocket was developed in competition with rival design bureaux rather than alongside them, and it failed on all four of its test launches.",
+    "Both sides killed people. Three astronauts — Grissom, White and Chaffee — died in a fire inside a sealed Apollo 1 capsule during a ground test in January 1967, in a pure oxygen atmosphere nobody had thought of as a fuel. Three months later Vladimir Komarov died when the parachutes of Soyuz 1 failed, on a flight that engineers had reportedly warned was not ready. Neither programme stopped, and neither was quite the same afterwards.",
+    "The race ended in July 1969, and it ended suddenly. The Soviet Union had not publicly committed to a Moon landing and so, having lost, could maintain that it had never been running, which is why the existence of the Soviet lunar programme was denied until 1989. Within four years both sides had turned to space stations, and in 1975 an Apollo capsule docked with a Soyuz in orbit and the two commanders shook hands on television.",
+    "It is tempting to describe the whole thing as a detour — enormous sums spent to plant a flag. But the decade left behind the deep-space tracking network, satellite weather forecasting, communications satellites, and a way of running vast technical projects that had not existed before. It also left a photograph of the Earth taken from beside the Moon, which turned out to persuade more people of the planet's fragility than any argument had."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "A polished metal sphere with four long trailing antennas, suspended against the dark girders of a museum hall",
+      "source": "commons:File:Sputnik 1.jpg",
+      "caption": "A full-size replica of Sputnik 1 on display — United States Air Force. The original transmitted for three weeks and burned up on re-entry in January 1958; eighty-three kilograms of it changed American science funding within a year."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "Yuri Gagarin in uniform, smiling slightly, photographed in 1961",
+      "source": "commons:File:Yuri Gagarin (1961) - Restoration.jpg",
+      "caption": "Yuri Gagarin — Arto Jousi, 1961, photographed in Helsinki during the tour that followed his flight. He was twenty-seven and had been in space for 108 minutes."
+    },
+    {
+      "src": "03.jpg",
+      "after": 6,
+      "alt": "A very large rocket with a tapering conical body standing beside a tall lattice service tower on an open launch pad, with people visible at its base",
+      "source": "commons:File:N1 1M1 mockup on the launch pad at the Baikonur Cosmodrome in late 1967.jpg",
+      "caption": "An N1 mockup on the pad at Baikonur, 1967. The figures at the base give the scale: it stood as tall as a Saturn V, it failed on all four launch attempts, and the Soviet Union denied that the programme existed until 1989.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "an orbit",
+      "definition": "the curved path of an object around a planet or star"
+    },
+    {
+      "term": "a warhead",
+      "definition": "the explosive part of a missile"
+    },
+    {
+      "term": "ballistic",
+      "definition": "(of a missile) powered at launch and then falling freely to its target"
+    },
+    {
+      "term": "a capsule",
+      "definition": "the small sealed craft in which a crew travels in space"
+    },
+    {
+      "term": "to eject",
+      "definition": "to be thrown out of an aircraft or craft, usually for safety"
+    },
+    {
+      "term": "to conceal",
+      "definition": "to keep something hidden"
+    },
+    {
+      "term": "a bureau",
+      "definition": "an office or department, especially a state one"
+    },
+    {
+      "term": "unified",
+      "definition": "brought together into one organised whole"
+    },
+    {
+      "term": "a detour",
+      "definition": "a longer, indirect route; by extension, effort that leads away from the goal"
+    },
+    {
+      "term": "fragility",
+      "definition": "the quality of being easily damaged"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-sr-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the best answer according to the text.",
+      "items": [
+        {
+          "id": "sr-c1",
+          "prompt": "Why did Sputnik cause alarm in the United States?",
+          "options": [
+            "Because of what it observed from orbit",
+            "Because a rocket able to orbit a satellite could also deliver a warhead",
+            "Because its radio signal interfered with broadcasts"
+          ],
+          "answerIndex": 1,
+          "explanation": "The two capabilities were the same capability, as the text puts it."
+        },
+        {
+          "id": "sr-c2",
+          "prompt": "What does the text say is usually left out of the celebration of rocketry?",
+          "options": [
+            "The cost of the programmes",
+            "That the V-2 was assembled by prisoners at Mittelbau-Dora",
+            "That the Soviets launched first"
+          ],
+          "answerIndex": 1,
+          "explanation": "More people died building the weapon than were killed by it."
+        },
+        {
+          "id": "sr-c3",
+          "prompt": "Why was Sergei Korolev's name kept secret?",
+          "options": [
+            "He had asked for anonymity",
+            "He worked under the anonymous title of Chief Designer as a matter of state secrecy",
+            "He was not Soviet"
+          ],
+          "answerIndex": 1,
+          "explanation": "He was announced to the world only after his death in 1966."
+        },
+        {
+          "id": "sr-c4",
+          "prompt": "Why did Kennedy choose the Moon specifically?",
+          "options": [
+            "It was the cheapest objective",
+            "It was far enough away that the Soviet lead in heavy rockets would not decide the contest",
+            "Scientists had requested it"
+          ],
+          "answerIndex": 1,
+          "explanation": "It was the first contest the United States had a reasonable prospect of winning."
+        },
+        {
+          "id": "sr-c5",
+          "prompt": "What weakness does the text identify in the Soviet programme?",
+          "options": [
+            "A shortage of engineers",
+            "It was never unified; rival design bureaux competed rather than co-operated",
+            "It had no government funding"
+          ],
+          "answerIndex": 1,
+          "explanation": "The N1 rocket failed on all four test launches."
+        },
+        {
+          "id": "sr-c6",
+          "prompt": "How could the Soviet Union claim it had not lost the race?",
+          "options": [
+            "It had never publicly committed to a Moon landing",
+            "It landed a crew later",
+            "It won on other measures"
+          ],
+          "answerIndex": 0,
+          "explanation": "The existence of the Soviet lunar programme was denied until 1989."
+        }
+      ]
+    },
+    {
+      "id": "c1-sr-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each statement is true or false according to the text.",
+      "items": [
+        {
+          "id": "sr-t1",
+          "statement": "Sputnik 1 carried scientific instruments that made important discoveries.",
+          "answer": false,
+          "explanation": "False — it transmitted a beep for three weeks and burned up. Its significance was political."
+        },
+        {
+          "id": "sr-t2",
+          "statement": "Gagarin did not land inside his capsule.",
+          "answer": true,
+          "explanation": "True — he ejected and came down by parachute, which the Soviet Union concealed because of the record rules."
+        },
+        {
+          "id": "sr-t3",
+          "statement": "Only the American programme lost crew members.",
+          "answer": false,
+          "explanation": "False — Apollo 1 killed three astronauts in January 1967; Komarov died on Soyuz 1 three months later."
+        },
+        {
+          "id": "sr-t4",
+          "statement": "At its height Apollo took more than four per cent of the federal budget.",
+          "answer": true,
+          "explanation": "True — in 1966, with some four hundred thousand people employed."
+        },
+        {
+          "id": "sr-t5",
+          "statement": "The two countries never co-operated in space during the Cold War.",
+          "answer": false,
+          "explanation": "False — an Apollo capsule docked with a Soyuz in 1975."
+        }
+      ]
+    },
+    {
+      "id": "c1-sr-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "sr-v1",
+          "prompt": "To keep something hidden is to ___ it.",
+          "options": [
+            "conceal",
+            "concede",
+            "convene"
+          ],
+          "answerIndex": 0,
+          "explanation": "Conceal — as the ejection was concealed for years."
+        },
+        {
+          "id": "sr-v2",
+          "prompt": "The explosive part of a missile is its ___.",
+          "options": [
+            "warhead",
+            "payload bay",
+            "nose cap"
+          ],
+          "answerIndex": 0,
+          "explanation": "The warhead."
+        },
+        {
+          "id": "sr-v3",
+          "prompt": "Brought together into one organised whole means ___.",
+          "options": [
+            "unified",
+            "uniform",
+            "unilateral"
+          ],
+          "answerIndex": 0,
+          "explanation": "Unified — which the Soviet programme never was."
+        },
+        {
+          "id": "sr-v4",
+          "prompt": "The quality of being easily damaged is ___.",
+          "options": [
+            "fragility",
+            "frailty of mind",
+            "fracture"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fragility — what the photograph of Earth conveyed."
+        },
+        {
+          "id": "sr-v5",
+          "prompt": "A route or an effort that leads away from the goal is a ___.",
+          "options": [
+            "detour",
+            "deterrent",
+            "detriment"
+          ],
+          "answerIndex": 0,
+          "explanation": "A detour — the charge the last paragraph answers."
+        }
+      ]
+    },
+    {
+      "id": "c1-sr-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "sr-b1",
+          "prompt": "Sputnik 1 was launched on 4 October ___.",
+          "answers": [
+            "1957"
+          ],
+          "options": [
+            "1957",
+            "1947",
+            "1961"
+          ],
+          "explanation": "1957; Gagarin flew in 1961."
+        },
+        {
+          "id": "sr-b2",
+          "prompt": "The Soviet Chief Designer was Sergei ___.",
+          "answers": [
+            "Korolev"
+          ],
+          "options": [
+            "Korolev",
+            "Komarov",
+            "Gagarin"
+          ],
+          "explanation": "Korolev. Komarov was the cosmonaut who died on Soyuz 1."
+        },
+        {
+          "id": "sr-b3",
+          "prompt": "Gagarin's flight lasted 108 ___.",
+          "answers": [
+            "minutes"
+          ],
+          "options": [
+            "minutes",
+            "hours",
+            "seconds"
+          ],
+          "explanation": "108 minutes, a single orbit."
+        },
+        {
+          "id": "sr-b4",
+          "prompt": "Kennedy committed the country to the Moon in a speech in May ___.",
+          "answers": [
+            "1961"
+          ],
+          "options": [
+            "1961",
+            "1962",
+            "1957"
+          ],
+          "explanation": "25 May 1961, three weeks after Gagarin."
+        },
+        {
+          "id": "sr-b5",
+          "prompt": "Korolev's giant rocket, the ___, failed on all four test launches.",
+          "answers": [
+            "N1"
+          ],
+          "options": [
+            "N1",
+            "V-2",
+            "Soyuz"
+          ],
+          "explanation": "The N1."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The text argues that the civilian and military sides of rocketry were never separable. Does that change how the achievement should be remembered?",
+    "Both countries accepted risks that killed crews rather than lose time. Where is the line between acceptable risk and recklessness in a project like this?",
+    "Was the money well spent? Argue the case the last paragraph makes, and then argue against it."
+  ],
+  "audio": {
+    "duration_label": "4:17"
+  }
+}

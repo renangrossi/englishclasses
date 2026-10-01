@@ -216,7 +216,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-41 images the gallery could not answer -- flags, maps, photographs and
+57 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything that is not public domain.
 
@@ -263,5 +263,21 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b2/reconstruction` | `02.jpg` | The first Black senator and representatives in Congress, printed in 1872. Within thirty years almost none of their voters were still on the rolls. | `File:First Colored Senator and Representatives.jpg` |
 | `b2/trail-of-tears` | `01.jpg` | Sequoyah with his syllabary | `File:Henry Inman - Sequoyah - Google Art Project.jpg` |
 | `b2/trail-of-tears` | `02.jpg` | West of the Mississippi, as mapped in 1804. This is where removal sent sixteen thousand people, on foot, in winter. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
+| `c1/apollo-11` | `01.jpg` | Buzz Aldrin on the surface | `File:Aldrin Apollo 11.jpg` |
+| `c1/apollo-11` | `02.jpg` | The Laser Ranging Retroreflector, photographed where it was left | `File:AS11-40-5952 - Apollo 11 - Apollo 11 Mission image - The Laser Ranging Retroreflector (LRRR) - NARA - 16685293.jpg` |
+| `c1/malcolm-x` | `01.jpg` | Malcolm X and Martin Luther King Jr. | `File:MLK and Malcolm X USNWR cropped.jpg` |
+| `c1/malcolm-x` | `02.jpg` | Malcolm X | `File:Malcolm X in 1964.jpg` |
+| `c1/martin-luther-king` | `01.jpg` | Martin Luther King Jr. at the March on Washington | `File:Civil Rights March on Washington, D.C. (Dr. Martin Luther King, Jr. and Mathew Ahmann in a crowd.) - NARA - 542015 - Restoration.jpg` |
+| `c1/martin-luther-king` | `02.jpg` | Fire hoses turned on demonstrators in Birmingham, Alabama | `File:Firemen spraying protestors in Downtown Birmingham 01.jpg` |
+| `c1/rosa-parks` | `01.jpg` | Rosa Parks fingerprinted by Deputy Sheriff D. H. Lackey | `File:Rosa Parks being fingerprinted by Deputy Sheriff D.H. Lackey after being arrested on February 22, 1956, during the Montgomery bus boycott.jpg` |
+| `c1/rosa-parks` | `02.jpg` | Flyer circulated in Montgomery after the court order, 1956 | `File:Montgomery Improvement Association, flyer on bus desegregation, c. 1956 (NYPL).jpg` |
+| `c1/rosa-parks` | `03.jpg` | Rosa Parks on a Montgomery bus | `File:Rosa Parks on bus on December 21, 1956.jpg` |
+| `c1/the-space-race` | `01.jpg` | A full-size replica of Sputnik 1 on display | `File:Sputnik 1.jpg` |
+| `c1/the-space-race` | `02.jpg` | Yuri Gagarin | `File:Yuri Gagarin (1961) - Restoration.jpg` |
+| `c1/the-space-race` | `03.jpg` | An N1 mockup on the pad at Baikonur, 1967. The figures at the base give the scale: it stood as tall as a Saturn V, it failed on all four launch attempts, and the Soviet Union denied that the programme existed until 1989. | `File:N1 1M1 mockup on the launch pad at the Baikonur Cosmodrome in late 1967.jpg` |
+| `c1/watergate` | `01.jpg` | The Watergate complex, Washington D.C. Offices, flats and a hotel on the Potomac; the Democratic National Committee rented the sixth floor of one of the office buildings. | `File:WatergateFromAir.JPG` |
+| `c1/watergate` | `02.jpg` | Nixon's letter of resignation, 9 August 1974. One sentence, addressed to the Secretary of State because that is where the law says such a letter goes; the pen notation in the corner | `File:Letter of Resignation of Richard M. Nixon, 1974.jpg` |
+| `c1/women-win-the-vote` | `01.jpg` | Official programme for the suffrage procession | `File:Official Program Woman Suffrage Procession - March 3, 1913.jpg` |
+| `c1/women-win-the-vote` | `02.jpg` | The Silent Sentinels at the White House gates, 1917. They stood there daily for over two years | `File:Suffragists picketing the White House.jpg` |
 
 <!-- gallery:end -->

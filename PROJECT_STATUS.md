@@ -14,7 +14,7 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | 132 texts; the American History collection is being written (A1, A2 and B1 done) |
+| **Current phase** | 145 texts; the American History collection is being written (A1, A2, B1, B2 and C1 done; C2 left) |
 | **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
 
 ### What this project is *not*
@@ -359,28 +359,27 @@ python3 scripts/build_image_credits.py && python3 scripts/check_site_integrity.p
 ```
 
 ### Milestone 12 — American History collection (IN PROGRESS)
-- **Branch:** `content/american-history` (merged to `main` as a checkpoint; **not finished**)
+- **Branches:** `content/american-history` (A1, A2, B1), `content/american-history-b2`,
+  `content/american-history-c1` — each merged to `main` as it was finished. **Not finished:** C2 is left.
 
 A new collection of readings on the history of the United States, A1 to C2, authored for this
 site. It is English practice told through history, not a history course: every text opens on a
 scene rather than a birth date, and the language is held to its CEFR level while the subject is
 allowed to be serious.
 
-**Done so far (17 texts):**
+**Done so far (30 texts):**
 - **A1 (4):** `george-washington`, `abraham-lincoln`, `statue-of-liberty`, `the-american-flag`
 - **A2 (6):** `declaration-of-independence`, `boston-tea-party`, `lewis-and-clark-west`,
   `sacagawea`, `california-gold-rush`, `oregon-trail`
 - **B1 (7):** `louisiana-purchase`, `lewis-and-clark-unknown`, `harriet-tubman`,
   `frederick-douglass`, `lincoln-and-the-civil-war`, `transcontinental-railroad`,
   **`american-flag-symbols`** (the visual centrepiece: nine full-width flag plates inside the text)
+- **B2 (6):** `trail-of-tears`, `civil-war-nation-divided`, `reconstruction`,
+  `great-depression`, `fdr-new-deal`, `jackie-robinson`
+- **C1 (7):** `rosa-parks`, `martin-luther-king`, `malcolm-x`, `women-win-the-vote`,
+  `the-space-race`, `apollo-11`, `watergate`
 
 **Still to write:**
-- **B2 (6):** The Trail of Tears · The Civil War: A Nation Divided · Reconstruction ·
-  The Great Depression · Franklin D. Roosevelt and the New Deal · Jackie Robinson Breaks
-  Baseball's Color Line
-- **C1 (7):** Rosa Parks and the Montgomery Bus Boycott · Martin Luther King Jr. ·
-  Malcolm X and Two Visions of Civil Rights · Women Win the Right to Vote · The Space Race ·
-  Apollo 11 · Watergate
 - **C2 (7):** Manifest Destiny: Expansion or Ideology? · The West Was Not Empty · Slavery and
   the Making of the American Economy · Reconstruction: A Revolution That Did Not Last ·
   The American Dream · Immigration and the Making of Modern America · What Makes an American Hero?

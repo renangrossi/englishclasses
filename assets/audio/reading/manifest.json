@@ -707,6 +707,12 @@
   "rate": "+0%",
   "voice": "en-US-JennyNeural"
  },
+ "c1/apollo-11": {
+  "bytes": 1562112,
+  "fingerprint": "985dc1f734a6b11b",
+  "rate": "+0%",
+  "voice": "en-US-EricNeural"
+ },
  "c1/attention-economy": {
   "bytes": 852480,
   "fingerprint": "ed6b946f99ae2a41",
@@ -725,6 +731,18 @@
   "rate": "+0%",
   "voice": "en-US-MichelleNeural"
  },
+ "c1/malcolm-x": {
+  "bytes": 1537056,
+  "fingerprint": "a47b0bb95de13435",
+  "rate": "+0%",
+  "voice": "en-US-EricNeural"
+ },
+ "c1/martin-luther-king": {
+  "bytes": 1526976,
+  "fingerprint": "9cc771b3885179ca",
+  "rate": "+0%",
+  "voice": "en-US-EricNeural"
+ },
  "c1/physiological-stressors": {
   "bytes": 1901664,
   "fingerprint": "be132ce625b41ea5",
@@ -742,6 +760,12 @@
   "fingerprint": "41ad2855566a5808",
   "rate": "+0%",
   "voice": "en-US-BrianNeural"
+ },
+ "c1/rosa-parks": {
+  "bytes": 1545696,
+  "fingerprint": "2f1269e153ad6b2b",
+  "rate": "+0%",
+  "voice": "en-US-MichelleNeural"
  },
  "c1/rs-japan": {
   "bytes": 1886688,
@@ -779,11 +803,29 @@
   "rate": "+0%",
   "voice": "en-US-MichelleNeural"
  },
+ "c1/the-space-race": {
+  "bytes": 1544544,
+  "fingerprint": "921319a4fcf554d8",
+  "rate": "+0%",
+  "voice": "en-US-EmmaNeural"
+ },
  "c1/trials": {
   "bytes": 1621296,
   "fingerprint": "bf6b36da1708a209",
   "rate": "+0%",
   "voice": "en-US-BrianNeural"
+ },
+ "c1/watergate": {
+  "bytes": 1557648,
+  "fingerprint": "03c2b3723ff61b35",
+  "rate": "+0%",
+  "voice": "en-US-GuyNeural"
+ },
+ "c1/women-win-the-vote": {
+  "bytes": 1596960,
+  "fingerprint": "03bb4059558a988d",
+  "rate": "+0%",
+  "voice": "en-US-EmmaNeural"
  },
  "c2/reading-a-scientific-claim": {
   "bytes": 1442016,

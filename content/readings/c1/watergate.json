@@ -1,0 +1,342 @@
+{
+  "id": "c1-reading-watergate",
+  "level": "C1",
+  "slug": "watergate",
+  "order": 106,
+  "topic": "history",
+  "title": "Watergate",
+  "subtitle": "A security guard noticed tape on a door latch. Twenty-six months later a President resigned, and the burglary was the least of it.",
+  "description": "A C1 reading and listening text on Watergate: the break-in, the cover-up, the tapes, the Saturday Night Massacre, the unanimous Supreme Court ruling, and why the scandal was never really about the burglary.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "Frank Wills was twenty-four and working the night shift as a security guard in an office and apartment complex in Washington called the Watergate. Shortly after midnight on 17 June 1972 he noticed that a lock on a stairwell door had been taped over so that it would not catch. He removed the tape. When he came round again the tape was back, and he called the police.",
+    "Five men were arrested inside the headquarters of the Democratic National Committee with lock picks, cameras and electronic eavesdropping equipment. It looked, at first, like a strange minor burglary — the President was heading for one of the largest election victories in American history and had no conceivable need to bug his opponents' offices. But one of the men was carrying an address book with a White House telephone number in it, and several had been paid from the accounts of the Committee for the Re-Election of the President.",
+    "Nixon won in November by taking forty-nine states. The burglary was, by then, a story that two relatively junior reporters at the *Washington Post* were still working on, largely alone and against a good deal of official denial. Bob Woodward's principal source was a senior official who would meet him in a car park and who was known inside the paper as Deep Throat; his identity was kept for thirty-three years and turned out in 2005 to be Mark Felt, the Associate Director of the FBI — the second most senior officer in the agency that was supposed to be investigating the case.",
+    "What converted a burglary into a constitutional crisis was the attempt to bury it. Hush money was paid to the burglars. The CIA was asked to tell the FBI to stand back on grounds of national security that did not exist. Evidence was destroyed, witnesses were coached, and the President's own staff committed a series of felonies to keep a trail from reaching the Oval Office. Nearly fifty people were eventually convicted, including the Attorney General of the United States.",
+    "The decisive fact was almost absurd: Nixon had installed a voice-activated taping system in his own offices, and had recorded himself. Its existence became public in July 1973 when a former aide, Alexander Butterfield, was asked about it in a Senate hearing and answered truthfully. From that moment the question was no longer what had happened but who would get the tapes.",
+    "Nixon refused to surrender them, citing executive privilege. In October 1973 he ordered the dismissal of the special prosecutor, Archibald Cox, who was subpoenaing them; the Attorney General resigned rather than carry out the order and his deputy was dismissed for the same refusal, before the Solicitor General complied. The newspapers called it the Saturday Night Massacre, and the volume of telegrams reaching Congress afterwards is usually given as the moment impeachment became a serious prospect rather than a rhetorical one.",
+    "Two things finished it. In July 1974 the Supreme Court ruled unanimously in *United States v. Nixon* that executive privilege is real but not absolute, and that the tapes had to be handed over. Then the tapes themselves produced a recording from 23 June 1972 — six days after the break-in — on which the President can be heard agreeing to have the CIA obstruct the FBI's investigation. It is still called the smoking gun. It destroyed the one defence he had left, that he had not known.",
+    "Nixon resigned on 9 August 1974, the only American president to do so. His successor, Gerald Ford, pardoned him a month later for any federal crimes he might have committed in office, on the argument that a trial would consume the country for years. Whether that was statesmanship or a bargain has been argued ever since, and it probably cost Ford the 1976 election.",
+    "The aftershocks were legislative and lasting: new rules on campaign finance, a Freedom of Information Act with teeth, an Ethics in Government Act, statutory limits on domestic surveillance, and a permanent assumption among reporters that the official account is a claim rather than a fact. The suffix *-gate* has since been attached to several hundred scandals, most of them small, which has slowly drained the word of its weight.",
+    "The lesson usually drawn is that the cover-up is worse than the crime, and that is true as far as it goes. The more uncomfortable lesson is how nearly it worked. The burglars were caught by a night-shift guard who checked a door twice, and the tapes existed only because the man they would convict had chosen to make them."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "An aerial view of the curved concrete terraces of the Watergate complex beside the Potomac River",
+      "source": "commons:File:WatergateFromAir.JPG",
+      "caption": "The Watergate complex, Washington D.C. Offices, flats and a hotel on the Potomac; the Democratic National Committee rented the sixth floor of one of the office buildings.",
+      "wide": true
+    },
+    {
+      "src": "02.jpg",
+      "after": 7,
+      "alt": "A typed letter on White House paper reading Dear Mr. Secretary, I hereby resign the Office of President of the United States, signed Richard Nixon",
+      "source": "commons:File:Letter of Resignation of Richard M. Nixon, 1974.jpg",
+      "caption": "Nixon's letter of resignation, 9 August 1974. One sentence, addressed to the Secretary of State because that is where the law says such a letter goes; the pen notation in the corner — 11:35 a.m., initialled by Kissinger — is the moment it took effect.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a stairwell",
+      "definition": "the shaft or space containing a staircase"
+    },
+    {
+      "term": "to eavesdrop",
+      "definition": "to listen secretly to other people's conversations"
+    },
+    {
+      "term": "to bug",
+      "definition": "to place hidden listening devices in a place"
+    },
+    {
+      "term": "hush money",
+      "definition": "money paid to somebody to keep them from telling what they know"
+    },
+    {
+      "term": "a felony",
+      "definition": "a serious crime"
+    },
+    {
+      "term": "to coach",
+      "definition": "here, to instruct somebody on what to say"
+    },
+    {
+      "term": "executive privilege",
+      "definition": "a president's claimed right to withhold certain communications"
+    },
+    {
+      "term": "to subpoena",
+      "definition": "to order the production of evidence or a witness by law"
+    },
+    {
+      "term": "impeachment",
+      "definition": "the bringing of formal charges against a holder of public office"
+    },
+    {
+      "term": "to pardon",
+      "definition": "to cancel officially the punishment for a crime"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-wg-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the best answer according to the text.",
+      "items": [
+        {
+          "id": "wg-c1",
+          "prompt": "How was the break-in discovered?",
+          "options": [
+            "An anonymous telephone call",
+            "A security guard found tape over a door lock, removed it, and found it replaced",
+            "An FBI surveillance team was watching"
+          ],
+          "answerIndex": 1,
+          "explanation": "Frank Wills checked the door twice and called the police."
+        },
+        {
+          "id": "wg-c2",
+          "prompt": "Why did the burglary initially seem strange?",
+          "options": [
+            "No equipment was found",
+            "Nixon was heading for a landslide and had no need to bug his opponents",
+            "It happened in daylight"
+          ],
+          "answerIndex": 1,
+          "explanation": "He went on to win forty-nine states in November."
+        },
+        {
+          "id": "wg-c3",
+          "prompt": "Who was Deep Throat?",
+          "options": [
+            "A senator on the investigating committee",
+            "Mark Felt, the Associate Director of the FBI",
+            "One of the arrested burglars"
+          ],
+          "answerIndex": 1,
+          "explanation": "Revealed in 2005, thirty-three years after the fact — the second most senior officer in the investigating agency."
+        },
+        {
+          "id": "wg-c4",
+          "prompt": "According to the text, what turned a burglary into a constitutional crisis?",
+          "options": [
+            "The number of burglars involved",
+            "The attempt to bury it — hush money, destroyed evidence, and using the CIA to obstruct the FBI",
+            "The reporting itself"
+          ],
+          "answerIndex": 1,
+          "explanation": "Nearly fifty people were convicted, including the Attorney General."
+        },
+        {
+          "id": "wg-c5",
+          "prompt": "What did the Supreme Court rule in United States v. Nixon?",
+          "options": [
+            "That executive privilege does not exist",
+            "That executive privilege is real but not absolute, and the tapes had to be handed over",
+            "That the tapes were inadmissible"
+          ],
+          "answerIndex": 1,
+          "explanation": "The ruling was unanimous, in July 1974."
+        },
+        {
+          "id": "wg-c6",
+          "prompt": "What is the \"more uncomfortable lesson\" of the last paragraph?",
+          "options": [
+            "That the press cannot be trusted",
+            "How nearly the cover-up worked, given how it came apart",
+            "That pardons are always wrong"
+          ],
+          "answerIndex": 1,
+          "explanation": "A guard who checked a door twice, and tapes the President had chosen to make himself."
+        }
+      ]
+    },
+    {
+      "id": "c1-wg-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each statement is true or false according to the text.",
+      "items": [
+        {
+          "id": "wg-t1",
+          "statement": "The break-in cost Nixon the 1972 election.",
+          "answer": false,
+          "explanation": "False — he won in November by taking forty-nine states."
+        },
+        {
+          "id": "wg-t2",
+          "statement": "The existence of the taping system became public through a Senate hearing.",
+          "answer": true,
+          "explanation": "True — Alexander Butterfield was asked and answered truthfully in July 1973."
+        },
+        {
+          "id": "wg-t3",
+          "statement": "The Attorney General resigned rather than dismiss the special prosecutor.",
+          "answer": true,
+          "explanation": "True — and his deputy was dismissed for the same refusal, in the Saturday Night Massacre."
+        },
+        {
+          "id": "wg-t4",
+          "statement": "Nixon was tried and convicted after leaving office.",
+          "answer": false,
+          "explanation": "False — Gerald Ford pardoned him a month after the resignation."
+        },
+        {
+          "id": "wg-t5",
+          "statement": "The scandal produced lasting changes to law on surveillance and campaign finance.",
+          "answer": true,
+          "explanation": "True — along with a stronger Freedom of Information Act and an Ethics in Government Act."
+        }
+      ]
+    },
+    {
+      "id": "c1-wg-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "wg-v1",
+          "prompt": "Money paid to somebody to keep them quiet is ___.",
+          "options": [
+            "hush money",
+            "seed money",
+            "hard currency"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hush money — paid to the burglars."
+        },
+        {
+          "id": "wg-v2",
+          "prompt": "To order the production of evidence by law is to ___ it.",
+          "options": [
+            "subpoena",
+            "supersede",
+            "suppress"
+          ],
+          "answerIndex": 0,
+          "explanation": "To subpoena — which is what Cox was doing when he was dismissed."
+        },
+        {
+          "id": "wg-v3",
+          "prompt": "A serious crime is a ___.",
+          "options": [
+            "felony",
+            "fallacy",
+            "forfeit"
+          ],
+          "answerIndex": 0,
+          "explanation": "A felony — as distinct from a misdemeanour."
+        },
+        {
+          "id": "wg-v4",
+          "prompt": "To listen secretly to other people's conversations is to ___.",
+          "options": [
+            "eavesdrop",
+            "overhear",
+            "interject"
+          ],
+          "answerIndex": 0,
+          "explanation": "Eavesdrop. To overhear is accidental; eavesdropping is deliberate."
+        },
+        {
+          "id": "wg-v5",
+          "prompt": "Bringing formal charges against a holder of public office is ___.",
+          "options": [
+            "impeachment",
+            "indictment",
+            "internment"
+          ],
+          "answerIndex": 0,
+          "explanation": "Impeachment. Nixon resigned before the House voted on it."
+        }
+      ]
+    },
+    {
+      "id": "c1-wg-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "wg-b1",
+          "prompt": "The break-in took place on 17 June ___.",
+          "answers": [
+            "1972"
+          ],
+          "options": [
+            "1972",
+            "1974",
+            "1968"
+          ],
+          "explanation": "17 June 1972; Nixon resigned in August 1974."
+        },
+        {
+          "id": "wg-b2",
+          "prompt": "The burglars were caught inside the headquarters of the ___ National Committee.",
+          "answers": [
+            "Democratic"
+          ],
+          "options": [
+            "Democratic",
+            "Republican",
+            "Progressive"
+          ],
+          "explanation": "The Democratic National Committee."
+        },
+        {
+          "id": "wg-b3",
+          "prompt": "The October 1973 dismissals were called the Saturday Night ___.",
+          "answers": [
+            "Massacre"
+          ],
+          "options": [
+            "Massacre",
+            "Meeting",
+            "Mutiny"
+          ],
+          "explanation": "The Saturday Night Massacre."
+        },
+        {
+          "id": "wg-b4",
+          "prompt": "The recording of 23 June 1972 is known as the ___ gun.",
+          "answers": [
+            "smoking"
+          ],
+          "options": [
+            "smoking",
+            "silver",
+            "starting"
+          ],
+          "explanation": "The smoking gun."
+        },
+        {
+          "id": "wg-b5",
+          "prompt": "Nixon resigned on 9 ___ 1974.",
+          "answers": [
+            "August"
+          ],
+          "options": [
+            "August",
+            "April",
+            "October"
+          ],
+          "explanation": "9 August 1974."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Ford argued that a trial would have consumed the country for years. Was the pardon justified?",
+    "The suffix -gate has been attached to hundreds of smaller scandals. Does that weaken the public's ability to recognise a serious one?",
+    "The case turned on recordings the President made of himself. What does that suggest about how institutions should handle their own records?"
+  ],
+  "audio": {
+    "duration_label": "4:19"
+  }
+}

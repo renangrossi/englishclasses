@@ -30,6 +30,22 @@
     "At six the light changes in the windows along the east corridor and the building starts to refill. The day team arrives with coffee and weather and the loud competence of people who have slept. Marisol gives the handover, which takes eleven minutes, and the ward becomes somebody else's.",
     "She drives home against the traffic. She is asleep by eight, and the city she lives in is one she mostly reads about."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 3,
+      "alt": "A long colonnade in fog and snow, lit faintly, with no one in it",
+      "source": "louis-daguerre-effect-of-fog-and-snow-seen-through-a-ruined-gothic-colonnade-1826.jpeg",
+      "caption": "*Effect of Fog and Snow Seen Through a Ruined Gothic Colonnade* — Louis Daguerre, 1826."
+    },
+    {
+      "src": "02.jpg",
+      "after": 7,
+      "alt": "First light over a cold field, long shadows and the sun only just above the horizon",
+      "source": "joseph-farquharson-winter-morning.jpg",
+      "caption": "*Winter Morning* — Joseph Farquharson."
+    }
+  ],
   "vocabulary": [
     {
       "term": "handover",

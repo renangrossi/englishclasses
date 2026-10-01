@@ -35,6 +35,22 @@
     "“We've moved from intuition to quantified trade-offs,” Raymond told the board. “Product economics we can actually see, investment governance that puts a number on flexibility, and capital decisions that price risk instead of hoping about it.” Teams at Meridian now shipped with cost, revenue and risk forecasts attached. When an outage later threatened one of the largest client relationships, the rehearsed playbook — quantified contingencies, insurance already in place, a prioritized fix and clear communication — was what saved it.",
     "The lesson Meridian drew was not about code. Building for financial clients demands a measurable financial architecture, governance with real authority, and teams fluent in engineering and finance at the same time."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A long panelled room with a table down the middle of it, laid out for a formal meeting",
+      "source": "luigi-premazzi-the-dining-room-of-the-baron-a-l-stieglitz-1870.jpeg",
+      "caption": "*The Dining Room of Baron A. L. Stieglitz* — Luigi Premazzi, 1870."
+    },
+    {
+      "src": "02.jpg",
+      "after": 6,
+      "alt": "A still life of the instruments of three professions — compasses, rules, a palette and a bust — arranged on a table",
+      "source": "anne-vallayer-coster-attributes-of-painting-sculpture-and-architecture-1769.jpeg",
+      "caption": "*Attributes of Painting, Sculpture and Architecture* — Anne Vallayer-Coster, 1769."
+    }
+  ],
   "vocabulary": [
     {
       "term": "risk-adjusted",

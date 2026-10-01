@@ -21,6 +21,15 @@
     "Sustainability is another critical concern. The energy consumption of large-scale systems, particularly those running on cloud infrastructure, has environmental consequences that do not appear anywhere in the architecture diagram. Architects are expected to optimize resource usage — through serverless computing, perhaps, or through more energy-efficient algorithms — in order to reduce the carbon footprint of what they build. This intersection of technical design and ethical responsibility marks the change in the role: the architect is not simply a builder of systems but a steward of values that the systems will carry.",
     "Collaboration matters just as much. Architects work with cross-functional teams — product managers, data scientists, compliance officers — to bring technical solutions into line with business and ethical goals. Effective communication, and a genuine grasp of what each stakeholder needs, is what allows a complex technical decision to be translated into terms a non-technical audience can act on. The modern software architect, in the end, has to combine technical mastery with ethical foresight, and make sure that the systems they design are not only robust and scalable but equitable and sustainable as well."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "An oracle delivering a judgement that those who hear it have no way of checking",
+      "source": "camillo-miola-c-the-oracle-1840-1919.jpeg",
+      "caption": "*The Oracle* — Camillo Miola."
+    }
+  ],
   "vocabulary": [
     {
       "term": "paramount",

@@ -29,6 +29,15 @@
     "Sales enablement is the work of giving a team what it needs to sell: scripts, playbooks, training and competitor analysis. Paired with data-driven selling, where analytics point to the leads most likely to convert, it lets a team spend its time where the time will pay. And as more business moves online, salespeople are learning social selling — using social media to reach prospects and build interest — and running their calls over video rather than across a desk.",
     "Modern selling, in short, is a blend of strategic planning, digital tools and ordinary interpersonal skill. The leaders in the field know that success is not one closed deal; it is the relationship, the data behind it, and the willingness to keep adapting as the customer changes."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "A crowded ceremony in which the keys of a city are handed over, both sides watching each other closely",
+      "source": "johann-georg-platzer-alexander-the-great-receiving-keys-of-babylon.jpeg",
+      "caption": "*Alexander the Great Receiving the Keys of Babylon* — Johann Georg Platzer."
+    }
+  ],
   "vocabulary": [
     {
       "term": "pain point",

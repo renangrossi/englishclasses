@@ -31,6 +31,15 @@
     "Douglas: I've worked in both small and large teams. I think communication is the thing that decides whether a team works, so I try to communicate clearly and often, and I'd rather over-share than let someone find out too late. I like collaborating, and I'm always willing to help a colleague who's stuck. In my last two jobs we used Git and Jira to manage and track our work, and I'm comfortable with agile methods like Scrum.",
     "Interviewer: Thank you for your time, and for sharing your experience with us. We'll be in touch soon."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 3,
+      "alt": "A sculptor showing finished work in his studio to visitors who have come to judge it",
+      "source": "pierre-olivier-joseph-coomans-1816-1889-the-studio-of-phidias.jpg",
+      "caption": "*The Studio of Phidias* — Pierre-Olivier-Joseph Coomans."
+    }
+  ],
   "vocabulary": [
     {
       "term": "the field",

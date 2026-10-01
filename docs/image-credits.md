@@ -55,7 +55,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-98 images, imported with `scripts/import_local_artwork.py` from the local
+144 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -159,5 +159,51 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b1/travel-dialogues-02` | `01.jpg` | A Scene of Everyday Life at the Nuremberg Town Hall | `heinrich-hansen-a-scene-of-everyday-life-at-the-nuremberg-town-hall.jpeg` |
 | `b1/usa-restaurants` | `01.jpg` | Muddy Alligators | `john-singer-sargent-muddy-alligators.jpeg` |
 | `b1/usa-restaurants` | `02.jpg` | Jamaica | `frederic-edwin-church-jamaica-1871.jpeg` |
+| `b2/american-culture` | `01.jpg` | The Oxbow | `cole-thomas-the-oxbow-the-connecticut-river-near-northampton-1836.jpg` |
+| `b2/american-culture` | `02.jpg` | Landscape with Buffalo on the Upper Missouri | `karl-bodmer-landscape-with-buffalo-on-the-upper-missouri-1833.jpg` |
+| `b2/business-war-it` | `01.jpg` | Dreadnought and Victory: the Future and the Past at Their Moorings in Portsmouth | `wyllie-william-lionel-dreadnought-and-victory-the-future-and-the-past-at-their-moorings-in-portsmouth.jpg` |
+| `b2/business-war-it` | `02.jpg` | HMS Nemesis Destroying Chinese Junks | `edward-duncan-hms-nemesis-destroying-chinese-junks-1st-opium-war-1843.jpeg` |
+| `b2/capetown` | `01.jpg` | Mountain Gorge at Sunset | `tinus-de-jongh-mountain-gorge-at-sunset.jpeg` |
+| `b2/capetown` | `02.jpg` | Near Burghersdorp | `tinus-de-jongh-near-burghersdorp-1885-1942.jpg` |
+| `b2/describing-a-place` | `01.jpg` | The Night Fishermen | `sebastian-pether-the-night-fishermen-1793-1844.jpeg` |
+| `b2/egypt-a-journey-through-history-and-culture` | `01.jpg` | The Citadel of Cairo | `cesare-biseo-the-citadel-of-cairo-1883.jpeg` |
+| `b2/egypt-a-journey-through-history-and-culture` | `02.jpg` | Temple on the Nile | `david-roberts-temple-on-the-nile.jpeg` |
+| `b2/formal-informal` | `01.jpg` | Pericles' Funeral Oration | `philipp-foltz-pericles-funeral-oration-1852.jpg` |
+| `b2/formula-1` | `01.jpg` | The Chariot Race | `alexander-von-wagner-the-chariot-race.jpeg` |
+| `b2/intelligence-pills` | `01.jpg` | The Oracle | `camillo-miola-c-the-oracle-1840-1919.jpeg` |
+| `b2/it-and-jiu-jitsu` | `01.jpg` | The Sword Dance | `henryk-siemiradzki-the-sword-dance-1887.jpg` |
+| `b2/it-interview` | `01.jpg` | The Studio of Phidias | `pierre-olivier-joseph-coomans-1816-1889-the-studio-of-phidias.jpg` |
+| `b2/north-sentinel-island` | `01.jpg` | Dutch Vessels and Fishermen on a Rocky Coast | `adam-willaerts-dutch-vessels-and-fishermen-on-a-rocky-coast.jpeg` |
+| `b2/north-sentinel-island` | `02.jpg` | View of the Island of Møn | `anton-eduard-kieldrup-view-of-the-island-of-mon-denmark-1849.jpg` |
+| `b2/phrasal-verbs-02-trip-abroad` | `01.jpg` | View of the Château de Versailles from the Avenue de Paris | `pierre-patel-view-of-the-chateau-de-versailles-and-the-gardens-from-the-avenue-de-paris-c-1668.jpeg` |
+| `b2/project-management-can-could-able-do-make` | `01.jpg` | Roman Senate Scene | `stefan-bakalowicz-roman-senate-scene.jpg` |
+| `b2/recent-advancements-in-it` | `01.jpg` | The Egyptian Court, Crystal Palace, Sydenham | `philip-henry-delamotte-the-egyptian-court-crystal-palace-sydenham-1854.jpeg` |
+| `b2/recent-advancements-in-it` | `02.jpg` | The Palaces of Nimroud Restored | `james-fergusson-the-palaces-of-nimroud-restored-1853.jpeg` |
+| `b2/romania` | `01.jpg` | Forest Landscape with Castle Ruins | `anton-hlavacek-forest-landscape-with-castle-ruins.jpeg` |
+| `b2/romania` | `02.jpg` | Vlad the Impaler's Night Attack at Târgoviște | `theodor-aman-draculas-night-attack-at-targoviste.jpg` |
+| `b2/sales-strategy` | `01.jpg` | Alexander the Great Receiving the Keys of Babylon | `johann-georg-platzer-alexander-the-great-receiving-keys-of-babylon.jpeg` |
+| `b2/the-marathon-and-the-wall` | `01.jpg` | The Heraean Games | `prospero-piatti-the-heraean-games-1901.jpg` |
+| `c1/attention-economy` | `01.jpg` | Public Exhibition of a Picture | `joan-ferrer-miro-1850-1931-public-exhibition-of-a-picture.jpg` |
+| `c1/haiti` | `01.jpg` | Seeing Off a Recruit | `ilya-efimovich-repin-seeing-off-a-recruit-1879.jpeg` |
+| `c1/it-management` | `01.jpg` | The Dining Room of Baron A. L. Stieglitz | `luigi-premazzi-the-dining-room-of-the-baron-a-l-stieglitz-1870.jpeg` |
+| `c1/it-management` | `02.jpg` | Attributes of Painting, Sculpture and Architecture | `anne-vallayer-coster-attributes-of-painting-sculpture-and-architecture-1769.jpeg` |
+| `c1/questionnaire-company-management` | `01.jpg` | A Roman Studio | `lawrence-alma-tadema-a-roman-studio-1874.jpg` |
+| `c1/real-estate` | `01.jpg` | Dordrecht | `elias-pieter-van-bommel-dordrecht-1871.jpg` |
+| `c1/shadows-in-the-server-room` | `01.jpg` | A Nocturnal Fire | `egbert-van-der-poel-a-nocturnal-fire-1621-1664.jpg` |
+| `c1/shadows-in-the-server-room` | `02.jpg` | Reply of the Zaporozhian Cossacks | `ilya-repin-reply-of-the-zaporozhian-cossacks.jpeg` |
+| `c1/shadows-in-the-server-room` | `03.jpg` | The School of Athens | `raphael-the-school-of-athens.jpeg` |
+| `c1/technology-and-ethics` | `01.jpg` | The Oracle | `camillo-miola-c-the-oracle-1840-1919.jpeg` |
+| `c1/the-cost-of-convenience` | `01.jpg` | Hanging Gardens of Babylon | `ferdinand-knab-hanging-gardens-of-babylon-1886.jpeg` |
+| `c1/the-meeting-problem` | `01.jpg` | After a Difficult Meeting | `eduard-von-grutzner-after-a-difficult-meeting-1892.jpeg` |
+| `c1/the-night-shift` | `01.jpg` | Effect of Fog and Snow Seen Through a Ruined Gothic Colonnade | `louis-daguerre-effect-of-fog-and-snow-seen-through-a-ruined-gothic-colonnade-1826.jpeg` |
+| `c1/the-night-shift` | `02.jpg` | Winter Morning | `joseph-farquharson-winter-morning.jpg` |
+| `c2/reading-a-scientific-claim` | `01.jpg` | Total Eclipse of the Sun | `wilhelm-kranz-total-eclipse-of-the-sun-1897.jpeg` |
+| `c2/reading-a-scientific-claim` | `02.jpg` | The Great Comet of 1861 | `edmund-weiss-great-comet-of-1861-1888.jpeg` |
+| `c2/saying-no-without-saying-no` | `01.jpg` | Maecenas' Reception Room | `stefan-bakalowicz-maecenas-reception-room.jpeg` |
+| `c2/the-accent-you-keep` | `01.jpg` | A Reading from Homer | `lawrence-alma-tadema-a-reading-from-homer.jpg` |
+| `c2/the-case-against-plain-english` | `01.jpg` | Diogenes | `jean-leon-gerome-diogene-1860.jpeg` |
+| `c2/the-same-news-four-ways` | `01.jpg` | A Girl Reading a Newspaper | `wada-eisaku-a-girl-reading-newspaper-1897.jpeg` |
+| `c2/the-second-language-self` | `01.jpg` | Flight and Pursuit | `william-rimmer-1816-1879-flight-and-pursuit.jpg` |
+| `c2/what-doesnt-translate` | `01.jpg` | The Song of Phemius and the Sorrow of Penelope | `thomas-ralph-spence-the-song-of-phemius-and-the-sorrow-of-penelope-1897.jpg` |
 
 <!-- gallery:end -->

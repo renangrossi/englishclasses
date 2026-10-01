@@ -28,6 +28,22 @@
     "Those questions are mostly about oversight. A tool that answers a question can be checked before anything happens. A system that acts over an extended period makes many small decisions that nobody reviews individually, and errors can compound before they are noticed. The organizations getting the most out of these systems tend to be the ones that have thought hardest about where a human being is required to approve something, what the software is permitted to touch, and how its work is logged so that a mistake can be traced afterwards. Enthusiasm is easy to find; the constraints are what distinguish a serious deployment from an experiment.",
     "It is worth being careful about the analogies. Calling these systems colleagues or interns flatters them: they do not understand the organization they work in, they have no stake in the outcome, and their confidence is unrelated to their accuracy. What is genuinely new is narrower and still significant — software that can be given a goal instead of an instruction, and that will do a useful amount of the intervening work without being told how."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "An enormous iron and glass hall with colossal figures inside it, visitors small on the floor below",
+      "source": "philip-henry-delamotte-the-egyptian-court-crystal-palace-sydenham-1854.jpeg",
+      "caption": "*The Egyptian Court, Crystal Palace, Sydenham* — Philip Henry Delamotte, 1854. The last time a civilisation put its new capacity inside a shed this big."
+    },
+    {
+      "src": "02.jpg",
+      "after": 5,
+      "alt": "A reconstruction drawing of the palaces of Nimrud, terrace upon terrace along a river",
+      "source": "james-fergusson-the-palaces-of-nimroud-restored-1853.jpeg",
+      "caption": "*The Palaces of Nimroud Restored* — James Fergusson, 1853."
+    }
+  ],
   "vocabulary": [
     {
       "term": "hyperscale",

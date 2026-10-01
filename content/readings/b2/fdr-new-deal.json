@@ -9,6 +9,11 @@
   "description": "A B2 reading and listening text on Roosevelt and the New Deal: the bank holiday, the alphabet agencies, Social Security, the limits of the programme and the argument about it.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "grammar": [
+    "passive",
+    "past-simple",
+    "comparatives"
+  ],
   "passage": [
     "Franklin Roosevelt took office on 4 March 1933, at the worst moment of the Depression. Banks were failing in dozens of states, a quarter of the workforce had no job, and nobody knew whether the banking system would exist by the end of the month.",
     "Two days later he closed every bank in the country. The idea was to stop the panic by removing the thing people were panicking about: nobody could withdraw money anywhere, so no bank could be brought down by a queue. Inspectors examined the books, and over the following week the sound institutions reopened with a federal guarantee behind them.",

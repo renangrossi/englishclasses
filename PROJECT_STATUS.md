@@ -14,7 +14,7 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | 145 texts; the American History collection is being written (A1, A2, B1, B2 and C1 done; C2 left) |
+| **Current phase** | 152 texts; the American History collection is **complete** (37 texts, A1 to C2) |
 | **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
 
 ### What this project is *not*
@@ -358,16 +358,18 @@ for f in content/readings/b1/*.json; do python3 scripts/build_reading_page.py b1
 python3 scripts/build_image_credits.py && python3 scripts/check_site_integrity.py
 ```
 
-### Milestone 12 — American History collection (IN PROGRESS)
+### Milestone 12 — American History collection ✅
+- **Date:** 2026-10-01
 - **Branches:** `content/american-history` (A1, A2, B1), `content/american-history-b2`,
-  `content/american-history-c1` — each merged to `main` as it was finished. **Not finished:** C2 is left.
+  `content/american-history-c1`, `content/american-history-c2` — each merged to `main` as it was finished.
+- **Pushed:** yes · **Merged:** yes
 
 A new collection of readings on the history of the United States, A1 to C2, authored for this
 site. It is English practice told through history, not a history course: every text opens on a
 scene rather than a birth date, and the language is held to its CEFR level while the subject is
 allowed to be serious.
 
-**Done so far (30 texts):**
+**All 37 texts:**
 - **A1 (4):** `george-washington`, `abraham-lincoln`, `statue-of-liberty`, `the-american-flag`
 - **A2 (6):** `declaration-of-independence`, `boston-tea-party`, `lewis-and-clark-west`,
   `sacagawea`, `california-gold-rush`, `oregon-trail`
@@ -378,11 +380,18 @@ allowed to be serious.
   `great-depression`, `fdr-new-deal`, `jackie-robinson`
 - **C1 (7):** `rosa-parks`, `martin-luther-king`, `malcolm-x`, `women-win-the-vote`,
   `the-space-race`, `apollo-11`, `watergate`
+- **C2 (7):** `manifest-destiny`, `the-west-was-not-empty`, `slavery-and-the-american-economy`,
+  `reconstruction-revolution`, `the-american-dream`, `immigration-and-modern-america`,
+  **`what-makes-an-american-hero`** (the closing text: it turns on the collection itself and
+  asks what the hero template leaves out)
 
-**Still to write:**
-- **C2 (7):** Manifest Destiny: Expansion or Ideology? · The West Was Not Empty · Slavery and
-  the Making of the American Economy · Reconstruction: A Revolution That Did Not Last ·
-  The American Dream · Immigration and the Making of Modern America · What Makes an American Hero?
+**What C2 does differently.** The lower levels narrate; C2 argues. Each text follows the house
+C2 shape already set by `the-case-against-plain-english`: 8–9 paragraphs, a claim, two or three
+qualifications, a concession that costs something, and a close that narrows the claim rather
+than widening it. The exercise set is the C2 one — reading-comprehension, a `matching` item that
+maps the *shape* of the argument, and vocabulary — with a 300-word writing task last in the
+discussion. Where scholars genuinely disagree (the economics of slavery), the text says so and
+sets out the best objection rather than picking a side.
 
 **How these are built** (same pipeline, nothing new to invent):
 ```bash
@@ -395,7 +404,12 @@ python3 scripts/add_commons_image.py --plan plan.json     # refuses anything not
 python3 scripts/build_reading_page.py {level}/{slug}
 python3 scripts/generate_reading_audio.py {level}/{slug} --tts /tmp/rl-venv/bin/edge-tts
 python3 scripts/finish_reading_batch.py     # durations, indexes, hub, audit, validation
+python3 scripts/tag_grammar.py --write     # grammar filter tags (NOT run by finish_reading_batch)
+python3 scripts/build_image_credits.py     # image credits   (NOT run by finish_reading_batch)
 ```
+Those last two are easy to forget: `finish_reading_batch.py` does not call either, so a batch
+that skips them ships texts missing from the grammar filter and images missing from the credits
+file. Both are idempotent and derived from the JSON, so running them is always safe.
 `scripts/show_passages.py {level}/` prints paragraph openings when placing images.
 
 **Rules this collection follows, and the next session must keep:**
@@ -418,7 +432,9 @@ python3 scripts/finish_reading_batch.py     # durations, indexes, hub, audit, va
 ### Milestone 13 — What is left after that
 
 1. **P-2, the geography balance** — travel is still the largest topic in B1.
-2. **Depth at C1 and C2** (14 and 7) against B1's 37.
+2. **Depth at C1 and C2.** The American History collection has largely answered this: C1 went
+   from 14 to 21 and C2 from 7 to 14, against B1's 44. The top of the library is no longer thin,
+   but it is now heavily weighted towards history, which is the next imbalance to watch.
 
 ## Target architecture
 

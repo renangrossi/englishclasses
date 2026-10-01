@@ -1,0 +1,385 @@
+{
+  "id": "c2-reading-slavery-and-the-american-economy",
+  "level": "C2",
+  "slug": "slavery-and-the-american-economy",
+  "order": 102,
+  "topic": "history",
+  "title": "Slavery and the Making of the American Economy",
+  "subtitle": "That slavery was profitable is not in dispute. What it built, and how much of modern capitalism rests on it, is one of the sharpest arguments in economic history.",
+  "description": "A C2 reading and listening text on the economics of American slavery: what the figures establish, what the New History of Capitalism claims, where economic historians have pushed back, and how to read a dispute in which both sides have evidence.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple",
+    "comparatives",
+    "relative-clauses"
+  ],
+  "passage": [
+    "Begin with the figures that nobody contests, because they are startling enough on their own. On the eve of the Civil War, raw cotton accounted for roughly half of American exports by value. The four million people held in slavery were, collectively, the largest single category of wealth in the United States — valued at a sum greater than all the country's railroads, factories and banks combined. Whatever else the antebellum economy was, it was an economy whose principal asset was human beings.",
+    "For most of the twentieth century this was treated as a regional matter: a southern institution, agricultural and backward, which the industrial North defeated and replaced. The historiography has moved decisively against that. The cotton that left Charleston and New Orleans went to Lancashire and Lowell; the ships were northern, the insurance was northern or British, the credit that financed the next crop ran through New York, and enslaved people were routinely accepted as collateral for loans, which means they were an instrument of finance as well as a form of labour. Several universities and more than one bank that still exists have since published their own accounting of what that meant for them.",
+    "From this a stronger claim has been built, associated with what is called the New History of Capitalism: that slavery was not merely compatible with industrial capitalism but constitutive of it — that the plantation was an innovation in management and measurement, and that the growth of the Atlantic economy depended on it in a way that makes the usual distinction between free and unfree economies untenable.",
+    "This is where the argument becomes genuinely contested, and a reader should know that it is. Economic historians have challenged specific pillars of the strong version with some force. The rising output per picker through the first half of the century, which one influential account attributed to escalating violence, is better explained — on the evidence of seed records and plantation data — by the adoption of improved cotton varieties. Figures circulated for slavery's share of national product have in places been produced by counting the same cotton several times as it moves through the economy. And a claim that the economy could not have developed without slavery is difficult to test, because the counterfactual is not observable and the comparison economies that did industrialise without plantation slavery are inconveniently numerous.",
+    "None of that restores the older picture, and it is important to be exact about what survives the criticism. The integration of slavery with northern and British finance is documented and not in question. The profitability of slaveholding is not in question; the institution was expanding, not dying, and the price of enslaved people was rising until the war. What is in question is the size of a particular causal claim — whether slavery was the engine of American growth or a very large and deeply entangled part of an economy with several engines.",
+    "Why the distinction matters is itself worth stating, because both sides suspect the other of arguing about something else. The strong claim has a moral attraction: if slavery built the whole thing, the obligation to repair is total and the entanglement universal. The weaker claim has a moral risk running the other way: a careful downward revision of a percentage can be received as a reprieve, and some who cite it are plainly looking for one. Neither of those considerations is evidence. A historian who adjusts a figure because the seed data demand it has not excused anything, and a figure cannot be made true by the urgency of what it would justify.",
+    "The honest position is that the question has two parts and they come apart. On the economic question, the measured version is probably right: slavery was enormously profitable, deeply integrated and quantitatively large, without being the sole cause of American industrial development. On the question of obligation, almost nothing turns on the first answer. The wealth was real, the theft was real, its transmission across generations is traceable in land titles, endowments and balance sheets, and the case for reckoning with it does not require slavery to have built everything. It requires only that it built something, and that we can still see what.",
+    "This is, incidentally, a useful piece of practice in reading any contested field. The strongest version of a claim is rarely the most defensible one, the pushback is usually narrower than its most enthusiastic users pretend, and the part that survives a hostile review is the part worth building an argument on."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "An 1860 printed auction broadside headed '28 Slaves at Auction', listing each person by number, name, age and trade",
+      "source": "commons:File:SlaveAuctionBroadside-1860-01-14.jpg",
+      "caption": "Auction broadside, New Orleans, 14 January 1860. Twenty-eight people by name, age and trade — carpenter, sawyer, blacksmith, seamstress — each one “fully guaranteed”, the last of them “except a defect in one hand”. The document is a stock list, and reading it as one is the whole of the economic point."
+    },
+    {
+      "src": "02.jpg",
+      "after": 1,
+      "alt": "A painting of men in dark suits examining raw cotton in a bright merchant's office",
+      "source": "commons:File:Edgar Degas - Cotton Merchants in New Orleans.jpg",
+      "caption": "*Cotton Merchants in New Orleans* — Edgar Degas, 1873. Degas painted it while visiting his mother's family, who were in the cotton business; the room is the point at which the plantation meets the ledger.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "antebellum",
+      "definition": "before the war; in American use, before the Civil War"
+    },
+    {
+      "term": "an asset",
+      "definition": "something owned that has economic value"
+    },
+    {
+      "term": "historiography",
+      "definition": "the body of historical writing on a subject, and how it has changed"
+    },
+    {
+      "term": "collateral",
+      "definition": "property pledged as security for a loan"
+    },
+    {
+      "term": "an instrument",
+      "definition": "here, a financial device used to raise or secure money"
+    },
+    {
+      "term": "an accounting",
+      "definition": "a public reckoning of what happened and who gained"
+    },
+    {
+      "term": "constitutive",
+      "definition": "forming an essential part of something's nature"
+    },
+    {
+      "term": "untenable",
+      "definition": "impossible to defend or maintain"
+    },
+    {
+      "term": "a pillar",
+      "definition": "a central supporting element of an argument",
+      "match": "pillars"
+    },
+    {
+      "term": "to attribute to",
+      "definition": "to name as the cause of",
+      "match": "attributed to"
+    },
+    {
+      "term": "to escalate",
+      "definition": "to increase steadily in intensity",
+      "match": "escalating"
+    },
+    {
+      "term": "a variety",
+      "definition": "a cultivated strain of a plant",
+      "match": "varieties"
+    },
+    {
+      "term": "a counterfactual",
+      "definition": "a claim about what would have happened otherwise"
+    },
+    {
+      "term": "to industrialise",
+      "definition": "to develop an economy based on manufacturing",
+      "match": "industrialise"
+    },
+    {
+      "term": "entangled",
+      "definition": "closely and confusingly involved with something else"
+    },
+    {
+      "term": "a reprieve",
+      "definition": "a release from a punishment or an obligation"
+    },
+    {
+      "term": "a revision",
+      "definition": "a corrected version of an earlier figure or claim"
+    },
+    {
+      "term": "urgency",
+      "definition": "the quality of demanding immediate attention"
+    },
+    {
+      "term": "to come apart",
+      "definition": "(of two questions) to turn out to be separable"
+    },
+    {
+      "term": "transmission",
+      "definition": "the passing of something from one generation to the next"
+    },
+    {
+      "term": "an endowment",
+      "definition": "a fund of money given to an institution and invested",
+      "match": "endowments"
+    },
+    {
+      "term": "to reckon with",
+      "definition": "to confront honestly and deal with",
+      "match": "reckoning with"
+    },
+    {
+      "term": "pushback",
+      "definition": "organised resistance or criticism"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-sae-comp",
+      "type": "reading-comprehension",
+      "title": "Reading a Contested Field",
+      "instructions": "This essay sets out a strong claim, the criticism of it, and what survives. Track what is settled and what is not.",
+      "items": [
+        {
+          "id": "sae1",
+          "prompt": "Which figures does the author present as uncontested?",
+          "options": [
+            "Cotton as about half of exports, and enslaved people as the largest category of wealth",
+            "Slavery's exact share of national product",
+            "The growth rate of the southern economy"
+          ],
+          "answerIndex": 0,
+          "explanation": "A sum greater than all railroads, factories and banks combined."
+        },
+        {
+          "id": "sae2",
+          "prompt": "What older picture has the historiography moved against?",
+          "options": [
+            "Slavery as a backward regional institution separate from northern industry",
+            "Slavery as unprofitable",
+            "Slavery as a global system"
+          ],
+          "answerIndex": 0,
+          "explanation": "The ships, insurance and credit were northern or British."
+        },
+        {
+          "id": "sae3",
+          "prompt": "Why does accepting enslaved people as collateral matter to the argument?",
+          "options": [
+            "It makes them an instrument of finance, not only a form of labour",
+            "It shows the loans were illegal",
+            "It proves the banks were southern"
+          ],
+          "answerIndex": 0,
+          "explanation": "This is the integration the author says is documented and not in question."
+        },
+        {
+          "id": "sae4",
+          "prompt": "What is the strong claim associated with the New History of Capitalism?",
+          "options": [
+            "That slavery was constitutive of industrial capitalism, not merely compatible with it",
+            "That slavery was unprofitable by 1860",
+            "That cotton was overvalued"
+          ],
+          "answerIndex": 0,
+          "explanation": "It would make the usual free/unfree distinction untenable."
+        },
+        {
+          "id": "sae5",
+          "prompt": "How do critics explain the rise in cotton picked per worker?",
+          "options": [
+            "The adoption of improved cotton varieties, on the evidence of seed records",
+            "A shorter working day",
+            "Better weather"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rather than escalating violence, as one influential account argued."
+        },
+        {
+          "id": "sae6",
+          "prompt": "What error does the author identify in some circulated share-of-GDP figures?",
+          "options": [
+            "Counting the same cotton several times as it moves through the economy",
+            "Using the wrong exchange rate",
+            "Omitting exports"
+          ],
+          "answerIndex": 0,
+          "explanation": "A specific, checkable objection rather than a general one."
+        },
+        {
+          "id": "sae7",
+          "prompt": "Why is \"the economy could not have developed without slavery\" hard to test?",
+          "options": [
+            "The counterfactual is not observable, and other economies industrialised without plantation slavery",
+            "The records were destroyed in the war",
+            "Economists disagree on definitions"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Inconveniently numerous\" is doing a lot of work in that sentence."
+        },
+        {
+          "id": "sae8",
+          "prompt": "What moral risk does the author attribute to the weaker claim?",
+          "options": [
+            "A downward revision can be received as a reprieve, and some who cite it want one",
+            "It makes reparations legally impossible",
+            "It denies that slavery was profitable"
+          ],
+          "answerIndex": 0,
+          "explanation": "But the author insists this is not evidence either way."
+        },
+        {
+          "id": "sae9",
+          "prompt": "What does the author say about the question of obligation?",
+          "options": [
+            "Almost nothing turns on the economic answer; it requires only that slavery built something traceable",
+            "It depends entirely on the share of GDP",
+            "It cannot be settled by history"
+          ],
+          "answerIndex": 0,
+          "explanation": "Land titles, endowments and balance sheets are offered as the trace."
+        },
+        {
+          "id": "sae10",
+          "prompt": "What general lesson does the final paragraph draw?",
+          "options": [
+            "The part of a claim that survives hostile review is the part worth building on",
+            "Contested fields should be avoided",
+            "Strong claims are usually correct"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the pushback is usually narrower than its enthusiasts pretend."
+        }
+      ]
+    },
+    {
+      "id": "c2-sae-shape",
+      "type": "matching",
+      "title": "The Shape of the Argument",
+      "instructions": "Match each stage of the essay to what it does.",
+      "items": [
+        {
+          "id": "saem1",
+          "pairs": [
+            {
+              "left": "Opening two paragraphs",
+              "right": "Establish the uncontested figures and the national integration"
+            },
+            {
+              "left": "Third paragraph",
+              "right": "States the strong claim in its strongest form"
+            },
+            {
+              "left": "Fourth paragraph",
+              "right": "Gives three specific criticisms of that claim"
+            },
+            {
+              "left": "Fifth and sixth paragraphs",
+              "right": "Separate what survives from what each side wants to be true"
+            },
+            {
+              "left": "Seventh paragraph",
+              "right": "Shows the economic and moral questions coming apart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-sae-vocab",
+      "type": "vocabulary",
+      "title": "The Language of Argument",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "saev1",
+          "prompt": "A claim about what would have happened otherwise is a ___.",
+          "options": [
+            "counterfactual",
+            "contingency",
+            "corollary"
+          ],
+          "answerIndex": 0,
+          "explanation": "And it is not observable, which is why that claim is hard to test."
+        },
+        {
+          "id": "saev2",
+          "prompt": "Forming an essential part of something's nature is ___.",
+          "options": [
+            "constitutive",
+            "constituent of law",
+            "constructive"
+          ],
+          "answerIndex": 0,
+          "explanation": "The strong claim says slavery was constitutive of capitalism."
+        },
+        {
+          "id": "saev3",
+          "prompt": "Property pledged as security for a loan is ___.",
+          "options": [
+            "collateral",
+            "capital",
+            "a covenant"
+          ],
+          "answerIndex": 0,
+          "explanation": "Enslaved people were routinely accepted as collateral."
+        },
+        {
+          "id": "saev4",
+          "prompt": "Impossible to defend or maintain is ___.",
+          "options": [
+            "untenable",
+            "untenanted",
+            "unattainable"
+          ],
+          "answerIndex": 0,
+          "explanation": "The strong claim would make the free/unfree distinction untenable."
+        },
+        {
+          "id": "saev5",
+          "prompt": "To confront something honestly and deal with it is to ___ it.",
+          "options": [
+            "reckon with",
+            "reconcile",
+            "recount"
+          ],
+          "answerIndex": 0,
+          "explanation": "The case for reckoning with it does not require slavery to have built everything."
+        },
+        {
+          "id": "saev6",
+          "prompt": "A release from a punishment or an obligation is a ___.",
+          "options": [
+            "reprieve",
+            "revision",
+            "remittance"
+          ],
+          "answerIndex": 0,
+          "explanation": "What some readers want a smaller percentage to deliver."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The essay says a figure cannot be made true by the urgency of what it would justify. Is that easy to live by?",
+    "Does the moral case for repair depend on the economic magnitude at all? Argue both sides.",
+    "Why might a scholar's correction be welcomed by people whose politics the scholar rejects?",
+    "The author distinguishes \"the engine\" from \"a very large part of an economy with several engines\". How much hangs on that distinction?",
+    "Write about 300 words on a contested claim in your own field: state the strong version, the best objection, and what survives."
+  ],
+  "audio": {
+    "duration_label": "4:19"
+  }
+}

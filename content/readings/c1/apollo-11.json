@@ -9,6 +9,12 @@
   "description": "A C1 reading and listening text on Apollo 11: the alarms during the descent, the software that handled them, the speech written in case the crew could not come home, and what was left on the Moon.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "grammar": [
+    "passive",
+    "past-simple",
+    "modals",
+    "comparatives"
+  ],
   "passage": [
     "The best-known twelve minutes of the twentieth century were, from inside the spacecraft, a sequence of problems. Nineteen minutes into the descent the guidance computer began raising an alarm — program alarm 1202, then 1201 — which neither Armstrong nor Aldrin recognised. On the ground a twenty-six-year-old engineer named Steve Bales had seconds to decide whether it meant the landing should be abandoned. He said go.",
     "He could say go because of a design decision taken years earlier. The software written by the team under Margaret Hamilton at MIT had been built to assume that it would at some point be given more work than it could do, and to respond by discarding the least important tasks and restarting the essential ones rather than failing altogether. The alarms meant the computer was overloaded and recovering, repeatedly, exactly as designed. The machine doing this had about four kilobytes of memory that could be written to.",

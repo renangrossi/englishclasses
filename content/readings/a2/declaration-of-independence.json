@@ -9,6 +9,9 @@
   "description": "An A2 reading and listening text on the Declaration of Independence: why the colonies were angry, who wrote the document, and what happened on 4 July 1776.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "grammar": [
+    "past-simple"
+  ],
   "passage": [
     "In the summer of 1776, a small group of men sat in a hot room in Philadelphia and decided to leave their country.",
     "At that time, thirteen colonies on the Atlantic coast belonged to Britain. The king was George III, and he lived more than five thousand kilometres away.",

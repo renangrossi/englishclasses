@@ -55,7 +55,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-152 images, imported with `scripts/import_local_artwork.py` from the local
+153 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -212,11 +212,12 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `c2/the-case-against-plain-english` | `01.jpg` | Diogenes | `jean-leon-gerome-diogene-1860.jpeg` |
 | `c2/the-same-news-four-ways` | `01.jpg` | A Girl Reading a Newspaper | `wada-eisaku-a-girl-reading-newspaper-1897.jpeg` |
 | `c2/the-second-language-self` | `01.jpg` | Flight and Pursuit | `william-rimmer-1816-1879-flight-and-pursuit.jpg` |
+| `c2/the-west-was-not-empty` | `02.jpg` | Among the Sierra Nevada, California | `albert-bierstadt-among-the-sierra-nevada-mountains-1868.jpg` |
 | `c2/what-doesnt-translate` | `01.jpg` | The Song of Phemius and the Sorrow of Penelope | `thomas-ralph-spence-the-song-of-phemius-and-the-sorrow-of-penelope-1897.jpg` |
 
 ### From Wikimedia Commons (public domain)
 
-57 images the gallery could not answer -- flags, maps, photographs and
+66 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything that is not public domain.
 
@@ -279,5 +280,14 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `c1/watergate` | `02.jpg` | Nixon's letter of resignation, 9 August 1974. One sentence, addressed to the Secretary of State because that is where the law says such a letter goes; the pen notation in the corner | `File:Letter of Resignation of Richard M. Nixon, 1974.jpg` |
 | `c1/women-win-the-vote` | `01.jpg` | Official programme for the suffrage procession | `File:Official Program Woman Suffrage Procession - March 3, 1913.jpg` |
 | `c1/women-win-the-vote` | `02.jpg` | The Silent Sentinels at the White House gates, 1917. They stood there daily for over two years | `File:Suffragists picketing the White House.jpg` |
+| `c2/immigration-and-modern-america` | `01.jpg` | The Usual Irish Way of Doing Things | `File:TheUsualIrishWayofDoingThings.jpg` |
+| `c2/immigration-and-modern-america` | `02.jpg` | The Chinese Exclusion Act, 1882, in the enrolled original. The first federal law to bar a group of people from the United States by nationality, and it opens by reciting that their coming “endangers the good order of certain localities”. It was renewed repeatedly and not fully repealed until 1943. | `File:Chineseexclusionact.JPG` |
+| `c2/manifest-destiny` | `01.jpg` | American Progress | `File:American Progress (1872) by John Gast.jpg` |
+| `c2/reconstruction-revolution` | `01.jpg` | One of the data portraits W. E. B. Du Bois and his students prepared for the 1900 Paris Exposition. Industrial training, 2,252 students; the classical course, 98. The bar is folded because the page could not hold it. Thirty-five years before the book that was ignored, he was already answering the question with evidence. | `File:The Georgia Negro LCCN2013650436.jpg` |
+| `c2/slavery-and-the-american-economy` | `01.jpg` | Auction broadside, New Orleans, 14 January 1860. Twenty-eight people by name, age and trade | `File:SlaveAuctionBroadside-1860-01-14.jpg` |
+| `c2/slavery-and-the-american-economy` | `02.jpg` | Cotton Merchants in New Orleans | `File:Edgar Degas - Cotton Merchants in New Orleans.jpg` |
+| `c2/the-american-dream` | `01.jpg` | Toward Los Angeles | `File:Toward Los Angeles, California LOC 3549663710.jpg` |
+| `c2/the-west-was-not-empty` | `01.jpg` | Indian Family Alarmed at the Approach of a Prairie Fire | `File:George Catlin - Indian Family Alarmed at the Approach of a Prairie Fire - 1985.66.595 - Smithsonian American Art Museum.jpg` |
+| `c2/what-makes-an-american-hero` | `01.jpg` | Mission Control at the end of Apollo 11 | `File:Mission Operations Control Room at the conclusion of Apollo 11.jpg` |
 
 <!-- gallery:end -->

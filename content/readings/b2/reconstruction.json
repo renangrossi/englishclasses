@@ -9,6 +9,10 @@
   "description": "A B2 reading and listening text on Reconstruction: what changed between 1865 and 1877, the three amendments, the violence that followed, and the deal that ended it.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "grammar": [
+    "passive",
+    "past-simple"
+  ],
   "passage": [
     "The war ended in April 1865 and left a question nobody had answered: what, exactly, had four million people been freed into?",
     "There was no land, no money and no plan. Freed families owned what they could carry. The former Confederate states still had their courts, their newspapers and most of their landowners, and they began almost immediately to pass laws — the Black Codes — restricting where freedpeople could live, what work they could do, and whether they could leave an employer.",

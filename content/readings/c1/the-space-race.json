@@ -9,6 +9,10 @@
   "description": "A C1 reading and listening text on the space race: Sputnik and the panic it caused, Gagarin, Kennedy's decision, the men who built the rockets and where they learned to build them, and what each side paid.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "grammar": [
+    "passive",
+    "past-simple"
+  ],
   "passage": [
     "On 4 October 1957 a polished metal sphere the size of a beach ball went into orbit, and amateur radio operators across the world found they could hear it. Sputnik 1 did almost nothing — it transmitted a beep for three weeks and burned up in January — but the beep was audible from American soil, which was the point nobody missed. A machine was passing over the United States several times a day, and the United States could not stop it.",
     "The panic that followed was not really about the satellite. A rocket capable of lifting eighty-three kilograms into orbit is a rocket capable of delivering a warhead to another continent, and everyone involved understood that the two capabilities were the same capability. The civilian space programmes of both countries grew out of ballistic missile programmes and were never fully separable from them.",

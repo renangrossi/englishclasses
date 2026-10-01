@@ -9,6 +9,11 @@
   "description": "An A2 reading and listening text on the Lewis and Clark expedition of 1804–1806: why they went, what they found, and how they got home.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "grammar": [
+    "past-simple",
+    "questions",
+    "present-simple"
+  ],
   "passage": [
     "In May 1804, a boat left St. Louis and started up the Missouri River. On the boat were about forty men, a dog, and orders from the president.",
     "The year before, the United States had bought a huge piece of land from France. Nobody in the government knew exactly what was in it.",

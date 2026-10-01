@@ -1,0 +1,366 @@
+{
+  "id": "c2-reading-manifest-destiny",
+  "level": "C2",
+  "slug": "manifest-destiny",
+  "order": 100,
+  "topic": "history",
+  "title": "Manifest Destiny: Expansion or Ideology?",
+  "subtitle": "A phrase coined by a magazine editor in 1845 is now taught as the engine of a century. The question is whether it drove anything, or merely explained it afterwards.",
+  "description": "A C2 reading and listening text examining whether Manifest Destiny caused American expansion or justified it: the coining of the phrase, the opposition it met at the time, and what a vocabulary of destiny does to an argument.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "grammar": [
+    "passive",
+    "past-simple",
+    "modals",
+    "comparatives",
+    "relative-clauses"
+  ],
+  "passage": [
+    "The phrase arrived late. By the time John L. O'Sullivan wrote in 1845 of a manifest destiny to overspread the continent, the United States had already bought Louisiana, taken Florida, pushed the Cherokee west of the Mississippi and annexed Texas. Whatever the doctrine explains, it cannot be the thing that set the expansion going, because the expansion was two generations old before anybody gave it a name.",
+    "This is the first difficulty with teaching Manifest Destiny as a cause. It is a label applied to a process already well advanced, and labels applied in retrospect have a habit of acquiring a power over events that they never exercised. O'Sullivan was a partisan editor making a case for annexation in a magazine with a modest circulation; the phrase passed almost unnoticed at the time and was picked out of the record much later, by historians who needed a short name for a long century.",
+    "The second difficulty is that the doctrine was not a national consensus but a party position, and it was contested fiercely. The Whigs opposed the Mexican War, and one of them, a first-term congressman from Illinois, repeatedly demanded that the President identify the precise spot on American soil where American blood had supposedly been shed. The Spot Resolutions did Abraham Lincoln's early career no good at all, which is itself evidence of how the political wind was blowing — but a destiny that half the Congress is prepared to vote against is not a destiny. It is a policy.",
+    "Nor was the opposition confined to procedure. Some of it was uglier than the expansionism it opposed: a strand of anti-war sentiment held that the United States should not take northern Mexico precisely because it would then have to absorb the people living there. Several senators said so explicitly. The record does not divide into expansionists and their moral superiors.",
+    "So much for the case against. The case for taking the ideology seriously is harder to see and probably stronger. An idea does not have to cause a decision to shape it. What the vocabulary of destiny supplied was not a motive but a grammar: it converted a political choice into a prediction, and a prediction is something you can neither be blamed for nor argued out of. If the continent is to be settled by a particular people as a matter of providence, then the question before Congress is no longer whether to take it but when, and the people already living there have been quietly moved from the category of parties to a dispute into the category of weather.",
+    "That grammatical shift is visible in the language of the period and it does real work. Treaties are framed as formalities rather than agreements. Dispossession becomes a stage in a natural process, with the vocabulary of growth, flow and tide doing the work that an argument would otherwise have to do. The claim is unfalsifiable, which is precisely its utility: no particular outcome can embarrass it, and anything that happens confirms it.",
+    "The honest conclusion is therefore divided, and it should not be tidied up. Manifest Destiny did not cause the Louisiana Purchase, the Mexican War or the removal of the eastern nations; interests, opportunity and force did that, as they generally do. But the doctrine was not decorative either. It determined what did not have to be argued, which is a quieter and more durable kind of power than causing anything, and it supplied a century of Americans with a way of describing conquest that did not require them to use the word.",
+    "There is a reason to be careful here that goes beyond the nineteenth century. The tendency to narrate an expansion as a destiny, a market as a law of nature, or a technology as an inevitability is not a historical curiosity. It is the standard way in which contested decisions are moved out of the room where they could still be decided. Reading the 1840s closely is useful mainly as practice."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 5,
+      "alt": "An allegorical painting: a giant female figure in white floats westward across the plains carrying a schoolbook and trailing telegraph wire, with trains, stagecoaches and settlers in the light behind her and Native people and buffalo retreating into darkness ahead",
+      "source": "commons:File:American Progress (1872) by John Gast.jpg",
+      "caption": "*American Progress* — John Gast, 1872. Painted for a tourist guidebook, which is the detail worth keeping: the doctrine in its popular commercial form, with the argument replaced by a direction of travel. She carries a schoolbook in one hand and the telegraph wire in the other.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "manifest",
+      "definition": "obvious; plain to see"
+    },
+    {
+      "term": "to overspread",
+      "definition": "to spread out over the whole of something"
+    },
+    {
+      "term": "to annex",
+      "definition": "to take territory and add it to one's own state",
+      "match": "annexed"
+    },
+    {
+      "term": "in retrospect",
+      "definition": "looking back at something afterwards"
+    },
+    {
+      "term": "partisan",
+      "definition": "committed to one party or side"
+    },
+    {
+      "term": "circulation",
+      "definition": "the number of copies a publication sells"
+    },
+    {
+      "term": "consensus",
+      "definition": "general agreement"
+    },
+    {
+      "term": "to contest",
+      "definition": "to dispute or challenge",
+      "match": "contested"
+    },
+    {
+      "term": "a resolution",
+      "definition": "a formal motion put to a legislature"
+    },
+    {
+      "term": "to be confined to",
+      "definition": "to be limited to",
+      "match": "confined to"
+    },
+    {
+      "term": "a strand",
+      "definition": "one element in a larger body of opinion"
+    },
+    {
+      "term": "to absorb",
+      "definition": "to take in and incorporate"
+    },
+    {
+      "term": "providence",
+      "definition": "the protective care of God or of nature"
+    },
+    {
+      "term": "dispossession",
+      "definition": "the taking of property or land from its holders"
+    },
+    {
+      "term": "a formality",
+      "definition": "something done only to satisfy the rules"
+    },
+    {
+      "term": "unfalsifiable",
+      "definition": "constructed so that no evidence could ever disprove it"
+    },
+    {
+      "term": "utility",
+      "definition": "usefulness"
+    },
+    {
+      "term": "to embarrass",
+      "definition": "here, to make a claim look untenable"
+    },
+    {
+      "term": "decorative",
+      "definition": "serving only as ornament; having no function"
+    },
+    {
+      "term": "durable",
+      "definition": "lasting"
+    },
+    {
+      "term": "an inevitability",
+      "definition": "something presented as impossible to prevent"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-md-comp",
+      "type": "reading-comprehension",
+      "title": "Following an Argument That Divides",
+      "instructions": "This essay argues against a claim, then argues for a revised version of it. Track the turn.",
+      "items": [
+        {
+          "id": "md1",
+          "prompt": "What is the author's first objection to treating Manifest Destiny as a cause?",
+          "options": [
+            "The phrase was coined after two generations of expansion had already happened",
+            "O'Sullivan was not an American",
+            "The phrase was never widely printed"
+          ],
+          "answerIndex": 0,
+          "explanation": "Louisiana, Florida, removal and the annexation of Texas all preceded 1845."
+        },
+        {
+          "id": "md2",
+          "prompt": "What does the author say happens to labels applied in retrospect?",
+          "options": [
+            "They acquire a power over events that they never exercised",
+            "They are usually forgotten",
+            "They become more accurate with time"
+          ],
+          "answerIndex": 0,
+          "explanation": "The phrase was picked out of the record much later, by historians needing a short name."
+        },
+        {
+          "id": "md3",
+          "prompt": "Why are the Spot Resolutions relevant to the argument?",
+          "options": [
+            "They show that expansion was a contested party position, not a national consensus",
+            "They prove the war was illegal",
+            "They made Lincoln popular"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"A destiny that half the Congress is prepared to vote against is not a destiny. It is a policy.\""
+        },
+        {
+          "id": "md4",
+          "prompt": "What uncomfortable point does the author make about some opponents of the Mexican War?",
+          "options": [
+            "Some opposed taking northern Mexico because it would mean absorbing the people living there",
+            "They were secretly expansionists",
+            "They had been bribed"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"The record does not divide into expansionists and their moral superiors.\""
+        },
+        {
+          "id": "md5",
+          "prompt": "What does the author mean by saying the doctrine supplied \"a grammar\" rather than a motive?",
+          "options": [
+            "It converted a political choice into a prediction",
+            "It improved the quality of political writing",
+            "It gave Congress a procedure"
+          ],
+          "answerIndex": 0,
+          "explanation": "And a prediction is something you can neither be blamed for nor argued out of."
+        },
+        {
+          "id": "md6",
+          "prompt": "What happens to the people already living on the land, under that grammar?",
+          "options": [
+            "They move from being parties to a dispute into the category of weather",
+            "They become citizens",
+            "They are described as enemies"
+          ],
+          "answerIndex": 0,
+          "explanation": "The point is that the shift removes them from the argument rather than defeating them in it."
+        },
+        {
+          "id": "md7",
+          "prompt": "Why does the author describe the claim as \"unfalsifiable\"?",
+          "options": [
+            "No outcome could embarrass it, and anything that happens confirms it",
+            "There are no surviving records",
+            "Historians disagree about it"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Which is precisely its utility.\""
+        },
+        {
+          "id": "md8",
+          "prompt": "What does the author concede caused the actual expansion?",
+          "options": [
+            "Interests, opportunity and force",
+            "Religious conviction",
+            "Population pressure alone"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"As they generally do.\" The doctrine is not granted causal power."
+        },
+        {
+          "id": "md9",
+          "prompt": "What kind of power does the author finally attribute to the doctrine?",
+          "options": [
+            "It determined what did not have to be argued",
+            "It decided elections",
+            "It drafted the treaties"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"A quieter and more durable kind of power than causing anything.\""
+        },
+        {
+          "id": "md10",
+          "prompt": "Why does the author say reading the 1840s closely is useful?",
+          "options": [
+            "As practice in noticing when a contested decision is being described as inevitable",
+            "Because the period is poorly documented",
+            "To settle a dispute between historians"
+          ],
+          "answerIndex": 0,
+          "explanation": "Markets as laws of nature, technologies as inevitabilities: the same move."
+        }
+      ]
+    },
+    {
+      "id": "c2-md-shape",
+      "type": "matching",
+      "title": "The Shape of the Argument",
+      "instructions": "Match each stage of the essay to what it does.",
+      "items": [
+        {
+          "id": "mdm1",
+          "pairs": [
+            {
+              "left": "Opening two paragraphs",
+              "right": "Date the phrase and show it arrived after the expansion"
+            },
+            {
+              "left": "Third paragraph",
+              "right": "Shows the doctrine was contested, so not a consensus"
+            },
+            {
+              "left": "Fourth paragraph",
+              "right": "Refuses to make the opponents morally superior"
+            },
+            {
+              "left": "Fifth and sixth paragraphs",
+              "right": "Rebuild the case: ideology as grammar rather than motive"
+            },
+            {
+              "left": "Close",
+              "right": "Generalises the move to markets and technologies today"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-md-vocab",
+      "type": "vocabulary",
+      "title": "The Language of Argument",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "mdv1",
+          "prompt": "A claim constructed so that no evidence could ever disprove it is ___.",
+          "options": [
+            "unfalsifiable",
+            "unverified",
+            "unqualified"
+          ],
+          "answerIndex": 0,
+          "explanation": "Which, the author argues, is exactly what made it useful."
+        },
+        {
+          "id": "mdv2",
+          "prompt": "To take territory and add it to one's own state is to ___ it.",
+          "options": [
+            "annex",
+            "absorb",
+            "appropriate"
+          ],
+          "answerIndex": 0,
+          "explanation": "Texas was annexed in 1845."
+        },
+        {
+          "id": "mdv3",
+          "prompt": "Committed to one party or side is ___.",
+          "options": [
+            "partisan",
+            "parochial",
+            "particular"
+          ],
+          "answerIndex": 0,
+          "explanation": "O'Sullivan was a partisan editor making a case."
+        },
+        {
+          "id": "mdv4",
+          "prompt": "Looking back at something afterwards is ___.",
+          "options": [
+            "in retrospect",
+            "in prospect",
+            "in principle"
+          ],
+          "answerIndex": 0,
+          "explanation": "Labels applied in retrospect acquire a power they never had."
+        },
+        {
+          "id": "mdv5",
+          "prompt": "Serving only as ornament, with no function, is ___.",
+          "options": [
+            "decorative",
+            "derivative",
+            "declarative"
+          ],
+          "answerIndex": 0,
+          "explanation": "The author denies the doctrine was merely decorative."
+        },
+        {
+          "id": "mdv6",
+          "prompt": "Something presented as impossible to prevent is ___.",
+          "options": [
+            "an inevitability",
+            "an eventuality",
+            "an inevitable"
+          ],
+          "answerIndex": 0,
+          "explanation": "The noun in the final paragraph."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The essay distinguishes causing a decision from shaping how it is described. Is that distinction sustainable, or is it a way of having it both ways?",
+    "Find a current debate in which one side describes its preferred outcome as inevitable. What does the word do for them?",
+    "Does showing that some opponents of the Mexican War had racist motives weaken their objection to the war?",
+    "\"A destiny that half the Congress is prepared to vote against is not a destiny. It is a policy.\" Is that a fair test?",
+    "Write about 300 words arguing that an idea you dislike has nevertheless done more work than its critics admit."
+  ],
+  "audio": {
+    "duration_label": "3:46"
+  }
+}

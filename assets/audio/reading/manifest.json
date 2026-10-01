@@ -827,15 +827,39 @@
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  },
+ "c2/immigration-and-modern-america": {
+  "bytes": 1628784,
+  "fingerprint": "92c516d8e7b7f86e",
+  "rate": "+0%",
+  "voice": "en-US-ChristopherNeural"
+ },
+ "c2/manifest-destiny": {
+  "bytes": 1361952,
+  "fingerprint": "61eff5ec9d3bcf27",
+  "rate": "+0%",
+  "voice": "en-US-GuyNeural"
+ },
  "c2/reading-a-scientific-claim": {
   "bytes": 1442016,
   "fingerprint": "a195026569b20b1b",
   "rate": "+0%",
   "voice": "en-US-ChristopherNeural"
  },
+ "c2/reconstruction-revolution": {
+  "bytes": 1620288,
+  "fingerprint": "abf8405f798e39d5",
+  "rate": "+0%",
+  "voice": "en-US-EmmaNeural"
+ },
  "c2/saying-no-without-saying-no": {
   "bytes": 1625328,
   "fingerprint": "bf61e5726e32d6d4",
+  "rate": "+0%",
+  "voice": "en-US-GuyNeural"
+ },
+ "c2/slavery-and-the-american-economy": {
+  "bytes": 1557936,
+  "fingerprint": "57d5c7425f9706b9",
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
  },
@@ -844,6 +868,12 @@
   "fingerprint": "20018c0835fb970f",
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
+ },
+ "c2/the-american-dream": {
+  "bytes": 1582560,
+  "fingerprint": "294bbf000b759c41",
+  "rate": "+0%",
+  "voice": "en-US-JennyNeural"
  },
  "c2/the-case-against-plain-english": {
   "bytes": 1468512,
@@ -863,10 +893,22 @@
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  },
+ "c2/the-west-was-not-empty": {
+  "bytes": 1445040,
+  "fingerprint": "c413e84b4f036162",
+  "rate": "+0%",
+  "voice": "en-US-MichelleNeural"
+ },
  "c2/what-doesnt-translate": {
   "bytes": 1532160,
   "fingerprint": "2f91f48da74139e3",
   "rate": "+0%",
   "voice": "en-US-ChristopherNeural"
+ },
+ "c2/what-makes-an-american-hero": {
+  "bytes": 1480752,
+  "fingerprint": "5a74ce312ec03339",
+  "rate": "+0%",
+  "voice": "en-US-EmmaNeural"
  }
 }

@@ -1,0 +1,383 @@
+{
+  "id": "c2-reading-the-west-was-not-empty",
+  "level": "C2",
+  "slug": "the-west-was-not-empty",
+  "order": 101,
+  "topic": "history",
+  "title": "The West Was Not Empty",
+  "subtitle": "The land looked unused because the people who had used it were already dead. Correcting that story is necessary, and the correction has its own way of going wrong.",
+  "description": "A C2 reading and listening text on the myth of the empty continent: the epidemics that preceded the settlers, the landscape that Native people had made, Native empires in the West, and the risk that a corrective becomes a new distortion.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "grammar": [
+    "past-simple",
+    "comparatives"
+  ],
+  "passage": [
+    "Settlers moving west in the nineteenth century reported a country that looked strangely underused: open parkland, grass kept short, game in extraordinary numbers, and few people. They were describing something real. Their mistake was to read it as a natural condition rather than as a recent catastrophe and a long act of management.",
+    "The catastrophe came first and it travelled faster than the settlers did. Epidemic disease introduced from Europe moved along trade routes well ahead of European bodies, so that communities often encountered their first smallpox decades before they encountered their first colonist. Estimates of pre-contact population north of Mexico vary enormously — the serious range runs from about two million to something above ten — and the disagreement is not a sign that the question is unanswerable, only that the evidence is indirect. What is not in dispute is the scale of the loss, or that much of it occurred before the land was observed by the people who later described it as vacant.",
+    "That is why the standard image is wrong in a specific way. The country was not virgin land. It was, in a historian's phrase, widowed land: not a place where nothing had happened, but a place where almost everyone had recently died.",
+    "The second half of the correction is less often made and matters more. The landscape itself was a human product. Fire was the principal tool: controlled burning over centuries maintained the open oak woodland of California, the grass prairie at the forest edge, and the browse that drew deer and elk to places where they could be hunted. The parkland the settlers admired was not what the continent did when left alone. It was agriculture, conducted at a scale and with a technique they did not recognise as agriculture because it did not involve fences.",
+    "Nor were the societies they met timeless. The Plains cultures that are now the standard image of Native America — mounted, mobile, following the buffalo — are themselves a product of contact, because the horse arrived with the Spanish. Within a century of its spread northwards, peoples who had been farmers in river valleys had reorganised themselves around a new technology, which is to say that they did what societies presented with a transformative tool generally do. The image of the unchanging Indian is a European invention projected backwards onto a period of rapid and self-directed change.",
+    "Push this far enough and a different picture emerges, one that recent scholarship has made hard to avoid: some Native polities in the West were not merely resisting expansion but conducting their own. The Comanche dominated the southern plains for a century and a half, taxed and raided Spanish and Mexican settlements, controlled the trade in horses and captives across an enormous territory, and set limits on where European empires could go. To call this a frontier between a power and a people is to misdescribe it. It was a frontier between powers.",
+    "Here the correction becomes delicate, because it can be put to a use its authors did not intend. If Native nations held empires, took captives and fought wars of expansion, then — the argument runs — what happened to them was the ordinary fate of losers, and the moral asymmetry disappears. The inference does not hold. Agency is not a defence for whoever defeated it; establishing that a people were historical actors rather than passive victims removes a condescension, not a claim. A sovereign nation dispossessed by treaty violation is not less wronged for having been sovereign. It is more precisely wronged, and the treaties are the evidence.",
+    "What the corrected account asks of a reader is therefore uncomfortable in two directions at once. It refuses the empty continent, which flatters the settlers, and it refuses the pristine wilderness emptied of people, which flatters their modern critics; the land was neither untouched nor unpeopled, and the people were neither static nor innocent of power. The historical question — who was here, what had they built, what happened to them — turns out to have answers, and the answers are more specific, more interesting and more damning than either of the stories that replaced them."
+  ],
+  "images": [
+    {
+      "src": "02.jpg",
+      "after": 0,
+      "alt": "A vast mountain valley in golden light, with a lake, deer at the water and no people anywhere in the scene",
+      "source": "albert-bierstadt-among-the-sierra-nevada-mountains-1868.jpg",
+      "caption": "*Among the Sierra Nevada, California* — Albert Bierstadt, 1868. Painted in a studio in Rome and toured through Europe: the empty sublime West as an export product, with the people removed before the canvas was started."
+    },
+    {
+      "src": "01.jpg",
+      "after": 3,
+      "alt": "A painting of a camp being struck in haste on open grassland, a tipi coming down and goods loaded onto a travois, riders in the middle distance and a line of fire burning along the horizon",
+      "source": "commons:File:George Catlin - Indian Family Alarmed at the Approach of a Prairie Fire - 1985.66.595 - Smithsonian American Art Museum.jpg",
+      "caption": "*Indian Family Alarmed at the Approach of a Prairie Fire* — George Catlin, around 1846. Catlin painted fire as a danger, and it was one. It was also a tool, and the grassland he was painting was partly its product.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "underused",
+      "definition": "not used as fully as it could be"
+    },
+    {
+      "term": "parkland",
+      "definition": "open grassland with scattered trees"
+    },
+    {
+      "term": "game",
+      "definition": "wild animals hunted for food"
+    },
+    {
+      "term": "a catastrophe",
+      "definition": "a disaster on a very large scale"
+    },
+    {
+      "term": "an epidemic",
+      "definition": "an outbreak of disease affecting many people at once"
+    },
+    {
+      "term": "pre-contact",
+      "definition": "before the arrival of Europeans"
+    },
+    {
+      "term": "indirect",
+      "definition": "(of evidence) not observed directly but inferred"
+    },
+    {
+      "term": "vacant",
+      "definition": "empty; unoccupied"
+    },
+    {
+      "term": "virgin land",
+      "definition": "land never cultivated or settled"
+    },
+    {
+      "term": "browse",
+      "definition": "the young shoots and leaves that deer and similar animals feed on"
+    },
+    {
+      "term": "timeless",
+      "definition": "unchanging; outside history"
+    },
+    {
+      "term": "transformative",
+      "definition": "causing a complete change"
+    },
+    {
+      "term": "to project backwards",
+      "definition": "to read a later idea into an earlier period",
+      "match": "projected backwards"
+    },
+    {
+      "term": "a polity",
+      "definition": "an organised political community",
+      "match": "polities"
+    },
+    {
+      "term": "to raid",
+      "definition": "to attack suddenly for plunder",
+      "match": "raided"
+    },
+    {
+      "term": "a captive",
+      "definition": "a person taken and held by force",
+      "match": "captives"
+    },
+    {
+      "term": "to misdescribe",
+      "definition": "to describe wrongly"
+    },
+    {
+      "term": "asymmetry",
+      "definition": "an imbalance between two sides"
+    },
+    {
+      "term": "an inference",
+      "definition": "a conclusion drawn from evidence"
+    },
+    {
+      "term": "agency",
+      "definition": "the capacity to act and decide for oneself"
+    },
+    {
+      "term": "condescension",
+      "definition": "treating somebody as inferior while appearing kind"
+    },
+    {
+      "term": "sovereign",
+      "definition": "self-governing; holding supreme authority"
+    },
+    {
+      "term": "pristine",
+      "definition": "untouched and in its original condition"
+    },
+    {
+      "term": "damning",
+      "definition": "providing strong evidence of guilt"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-wne-comp",
+      "type": "reading-comprehension",
+      "title": "Following a Correction and Its Limits",
+      "instructions": "This essay corrects a myth, then turns on the correction. Track both movements.",
+      "items": [
+        {
+          "id": "wne1",
+          "prompt": "What were the settlers accurately describing?",
+          "options": [
+            "Open country with abundant game and few people",
+            "A densely populated farming region",
+            "A desert"
+          ],
+          "answerIndex": 0,
+          "explanation": "The error was in reading it as a natural condition."
+        },
+        {
+          "id": "wne2",
+          "prompt": "Why did epidemics arrive before colonists?",
+          "options": [
+            "Disease travelled along trade routes ahead of European bodies",
+            "Colonists deliberately spread it on arrival",
+            "The climate carried it"
+          ],
+          "answerIndex": 0,
+          "explanation": "Communities often met smallpox decades before they met a colonist."
+        },
+        {
+          "id": "wne3",
+          "prompt": "What does the author say about the wide range of population estimates?",
+          "options": [
+            "It reflects indirect evidence, not an unanswerable question",
+            "It shows the subject is unknowable",
+            "It proves the figures were invented"
+          ],
+          "answerIndex": 0,
+          "explanation": "The scale of the loss is not in dispute."
+        },
+        {
+          "id": "wne4",
+          "prompt": "What is meant by \"widowed land\" rather than \"virgin land\"?",
+          "options": [
+            "Not a place where nothing had happened, but where almost everyone had recently died",
+            "Land farmed only by women",
+            "Land abandoned for ecological reasons"
+          ],
+          "answerIndex": 0,
+          "explanation": "The phrase names a bereavement rather than an absence."
+        },
+        {
+          "id": "wne5",
+          "prompt": "What was the principal tool that shaped the landscape?",
+          "options": [
+            "Controlled burning",
+            "Irrigation",
+            "Selective logging"
+          ],
+          "answerIndex": 0,
+          "explanation": "It maintained the oak woodland, the prairie edge and the browse that drew game."
+        },
+        {
+          "id": "wne6",
+          "prompt": "Why did settlers not recognise this as agriculture?",
+          "options": [
+            "Because it did not involve fences",
+            "Because no crops were visible",
+            "Because it was done at night"
+          ],
+          "answerIndex": 0,
+          "explanation": "A technique conducted at a scale they could not read."
+        },
+        {
+          "id": "wne7",
+          "prompt": "Why does the author call the mounted Plains cultures a product of contact?",
+          "options": [
+            "The horse arrived with the Spanish, and societies reorganised around it",
+            "They were created by treaty",
+            "They migrated from Europe"
+          ],
+          "answerIndex": 0,
+          "explanation": "The \"unchanging Indian\" is a European idea projected onto a period of rapid self-directed change."
+        },
+        {
+          "id": "wne8",
+          "prompt": "What does the Comanche example establish?",
+          "options": [
+            "That the frontier was between powers, not between a power and a people",
+            "That Native nations were uninterested in territory",
+            "That Spanish expansion was unopposed"
+          ],
+          "answerIndex": 0,
+          "explanation": "They taxed and raided settlements and set limits on where empires could go."
+        },
+        {
+          "id": "wne9",
+          "prompt": "What misuse of the correction does the author reject?",
+          "options": [
+            "The inference that Native agency makes dispossession the ordinary fate of losers",
+            "The claim that the Comanche existed",
+            "The use of archaeological evidence"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Agency is not a defence for whoever defeated it.\""
+        },
+        {
+          "id": "wne10",
+          "prompt": "Which two stories does the final paragraph refuse?",
+          "options": [
+            "The empty continent, and the pristine wilderness emptied of people",
+            "The epidemics, and the horse",
+            "The treaties, and the trade in captives"
+          ],
+          "answerIndex": 0,
+          "explanation": "One flatters the settlers, the other flatters their modern critics."
+        }
+      ]
+    },
+    {
+      "id": "c2-wne-shape",
+      "type": "matching",
+      "title": "The Shape of the Argument",
+      "instructions": "Match each stage of the essay to what it does.",
+      "items": [
+        {
+          "id": "wnem1",
+          "pairs": [
+            {
+              "left": "Opening",
+              "right": "Grants that the settlers' description was accurate"
+            },
+            {
+              "left": "Second and third paragraphs",
+              "right": "Explain the emptiness as recent catastrophe: widowed, not virgin"
+            },
+            {
+              "left": "Fourth and fifth paragraphs",
+              "right": "Show the landscape and the societies as human products in motion"
+            },
+            {
+              "left": "Sixth paragraph",
+              "right": "Pushes further: Native polities conducting their own expansion"
+            },
+            {
+              "left": "Seventh paragraph",
+              "right": "Blocks the inference that agency excuses dispossession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-wne-vocab",
+      "type": "vocabulary",
+      "title": "The Language of Argument",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "wnev1",
+          "prompt": "The capacity to act and decide for oneself is ___.",
+          "options": [
+            "agency",
+            "autonomy of law",
+            "authority"
+          ],
+          "answerIndex": 0,
+          "explanation": "Establishing it removes a condescension, not a claim."
+        },
+        {
+          "id": "wnev2",
+          "prompt": "Treating somebody as inferior while appearing kind is ___.",
+          "options": [
+            "condescension",
+            "concession",
+            "consternation"
+          ],
+          "answerIndex": 0,
+          "explanation": "What the older histories offered instead of agency."
+        },
+        {
+          "id": "wnev3",
+          "prompt": "An organised political community is a ___.",
+          "options": [
+            "polity",
+            "policy",
+            "polemic"
+          ],
+          "answerIndex": 0,
+          "explanation": "Some Native polities were conducting their own expansion."
+        },
+        {
+          "id": "wnev4",
+          "prompt": "A conclusion drawn from evidence is an ___.",
+          "options": [
+            "inference",
+            "inversion",
+            "injunction"
+          ],
+          "answerIndex": 0,
+          "explanation": "The author says this particular inference does not hold."
+        },
+        {
+          "id": "wnev5",
+          "prompt": "Untouched and in its original condition is ___.",
+          "options": [
+            "pristine",
+            "primeval of forest",
+            "prior"
+          ],
+          "answerIndex": 0,
+          "explanation": "The pristine wilderness is the second myth the essay refuses."
+        },
+        {
+          "id": "wnev6",
+          "prompt": "To read a later idea into an earlier period is to ___ it.",
+          "options": [
+            "project backwards",
+            "push forward",
+            "pass over"
+          ],
+          "answerIndex": 0,
+          "explanation": "The unchanging Indian is projected backwards onto a period of change."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The essay says the correction can be put to a use its authors did not intend. Have you seen that happen to an argument you agree with?",
+    "Does calling controlled burning \"agriculture\" stretch the word, or correct it?",
+    "\"A sovereign nation dispossessed by treaty violation is not less wronged for having been sovereign.\" Restate that argument in your own words.",
+    "Why might a myth that flatters critics of a society be harder to notice than one that flatters the society itself?",
+    "Write about 300 words correcting a common story about your own country, and then state honestly what your correction could be misused to argue."
+  ],
+  "audio": {
+    "duration_label": "4:00"
+  }
+}

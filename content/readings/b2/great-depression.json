@@ -1,0 +1,347 @@
+{
+  "id": "b2-reading-great-depression",
+  "level": "B2",
+  "slug": "great-depression",
+  "order": 103,
+  "topic": "history",
+  "title": "The Great Depression",
+  "subtitle": "The stock market crashed in October 1929. The part that ruined people came later, and more quietly.",
+  "description": "A B2 reading and listening text on the Great Depression: the crash, the bank failures, the Dust Bowl, and what daily life was like for the quarter of the workforce with no job.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "The stock market crash of October 1929 is the image everybody has of the Great Depression, and it is the least important part of the story. Only a small minority of Americans owned shares. What ruined ordinary families came afterwards, and it arrived through their banks.",
+    "A bank in 1930 kept only part of its deposits as cash and lent the rest. That works until enough customers want their money on the same morning. When one bank failed, depositors at the next one queued to withdraw, which made the next one fail too. About nine thousand banks went under between 1930 and 1933, and there was no deposit insurance: when a bank closed, the savings in it simply ceased to exist.",
+    "The numbers that followed are hard to hold in the mind. Unemployment reached roughly twenty-five per cent — one worker in four — and in some industrial cities it was far worse. National income fell by almost half. Industrial production halved.",
+    "There was no federal unemployment insurance, no retirement pension and no food assistance, because the country had never built them. Help meant a local charity, a church, a soup kitchen, or your family.",
+    "Daily life changed shape. Families moved in together. Men who had worked for twenty years stood in breadlines and were ashamed to be seen. Marriage and birth rates fell. Hundreds of thousands of people, many of them teenagers, rode freight trains around the country looking for work, and camps of the homeless appeared on the edges of cities.",
+    "On top of the economic disaster came an environmental one. Years of ploughing grassland that should never have been ploughed, followed by severe drought, turned the southern plains into the Dust Bowl. Storms of airborne topsoil darkened the sky as far east as Washington and New York. Around two and a half million people left the plains states, and the families who went west to California found the work there already taken and the welcome cold.",
+    "The response of the federal government under President Hoover was initially limited — the governing assumption was that recovery would arrive on its own and that direct federal relief would damage self-reliance. By 1932 that position had become politically impossible, and Franklin Roosevelt won the election by a distance.",
+    "It is worth being clear about what ended the Depression, because it is still argued about. The New Deal from 1933 stopped the collapse, rebuilt confidence in the banks, and put millions of people to work, but unemployment was still around fourteen per cent in 1937, and a sharp recession that year showed how fragile the recovery was. Full employment arrived with the enormous government spending of the Second World War.",
+    "The lasting consequences were institutional rather than economic. Deposit insurance, old-age pensions and unemployment insurance, a regulated stock market, and the general assumption that the federal government is responsible for the state of the economy all date from these years.",
+    "The generation that lived through it was marked for life. People who were children in the 1930s kept string, reused envelopes and distrusted banks forty years later, when they were comfortable and had no need to."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A crowd of depositors pressed against the doors of a bank, waiting to withdraw their savings",
+      "source": "commons:File:Bank Run in Michigan, USA, February 1933.jpg",
+      "caption": "A bank run in Michigan, February 1933. A bank holds only part of its deposits as cash; the rest of this picture explains itself."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "A photograph of a mother in a tent camp with two children turned away against her shoulders, her hand at her face",
+      "source": "commons:File:Lange-MigrantMother02.jpg",
+      "caption": "*Migrant Mother* — Dorothea Lange, 1936. Florence Owens Thompson, photographed in a pea-pickers' camp in California."
+    },
+    {
+      "src": "03.jpg",
+      "after": 5,
+      "alt": "A wall of dust hundreds of metres high rolling towards a small town across flat country",
+      "source": "commons:File:Dust storm approaching Stratford, Texas.jpg",
+      "caption": "A dust storm approaching Stratford, Texas, 1935. The soil in the air had been ploughed grassland a decade earlier."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a share",
+      "definition": "one of the equal parts into which a company's ownership is divided"
+    },
+    {
+      "term": "a deposit",
+      "definition": "money placed in a bank account"
+    },
+    {
+      "term": "to withdraw",
+      "definition": "to take money out of a bank account"
+    },
+    {
+      "term": "deposit insurance",
+      "definition": "a government guarantee that savings are protected if a bank fails"
+    },
+    {
+      "term": "unemployment",
+      "definition": "the state of having no paid work, or the number of people in it"
+    },
+    {
+      "term": "a breadline",
+      "definition": "a queue of people waiting for free food"
+    },
+    {
+      "term": "drought",
+      "definition": "a long period with no rain"
+    },
+    {
+      "term": "topsoil",
+      "definition": "the upper layer of soil, where plants grow"
+    },
+    {
+      "term": "relief",
+      "definition": "help, especially money or food, given to people in need"
+    },
+    {
+      "term": "self-reliance",
+      "definition": "the ability to manage without help from others"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-gd-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "gd-c1",
+          "prompt": "Why does the text call the crash the least important part of the story?",
+          "options": [
+            "It did not really happen",
+            "Only a small minority owned shares; the damage to families came through the banks",
+            "It happened in a different country"
+          ],
+          "answerIndex": 1,
+          "explanation": "The bank failures, not the stock market, destroyed ordinary savings."
+        },
+        {
+          "id": "gd-c2",
+          "prompt": "Why did one bank failure cause others?",
+          "options": [
+            "Banks lent to each other only",
+            "Depositors elsewhere queued to withdraw their money, which brought the next bank down",
+            "The government closed them"
+          ],
+          "answerIndex": 1,
+          "explanation": "A bank holds only part of its deposits as cash. Panic spreads mechanically."
+        },
+        {
+          "id": "gd-c3",
+          "prompt": "What support existed for the unemployed at the start of the Depression?",
+          "options": [
+            "Federal unemployment insurance",
+            "Local charity, churches, soup kitchens and family",
+            "A national food programme"
+          ],
+          "answerIndex": 1,
+          "explanation": "The federal programmes did not exist yet — the country had never built them."
+        },
+        {
+          "id": "gd-c4",
+          "prompt": "What caused the Dust Bowl?",
+          "options": [
+            "A volcanic eruption",
+            "Ploughing unsuitable grassland followed by severe drought",
+            "Flooding of the Mississippi"
+          ],
+          "answerIndex": 1,
+          "explanation": "Storms of airborne topsoil darkened skies as far east as New York."
+        },
+        {
+          "id": "gd-c5",
+          "prompt": "What does the text say ended the Depression?",
+          "options": [
+            "The New Deal alone",
+            "The spending of the Second World War, after the New Deal had stopped the collapse",
+            "The recovery of the stock market"
+          ],
+          "answerIndex": 1,
+          "explanation": "Unemployment was still around fourteen per cent in 1937, and the recession that year showed how fragile recovery was."
+        },
+        {
+          "id": "gd-c6",
+          "prompt": "What were the lasting consequences?",
+          "options": [
+            "Mainly institutional: deposit insurance, pensions, unemployment insurance, market regulation",
+            "A permanent fall in population",
+            "The end of American industry"
+          ],
+          "answerIndex": 0,
+          "explanation": "Plus the assumption that the federal government is responsible for the economy."
+        }
+      ]
+    },
+    {
+      "id": "b2-gd-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "gd-t1",
+          "statement": "About nine thousand American banks failed between 1930 and 1933.",
+          "answer": true,
+          "explanation": "True — and without deposit insurance, the savings inside them simply ceased to exist."
+        },
+        {
+          "id": "gd-t2",
+          "statement": "Unemployment reached about ten per cent.",
+          "answer": false,
+          "explanation": "False — roughly twenty-five per cent nationally, and worse in some industrial cities."
+        },
+        {
+          "id": "gd-t3",
+          "statement": "Hoover's government believed direct federal relief would damage self-reliance.",
+          "answer": true,
+          "explanation": "True — and by 1932 that position was politically impossible."
+        },
+        {
+          "id": "gd-t4",
+          "statement": "Families who left the plains found plenty of work in California.",
+          "answer": false,
+          "explanation": "False — the work was already taken and the welcome was cold."
+        },
+        {
+          "id": "gd-t5",
+          "statement": "People who grew up in the 1930s often kept frugal habits for life.",
+          "answer": true,
+          "explanation": "True — string, envelopes and a distrust of banks, forty years later."
+        }
+      ]
+    },
+    {
+      "id": "b2-gd-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "gd-v1",
+          "prompt": "To take money out of an account is to ___ it.",
+          "options": [
+            "withdraw",
+            "withhold",
+            "withstand"
+          ],
+          "answerIndex": 0,
+          "explanation": "To withdraw. The noun is a withdrawal."
+        },
+        {
+          "id": "gd-v2",
+          "prompt": "A long period with no rain is a ___.",
+          "options": [
+            "drought",
+            "draught",
+            "drift"
+          ],
+          "answerIndex": 0,
+          "explanation": "A drought. A draught is a current of cold air."
+        },
+        {
+          "id": "gd-v3",
+          "prompt": "Money or food given to people in need is ___.",
+          "options": [
+            "relief",
+            "release",
+            "reliance"
+          ],
+          "answerIndex": 0,
+          "explanation": "Relief — the standard term in 1930s American politics."
+        },
+        {
+          "id": "gd-v4",
+          "prompt": "A queue of people waiting for free food is a ___.",
+          "options": [
+            "breadline",
+            "bottleneck",
+            "backlog"
+          ],
+          "answerIndex": 0,
+          "explanation": "A breadline."
+        },
+        {
+          "id": "gd-v5",
+          "prompt": "A government guarantee protecting savings is ___.",
+          "options": [
+            "deposit insurance",
+            "income tax",
+            "capital gain"
+          ],
+          "answerIndex": 0,
+          "explanation": "Deposit insurance, which did not exist before this period."
+        }
+      ]
+    },
+    {
+      "id": "b2-gd-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "gd-b1",
+          "prompt": "The stock market crashed in October ___.",
+          "answers": [
+            "1929"
+          ],
+          "options": [
+            "1929",
+            "1933",
+            "1937"
+          ],
+          "explanation": "1929."
+        },
+        {
+          "id": "gd-b2",
+          "prompt": "Unemployment reached about ___ per cent.",
+          "answers": [
+            "twenty-five"
+          ],
+          "options": [
+            "twenty-five",
+            "five",
+            "fifty"
+          ],
+          "explanation": "Roughly one worker in four."
+        },
+        {
+          "id": "gd-b3",
+          "prompt": "Ploughing and drought created the ___ Bowl.",
+          "answers": [
+            "Dust"
+          ],
+          "options": [
+            "Dust",
+            "Dry",
+            "Deep"
+          ],
+          "explanation": "The Dust Bowl."
+        },
+        {
+          "id": "gd-b4",
+          "prompt": "Franklin Roosevelt won the election of ___.",
+          "answers": [
+            "1932"
+          ],
+          "options": [
+            "1932",
+            "1929",
+            "1940"
+          ],
+          "explanation": "1932, by a distance."
+        },
+        {
+          "id": "gd-b5",
+          "prompt": "Full employment finally arrived with spending on the Second World ___.",
+          "answers": [
+            "War"
+          ],
+          "options": [
+            "War",
+            "Fair",
+            "Bank"
+          ],
+          "explanation": "The war."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The text says the crash mattered less than the bank failures. Why do you think the crash is the image everyone remembers?",
+    "Which of the institutions created in the 1930s — deposit insurance, pensions, unemployment insurance — would your country miss most?",
+    "People who lived through it kept frugal habits for life. Has a crisis changed the habits of anybody in your family?"
+  ],
+  "audio": {
+    "duration_label": "3:08"
+  }
+}

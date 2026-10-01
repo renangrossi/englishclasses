@@ -1,0 +1,342 @@
+{
+  "id": "b2-reading-reconstruction",
+  "level": "B2",
+  "slug": "reconstruction",
+  "order": 102,
+  "topic": "history",
+  "title": "Reconstruction",
+  "subtitle": "Within five years of the war, Black Americans were voting, holding office and building schools. Within fifteen, almost all of it had been taken back.",
+  "description": "A B2 reading and listening text on Reconstruction: what changed between 1865 and 1877, the three amendments, the violence that followed, and the deal that ended it.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "The war ended in April 1865 and left a question nobody had answered: what, exactly, had four million people been freed into?",
+    "There was no land, no money and no plan. Freed families owned what they could carry. The former Confederate states still had their courts, their newspapers and most of their landowners, and they began almost immediately to pass laws — the Black Codes — restricting where freedpeople could live, what work they could do, and whether they could leave an employer.",
+    "Congress responded with the most radical legislation in American history to that point. Three constitutional amendments were passed in five years: the Thirteenth abolished slavery, the Fourteenth made everyone born in the United States a citizen with equal protection of the laws, and the Fifteenth prohibited denying the vote on grounds of race.",
+    "The Fourteenth Amendment is the one that still runs through American law today. Almost every major civil rights case of the twentieth century was argued on it.",
+    "What followed in the south between 1867 and the mid-1870s was remarkable by any standard. Around two thousand Black men held public office, including sixteen in Congress and two United States senators from Mississippi. Black voters turned out in enormous numbers. Freed communities built churches and, above all, schools: the demand for education was so intense that families who had nothing paid teachers in food.",
+    "Reconstruction governments also did ordinary, unglamorous work — they established the first public school systems in most southern states, for white and Black children alike, and rebuilt roads and bridges.",
+    "The resistance was violent from the beginning. The Ku Klux Klan, founded in 1866, and groups like it attacked voters, officeholders, teachers and churches. This was not random violence; it was systematic and political, aimed at the specific people who were making the new arrangement work. Federal troops and prosecutions suppressed the Klan in the early 1870s, and new organisations replaced it.",
+    "Northern commitment did not last. The economic crisis of 1873 turned attention to other things. Newspapers that had supported Reconstruction grew tired of it. The Supreme Court narrowed the new amendments in a series of decisions, deciding that the Fourteenth protected rather less than its words suggested.",
+    "The end came as a bargain. The presidential election of 1876 was disputed, and the settlement that resolved it involved the withdrawal of the last federal troops from the south. By 1877 the remaining Reconstruction governments collapsed.",
+    "What replaced them took about twenty years to complete and was thorough. Poll taxes, literacy tests administered by white registrars, grandfather clauses and plain intimidation removed almost all Black voters from the rolls. In Louisiana, Black registered voters fell from about 130,000 in 1896 to roughly 1,300 in 1904.",
+    "Segregation was then written into law and upheld by the Supreme Court in 1896 as “separate but equal”, a formula that survived until 1954.",
+    "For most of the twentieth century, Reconstruction was taught as a failure caused by corruption and by giving the vote to people who were not ready for it. That interpretation has been dismantled by historians since the 1960s, and the modern view is almost the opposite: Reconstruction worked, within its limits, and was destroyed deliberately. The rights it established were not won again until the 1960s — which is why that period is sometimes called the Second Reconstruction."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 4,
+      "alt": "An engraving of Black men queuing to vote, the first in line placing his ballot in the box while an official watches",
+      "source": "commons:File:\"The first vote\" by A.R. Waud Harper's Weekly 1867-11-16 Retrieved from the Library of Congress.jpg",
+      "caption": "*The First Vote* — A. R. Waud, Harper's Weekly, November 1867."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "A printed portrait group of the first Black senator and representatives in Congress, seated and standing in formal dress",
+      "source": "commons:File:First Colored Senator and Representatives.jpg",
+      "caption": "The first Black senator and representatives in Congress, printed in 1872. Within thirty years almost none of their voters were still on the rolls."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "freedpeople",
+      "definition": "people who had been enslaved and were now free"
+    },
+    {
+      "term": "a code",
+      "definition": "here: a set of laws on a particular subject"
+    },
+    {
+      "term": "an amendment",
+      "definition": "a formal change or addition to a constitution"
+    },
+    {
+      "term": "citizenship",
+      "definition": "the legal status of being a member of a country, with its rights"
+    },
+    {
+      "term": "to prohibit",
+      "definition": "to forbid officially"
+    },
+    {
+      "term": "to hold office",
+      "definition": "to occupy an elected or official position"
+    },
+    {
+      "term": "to suppress",
+      "definition": "to stop something by force or authority"
+    },
+    {
+      "term": "a poll tax",
+      "definition": "a payment required before a person is allowed to vote"
+    },
+    {
+      "term": "intimidation",
+      "definition": "the use of fear or threats to control people"
+    },
+    {
+      "term": "segregation",
+      "definition": "the enforced separation of racial groups in public life"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-rec-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "rec-c1",
+          "prompt": "What were the Black Codes?",
+          "options": [
+            "Secret messages used by freedpeople",
+            "Southern laws restricting where freedpeople could live and work",
+            "Federal laws protecting voting"
+          ],
+          "answerIndex": 1,
+          "explanation": "Passed almost immediately after the war by the former Confederate states."
+        },
+        {
+          "id": "rec-c2",
+          "prompt": "Which amendment still runs through American law today?",
+          "options": [
+            "The Thirteenth",
+            "The Fourteenth",
+            "The Fifteenth"
+          ],
+          "answerIndex": 1,
+          "explanation": "Citizenship and equal protection — the basis of almost every major civil rights case of the twentieth century."
+        },
+        {
+          "id": "rec-c3",
+          "prompt": "What does the text say about Black officeholders during Reconstruction?",
+          "options": [
+            "There were none",
+            "About two thousand held office, including sixteen in Congress",
+            "They held only local positions"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sixteen in Congress and two United States senators from Mississippi."
+        },
+        {
+          "id": "rec-c4",
+          "prompt": "How does the text characterise Klan violence?",
+          "options": [
+            "Random and disorganised",
+            "Systematic and political, aimed at the people making the new arrangement work",
+            "Mostly invented later"
+          ],
+          "answerIndex": 1,
+          "explanation": "Voters, officeholders, teachers and churches — specific targets."
+        },
+        {
+          "id": "rec-c5",
+          "prompt": "How did Reconstruction end?",
+          "options": [
+            "A military defeat",
+            "A bargain after the disputed election of 1876, including the withdrawal of federal troops",
+            "A constitutional amendment"
+          ],
+          "answerIndex": 1,
+          "explanation": "By 1877 the remaining Reconstruction governments collapsed."
+        },
+        {
+          "id": "rec-c6",
+          "prompt": "What is the modern historical view of Reconstruction?",
+          "options": [
+            "It failed through corruption",
+            "It worked within its limits and was destroyed deliberately",
+            "It never really happened"
+          ],
+          "answerIndex": 1,
+          "explanation": "The older interpretation has been dismantled since the 1960s."
+        }
+      ]
+    },
+    {
+      "id": "b2-rec-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "rec-t1",
+          "statement": "Freed families were given land and money.",
+          "answer": false,
+          "explanation": "False — there was no land, no money and no plan. They owned what they could carry."
+        },
+        {
+          "id": "rec-t2",
+          "statement": "Reconstruction governments created the first public school systems in most southern states.",
+          "answer": true,
+          "explanation": "True — for white and Black children alike."
+        },
+        {
+          "id": "rec-t3",
+          "statement": "The Supreme Court strengthened the new amendments in the 1870s.",
+          "answer": false,
+          "explanation": "False — it narrowed them, deciding the Fourteenth protected less than its words suggested."
+        },
+        {
+          "id": "rec-t4",
+          "statement": "Black registered voters in Louisiana fell from about 130,000 to about 1,300 between 1896 and 1904.",
+          "answer": true,
+          "explanation": "True — a measure of how thorough the removal was."
+        },
+        {
+          "id": "rec-t5",
+          "statement": "“Separate but equal” was approved by the Supreme Court in 1896.",
+          "answer": true,
+          "explanation": "True — and the formula survived until 1954."
+        }
+      ]
+    },
+    {
+      "id": "b2-rec-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "rec-v1",
+          "prompt": "To forbid something officially is to ___ it.",
+          "options": [
+            "prohibit",
+            "promote",
+            "propose"
+          ],
+          "answerIndex": 0,
+          "explanation": "To prohibit — the verb used in the Fifteenth Amendment."
+        },
+        {
+          "id": "rec-v2",
+          "prompt": "A payment required before you may vote is a ___.",
+          "options": [
+            "poll tax",
+            "pay cut",
+            "price cap"
+          ],
+          "answerIndex": 0,
+          "explanation": "A poll tax — one of the methods used to remove Black voters from the rolls."
+        },
+        {
+          "id": "rec-v3",
+          "prompt": "The enforced separation of racial groups is ___.",
+          "options": [
+            "segregation",
+            "separation of powers",
+            "secession"
+          ],
+          "answerIndex": 0,
+          "explanation": "Segregation."
+        },
+        {
+          "id": "rec-v4",
+          "prompt": "To occupy an elected position is to ___.",
+          "options": [
+            "hold office",
+            "take notice",
+            "run errands"
+          ],
+          "answerIndex": 0,
+          "explanation": "To hold office."
+        },
+        {
+          "id": "rec-v5",
+          "prompt": "Using fear and threats to control people is ___.",
+          "options": [
+            "intimidation",
+            "investigation",
+            "introduction"
+          ],
+          "answerIndex": 0,
+          "explanation": "Intimidation."
+        }
+      ]
+    },
+    {
+      "id": "b2-rec-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "rec-b1",
+          "prompt": "The ___ Amendment abolished slavery.",
+          "answers": [
+            "Thirteenth"
+          ],
+          "options": [
+            "Thirteenth",
+            "Fourteenth",
+            "Fifteenth"
+          ],
+          "explanation": "The Thirteenth."
+        },
+        {
+          "id": "rec-b2",
+          "prompt": "The Fourteenth Amendment gave citizenship and equal ___ of the laws.",
+          "answers": [
+            "protection"
+          ],
+          "options": [
+            "protection",
+            "payment",
+            "possession"
+          ],
+          "explanation": "Equal protection."
+        },
+        {
+          "id": "rec-b3",
+          "prompt": "The Fifteenth Amendment prohibited denying the ___ on grounds of race.",
+          "answers": [
+            "vote"
+          ],
+          "options": [
+            "vote",
+            "visa",
+            "voice"
+          ],
+          "explanation": "The vote."
+        },
+        {
+          "id": "rec-b4",
+          "prompt": "Federal troops were withdrawn from the south by ___.",
+          "answers": [
+            "1877"
+          ],
+          "options": [
+            "1877",
+            "1865",
+            "1896"
+          ],
+          "explanation": "1877, after the disputed election of 1876."
+        },
+        {
+          "id": "rec-b5",
+          "prompt": "The 1960s are sometimes called the Second ___.",
+          "answers": [
+            "Reconstruction"
+          ],
+          "options": [
+            "Reconstruction",
+            "Revolution",
+            "Republic"
+          ],
+          "explanation": "The Second Reconstruction, because the rights had to be won again."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Freed communities paid teachers in food because they had no money. What does that tell you about how they understood education?",
+    "Reconstruction was taught as a failure for most of a century. How does a wrong version of history survive that long?",
+    "What would a country have to do, practically, to make rights on paper real for people who own nothing?"
+  ],
+  "audio": {
+    "duration_label": "3:31"
+  }
+}

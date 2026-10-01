@@ -1,0 +1,295 @@
+{
+  "id": "b2-reading-civil-war-nation-divided",
+  "level": "B2",
+  "slug": "civil-war-nation-divided",
+  "order": 101,
+  "topic": "history",
+  "title": "The Civil War: A Nation Divided",
+  "subtitle": "Two economies, one country, and a war that killed more Americans than every other American war combined.",
+  "description": "A B2 reading and listening text on the American Civil War: the economic and political causes, the course of the war, the role of industry, and the argument about what it was fought over.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "By 1860 the United States had two economies inside one set of borders, and they had stopped being compatible.",
+    "The northern states had factories, railways, immigration and wage labour. The southern states had an agricultural export economy built on enslaved labour: cotton alone made up well over half of all American exports, and the four million enslaved people in the south represented, in the cold language of the period, more invested capital than all the country's factories and railroads combined.",
+    "This is why the argument about the western territories was so bitter. Every new state would arrive with senators, and those senators would eventually decide the question. Both sides understood that the future was being settled in Kansas and Nebraska rather than in Virginia.",
+    "It is sometimes said that the war was about states' rights rather than slavery. The documents do not support the distinction. The declarations issued by the seceding states name slavery directly and at length, and the Confederate vice-president said plainly in March 1861 that the new government rested upon the opposite idea to the equality of men. States' rights was the mechanism; slavery was the subject.",
+    "The war began at Fort Sumter in April 1861 and almost nobody expected it to last. The south had better generals at the start and the advantage of fighting defensively on its own ground. The north had three times the white population, almost all of the industry, most of the railways, and a navy.",
+    "Those advantages took time to matter, and the first two years went badly for the Union. Lee defeated larger armies repeatedly in the east. The turning point is usually placed in July 1863, when Lee's second invasion of the north failed at Gettysburg and Grant took Vicksburg on the Mississippi, cutting the Confederacy in half.",
+    "The war also changed what it was about. The Emancipation Proclamation of January 1863 made emancipation a war aim, and about 180,000 Black soldiers and sailors eventually served in the Union forces — a fact the Confederacy found so unbearable that it initially refused to treat captured Black soldiers as prisoners of war.",
+    "It was a modern war fought by men with pre-modern expectations. Rifled muskets had three or four times the effective range of the smoothbore muskets the tactics were designed for, so infantry advances in the open produced casualty lists nobody was prepared for. Railways moved armies, the telegraph moved orders, and photography brought images of the dead to civilians for the first time.",
+    "Disease killed about twice as many soldiers as combat. Prison camps on both sides were lethal. Grant's campaign in 1864 accepted appalling losses on the principle that the north could replace them and the south could not, which is a kind of arithmetic that only a war of this type produces.",
+    "Lee surrendered at Appomattox on 9 April 1865. Estimates of the dead range from 620,000 to about 750,000 — more Americans than died in both world wars, Korea and Vietnam together. Roughly one in four southern white men of military age did not come home.",
+    "The war settled two questions permanently: the United States was one country rather than a union states could leave, and slavery was over. It settled almost nothing about what freedom would actually mean for four million people, which is the subject of everything that follows."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 5,
+      "alt": "A painting of massed infantry advancing across open ground towards a defended line, smoke drifting across the field",
+      "source": "commons:File:Thure de Thulstrup - L. Prang and Co. - Battle of Gettysburg - Restoration by Adam Cuerden.jpg",
+      "caption": "Pickett's Charge at Gettysburg — Thure de Thulstrup. Infantry in the open against rifled weapons: the arithmetic of the whole war is in this picture."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "wage labour",
+      "definition": "work done for a wage, as opposed to forced or unpaid work"
+    },
+    {
+      "term": "capital",
+      "definition": "wealth in the form of money or property used to produce more wealth"
+    },
+    {
+      "term": "to secede",
+      "definition": "to formally withdraw from a union or country"
+    },
+    {
+      "term": "defensively",
+      "definition": "in a way that protects rather than attacks"
+    },
+    {
+      "term": "an invasion",
+      "definition": "an entry into a territory by an armed force"
+    },
+    {
+      "term": "a war aim",
+      "definition": "an objective a country is fighting to achieve"
+    },
+    {
+      "term": "a casualty",
+      "definition": "a person killed or injured in a war or accident"
+    },
+    {
+      "term": "rifled",
+      "definition": "having spiral grooves cut inside the barrel, which make a gun far more accurate"
+    },
+    {
+      "term": "lethal",
+      "definition": "causing death"
+    },
+    {
+      "term": "appalling",
+      "definition": "shocking and very bad"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-cwd-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "cwd-c1",
+          "prompt": "How does the text describe the United States in 1860?",
+          "options": [
+            "One economy with regional differences",
+            "Two economies inside one set of borders that had stopped being compatible",
+            "A country without an export trade"
+          ],
+          "answerIndex": 1,
+          "explanation": "Factories, wage labour and immigration in the north; an export economy built on enslaved labour in the south."
+        },
+        {
+          "id": "cwd-c2",
+          "prompt": "Why was the argument over the western territories so bitter?",
+          "options": [
+            "The land was the best farmland",
+            "Each new state brought senators who would eventually decide the question",
+            "Both sides wanted the Pacific ports"
+          ],
+          "answerIndex": 1,
+          "explanation": "The future was being settled in Kansas and Nebraska rather than in Virginia."
+        },
+        {
+          "id": "cwd-c3",
+          "prompt": "How does the text answer the “states' rights, not slavery” argument?",
+          "options": [
+            "It accepts it",
+            "It points to the secession declarations and the Confederate vice-president's own statement",
+            "It says the question cannot be answered"
+          ],
+          "answerIndex": 1,
+          "explanation": "States' rights was the mechanism; slavery was the subject."
+        },
+        {
+          "id": "cwd-c4",
+          "prompt": "What advantages did the north have?",
+          "options": [
+            "Better generals at the start",
+            "Population, industry, railways and a navy",
+            "The advantage of fighting defensively"
+          ],
+          "answerIndex": 1,
+          "explanation": "The south had the better generals early and the defensive position; the north's advantages were material and took time to matter."
+        },
+        {
+          "id": "cwd-c5",
+          "prompt": "Why were casualties so high?",
+          "options": [
+            "Armies were enormous",
+            "Rifled muskets had far greater range than the tactics assumed",
+            "Soldiers refused to take cover"
+          ],
+          "answerIndex": 1,
+          "explanation": "Three or four times the effective range of the weapons the tactics were designed for."
+        },
+        {
+          "id": "cwd-c6",
+          "prompt": "What does the text say the war did NOT settle?",
+          "options": [
+            "Whether states could leave the Union",
+            "Whether slavery would continue",
+            "What freedom would actually mean for four million people"
+          ],
+          "answerIndex": 2,
+          "explanation": "That question is the subject of Reconstruction and everything after it."
+        }
+      ]
+    },
+    {
+      "id": "b2-cwd-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "cwd-t1",
+          "statement": "Disease killed more soldiers than combat did.",
+          "answer": true,
+          "explanation": "True — about twice as many."
+        },
+        {
+          "id": "cwd-t2",
+          "statement": "The Confederacy treated captured Black soldiers as ordinary prisoners of war from the start.",
+          "answer": false,
+          "explanation": "False — it initially refused to."
+        },
+        {
+          "id": "cwd-t3",
+          "statement": "Gettysburg and Vicksburg both happened in July 1863.",
+          "answer": true,
+          "explanation": "True — which is why that month is usually called the turning point."
+        },
+        {
+          "id": "cwd-t4",
+          "statement": "More Americans died in the Civil War than in both world wars, Korea and Vietnam together.",
+          "answer": true,
+          "explanation": "True — estimates run from 620,000 to about 750,000."
+        },
+        {
+          "id": "cwd-t5",
+          "statement": "Grant's 1864 campaign avoided heavy losses.",
+          "answer": false,
+          "explanation": "False — it accepted appalling losses on the arithmetic that the north could replace them and the south could not."
+        }
+      ]
+    },
+    {
+      "id": "b2-cwd-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "cwd-v1",
+          "prompt": "A person killed or injured in a war is a ___.",
+          "options": [
+            "casualty",
+            "causality",
+            "casualty worker"
+          ],
+          "answerIndex": 0,
+          "explanation": "A casualty. Note the spelling against causality, which means cause and effect."
+        },
+        {
+          "id": "cwd-v2",
+          "prompt": "Something that causes death is ___.",
+          "options": [
+            "lethal",
+            "legal",
+            "loyal"
+          ],
+          "answerIndex": 0,
+          "explanation": "Lethal."
+        },
+        {
+          "id": "cwd-v3",
+          "prompt": "Wealth used to produce more wealth is ___.",
+          "options": [
+            "capital",
+            "capitol",
+            "capacity"
+          ],
+          "answerIndex": 0,
+          "explanation": "Capital. The Capitol with an o is the building in Washington."
+        },
+        {
+          "id": "cwd-v4",
+          "prompt": "An objective a country is fighting to achieve is a ___.",
+          "options": [
+            "war aim",
+            "war crime",
+            "war zone"
+          ],
+          "answerIndex": 0,
+          "explanation": "A war aim — emancipation became one in 1863."
+        },
+        {
+          "id": "cwd-v5",
+          "prompt": "Shocking and very bad losses are ___ losses.",
+          "options": [
+            "appalling",
+            "appealing",
+            "applying"
+          ],
+          "answerIndex": 0,
+          "explanation": "Appalling. Careful with appealing, which means attractive."
+        }
+      ]
+    },
+    {
+      "id": "b2-cwd-match",
+      "type": "matching",
+      "title": "Cause and Consequence",
+      "instructions": "Match each fact with what followed from it.",
+      "items": [
+        {
+          "id": "cwd-m1",
+          "pairs": [
+            {
+              "left": "New states would bring new senators",
+              "right": "the fight over the western territories became unavoidable"
+            },
+            {
+              "left": "Rifled muskets outranged the tactics",
+              "right": "infantry advances produced enormous casualty lists"
+            },
+            {
+              "left": "Vicksburg fell in July 1863",
+              "right": "the Confederacy was cut in half along the Mississippi"
+            },
+            {
+              "left": "The Emancipation Proclamation",
+              "right": "Black soldiers could serve in the Union forces"
+            },
+            {
+              "left": "The north could replace losses and the south could not",
+              "right": "Grant accepted appalling casualties in 1864"
+            }
+          ],
+          "explanation": "Every one of these is a cause-and-effect pair rather than a date. At B2 the useful skill is reading for the connection, not for the year."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The text argues that states' rights was the mechanism and slavery the subject. Why do you think the alternative version became so popular afterwards?",
+    "The war was fought with modern weapons and pre-modern tactics. Can you think of a modern example of technology arriving faster than the thinking around it?",
+    "What is the difference between winning a war and settling the question it was fought over?"
+  ],
+  "audio": {
+    "duration_label": "3:22"
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "id": "b2-reading-fdr-new-deal",
+  "level": "B2",
+  "slug": "fdr-new-deal",
+  "order": 104,
+  "topic": "history",
+  "title": "Franklin D. Roosevelt and the New Deal",
+  "subtitle": "He closed every bank in the country on his fourth day in office, and most people thanked him for it.",
+  "description": "A B2 reading and listening text on Roosevelt and the New Deal: the bank holiday, the alphabet agencies, Social Security, the limits of the programme and the argument about it.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "Franklin Roosevelt took office on 4 March 1933, at the worst moment of the Depression. Banks were failing in dozens of states, a quarter of the workforce had no job, and nobody knew whether the banking system would exist by the end of the month.",
+    "Two days later he closed every bank in the country. The idea was to stop the panic by removing the thing people were panicking about: nobody could withdraw money anywhere, so no bank could be brought down by a queue. Inspectors examined the books, and over the following week the sound institutions reopened with a federal guarantee behind them.",
+    "On the Sunday before they reopened, Roosevelt explained the plan on the radio for about thirteen minutes, in ordinary language, as though to a neighbour. When the banks opened, deposits exceeded withdrawals. The radio talks continued for twelve years and became known as the fireside chats.",
+    "What followed in the first hundred days was a volume of legislation without precedent. The programmes were known by their initials, which is why the period is sometimes called the alphabet soup.",
+    "The Civilian Conservation Corps put three million young men to work planting trees, fighting fires and building parks, and sent most of their pay home to their families. The Works Progress Administration employed eight and a half million people over its life and built roughly 650,000 miles of road, plus schools, bridges, airports — and, deliberately, murals, plays, concerts and a national guide to every state, on the argument that artists also eat.",
+    "The Tennessee Valley Authority brought flood control and electricity to one of the poorest regions in the country. The Securities and Exchange Commission put rules around the stock market. Federal deposit insurance guaranteed savings. The Social Security Act of 1935 created old-age pensions and unemployment insurance, the first time the federal government had taken responsibility for either.",
+    "The Supreme Court struck down several of the early programmes as unconstitutional, and Roosevelt responded in 1937 with a plan to add justices to the court. It was the worst political defeat of his career: Congress refused, his own party split, and the episode cost him support he never fully recovered.",
+    "The limits of the New Deal matter as much as its scale. To pass the legislation at all, Roosevelt needed southern Democrats in Congress, and the price they set was the exclusion of agricultural and domestic workers from Social Security — which, not by accident, excluded about two-thirds of Black workers. Many programmes operated segregated facilities. The New Deal reshaped American life while leaving the racial order of the south largely untouched.",
+    "Economists still argue about the results. Unemployment fell from about twenty-five per cent to around fourteen, which is enormous and still terrible, and the spending cuts of 1937 pushed it back up. What is not in dispute is the institutional change: after 1933 the federal government was expected to manage the economy, support the old, insure the unemployed and regulate the markets.",
+    "Roosevelt was elected four times, the only president ever to be, and died in office in April 1945, weeks before the end of the war in Europe. The two-term limit was written into the Constitution four years later, which is itself a measure of how much one presidency had changed."
+  ],
+  "images": [
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "A bold Works Progress Administration poster reading WORK PAYS AMERICA, with a figure striding forward carrying tools",
+      "source": "commons:File:WPA-Work-Pays-America-Poster.jpg",
+      "caption": "A WPA poster. The agency employed artists to design the posters as well as labourers to build the roads.",
+      "wide": true
+    },
+    {
+      "src": "01.jpg",
+      "after": 5,
+      "alt": "Roosevelt seated at a desk signing a document, surrounded by standing members of Congress and officials",
+      "source": "commons:File:Signing Of The Social Security Act.jpg",
+      "caption": "Roosevelt signs the Social Security Act, 14 August 1935 — old-age pensions and unemployment insurance, with agricultural and domestic workers left out of both."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "to take office",
+      "definition": "to begin an official position, especially as a leader"
+    },
+    {
+      "term": "a bank holiday",
+      "definition": "here: an official closure of the banks"
+    },
+    {
+      "term": "sound",
+      "definition": "here: financially safe and reliable"
+    },
+    {
+      "term": "legislation",
+      "definition": "laws, considered as a body of work"
+    },
+    {
+      "term": "without precedent",
+      "definition": "never done before"
+    },
+    {
+      "term": "a mural",
+      "definition": "a painting made directly on a wall"
+    },
+    {
+      "term": "to strike down",
+      "definition": "(of a court) to cancel a law as invalid"
+    },
+    {
+      "term": "unconstitutional",
+      "definition": "not allowed by the constitution"
+    },
+    {
+      "term": "exclusion",
+      "definition": "the act of leaving somebody out of a system or benefit"
+    },
+    {
+      "term": "a term",
+      "definition": "a fixed period during which somebody holds office"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-nd-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the correct answer.",
+      "items": [
+        {
+          "id": "nd-c1",
+          "prompt": "Why did Roosevelt close every bank?",
+          "options": [
+            "To punish the banks",
+            "To stop the panic by removing the thing people were panicking about",
+            "Because the staff were on strike"
+          ],
+          "answerIndex": 1,
+          "explanation": "If nobody can withdraw anywhere, no bank can be brought down by a queue. Inspectors then reopened the sound ones with a federal guarantee."
+        },
+        {
+          "id": "nd-c2",
+          "prompt": "What happened when the banks reopened?",
+          "options": [
+            "Deposits exceeded withdrawals",
+            "Half of them failed again",
+            "Nobody came"
+          ],
+          "answerIndex": 0,
+          "explanation": "After a thirteen-minute radio explanation in ordinary language."
+        },
+        {
+          "id": "nd-c3",
+          "prompt": "Why is the period called the alphabet soup?",
+          "options": [
+            "Because of soup kitchens",
+            "Because the programmes were known by their initials",
+            "Because of a food programme"
+          ],
+          "answerIndex": 1,
+          "explanation": "CCC, WPA, TVA, SEC and so on."
+        },
+        {
+          "id": "nd-c4",
+          "prompt": "What did the WPA build besides roads and schools?",
+          "options": [
+            "Only bridges",
+            "Murals, plays, concerts and a guide to every state",
+            "Nothing else"
+          ],
+          "answerIndex": 1,
+          "explanation": "On the deliberate argument that artists also eat."
+        },
+        {
+          "id": "nd-c5",
+          "prompt": "What was the price southern Democrats set for their support?",
+          "options": [
+            "Higher taxes",
+            "The exclusion of agricultural and domestic workers from Social Security",
+            "A smaller army"
+          ],
+          "answerIndex": 1,
+          "explanation": "Which excluded about two-thirds of Black workers — not by accident."
+        },
+        {
+          "id": "nd-c6",
+          "prompt": "What was Roosevelt's worst political defeat?",
+          "options": [
+            "The 1937 plan to add justices to the Supreme Court",
+            "The 1932 election",
+            "The bank holiday"
+          ],
+          "answerIndex": 0,
+          "explanation": "Congress refused, his party split, and he never fully recovered the support."
+        }
+      ]
+    },
+    {
+      "id": "b2-nd-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each sentence is true or false.",
+      "items": [
+        {
+          "id": "nd-t1",
+          "statement": "The Civilian Conservation Corps employed three million young men.",
+          "answer": true,
+          "explanation": "True — planting trees, fighting fires and building parks, with most of their pay sent home."
+        },
+        {
+          "id": "nd-t2",
+          "statement": "Social Security in 1935 covered all American workers.",
+          "answer": false,
+          "explanation": "False — agricultural and domestic workers were excluded, which meant about two-thirds of Black workers."
+        },
+        {
+          "id": "nd-t3",
+          "statement": "The Supreme Court approved all of the early New Deal programmes.",
+          "answer": false,
+          "explanation": "False — it struck several down as unconstitutional."
+        },
+        {
+          "id": "nd-t4",
+          "statement": "Unemployment fell from about twenty-five per cent to about fourteen.",
+          "answer": true,
+          "explanation": "True — enormous progress and still a terrible figure."
+        },
+        {
+          "id": "nd-t5",
+          "statement": "Roosevelt was elected four times.",
+          "answer": true,
+          "explanation": "True — the only president ever to be. The two-term limit was added to the Constitution four years after his death."
+        }
+      ]
+    },
+    {
+      "id": "b2-nd-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the best word for each sentence.",
+      "items": [
+        {
+          "id": "nd-v1",
+          "prompt": "When a court cancels a law as invalid, it ___ the law.",
+          "options": [
+            "strikes down",
+            "stands by",
+            "steps up"
+          ],
+          "answerIndex": 0,
+          "explanation": "Strikes down."
+        },
+        {
+          "id": "nd-v2",
+          "prompt": "A painting made directly on a wall is a ___.",
+          "options": [
+            "mural",
+            "model",
+            "mould"
+          ],
+          "answerIndex": 0,
+          "explanation": "A mural — the WPA paid for thousands of them."
+        },
+        {
+          "id": "nd-v3",
+          "prompt": "Something never done before is ___.",
+          "options": [
+            "without precedent",
+            "without warning",
+            "without question"
+          ],
+          "answerIndex": 0,
+          "explanation": "Without precedent."
+        },
+        {
+          "id": "nd-v4",
+          "prompt": "A bank described as ___ is financially safe.",
+          "options": [
+            "sound",
+            "silent",
+            "severe"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sound — the inspectors reopened the sound institutions first."
+        },
+        {
+          "id": "nd-v5",
+          "prompt": "To begin an official position as a leader is to ___.",
+          "options": [
+            "take office",
+            "take place",
+            "take over the house"
+          ],
+          "answerIndex": 0,
+          "explanation": "To take office."
+        }
+      ]
+    },
+    {
+      "id": "b2-nd-match",
+      "type": "matching",
+      "title": "What Each One Did",
+      "instructions": "Match each programme or law with what it created.",
+      "items": [
+        {
+          "id": "nd-m1",
+          "pairs": [
+            {
+              "left": "The Civilian Conservation Corps",
+              "right": "work for three million young men in forests and parks"
+            },
+            {
+              "left": "The Works Progress Administration",
+              "right": "roads, schools and public art on an enormous scale"
+            },
+            {
+              "left": "The Tennessee Valley Authority",
+              "right": "flood control and electricity for a very poor region"
+            },
+            {
+              "left": "The Securities and Exchange Commission",
+              "right": "rules for the stock market"
+            },
+            {
+              "left": "The Social Security Act",
+              "right": "old-age pensions and unemployment insurance"
+            }
+          ],
+          "explanation": "Learning the five by what they did, rather than by their initials, is the only way the alphabet soup becomes memorable."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Roosevelt explained his bank plan on the radio in ordinary language, and it worked. How much of government is explanation?",
+    "The New Deal was passed at the price of excluding most Black workers from it. How should that compromise be judged now?",
+    "Should a government create jobs directly in a crisis, or is that work better left to companies?"
+  ],
+  "audio": {
+    "duration_label": "3:35"
+  }
+}

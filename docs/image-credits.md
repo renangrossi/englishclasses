@@ -216,7 +216,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-30 images the gallery could not answer -- flags, maps, photographs and
+41 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything that is not public domain.
 
@@ -252,5 +252,16 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b1/louisiana-purchase` | `02.jpg` | Louisiana, mapped by Samuel Lewis in 1804. Notice how much of it is blank: this is the map the United States had just bought. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
 | `b1/transcontinental-railroad` | `02.jpg` | Promontory Summit, Utah, 10 May 1869. No Chinese worker appears in the photograph of the line they largely built. | `File:East and West Shaking hands at the laying of last rail Union Pacific Railroad - Restoration.jpg` |
 | `b1/transcontinental-railroad` | `03.jpg` | Chinese workers on the Central Pacific in the Sierra Nevada. At the peak they were about four out of five of the company's workforce. | `File:Chinese railroad workers sierra nevada.jpg` |
+| `b2/civil-war-nation-divided` | `01.jpg` | Pickett's Charge at Gettysburg | `File:Thure de Thulstrup - L. Prang and Co. - Battle of Gettysburg - Restoration by Adam Cuerden.jpg` |
+| `b2/fdr-new-deal` | `01.jpg` | Roosevelt signs the Social Security Act, 14 August 1935 | `File:Signing Of The Social Security Act.jpg` |
+| `b2/fdr-new-deal` | `02.jpg` | A WPA poster. The agency employed artists to design the posters as well as labourers to build the roads. | `File:WPA-Work-Pays-America-Poster.jpg` |
+| `b2/great-depression` | `01.jpg` | A bank run in Michigan, February 1933. A bank holds only part of its deposits as cash; the rest of this picture explains itself. | `File:Bank Run in Michigan, USA, February 1933.jpg` |
+| `b2/great-depression` | `02.jpg` | Migrant Mother | `File:Lange-MigrantMother02.jpg` |
+| `b2/great-depression` | `03.jpg` | A dust storm approaching Stratford, Texas, 1935. The soil in the air had been ploughed grassland a decade earlier. | `File:Dust storm approaching Stratford, Texas.jpg` |
+| `b2/jackie-robinson` | `01.jpg` | Jackie Robinson, Brooklyn Dodgers, 1954 | `File:Jackie Robinson, Brooklyn Dodgers, 1954.jpg` |
+| `b2/reconstruction` | `01.jpg` | The First Vote | `File:"The first vote" by A.R. Waud Harper's Weekly 1867-11-16 Retrieved from the Library of Congress.jpg` |
+| `b2/reconstruction` | `02.jpg` | The first Black senator and representatives in Congress, printed in 1872. Within thirty years almost none of their voters were still on the rolls. | `File:First Colored Senator and Representatives.jpg` |
+| `b2/trail-of-tears` | `01.jpg` | Sequoyah with his syllabary | `File:Henry Inman - Sequoyah - Google Art Project.jpg` |
+| `b2/trail-of-tears` | `02.jpg` | West of the Mississippi, as mapped in 1804. This is where removal sent sixteen thousand people, on foot, in winter. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
 
 <!-- gallery:end -->

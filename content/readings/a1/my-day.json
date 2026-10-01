@@ -2,6 +2,7 @@
   "id": "a1-reading-my-day",
   "level": "A1",
   "slug": "my-day",
+  "order": 6,
   "topic": "everyday",
   "title": "A Tuesday",
   "subtitle": "One ordinary day, from five in the morning to ten at night.",

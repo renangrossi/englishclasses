@@ -100,6 +100,18 @@ def roman(n):
     return out
 
 
+# Within a level the cards are grouped by topic, in the order a student would
+# most likely want them: the everyday situations first, then the things you do
+# with other people, then work, then the wider subjects. Anything not listed
+# here sorts to the end alphabetically rather than disappearing.
+TOPIC_ORDER = ["everyday", "food", "travel", "sports", "culture", "society",
+               "work", "interviews", "business", "tech", "literature", "review"]
+
+
+def topic_rank(topic):
+    return TOPIC_ORDER.index(topic) if topic in TOPIC_ORDER else len(TOPIC_ORDER)
+
+
 def built_card(level, slug, d, n):
     """A converted text. Its own source JSON is the truth about what exists --
     which is what makes splits (one source -> several pages) and merges
@@ -140,12 +152,28 @@ def pending_card(t, n):
 
 def level_section(code, built, pending, n_start):
     info = LEVEL_INFO[code]
-    cards = []
     n = n_start
+    # One grid per topic, under its own heading. "built" is already sorted by
+    # topic, so walking it in order is enough to group it.
+    groups, blocks = [], []
     for level, slug, d in built:
-        cards.append(built_card(level, slug, d, n)); n += 1
-    for t in pending:
-        cards.append(pending_card(t, n)); n += 1
+        t = d.get("topic", "")
+        if not groups or groups[-1][0] != t:
+            groups.append((t, []))
+        groups[-1][1].append((level, slug, d))
+    for topic, rows in groups:
+        cards = []
+        for level, slug, d in rows:
+            cards.append(built_card(level, slug, d, n)); n += 1
+        label = rc.TOPIC_LABELS.get(topic, topic.title() or "Other")
+        blocks.append(f'<h3 class="topic-group">{esc(label)}</h3>'
+                      f'<div class="grid">{"".join(cards)}</div>')
+    if pending:
+        cards = []
+        for t in pending:
+            cards.append(pending_card(t, n)); n += 1
+        blocks.append('<h3 class="topic-group">Not yet converted</h3>'
+                      f'<div class="grid">{"".join(cards)}</div>')
     done, texts = len(built), built + pending
     return n, f"""<section class="section" id="level-{code}" aria-labelledby="h-{code}">
         <div class="section__inner">
@@ -157,7 +185,7 @@ def level_section(code, built, pending, n_start):
                 <li><strong>Topics:</strong> {info['topics']}</li>
                 <li><strong>Ready to read now:</strong> {done} of {len(texts)}</li>
             </ul>
-            <div class="grid">{''.join(cards)}</div>
+            {''.join(blocks)}
         </div>
     </section>"""
 
@@ -168,7 +196,13 @@ def main():
     for level, slug, d in rc.all_sources():
         built.setdefault(level, []).append((level, slug, d))
     for c in built:
-        built[c].sort(key=lambda x: x[2]["title"].lower())
+        # Level, then topic, then the text's own "order" if it declares one.
+        # A1 is a deliberate sequence -- "A Tuesday" recycles the other five and
+        # has to come last -- so alphabetical would actively mislead there.
+        # Anything without "order" keeps sorting by title, as it always did.
+        built[c].sort(key=lambda x: (topic_rank(x[2].get("topic", "")),
+                                     x[2].get("order", 10**6),
+                                     x[2]["title"].lower()))
 
     # What is still waiting: map entries not yet converted or merged away.
     T = [t for t in json.loads(MAP.read_text(encoding="utf-8"))["texts"]

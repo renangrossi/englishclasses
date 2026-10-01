@@ -14,7 +14,7 @@
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | A1 opened with six authored texts → grow A1, then C2 (P-1) |
+| **Current phase** | A1 built out to twelve texts → C2 is the last gap (P-1) |
 | **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
 
 ### What this project is *not*
@@ -196,14 +196,29 @@ Editorial rules applied on top of the existing ones:
 
 Texts run 120–152 words and 1:03–1:14 at the A1 rate of -15% (105–142 wpm, against ~158 at B2).
 
-### Milestone 7 — Grow A1, then C2 (NOT STARTED)
+### Milestone 7 — A1 built out, and the library reordered ✅
+- **Date:** 2026-09-30 · **Pushed:** yes · **Merged:** yes
 
-1. **More A1.** Six is an entry point, not a level. Natural next topics that reuse the same
-   cast: shopping and money, getting around the city, the weather, a weekend, at the doctor,
-   on the phone. Keep the recycling discipline — the point is spaced repetition, not coverage.
-2. **A small C2 set.** Only where a text genuinely needs that level: argument, register, irony,
-   implication. Four good ones beat twelve padded ones.
-3. **Illustration** remains page by page — see `docs/image-credits.md`.
+Six more A1 texts, taking the level to twelve: shopping and money, getting around by train,
+the weather through the year, being sick, the job itself, and a free Saturday. Same cast
+throughout, and the recycling discipline holds — *busy*, *quiet*, *tired*, *near*, *early*,
+*to get up*, *to leave*, *to stay*, *to wait* and *together* now recur across a dozen contexts.
+
+**Ordering.** The hub used to sort alphabetically by title inside each level, which told a
+student nothing. It now goes **level, then topic**, with a visible `.topic-group` heading above
+each group, and inside a topic by an optional **`order`** field on the source JSON, falling back
+to title. Only A1 declares `order` so far, because only A1 is a deliberate sequence — "A Tuesday"
+recycles the five before it and has to follow them. Everything else is unchanged.
+
+Note the consequence: topic grouping outranks the sequence, so "Lunch on Saturday" (food) and
+"Taking the Train" (travel) sit in their own groups rather than at positions 4 and 8. That is
+the intended trade — a student browsing by subject is better served than one reading straight
+down the page.
+
+### Milestone 8 — C2 (NOT STARTED)
+
+The last gap. Only where a text genuinely needs that level: argument, register, irony,
+implication. Four good ones beat twelve padded ones. Everything else on the site is complete.
 
 ## Target architecture
 
@@ -476,10 +491,9 @@ Every action is finished: **KEEP** 15, **EDIT** 31, **REPLACE** 12, **MERGE** 15
 
 ### Open problems
 
-- **P-1 — A1 and C2 gaps.** PARTLY DONE. A1 now has a first authored collection of six texts
-  (see Milestone 7); the level is no longer empty. C2 still has nothing. The library is
-  6 A1 / 15 A2 / 37 B1 / 23 B2 / 11 C1. Six is a working entry point, not a full level — A2 has
-  fifteen — so A1 should grow before C2 is started.
+- **P-1 — A1 and C2 gaps.** A1 DONE, C2 OPEN. A1 now has twelve authored texts, comparable to
+  A2's fifteen, and covers the situations a beginner meets first. C2 still has nothing and is
+  the last gap. The library is 12 A1 / 15 A2 / 37 B1 / 23 B2 / 11 C1 = 98 pages.
 - **P-2 — Non-American concentration.** OPEN. Travel is still the largest topic at 17 of 86, and
   much of the library is set in Brazil, South Africa, Romania, Thailand, Italy, Japan, Austria
   and Egypt. The agreed resolution stands: keep the good international texts as a *Travel &

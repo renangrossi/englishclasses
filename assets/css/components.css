@@ -645,6 +645,20 @@ body:not(:has(.level-toc)) .section {
 .card__foot { margin-top: auto; padding-top: var(--space-xs); display: flex; justify-content: center; }
 
 /* Lesson card — used across level & hub pages for individual downloadable items */
+/* Heading above each topic group on the reading hub. The library is ordered
+   by level first and by topic inside it, and without a label the grouping is
+   invisible -- a student just sees the order change for no stated reason. */
+.topic-group {
+  font-size: var(--step-0);
+  font-family: var(--font-display);
+  color: var(--color-text-muted);
+  margin: var(--space-lg) 0 var(--space-sm);
+  padding-bottom: 0.3em;
+  border-bottom: var(--border-hairline);
+  max-width: 66ch;
+}
+.topic-group:first-of-type { margin-top: 0; }
+
 .lesson-card {
   position: relative;
   background: var(--color-surface-raised);

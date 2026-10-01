@@ -2,6 +2,7 @@
   "id": "a1-reading-my-room",
   "level": "A1",
   "slug": "my-room",
+  "order": 5,
   "topic": "everyday",
   "title": "Our Apartment",
   "subtitle": "Three rooms, an old green sofa, and a window the sun comes through.",

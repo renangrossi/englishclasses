@@ -27,6 +27,22 @@
     "And then there is the diner, which is less a cuisine than an institution: open early, open late, laminated menu running to several pages, coffee refilled without being asked. The food is eggs, pancakes, burgers, pie. Nobody claims it is the country's best cooking. It is where you end up at eleven at night in an unfamiliar town, and there is a reason it appears in so many American films.",
     "A useful rule for eating well in the United States is to ignore what a place looks like. Some of the best food in the country is served in buildings that would not pass for restaurants anywhere else — a shed with a smoker behind it, a counter with eight stools, a truck parked in the same spot every day. The queue outside tells you more than the decoration inside."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "A camp at night on the plains, people gathered around a cooking fire under tall trees",
+      "source": "albert-bierstadt-oregon-trail-campfire-1863.jpeg",
+      "caption": "*Oregon Trail Campfire* — Albert Bierstadt, 1863. Meat, wood smoke and several hours: the oldest version of the argument."
+    },
+    {
+      "src": "02.jpg",
+      "after": 3,
+      "alt": "Fishermen working from a small boat at night by the light of a fire burning in the bow",
+      "source": "hans-gude-adolph-tidemand-fishermen-1851.jpeg",
+      "caption": "*Fishermen* — Hans Gude and Adolph Tidemand, 1851."
+    }
+  ],
   "vocabulary": [
     {
       "term": "cuisine",

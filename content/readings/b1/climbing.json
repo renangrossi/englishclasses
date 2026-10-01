@@ -27,6 +27,22 @@
     "The advice given to nearly every beginner is the same three things. Find a partner, because climbing alone is a bad idea and a worse habit. Take an introductory class, since the safety systems are simple but unforgiving of guesswork. And build up on easy routes, where there is time to think about footwork, instead of jumping onto something hard and learning nothing but fear.",
     "Climbers talk a lot about the summit, but most of them will admit the top is not really the point. The sport is the movement, the place, and the people you go with. It also comes with an expectation: you leave the crag as you found it, take your trash home, and pass on the etiquette to whoever comes next."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "A high snow plateau broken by crevasses, with rock faces rising out of the ice",
+      "source": "edward-theodore-compton-glacier-plateau-1906.jpg",
+      "caption": "*Glacier Plateau* — Edward Theodore Compton, 1906."
+    },
+    {
+      "src": "02.jpg",
+      "after": 5,
+      "alt": "A glacier coming down between mountain walls, with small figures on the path below it",
+      "source": "joseph-anton-koch-grindelwald-glacier-in-the-alps-1823.jpeg",
+      "caption": "*Grindelwald Glacier in the Alps* — Joseph Anton Koch, 1823."
+    }
+  ],
   "vocabulary": [
     {
       "term": "a rock face",

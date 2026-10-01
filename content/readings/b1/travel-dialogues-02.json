@@ -38,6 +38,15 @@
     "New Employee: One more. What if I don't know the answer to something?",
     "Manager: Then you say you'll find out, and you find out. Don't guess. Guessing is how a guest ends up at a restaurant that closed two years ago."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "People being attended to at a desk in the great hall of a town building, others waiting their turn",
+      "source": "heinrich-hansen-a-scene-of-everyday-life-at-the-nuremberg-town-hall.jpeg",
+      "caption": "*A Scene of Everyday Life at the Nuremberg Town Hall* — Heinrich Hansen."
+    }
+  ],
   "vocabulary": [
     {
       "term": "walk-in",

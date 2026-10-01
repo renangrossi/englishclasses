@@ -35,6 +35,22 @@
     "At the top of the Empire State Building the wind was much stronger than any of them expected, and the view was worth the queue. Lucas took more photographs than he needed. Ben, who had been promised dinosaurs the following day, leaned on the rail and asked how long it would take to walk to the edge of the city, which none of them could answer.",
     "Going back down in the lift, Lucas did the arithmetic and realised that in a day and a half they had done three things on a list of fifteen. He found he did not mind. They had seen a fountain, eaten a slice standing up, and walked twenty-five blocks through the middle of it, and the list would still be there next time."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 7,
+      "alt": "A fountain in a quiet park, surrounded by tall trees and gravel paths",
+      "source": "edvard-petersen-park-landscape-with-a-fountain.jpeg",
+      "caption": "*Park Landscape with a Fountain* — Edvard Petersen."
+    },
+    {
+      "src": "02.jpg",
+      "after": 9,
+      "alt": "A city river front at night, lamps running along the embankment and lit windows rising behind it",
+      "source": "george-hyde-pownall-the-victoria-embankment-from-hungerford-bridge-1876-1932.jpeg",
+      "caption": "*The Victoria Embankment from Hungerford Bridge* — George Hyde Pownall."
+    }
+  ],
   "vocabulary": [
     {
       "term": "lobby",

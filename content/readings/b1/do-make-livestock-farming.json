@@ -27,6 +27,22 @@
     "The part nobody warns you about is the paperwork. Doing the paperwork for the farm regulations takes a full day every month, and doing it badly is expensive, so he does it properly and keeps everything where he can find it.",
     "By the time the moon is up, Trent is usually too tired to be philosophical about any of it. But the work has a shape he likes: you do the tasks, you make the decisions, and if you have done both well enough for long enough, the herd is healthy and the farm keeps going. That is most of what there is to it."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 0,
+      "alt": "A farmhand holding a heavy cow by the halter in a farmyard, leaning back against its weight",
+      "source": "julien-dupre-1851-1910-french-naturalist-painter-in-the-farm.jpeg",
+      "caption": "*In the Farm* — Julien Dupré."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "Three women bent over a cut field, picking up by hand what the harvest left behind",
+      "source": "jean-francois-millet-the-gleaners-1857.jpeg",
+      "caption": "*The Gleaners* — Jean-François Millet, 1857."
+    }
+  ],
   "vocabulary": [
     {
       "term": "chores",

@@ -26,6 +26,22 @@
     "A few practical points that guidebooks tend to leave out. Start early: the heat by eleven is serious and the afternoon cloud often takes the view away entirely. Carry more water than you think you need. Ask locally about which trails are fine to walk alone, because the honest answer varies by trail and by day and people who live there will tell you straight. And check the weather for the two days before, not just the day itself — the rock on Gávea stays slippery long after the rain has stopped.",
     "What stays with most people is the contrast. You climb for two hours through dense forest, hearing nothing but insects and your own breathing, come out on a ridge, and there is a city of six million people directly below with the Atlantic behind it."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "Dense tropical forest falling away towards a river, with mountains standing behind it",
+      "source": "frederic-edwin-church-the-heart-of-the-andes.jpg",
+      "caption": "*The Heart of the Andes* — Frederic Edwin Church."
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "A rope bridge crossing a gorge in thick tropical forest",
+      "source": "frederic-edwin-church-tropical-landscape-with-a-hanging-bridge.jpg",
+      "caption": "*Tropical Landscape with a Hanging Bridge* — Frederic Edwin Church."
+    }
+  ],
   "vocabulary": [
     {
       "term": "landmark",

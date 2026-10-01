@@ -23,6 +23,22 @@
     "What separates a good bottle from a poor one comes down to a few things. Cane cut at the right ripeness and pressed quickly. A controlled fermentation rather than a rushed one. A careful cut during distillation, which is what removes the harshness people associate with cheap cachaça. And, if it has been aged, decent barrels and enough patience.",
     "As for how to drink it, the caipirinha — cachaça, lime, sugar, ice — is made with branca, and a good branca improves it considerably more than most people expect. Aged cachaça is generally drunk on its own, at room temperature, the way you would drink a whisky. Using a well-aged bottle in a cocktail is not an error exactly, but you will be paying for wood character that the lime then covers up."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 1,
+      "alt": "Workers loading a cart with the harvest, oxen waiting in the heat beside them",
+      "source": "williams-penry-bringing-in-the-grapes.jpg",
+      "caption": "*Bringing in the Grapes* — Penry Williams. Cane, like fruit, starts losing what it is worth the moment it is cut."
+    },
+    {
+      "src": "02.jpg",
+      "after": 2,
+      "alt": "The inside of a metal workshop, with a furnace burning at one end and men working at the machinery",
+      "source": "hugo-charlemont-interior-of-a-hammersmith-1883.jpg",
+      "caption": "*Interior of a Hammersmith* — Hugo Charlemont, 1883. Copper is worked, not chosen for looks."
+    }
+  ],
   "vocabulary": [
     {
       "term": "spirit",

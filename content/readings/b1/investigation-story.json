@@ -45,6 +45,29 @@
     "Rogers: I think I'd like the lawyer.",
     "Detective Wayne: That's your right. Interview suspended at nine forty-one."
   ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 5,
+      "alt": "Two men facing each other across a table while others lean in to watch the game",
+      "source": "ernest-meissonier-a-game-of-piquet-1861.jpeg",
+      "caption": "*A Game of Piquet* — Ernest Meissonier, 1861."
+    },
+    {
+      "src": "02.jpg",
+      "after": 13,
+      "alt": "A lone figure on a road at night under a clouded moon, a bare tree leaning over the path",
+      "source": "august-piepenhagen-a-moonlit-night.jpg",
+      "caption": "*A Moonlit Night* — August Piepenhagen."
+    },
+    {
+      "src": "03.jpg",
+      "after": 19,
+      "alt": "A man led out of a doorway by officers while neighbours stand in the street and watch",
+      "source": "eduard-schulz-briesen-lost-honour.jpeg",
+      "caption": "*Lost Honour* — Eduard Schulz-Briesen."
+    }
+  ],
   "vocabulary": [
     {
       "term": "to wait up",

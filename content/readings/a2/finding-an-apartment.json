@@ -1,0 +1,292 @@
+{
+  "id": "a2-reading-finding-an-apartment",
+  "level": "A2",
+  "slug": "finding-an-apartment",
+  "topic": "everyday",
+  "title": "Finding an Apartment",
+  "subtitle": "Dani has three weeks, a budget and a list of things she will not give up.",
+  "description": "An A2 reading and listening text about renting: the words on the advertisement, what to ask, and what the price does not include.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "2:11"
+  },
+  "passage": [
+    "Dani is moving to Denver for a new job, and she has three weeks to find a place to live.",
+    "Her budget is fourteen hundred dollars a month. In Denver that is not a lot, so she makes a list of what she really needs. The apartment must be near a bus line, because she does not have a car. It must allow cats. And it must have a washing machine in the building, because she does not want to spend every Saturday at a laundromat.",
+    "Everything else can go. She looks at the list and crosses off “big kitchen”.",
+    "The advertisements use words she has to learn. A studio is one room with a kitchen in it. A one-bedroom has a separate bedroom. Utilities included means the price covers water, heat and electricity — and when it does not say that, the real cost is higher than the number in the advertisement. Deposit is the money you pay at the start and get back at the end, if nothing is broken.",
+    "She sees four apartments in two days. The first is cheap and dark. The second is beautiful and six hundred dollars over her budget. The third smells of smoke. The fourth is small, on the third floor, with no elevator, and it has a window facing west and a bus stop at the corner.",
+    "She asks the questions she has written down. Are utilities included? Yes, except electricity. Is there a laundry room? In the basement. Can she have a cat? The landlord thinks about it and says yes, with an extra deposit of three hundred dollars.",
+    "She takes it. It is not the apartment she imagined in January. It is twenty minutes from work, it costs thirteen hundred and fifty, and the afternoon light in that west window is very good.",
+    "She signs the lease on a Thursday. The hardest part, she says afterwards, was not the money. It was deciding which of the things on her list were real."
+  ],
+  "vocabulary": [
+    {
+      "term": "budget",
+      "definition": "the amount of money you can spend"
+    },
+    {
+      "term": "bus line",
+      "definition": "a route that buses follow"
+    },
+    {
+      "term": "to allow",
+      "definition": "to say that something is permitted",
+      "match": "allow"
+    },
+    {
+      "term": "laundromat",
+      "definition": "a shop with washing machines you pay to use — American"
+    },
+    {
+      "term": "to cross off",
+      "definition": "to remove something from a list",
+      "match": "crosses off"
+    },
+    {
+      "term": "studio",
+      "definition": "an apartment that is one room with a kitchen in it"
+    },
+    {
+      "term": "utilities",
+      "definition": "water, heat, gas and electricity, as a cost"
+    },
+    {
+      "term": "deposit",
+      "definition": "money paid at the start and returned at the end if nothing is damaged"
+    },
+    {
+      "term": "elevator",
+      "definition": "the machine that carries you between floors — American; British lift"
+    },
+    {
+      "term": "to face",
+      "definition": "to look out in a certain direction",
+      "match": "facing"
+    },
+    {
+      "term": "basement",
+      "definition": "the floor below the ground floor"
+    },
+    {
+      "term": "landlord",
+      "definition": "the person who owns the apartment you rent"
+    },
+    {
+      "term": "lease",
+      "definition": "the contract you sign to rent a home"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-apt-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "e1",
+          "prompt": "Why must the apartment be near a bus line?",
+          "options": [
+            "Because Dani has no car",
+            "Because it is cheaper",
+            "Because she dislikes walking"
+          ],
+          "answerIndex": 0,
+          "explanation": "“because she does not have a car.”"
+        },
+        {
+          "id": "e2",
+          "prompt": "Why does she want a washing machine in the building?",
+          "options": [
+            "So she does not spend Saturdays at a laundromat",
+            "Because it is free",
+            "Because her cat makes a mess"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated directly in the second paragraph."
+        },
+        {
+          "id": "e3",
+          "prompt": "What does she decide she does not really need?",
+          "options": [
+            "A big kitchen",
+            "A bus stop",
+            "A cat"
+          ],
+          "answerIndex": 0,
+          "explanation": "“She looks at the list and crosses off ‘big kitchen’.”"
+        },
+        {
+          "id": "e4",
+          "prompt": "What is the difference between a studio and a one-bedroom?",
+          "options": [
+            "A one-bedroom has a separate room for sleeping",
+            "A studio is larger",
+            "A studio has no kitchen"
+          ],
+          "answerIndex": 0,
+          "explanation": "A studio is one room with a kitchen in it."
+        },
+        {
+          "id": "e5",
+          "prompt": "Why does it matter whether utilities are included?",
+          "options": [
+            "If they are not, the real monthly cost is higher than the advertised price",
+            "Because it changes the deposit",
+            "Because it affects the bus route"
+          ],
+          "answerIndex": 0,
+          "explanation": "“the real cost is higher than the number in the advertisement.”"
+        },
+        {
+          "id": "e6",
+          "prompt": "What is wrong with the second apartment?",
+          "options": [
+            "It costs far more than she can pay",
+            "It is dark",
+            "It smells of smoke"
+          ],
+          "answerIndex": 0,
+          "explanation": "“six hundred dollars over her budget.”"
+        },
+        {
+          "id": "e7",
+          "prompt": "What does the landlord ask for because of the cat?",
+          "options": [
+            "An extra deposit of three hundred dollars",
+            "A higher rent",
+            "A letter from her job"
+          ],
+          "answerIndex": 0,
+          "explanation": "He thinks about it and says yes, with the extra deposit."
+        },
+        {
+          "id": "e8",
+          "prompt": "What does Dani say was the hardest part?",
+          "options": [
+            "Deciding which things on her list were really necessary",
+            "Finding the money",
+            "Signing the lease"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It was deciding which of the things on her list were real.”"
+        }
+      ]
+    },
+    {
+      "id": "a2-apt-vocab",
+      "type": "vocabulary",
+      "title": "Renting Words",
+      "instructions": "Choose the word that matches the meaning.",
+      "items": [
+        {
+          "id": "ev1",
+          "prompt": "Money you pay at the start and get back at the end is a ___.",
+          "options": [
+            "deposit",
+            "budget",
+            "lease"
+          ],
+          "answerIndex": 0,
+          "explanation": "You get it back if nothing is damaged."
+        },
+        {
+          "id": "ev2",
+          "prompt": "The contract you sign to rent a home is a ___.",
+          "options": [
+            "lease",
+            "deposit",
+            "utility"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dani signs hers on a Thursday."
+        },
+        {
+          "id": "ev3",
+          "prompt": "Water, heat and electricity together are the ___.",
+          "options": [
+            "utilities",
+            "basement",
+            "budget"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Utilities included” means the rent covers them."
+        },
+        {
+          "id": "ev4",
+          "prompt": "The person who owns the apartment you rent is the ___.",
+          "options": [
+            "landlord",
+            "server",
+            "student"
+          ],
+          "answerIndex": 0,
+          "explanation": "The landlord decides about the cat."
+        },
+        {
+          "id": "ev5",
+          "prompt": "An apartment that is one room with a kitchen in it is a ___.",
+          "options": [
+            "studio",
+            "one-bedroom",
+            "basement"
+          ],
+          "answerIndex": 0,
+          "explanation": "A one-bedroom has a separate bedroom."
+        },
+        {
+          "id": "ev6",
+          "prompt": "In American English, the machine that carries you between floors is an ___.",
+          "options": [
+            "elevator",
+            "escalator",
+            "utility"
+          ],
+          "answerIndex": 0,
+          "explanation": "British English says lift. Dani's building has neither."
+        }
+      ]
+    },
+    {
+      "id": "a2-apt-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Is it true or false?",
+      "items": [
+        {
+          "id": "et1",
+          "statement": "Dani finds an apartment inside her budget.",
+          "answer": true,
+          "explanation": "True. It costs thirteen hundred and fifty, and her budget was fourteen hundred."
+        },
+        {
+          "id": "et2",
+          "statement": "The apartment she takes includes all utilities.",
+          "answer": false,
+          "explanation": "False. “Yes, except electricity.”"
+        },
+        {
+          "id": "et3",
+          "statement": "The building has an elevator.",
+          "answer": false,
+          "explanation": "False — third floor, no elevator."
+        },
+        {
+          "id": "et4",
+          "statement": "She got the apartment she had imagined.",
+          "answer": false,
+          "explanation": "False. “It is not the apartment she imagined in January.”"
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Do you rent or own your home? How did you find it?",
+    "What are the three things you would not give up in a home?",
+    "In your city, does the rent usually include water and electricity?",
+    "What would you cross off your list if the budget were smaller?"
+  ]
+}

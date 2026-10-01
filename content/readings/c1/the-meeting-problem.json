@@ -1,0 +1,360 @@
+{
+  "id": "c1-reading-the-meeting-problem",
+  "level": "C1",
+  "slug": "the-meeting-problem",
+  "topic": "work",
+  "title": "The Meeting Problem",
+  "subtitle": "Everybody agrees there are too many meetings. Almost nobody cancels one.",
+  "description": "A C1 reading and listening text on why organizations hold meetings they know are unnecessary, and what the few effective fixes have in common.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "3:23"
+  },
+  "passage": [
+    "Surveys of office workers return the same result with tedious reliability: most people believe at least half the meetings they attend are unnecessary. The finding is stable across countries and industries, and it has been known for decades. What is interesting is not the complaint but the fact that nothing much happens as a result. The people who hold this view include the people who schedule the meetings.",
+    "The usual explanation is bad management, which is true in the sense that every organizational problem is bad management and useless for the same reason. A better account starts by asking what a meeting does besides the thing it claims to do.",
+    "A meeting distributes responsibility. A decision taken in a room with nine people in it belongs to nobody in particular, and if it turns out badly there is no single name attached. The same decision made in writing by one person is auditable. This is not cowardice so much as a rational response to an environment where mistakes are remembered longer than successes, and it explains why the meetings hardest to cancel are the ones about decisions nobody wants to own.",
+    "A meeting also signals importance, both of the subject and of the attendees. Being in the room is a statement about your position, which is why invitation lists grow and almost never shrink, and why the person who suggests that half the attendees could be dropped is proposing something socially expensive. The meeting is doing work. The work is simply not the work on the agenda.",
+    "Then there is the problem of synchronous time as a management instrument. A manager who is unsure what their team is doing can either build a system that makes the work visible or hold a weekly meeting where everyone says what they are doing. The second is far easier to set up and far more expensive to run, and because its cost is paid by other people's calendars rather than the manager's, the incentive to replace it with the first is weak.",
+    "The fixes that work are unglamorous and share a feature: they change the default rather than appealing to restraint. A standing rule that any meeting without a written agenda is canceled automatically removes the weakest third immediately, because the effort of writing three lines is enough to deter a meeting nobody actually wants. A rule that recurring meetings expire after a quarter unless renewed does more than any amount of exhortation, since the energy required to keep something alive is higher than the energy required to let it lapse. Making attendance genuinely optional works only if somebody senior conspicuously declines to attend one, which is why most attempts fail.",
+    "The written alternative deserves its own caution. Organizations that replace meetings with documents often discover they have replaced an hour of talking with four hundred unread words plus a meeting to discuss the document. The written form works when somebody is accountable for having read it and the first ten minutes are set aside to do so in silence, which feels strange and is the only version that reliably survives contact with a real calendar.",
+    "None of this amounts to the claim that meetings are bad. Anything genuinely contested, anything requiring people to change their minds in front of each other, anything where tone carries information that writing would strip out — these belong in a room, and attempts to conduct them in a document fail in predictable ways. The error is not holding meetings. It is holding the contested ones badly and the uncontested ones at all."
+  ],
+  "vocabulary": [
+    {
+      "term": "tedious",
+      "definition": "boring through repetition"
+    },
+    {
+      "term": "to schedule",
+      "definition": "to put something in the calendar",
+      "match": "schedule"
+    },
+    {
+      "term": "to audit",
+      "definition": "to check formally who did what",
+      "match": "auditable"
+    },
+    {
+      "term": "cowardice",
+      "definition": "a failure of courage"
+    },
+    {
+      "term": "to own a decision",
+      "definition": "to accept public responsibility for it",
+      "match": "own"
+    },
+    {
+      "term": "to signal",
+      "definition": "to show indirectly, often about status",
+      "match": "signals"
+    },
+    {
+      "term": "attendee",
+      "definition": "a person present at a meeting",
+      "match": "attendees"
+    },
+    {
+      "term": "to shrink",
+      "definition": "to get smaller",
+      "match": "shrink"
+    },
+    {
+      "term": "agenda",
+      "definition": "the list of items a meeting will cover"
+    },
+    {
+      "term": "synchronous",
+      "definition": "happening at the same time for everybody"
+    },
+    {
+      "term": "incentive",
+      "definition": "the thing that makes a person act as they do"
+    },
+    {
+      "term": "unglamorous",
+      "definition": "dull and unimpressive, whatever its merits"
+    },
+    {
+      "term": "default",
+      "definition": "what happens unless somebody intervenes"
+    },
+    {
+      "term": "restraint",
+      "definition": "self-control"
+    },
+    {
+      "term": "to deter",
+      "definition": "to put somebody off doing something"
+    },
+    {
+      "term": "recurring",
+      "definition": "happening again at regular intervals"
+    },
+    {
+      "term": "to expire",
+      "definition": "to come to an end automatically",
+      "match": "expire"
+    },
+    {
+      "term": "exhortation",
+      "definition": "urging people to do better"
+    },
+    {
+      "term": "to lapse",
+      "definition": "to end quietly through neglect"
+    },
+    {
+      "term": "conspicuously",
+      "definition": "in a way everybody notices"
+    },
+    {
+      "term": "accountable",
+      "definition": "required to answer for something"
+    },
+    {
+      "term": "contested",
+      "definition": "genuinely disagreed about"
+    },
+    {
+      "term": "to strip out",
+      "definition": "to remove entirely",
+      "match": "strip out"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-meet-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Argument",
+      "instructions": "The essay explains a behavior rather than condemning it. Follow the explanation.",
+      "items": [
+        {
+          "id": "m1",
+          "prompt": "What does the author find interesting about the survey finding?",
+          "options": [
+            "That nothing changes, and the complainers include the schedulers",
+            "That it varies by country",
+            "That it is recent"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The people who hold this view include the people who schedule the meetings.”"
+        },
+        {
+          "id": "m2",
+          "prompt": "Why is “bad management” called useless as an explanation?",
+          "options": [
+            "It is true of every organizational problem and therefore explains none of them",
+            "It is unfair to managers",
+            "It cannot be measured"
+          ],
+          "answerIndex": 0,
+          "explanation": "True “in the sense that every organizational problem is bad management and useless for the same reason”."
+        },
+        {
+          "id": "m3",
+          "prompt": "What is the first hidden function of a meeting?",
+          "options": [
+            "It distributes responsibility so no single name is attached to a decision",
+            "It trains junior staff",
+            "It saves written work"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The same decision made in writing by one person is auditable.”"
+        },
+        {
+          "id": "m4",
+          "prompt": "Why do invitation lists grow and rarely shrink?",
+          "options": [
+            "Being in the room is a statement of status, so removing people is socially expensive",
+            "People forget to update them",
+            "Rooms are large"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The meeting is doing work. The work is simply not the work on the agenda.”"
+        },
+        {
+          "id": "m5",
+          "prompt": "Why does the weekly status meeting persist?",
+          "options": [
+            "It is cheap for the manager to set up and its cost falls on other people's calendars",
+            "Teams prefer it",
+            "It is required by policy"
+          ],
+          "answerIndex": 0,
+          "explanation": "So the incentive to build a visibility system instead is weak."
+        },
+        {
+          "id": "m6",
+          "prompt": "What do the effective fixes have in common?",
+          "options": [
+            "They change the default instead of appealing to restraint",
+            "They reduce headcount",
+            "They shorten meetings to fifteen minutes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Automatic cancellation and automatic expiry both work by inertia."
+        },
+        {
+          "id": "m7",
+          "prompt": "Why does the written-agenda rule remove the weakest meetings?",
+          "options": [
+            "Writing three lines is enough effort to deter a meeting nobody really wants",
+            "Agendas make meetings shorter",
+            "Managers dislike writing"
+          ],
+          "answerIndex": 0,
+          "explanation": "The effort acts as a filter."
+        },
+        {
+          "id": "m8",
+          "prompt": "Why do most attempts at optional attendance fail?",
+          "options": [
+            "They need somebody senior to visibly decline, and that rarely happens",
+            "Staff fear missing information",
+            "The rule is usually forgotten"
+          ],
+          "answerIndex": 0,
+          "explanation": "“only if somebody senior conspicuously declines to attend one.”"
+        },
+        {
+          "id": "m9",
+          "prompt": "What is the caution about replacing meetings with documents?",
+          "options": [
+            "You can end up with unread words plus a meeting about the document",
+            "Documents take longer to write",
+            "People cannot read quickly"
+          ],
+          "answerIndex": 0,
+          "explanation": "It works only with accountability and silent reading time built in."
+        },
+        {
+          "id": "m10",
+          "prompt": "What does the author say belongs in a room?",
+          "options": [
+            "Anything contested, or where tone carries information writing would remove",
+            "Status updates",
+            "Budget approvals"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The error is not holding meetings. It is holding the contested ones badly and the uncontested ones at all.”"
+        }
+      ]
+    },
+    {
+      "id": "c1-meet-vocab",
+      "type": "vocabulary",
+      "title": "Organizational Vocabulary",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "mv1",
+          "prompt": "What happens unless somebody intervenes is the ___.",
+          "options": [
+            "default",
+            "agenda",
+            "incentive"
+          ],
+          "answerIndex": 0,
+          "explanation": "The essay's central lever."
+        },
+        {
+          "id": "mv2",
+          "prompt": "To end quietly through neglect is to ___.",
+          "options": [
+            "lapse",
+            "deter",
+            "audit"
+          ],
+          "answerIndex": 0,
+          "explanation": "Letting a recurring meeting lapse is easier than renewing it."
+        },
+        {
+          "id": "mv3",
+          "prompt": "Required to answer for something is ___.",
+          "options": [
+            "accountable",
+            "contested",
+            "synchronous"
+          ],
+          "answerIndex": 0,
+          "explanation": "Somebody must be accountable for having read the document."
+        },
+        {
+          "id": "mv4",
+          "prompt": "Genuinely disagreed about is ___.",
+          "options": [
+            "contested",
+            "tedious",
+            "recurring"
+          ],
+          "answerIndex": 0,
+          "explanation": "Contested questions are the ones that belong in a room."
+        },
+        {
+          "id": "mv5",
+          "prompt": "To put somebody off doing something is to ___ them.",
+          "options": [
+            "deter",
+            "signal",
+            "own"
+          ],
+          "answerIndex": 0,
+          "explanation": "The agenda rule deters weak meetings."
+        },
+        {
+          "id": "mv6",
+          "prompt": "Urging people to do better, without changing anything structural, is ___.",
+          "options": [
+            "exhortation",
+            "restraint",
+            "audit"
+          ],
+          "answerIndex": 0,
+          "explanation": "The author says expiry rules beat exhortation."
+        }
+      ]
+    },
+    {
+      "id": "c1-meet-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement reflects the argument.",
+      "items": [
+        {
+          "id": "mt1",
+          "statement": "The author argues that meetings should be abolished.",
+          "answer": false,
+          "explanation": "False. Contested questions belong in a room; the error is the uncontested ones."
+        },
+        {
+          "id": "mt2",
+          "statement": "Spreading responsibility across a room is described as rational, not merely cowardly.",
+          "answer": true,
+          "explanation": "True — a response to an environment where mistakes outlive successes."
+        },
+        {
+          "id": "mt3",
+          "statement": "The author thinks appeals to self-restraint are the most effective fix.",
+          "answer": false,
+          "explanation": "False. The fixes that work change the default instead."
+        },
+        {
+          "id": "mt4",
+          "statement": "Replacing meetings with documents can create more work, not less.",
+          "answer": true,
+          "explanation": "True — unread words plus a meeting to discuss them."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "What proportion of your meetings this month needed to be meetings?",
+    "Which of the hidden functions — shared responsibility, status, visibility — explains the worst one?",
+    "Could your team adopt the expiry rule? Who would resist it, and why?",
+    "Is there a decision you have seen taken in a room specifically so that nobody owned it?",
+    "Write about 300 words proposing one default change to how your organization meets."
+  ]
+}

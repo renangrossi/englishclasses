@@ -5,7 +5,7 @@
   "topic": "everyday",
   "title": "Describing a Place",
   "subtitle": "Four rooms, and what changes when you write down what you can hear and smell instead of what you can see.",
-  "description": "A B2 reading and listening text with four short descriptive scenes — a kitchen, a campsite, a training room and a shopping centre — used to teach sensory vocabulary and the difference between describing and cataloguing.",
+  "description": "A B2 reading and listening text with four short descriptive scenes — a kitchen, a campsite, a training room and a shopping center — used to teach sensory vocabulary and the difference between describing and cataloguing.",
   "source": "cefr/texts/soothing-texts.docx (scenes 1, 2, 3 and 7)",
   "provenance": "rewritten",
   "audio": {
@@ -19,9 +19,9 @@
     "Pine, first, and then woodsmoke. The fire has got past the crackling stage and settled into the occasional pop. Tents stand in a loose circle, dulled to brown and green in the failing light. There is a stream somewhere close enough to hear and not close enough to see. A cast-iron pan is on a portable stove and whatever is in it has started to catch slightly at the edges, which is not a problem. People are on folding chairs with their faces lit from below, and the conversation has reached the stage where nobody is trying to be interesting. Later somebody gets a guitar out, and later than that the tents glow from the inside as lanterns go on, and the sky over the clearing turns out to have considerably more stars in it than anybody remembered.",
     "A Training Room",
     "The sound in a jiu-jitsu room is bodies hitting a mat, which is duller and heavier than people expect. Bare feet shuffle and slap. The mats smell of rubber and of the disinfectant used on them that morning. Pairs circle each other, and the circling is the longest part; the technique, when it comes, takes about a second and a half. The instructor moves between them correcting grips with two fingers. Everybody's breathing has synchronised without anybody deciding to, and the only voices are short — a name, a laugh, somebody tapping out and both of them resetting. It looks like fighting and behaves like a very physical argument conducted in a language both people have agreed to speak.",
-    "A Shopping Centre at Six",
-    "Then the opposite of all three. The shopping centre after work is noise with no pattern in it: escalators, tills, several hundred conversations, and a track playing somewhere that nobody is listening to. The air is warm and carries coffee, perfume and the particular smell of new clothes. Everybody is walking slightly faster than is comfortable and apologising without looking up. The queue at the checkout is the one place the pace breaks, and people standing in it look at each other for the first time — somebody's child asleep against their shoulder, somebody holding a single item and visibly regretting the whole trip. Ten minutes later you are outside with a bag in each hand, and the quiet of the car park is startling.",
-    "Notice what the four have in common. Almost nothing is described by colour. What is doing the work is sound — the knife, the fire, the mat, the escalators — and smell, which is the sense writers use least and readers trust most. Notice also that each one contains a small human observation that could not have been guessed from the setting: nobody having to be anywhere for an hour, nobody trying to be interesting, the argument conducted in an agreed language, the man regretting the trip. That is the difference between describing a place and listing its contents."
+    "A Shopping Center at Six",
+    "Then the opposite of all three. The shopping center after work is noise with no pattern in it: escalators, tills, several hundred conversations, and a track playing somewhere that nobody is listening to. The air is warm and carries coffee, perfume and the particular smell of new clothes. Everybody is walking slightly faster than is comfortable and apologizing without looking up. The queue at the checkout is the one place the pace breaks, and people standing in it look at each other for the first time — somebody's child asleep against their shoulder, somebody holding a single item and visibly regretting the whole trip. Ten minutes later you are outside with a bag in each hand, and the quiet of the car park is startling.",
+    "Notice what the four have in common. Almost nothing is described by color. What is doing the work is sound — the knife, the fire, the mat, the escalators — and smell, which is the sense writers use least and readers trust most. Notice also that each one contains a small human observation that could not have been guessed from the setting: nobody having to be anywhere for an hour, nobody trying to be interesting, the argument conducted in an agreed language, the man regretting the trip. That is the difference between describing a place and listing its contents."
   ],
   "vocabulary": [
     {
@@ -193,7 +193,7 @@
         },
         {
           "id": "d7",
-          "prompt": "Where does the pace break in the shopping centre?",
+          "prompt": "Where does the pace break in the shopping center?",
           "options": [
             "At the entrance",
             "In the queue at the checkout",
@@ -211,7 +211,7 @@
             "Smell"
           ],
           "answerIndex": 2,
-          "explanation": "Stated in the closing paragraph, alongside the observation that almost nothing in the four scenes is described by colour."
+          "explanation": "Stated in the closing paragraph, alongside the observation that almost nothing in the four scenes is described by color."
         },
         {
           "id": "d9",
@@ -341,7 +341,7 @@
             "flat",
             "dulled"
           ],
-          "explanation": "Startling means surprising enough to make you stop — the last word of the shopping-centre scene."
+          "explanation": "Startling means surprising enough to make you stop — the last word of the shopping-center scene."
         }
       ]
     },
@@ -353,9 +353,9 @@
       "items": [
         {
           "id": "dt1",
-          "statement": "The four scenes rely mainly on colour.",
+          "statement": "The four scenes rely mainly on color.",
           "answer": false,
-          "explanation": "False — “almost nothing is described by colour”. Sound and smell do the work."
+          "explanation": "False — “almost nothing is described by color”. Sound and smell do the work."
         },
         {
           "id": "dt2",
@@ -371,9 +371,9 @@
         },
         {
           "id": "dt4",
-          "statement": "People in the shopping centre look at each other as they walk.",
+          "statement": "People in the shopping center look at each other as they walk.",
           "answer": false,
-          "explanation": "False — they apologise “without looking up”. They look at each other only in the queue."
+          "explanation": "False — they apologize “without looking up”. They look at each other only in the queue."
         },
         {
           "id": "dt5",
@@ -385,7 +385,7 @@
     }
   ],
   "discussion": [
-    "Describe the room you are in now in five sentences, without naming a single colour.",
+    "Describe the room you are in now in five sentences, without naming a single color.",
     "“The sense writers use least and readers trust most.” Why do you think smell works that way?",
     "Each scene has one observation that could not be guessed from the setting. Find them, and say which is the best.",
     "Which of the four places would you most want to be in right now, and what detail decided it?",

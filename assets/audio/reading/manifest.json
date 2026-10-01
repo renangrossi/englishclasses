@@ -107,6 +107,12 @@
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
+ "a2/finding-an-apartment": {
+  "bytes": 788832,
+  "fingerprint": "dfba20fb150c0cfe",
+  "rate": "-8%",
+  "voice": "en-US-JennyNeural"
+ },
  "a2/flying-to-the-us": {
   "bytes": 1318032,
   "fingerprint": "0dc1f82ec26a1bf6",
@@ -136,6 +142,12 @@
   "fingerprint": "28c9b381473d437c",
   "rate": "-8%",
   "voice": "en-US-BrianNeural"
+ },
+ "a2/something-wrong-with-the-order": {
+  "bytes": 852624,
+  "fingerprint": "d01671bd983e4b72",
+  "rate": "-8%",
+  "voice": "en-US-JennyNeural"
  },
  "a2/st-patricks-day": {
   "bytes": 746352,
@@ -258,8 +270,8 @@
   "voice": "en-US-GuyNeural"
  },
  "b1/glamping": {
-  "bytes": 1109952,
-  "fingerprint": "5e3a48121277a5c7",
+  "bytes": 1098000,
+  "fingerprint": "bdf202c35d351959",
   "rate": "-8%",
   "voice": "en-US-BrianNeural"
  },
@@ -324,8 +336,8 @@
   "voice": "en-US-EricNeural"
  },
  "b1/physical-education": {
-  "bytes": 933984,
-  "fingerprint": "6ca62b7c15c9e103",
+  "bytes": 930816,
+  "fingerprint": "162be68236779dd0",
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
@@ -420,8 +432,8 @@
   "voice": "en-US-AriaNeural"
  },
  "b2/describing-a-place": {
-  "bytes": 1274976,
-  "fingerprint": "12857f8045e1a638",
+  "bytes": 1273680,
+  "fingerprint": "29d78f72b62647f6",
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  },
@@ -581,21 +593,39 @@
   "rate": "+0%",
   "voice": "en-US-AriaNeural"
  },
+ "c1/the-meeting-problem": {
+  "bytes": 1220832,
+  "fingerprint": "c772d3c765ecc91b",
+  "rate": "+0%",
+  "voice": "en-US-ChristopherNeural"
+ },
+ "c1/the-night-shift": {
+  "bytes": 1225872,
+  "fingerprint": "c190501ffc2020e7",
+  "rate": "+0%",
+  "voice": "en-US-MichelleNeural"
+ },
  "c1/trials": {
   "bytes": 1621296,
   "fingerprint": "bf6b36da1708a209",
   "rate": "+0%",
   "voice": "en-US-BrianNeural"
  },
+ "c2/reading-a-scientific-claim": {
+  "bytes": 1442016,
+  "fingerprint": "a195026569b20b1b",
+  "rate": "+0%",
+  "voice": "en-US-ChristopherNeural"
+ },
  "c2/saying-no-without-saying-no": {
-  "bytes": 1625616,
-  "fingerprint": "ad0bdc76ad755f38",
+  "bytes": 1625328,
+  "fingerprint": "bf61e5726e32d6d4",
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
  },
  "c2/the-case-against-plain-english": {
-  "bytes": 1469376,
-  "fingerprint": "531805b26beb226c",
+  "bytes": 1468512,
+  "fingerprint": "d4b4a412b112f73c",
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  },
@@ -604,6 +634,12 @@
   "fingerprint": "0d404602c36b2342",
   "rate": "+0%",
   "voice": "en-US-JennyNeural"
+ },
+ "c2/the-second-language-self": {
+  "bytes": 1511568,
+  "fingerprint": "dfdb70781c06428f",
+  "rate": "+0%",
+  "voice": "en-US-EmmaNeural"
  },
  "c2/what-doesnt-translate": {
   "bytes": 1532160,

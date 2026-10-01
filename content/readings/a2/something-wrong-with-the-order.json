@@ -1,0 +1,317 @@
+{
+  "id": "a2-reading-something-wrong-with-the-order",
+  "level": "A2",
+  "slug": "something-wrong-with-the-order",
+  "topic": "food",
+  "title": "Something Wrong with the Order",
+  "subtitle": "The food is cold and the bill is wrong. Here is how to say so without a fight.",
+  "description": "An A2 reading and listening text on complaining politely in a restaurant: the phrases that work, and why the direct translation usually sounds rude.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "2:22"
+  },
+  "passage": [
+    "Something goes wrong in a restaurant perhaps one time in ten. The food is cold, the order is wrong, or the bill does not match the menu. None of this is a disaster, but a lot of learners find it the hardest moment of the whole meal, because the words they know are too strong.",
+    "The problem is that a direct translation usually sounds like an accusation. “You brought the wrong dish” is correct English and almost nobody says it. The normal pattern puts the problem first and the person nowhere: “I think there's been a mix-up with the order.” Nobody is blamed, and the server can fix it without having to apologize first.",
+    "Here are the phrases that do most of the work.",
+    "If the food is wrong: “Sorry — I think this might be the wrong dish. I ordered the chicken.” The word might is doing a lot there. It is not a real doubt; it is politeness.",
+    "If the food is cold: “Would you mind heating this up a little? It's gone a bit cold.” Not “this food is cold”, which is a complaint about the kitchen, but “it's gone cold”, which is a complaint about nothing in particular.",
+    "If something is missing: “I think we're still waiting on the fries.” Still waiting is softer than you forgot, and it is also usually true.",
+    "If the bill is wrong: “Could you check this for me? I think we were charged twice for the water.” Check this is the key phrase. You are asking somebody to look, not telling them they stole from you.",
+    "And when it is fixed, you say “That's great, thank you”, and the matter is closed. Americans in particular close these moments quickly and do not return to them.",
+    "There is one more thing worth knowing. In the United States, servers are often paid very little and live on tips, and a problem in the kitchen is usually not their fault. Being pleasant costs you nothing and changes the whole exchange. If the service was good and only the food was wrong, the tip should not change.",
+    "Two sentences will cover almost everything: “Sorry, I think there's been a mix-up” and “Could you check this for me?” Learn those two and you will never need the angry version."
+  ],
+  "vocabulary": [
+    {
+      "term": "bill",
+      "definition": "the paper showing what you must pay — Americans more often say the check"
+    },
+    {
+      "term": "accusation",
+      "definition": "a statement that somebody did something wrong"
+    },
+    {
+      "term": "to blame",
+      "definition": "to say that somebody is responsible for something bad",
+      "match": "blamed"
+    },
+    {
+      "term": "mix-up",
+      "definition": "a small confusion where things get exchanged by mistake"
+    },
+    {
+      "term": "might",
+      "definition": "used here to soften a statement, not to show real doubt"
+    },
+    {
+      "term": "Would you mind",
+      "definition": "a very polite way to ask somebody to do something"
+    },
+    {
+      "term": "to heat up",
+      "definition": "to make food warm again",
+      "match": "heating this up"
+    },
+    {
+      "term": "to go cold",
+      "definition": "to become cold with time",
+      "match": "gone a bit cold"
+    },
+    {
+      "term": "to wait on",
+      "definition": "to be still expecting something that has not arrived",
+      "match": "waiting on"
+    },
+    {
+      "term": "to charge",
+      "definition": "to ask somebody to pay an amount",
+      "match": "charged"
+    },
+    {
+      "term": "to check",
+      "definition": "to look at something to see if it is right",
+      "match": "check"
+    },
+    {
+      "term": "exchange",
+      "definition": "a short conversation between two people"
+    },
+    {
+      "term": "tip",
+      "definition": "extra money left for the server"
+    },
+    {
+      "term": "fault",
+      "definition": "responsibility for something bad"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-order-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Read again and choose the best answer.",
+      "items": [
+        {
+          "id": "c1",
+          "prompt": "Why do learners find this moment difficult?",
+          "options": [
+            "The words they know sound too strong",
+            "They do not know the food words",
+            "They are afraid of the bill"
+          ],
+          "answerIndex": 0,
+          "explanation": "“because the words they know are too strong.”"
+        },
+        {
+          "id": "c2",
+          "prompt": "What is wrong with “You brought the wrong dish”?",
+          "options": [
+            "It is correct English but sounds like an accusation",
+            "It is grammatically wrong",
+            "It is too long"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It is correct English and almost nobody says it.”"
+        },
+        {
+          "id": "c3",
+          "prompt": "What does the normal pattern do instead?",
+          "options": [
+            "It names the problem and nobody as the cause",
+            "It apologizes first",
+            "It asks for the manager"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Nobody is blamed, and the server can fix it.”"
+        },
+        {
+          "id": "c4",
+          "prompt": "Why does the text say “might” is doing a lot of work?",
+          "options": [
+            "It is politeness rather than real doubt",
+            "It shows you are unsure",
+            "It is more formal"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It is not a real doubt; it is politeness.”"
+        },
+        {
+          "id": "c5",
+          "prompt": "Why is “it's gone cold” better than “this food is cold”?",
+          "options": [
+            "It complains about nothing in particular instead of about the kitchen",
+            "It is shorter",
+            "It is more honest"
+          ],
+          "answerIndex": 0,
+          "explanation": "The second blames somebody; the first blames time."
+        },
+        {
+          "id": "c6",
+          "prompt": "Why is “Could you check this for me?” the key phrase for a wrong bill?",
+          "options": [
+            "You are asking somebody to look, not accusing them",
+            "It is the most formal option",
+            "It makes the bill cheaper"
+          ],
+          "answerIndex": 0,
+          "explanation": "“not telling them they stole from you.”"
+        },
+        {
+          "id": "c7",
+          "prompt": "What does the text say about tipping when the food was wrong?",
+          "options": [
+            "If the service was good, the tip should not change",
+            "You should not tip",
+            "You should tip double"
+          ],
+          "answerIndex": 0,
+          "explanation": "A kitchen problem is usually not the server's fault."
+        },
+        {
+          "id": "c8",
+          "prompt": "How many phrases does the text say will cover almost everything?",
+          "options": [
+            "Two",
+            "Five",
+            "Ten"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Sorry, I think there's been a mix-up” and “Could you check this for me?”"
+        }
+      ]
+    },
+    {
+      "id": "a2-order-match",
+      "type": "matching",
+      "title": "The Right Sentence",
+      "instructions": "Match each problem to what the text says to say.",
+      "items": [
+        {
+          "id": "cm1",
+          "pairs": [
+            {
+              "left": "They brought the wrong dish",
+              "right": "Sorry — I think this might be the wrong dish."
+            },
+            {
+              "left": "The food is cold",
+              "right": "Would you mind heating this up a little?"
+            },
+            {
+              "left": "Something has not arrived",
+              "right": "I think we're still waiting on the fries."
+            },
+            {
+              "left": "The bill looks wrong",
+              "right": "Could you check this for me?"
+            },
+            {
+              "left": "The problem is fixed",
+              "right": "That's great, thank you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-order-fill",
+      "type": "fill-blank",
+      "title": "Softening Words",
+      "instructions": "Complete each sentence with the word that makes it polite.",
+      "items": [
+        {
+          "id": "cf1",
+          "prompt": "I think this ___ be the wrong dish.",
+          "answers": [
+            "might"
+          ],
+          "options": [
+            "might",
+            "will",
+            "must"
+          ],
+          "explanation": "Might softens the statement; it is not real doubt."
+        },
+        {
+          "id": "cf2",
+          "prompt": "___ you ___ heating this up a little?",
+          "answers": [
+            "Would",
+            "mind"
+          ],
+          "options": [
+            [
+              "Would",
+              "Can",
+              "Do"
+            ],
+            [
+              "mind",
+              "like",
+              "want"
+            ]
+          ],
+          "explanation": "Would you mind…? is a very polite request."
+        },
+        {
+          "id": "cf3",
+          "prompt": "I think we're still ___ ___ the fries.",
+          "answers": [
+            "waiting",
+            "on"
+          ],
+          "options": [
+            [
+              "waiting",
+              "looking",
+              "asking"
+            ],
+            [
+              "on",
+              "for",
+              "at"
+            ]
+          ],
+          "explanation": "Still waiting on is softer than you forgot."
+        },
+        {
+          "id": "cf4",
+          "prompt": "Could you ___ this for me? I think we were charged twice.",
+          "answers": [
+            "check"
+          ],
+          "options": [
+            "check",
+            "pay",
+            "bring"
+          ],
+          "explanation": "You ask them to look, not accuse them."
+        },
+        {
+          "id": "cf5",
+          "prompt": "I think there's been a ___ with the order.",
+          "answers": [
+            "mix-up"
+          ],
+          "options": [
+            "mix-up",
+            "problem",
+            "mistake"
+          ],
+          "explanation": "A mix-up blames nobody — things simply got exchanged."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Has a restaurant ever got your order wrong? What did you say?",
+    "In Portuguese, how do you complain politely? Is it the same pattern?",
+    "Is it rude in your country to send food back?",
+    "Practice: your soup is cold and you were charged for two desserts. Say both things politely."
+  ]
+}

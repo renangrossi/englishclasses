@@ -340,6 +340,17 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   cursor: help;
 }
 
+/* Two taught items can legitimately end up side by side ("Would you mind" +
+   "heating this up"). The space between them sits outside both spans, so the
+   dotted rules stop and restart with no visible gap and the pair reads as one
+   long highlight. A little air at the join is enough to show there are two,
+   without looking like a typographic accident. Rewriting the dozen passages
+   where this happens would mean re-recording them for a styling problem. */
+.vocab-term + .vocab-term {
+  margin-left: 0.18em;
+  padding-left: 0.06em;
+}
+
 /* Glossary words inside a reading passage carry their own definition, so a
    reader can hover (or tap, or tab to) the word instead of scrolling to a
    separate list. The definition lives in data-definition and is rendered by

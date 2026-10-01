@@ -55,7 +55,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-150 images, imported with `scripts/import_local_artwork.py` from the local
+149 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -112,7 +112,6 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `a2/two-very-different-trips` | `01.jpg` | People on a Beach | `amaldus-nielsen-people-on-a-beach-1894.jpg` |
 | `a2/two-very-different-trips` | `02.jpg` | Buddhist Temple in Darjeeling, Sikkim | `vasily-vereshchagin-buddhist-temple-in-darjiling-sikkim-1874.jpg` |
 | `b1/a-day-in-the-house` | `01.jpg` | A Sleeping Dog | `gerrit-dou-a-sleeping-dog.jpeg` |
-| `b1/a-day-in-the-office` | `01.jpg` | Presentation of the Pandects to the Emperor Justinian | `hermann-knackfuss-presentation-of-the-pandects-to-the-emperor-justinian.jpeg` |
 | `b1/a-freelance-accounting-assignment` | `01.jpg` | The Cartographers' Circle | `fritz-wagner-the-cartographers-circle.jpeg` |
 | `b1/animal-solutions` | `01.jpg` | Cattle and Sheep on Canterbury Meadows | `thomas-sidney-cooper-cattle-and-sheep-on-canterbury-meadows-1803-1902.jpg` |
 | `b1/animal-solutions` | `02.jpg` | Shepherd with Cows | `rudolf-koller-shepherd-with-cows-1828-1905.jpeg` |
@@ -214,7 +213,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-69 images the gallery could not answer -- flags, maps, photographs and
+70 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything that is not public domain.
 
@@ -233,6 +232,7 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `a2/declaration-of-independence` | `02.jpg` | The document itself, now in Washington, D.C. The large signature at the top left of the names is John Hancock's. | `File:United States Declaration of Independence.jpg` |
 | `a2/oregon-trail` | `02.jpg` | Emigrants Crossing the Plains | `File:Emigrants Crossing the Plains, or The Oregon Trail (Albert Bierstadt), 1869.jpg` |
 | `a2/sacagawea` | `01.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
+| `b1/a-day-in-the-office` | `01.jpg` | Interior with a Woman Standing | `File:Interior with a Woman Standing by Vilhelm Hammershøi, 1913.jpg` |
 | `b1/american-flag-symbols` | `01.jpg` | Join, or Die | `File:Benjamin Franklin - Join or Die.jpg` |
 | `b1/american-flag-symbols` | `02.jpg` | The Grand Union flag, or Continental Colors, used from late 1775. Thirteen colonies acting together | `File:Grand Union Flag.svg` |
 | `b1/american-flag-symbols` | `03.jpg` | One reading of the 1777 resolution: thirteen stars in rows. The resolution did not say how to arrange them, so flag-makers decided for themselves. | `File:Flag of the United States (1777-1795).svg` |

@@ -586,5 +586,29 @@
   "fingerprint": "bf6b36da1708a209",
   "rate": "+0%",
   "voice": "en-US-BrianNeural"
+ },
+ "c2/saying-no-without-saying-no": {
+  "bytes": 1625616,
+  "fingerprint": "ad0bdc76ad755f38",
+  "rate": "+0%",
+  "voice": "en-US-GuyNeural"
+ },
+ "c2/the-case-against-plain-english": {
+  "bytes": 1469376,
+  "fingerprint": "531805b26beb226c",
+  "rate": "+0%",
+  "voice": "en-US-EmmaNeural"
+ },
+ "c2/the-same-news-four-ways": {
+  "bytes": 1547568,
+  "fingerprint": "0d404602c36b2342",
+  "rate": "+0%",
+  "voice": "en-US-JennyNeural"
+ },
+ "c2/what-doesnt-translate": {
+  "bytes": 1532160,
+  "fingerprint": "2f91f48da74139e3",
+  "rate": "+0%",
+  "voice": "en-US-ChristopherNeural"
  }
 }

@@ -1,0 +1,363 @@
+{
+  "id": "c2-reading-the-case-against-plain-english",
+  "level": "C2",
+  "slug": "the-case-against-plain-english",
+  "topic": "society",
+  "title": "The Case Against Plain English",
+  "subtitle": "Plain language is almost always right. This is an argument about the cases where it is not — and it concedes more than it wins.",
+  "description": "A C2 reading and listening text that argues a counterintuitive position, qualifies it twice, and ends by conceding most of it: a model of argument built across paragraphs.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "female",
+  "audio": {
+    "duration_label": "4:04"
+  },
+  "passage": [
+    "Everyone is in favour of plain English, which should be the first warning. Positions that attract no opposition are rarely examined, and an unexamined position tends to be applied in places it was never meant to reach. The plain-language movement was right about almost everything it set out to fix, and the few things it got wrong are worth stating precisely, because stating them badly has given comfort to people who simply want to keep writing obscurely.",
+    "The case for plainness is overwhelming and should be conceded at once. Insurance contracts that no policyholder can parse, medical consent forms that defeat the patients signing them, benefit letters written in a register calculated to make a claimant give up — these are not neutral stylistic choices. They are transfers of power, carried out in prose, from the person who must act to the institution that drafted the document. Against that, plain English is not a matter of taste. It is closer to a civic obligation, and the movement that imposed it on government and finance did more practical good than most literary criticism has managed in a century.",
+    "The first difficulty is that plainness is a property of the pairing of a text and its reader, not of the text alone. There is no such thing as a plain sentence in the abstract. A contract clause rewritten for a general audience may become genuinely unusable for the lawyers who have to litigate it, because the technical terms that made it forbidding were also what made it precise. Jargon has two distinct functions that look identical from outside: it excludes outsiders, and it lets insiders say exact things quickly. Strip it out for a specialist audience and you have not democratised the document, you have merely made it longer and vaguer while congratulating yourself.",
+    "The second difficulty is subtler, and it concerns what a sentence does to the reader's pace. Prose that is maximally easy to read is read quickly, and some things should not be read quickly. A sentence that requires you to hold two clauses in mind before it resolves has not failed; it has asked you to do something, and the asking is part of the meaning. Legal drafting that forces a slow re-reading at the exact point where a right is being waived is doing a job that a shorter, friendlier sentence would not do. Difficulty is not always a defect. It is sometimes a speed limit.",
+    "The third is a matter of trust, and here the evidence cuts both ways. Simplified official language has been shown to increase comprehension and, in some studies, to decrease the reader's sense that they are being told the whole truth — a document that sounds easy can sound as though something has been left out, particularly when the reader already has reason to be suspicious of the institution. That finding is not a defence of obscurity. It is a warning that plainness, mechanically applied, can cost credibility exactly where credibility is scarcest.",
+    "Now the concession, which is larger than everything above. In the overwhelming majority of real cases, the writer reaching for a complex sentence is not protecting precision, controlling pace or preserving trust. They are hedging, or padding, or signalling membership of a profession, or concealing that they have not decided what they think. The honest test is whether the difficulty is doing identifiable work, and the honest answer, nine times in ten, is that it is not. Anyone who takes the three arguments above as general permission has misread them, and will write worse than before with a clearer conscience.",
+    "So the position is narrow. Plain English should be the default, enforced by law where power is unequal, and departed from only where a writer can say precisely what the departure buys. That is a weaker claim than the title promised, and the weakening is the point: an argument that survives its own qualifications is worth more than one that was never tested against them.",
+    "What should be resisted is not plainness but the automatic reflex — the style guide applied without a reader in mind, the rule that every sentence be short, the assumption that the simpler of two drafts is the better one. The question is never whether a sentence is plain. It is what the sentence is for, and whether its difficulty, if it has any, is earning its keep."
+  ],
+  "vocabulary": [
+    {
+      "term": "unexamined",
+      "definition": "never tested or questioned"
+    },
+    {
+      "term": "to concede",
+      "definition": "to admit that a point against you is correct",
+      "match": "conceded"
+    },
+    {
+      "term": "to parse",
+      "definition": "to work out the structure and meaning of"
+    },
+    {
+      "term": "to defeat",
+      "definition": "to be too difficult for somebody",
+      "match": "defeat"
+    },
+    {
+      "term": "claimant",
+      "definition": "a person applying for a legal right or a benefit"
+    },
+    {
+      "term": "to draft",
+      "definition": "to write an official document",
+      "match": "drafted"
+    },
+    {
+      "term": "civic",
+      "definition": "relating to the duties of a citizen"
+    },
+    {
+      "term": "to litigate",
+      "definition": "to argue a case in court"
+    },
+    {
+      "term": "forbidding",
+      "definition": "looking unfriendly or difficult to approach"
+    },
+    {
+      "term": "jargon",
+      "definition": "the specialist vocabulary of a trade or profession"
+    },
+    {
+      "term": "to democratise",
+      "definition": "to make available to everybody",
+      "match": "democratised"
+    },
+    {
+      "term": "to resolve",
+      "definition": "to reach its completion or settlement"
+    },
+    {
+      "term": "to waive",
+      "definition": "to give up a right",
+      "match": "waived"
+    },
+    {
+      "term": "defect",
+      "definition": "a fault"
+    },
+    {
+      "term": "to cut both ways",
+      "definition": "to support each side of an argument equally",
+      "match": "cuts both ways"
+    },
+    {
+      "term": "comprehension",
+      "definition": "understanding"
+    },
+    {
+      "term": "credibility",
+      "definition": "the quality of being believed"
+    },
+    {
+      "term": "scarce",
+      "definition": "in short supply",
+      "match": "scarcest"
+    },
+    {
+      "term": "concession",
+      "definition": "a point you admit to the other side"
+    },
+    {
+      "term": "to pad",
+      "definition": "to add words that carry no content",
+      "match": "padding"
+    },
+    {
+      "term": "to signal",
+      "definition": "to show something indirectly, often about yourself",
+      "match": "signalling"
+    },
+    {
+      "term": "reflex",
+      "definition": "an automatic reaction, done without thinking"
+    },
+    {
+      "term": "to earn its keep",
+      "definition": "to be worth what it costs",
+      "match": "earning its keep"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-plain-comp",
+      "type": "reading-comprehension",
+      "title": "Following an Argument That Turns",
+      "instructions": "This essay argues a position, qualifies it three times, and then concedes most of it. Track the movement.",
+      "items": [
+        {
+          "id": "p1",
+          "prompt": "Why does the author treat universal agreement as a warning sign?",
+          "options": [
+            "Positions nobody opposes go unexamined and get applied where they were never meant to",
+            "Because the majority is usually wrong",
+            "Because plain English is unpopular with writers"
+          ],
+          "answerIndex": 0,
+          "explanation": "“an unexamined position tends to be applied in places it was never meant to reach.”"
+        },
+        {
+          "id": "p2",
+          "prompt": "How does the author characterise impenetrable insurance and benefit documents?",
+          "options": [
+            "As transfers of power carried out in prose",
+            "As honest attempts at precision",
+            "As a matter of stylistic taste"
+          ],
+          "answerIndex": 0,
+          "explanation": "“from the person who must act to the institution that drafted the document.”"
+        },
+        {
+          "id": "p3",
+          "prompt": "What is the first objection to plainness?",
+          "options": [
+            "Plainness is a property of a text and its reader together, not of the text alone",
+            "Plain writing is boring",
+            "Plain writing is longer"
+          ],
+          "answerIndex": 0,
+          "explanation": "“There is no such thing as a plain sentence in the abstract.”"
+        },
+        {
+          "id": "p4",
+          "prompt": "What two functions does jargon serve, according to the text?",
+          "options": [
+            "It excludes outsiders, and it lets insiders say exact things quickly",
+            "It impresses clients and raises fees",
+            "It preserves tradition and shortens documents"
+          ],
+          "answerIndex": 0,
+          "explanation": "They “look identical from outside”, which is why removing jargon is not automatically a gain."
+        },
+        {
+          "id": "p5",
+          "prompt": "What does the author mean by calling difficulty “a speed limit”?",
+          "options": [
+            "A hard sentence slows the reader where slowing down is part of the meaning",
+            "Difficult prose takes longer to write",
+            "Readers should be tested"
+          ],
+          "answerIndex": 0,
+          "explanation": "The example is drafting that forces re-reading “at the exact point where a right is being waived”."
+        },
+        {
+          "id": "p6",
+          "prompt": "What does the evidence on simplified official language show?",
+          "options": [
+            "It raises comprehension but can reduce the sense that the whole truth is being told",
+            "It always increases trust",
+            "It has no measurable effect"
+          ],
+          "answerIndex": 0,
+          "explanation": "And the author is explicit that this “is not a defence of obscurity”."
+        },
+        {
+          "id": "p7",
+          "prompt": "What is the concession the author says is larger than the whole argument?",
+          "options": [
+            "Nine times in ten the complex sentence is hedging, padding or indecision, not precision",
+            "That plain English is unenforceable",
+            "That the studies are unreliable"
+          ],
+          "answerIndex": 0,
+          "explanation": "“the honest answer, nine times in ten, is that it is not.”"
+        },
+        {
+          "id": "p8",
+          "prompt": "Who does the author say has misread the essay?",
+          "options": [
+            "Anyone taking the three objections as general permission to write difficult prose",
+            "Anyone who supports plain English",
+            "Lawyers"
+          ],
+          "answerIndex": 0,
+          "explanation": "They “will write worse than before with a clearer conscience.”"
+        },
+        {
+          "id": "p9",
+          "prompt": "Why does the author call the weakening of the claim “the point”?",
+          "options": [
+            "An argument that survives its own qualifications is worth more than an untested one",
+            "Because the title was misleading",
+            "Because the subject is unimportant"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated in the penultimate paragraph."
+        },
+        {
+          "id": "p10",
+          "prompt": "What does the author say should actually be resisted?",
+          "options": [
+            "The automatic reflex — rules applied with no reader in mind",
+            "Plain English itself",
+            "Style guides of any kind"
+          ],
+          "answerIndex": 0,
+          "explanation": "“What should be resisted is not plainness but the automatic reflex.”"
+        }
+      ]
+    },
+    {
+      "id": "c2-plain-order",
+      "type": "matching",
+      "title": "The Shape of the Argument",
+      "instructions": "Match each stage of the essay to what it does.",
+      "items": [
+        {
+          "id": "pm1",
+          "pairs": [
+            {
+              "left": "Opening",
+              "right": "Treats universal agreement as a reason for suspicion"
+            },
+            {
+              "left": "Second paragraph",
+              "right": "Concedes the case for plainness in its strongest form"
+            },
+            {
+              "left": "Three middle paragraphs",
+              "right": "Raise reader-dependence, pace, and trust as limits"
+            },
+            {
+              "left": "Sixth paragraph",
+              "right": "Concedes that nine times in ten the objections do not apply"
+            },
+            {
+              "left": "Close",
+              "right": "Narrows the claim to the reflex rather than the principle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-plain-vocab",
+      "type": "vocabulary",
+      "title": "The Language of Argument",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "pv1",
+          "prompt": "To admit that a point against you is correct is to ___ it.",
+          "options": [
+            "concede",
+            "parse",
+            "waive"
+          ],
+          "answerIndex": 0,
+          "explanation": "A concession is a point granted to the other side."
+        },
+        {
+          "id": "pv2",
+          "prompt": "To give up a legal right is to ___ it.",
+          "options": [
+            "waive",
+            "litigate",
+            "draft"
+          ],
+          "answerIndex": 0,
+          "explanation": "To waive a right is to surrender it voluntarily."
+        },
+        {
+          "id": "pv3",
+          "prompt": "Evidence that supports both sides equally ___.",
+          "options": [
+            "cuts both ways",
+            "earns its keep",
+            "falls flat"
+          ],
+          "answerIndex": 0,
+          "explanation": "The author uses this of the research on trust."
+        },
+        {
+          "id": "pv4",
+          "prompt": "To add words that carry no content is to ___.",
+          "options": [
+            "pad",
+            "signal",
+            "resolve"
+          ],
+          "answerIndex": 0,
+          "explanation": "Padding is filler."
+        },
+        {
+          "id": "pv5",
+          "prompt": "If something is worth what it costs, it ___.",
+          "options": [
+            "earns its keep",
+            "cuts both ways",
+            "is forbidding"
+          ],
+          "answerIndex": 0,
+          "explanation": "The closing test applied to difficulty in a sentence."
+        },
+        {
+          "id": "pv6",
+          "prompt": "An automatic reaction done without thinking is a ___.",
+          "options": [
+            "reflex",
+            "defect",
+            "concession"
+          ],
+          "answerIndex": 0,
+          "explanation": "The essay's final target."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Find a sentence in your own professional writing whose difficulty does no work. Rewrite it.",
+    "Is there a document in your field where plain language would genuinely cost precision?",
+    "The essay concedes most of its case. Does that make it more or less persuasive to you?",
+    "“Difficulty is sometimes a speed limit.” Where have you wanted a reader to slow down?",
+    "Write about 300 words arguing a position you believe, and include the strongest objection to it."
+  ]
+}

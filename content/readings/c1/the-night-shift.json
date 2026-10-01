@@ -32,13 +32,6 @@
   ],
   "images": [
     {
-      "src": "01.jpg",
-      "after": 3,
-      "alt": "A long colonnade in fog and snow, lit faintly, with no one in it",
-      "source": "louis-daguerre-effect-of-fog-and-snow-seen-through-a-ruined-gothic-colonnade-1826.jpeg",
-      "caption": "*Effect of Fog and Snow Seen Through a Ruined Gothic Colonnade* — Louis Daguerre, 1826."
-    },
-    {
       "src": "02.jpg",
       "after": 7,
       "alt": "First light over a cold field, long shadows and the sun only just above the horizon",

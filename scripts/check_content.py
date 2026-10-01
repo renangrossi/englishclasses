@@ -124,8 +124,9 @@ def check_text(level, slug, d, rep):
             rep.err(tag, f"relation '{relation}' is not one of {VALID_RELATION}")
         elif relation == "analogue" and img.get("caption") \
                 and BARE_CAPTION_RE.match(img["caption"].strip()):
-            rep.warn(tag, "an analogue with a bare caption: it names the work but never "
-                          "says why it is here, so it reads as a picture of the subject")
+            rep.warn(tag, "analogue with a caption that only names the work. Harmless over a "
+                          "generic scene; a real problem when the text is about a named place, "
+                          "person or thing and the picture shows a different one")
 
     # ---- exercises --------------------------------------------------------
     ex_ids = set()

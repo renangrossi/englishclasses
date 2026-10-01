@@ -195,8 +195,15 @@
 
   /* --- glossary --------------------------------------------------------- */
   .reading-page .reading-glossary {
+    /* Undo the accessible-hiding it carries on screen. */
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip-path: none;
+    white-space: normal;
     display: block;
-    margin-top: 8mm;
+    margin: 8mm 0 0;
     padding-top: 3mm;
     border-top: 0.5pt solid #999;
     break-inside: avoid;

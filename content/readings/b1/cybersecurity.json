@@ -27,22 +27,7 @@
     "The fifth is backups, which are not about crime until suddenly they are. If a device is lost, broken or locked by ransomware, the only thing that matters is whether a copy of your files exists somewhere else. The rule people use is three copies, on two kinds of storage, with one somewhere other than your home.",
     "None of this makes anybody safe, which is not the standard to aim at. The standard is being harder work than the next person, because almost all of this is automated and automated attacks move on. Most of the damage in ordinary people's lives comes from a small number of very common mistakes, and five habits remove nearly all of them."
   ],
-  "images": [
-    {
-      "src": "01.jpg",
-      "after": 0,
-      "alt": "Defenders crowded behind a low wall around a church, watching for an attack that has not arrived yet",
-      "source": "karl-friedrich-lessing-the-siege-defense-of-a-church-courtyard-during-the-thirty-years-war-1848.jpeg",
-      "caption": "*The Siege: Defense of a Church Courtyard During the Thirty Years' War* — Karl Friedrich Lessing, 1848. The picture most people have of online crime, and almost none of it works this way."
-    },
-    {
-      "src": "02.jpg",
-      "after": 5,
-      "alt": "A fortified castle standing on high ground, its walls lit by late sun",
-      "source": "karl-friedrich-lessing-knights-castle.jpeg",
-      "caption": "*Knight's Castle* — Karl Friedrich Lessing. And the castle it was all fought over. Almost nothing about protecting an account works like this."
-    }
-  ],
+  "images": [],
   "vocabulary": [
     {
       "term": "to take over",

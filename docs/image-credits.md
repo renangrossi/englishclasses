@@ -55,7 +55,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-143 images, imported with `scripts/import_local_artwork.py` from the local
+107 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -63,35 +63,26 @@ rights; the gallery also holds living and recent artists, and none of that is us
 |---|---|---|---|
 | `a1/at-the-store` | `01.jpg` | Venetian Fruit Sellers | `stefano-novo-venetian-fruit-sellers-1898.jpeg` |
 | `a1/george-washington` | `01.jpg` | Washington Crossing the Delaware | `emanuel-leutze-washington-crossing-the-delaware.jpg` |
-| `a1/going-to-the-airport` | `01.jpg` | London Bridge, Half Tide | `john-atkinson-grimshaw-london-bridge-half-tide.jpeg` |
-| `a1/greetings-and-names` | `01.jpg` | The Fan Shop | `utagawa-toyokuni-the-fan-shop-ca-1800.jpeg` |
 | `a1/i-dont-feel-good` | `01.jpg` | The Quack | `albert-anker-the-quack-1897.jpeg` |
 | `a1/jack-works-from-home` | `01.jpg` | Sir Lawrence Alma-Tadema's Library in Townshend House, London | `anna-alma-tadema-sir-lawrence-alma-tademas-library-in-townshend-house-london-1884.jpeg` |
 | `a1/making-dinner` | `01.jpg` | Baking Bread | `anders-leonard-zorn-horneando-pan-1860-1920.jpeg` |
 | `a1/my-day` | `01.jpg` | The Happy Family | `eugenio-eduardo-zampighi-the-happy-family-1859-1944.jpeg` |
 | `a1/my-family` | `01.jpg` | Le gioie di casa* (The Joys of Home) | `pietro-saltini-le-gioie-di-casa.jpeg` |
 | `a1/my-job` | `01.jpg` | Inside a Bakery | `gustaf-olof-cederstrom-inside-a-bakery-1845-1933.jpeg` |
-| `a1/my-room` | `01.jpg` | Winter Garden | `eduard-hau-winter-garden.jpeg` |
 | `a1/numbers-and-time` | `01.jpg` | Piazza San Marco in Venice by Moonlight | `ippolito-caffi-piazza-san-marco-in-venice-by-moonlight.jpg` |
 | `a1/ordering-food` | `01.jpg` | Refreshments at a Wayside Inn | `cesare-augusto-detti-refreshments-at-a-wayside-inn.jpeg` |
 | `a1/rain-and-snow` | `01.jpg` | A Woman Under an Umbrella on a Flowering Meadow | `ivan-shishkin-a-woman-under-an-umbrella-on-a-flowering-meadow-1881.jpg` |
 | `a1/rain-and-snow` | `02.jpg` | Falling Leaves | `olga-wisinger-florian-falling-leaves-1899.jpeg` |
 | `a1/saturday-morning` | `01.jpg` | A Spring Day in Sæby Forest | `peder-mork-monsted-a-spring-day-in-saeby-forest-a-glimmer-of-sunlight-through-trees-1916.jpg` |
-| `a1/taking-the-train` | `01.jpg` | Steamboat Pier in Nærøyfjorden | `anders-askevold-steamboat-pier-in-naeroyfjorden-1894.jpg` |
 | `a2/a-weekend-at-the-lake` | `01.jpg` | The Picnic | `emile-claus-el-picnic-1887.jpeg` |
 | `a2/at-the-hotel` | `01.jpg` | A Game of L'hombre in Brøndum's Hotel | `anna-palm-de-rosa-a-game-of-lhombre-in-brondums-hotel-1885.jpg` |
 | `a2/at-the-hotel` | `02.jpg` | Outside the Fish Inn | `frank-moss-bennett-outside-the-fish-inn.jpeg` |
 | `a2/bus-to-the-mountains` | `01.jpg` | Drovers on a Bridge in an Alpine Landscape | `carl-schweich-drovers-on-a-bridge-in-an-alpine-landscape-1854.jpeg` |
 | `a2/bus-to-the-mountains` | `02.jpg` | Mountain Landscape with River | `zankovsky-ilya-nikolaevich-mountain-landscape-with-river-3.jpg` |
-| `a2/coffee-brewing` | `01.jpg` | Le Verre de Vin | `leon-augustin-lhermitte-le-verre-de-vin.jpeg` |
 | `a2/declaration-of-independence` | `01.jpg` | Declaration of Independence | `john-trumbull-declaration-of-independence-1819.jpeg` |
 | `a2/dream-bistro` | `01.jpg` | A Market Scene in Naples | `vincenzo-caprile-a-market-scene-in-naples.jpeg` |
 | `a2/everyday-service-english` | `01.jpg` | The Principal Market in Münster | `cornelis-springer-1840-1891-the-principal-market-in-munster.jpeg` |
-| `a2/everyday-service-english` | `02.jpg` | Photographed at the Acropolis | `genthe-arnold-kanellos-dance-group-performing-at-acropolis-photographed-1929.jpeg` |
 | `a2/finding-an-apartment` | `01.jpg` | Houses on the Herengracht, Amsterdam | `jan-van-der-heyden-amsterdam-city-view-with-houses-on-the-herengracht-and-the-old-haarlemmersluis-ca-1670.jpeg` |
-| `a2/flying-to-the-us` | `01.jpg` | A Ship Receiving a Pilot | `wyllie-william-lionel-a-ship-recieving-a-pilot-through-busy-thames-waters.jpg` |
-| `a2/flying-to-the-us` | `02.jpg` | Auf hoher See* (On the High Seas) | `michael-zeno-diemer-auf-hoher-see-ca-1902.jpg` |
-| `a2/flying-to-the-us` | `03.jpg` | Sentinel at the Entrance to the Temple Mount, Jerusalem | `gustav-bauernfeind-1848-1904-german-painter-illustrator-and-architect-sentinel-at-the-entrance-to-the-temple-mount-jerusalem.jpeg` |
 | `a2/grocery-shopping` | `01.jpg` | Still Life: Three Salmon Steaks | `francisco-goya-still-life-three-salmon-steaks-painted-1746-1828.jpeg` |
 | `a2/hiking-in-the-mountains` | `01.jpg` | The Mountain Pass | `sidney-richard-percy-the-mountain-pass.jpg` |
 | `a2/hiking-in-the-mountains` | `02.jpg` | Landscape at the Lake of Lucerne | `robert-zund-landscape-at-lake-of-lucerne-1827-1909.jpg` |
@@ -99,15 +90,11 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `a2/lewis-and-clark-west` | `02.jpg` | The Rocky Mountains, Lander's Peak | `albert-bierstadt-the-rocky-mountains-landers-peak.jpg` |
 | `a2/oregon-trail` | `01.jpg` | Evening on the Prairie | `albert-bierstadt-evening-on-the-prairie-1870.jpeg` |
 | `a2/restaurant-dialogue` | `01.jpg` | At the Inn | `alexandre-louis-leloir-at-the-inn-1868.jpeg` |
-| `a2/saying-and-telling` | `01.jpg` | New Acquaintance | `karl-lemoch-new-acquaintance.jpg` |
-| `a2/something-wrong-with-the-order` | `01.jpg` | It's Touch and Go to Laugh or No | `sophie-gengembre-anderson-its-touch-and-go-to-laugh-or-no-1857.jpeg` |
 | `a2/st-patricks-day` | `01.jpg` | Procession to St Paul's Cathedral | `nicholas-chevalier-procession-to-st-pauls-cathedral-1872.jpeg` |
 | `a2/st-patricks-day` | `02.jpg` | Riders of the Sidhe | `john-duncan-riders-of-the-sidhe-1911.jpg` |
 | `a2/thanksgiving` | `01.jpg` | Harvest | `vladimir-orlovsky-harvest-in-the-ukraine-1880.jpeg` |
 | `a2/thanksgiving` | `02.jpg` | The Roast Beef of Old England | `frank-moss-bennett-the-roast-beef-of-old-england.jpeg` |
-| `a2/the-day-at-the-market` | `01.jpg` | The Nieuwezijds Voorburgwal with the Flower Market, Amsterdam | `gerrit-berckheyde-the-nieuwezijds-voorburgswal-with-the-flower-market-amsterdam-1686.jpg` |
 | `a2/the-day-at-the-market` | `02.jpg` | A Good Roast | `eduard-von-grutzner-a-good-roast-1889.jpeg` |
-| `a2/two-small-errands` | `01.jpg` | On the Terrace | `paul-fischer-on-the-terrace-1912.jpeg` |
 | `a2/two-small-errands` | `02.jpg` | A Town Scene with a Farrier | `jacques-carabain-a-town-scene-with-a-farrier.jpeg` |
 | `a2/two-very-different-trips` | `01.jpg` | People on a Beach | `amaldus-nielsen-people-on-a-beach-1894.jpg` |
 | `a2/two-very-different-trips` | `02.jpg` | Buddhist Temple in Darjeeling, Sikkim | `vasily-vereshchagin-buddhist-temple-in-darjiling-sikkim-1874.jpg` |
@@ -116,26 +103,19 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b1/animal-solutions` | `01.jpg` | Cattle and Sheep on Canterbury Meadows | `thomas-sidney-cooper-cattle-and-sheep-on-canterbury-meadows-1803-1902.jpg` |
 | `b1/animal-solutions` | `02.jpg` | Shepherd with Cows | `rudolf-koller-shepherd-with-cows-1828-1905.jpeg` |
 | `b1/arriving-in-johannesburg` | `01.jpg` | Cape Mountain Landscape | `gabriel-cornelis-de-jongh-cape-mountain-landscape.jpeg` |
-| `b1/arriving-in-johannesburg` | `02.jpg` | View Through an Archway | `bartholomeus-johannes-van-hove-view-through-an-archway-1790-1880.jpeg` |
 | `b1/beers` | `01.jpg` | In the Monastery Cellar | `eduard-von-grutzner-in-the-monastery-cellar-1878.jpeg` |
 | `b1/cachacas` | `02.jpg` | Interior of a Hammersmith | `hugo-charlemont-interior-of-a-hammersmith-1883.jpg` |
 | `b1/cars` | `01.jpg` | The Horse Fair | `rosa-bonheur-the-horse-fair-c-1855.jpeg` |
 | `b1/cars` | `02.jpg` | The Montgolfier brothers' balloon | `claude-louis-desrais-montgolfier-brothers-hot-air-balloon.jpg` |
 | `b1/climbing` | `01.jpg` | Glacier Plateau | `edward-theodore-compton-glacier-plateau-1906.jpg` |
 | `b1/climbing` | `02.jpg` | Grindelwald Glacier in the Alps | `joseph-anton-koch-grindelwald-glacier-in-the-alps-1823.jpeg` |
-| `b1/common-chores` | `01.jpg` | Moscow Courtyard | `vasily-polenov-moscow-courtyard-1878.jpeg` |
-| `b1/cybersecurity` | `01.jpg` | The Siege: Defense of a Church Courtyard During the Thirty Years' War | `karl-friedrich-lessing-the-siege-defense-of-a-church-courtyard-during-the-thirty-years-war-1848.jpeg` |
-| `b1/cybersecurity` | `02.jpg` | Knight's Castle | `karl-friedrich-lessing-knights-castle.jpeg` |
 | `b1/detective-story` | `01.jpg` | Moonlight Landscape | `joseph-wright-of-derby-moonlight-landscape.jpg` |
 | `b1/do-make-livestock-farming` | `01.jpg` | In the Farm | `julien-dupre-1851-1910-french-naturalist-painter-in-the-farm.jpeg` |
 | `b1/do-make-livestock-farming` | `02.jpg` | The Gleaners | `jean-francois-millet-the-gleaners-1857.jpeg` |
 | `b1/glamping` | `01.jpg` | Camping for the Night on Mansfield Mountain | `sanford-robinson-gifford-camping-for-the-night-on-mansfield-mountain.jpeg` |
-| `b1/golden-gate-bridge-present-perfect` | `01.jpg` | The Opening of Tower Bridge | `wyllie-william-lionel-the-opening-of-tower-bridge.jpg` |
-| `b1/golden-gate-bridge-present-perfect` | `02.jpg` | Landseer modeling one of the lions for Nelson's Column | `john-ballantyne-1815-1897-scottish-portrait-and-history-painter-edwin-henry-landseer-1802-1873-english-painter-and-sculptor-modelling-one-of-the-lions-for-the-base-of-nelsons-column-in-trafalgar-square.jpeg` |
 | `b1/investigation-story` | `01.jpg` | A Game of Piquet | `ernest-meissonier-a-game-of-piquet-1861.jpeg` |
 | `b1/investigation-story` | `02.jpg` | A Moonlit Night | `august-piepenhagen-a-moonlit-night.jpg` |
 | `b1/investigation-story` | `03.jpg` | Lost Honor | `eduard-schulz-briesen-lost-honour.jpeg` |
-| `b1/kitchen-chaos` | `01.jpg` | The Dinner at the Ball | `adolph-von-menzel-the-dinner-at-the-ball-1878.jpg` |
 | `b1/lewis-and-clark-unknown` | `01.jpg` | Among the Sierra Nevada Mountains | `albert-bierstadt-among-the-sierra-nevada-mountains-1868.jpg` |
 | `b1/louisiana-purchase` | `01.jpg` | The Falls of St Anthony | `albert-bierstadt-the-falls-of-st-anthony-1887.jpg` |
 | `b1/milan-restaurants` | `01.jpg` | Oregon Trail Campfire | `albert-bierstadt-oregon-trail-campfire-1863.jpeg` |
@@ -143,16 +123,12 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b1/my-day-in-vienna-to-by-for` | `01.jpg` | St Stephen's Cathedral in Vienna | `rudolf-von-alt-st-stephens-cathedral-in-vienna-1832.jpg` |
 | `b1/my-day-in-vienna-to-by-for` | `02.jpg` | The Roman Ruins at Schönbrunn | `ferdinand-georg-waldmuller-the-roman-ruins-at-schonbrunn-1832.jpeg` |
 | `b1/my-life-and-plans` | `01.jpg` | Distracted from His Studies | `jules-girardet-1856-1938-distracted-from-his-studies.jpeg` |
-| `b1/nfl` | `01.jpg` | Pindar Exalts a Victor in the Olympic Games | `giuseppe-sciuti-pindar-exalts-a-victor-in-the-olympic-games.jpeg` |
 | `b1/ny-visitation` | `01.jpg` | Park Landscape with a Fountain | `edvard-petersen-park-landscape-with-a-fountain.jpeg` |
 | `b1/ny-visitation` | `02.jpg` | The Victoria Embankment from Hungerford Bridge | `george-hyde-pownall-the-victoria-embankment-from-hungerford-bridge-1876-1932.jpeg` |
-| `b1/physical-education` | `01.jpg` | The Nursery | `albert-anker-the-nursery-1890.jpeg` |
-| `b1/physical-education` | `02.jpg` | Children in a Punt, Fishing an Old Shoe | `marie-wunsch-1862-1898-children-in-a-punt-fishing-an-old-shoe.jpeg` |
 | `b1/rio-de-janeiro-exercises` | `01.jpg` | The Heart of the Andes | `frederic-edwin-church-the-heart-of-the-andes.jpg` |
 | `b1/rio-de-janeiro-exercises` | `02.jpg` | Tropical Landscape with a Hanging Bridge | `frederic-edwin-church-tropical-landscape-with-a-hanging-bridge.jpg` |
 | `b1/santa-catarina` | `01.jpg` | Storm at Sea off the Norwegian Coast | `andreas-achenbach-storm-at-sea-off-the-norwegian-coast-1815-1910.jpeg` |
 | `b1/santa-catarina` | `02.jpg` | Retreating Storm on the Italian Coast | `oswald-achenbach-retreating-storm-on-the-italian-coast.jpeg` |
-| `b1/say-speak-talk-tell-02` | `01.jpg` | Market Square, Seville | `richard-ansdell-market-square-seville-1860.jpeg` |
 | `b1/snowy-days` | `01.jpg` | First Snow | `ivan-shishkin-first-snow.jpeg` |
 | `b1/snowy-days` | `02.jpg` | Winter Landscape | `caspar-david-friedrich-winter-landscape.jpg` |
 | `b1/southeast-asia-adventure` | `01.jpg` | The Main Temple of Tassiding Monastery, Sikkim | `vasily-vereshchagin-the-main-temple-of-tassiding-monastery-sikkim-1875.jpg` |
@@ -174,30 +150,18 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b2/egypt-a-journey-through-history-and-culture` | `02.jpg` | Temple on the Nile | `david-roberts-temple-on-the-nile.jpeg` |
 | `b2/formal-informal` | `01.jpg` | Pericles' Funeral Oration | `philipp-foltz-pericles-funeral-oration-1852.jpg` |
 | `b2/formula-1` | `01.jpg` | The Chariot Race | `alexander-von-wagner-the-chariot-race.jpeg` |
-| `b2/intelligence-pills` | `01.jpg` | The Oracle | `camillo-miola-c-the-oracle-1840-1919.jpeg` |
-| `b2/it-interview` | `01.jpg` | The Studio of Phidias | `pierre-olivier-joseph-coomans-1816-1889-the-studio-of-phidias.jpg` |
 | `b2/north-sentinel-island` | `01.jpg` | Dutch Vessels and Fishermen on a Rocky Coast | `adam-willaerts-dutch-vessels-and-fishermen-on-a-rocky-coast.jpeg` |
-| `b2/north-sentinel-island` | `02.jpg` | View of the Island of Møn | `anton-eduard-kieldrup-view-of-the-island-of-mon-denmark-1849.jpg` |
-| `b2/phrasal-verbs-02-trip-abroad` | `01.jpg` | View of the Château de Versailles from the Avenue de Paris | `pierre-patel-view-of-the-chateau-de-versailles-and-the-gardens-from-the-avenue-de-paris-c-1668.jpeg` |
-| `b2/project-management-can-could-able-do-make` | `01.jpg` | Roman Senate Scene | `stefan-bakalowicz-roman-senate-scene.jpg` |
-| `b2/recent-advancements-in-it` | `01.jpg` | The Egyptian Court, Crystal Palace, Sydenham | `philip-henry-delamotte-the-egyptian-court-crystal-palace-sydenham-1854.jpeg` |
 | `b2/romania` | `01.jpg` | Forest Landscape with Castle Ruins | `anton-hlavacek-forest-landscape-with-castle-ruins.jpeg` |
 | `b2/romania` | `02.jpg` | Vlad the Impaler's Night Attack at Târgoviște | `theodor-aman-draculas-night-attack-at-targoviste.jpg` |
-| `b2/sales-strategy` | `01.jpg` | Alexander the Great Receiving the Keys of Babylon | `johann-georg-platzer-alexander-the-great-receiving-keys-of-babylon.jpeg` |
 | `b2/the-marathon-and-the-wall` | `01.jpg` | The Heraean Games | `prospero-piatti-the-heraean-games-1901.jpg` |
 | `c1/attention-economy` | `01.jpg` | Public Exhibition of a Picture | `joan-ferrer-miro-1850-1931-public-exhibition-of-a-picture.jpg` |
-| `c1/haiti` | `01.jpg` | Seeing Off a Recruit | `ilya-efimovich-repin-seeing-off-a-recruit-1879.jpeg` |
-| `c1/questionnaire-company-management` | `01.jpg` | A Roman Studio | `lawrence-alma-tadema-a-roman-studio-1874.jpg` |
 | `c1/real-estate` | `01.jpg` | Estes Park and Longs Peak | `albert-bierstadt-estes-park-and-longs-peak-c-1876.png` |
 | `c1/shadows-in-the-server-room` | `01.jpg` | A Nocturnal Fire | `egbert-van-der-poel-a-nocturnal-fire-1621-1664.jpg` |
 | `c1/technology-and-ethics` | `01.jpg` | The Death of Icarus | `alexandre-cabanel-the-death-of-icarus.jpeg` |
-| `c1/the-cost-of-convenience` | `01.jpg` | Hanging Gardens of Babylon | `ferdinand-knab-hanging-gardens-of-babylon-1886.jpeg` |
 | `c1/the-meeting-problem` | `01.jpg` | After a Difficult Meeting | `eduard-von-grutzner-after-a-difficult-meeting-1892.jpeg` |
-| `c1/the-night-shift` | `01.jpg` | Effect of Fog and Snow Seen Through a Ruined Gothic Colonnade | `louis-daguerre-effect-of-fog-and-snow-seen-through-a-ruined-gothic-colonnade-1826.jpeg` |
 | `c1/the-night-shift` | `02.jpg` | Winter Morning | `joseph-farquharson-winter-morning.jpg` |
 | `c2/reading-a-scientific-claim` | `01.jpg` | Total Eclipse of the Sun | `wilhelm-kranz-total-eclipse-of-the-sun-1897.jpeg` |
 | `c2/reading-a-scientific-claim` | `02.jpg` | The Great Comet of 1861 | `edmund-weiss-great-comet-of-1861-1888.jpeg` |
-| `c2/saying-no-without-saying-no` | `01.jpg` | Maecenas' Reception Room | `stefan-bakalowicz-maecenas-reception-room.jpeg` |
 | `c2/the-accent-you-keep` | `01.jpg` | A Reading from Homer | `lawrence-alma-tadema-a-reading-from-homer.jpg` |
 | `c2/the-case-against-plain-english` | `01.jpg` | Diogenes | `jean-leon-gerome-diogene-1860.jpeg` |
 | `c2/the-same-news-four-ways` | `01.jpg` | A Girl Reading a Newspaper | `wada-eisaku-a-girl-reading-newspaper-1897.jpeg` |
@@ -207,7 +171,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-73 images the gallery could not answer -- flags, maps, photographs and
+74 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything that is not public domain.
 
@@ -238,6 +202,7 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b1/american-flag-symbols` | `09.jpg` | Fifty stars since 1960. Thirteen stripes, by the law of 1818, for the colonies that started it. | `File:Flag of the United States.svg` |
 | `b1/cachacas` | `01.jpg` | Harvesting the Sugar-Cane in Minas Gerais, Brazil | `File:Marianne North (1830-1890) - Harvesting the Sugar-Cane in Minas Geraes, Brazil - MN45 - Marianne North Gallery.jpg` |
 | `b1/frederick-douglass` | `01.jpg` | Frederick Douglass in 1856. He sat for photographs constantly and deliberately: he was the most photographed American of the nineteenth century. | `File:Frederick Douglass ambrotype (1856).jpg` |
+| `b1/golden-gate-bridge-present-perfect` | `01.jpg` | The Golden Gate Bridge | `File:Golden Gate Bridge, HAER CA-31-4.jpg` |
 | `b1/hachiko` | `01.jpg` | Hachiko at Shibuya station, around 1933 | `File:Chuken Hachiko at Shibuya Station c1933.png` |
 | `b1/hachiko` | `02.jpg` | Hachiko, photographed in the 1930s. The folded left ear is how people at the station picked him out; it had been injured years earlier and never stood up again. | `File:Faithful Dog Hachiko Photo.png` |
 | `b1/harriet-tubman` | `01.jpg` | Harriet Tubman, photographed around 1868, about twenty years after her own escape. | `File:Harriet Tubman c1868-69.jpg` |

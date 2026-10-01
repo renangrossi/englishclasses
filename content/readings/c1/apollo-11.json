@@ -1,0 +1,341 @@
+{
+  "id": "c1-reading-apollo-11",
+  "level": "C1",
+  "slug": "apollo-11",
+  "order": 105,
+  "topic": "history",
+  "title": "Apollo 11",
+  "subtitle": "The landing is remembered as a triumph of nerve. It was mostly a triumph of people who had spent years imagining exactly how it would go wrong.",
+  "description": "A C1 reading and listening text on Apollo 11: the alarms during the descent, the software that handled them, the speech written in case the crew could not come home, and what was left on the Moon.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "passage": [
+    "The best-known twelve minutes of the twentieth century were, from inside the spacecraft, a sequence of problems. Nineteen minutes into the descent the guidance computer began raising an alarm — program alarm 1202, then 1201 — which neither Armstrong nor Aldrin recognised. On the ground a twenty-six-year-old engineer named Steve Bales had seconds to decide whether it meant the landing should be abandoned. He said go.",
+    "He could say go because of a design decision taken years earlier. The software written by the team under Margaret Hamilton at MIT had been built to assume that it would at some point be given more work than it could do, and to respond by discarding the least important tasks and restarting the essential ones rather than failing altogether. The alarms meant the computer was overloaded and recovering, repeatedly, exactly as designed. The machine doing this had about four kilobytes of memory that could be written to.",
+    "Then Armstrong took over manual control, because the computer was steering the craft towards a crater strewn with boulders, and flew on past it looking for level ground. Flying costs fuel. Aldrin read out altitudes while Houston counted down the margin, and the call of sixty seconds, then thirty seconds, became the most quoted part of the transmission. Later reconstruction suggests there was rather more left than the callouts implied, but nobody on the loop knew that at the time.",
+    "They landed at 20:17 UTC on 20 July 1969, in the Sea of Tranquillity, about six kilometres from the intended point. Armstrong's first words from the surface were not the famous ones; they were a confirmation that the engine was off and the craft was down.",
+    "A third man was not there. Michael Collins remained in lunar orbit in the command module, alone, losing radio contact with everyone on each pass behind the Moon — forty-eight minutes at a time in which he was, by a common formulation, the most isolated human being who had ever lived. He later wrote that he did not feel lonely so much as aware that if the ascent engine failed he would be going home by himself, and that he had rehearsed that flight.",
+    "That possibility had been prepared for on the ground too. William Safire, then a speechwriter in the Nixon White House, had drafted a statement to be read if the crew could not lift off: \"Fate has ordained that the men who went to the Moon in peace will stay on the Moon to rest in peace.\" The plan was that contact would be closed out, a clergyman would commend their souls to the deep, and the President would telephone the widows first. The text was declassified in 1999 and had never been needed.",
+    "The walk itself lasted about two and a half hours. They took photographs, planted a flag stiffened with a wire rod because there is no wind, collected twenty-one and a half kilograms of rock and soil, and set out three experiments. One was a sheet of foil to catch particles from the solar wind. One was a seismometer. The third was a panel of corner-cube mirrors, and it is the reason the landing is still, in a narrow sense, in use: observatories on Earth continue to bounce lasers off it, which is how the distance to the Moon is known to within a few centimetres and how we know it is receding at about 3.8 centimetres a year.",
+    "They also left a plaque, a silicon disc carrying goodwill messages from seventy-three countries, and a good deal of equipment they no longer needed, because every kilogram left behind was a kilogram the ascent engine did not have to lift. Among it, by most accounts, was a bag of rubbish.",
+    "An estimated six hundred million people watched, on a television signal of famously poor quality, and the slow-scan tapes of the original broadcast were later wiped and reused — the highest-quality recording of the event was destroyed through ordinary institutional carelessness.",
+    "What the mission demonstrated was not courage, which was not in short supply anywhere in the twentieth century, but something rarer: that four hundred thousand people could be organised to anticipate failure so thoroughly that when the failures came, on schedule, there was already an answer for each one. The flags and the footprints are what we remember. The alarm handler is the achievement."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 3,
+      "alt": "An astronaut in a white spacesuit standing on grey lunar soil, the photographer and the lunar module reflected in his gold visor",
+      "source": "commons:File:Aldrin Apollo 11.jpg",
+      "caption": "Buzz Aldrin on the surface — Neil Armstrong, 20 July 1969. Armstrong appears almost only as a reflection in the visor, which is why there are so few photographs of him on the Moon."
+    },
+    {
+      "src": "02.jpg",
+      "after": 6,
+      "alt": "A flat panel of one hundred recessed glass corner mirrors, set up on the lunar surface with a footprint beside it",
+      "source": "commons:File:AS11-40-5952 - Apollo 11 - Apollo 11 Mission image - The Laser Ranging Retroreflector (LRRR) - NARA - 16685293.jpg",
+      "caption": "The Laser Ranging Retroreflector, photographed where it was left — NASA, 20 July 1969. It has no power and no moving parts, and observatories are still bouncing lasers off it.",
+      "wide": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a descent",
+      "definition": "a movement downwards"
+    },
+    {
+      "term": "to abandon",
+      "definition": "to stop doing something before it is finished"
+    },
+    {
+      "term": "to overload",
+      "definition": "to give something more to carry or process than it can manage"
+    },
+    {
+      "term": "strewn",
+      "definition": "scattered untidily over a surface"
+    },
+    {
+      "term": "a boulder",
+      "definition": "a very large rock"
+    },
+    {
+      "term": "a margin",
+      "definition": "the amount of something available beyond what is strictly needed"
+    },
+    {
+      "term": "an ascent",
+      "definition": "a movement upwards"
+    },
+    {
+      "term": "to ordain",
+      "definition": "to order or decide something with authority"
+    },
+    {
+      "term": "to recede",
+      "definition": "to move gradually further away"
+    },
+    {
+      "term": "to anticipate",
+      "definition": "to expect something and prepare for it"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-a11-comp",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "Choose the best answer according to the text.",
+      "items": [
+        {
+          "id": "a11-c1",
+          "prompt": "What did program alarms 1202 and 1201 mean?",
+          "options": [
+            "The engine was failing",
+            "The computer was overloaded and recovering as designed",
+            "The radar had switched off"
+          ],
+          "answerIndex": 1,
+          "explanation": "The software discarded low-priority tasks and restarted the essential ones rather than failing altogether."
+        },
+        {
+          "id": "a11-c2",
+          "prompt": "Why did Armstrong take manual control?",
+          "options": [
+            "The computer had stopped working",
+            "The computer was steering towards a crater strewn with boulders",
+            "He had been instructed to from Houston"
+          ],
+          "answerIndex": 1,
+          "explanation": "He flew on past it looking for level ground, which cost fuel."
+        },
+        {
+          "id": "a11-c3",
+          "prompt": "What does the text say about the famous fuel callouts?",
+          "options": [
+            "They were exaggerated deliberately",
+            "Later reconstruction suggests there was more left than they implied, though nobody knew that at the time",
+            "They were inaudible on the transmission"
+          ],
+          "answerIndex": 1,
+          "explanation": "The margin was real to everyone on the loop, whatever the later figures showed."
+        },
+        {
+          "id": "a11-c4",
+          "prompt": "What had been prepared in case the crew could not lift off?",
+          "options": [
+            "A rescue mission",
+            "A statement drafted by William Safire for the President to read",
+            "A second lunar module"
+          ],
+          "answerIndex": 1,
+          "explanation": "It was declassified in 1999, having never been needed."
+        },
+        {
+          "id": "a11-c5",
+          "prompt": "Why is one of the experiments still in use?",
+          "options": [
+            "Its batteries have lasted",
+            "Observatories still bounce lasers off its mirrors to measure the distance to the Moon",
+            "It transmits weather data"
+          ],
+          "answerIndex": 1,
+          "explanation": "The distance is known to within a few centimetres, and the Moon is receding about 3.8 cm a year."
+        },
+        {
+          "id": "a11-c6",
+          "prompt": "What does the final paragraph say the mission really demonstrated?",
+          "options": [
+            "Exceptional courage",
+            "That a vast organisation could anticipate failure thoroughly enough to have an answer ready for each one",
+            "The superiority of American engineering"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"The alarm handler is the achievement.\""
+        }
+      ]
+    },
+    {
+      "id": "c1-a11-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide if each statement is true or false according to the text.",
+      "items": [
+        {
+          "id": "a11-t1",
+          "statement": "Armstrong's first words from the surface were the famous ones about a small step.",
+          "answer": false,
+          "explanation": "False — they were a confirmation that the engine was off and the craft was down."
+        },
+        {
+          "id": "a11-t2",
+          "statement": "Michael Collins lost radio contact on each pass behind the Moon.",
+          "answer": true,
+          "explanation": "True — for forty-eight minutes at a time."
+        },
+        {
+          "id": "a11-t3",
+          "statement": "The flag stood out because of a light lunar breeze.",
+          "answer": false,
+          "explanation": "False — there is no wind; it was stiffened with a wire rod."
+        },
+        {
+          "id": "a11-t4",
+          "statement": "The original high-quality recordings of the broadcast still exist.",
+          "answer": false,
+          "explanation": "False — the slow-scan tapes were wiped and reused."
+        },
+        {
+          "id": "a11-t5",
+          "statement": "Equipment was deliberately left on the Moon to reduce the mass the ascent engine had to lift.",
+          "answer": true,
+          "explanation": "True — including, by most accounts, a bag of rubbish."
+        }
+      ]
+    },
+    {
+      "id": "c1-a11-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "a11-v1",
+          "prompt": "Scattered untidily over a surface is ___.",
+          "options": [
+            "strewn",
+            "strained",
+            "strewth"
+          ],
+          "answerIndex": 0,
+          "explanation": "Strewn — the crater was strewn with boulders."
+        },
+        {
+          "id": "a11-v2",
+          "prompt": "To expect something and prepare for it is to ___ it.",
+          "options": [
+            "anticipate",
+            "appreciate",
+            "approximate"
+          ],
+          "answerIndex": 0,
+          "explanation": "Anticipate — the whole argument of the last paragraph."
+        },
+        {
+          "id": "a11-v3",
+          "prompt": "To move gradually further away is to ___.",
+          "options": [
+            "recede",
+            "reside",
+            "resign"
+          ],
+          "answerIndex": 0,
+          "explanation": "Recede — the Moon recedes about 3.8 cm a year."
+        },
+        {
+          "id": "a11-v4",
+          "prompt": "The amount available beyond what is strictly needed is the ___.",
+          "options": [
+            "margin",
+            "measure",
+            "medium"
+          ],
+          "answerIndex": 0,
+          "explanation": "The margin — in this case, of fuel."
+        },
+        {
+          "id": "a11-v5",
+          "prompt": "The upward journey off the surface is the ___.",
+          "options": [
+            "ascent",
+            "assent",
+            "accent"
+          ],
+          "answerIndex": 0,
+          "explanation": "The ascent. Note the two words that sound like it and mean something else entirely."
+        }
+      ]
+    },
+    {
+      "id": "c1-a11-blank",
+      "type": "fill-blank",
+      "title": "Complete the Summary",
+      "instructions": "Complete the summary with the correct word.",
+      "items": [
+        {
+          "id": "a11-b1",
+          "prompt": "The landing took place on 20 July ___.",
+          "answers": [
+            "1969"
+          ],
+          "options": [
+            "1969",
+            "1968",
+            "1972"
+          ],
+          "explanation": "20 July 1969."
+        },
+        {
+          "id": "a11-b2",
+          "prompt": "They came down in the Sea of ___.",
+          "answers": [
+            "Tranquillity"
+          ],
+          "options": [
+            "Tranquillity",
+            "Storms",
+            "Crises"
+          ],
+          "explanation": "The Sea of Tranquillity, about six kilometres off target."
+        },
+        {
+          "id": "a11-b3",
+          "prompt": "The software team at MIT was led by Margaret ___.",
+          "answers": [
+            "Hamilton"
+          ],
+          "options": [
+            "Hamilton",
+            "Hopper",
+            "Holberton"
+          ],
+          "explanation": "Margaret Hamilton."
+        },
+        {
+          "id": "a11-b4",
+          "prompt": "They collected about ___ kilograms of rock and soil.",
+          "answers": [
+            "21.5"
+          ],
+          "options": [
+            "21.5",
+            "2.15",
+            "215"
+          ],
+          "explanation": "Twenty-one and a half kilograms."
+        },
+        {
+          "id": "a11-b5",
+          "prompt": "The man who stayed in lunar orbit was Michael ___.",
+          "answers": [
+            "Collins"
+          ],
+          "options": [
+            "Collins",
+            "Aldrin",
+            "Chaffee"
+          ],
+          "explanation": "Michael Collins."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "The text says we remember the flags and the footprints, but that the real achievement was the preparation for failure. Why is the second kind of achievement so much harder to celebrate?",
+    "A speech had been written in case the crew died on the Moon. What does it tell you about the mission that this document existed?",
+    "The best recordings of the broadcast were wiped and reused. How should institutions decide what is worth keeping while it is still happening?"
+  ],
+  "audio": {
+    "duration_label": "4:20"
+  }
+}

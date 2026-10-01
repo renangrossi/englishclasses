@@ -1,0 +1,371 @@
+{
+  "id": "c2-reading-what-doesnt-translate",
+  "level": "C2",
+  "slug": "what-doesnt-translate",
+  "topic": "culture",
+  "title": "What Doesn't Translate",
+  "subtitle": "Everything can be translated. The question is what arrives.",
+  "description": "A C2 reading and listening text on translation: why jokes die, why some words have no equivalent, and what the idea of untranslatability actually conceals.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "4:15"
+  },
+  "passage": [
+    "There is a familiar list of words said to be untranslatable. The Portuguese saudade is always on it. So is the German Schadenfreude, the Japanese komorebi, the Welsh hiraeth. The list circulates endlessly and flatters everyone who reads it, because each of us gets to believe that our language holds something the others cannot reach. Almost all of it is nonsense, and the small part that is not is far more interesting than the list suggests.",
+    "Start with the nonsense. Saudade can be translated. It takes a clause rather than a word — the ache of missing something you may never have again, which is not quite longing and not quite grief — and the translation is perfectly serviceable. English has no single term for it, which is a fact about English vocabulary, not about the limits of English. Schadenfreude was untranslatable until English simply took it, which is what English does, and it is now ordinary. The claim of untranslatability usually turns out to mean one word there, several words here, and that is a difference of economy, not of possibility.",
+    "What genuinely resists translation is not vocabulary at all. It is everything that depends on the reader already knowing something.",
+    "Humour is the obvious casualty, and it fails in a specific way worth naming. A joke that turns on a pun dies because the two meanings that collided in the original do not collide in the target language, and nothing can be done about it. But most humour does not turn on puns. It turns on a shared expectation that the joke violates, and the expectation is cultural rather than linguistic. Render an English joke about queueing into Portuguese and every word will arrive intact while the humour stays behind, because the joke was never about the words. It was about an attitude to queues that the reader was assumed to hold before the sentence began.",
+    "Register fails in the same way and more quietly. Languages do not divide formality at the same points, and a sentence that is neutral in one can land as cold or as unexpectedly intimate in another. Portuguese and English disagree about where politeness lives — Portuguese carries much of it in verb forms and in the choice of address, English in modal verbs and hedging — so a faithful translation can be technically perfect and socially wrong. This is the failure that does real damage, because it is invisible. A misjudged joke merely falls flat; a misjudged register makes the speaker seem rude, servile or insincere, and nobody involved can point to a mistake.",
+    "Then there is the problem of words that carry a whole argument inside them. Any language's vocabulary for law, bureaucracy and social class is a compressed history, and the compression is what will not travel. English freedom and Portuguese liberdade overlap almost entirely as dictionary entries and diverge sharply in what they summon — the English word drags behind it several centuries of a particular constitutional quarrel. Translate it faithfully and you have moved the denotation across while leaving the argument on the other side of the border.",
+    "All of which suggests a conclusion the untranslatable-words lists get precisely backwards. Those lists imply that translation fails at the exotic edges, in the rare and beautiful word with no counterpart. In fact translation is reliable at the edges, because a strange word announces its own strangeness and the translator slows down, adds a gloss, takes the three words needed. Translation fails in the middle, on the ordinary vocabulary nobody thinks to check, where a word looks like a straightforward equivalent and quietly is not. The false friends are the standard example and the least of it. The deeper trouble is words that are genuine equivalents in denotation and carry different weight: a word that is neutral here and faintly bureaucratic there, formal in one language and merely old-fashioned in the other.",
+    "The practical consequence for anyone working across two languages is the reverse of the intuitive one. Do not worry about saudade. It is marked as difficult, and marked difficulties get handled. Worry about the words you are confident of — and about the joke you are certain will land."
+  ],
+  "vocabulary": [
+    {
+      "term": "untranslatable",
+      "definition": "said to be impossible to render in another language"
+    },
+    {
+      "term": "to circulate",
+      "definition": "to be passed around repeatedly",
+      "match": "circulates"
+    },
+    {
+      "term": "to flatter",
+      "definition": "to please somebody by telling them something agreeable about themselves",
+      "match": "flatters"
+    },
+    {
+      "term": "ache",
+      "definition": "a dull, continuing pain, often used of feeling"
+    },
+    {
+      "term": "longing",
+      "definition": "a strong wish for something far away or lost"
+    },
+    {
+      "term": "grief",
+      "definition": "the pain of losing somebody"
+    },
+    {
+      "term": "serviceable",
+      "definition": "good enough to do the job, without being elegant"
+    },
+    {
+      "term": "economy",
+      "definition": "the use of fewer words or means to the same end"
+    },
+    {
+      "term": "to resist",
+      "definition": "to hold out against; to not yield to",
+      "match": "resists"
+    },
+    {
+      "term": "casualty",
+      "definition": "the thing or person that suffers the loss"
+    },
+    {
+      "term": "pun",
+      "definition": "a joke that turns on a word with two meanings"
+    },
+    {
+      "term": "to collide",
+      "definition": "to crash into each other",
+      "match": "collided"
+    },
+    {
+      "term": "to render",
+      "definition": "to translate or express in another form",
+      "match": "Render"
+    },
+    {
+      "term": "intact",
+      "definition": "whole; not damaged"
+    },
+    {
+      "term": "to queue",
+      "definition": "to stand in a line and wait — British; Americans stand in line",
+      "match": "queueing"
+    },
+    {
+      "term": "to land",
+      "definition": "to have its intended effect on a listener",
+      "match": "land"
+    },
+    {
+      "term": "servile",
+      "definition": "too eager to obey or please"
+    },
+    {
+      "term": "insincere",
+      "definition": "not meaning what you say"
+    },
+    {
+      "term": "to fall flat",
+      "definition": "to fail to have any effect",
+      "match": "falls flat"
+    },
+    {
+      "term": "bureaucracy",
+      "definition": "official administration and its rules"
+    },
+    {
+      "term": "to summon",
+      "definition": "to call up; to bring to mind",
+      "match": "summon"
+    },
+    {
+      "term": "to drag behind",
+      "definition": "to carry along as unwanted weight",
+      "match": "drags behind"
+    },
+    {
+      "term": "denotation",
+      "definition": "what a word literally refers to, as against what it suggests"
+    },
+    {
+      "term": "gloss",
+      "definition": "a short explanation added to a difficult word"
+    },
+    {
+      "term": "false friend",
+      "definition": "a word that looks the same in two languages but means something different",
+      "match": "false friends"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-trans-comp",
+      "type": "reading-comprehension",
+      "title": "Following the Argument",
+      "instructions": "The argument reverses a common assumption. Follow where it turns.",
+      "items": [
+        {
+          "id": "z1",
+          "prompt": "Why does the author say the untranslatable-words lists flatter their readers?",
+          "options": [
+            "Each reader gets to believe their own language holds something others cannot reach",
+            "They are written by linguists",
+            "They include rare languages"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stated directly in the opening paragraph."
+        },
+        {
+          "id": "z2",
+          "prompt": "What is the author's verdict on saudade?",
+          "options": [
+            "It is translatable by a clause rather than a word — a difference of economy, not possibility",
+            "It is genuinely untranslatable",
+            "It means the same as longing"
+          ],
+          "answerIndex": 0,
+          "explanation": "“one word there, several words here, and that is a difference of economy, not of possibility.”"
+        },
+        {
+          "id": "z3",
+          "prompt": "What does the fate of Schadenfreude in English demonstrate?",
+          "options": [
+            "That English absorbs the word rather than being defeated by it",
+            "That German is richer than English",
+            "That borrowing fails"
+          ],
+          "answerIndex": 0,
+          "explanation": "“untranslatable until English simply took it, which is what English does.”"
+        },
+        {
+          "id": "z4",
+          "prompt": "Why does a joke about queueing fail in translation even when every word is correct?",
+          "options": [
+            "It depends on an attitude the reader was assumed to hold already",
+            "Queue has no Portuguese equivalent",
+            "It is a pun"
+          ],
+          "answerIndex": 0,
+          "explanation": "“the joke was never about the words.” Most humour violates a cultural expectation, not a linguistic one."
+        },
+        {
+          "id": "z5",
+          "prompt": "Why does the author call register failure the one that does real damage?",
+          "options": [
+            "Because it is invisible — the speaker seems rude or insincere and nobody can point to an error",
+            "Because it happens more often",
+            "Because it cannot be corrected"
+          ],
+          "answerIndex": 0,
+          "explanation": "“A misjudged joke merely falls flat; a misjudged register makes the speaker seem rude, servile or insincere.”"
+        },
+        {
+          "id": "z6",
+          "prompt": "Where does the text say Portuguese and English locate politeness?",
+          "options": [
+            "Portuguese in verb forms and address; English in modal verbs and hedging",
+            "Both in vocabulary",
+            "Both in word order"
+          ],
+          "answerIndex": 0,
+          "explanation": "Which is why a faithful translation can be “technically perfect and socially wrong”."
+        },
+        {
+          "id": "z7",
+          "prompt": "What is lost when freedom is translated as liberdade?",
+          "options": [
+            "Not the denotation but the argument the English word drags behind it",
+            "The grammatical gender",
+            "Nothing at all"
+          ],
+          "answerIndex": 0,
+          "explanation": "“you have moved the denotation across while leaving the argument on the other side of the border.”"
+        },
+        {
+          "id": "z8",
+          "prompt": "What is the central reversal of the essay?",
+          "options": [
+            "Translation is reliable at the exotic edges and fails in the ordinary middle",
+            "Translation always fails",
+            "Only poetry resists translation"
+          ],
+          "answerIndex": 0,
+          "explanation": "A strange word announces itself and gets handled; an ordinary one does not."
+        },
+        {
+          "id": "z9",
+          "prompt": "Why are false friends called “the least of it”?",
+          "options": [
+            "The deeper problem is true equivalents that carry different weight",
+            "They are rare",
+            "They only occur in Latin languages"
+          ],
+          "answerIndex": 0,
+          "explanation": "“neutral here and faintly bureaucratic there, formal in one language and merely old-fashioned in the other.”"
+        },
+        {
+          "id": "z10",
+          "prompt": "What is the closing advice?",
+          "options": [
+            "Distrust the words you are confident of, not the ones marked as hard",
+            "Avoid translating humour",
+            "Learn more vocabulary"
+          ],
+          "answerIndex": 0,
+          "explanation": "“marked difficulties get handled” — it is the unmarked ones that slip through."
+        }
+      ]
+    },
+    {
+      "id": "c2-trans-vocab",
+      "type": "vocabulary",
+      "title": "Precision Words",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "zv1",
+          "prompt": "What a word literally refers to, as against what it suggests, is its ___.",
+          "options": [
+            "denotation",
+            "economy",
+            "gloss"
+          ],
+          "answerIndex": 0,
+          "explanation": "Denotation is the literal reference."
+        },
+        {
+          "id": "zv2",
+          "prompt": "A short explanation added beside a difficult word is a ___.",
+          "options": [
+            "gloss",
+            "pun",
+            "casualty"
+          ],
+          "answerIndex": 0,
+          "explanation": "A gloss explains a term in passing."
+        },
+        {
+          "id": "zv3",
+          "prompt": "Good enough to do the job, without being elegant, is ___.",
+          "options": [
+            "serviceable",
+            "intact",
+            "servile"
+          ],
+          "answerIndex": 0,
+          "explanation": "Careful: serviceable and servile look alike and are unrelated."
+        },
+        {
+          "id": "zv4",
+          "prompt": "Too eager to obey or please is ___.",
+          "options": [
+            "servile",
+            "serviceable",
+            "sincere"
+          ],
+          "answerIndex": 0,
+          "explanation": "Servile describes a demeaning eagerness to please."
+        },
+        {
+          "id": "zv5",
+          "prompt": "A joke that fails to have any effect ___.",
+          "options": [
+            "falls flat",
+            "lands",
+            "collides"
+          ],
+          "answerIndex": 0,
+          "explanation": "To fall flat is to produce no reaction; to land is the opposite."
+        },
+        {
+          "id": "zv6",
+          "prompt": "A word that looks the same in two languages but means something else is a ___.",
+          "options": [
+            "false friend",
+            "pun",
+            "gloss"
+          ],
+          "answerIndex": 0,
+          "explanation": "The classic trap — though the text argues it is not the worst one."
+        }
+      ]
+    },
+    {
+      "id": "c2-trans-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement reflects the argument.",
+      "items": [
+        {
+          "id": "zt1",
+          "statement": "The author believes saudade cannot be translated.",
+          "answer": false,
+          "explanation": "False. It takes a clause rather than a word, which is a matter of economy."
+        },
+        {
+          "id": "zt2",
+          "statement": "Puns fail in translation for a different reason than most jokes do.",
+          "answer": true,
+          "explanation": "True. A pun fails because two meanings stop colliding; most humour fails because a cultural expectation is missing."
+        },
+        {
+          "id": "zt3",
+          "statement": "The author thinks register errors are easy to notice.",
+          "answer": false,
+          "explanation": "False. Their damage comes precisely from being invisible."
+        },
+        {
+          "id": "zt4",
+          "statement": "The author thinks translation is most reliable with rare, strange words.",
+          "answer": true,
+          "explanation": "True. A strange word announces its strangeness, so the translator slows down."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Name a word in your language you were told was untranslatable. Try translating it in one clause.",
+    "Describe a joke that died in translation. Was it the words or the expectation?",
+    "Where does politeness live in your language — in verbs, in address, in vocabulary?",
+    "The author says the real risk is the words you are confident about. Which English words are you confident about?",
+    "Write about 300 words on something you had to explain rather than translate."
+  ]
+}

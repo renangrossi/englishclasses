@@ -1,0 +1,348 @@
+{
+  "id": "c2-reading-saying-no-without-saying-no",
+  "level": "C2",
+  "slug": "saying-no-without-saying-no",
+  "topic": "business",
+  "title": "Saying No Without Saying No",
+  "subtitle": "Nobody in the meeting objected. The project was dead within a month. Both of those things are true, and the second one follows from the first.",
+  "description": "A C2 reading and listening text on indirectness in professional English: the vocabulary of soft refusal, why it exists, and how a fluent non-native speaker still misreads it.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "narrator": "male",
+  "audio": {
+    "duration_label": "4:30"
+  },
+  "passage": [
+    "The proposal went to the steering group in March. Nobody objected. One director said it was an interesting direction; another wondered aloud whether the timing was quite right; a third asked, pleasantly, what the appetite was elsewhere in the business. The minutes record no opposition, because none was expressed. The project was quietly dropped in April, and the person who had written it spent the summer wondering what had gone wrong in May.",
+    "Nothing had gone wrong in May. It had gone wrong in March, in a room where three people said no and one person did not hear it.",
+    "Professional English, and British professional English in particular, encodes refusal indirectly to a degree that is genuinely difficult for an outsider. This is not politeness in the ordinary sense, and it is certainly not weakness. It is a system, with a stable vocabulary and reliable rules, and it exists because a direct refusal in a meeting commits the refuser publicly, makes the refused party lose face, and forecloses the possibility that anyone will change their mind later without appearing to have lost. Indirection keeps all three of those doors open. The cost is that the message is carried almost entirely by register, and register is the last thing a learner acquires.",
+    "The phrasebook is small and worth memorising. “I'd push back slightly on that” is not a slight objection; the hedge is conventional and the objection is usually total. “Let's park that for now” means the idea is dead, but nobody has to say so, and the speaker retains the option of resurrecting it if circumstances change. “I'm not sure that's the hill to die on” means drop it, and carries a faint warning that persisting will cost you something. “That's certainly one way to look at it” means it is the wrong way. “With respect” reliably introduces its opposite. “Interesting”, delivered flat, is not a compliment and was never intended as one. And the devastating “I hear you” acknowledges that sound has reached the speaker's ear while committing to precisely nothing beyond that.",
+    "What makes these hard is not that they are idioms. A learner can look up an idiom. It is that the surface meaning is not merely different from the intended meaning but the reverse of it, and that the markers which signal the inversion are the smallest words in the sentence: slightly, a bit, just, perhaps, quite, certainly. Strip the hedges out and the same sentences become ordinary. It is the hedge that tells a native listener to invert, and a learner who has been taught that hedges soften a statement will dutifully soften it and arrive at the opposite conclusion.",
+    "The geography matters too, and it is not the geography most people assume. Americans are markedly more direct than the British and routinely find British meetings maddening, but both are indirect by the standards of the Netherlands or Germany, where saying plainly that an idea is bad is a professional courtesy rather than an insult. Brazilians working across all of these tend to be caught twice: American bluntness reads as rudeness when it is merely efficiency, and British circumlocution reads as agreement when it is refusal. Neither reading is careless. Both are the predictable result of applying a sound instinct in the wrong room.",
+    "There is a further trap for the fluent. A speaker whose grammar and vocabulary are excellent is assumed by everyone present to have understood the register as well, so nobody repeats the message in plainer terms. The better your English, the less likely anyone is to tell you that you have just been refused. This is why high-level misunderstandings are so often invisible at the time and only surface weeks later, in the form of a project that stopped moving without anyone deciding to stop it.",
+    "Decoding is the necessary skill; adopting the style is optional and should be approached with care. Over-hedged English in the mouth of someone who has learned the forms but not the timing reads as evasive, or simply as weak, and it is better to be plainly direct than unconvincingly indirect. The useful habit is narrower than imitation. Listen for the hedges rather than through them. When you hear one, assume the strongest reading of the objection and ask a question that forces the position into the open — what would have to be true for this to work, or who else would need to be persuaded. Asked in good faith, that question is almost always answered honestly, because it offers the other person a way to say no that does not require them to say it.",
+    "The director who asked about appetite elsewhere in the business was telling the proposal's author exactly what was wrong and exactly who had to be won over. It was the most useful thing said in the room. It was heard as small talk."
+  ],
+  "vocabulary": [
+    {
+      "term": "steering group",
+      "definition": "a committee that decides the direction of a project"
+    },
+    {
+      "term": "to wonder aloud",
+      "definition": "to raise a doubt by appearing merely to think out loud — a way of objecting without owning the objection",
+      "match": "wondered aloud"
+    },
+    {
+      "term": "appetite",
+      "definition": "willingness to support or take on something, in business usage"
+    },
+    {
+      "term": "to lose face",
+      "definition": "to be publicly humiliated or diminished",
+      "match": "lose face"
+    },
+    {
+      "term": "to foreclose",
+      "definition": "to shut off a possibility before it can be taken",
+      "match": "forecloses"
+    },
+    {
+      "term": "indirection",
+      "definition": "the practice of saying something by not saying it"
+    },
+    {
+      "term": "hedge",
+      "definition": "a word that weakens a statement on the surface — slightly, a bit, perhaps",
+      "match": "hedge"
+    },
+    {
+      "term": "to push back",
+      "definition": "to object or resist — in practice far stronger than it sounds",
+      "match": "push back"
+    },
+    {
+      "term": "to park something",
+      "definition": "to set an idea aside, usually permanently, without formally rejecting it",
+      "match": "park that"
+    },
+    {
+      "term": "the hill to die on",
+      "definition": "the issue worth taking a serious risk over",
+      "match": "the hill to die on"
+    },
+    {
+      "term": "with respect",
+      "definition": "a formula that reliably introduces disagreement, not deference"
+    },
+    {
+      "term": "devastating",
+      "definition": "extremely damaging in effect"
+    },
+    {
+      "term": "to invert",
+      "definition": "to turn into the opposite"
+    },
+    {
+      "term": "circumlocution",
+      "definition": "saying something in a roundabout way instead of plainly"
+    },
+    {
+      "term": "bluntness",
+      "definition": "the habit of speaking plainly without softening"
+    },
+    {
+      "term": "predictable",
+      "definition": "able to be expected, given what came before"
+    },
+    {
+      "term": "evasive",
+      "definition": "avoiding a direct answer"
+    },
+    {
+      "term": "to win somebody over",
+      "definition": "to persuade somebody who was not persuaded before",
+      "match": "won over"
+    },
+    {
+      "term": "in good faith",
+      "definition": "honestly, without a hidden motive",
+      "match": "in good faith"
+    },
+    {
+      "term": "small talk",
+      "definition": "light conversation about nothing important"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-no-comp",
+      "type": "reading-comprehension",
+      "title": "Reading for Implication",
+      "instructions": "Most of these questions turn on what the text implies rather than what it states. Read carefully.",
+      "items": [
+        {
+          "id": "x1",
+          "prompt": "Why does the author say the project went wrong in March rather than May?",
+          "options": [
+            "Because the refusal was delivered in March and went unrecognised",
+            "Because the budget was set in March",
+            "Because the author left the company in April"
+          ],
+          "answerIndex": 0,
+          "explanation": "“three people said no and one person did not hear it.” The outcome in April merely executed the March decision."
+        },
+        {
+          "id": "x2",
+          "prompt": "What does the text say indirection is for?",
+          "options": [
+            "Keeping open the options of face, commitment and later reversal",
+            "Avoiding conflict because the British dislike it",
+            "Hiding incompetence from senior management"
+          ],
+          "answerIndex": 0,
+          "explanation": "It avoids committing the refuser publicly, avoids the other party losing face, and lets anyone change position later without appearing to have lost."
+        },
+        {
+          "id": "x3",
+          "prompt": "According to the text, why are these expressions harder than ordinary idioms?",
+          "options": [
+            "The intended meaning is the reverse of the surface meaning, and the signal is carried by the smallest words",
+            "They are regional and change constantly",
+            "They come from legal English"
+          ],
+          "answerIndex": 0,
+          "explanation": "“It is the hedge that tells a native listener to invert.” An idiom can be looked up; an inversion signalled by “slightly” cannot."
+        },
+        {
+          "id": "x4",
+          "prompt": "What is the trap specific to speakers with excellent English?",
+          "options": [
+            "Nobody restates the message plainly, because fluency is assumed to include register",
+            "They are given more responsibility than they can handle",
+            "They are corrected too often"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The better your English, the less likely anyone is to tell you that you have just been refused.”"
+        },
+        {
+          "id": "x5",
+          "prompt": "How does the text characterise Dutch and German directness?",
+          "options": [
+            "As a professional courtesy rather than rudeness",
+            "As a failure of manners",
+            "As identical to American directness"
+          ],
+          "answerIndex": 0,
+          "explanation": "“saying plainly that an idea is bad is a professional courtesy rather than an insult.”"
+        },
+        {
+          "id": "x6",
+          "prompt": "Why does the author say Brazilians are “caught twice”?",
+          "options": [
+            "American bluntness reads as rudeness and British indirection reads as agreement",
+            "They work mainly with Germans",
+            "They hedge more than the British do"
+          ],
+          "answerIndex": 0,
+          "explanation": "Two opposite misreadings, each produced by applying a sound instinct in the wrong room."
+        },
+        {
+          "id": "x7",
+          "prompt": "What does the text advise about adopting the indirect style yourself?",
+          "options": [
+            "Decode it, but be cautious about imitating it — unconvincing indirection reads as evasive or weak",
+            "Adopt it fully as soon as possible",
+            "Avoid all hedging in professional English"
+          ],
+          "answerIndex": 0,
+          "explanation": "“it is better to be plainly direct than unconvincingly indirect.”"
+        },
+        {
+          "id": "x8",
+          "prompt": "Why does the recommended question work?",
+          "options": [
+            "It gives the other person a way to refuse without having to utter a refusal",
+            "It forces them to commit publicly",
+            "It changes the subject"
+          ],
+          "answerIndex": 0,
+          "explanation": "“it offers the other person a way to say no that does not require them to say it.”"
+        },
+        {
+          "id": "x9",
+          "prompt": "What is the final irony of the closing paragraph?",
+          "options": [
+            "The most useful contribution in the meeting was dismissed as small talk",
+            "The director was deliberately misleading",
+            "The proposal was never read"
+          ],
+          "answerIndex": 0,
+          "explanation": "The question about appetite named both the problem and the people to persuade — and was heard as nothing."
+        }
+      ]
+    },
+    {
+      "id": "c2-no-match",
+      "type": "matching",
+      "title": "What It Actually Means",
+      "instructions": "Match each formula to what the text says it conveys.",
+      "items": [
+        {
+          "id": "xm1",
+          "pairs": [
+            {
+              "left": "I'd push back slightly on that",
+              "right": "A total objection, conventionally hedged"
+            },
+            {
+              "left": "Let's park that for now",
+              "right": "The idea is dead, but nobody has to say so"
+            },
+            {
+              "left": "I'm not sure that's the hill to die on",
+              "right": "Drop it — and persisting will cost you"
+            },
+            {
+              "left": "That's certainly one way to look at it",
+              "right": "It is the wrong way"
+            },
+            {
+              "left": "With respect…",
+              "right": "Disagreement is coming, not deference"
+            },
+            {
+              "left": "I hear you",
+              "right": "Sound reached me; I commit to nothing"
+            },
+            {
+              "left": "Interesting, delivered flat",
+              "right": "Not a compliment, and never was"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-no-vocab",
+      "type": "vocabulary",
+      "title": "Register and Argument",
+      "instructions": "Choose the word that fits the meaning.",
+      "items": [
+        {
+          "id": "xv1",
+          "prompt": "To shut off a possibility before anyone can take it is to ___ it.",
+          "options": [
+            "foreclose",
+            "park",
+            "invert"
+          ],
+          "answerIndex": 0,
+          "explanation": "To foreclose a possibility is to close it off in advance."
+        },
+        {
+          "id": "xv2",
+          "prompt": "Saying something in a roundabout way rather than plainly is ___.",
+          "options": [
+            "circumlocution",
+            "bluntness",
+            "deference"
+          ],
+          "answerIndex": 0,
+          "explanation": "Circumlocution is talking around the point."
+        },
+        {
+          "id": "xv3",
+          "prompt": "An answer that avoids the question is ___.",
+          "options": [
+            "evasive",
+            "predictable",
+            "devastating"
+          ],
+          "answerIndex": 0,
+          "explanation": "Evasive means avoiding a direct answer."
+        },
+        {
+          "id": "xv4",
+          "prompt": "In business usage, the willingness to take something on is called ___.",
+          "options": [
+            "appetite",
+            "indirection",
+            "a hedge"
+          ],
+          "answerIndex": 0,
+          "explanation": "“What's the appetite for this?” asks how willing people are to back it."
+        },
+        {
+          "id": "xv5",
+          "prompt": "To be publicly diminished in front of colleagues is to ___.",
+          "options": [
+            "lose face",
+            "push back",
+            "win somebody over"
+          ],
+          "answerIndex": 0,
+          "explanation": "To lose face is to suffer public humiliation."
+        },
+        {
+          "id": "xv6",
+          "prompt": "A word like “slightly” or “perhaps” that weakens a statement on the surface is a ___.",
+          "options": [
+            "hedge",
+            "formula",
+            "register"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hedges weaken on the surface and, in this register, signal inversion."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Think of a meeting where you later realised the answer had been no all along. What were the actual words?",
+    "Is refusal direct or indirect in your own professional culture? What are its formulas?",
+    "The text argues you should decode this register but be careful about adopting it. Do you agree?",
+    "“The better your English, the less likely anyone is to tell you that you have just been refused.” Has this happened to you?",
+    "Write about 300 words on a misunderstanding that came from register rather than from vocabulary or grammar."
+  ]
+}

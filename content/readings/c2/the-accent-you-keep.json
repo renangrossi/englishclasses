@@ -30,6 +30,16 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 1,
+      "alt": "A speech spectrogram of three vowels marked i, u and a, showing dark horizontal formant bands at different heights for each one against a time axis",
+      "source": "commons:File:Spectrogram -iua-.png",
+      "licence": "CC BY 2.0",
+      "author": "unknown",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Spectrogram_-iua-.png",
+      "caption": "Three vowels, as a machine sees them. An infant can hear every distinction on this chart; by about a year old, it has stopped hearing the ones its language does not use."
+    },
+    {
       "src": "01.jpg",
       "after": 2,
       "alt": "A reciter reading aloud from a scroll to listeners stretched out on marble steps",

@@ -41,6 +41,16 @@
   ],
   "images": [
     {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "A tray of small pastries at a bakery counter, topped with cream and fruit and drizzled with chocolate, with a handwritten price card beside them",
+      "source": "commons:File:DFC 4093 Assorted mini cream-topped pastries drizzled with fruit sauce and chocolate ready to tempt at the bakery counter.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "PattayaPatrol",
+      "source_url": "https://commons.wikimedia.org/wiki/File:DFC_4093_Assorted_mini_cream-topped_pastries_drizzled_with_fruit_sauce_and_chocolate_ready_to_tempt_at_the_bakery_counter.jpg",
+      "caption": "Why it takes her a while to decide."
+    },
+    {
       "src": "02.jpg",
       "after": 13,
       "alt": "A farrier's archway on a town street, with a cart waiting and a horse being shod inside",

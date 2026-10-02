@@ -64,7 +64,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-91 images, imported with `scripts/import_local_artwork.py` from the local
+90 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -108,7 +108,6 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b1/a-freelance-accounting-assignment` | `01.jpg` | The Cartographers' Circle | `fritz-wagner-the-cartographers-circle.jpeg` |
 | `b1/animal-solutions` | `01.jpg` | Cattle and Sheep on Canterbury Meadows | `thomas-sidney-cooper-cattle-and-sheep-on-canterbury-meadows-1803-1902.jpg` |
 | `b1/animal-solutions` | `02.jpg` | Shepherd with Cows | `rudolf-koller-shepherd-with-cows-1828-1905.jpeg` |
-| `b1/arriving-in-johannesburg` | `01.jpg` | Cape Mountain Landscape | `gabriel-cornelis-de-jongh-cape-mountain-landscape.jpeg` |
 | `b1/beers` | `01.jpg` | In the Monastery Cellar | `eduard-von-grutzner-in-the-monastery-cellar-1878.jpeg` |
 | `b1/cachacas` | `02.jpg` | Interior of a Hammersmith | `hugo-charlemont-interior-of-a-hammersmith-1883.jpg` |
 | `b1/cars` | `01.jpg` | The Horse Fair | `rosa-bonheur-the-horse-fair-c-1855.jpeg` |
@@ -164,7 +163,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-133 images the gallery could not answer -- flags, maps, photographs and
+135 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything carrying NC or ND. The
 few used under a licence that requires a credit are listed separately below.
@@ -205,6 +204,7 @@ few used under a licence that requires a credit are listed separately below.
 | `b1/american-flag-symbols` | `09.jpg` | Fifty stars since 1960. | `File:Flag of the United States.svg` |
 | `b1/cachacas` | `01.jpg` | Harvesting the Sugar-Cane in Minas Gerais, Brazil | `File:Marianne North (1830-1890) - Harvesting the Sugar-Cane in Minas Geraes, Brazil - MN45 - Marianne North Gallery.jpg` |
 | `b1/cars-and-their-parts` | `01.jpg` | A 1920 Handley-Knight engine with the chain case off. | `File:Handley-Knight-Engine 1920.jpg` |
+| `b1/climbing` | `03.jpg` | On the rock. | `File:Rock Climber (53328079241).jpg` |
 | `b1/coffee-and-it` | `01.jpg` | A full room on an ordinary afternoon. | `File:Chatting in a coffee shop (Unsplash).jpg` |
 | `b1/common-chores` | `01.jpg` | Washing out on the lines behind a row of houses | `File:An elevated view of row houses probably in S.W., showing laundry hanging on clothesline in backyards LCCN2016647096.jpg` |
 | `b1/cybersecurity` | `01.jpg` | A cybersecurity operations floor | `File:Cybersecurity Operations at Port San Antonio.jpg` |
@@ -219,6 +219,7 @@ few used under a licence that requires a credit are listed separately below.
 | `b1/lincoln-and-the-civil-war` | `01.jpg` | The Battle of Antietam | `File:Thure de Thulstrup - Battle of Antietam.jpg` |
 | `b1/lincoln-and-the-civil-war` | `02.jpg` | Gettysburg, 19 November 1863. | `File:Crowd of citizens, soldiers, and etc. with Lincoln at Gettysburg. - NARA - 529085 -crop.jpg` |
 | `b1/louisiana-purchase` | `02.jpg` | Louisiana, mapped by Samuel Lewis in 1804. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
+| `b1/maringa` | `02.jpg` | The lakefront from the south. | `File:Morning view of the downtown skyline from near Morgan Point along Lakefront Trail, Chicago, 2025.jpg` |
 | `b1/nfl` | `01.jpg` | Princeton against Chicago, 1922. | `File:1922 Princeton v. Chicago football game.jpg` |
 | `b1/physical-education` | `01.jpg` | Plates from *Athletic Training for School Boys*, 1910. | `File:Athletic training for school boys (1910) (14598149930).jpg` |
 | `b1/say-speak-talk-tell-02` | `01.jpg` | A radio dealer's window | `File:J. Fred Huber Radio, window LCCN2016826306.jpg` |
@@ -307,18 +308,23 @@ few used under a licence that requires a credit are listed separately below.
 
 ### Used under a licence that requires credit
 
-31 image(s). The credit is also printed under the picture on
+44 image(s). The credit is also printed under the picture on
 the page itself, which is where the licence requires it to be.
 
 | Page | File | Author | Licence | Source |
 |---|---|---|---|---|
 | `a2/restaurant-dialogue` | `01.jpg` | Jim.henderson | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Joe%27s_Pizza_2022_jeh.jpg) |
 | `a2/two-very-different-trips` | `02.jpg` | Nawit science | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Temple_of_the_Emerald_Buddha.jpg) |
+| `b1/arriving-in-johannesburg` | `01.jpg` | Aleph500Adam | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Johannesburg_in_December.jpg) |
+| `b1/arriving-in-johannesburg` | `02.jpg` | Nick-D | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Waiting_area_in_Terminal_B_of_OR_Tambo_International_Airport_June_2026.jpg) |
 | `b1/frederick-douglass` | `02.jpg` | TradingCardsNPS | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_North_Star_(7222833218).jpg) |
+| `b1/glamping` | `02.jpg` | Shabicht | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Glamping_hut_Visole_07.jpg) |
 | `b1/golden-gate-bridge-present-perfect` | `02.jpg` | Brocken Inaglory | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_at_sunset_1.jpg) |
 | `b1/milan-restaurants` | `02.jpg` | Gordon Leggett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:2021-09-04_Fluffy_Clam_Chowder.jpg) |
+| `b1/nfl` | `02.jpg` | U.S. Secretary of Defense | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:125th_playing_of_the_Army-Navy_football_game_attended_by_United_States_Secretary_of_Defense_Lloyd_Austin_at_Northwest_Stadium,_Landover,_Maryland_on_December_14,_2024_-_8.jpg) |
 | `b1/ny-visitation` | `01.jpg` | Adjoajo | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Autumn_in_Central_Park._NYC.jpg) |
 | `b1/ny-visitation` | `02.jpg` | Christian David | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lower_Manhattan_skyline_and_Brooklyn_Bridge_from_the_East_River,_New_York.jpg) |
+| `b1/physical-education` | `02.jpg` | Nwaeke Daniel (Danzisky) | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:School_children_happily_playing_in_playground.jpg) |
 | `b1/rio-de-janeiro-exercises` | `01.jpg` | Halley Pacheco de Oliveira | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Floresta_da_Tijuca_60.jpg) |
 | `b1/rio-de-janeiro-exercises` | `02.jpg` | Pierre André | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rio_de_Janeiro_Tijuca_Forest_Cascatinha_Taunay_(1).jpg) |
 | `b1/santa-catarina` | `01.jpg` | Jeffhollett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cannon_Beach_at_Pacific_Coast_in_Oregon_1.jpg) |
@@ -326,7 +332,15 @@ the page itself, which is where the licence requires it to be.
 | `b1/southeast-asia-adventure` | `01.jpg` | Satdeep Gill | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Angkor_Wat_with_its_reflection_(cropped).jpg) |
 | `b1/southeast-asia-adventure` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rice_terraces,_Ubud,_Bali.jpg) |
 | `b1/usa-restaurants` | `02.jpg` | Tony Webster from Minneapolis, Minnesota, United States | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Pensacola_Beach_-_White_Sands,_Florida_Coast_(27268946483).jpg) |
+| `b1/usa-restaurants` | `03.jpg` | Kramtronik | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tampa_Cuban_Sandwich.jpg) |
+| `b2/egypt-a-journey-through-history-and-culture` | `03.jpg` | en:User:Hajor | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Egypt.Giza.Sphinx.01.jpg) |
+| `b2/egypt` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Thebes,_Luxor,_Egypt,_Temple_of_Hatshepsut,_Deir_el-Bahari.jpg) |
+| `b2/formula-1` | `02.jpg` | Lukas Raich | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2022_Nr._44_Hamilton.jpg) |
+| `b2/it-and-jiu-jitsu` | `02.jpg` | parhessiastes | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Brazilian_Jiu-Jitsu_Gi_Competition-Armbar.jpg) |
 | `b2/phrasal-verbs-01-bed-and-breakfast` | `01.jpg` | Infrogmation of New Orleans | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mess_at_Home_-_Uptown_New_Orleans_Bedroom_January_1990_01.jpg) |
+| `b2/romania` | `03.jpg` | Joe Mabel | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bucharest_Grand_Hotel_2.jpg) |
+| `b2/soma-nomaoi` | `02.jpg` | PekePON | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Soma_Nomaoi_2005-3.jpg) |
+| `b2/the-marathon-and-the-wall` | `02.jpg` | U.S. Army | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Joseph_Chirlee_2010.jpg) |
 | `c1/it-management` | `02.jpg` | SimonWaldherr | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:CERN_Computer_Center_13.jpg) |
 | `c1/physiological-stressors` | `02.jpg` | Shixart1985 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Runner_pours_water_over_his_head_after_finishing_a_race_in_an_outdoor_setting_during_a_sunny_day.jpg) |
 | `c1/physiological-stressors` | `03.jpg` | Riga Marathon | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Water_station_Rimi_Riga_Marathon_2021_Van%C5%A1u_bridge.jpg) |

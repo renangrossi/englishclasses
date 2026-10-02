@@ -29,6 +29,13 @@
   ],
   "images": [
     {
+      "src": "03.jpg",
+      "after": 1,
+      "alt": "A climber part-way up a steep granite face against a clear blue sky, body close to the rock and one leg extended for balance",
+      "source": "commons:File:Rock Climber (53328079241).jpg",
+      "caption": "On the rock. Whichever style you start with, the first lesson is the same: this is done with the legs, not the arms."
+    },
+    {
       "src": "01.jpg",
       "after": 2,
       "alt": "A high snow plateau broken by crevasses, with rock faces rising out of the ice",

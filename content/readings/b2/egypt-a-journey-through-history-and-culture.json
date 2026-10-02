@@ -38,6 +38,16 @@
       "relation": "depicts"
     },
     {
+      "src": "03.jpg",
+      "after": 2,
+      "alt": "The Great Sphinx at Giza in the foreground with the pyramid of Khafre rising directly behind it, desert and a clear sky around them",
+      "source": "commons:File:Egypt.Giza.Sphinx.01.jpg",
+      "licence": "CC BY-SA 3.0",
+      "author": "en:User:Hajor",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Egypt.Giza.Sphinx.01.jpg",
+      "caption": "The Sphinx, with Khafre's pyramid behind. Giza is not out in the desert: the edge of Cairo now runs up to the fence."
+    },
+    {
       "src": "02.jpg",
       "after": 4,
       "alt": "A temple standing at the water's edge on the Nile, a small boat passing in front of its columns",

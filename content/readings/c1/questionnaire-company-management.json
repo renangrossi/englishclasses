@@ -34,6 +34,13 @@
       "source": "commons:File:Typists, Veterans Administration Central Office, Washington DC 20 May 1924.jpg",
       "caption": "The typing office of the Veterans Administration, Washington, 1924. Every person in this room could name their job in two words and would struggle to describe the day.",
       "relation": "depicts"
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "Delegates seated in rows at a professional forum, some listening and some looking at phones and laptops",
+      "source": "commons:File:2024 Agricultural Outlook Forum - Day 2 (20240216-USDA-OSEC-TEW-0940).jpg",
+      "caption": "Where the question actually gets asked. Rarely across a desk, and usually by somebody with twenty seconds of attention to spare."
     }
   ],
   "vocabulary": [

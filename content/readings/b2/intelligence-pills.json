@@ -34,6 +34,16 @@
       "source": "commons:File:Stewart's Pharmacy interior, ca 1900 (SEATTLE 282).jpg",
       "caption": "Stewart's Pharmacy, Seattle, around 1900. Everything on these shelves was sold to somebody who wanted to feel better than they did.",
       "relation": "depicts"
+    },
+    {
+      "src": "02.jpg",
+      "after": 2,
+      "alt": "A close-up of assorted tablets and capsules in several colours scattered on a pale surface",
+      "source": "commons:File:VariousPills.jpg",
+      "licence": "CC BY-SA 3.0",
+      "author": "MorgueFile : see [1]",
+      "source_url": "https://commons.wikimedia.org/wiki/File:VariousPills.jpg",
+      "caption": "The category the argument is really about. Somewhere on a table like this is the line between a supplement and a drug, and it is not a sharp one."
     }
   ],
   "vocabulary": [

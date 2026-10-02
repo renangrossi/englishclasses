@@ -39,6 +39,13 @@
       "source": "commons:File:Horn & Hardart Times Square New York circa 1939.JPG",
       "caption": "The Horn & Hardart Automat, Times Square, around 1939. Put in a coin, open a little glass door, take the food: a step removed, exactly as this text defines it.",
       "relation": "depicts"
+    },
+    {
+      "src": "02.jpg",
+      "after": 4,
+      "alt": "A row of supermarket self-checkout terminals under signs reading SAVE TIME in Bulgarian, with branded carrier bags hanging ready at each one",
+      "source": "commons:File:Billa supermarket, Blagoevgrad centre, self-checkout, 2026.jpg",
+      "caption": "The signs say save time, and they are telling the truth. What moved is who does the work, and who holds the data about it afterwards."
     }
   ],
   "vocabulary": [

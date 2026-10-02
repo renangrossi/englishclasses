@@ -192,8 +192,8 @@
   "voice": "en-US-MichelleNeural"
  },
  "a2/lewis-and-clark-west": {
-  "bytes": 754272,
-  "fingerprint": "26102146f0c8aab6",
+  "bytes": 766224,
+  "fingerprint": "6f4b9a3f63d0fa2a",
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
@@ -408,8 +408,8 @@
   "voice": "en-US-MichelleNeural"
  },
  "b1/lincoln-and-the-civil-war": {
-  "bytes": 1079280,
-  "fingerprint": "6d3d707dd9970fcb",
+  "bytes": 1085184,
+  "fingerprint": "0dbda821770d84e6",
   "rate": "-8%",
   "voice": "en-US-GuyNeural"
  },
@@ -504,8 +504,8 @@
   "voice": "en-US-ChristopherNeural"
  },
  "b1/transcontinental-railroad": {
-  "bytes": 1183104,
-  "fingerprint": "e26e6220ae99c507",
+  "bytes": 1158480,
+  "fingerprint": "4ec553ac5c771358",
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
@@ -582,8 +582,8 @@
   "voice": "en-US-EricNeural"
  },
  "b2/fdr-new-deal": {
-  "bytes": 1295280,
-  "fingerprint": "e0663524ffed020e",
+  "bytes": 1304208,
+  "fingerprint": "0b3c930770897691",
   "rate": "+0%",
   "voice": "en-US-EricNeural"
  },

@@ -34,6 +34,11 @@
     var word = "Dictionary";
     var hint = document.createElement("div");
     hint.className = "dict-widget-hint";
+    // The button sits one row higher on pages that also render the
+    // Irregular Verbs toggle; the hint has to ride up with it.
+    if (trigger.classList.contains("dict-widget-toggle--with-irregular-verbs")) {
+      hint.classList.add("dict-widget-hint--with-irregular-verbs");
+    }
     hint.setAttribute("aria-hidden", "true");
     word.split("").forEach(function (ch) {
       var span = document.createElement("span");

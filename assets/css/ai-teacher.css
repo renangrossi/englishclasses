@@ -7,8 +7,8 @@
 
 .ai-teacher-toggle {
   position: fixed;
-  left: var(--space-md);
-  bottom: calc(var(--space-md) + env(safe-area-inset-bottom, 0px));
+  left: var(--fab-edge);
+  bottom: var(--fab-bottom);
   z-index: 900;
   display: inline-flex;
   align-items: center;
@@ -63,8 +63,8 @@
 }
 .ai-teacher-intro {
   position: fixed;
-  left: var(--space-md);
-  bottom: calc(var(--space-md) + env(safe-area-inset-bottom, 0px));
+  left: var(--fab-edge);
+  bottom: var(--fab-bottom);
   z-index: 900;
   display: inline-flex;
   align-items: center;
@@ -104,8 +104,8 @@
    why. The zone itself is never visible or interactive. */
 .ai-teacher-fireworks {
   position: fixed;
-  left: var(--space-md);
-  bottom: calc(var(--space-md) + env(safe-area-inset-bottom, 0px));
+  left: var(--fab-edge);
+  bottom: var(--fab-bottom);
   width: 170px;
   height: 130px;
   z-index: 899;
@@ -145,7 +145,7 @@
   --ai-panel-bottom-gap: calc(var(--space-md) + 64px);
   --ai-panel-top-gap: calc(var(--header-height) + var(--space-sm));
   position: fixed;
-  left: var(--space-md);
+  left: var(--fab-edge);
   bottom: calc(var(--ai-panel-bottom-gap) + env(safe-area-inset-bottom, 0px) + var(--ai-kb-offset, 0px));
   z-index: 901;
   width: min(380px, calc(100vw - 2 * var(--space-md)));
@@ -304,5 +304,7 @@
     --ai-panel-bottom-gap: calc(var(--space-sm) + 60px);
     --ai-panel-top-gap: calc(var(--header-height) + var(--space-2xs));
   }
-  .ai-teacher-toggle { left: var(--space-sm); bottom: calc(var(--space-sm) + env(safe-area-inset-bottom, 0px)); }
+  /* --fab-edge drops to --space-sm at this width (tokens.css) and the
+     right-hand stack drops with it, so both corners stay on one row
+     without an override here. */
 }

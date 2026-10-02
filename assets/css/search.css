@@ -141,9 +141,9 @@
    ======================================================================= */
 .dict-widget-toggle {
   position: fixed;
-  right: var(--space-md);
-  bottom: var(--space-md);
-  width: 48px; height: 48px;
+  right: var(--fab-edge);
+  bottom: var(--fab-bottom);
+  width: var(--fab-size); height: var(--fab-size);
   border-radius: 50%;
   border: 1px solid var(--color-gold);
   background: var(--color-primary-strong);
@@ -167,14 +167,14 @@
    .back-to-top--with-dict-and-irregular (components.css). Applied via
    this modifier class only on the pages that actually render both
    buttons; every other page's Dictionary position is unchanged. */
-.dict-widget-toggle--with-irregular-verbs { bottom: calc(var(--space-md) + 60px + env(safe-area-inset-bottom, 0px)); }
-.dict-widget-panel--with-irregular-verbs { bottom: calc(var(--space-md) + 120px + env(safe-area-inset-bottom, 0px)); }
+.dict-widget-toggle--with-irregular-verbs { bottom: calc(var(--fab-bottom) + var(--fab-step)); }
+.dict-widget-panel--with-irregular-verbs { bottom: calc(var(--fab-bottom) + 2 * var(--fab-step)); }
 
 .dict-widget-panel {
   position: fixed;
-  right: var(--space-md);
-  bottom: calc(var(--space-md) + 60px + env(safe-area-inset-bottom, 0px));
-  width: min(360px, calc(100vw - 2 * var(--space-md)));
+  right: var(--fab-edge);
+  bottom: calc(var(--fab-bottom) + var(--fab-step));
+  width: min(360px, calc(100vw - 2 * var(--fab-edge)));
   max-height: min(60vh, calc(100dvh - var(--header-height) - 2 * var(--space-md)));
   display: flex;
   flex-direction: column;
@@ -255,9 +255,9 @@
    the hint floating a row above where the icon actually is. */
 .dict-widget-hint {
   position: fixed;
-  right: calc(var(--space-md) + 58px);
-  bottom: var(--space-md);
-  height: 48px;
+  right: calc(var(--fab-edge) + 58px);
+  bottom: var(--fab-bottom);
+  height: var(--fab-size);
   display: flex;
   align-items: center;
   background: var(--color-primary-strong);
@@ -272,6 +272,7 @@
   z-index: 899;
   pointer-events: none;
 }
+.dict-widget-hint--with-irregular-verbs { bottom: calc(var(--fab-bottom) + var(--fab-step)); }
 .dict-widget-hint span {
   display: inline-block;
   transition: transform 0.5s ease, opacity 0.5s ease;
@@ -307,8 +308,8 @@
    ======================================================================= */
 .irregular-verbs-toggle {
   position: fixed;
-  right: var(--space-md);
-  bottom: calc(var(--space-md) + env(safe-area-inset-bottom, 0px));
+  right: var(--fab-edge);
+  bottom: var(--fab-bottom);
   z-index: 900;
   display: inline-flex;
   align-items: center;
@@ -329,8 +330,18 @@
 .irregular-verbs-toggle__label { white-space: nowrap; }
 @media (max-width: 560px) {
   /* Same breakpoint/behaviour as .ai-teacher-toggle's own label-hiding
-     (ai-teacher.css) — the two stay visually consistent at every width. */
-  .irregular-verbs-toggle { padding: 0.7em; }
+     (ai-teacher.css) — the two stay visually consistent at every width.
+     Without the label this is no longer a pill, and padding alone left
+     it a few pixels narrower than the two 48px circles above it in the
+     stack, so the three icons did not line up on their centres. Size it
+     to --fab-size instead and the column is straight. */
+  .irregular-verbs-toggle {
+    width: var(--fab-size);
+    height: var(--fab-size);
+    padding: 0;
+    justify-content: center;
+    border-radius: 50%;
+  }
   .irregular-verbs-toggle__label { display: none; }
 }
 
@@ -341,8 +352,8 @@
      toggle at the base row, and Dictionary's toggle 60px above that --
      regardless of which of the two sits on top; see the comment above
      this section. */
-  bottom: calc(var(--space-md) + 120px + env(safe-area-inset-bottom, 0px));
-  width: min(420px, calc(100vw - 2 * var(--space-md)));
+  bottom: calc(var(--fab-bottom) + 2 * var(--fab-step));
+  width: min(420px, calc(100vw - 2 * var(--fab-edge)));
   max-height: min(65vh, calc(100dvh - var(--header-height) - 2 * var(--space-md)));
   display: flex;
   flex-direction: column;

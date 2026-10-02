@@ -119,6 +119,22 @@
   --space-2xl: 4rem;
   --space-3xl: 8rem;
 
+  /* ---- Floating buttons (the fixed stack in the bottom corners) ------
+     AI Teacher sits bottom-left; Irregular Verbs, Dictionary and Back to
+     top stack bottom-right. They are read as one row, so every one of
+     them measures its edge gap, its bottom gap and its 60px step from
+     these three tokens rather than repeating a calc(). --fab-bottom
+     carries the iOS home-indicator inset so the whole stack lifts
+     together; a button that left the inset out used to sit a few
+     pixels off the ones beside it. */
+  --fab-edge: var(--space-md);
+  --fab-bottom: calc(var(--fab-edge) + env(safe-area-inset-bottom, 0px));
+  --fab-step: 60px;
+  /* The button itself is a 48px circle once its label is dropped on a
+     narrow screen, so all three right-hand buttons share one width and
+     their centres line up. */
+  --fab-size: 48px;
+
   --content-max: 76rem;
   --content-narrow: 46rem;
 
@@ -158,4 +174,12 @@
     --header-height: 68px;
     --toc-height: 70px;
   }
+}
+
+/* On a narrow phone the floating buttons move closer to the edge, in both
+   bottom corners at once — AI Teacher on the left used to drop on its own
+   while the right-hand stack stayed put, which left the two corners sitting
+   on different rows. One token, so they move together. */
+@media (max-width: 480px) {
+  :root { --fab-edge: var(--space-sm); }
 }

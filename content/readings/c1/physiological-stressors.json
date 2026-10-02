@@ -32,7 +32,7 @@
       "after": 1,
       "alt": "A photograph of the marathon runner Dorando Pietri at the finish, barely upright, being supported and guided by officials",
       "source": "commons:File:Dorando Pietri 1908.jpg",
-      "caption": "Dorando Pietri at the end of the 1908 Olympic marathon. He was helped across the line and disqualified for it. This is what the six systems in this text look like when they stop coping.",
+      "caption": "Dorando Pietri at the end of the 1908 Olympic marathon. He was helped across the line and disqualified for it.",
       "relation": "depicts"
     },
     {
@@ -43,7 +43,7 @@
       "licence": "CC BY 2.0",
       "author": "Shixart1985",
       "source_url": "https://commons.wikimedia.org/wiki/File:Runner_pours_water_over_his_head_after_finishing_a_race_in_an_outdoor_setting_during_a_sunny_day.jpg",
-      "caption": "Shedding heat the direct way. When sweating and skin blood flow cannot keep up, core temperature climbs and everything in this paragraph follows from it."
+      "caption": "A runner cooling himself at the finish. When sweating and skin blood flow cannot keep up, core temperature climbs."
     },
     {
       "src": "03.jpg",
@@ -53,7 +53,7 @@
       "licence": "CC BY-SA 2.0",
       "author": "Riga Marathon",
       "source_url": "https://commons.wikimedia.org/wiki/File:Water_station_Rimi_Riga_Marathon_2021_Van%C5%A1u_bridge.jpg",
-      "caption": "A water station mid-race. Both errors in this paragraph are made here — too little, and far too much."
+      "caption": "A water station mid-race in Riga. Too little and far too much are both easy to get wrong here."
     }
   ],
   "vocabulary": [

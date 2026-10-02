@@ -186,13 +186,13 @@ few used under a licence that requires a credit are listed separately below.
 | `a2/coffee-brewing` | `01.jpg` | Pouring over the filter. | `File:Brewing coffee in a jug (Unsplash).jpg` |
 | `a2/declaration-of-independence` | `02.jpg` | The document itself, now in Washington, D.C. | `File:United States Declaration of Independence.jpg` |
 | `a2/flying-to-the-us` | `01.jpg` | The first United Airlines service into Allentown, 1935. | `File:1935 - United Airlines begins service to Allentown Airport.jpg` |
-| `a2/flying-to-the-us` | `02.jpg` | Check-in. | `File:VTBS-Thai Airways Check-in counters.JPG` |
+| `a2/flying-to-the-us` | `02.jpg` | Check-in counters at Suvarnabhumi, Bangkok. | `File:VTBS-Thai Airways Check-in counters.JPG` |
 | `a2/oregon-trail` | `02.jpg` | Emigrants Crossing the Plains | `File:Emigrants Crossing the Plains, or The Oregon Trail (Albert Bierstadt), 1869.jpg` |
 | `a2/sacagawea` | `01.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
 | `a2/saying-and-telling` | `01.jpg` | A Piggly Wiggly store | `File:Interior view of a Piggly Wiggly self-service grocery store showing check out counter with cash registers LCCN92520726.jpg` |
-| `a2/something-wrong-with-the-order` | `01.jpg` | An order as it arrives. | `File:Dominican Restaurant (Unsplash).jpg` |
-| `a2/st-patricks-day` | `01.jpg` | The Fifth Avenue parade in New York. | `File:New York City St. Patrick's Day Parade DVIDS261048.jpg` |
-| `b1/a-day-in-the-house` | `02.jpg` | The load Sarah started. | `File:Laundry room in apartment building.png` |
+| `a2/something-wrong-with-the-order` | `01.jpg` | Lunch arriving in a Dominican restaurant. | `File:Dominican Restaurant (Unsplash).jpg` |
+| `a2/st-patricks-day` | `01.jpg` | The Fifth Avenue parade, New York. | `File:New York City St. Patrick's Day Parade DVIDS261048.jpg` |
+| `b1/a-day-in-the-house` | `02.jpg` | A laundry room in an apartment building. | `File:Laundry room in apartment building.png` |
 | `b1/a-day-in-the-office` | `01.jpg` | Interior with a Woman Standing | `File:Interior with a Woman Standing by Vilhelm Hammershøi, 1913.jpg` |
 | `b1/american-flag-symbols` | `01.jpg` | Join, or Die | `File:Benjamin Franklin - Join or Die.jpg` |
 | `b1/american-flag-symbols` | `02.jpg` | The Grand Union flag, or Continental Colors, used from late 1775. | `File:Grand Union Flag.svg` |
@@ -206,7 +206,7 @@ few used under a licence that requires a credit are listed separately below.
 | `b1/cachacas` | `01.jpg` | Harvesting the Sugar-Cane in Minas Gerais, Brazil | `File:Marianne North (1830-1890) - Harvesting the Sugar-Cane in Minas Geraes, Brazil - MN45 - Marianne North Gallery.jpg` |
 | `b1/cars-and-their-parts` | `01.jpg` | A 1920 Handley-Knight engine with the chain case off. | `File:Handley-Knight-Engine 1920.jpg` |
 | `b1/climbing` | `03.jpg` | On the rock. | `File:Rock Climber (53328079241).jpg` |
-| `b1/coffee-and-it` | `01.jpg` | A full room on an ordinary afternoon. | `File:Chatting in a coffee shop (Unsplash).jpg` |
+| `b1/coffee-and-it` | `01.jpg` | A full coffee shop in the middle of the afternoon. | `File:Chatting in a coffee shop (Unsplash).jpg` |
 | `b1/common-chores` | `01.jpg` | Washing out on the lines behind a row of houses | `File:An elevated view of row houses probably in S.W., showing laundry hanging on clothesline in backyards LCCN2016647096.jpg` |
 | `b1/cybersecurity` | `01.jpg` | A cybersecurity operations floor | `File:Cybersecurity Operations at Port San Antonio.jpg` |
 | `b1/frederick-douglass` | `01.jpg` | Frederick Douglass in 1856. | `File:Frederick Douglass ambrotype (1856).jpg` |
@@ -240,7 +240,7 @@ few used under a licence that requires a credit are listed separately below.
 | `b2/jackie-robinson` | `02.jpg` | Branch Rickey. | `File:Branch Rickey Cardinals.jpg` |
 | `b2/phrasal-verbs-02-trip-abroad` | `01.jpg` | Manhattan from the air, 1932 | `File:New York City, circa 1932.jpg` |
 | `b2/project-management-can-could-able-do-make` | `01.jpg` | Working through county land-use plans together | `File:Working on the county maps at the colored County Land Use Pl... (3110578334).jpg` |
-| `b2/project-management-can-could-able-do-make` | `02.jpg` | The room this conversation happens in, or one like it. | `File:Minimalist meeting room (Unsplash).jpg` |
+| `b2/project-management-can-could-able-do-make` | `02.jpg` | A meeting room with a long table and the chairs still pushed in. | `File:Minimalist meeting room (Unsplash).jpg` |
 | `b2/recent-advancements-in-it` | `02.jpg` | ENIAC, around 1946 | `File:Classic shot of the ENIAC.jpg` |
 | `b2/reconstruction` | `01.jpg` | The First Vote | `File:"The first vote" by A.R. Waud Harper's Weekly 1867-11-16 Retrieved from the Library of Congress.jpg` |
 | `b2/reconstruction` | `02.jpg` | The first Black senator and representatives in Congress, printed in 1872. | `File:First Colored Senator and Representatives.jpg` |
@@ -250,14 +250,14 @@ few used under a licence that requires a credit are listed separately below.
 | `b2/trail-of-tears` | `02.jpg` | West of the Mississippi, as mapped in 1804. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
 | `c1/america-in-1776` | `02.jpg` | Louis XVI in Coronation Robes | `File:Antoine-François Callet - Louis XVI, roi de France et de Navarre (1754-1793), revêtu du grand costume royal en 1779 - Google Art Project.jpg` |
 | `c1/america-in-1776` | `03.jpg` | Scene at the Signing of the Constitution | `File:Scene at the Signing of the Constitution of the United States.jpg` |
-| `c1/america-in-1776` | `04.jpg` | Arriving at Ellis Island. | `File:Arriving at Ellis Island LCCN97519082.jpg` |
+| `c1/america-in-1776` | `04.jpg` | Arriving at Ellis Island, around 1900. | `File:Arriving at Ellis Island LCCN97519082.jpg` |
 | `c1/apollo-11` | `01.jpg` | Buzz Aldrin on the surface | `File:Aldrin Apollo 11.jpg` |
 | `c1/apollo-11` | `02.jpg` | The Laser Ranging Retroreflector, photographed where it was left | `File:AS11-40-5952 - Apollo 11 - Apollo 11 Mission image - The Laser Ranging Retroreflector (LRRR) - NARA - 16685293.jpg` |
 | `c1/apollo-11` | `03.jpg` | What Michael Collins saw. | `File:Apollo 11 Lunar Module ascent stage photographed from Command Module.jpg` |
 | `c1/haiti` | `01.jpg` | The Daily Times-Advocate, 22 August 1912. | `File:Times-Advocate-Front-Page-1912-08-22.jpg` |
-| `c1/haiti` | `02.jpg` | A newsroom at deadline. | `File:Newsroom of the New York Times newspaper. 8d22685v.jpg` |
+| `c1/haiti` | `02.jpg` | The New York Times newsroom in the 1940s. | `File:Newsroom of the New York Times newspaper. 8d22685v.jpg` |
 | `c1/it-management` | `01.jpg` | The Banker and His Wife | `File:Marinus van Reymerswale - The Banker and His Wife - WGA19323.jpg` |
-| `c1/it-management` | `03.jpg` | The London Stock Exchange floor. | `File:Crowd on stock exchange floor, London LCCN2014683111.jpg` |
+| `c1/it-management` | `03.jpg` | The London Stock Exchange floor, early twentieth century. | `File:Crowd on stock exchange floor, London LCCN2014683111.jpg` |
 | `c1/malcolm-x` | `01.jpg` | Malcolm X and Martin Luther King Jr. | `File:MLK and Malcolm X USNWR cropped.jpg` |
 | `c1/malcolm-x` | `02.jpg` | Malcolm X | `File:Malcolm X in 1964.jpg` |
 | `c1/malcolm-x` | `03.jpg` | The first edition, 1965, published months after his death. | `File:The Autobiography of Malcolm X (1st ed dust jacket cover).jpg` |
@@ -265,7 +265,7 @@ few used under a licence that requires a credit are listed separately below.
 | `c1/martin-luther-king` | `02.jpg` | Fire hoses turned on demonstrators in Birmingham, Alabama | `File:Firemen spraying protestors in Downtown Birmingham 01.jpg` |
 | `c1/physiological-stressors` | `01.jpg` | Dorando Pietri at the end of the 1908 Olympic marathon. | `File:Dorando Pietri 1908.jpg` |
 | `c1/questionnaire-company-management` | `01.jpg` | The typing office of the Veterans Administration, Washington, 1924. | `File:Typists, Veterans Administration Central Office, Washington DC 20 May 1924.jpg` |
-| `c1/questionnaire-company-management` | `02.jpg` | Where the question actually gets asked. | `File:2024 Agricultural Outlook Forum - Day 2 (20240216-USDA-OSEC-TEW-0940).jpg` |
+| `c1/questionnaire-company-management` | `02.jpg` | Delegates at a professional forum, half of them on a phone or a laptop. | `File:2024 Agricultural Outlook Forum - Day 2 (20240216-USDA-OSEC-TEW-0940).jpg` |
 | `c1/rosa-parks` | `01.jpg` | Rosa Parks fingerprinted by Deputy Sheriff D. H. Lackey | `File:Rosa Parks being fingerprinted by Deputy Sheriff D.H. Lackey after being arrested on February 22, 1956, during the Montgomery bus boycott.jpg` |
 | `c1/rosa-parks` | `02.jpg` | Flyer circulated in Montgomery after the court order, 1956 | `File:Montgomery Improvement Association, flyer on bus desegregation, c. 1956 (NYPL).jpg` |
 | `c1/rosa-parks` | `03.jpg` | Rosa Parks on a Montgomery bus | `File:Rosa Parks on bus on December 21, 1956.jpg` |
@@ -296,7 +296,7 @@ few used under a licence that requires a credit are listed separately below.
 | `c2/reconstruction-revolution` | `02.jpg` | Hiram Rhodes Revels | `File:Oil portrait of Hiram Rhodes Revels by Theodor Kaufmann.jpg` |
 | `c2/reconstruction-revolution` | `03.jpg` | Worse than Slavery | `File:Worse than Slavery (1874), by Thomas Nast.jpg` |
 | `c2/saying-no-without-saying-no` | `01.jpg` | A Senate Armed Services Committee hearing | `File:US Navy 040408-N-2383B-070 Adm. Vern Clark, Chief of Naval Operations (CNO) answers questions by members of the Senate Armed Services Committee as he shares the witness table alongside the Honorable William H. Taft, Legal Advis.jpg` |
-| `c2/saying-no-without-saying-no` | `02.jpg` | Potsdam, 1945. | `File:Last meeting of the Potsdam Conference in Potsdam, Germany. Seated around the conference table, President Harry S.... - NARA - 198951.jpg` |
+| `c2/saying-no-without-saying-no` | `02.jpg` | The last session of the Potsdam Conference, 1945. | `File:Last meeting of the Potsdam Conference in Potsdam, Germany. Seated around the conference table, President Harry S.... - NARA - 198951.jpg` |
 | `c2/saying-no-without-saying-no` | `03.jpg` | The Tower of Babel | `File:Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project - edited.jpg` |
 | `c2/slavery-and-the-american-economy` | `01.jpg` | Auction broadside, New Orleans, 14 January 1860. | `File:SlaveAuctionBroadside-1860-01-14.jpg` |
 | `c2/slavery-and-the-american-economy` | `02.jpg` | Cotton Merchants in New Orleans | `File:Edgar Degas - Cotton Merchants in New Orleans.jpg` |

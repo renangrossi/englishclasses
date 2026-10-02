@@ -68,7 +68,7 @@
       "after": 1,
       "alt": "Rows of tall grey server cabinets on a raised white floor in a brightly lit data hall, a NASA logo on the end of the nearest row",
       "source": "commons:File:Columbia Supercomputer - NASA Advanced Supercomputing Facility.jpg",
-      "caption": "The Columbia supercomputer at the NASA Advanced Supercomputing Facility. Rows, cold air, a raised floor and nobody in sight — which is exactly the room this text describes at 2:47 on a Thursday.",
+      "caption": "The Columbia supercomputer at the NASA Advanced Supercomputing Facility. Rows, cold air, a raised floor and nobody in sight.",
       "relation": "depicts"
     },
     {
@@ -76,7 +76,7 @@
       "after": 6,
       "alt": "A narrow server room barely wider than a cupboard, with equipment mounted up the wall, power supplies on the floor and cable runs going in every direction",
       "source": "commons:File:EFTA00000738 - Cluttered server room filled with racks of equipment cables and power supplies.jpg",
-      "caption": "A server room the size of a store cupboard. This is what the back of a company Jamie's size actually looks like, biometric lock and all."
+      "caption": "A server room the size of a store cupboard. This is what the back of a mid-sized company looks like, biometric lock and all."
     },
     {
       "src": "04.jpg",
@@ -86,7 +86,7 @@
       "licence": "CC BY-SA 3.0",
       "author": "Birkenkrahe",
       "source_url": "https://commons.wikimedia.org/wiki/File:Change_management_whiteboard.jpg",
-      "caption": "The hour after the argument. Nothing on a board like this is clever; it works because it is written down where everyone can see who owns what."
+      "caption": "A whiteboard after a planning session. Nothing on a board like this is clever; it works because it is written down where everyone can see who owns what."
     },
     {
       "src": "05.jpg",
@@ -96,7 +96,7 @@
       "licence": "CC BY 2.0",
       "author": "Jemimus",
       "source_url": "https://commons.wikimedia.org/wiki/File:DHL_Netherlands_local_site_computer_room_air_conditioning_unit_and_ductwork_-_IMG_3295.jpg",
-      "caption": "The cooling. It had been logging warnings since August into a dashboard nobody had been given the job of reading, which is the actual subject of this story."
+      "caption": "A portable computer-room air conditioning unit, ducted into the ceiling. Cooling of this kind logs its warnings continuously, whether or not anybody has been given the job of reading them."
     }
   ],
   "vocabulary": [

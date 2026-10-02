@@ -37,6 +37,16 @@
       "source": "commons:File:A shop assistant shows a customer a luminous flower in Selfridge's department store, London. These flowers were one of numerous blackout accessories available in 1940 to make pedestrians more visible on the dark street D73.jpg",
       "caption": "A shop assistant showing a customer a product, Selfridges, 1940 — Ministry of Information. The whole of this text's vocabulary describes what is happening in this one exchange.",
       "relation": "depicts"
+    },
+    {
+      "src": "02.jpg",
+      "after": 3,
+      "alt": "A market stall piled with cabbages and greens, the vendor talking to a customer across the produce under a shaded canopy",
+      "source": "commons:File:Vendors selling goods in the market.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Mr. Snatch",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vendors_selling_goods_in_the_market.jpg",
+      "caption": "The oldest version of the method. Every question in SPIN is one this seller is already asking, without the acronym."
     }
   ],
   "vocabulary": [

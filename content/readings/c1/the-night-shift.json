@@ -32,6 +32,13 @@
   ],
   "images": [
     {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "A hospital ward at night in 1941: patients asleep in beds along a wall under shaded lights, with screens between some of the beds",
+      "source": "commons:File:Guy's Hospital- Life in a London Hospital, England, 1941 D2326.jpg",
+      "caption": "A ward at night, Guy's Hospital, 1941. The building and the medicine have changed completely; the hours have not changed at all."
+    },
+    {
       "src": "02.jpg",
       "after": 7,
       "alt": "First light over a cold field, long shadows and the sun only just above the horizon",

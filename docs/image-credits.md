@@ -163,7 +163,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-135 images the gallery could not answer -- flags, maps, photographs and
+140 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything carrying NC or ND. The
 few used under a licence that requires a credit are listed separately below.
@@ -239,6 +239,7 @@ few used under a licence that requires a credit are listed separately below.
 | `b2/jackie-robinson` | `02.jpg` | Branch Rickey. | `File:Branch Rickey Cardinals.jpg` |
 | `b2/phrasal-verbs-02-trip-abroad` | `01.jpg` | Manhattan from the air, 1932 | `File:New York City, circa 1932.jpg` |
 | `b2/project-management-can-could-able-do-make` | `01.jpg` | Working through county land-use plans together | `File:Working on the county maps at the colored County Land Use Pl... (3110578334).jpg` |
+| `b2/project-management-can-could-able-do-make` | `02.jpg` | The room this conversation happens in, or one like it. | `File:Minimalist meeting room (Unsplash).jpg` |
 | `b2/recent-advancements-in-it` | `02.jpg` | ENIAC, around 1946 | `File:Classic shot of the ENIAC.jpg` |
 | `b2/reconstruction` | `01.jpg` | The First Vote | `File:"The first vote" by A.R. Waud Harper's Weekly 1867-11-16 Retrieved from the Library of Congress.jpg` |
 | `b2/reconstruction` | `02.jpg` | The first Black senator and representatives in Congress, printed in 1872. | `File:First Colored Senator and Representatives.jpg` |
@@ -263,13 +264,17 @@ few used under a licence that requires a credit are listed separately below.
 | `c1/martin-luther-king` | `02.jpg` | Fire hoses turned on demonstrators in Birmingham, Alabama | `File:Firemen spraying protestors in Downtown Birmingham 01.jpg` |
 | `c1/physiological-stressors` | `01.jpg` | Dorando Pietri at the end of the 1908 Olympic marathon. | `File:Dorando Pietri 1908.jpg` |
 | `c1/questionnaire-company-management` | `01.jpg` | The typing office of the Veterans Administration, Washington, 1924. | `File:Typists, Veterans Administration Central Office, Washington DC 20 May 1924.jpg` |
+| `c1/questionnaire-company-management` | `02.jpg` | Where the question actually gets asked. | `File:2024 Agricultural Outlook Forum - Day 2 (20240216-USDA-OSEC-TEW-0940).jpg` |
 | `c1/rosa-parks` | `01.jpg` | Rosa Parks fingerprinted by Deputy Sheriff D. H. Lackey | `File:Rosa Parks being fingerprinted by Deputy Sheriff D.H. Lackey after being arrested on February 22, 1956, during the Montgomery bus boycott.jpg` |
 | `c1/rosa-parks` | `02.jpg` | Flyer circulated in Montgomery after the court order, 1956 | `File:Montgomery Improvement Association, flyer on bus desegregation, c. 1956 (NYPL).jpg` |
 | `c1/rosa-parks` | `03.jpg` | Rosa Parks on a Montgomery bus | `File:Rosa Parks on bus on December 21, 1956.jpg` |
 | `c1/shadows-in-the-server-room` | `01.jpg` | The Columbia supercomputer at the NASA Advanced Supercomputing Facility. | `File:Columbia Supercomputer - NASA Advanced Supercomputing Facility.jpg` |
 | `c1/shadows-in-the-server-room` | `03.jpg` | A server room the size of a store cupboard. | `File:EFTA00000738 - Cluttered server room filled with racks of equipment cables and power supplies.jpg` |
 | `c1/the-cost-of-convenience` | `01.jpg` | The Horn & Hardart Automat, Times Square, around 1939. | `File:Horn & Hardart Times Square New York circa 1939.JPG` |
+| `c1/the-cost-of-convenience` | `02.jpg` | The signs say save time, and they are telling the truth. | `File:Billa supermarket, Blagoevgrad centre, self-checkout, 2026.jpg` |
 | `c1/the-meeting-problem` | `01.jpg` | An all-hands meeting at NASA's Kennedy Space Center | `File:KSC-20170815-PH KLS01 0079 (36212683960).jpg` |
+| `c1/the-meeting-problem` | `02.jpg` | An hour of eight people's time, waiting to be booked. | `File:Small conference room (Unsplash).jpg` |
+| `c1/the-night-shift` | `01.jpg` | A ward at night, Guy's Hospital, 1941. | `File:Guy's Hospital- Life in a London Hospital, England, 1941 D2326.jpg` |
 | `c1/the-space-race` | `01.jpg` | A full-size replica of Sputnik 1 on display | `File:Sputnik 1.jpg` |
 | `c1/the-space-race` | `02.jpg` | Yuri Gagarin | `File:Yuri Gagarin (1961) - Restoration.jpg` |
 | `c1/the-space-race` | `03.jpg` | An N1 mockup on the pad at Baikonur, 1967. | `File:N1 1M1 mockup on the launch pad at the Baikonur Cosmodrome in late 1967.jpg` |
@@ -308,7 +313,7 @@ few used under a licence that requires a credit are listed separately below.
 
 ### Used under a licence that requires credit
 
-53 image(s). The credit is also printed under the picture on
+56 image(s). The credit is also printed under the picture on
 the page itself, which is where the licence requires it to be.
 
 | Page | File | Author | Licence | Source |
@@ -316,6 +321,7 @@ the page itself, which is where the licence requires it to be.
 | `a2/restaurant-dialogue` | `01.jpg` | Jim.henderson | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Joe%27s_Pizza_2022_jeh.jpg) |
 | `a2/two-very-different-trips` | `02.jpg` | Nawit science | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Temple_of_the_Emerald_Buddha.jpg) |
 | `b1/a-day-in-the-office` | `02.jpg` | John M | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:A_snowy_view_out_of_the_office_window_-_geograph.org.uk_-_3300587.jpg) |
+| `b1/a-freelance-accounting-assignment` | `02.jpg` | AgnosticPreachersKid | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:22_West_-_home_office.jpg) |
 | `b1/arriving-in-johannesburg` | `01.jpg` | Aleph500Adam | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Johannesburg_in_December.jpg) |
 | `b1/arriving-in-johannesburg` | `02.jpg` | Nick-D | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Waiting_area_in_Terminal_B_of_OR_Tambo_International_Airport_June_2026.jpg) |
 | `b1/cars-and-their-parts` | `02.jpg` | unknown | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Porsche-gearbox-cutaway.jpg) |
@@ -343,11 +349,13 @@ the page itself, which is where the licence requires it to be.
 | `b2/egypt-a-journey-through-history-and-culture` | `03.jpg` | en:User:Hajor | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Egypt.Giza.Sphinx.01.jpg) |
 | `b2/egypt` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Thebes,_Luxor,_Egypt,_Temple_of_Hatshepsut,_Deir_el-Bahari.jpg) |
 | `b2/formula-1` | `02.jpg` | Lukas Raich | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2022_Nr._44_Hamilton.jpg) |
+| `b2/intelligence-pills` | `02.jpg` | MorgueFile : see [1] | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:VariousPills.jpg) |
 | `b2/it-and-jiu-jitsu` | `02.jpg` | parhessiastes | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Brazilian_Jiu-Jitsu_Gi_Competition-Armbar.jpg) |
 | `b2/it-interview` | `02.jpg` | Gangulybiswarup | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Audience_Of_Sudeshna_Mukherjee%27s_Talk_On_Gender_Equality_Digital_Rights_And_AI_Ethics_-_WikiConference_India_2026_-_Kochi_2026-09-05_04077.jpg) |
 | `b2/phrasal-verbs-01-bed-and-breakfast` | `01.jpg` | Infrogmation of New Orleans | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mess_at_Home_-_Uptown_New_Orleans_Bedroom_January_1990_01.jpg) |
 | `b2/recent-advancements-in-it` | `01.jpg` | Carl Lender from Sunrise, USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg) |
 | `b2/romania` | `03.jpg` | Joe Mabel | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bucharest_Grand_Hotel_2.jpg) |
+| `b2/sales-strategy` | `02.jpg` | Mr. Snatch | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vendors_selling_goods_in_the_market.jpg) |
 | `b2/soma-nomaoi` | `02.jpg` | PekePON | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Soma_Nomaoi_2005-3.jpg) |
 | `b2/the-marathon-and-the-wall` | `02.jpg` | U.S. Army | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Joseph_Chirlee_2010.jpg) |
 | `c1/it-management` | `02.jpg` | SimonWaldherr | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:CERN_Computer_Center_13.jpg) |

@@ -870,7 +870,14 @@
     // right meaning, which a predictable, sorted list makes easier
     // without giving away any answer (the pairing itself is still
     // exactly as hard to know as before).
-    var rightOptions = alphabetizeGrouped(item.pairs.map(function (p) { return p.right; }));
+    // Each distinct answer appears once. Several rows can share an answer
+    // by design -- twelve nouns sorted into "a" or "an", twelve subjects
+    // into "have" or "has" -- and listing every row's copy gave a
+    // dropdown reading a, a, a, a, a, a, an, an, ... for a two-way choice.
+    // Grading below compares values, so any row whose answer is "a" is
+    // satisfied by the one "a" left in the list.
+    var rightOptions = alphabetizeGrouped(item.pairs.map(function (p) { return p.right; })
+      .filter(function (r, i, all) { return all.indexOf(r) === i; }));
     var selects = [];
     var rowWraps = [];
 

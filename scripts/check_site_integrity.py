@@ -212,9 +212,16 @@ def check_exercise_block(where, block, seen_ids):
             if not isinstance(pairs, list) or not pairs:
                 errors.append(f"{where} {iid}: matching needs 'pairs'")
             else:
-                rights = [p.get("right") for p in pairs]
-                if len(set(rights)) != len(rights):
-                    warnings.append(f"{where} {iid}: repeated 'right' values make the dropdown ambiguous")
+                # Several rows sharing an answer is a legitimate design --
+                # nouns sorted into a/an, subjects into have/has -- and the
+                # renderer lists each distinct answer once. What is a
+                # mistake is the same row twice: the student is asked the
+                # identical question again, usually from a copy-paste.
+                rows = [(p.get("left"), p.get("right")) for p in pairs]
+                repeated = sorted({r for r in rows if rows.count(r) > 1}, key=str)
+                if repeated:
+                    shown = ", ".join(f"{l!s} -> {r!s}" for l, r in repeated[:3])
+                    warnings.append(f"{where} {iid}: the same row appears more than once ({shown})")
         elif etype == "typing":
             if not item.get("answer") and not item.get("modelAnswer"):
                 warnings.append(f"{where} {iid}: typing item with neither 'answer' nor 'modelAnswer'")

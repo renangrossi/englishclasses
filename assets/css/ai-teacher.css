@@ -13,7 +13,10 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5em;
-  padding: 0.75em 1.1em;
+  /* Matches .irregular-verbs-toggle's pinned height (search.css) so the two
+     bottom corners are the same height as each other. */
+  height: var(--fab-size);
+  padding: 0 1.1em;
   border-radius: 999px;
   border: none;
   background: var(--color-red);
@@ -29,7 +32,12 @@
 .ai-teacher-toggle svg { width: 20px; height: 20px; flex-shrink: 0; }
 .ai-teacher-toggle__label { white-space: nowrap; }
 @media (max-width: 560px) {
-  .ai-teacher-toggle { padding: 0.7em; }
+  .ai-teacher-toggle {
+    width: var(--fab-size);
+    padding: 0;
+    justify-content: center;
+    border-radius: 50%;
+  }
   .ai-teacher-toggle__label { display: none; }
 }
 

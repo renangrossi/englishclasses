@@ -84,6 +84,10 @@ def check_links(pages, anchors):
             if re.match(r"^[a-z][a-z0-9+.-]*:", url):   # external scheme
                 continue
             path, _, frag = url.partition("#")
+            # scripts/stamp_asset_versions.py appends ?v=<hash> to css and js
+            # references for cache-busting; the query is not part of the path
+            # on disk, so strip it before resolving.
+            path, _, _query = path.partition("?")
             path = unquote(path)
             if path:
                 target = os.path.normpath(os.path.join(target_base, path)).replace("\\", "/")

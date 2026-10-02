@@ -30,6 +30,16 @@
   ],
   "images": [
     {
+      "src": "01.jpg",
+      "after": 2,
+      "alt": "An aisle in a data centre lined with black server racks full of cabled equipment, lit by ceiling panels above a tiled floor",
+      "source": "commons:File:Datacenter Server Racks (22370909788).jpg",
+      "licence": "CC BY 2.0",
+      "author": "Carl Lender from Sunrise, USA",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+      "caption": "The buildings this paragraph is about. The hard problems in them are electrical and thermal long before they are computational."
+    },
+    {
       "src": "02.jpg",
       "after": 4,
       "alt": "A long room filled on both sides with tall racks of cables, dials and switches, with two people working at the panels",

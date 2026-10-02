@@ -39,6 +39,20 @@
       "source": "commons:File:US Navy 040408-N-2383B-070 Adm. Vern Clark, Chief of Naval Operations (CNO) answers questions by members of the Senate Armed Services Committee as he shares the witness table alongside the Honorable William H. Taft, Legal Advis.jpg",
       "caption": "A Senate Armed Services Committee hearing — US Navy. A room where everything is said carefully, and where what is not said matters as much as what is.",
       "relation": "depicts"
+    },
+    {
+      "src": "02.jpg",
+      "after": 2,
+      "alt": "The Potsdam Conference photographed from above: delegations seated all the way round a large circular table covered in papers, with aides on chairs behind them",
+      "source": "commons:File:Last meeting of the Potsdam Conference in Potsdam, Germany. Seated around the conference table, President Harry S.... - NARA - 198951.jpg",
+      "caption": "Potsdam, 1945. A room in which almost nothing said across the table meant what it appeared to mean, which is the ordinary condition of rooms like it."
+    },
+    {
+      "src": "03.jpg",
+      "after": 5,
+      "alt": "Bruegel's Tower of Babel: an enormous spiralling brick tower, half-built and already cracking, with tiny workers and cranes on its ramps and a harbour town below",
+      "source": "commons:File:Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project - edited.jpg",
+      "caption": "*The Tower of Babel* — Pieter Bruegel the Elder, 1563. The original story about a project failing for linguistic rather than technical reasons."
     }
   ],
   "vocabulary": [

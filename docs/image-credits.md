@@ -164,7 +164,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-104 images the gallery could not answer -- flags, maps, photographs and
+111 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything carrying NC or ND. The
 few used under a licence that requires a credit are listed separately below.
@@ -242,10 +242,14 @@ few used under a licence that requires a credit are listed separately below.
 | `b2/sales-strategy` | `01.jpg` | A shop assistant showing a customer a product, Selfridges, 1940 | `File:A shop assistant shows a customer a luminous flower in Selfridge's department store, London. These flowers were one of numerous blackout accessories available in 1940 to make pedestrians more visible on the dark street D73.jpg` |
 | `b2/trail-of-tears` | `01.jpg` | Sequoyah with his syllabary | `File:Henry Inman - Sequoyah - Google Art Project.jpg` |
 | `b2/trail-of-tears` | `02.jpg` | West of the Mississippi, as mapped in 1804. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
+| `c1/america-in-1776` | `02.jpg` | Louis XVI in Coronation Robes | `File:Antoine-François Callet - Louis XVI, roi de France et de Navarre (1754-1793), revêtu du grand costume royal en 1779 - Google Art Project.jpg` |
+| `c1/america-in-1776` | `03.jpg` | Scene at the Signing of the Constitution | `File:Scene at the Signing of the Constitution of the United States.jpg` |
+| `c1/america-in-1776` | `04.jpg` | Arriving at Ellis Island. | `File:Arriving at Ellis Island LCCN97519082.jpg` |
 | `c1/apollo-11` | `01.jpg` | Buzz Aldrin on the surface | `File:Aldrin Apollo 11.jpg` |
 | `c1/apollo-11` | `02.jpg` | The Laser Ranging Retroreflector, photographed where it was left | `File:AS11-40-5952 - Apollo 11 - Apollo 11 Mission image - The Laser Ranging Retroreflector (LRRR) - NARA - 16685293.jpg` |
 | `c1/haiti` | `01.jpg` | The Daily Times-Advocate, 22 August 1912. | `File:Times-Advocate-Front-Page-1912-08-22.jpg` |
 | `c1/it-management` | `01.jpg` | The Banker and His Wife | `File:Marinus van Reymerswale - The Banker and His Wife - WGA19323.jpg` |
+| `c1/it-management` | `03.jpg` | The London Stock Exchange floor. | `File:Crowd on stock exchange floor, London LCCN2014683111.jpg` |
 | `c1/malcolm-x` | `01.jpg` | Malcolm X and Martin Luther King Jr. | `File:MLK and Malcolm X USNWR cropped.jpg` |
 | `c1/malcolm-x` | `02.jpg` | Malcolm X | `File:Malcolm X in 1964.jpg` |
 | `c1/martin-luther-king` | `01.jpg` | Martin Luther King Jr. at the March on Washington | `File:Civil Rights March on Washington, D.C. (Dr. Martin Luther King, Jr. and Mathew Ahmann in a crowd.) - NARA - 542015 - Restoration.jpg` |
@@ -256,6 +260,7 @@ few used under a licence that requires a credit are listed separately below.
 | `c1/rosa-parks` | `02.jpg` | Flyer circulated in Montgomery after the court order, 1956 | `File:Montgomery Improvement Association, flyer on bus desegregation, c. 1956 (NYPL).jpg` |
 | `c1/rosa-parks` | `03.jpg` | Rosa Parks on a Montgomery bus | `File:Rosa Parks on bus on December 21, 1956.jpg` |
 | `c1/shadows-in-the-server-room` | `01.jpg` | The Columbia supercomputer at the NASA Advanced Supercomputing Facility. | `File:Columbia Supercomputer - NASA Advanced Supercomputing Facility.jpg` |
+| `c1/shadows-in-the-server-room` | `03.jpg` | A server room the size of a store cupboard. | `File:EFTA00000738 - Cluttered server room filled with racks of equipment cables and power supplies.jpg` |
 | `c1/the-cost-of-convenience` | `01.jpg` | The Horn & Hardart Automat, Times Square, around 1939. | `File:Horn & Hardart Times Square New York circa 1939.JPG` |
 | `c1/the-meeting-problem` | `01.jpg` | An all-hands meeting at NASA's Kennedy Space Center | `File:KSC-20170815-PH KLS01 0079 (36212683960).jpg` |
 | `c1/the-space-race` | `01.jpg` | A full-size replica of Sputnik 1 on display | `File:Sputnik 1.jpg` |
@@ -270,6 +275,8 @@ few used under a licence that requires a credit are listed separately below.
 | `c2/manifest-destiny` | `01.jpg` | American Progress | `File:American Progress (1872) by John Gast.jpg` |
 | `c2/reconstruction-revolution` | `01.jpg` | One of the data portraits W. | `File:The Georgia Negro LCCN2013650436.jpg` |
 | `c2/saying-no-without-saying-no` | `01.jpg` | A Senate Armed Services Committee hearing | `File:US Navy 040408-N-2383B-070 Adm. Vern Clark, Chief of Naval Operations (CNO) answers questions by members of the Senate Armed Services Committee as he shares the witness table alongside the Honorable William H. Taft, Legal Advis.jpg` |
+| `c2/saying-no-without-saying-no` | `02.jpg` | Potsdam, 1945. | `File:Last meeting of the Potsdam Conference in Potsdam, Germany. Seated around the conference table, President Harry S.... - NARA - 198951.jpg` |
+| `c2/saying-no-without-saying-no` | `03.jpg` | The Tower of Babel | `File:Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project - edited.jpg` |
 | `c2/slavery-and-the-american-economy` | `01.jpg` | Auction broadside, New Orleans, 14 January 1860. | `File:SlaveAuctionBroadside-1860-01-14.jpg` |
 | `c2/slavery-and-the-american-economy` | `02.jpg` | Cotton Merchants in New Orleans | `File:Edgar Degas - Cotton Merchants in New Orleans.jpg` |
 | `c2/the-american-dream` | `01.jpg` | Toward Los Angeles | `File:Toward Los Angeles, California LOC 3549663710.jpg` |
@@ -278,7 +285,7 @@ few used under a licence that requires a credit are listed separately below.
 
 ### Used under a licence that requires credit
 
-13 image(s). The credit is also printed under the picture on
+21 image(s). The credit is also printed under the picture on
 the page itself, which is where the licence requires it to be.
 
 | Page | File | Author | Licence | Source |
@@ -296,5 +303,13 @@ the page itself, which is where the licence requires it to be.
 | `b1/southeast-asia-adventure` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rice_terraces,_Ubud,_Bali.jpg) |
 | `b1/usa-restaurants` | `02.jpg` | Tony Webster from Minneapolis, Minnesota, United States | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Pensacola_Beach_-_White_Sands,_Florida_Coast_(27268946483).jpg) |
 | `b2/phrasal-verbs-01-bed-and-breakfast` | `01.jpg` | Infrogmation of New Orleans | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mess_at_Home_-_Uptown_New_Orleans_Bedroom_January_1990_01.jpg) |
+| `c1/it-management` | `02.jpg` | SimonWaldherr | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:CERN_Computer_Center_13.jpg) |
+| `c1/physiological-stressors` | `02.jpg` | Shixart1985 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Runner_pours_water_over_his_head_after_finishing_a_race_in_an_outdoor_setting_during_a_sunny_day.jpg) |
+| `c1/physiological-stressors` | `03.jpg` | Riga Marathon | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Water_station_Rimi_Riga_Marathon_2021_Van%C5%A1u_bridge.jpg) |
+| `c1/rs-japan` | `02.jpg` | FERNANDAQUINTANA1 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Amanhecer_do_Pampa_Gaucho.JPG) |
+| `c1/rs-japan` | `03.jpg` | ccfarmer | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cherry_blossom_viewing_in_Maruyama_Park_-_panoramio.jpg) |
+| `c1/shadows-in-the-server-room` | `02.jpg` | Bill Bradford | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tangled_cables_mrbill.jpg) |
+| `c1/shadows-in-the-server-room` | `04.jpg` | Birkenkrahe | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Change_management_whiteboard.jpg) |
+| `c1/shadows-in-the-server-room` | `05.jpg` | Jemimus | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:DHL_Netherlands_local_site_computer_room_air_conditioning_unit_and_ductwork_-_IMG_3295.jpg) |
 
 <!-- gallery:end -->

@@ -274,8 +274,8 @@ def main():
     total = done + sum(len(v) for v in pending.values())
     by_level = {c: built.get(c, []) + pending.get(c, []) for c in LEVEL_INFO}
     if total > done:
-        pending_note = (f"{done} are ready to read now; the rest are still in their "
-                        f"original documents while they are converted. ")
+        pending_note = (f" {done} are ready to read now; the rest are still in their "
+                        f"original documents while they are converted.")
 
     title = "Reading & Listening Library — Renan the Teacher"
     description = ("A CEFR-levelled library of reading and listening texts for English learners — "
@@ -304,7 +304,7 @@ def main():
             <div class="page-header__text">
                 <p class="eyebrow hero__eyebrow">Practice Library</p>
                 <h1>Reading &amp; Listening Library</h1>
-                <p class="page-header__lede">{total} texts, ordered the way you would actually learn them &mdash; A1 through C2. Every reading has a recording, vocabulary and exercises you can check yourself, and a Print / Save as PDF button. {pending_note}Use the tags under each level to find texts by subject or by the grammar they practice.</p>
+                <p class="page-header__lede">Stories, dialogues, history and essays, graded from A1 to C2.{pending_note}</p>
             </div>
             <img class="page-header__badge" src="assets/img/badges/badge-single-star.webp" alt="" width="88" height="88" loading="lazy">
         </div>

@@ -34,6 +34,16 @@
       "source": "commons:File:Chatting in a coffee shop (Unsplash).jpg",
       "caption": "A full room on an ordinary afternoon. This text is about the software that sits behind a place like this, which nobody in the picture is thinking about.",
       "relation": "depicts"
+    },
+    {
+      "src": "02.jpg",
+      "after": 1,
+      "alt": "The inside of a small cafe: a serving counter with equipment behind it, and customers sitting at tables around the room",
+      "source": "commons:File:Myyr York Cafe.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Petterin",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Myyr_York_Cafe.jpg",
+      "caption": "The counter, where the ordering system meets the person using it. Most of what follows in this text is invisible from this chair."
     }
   ],
   "vocabulary": [

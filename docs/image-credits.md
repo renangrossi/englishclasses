@@ -308,15 +308,20 @@ few used under a licence that requires a credit are listed separately below.
 
 ### Used under a licence that requires credit
 
-44 image(s). The credit is also printed under the picture on
+53 image(s). The credit is also printed under the picture on
 the page itself, which is where the licence requires it to be.
 
 | Page | File | Author | Licence | Source |
 |---|---|---|---|---|
 | `a2/restaurant-dialogue` | `01.jpg` | Jim.henderson | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Joe%27s_Pizza_2022_jeh.jpg) |
 | `a2/two-very-different-trips` | `02.jpg` | Nawit science | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Temple_of_the_Emerald_Buddha.jpg) |
+| `b1/a-day-in-the-office` | `02.jpg` | John M | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:A_snowy_view_out_of_the_office_window_-_geograph.org.uk_-_3300587.jpg) |
 | `b1/arriving-in-johannesburg` | `01.jpg` | Aleph500Adam | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Johannesburg_in_December.jpg) |
 | `b1/arriving-in-johannesburg` | `02.jpg` | Nick-D | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Waiting_area_in_Terminal_B_of_OR_Tambo_International_Airport_June_2026.jpg) |
+| `b1/cars-and-their-parts` | `02.jpg` | unknown | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Porsche-gearbox-cutaway.jpg) |
+| `b1/cars` | `03.jpg` | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cologne_Germany_Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg) |
+| `b1/coffee-and-it` | `02.jpg` | Petterin | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Myyr_York_Cafe.jpg) |
+| `b1/cybersecurity` | `02.jpg` | Tony Webster from Minneapolis, Minnesota, United States | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Yubikey_USB_2FA_U2F_Security_Token_(46900270791).jpg) |
 | `b1/frederick-douglass` | `02.jpg` | TradingCardsNPS | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_North_Star_(7222833218).jpg) |
 | `b1/glamping` | `02.jpg` | Shabicht | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Glamping_hut_Visole_07.jpg) |
 | `b1/golden-gate-bridge-present-perfect` | `02.jpg` | Brocken Inaglory | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_at_sunset_1.jpg) |
@@ -327,17 +332,21 @@ the page itself, which is where the licence requires it to be.
 | `b1/physical-education` | `02.jpg` | Nwaeke Daniel (Danzisky) | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:School_children_happily_playing_in_playground.jpg) |
 | `b1/rio-de-janeiro-exercises` | `01.jpg` | Halley Pacheco de Oliveira | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Floresta_da_Tijuca_60.jpg) |
 | `b1/rio-de-janeiro-exercises` | `02.jpg` | Pierre André | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rio_de_Janeiro_Tijuca_Forest_Cascatinha_Taunay_(1).jpg) |
+| `b1/robot-birds` | `02.jpg` | JoeInQueens from Queens, USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Feeding_Pigeons_in_Washington_Square_Park.jpg) |
 | `b1/santa-catarina` | `01.jpg` | Jeffhollett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cannon_Beach_at_Pacific_Coast_in_Oregon_1.jpg) |
 | `b1/santa-catarina` | `02.jpg` | Jeffhollett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sunset_at_Cannon_Beach_in_Oregon_1.jpg) |
 | `b1/southeast-asia-adventure` | `01.jpg` | Satdeep Gill | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Angkor_Wat_with_its_reflection_(cropped).jpg) |
 | `b1/southeast-asia-adventure` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rice_terraces,_Ubud,_Bali.jpg) |
 | `b1/usa-restaurants` | `02.jpg` | Tony Webster from Minneapolis, Minnesota, United States | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Pensacola_Beach_-_White_Sands,_Florida_Coast_(27268946483).jpg) |
 | `b1/usa-restaurants` | `03.jpg` | Kramtronik | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tampa_Cuban_Sandwich.jpg) |
+| `b2/business-war-it` | `03.jpg` | Campus Party México | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kevin_Mitnick_ex_hacker_y_ahora_famoso_consultor_en_redes_en_Campus_Party_M%C3%A9xico_2010.jpg) |
 | `b2/egypt-a-journey-through-history-and-culture` | `03.jpg` | en:User:Hajor | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Egypt.Giza.Sphinx.01.jpg) |
 | `b2/egypt` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Thebes,_Luxor,_Egypt,_Temple_of_Hatshepsut,_Deir_el-Bahari.jpg) |
 | `b2/formula-1` | `02.jpg` | Lukas Raich | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2022_Nr._44_Hamilton.jpg) |
 | `b2/it-and-jiu-jitsu` | `02.jpg` | parhessiastes | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Brazilian_Jiu-Jitsu_Gi_Competition-Armbar.jpg) |
+| `b2/it-interview` | `02.jpg` | Gangulybiswarup | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Audience_Of_Sudeshna_Mukherjee%27s_Talk_On_Gender_Equality_Digital_Rights_And_AI_Ethics_-_WikiConference_India_2026_-_Kochi_2026-09-05_04077.jpg) |
 | `b2/phrasal-verbs-01-bed-and-breakfast` | `01.jpg` | Infrogmation of New Orleans | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mess_at_Home_-_Uptown_New_Orleans_Bedroom_January_1990_01.jpg) |
+| `b2/recent-advancements-in-it` | `01.jpg` | Carl Lender from Sunrise, USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg) |
 | `b2/romania` | `03.jpg` | Joe Mabel | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bucharest_Grand_Hotel_2.jpg) |
 | `b2/soma-nomaoi` | `02.jpg` | PekePON | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Soma_Nomaoi_2005-3.jpg) |
 | `b2/the-marathon-and-the-wall` | `02.jpg` | U.S. Army | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Joseph_Chirlee_2010.jpg) |

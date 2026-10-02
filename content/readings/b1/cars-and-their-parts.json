@@ -31,6 +31,16 @@
       "source": "commons:File:Handley-Knight-Engine 1920.jpg",
       "caption": "A 1920 Handley-Knight engine with the chain case off. Almost every part this text names is somewhere in this picture.",
       "relation": "depicts"
+    },
+    {
+      "src": "02.jpg",
+      "after": 2,
+      "alt": "A cutaway display gearbox with one side of its casing removed, showing the shafts, the stacked gear wheels of different sizes and the selector forks between them",
+      "source": "commons:File:Porsche-gearbox-cutaway.jpg",
+      "licence": "CC BY-SA 3.0",
+      "author": "unknown",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Porsche-gearbox-cutaway.jpg",
+      "caption": "A gearbox opened up. Every ratio in it exists because an engine is only efficient across a narrow band of speeds."
     }
   ],
   "vocabulary": [

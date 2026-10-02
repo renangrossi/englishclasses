@@ -35,6 +35,16 @@
       "source": "commons:File:Cybersecurity Operations at Port San Antonio.jpg",
       "caption": "A cybersecurity operations floor — Maj. Christopher Vasquez, US Air Force. Note what the work actually looks like: people watching screens and answering alerts, not anybody repelling an assault on a wall.",
       "relation": "depicts"
+    },
+    {
+      "src": "02.jpg",
+      "after": 3,
+      "alt": "A small black USB security key with a gold touch contact, lying on a plain pale surface",
+      "source": "commons:File:Yubikey USB 2FA U2F Security Token (46900270791).jpg",
+      "licence": "CC BY 2.0",
+      "author": "Tony Webster from Minneapolis, Minnesota, United States",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Yubikey_USB_2FA_U2F_Security_Token_(46900270791).jpg",
+      "caption": "A hardware key. A code from an app is good; a physical key is better, because it cannot be read out to somebody over the phone."
     }
   ],
   "vocabulary": [

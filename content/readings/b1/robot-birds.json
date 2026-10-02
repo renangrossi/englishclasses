@@ -27,6 +27,16 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 0,
+      "alt": "A person on a city street holding out an arm with a pigeon perched on it, other pigeons and passers-by around them",
+      "source": "commons:File:Feeding Pigeons in Washington Square Park.jpg",
+      "licence": "CC BY 2.0",
+      "author": "JoeInQueens from Queens, USA",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Feeding_Pigeons_in_Washington_Square_Park.jpg",
+      "caption": "The other half of the problem. A city pigeon population is set by how much food it can find, which is a human decision rather than an avian one."
+    },
+    {
       "src": "01.jpg",
       "after": 3,
       "alt": "A color plate of a peregrine falcon perched on a rock, seen from the side",

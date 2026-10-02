@@ -41,6 +41,16 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 0,
+      "alt": "A wooden hotel reception desk under an arch, with pigeonholes for keys behind it and a lamp at one end of the counter",
+      "source": "commons:File:Reception desk at Hotel Esplanade in Stockholm.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "JIP",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Reception_desk_at_Hotel_Esplanade_in_Stockholm.jpg",
+      "caption": "The desk in question. Everything in this conversation happens across one of these."
+    },
+    {
       "src": "01.jpg",
       "after": 2,
       "alt": "People being attended to at a desk in the great hall of a town building, others waiting their turn",

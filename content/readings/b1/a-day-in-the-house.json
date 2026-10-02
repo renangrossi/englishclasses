@@ -32,6 +32,13 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 5,
+      "alt": "A shared laundry room in an apartment building: two washing machines and a dryer side by side against a tiled wall under a sign reading Laundry",
+      "source": "commons:File:Laundry room in apartment building.png",
+      "caption": "The load Sarah started. The smell of warm detergent that fills the room is in the text for a reason: it is how the house knows what time it is."
+    },
+    {
       "src": "01.jpg",
       "after": 7,
       "alt": "A large dog asleep on the ground beside a basket and a clay pot",

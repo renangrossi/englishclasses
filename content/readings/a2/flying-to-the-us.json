@@ -62,6 +62,13 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 8,
+      "alt": "A row of airline check-in counters in a bright modern airport terminal, each with a numbered screen above it and passengers queueing with luggage",
+      "source": "commons:File:VTBS-Thai Airways Check-in counters.JPG",
+      "caption": "Check-in. The second conversation in this text happens here, and it is mostly four questions in a fixed order."
+    },
+    {
       "src": "01.jpg",
       "after": 17,
       "alt": "A crowd of people standing around a propeller airliner on an airfield in 1935",

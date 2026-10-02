@@ -163,7 +163,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-140 images the gallery could not answer -- flags, maps, photographs and
+142 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything carrying NC or ND. The
 few used under a licence that requires a credit are listed separately below.
@@ -187,11 +187,13 @@ few used under a licence that requires a credit are listed separately below.
 | `a2/coffee-brewing` | `01.jpg` | Pouring over the filter. | `File:Brewing coffee in a jug (Unsplash).jpg` |
 | `a2/declaration-of-independence` | `02.jpg` | The document itself, now in Washington, D.C. | `File:United States Declaration of Independence.jpg` |
 | `a2/flying-to-the-us` | `01.jpg` | The first United Airlines service into Allentown, 1935. | `File:1935 - United Airlines begins service to Allentown Airport.jpg` |
+| `a2/flying-to-the-us` | `02.jpg` | Check-in. | `File:VTBS-Thai Airways Check-in counters.JPG` |
 | `a2/oregon-trail` | `02.jpg` | Emigrants Crossing the Plains | `File:Emigrants Crossing the Plains, or The Oregon Trail (Albert Bierstadt), 1869.jpg` |
 | `a2/sacagawea` | `01.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
 | `a2/saying-and-telling` | `01.jpg` | A Piggly Wiggly store | `File:Interior view of a Piggly Wiggly self-service grocery store showing check out counter with cash registers LCCN92520726.jpg` |
 | `a2/something-wrong-with-the-order` | `01.jpg` | An order as it arrives. | `File:Dominican Restaurant (Unsplash).jpg` |
 | `a2/st-patricks-day` | `01.jpg` | The Fifth Avenue parade in New York. | `File:New York City St. Patrick's Day Parade DVIDS261048.jpg` |
+| `b1/a-day-in-the-house` | `02.jpg` | The load Sarah started. | `File:Laundry room in apartment building.png` |
 | `b1/a-day-in-the-office` | `01.jpg` | Interior with a Woman Standing | `File:Interior with a Woman Standing by Vilhelm Hammershøi, 1913.jpg` |
 | `b1/american-flag-symbols` | `01.jpg` | Join, or Die | `File:Benjamin Franklin - Join or Die.jpg` |
 | `b1/american-flag-symbols` | `02.jpg` | The Grand Union flag, or Continental Colors, used from late 1775. | `File:Grand Union Flag.svg` |
@@ -313,24 +315,29 @@ few used under a licence that requires a credit are listed separately below.
 
 ### Used under a licence that requires credit
 
-56 image(s). The credit is also printed under the picture on
+67 image(s). The credit is also printed under the picture on
 the page itself, which is where the licence requires it to be.
 
 | Page | File | Author | Licence | Source |
 |---|---|---|---|---|
 | `a2/restaurant-dialogue` | `01.jpg` | Jim.henderson | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Joe%27s_Pizza_2022_jeh.jpg) |
+| `a2/two-small-errands` | `01.jpg` | PattayaPatrol | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:DFC_4093_Assorted_mini_cream-topped_pastries_drizzled_with_fruit_sauce_and_chocolate_ready_to_tempt_at_the_bakery_counter.jpg) |
 | `a2/two-very-different-trips` | `02.jpg` | Nawit science | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Temple_of_the_Emerald_Buddha.jpg) |
 | `b1/a-day-in-the-office` | `02.jpg` | John M | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:A_snowy_view_out_of_the_office_window_-_geograph.org.uk_-_3300587.jpg) |
 | `b1/a-freelance-accounting-assignment` | `02.jpg` | AgnosticPreachersKid | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:22_West_-_home_office.jpg) |
 | `b1/arriving-in-johannesburg` | `01.jpg` | Aleph500Adam | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Johannesburg_in_December.jpg) |
 | `b1/arriving-in-johannesburg` | `02.jpg` | Nick-D | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Waiting_area_in_Terminal_B_of_OR_Tambo_International_Airport_June_2026.jpg) |
+| `b1/beers` | `02.jpg` | Bernt Rostad from Oslo, Norway | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Schouskjelleren_Thunder_Bear_Stout_(5053316703).jpg) |
 | `b1/cars-and-their-parts` | `02.jpg` | unknown | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Porsche-gearbox-cutaway.jpg) |
 | `b1/cars` | `03.jpg` | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cologne_Germany_Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg) |
 | `b1/coffee-and-it` | `02.jpg` | Petterin | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Myyr_York_Cafe.jpg) |
+| `b1/common-chores` | `02.jpg` | Nick-D | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Aisle_in_Daily_Market_Groceries_Canberra_City_October_2025.jpg) |
 | `b1/cybersecurity` | `02.jpg` | Tony Webster from Minneapolis, Minnesota, United States | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Yubikey_USB_2FA_U2F_Security_Token_(46900270791).jpg) |
+| `b1/detective-story` | `02.jpg` | Cory Doctorow from London, UK | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:George_Price_strongbox,_Barclays_Bank,_Town,_Beamish_Museum,_25_January_2014_(1).jpg) |
 | `b1/frederick-douglass` | `02.jpg` | TradingCardsNPS | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_North_Star_(7222833218).jpg) |
 | `b1/glamping` | `02.jpg` | Shabicht | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Glamping_hut_Visole_07.jpg) |
 | `b1/golden-gate-bridge-present-perfect` | `02.jpg` | Brocken Inaglory | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_at_sunset_1.jpg) |
+| `b1/kitchen-chaos` | `02.jpg` | Sarah5252 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Chopping_Welsh_onion_(Allium_fistulosum)_on_a_wooden_cutting_board.jpg) |
 | `b1/milan-restaurants` | `02.jpg` | Gordon Leggett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:2021-09-04_Fluffy_Clam_Chowder.jpg) |
 | `b1/nfl` | `02.jpg` | U.S. Secretary of Defense | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:125th_playing_of_the_Army-Navy_football_game_attended_by_United_States_Secretary_of_Defense_Lloyd_Austin_at_Northwest_Stadium,_Landover,_Maryland_on_December_14,_2024_-_8.jpg) |
 | `b1/ny-visitation` | `01.jpg` | Adjoajo | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Autumn_in_Central_Park._NYC.jpg) |
@@ -343,16 +350,21 @@ the page itself, which is where the licence requires it to be.
 | `b1/santa-catarina` | `02.jpg` | Jeffhollett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sunset_at_Cannon_Beach_in_Oregon_1.jpg) |
 | `b1/southeast-asia-adventure` | `01.jpg` | Satdeep Gill | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Angkor_Wat_with_its_reflection_(cropped).jpg) |
 | `b1/southeast-asia-adventure` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rice_terraces,_Ubud,_Bali.jpg) |
+| `b1/travel-dialogues-02` | `02.jpg` | JIP | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Reception_desk_at_Hotel_Esplanade_in_Stockholm.jpg) |
 | `b1/usa-restaurants` | `02.jpg` | Tony Webster from Minneapolis, Minnesota, United States | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Pensacola_Beach_-_White_Sands,_Florida_Coast_(27268946483).jpg) |
 | `b1/usa-restaurants` | `03.jpg` | Kramtronik | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tampa_Cuban_Sandwich.jpg) |
 | `b2/business-war-it` | `03.jpg` | Campus Party México | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kevin_Mitnick_ex_hacker_y_ahora_famoso_consultor_en_redes_en_Campus_Party_M%C3%A9xico_2010.jpg) |
+| `b2/describing-a-place` | `02.jpg` | W.carter | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Entrance_in_Torp_shopping_mall,_Uddevalla.jpg) |
 | `b2/egypt-a-journey-through-history-and-culture` | `03.jpg` | en:User:Hajor | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Egypt.Giza.Sphinx.01.jpg) |
 | `b2/egypt` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Thebes,_Luxor,_Egypt,_Temple_of_Hatshepsut,_Deir_el-Bahari.jpg) |
+| `b2/formal-informal` | `02.jpg` | Shixart1985 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:In_a_warm_and_inviting_home_office,_a_person_inserts_a_blank_sheet_of_paper_into_a_vintage_typewriter_while_preparing_to_write_a_heartfelt_letter.jpg) |
 | `b2/formula-1` | `02.jpg` | Lukas Raich | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2022_Nr._44_Hamilton.jpg) |
 | `b2/intelligence-pills` | `02.jpg` | MorgueFile : see [1] | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:VariousPills.jpg) |
 | `b2/it-and-jiu-jitsu` | `02.jpg` | parhessiastes | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Brazilian_Jiu-Jitsu_Gi_Competition-Armbar.jpg) |
 | `b2/it-interview` | `02.jpg` | Gangulybiswarup | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Audience_Of_Sudeshna_Mukherjee%27s_Talk_On_Gender_Equality_Digital_Rights_And_AI_Ethics_-_WikiConference_India_2026_-_Kochi_2026-09-05_04077.jpg) |
+| `b2/north-sentinel-island` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Andaman_Islands,_Full_moon_night,_Forest_by_the_sea_at_night.jpg) |
 | `b2/phrasal-verbs-01-bed-and-breakfast` | `01.jpg` | Infrogmation of New Orleans | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mess_at_Home_-_Uptown_New_Orleans_Bedroom_January_1990_01.jpg) |
+| `b2/phrasal-verbs-01-bed-and-breakfast` | `02.jpg` | HaJunkiyada | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Breakfast_in_Israel_scrambled_eggs_with_herbs_and_vegetables.jpg) |
 | `b2/recent-advancements-in-it` | `01.jpg` | Carl Lender from Sunrise, USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg) |
 | `b2/romania` | `03.jpg` | Joe Mabel | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bucharest_Grand_Hotel_2.jpg) |
 | `b2/sales-strategy` | `02.jpg` | Mr. Snatch | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vendors_selling_goods_in_the_market.jpg) |
@@ -368,6 +380,7 @@ the page itself, which is where the licence requires it to be.
 | `c1/shadows-in-the-server-room` | `02.jpg` | Bill Bradford | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tangled_cables_mrbill.jpg) |
 | `c1/shadows-in-the-server-room` | `04.jpg` | Birkenkrahe | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Change_management_whiteboard.jpg) |
 | `c1/shadows-in-the-server-room` | `05.jpg` | Jemimus | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:DHL_Netherlands_local_site_computer_room_air_conditioning_unit_and_ductwork_-_IMG_3295.jpg) |
+| `c2/the-accent-you-keep` | `02.jpg` | unknown | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Spectrogram_-iua-.png) |
 | `c2/the-american-dream` | `02.jpg` | Peter Elfelt | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Assembly_line_Ford_T,_1923.jpg) |
 | `c2/the-case-against-plain-english` | `02.jpg` | Blogtrepreneur | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Legal_Contract_%26_Signature_-_Warm_Tones.jpg) |
 | `c2/the-same-news-four-ways` | `02.jpg` | AinarsM | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Latvia,_Riga_-_Former_textile_factory_Tekstiliana_(Riga)_WMID2365439.jpg) |

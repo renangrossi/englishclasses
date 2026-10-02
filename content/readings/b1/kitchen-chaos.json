@@ -32,6 +32,16 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 1,
+      "alt": "Spring onions being sliced on a wooden board with a long knife, the cut green rings gathered in a pile to one side",
+      "source": "commons:File:Chopping Welsh onion (Allium fistulosum) on a wooden cutting board.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Sarah5252",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chopping_Welsh_onion_(Allium_fistulosum)_on_a_wooden_cutting_board.jpg",
+      "caption": "Everything out and ready before anything is cooked. This is the part the narrator is good at, and the part that resembles his day job least."
+    },
+    {
       "src": "01.jpg",
       "after": 2,
       "alt": "A woman standing at a kitchen counter preparing food, with a table set for a meal in the foreground",

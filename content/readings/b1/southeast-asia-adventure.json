@@ -30,16 +30,25 @@
     {
       "src": "01.jpg",
       "after": 2,
-      "alt": "The painted front of a monastery temple in the mountains, with prayer flags standing in front of it",
-      "source": "vasily-vereshchagin-the-main-temple-of-tassiding-monastery-sikkim-1875.jpg",
-      "caption": "*The Main Temple of Tassiding Monastery, Sikkim* — Vasily Vereshchagin, 1875. Painted in the Himalayas rather than in Cambodia, by a traveler doing what the speakers in this text are doing: writing down a place that is not his."
+      "alt": "The five towers of Angkor Wat seen across the reservoir in front of it, the whole temple reflected in still water with palms along the bank",
+      "source": "commons:File:Angkor Wat with its reflection (cropped).jpg",
+      "relation": "depicts",
+      "licence": "CC BY-SA 4.0",
+      "author": "Satdeep Gill",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_with_its_reflection_(cropped).jpg",
+      "caption": "Angkor Wat, Cambodia. The temples Christopher says they spent almost all three days on.",
+      "wide": true
     },
     {
       "src": "02.jpg",
       "after": 4,
-      "alt": "A marble pavilion at the edge of a lake in the evening, its steps going down into still water",
-      "source": "vasily-vereshchagin-evening-on-a-lake-a-pavilion-on-the-marble-embankment-in-rajnagar-udaipur-principality-1874.jpg",
-      "caption": "*Evening on a Lake* — Vasily Vereshchagin, 1874. Udaipur, in India, and nowhere on this trip's itinerary. It is here for the evening light the callers keep trying to describe."
+      "alt": "Terraced rice fields stepping down a valley near Ubud in Bali, bright green, with coconut palms growing along the terrace walls",
+      "source": "commons:File:Rice terraces, Ubud, Bali.jpg",
+      "relation": "depicts",
+      "licence": "CC BY 4.0",
+      "author": "Vyacheslav Argenberg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rice_terraces,_Ubud,_Bali.jpg",
+      "caption": "Rice terraces outside Ubud, Bali. The place they kept until last, on purpose, because they knew they would need it."
     }
   ],
   "vocabulary": [

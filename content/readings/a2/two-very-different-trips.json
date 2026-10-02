@@ -35,9 +35,13 @@
     {
       "src": "02.jpg",
       "after": 6,
-      "alt": "A Buddhist temple with a painted wooden front and tall prayer flags standing around it",
-      "source": "vasily-vereshchagin-buddhist-temple-in-darjiling-sikkim-1874.jpg",
-      "caption": "*Buddhist Temple in Darjeeling, Sikkim* — Vasily Vereshchagin, 1874. Sikkim, not Thailand. It is here for what a traveler notices first in a place built around a religion they do not share."
+      "alt": "Wat Phra Kaew in Bangkok at dawn: gold-tipped spires and tiered temple roofs behind a white wall, with a monk in an orange robe walking along the terrace and the whole scene reflected in water",
+      "source": "commons:File:Temple of the Emerald Buddha.jpg",
+      "relation": "depicts",
+      "licence": "CC BY-SA 4.0",
+      "author": "Nawit science",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Temple_of_the_Emerald_Buddha.jpg",
+      "caption": "Wat Phra Kaew, Bangkok — the Temple of the Emerald Buddha, and the kind of morning the second traveller in this text is describing."
     }
   ],
   "vocabulary": [

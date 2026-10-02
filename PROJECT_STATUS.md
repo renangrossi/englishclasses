@@ -839,11 +839,12 @@ Every action is finished: **KEEP** 15, **EDIT** 31, **REPLACE** 12, **MERGE** 15
   words (one under 300 words, two to 600, three to 900, capped at five), and no text below that.
   Pictures are placed after the paragraph they belong to. The local gallery comes first
   (`scripts/import_local_artwork.py`); Commons fills what it cannot (`scripts/add_commons_image.py`),
-  which takes public domain as it is, CC BY and CC BY-SA with the credit printed under the picture,
-  and refuses anything carrying NC or ND. `docs/image-credits.md` is regenerated from the JSON by
-  `scripts/build_image_credits.py`. Captions name the work and add one fact about it; they never
-  refer to the reading or argue for the picture's place on the page. A gallery painting stands in
-  for a scene only when the text is not about a named place that could be photographed instead.
+  which takes public domain as it is, CC BY, CC BY-SA, OGL and Commons' {{Attribution}} with the
+  credit printed under the picture, and refuses anything carrying NC or ND. `docs/image-credits.md`
+  is regenerated from the JSON by `scripts/build_image_credits.py`. Captions name the work and add
+  one fact about it; they never refer to the reading or argue for the picture's place on the page.
+  A gallery painting stands in for a scene only when the text is not about a named place that
+  could be photographed instead.
 
 ---
 

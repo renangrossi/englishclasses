@@ -35,10 +35,13 @@
     {
       "src": "01.jpg",
       "after": 1,
-      "alt": "A congressional committee hearing: men in uniform and suits seated along a table with nameplates and microphones in front of them",
-      "source": "commons:File:US Navy 040408-N-2383B-070 Adm. Vern Clark, Chief of Naval Operations (CNO) answers questions by members of the Senate Armed Services Committee as he shares the witness table alongside the Honorable William H. Taft, Legal Advis.jpg",
-      "caption": "A Senate Armed Services Committee hearing — US Navy. A room where everything is said carefully, and where what is not said matters as much as what is.",
-      "relation": "depicts"
+      "alt": "The House of Commons chamber packed for a sitting: green leather benches rising on both sides of the central aisle, members standing in the gangways, and the Speaker's chair at the far end under the press gallery",
+      "source": "commons:File:House of Commons 2010.jpg",
+      "relation": "depicts",
+      "licence": "OGL 3",
+      "author": "UK government",
+      "source_url": "https://commons.wikimedia.org/wiki/File:House_of_Commons_2010.jpg",
+      "caption": "The House of Commons in 2010. Members may not call one another liars in the chamber, which is how Churchill came to speak, in 1906, of a \"terminological inexactitude\"."
     },
     {
       "src": "02.jpg",

@@ -365,6 +365,15 @@ def toc(ids):
     return f'<div class="level-toc"><div class="level-toc__inner">{links}</div></div>'
 
 
+# Commons' short names for the two attribution licences that are not Creative
+# Commons. "Attribution" on its own reads as a word rather than a licence, and
+# "OGL 3" means nothing to somebody who has not met it; spell both out.
+LICENCE_LABEL = {
+    "Attribution": "free licence with attribution",
+    "OGL 3": "Open Government Licence v3.0",
+}
+
+
 def listen_and_read(d, level, slug):
     """Audio first, then the text. Native <audio controls> is a deliberate
     choice: it gives play/pause, a progress bar, elapsed/total time, keyboard
@@ -410,17 +419,21 @@ def listen_and_read(d, level, slug):
         # A caption names the work: *Title* -- Artist, year. The asterisks are
         # written in the source JSON the way anyone would type an italic title,
         # and become <em> here; nothing else in a caption is markup.
-        # A picture used under CC BY or CC BY-SA is free only on condition of a
+        # A picture used under an attribution licence -- CC BY, CC BY-SA, OGL,
+        # Commons' {{Attribution}} -- is free only on condition of a
         # credit, so the credit is part of the figure rather than something kept
         # in a file somebody has to go and find. Public-domain pictures carry no
         # licence field and print nothing here.
         credit = ""
         if img.get("licence"):
             who = esc(img["author"]) if img.get("author") else "unknown"
-            lic = esc(img["licence"])
+            lic = esc(LICENCE_LABEL.get(img["licence"], img["licence"]))
             if img.get("source_url"):
                 lic = f'<a href="{esc(img["source_url"])}" rel="license nofollow">{lic}</a>'
-            credit = f'<span class="reading-figure__credit">Photo: {who}, {lic}</span>'
+            # "Photo" unless the image says otherwise: a satellite composite is
+            # not a photograph, and its provider asks for its own wording.
+            kind = esc(img.get("credit_prefix") or "Photo")
+            credit = f'<span class="reading-figure__credit">{kind}: {who}, {lic}</span>'
         cap_text = _caption(img["caption"]) if img.get("caption") else ""
         cap = (f'<figcaption>{cap_text}{credit}</figcaption>'
                if (cap_text or credit) else "")

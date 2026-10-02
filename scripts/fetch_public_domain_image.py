@@ -12,6 +12,7 @@ Usage:
     python3 scripts/fetch_public_domain_image.py "File:Foo.jpg" b2/slug/01.jpg
 """
 import json
+import re
 import sys
 import time
 import urllib.parse
@@ -38,6 +39,16 @@ PD_OK = ("public domain", "pd-", "cc0", "no restrictions")
 # and ND spellings they would otherwise also match are caught by BLOCKED first.
 ATTRIB_OK = ("cc by", "cc-by")
 BLOCKED = ("-nd", " nd ", "noderiv", "-nc", " nc ", "noncommercial", "non-commercial", "fair use")
+
+# Two attribution-only licences that are not Creative Commons, checked against
+# the licence's short name exactly rather than searched for as a substring:
+# the short forms are too loose for that ("ogl" sits inside "Google").
+#   OGL       the UK Open Government Licence, any version -- free reuse with
+#             a source acknowledgement
+#   Attribution  Commons' own {{Attribution}} licence, which Copernicus
+#             Sentinel satellite imagery is published under -- any use,
+#             provided the source is credited
+ATTRIB_EXACT = re.compile(r"^(ogl(\s*v?\d+(\.\d+)?)?|attribution)$", re.I)
 
 
 def _get(url, tries=4):
@@ -109,6 +120,8 @@ def needs_credit(meta):
     blob = f"{meta.get('licence','')} {meta.get('usage','')}".lower()
     if is_pd(meta) or any(b in blob for b in BLOCKED):
         return False
+    if ATTRIB_EXACT.match((meta.get("licence") or "").strip()):
+        return True
     return any(k in blob for k in ATTRIB_OK)
 
 

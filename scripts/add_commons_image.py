@@ -8,9 +8,10 @@ portraits of particular people -- the things an American history collection
 needs and a shelf of European landscape painting does not have.
 
 Rights are not a judgement call here. The Commons licence metadata is read
-first. Public domain and CC0 are used as they are; CC BY and CC BY-SA are used
-too, but the licence and the author are recorded on the image and printed under
-it, because that is the condition those licences attach. Anything carrying NC or
+first. Public domain and CC0 are used as they are; CC BY, CC BY-SA, the UK Open
+Government Licence and Commons' {{Attribution}} licence are used too, but the
+licence and the author are recorded on the image and printed under it, because
+that is the condition those licences attach. Anything carrying NC or
 ND is refused outright -- ND forbids the resize this script performs, and NC puts
 a condition on the whole site that nobody should have to reason about later.
 

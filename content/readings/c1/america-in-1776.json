@@ -31,10 +31,31 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 1,
+      "alt": "A full-length state portrait of Louis XVI in ermine-lined coronation robes, standing beside a pillar with the crown on a cushion at his side",
+      "source": "commons:File:Antoine-François Callet - Louis XVI, roi de France et de Navarre (1754-1793), revêtu du grand costume royal en 1779 - Google Art Project.jpg",
+      "caption": "*Louis XVI in Coronation Robes* — Antoine-Francois Callet, 1779. Divine right, painted as it wished to be seen, fourteen years before the guillotine."
+    },
+    {
       "src": "01.jpg",
       "after": 2,
       "alt": "A large painting of the drafting committee presenting the Declaration of Independence to the Continental Congress in a crowded chamber",
       "caption": "John Trumbull, “Declaration of Independence”, 1819. It shows the drafting committee presenting the text — not, as is often assumed, the signing."
+    },
+    {
+      "src": "03.jpg",
+      "after": 3,
+      "alt": "A large painting of the Constitutional Convention: Washington standing on a dais at the right while delegates sit and confer around tables in a panelled hall",
+      "source": "commons:File:Scene at the Signing of the Constitution of the United States.jpg",
+      "caption": "*Scene at the Signing of the Constitution* — Howard Chandler Christy, 1940. Painted a century and a half after the event, for the Capitol, which is worth knowing when reading it."
+    },
+    {
+      "src": "04.jpg",
+      "after": 6,
+      "alt": "Immigrants in heavy coats and hats walking with suitcases and bundles along a path outside the main building at Ellis Island, photographed around 1900",
+      "source": "commons:File:Arriving at Ellis Island LCCN97519082.jpg",
+      "caption": "Arriving at Ellis Island. The mass immigration this paragraph covers in half a sentence, which for twelve million people was this walk."
     }
   ],
   "vocabulary": [

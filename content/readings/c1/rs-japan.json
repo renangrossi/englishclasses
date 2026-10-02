@@ -30,6 +30,26 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 1,
+      "alt": "Dawn over the pampa of Rio Grande do Sul: a wire fence and a few bare trees in silhouette, mist lying in the low ground, and grassland running to the horizon under an enormous sky",
+      "source": "commons:File:Amanhecer do Pampa Gaucho.JPG",
+      "licence": "CC BY-SA 4.0",
+      "author": "FERNANDAQUINTANA1",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Amanhecer_do_Pampa_Gaucho.JPG",
+      "caption": "Dawn on the pampa, Rio Grande do Sul. Landscape that has not been arranged by anybody, which is exactly the comparison the text goes on to draw."
+    },
+    {
+      "src": "03.jpg",
+      "after": 6,
+      "alt": "Hanami at night in Maruyama Park, Kyoto: low tables and benches under a cherry tree lit from below, its blossom glowing pink above a crowd of seated people",
+      "source": "commons:File:Cherry blossom viewing in Maruyama Park - panoramio.jpg",
+      "licence": "CC BY 3.0",
+      "author": "ccfarmer",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cherry_blossom_viewing_in_Maruyama_Park_-_panoramio.jpg",
+      "caption": "Hanami in Maruyama Park, Kyoto. The blossom is worth this much attention precisely because it will be gone in a week, which is what mono no aware means."
+    },
+    {
       "src": "01.jpg",
       "after": 7,
       "alt": "A woodblock print of Mount Fuji, its slopes deep red against a blue sky with streaked white clouds",

@@ -54,12 +54,49 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 0,
+      "alt": "A dense mass of network cables spilling out of equipment racks and across the floor in front of an office chair, hundreds of strands in several colours with no visible order",
+      "source": "commons:File:Tangled cables mrbill.jpg",
+      "licence": "CC BY 2.0",
+      "author": "Bill Bradford",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tangled_cables_mrbill.jpg",
+      "caption": "Cables nobody has ever traced. Every IT floor has a version of this, and it is always older than everyone currently working on it."
+    },
+    {
       "src": "01.jpg",
       "after": 1,
       "alt": "Rows of tall grey server cabinets on a raised white floor in a brightly lit data hall, a NASA logo on the end of the nearest row",
       "source": "commons:File:Columbia Supercomputer - NASA Advanced Supercomputing Facility.jpg",
       "caption": "The Columbia supercomputer at the NASA Advanced Supercomputing Facility. Rows, cold air, a raised floor and nobody in sight — which is exactly the room this text describes at 2:47 on a Thursday.",
       "relation": "depicts"
+    },
+    {
+      "src": "03.jpg",
+      "after": 6,
+      "alt": "A narrow server room barely wider than a cupboard, with equipment mounted up the wall, power supplies on the floor and cable runs going in every direction",
+      "source": "commons:File:EFTA00000738 - Cluttered server room filled with racks of equipment cables and power supplies.jpg",
+      "caption": "A server room the size of a store cupboard. This is what the back of a company Jamie's size actually looks like, biometric lock and all."
+    },
+    {
+      "src": "04.jpg",
+      "after": 23,
+      "alt": "An office whiteboard covered in hand-drawn diagrams, arrows and boxed headings from a planning session, with a marker tray below it",
+      "source": "commons:File:Change management whiteboard.jpg",
+      "licence": "CC BY-SA 3.0",
+      "author": "Birkenkrahe",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Change_management_whiteboard.jpg",
+      "caption": "The hour after the argument. Nothing on a board like this is clever; it works because it is written down where everyone can see who owns what."
+    },
+    {
+      "src": "05.jpg",
+      "after": 28,
+      "alt": "A portable computer-room air conditioning unit standing on castors in a server room, with a wide flexible duct running from its top into the ceiling",
+      "source": "commons:File:DHL Netherlands local site computer room air conditioning unit and ductwork - IMG 3295.jpg",
+      "licence": "CC BY 2.0",
+      "author": "Jemimus",
+      "source_url": "https://commons.wikimedia.org/wiki/File:DHL_Netherlands_local_site_computer_room_air_conditioning_unit_and_ductwork_-_IMG_3295.jpg",
+      "caption": "The cooling. It had been logging warnings since August into a dashboard nobody had been given the job of reading, which is the actual subject of this story."
     }
   ],
   "vocabulary": [

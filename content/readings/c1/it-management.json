@@ -42,6 +42,23 @@
       "alt": "A sixteenth-century painting of a banker weighing coins at a table covered with ledgers, scales and papers, his wife beside him looking on",
       "source": "commons:File:Marinus van Reymerswale - The Banker and His Wife - WGA19323.jpg",
       "caption": "*The Banker and His Wife* — Marinus van Reymerswale, around 1540. Coins, scales and an open ledger. The meeting in this text is the same meeting, conducted in acronyms."
+    },
+    {
+      "src": "02.jpg",
+      "after": 11,
+      "alt": "An aisle in a data centre, with a tall black server cabinet beside a raised floor of white tiles and a monitoring screen mounted on the wall opposite",
+      "source": "commons:File:CERN Computer Center 13.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "SimonWaldherr",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CERN_Computer_Center_13.jpg",
+      "caption": "The hosting bill, as hardware. FinOps is mostly the work of attaching each of these to the product line that is actually using it."
+    },
+    {
+      "src": "03.jpg",
+      "after": 14,
+      "alt": "The floor of the London Stock Exchange in the early twentieth century, packed wall to wall with men in hats and dark coats under a high arched hall",
+      "source": "commons:File:Crowd on stock exchange floor, London LCCN2014683111.jpg",
+      "caption": "The London Stock Exchange floor. Meridian's clients are institutions like this one, which is the whole reason the architecture has to be measurable."
     }
   ],
   "vocabulary": [

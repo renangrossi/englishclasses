@@ -67,8 +67,22 @@ def stamp(html_path):
     return True
 
 
+def site_pages():
+    """Every HTML page the site actually serves.
+
+    Skips any dot-directory, not just .git: .claude/worktrees holds whole
+    leftover copies of this repo from earlier agent sessions, gitignored and
+    not part of the site. The first run of this script walked into them and
+    stamped 1,921 files that were not its business."""
+    for p in ROOT.rglob("*.html"):
+        rel = p.relative_to(ROOT).parts
+        if any(part.startswith(".") for part in rel[:-1]):
+            continue
+        yield p
+
+
 def main():
-    pages = [p for p in ROOT.rglob("*.html") if ".git" not in p.parts]
+    pages = list(site_pages())
     changed = sum(stamp(p) for p in pages)
     missing = sorted(k for k, v in _digest_cache.items() if v is None)
     print(f"{changed} of {len(pages)} page(s) restamped")

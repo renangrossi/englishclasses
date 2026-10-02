@@ -26,6 +26,19 @@ UA = "RenanTheTeacher-reading-library/1.0 (educational site; contact via github.
 # Substrings that mean "no rights reserved". Anything else is refused.
 PD_OK = ("public domain", "pd-", "cc0", "no restrictions")
 
+# Licences that are free to use but ask for a credit line. Everything here is
+# usable; the difference from PD_OK is that the page has to say who made it and
+# under what licence, which scripts/add_commons_image.py records and
+# scripts/build_reading_page.py prints under the picture.
+#
+# Share-alike is the reason the list stops where it does: ND (no derivatives)
+# cannot be resized or cropped, and NC (non-commercial) puts a condition on the
+# site that nobody should have to reason about later. Neither is accepted.
+# "cc by" and "cc-by" cover the share-alike and version variants too; the NC
+# and ND spellings they would otherwise also match are caught by BLOCKED first.
+ATTRIB_OK = ("cc by", "cc-by")
+BLOCKED = ("-nd", " nd ", "noderiv", "-nc", " nc ", "noncommercial", "non-commercial", "fair use")
+
 
 def _get(url, tries=4):
     """Commons rate-limits (HTTP 429) if you ask quickly. Back off and retry
@@ -90,6 +103,19 @@ def is_pd(meta):
     return any(k in blob for k in PD_OK)
 
 
+def needs_credit(meta):
+    """Free to use, but only with an attribution line. Returns False for a
+    public-domain file (nothing owed) and for anything not free at all."""
+    blob = f"{meta.get('licence','')} {meta.get('usage','')}".lower()
+    if is_pd(meta) or any(b in blob for b in BLOCKED):
+        return False
+    return any(k in blob for k in ATTRIB_OK)
+
+
+def is_usable(meta):
+    return is_pd(meta) or needs_credit(meta)
+
+
 def main():
     args = sys.argv[1:]
     if not args:
@@ -116,8 +142,13 @@ def main():
     m = info(title)
     if not m:
         sys.exit(f"not found: {title}")
+    # This path is public-domain-only on purpose, even though needs_credit()
+    # licences are usable elsewhere: it writes an image file and nothing else,
+    # so there is no source JSON in which to record the credit such a licence
+    # requires. Use scripts/add_commons_image.py for those.
     if not is_pd(m):
-        sys.exit(f"REFUSED (not public domain): {title} -> {m['licence']} / {m['usage'][:80]}")
+        sys.exit(f"REFUSED (not public domain, and this path cannot record a "
+                 f"credit): {title} -> {m['licence']} / {m['usage'][:80]}")
     path = OUT / dest
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(_get(m["thumb"]))

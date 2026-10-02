@@ -68,7 +68,13 @@ python3 scripts/check_site_integrity.py       # the built site: links, files
   "alt": "What is in the frame, for somebody who cannot see it",
   "caption": "*Title* — Artist, year. Then a sentence, if it is an analogue.",
   "source": "commons:File:Foo.jpg",   // or a local gallery filename
-  "relation": "depicts"               // depicts | analogue — see below
+  "relation": "depicts",              // depicts | analogue — see below
+
+  // Written only when the licence requires a credit. add_commons_image.py sets
+  // these; build_reading_page.py prints them under the picture.
+  "licence": "CC BY-SA 4.0",
+  "author": "Infrogmation of New Orleans",
+  "source_url": "https://commons.wikimedia.org/wiki/File:..."
 }
 ```
 
@@ -93,8 +99,12 @@ If `relation` is absent it is inferred: a `commons:` source is a `depicts`, a
 local gallery file is an `analogue`. Set it explicitly wherever that is wrong —
 a gallery painting often does depict its subject.
 
-Rights are not a judgement call: `scripts/add_commons_image.py` reads the
-Commons licence metadata and refuses anything that is not public domain.
+Rights are not a judgement call. `scripts/add_commons_image.py` reads the Commons
+licence metadata and sorts it into three tiers: public domain and CC0 are used as
+they are; CC BY and CC BY-SA are used with the licence and author recorded on the
+image and printed under it; anything carrying NC or ND is refused, because ND
+forbids the resize every image goes through and NC puts a condition on the whole
+site. See `docs/image-credits.md`.
 
 ## Vocabulary
 

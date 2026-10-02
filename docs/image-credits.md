@@ -1,16 +1,25 @@
 # Image credits
 
-Every image used on a reading page, with its source and rights. Nothing goes on
-the site unless it is public domain or was already in the source document and is
-clearly free to use.
+Every image used on a reading page, with its source and rights.
 
-`scripts/fetch_public_domain_image.py` is what fetches the Wikimedia Commons ones.
-It reads the licence metadata from the Commons API and **refuses to download
-anything that is not public domain** — a CC BY or CC BY-SA file is rejected, not
-downloaded with attribution, because it is simpler to keep the whole library
-rights-free than to track conditions per file. Two candidates were refused this
-way while assembling this list: a photograph of a statue of Hatshepsut (CC BY-SA
-3.0) and the Wellcome Collection's scan of the same Karnak lithograph (CC BY 4.0).
+`scripts/fetch_public_domain_image.py` reads the licence metadata from the
+Commons API, and `scripts/add_commons_image.py` acts on it in three tiers:
+
+- **Public domain and CC0** — used as they are, nothing owed.
+- **CC BY and CC BY-SA** — used, with the licence and the author recorded on the
+  image in its source JSON and printed in small type under the picture itself.
+  That is the condition those licences attach, and putting it under the picture
+  rather than in a file somewhere keeps it with the thing it applies to.
+- **Anything carrying NC or ND, and anything unfree** — refused outright. ND
+  forbids the resize every image here goes through, and NC puts a condition on
+  the whole site that nobody should have to reason about later.
+
+The library ran public-domain-only for most of its life, and most of it still
+is. The middle tier was opened deliberately: modern subjects — a coffee shop, a
+server room, a 1990s bedroom — are very thinly covered by public-domain
+photography, and the alternative was illustrating them with whatever old
+painting was nearest, which is how a Byzantine court scene came to sit over a
+text about an office.
 
 ## From Wikimedia Commons (public domain)
 
@@ -169,9 +178,10 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-103 images the gallery could not answer -- flags, maps, photographs and
+102 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
-reads the Commons licence metadata and refuses anything that is not public domain.
+reads the Commons licence metadata and refuses anything carrying NC or ND. The
+few used under a licence that requires a credit are listed separately below.
 
 | Page | File | Work | Commons file |
 |---|---|---|---|
@@ -236,7 +246,6 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `b2/it-and-jiu-jitsu` | `01.jpg` | A jujutsu lock, from *Japanese Physical Training*, 1904. The whole point of the technique is that force applied in the wrong direction does the work for you | `File:Japanese Physical Training illustration 16.jpg` |
 | `b2/it-interview` | `01.jpg` | “A worried applicant waiting to be interviewed” | `File:Los Angeles, California. Lockheed Employment. A worried applicant waiting to be interviewed - NARA - 532210.jpg` |
 | `b2/jackie-robinson` | `01.jpg` | Jackie Robinson, Brooklyn Dodgers, 1954 | `File:Jackie Robinson, Brooklyn Dodgers, 1954.jpg` |
-| `b2/phrasal-verbs-01-bed-and-breakfast` | `01.jpg` | A bed-making class, around 1937 | `File:Home Economics - bed making, c.1937 (22052712661).jpg` |
 | `b2/phrasal-verbs-02-trip-abroad` | `01.jpg` | Manhattan from the air, 1932 | `File:New York City, circa 1932.jpg` |
 | `b2/project-management-can-could-able-do-make` | `01.jpg` | Working through county land-use plans together | `File:Working on the county maps at the colored County Land Use Pl... (3110578334).jpg` |
 | `b2/recent-advancements-in-it` | `02.jpg` | ENIAC, around 1946 | `File:Classic shot of the ENIAC.jpg` |
@@ -278,5 +287,14 @@ reads the Commons licence metadata and refuses anything that is not public domai
 | `c2/the-american-dream` | `01.jpg` | Toward Los Angeles | `File:Toward Los Angeles, California LOC 3549663710.jpg` |
 | `c2/the-west-was-not-empty` | `01.jpg` | Indian Family Alarmed at the Approach of a Prairie Fire | `File:George Catlin - Indian Family Alarmed at the Approach of a Prairie Fire - 1985.66.595 - Smithsonian American Art Museum.jpg` |
 | `c2/what-makes-an-american-hero` | `01.jpg` | Mission Control at the end of Apollo 11 | `File:Mission Operations Control Room at the conclusion of Apollo 11.jpg` |
+
+### Used under a licence that requires credit
+
+1 image(s). The credit is also printed under the picture on
+the page itself, which is where the licence requires it to be.
+
+| Page | File | Author | Licence | Source |
+|---|---|---|---|---|
+| `b2/phrasal-verbs-01-bed-and-breakfast` | `01.jpg` | Infrogmation of New Orleans | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mess_at_Home_-_Uptown_New_Orleans_Bedroom_January_1990_01.jpg) |
 
 <!-- gallery:end -->

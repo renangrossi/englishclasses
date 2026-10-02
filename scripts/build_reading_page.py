@@ -410,8 +410,20 @@ def listen_and_read(d, level, slug):
         # A caption names the work: *Title* -- Artist, year. The asterisks are
         # written in the source JSON the way anyone would type an italic title,
         # and become <em> here; nothing else in a caption is markup.
-        cap = (f'<figcaption>{_caption(img["caption"])}</figcaption>'
-               if img.get("caption") else "")
+        # A picture used under CC BY or CC BY-SA is free only on condition of a
+        # credit, so the credit is part of the figure rather than something kept
+        # in a file somebody has to go and find. Public-domain pictures carry no
+        # licence field and print nothing here.
+        credit = ""
+        if img.get("licence"):
+            who = esc(img["author"]) if img.get("author") else "unknown"
+            lic = esc(img["licence"])
+            if img.get("source_url"):
+                lic = f'<a href="{esc(img["source_url"])}" rel="license nofollow">{lic}</a>'
+            credit = f'<span class="reading-figure__credit">Photo: {who}, {lic}</span>'
+        cap_text = _caption(img["caption"]) if img.get("caption") else ""
+        cap = (f'<figcaption>{cap_text}{credit}</figcaption>'
+               if (cap_text or credit) else "")
         # Most illustrations are an aside and sit at about half the measure.
         # Some are the subject: a student comparing one flag with the next has
         # to see the stars. Those are marked "wide" in the source JSON.

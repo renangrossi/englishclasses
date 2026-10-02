@@ -406,8 +406,9 @@ python3 scripts/generate_reading_audio.py {level}/{slug} --tts /tmp/rl-venv/bin/
 python3 scripts/finish_reading_batch.py     # durations, indexes, hub, audit, validation
 python3 scripts/tag_grammar.py --write     # grammar filter tags (NOT run by finish_reading_batch)
 python3 scripts/build_image_credits.py     # image credits   (NOT run by finish_reading_batch)
+python3 scripts/stamp_asset_versions.py    # cache-bust css/js (run after ANY change under assets/)
 ```
-Those last two are easy to forget: `finish_reading_batch.py` does not call either, so a batch
+Those last three are easy to forget: `finish_reading_batch.py` does not call any of them, so a batch
 that skips them ships texts missing from the grammar filter and images missing from the credits
 file. Both are idempotent and derived from the JSON, so running them is always safe.
 `scripts/show_passages.py {level}/` prints paragraph openings when placing images.

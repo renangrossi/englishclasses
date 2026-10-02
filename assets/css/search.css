@@ -314,7 +314,12 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5em;
-  padding: 0.75em 1.1em;
+  /* Height is pinned rather than left to the padding: this button sits in a
+     column with two 48px circles, and at 0.75em of vertical padding it came
+     out 43px, which left the stack visibly ragged above the 560px
+     breakpoint where the label is still showing. */
+  height: var(--fab-size);
+  padding: 0 1.1em;
   border-radius: 999px;
   border: 1px solid var(--color-gold);
   background: var(--color-primary-strong);
@@ -337,7 +342,6 @@
      to --fab-size instead and the column is straight. */
   .irregular-verbs-toggle {
     width: var(--fab-size);
-    height: var(--fab-size);
     padding: 0;
     justify-content: center;
     border-radius: 50%;

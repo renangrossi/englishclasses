@@ -30,12 +30,26 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 0,
+      "alt": "Daniel Chester French's Minute Man statue at Concord: a bronze farmer in colonial dress stepping forward with a musket in one hand, his other still resting on the plough he has left",
+      "source": "commons:File:Minute Man, Daniel Chester French, Concord MA (cropped).jpg",
+      "caption": "*The Minute Man* — Daniel Chester French, 1875. One man, one decision, one moment. The template in bronze, cast a century after the event it commemorates."
+    },
+    {
       "src": "01.jpg",
       "after": 1,
       "alt": "A crowded mission control room, rows of consoles with dozens of men at them, the main screen showing the Apollo 11 badge and Kennedy's 1961 commitment to Congress",
       "source": "commons:File:Mission Operations Control Room at the conclusion of Apollo 11.jpg",
       "caption": "Mission Control at the end of Apollo 11 — NASA, July 1969. The screen carries Kennedy's sentence from 1961 beside the words “Task Accomplished”. This room, and the twenty thousand firms behind it, is what the single photograph of a man on the Moon leaves out.",
       "wide": true
+    },
+    {
+      "src": "03.jpg",
+      "after": 2,
+      "alt": "The 1963 March on Washington photographed from the Lincoln Memorial: a crowd of hundreds of thousands filling both sides of the reflecting pool, with the Washington Monument beyond",
+      "source": "commons:File:View of Crowd at 1963 March on Washington.jpg",
+      "caption": "The March on Washington, 28 August 1963. Organising this took two years, several organisations and a transport operation, and none of that fits the template."
     }
   ],
   "vocabulary": [

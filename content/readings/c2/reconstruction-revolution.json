@@ -29,6 +29,20 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 1,
+      "alt": "A painted half-length portrait of Hiram Rhodes Revels in a dark frock coat, bearded, looking slightly to one side",
+      "source": "commons:File:Oil portrait of Hiram Rhodes Revels by Theodor Kaufmann.jpg",
+      "caption": "*Hiram Rhodes Revels* — Theodor Kaufmann, 1870. Seated in the US Senate in the seat once held by Jefferson Davis, five years after the war ended."
+    },
+    {
+      "src": "03.jpg",
+      "after": 2,
+      "alt": "Thomas Nast's 1874 cartoon: a hooded Klansman and a White League member join hands over a Black family crouched beneath them, a lynched figure and a burning schoolhouse behind",
+      "source": "commons:File:Worse than Slavery (1874), by Thomas Nast.jpg",
+      "caption": "*Worse than Slavery* — Thomas Nast, Harper's Weekly, 24 October 1874. Published while it was happening, not recovered afterwards by historians."
+    },
+    {
       "src": "01.jpg",
       "after": 5,
       "alt": "A hand-drawn bar chart on aged card titled 'Number of Negro students taking the various courses of study offered in Georgia schools', the longest bar folding back on itself to fit the page",

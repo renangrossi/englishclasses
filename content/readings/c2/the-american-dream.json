@@ -28,12 +28,29 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 0,
+      "alt": "The Ford Model T assembly line in 1923: bare car bodies on a moving line inside a factory hall, workers at benches along both sides",
+      "source": "commons:File:Assembly line Ford T, 1923.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Peter Elfelt",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Assembly_line_Ford_T,_1923.jpg",
+      "caption": "The Model T line, 1923. Adams coined the phrase in 1931, by which time this had been running for fifteen years — the Dream is the younger of the two."
+    },
+    {
       "src": "01.jpg",
       "after": 2,
       "alt": "Two men walking away from the camera along a dirt verge beside an empty paved road, both barefoot, one carrying a suitcase and one a bundle, passing a billboard showing a man reclining comfortably in a train seat",
       "source": "commons:File:Toward Los Angeles, California LOC 3549663710.jpg",
       "caption": "*Toward Los Angeles* — Dorothea Lange, 1937. Two barefoot men walking out of the frame past an advertisement telling them to relax and take the train.",
       "wide": true
+    },
+    {
+      "src": "03.jpg",
+      "after": 4,
+      "alt": "An aerial photograph of a new housing development, identical single-family houses laid out along curving streets on cleared ground",
+      "source": "commons:File:AERIAL OF A NEW HOUSING DEVELOPMENT. SOME 84 PERCENT OF THE RESIDENTS IN THE STATE LIVE WITHIN 30 MILES OF THE COAST... - NARA - 557461.jpg",
+      "caption": "A new development, photographed for the EPA in the 1970s. Which of these streets a child is raised on turns out to predict a great deal."
     }
   ],
   "vocabulary": [

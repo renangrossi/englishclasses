@@ -33,11 +33,31 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 0,
+      "alt": "A long derelict brick factory building with most of its windows broken out, standing empty behind bare trees and an unused yard",
+      "source": "commons:File:Latvia, Riga - Former textile factory Tekstiliana (Riga) WMID2365439.jpg",
+      "licence": "CC BY-SA 3.0",
+      "author": "AinarsM",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Latvia,_Riga_-_Former_textile_factory_Tekstiliana_(Riga)_WMID2365439.jpg",
+      "caption": "A factory after the decision. None of the four documents in this text describe this; they describe the sentence that produces it."
+    },
+    {
       "src": "01.jpg",
       "after": 1,
       "alt": "A young woman reading a newspaper by a window, holding it open with both hands",
       "source": "wada-eisaku-a-girl-reading-newspaper-1897.jpeg",
       "caption": "*A Girl Reading a Newspaper* — Wada Eisaku, 1897."
+    },
+    {
+      "src": "03.jpg",
+      "after": 4,
+      "alt": "Close-up of two hands holding a phone and typing a message, the screen lit in a darkened room",
+      "source": "commons:File:Whatsapp texting.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Helar Lukats",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Whatsapp_texting.jpg",
+      "caption": "The fourth version, and the shortest. It is accurate, it is unguarded, and it is the one with no legal exposure attached to it."
     }
   ],
   "vocabulary": [

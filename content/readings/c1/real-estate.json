@@ -32,6 +32,26 @@
       "source": "albert-bierstadt-estes-park-and-longs-peak-c-1876.png",
       "caption": "*Estes Park and Longs Peak* — Albert Bierstadt, around 1876. The Front Range an hour from Denver, and a large part of what the view from a window is priced on.",
       "relation": "depicts"
+    },
+    {
+      "src": "02.jpg",
+      "after": 1,
+      "alt": "The Denver skyline photographed from the west on a clear day, a compact cluster of towers with the snow-covered Front Range running along the horizon behind it",
+      "source": "commons:File:Denver, Colorado skyline (cropped).jpg",
+      "licence": "CC BY 4.0",
+      "author": "Quintin Soloviev",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Denver,_Colorado_skyline_(cropped).jpg",
+      "caption": "Denver, with the Front Range behind it. One market on paper, and in practice several dozen that price quite differently."
+    },
+    {
+      "src": "03.jpg",
+      "after": 3,
+      "alt": "A quiet residential street corner in the Denver Country Club historic district: detached brick houses set back behind lawns, mature trees, and a stone gatepost marking the district boundary",
+      "source": "commons:File:DenverCountryClubHD.JPG",
+      "licence": "CC BY-SA 3.0",
+      "author": "Jeffrey Beall",
+      "source_url": "https://commons.wikimedia.org/wiki/File:DenverCountryClubHD.JPG",
+      "caption": "A street in the Denver Country Club district. Knowing why this corner prices differently from the one behind it is the whole of the job."
     }
   ],
   "vocabulary": [

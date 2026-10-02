@@ -29,11 +29,31 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 0,
+      "alt": "A large dictionary lying open, both pages filled edge to edge with small two-column entries",
+      "source": "commons:File:Compact Oxford English Dictionary 2.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Cullen328",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Compact_Oxford_English_Dictionary_2.jpg",
+      "caption": "The place the untranslatable-word lists send you, and the place the real problem is not. Vocabulary is the part that a dictionary can in fact handle."
+    },
+    {
       "src": "01.jpg",
       "after": 2,
       "alt": "A singer performing in a hall while one listener, apart from the rest, hears something else entirely in it",
       "source": "thomas-ralph-spence-the-song-of-phemius-and-the-sorrow-of-penelope-1897.jpg",
       "caption": "*The Song of Phemius and the Sorrow of Penelope* — Thomas Ralph Spence, 1897."
+    },
+    {
+      "src": "03.jpg",
+      "after": 5,
+      "alt": "Shelves of uniform legal volumes in a law library, each spine labelled and marked with a coloured dot",
+      "source": "commons:File:Asser-serie UB Leiden.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "JorisEnter",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Asser-serie_UB_Leiden.jpg",
+      "caption": "A shelf of legal codes. Every term on these spines carries a settlement behind it, which is why the words rarely survive the border intact."
     }
   ],
   "vocabulary": [

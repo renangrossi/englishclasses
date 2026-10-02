@@ -164,7 +164,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-111 images the gallery could not answer -- flags, maps, photographs and
+121 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything carrying NC or ND. The
 few used under a licence that requires a credit are listed separately below.
@@ -266,6 +266,8 @@ few used under a licence that requires a credit are listed separately below.
 | `c1/the-space-race` | `01.jpg` | A full-size replica of Sputnik 1 on display | `File:Sputnik 1.jpg` |
 | `c1/the-space-race` | `02.jpg` | Yuri Gagarin | `File:Yuri Gagarin (1961) - Restoration.jpg` |
 | `c1/the-space-race` | `03.jpg` | An N1 mockup on the pad at Baikonur, 1967. | `File:N1 1M1 mockup on the launch pad at the Baikonur Cosmodrome in late 1967.jpg` |
+| `c1/trials` | `02.jpg` | Darrow questioning Bryan, Dayton, Tennessee, 20 July 1925. | `File:Clarence S. Darrow interrogating William Jennings Bryan, Scopes trial, Dayton, Tennessee, July 20, 1925. (4324506037).jpg` |
+| `c1/trials` | `03.jpg` | Twelve chairs and a narrow question. | `File:Jury box in 3rd floor courtroom of the Conway County Courthouse in Morrilton, AR.jpg` |
 | `c1/watergate` | `01.jpg` | The Watergate complex, Washington D.C. | `File:WatergateFromAir.JPG` |
 | `c1/watergate` | `02.jpg` | Nixon's letter of resignation, 9 August 1974. | `File:Letter of Resignation of Richard M. Nixon, 1974.jpg` |
 | `c1/women-win-the-vote` | `01.jpg` | Official program for the suffrage procession | `File:Official Program Woman Suffrage Procession - March 3, 1913.jpg` |
@@ -274,18 +276,26 @@ few used under a licence that requires a credit are listed separately below.
 | `c2/immigration-and-modern-america` | `02.jpg` | The Chinese Exclusion Act, 1882, in the enrolled original. | `File:Chineseexclusionact.JPG` |
 | `c2/manifest-destiny` | `01.jpg` | American Progress | `File:American Progress (1872) by John Gast.jpg` |
 | `c2/reconstruction-revolution` | `01.jpg` | One of the data portraits W. | `File:The Georgia Negro LCCN2013650436.jpg` |
+| `c2/reconstruction-revolution` | `02.jpg` | Hiram Rhodes Revels | `File:Oil portrait of Hiram Rhodes Revels by Theodor Kaufmann.jpg` |
+| `c2/reconstruction-revolution` | `03.jpg` | Worse than Slavery | `File:Worse than Slavery (1874), by Thomas Nast.jpg` |
 | `c2/saying-no-without-saying-no` | `01.jpg` | A Senate Armed Services Committee hearing | `File:US Navy 040408-N-2383B-070 Adm. Vern Clark, Chief of Naval Operations (CNO) answers questions by members of the Senate Armed Services Committee as he shares the witness table alongside the Honorable William H. Taft, Legal Advis.jpg` |
 | `c2/saying-no-without-saying-no` | `02.jpg` | Potsdam, 1945. | `File:Last meeting of the Potsdam Conference in Potsdam, Germany. Seated around the conference table, President Harry S.... - NARA - 198951.jpg` |
 | `c2/saying-no-without-saying-no` | `03.jpg` | The Tower of Babel | `File:Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project - edited.jpg` |
 | `c2/slavery-and-the-american-economy` | `01.jpg` | Auction broadside, New Orleans, 14 January 1860. | `File:SlaveAuctionBroadside-1860-01-14.jpg` |
 | `c2/slavery-and-the-american-economy` | `02.jpg` | Cotton Merchants in New Orleans | `File:Edgar Degas - Cotton Merchants in New Orleans.jpg` |
 | `c2/the-american-dream` | `01.jpg` | Toward Los Angeles | `File:Toward Los Angeles, California LOC 3549663710.jpg` |
+| `c2/the-american-dream` | `03.jpg` | A new development, photographed for the EPA in the 1970s. | `File:AERIAL OF A NEW HOUSING DEVELOPMENT. SOME 84 PERCENT OF THE RESIDENTS IN THE STATE LIVE WITHIN 30 MILES OF THE COAST... - NARA - 557461.jpg` |
+| `c2/the-case-against-plain-english` | `03.jpg` | Terms of sale, Philadelphia, nineteenth century. | `File:(Text page to) Terms and Conditions of Sale of Lots of the Pleasant Hill Land Association, of 23d. Ward. Philadelphia. (IA dr text-page-to-terms-and-conditions-of-sale-of-lots-of-the-pleasant-hill-la-3427008).jpg` |
+| `c2/the-second-language-self` | `02.jpg` | A conversation lesson, photographed by Frances Benjamin Johnston around 1900. | `File:Conversation lesson, subject - the chair LCCN2004676659.tif` |
+| `c2/the-second-language-self` | `03.jpg` | Interpreters' booths above a UN meeting. | `File:Interpreters' booth at UN peackeeping meeting at UN Headquarters, 2009 (cropped).jpg` |
 | `c2/the-west-was-not-empty` | `01.jpg` | Indian Family Alarmed at the Approach of a Prairie Fire | `File:George Catlin - Indian Family Alarmed at the Approach of a Prairie Fire - 1985.66.595 - Smithsonian American Art Museum.jpg` |
 | `c2/what-makes-an-american-hero` | `01.jpg` | Mission Control at the end of Apollo 11 | `File:Mission Operations Control Room at the conclusion of Apollo 11.jpg` |
+| `c2/what-makes-an-american-hero` | `02.jpg` | The Minute Man | `File:Minute Man, Daniel Chester French, Concord MA (cropped).jpg` |
+| `c2/what-makes-an-american-hero` | `03.jpg` | The March on Washington, 28 August 1963. | `File:View of Crowd at 1963 March on Washington.jpg` |
 
 ### Used under a licence that requires credit
 
-21 image(s). The credit is also printed under the picture on
+29 image(s). The credit is also printed under the picture on
 the page itself, which is where the licence requires it to be.
 
 | Page | File | Author | Licence | Source |
@@ -306,10 +316,18 @@ the page itself, which is where the licence requires it to be.
 | `c1/it-management` | `02.jpg` | SimonWaldherr | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:CERN_Computer_Center_13.jpg) |
 | `c1/physiological-stressors` | `02.jpg` | Shixart1985 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Runner_pours_water_over_his_head_after_finishing_a_race_in_an_outdoor_setting_during_a_sunny_day.jpg) |
 | `c1/physiological-stressors` | `03.jpg` | Riga Marathon | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Water_station_Rimi_Riga_Marathon_2021_Van%C5%A1u_bridge.jpg) |
+| `c1/real-estate` | `02.jpg` | Quintin Soloviev | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Denver,_Colorado_skyline_(cropped).jpg) |
+| `c1/real-estate` | `03.jpg` | Jeffrey Beall | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:DenverCountryClubHD.JPG) |
 | `c1/rs-japan` | `02.jpg` | FERNANDAQUINTANA1 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Amanhecer_do_Pampa_Gaucho.JPG) |
 | `c1/rs-japan` | `03.jpg` | ccfarmer | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cherry_blossom_viewing_in_Maruyama_Park_-_panoramio.jpg) |
 | `c1/shadows-in-the-server-room` | `02.jpg` | Bill Bradford | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tangled_cables_mrbill.jpg) |
 | `c1/shadows-in-the-server-room` | `04.jpg` | Birkenkrahe | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Change_management_whiteboard.jpg) |
 | `c1/shadows-in-the-server-room` | `05.jpg` | Jemimus | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:DHL_Netherlands_local_site_computer_room_air_conditioning_unit_and_ductwork_-_IMG_3295.jpg) |
+| `c2/the-american-dream` | `02.jpg` | Peter Elfelt | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Assembly_line_Ford_T,_1923.jpg) |
+| `c2/the-case-against-plain-english` | `02.jpg` | Blogtrepreneur | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Legal_Contract_%26_Signature_-_Warm_Tones.jpg) |
+| `c2/the-same-news-four-ways` | `02.jpg` | AinarsM | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Latvia,_Riga_-_Former_textile_factory_Tekstiliana_(Riga)_WMID2365439.jpg) |
+| `c2/the-same-news-four-ways` | `03.jpg` | Helar Lukats | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Whatsapp_texting.jpg) |
+| `c2/what-doesnt-translate` | `02.jpg` | Cullen328 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Compact_Oxford_English_Dictionary_2.jpg) |
+| `c2/what-doesnt-translate` | `03.jpg` | JorisEnter | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Asser-serie_UB_Leiden.jpg) |
 
 <!-- gallery:end -->

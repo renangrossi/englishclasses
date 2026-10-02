@@ -74,7 +74,10 @@ python3 scripts/check_site_integrity.py       # the built site: links, files
   // these; build_reading_page.py prints them under the picture.
   "licence": "CC BY-SA 4.0",
   "author": "Infrogmation of New Orleans",
-  "source_url": "https://commons.wikimedia.org/wiki/File:..."
+  "source_url": "https://commons.wikimedia.org/wiki/File:...",
+  "credit_prefix": "Image"            // optional; the word before the credit.
+                                      // "Photo" unless set -- a satellite
+                                      // composite is not a photograph
 }
 ```
 
@@ -101,7 +104,8 @@ a gallery painting often does depict its subject.
 
 Rights are not a judgement call. `scripts/add_commons_image.py` reads the Commons
 licence metadata and sorts it into three tiers: public domain and CC0 are used as
-they are; CC BY and CC BY-SA are used with the licence and author recorded on the
+they are; CC BY, CC BY-SA, the UK Open Government Licence and Commons'
+{{Attribution}} licence are used with the licence and author recorded on the
 image and printed under it; anything carrying NC or ND is refused, because ND
 forbids the resize every image goes through and NC puts a condition on the whole
 site. See `docs/image-credits.md`.

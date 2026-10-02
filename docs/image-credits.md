@@ -6,10 +6,16 @@ Every image used on a reading page, with its source and rights.
 Commons API, and `scripts/add_commons_image.py` acts on it in three tiers:
 
 - **Public domain and CC0** — used as they are, nothing owed.
-- **CC BY and CC BY-SA** — used, with the licence and the author recorded on the
-  image in its source JSON and printed in small type under the picture itself.
-  That is the condition those licences attach, and putting it under the picture
-  rather than in a file somewhere keeps it with the thing it applies to.
+- **CC BY and CC BY-SA, the UK Open Government Licence, and Commons'
+  {{Attribution}} licence** — used, with the licence and the author recorded on
+  the image in its source JSON and printed in small type under the picture
+  itself. That is the condition those licences attach, and putting it under the
+  picture rather than in a file somewhere keeps it with the thing it applies to.
+  The last two are not Creative Commons, so they are matched on the licence's
+  exact short name ("OGL 3", "Attribution") rather than searched for: "ogl" sits
+  inside "Google". They came in for the House of Commons chamber (OGL) and the
+  Sentinel-2 view of North Sentinel Island (Copernicus imagery, published under
+  {{Attribution}}, credited in the wording Copernicus asks for).
 - **Anything carrying NC or ND, and anything unfree** — refused outright. ND
   forbids the resize every image here goes through, and NC puts a condition on
   the whole site that nobody should have to reason about later.
@@ -64,7 +70,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-89 images, imported with `scripts/import_local_artwork.py` from the local
+88 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -144,7 +150,6 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b2/egypt-a-journey-through-history-and-culture` | `02.jpg` | Temple on the Nile | `david-roberts-temple-on-the-nile.jpeg` |
 | `b2/formal-informal` | `01.jpg` | Pericles' Funeral Oration | `philipp-foltz-pericles-funeral-oration-1852.jpg` |
 | `b2/formula-1` | `01.jpg` | The Chariot Race | `alexander-von-wagner-the-chariot-race.jpeg` |
-| `b2/north-sentinel-island` | `01.jpg` | Dutch Vessels and Fishermen on a Rocky Coast | `adam-willaerts-dutch-vessels-and-fishermen-on-a-rocky-coast.jpeg` |
 | `b2/romania` | `02.jpg` | Vlad the Impaler's Night Attack at Târgoviște | `theodor-aman-draculas-night-attack-at-targoviste.jpg` |
 | `b2/the-marathon-and-the-wall` | `01.jpg` | The Heraean Games | `prospero-piatti-the-heraean-games-1901.jpg` |
 | `c1/attention-economy` | `01.jpg` | Public Exhibition of a Picture | `joan-ferrer-miro-1850-1931-public-exhibition-of-a-picture.jpg` |
@@ -162,7 +167,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-142 images the gallery could not answer -- flags, maps, photographs and
+141 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything carrying NC or ND. The
 few used under a licence that requires a credit are listed separately below.
@@ -295,7 +300,6 @@ few used under a licence that requires a credit are listed separately below.
 | `c2/reconstruction-revolution` | `01.jpg` | One of the data portraits W. | `File:The Georgia Negro LCCN2013650436.jpg` |
 | `c2/reconstruction-revolution` | `02.jpg` | Hiram Rhodes Revels | `File:Oil portrait of Hiram Rhodes Revels by Theodor Kaufmann.jpg` |
 | `c2/reconstruction-revolution` | `03.jpg` | Worse than Slavery | `File:Worse than Slavery (1874), by Thomas Nast.jpg` |
-| `c2/saying-no-without-saying-no` | `01.jpg` | A Senate Armed Services Committee hearing | `File:US Navy 040408-N-2383B-070 Adm. Vern Clark, Chief of Naval Operations (CNO) answers questions by members of the Senate Armed Services Committee as he shares the witness table alongside the Honorable William H. Taft, Legal Advis.jpg` |
 | `c2/saying-no-without-saying-no` | `02.jpg` | The last session of the Potsdam Conference, 1945. | `File:Last meeting of the Potsdam Conference in Potsdam, Germany. Seated around the conference table, President Harry S.... - NARA - 198951.jpg` |
 | `c2/saying-no-without-saying-no` | `03.jpg` | The Tower of Babel | `File:Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project - edited.jpg` |
 | `c2/slavery-and-the-american-economy` | `01.jpg` | Auction broadside, New Orleans, 14 January 1860. | `File:SlaveAuctionBroadside-1860-01-14.jpg` |
@@ -314,7 +318,7 @@ few used under a licence that requires a credit are listed separately below.
 
 ### Used under a licence that requires credit
 
-68 image(s). The credit is also printed under the picture on
+70 image(s). The credit is also printed under the picture on
 the page itself, which is where the licence requires it to be.
 
 | Page | File | Author | Licence | Source |
@@ -362,6 +366,7 @@ the page itself, which is where the licence requires it to be.
 | `b2/intelligence-pills` | `02.jpg` | MorgueFile : see [1] | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:VariousPills.jpg) |
 | `b2/it-and-jiu-jitsu` | `02.jpg` | parhessiastes | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Brazilian_Jiu-Jitsu_Gi_Competition-Armbar.jpg) |
 | `b2/it-interview` | `02.jpg` | Gangulybiswarup | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Audience_Of_Sudeshna_Mukherjee%27s_Talk_On_Gender_Equality_Digital_Rights_And_AI_Ethics_-_WikiConference_India_2026_-_Kochi_2026-09-05_04077.jpg) |
+| `b2/north-sentinel-island` | `01.jpg` | Contains modified Copernicus Sentinel data 2022 (ESA) | Attribution | [Commons](https://commons.wikimedia.org/wiki/File:North_Sentinel_Island_2022-03-06_Sentinel-2_L2A_True_color.jpg) |
 | `b2/north-sentinel-island` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Andaman_Islands,_Full_moon_night,_Forest_by_the_sea_at_night.jpg) |
 | `b2/phrasal-verbs-01-bed-and-breakfast` | `01.jpg` | Infrogmation of New Orleans | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mess_at_Home_-_Uptown_New_Orleans_Bedroom_January_1990_01.jpg) |
 | `b2/phrasal-verbs-01-bed-and-breakfast` | `02.jpg` | HaJunkiyada | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Breakfast_in_Israel_scrambled_eggs_with_herbs_and_vegetables.jpg) |
@@ -380,6 +385,7 @@ the page itself, which is where the licence requires it to be.
 | `c1/shadows-in-the-server-room` | `02.jpg` | Bill Bradford | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tangled_cables_mrbill.jpg) |
 | `c1/shadows-in-the-server-room` | `04.jpg` | Birkenkrahe | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Change_management_whiteboard.jpg) |
 | `c1/shadows-in-the-server-room` | `05.jpg` | Jemimus | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:DHL_Netherlands_local_site_computer_room_air_conditioning_unit_and_ductwork_-_IMG_3295.jpg) |
+| `c2/saying-no-without-saying-no` | `01.jpg` | UK government | OGL 3 | [Commons](https://commons.wikimedia.org/wiki/File:House_of_Commons_2010.jpg) |
 | `c2/the-accent-you-keep` | `02.jpg` | unknown | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Spectrogram_-iua-.png) |
 | `c2/the-american-dream` | `02.jpg` | Peter Elfelt | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Assembly_line_Ford_T,_1923.jpg) |
 | `c2/the-case-against-plain-english` | `02.jpg` | Blogtrepreneur | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Legal_Contract_%26_Signature_-_Warm_Tones.jpg) |

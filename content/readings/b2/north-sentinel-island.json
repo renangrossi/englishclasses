@@ -32,9 +32,14 @@
     {
       "src": "01.jpg",
       "after": 1,
-      "alt": "Ships standing off a rocky island while small boats move between them and the shore",
-      "source": "adam-willaerts-dutch-vessels-and-fishermen-on-a-rocky-coast.jpeg",
-      "caption": "*Dutch Vessels and Fishermen on a Rocky Coast* — Adam Willaerts. Seventeenth-century Europe, not the Andamans — but a boat standing off a shore is the view the Sentinelese have been refusing for two hundred years."
+      "alt": "North Sentinel Island seen from a satellite: a roughly square island covered entirely in dark green forest, ringed by a pale band of beach and coral reef in a deep blue sea",
+      "source": "commons:File:North Sentinel Island 2022-03-06 Sentinel-2 L2A True color.jpg",
+      "relation": "depicts",
+      "licence": "Attribution",
+      "author": "Contains modified Copernicus Sentinel data 2022 (ESA)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:North_Sentinel_Island_2022-03-06_Sentinel-2_L2A_True_color.jpg",
+      "caption": "North Sentinel Island from orbit, March 2022: about sixty square kilometres of forest inside a ring of coral reef. The 2004 earthquake lifted the whole island, reef and all, a metre or two higher out of the sea.",
+      "credit_prefix": "Image"
     },
     {
       "src": "02.jpg",

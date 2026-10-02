@@ -8,8 +8,11 @@ portraits of particular people -- the things an American history collection
 needs and a shelf of European landscape painting does not have.
 
 Rights are not a judgement call here. The Commons licence metadata is read
-first and anything that is not public domain is refused, which is the same rule
-scripts/fetch_public_domain_image.py applies.
+first. Public domain and CC0 are used as they are; CC BY and CC BY-SA are used
+too, but the licence and the author are recorded on the image and printed under
+it, because that is the condition those licences attach. Anything carrying NC or
+ND is refused outright -- ND forbids the resize this script performs, and NC puts
+a condition on the whole site that nobody should have to reason about later.
 
 Usage:
     python3 scripts/add_commons_image.py --plan plan.json
@@ -40,10 +43,11 @@ def add(text, title, after, alt, caption, wide=False, check=False):
     meta = pd.info(title, width=1600)
     if not meta:
         raise SystemExit(f"not found on Commons: {title}")
-    if not pd.is_pd(meta):
-        raise SystemExit(f"REFUSED (not public domain): {title} -> {meta['licence']}")
+    if not pd.is_usable(meta):
+        raise SystemExit(f"REFUSED (not free to use): {title} -> {meta['licence']}")
     if check:
-        print(f"  ok {text} <- {title}  [{meta['licence']}]  {meta['artist'][:50]}")
+        tier = "PD" if pd.is_pd(meta) else "needs credit"
+        print(f"  ok {text} <- {title}  [{meta['licence']} / {tier}]  {meta['artist'][:46]}")
         return
     d = json.loads(p.read_text(encoding="utf-8"))
     if not 0 <= after < len(d["passage"]):
@@ -71,6 +75,13 @@ def add(text, title, after, alt, caption, wide=False, check=False):
                     "-interlace", "Plane", "-quality", str(QUALITY), str(dest)], check=True)
     raw.unlink()
     entry = {"src": name, "after": after, "alt": alt, "source": f"commons:{title}"}
+    # A public-domain file owes nobody anything and carries no licence fields.
+    # Anything else is free only on condition of a credit, so the condition is
+    # recorded here and printed under the picture by build_reading_page.py.
+    if pd.needs_credit(meta):
+        entry["licence"] = meta["licence"]
+        entry["author"] = meta["artist"] or meta["credit"] or "unknown"
+        entry["source_url"] = meta.get("descurl", "")
     if caption:
         entry["caption"] = caption
     if wide:

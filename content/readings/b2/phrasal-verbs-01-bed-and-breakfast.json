@@ -32,10 +32,13 @@
   "images": [
     {
       "src": "01.jpg",
-      "after": 1,
-      "alt": "A 1937 home economics class, students in white uniforms making up a bed in a demonstration room",
-      "source": "commons:File:Home Economics - bed making, c.1937 (22052712661).jpg",
-      "caption": "A bed-making class, around 1937 — State Records New South Wales. Not a bedroom at home, but every verb in this text's first paragraph is being done in it.",
+      "after": 0,
+      "alt": "A cluttered room photographed in 1990: wall-to-wall bookshelves, a ceiling fan with pull chains, an old brass desk fan and a framed print above, and in front of them a bed buried under clothes, papers and an open cardboard box",
+      "source": "commons:File:Mess at Home - Uptown New Orleans Bedroom January 1990 01.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Infrogmation of New Orleans",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mess_at_Home_-_Uptown_New_Orleans_Bedroom_January_1990_01.jpg",
+      "caption": "An Uptown New Orleans bedroom, January 1990. Every verb in this text's opening paragraph is waiting to be done in this room.",
       "relation": "depicts"
     }
   ],

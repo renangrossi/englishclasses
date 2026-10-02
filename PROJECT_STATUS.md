@@ -399,7 +399,7 @@ python3 -m venv /tmp/rl-venv && /tmp/rl-venv/bin/pip install edge-tts   # once p
 # 1. author content/readings/{level}/{slug}.json  — topic: "history", order: 100+
 # 2. images: local gallery first, Commons only for what it cannot answer
 python3 scripts/import_local_artwork.py --plan plan.json
-python3 scripts/add_commons_image.py --plan plan.json     # refuses anything not public domain
+python3 scripts/add_commons_image.py --plan plan.json     # PD as-is, CC BY/BY-SA with a credit, NC/ND refused
 # 3. build + narrate + finish
 python3 scripts/build_reading_page.py {level}/{slug}
 python3 scripts/generate_reading_audio.py {level}/{slug} --tts /tmp/rl-venv/bin/edge-tts
@@ -837,7 +837,9 @@ Every action is finished: **KEEP** 15, **EDIT** 31, **REPLACE** 12, **MERGE** 15
 - **Illustration.** Done as Milestone 11 for 111 of 115 texts, from the local gallery. The four
   that are bare are listed there and were left bare on purpose. `docs/image-credits.md` has the rights position,
   `scripts/import_local_artwork.py` imports from the gallery and
-  `scripts/fetch_public_domain_image.py` refuses anything on Commons that is not public domain.
+  `scripts/fetch_public_domain_image.py` reads the Commons licence metadata: public domain is used as
+  it is, CC BY and CC BY-SA are used with the credit printed under the picture, and anything carrying
+  NC or ND is refused.
 
 ---
 

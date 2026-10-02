@@ -22,14 +22,21 @@ END = "<!-- gallery:end -->"
 
 
 def main():
-    rows, commons = [], []
+    rows, commons, licensed = [], [], []
     for level, slug, d in rc.all_sources():
         for img in (d.get("images") or []):
             src = img.get("source")
             if not src:
                 continue
-            row = (f"`{level}/{slug}`", img["src"], src,
-                   (img.get("caption") or "").split(" — ")[0].strip("*"))
+            work = (img.get("caption") or "").split(" — ")[0].strip("*")
+            if img.get("licence"):
+                # Free only on condition of a credit; the condition is listed in
+                # full here as well as printed under the picture on the page.
+                licensed.append((f"`{level}/{slug}`", img["src"],
+                                 img.get("author", "unknown"), img["licence"],
+                                 img.get("source_url", ""), work))
+                continue
+            row = (f"`{level}/{slug}`", img["src"], src, work)
             (commons if src.startswith("commons:") else rows).append(row)
     body = [START,
             "",
@@ -46,12 +53,25 @@ def main():
              "",
              f"{len(commons)} images the gallery could not answer -- flags, maps, photographs and",
              "portraits of particular people. Fetched with `scripts/add_commons_image.py`, which",
-             "reads the Commons licence metadata and refuses anything that is not public domain.",
+             "reads the Commons licence metadata and refuses anything carrying NC or ND. The",
+             "few used under a licence that requires a credit are listed separately below.",
              "",
              "| Page | File | Work | Commons file |",
              "|---|---|---|---|"]
     for page, src, source, work in sorted(commons):
         body.append(f"| {page} | `{src}` | {work} | `{source[8:]}` |")
+
+    body += ["",
+             "### Used under a licence that requires credit",
+             "",
+             f"{len(licensed)} image(s). The credit is also printed under the picture on",
+             "the page itself, which is where the licence requires it to be.",
+             "",
+             "| Page | File | Author | Licence | Source |",
+             "|---|---|---|---|---|"]
+    for page, src, author, lic, url, work in sorted(licensed):
+        link = f"[Commons]({url})" if url else "Commons"
+        body.append(f"| {page} | `{src}` | {author} | {lic} | {link} |")
     body += ["", END]
 
     text = DOC.read_text(encoding="utf-8")

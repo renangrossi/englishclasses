@@ -284,6 +284,17 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   .reading-figure { --figure-height: 17rem; }
 }
 
+/* The attribution a CC BY / CC BY-SA picture is used on condition of. Set
+   smaller and quieter than the caption: it is a legal note, not editorial. */
+.reading-figure__credit {
+  display: block;
+  margin-top: 0.35em;
+  font-size: 0.82em;
+  color: var(--color-text-muted);
+  opacity: 0.85;
+}
+.reading-figure__credit a { color: inherit; }
+
 .reading-figure figcaption {
   margin-top: 0.7em;
   font-family: var(--font-body, inherit);

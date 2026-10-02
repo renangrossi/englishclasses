@@ -34,6 +34,13 @@
       "source": "commons:File:Times-Advocate-Front-Page-1912-08-22.jpg",
       "caption": "The Daily Times-Advocate, 22 August 1912. Every claim on this page is attributed, hedged or stated flat, and telling the three apart is what this text teaches.",
       "relation": "depicts"
+    },
+    {
+      "src": "02.jpg",
+      "after": 6,
+      "alt": "The New York Times newsroom in the 1940s: reporters at desks heaped with paper, several on telephones, under hanging lamps",
+      "source": "commons:File:Newsroom of the New York Times newspaper. 8d22685v.jpg",
+      "caption": "A newsroom at deadline. Every choice this text asks you to notice was made in a room like this one, quickly, by somebody with an editor waiting."
     }
   ],
   "vocabulary": [

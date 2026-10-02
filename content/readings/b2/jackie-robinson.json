@@ -30,6 +30,13 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 0,
+      "alt": "A portrait photograph of Branch Rickey in a suit and bow tie, looking directly at the camera",
+      "source": "commons:File:Branch Rickey Cardinals.jpg",
+      "caption": "Branch Rickey. He spent three hours that afternoon insulting Robinson to his face, to find out whether he could take it without answering."
+    },
+    {
       "src": "01.jpg",
       "after": 5,
       "alt": "A photograph of Jackie Robinson in Brooklyn Dodgers uniform, crouched and ready, looking out at the field",

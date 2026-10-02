@@ -29,6 +29,13 @@
   ],
   "images": [
     {
+      "src": "02.jpg",
+      "after": 2,
+      "alt": "A coloured lithograph of the Battle of Buena Vista: lines of American infantry and artillery on a ridge above a wide valley, with mountains behind and smoke along the line",
+      "source": "commons:File:Battle of Buena Vista Nebel.jpg",
+      "caption": "*The Battle of Buena Vista* — Carl Nebel, 1847. A young congressman named Lincoln spent much of his single term arguing that this war had been begun on a false pretext."
+    },
+    {
       "src": "01.jpg",
       "after": 5,
       "alt": "An allegorical painting: a giant female figure in white floats westward across the plains carrying a schoolbook and trailing telegraph wire, with trains, stagecoaches and settlers in the light behind her and Native people and buffalo retreating into darkness ahead",

@@ -164,7 +164,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-121 images the gallery could not answer -- flags, maps, photographs and
+133 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything carrying NC or ND. The
 few used under a licence that requires a credit are listed separately below.
@@ -217,6 +217,7 @@ few used under a licence that requires a credit are listed separately below.
 | `b1/kitchen-chaos` | `01.jpg` | A kitchen in a federal housing project, 1942 | `File:Federal housing project. Mrs. Leslie Atkins preparing dinner8d20971v.jpg` |
 | `b1/lewis-and-clark-unknown` | `02.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
 | `b1/lincoln-and-the-civil-war` | `01.jpg` | The Battle of Antietam | `File:Thure de Thulstrup - Battle of Antietam.jpg` |
+| `b1/lincoln-and-the-civil-war` | `02.jpg` | Gettysburg, 19 November 1863. | `File:Crowd of citizens, soldiers, and etc. with Lincoln at Gettysburg. - NARA - 529085 -crop.jpg` |
 | `b1/louisiana-purchase` | `02.jpg` | Louisiana, mapped by Samuel Lewis in 1804. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
 | `b1/nfl` | `01.jpg` | Princeton against Chicago, 1922. | `File:1922 Princeton v. Chicago football game.jpg` |
 | `b1/physical-education` | `01.jpg` | Plates from *Athletic Training for School Boys*, 1910. | `File:Athletic training for school boys (1910) (14598149930).jpg` |
@@ -224,6 +225,7 @@ few used under a licence that requires a credit are listed separately below.
 | `b1/transcontinental-railroad` | `02.jpg` | Promontory Summit, Utah, 10 May 1869. | `File:East and West Shaking hands at the laying of last rail Union Pacific Railroad - Restoration.jpg` |
 | `b1/transcontinental-railroad` | `03.jpg` | Chinese workers on the Central Pacific in the Sierra Nevada. | `File:Chinese railroad workers sierra nevada.jpg` |
 | `b2/civil-war-nation-divided` | `01.jpg` | Pickett's Charge at Gettysburg | `File:Thure de Thulstrup - L. Prang and Co. - Battle of Gettysburg - Restoration by Adam Cuerden.jpg` |
+| `b2/civil-war-nation-divided` | `02.jpg` | A Harvest of Death | `File:A Harvest of Death, Gettysburg, Pennsylvania MET DP274823.jpg` |
 | `b2/fdr-new-deal` | `01.jpg` | Roosevelt signs the Social Security Act, 14 August 1935 | `File:Signing Of The Social Security Act.jpg` |
 | `b2/fdr-new-deal` | `02.jpg` | A WPA poster. | `File:WPA-Work-Pays-America-Poster.jpg` |
 | `b2/great-depression` | `01.jpg` | A bank run in Michigan, February 1933. | `File:Bank Run in Michigan, USA, February 1933.jpg` |
@@ -233,6 +235,7 @@ few used under a licence that requires a credit are listed separately below.
 | `b2/it-and-jiu-jitsu` | `01.jpg` | A jujutsu lock, from *Japanese Physical Training*, 1904. | `File:Japanese Physical Training illustration 16.jpg` |
 | `b2/it-interview` | `01.jpg` | “A worried applicant waiting to be interviewed” | `File:Los Angeles, California. Lockheed Employment. A worried applicant waiting to be interviewed - NARA - 532210.jpg` |
 | `b2/jackie-robinson` | `01.jpg` | Jackie Robinson, Brooklyn Dodgers, 1954 | `File:Jackie Robinson, Brooklyn Dodgers, 1954.jpg` |
+| `b2/jackie-robinson` | `02.jpg` | Branch Rickey. | `File:Branch Rickey Cardinals.jpg` |
 | `b2/phrasal-verbs-02-trip-abroad` | `01.jpg` | Manhattan from the air, 1932 | `File:New York City, circa 1932.jpg` |
 | `b2/project-management-can-could-able-do-make` | `01.jpg` | Working through county land-use plans together | `File:Working on the county maps at the colored County Land Use Pl... (3110578334).jpg` |
 | `b2/recent-advancements-in-it` | `02.jpg` | ENIAC, around 1946 | `File:Classic shot of the ENIAC.jpg` |
@@ -247,11 +250,14 @@ few used under a licence that requires a credit are listed separately below.
 | `c1/america-in-1776` | `04.jpg` | Arriving at Ellis Island. | `File:Arriving at Ellis Island LCCN97519082.jpg` |
 | `c1/apollo-11` | `01.jpg` | Buzz Aldrin on the surface | `File:Aldrin Apollo 11.jpg` |
 | `c1/apollo-11` | `02.jpg` | The Laser Ranging Retroreflector, photographed where it was left | `File:AS11-40-5952 - Apollo 11 - Apollo 11 Mission image - The Laser Ranging Retroreflector (LRRR) - NARA - 16685293.jpg` |
+| `c1/apollo-11` | `03.jpg` | What Michael Collins saw. | `File:Apollo 11 Lunar Module ascent stage photographed from Command Module.jpg` |
 | `c1/haiti` | `01.jpg` | The Daily Times-Advocate, 22 August 1912. | `File:Times-Advocate-Front-Page-1912-08-22.jpg` |
+| `c1/haiti` | `02.jpg` | A newsroom at deadline. | `File:Newsroom of the New York Times newspaper. 8d22685v.jpg` |
 | `c1/it-management` | `01.jpg` | The Banker and His Wife | `File:Marinus van Reymerswale - The Banker and His Wife - WGA19323.jpg` |
 | `c1/it-management` | `03.jpg` | The London Stock Exchange floor. | `File:Crowd on stock exchange floor, London LCCN2014683111.jpg` |
 | `c1/malcolm-x` | `01.jpg` | Malcolm X and Martin Luther King Jr. | `File:MLK and Malcolm X USNWR cropped.jpg` |
 | `c1/malcolm-x` | `02.jpg` | Malcolm X | `File:Malcolm X in 1964.jpg` |
+| `c1/malcolm-x` | `03.jpg` | The first edition, 1965, published months after his death. | `File:The Autobiography of Malcolm X (1st ed dust jacket cover).jpg` |
 | `c1/martin-luther-king` | `01.jpg` | Martin Luther King Jr. at the March on Washington | `File:Civil Rights March on Washington, D.C. (Dr. Martin Luther King, Jr. and Mathew Ahmann in a crowd.) - NARA - 542015 - Restoration.jpg` |
 | `c1/martin-luther-king` | `02.jpg` | Fire hoses turned on demonstrators in Birmingham, Alabama | `File:Firemen spraying protestors in Downtown Birmingham 01.jpg` |
 | `c1/physiological-stressors` | `01.jpg` | Dorando Pietri at the end of the 1908 Olympic marathon. | `File:Dorando Pietri 1908.jpg` |
@@ -270,11 +276,15 @@ few used under a licence that requires a credit are listed separately below.
 | `c1/trials` | `03.jpg` | Twelve chairs and a narrow question. | `File:Jury box in 3rd floor courtroom of the Conway County Courthouse in Morrilton, AR.jpg` |
 | `c1/watergate` | `01.jpg` | The Watergate complex, Washington D.C. | `File:WatergateFromAir.JPG` |
 | `c1/watergate` | `02.jpg` | Nixon's letter of resignation, 9 August 1974. | `File:Letter of Resignation of Richard M. Nixon, 1974.jpg` |
+| `c1/watergate` | `03.jpg` | The Senate Watergate Committee, 1973. | `File:Senate Watergate Hearing.jpg` |
 | `c1/women-win-the-vote` | `01.jpg` | Official program for the suffrage procession | `File:Official Program Woman Suffrage Procession - March 3, 1913.jpg` |
 | `c1/women-win-the-vote` | `02.jpg` | The Silent Sentinels at the White House gates, 1917. | `File:Suffragists picketing the White House.jpg` |
+| `c1/women-win-the-vote` | `03.jpg` | Mott, Stanton and Anthony, carved by Adelaide Johnson. | `File:PortraitMonumentImage01.jpg` |
 | `c2/immigration-and-modern-america` | `01.jpg` | The Usual Irish Way of Doing Things | `File:TheUsualIrishWayofDoingThings.jpg` |
 | `c2/immigration-and-modern-america` | `02.jpg` | The Chinese Exclusion Act, 1882, in the enrolled original. | `File:Chineseexclusionact.JPG` |
+| `c2/immigration-and-modern-america` | `03.jpg` | Johnson signing the 1965 Act, at the foot of the Statue of Liberty. | `File:President Lyndon B. Johnson Signing of the Immigration Act of 1965 (02) - restoration1.jpg` |
 | `c2/manifest-destiny` | `01.jpg` | American Progress | `File:American Progress (1872) by John Gast.jpg` |
+| `c2/manifest-destiny` | `02.jpg` | The Battle of Buena Vista | `File:Battle of Buena Vista Nebel.jpg` |
 | `c2/reconstruction-revolution` | `01.jpg` | One of the data portraits W. | `File:The Georgia Negro LCCN2013650436.jpg` |
 | `c2/reconstruction-revolution` | `02.jpg` | Hiram Rhodes Revels | `File:Oil portrait of Hiram Rhodes Revels by Theodor Kaufmann.jpg` |
 | `c2/reconstruction-revolution` | `03.jpg` | Worse than Slavery | `File:Worse than Slavery (1874), by Thomas Nast.jpg` |
@@ -283,25 +293,29 @@ few used under a licence that requires a credit are listed separately below.
 | `c2/saying-no-without-saying-no` | `03.jpg` | The Tower of Babel | `File:Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project - edited.jpg` |
 | `c2/slavery-and-the-american-economy` | `01.jpg` | Auction broadside, New Orleans, 14 January 1860. | `File:SlaveAuctionBroadside-1860-01-14.jpg` |
 | `c2/slavery-and-the-american-economy` | `02.jpg` | Cotton Merchants in New Orleans | `File:Edgar Degas - Cotton Merchants in New Orleans.jpg` |
+| `c2/slavery-and-the-american-economy` | `03.jpg` | The Levee | `File:The levee-New Orleans LCCN2002708517.jpg` |
 | `c2/the-american-dream` | `01.jpg` | Toward Los Angeles | `File:Toward Los Angeles, California LOC 3549663710.jpg` |
 | `c2/the-american-dream` | `03.jpg` | A new development, photographed for the EPA in the 1970s. | `File:AERIAL OF A NEW HOUSING DEVELOPMENT. SOME 84 PERCENT OF THE RESIDENTS IN THE STATE LIVE WITHIN 30 MILES OF THE COAST... - NARA - 557461.jpg` |
 | `c2/the-case-against-plain-english` | `03.jpg` | Terms of sale, Philadelphia, nineteenth century. | `File:(Text page to) Terms and Conditions of Sale of Lots of the Pleasant Hill Land Association, of 23d. Ward. Philadelphia. (IA dr text-page-to-terms-and-conditions-of-sale-of-lots-of-the-pleasant-hill-la-3427008).jpg` |
 | `c2/the-second-language-self` | `02.jpg` | A conversation lesson, photographed by Frances Benjamin Johnston around 1900. | `File:Conversation lesson, subject - the chair LCCN2004676659.tif` |
 | `c2/the-second-language-self` | `03.jpg` | Interpreters' booths above a UN meeting. | `File:Interpreters' booth at UN peackeeping meeting at UN Headquarters, 2009 (cropped).jpg` |
 | `c2/the-west-was-not-empty` | `01.jpg` | Indian Family Alarmed at the Approach of a Prairie Fire | `File:George Catlin - Indian Family Alarmed at the Approach of a Prairie Fire - 1985.66.595 - Smithsonian American Art Museum.jpg` |
+| `c2/the-west-was-not-empty` | `03.jpg` | Buffalo Hunt, A Numerous Group | `File:George Catlin - Buffalo Hunt, A Numerous Group.jpg` |
 | `c2/what-makes-an-american-hero` | `01.jpg` | Mission Control at the end of Apollo 11 | `File:Mission Operations Control Room at the conclusion of Apollo 11.jpg` |
 | `c2/what-makes-an-american-hero` | `02.jpg` | The Minute Man | `File:Minute Man, Daniel Chester French, Concord MA (cropped).jpg` |
 | `c2/what-makes-an-american-hero` | `03.jpg` | The March on Washington, 28 August 1963. | `File:View of Crowd at 1963 March on Washington.jpg` |
 
 ### Used under a licence that requires credit
 
-29 image(s). The credit is also printed under the picture on
+31 image(s). The credit is also printed under the picture on
 the page itself, which is where the licence requires it to be.
 
 | Page | File | Author | Licence | Source |
 |---|---|---|---|---|
 | `a2/restaurant-dialogue` | `01.jpg` | Jim.henderson | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Joe%27s_Pizza_2022_jeh.jpg) |
 | `a2/two-very-different-trips` | `02.jpg` | Nawit science | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Temple_of_the_Emerald_Buddha.jpg) |
+| `b1/frederick-douglass` | `02.jpg` | TradingCardsNPS | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_North_Star_(7222833218).jpg) |
+| `b1/golden-gate-bridge-present-perfect` | `02.jpg` | Brocken Inaglory | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_at_sunset_1.jpg) |
 | `b1/milan-restaurants` | `02.jpg` | Gordon Leggett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:2021-09-04_Fluffy_Clam_Chowder.jpg) |
 | `b1/ny-visitation` | `01.jpg` | Adjoajo | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Autumn_in_Central_Park._NYC.jpg) |
 | `b1/ny-visitation` | `02.jpg` | Christian David | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lower_Manhattan_skyline_and_Brooklyn_Bridge_from_the_East_River,_New_York.jpg) |

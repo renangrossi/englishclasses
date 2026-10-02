@@ -29,6 +29,13 @@
   ],
   "images": [
     {
+      "src": "03.jpg",
+      "after": 1,
+      "alt": "The Portrait Monument in the United States Capitol: three white marble busts of Lucretia Mott, Elizabeth Cady Stanton and Susan B. Anthony emerging from a single rough block",
+      "source": "commons:File:PortraitMonumentImage01.jpg",
+      "caption": "Mott, Stanton and Anthony, carved by Adelaide Johnson. None of the three lived to vote in a federal election."
+    },
+    {
       "src": "01.jpg",
       "after": 4,
       "alt": "An illustrated program cover showing a woman in a long cape on a white horse blowing a trumpet, lettered Official Program Woman Suffrage Procession Washington DC March 3 1913",

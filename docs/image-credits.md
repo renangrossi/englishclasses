@@ -70,7 +70,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 | Page | File | Work | Gallery source |
 |---|---|---|---|
-| `a1/at-the-store` | `01.jpg` | Venetian Fruit Sellers | `stefano-novo-venetian-fruit-sellers-1898.jpeg` |
+| `a1/at-the-store` | `01.jpg` | The Fan Shop | `utagawa-toyokuni-the-fan-shop-ca-1800.jpeg` |
 | `a1/george-washington` | `01.jpg` | Washington Crossing the Delaware | `emanuel-leutze-washington-crossing-the-delaware.jpg` |
 | `a1/i-dont-feel-good` | `01.jpg` | The Quack | `albert-anker-the-quack-1897.jpeg` |
 | `a1/jack-works-from-home` | `01.jpg` | Sir Lawrence Alma-Tadema's Library in Townshend House, London | `anna-alma-tadema-sir-lawrence-alma-tademas-library-in-townshend-house-london-1884.jpeg` |
@@ -101,7 +101,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `a2/st-patricks-day` | `02.jpg` | Riders of the Sidhe | `john-duncan-riders-of-the-sidhe-1911.jpg` |
 | `a2/thanksgiving` | `01.jpg` | Harvest | `vladimir-orlovsky-harvest-in-the-ukraine-1880.jpeg` |
 | `a2/thanksgiving` | `02.jpg` | The Roast Beef of Old England | `frank-moss-bennett-the-roast-beef-of-old-england.jpeg` |
-| `a2/the-day-at-the-market` | `02.jpg` | A Good Roast | `eduard-von-grutzner-a-good-roast-1889.jpeg` |
+| `a2/the-day-at-the-market` | `01.jpg` | Venetian Fruit Sellers | `stefano-novo-venetian-fruit-sellers-1898.jpeg` |
 | `a2/two-small-errands` | `02.jpg` | A Town Scene with a Farrier | `jacques-carabain-a-town-scene-with-a-farrier.jpeg` |
 | `a2/two-very-different-trips` | `01.jpg` | People on a Beach | `amaldus-nielsen-people-on-a-beach-1894.jpg` |
 | `b1/a-day-in-the-house` | `01.jpg` | A Sleeping Dog | `gerrit-dou-a-sleeping-dog.jpeg` |

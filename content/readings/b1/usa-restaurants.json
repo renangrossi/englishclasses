@@ -36,9 +36,13 @@
     {
       "src": "02.jpg",
       "after": 5,
-      "alt": "A warm subtropical coast seen through palms, with water and low hills beyond",
-      "source": "frederic-edwin-church-jamaica-1871.jpeg",
-      "caption": "*Jamaica* — Frederic Edwin Church, 1871. Jamaica rather than Florida: the same heat and the same water, a few hundred miles further south."
+      "alt": "Rippled dunes of brilliant white sand on the Florida panhandle, tufts of sea oats growing out of them, with the Gulf and a clear sky beyond",
+      "source": "commons:File:Pensacola Beach - White Sands, Florida Coast (27268946483).jpg",
+      "relation": "depicts",
+      "licence": "CC BY-SA 2.0",
+      "author": "Tony Webster from Minneapolis, Minnesota, United States",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pensacola_Beach_-_White_Sands,_Florida_Coast_(27268946483).jpg",
+      "caption": "The panhandle, near Pensacola. The sand really is that colour: quartz washed down from the Appalachians over millions of years."
     }
   ],
   "vocabulary": [

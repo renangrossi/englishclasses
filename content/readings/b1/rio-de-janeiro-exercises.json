@@ -30,16 +30,24 @@
     {
       "src": "01.jpg",
       "after": 1,
-      "alt": "Dense tropical forest falling away towards a river, with mountains standing behind it",
-      "source": "frederic-edwin-church-the-heart-of-the-andes.jpg",
-      "caption": "*The Heart of the Andes* — Frederic Edwin Church. The Andes rather than the hills above Rio, but this is the scale the text is describing: forest that goes up rather than along."
+      "alt": "Forested ridges of the Tijuca massif in Rio de Janeiro, with the flat-topped bulk of Pedra da Gavea and a sharp neighbouring peak rising above unbroken green canopy",
+      "source": "commons:File:Floresta da Tijuca 60.jpg",
+      "relation": "depicts",
+      "licence": "CC BY-SA 3.0",
+      "author": "Halley Pacheco de Oliveira",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Floresta_da_Tijuca_60.jpg",
+      "caption": "Tijuca National Park, with Pedra da Gavea behind it. The largest urban forest in the world, and almost all of it replanted by hand after the coffee came out."
     },
     {
       "src": "02.jpg",
       "after": 4,
-      "alt": "A rope bridge crossing a gorge in thick tropical forest",
-      "source": "frederic-edwin-church-tropical-landscape-with-a-hanging-bridge.jpg",
-      "caption": "*Tropical Landscape with a Hanging Bridge* — Frederic Edwin Church. Also Church, also South America. A crossing like this is what the trails in the text keep arriving at."
+      "alt": "The Cascatinha Taunay waterfall in the Tijuca forest, falling down a dark rock face into a pool, dense green forest on both sides and a wooden fence at the viewing point",
+      "source": "commons:File:Rio de Janeiro Tijuca Forest Cascatinha Taunay (1).jpg",
+      "relation": "depicts",
+      "licence": "CC BY-SA 4.0",
+      "author": "Pierre André",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rio_de_Janeiro_Tijuca_Forest_Cascatinha_Taunay_(1).jpg",
+      "caption": "Cascatinha Taunay, in the Tijuca forest. A level walk that anybody can do, which is the easy end of the range the text describes."
     }
   ],
   "vocabulary": [

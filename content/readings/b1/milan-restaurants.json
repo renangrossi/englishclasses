@@ -38,9 +38,13 @@
     {
       "src": "02.jpg",
       "after": 3,
-      "alt": "Fishermen working from a small boat at night by the light of a fire burning in the bow",
-      "source": "hans-gude-adolph-tidemand-fishermen-1851.jpeg",
-      "caption": "*Fishermen* — Hans Gude and Adolph Tidemand, 1851. Norwegian rather than American, and here for what the New England section of this text is built on: cold water, a boat, and whatever came off it that morning."
+      "alt": "A bowl of New England clam chowder, thick and cream-coloured, with pieces of clam and bacon on top, served in a patterned china bowl",
+      "source": "commons:File:2021-09-04 Fluffy Clam Chowder.jpg",
+      "relation": "depicts",
+      "licence": "CC BY-SA 4.0",
+      "author": "Gordon Leggett",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2021-09-04_Fluffy_Clam_Chowder.jpg",
+      "caption": "New England clam chowder: thick, cream-based, and the subject of a long-running quarrel with the Manhattan version made from tomatoes."
     }
   ],
   "vocabulary": [

@@ -64,7 +64,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-105 images, imported with `scripts/import_local_artwork.py` from the local
+91 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -98,15 +98,12 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `a2/lewis-and-clark-west` | `01.jpg` | When the Land Belonged to God | `charles-marion-russell-when-the-land-belonged-to-god-1914.jpeg` |
 | `a2/lewis-and-clark-west` | `02.jpg` | The Rocky Mountains, Lander's Peak | `albert-bierstadt-the-rocky-mountains-landers-peak.jpg` |
 | `a2/oregon-trail` | `01.jpg` | Evening on the Prairie | `albert-bierstadt-evening-on-the-prairie-1870.jpeg` |
-| `a2/restaurant-dialogue` | `01.jpg` | At the Inn | `alexandre-louis-leloir-at-the-inn-1868.jpeg` |
-| `a2/st-patricks-day` | `01.jpg` | Procession to St Paul's Cathedral | `nicholas-chevalier-procession-to-st-pauls-cathedral-1872.jpeg` |
 | `a2/st-patricks-day` | `02.jpg` | Riders of the Sidhe | `john-duncan-riders-of-the-sidhe-1911.jpg` |
 | `a2/thanksgiving` | `01.jpg` | Harvest | `vladimir-orlovsky-harvest-in-the-ukraine-1880.jpeg` |
 | `a2/thanksgiving` | `02.jpg` | The Roast Beef of Old England | `frank-moss-bennett-the-roast-beef-of-old-england.jpeg` |
 | `a2/the-day-at-the-market` | `02.jpg` | A Good Roast | `eduard-von-grutzner-a-good-roast-1889.jpeg` |
 | `a2/two-small-errands` | `02.jpg` | A Town Scene with a Farrier | `jacques-carabain-a-town-scene-with-a-farrier.jpeg` |
 | `a2/two-very-different-trips` | `01.jpg` | People on a Beach | `amaldus-nielsen-people-on-a-beach-1894.jpg` |
-| `a2/two-very-different-trips` | `02.jpg` | Buddhist Temple in Darjeeling, Sikkim | `vasily-vereshchagin-buddhist-temple-in-darjiling-sikkim-1874.jpg` |
 | `b1/a-day-in-the-house` | `01.jpg` | A Sleeping Dog | `gerrit-dou-a-sleeping-dog.jpeg` |
 | `b1/a-freelance-accounting-assignment` | `01.jpg` | The Cartographers' Circle | `fritz-wagner-the-cartographers-circle.jpeg` |
 | `b1/animal-solutions` | `01.jpg` | Cattle and Sheep on Canterbury Meadows | `thomas-sidney-cooper-cattle-and-sheep-on-canterbury-meadows-1803-1902.jpg` |
@@ -128,26 +125,16 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b1/lewis-and-clark-unknown` | `01.jpg` | Among the Sierra Nevada Mountains | `albert-bierstadt-among-the-sierra-nevada-mountains-1868.jpg` |
 | `b1/louisiana-purchase` | `01.jpg` | The Falls of St Anthony | `albert-bierstadt-the-falls-of-st-anthony-1887.jpg` |
 | `b1/milan-restaurants` | `01.jpg` | Oregon Trail Campfire | `albert-bierstadt-oregon-trail-campfire-1863.jpeg` |
-| `b1/milan-restaurants` | `02.jpg` | Fishermen | `hans-gude-adolph-tidemand-fishermen-1851.jpeg` |
 | `b1/my-day-in-vienna-to-by-for` | `01.jpg` | St Stephen's Cathedral in Vienna | `rudolf-von-alt-st-stephens-cathedral-in-vienna-1832.jpg` |
 | `b1/my-day-in-vienna-to-by-for` | `02.jpg` | The Roman Ruins at Schönbrunn | `ferdinand-georg-waldmuller-the-roman-ruins-at-schonbrunn-1832.jpeg` |
 | `b1/my-life-and-plans` | `01.jpg` | Distracted from His Studies | `jules-girardet-1856-1938-distracted-from-his-studies.jpeg` |
-| `b1/ny-visitation` | `01.jpg` | Park Landscape with a Fountain | `edvard-petersen-park-landscape-with-a-fountain.jpeg` |
-| `b1/ny-visitation` | `02.jpg` | The Victoria Embankment from Hungerford Bridge | `george-hyde-pownall-the-victoria-embankment-from-hungerford-bridge-1876-1932.jpeg` |
-| `b1/rio-de-janeiro-exercises` | `01.jpg` | The Heart of the Andes | `frederic-edwin-church-the-heart-of-the-andes.jpg` |
-| `b1/rio-de-janeiro-exercises` | `02.jpg` | Tropical Landscape with a Hanging Bridge | `frederic-edwin-church-tropical-landscape-with-a-hanging-bridge.jpg` |
-| `b1/santa-catarina` | `01.jpg` | Storm at Sea off the Norwegian Coast | `andreas-achenbach-storm-at-sea-off-the-norwegian-coast-1815-1910.jpeg` |
-| `b1/santa-catarina` | `02.jpg` | Retreating Storm on the Italian Coast | `oswald-achenbach-retreating-storm-on-the-italian-coast.jpeg` |
 | `b1/snowy-days` | `01.jpg` | First Snow | `ivan-shishkin-first-snow.jpeg` |
 | `b1/snowy-days` | `02.jpg` | Winter Landscape | `caspar-david-friedrich-winter-landscape.jpg` |
-| `b1/southeast-asia-adventure` | `01.jpg` | The Main Temple of Tassiding Monastery, Sikkim | `vasily-vereshchagin-the-main-temple-of-tassiding-monastery-sikkim-1875.jpg` |
-| `b1/southeast-asia-adventure` | `02.jpg` | Evening on a Lake | `vasily-vereshchagin-evening-on-a-lake-a-pavilion-on-the-marble-embankment-in-rajnagar-udaipur-principality-1874.jpg` |
 | `b1/state-fair-food` | `01.jpg` | Village Fair by Night | `hendrik-gerrit-ten-cate-village-fair-by-night-1803-1856.jpeg` |
 | `b1/state-fair-food` | `02.jpg` | Fair in the Oude Beurs, Antwerp | `pierre-jean-van-der-ouderaa-fair-in-the-oude-beurs-in-antwerp-1892.jpeg` |
 | `b1/transcontinental-railroad` | `01.jpg` | The Last of the Buffalo | `albert-bierstadt-the-last-of-the-buffalo-1888.jpg` |
 | `b1/travel-dialogues-02` | `01.jpg` | A Scene of Everyday Life at the Nuremberg Town Hall | `heinrich-hansen-a-scene-of-everyday-life-at-the-nuremberg-town-hall.jpeg` |
 | `b1/usa-restaurants` | `01.jpg` | Muddy Alligators | `john-singer-sargent-muddy-alligators.jpeg` |
-| `b1/usa-restaurants` | `02.jpg` | Jamaica | `frederic-edwin-church-jamaica-1871.jpeg` |
 | `b2/american-culture` | `01.jpg` | The Oxbow | `cole-thomas-the-oxbow-the-connecticut-river-near-northampton-1836.jpg` |
 | `b2/american-culture` | `02.jpg` | Landscape with Buffalo on the Upper Missouri | `karl-bodmer-landscape-with-buffalo-on-the-upper-missouri-1833.jpg` |
 | `b2/business-war-it` | `01.jpg` | Dreadnought and Victory: the Future and the Past at Their Moorings in Portsmouth | `wyllie-william-lionel-dreadnought-and-victory-the-future-and-the-past-at-their-moorings-in-portsmouth.jpg` |
@@ -160,7 +147,6 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b2/formal-informal` | `01.jpg` | Pericles' Funeral Oration | `philipp-foltz-pericles-funeral-oration-1852.jpg` |
 | `b2/formula-1` | `01.jpg` | The Chariot Race | `alexander-von-wagner-the-chariot-race.jpeg` |
 | `b2/north-sentinel-island` | `01.jpg` | Dutch Vessels and Fishermen on a Rocky Coast | `adam-willaerts-dutch-vessels-and-fishermen-on-a-rocky-coast.jpeg` |
-| `b2/romania` | `01.jpg` | Forest Landscape with Castle Ruins | `anton-hlavacek-forest-landscape-with-castle-ruins.jpeg` |
 | `b2/romania` | `02.jpg` | Vlad the Impaler's Night Attack at Târgoviște | `theodor-aman-draculas-night-attack-at-targoviste.jpg` |
 | `b2/the-marathon-and-the-wall` | `01.jpg` | The Heraean Games | `prospero-piatti-the-heraean-games-1901.jpg` |
 | `c1/attention-economy` | `01.jpg` | Public Exhibition of a Picture | `joan-ferrer-miro-1850-1931-public-exhibition-of-a-picture.jpg` |
@@ -178,7 +164,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-102 images the gallery could not answer -- flags, maps, photographs and
+104 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything carrying NC or ND. The
 few used under a licence that requires a credit are listed separately below.
@@ -192,97 +178,99 @@ few used under a licence that requires a credit are listed separately below.
 | `a1/greetings-and-names` | `01.jpg` | The soda fountain at People's Drug Store, Washington D.C. | `File:Interior of People's Drug Store, 11th and G Streets, Washington, D.C., with employees behind the counter of soda fountain and customers LCCN2001701747.jpg` |
 | `a1/my-room` | `01.jpg` | A living room on Waverly Place, New York, 1942 | `File:Mrs. Marianna Costanzo in the living room of her apartment on Waverly Place8d11560v.jpg` |
 | `a1/statue-of-liberty` | `01.jpg` | Unveiling the Statue of Liberty | `File:EdwardMoran-UnveilingTheStatueofLiberty1886Large.jpg` |
-| `a1/statue-of-liberty` | `02.jpg` | Ellis Island, 1902. The island where ships from Europe stopped, a few hundred meters from the statue. | `File:Ellis island 1902.jpg` |
+| `a1/statue-of-liberty` | `02.jpg` | Ellis Island, 1902. | `File:Ellis island 1902.jpg` |
 | `a1/taking-the-train` | `01.jpg` | The waiting room of Chicago Union Station, 1943 | `File:Chicago, Illinois. In the waiting room of the Union Station LOC 3548859587.jpg` |
 | `a1/the-american-flag` | `01.jpg` | The flag of 1777: thirteen stripes and thirteen stars, one for each of the first states. | `File:Flag of the United States (1777-1795).svg` |
 | `a1/the-american-flag` | `02.jpg` | The flag today. Same thirteen stripes, fifty stars. | `File:Flag of the United States.svg` |
 | `a2/boston-tea-party` | `01.jpg` | The Destruction of Tea at Boston Harbor | `File:Boston Tea Party Currier colored.jpg` |
 | `a2/california-gold-rush` | `01.jpg` | Miners washing gravel with a “long tom”, California, around 1850. | `File:California gold miners with long tom.jpg` |
-| `a2/california-gold-rush` | `02.jpg` | Yerba Buena Cove, San Francisco, 1849. The crews had walked off to the gold fields and left the ships where they lay. | `File:Ships-abandoned-in-Yerba-Buena-Cove-San-Francisco-during-the-California-gold-rush.-1849.jpg` |
-| `a2/coffee-brewing` | `01.jpg` | Pouring over the filter. Everything this text describes is in the picture: the grind, the water, the paper and the time it takes. | `File:Brewing coffee in a jug (Unsplash).jpg` |
-| `a2/declaration-of-independence` | `02.jpg` | The document itself, now in Washington, D.C. The large signature at the top left of the names is John Hancock's. | `File:United States Declaration of Independence.jpg` |
-| `a2/flying-to-the-us` | `01.jpg` | The first United Airlines service into Allentown, 1935. Flying was still something a town turned out to watch. | `File:1935 - United Airlines begins service to Allentown Airport.jpg` |
+| `a2/california-gold-rush` | `02.jpg` | Yerba Buena Cove, San Francisco, 1849. | `File:Ships-abandoned-in-Yerba-Buena-Cove-San-Francisco-during-the-California-gold-rush.-1849.jpg` |
+| `a2/coffee-brewing` | `01.jpg` | Pouring over the filter. | `File:Brewing coffee in a jug (Unsplash).jpg` |
+| `a2/declaration-of-independence` | `02.jpg` | The document itself, now in Washington, D.C. | `File:United States Declaration of Independence.jpg` |
+| `a2/flying-to-the-us` | `01.jpg` | The first United Airlines service into Allentown, 1935. | `File:1935 - United Airlines begins service to Allentown Airport.jpg` |
 | `a2/oregon-trail` | `02.jpg` | Emigrants Crossing the Plains | `File:Emigrants Crossing the Plains, or The Oregon Trail (Albert Bierstadt), 1869.jpg` |
 | `a2/sacagawea` | `01.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
 | `a2/saying-and-telling` | `01.jpg` | A Piggly Wiggly store | `File:Interior view of a Piggly Wiggly self-service grocery store showing check out counter with cash registers LCCN92520726.jpg` |
-| `a2/something-wrong-with-the-order` | `01.jpg` | An order as it arrives. The conversation in this text starts about ten seconds after a photograph like this one. | `File:Dominican Restaurant (Unsplash).jpg` |
+| `a2/something-wrong-with-the-order` | `01.jpg` | An order as it arrives. | `File:Dominican Restaurant (Unsplash).jpg` |
+| `a2/st-patricks-day` | `01.jpg` | The Fifth Avenue parade in New York. | `File:New York City St. Patrick's Day Parade DVIDS261048.jpg` |
 | `b1/a-day-in-the-office` | `01.jpg` | Interior with a Woman Standing | `File:Interior with a Woman Standing by Vilhelm Hammershøi, 1913.jpg` |
 | `b1/american-flag-symbols` | `01.jpg` | Join, or Die | `File:Benjamin Franklin - Join or Die.jpg` |
-| `b1/american-flag-symbols` | `02.jpg` | The Grand Union flag, or Continental Colors, used from late 1775. Thirteen colonies acting together | `File:Grand Union Flag.svg` |
-| `b1/american-flag-symbols` | `03.jpg` | One reading of the 1777 resolution: thirteen stars in rows. The resolution did not say how to arrange them, so flag-makers decided for themselves. | `File:Flag of the United States (1777-1795).svg` |
-| `b1/american-flag-symbols` | `04.jpg` | The circle of thirteen stars, known as the Betsy Ross flag. The design is of the period; the story that she sewed the first one is family tradition from 1870, not a contemporary record. | `File:Betsy Ross flag.svg` |
+| `b1/american-flag-symbols` | `02.jpg` | The Grand Union flag, or Continental Colors, used from late 1775. | `File:Grand Union Flag.svg` |
+| `b1/american-flag-symbols` | `03.jpg` | One reading of the 1777 resolution: thirteen stars in rows. | `File:Flag of the United States (1777-1795).svg` |
+| `b1/american-flag-symbols` | `04.jpg` | The circle of thirteen stars, known as the Betsy Ross flag. | `File:Betsy Ross flag.svg` |
 | `b1/american-flag-symbols` | `05.jpg` | The Gadsden flag, 1775 | `File:Gadsden flag.svg` |
-| `b1/american-flag-symbols` | `06.jpg` | The Pine Tree flag, used by New England units and Washington's armed schooners in 1775, in an 1894 printed illustration. The motto is John Locke's phrase for what a people may do when no court will hear them. | `File:Pine Tree "An Appeal To Heaven" Flag Illustration from 1894.png` |
-| `b1/american-flag-symbols` | `07.jpg` | The Bennington design, photographed on a modern flag. It is traditionally tied to the battle of 1777, but the surviving historic flag is machine-woven and is now usually dated to the early nineteenth century. | `File:Bennington-Battle-Flag.jpg` |
-| `b1/american-flag-symbols` | `08.jpg` | Fifteen stars and fifteen stripes, 1795–1818. This is the flag over Fort McHenry in 1814, and the only American flag ever to have more than thirteen stripes. | `File:Flag of the United States (1795-1818).svg` |
-| `b1/american-flag-symbols` | `09.jpg` | Fifty stars since 1960. Thirteen stripes, by the law of 1818, for the colonies that started it. | `File:Flag of the United States.svg` |
+| `b1/american-flag-symbols` | `06.jpg` | The Pine Tree flag, used by New England units and Washington's armed schooners in 1775, in an 1894 printed illustration. | `File:Pine Tree "An Appeal To Heaven" Flag Illustration from 1894.png` |
+| `b1/american-flag-symbols` | `07.jpg` | The Bennington design, photographed on a modern flag. | `File:Bennington-Battle-Flag.jpg` |
+| `b1/american-flag-symbols` | `08.jpg` | Fifteen stars and fifteen stripes, 1795–1818. | `File:Flag of the United States (1795-1818).svg` |
+| `b1/american-flag-symbols` | `09.jpg` | Fifty stars since 1960. | `File:Flag of the United States.svg` |
 | `b1/cachacas` | `01.jpg` | Harvesting the Sugar-Cane in Minas Gerais, Brazil | `File:Marianne North (1830-1890) - Harvesting the Sugar-Cane in Minas Geraes, Brazil - MN45 - Marianne North Gallery.jpg` |
-| `b1/cars-and-their-parts` | `01.jpg` | A 1920 Handley-Knight engine with the chain case off. Almost every part this text names is somewhere in this picture. | `File:Handley-Knight-Engine 1920.jpg` |
-| `b1/coffee-and-it` | `01.jpg` | A full room on an ordinary afternoon. This text is about the software that sits behind a place like this, which nobody in the picture is thinking about. | `File:Chatting in a coffee shop (Unsplash).jpg` |
+| `b1/cars-and-their-parts` | `01.jpg` | A 1920 Handley-Knight engine with the chain case off. | `File:Handley-Knight-Engine 1920.jpg` |
+| `b1/coffee-and-it` | `01.jpg` | A full room on an ordinary afternoon. | `File:Chatting in a coffee shop (Unsplash).jpg` |
 | `b1/common-chores` | `01.jpg` | Washing out on the lines behind a row of houses | `File:An elevated view of row houses probably in S.W., showing laundry hanging on clothesline in backyards LCCN2016647096.jpg` |
 | `b1/cybersecurity` | `01.jpg` | A cybersecurity operations floor | `File:Cybersecurity Operations at Port San Antonio.jpg` |
-| `b1/frederick-douglass` | `01.jpg` | Frederick Douglass in 1856. He sat for photographs constantly and deliberately: he was the most photographed American of the nineteenth century. | `File:Frederick Douglass ambrotype (1856).jpg` |
+| `b1/frederick-douglass` | `01.jpg` | Frederick Douglass in 1856. | `File:Frederick Douglass ambrotype (1856).jpg` |
 | `b1/golden-gate-bridge-present-perfect` | `01.jpg` | The Golden Gate Bridge | `File:Golden Gate Bridge, HAER CA-31-4.jpg` |
 | `b1/hachiko` | `01.jpg` | Hachiko at Shibuya station, around 1933 | `File:Chuken Hachiko at Shibuya Station c1933.png` |
-| `b1/hachiko` | `02.jpg` | Hachiko, photographed in the 1930s. The folded left ear is how people at the station picked him out; it had been injured years earlier and never stood up again. | `File:Faithful Dog Hachiko Photo.png` |
+| `b1/hachiko` | `02.jpg` | Hachiko, photographed in the 1930s. | `File:Faithful Dog Hachiko Photo.png` |
 | `b1/harriet-tubman` | `01.jpg` | Harriet Tubman, photographed around 1868, about twenty years after her own escape. | `File:Harriet Tubman c1868-69.jpg` |
 | `b1/harriet-tubman` | `02.jpg` | The Underground Railroad | `File:The Underground Railroad by Charles T. Webber, 1893.jpg` |
 | `b1/kitchen-chaos` | `01.jpg` | A kitchen in a federal housing project, 1942 | `File:Federal housing project. Mrs. Leslie Atkins preparing dinner8d20971v.jpg` |
 | `b1/lewis-and-clark-unknown` | `02.jpg` | Lewis and Clark on the Lower Columbia | `File:Lewis and clark-expedition.jpg` |
 | `b1/lincoln-and-the-civil-war` | `01.jpg` | The Battle of Antietam | `File:Thure de Thulstrup - Battle of Antietam.jpg` |
-| `b1/louisiana-purchase` | `02.jpg` | Louisiana, mapped by Samuel Lewis in 1804. Notice how much of it is blank: this is the map the United States had just bought. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
-| `b1/nfl` | `01.jpg` | Princeton against Chicago, 1922. The game in this text, before the helmets, the television contracts and the league. | `File:1922 Princeton v. Chicago football game.jpg` |
-| `b1/physical-education` | `01.jpg` | Plates from *Athletic Training for School Boys*, 1910. Teaching a body to do something it cannot yet do, broken into numbered stages. | `File:Athletic training for school boys (1910) (14598149930).jpg` |
+| `b1/louisiana-purchase` | `02.jpg` | Louisiana, mapped by Samuel Lewis in 1804. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
+| `b1/nfl` | `01.jpg` | Princeton against Chicago, 1922. | `File:1922 Princeton v. Chicago football game.jpg` |
+| `b1/physical-education` | `01.jpg` | Plates from *Athletic Training for School Boys*, 1910. | `File:Athletic training for school boys (1910) (14598149930).jpg` |
 | `b1/say-speak-talk-tell-02` | `01.jpg` | A radio dealer's window | `File:J. Fred Huber Radio, window LCCN2016826306.jpg` |
-| `b1/transcontinental-railroad` | `02.jpg` | Promontory Summit, Utah, 10 May 1869. No Chinese worker appears in the photograph of the line they largely built. | `File:East and West Shaking hands at the laying of last rail Union Pacific Railroad - Restoration.jpg` |
-| `b1/transcontinental-railroad` | `03.jpg` | Chinese workers on the Central Pacific in the Sierra Nevada. At the peak they were about four out of five of the company's workforce. | `File:Chinese railroad workers sierra nevada.jpg` |
+| `b1/transcontinental-railroad` | `02.jpg` | Promontory Summit, Utah, 10 May 1869. | `File:East and West Shaking hands at the laying of last rail Union Pacific Railroad - Restoration.jpg` |
+| `b1/transcontinental-railroad` | `03.jpg` | Chinese workers on the Central Pacific in the Sierra Nevada. | `File:Chinese railroad workers sierra nevada.jpg` |
 | `b2/civil-war-nation-divided` | `01.jpg` | Pickett's Charge at Gettysburg | `File:Thure de Thulstrup - L. Prang and Co. - Battle of Gettysburg - Restoration by Adam Cuerden.jpg` |
 | `b2/fdr-new-deal` | `01.jpg` | Roosevelt signs the Social Security Act, 14 August 1935 | `File:Signing Of The Social Security Act.jpg` |
-| `b2/fdr-new-deal` | `02.jpg` | A WPA poster. The agency employed artists to design the posters as well as laborers to build the roads. | `File:WPA-Work-Pays-America-Poster.jpg` |
-| `b2/great-depression` | `01.jpg` | A bank run in Michigan, February 1933. A bank holds only part of its deposits as cash; the rest of this picture explains itself. | `File:Bank Run in Michigan, USA, February 1933.jpg` |
+| `b2/fdr-new-deal` | `02.jpg` | A WPA poster. | `File:WPA-Work-Pays-America-Poster.jpg` |
+| `b2/great-depression` | `01.jpg` | A bank run in Michigan, February 1933. | `File:Bank Run in Michigan, USA, February 1933.jpg` |
 | `b2/great-depression` | `02.jpg` | Migrant Mother | `File:Lange-MigrantMother02.jpg` |
-| `b2/great-depression` | `03.jpg` | A dust storm approaching Stratford, Texas, 1935. The soil in the air had been plowed grassland a decade earlier. | `File:Dust storm approaching Stratford, Texas.jpg` |
-| `b2/intelligence-pills` | `01.jpg` | Stewart's Pharmacy, Seattle, around 1900. Everything on these shelves was sold to somebody who wanted to feel better than they did. | `File:Stewart's Pharmacy interior, ca 1900 (SEATTLE 282).jpg` |
-| `b2/it-and-jiu-jitsu` | `01.jpg` | A jujutsu lock, from *Japanese Physical Training*, 1904. The whole point of the technique is that force applied in the wrong direction does the work for you | `File:Japanese Physical Training illustration 16.jpg` |
+| `b2/great-depression` | `03.jpg` | A dust storm approaching Stratford, Texas, 1935. | `File:Dust storm approaching Stratford, Texas.jpg` |
+| `b2/intelligence-pills` | `01.jpg` | Stewart's Pharmacy, Seattle, around 1900. | `File:Stewart's Pharmacy interior, ca 1900 (SEATTLE 282).jpg` |
+| `b2/it-and-jiu-jitsu` | `01.jpg` | A jujutsu lock, from *Japanese Physical Training*, 1904. | `File:Japanese Physical Training illustration 16.jpg` |
 | `b2/it-interview` | `01.jpg` | “A worried applicant waiting to be interviewed” | `File:Los Angeles, California. Lockheed Employment. A worried applicant waiting to be interviewed - NARA - 532210.jpg` |
 | `b2/jackie-robinson` | `01.jpg` | Jackie Robinson, Brooklyn Dodgers, 1954 | `File:Jackie Robinson, Brooklyn Dodgers, 1954.jpg` |
 | `b2/phrasal-verbs-02-trip-abroad` | `01.jpg` | Manhattan from the air, 1932 | `File:New York City, circa 1932.jpg` |
 | `b2/project-management-can-could-able-do-make` | `01.jpg` | Working through county land-use plans together | `File:Working on the county maps at the colored County Land Use Pl... (3110578334).jpg` |
 | `b2/recent-advancements-in-it` | `02.jpg` | ENIAC, around 1946 | `File:Classic shot of the ENIAC.jpg` |
 | `b2/reconstruction` | `01.jpg` | The First Vote | `File:"The first vote" by A.R. Waud Harper's Weekly 1867-11-16 Retrieved from the Library of Congress.jpg` |
-| `b2/reconstruction` | `02.jpg` | The first Black senator and representatives in Congress, printed in 1872. Within thirty years almost none of their voters were still on the rolls. | `File:First Colored Senator and Representatives.jpg` |
+| `b2/reconstruction` | `02.jpg` | The first Black senator and representatives in Congress, printed in 1872. | `File:First Colored Senator and Representatives.jpg` |
+| `b2/romania` | `01.jpg` | The Carpathians. | `File:Carpathian Mountains (Unsplash alpqdm9yhb4).jpg` |
 | `b2/sales-strategy` | `01.jpg` | A shop assistant showing a customer a product, Selfridges, 1940 | `File:A shop assistant shows a customer a luminous flower in Selfridge's department store, London. These flowers were one of numerous blackout accessories available in 1940 to make pedestrians more visible on the dark street D73.jpg` |
 | `b2/trail-of-tears` | `01.jpg` | Sequoyah with his syllabary | `File:Henry Inman - Sequoyah - Google Art Project.jpg` |
-| `b2/trail-of-tears` | `02.jpg` | West of the Mississippi, as mapped in 1804. This is where removal sent sixteen thousand people, on foot, in winter. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
+| `b2/trail-of-tears` | `02.jpg` | West of the Mississippi, as mapped in 1804. | `File:Map of "Louisiana" by Samuel Lewis, from New and Elegant General Atlas, Philadelphia, 1804.jpg` |
 | `c1/apollo-11` | `01.jpg` | Buzz Aldrin on the surface | `File:Aldrin Apollo 11.jpg` |
 | `c1/apollo-11` | `02.jpg` | The Laser Ranging Retroreflector, photographed where it was left | `File:AS11-40-5952 - Apollo 11 - Apollo 11 Mission image - The Laser Ranging Retroreflector (LRRR) - NARA - 16685293.jpg` |
-| `c1/haiti` | `01.jpg` | The Daily Times-Advocate, 22 August 1912. Every claim on this page is attributed, hedged or stated flat, and telling the three apart is what this text teaches. | `File:Times-Advocate-Front-Page-1912-08-22.jpg` |
+| `c1/haiti` | `01.jpg` | The Daily Times-Advocate, 22 August 1912. | `File:Times-Advocate-Front-Page-1912-08-22.jpg` |
 | `c1/it-management` | `01.jpg` | The Banker and His Wife | `File:Marinus van Reymerswale - The Banker and His Wife - WGA19323.jpg` |
 | `c1/malcolm-x` | `01.jpg` | Malcolm X and Martin Luther King Jr. | `File:MLK and Malcolm X USNWR cropped.jpg` |
 | `c1/malcolm-x` | `02.jpg` | Malcolm X | `File:Malcolm X in 1964.jpg` |
 | `c1/martin-luther-king` | `01.jpg` | Martin Luther King Jr. at the March on Washington | `File:Civil Rights March on Washington, D.C. (Dr. Martin Luther King, Jr. and Mathew Ahmann in a crowd.) - NARA - 542015 - Restoration.jpg` |
 | `c1/martin-luther-king` | `02.jpg` | Fire hoses turned on demonstrators in Birmingham, Alabama | `File:Firemen spraying protestors in Downtown Birmingham 01.jpg` |
-| `c1/physiological-stressors` | `01.jpg` | Dorando Pietri at the end of the 1908 Olympic marathon. He was helped across the line and disqualified for it. This is what the six systems in this text look like when they stop coping. | `File:Dorando Pietri 1908.jpg` |
-| `c1/questionnaire-company-management` | `01.jpg` | The typing office of the Veterans Administration, Washington, 1924. Every person in this room could name their job in two words and would struggle to describe the day. | `File:Typists, Veterans Administration Central Office, Washington DC 20 May 1924.jpg` |
+| `c1/physiological-stressors` | `01.jpg` | Dorando Pietri at the end of the 1908 Olympic marathon. | `File:Dorando Pietri 1908.jpg` |
+| `c1/questionnaire-company-management` | `01.jpg` | The typing office of the Veterans Administration, Washington, 1924. | `File:Typists, Veterans Administration Central Office, Washington DC 20 May 1924.jpg` |
 | `c1/rosa-parks` | `01.jpg` | Rosa Parks fingerprinted by Deputy Sheriff D. H. Lackey | `File:Rosa Parks being fingerprinted by Deputy Sheriff D.H. Lackey after being arrested on February 22, 1956, during the Montgomery bus boycott.jpg` |
 | `c1/rosa-parks` | `02.jpg` | Flyer circulated in Montgomery after the court order, 1956 | `File:Montgomery Improvement Association, flyer on bus desegregation, c. 1956 (NYPL).jpg` |
 | `c1/rosa-parks` | `03.jpg` | Rosa Parks on a Montgomery bus | `File:Rosa Parks on bus on December 21, 1956.jpg` |
-| `c1/shadows-in-the-server-room` | `01.jpg` | The Columbia supercomputer at the NASA Advanced Supercomputing Facility. Rows, cold air, a raised floor and nobody in sight | `File:Columbia Supercomputer - NASA Advanced Supercomputing Facility.jpg` |
-| `c1/the-cost-of-convenience` | `01.jpg` | The Horn & Hardart Automat, Times Square, around 1939. Put in a coin, open a little glass door, take the food: a step removed, exactly as this text defines it. | `File:Horn & Hardart Times Square New York circa 1939.JPG` |
+| `c1/shadows-in-the-server-room` | `01.jpg` | The Columbia supercomputer at the NASA Advanced Supercomputing Facility. | `File:Columbia Supercomputer - NASA Advanced Supercomputing Facility.jpg` |
+| `c1/the-cost-of-convenience` | `01.jpg` | The Horn & Hardart Automat, Times Square, around 1939. | `File:Horn & Hardart Times Square New York circa 1939.JPG` |
 | `c1/the-meeting-problem` | `01.jpg` | An all-hands meeting at NASA's Kennedy Space Center | `File:KSC-20170815-PH KLS01 0079 (36212683960).jpg` |
 | `c1/the-space-race` | `01.jpg` | A full-size replica of Sputnik 1 on display | `File:Sputnik 1.jpg` |
 | `c1/the-space-race` | `02.jpg` | Yuri Gagarin | `File:Yuri Gagarin (1961) - Restoration.jpg` |
-| `c1/the-space-race` | `03.jpg` | An N1 mockup on the pad at Baikonur, 1967. The figures at the base give the scale: it stood as tall as a Saturn V, it failed on all four launch attempts, and the Soviet Union denied that the program existed until 1989. | `File:N1 1M1 mockup on the launch pad at the Baikonur Cosmodrome in late 1967.jpg` |
-| `c1/watergate` | `01.jpg` | The Watergate complex, Washington D.C. Offices, flats and a hotel on the Potomac; the Democratic National Committee rented the sixth floor of one of the office buildings. | `File:WatergateFromAir.JPG` |
-| `c1/watergate` | `02.jpg` | Nixon's letter of resignation, 9 August 1974. One sentence, addressed to the Secretary of State because that is where the law says such a letter goes; the pen notation in the corner | `File:Letter of Resignation of Richard M. Nixon, 1974.jpg` |
+| `c1/the-space-race` | `03.jpg` | An N1 mockup on the pad at Baikonur, 1967. | `File:N1 1M1 mockup on the launch pad at the Baikonur Cosmodrome in late 1967.jpg` |
+| `c1/watergate` | `01.jpg` | The Watergate complex, Washington D.C. | `File:WatergateFromAir.JPG` |
+| `c1/watergate` | `02.jpg` | Nixon's letter of resignation, 9 August 1974. | `File:Letter of Resignation of Richard M. Nixon, 1974.jpg` |
 | `c1/women-win-the-vote` | `01.jpg` | Official program for the suffrage procession | `File:Official Program Woman Suffrage Procession - March 3, 1913.jpg` |
-| `c1/women-win-the-vote` | `02.jpg` | The Silent Sentinels at the White House gates, 1917. They stood there daily for over two years | `File:Suffragists picketing the White House.jpg` |
+| `c1/women-win-the-vote` | `02.jpg` | The Silent Sentinels at the White House gates, 1917. | `File:Suffragists picketing the White House.jpg` |
 | `c2/immigration-and-modern-america` | `01.jpg` | The Usual Irish Way of Doing Things | `File:TheUsualIrishWayofDoingThings.jpg` |
-| `c2/immigration-and-modern-america` | `02.jpg` | The Chinese Exclusion Act, 1882, in the enrolled original. The first federal law to bar a group of people from the United States by nationality, and it opens by reciting that their coming “endangers the good order of certain localities”. It was renewed repeatedly and not fully repealed until 1943. | `File:Chineseexclusionact.JPG` |
+| `c2/immigration-and-modern-america` | `02.jpg` | The Chinese Exclusion Act, 1882, in the enrolled original. | `File:Chineseexclusionact.JPG` |
 | `c2/manifest-destiny` | `01.jpg` | American Progress | `File:American Progress (1872) by John Gast.jpg` |
-| `c2/reconstruction-revolution` | `01.jpg` | One of the data portraits W. E. B. Du Bois and his students prepared for the 1900 Paris Exposition. Industrial training, 2,252 students; the classical course, 98. The bar is folded because the page could not hold it. Thirty-five years before the book that was ignored, he was already answering the question with evidence. | `File:The Georgia Negro LCCN2013650436.jpg` |
+| `c2/reconstruction-revolution` | `01.jpg` | One of the data portraits W. | `File:The Georgia Negro LCCN2013650436.jpg` |
 | `c2/saying-no-without-saying-no` | `01.jpg` | A Senate Armed Services Committee hearing | `File:US Navy 040408-N-2383B-070 Adm. Vern Clark, Chief of Naval Operations (CNO) answers questions by members of the Senate Armed Services Committee as he shares the witness table alongside the Honorable William H. Taft, Legal Advis.jpg` |
-| `c2/slavery-and-the-american-economy` | `01.jpg` | Auction broadside, New Orleans, 14 January 1860. Twenty-eight people by name, age and trade | `File:SlaveAuctionBroadside-1860-01-14.jpg` |
+| `c2/slavery-and-the-american-economy` | `01.jpg` | Auction broadside, New Orleans, 14 January 1860. | `File:SlaveAuctionBroadside-1860-01-14.jpg` |
 | `c2/slavery-and-the-american-economy` | `02.jpg` | Cotton Merchants in New Orleans | `File:Edgar Degas - Cotton Merchants in New Orleans.jpg` |
 | `c2/the-american-dream` | `01.jpg` | Toward Los Angeles | `File:Toward Los Angeles, California LOC 3549663710.jpg` |
 | `c2/the-west-was-not-empty` | `01.jpg` | Indian Family Alarmed at the Approach of a Prairie Fire | `File:George Catlin - Indian Family Alarmed at the Approach of a Prairie Fire - 1985.66.595 - Smithsonian American Art Museum.jpg` |
@@ -290,11 +278,23 @@ few used under a licence that requires a credit are listed separately below.
 
 ### Used under a licence that requires credit
 
-1 image(s). The credit is also printed under the picture on
+13 image(s). The credit is also printed under the picture on
 the page itself, which is where the licence requires it to be.
 
 | Page | File | Author | Licence | Source |
 |---|---|---|---|---|
+| `a2/restaurant-dialogue` | `01.jpg` | Jim.henderson | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Joe%27s_Pizza_2022_jeh.jpg) |
+| `a2/two-very-different-trips` | `02.jpg` | Nawit science | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Temple_of_the_Emerald_Buddha.jpg) |
+| `b1/milan-restaurants` | `02.jpg` | Gordon Leggett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:2021-09-04_Fluffy_Clam_Chowder.jpg) |
+| `b1/ny-visitation` | `01.jpg` | Adjoajo | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Autumn_in_Central_Park._NYC.jpg) |
+| `b1/ny-visitation` | `02.jpg` | Christian David | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lower_Manhattan_skyline_and_Brooklyn_Bridge_from_the_East_River,_New_York.jpg) |
+| `b1/rio-de-janeiro-exercises` | `01.jpg` | Halley Pacheco de Oliveira | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Floresta_da_Tijuca_60.jpg) |
+| `b1/rio-de-janeiro-exercises` | `02.jpg` | Pierre André | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rio_de_Janeiro_Tijuca_Forest_Cascatinha_Taunay_(1).jpg) |
+| `b1/santa-catarina` | `01.jpg` | Jeffhollett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cannon_Beach_at_Pacific_Coast_in_Oregon_1.jpg) |
+| `b1/santa-catarina` | `02.jpg` | Jeffhollett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sunset_at_Cannon_Beach_in_Oregon_1.jpg) |
+| `b1/southeast-asia-adventure` | `01.jpg` | Satdeep Gill | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Angkor_Wat_with_its_reflection_(cropped).jpg) |
+| `b1/southeast-asia-adventure` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rice_terraces,_Ubud,_Bali.jpg) |
+| `b1/usa-restaurants` | `02.jpg` | Tony Webster from Minneapolis, Minnesota, United States | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Pensacola_Beach_-_White_Sands,_Florida_Coast_(27268946483).jpg) |
 | `b2/phrasal-verbs-01-bed-and-breakfast` | `01.jpg` | Infrogmation of New Orleans | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mess_at_Home_-_Uptown_New_Orleans_Bedroom_January_1990_01.jpg) |
 
 <!-- gallery:end -->

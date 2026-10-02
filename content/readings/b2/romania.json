@@ -30,9 +30,10 @@
     {
       "src": "01.jpg",
       "after": 2,
-      "alt": "Forested hills in autumn with the ruins of a castle on the ridge above the trees",
-      "source": "anton-hlavacek-forest-landscape-with-castle-ruins.jpeg",
-      "caption": "*Forest Landscape with Castle Ruins* — Anton Hlavacek. Painted in the Austrian Alps rather than the Carpathians, but this is close to what the Romanian forest in the text looks like — and it holds rather more bears."
+      "alt": "A steep Carpathian hillside of dense dark conifer forest, with low cloud lying across the slope and hiding the ridge above it",
+      "source": "commons:File:Carpathian Mountains (Unsplash alpqdm9yhb4).jpg",
+      "relation": "depicts",
+      "caption": "The Carpathians. Romania holds some of the last large tracts of old-growth forest in Europe, and roughly half of its brown bears."
     },
     {
       "src": "02.jpg",

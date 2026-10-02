@@ -10,6 +10,7 @@ alone: only the block between the markers is rewritten.
 
 Usage: python3 scripts/build_image_credits.py
 """
+import re
 import sys
 from pathlib import Path
 
@@ -28,7 +29,13 @@ def main():
             src = img.get("source")
             if not src:
                 continue
+            # A painting's caption opens "*Title* — Artist, year", so the part
+            # before the dash names the work. A photograph has no such form and
+            # opens with a plain sentence, so fall back to that first sentence
+            # rather than letting the whole caption into the column.
             work = (img.get("caption") or "").split(" — ")[0].strip("*")
+            if len(work) > 60:
+                work = re.split(r"(?<=\.)\s", work, maxsplit=1)[0]
             if img.get("licence"):
                 # Free only on condition of a credit; the condition is listed in
                 # full here as well as printed under the picture on the page.

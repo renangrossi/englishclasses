@@ -32,16 +32,24 @@
     {
       "src": "01.jpg",
       "after": 1,
-      "alt": "Heavy weather on a rocky coast, surf breaking white against the shore",
-      "source": "andreas-achenbach-storm-at-sea-off-the-norwegian-coast-1815-1910.jpeg",
-      "caption": "*Storm at Sea off the Norwegian Coast* — Andreas Achenbach. Not Oregon, but the same argument: on this kind of coast the weather decides what sort of holiday you are having."
+      "alt": "The Oregon coast seen from a headland: a long curve of grey sand, sea stacks standing offshore in the surf, and forested hills disappearing into cloud up the coast",
+      "source": "commons:File:Cannon Beach at Pacific Coast in Oregon 1.jpg",
+      "relation": "depicts",
+      "licence": "CC BY-SA 4.0",
+      "author": "Jeffhollett",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cannon_Beach_at_Pacific_Coast_in_Oregon_1.jpg",
+      "caption": "The coast at Cannon Beach, looking north. The photographs that started this trip looked like this; the weather in the text mostly did not."
     },
     {
       "src": "02.jpg",
       "after": 5,
-      "alt": "A coast after rain, the cloud breaking up and light coming through onto the water",
-      "source": "oswald-achenbach-retreating-storm-on-the-italian-coast.jpeg",
-      "caption": "*Retreating Storm on the Italian Coast* — Oswald Achenbach. Another coast and another storm clearing. The eight days of rain in this text end much like this."
+      "alt": "Haystack Rock and two smaller sea stacks silhouetted against a sunset, reflected in the wet sand of the outgoing tide",
+      "source": "commons:File:Sunset at Cannon Beach in Oregon 1.jpg",
+      "relation": "depicts",
+      "licence": "CC BY-SA 4.0",
+      "author": "Jeffhollett",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sunset_at_Cannon_Beach_in_Oregon_1.jpg",
+      "caption": "Sea stacks at low tide, Cannon Beach, with the sun going down behind them — the hour near Bandon that the rain finally allowed."
     }
   ],
   "vocabulary": [

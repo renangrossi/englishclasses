@@ -59,7 +59,7 @@
       "id": "prea1-abc-type", "type": "typing", "title": "Spell It Out",
       "instructions": "Type the letters of your own first name, separated by dashes. Example: M-A-R-I-A.",
       "items": [
-        { "id": "abc5", "prompt": "Spell your first name, one letter at a time (use dashes between letters)." }
+        { "id": "abc5", "prompt": "Spell your first name, one letter at a time (use dashes between letters).", "modelAnswer": "M-A-R-I-A (if your name is Maria)" }
       ]
     }
   ],

@@ -74,6 +74,10 @@
       "definition": "a procedural reason, rather than one about the substance of the case"
     },
     {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
       "term": "to acquit",
       "definition": "to find not guilty",
       "match": "acquitted"
@@ -93,6 +97,10 @@
     {
       "term": "balance of probabilities",
       "definition": "the lower civil standard — more likely than not"
+    },
+    {
+      "term": "a mayor",
+      "definition": "the head of a city government — careful: nothing to do with being bigger"
     },
     {
       "term": "racketeering",

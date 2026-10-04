@@ -48,7 +48,7 @@
     {
       "src": "03.jpg",
       "after": 5,
-      "alt": "Shelves of uniform legal volumes in a law library, each spine labelled and marked with a coloured dot",
+      "alt": "Shelves of uniform legal volumes in a law library, each spine labelled and marked with a colored dot",
       "source": "commons:File:Asser-serie UB Leiden.jpg",
       "licence": "CC BY-SA 4.0",
       "author": "JorisEnter",
@@ -60,11 +60,6 @@
     {
       "term": "untranslatable",
       "definition": "said to be impossible to render in another language"
-    },
-    {
-      "term": "to circulate",
-      "definition": "to be passed around repeatedly",
-      "match": "circulates"
     },
     {
       "term": "to flatter",
@@ -88,13 +83,12 @@
       "definition": "good enough to do the job, without being elegant"
     },
     {
-      "term": "economy",
-      "definition": "the use of fewer words or means to the same end"
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
     },
     {
-      "term": "to resist",
-      "definition": "to hold out against; to not yield to",
-      "match": "resists"
+      "term": "economy",
+      "definition": "the use of fewer words or means to the same end"
     },
     {
       "term": "casualty",
@@ -142,10 +136,6 @@
       "match": "falls flat"
     },
     {
-      "term": "bureaucracy",
-      "definition": "official administration and its rules"
-    },
-    {
       "term": "to summon",
       "definition": "to call up; to bring to mind",
       "match": "summon"
@@ -154,10 +144,6 @@
       "term": "to drag behind",
       "definition": "to carry along as unwanted weight",
       "match": "drags behind"
-    },
-    {
-      "term": "denotation",
-      "definition": "what a word literally refers to, as against what it suggests"
     },
     {
       "term": "gloss",

@@ -9,6 +9,7 @@
   "description": "An A1 reading and listening text about getting around an American city by train: tickets, stops, and being late.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "lexicalSet": "an A1 naming text: the short passage is a frame for the everyday words the glossary teaches",
   "narrator": "female",
   "audio": {
     "voice": "en-US-JennyNeural",
@@ -32,7 +33,7 @@
     {
       "src": "01.jpg",
       "after": 1,
-      "alt": "The great hall of Chicago Union Station, shafts of daylight coming down through high windows onto travellers and two railway staff",
+      "alt": "The great hall of Chicago Union Station, shafts of daylight coming down through high windows onto travelers and two railway staff",
       "source": "commons:File:Chicago, Illinois. In the waiting room of the Union Station LOC 3548859587.jpg",
       "caption": "The waiting room of Chicago Union Station, 1943 — Jack Delano. Emma takes the train downtown; this is the building she would come up into.",
       "relation": "depicts"

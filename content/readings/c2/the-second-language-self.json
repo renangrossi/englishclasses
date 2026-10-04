@@ -90,6 +90,14 @@
       "match": "distorted"
     },
     {
+      "term": "to push",
+      "definition": "to press or move something forward — careful: it means the opposite of pulling"
+    },
+    {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
       "term": "gloss",
       "definition": "the usual quick interpretation put on something"
     },
@@ -98,17 +106,9 @@
       "definition": "discomfort at something unpleasant or morally hard"
     },
     {
-      "term": "intuition",
-      "definition": "a judgment arrived at without conscious reasoning"
-    },
-    {
       "term": "to mute",
       "definition": "to reduce in volume or force",
       "match": "muted"
-    },
-    {
-      "term": "apparatus",
-      "definition": "the whole set of equipment a thing works with"
     },
     {
       "term": "unevenly",
@@ -122,10 +122,6 @@
       "term": "to compound",
       "definition": "to make an existing problem worse",
       "match": "compounds"
-    },
-    {
-      "term": "capacity",
-      "definition": "the mental resource available at one time"
     },
     {
       "term": "baseline",
@@ -145,8 +141,8 @@
       "match": "handicaps"
     },
     {
-      "term": "to romanticize",
-      "definition": "to treat as more beautiful or meaningful than it is"
+      "term": "to support",
+      "definition": "to back, to take the side of — careful: not to put up with or endure"
     }
   ],
   "exercises": [

@@ -46,7 +46,7 @@
     {
       "src": "03.jpg",
       "after": 2,
-      "alt": "A nineteenth-century coloured lithograph of the New Orleans levee: cotton bales and barrels stacked along the waterfront for a mile, with a line of steamboats behind them under smoke",
+      "alt": "A nineteenth-century colored lithograph of the New Orleans levee: cotton bales and barrels stacked along the waterfront for a mile, with a line of steamboats behind them under smoke",
       "source": "commons:File:The levee-New Orleans LCCN2002708517.jpg",
       "caption": "*The Levee — New Orleans*, around 1884. A mile of cotton bales on one city's wharf, bound for mills in Lancashire and New England."
     }
@@ -69,16 +69,8 @@
       "definition": "property pledged as security for a loan"
     },
     {
-      "term": "an instrument",
-      "definition": "here, a financial device used to raise or secure money"
-    },
-    {
       "term": "an accounting",
       "definition": "a public reckoning of what happened and who gained"
-    },
-    {
-      "term": "constitutive",
-      "definition": "forming an essential part of something's nature"
     },
     {
       "term": "untenable",
@@ -109,11 +101,6 @@
       "definition": "a claim about what would have happened otherwise"
     },
     {
-      "term": "to industrialise",
-      "definition": "to develop an economy based on manufacturing",
-      "match": "industrialise"
-    },
-    {
       "term": "entangled",
       "definition": "closely and confusingly involved with something else"
     },
@@ -134,10 +121,6 @@
       "definition": "(of two questions) to turn out to be separable"
     },
     {
-      "term": "transmission",
-      "definition": "the passing of something from one generation to the next"
-    },
-    {
       "term": "an endowment",
       "definition": "a fund of money given to an institution and invested",
       "match": "endowments"
@@ -150,6 +133,10 @@
     {
       "term": "pushback",
       "definition": "organized resistance or criticizm"
+    },
+    {
+      "term": "to pretend",
+      "definition": "to act as if something is true when it is not — careful: not to intend or plan"
     }
   ],
   "exercises": [

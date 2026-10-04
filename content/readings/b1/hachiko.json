@@ -58,10 +58,6 @@
       "match": "arrange to meet"
     },
     {
-      "term": "inseparable",
-      "definition": "always together; impossible to keep apart"
-    },
-    {
       "term": "haemorrhage",
       "definition": "heavy bleeding, here inside the brain"
     },
@@ -95,6 +91,10 @@
       "match": "to be fair"
     },
     {
+      "term": "to attend",
+      "definition": "to go to, to be present at — careful: not to answer or to serve"
+    },
+    {
       "term": "unveiling",
       "definition": "the ceremony where a statue is shown to the public for the first time"
     },
@@ -102,11 +102,6 @@
       "term": "to melt down",
       "definition": "to heat metal until it becomes liquid, so it can be reused",
       "match": "melted down"
-    },
-    {
-      "term": "skewer",
-      "definition": "a thin stick used to hold food while it is grilled",
-      "match": "skewers"
     },
     {
       "term": "loyalty",

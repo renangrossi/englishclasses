@@ -51,8 +51,12 @@
       "definition": "a racing car with room for the driver only"
     },
     {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
       "term": "hybrid",
-      "definition": "using two power sources together, here petrol and recovered electrical energy"
+      "definition": "using two power sources together, here gasoline and recovered electrical energy"
     },
     {
       "term": "turbocharged",
@@ -79,16 +83,8 @@
       "definition": "the study of how air flows around a moving object"
     },
     {
-      "term": "counter-intuitive",
-      "definition": "true, but the opposite of what you would expect"
-    },
-    {
       "term": "lift",
       "definition": "the upward force a wing generates"
-    },
-    {
-      "term": "inverted",
-      "definition": "turned upside down"
     },
     {
       "term": "downforce",
@@ -99,9 +95,8 @@
       "definition": "the hold the tyres keep on the surface"
     },
     {
-      "term": "to exceed",
-      "definition": "to be greater than",
-      "match": "exceeds"
+      "term": "to push",
+      "definition": "to press or move something forward — careful: it means the opposite of pulling"
     },
     {
       "term": "stiff",
@@ -113,16 +108,8 @@
       "match": "carbon fibre composites"
     },
     {
-      "term": "lightweight",
-      "definition": "weighing little for its size"
-    },
-    {
       "term": "ballast",
       "definition": "weight added deliberately to reach a limit or adjust balance"
-    },
-    {
-      "term": "telemetry",
-      "definition": "measurements transmitted automatically from a machine to those monitoring it"
     },
     {
       "term": "pit wall",

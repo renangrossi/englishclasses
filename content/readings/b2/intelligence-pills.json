@@ -38,7 +38,7 @@
     {
       "src": "02.jpg",
       "after": 2,
-      "alt": "A close-up of assorted tablets and capsules in several colours scattered on a pale surface",
+      "alt": "A close-up of assorted tablets and capsules in several colors scattered on a pale surface",
       "source": "commons:File:VariousPills.jpg",
       "licence": "CC BY-SA 3.0",
       "author": "MorgueFile : see [1]",
@@ -48,18 +48,13 @@
   ],
   "vocabulary": [
     {
-      "term": "to circulate",
-      "definition": "to be passed around and repeated",
-      "match": "circulated"
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
     },
     {
       "term": "to prescribe",
       "definition": "to order a medicine for a patient officially",
       "match": "prescribed"
-    },
-    {
-      "term": "prescription",
-      "definition": "a doctor's written order for a medicine"
     },
     {
       "term": "survey",
@@ -75,8 +70,8 @@
       "definition": "boring and requiring effort to continue"
     },
     {
-      "term": "inconsistent",
-      "definition": "not in agreement from one case to the next"
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     },
     {
       "term": "to abandon",
@@ -102,10 +97,6 @@
       "match": "revise"
     },
     {
-      "term": "unequally distributed",
-      "definition": "not shared out evenly"
-    },
-    {
       "term": "to draw a line",
       "definition": "to set a limit between what is acceptable and what is not",
       "match": "draw"
@@ -118,10 +109,6 @@
       "term": "side effect",
       "definition": "an unwanted result of taking a medicine",
       "match": "side effects"
-    },
-    {
-      "term": "dependence",
-      "definition": "the state of needing a substance to function normally"
     },
     {
       "term": "self-defeating",

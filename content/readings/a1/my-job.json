@@ -9,6 +9,7 @@
   "description": "An A1 reading and listening text about a simple job: what you do all day, the people you work with, and what is good and bad about it.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "lexicalSet": "an A1 naming text: the short passage is a frame for the everyday words the glossary teaches",
   "narrator": "female",
   "audio": {
     "voice": "en-US-JennyNeural",
@@ -35,10 +36,6 @@
     }
   ],
   "vocabulary": [
-    {
-      "term": "difficult",
-      "definition": "hard to do"
-    },
     {
       "term": "easy",
       "definition": "not difficult"

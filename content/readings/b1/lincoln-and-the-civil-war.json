@@ -40,7 +40,7 @@
       "after": 8,
       "alt": "A blurred photograph of the crowd at the Gettysburg cemetery dedication in November 1863, soldiers and civilians in hats packed together, with Lincoln just visible among them",
       "source": "commons:File:Crowd of citizens, soldiers, and etc. with Lincoln at Gettysburg. - NARA - 529085 -crop.jpg",
-      "caption": "Gettysburg, 19 November 1863. Lincoln is in this photograph, bare-headed, near the centre. He spoke for about two minutes and thought it had failed."
+      "caption": "Gettysburg, 19 November 1863. Lincoln is in this photograph, bare-headed, near the center. He spoke for about two minutes and thought it had failed."
     }
   ],
   "vocabulary": [
@@ -51,6 +51,10 @@
     {
       "term": "to abolish",
       "definition": "to end a law or system officially"
+    },
+    {
+      "term": "to support",
+      "definition": "to back, to take the side of — careful: not to put up with or endure"
     },
     {
       "term": "to secede",
@@ -65,20 +69,12 @@
       "definition": "the United States, and in the war the northern side"
     },
     {
-      "term": "a bombardment",
-      "definition": "a continuous attack with guns or bombs"
-    },
-    {
       "term": "a civilian",
       "definition": "a person who is not in the army"
     },
     {
       "term": "loyal",
       "definition": "staying faithful to a country, person or cause"
-    },
-    {
-      "term": "emancipation",
-      "definition": "the act of setting people free"
     },
     {
       "term": "to surrender",

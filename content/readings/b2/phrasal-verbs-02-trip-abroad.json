@@ -8,6 +8,7 @@
   "description": "A B2 travel reading and listening text built on the phrasal verbs of journeys — set off, check in, touch down, head over, look back on — with vocabulary and comprehension exercises.",
   "source": "cefr/texts/phrasal-verbs-02-trip-abroad.docx",
   "provenance": "as-published",
+  "lexicalSet": "told almost entirely in phrasal verbs, which the glossary carries",
   "audio": {
     "duration_label": "1:46"
   },

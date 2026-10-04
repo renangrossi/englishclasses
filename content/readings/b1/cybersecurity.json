@@ -82,6 +82,10 @@
       "definition": "to work out a password or code by force"
     },
     {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
       "term": "mangled",
       "definition": "damaged and distorted out of its proper form"
     },
@@ -122,10 +126,6 @@
       "term": "backup",
       "definition": "a spare copy of your files kept in case the original is lost",
       "match": "backups"
-    },
-    {
-      "term": "automated",
-      "definition": "carried out by software without a person directing each step"
     }
   ],
   "exercises": [

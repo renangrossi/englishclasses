@@ -45,6 +45,14 @@
   ],
   "vocabulary": [
     {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
+      "term": "to push",
+      "definition": "to press or move something forward — careful: it means the opposite of pulling"
+    },
+    {
       "term": "to take office",
       "definition": "to begin an official position, especially as a leader"
     },
@@ -55,10 +63,6 @@
     {
       "term": "sound",
       "definition": "here: financially safe and reliable"
-    },
-    {
-      "term": "legislation",
-      "definition": "laws, considered as a body of work"
     },
     {
       "term": "without precedent",
@@ -75,10 +79,6 @@
     {
       "term": "unconstitutional",
       "definition": "not allowed by the constitution"
-    },
-    {
-      "term": "exclusion",
-      "definition": "the act of leaving somebody out of a system or benefit"
     },
     {
       "term": "a term limit",

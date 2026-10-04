@@ -56,6 +56,10 @@
       "match": "settlers"
     },
     {
+      "term": "eventually",
+      "definition": "in the end, after a long time — careful: not 'from time to time'"
+    },
+    {
       "term": "to drag",
       "definition": "to pull something heavy along behind you",
       "match": "drags"

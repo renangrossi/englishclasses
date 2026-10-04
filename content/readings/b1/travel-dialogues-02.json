@@ -8,6 +8,7 @@
   "description": "A B1 workplace reading and listening dialogue: training a new hotel receptionist, covering reservations, board types, late arrivals and checking out, with vocabulary and comprehension exercises.",
   "source": "cefr/texts/travel-dialogues-02.docx",
   "provenance": "edited",
+  "lexicalSet": "reception dialogues taught phrase by phrase",
   "audio": {
     "duration_label": "3:42"
   },
@@ -55,7 +56,7 @@
       "after": 2,
       "alt": "People being attended to at a desk in the great hall of a town building, others waiting their turn",
       "source": "heinrich-hansen-a-scene-of-everyday-life-at-the-nuremberg-town-hall.jpeg",
-      "caption": "*A Scene of Everyday Life at the Nuremberg Town Hall* — Heinrich Hansen. Hansen was a Danish architectural painter who specialised in the interiors of old public buildings."
+      "caption": "*A Scene of Everyday Life at the Nuremberg Town Hall* — Heinrich Hansen. Hansen was a Danish architectural painter who specialized in the interiors of old public buildings."
     }
   ],
   "vocabulary": [
@@ -72,6 +73,10 @@
       "term": "to check in",
       "definition": "to register on arrival and be given a room",
       "match": "check in"
+    },
+    {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     },
     {
       "term": "deposit",

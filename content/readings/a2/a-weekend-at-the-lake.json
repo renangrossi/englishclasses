@@ -52,10 +52,6 @@
       "definition": "the outer part or border of something"
     },
     {
-      "term": "deer",
-      "definition": "a wild animal with long legs that lives in forests"
-    },
-    {
       "term": "still",
       "definition": "not moving at all"
     },
@@ -65,29 +61,9 @@
       "match": "jumped straight in"
     },
     {
-      "term": "to fish",
-      "definition": "to try to catch fish",
-      "match": "fished"
-    },
-    {
-      "term": "to catch",
-      "definition": "to take hold of something moving",
-      "match": "caught"
-    },
-    {
-      "term": "to drop",
-      "definition": "to let something fall",
-      "match": "dropped"
-    },
-    {
       "term": "to lie",
       "definition": "to rest flat on a surface",
       "match": "lay"
-    },
-    {
-      "term": "to describe",
-      "definition": "to say what something is like",
-      "match": "describes"
     },
     {
       "term": "to complain",

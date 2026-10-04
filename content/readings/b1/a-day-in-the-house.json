@@ -8,6 +8,7 @@
   "description": "A B1 reading and listening text following a family through a day at home, teaching the everyday vocabulary of rooms, chores and small repairs, with comprehension exercises.",
   "source": "cefr/texts/soothing-texts.docx (scene 4)",
   "provenance": "edited",
+  "lexicalSet": "the subtitle says it: the vocabulary of every room in the house",
   "narrator": "female",
   "audio": {
     "duration_label": "2:50"
@@ -24,7 +25,7 @@
     "Upstairs, her brother Ben was still asleep. His laundry basket had been full for several days and had now reached the stage where clothes were arranged around it rather than in it.",
     "Sarah and John ate scrambled eggs and toast and went through the day. There was a leaky faucet in the upstairs bathroom that had been dripping since Tuesday, and a light bulb in the hallway that had gone and that nobody had replaced because the ceiling there is high and the ladder is in the garage.",
     "Ben came down at half past ten, made a face at the smell of coffee, ate three pieces of toast standing up, and moved to the couch with the remote before anybody could give him a job.",
-    "Sarah started a load of washing, which filled the laundry room with the smell of detergent, and then went to deal with the faucet. She got the toolbox from the garage, turned the water off under the sink, took the tap apart on a towel so the small parts would not roll away, tightened the screw that had worked loose and replaced the rubber washer, which had gone hard and flat. Then she put it back together and turned the water on and nothing leaked, which she enjoyed more than she expected to.",
+    "Sarah started a load of washing, which filled the laundry room with the smell of detergent, and then went to deal with the faucet. She got the toolbox from the garage, turned the water off under the sink, took the faucet apart on a towel so the small parts would not roll away, tightened the screw that had worked loose and replaced the rubber washer, which had gone hard and flat. Then she put it back together and turned the water on and nothing leaked, which she enjoyed more than she expected to.",
     "John spent the afternoon in the home office, which is the tidiest room in the house and the only one with a rule about it. Books on the shelves, files in order, and a door he closes.",
     "Ben, having exhausted the television, went out to the yard and threw a ball for the dog for forty minutes. The dog did not get bored before he did.",
     "Sarah's mother Jane came home at six and the two of them made dinner together, which is the part of the week they both protect: chopping, talking, one of them stirring a pot while the other says something and has to repeat it over the noise of the extractor fan. They made a stew, and it filled the downstairs with the smell of it for the rest of the evening.",
@@ -50,6 +51,10 @@
     {
       "term": "blinds",
       "definition": "the slats you lower over a window instead of curtains"
+    },
+    {
+      "term": "to push",
+      "definition": "to press or move something forward — careful: it means the opposite of pulling"
     },
     {
       "term": "covers",
@@ -117,7 +122,7 @@
     {
       "term": "to take apart",
       "definition": "to separate something into its pieces",
-      "match": "took the tap apart"
+      "match": "took the faucet apart"
     },
     {
       "term": "to work loose",

@@ -8,6 +8,7 @@
   "description": "An A2 reading and listening text on complaining politely in a restaurant: the phrases that work, and why the direct translation usually sounds rude.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "lexicalSet": "the complaint phrases are the point of the text",
   "narrator": "female",
   "audio": {
     "duration_label": "2:22"
@@ -48,10 +49,6 @@
     {
       "term": "bill",
       "definition": "the paper showing what you must pay — Americans more often say the check"
-    },
-    {
-      "term": "accusation",
-      "definition": "a statement that somebody did something wrong"
     },
     {
       "term": "to blame",

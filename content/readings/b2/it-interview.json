@@ -65,10 +65,6 @@
       "definition": "the part of an application that runs on the server, out of the user's sight"
     },
     {
-      "term": "to optimize",
-      "definition": "to change something so that it works faster or uses fewer resources"
-    },
-    {
       "term": "to scale",
       "definition": "to keep working well as the amount of work or number of users grows",
       "match": "scaled"
@@ -105,6 +101,10 @@
       "term": "side project",
       "definition": "something you build in your own time, outside your paid work",
       "match": "side projects"
+    },
+    {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     },
     {
       "term": "to be stuck",

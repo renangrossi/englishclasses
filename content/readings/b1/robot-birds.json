@@ -49,31 +49,13 @@
       "definition": "the elected body that runs a city"
     },
     {
-      "term": "diet",
-      "definition": "the food an animal or a person normally eats"
-    },
-    {
       "term": "to breed",
       "definition": "to produce young"
-    },
-    {
-      "term": "to hand somebody something",
-      "definition": "to give it to them directly",
-      "match": "hand it"
     },
     {
       "term": "whatever is going",
       "definition": "whatever happens to be available",
       "match": "whatever else is going"
-    },
-    {
-      "term": "unpopular",
-      "definition": "disliked by most people"
-    },
-    {
-      "term": "rooftop",
-      "definition": "the top surface of a building",
-      "match": "rooftops"
     },
     {
       "term": "to model on",
@@ -85,10 +67,6 @@
       "definition": "a bird of prey that hunts other birds in flight"
     },
     {
-      "term": "dive",
-      "definition": "a steep downward flight at high speed"
-    },
-    {
       "term": "to flap",
       "definition": "to move wings up and down"
     },
@@ -98,8 +76,8 @@
       "match": "habituate"
     },
     {
-      "term": "predator",
-      "definition": "an animal that hunts and eats others"
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     },
     {
       "term": "scarecrow",
@@ -113,12 +91,8 @@
     },
     {
       "term": "bin",
-      "definition": "a container for rubbish",
+      "definition": "a container for trash",
       "match": "bins"
-    },
-    {
-      "term": "to nest",
-      "definition": "to build a home and raise young"
     },
     {
       "term": "dull",

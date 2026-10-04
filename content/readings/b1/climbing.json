@@ -70,6 +70,10 @@
       "match": "shake out"
     },
     {
+      "term": "to support",
+      "definition": "to back, to take the side of — careful: not to put up with or endure"
+    },
+    {
       "term": "to break in",
       "definition": "to wear new boots until they fit comfortably",
       "match": "broken in"
@@ -78,6 +82,10 @@
       "term": "a layer",
       "definition": "one of several pieces of clothing worn on top of each other",
       "match": "layers"
+    },
+    {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     },
     {
       "term": "a harness",

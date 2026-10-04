@@ -8,6 +8,7 @@
   "description": "An A2 reading and listening text following a shopping trip to cook a three-course dinner, with food and shopping vocabulary and comprehension exercises.",
   "source": "cefr/texts/grocery-shopping.docx",
   "provenance": "rewritten",
+  "lexicalSet": "a shopping and food lexical set; the list is the lesson",
   "narrator": "female",
   "audio": {
     "duration_label": "1:54"

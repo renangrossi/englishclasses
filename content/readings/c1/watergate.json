@@ -35,7 +35,7 @@
       "after": 1,
       "alt": "An aerial view of the curved concrete terraces of the Watergate complex beside the Potomac River",
       "source": "commons:File:WatergateFromAir.JPG",
-      "caption": "The Watergate complex, Washington D.C. Offices, flats and a hotel on the Potomac; the Democratic National Committee rented the sixth floor of one of the office buildings.",
+      "caption": "The Watergate complex, Washington D.C. Offices, apartments and a hotel on the Potomac; the Democratic National Committee rented the sixth floor of one of the office buildings.",
       "wide": true
     },
     {
@@ -58,6 +58,10 @@
     {
       "term": "a stairwell",
       "definition": "the shaft or space containing a staircase"
+    },
+    {
+      "term": "eventually",
+      "definition": "in the end, after a long time — careful: not 'from time to time'"
     },
     {
       "term": "to eavesdrop",
@@ -86,10 +90,6 @@
     {
       "term": "to subpoena",
       "definition": "to order the production of evidence or a witness by law"
-    },
-    {
-      "term": "impeachment",
-      "definition": "the bringing of formal charges against a holder of public office"
     },
     {
       "term": "to pardon",

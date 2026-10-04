@@ -26,7 +26,7 @@
     {
       "src": "01.jpg",
       "after": 1,
-      "alt": "A crowd stopped on a city pavement to look at pictures displayed in a shop window",
+      "alt": "A crowd stopped on a city sidewalk to look at pictures displayed in a shop window",
       "source": "joan-ferrer-miro-1850-1931-public-exhibition-of-a-picture.jpg",
       "caption": "*Public Exhibition of a Picture* — Joan Ferrer Miró. Attention has always been worth something; what is new is who is selling it."
     }
@@ -44,11 +44,6 @@
     {
       "term": "pressing",
       "definition": "urgent; demanding attention now rather than later"
-    },
-    {
-      "term": "to prioritize",
-      "definition": "to treat one thing as more important than another",
-      "match": "prioritize"
     },
     {
       "term": "sustained",

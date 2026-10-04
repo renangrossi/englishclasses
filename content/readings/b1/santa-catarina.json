@@ -4,7 +4,7 @@
   "slug": "santa-catarina",
   "topic": "travel",
   "title": "Driving the Oregon Coast",
-  "subtitle": "A family in a rented car, eight days of rain, and a holiday nobody would have chosen and everybody remembers.",
+  "subtitle": "A family in a rented car, eight days of rain, and a vacation nobody would have chosen and everybody remembers.",
   "description": "A B1 travel reading and listening text following a family road trip along the Oregon coast, written to practice the present perfect continuous, with vocabulary and comprehension exercises.",
   "source": "cefr/texts/santa-catarina.docx",
   "provenance": "rewritten",
@@ -20,19 +20,19 @@
     "present-simple"
   ],
   "passage": [
-    "We have been driving down the Oregon coast for eight days, and it has been raining for six of them. I want to be clear that this is not a complaint. It is simply the central fact of the holiday, and everything else has arranged itself around it.",
+    "We have been driving down the Oregon coast for eight days, and it has been raining for six of them. I want to be clear that this is not a complaint. It is simply the central fact of the vacation, and everything else has arranged itself around it.",
     "The plan, when we made it in March, involved beaches. My husband had been looking at photographs of long empty sand with the sun going down behind sea stacks, and he had been saying for weeks that we would eat outside every evening. We have eaten outside once. It was cold, and we did it out of stubbornness.",
     "What we have actually been doing is driving Highway 101 in a rented car with two children in the back, stopping whenever the rain eases, and discovering that the coast is more interesting in this weather than it would have been in the sun. The Pacific here is not a swimming ocean. It is cold and enormous and loud, and on a gray day with the cloud sitting low on the water it looks like something that has been going on for a very long time without needing anyone to watch it.",
     "The children have adapted faster than we have. Ben, who is nine, has been collecting things — agates, pieces of driftwood, a crab shell that we have been negotiating about since Tuesday — and he has worked out that the best time to look is immediately after a storm, when the tide has turned everything over. Maya has been reading in the back of the car for most of eight days and has finished four books, which she would not have done at home.",
     "We have found the things you find when the original plan has collapsed. A bakery in a town of nine hundred people where we have now stopped three times. A lighthouse we walked up in horizontal rain and had entirely to ourselves, because nobody else was foolish enough. An aquarium on a genuinely terrible afternoon that turned out to be the best two hours of the trip. The tide pools at low tide, where Ben lay on his front for forty minutes watching an anemone that was not doing anything.",
     "My husband has stopped mentioning the photographs. Yesterday evening the rain eased for about an hour near Bandon and we walked out among the sea stacks at low tide, the light came through underneath the cloud the way it does about twice a week here, and everything he had been imagining in March happened for fifty minutes and then stopped. He said it was worth the drive. I think he meant the whole eight days.",
-    "We have two days left. It is forecast to rain on both of them. We have been checking the forecast less often than we were at the start, which is probably the clearest sign that the holiday has worked."
+    "We have two days left. It is forecast to rain on both of them. We have been checking the forecast less often than we were at the start, which is probably the clearest sign that the vacation has worked."
   ],
   "images": [
     {
       "src": "01.jpg",
       "after": 1,
-      "alt": "The Oregon coast seen from a headland: a long curve of grey sand, sea stacks standing offshore in the surf, and forested hills disappearing into cloud up the coast",
+      "alt": "The Oregon coast seen from a headland: a long curve of gray sand, sea stacks standing offshore in the surf, and forested hills disappearing into cloud up the coast",
       "source": "commons:File:Cannon Beach at Pacific Coast in Oregon 1.jpg",
       "relation": "depicts",
       "licence": "CC BY-SA 4.0",
@@ -66,6 +66,10 @@
     {
       "term": "stubbornness",
       "definition": "the refusal to change your mind even when you should"
+    },
+    {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     },
     {
       "term": "to ease",
@@ -350,7 +354,7 @@
   ],
   "discussion": [
     "The trip they had planned did not happen, and they remember the one they got. Has that happened to you?",
-    "The writer says checking the forecast less often shows the holiday worked. What is your own sign that you have stopped worrying?",
+    "The writer says checking the forecast less often shows the vacation worked. What is your own sign that you have stopped worrying?",
     "Ben collects and Maya reads. Do children adapt to changed plans better than adults, and if so why?",
     "Is bad weather a reason to change a destination, or does it show you something a sunny day would hide?",
     "Write about 150 words about a trip that went differently from the plan, using the present perfect continuous for what was going on and the simple form for what you finished."

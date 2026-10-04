@@ -9,6 +9,7 @@
   "description": "An A1 reading and listening text about feeling sick: saying what hurts, calling work, and seeing a doctor.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "lexicalSet": "an A1 naming text: the short passage is a frame for the everyday words the glossary teaches",
   "narrator": "female",
   "audio": {
     "voice": "en-US-JennyNeural",
@@ -70,10 +71,6 @@
     {
       "term": "appointment",
       "definition": "a time you agree to see a doctor or somebody else"
-    },
-    {
-      "term": "serious",
-      "definition": "bad and important"
     },
     {
       "term": "medicine",

@@ -9,6 +9,7 @@
   "description": "An A1 reading and listening text set in an American restaurant: ordering, asking for the check, and tipping.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "lexicalSet": "an A1 naming text: the short passage is a frame for the everyday words the glossary teaches",
   "narrator": "female",
   "audio": {
     "voice": "en-US-JennyNeural",
@@ -35,7 +36,7 @@
       "after": 1,
       "alt": "Travelers stopping to eat and drink under the awning of a roadside inn, a loaded cart waiting outside",
       "source": "cesare-augusto-detti-refreshments-at-a-wayside-inn.jpeg",
-      "caption": "*Refreshments at a Wayside Inn* — Cesare Augusto Detti. Detti, an Italian who made his career in Paris, specialised in costume pieces set in the seventeenth and eighteenth centuries."
+      "caption": "*Refreshments at a Wayside Inn* — Cesare Augusto Detti. Detti, an Italian who made his career in Paris, specialized in costume pieces set in the seventeenth and eighteenth centuries."
     }
   ],
   "vocabulary": [

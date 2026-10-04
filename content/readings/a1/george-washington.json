@@ -43,10 +43,6 @@
   ],
   "vocabulary": [
     {
-      "term": "a colony",
-      "definition": "a country or area that another country controls"
-    },
-    {
       "term": "an army",
       "definition": "a large group of soldiers"
     },
@@ -59,10 +55,6 @@
       "definition": "a man who rules a country for all his life"
     },
     {
-      "term": "a president",
-      "definition": "the leader of a country, chosen by the people"
-    },
-    {
       "term": "free",
       "definition": "able to do what you want; not controlled by another person or country"
     },
@@ -73,10 +65,6 @@
     {
       "term": "enslaved people",
       "definition": "people who were owned by other people and had to work for no money"
-    },
-    {
-      "term": "the capital",
-      "definition": "the city where the government of a country is"
     }
   ],
   "exercises": [

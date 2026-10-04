@@ -76,10 +76,6 @@
       "match": "prunes"
     },
     {
-      "term": "perceptual",
-      "definition": "relating to how the senses take things in"
-    },
-    {
       "term": "to set",
       "definition": "to become fixed and no longer changeable",
       "match": "set"
@@ -89,20 +85,8 @@
       "definition": "accepted by everybody; not argued about"
     },
     {
-      "term": "consolation",
-      "definition": "something said to make a hard fact easier to bear"
-    },
-    {
-      "term": "intelligible",
-      "definition": "able to be understood"
-    },
-    {
       "term": "nativeness",
       "definition": "the quality of sounding like a first-language speaker"
-    },
-    {
-      "term": "separable",
-      "definition": "able to be treated as two different things"
     },
     {
       "term": "prosody",
@@ -114,10 +98,6 @@
       "match": "repays"
     },
     {
-      "term": "deliberation",
-      "definition": "careful conscious thought"
-    },
-    {
       "term": "testimony",
       "definition": "a formal statement, especially in court"
     },
@@ -126,14 +106,13 @@
       "definition": "a cost imposed on somebody"
     },
     {
-      "term": "to persist",
-      "definition": "to continue despite the conditions changing",
-      "match": "persists"
-    },
-    {
       "term": "to endorse",
       "definition": "to say publicly that you support something",
       "match": "endorse"
+    },
+    {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     },
     {
       "term": "to land",

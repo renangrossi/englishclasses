@@ -90,10 +90,6 @@
       "match": "redundancies"
     },
     {
-      "term": "euphemism",
-      "definition": "a mild word used in place of a blunt one"
-    },
-    {
       "term": "seam",
       "definition": "the join where something is weakest and most likely to come apart"
     },
@@ -108,10 +104,6 @@
     {
       "term": "flat",
       "definition": "without emotional color"
-    },
-    {
-      "term": "obscurity",
-      "definition": "the quality of being hard to understand"
     },
     {
       "term": "to compel",
@@ -142,10 +134,6 @@
       "match": "anticipated"
     },
     {
-      "term": "incentive",
-      "definition": "the thing that makes a person act as they do"
-    },
-    {
       "term": "decency",
       "definition": "ordinary moral good behavior"
     },
@@ -154,8 +142,8 @@
       "definition": "moving in the opposite direction; as one grows the other shrinks"
     },
     {
-      "term": "cynicism",
-      "definition": "the assumption that everybody acts from bad motives"
+      "term": "to intend",
+      "definition": "to plan to do something — careful: not to understand"
     },
     {
       "term": "packaging",

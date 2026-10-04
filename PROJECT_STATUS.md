@@ -516,19 +516,12 @@ The 46 files re-recorded in this pass were rendered from text differing only by 
 service discards, so they are byte-for-byte what the reverted text produces; only the manifest
 needed correcting. The library has one pause length, not two.
 
-**Not changed, needs a decision.** Six decorative page banners are by living or recently-deceased
-artists (William George 1954, Robert McCall, Mort Künstler, Don Oelze, Howard Terpning, Tom
-Freeman) and appear to be in copyright, which contradicts the policy stated at the top of
-`docs/image-credits.md`. They are on `exercises.html`, `simulated-exams.html` and
-`levels/{a1,a2,b1,b2}.html`. Left untouched at the owner's instruction.
-
 ### Milestone 14 — What is left after that
 
 1. **P-2, the geography balance** — travel is still the largest topic in B1.
 2. **Depth at C1 and C2.** The American History collection has largely answered this: C1 went
    from 14 to 21 and C2 from 7 to 14, against B1's 44. The top of the library is no longer thin,
    but it is now heavily weighted towards history, which is the next imbalance to watch.
-3. **The banner rights question** above — the owner's call.
 4. **102 analogue images with a bare caption** (`check_content.py --warnings`). Each names its
    work and never says why it is there. Most sit over a generic scene and are harmless; the
    dangerous ones are over a named place or person, and those were fixed. The rest is an

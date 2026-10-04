@@ -38,7 +38,7 @@
       "licence": "Attribution",
       "author": "Contains modified Copernicus Sentinel data 2022 (ESA)",
       "source_url": "https://commons.wikimedia.org/wiki/File:North_Sentinel_Island_2022-03-06_Sentinel-2_L2A_True_color.jpg",
-      "caption": "North Sentinel Island from orbit, March 2022: about sixty square kilometres of forest inside a ring of coral reef. The 2004 earthquake lifted the whole island, reef and all, a metre or two higher out of the sea.",
+      "caption": "North Sentinel Island from orbit, March 2022: about sixty square kilometers of forest inside a ring of coral reef. The 2004 earthquake lifted the whole island, reef and all, a meter or two higher out of the sea.",
       "credit_prefix": "Image"
     },
     {
@@ -77,6 +77,14 @@
       "definition": "a large number of projectiles released at once"
     },
     {
+      "term": "eventually",
+      "definition": "in the end, after a long time — careful: not 'from time to time'"
+    },
+    {
+      "term": "a policy",
+      "definition": "a course of action an institution has decided on — careful: nothing to do with the police"
+    },
+    {
       "term": "to collapse",
       "definition": "to fall suddenly and catastrophically",
       "match": "collapse"
@@ -94,6 +102,10 @@
       "term": "to patrol",
       "definition": "to travel around an area regularly to keep watch over it",
       "match": "patrols"
+    },
+    {
+      "term": "to intend",
+      "definition": "to plan to do something — careful: not to understand"
     },
     {
       "term": "unambiguously",

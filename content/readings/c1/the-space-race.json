@@ -51,6 +51,11 @@
   ],
   "vocabulary": [
     {
+      "term": "to burn up",
+      "definition": "to be destroyed completely by heat",
+      "match": "burned up"
+    },
+    {
       "term": "an orbit",
       "definition": "the curved path of an object around a planet or star"
     },
@@ -85,10 +90,6 @@
     {
       "term": "a detour",
       "definition": "a longer, indirect route; by extension, effort that leads away from the goal"
-    },
-    {
-      "term": "fragility",
-      "definition": "the quality of being easily damaged"
     }
   ],
   "exercises": [

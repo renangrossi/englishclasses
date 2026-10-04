@@ -53,7 +53,7 @@
     {
       "src": "03.jpg",
       "after": 5,
-      "alt": "Bruegel's Tower of Babel: an enormous spiralling brick tower, half-built and already cracking, with tiny workers and cranes on its ramps and a harbour town below",
+      "alt": "Bruegel's Tower of Babel: an enormous spiralling brick tower, half-built and already cracking, with tiny workers and cranes on its ramps and a harbor town below",
       "source": "commons:File:Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project - edited.jpg",
       "caption": "*The Tower of Babel* — Pieter Bruegel the Elder, 1563. The original story about a project failing for linguistic rather than technical reasons."
     }
@@ -71,6 +71,10 @@
     {
       "term": "appetite",
       "definition": "willingness to support or take on something, in business usage"
+    },
+    {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
     },
     {
       "term": "to lose face",
@@ -111,16 +115,20 @@
       "definition": "a formula that reliably introduces disagreement, not deference"
     },
     {
+      "term": "to intend",
+      "definition": "to plan to do something — careful: not to understand"
+    },
+    {
       "term": "devastating",
       "definition": "extremely damaging in effect"
     },
     {
-      "term": "to invert",
-      "definition": "to turn into the opposite"
+      "term": "an idiom",
+      "definition": "a fixed expression whose meaning is not literal — careful: not a language"
     },
     {
-      "term": "circumlocution",
-      "definition": "saying something in a roundabout way instead of plainly"
+      "term": "to invert",
+      "definition": "to turn into the opposite"
     },
     {
       "term": "bluntness",

@@ -192,8 +192,8 @@
   "voice": "en-US-MichelleNeural"
  },
  "a2/lewis-and-clark-west": {
-  "bytes": 766224,
-  "fingerprint": "6f4b9a3f63d0fa2a",
+  "bytes": 765936,
+  "fingerprint": "3a591a010df00ad1",
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
@@ -258,8 +258,8 @@
   "voice": "en-US-JennyNeural"
  },
  "b1/a-day-in-the-house": {
-  "bytes": 1023408,
-  "fingerprint": "ccdfad82e737c2fb",
+  "bytes": 1024416,
+  "fingerprint": "8db4d1a3853ac827",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
@@ -312,8 +312,8 @@
   "voice": "en-US-AriaNeural"
  },
  "b1/cars-and-their-parts": {
-  "bytes": 1422576,
-  "fingerprint": "576566b79b08ac01",
+  "bytes": 1424016,
+  "fingerprint": "00676177b50b41fd",
   "rate": "-8%",
   "voice": "en-US-AriaNeural"
  },
@@ -330,8 +330,8 @@
   "voice": "en-US-ChristopherNeural"
  },
  "b1/coffee-and-it": {
-  "bytes": 986976,
-  "fingerprint": "81ff577dfeb7b257",
+  "bytes": 987264,
+  "fingerprint": "72d0d0dcaf8c16b4",
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
@@ -348,8 +348,8 @@
   "voice": "en-US-ChristopherNeural"
  },
  "b1/detective-story": {
-  "bytes": 1200096,
-  "fingerprint": "d320394330a73024",
+  "bytes": 1200960,
+  "fingerprint": "cdd5a34770fc258a",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
@@ -384,8 +384,8 @@
   "voice": "en-US-BrianNeural"
  },
  "b1/harriet-tubman": {
-  "bytes": 1082736,
-  "fingerprint": "7a60623322a71bab",
+  "bytes": 1082304,
+  "fingerprint": "2b0b5941f693a458",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
@@ -420,14 +420,14 @@
   "voice": "en-US-ChristopherNeural"
  },
  "b1/maringa": {
-  "bytes": 1238832,
-  "fingerprint": "d82a27b5281c4ede",
+  "bytes": 1239696,
+  "fingerprint": "dbccd53b4bd937c2",
   "rate": "-8%",
   "voice": "en-US-BrianNeural"
  },
  "b1/milan-restaurants": {
-  "bytes": 1295280,
-  "fingerprint": "631093c0543777c5",
+  "bytes": 1264176,
+  "fingerprint": "baf2464711f0843c",
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
@@ -444,20 +444,20 @@
   "voice": "en-US-EmmaNeural"
  },
  "b1/nfl": {
-  "bytes": 1312272,
-  "fingerprint": "a1141181de8194f9",
+  "bytes": 1311840,
+  "fingerprint": "9f4ba43aca3e0f1e",
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
  },
  "b1/ny-visitation": {
-  "bytes": 1388880,
-  "fingerprint": "86e3f1e2e5adcde8",
+  "bytes": 1390032,
+  "fingerprint": "e614360540fa627b",
   "rate": "-8%",
   "voice": "en-US-EricNeural"
  },
  "b1/physical-education": {
-  "bytes": 930816,
-  "fingerprint": "162be68236779dd0",
+  "bytes": 930672,
+  "fingerprint": "649a91abc8683f1f",
   "rate": "-8%",
   "voice": "en-US-EmmaNeural"
  },
@@ -474,8 +474,8 @@
   "voice": "en-US-BrianNeural"
  },
  "b1/santa-catarina": {
-  "bytes": 963792,
-  "fingerprint": "57d787d9c4cb7c7e",
+  "bytes": 964080,
+  "fingerprint": "b5b697cf787d6356",
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
@@ -564,8 +564,8 @@
   "voice": "en-US-EmmaNeural"
  },
  "b2/describing-a-place": {
-  "bytes": 1273680,
-  "fingerprint": "29d78f72b62647f6",
+  "bytes": 1273392,
+  "fingerprint": "196aa3454b1f10d6",
   "rate": "+0%",
   "voice": "en-US-EmmaNeural"
  },
@@ -684,8 +684,8 @@
   "voice": "en-US-JennyNeural"
  },
  "b2/soma-nomaoi": {
-  "bytes": 1296720,
-  "fingerprint": "c60dfd04d9f2e3ef",
+  "bytes": 1304928,
+  "fingerprint": "cb457392cf836a2d",
   "rate": "+0%",
   "voice": "en-US-JennyNeural"
  },
@@ -708,8 +708,8 @@
   "voice": "en-US-JennyNeural"
  },
  "c1/apollo-11": {
-  "bytes": 1561968,
-  "fingerprint": "4ccceeae530a7133",
+  "bytes": 1562544,
+  "fingerprint": "64de1d4db368f793",
   "rate": "+0%",
   "voice": "en-US-EricNeural"
  },
@@ -768,8 +768,8 @@
   "voice": "en-US-MichelleNeural"
  },
  "c1/rs-japan": {
-  "bytes": 1886832,
-  "fingerprint": "81a11bcbc181f62d",
+  "bytes": 1886544,
+  "fingerprint": "80562a2097df148a",
   "rate": "+0%",
   "voice": "en-US-GuyNeural"
  },
@@ -798,8 +798,8 @@
   "voice": "en-US-ChristopherNeural"
  },
  "c1/the-night-shift": {
-  "bytes": 1225872,
-  "fingerprint": "c190501ffc2020e7",
+  "bytes": 1228032,
+  "fingerprint": "7fc5e07fb7908b3a",
   "rate": "+0%",
   "voice": "en-US-MichelleNeural"
  },

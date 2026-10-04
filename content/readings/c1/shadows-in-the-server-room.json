@@ -56,7 +56,7 @@
     {
       "src": "02.jpg",
       "after": 0,
-      "alt": "A dense mass of network cables spilling out of equipment racks and across the floor in front of an office chair, hundreds of strands in several colours with no visible order",
+      "alt": "A dense mass of network cables spilling out of equipment racks and across the floor in front of an office chair, hundreds of strands in several colors with no visible order",
       "source": "commons:File:Tangled cables mrbill.jpg",
       "licence": "CC BY 2.0",
       "author": "Bill Bradford",
@@ -66,7 +66,7 @@
     {
       "src": "01.jpg",
       "after": 1,
-      "alt": "Rows of tall grey server cabinets on a raised white floor in a brightly lit data hall, a NASA logo on the end of the nearest row",
+      "alt": "Rows of tall gray server cabinets on a raised white floor in a brightly lit data hall, a NASA logo on the end of the nearest row",
       "source": "commons:File:Columbia Supercomputer - NASA Advanced Supercomputing Facility.jpg",
       "caption": "The Columbia supercomputer at the NASA Advanced Supercomputing Facility. Rows, cold air, a raised floor and nobody in sight.",
       "relation": "depicts"
@@ -144,6 +144,14 @@
       "definition": "duplicated on purpose, so that one failure does not stop everything"
     },
     {
+      "term": "to intend",
+      "definition": "to plan to do something — careful: not to understand"
+    },
+    {
+      "term": "to push",
+      "definition": "to press or move something forward — careful: it means the opposite of pulling"
+    },
+    {
       "term": "to deploy",
       "definition": "to release new code into the live system",
       "match": "deploy"
@@ -200,6 +208,10 @@
       "match": "owned the restore"
     },
     {
+      "term": "to support",
+      "definition": "to back, to take the side of — careful: not to put up with or endure"
+    },
+    {
       "term": "to walk something back",
       "definition": "to retreat from a position you have already stated",
       "match": "walk back"
@@ -215,6 +227,10 @@
     {
       "term": "C-suite",
       "definition": "the most senior executives of a company"
+    },
+    {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
     },
     {
       "term": "to flag",

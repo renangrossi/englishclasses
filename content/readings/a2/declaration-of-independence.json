@@ -44,24 +44,18 @@
   ],
   "vocabulary": [
     {
-      "term": "a colony",
-      "definition": "an area controlled by another country (people there are colonists)"
+      "term": "to belong to",
+      "definition": "to be the property of somebody",
+      "match": "belonged to"
+    },
+    {
+      "term": "fireworks",
+      "definition": "lights and loud bangs sent into the sky to celebrate",
+      "match": "fireworks"
     },
     {
       "term": "a tax",
       "definition": "money that people must pay to a government"
-    },
-    {
-      "term": "parliament",
-      "definition": "the group of people who make the laws in Britain"
-    },
-    {
-      "term": "representation",
-      "definition": "having somebody who speaks for you in a government"
-    },
-    {
-      "term": "a document",
-      "definition": "an important piece of writing"
     },
     {
       "term": "to sign",
@@ -70,10 +64,6 @@
     {
       "term": "rights",
       "definition": "the things everybody should be allowed to have or do"
-    },
-    {
-      "term": "liberty",
-      "definition": "freedom"
     },
     {
       "term": "equal",

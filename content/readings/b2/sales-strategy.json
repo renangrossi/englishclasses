@@ -60,6 +60,10 @@
       "definition": "the clear statement of what a customer gains by buying"
     },
     {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
       "term": "prospect",
       "definition": "a potential customer who has not yet bought anything",
       "match": "prospects"
@@ -124,6 +128,10 @@
       "term": "to close a deal",
       "definition": "to complete a sale",
       "match": "close deals"
+    },
+    {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
     }
   ],
   "exercises": [

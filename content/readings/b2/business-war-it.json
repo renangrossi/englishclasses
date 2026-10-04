@@ -54,6 +54,10 @@
   ],
   "vocabulary": [
     {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
       "term": "survivability",
       "definition": "the capacity to keep functioning through an attack or disaster",
       "match": "nuclear-survivability"
@@ -65,6 +69,10 @@
     {
       "term": "logistics",
       "definition": "the organization of moving and storing goods"
+    },
+    {
+      "term": "to support",
+      "definition": "to back, to take the side of — careful: not to put up with or endure"
     },
     {
       "term": "to disrupt",

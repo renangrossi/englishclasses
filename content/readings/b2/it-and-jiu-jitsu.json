@@ -8,6 +8,7 @@
   "description": "A B2 reading and listening text following a programmer who postpones a job offer to compete in jiu-jitsu, built around the phrasal verbs of work and ambition, with vocabulary and comprehension exercises.",
   "source": "cefr/texts/it-and-jiu-jitsu.docx",
   "provenance": "edited",
+  "lexicalSet": "a phrasal-verb lesson across two unrelated fields",
   "narrator": "male",
   "audio": {
     "duration_label": "2:43"
@@ -80,6 +81,14 @@
       "match": "taking a complicated algorithm apart"
     },
     {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
+      "term": "to realize",
+      "definition": "to become aware of something — careful: not to carry something out"
+    },
+    {
       "term": "to pay off",
       "definition": "to produce a good result after a long effort",
       "match": "paid off"
@@ -131,6 +140,14 @@
     {
       "term": "to debug",
       "definition": "to find and remove the errors in a program"
+    },
+    {
+      "term": "a stranger",
+      "definition": "a person you do not know — careful: not a person from another country"
+    },
+    {
+      "term": "to push",
+      "definition": "to press or move something forward — careful: it means the opposite of pulling"
     }
   ],
   "exercises": [

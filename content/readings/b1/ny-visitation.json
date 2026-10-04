@@ -32,14 +32,14 @@
     "They gave the next morning to Central Park, and it turned out to be the right call. The park is far larger than it looks on a map — you can walk for an hour and still be inside it — and what struck all three of them was how ordinary it was. Dogs being walked, children on scooters, four different musicians within half a mile, people asleep on the grass in the middle of a working Tuesday. They found the Bethesda Fountain, photographed it along with everyone else, and then sat on the steps for twenty minutes doing nothing at all, which was not on the list and was the best part of the morning.",
     "Afterwards they stopped at a café, and Lucas took the map out again and put his finger on the Empire State Building. Rachel looked at it and said it was closer than it appeared. They asked the man behind the counter, who told them they could take the subway, take a taxi, or walk it in about twenty-five minutes if they did not mind the crowds on Fifth Avenue.",
     "They walked. That turned out to be the second good decision, because the walk was the city: the noise, the scaffolding, the six languages within one block, the way the buildings close in and then suddenly open out at an intersection.",
-    "At the top of the Empire State Building the wind was much stronger than any of them expected, and the view was worth the queue. Lucas took more photographs than he needed. Ben, who had been promised dinosaurs the following day, leaned on the rail and asked how long it would take to walk to the edge of the city, which none of them could answer.",
-    "Going back down in the lift, Lucas did the arithmetic and realized that in a day and a half they had done three things on a list of fifteen. He found he did not mind. They had seen a fountain, eaten a slice standing up, and walked twenty-five blocks through the middle of it, and the list would still be there next time."
+    "At the top of the Empire State Building the wind was much stronger than any of them expected, and the view was worth the line. Lucas took more photographs than he needed. Ben, who had been promised dinosaurs the following day, leaned on the rail and asked how long it would take to walk to the edge of the city, which none of them could answer.",
+    "Going back down in the elevator, Lucas did the arithmetic and realized that in a day and a half they had done three things on a list of fifteen. He found he did not mind. They had seen a fountain, eaten a slice standing up, and walked twenty-five blocks through the middle of it, and the list would still be there next time."
   ],
   "images": [
     {
       "src": "01.jpg",
       "after": 7,
-      "alt": "Central Park in autumn: a broad lawn with bare and orange-leaved trees along its edge, and no buildings in the frame",
+      "alt": "Central Park in fall: a broad lawn with bare and orange-leaved trees along its edge, and no buildings in the frame",
       "source": "commons:File:Autumn in Central Park. NYC.jpg",
       "relation": "depicts",
       "licence": "CC BY-SA 4.0",
@@ -79,6 +79,10 @@
       "definition": "a restaurant that specializes in pizza"
     },
     {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
       "term": "slice",
       "definition": "a single flat piece cut from something larger"
     },
@@ -108,16 +112,24 @@
       "match": "struck"
     },
     {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
       "term": "scaffolding",
       "definition": "the temporary framework put up around a building under repair"
     },
     {
-      "term": "queue",
-      "definition": "a line of people waiting"
+      "term": "line",
+      "definition": "a line of people waiting one behind another"
     },
     {
       "term": "rail",
       "definition": "a bar you can hold on to or lean against"
+    },
+    {
+      "term": "to realize",
+      "definition": "to become aware of something — careful: not to carry something out"
     },
     {
       "term": "block",

@@ -8,6 +8,7 @@
   "description": "A B2 reading and listening text packed with everyday phrasal verbs: cleaning up a bedroom, whipping up breakfast and going over code, with vocabulary and comprehension exercises.",
   "source": "cefr/texts/phrasal-verbs-01-bed-and-breakfast.docx",
   "provenance": "as-published",
+  "lexicalSet": "a phrasal-verb lesson; the forty verbs are the text",
   "audio": {
     "duration_label": "2:44"
   },

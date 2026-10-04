@@ -32,12 +32,12 @@
     {
       "src": "01.jpg",
       "after": 2,
-      "alt": "An aisle in a data centre lined with black server racks full of cabled equipment, lit by ceiling panels above a tiled floor",
+      "alt": "An aisle in a data center lined with black server racks full of cabled equipment, lit by ceiling panels above a tiled floor",
       "source": "commons:File:Datacenter Server Racks (22370909788).jpg",
       "licence": "CC BY 2.0",
       "author": "Carl Lender from Sunrise, USA",
       "source_url": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
-      "caption": "A data centre aisle. The hard problems in a building like this are electrical and thermal long before they are computational."
+      "caption": "A data center aisle. The hard problems in a building like this are electrical and thermal long before they are computational."
     },
     {
       "src": "02.jpg",
@@ -87,6 +87,10 @@
       "definition": "argued about; not settled"
     },
     {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
       "term": "prompt",
       "definition": "the instruction or question given to an AI system"
     },
@@ -97,6 +101,10 @@
     {
       "term": "codebase",
       "definition": "the whole body of source code belonging to a project"
+    },
+    {
+      "term": "to support",
+      "definition": "to back, to take the side of — careful: not to put up with or endure"
     },
     {
       "term": "oversight",

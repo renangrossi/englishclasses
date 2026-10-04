@@ -53,15 +53,6 @@
       "match": "apprenticed to"
     },
     {
-      "term": "to qualify",
-      "definition": "to complete the training that allows you to practice a profession"
-    },
-    {
-      "term": "anaesthetist",
-      "definition": "a doctor who puts patients to sleep for surgery",
-      "match": "anaesthetists"
-    },
-    {
       "term": "to break out",
       "definition": "to begin suddenly, said of a disease or a fire",
       "match": "broke out"
@@ -105,10 +96,6 @@
       "definition": "a device for raising water from underground"
     },
     {
-      "term": "subtle",
-      "definition": "faint; hard to notice"
-    },
-    {
       "term": "to cluster",
       "definition": "to gather closely in one area",
       "match": "clustered"
@@ -117,11 +104,6 @@
       "term": "to thin out",
       "definition": "to become fewer and more spread out",
       "match": "thinned out"
-    },
-    {
-      "term": "anomaly",
-      "definition": "a case that does not fit the pattern",
-      "match": "anomalies"
     },
     {
       "term": "workhouse",
@@ -134,10 +116,6 @@
     {
       "term": "cesspit",
       "definition": "an underground pit for sewage"
-    },
-    {
-      "term": "to diminish",
-      "definition": "to make something seem smaller or less important"
     },
     {
       "term": "epidemiology",

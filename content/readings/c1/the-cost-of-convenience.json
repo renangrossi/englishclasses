@@ -35,7 +35,7 @@
     {
       "src": "01.jpg",
       "after": 1,
-      "alt": "A coloured postcard of the Horn & Hardart Automat in Times Square, its front wall lined with small glass compartments holding dishes of food",
+      "alt": "A colored postcard of the Horn & Hardart Automat in Times Square, its front wall lined with small glass compartments holding dishes of food",
       "source": "commons:File:Horn & Hardart Times Square New York circa 1939.JPG",
       "caption": "The Horn & Hardart Automat, Times Square, around 1939. Put in a coin, open a little glass door, take the food out: no waiter, no order, no conversation.",
       "relation": "depicts"
@@ -50,18 +50,6 @@
   ],
   "vocabulary": [
     {
-      "term": "convenience",
-      "definition": "something that makes a task easier by removing a step"
-    },
-    {
-      "term": "agreeable",
-      "definition": "pleasant; easy to accept"
-    },
-    {
-      "term": "capability",
-      "definition": "the ability to do something yourself"
-    },
-    {
       "term": "to decay",
       "definition": "to weaken gradually through disuse",
       "match": "decays"
@@ -73,6 +61,10 @@
     {
       "term": "unaided",
       "definition": "without help"
+    },
+    {
+      "term": "convenient",
+      "definition": "easy, giving little trouble — careful: it is about convenience, not suitability"
     },
     {
       "term": "to audit",
@@ -102,10 +94,6 @@
       "match": "compounds"
     },
     {
-      "term": "migration",
-      "definition": "the work of moving everything from one system to another"
-    },
-    {
       "term": "to deceive",
       "definition": "to make somebody believe something untrue",
       "match": "deceived"
@@ -115,20 +103,8 @@
       "definition": "more and more as time passes"
     },
     {
-      "term": "reflexive",
-      "definition": "done automatically, without thought"
-    },
-    {
-      "term": "non-renewable",
-      "definition": "impossible to replace once used"
-    },
-    {
       "term": "self-reliance",
       "definition": "depending on yourself rather than on others"
-    },
-    {
-      "term": "reversible",
-      "definition": "able to be undone"
     },
     {
       "term": "to reconstruct",
@@ -138,10 +114,6 @@
       "term": "to agonise",
       "definition": "to worry at length over a decision",
       "match": "agonising"
-    },
-    {
-      "term": "dependence",
-      "definition": "the state of needing something you cannot do without"
     },
     {
       "term": "actually",

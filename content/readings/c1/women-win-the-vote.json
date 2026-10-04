@@ -58,12 +58,18 @@
       "definition": "the right to vote in political elections"
     },
     {
-      "term": "a convention",
-      "definition": "a large formal meeting of people with a shared purpose"
+      "term": "to carry",
+      "definition": "(of a motion or a vote) to be passed",
+      "match": "carried"
     },
     {
-      "term": "a resolution",
-      "definition": "a formal statement voted on by a meeting"
+      "term": "a wing",
+      "definition": "a faction inside a larger movement or party",
+      "match": "One wing"
+    },
+    {
+      "term": "to support",
+      "definition": "to back, to take the side of — careful: not to put up with or endure"
     },
     {
       "term": "to enfranchise",
@@ -88,10 +94,6 @@
     {
       "term": "to ratify",
       "definition": "to give formal approval, especially to an amendment or treaty"
-    },
-    {
-      "term": "naturalisation",
-      "definition": "the process of becoming a citizen of a country you were not born in"
     }
   ],
   "exercises": [

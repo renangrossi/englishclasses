@@ -12,7 +12,7 @@
 |---|---|
 | **Objective** | Audit, re-level, edit, de-duplicate and convert the whole reading/exercise library from PDF/DOCX into native HTML pages with audio, organized by CEFR level and topic. |
 | **Site** | https://renangrossi.github.io/englishclasses/ |
-| **Repo** | `/media/valusia/Documents/curso-ingles` (GitHub Pages, served from `/englishclasses/`) |
+| **Repo** | `/media/valusia/Documents/course-english` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
 | **Current phase** | 152 texts; the American History collection is complete, and the library has had a full audit pass (print, hierarchy, taxonomy, images, vocabulary, dialect) |
 | **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
@@ -29,7 +29,7 @@ navigation links. See [Decisions](#decisions) D-2.
 Run these before making changes:
 
 ```bash
-cd /media/valusia/Documents/curso-ingles
+cd /media/valusia/Documents/course-english
 git status --short && git branch --show-current
 git log --oneline -8
 python3 scripts/check_site_integrity.py        # must print "No errors."

@@ -8,6 +8,9 @@
   "description": "A C1 reading and listening text contrasting everyday life in Rio Grande do Sul with Japan — sociability, infrastructure, food and beauty — with advanced vocabulary and interpretation exercises.",
   "source": "cefr/texts/rs-japan.docx",
   "provenance": "rewritten",
+  "paddingNote": {
+    "FILLER": "\"at the end of the day\" is literal here: the low gold light across the pampas"
+  },
   "audio": {
     "duration_label": "5:14"
   },

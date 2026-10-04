@@ -15,7 +15,7 @@
 | **Repo** | `/media/valusia/Documents/course-english` (GitHub Pages, served from `/englishclasses/`) |
 | **Entry point** | `exercises.html` → to become the levelled library hub |
 | **Current phase** | 152 texts; the American History collection is complete, and the library has had a full audit pass (print, hierarchy, taxonomy, images, vocabulary, dialect) |
-| **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. 86 reading pages, every one narrated. A2, B1, B2 and C1 complete; A1 and C2 have no source material and need authoring. |
+| **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. **152 reading pages** (19 A1 / 24 A2 / 44 B1 / 30 B2 / 21 C1 / 14 C2), every one narrated and illustrated. Every level is populated; A1 and C2 were authored from scratch in milestones 7 and 8. |
 
 ### What this project is *not*
 It is not a redesign of the grammar-lesson system. `levels/{level}/*.html` + `curriculum/{level}/*.json`
@@ -516,22 +516,97 @@ The 46 files re-recorded in this pass were rendered from text differing only by 
 service discards, so they are byte-for-byte what the reverted text produces; only the manifest
 needed correcting. The library has one pause length, not two.
 
-### Milestone 14 — What is left after that
+### Milestone 14 — What was left after that
 
-1. **P-2, the geography balance** — travel is still the largest topic in B1.
-2. **Depth at C1 and C2.** The American History collection has largely answered this: C1 went
-   from 14 to 21 and C2 from 7 to 14, against B1's 44. The top of the library is no longer thin,
-   but it is now heavily weighted towards history, which is the next imbalance to watch.
-4. **102 analogue images with a bare caption** (`check_content.py --warnings`). Each names its
+1. **P-2, the geography balance** — travel was the largest topic in B1. Superseded by the
+   American History collection, which overshot: see P-7 below.
+2. **Depth at C1 and C2.** The American History collection answered this: C1 went from 14 to 21
+   and C2 from 7 to 14, against B1's 44. The top of the library is no longer thin.
+3. **102 analogue images with a bare caption** (`check_content.py --warnings`). Each names its
    work and never says why it is there. Most sit over a generic scene and are harmless; the
    dangerous ones are over a named place or person, and those were fixed. The rest is an
-   editorial backlog, not a bug.
-5. **Glossary sizes.** `check_vocabulary.py` reports 87 glossaries above the level's guidance and
-   193 transparent cognates that could give way to better words. The tool ranks them; the
-   trimming is a judgement call per text and was deliberately not done in bulk.
-6. **Four headwords taught in exercises but absent from their passage** (`to explore`,
-   `to secede`, `transcontinental`, `a bank holiday`). Either the passage should use the word or
-   the exercise should stop testing it.
+   editorial backlog, not a bug. **Still open.**
+4. ~~Glossary sizes and transparent cognates.~~ CLOSED by milestone 15.
+5. ~~Headwords taught in exercises but absent from their passage.~~ CLOSED by milestone 15: four
+   of the five were inflections an exact-match search had missed.
+
+### Milestone 15 — The vocabulary, dialect and padding backlog ✅
+
+Three of the four items above were editorial backlogs the tools had reported in bulk and nobody
+had worked through. Working through them showed that most of each number was the tool's, not the
+library's, so the tools were corrected in the same pass. **Where a count was real it was fixed;
+where the measure was wrong the measure was fixed; where a flag was a feature the text now says
+so, with the reason, in its own source.**
+
+**Dialect — one variety of English, finally.** `check_dialect.py --fix` had never been run over
+the image captions and alt text added in the illustration pass: 34 strings across 30 texts
+(*colour*, *centre*, *metres*, *grey*, *organising*). None was in a passage, so no narration
+changed. The word-choice list the script only ever reports was mostly false positives — it
+matches `tap` inside *tapes*, `lift` the verb, `flat` the adjective, `queue` meaning a backlog —
+so the 23 genuine Britishisms were fixed by hand (*petrol*→gasoline, *rubbish*→trash,
+*pavement*→sidewalk, *lift*→elevator, *timetable*→schedule, *flat*→apartment, *queue*→line,
+*autumn*→fall, *holiday*→vacation, *trousers*→pants, *primary school*→elementary school) under a
+stated rule: American where the text is set in the US or nowhere in particular; the British word
+kept where the text is set in Britain or the Commonwealth (`arriving-in-johannesburg`,
+`capetown`), where the word **is** the subject (the queueing joke in `what-doesnt-translate`, the
+explicit "American X / British Y" glossary pairs), and where American English uses it too
+(*autumn*, and *holiday* of a public holiday — `bank holiday` is the historical term and stays).
+
+**Orphan headwords — one of five was real.** `soma-nomaoi`'s matching exercise asked for
+*horagai* and the passage said "conch shells" without ever naming them; the passage now names
+them. The other four were inflections an exact-match search could not see: "struck down" for
+*strikes down*, "earning its keep" for *earns its keep*, "seceding" for *to secede*, "held public
+office" for *to hold office*. The original note's four were the same mistake.
+
+**Glossaries — 193 cognates, 153 false friends, 87 oversized, all resolved.**
+
+- *The cognate rule was over-firing.* It read the ENDING, so a Latinate suffix over an opaque core
+  passed as transparent: *unbearable*, *a constable*, *timetable*, *reliability*, *unemployment*.
+  Worse, four of its own suggestions were false friends — *relative* is parente not relativo,
+  *tentative* is hesitant, *formidable* is fearsome where formidável is wonderful,
+  *authoritative* is not autoritário — so the tool was recommending the deletion of the most
+  valuable entries on the page. `NOT_TRANSPARENT` is now consulted first, 100-odd words verified
+  by hand against Brazilian Portuguese were added to `TRANSPARENT`, and every remaining flag comes
+  from a checked list rather than a suffix. **140 entries dropped; 0 left.**
+- *The false friends were real and are now glossed.* 152 added in the house style — the meaning,
+  then `careful:` and the trap. Four were declined with reasons: "considerably stranger" is the
+  comparative of *strange*, and three were already covered by a better entry (`housing policy`,
+  `to push back`) or occur only in a section heading the builder does not highlight.
+- *The size band was absolute, and that was wrong at both ends.* A 1,075-word C1 text with 17
+  entries is a **sparse** glossary — one word in sixty — and was flagged, while a 120-word A1 text
+  with 13 was flagged by the same rule for something entirely different. The ceiling now grows
+  with the passage (3 entries per 100 words, never below the level's own figure, never past 2.5×
+  it, because a list of forty is unreadable however long the text). That cleared 40 of the 87.
+  26 texts whose glossary **is** the lesson — the A1 naming set, the phrasal-verb lessons,
+  `a-day-in-the-house` ("the vocabulary of every room", says its own subtitle) — now declare
+  `lexicalSet` with the reason. The remaining 25 were trimmed by hand, keeping false friends,
+  phrasal verbs and the terms a text turns on, and cutting the level-obvious and the incidental.
+  Five texts that would have dropped below their level's floor got words that earn the line
+  instead — *to drift into*, *on the grounds that*, *a wing* of a movement, *to carry* of a vote —
+  rather than keeping a cognate to make up the number.
+
+**Padding — the count was 20, the defects were two.** Reading all 20 settled it:
+
+- *DIVERSITY flags the bottom tenth of each length band.* It is a ranking, not a defect count: it
+  can never reach zero, and clearing one text only promotes the next. Measured and confirmed —
+  after the fix below, the flag count stayed at 17 with different texts in it. The summary now
+  tallies defects and this reading list separately, because "20 flagged" read as twenty faults.
+- *It was measuring the format, not the prose.* Four of the 17 were dialogues flagged for naming
+  their speakers on every line: *receptionist* ×15, *clerk* ×14, *detective* ×14, *manager* ×10.
+  Speaker labels are now stripped before the ratio is taken, using the same convention the page
+  builder uses, so the signal reads the writing. The rest were a text's own unavoidable subject
+  word — *flag* ×14, *beer* ×13, *coffee* ×10, *English* ×10 — or character names in a narrative.
+- *One real defect, fixed.* `martin-luther-king` had three sentences in a row opening "He was",
+  which is a tic rather than a rhythm; the third is now "At thirty-nine he had been…".
+- *Three flags were features and now say so.* `dream-bistro` and `rs-japan` use "at the end of the
+  day" literally — cleaning up after a shift, and the low gold light across the pampas — and
+  `beers`'s three "Anything called…" sentences are deliberate parallelism carrying a rule of
+  thumb. Each records a `paddingNote` with its reason, so the exception stays arguable instead of
+  being re-reported forever or silently dropped from the rule.
+
+Every validator is clean: `check_content` 152 sources, `check_site_integrity` 283 pages and 71
+curriculum lessons, 0 stale audio, 0 cognates, 0 oversized glossaries, 0 padding defects,
+0 dialect normalisations outstanding. 18 texts were re-narrated.
 
 ## Target architecture
 
@@ -814,6 +889,10 @@ Every action is finished: **KEEP** 15, **EDIT** 31, **REPLACE** 12, **MERGE** 15
   non-American.
 - **P-6 — The 51 pre-existing integrity warnings** in the grammar lessons are logged and
   deliberately untouched.
+- **P-7 — American History is now the largest topic.** OPEN, and the successor to P-2. The
+  collection took `american-history` to 38 of 152, against `everyday` 21 and `travel` 20, while
+  `world-history` has exactly one text. P-2's travel concentration is resolved; the imbalance has
+  simply moved. The next collection should go anywhere but the nineteenth-century United States.
 
 **Resolved since the original audit:**
 
@@ -915,17 +994,18 @@ belongs in `discussion` — which is what every reading page does — not in a `
 
 ### Work order
 
-Conversion is finished; there is no queue left in `cefr/texts/`. What remains:
+Conversion is finished; there is no queue left in `cefr/texts/`. A1, C2 and the illustration
+of every text are all done — milestones 7, 8 and 11 — and this section's old queue is kept only
+in the history above. What remains:
 
-1. **A1 from scratch.** Aim for a spread a beginner can actually finish: greetings and names,
-   numbers and time, family, food and ordering, a room described, a short day. Keep passages
-   under about 150 words, sentences short, and vocabulary concrete.
-2. **A small, honest C2 set.** Only where a text genuinely needs that level — argument,
-   register, irony, implication. Better to write four good ones than twelve padded ones.
-3. **Images for the texts already built.** 84 source documents contain images and 55 of those
-   are genuine content; only a handful have been carried across so far. Use
-   `scripts/extract_source_images.py --list <stem>` to see what a text has. Check the rights
-   before publishing — two images have already been held back for copyright.
+1. **A collection that is not American history** (P-7). The library's largest topic is now
+   `american-history` at 38 of 152, and `world-history` has one text. Anywhere else.
+2. **The 102 bare image captions.** `check_content.py --warnings` ranks them. Each names its work
+   and never says why it is there; the dangerous ones, over a named place or person, were already
+   fixed, so this is an editorial backlog rather than a bug.
+3. **The vocabulary-variety reading list.** `check_padding.py` names the bottom tenth of each
+   length band. It is a ranking and will never be empty — read it when you want something to
+   improve, not as a list of faults.
 
 **Audit the verdict as you go.** Two texts have now had their audited action changed on a close
 read — `nfl` (KEEP→EDIT, factual errors) and `investigation-story` (KEEP→EDIT, a graphic and

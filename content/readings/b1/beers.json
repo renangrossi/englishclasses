@@ -8,6 +8,9 @@
   "description": "A B1 reading and listening text explaining the main styles of beer and where their names come from, with vocabulary and comprehension exercises.",
   "source": "cefr/texts/beers.docx",
   "provenance": "rewritten",
+  "paddingNote": {
+    "REPEAT": "the three \"Anything called...\" sentences are deliberate parallelism carrying a rule of thumb, and read better than the varied version"
+  },
   "audio": {
     "duration_label": "3:59"
   },

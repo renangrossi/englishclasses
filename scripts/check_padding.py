@@ -63,6 +63,18 @@ def sentences(passage):
 
 BANDS = [(120, 300), (300, 500), (500, 700), (700, 10**6)]
 
+# A dialogue names its speakers on every line, and the first run of this flagged
+# four texts for it: "receptionist" fifteen times, "clerk" fourteen, "detective"
+# fourteen, "manager" ten. That is the format, not the prose, so the label is
+# stripped before the ratio is taken -- same convention the page builder uses to
+# recognise a speaker line.
+SPEAKER_RE = re.compile(r"^[A-Z][\w .'\-]{0,24}:\s")
+
+
+def narration(passage):
+    """The passage with speaker labels removed, which is what DIVERSITY reads."""
+    return [SPEAKER_RE.sub("", p) for p in passage]
+
 
 def band_of(n):
     for lo, hi in BANDS:
@@ -88,10 +100,15 @@ def analyse(level, slug, d, floors=None):
     low = text.lower()
     words = re.findall(r"[a-z']+", low)
     n = len(words)
+    spoken = re.findall(r"[a-z']+", " ".join(narration(passage)).lower())
     issues = []
+    # A text may record, in its own source, a signal already read and judged to
+    # be a feature. The reason is required; it is printed with the text so the
+    # exception stays arguable rather than becoming invisible.
+    waived = d.get("paddingNote") or {}
 
     for f in FILLER:
-        if f in low:
+        if f in low and "FILLER" not in waived:
             issues.append(("FILLER", f'"{f}"'))
 
     # Three or more consecutive sentences opening on the same two words.
@@ -102,14 +119,16 @@ def analyse(level, slug, d, floors=None):
         if i < len(opens) and opens[i] and opens[i] == opens[i - 1]:
             run += 1
             continue
-        if run >= 3 and opens[start]:
+        if run >= 3 and opens[start] and "REPEAT" not in waived:
             issues.append(("REPEAT", f'{run} sentences in a row open "{opens[start]}…"'))
         run, start = 1, i
 
     # Distinct-word ratio against the bottom decile of comparable texts here.
-    band = band_of(n)
-    if band and floors and band in floors and len(set(words)) / n <= floors[band]:
-        issues.append(("DIVERSITY", f"{len(set(words)) / n:.2f} distinct-word ratio — bottom tenth "
+    band = band_of(len(spoken))
+    ratio = len(set(spoken)) / len(spoken)
+    if (band and floors and band in floors and ratio <= floors[band]
+            and "DIVERSITY" not in waived):
+        issues.append(("DIVERSITY", f"{ratio:.2f} distinct-word ratio — bottom tenth "
                                     f"for {band[0]}+ word texts here (floor {floors[band]:.2f}). Read it."))
 
     floor = FLOOR.get(level, 200)
@@ -127,7 +146,7 @@ def main():
     # First pass: the library's own diversity distribution.
     measured = []
     for _, _, d in rc.all_sources():
-        w = re.findall(r"[a-z']+", " ".join(d["passage"]).lower())
+        w = re.findall(r"[a-z']+", " ".join(narration(d["passage"])).lower())
         b = band_of(len(w))
         if b:
             measured.append((b, len(set(w)) / len(w)))
@@ -155,8 +174,19 @@ def main():
             print(f"    {kind:10} {detail}")
     total = sum(1 for _ in rc.all_sources()) if not a.level else len(
         [1 for lv, _, _ in rc.all_sources() if lv == a.level])
-    print(f"\n{flagged} of {total} text(s) flagged" +
-          (f" — {dict(counts)}" if counts else ""))
+
+    # DIVERSITY is a RANKING, not a defect: it flags the bottom tenth of each
+    # length band, so it can never reach zero and clearing one text simply
+    # promotes the next. Counting it beside FILLER and REPEAT made the summary
+    # read as "20 faults" when the faults were two. They are tallied apart:
+    # the first number is work, the second is a reading list.
+    defects = sum(v for k, v in counts.items() if k != "DIVERSITY")
+    print(f"\n{defects} defect(s) across {total} text(s)" +
+          (f" — {dict((k, v) for k, v in counts.items() if k != 'DIVERSITY')}"
+           if defects else ""))
+    print(f"{counts['DIVERSITY']} text(s) in the bottom tenth for vocabulary "
+          f"variety — by construction, not a fault; read them when you are "
+          f"looking for something to improve.")
     return 0
 
 

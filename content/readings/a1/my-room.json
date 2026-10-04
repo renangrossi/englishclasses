@@ -9,6 +9,7 @@
   "description": "An A1 reading and listening text describing a small apartment, teaching furniture words and the prepositions that put things in a place.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "lexicalSet": "an A1 naming text: the short passage is a frame for the everyday words the glossary teaches",
   "narrator": "female",
   "audio": {
     "voice": "en-US-JennyNeural",

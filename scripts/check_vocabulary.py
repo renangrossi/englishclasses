@@ -46,6 +46,25 @@ import reading_common as rc
 LEVEL_TARGET = {"A1": (5, 8), "A2": (6, 10), "B1": (8, 12),
                 "B2": (10, 15), "C1": (10, 16), "C2": (10, 18)}
 
+# The band above is absolute, and that was wrong on the two ends of the
+# library. A 1,075-word C1 text with 17 entries is a SPARSE glossary -- one
+# word in sixty -- and it was flagged, while a 120-word A1 text with 13 was
+# flagged by the same rule for something entirely different. What a student
+# actually carries is the density: how often the reading stops to explain a
+# word. So the ceiling grows with the passage, never below the level's own
+# figure and never past 2.5x it, because a list of forty is unreadable however
+# long the text.
+DENSITY_PER_100 = 3.0
+MAX_OVER_LEVEL = 2.5
+
+
+def size_band(level, words):
+    """(lo, hi) for a passage of this level and length."""
+    lo, hi = LEVEL_TARGET.get(level, (8, 16))
+    import math
+    allowed = int(math.ceil(words / 100 * DENSITY_PER_100))
+    return lo, max(hi, min(allowed, int(round(hi * MAX_OVER_LEVEL))))
+
 # English ending -> the Portuguese ending it maps onto almost mechanically.
 # A word built on one of these, on a stem of any length, is readable on sight
 # by a Portuguese speaker.
@@ -78,6 +97,65 @@ TRANSPARENT = {
     "to continue", "to permit", "to admit", "to invent", "to prepare",
     "to decide", "to respect", "to resist", "to insist", "to persist",
     "to transport", "to transform", "to describe", "to observe", "to confirm",
+    # Verified by hand against Brazilian Portuguese while clearing the first
+    # cognate backlog. Each one has an everyday Portuguese cognate carrying the
+    # same sense, so the entry taught the reader a word they already had.
+    "bombardment", "constellation", "convention", "falsification", "formality",
+    "fugitive", "proposition", "refutation", "resolution", "temperament",
+    "accusation", "adaptation", "assertion", "expedition", "inevitability",
+    "inference", "anaesthetist", "anesthetist", "association", "autonomous",
+    "capability", "circulation", "circumlocution", "compensation",
+    "comprehension", "compression", "concession", "condescension",
+    "conservative", "consolation", "constitutive", "consumption", "contrary",
+    "convenience", "correlation", "counter-intuitive", "credibility",
+    "cynicism", "decorative", "deliberation", "denotation", "dependence",
+    "desegregation", "disillusionment", "dispossession", "disruption",
+    "documentation", "emancipation", "equitable", "euphemism", "exclusion",
+    "exhortation", "fragility", "glamorous", "impeachment", "improbable",
+    "incentive", "indistinguishable", "inseparable", "intelligible",
+    "intimidation", "intransitive", "intuition", "legislation", "mechanism",
+    "migration", "nationalist", "naturalisation", "naturalization",
+    "non-negotiable", "non-renewable", "obscurity", "parliament", "posthumous",
+    "precision", "prescription", "providence", "reflexive", "registration",
+    "representation", "reunification", "reverence", "reversible",
+    "segregation", "selection", "self-description", "separable", "skepticism",
+    "scepticism", "spontaneous", "synchronous", "government", "transformative",
+    "transmission", "unanimous", "visibility",
+    "to authorise", "to authorize", "to capitalize", "to crystallise",
+    "to crystallize", "to democratize", "to industrialise", "to industrialize",
+    "to metabolise", "to metabolize", "to minimise", "to minimize",
+    "to mobilize", "to optimize", "to prioritize", "to recognize",
+    "to romanticize", "to scrutinize", "to stabilise", "to stabilize",
+    "agreeable",
+    # Found by hand while trimming the oversized glossaries: the same class of
+    # word, caught by neither the suffix rule nor the list above.
+    "various", "inverted", "to exceed", "telemetry", "to circulate",
+    "inconsistent", "to diminish", "to qualify", "subtle", "anomaly",
+    "to tolerate", "elite", "carbohydrate", "margin", "contingency",
+    "tedious", "agenda", "recurring", "to expire", "hypothesis",
+    "apparatus", "perceptual", "catastrophe", "epidemic", "asymmetry",
+    "bureaucracy",
+}
+
+# The suffix rule reads the ENDING, and an English word can wear a Latinate
+# ending over a core a Portuguese speaker cannot see through: "unbearable" is
+# insuportável, "a constable" is a policial, "a timetable" is a grade horária.
+# Worse, three of these are false friends -- "relative" is parente not
+# relativo, "tentative" is hesitant not uma tentativa, "formidable" is
+# fearsome where formidável is wonderful, "authoritative" is not autoritário --
+# so the rule was telling the editor to delete the most valuable entries on the
+# page. Checked before the suffix rule; the explicit TRANSPARENT list still wins.
+NOT_TRANSPARENT = {
+    "allegiance", "amendment", "endowment", "appointment", "authoritative",
+    "burglary", "depletion", "discretion", "disfranchisement", "enforcement",
+    "expensive", "formidable", "implement", "indirection", "inequality",
+    "inheritance", "life-size", "peaceable", "predictable", "prospective",
+    "reenactment", "relative", "reliability", "self-invention", "self-reliance",
+    "serviceable", "settlement", "surveillance", "survivability", "tentative",
+    "timetable", "to enfranchise", "to overpromise", "unassimilable",
+    "unbearable", "unemployment", "unfalsifiable", "unglamorous",
+    "unresolvable", "untenable", "untranslatable", "enlightenment",
+    "constable", "accountable",
 }
 
 # The ones that matter most, because nothing about them looks difficult.
@@ -185,6 +263,8 @@ def is_transparent_cognate(term):
     s = _stem(t)
     if t in TRANSPARENT or s in TRANSPARENT:
         return True
+    if t in NOT_TRANSPARENT or s in NOT_TRANSPARENT:
+        return False
     if " " in s:                      # a phrase is not a single cognate
         return False
     # A known false friend LOOKS like a cognate and is the opposite of one.
@@ -232,10 +312,18 @@ def review(level, slug, d, include_context=False):
     ff = false_friends_in(d["passage"], include_context)
     missing_ff = {k: v for k, v in ff.items() if _stem(k) not in lowered}
 
-    lo, hi = LEVEL_TARGET.get(d["level"], (8, 16))
+    words = len(" ".join(d["passage"]).split())
+    lo, hi = size_band(d["level"], words)
     size_note = ""
     if len(vocab) > hi:
-        size_note = f"{len(vocab)} entries, above the {lo}-{hi} the level suggests"
+        # A text whose whole purpose is the word list -- the A1 naming texts,
+        # the phrasal-verb lessons -- says so in its own source, with the
+        # reason, and is held to the declaration rather than to the band.
+        if d.get("lexicalSet"):
+            size_note = ""
+        else:
+            size_note = (f"{len(vocab)} entries, above the {hi} a "
+                         f"{d['level']} passage of {words} words carries")
     elif len(vocab) < lo:
         size_note = f"only {len(vocab)} entries, below the {lo}-{hi} the level suggests"
     return cognates, missing_ff, size_note

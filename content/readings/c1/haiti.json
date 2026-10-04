@@ -62,6 +62,10 @@
       "definition": "given without naming a source"
     },
     {
+      "term": "an injury",
+      "definition": "physical harm to the body — careful: not an insult"
+    },
+    {
       "term": "to hedge",
       "definition": "to qualify a claim so as not to state it flatly",
       "match": "hedges"
@@ -79,20 +83,12 @@
       "definition": "the person or thing performing the action in a sentence"
     },
     {
-      "term": "asymmetry",
-      "definition": "an imbalance between two sides that should match"
-    },
-    {
       "term": "ceiling",
       "definition": "an upper limit rather than an expected value"
     },
     {
       "term": "framing",
       "definition": "the way a story's selection and arrangement shape its meaning"
-    },
-    {
-      "term": "agenda",
-      "definition": "an underlying purpose someone is pursuing"
     },
     {
       "term": "to skim past",
@@ -107,6 +103,10 @@
       "term": "to stack",
       "definition": "to pile several of the same thing together",
       "match": "stacked"
+    },
+    {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     }
   ],
   "exercises": [

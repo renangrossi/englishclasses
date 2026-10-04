@@ -80,6 +80,10 @@
       "definition": "all the people employed on a particular job"
     },
     {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
       "term": "to quarry",
       "definition": "to cut stone out of the ground for building",
       "match": "quarried"
@@ -105,6 +109,10 @@
       "term": "to submerge",
       "definition": "to cover completely with water",
       "match": "submerged"
+    },
+    {
+      "term": "a library",
+      "definition": "a place you borrow books from — careful: not a bookshop"
     },
     {
       "term": "to displace",

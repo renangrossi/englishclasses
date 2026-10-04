@@ -9,6 +9,7 @@
   "description": "An A1 reading and listening text about meeting someone for the first time: names, where you are from, and the things people say when they say hello.",
   "source": "authored for this site; no source document",
   "provenance": "new",
+  "lexicalSet": "an A1 naming text: the short passage is a frame for the everyday words the glossary teaches",
   "narrator": "female",
   "audio": {
     "voice": "en-US-JennyNeural",

@@ -58,11 +58,6 @@
       "match": "attributed to"
     },
     {
-      "term": "to spy",
-      "definition": "to catch sight of something, often at a distance",
-      "match": "spied"
-    },
-    {
       "term": "ripe",
       "definition": "ready to be eaten"
     },
@@ -71,26 +66,14 @@
       "definition": "the climbing plant that grapes grow on"
     },
     {
-      "term": "to burst",
-      "definition": "to break open from what is inside"
-    },
-    {
       "term": "one's mouth waters",
       "definition": "saliva forms because food looks good",
       "match": "mouth watered"
     },
     {
-      "term": "longingly",
-      "definition": "with strong, unsatisfied desire"
-    },
-    {
       "term": "to fall short",
       "definition": "to not reach far enough",
       "match": "fall short"
-    },
-    {
-      "term": "in vain",
-      "definition": "without success, after real effort"
     },
     {
       "term": "to wear oneself out",
@@ -102,38 +85,12 @@
       "definition": "sharp and unpleasant in taste, like an unripe fruit"
     },
     {
-      "term": "scornfully",
-      "definition": "in a way that shows open contempt"
-    },
-    {
-      "term": "to despise",
-      "definition": "to look down on with dislike"
-    },
-    {
-      "term": "beyond one's reach",
-      "definition": "impossible to obtain",
-      "match": "beyond their reach"
+      "term": "to pretend",
+      "definition": "to act as if something is true when it is not — careful: not to intend or plan"
     },
     {
       "term": "butcher",
       "definition": "somebody who cuts and sells meat"
-    },
-    {
-      "term": "prize",
-      "definition": "something won or gained and valued"
-    },
-    {
-      "term": "footbridge",
-      "definition": "a narrow bridge for people on foot"
-    },
-    {
-      "term": "greedy",
-      "definition": "wanting more than you need"
-    },
-    {
-      "term": "to spring at",
-      "definition": "to jump suddenly towards",
-      "match": "sprang at"
     },
     {
       "term": "bank",
@@ -145,12 +102,20 @@
       "match": "scrambled out"
     },
     {
+      "term": "to realize",
+      "definition": "to become aware of something — careful: not to carry something out"
+    },
+    {
       "term": "contempt",
       "definition": "the feeling that something is worthless"
     },
     {
       "term": "sour grapes",
       "definition": "pretending to scorn what you wanted and could not get"
+    },
+    {
+      "term": "actual",
+      "definition": "real, genuine — careful: not 'current'"
     }
   ],
   "exercises": [

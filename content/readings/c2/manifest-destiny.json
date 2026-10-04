@@ -31,7 +31,7 @@
     {
       "src": "02.jpg",
       "after": 2,
-      "alt": "A coloured lithograph of the Battle of Buena Vista: lines of American infantry and artillery on a ridge above a wide valley, with mountains behind and smoke along the line",
+      "alt": "A colored lithograph of the Battle of Buena Vista: lines of American infantry and artillery on a ridge above a wide valley, with mountains behind and smoke along the line",
       "source": "commons:File:Battle of Buena Vista Nebel.jpg",
       "caption": "*The Battle of Buena Vista* — Carl Nebel, 1847. A young congressman named Lincoln spent much of his single term arguing that this war had been begun on a false pretext."
     },
@@ -54,6 +54,10 @@
       "definition": "to spread out over the whole of something"
     },
     {
+      "term": "to push",
+      "definition": "to press or move something forward — careful: it means the opposite of pulling"
+    },
+    {
       "term": "to annex",
       "definition": "to take territory and add it to one's own state",
       "match": "annexed"
@@ -67,10 +71,6 @@
       "definition": "committed to one party or side"
     },
     {
-      "term": "circulation",
-      "definition": "the number of copies a publication sells"
-    },
-    {
       "term": "consensus",
       "definition": "general agreement"
     },
@@ -80,8 +80,8 @@
       "match": "contested"
     },
     {
-      "term": "a resolution",
-      "definition": "a formal motion put to a legislature"
+      "term": "a policy",
+      "definition": "a course of action an institution has decided on — careful: nothing to do with the police"
     },
     {
       "term": "to be confined to",
@@ -97,18 +97,6 @@
       "definition": "to take in and incorporate"
     },
     {
-      "term": "providence",
-      "definition": "the protective care of God or of nature"
-    },
-    {
-      "term": "dispossession",
-      "definition": "the taking of property or land from its holders"
-    },
-    {
-      "term": "a formality",
-      "definition": "something done only to satisfy the rules"
-    },
-    {
       "term": "unfalsifiable",
       "definition": "constructed so that no evidence could ever disprove it"
     },
@@ -121,16 +109,8 @@
       "definition": "here, to make a claim look untenable"
     },
     {
-      "term": "decorative",
-      "definition": "serving only as ornament; having no function"
-    },
-    {
       "term": "durable",
       "definition": "lasting"
-    },
-    {
-      "term": "an inevitability",
-      "definition": "something presented as impossible to prevent"
     }
   ],
   "exercises": [

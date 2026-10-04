@@ -8,6 +8,9 @@
   "description": "A B1 reading and listening text explaining the main styles of beer and where their names come from, with vocabulary and comprehension exercises.",
   "source": "cefr/texts/beers.docx",
   "provenance": "rewritten",
+  "paddingNote": {
+    "REPEAT": "the three \"Anything called...\" sentences are deliberate parallelism carrying a rule of thumb, and read better than the varied version"
+  },
   "audio": {
     "duration_label": "3:59"
   },
@@ -42,7 +45,7 @@
       "licence": "CC BY 2.0",
       "author": "Bernt Rostad from Oslo, Norway",
       "source_url": "https://commons.wikimedia.org/wiki/File:Schouskjelleren_Thunder_Bear_Stout_(5053316703).jpg",
-      "caption": "A stout. The colour comes from how far the malt was roasted, not from the strength — a stout can be weaker than a pale lager."
+      "caption": "A stout. The color comes from how far the malt was roasted, not from the strength — a stout can be weaker than a pale lager."
     }
   ],
   "vocabulary": [
@@ -79,6 +82,14 @@
     {
       "term": "aroma",
       "definition": "a smell, usually a pleasant one"
+    },
+    {
+      "term": "to push",
+      "definition": "to press or move something forward — careful: it means the opposite of pulling"
+    },
+    {
+      "term": "eventually",
+      "definition": "in the end, after a long time — careful: not 'from time to time'"
     },
     {
       "term": "crisp",

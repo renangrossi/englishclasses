@@ -46,7 +46,7 @@
     {
       "src": "02.jpg",
       "after": 11,
-      "alt": "An aisle in a data centre, with a tall black server cabinet beside a raised floor of white tiles and a monitoring screen mounted on the wall opposite",
+      "alt": "An aisle in a data center, with a tall black server cabinet beside a raised floor of white tiles and a monitoring screen mounted on the wall opposite",
       "source": "commons:File:CERN Computer Center 13.jpg",
       "licence": "CC BY-SA 4.0",
       "author": "SimonWaldherr",
@@ -63,10 +63,6 @@
   ],
   "vocabulary": [
     {
-      "term": "risk-adjusted",
-      "definition": "modified to take account of how uncertain the outcome is"
-    },
-    {
       "term": "NPV",
       "definition": "net present value — what a stream of future cash is worth today"
     },
@@ -76,6 +72,10 @@
       "match": "SLAs"
     },
     {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
       "term": "lever",
       "definition": "a variable you can actually pull to change an outcome",
       "match": "levers"
@@ -83,10 +83,6 @@
     {
       "term": "churn",
       "definition": "the rate at which customers stop buying"
-    },
-    {
-      "term": "margin",
-      "definition": "what is left of a sale once the cost of delivering it is removed"
     },
     {
       "term": "tail risk",
@@ -132,21 +128,12 @@
       "definition": "the legal requirement that data be stored inside a particular country"
     },
     {
-      "term": "to capitalize",
-      "definition": "to treat a cost as an asset spread over years rather than an expense charged at once",
-      "match": "capitalized"
-    },
-    {
       "term": "time-to-market",
       "definition": "how long it takes to get something from decision to customer"
     },
     {
       "term": "cost of capital",
       "definition": "the return a business must earn to justify the money tied up in it"
-    },
-    {
-      "term": "order of magnitude",
-      "definition": "a factor of about ten"
     },
     {
       "term": "showback",
@@ -157,13 +144,21 @@
       "definition": "matching the resources you pay for to the resources you actually use"
     },
     {
-      "term": "telemetry",
-      "definition": "the measurements a running system reports about itself"
+      "term": "a policy",
+      "definition": "a course of action an institution has decided on — careful: nothing to do with the police"
     },
     {
       "term": "stage gate",
       "definition": "a checkpoint a project must formally pass before more money is committed",
       "match": "stage gates"
+    },
+    {
+      "term": "actual",
+      "definition": "real, genuine — careful: not 'current'"
+    },
+    {
+      "term": "to support",
+      "definition": "to back, to take the side of — careful: not to put up with or endure"
     },
     {
       "term": "to sunset",
@@ -173,11 +168,6 @@
     {
       "term": "backlog",
       "definition": "the ordered queue of work a team has not yet done"
-    },
-    {
-      "term": "contingency",
-      "definition": "a plan prepared in advance for something that may not happen",
-      "match": "contingencies"
     }
   ],
   "exercises": [

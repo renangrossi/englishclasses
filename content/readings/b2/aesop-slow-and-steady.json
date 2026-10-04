@@ -71,10 +71,6 @@
       "definition": "a violin, in informal or folk use"
     },
     {
-      "term": "humbly",
-      "definition": "without pride; as somebody asking a favor"
-    },
-    {
       "term": "to beg",
       "definition": "to ask for something urgently and without dignity",
       "match": "begged"
@@ -100,17 +96,12 @@
       "match": "making fun of"
     },
     {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
       "term": "mocking",
       "definition": "showing that you find somebody ridiculous"
-    },
-    {
-      "term": "amused",
-      "definition": "finding something funny"
-    },
-    {
-      "term": "to consent",
-      "definition": "to agree to do something",
-      "match": "consented"
     },
     {
       "term": "to mark out",
@@ -120,10 +111,6 @@
     {
       "term": "course",
       "definition": "the route a race follows"
-    },
-    {
-      "term": "nap",
-      "definition": "a short sleep during the day"
     },
     {
       "term": "to catch up",

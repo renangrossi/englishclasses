@@ -52,10 +52,6 @@
       "match": "intended"
     },
     {
-      "term": "organized",
-      "definition": "arranged in a planned and orderly way"
-    },
-    {
       "term": "to divide",
       "definition": "to share something out between people",
       "match": "divided"
@@ -71,6 +67,10 @@
     {
       "term": "beforehand",
       "definition": "in advance of the event"
+    },
+    {
+      "term": "actual",
+      "definition": "real, genuine — careful: not 'current'"
     },
     {
       "term": "considerably",
@@ -93,14 +93,6 @@
       "term": "to keep something going",
       "definition": "to continue something without letting it stop",
       "match": "kept it going"
-    },
-    {
-      "term": "arranged",
-      "definition": "fixed and agreed in advance"
-    },
-    {
-      "term": "to suggest",
-      "definition": "to put an idea forward for consideration"
     }
   ],
   "exercises": [

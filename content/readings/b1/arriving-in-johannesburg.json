@@ -60,7 +60,7 @@
     {
       "src": "01.jpg",
       "after": 14,
-      "alt": "Johannesburg seen from a ridge in summer: the towers of the city centre on the horizon above an unbroken canopy of green trees, with jacarandas in flower in the foreground",
+      "alt": "Johannesburg seen from a ridge in summer: the towers of the city center on the horizon above an unbroken canopy of green trees, with jacarandas in flower in the foreground",
       "source": "commons:File:Johannesburg in December.jpg",
       "relation": "depicts",
       "licence": "CC BY-SA 4.0",
@@ -91,10 +91,6 @@
       "definition": "booking a car and driver through a phone app"
     },
     {
-      "term": "per person",
-      "definition": "for each individual, rather than for the group"
-    },
-    {
       "term": "timetable",
       "definition": "a list of the times at which something departs or happens"
     },
@@ -120,21 +116,16 @@
       "definition": "marked with signs showing the way"
     },
     {
+      "term": "an exit",
+      "definition": "the way out — careful: nothing to do with success"
+    },
+    {
       "term": "key card",
       "definition": "a plastic card used instead of a key to open a hotel room"
     },
     {
-      "term": "crooked",
-      "definition": "not straight"
-    },
-    {
       "term": "to reprogram",
       "definition": "to set an electronic device up again with new instructions"
-    },
-    {
-      "term": "to observe",
-      "definition": "to remark; to say something you have noticed",
-      "match": "observes"
     }
   ],
   "exercises": [

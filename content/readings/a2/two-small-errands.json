@@ -8,6 +8,7 @@
   "description": "An A2 reading and listening text with two short service scenes, a bakery and a gas station, teaching the everyday language of being served, with vocabulary and comprehension exercises.",
   "source": "cefr/texts/soothing-texts.docx (scenes 5 and 6)",
   "provenance": "edited",
+  "lexicalSet": "two service conversations taught phrase by phrase",
   "audio": {
     "duration_label": "2:48"
   },

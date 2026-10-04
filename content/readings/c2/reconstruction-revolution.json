@@ -53,10 +53,6 @@
   ],
   "vocabulary": [
     {
-      "term": "intransitive",
-      "definition": "(of a verb) taking no object — here, naming no one who did it"
-    },
-    {
       "term": "an agent",
       "definition": "the person or body that performs an action"
     },
@@ -87,16 +83,8 @@
       "match": "restrained"
     },
     {
-      "term": "an instrument",
-      "definition": "here, a legal means of acting"
-    },
-    {
       "term": "a settlement",
       "definition": "an arrangement ending a dispute"
-    },
-    {
-      "term": "an apparatus",
-      "definition": "a system of connected mechanisms for a purpose"
     },
     {
       "term": "disfranchisement",
@@ -119,6 +107,10 @@
       "definition": "lying flat; by extension, defeated and helpless"
     },
     {
+      "term": "eventually",
+      "definition": "in the end, after a long time — careful: not 'from time to time'"
+    },
+    {
       "term": "to redeem",
       "definition": "to recover or restore — the word the period's victors chose",
       "match": "redeemed"
@@ -133,13 +125,8 @@
       "definition": "the taking of something by force"
     },
     {
-      "term": "to stabilise",
-      "definition": "to hold something steady",
-      "match": "stabilised"
-    },
-    {
-      "term": "a refutation",
-      "definition": "a demonstration that a claim is false"
+      "term": "comprehensive",
+      "definition": "complete, covering everything — careful: not understanding or sympathetic"
     },
     {
       "term": "to consolidate",
@@ -149,6 +136,10 @@
     {
       "term": "downstream of",
       "definition": "determined by something that comes before it"
+    },
+    {
+      "term": "convenient",
+      "definition": "easy, giving little trouble — careful: it is about convenience, not suitability"
     },
     {
       "term": "to dismantle",

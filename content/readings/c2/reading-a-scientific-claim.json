@@ -46,21 +46,9 @@
   ],
   "vocabulary": [
     {
-      "term": "skepticism",
-      "definition": "a general attitude of doubt"
-    },
-    {
       "term": "to decline",
       "definition": "to choose not to do something",
       "match": "declined"
-    },
-    {
-      "term": "correlation",
-      "definition": "a relationship in which two things vary together, with no direction implied"
-    },
-    {
-      "term": "mechanism",
-      "definition": "the process by which one thing actually causes another"
     },
     {
       "term": "to adjust for",
@@ -113,13 +101,12 @@
       "definition": "a study that assigns people to groups by chance"
     },
     {
-      "term": "causal",
-      "definition": "concerning what actually makes something happen"
+      "term": "to support",
+      "definition": "to back, to take the side of — careful: not to put up with or endure"
     },
     {
-      "term": "hypothesis",
-      "definition": "a proposal still to be tested",
-      "match": "hypotheses"
+      "term": "causal",
+      "definition": "concerning what actually makes something happen"
     },
     {
       "term": "to misdirect",
@@ -129,10 +116,6 @@
     {
       "term": "biased",
       "definition": "systematically off in one direction"
-    },
-    {
-      "term": "precision",
-      "definition": "how tightly repeated measurements agree"
     },
     {
       "term": "accuracy",

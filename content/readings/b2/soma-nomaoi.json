@@ -9,7 +9,7 @@
   "source": "cefr/texts/soma-nomaoi.docx",
   "provenance": "edited",
   "audio": {
-    "duration_label": "3:36"
+    "duration_label": "3:37"
   },
   "grammar": [
     "present-perfect",
@@ -24,7 +24,7 @@
     "What survives today is a reenactment on a large scale. Hundreds of participants ride in armor that has in many cases been in the same family for generations, and descendants of the Soma clan still take the ceremonial roles, including that of commander-in-chief. The festival runs over three days at the end of May, across the Hibarigahara festival grounds and a number of local shrines.",
     "The first day belongs to the processions. Riders assemble in their districts and set out with portable shrines and their commanders, and the local parades bring the armor out into ordinary streets before anything competitive begins.",
     "The second day is the main one. It opens with a full parade of armored riders and continues into Kachu Keiba, the armored horse race — which is exactly what it sounds like, and considerably harder than an ordinary race, since the riders are carrying the weight of a complete set of armor. The event most people come for is the Shinki Sodatsusen, the sacred flag competition. Flags are launched into the air by fireworks, and the riders compete to catch them as they fall. It is fast, genuinely chaotic, and the closest thing the festival has to a spectacle in the modern sense.",
-    "The third day is quieter and more ritual. At Soma Odaka Shrine, participants dressed in white take part in Nomakake, the wild horse chase, in which a horse is pursued and symbolically captured as an offering — the oldest element of the whole festival, and the one closest to what Masakado's men are supposed to have done. The festival closes with the sounding of conch shells.",
+    "The third day is quieter and more ritual. At Soma Odaka Shrine, participants dressed in white take part in Nomakake, the wild horse chase, in which a horse is pursued and symbolically captured as an offering — the oldest element of the whole festival, and the one closest to what Masakado's men are supposed to have done. The festival closes with the sounding of the horagai, the conch-shell trumpets.",
     "None of this is without risk. These are real horses ridden at speed by riders in heavy armor, in front of crowds, and injuries to riders and occasionally to spectators do happen when a horse bolts. The organizers manage the risk rather than eliminate it, which is the honest position for an event of this kind.",
     "The festival's modern significance is harder to separate from where it takes place. The Soma region lies on the coast that was struck by the earthquake and tsunami of March 2011, and by the nuclear accident that followed. Communities were evacuated, some for years. Holding the festival at all in the years immediately afterward required horses, armor, grounds and people who had all been displaced, and in some cases lost. That it continued, and that families who had left still returned to ride, is why participants tend to talk about it now in terms of continuity rather than pageantry. It is a thousand-year-old ritual that has become, without anyone planning it, a demonstration that the community still exists."
   ],
@@ -77,6 +77,14 @@
     {
       "term": "reenactment",
       "definition": "a performance that recreates a historical event"
+    },
+    {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
+      "term": "an injury",
+      "definition": "physical harm to the body — careful: not an insult"
     },
     {
       "term": "to bolt",

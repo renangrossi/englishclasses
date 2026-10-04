@@ -60,6 +60,10 @@
       "match": "retreat into"
     },
     {
+      "term": "a stranger",
+      "definition": "a person you do not know — careful: not a person from another country"
+    },
+    {
       "term": "jargon",
       "definition": "the specialist words of a trade, meaningless to outsiders"
     },
@@ -69,13 +73,13 @@
       "match": "look after"
     },
     {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
       "term": "to consume time",
       "definition": "to take up a large share of it",
       "match": "consume the time"
-    },
-    {
-      "term": "recurring",
-      "definition": "happening again and again at regular intervals"
     },
     {
       "term": "to weigh one thing against another",

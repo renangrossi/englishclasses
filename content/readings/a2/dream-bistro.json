@@ -8,6 +8,9 @@
   "description": "An A2 reading and listening text about someone planning to open a bistro, contrasting present simple, present continuous and simple past, with work and food vocabulary.",
   "source": "cefr/texts/dream-bistro.docx",
   "provenance": "edited",
+  "paddingNote": {
+    "FILLER": "\"at the end of the day\" is literal here: cleaning up after a shift"
+  },
   "narrator": "male",
   "grammar": [
     "present-perfect",

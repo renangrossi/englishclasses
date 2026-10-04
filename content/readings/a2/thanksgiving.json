@@ -68,10 +68,6 @@
       "definition": "the closed hot box you cook food inside"
     },
     {
-      "term": "wonderful",
-      "definition": "very good"
-    },
-    {
       "term": "to fall asleep",
       "definition": "to start sleeping",
       "match": "fall asleep"
@@ -89,11 +85,6 @@
       "term": "relative",
       "definition": "a person in your family",
       "match": "relatives"
-    },
-    {
-      "term": "to agree",
-      "definition": "to have the same opinion",
-      "match": "agree"
     }
   ],
   "exercises": [

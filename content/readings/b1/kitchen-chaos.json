@@ -8,6 +8,7 @@
   "description": "A B1 reading and listening text on cooking as a break from programming, built around the phrasal verbs of preparing a meal, with vocabulary and comprehension exercises.",
   "source": "cefr/texts/kitchen-chaos-i.docx + cefr/texts/kitchen-chaos-ii.docx",
   "provenance": "merged",
+  "lexicalSet": "the cooking and debugging vocabulary the two halves share",
   "narrator": "male",
   "audio": {
     "duration_label": "2:49"
@@ -51,6 +52,10 @@
     }
   ],
   "vocabulary": [
+    {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
+    },
     {
       "term": "to pull out",
       "definition": "to take something out of where it is stored",

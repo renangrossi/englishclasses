@@ -32,7 +32,7 @@
     {
       "src": "02.jpg",
       "after": 0,
-      "alt": "Daniel Chester French's Minute Man statue at Concord: a bronze farmer in colonial dress stepping forward with a musket in one hand, his other still resting on the plough he has left",
+      "alt": "Daniel Chester French's Minute Man statue at Concord: a bronze farmer in colonial dress stepping forward with a musket in one hand, his other still resting on the plow he has left",
       "source": "commons:File:Minute Man, Daniel Chester French, Concord MA (cropped).jpg",
       "caption": "*The Minute Man* — Daniel Chester French, 1875. One man, one decision, one moment, cast a century after the event it commemorates."
     },
@@ -49,17 +49,13 @@
       "after": 2,
       "alt": "The 1963 March on Washington photographed from the Lincoln Memorial: a crowd of hundreds of thousands filling both sides of the reflecting pool, with the Washington Monument beyond",
       "source": "commons:File:View of Crowd at 1963 March on Washington.jpg",
-      "caption": "The March on Washington, 28 August 1963. Organising it took two years, several organisations and a transport operation of its own."
+      "caption": "The March on Washington, 28 August 1963. Organizing it took two years, several organisations and a transport operation of its own."
     }
   ],
   "vocabulary": [
     {
       "term": "a template",
       "definition": "a fixed pattern that other things are made to fit"
-    },
-    {
-      "term": "visibility",
-      "definition": "the state of being seen or noticed"
     },
     {
       "term": "backing",
@@ -70,10 +66,6 @@
       "definition": "to confirm officially that something is what it claims to be"
     },
     {
-      "term": "documentation",
-      "definition": "the systematic recording of facts and cases"
-    },
-    {
       "term": "hostile",
       "definition": "unfriendly; opposed"
     },
@@ -81,14 +73,6 @@
       "term": "to overload",
       "definition": "to give more work than can be handled",
       "match": "overloaded"
-    },
-    {
-      "term": "unanimous",
-      "definition": "agreed by everybody involved"
-    },
-    {
-      "term": "contrary",
-      "definition": "opposed; pointing the other way"
     },
     {
       "term": "to represent",
@@ -105,11 +89,6 @@
     {
       "term": "self-making",
       "definition": "the idea that a person creates their own position unaided"
-    },
-    {
-      "term": "to minimise",
-      "definition": "to make something seem smaller than it is",
-      "match": "minimised"
     },
     {
       "term": "to attribute",
@@ -137,14 +116,6 @@
     {
       "term": "a carrier wave",
       "definition": "in radio, the signal that carries the content"
-    },
-    {
-      "term": "a falsification",
-      "definition": "a version altered so that it is no longer true"
-    },
-    {
-      "term": "compression",
-      "definition": "the reduction of something to a smaller form"
     },
     {
       "term": "legitimate",

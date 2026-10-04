@@ -47,8 +47,8 @@
   ],
   "vocabulary": [
     {
-      "term": "tedious",
-      "definition": "boring through repetition"
+      "term": "to attend",
+      "definition": "to go to, to be present at — careful: not to answer or to serve"
     },
     {
       "term": "to schedule",
@@ -85,18 +85,6 @@
       "match": "shrink"
     },
     {
-      "term": "agenda",
-      "definition": "the list of items a meeting will cover"
-    },
-    {
-      "term": "synchronous",
-      "definition": "happening at the same time for everybody"
-    },
-    {
-      "term": "incentive",
-      "definition": "the thing that makes a person act as they do"
-    },
-    {
       "term": "unglamorous",
       "definition": "dull and unimpressive, whatever its merits"
     },
@@ -113,17 +101,8 @@
       "definition": "to put somebody off doing something"
     },
     {
-      "term": "recurring",
-      "definition": "happening again at regular intervals"
-    },
-    {
-      "term": "to expire",
-      "definition": "to come to an end automatically",
-      "match": "expire"
-    },
-    {
-      "term": "exhortation",
-      "definition": "urging people to do better"
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     },
     {
       "term": "to lapse",

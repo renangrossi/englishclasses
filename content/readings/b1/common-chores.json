@@ -8,6 +8,7 @@
   "description": "A B1 reading and listening text following a Saturday of errands and chores in Texas, built around the everyday phrasal verbs of housework and shopping, with vocabulary and comprehension exercises.",
   "source": "cefr/texts/common-chores.docx + cefr/texts/common-chores-ii.docx",
   "provenance": "merged",
+  "lexicalSet": "a phrasal-verb lesson built on one Saturday morning",
   "narrator": "male",
   "audio": {
     "duration_label": "3:07"

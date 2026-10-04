@@ -59,6 +59,10 @@
       "match": "rides"
     },
     {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
       "term": "stall",
       "definition": "a small open shop or counter at a market or fair",
       "match": "stalls"
@@ -89,18 +93,6 @@
       "term": "to catch on",
       "definition": "to become popular",
       "match": "caught on"
-    },
-    {
-      "term": "improbable",
-      "definition": "unlikely; hard to believe"
-    },
-    {
-      "term": "fairground",
-      "definition": "the open space where a fair is held"
-    },
-    {
-      "term": "association",
-      "definition": "a connection in people's minds between two things"
     },
     {
       "term": "to turn up",

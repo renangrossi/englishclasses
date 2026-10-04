@@ -56,6 +56,10 @@
       "definition": "to hide something deliberately"
     },
     {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
       "term": "to reign",
       "definition": "to rule as monarch in your own right",
       "match": "reigning"
@@ -93,6 +97,10 @@
       "match": "attributed"
     },
     {
+      "term": "to support",
+      "definition": "to back, to take the side of — careful: not to put up with or endure"
+    },
+    {
       "term": "selectively",
       "definition": "choosing only certain cases rather than all of them"
     },
@@ -111,6 +119,10 @@
     {
       "term": "to reassemble",
       "definition": "to put the pieces of something back together"
+    },
+    {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     }
   ],
   "exercises": [

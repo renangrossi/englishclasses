@@ -16,7 +16,7 @@
   ],
   "passage": [
     "A car has thousands of parts, but almost all of them belong to one of about six systems. If you know what those six do, you can follow most of what a mechanic tells you, and you can describe a problem in a way that gets it fixed.",
-    "The engine produces the power. In a petrol or diesel engine, fuel burns inside sealed cylinders, and the force of each small explosion pushes a piston down. The pistons turn a crankshaft, which converts that up-and-down movement into the rotation the car actually needs, and valves open and close to let fuel and air in and exhaust gases out. Timing is everything: the valves, the pistons and the ignition have to act within thousandths of a second of each other. An electric car does away with all of it. A battery supplies current to one or more motors, and the motors turn directly — far fewer moving parts, and almost no noise.",
+    "The engine produces the power. In a gasoline or diesel engine, fuel burns inside sealed cylinders, and the force of each small explosion pushes a piston down. The pistons turn a crankshaft, which converts that up-and-down movement into the rotation the car actually needs, and valves open and close to let fuel and air in and exhaust gases out. Timing is everything: the valves, the pistons and the ignition have to act within thousandths of a second of each other. An electric car does away with all of it. A battery supplies current to one or more motors, and the motors turn directly — far fewer moving parts, and almost no noise.",
     "The transmission decides how that power reaches the wheels. An engine only produces useful power across a narrow range of speeds, so the transmission uses gears to keep it inside that range whether the car is pulling away from a stop or traveling at a hundred kilometers an hour. A low gear gives more turning force and less speed, which is what you want on a hill; a high gear gives the opposite. A manual transmission makes the driver choose; an automatic chooses for them. Electric motors produce their full turning force from a standstill, which is why most electric cars need only a single gear.",
     "From the transmission, the power passes through the drivetrain — the shafts and the differential — to the wheels. The differential exists because of a problem that is easy to miss: when a car turns a corner, the outside wheel travels further than the inside one, so the two cannot be locked together at the same speed. The differential lets them turn at different rates. Cars send this power to the front wheels, the rear wheels, or all four, and all-wheel drive gives more grip on a loose or wet surface.",
     "The chassis is the structure everything else is attached to — usually steel, sometimes aluminum, and designed as much to absorb the energy of a crash as to hold the car together. Mounted on it is the suspension: springs, dampers and the arms that hold the wheels in position. Its job is not only comfort. A wheel that bounces off the road surface is a wheel that is not steering or braking, so suspension is a safety system as much as a ride-quality one.",
@@ -50,12 +50,20 @@
       "match": "cylinders"
     },
     {
+      "term": "to push",
+      "definition": "to press or move something forward — careful: it means the opposite of pulling"
+    },
+    {
       "term": "piston",
       "definition": "the part pushed down inside a cylinder by burning fuel"
     },
     {
       "term": "crankshaft",
       "definition": "the shaft that turns up-and-down piston movement into rotation"
+    },
+    {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     },
     {
       "term": "valve",

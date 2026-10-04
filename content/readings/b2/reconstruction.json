@@ -70,20 +70,16 @@
       "match": "held public office"
     },
     {
+      "term": "ordinary",
+      "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
       "term": "to suppress",
       "definition": "to stop something by force or authority"
     },
     {
       "term": "a poll tax",
       "definition": "a payment required before a person is allowed to vote"
-    },
-    {
-      "term": "intimidation",
-      "definition": "the use of fear or threats to control people"
-    },
-    {
-      "term": "segregation",
-      "definition": "the enforced separation of racial groups in public life"
     },
     {
       "term": "to support",

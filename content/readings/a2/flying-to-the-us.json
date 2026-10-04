@@ -64,7 +64,7 @@
     {
       "src": "02.jpg",
       "after": 8,
-      "alt": "A row of airline check-in counters in a bright modern airport terminal, each with a numbered screen above it and passengers queueing with luggage",
+      "alt": "A row of airline check-in counters in a bright modern airport terminal, each with a numbered screen above it and passengers waiting in line with luggage",
       "source": "commons:File:VTBS-Thai Airways Check-in counters.JPG",
       "caption": "Check-in counters at Suvarnabhumi, Bangkok. Name, destination, bags, seat — four questions in a fixed order, in every airport on earth."
     },
@@ -81,6 +81,10 @@
     {
       "term": "round trip",
       "definition": "there and back (American English; British: return)"
+    },
+    {
+      "term": "to attend",
+      "definition": "to go to, to be present at — careful: not to answer or to serve"
     },
     {
       "term": "to book / a reservation",

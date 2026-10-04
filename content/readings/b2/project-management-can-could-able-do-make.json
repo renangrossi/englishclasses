@@ -66,10 +66,6 @@
       "match": "reach out"
     },
     {
-      "term": "non-negotiable",
-      "definition": "not open to discussion or compromise"
-    },
-    {
       "term": "rapport",
       "definition": "an easy, trusting working relationship"
     },
@@ -100,6 +96,10 @@
       "definition": "the work of testing and checking that what is built meets its standard"
     },
     {
+      "term": "to support",
+      "definition": "to back, to take the side of — careful: not to put up with or endure"
+    },
+    {
       "term": "to regroup",
       "definition": "to meet again after separate work to compare notes and decide the next step"
     },
@@ -107,6 +107,10 @@
       "term": "to close out",
       "definition": "to finish a phase of work and formally end it",
       "match": "close out"
+    },
+    {
+      "term": "actually",
+      "definition": "in fact, really — careful: not 'at the moment'"
     }
   ],
   "exercises": [

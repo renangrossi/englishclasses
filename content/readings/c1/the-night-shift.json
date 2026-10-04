@@ -26,7 +26,7 @@
     "Around two o'clock the ward develops its particular quality. Patients who were stoical at eleven begin to ask questions they would not ask in daylight, and the questions are rarely medical. Marisol has learned that a request for water at two in the morning is sometimes a request for water, and is often a request for somebody to stand there for ninety seconds. She gives the ninety seconds when she has them. The arithmetic of the ward decides whether she has them.",
     "Her own body has been arguing with her for nine years and is winning on points. The research is not reassuring: shift work is associated with elevated cardiovascular risk, with metabolic disruption, with a measurable deficit in reaction time toward the end of a run of nights. She knows this literature better than most of the day staff, because people who work nights tend to read about working nights. She also knows that the studies describe populations and not individuals, which is the consolation available, and that it is a thin one.",
     "The social cost is harder to quantify and, she says, larger. Her daughter is nineteen now. Marisol missed a great many evenings in the middle of that, and the missing was not dramatic — no single catastrophe, just the steady absence of a person at the hour when a household talks. Friendships thinned by the same mechanism. The people who remained were the ones who would meet at odd hours or not mind a reply at three in the morning, and that selection, she notes, is not accidental: most of them also work nights.",
-    "There are compensations and she is precise about them. The commute is twenty minutes instead of an hour. She has never once queued in a bank. There is a camaraderie among people who are awake together while a city sleeps that she has not found anywhere else, and it is not nostalgia talking, because it is still happening. And there is the specific satisfaction of being the person who is there — not the best clinician in the building, which she is not, but the one present at the moment when presence is what is required.",
+    "There are compensations and she is precise about them. The commute is twenty minutes instead of an hour. She has never once waited in line at a bank. There is a camaraderie among people who are awake together while a city sleeps that she has not found anywhere else, and it is not nostalgia talking, because it is still happening. And there is the specific satisfaction of being the person who is there — not the best clinician in the building, which she is not, but the one present at the moment when presence is what is required.",
     "At six the light changes in the windows along the east corridor and the building starts to refill. The day team arrives with coffee and weather and the loud competence of people who have slept. Marisol gives the handover, which takes eleven minutes, and the ward becomes somebody else's.",
     "She drives home against the traffic. She is asleep by eight, and the city she lives in is one she mostly reads about."
   ],
@@ -70,10 +70,6 @@
       "match": "referred upward"
     },
     {
-      "term": "autonomous",
-      "definition": "acting without needing permission"
-    },
-    {
       "term": "ward",
       "definition": "a room or section of a hospital holding several patients"
     },
@@ -95,10 +91,6 @@
       "definition": "higher than normal"
     },
     {
-      "term": "disruption",
-      "definition": "a breaking of the normal working order"
-    },
-    {
       "term": "deficit",
       "definition": "a shortfall against what there should be"
     },
@@ -107,16 +99,8 @@
       "definition": "the body of published research on a subject"
     },
     {
-      "term": "consolation",
-      "definition": "something that makes a hard fact easier to bear"
-    },
-    {
       "term": "to quantify",
       "definition": "to express as a number"
-    },
-    {
-      "term": "catastrophe",
-      "definition": "a sudden great disaster"
     },
     {
       "term": "to thin",
@@ -124,18 +108,8 @@
       "match": "thinned"
     },
     {
-      "term": "selection",
-      "definition": "the process by which some are kept and others fall away"
-    },
-    {
-      "term": "compensation",
-      "definition": "something good that makes up for something bad",
-      "match": "compensations"
-    },
-    {
-      "term": "to queue",
-      "definition": "to wait in a line",
-      "match": "queued"
+      "term": "to wait in line",
+      "definition": "to wait in a line"
     },
     {
       "term": "camaraderie",

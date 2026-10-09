@@ -522,10 +522,9 @@ needed correcting. The library has one pause length, not two.
    American History collection, which overshot: see P-7 below.
 2. **Depth at C1 and C2.** The American History collection answered this: C1 went from 14 to 21
    and C2 from 7 to 14, against B1's 44. The top of the library is no longer thin.
-3. **102 analogue images with a bare caption** (`check_content.py --warnings`). Each names its
-   work and never says why it is there. Most sit over a generic scene and are harmless; the
-   dangerous ones are over a named place or person, and those were fixed. The rest is an
-   editorial backlog, not a bug. **Still open.**
+3. ~~102 analogue images with a bare caption.~~ CLOSED by the caption pass (`9f2d368`): every
+   gallery caption now says something about its picture. `check_content.py --warnings` reports
+   nothing across all 152 sources, so the number this item was tracking is zero.
 4. ~~Glossary sizes and transparent cognates.~~ CLOSED by milestone 15.
 5. ~~Headwords taught in exercises but absent from their passage.~~ CLOSED by milestone 15: four
    of the five were inflections an exact-match search had missed.
@@ -607,6 +606,53 @@ office" for *to hold office*. The original note's four were the same mistake.
 Every validator is clean: `check_content` 152 sources, `check_site_integrity` 283 pages and 71
 curriculum lessons, 0 stale audio, 0 cognates, 0 oversized glossaries, 0 padding defects,
 0 dialect normalisations outstanding. 18 texts were re-narrated.
+
+### Milestone 16 — The hub reaches the verb list, and the sources are retired ✅
+- **Date:** 2026-10-09
+- **Branches:** `feat/hub-irregular-verbs-button` (merge `1b23c80`), `chore/retire-converted-sources`
+  → merged to `main`
+
+**An Irregular Verbs button on the library hub.** The irregular verb list was reachable from
+`extras.html` and `manoelito.html` but not from `exercises.html`, which is where a student
+looking for drills lands. The button went into `scripts/build_exercises_hub.py`, not into the
+page: `exercises.html` is generated, so a hand-edit would have been wiped by the next hub
+rebuild. The untouched generator was run and diffed against the committed page first, to prove
+the rebuild would sweep nothing else in; the resulting change to `exercises.html` is one line.
+Zero new CSS. The wrapper borrows `.hero__actions` — the flex row `index.html` and `progress.html`
+already use for buttons under a dark banner — because the only `.page-header__actions` margin
+rule is scoped to `.page-header--slim` and this banner is the full one, so the button would
+otherwise have sat flush under the lede. Inside `.page-header` a plain `.btn--ghost` is already
+corrected for the dark background, and the list icon is the one `manoelito.html` and the `cefr`
+pages use.
+
+**The converted source documents are gone — 90 MB.** All 156 `.docx` and `.pdf` files in
+`cefr/texts/` were deleted. Conversion and illustration are both finished, so nothing read them
+any more, and that was checked rather than assumed: no page hyperlinks one, no `url` in
+`worker/course-catalog.json` points inside the folder, and `build_content_audit.py` only names
+the path in the prose it generates — it builds from `docs/reading-library-map.json` and still
+regenerates byte-identically. The six `.mp3` source recordings were left in place.
+`docs/reading-library-map.json` keeps every source filename as provenance, which is now the only
+record outside git history that those documents existed.
+
+**Four orphans and a worksheet the AI teacher was offering twice.** Beyond `cefr/texts/`, six
+files in the grammar-lesson folders were dead. `b-present-perfect-continuous-copy.docx` is
+referenced nowhere. `future-perfect-and-future-continuous.pdf` looked referenced but was not —
+the only match is a section anchor of the same name in `levels/b2/test-yourself.html`. The other
+four are the two A2 worksheets `curriculum/index.json` already records as resolved duplicates:
+`r-can-could-may` merged into `g-can-could-may`, and `f-past-simple-and-continuous` into
+`p-simple-past-vs.-past-continuous`. Both merge targets are on disk and in the catalog, but the
+superseded pair was still being served — the catalog listed "Can, Could, May" twice with
+identical titles and aliases — so those two `resources` entries went with the files.
+
+**What was deliberately kept.** 159 documents remain, 122 MB, and every one earns its place: 90
+are live downloads linked from `levels/*.html` and `simulated-exams.html`, and the other 69 are
+the editable `.docx` masters beside those linked PDFs. The grammar-lesson system is out of scope
+(D-2) and a teacher needs its sources, so none of it was touched. Deleting a master whose PDF is
+a live download is a separate decision and was left to the user.
+
+Both gates clean afterwards — `check_site_integrity` 283 pages and 71 curriculum lessons,
+`check_content` 152 sources — plus a sweep of every `href`/`src` ending in `.docx` or `.pdf`
+across every page and every `url` in the worker catalog: 0 broken references.
 
 ## Target architecture
 
@@ -704,6 +750,9 @@ python3 -m venv /tmp/rl-venv && /tmp/rl-venv/bin/pip install edge-tts
 /tmp/rl-venv/bin/edge-tts --voice en-US-JennyNeural --text "test" --write-media /tmp/t.mp3
 python3 scripts/extract_source_docs.py /tmp/extracted   # re-extract all source docs
 ```
+`extract_source_docs.py` and `extract_source_images.py` are kept for the record and no longer
+have inputs: the `.docx` and `.pdf` in `cefr/texts/` were deleted in milestone 16. Recover them
+from git history before `6f1e2bb` if either tool is ever needed again.
 
 ---
 
@@ -781,7 +830,8 @@ progress can be tracked and resumed. `docs/content-audit.md` is the human-readab
 **Progress:** 87 IMPLEMENTED · 11 COMPLETE (deleted) · 0 NOT STARTED · 98 AUDITED
 
 Every action is finished: **KEEP** 15, **EDIT** 31, **REPLACE** 12, **MERGE** 15, **CONVERT** 8,
-**SPLIT** 6, **DELETE** 11. Nothing in `cefr/texts/` is awaiting conversion.
+**SPLIT** 6, **DELETE** 11. Nothing in `cefr/texts/` is awaiting conversion, and as of
+milestone 16 the folder's source documents are deleted — only the six `.mp3` recordings remain.
 
 ---
 
@@ -970,7 +1020,8 @@ Extract them with `python3 scripts/extract_source_images.py <docx-stem> <level>/
 (`--list` to look first). It skips the two boilerplate images by hash — a 36 KB logo present in
 72 of the source documents and a 1.2 MB decorative header present in 12 — so only the artwork
 belonging to the text comes out. 84 source documents contain images and 55 of them are genuine
-content, so most texts still to be converted have artwork worth carrying across.
+content. Nothing is left to convert, and the source documents were deleted in milestone 16, so
+this records how the artwork got here rather than a step still to run.
 
 **Check the rights before publishing one.** Most of these are old engravings, frescoes and
 period postcards, which are fine. Some are not: the Grinch still in `christmas-krampus-grinch`
@@ -1000,10 +1051,7 @@ in the history above. What remains:
 
 1. **A collection that is not American history** (P-7). The library's largest topic is now
    `american-history` at 38 of 152, and `world-history` has one text. Anywhere else.
-2. **The 102 bare image captions.** `check_content.py --warnings` ranks them. Each names its work
-   and never says why it is there; the dangerous ones, over a named place or person, were already
-   fixed, so this is an editorial backlog rather than a bug.
-3. **The vocabulary-variety reading list.** `check_padding.py` names the bottom tenth of each
+2. **The vocabulary-variety reading list.** `check_padding.py` names the bottom tenth of each
    length band. It is a ranking and will never be empty — read it when you want something to
    improve, not as a list of faults.
 

@@ -236,6 +236,23 @@ def header(rel, active_level_code, breadcrumb_html, body_class=""):
     <main id="main-content" class="site-main">"""
 
 
+IRREGULAR_VERBS_WIDGET = """<button type="button" class="irregular-verbs-toggle" data-irregular-verbs-toggle aria-label="Open the irregular verbs list" aria-expanded="false" aria-haspopup="dialog">
+        <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/></svg>
+        <span class="irregular-verbs-toggle__label">Irregular Verbs</span>
+    </button>
+    <div class="irregular-verbs-panel" data-irregular-verbs-panel hidden role="dialog" aria-label="Irregular verbs list" aria-modal="false">
+        <div class="irregular-verbs-panel__bar">
+            <input type="text" data-verb-filter placeholder="Type any form, e.g. “went” or “go”" aria-label="Search irregular verbs" autocomplete="off">
+            <button type="button" class="irregular-verbs-panel__close" data-irregular-verbs-close aria-label="Close irregular verbs list"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+        </div>
+        <div class="irregular-verbs-panel__body" data-irregular-verbs-body>
+            <p class="notice" data-verb-count hidden></p>
+            <p class="irregular-verbs-panel__loading" data-irregular-verbs-loading>Loading the verb list…</p>
+            <p class="notice" data-verb-empty hidden>No verb matches “<span data-verb-empty-term></span>.” Try a different spelling.</p>
+        </div>
+        <p class="irregular-verbs-panel__footer"><a href="{rel}irregular-verbs.html" target="_blank" rel="noopener">Open the full page ↗</a></p>
+    </div>"""
+
 def footer(rel):
     return f"""<button type="button" class="dict-widget-toggle" data-dict-widget-toggle aria-label="Open quick dictionary" aria-expanded="false" aria-haspopup="dialog">
         <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
@@ -335,3 +352,36 @@ def footer(rel):
 </body>
 </html>
 """
+
+
+def with_irregular_verbs(footer_html, rel=""):
+    """Adds the floating Irregular Verbs list under the Dictionary button.
+
+    The grammar lessons that need irregular-verb recall carry this widget, and
+    the three position modifiers below are what stack the buttons: the verbs
+    toggle takes the bottom slot, the dictionary moves up one step and
+    back-to-top up two. Behaviour comes from the two scripts, which lift the
+    213-row table out of irregular-verbs.html and anchor that URL to their own
+    location, so this works at any page depth.
+
+    Markup is held here rather than scraped from a built page: the booklet
+    generator scrapes, and its regexes stopped matching once the pages were
+    asset-stamped, which silently dropped these very scripts.
+    """
+    out = footer_html.replace(
+        'class="dict-widget-toggle"',
+        'class="dict-widget-toggle dict-widget-toggle--with-irregular-verbs"', 1)
+    out = out.replace(
+        'class="dict-widget-panel"',
+        'class="dict-widget-panel dict-widget-panel--with-irregular-verbs"', 1)
+    out = out.replace(
+        'class="back-to-top back-to-top--with-dict"',
+        'class="back-to-top back-to-top--with-dict-and-irregular"', 1)
+    widget = IRREGULAR_VERBS_WIDGET.format(rel=rel)
+    anchor = out.index("    <script src=")
+    out = out[:anchor] + "    " + widget + "\n" + out[anchor:]
+    return out.replace(
+        f'<script src="{rel}assets/js/dict-widget.js"></script>',
+        f'<script src="{rel}assets/js/dict-widget.js"></script>\n'
+        f'    <script src="{rel}assets/js/irregular-verbs.js"></script>'
+        f'<script src="{rel}assets/js/irregular-verbs-panel.js"></script>', 1)

@@ -37,10 +37,6 @@ READ_SVG = ('<svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
             '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>'
             '<path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>')
-LIST_SVG = ('<svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" '
-            'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
-            '<path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/>'
-            '<path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/></svg>')
 
 # Requirement 18: each level says what it is, what English it practices and
 # what it covers -- without burying the student in detail.
@@ -309,7 +305,6 @@ def main():
                 <p class="eyebrow hero__eyebrow">Practice Library</p>
                 <h1>Reading &amp; Listening Library</h1>
                 <p class="page-header__lede">Stories, dialogues, history and essays, graded from A1 to C2.{pending_note}</p>
-                <div class="page-header__actions hero__actions"><a class="btn btn--accent" href="irregular-verbs.html">{LIST_SVG}Irregular Verbs List</a></div>
             </div>
             <img class="page-header__badge" src="assets/img/badges/badge-single-star.webp" alt="" width="88" height="88" loading="lazy">
         </div>
@@ -319,7 +314,7 @@ def main():
         *sections,
         # Only this page has the filter, so the script is injected here rather
         # than added to the chrome every page on the site shares.
-        site_chrome.footer(REL).replace(
+        site_chrome.with_irregular_verbs(site_chrome.footer(REL), REL).replace(
             "</body>", f'    <script src="{REL}assets/js/tag-filter.js"></script>\n</body>'),
     ]
     OUT.write_text("\n".join(out), encoding="utf-8")

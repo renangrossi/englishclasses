@@ -13,8 +13,8 @@
 | **Objective** | Audit, re-level, edit, de-duplicate and convert the whole reading/exercise library from PDF/DOCX into native HTML pages with audio, organized by CEFR level and topic. |
 | **Site** | https://renangrossi.github.io/englishclasses/ |
 | **Repo** | `/media/valusia/Documents/course-english` (GitHub Pages, served from `/englishclasses/`) |
-| **Entry point** | `exercises.html` → to become the levelled library hub |
-| **Current phase** | 152 texts; the American History collection is complete, and the library has had a full audit pass (print, hierarchy, taxonomy, images, vocabulary, dialect) |
+| **Entry point** | `exercises.html` — the levelled library hub, built by `scripts/build_exercises_hub.py` |
+| **Current phase** | 152 texts; the American History collection is complete, and the library has had a full audit pass (print, hierarchy, taxonomy, images, vocabulary, dialect). Milestone 16 retired the converted source documents and put the irregular verbs widget on the hub |
 | **Overall completion** | Conversion **done**: all 98 source entries resolved — 87 built as pages, 11 deleted. **152 reading pages** (19 A1 / 24 A2 / 44 B1 / 30 B2 / 21 C1 / 14 C2), every one narrated and illustrated. Every level is populated; A1 and C2 were authored from scratch in milestones 7 and 8. |
 
 ### What this project is *not*
@@ -609,21 +609,36 @@ curriculum lessons, 0 stale audio, 0 cognates, 0 oversized glossaries, 0 padding
 
 ### Milestone 16 — The hub reaches the verb list, and the sources are retired ✅
 - **Date:** 2026-10-09
-- **Branches:** `feat/hub-irregular-verbs-button` (merge `1b23c80`), `chore/retire-converted-sources`
-  → merged to `main`
+- **Branches:** `feat/hub-irregular-verbs-button` (merge `1b23c80`),
+  `chore/retire-converted-sources` (merge `91b0b3c`), `chore/tidy-leftovers` (merge `b77d742`),
+  `fix/irregular-verbs-button-visible` (merge `7003676`),
+  `feat/hub-irregular-verbs-widget` (merge `a8f71a0`) → all merged to `main` and pushed
 
-**An Irregular Verbs button on the library hub.** The irregular verb list was reachable from
-`extras.html` and `manoelito.html` but not from `exercises.html`, which is where a student
-looking for drills lands. The button went into `scripts/build_exercises_hub.py`, not into the
-page: `exercises.html` is generated, so a hand-edit would have been wiped by the next hub
-rebuild. The untouched generator was run and diffed against the committed page first, to prove
-the rebuild would sweep nothing else in; the resulting change to `exercises.html` is one line.
-Zero new CSS. The wrapper borrows `.hero__actions` — the flex row `index.html` and `progress.html`
-already use for buttons under a dark banner — because the only `.page-header__actions` margin
-rule is scoped to `.page-header--slim` and this banner is the full one, so the button would
-otherwise have sat flush under the lede. Inside `.page-header` a plain `.btn--ghost` is already
-corrected for the dark background, and the list icon is the one `manoelito.html` and the `cefr`
-pages use.
+**The hub reaches the irregular verb list.** The list was reachable from `extras.html` and
+`manoelito.html` but not from `exercises.html`, which is where a student looking for drills
+lands. It now carries the same floating widget the grammar lessons use: a toggle in the bottom
+FAB slot, under the Dictionary one, opening a panel that filters the 213-row table by any form.
+
+It took three goes, and the dead ends are the useful part. The first was a small ghost button in
+the banner. It rendered correctly at desktop and phone width — verified in headless Chrome
+against the deployed page, after it had been reported missing twice — but a 0.78rem cream
+outline beside a 48px display heading reads as furniture rather than as a control. The second
+made it the solid accent red the homepage uses for its primary call to action, which was visible
+but still wrong: the site already had a component for this, on the lessons whose grammar needs
+irregular-verb recall, and the hub should have had that one from the start. The lesson is in
+D-13.
+
+**How the widget is wired.** `site_chrome.py` gained `IRREGULAR_VERBS_WIDGET` and
+`with_irregular_verbs()`, which applies the three position modifiers that stack the buttons —
+verbs toggle in the bottom slot, Dictionary up one `--fab-step`, back-to-top up two — and
+injects `irregular-verbs.js` and `irregular-verbs-panel.js` after `dict-widget.js`. No new CSS
+and no new JS: `search.css` and `components.css` already carry every modifier, and
+`irregular-verbs-panel.js` anchors the verb-list URL to its own script location *by design*, its
+comment saying so in as many words, which is why it works from a root-level page unchanged.
+Every edit went into the generator, never into the built page, and before the first one the
+untouched generator was run and diffed against the committed `exercises.html` to prove a rebuild
+would sweep nothing else in. The markup is held in `site_chrome` rather than scraped from a
+built page, which is what `build_booklet_pages.py` does — see P-8.
 
 **The converted source documents are gone — 90 MB.** All 156 `.docx` and `.pdf` files in
 `cefr/texts/` were deleted. Conversion and illustration are both finished, so nothing read them
@@ -656,8 +671,10 @@ a live download is a separate decision and was left to the user.
 were deleted — the merge commits still name each branch, so nothing is lost — leaving `main`
 alone. `.claude/worktrees/` held 17 orphaned agent worktrees, 6.0 GB of full repo copies that
 `git worktree list` no longer knew about; all 17 were clean, with nothing uncommitted and no
-commits outside `main`, and were removed. Roughly 180 branches still exist on `origin`; deleting
-those is a separate, outward-facing call and was left to the user.
+commits outside `main`, and were removed. `origin` turned out to hold 41 branches, not the 177
+a local listing showed — the rest were refs to branches already deleted on GitHub, which
+`git fetch --prune` cleared. All 41 were merged into `origin/main` and were deleted too, so
+`origin` now carries `main` alone.
 
 Both gates clean afterwards — `check_site_integrity` 283 pages and 71 curriculum lessons,
 `check_content` 152 sources — plus a sweep of every `href`/`src` ending in `.docx` or `.pdf`
@@ -738,19 +755,19 @@ The 2 `stale-on-edit` texts are `capetown` (4 mp3s) and `physical-education` (4 
 | Area | State |
 |---|---|
 | **Design system** | Understood, reuse as-is: `.lesson-card`, `.lesson-card__index`, `.lesson-card__actions`, `.btn--ghost`, `.btn--small`, `.grid`, `.card`, `.exercise-block` |
-| **Page chrome** | `scripts/site_chrome.py` provides head/header/nav/search/footer verbatim; `REL` sets the path prefix |
+| **Page chrome** | `scripts/site_chrome.py` provides head/header/nav/search/footer verbatim; `REL` sets the path prefix. Since milestone 16 it also provides `with_irregular_verbs()`, which adds the floating verbs widget and restacks the FAB column |
 | **Exercise engine** | `assets/js/exercises.js` (1841 lines). **No JS changes needed.** |
 | **Exercise types available** | `multiple-choice`, `true-false`, `fill-blank`, `matching`, `ordering`, `correction`, `typing`, `reading-comprehension`, `vocabulary`, `writing` |
 | **Audio player** | Native `<audio controls preload="metadata">` at the top of the reading section, with a download link as fallback. Gives play/pause, progress, elapsed/total time, keyboard access and the browser's own speed menu on desktop and mobile, with no JS to fail. The grammar lessons' listening blocks keep their `<details class="transcript-toggle">` pattern; a reading page shows the text itself, so it needs no transcript toggle. |
-| **HTML migration** | **Complete.** 98 / 98 source entries resolved → 86 reading pages (15 A2, 37 B1, 23 B2, 11 C1), each with narration. Fewer pages than entries because merges combine sources and splits divide them |
+| **HTML migration** | **Complete.** 98 / 98 source entries resolved; the library has since grown to **152 pages** (19 A1, 24 A2, 44 B1, 30 B2, 21 C1, 14 C2), each narrated and illustrated. Page count differs from entry count because merges combine sources, splits divide them, and milestones 7, 8 and 12 authored new texts. The source documents were deleted in milestone 16 |
 | **CSS** | Reading pages reuse `.summary-list` (lessons.css) and the site-wide `audio` rule (components.css). `.reading-passage` in exercises.css has been rewritten twice on purpose — see decisions D-8 and D-11. No other CSS has been touched |
 | **JavaScript** | **No changes made.** `assets/js/exercises.js` renders the new pages unmodified |
-| **Navigation** | `exercises.html` is currently a flat alphabetical grid of 117 "Open PDF" cards — to be restructured |
+| **Navigation** | `exercises.html` is the CEFR progression hub (A1→C2, per-level tag filter), built by `scripts/build_exercises_hub.py`. It carries the floating Irregular Verbs widget under the Dictionary one |
 | **Responsive** | Inherited from existing chrome/CSS; must be re-verified per new page type |
 | **Accessibility** | Inherited; keep heading order, `aria-hidden` on decorative indices, real `<audio controls>` |
 | **Search index** | `scripts/build_search_index_sheets.py` + integrity check rule 3 — new pages must be added to the search index |
 | **Validation** | `python3 scripts/check_site_integrity.py` — run before every commit |
-| **Git** | Milestones 0 and 1 merged to `main`; working tree clean |
+| **Git** | Through milestone 16, all merged to `main` and pushed. One branch locally and one on `origin`: `main` |
 | **Deployment** | GitHub Pages from `main`. Absolute URLs must keep the `/englishclasses/` segment |
 
 ### Reproducing the toolchain
@@ -867,7 +884,10 @@ milestone 16 the folder is gone: its 156 source documents and six `.mp3` recordi
 - **D-7 — Keep the PDFs in the repo** as downloadable/printable companions, and stop treating them
   as the *only* way to reach the content. Requirement 13 forbids embedding PDFs as the
   experience; it does not require deleting printable worksheets a teacher may still use in class.
-  Exception: files deleted outright by the audit.
+  Exception: files deleted outright by the audit. Milestone 16 drew the line precisely: this
+  covers the worksheets the lesson pages and `simulated-exams.html` link, every one of which
+  remains, together with the editable `.docx` master beside it. The `cefr/texts/` sources were
+  never companions — nothing linked them once their readings were built — and they are gone.
 - **D-8 — The passage is set as prose, not as a callout box.** `.reading-passage` was a tinted
   panel with a gold rule down its left edge; a text a student reads for several minutes needs
   typography instead. It is now the serif display face at `--step-1`, line-height 1.75, in a
@@ -936,6 +956,14 @@ milestone 16 the folder is gone: its 156 source documents and six `.mp3` recordi
     empty navy block. The rule is scoped with `.page-header__label + .page-header__lede` so
     that other pages, where the lede is the page's real description, still print theirs.
 
+- **D-13 — A link to a site-wide tool belongs in the floating widget stack, not in the banner.**
+  The hub's irregular-verbs link shipped twice as a banner button and was wrong both times, once
+  quietly and once loudly. The site already had the pattern: the grammar lessons that need
+  irregular-verb recall carry a floating toggle under the Dictionary one, and a student who has
+  met it on a lesson already knows what it is. Requested by the user. A banner button also
+  competes with the page title for attention and loses, whatever its colour — the fix for "I
+  can't see it" was not more contrast, it was the right component.
+
 ### Open problems
 
 - ~~**P-1** — A1 and C2 gaps.~~ CLOSED. Every CEFR level now has texts:
@@ -952,6 +980,17 @@ milestone 16 the folder is gone: its 156 source documents and six `.mp3` recordi
   collection took `american-history` to 38 of 152, against `everyday` 21 and `travel` 20, while
   `world-history` has exactly one text. P-2's travel concentration is resolved; the imbalance has
   simply moved. The next collection should go anywhere but the nineteenth-century United States.
+
+- **P-8 — `build_booklet_pages.py` is broken against the asset-stamped pages.** OPEN, and a trap
+  rather than a backlog item: running it *degrades* seven pages that are currently correct. It
+  builds its footer by scraping `dictionary.html` and `levels/a2/simple-past-i.html` with regexes
+  that expect unstamped script tags (`<script src="assets/js/dictionary.js"></script>`). Those
+  pages have carried `?v=` asset stamps since, so the regexes no longer match: the script that
+  should be stripped survives, and the two the widget needs are never injected. One run strips
+  `irregular-verbs.js` and `irregular-verbs-panel.js` from all seven `cefr/english-classes-*.html`,
+  drops the `?v=` from three stylesheets and reinstates `dictionary.js`. Found by running it
+  during milestone 16 and reverted at once — the committed pages are intact. The fix is to delete
+  the scraping and call `site_chrome.with_irregular_verbs()`, which now exists for exactly this.
 
 **Resolved since the original audit:**
 
@@ -1058,9 +1097,12 @@ Conversion is finished; there is no queue left in `cefr/texts/`. A1, C2 and the 
 of every text are all done — milestones 7, 8 and 11 — and this section's old queue is kept only
 in the history above. What remains:
 
-1. **A collection that is not American history** (P-7). The library's largest topic is now
+1. **Fix `build_booklet_pages.py` before anyone runs it** (P-8). It is the one script in
+   `scripts/` that damages the repo when run. Replace its scraping with
+   `site_chrome.with_irregular_verbs()` and re-stamp.
+2. **A collection that is not American history** (P-7). The library's largest topic is now
    `american-history` at 38 of 152, and `world-history` has one text. Anywhere else.
-2. **The vocabulary-variety reading list.** `check_padding.py` names the bottom tenth of each
+3. **The vocabulary-variety reading list.** `check_padding.py` names the bottom tenth of each
    length band. It is a ranking and will never be empty — read it when you want something to
    improve, not as a list of faults.
 

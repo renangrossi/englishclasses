@@ -309,7 +309,7 @@ def main():
                 <p class="eyebrow hero__eyebrow">Practice Library</p>
                 <h1>Reading &amp; Listening Library</h1>
                 <p class="page-header__lede">Stories, dialogues, history and essays, graded from A1 to C2.{pending_note}</p>
-                <div class="page-header__actions hero__actions"><a class="btn btn--ghost btn--small" href="irregular-verbs.html">{LIST_SVG}Irregular Verbs</a></div>
+                <div class="page-header__actions hero__actions"><a class="btn btn--accent" href="irregular-verbs.html">{LIST_SVG}Irregular Verbs List</a></div>
             </div>
             <img class="page-header__badge" src="assets/img/badges/badge-single-star.webp" alt="" width="88" height="88" loading="lazy">
         </div>

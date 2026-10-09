@@ -260,13 +260,6 @@
     },
     {
       "level": "A2",
-      "title": "Past Simple and Continuous",
-      "url": "cefr/a2-elementary/f-past-simple-and-continuous.pdf",
-      "type": "worksheet",
-      "format": "pdf"
-    },
-    {
-      "level": "A2",
       "title": "Can, Could, May",
       "url": "cefr/a2-elementary/g-can-could-may.pdf",
       "type": "worksheet",
@@ -321,17 +314,6 @@
       "url": "cefr/a2-elementary/q-simple-past-ii.pdf",
       "type": "worksheet",
       "format": "pdf"
-    },
-    {
-      "level": "A2",
-      "title": "Can, Could, May",
-      "url": "cefr/a2-elementary/r-can-could-may.pdf",
-      "type": "worksheet",
-      "format": "pdf",
-      "aliases": [
-        "modal verbs",
-        "modals"
-      ]
     },
     {
       "level": "B1",

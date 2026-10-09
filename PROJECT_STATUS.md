@@ -630,7 +630,9 @@ pages use.
 any more, and that was checked rather than assumed: no page hyperlinks one, no `url` in
 `worker/course-catalog.json` points inside the folder, and `build_content_audit.py` only names
 the path in the prose it generates — it builds from `docs/reading-library-map.json` and still
-regenerates byte-identically. The six `.mp3` source recordings were left in place.
+regenerates byte-identically. The six `.mp3` source recordings went in the same pass — the
+readings they belonged to carry their own edge-tts narration under `assets/audio/reading/`, and
+nothing served the originals — so `cefr/texts/` is gone entirely.
 `docs/reading-library-map.json` keeps every source filename as provenance, which is now the only
 record outside git history that those documents existed.
 
@@ -649,6 +651,13 @@ are live downloads linked from `levels/*.html` and `simulated-exams.html`, and t
 the editable `.docx` masters beside those linked PDFs. The grammar-lesson system is out of scope
 (D-2) and a teacher needs its sources, so none of it was touched. Deleting a master whose PDF is
 a live download is a separate decision and was left to the user.
+
+**Housekeeping in the same pass.** 118 local branches, every one already merged into `main`,
+were deleted — the merge commits still name each branch, so nothing is lost — leaving `main`
+alone. `.claude/worktrees/` held 17 orphaned agent worktrees, 6.0 GB of full repo copies that
+`git worktree list` no longer knew about; all 17 were clean, with nothing uncommitted and no
+commits outside `main`, and were removed. Roughly 180 branches still exist on `origin`; deleting
+those is a separate, outward-facing call and was left to the user.
 
 Both gates clean afterwards — `check_site_integrity` 283 pages and 71 curriculum lessons,
 `check_content` 152 sources — plus a sweep of every `href`/`src` ending in `.docx` or `.pdf`
@@ -830,8 +839,8 @@ progress can be tracked and resumed. `docs/content-audit.md` is the human-readab
 **Progress:** 87 IMPLEMENTED · 11 COMPLETE (deleted) · 0 NOT STARTED · 98 AUDITED
 
 Every action is finished: **KEEP** 15, **EDIT** 31, **REPLACE** 12, **MERGE** 15, **CONVERT** 8,
-**SPLIT** 6, **DELETE** 11. Nothing in `cefr/texts/` is awaiting conversion, and as of
-milestone 16 the folder's source documents are deleted — only the six `.mp3` recordings remain.
+**SPLIT** 6, **DELETE** 11. Nothing in `cefr/texts/` was awaiting conversion, and as of
+milestone 16 the folder is gone: its 156 source documents and six `.mp3` recordings are deleted.
 
 ---
 

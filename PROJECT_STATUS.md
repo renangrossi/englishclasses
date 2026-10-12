@@ -984,6 +984,26 @@ milestone 16 the folder is gone: its 156 source documents and six `.mp3` recordi
 
 **Resolved since the original audit:**
 
+- ~~**P-10** — the content backlog was four false positives in `check_vocabulary.py`.~~ FIXED.
+  The standing "4 unglossed false friends" were not content defects; the checker disagreed with
+  the builder in three ways, and each would have been "fixed" by writing a wrong gloss.
+  - It compared whole glossary stems, so a multi-word entry never counted as covering the word
+    inside it. Eight of the ten reports were already glossed, and glossed better than the
+    generic entry would have been: `a poll tax`, `internal combustion engine`, `housing policy`,
+    `a security camera`, `to settle an argument`, `balance of probabilities`, `to push back`.
+  - It read section headings, which `build_reading_page.annotate()` deliberately refuses to
+    gloss. `a2/everyday-service-english` uses "a stranger" only in the heading "3. Asking a
+    stranger for help", so the entry it asked for could never have been placed. It now shares
+    the builder's `is_heading()` rather than keeping a second opinion about what prose is.
+  - It matched a form belonging to a different word: `stranger` is the noun and the comparative
+    of *strange*, and `c2/the-second-language-self` has "considerably stranger".
+  Net effect across all 152 texts: 10 reports removed, **none genuine**, none added; the default
+  run goes 4 to 0. The dialect flags were audited in the same pass and cleared — zero spelling
+  violations, and all 27 word-choice flags are ordinary American usage (Watergate *tapes*, flat
+  tires, a flat white, *flatter*, a bank holiday, aerodynamic lift, Krampus torches) or are
+  carried by the setting or the teaching point (Johannesburg's lifts, Vienna's queue, the
+  register argument in `c2/what-doesnt-translate`). No content was changed.
+
 - ~~**P-8** — `build_booklet_pages.py` broken against the asset-stamped pages.~~ FIXED. The
   builder takes the `?v=` stamps off the chrome it scrapes before rewriting it, and takes the
   widget from `site_chrome.with_irregular_verbs()` instead of scraping

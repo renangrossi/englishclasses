@@ -638,7 +638,8 @@ comment saying so in as many words, which is why it works from a root-level page
 Every edit went into the generator, never into the built page, and before the first one the
 untouched generator was run and diffed against the committed `exercises.html` to prove a rebuild
 would sweep nothing else in. The markup is held in `site_chrome` rather than scraped from a
-built page, which is what `build_booklet_pages.py` does — see P-8.
+built page, which is what `build_booklet_pages.py` did — see P-8, since fixed to take
+the widget from this same helper.
 
 **The converted source documents are gone — 90 MB.** All 156 `.docx` and `.pdf` files in
 `cefr/texts/` were deleted. Conversion and illustration are both finished, so nothing read them
@@ -766,7 +767,7 @@ The 2 `stale-on-edit` texts are `capetown` (4 mp3s) and `physical-education` (4 
 | **Responsive** | Inherited from existing chrome/CSS; must be re-verified per new page type |
 | **Accessibility** | Inherited; keep heading order, `aria-hidden` on decorative indices, real `<audio controls>` |
 | **Search index** | `scripts/build_search_index_sheets.py` + integrity check rule 3 — new pages must be added to the search index |
-| **Validation** | `python3 scripts/check_site_integrity.py` — run before every commit |
+| **Validation** | `python3 scripts/check_site_integrity.py` — run before every commit. Rule 6 guards the built pages' assets: every css/js reference must carry its `?v=` stamp, and a booklet page must load `booklet.js` and both irregular-verbs scripts and must not load `dictionary.js`. Both halves of P-8 and P-9 fail it |
 | **Git** | Through milestone 16, all merged to `main` and pushed. One branch locally and one on `origin`: `main` |
 | **Deployment** | GitHub Pages from `main`. Absolute URLs must keep the `/englishclasses/` segment |
 
@@ -981,18 +982,23 @@ milestone 16 the folder is gone: its 156 source documents and six `.mp3` recordi
   `world-history` has exactly one text. P-2's travel concentration is resolved; the imbalance has
   simply moved. The next collection should go anywhere but the nineteenth-century United States.
 
-- **P-8 — `build_booklet_pages.py` is broken against the asset-stamped pages.** OPEN, and a trap
-  rather than a backlog item: running it *degrades* seven pages that are currently correct. It
-  builds its footer by scraping `dictionary.html` and `levels/a2/simple-past-i.html` with regexes
-  that expect unstamped script tags (`<script src="assets/js/dictionary.js"></script>`). Those
-  pages have carried `?v=` asset stamps since, so the regexes no longer match: the script that
-  should be stripped survives, and the two the widget needs are never injected. One run strips
-  `irregular-verbs.js` and `irregular-verbs-panel.js` from all seven `cefr/english-classes-*.html`,
-  drops the `?v=` from three stylesheets and reinstates `dictionary.js`. Found by running it
-  during milestone 16 and reverted at once — the committed pages are intact. The fix is to delete
-  the scraping and call `site_chrome.with_irregular_verbs()`, which now exists for exactly this.
-
 **Resolved since the original audit:**
+
+- ~~**P-8** — `build_booklet_pages.py` broken against the asset-stamped pages.~~ FIXED. The
+  builder takes the `?v=` stamps off the chrome it scrapes before rewriting it, and takes the
+  widget from `site_chrome.with_irregular_verbs()` instead of scraping
+  `levels/a2/simple-past-i.html`; `stamp_asset_versions.py` puts the stamps back, as it is the
+  step that owns them. One run was dropping more than the audit had found: `booklet.js` went
+  too — the script that fits the sheets to the page for print — because its injection matched
+  the same unstamped `dict-widget.js` tag as the widget's. Proof the trap is gone: build, then
+  stamp, now reproduces all seven `cefr/english-classes-*.html` byte for byte.
+
+- ~~**P-9** — the reading library shipped unstamped.~~ FIXED. Every one of the 152
+  `reading/**` pages and `exercises.html` carried bare `assets/**.css|js` URLs: that pipeline
+  builds through `site_chrome`, which emits unstamped tags by design, and
+  `stamp_asset_versions.py` was never run over its output. It is the stale-asset bug the
+  stamper exists to prevent — GitHub Pages still answers `cache-control: max-age=600` — and it
+  was live on 153 of the 283 pages, the whole reading library among them. Stamped.
 
 - ~~P-3 — non-ASCII source filenames.~~ Moot: the source files are no longer read by anything,
   and every slug shipped is ASCII and hyphen-only.
@@ -1097,12 +1103,9 @@ Conversion is finished; there is no queue left in `cefr/texts/`. A1, C2 and the 
 of every text are all done — milestones 7, 8 and 11 — and this section's old queue is kept only
 in the history above. What remains:
 
-1. **Fix `build_booklet_pages.py` before anyone runs it** (P-8). It is the one script in
-   `scripts/` that damages the repo when run. Replace its scraping with
-   `site_chrome.with_irregular_verbs()` and re-stamp.
-2. **A collection that is not American history** (P-7). The library's largest topic is now
+1. **A collection that is not American history** (P-7). The library's largest topic is now
    `american-history` at 38 of 152, and `world-history` has one text. Anywhere else.
-3. **The vocabulary-variety reading list.** `check_padding.py` names the bottom tenth of each
+2. **The vocabulary-variety reading list.** `check_padding.py` names the bottom tenth of each
    length band. It is a ranking and will never be empty — read it when you want something to
    improve, not as a list of faults.
 

@@ -31,6 +31,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
+import site_chrome  # noqa: E402
 from site_chrome import LEVELS, social_meta  # noqa: E402
 
 REL = "../"
@@ -176,10 +177,25 @@ def write_print_css(style):
 
 # ---------------------------------------------------------------- chrome
 
-def site_chrome():
+# Every <script>/<link> rewrite below matches an exact, unstamped tag, and so
+# do the ones in site_chrome.with_irregular_verbs(). The chrome is scraped
+# from a page that scripts/stamp_asset_versions.py has already stamped with
+# ?v=<hash>, so a stamped tag matched nothing and the rewrites silently did
+# nothing: dictionary.js survived into all seven booklets, and booklet.js,
+# irregular-verbs.js and irregular-verbs-panel.js were never injected at all.
+# The stamps therefore come off here and go back on in the stamping step,
+# which is the one place that owns them.
+STAMP = re.compile(r'((?:href|src)="[^"?]*?assets/[^"?]+\.(?:css|js))\?v=[0-9a-f]+(")')
+
+
+def unstamp(markup):
+    return STAMP.sub(r"\1\2", markup)
+
+
+def page_chrome():
     """Head, header and footer of an existing root page (dictionary.html),
     with relative URLs rewritten for pages one folder deep."""
-    page = open(os.path.join(ROOT, "dictionary.html"), encoding="utf-8").read()
+    page = unstamp(open(os.path.join(ROOT, "dictionary.html"), encoding="utf-8").read())
     head = page[:page.index("</head>")]
     head = head[head.index("<link rel=\"icon\""):]
     header = page[page.index("<body"):page.index('<nav class="breadcrumbs"')]
@@ -187,30 +203,14 @@ def site_chrome():
     header = header.replace('<a href="index.html#grammar">', '<a href="index.html#grammar" aria-current="page">', 1)
     footer = page[page.index('<button type="button" class="dict-widget-toggle"'):]
     footer = re.sub(r'\s*<script src="assets/js/dictionary\.js"></script>', "", footer)
-    footer = add_irregular_verbs(footer)
+    # The widget's markup and its two scripts come from the shared helper,
+    # which exists for exactly this; it used to be scraped out of the Simple
+    # Past I lesson page, which is one more built page to go stale.
+    footer = site_chrome.with_irregular_verbs(footer)
 
     def rel(s):
         return re.sub(r'((?:href|src|data-index-src)=")(?!https?:|#|data:|mailto:|/)', r"\1" + REL, s)
     return rel(head), rel(header), rel(footer)
-
-
-def add_irregular_verbs(footer):
-    """Adds the floating Irregular Verbs button and panel, copied from the
-    Simple Past I lesson page, with the same position modifiers it uses
-    for the Dictionary and back-to-top buttons."""
-    lesson = open(os.path.join(ROOT, "levels", "a2", "simple-past-i.html"), encoding="utf-8").read()
-    start = lesson.index('<button type="button" class="irregular-verbs-toggle"')
-    end = lesson.index("</div>", lesson.index('<p class="irregular-verbs-panel__footer">')) + len("</div>")
-    widget = lesson[start:end].replace('href="../../', 'href="')  # root-relative, like the rest of the footer
-    footer = footer.replace('class="dict-widget-toggle"', 'class="dict-widget-toggle dict-widget-toggle--with-irregular-verbs"', 1)
-    footer = footer.replace('class="dict-widget-panel"', 'class="dict-widget-panel dict-widget-panel--with-irregular-verbs"', 1)
-    footer = footer.replace("back-to-top back-to-top--with-dict\"", "back-to-top back-to-top--with-dict-and-irregular\"", 1)
-    scripts = footer.index("    <script src=")
-    footer = footer[:scripts] + "    " + widget + "\n" + footer[scripts:]
-    return footer.replace('<script src="assets/js/dict-widget.js"></script>',
-                          '<script src="assets/js/dict-widget.js"></script>\n'
-                          '    <script src="assets/js/irregular-verbs.js"></script>'
-                          '<script src="assets/js/irregular-verbs-panel.js"></script>', 1)
 
 
 def nav_button(slug, direction):
@@ -253,7 +253,7 @@ def build(slug):
     title = booklet_title(slug)
     overview = re.search(r'<p class="cover__overview">(.*?)</p>', body, re.S)
     desc = html.escape(html.unescape(re.sub("<[^>]+>", "", overview.group(1))), quote=True) if overview else ""
-    head, header, footer = site_chrome()
+    head, header, footer = page_chrome()
     content = convert_body(body)
     # the navigation sits between the cover and the first sheet
     cover_end = content.index("</section>") + len("</section>")

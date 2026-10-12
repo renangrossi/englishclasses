@@ -22,6 +22,16 @@ Checks
                        its curriculum source) matches the contract
                        assets/js/exercises.js actually implements, and
                        item ids are unique per lesson
+6. built-page assets   every css/js reference carries the ?v= stamp
+                       stamp_asset_versions.py adds, and each booklet
+                       page carries the script set the booklet builder
+                       is meant to give it -- the check that would have
+                       caught the bug where that builder's rewrites,
+                       which all match an unstamped <script> tag,
+                       quietly stopped matching once the pages were
+                       stamped, and dropped booklet.js and both
+                       irregular-verbs scripts from all seven pages
+                       while leaving dictionary.js behind
 
 Usage:
     python3 scripts/check_site_integrity.py            # report, exit 1 on error
@@ -248,12 +258,41 @@ def check_exercises(pages):
             check_exercise_block(rel, block, seen)
 
 
+# ------------------------------------------------------- 6 built-page assets
+# href/src pointing at a css or js file under assets/, with the cache-busting
+# stamp captured separately so a missing one is visible.
+ASSET_REF = re.compile(r'(?:href|src)="([^"]*assets/[^"]+\.(?:css|js))(\?v=[0-9a-f]+)?"')
+BOOKLETS = "cefr/english-classes-"
+
+
+def check_assets(pages):
+    for rel, text in pages.items():
+        for asset, stamp in ASSET_REF.findall(text):
+            if not stamp:
+                errors.append(f"{rel}: {asset} carries no ?v= stamp "
+                              f"-- run scripts/stamp_asset_versions.py")
+        # The floating verbs button is inert without both of its scripts,
+        # and it fails silently: the button renders and does nothing.
+        if "data-irregular-verbs-toggle" in text:
+            for js in ("irregular-verbs.js", "irregular-verbs-panel.js"):
+                if f"assets/js/{js}" not in text:
+                    errors.append(f"{rel}: shows the irregular-verbs widget "
+                                  f"but never loads {js}")
+        if rel.startswith(BOOKLETS):
+            if "assets/js/booklet.js" not in text:
+                errors.append(f"{rel}: a booklet page must load booklet.js, "
+                              f"which fits the sheets to the page for print")
+            if "assets/js/dictionary.js" in text:
+                errors.append(f"{rel}: loads dictionary.js, which belongs to "
+                              f"dictionary.html and not to a booklet")
+
 def main():
     pages, anchors = load_pages()
     check_links(pages, anchors)
     check_search_index(anchors)
     check_curriculum()
     check_exercises(pages)
+    check_assets(pages)
 
     print(f"Checked {len(pages)} pages, "
           f"{len(glob.glob(str(REPO_ROOT / 'curriculum/*/*.json'))) - 1} curriculum lessons.")

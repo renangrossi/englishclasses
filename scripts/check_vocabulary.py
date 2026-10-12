@@ -39,6 +39,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import reading_common as rc
+from build_reading_page import is_heading
 
 # Glossary size a level can carry before the list stops being a list and starts
 # being a page. Guidance, not a rule -- a text with an unusually technical
@@ -277,9 +278,37 @@ def is_transparent_cognate(term):
     return False
 
 
+# A form the search finds can belong to a different word. "stranger" is the
+# noun and also the comparative of "strange": "a stranger asked the way" is the
+# false friend, "considerably stranger" is not it. An -er or -est form is read
+# as the adjective when it stands where only an adjective can -- straight after
+# a degree adverb or a linking verb, or straight before "than".
+_DEGREE = (r"much|far|considerably|rather|even|still|somewhat|slightly|"
+           r"increasingly|no|any|all the|a little|a bit")
+_LINKING = (r"is|was|are|were|am|be|been|being|seems?|seemed|looks?|looked|"
+            r"feels?|felt|gets?|got|grows?|grew|grown|becomes?|became|"
+            r"sounds?|sounded|appears?|appeared")
+_ADJ_BEFORE = re.compile(r"(?:" + _DEGREE + r"|\b(?:" + _LINKING + r"))\s+$", re.I)
+
+
+def _is_comparative(text, m):
+    """Is this -er/-est match an adjective rather than the headword?"""
+    if not re.search(r"(?:er|est)$", m.group(1), re.I):
+        return False
+    if re.match(r"\s+than(?![\w-])", text[m.end():], re.I):
+        return True
+    return bool(_ADJ_BEFORE.search(text[max(0, m.start() - 40):m.start()]))
+
+
 def false_friends_in(passage, include_context=False):
-    """False friends the passage actually uses, as headword -> matched form."""
-    text = "\n".join(passage)
+    """False friends the passage actually uses, as headword -> matched form.
+
+    Section headings are left out, because build_reading_page.annotate()
+    refuses to gloss a word in one -- hanging a definition off "3. Asking a
+    stranger for help" put it on the heading itself. Reading them here asked
+    for a glossary entry the builder would then decline to place.
+    """
+    text = "\n".join(para for para in passage if not is_heading(para))
     table = dict(FALSE_FRIENDS)
     if include_context:
         table.update(CONTEXT_FRIENDS)
@@ -296,12 +325,27 @@ def false_friends_in(passage, include_context=False):
         if s.endswith("y"):
             forms |= {s[:-1] + "ies", s[:-1] + "ied"}
         for f in sorted(forms, key=len, reverse=True):
-            m = re.search(r"(?<![\w-])(" + re.escape(f) + r")(?![\w-])", text, re.I)
-            if m:
-                found[head] = m.group(1)
+            hit = next((m for m in re.finditer(
+                r"(?<![\w-])(" + re.escape(f) + r")(?![\w-])", text, re.I)
+                if not _is_comparative(text, m)), None)
+            if hit:
+                found[head] = hit.group(1)
                 break
     return found
 
+
+def _glossed(entry_stems, head):
+    """Is this headword already covered by the glossary?
+
+    A multi-word entry covers a word it contains: the passage bolds the whole
+    phrase, so a student hovering "housing policy" is told what policy means,
+    and "to push back" teaches "push". Comparing whole stems alone reported
+    both of those as unglossed while the gloss was right there, and the better
+    gloss at that -- written for the sense the text actually uses.
+    """
+    h = _stem(head)
+    pat = re.compile(r"(?<![\w-])" + re.escape(h) + r"(?![\w-])")
+    return any(stem == h or pat.search(stem) for stem in entry_stems)
 
 def review(level, slug, d, include_context=False):
     vocab = d.get("vocabulary") or []
@@ -310,7 +354,7 @@ def review(level, slug, d, include_context=False):
 
     cognates = [t for t in terms if is_transparent_cognate(t)]
     ff = false_friends_in(d["passage"], include_context)
-    missing_ff = {k: v for k, v in ff.items() if _stem(k) not in lowered}
+    missing_ff = {k: v for k, v in ff.items() if not _glossed(lowered, k)}
 
     words = len(" ".join(d["passage"]).split())
     lo, hi = size_band(d["level"], words)

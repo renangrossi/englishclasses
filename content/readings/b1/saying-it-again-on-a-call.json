@@ -1,0 +1,342 @@
+{
+  "id": "b1-reading-saying-it-again-on-a-call",
+  "level": "B1",
+  "slug": "saying-it-again-on-a-call",
+  "topic": "work",
+  "title": "Saying It Again",
+  "subtitle": "What to say on a work call when you did not catch it, when you need to interrupt, and when the meeting has to be written down.",
+  "description": "A B1 listening and reading page on the part of workplace English that decides whether a meeting was useful — asking for something again, checking a number you cannot get wrong, interrupting politely, and writing the follow-up message that settles what was agreed.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "grammar": [
+    "present-simple",
+    "modals",
+    "questions",
+    "reported-speech"
+  ],
+  "passage": [
+    "On a video call in a second language, the hard part is rarely grammar. It is the audio, the speed, and the three or four seconds of silence in which you decide whether to admit that you missed something. Many people decide not to, and spend the rest of the meeting guessing.",
+    "The cost of guessing arrives later, and it is never small: the wrong date in the calendar, the wrong file, the work done twice. Asking costs about four seconds. The phrases below are the ones fluent colleagues use, and not one of them apologizes for anybody's English.",
+    "1. Asking for it again",
+    "Claire: — so we'll move the design review to the fourteenth, and Dan will own the migration.",
+    "You: Sorry, Claire, I didn't catch that — could you say it again? You're breaking up a little.",
+    "Claire: Of course. The design review moves to the fourteenth. Dan takes the migration.",
+    "You: Got it, thanks. And just to check — the fourteenth, not the fourth?",
+    "Claire: The fourteenth. One-four.",
+    "Two things happened there. The blame went to the line rather than to the listener, which is both polite and usually true. Then the number was read back. Dates, prices and names are exactly where a call goes wrong quietly, and reading them back costs nothing.",
+    "2. Interrupting without being rude",
+    "Dan: — and once the data is cleaned we can start on the dashboard, which should take about—",
+    "You: Dan, sorry to jump in. Can I check one thing before we move on?",
+    "Dan: Sure, go ahead.",
+    "You: When you say cleaned, do you mean the duplicates are gone, or that the whole validation pass is finished?",
+    "Dan: Good question. Duplicates only. The validation pass runs next week.",
+    "You: That changes my timeline, then. Thanks — carry on.",
+    "An interruption lands softly when it announces itself and then asks something specific. \"Sorry to jump in\" buys the floor; a precise question earns it. Compare that with staying silent and building a plan on the wrong meaning of one word.",
+    "3. The message that settles it",
+    "A call ends and everyone remembers it slightly differently. Whoever writes it down decides what was agreed, and that person may as well be you.",
+    "Hi Claire, Dan — short recap so nothing gets lost.",
+    "The design review moves to the fourteenth, not the fourth.",
+    "Dan owns the migration.",
+    "\"Cleaned\" means duplicates removed; the validation pass runs next week.",
+    "I'll send the revised timeline on Thursday.",
+    "Shout if I have any of that wrong. Thanks, both.",
+    "Six lines, no apology, no long introduction. It repeats the number that was corrected, it pins down the word that was ambiguous, it names who owns what, and it gives one deadline of its own. A message like that is read in fifteen seconds and prevents a week of confusion.",
+    "None of this is about sounding like a native speaker. It is about leaving the call holding the same information as everybody else on it — which is, in the end, the only thing the meeting was for."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 8,
+      "alt": "Uniformed women working at a military telephone switchboard, plugging cables into a board of sockets",
+      "source": "commons:File:WAC telephone operators operate the Victory switchboard during the Potsdam Conference in their headquarters in... - NARA - 199007.jpg",
+      "caption": "*Operators at the \"Victory\" switchboard, Potsdam Conference* — US Army Signal Corps, 1945. Every call between the delegations was connected by hand at boards like this one."
+    },
+    {
+      "src": "02.jpg",
+      "after": 24,
+      "alt": "An Underwood typewriter seen from the front, with its keys and type bars visible",
+      "source": "commons:File:Underwood typewriter.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Maksym Kozlenko",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Underwood_typewriter.jpg",
+      "caption": "*Underwood typewriter* — Maksym Kozlenko. The Underwood put the typed line in full view of the typist, which the understrike machines before it had hidden from sight."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "to catch something",
+      "definition": "to hear and understand it — \"I didn't catch that\" is the normal way to say you missed a few words"
+    },
+    {
+      "term": "to break up",
+      "definition": "of a call: to arrive in pieces because the connection is poor"
+    },
+    {
+      "term": "to read something back",
+      "definition": "to repeat a number or name aloud so it can be confirmed"
+    },
+    {
+      "term": "to jump in",
+      "definition": "to interrupt a conversation"
+    },
+    {
+      "term": "to buy the floor",
+      "definition": "to win the right to speak for a moment",
+      "match": "buys the floor"
+    },
+    {
+      "term": "to carry on",
+      "definition": "to continue"
+    },
+    {
+      "term": "to move on",
+      "definition": "to go to the next topic"
+    },
+    {
+      "term": "a timeline",
+      "definition": "the plan of what will be finished when"
+    },
+    {
+      "term": "a recap",
+      "definition": "a short repetition of the main points"
+    },
+    {
+      "term": "to pin something down",
+      "definition": "to make something vague exact enough to rely on",
+      "match": "pins down"
+    },
+    {
+      "term": "to own something",
+      "definition": "at work: to be the person responsible for it"
+    },
+    {
+      "term": "a duplicate",
+      "definition": "a second copy of the same record",
+      "match": "duplicates"
+    },
+    {
+      "term": "to shout",
+      "definition": "here, in a message: to tell somebody informally — \"shout if I'm wrong\" means say so"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "b1-call-phrases",
+      "title": "On the Call",
+      "instructions": "Choose the most natural and effective option.",
+      "items": [
+        {
+          "id": "ca1",
+          "prompt": "You missed the last sentence. The best thing to say is:",
+          "options": [
+            "Sorry, could you say that again? You're breaking up a little.",
+            "Sorry, my English is very bad.",
+            "Repeat, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "It asks clearly, blames the connection rather than the listener, and does not apologize for your English — which is not the problem and only draws attention away from the question."
+        },
+        {
+          "id": "ca2",
+          "prompt": "Claire says \"the fourteenth\". Why do you say \"the fourteenth, not the fourth?\"",
+          "options": [
+            "Because those two numbers sound similar and a wrong date is expensive",
+            "Because it is polite to repeat everything",
+            "Because Claire may have been wrong"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fourteen and four, fifteen and fifty, and spelled names are where calls go wrong silently. Reading the number back costs a second."
+        },
+        {
+          "id": "ca3",
+          "prompt": "\"Sorry to jump in\" is used to:",
+          "options": [
+            "announce a polite interruption",
+            "end the meeting",
+            "apologize for being late"
+          ],
+          "answerIndex": 0,
+          "explanation": "It signals the interruption before making it, which is what keeps it from sounding rude."
+        },
+        {
+          "id": "ca4",
+          "prompt": "At work, \"Dan owns the migration\" means Dan:",
+          "options": [
+            "is responsible for it",
+            "paid for it",
+            "thought of it"
+          ],
+          "answerIndex": 0,
+          "explanation": "To own a task is to be the person accountable for it. Nothing is being bought."
+        },
+        {
+          "id": "ca5",
+          "prompt": "Why does the writer send the recap?",
+          "options": [
+            "Because people remember the same call differently",
+            "Because Claire asked for a report",
+            "Because the call was too short"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"A call ends and everyone remembers it slightly differently.\" The written version becomes the agreed one."
+        },
+        {
+          "id": "ca6",
+          "prompt": "\"Shout if I have any of that wrong\" is:",
+          "options": [
+            "a friendly invitation to correct the message",
+            "a complaint about the call",
+            "a request to speak louder"
+          ],
+          "answerIndex": 0,
+          "explanation": "In a work message, \"shout\" just means tell me informally. Nobody raises their voice."
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "id": "b1-call-vocabulary",
+      "title": "Meeting Words",
+      "instructions": "Choose the word that fits.",
+      "items": [
+        {
+          "id": "cav1",
+          "prompt": "Sorry, I didn't ___ that last part — could you repeat it?",
+          "answers": [
+            "catch"
+          ],
+          "options": [
+            "catch",
+            "listen",
+            "take"
+          ],
+          "explanation": "To catch something is to hear and understand it."
+        },
+        {
+          "id": "cav2",
+          "prompt": "You're ___ up a little; I can only hear every second word.",
+          "answers": [
+            "breaking"
+          ],
+          "options": [
+            "breaking",
+            "cutting",
+            "falling"
+          ],
+          "explanation": "A poor connection makes a voice break up."
+        },
+        {
+          "id": "cav3",
+          "prompt": "Can I check one thing before we ___ on?",
+          "answers": [
+            "move"
+          ],
+          "options": [
+            "move",
+            "go",
+            "pass"
+          ],
+          "explanation": "To move on is to go to the next topic."
+        },
+        {
+          "id": "cav4",
+          "prompt": "Here's a short ___ so nothing gets lost.",
+          "answers": [
+            "recap"
+          ],
+          "options": [
+            "recap",
+            "resume",
+            "memory"
+          ],
+          "explanation": "A recap is a short repetition of the main points. \"Resume\" in American English is a CV."
+        },
+        {
+          "id": "cav5",
+          "prompt": "The word \"cleaned\" was ___ , so I asked what it included.",
+          "answers": [
+            "ambiguous"
+          ],
+          "options": [
+            "ambiguous",
+            "ambitious",
+            "obvious"
+          ],
+          "explanation": "Ambiguous = open to more than one reading. Ambitious is a different word entirely."
+        },
+        {
+          "id": "cav6",
+          "prompt": "That changes my ___ , so I'll send a new one on Thursday.",
+          "answers": [
+            "timeline"
+          ],
+          "options": [
+            "timeline",
+            "timetable of",
+            "hour"
+          ],
+          "explanation": "A timeline is the plan of what gets finished when."
+        }
+      ]
+    },
+    {
+      "type": "reading-comprehension",
+      "id": "b1-call-comprehension",
+      "title": "Did You Follow It?",
+      "instructions": "Answer from the text.",
+      "items": [
+        {
+          "id": "cac1",
+          "prompt": "According to the first paragraph, what is usually the hardest part of a call in a second language?",
+          "options": [
+            "The audio, the speed, and deciding whether to admit you missed something",
+            "The grammar",
+            "Writing the follow-up message"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"The hard part is rarely grammar. It is the audio, the speed, and the three or four seconds of silence…\""
+        },
+        {
+          "id": "cac2",
+          "prompt": "What did \"cleaned\" turn out to mean?",
+          "options": [
+            "The duplicates were removed, but the validation pass was still to come",
+            "Everything was finished",
+            "The dashboard was ready"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dan answers: \"Duplicates only. The validation pass runs next week.\""
+        },
+        {
+          "id": "cac3",
+          "prompt": "Why does the text say the recap should name who owns what?",
+          "options": [
+            "So responsibility is written down and not just remembered",
+            "So the message is longer",
+            "So Claire can forward it to a manager"
+          ],
+          "answerIndex": 0,
+          "explanation": "The written version becomes the agreed one, so it records the owner of each task."
+        },
+        {
+          "id": "cac4",
+          "prompt": "What does the text say the point of all this is?",
+          "options": [
+            "Leaving the call with the same information as everybody else",
+            "Sounding like a native speaker",
+            "Speaking as little as possible"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"None of this is about sounding like a native speaker. It is about leaving the call holding the same information as everybody else on it.\""
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Role-play the first scene, but with a number that matters to you — a price, a flight time, a door code. Read it back.",
+    "Have you ever stayed quiet on a call instead of asking? What did it cost later?",
+    "The text says not to apologize for your English. Do you agree, and what would you say instead?",
+    "Write the recap message for your own last meeting, in six lines or fewer. Name who owns what, and give one deadline of your own."
+  ]
+}

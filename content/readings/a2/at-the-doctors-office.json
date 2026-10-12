@@ -1,0 +1,309 @@
+{
+  "id": "a2-reading-at-the-doctors-office",
+  "level": "A2",
+  "slug": "at-the-doctors-office",
+  "topic": "everyday",
+  "title": "At the Doctor's Office",
+  "subtitle": "Three short situations: booking the appointment, saying what hurts, and understanding the pharmacist.",
+  "description": "An A2 listening and reading page for one of the situations students most often have to handle alone — calling a doctor's office, describing a symptom, and following the instructions on a prescription in the United States.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "grammar": [
+    "present-perfect",
+    "modals",
+    "questions",
+    "present-simple"
+  ],
+  "passage": [
+    "Three short conversations you will need sooner or later. Your lines are written out as models.",
+    "1. Booking the appointment",
+    "Receptionist: Good morning, Dr. Reed's office.",
+    "You: Good morning. I'd like to make an appointment, please.",
+    "Receptionist: Have you been here before?",
+    "You: Yes. I came in last March.",
+    "Receptionist: Could I have your date of birth?",
+    "You: June the fourth, 1992.",
+    "Receptionist: Thank you. And what's the reason for the visit?",
+    "You: I've had a sore throat for about a week, and now it hurts to swallow.",
+    "Receptionist: I can fit you in on Thursday at ten forty-five. Does that work?",
+    "You: Thursday morning is difficult. Do you have anything later in the day?",
+    "Receptionist: There's a four-fifteen on Friday.",
+    "You: Four-fifteen on Friday is perfect. Thank you.",
+    "Receptionist: Please bring your insurance card, and try to arrive ten minutes early.",
+    "2. Saying what hurts",
+    "Dr. Reed: So, what brings you in today?",
+    "You: My throat has hurt since last week. It's worse in the morning.",
+    "Dr. Reed: Have you had a fever?",
+    "You: A little on Monday. I took something for it and it went down.",
+    "Dr. Reed: Are you allergic to any medication?",
+    "You: Not that I know of.",
+    "Dr. Reed: Let me take a look. Open your mouth, please.",
+    "Dr. Reed: It's red, but it doesn't look like an infection. You should feel better in a few days.",
+    "You: Should I take anything for it?",
+    "Dr. Reed: An over-the-counter painkiller is enough. If you still feel bad on Monday, call us.",
+    "You: And can I go to work?",
+    "Dr. Reed: You can. Drink water, and rest when you get the chance.",
+    "3. At the pharmacy",
+    "Pharmacist: Can I help you?",
+    "You: Yes — I'd like to pick up a prescription. The doctor sent it over this afternoon.",
+    "Pharmacist: Date of birth, please? … Here it is. Have you taken this one before?",
+    "You: No, never.",
+    "Pharmacist: Take one tablet twice a day, with food. Don't stop early, even if you feel better.",
+    "You: How many days is it for?",
+    "Pharmacist: Ten. There's one refill on it, so if you need more, call us instead of the doctor.",
+    "You: Thank you. Is there anything I should avoid?",
+    "Pharmacist: No alcohol while you're taking it. It says so on the label too."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 23,
+      "alt": "A doctor sitting beside a sick child's bed in a cottage, watching her closely by lamplight",
+      "source": "commons:File:Luke Fildes (1891) The Doctor.png",
+      "caption": "*The Doctor* — Luke Fildes, 1891. Fildes painted it years after the death of his own son, whose doctor had kept watch beside him in the same way."
+    },
+    {
+      "src": "02.jpg",
+      "after": 33,
+      "alt": "The counter and wall of glass bottles inside a drugstore around 1900",
+      "source": "commons:File:Stewart's Pharmacy interior, ca 1900 (SEATTLE 282).jpg",
+      "caption": "*Stewart's Pharmacy, Seattle* — about 1900, from the Seattle Municipal Archives. The shelves of identical glass bottles held ingredients the pharmacist measured and mixed to order."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "to make an appointment",
+      "definition": "to arrange a fixed time to see a doctor, dentist or official"
+    },
+    {
+      "term": "to fit somebody in",
+      "definition": "to find a free time for somebody in a full schedule"
+    },
+    {
+      "term": "an insurance card",
+      "definition": "the card that shows who pays for your treatment — American offices ask for it every visit"
+    },
+    {
+      "term": "a sore throat",
+      "definition": "pain in the throat, usually from a cold"
+    },
+    {
+      "term": "to swallow",
+      "definition": "to make food or drink go down your throat"
+    },
+    {
+      "term": "over-the-counter",
+      "definition": "sold without a prescription, straight off the shelf"
+    },
+    {
+      "term": "a painkiller",
+      "definition": "a medicine that reduces pain"
+    },
+    {
+      "term": "to pick something up",
+      "definition": "to go somewhere and collect it",
+      "match": "pick up"
+    },
+    {
+      "term": "a tablet",
+      "definition": "a small hard piece of medicine you swallow — careful: not a computer"
+    },
+    {
+      "term": "a refill",
+      "definition": "permission to collect the same prescription again without seeing the doctor"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "a2-doctor-phrases",
+      "title": "Saying It the Natural Way",
+      "instructions": "Choose the form an American receptionist, doctor or pharmacist would expect.",
+      "items": [
+        {
+          "id": "dr1",
+          "prompt": "You call the office. You say:",
+          "options": [
+            "I'd like to make an appointment.",
+            "I want to mark an hour.",
+            "I need to take an hour."
+          ],
+          "answerIndex": 0,
+          "explanation": "You make an appointment in English. \"Mark an hour\" translates directly from other languages and will not be understood."
+        },
+        {
+          "id": "dr2",
+          "prompt": "The doctor asks \"What brings you in today?\" This means:",
+          "options": [
+            "Why have you come?",
+            "How did you travel here?",
+            "Who came with you?"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"What brings you in?\" is the normal, friendly way of asking what the problem is."
+        },
+        {
+          "id": "dr3",
+          "prompt": "Complete: \"I've had a sore throat ___ a week.\"",
+          "options": [
+            "for",
+            "since",
+            "during"
+          ],
+          "answerIndex": 0,
+          "explanation": "A length of time takes \"for\": for a week. \"Since\" takes a starting point: since Monday."
+        },
+        {
+          "id": "dr4",
+          "prompt": "A painkiller you can buy with no prescription is:",
+          "options": [
+            "over-the-counter",
+            "under the counter",
+            "off the counter"
+          ],
+          "answerIndex": 0,
+          "explanation": "Over-the-counter medicine sits on the shelf. \"Under the counter\" means sold illegally."
+        },
+        {
+          "id": "dr5",
+          "prompt": "The receptionist offers Thursday. You cannot come. The most polite reply is:",
+          "options": [
+            "Thursday is difficult. Do you have anything later?",
+            "No. Give me another day.",
+            "Thursday is bad for me, change it."
+          ],
+          "answerIndex": 0,
+          "explanation": "English softens a refusal: say it is \"difficult\" and ask a question, rather than giving an order."
+        },
+        {
+          "id": "dr6",
+          "prompt": "\"There's one refill on it\" means you can:",
+          "options": [
+            "collect the same medicine once more",
+            "pay for it in two parts",
+            "return it if it does not work"
+          ],
+          "answerIndex": 0,
+          "explanation": "A refill is permission to collect the prescription again without going back to the doctor."
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "id": "a2-doctor-vocabulary",
+      "title": "At the Office and the Pharmacy",
+      "instructions": "Choose the word that fits.",
+      "items": [
+        {
+          "id": "drv1",
+          "prompt": "Please bring your insurance ___ to every visit.",
+          "answers": [
+            "card"
+          ],
+          "options": [
+            "card",
+            "paper",
+            "ticket"
+          ],
+          "explanation": "It is an insurance card in American English."
+        },
+        {
+          "id": "drv2",
+          "prompt": "I can ___ you in on Friday afternoon.",
+          "answers": [
+            "fit"
+          ],
+          "options": [
+            "fit",
+            "put",
+            "enter"
+          ],
+          "explanation": "To fit somebody in is to find them a free time in a full day."
+        },
+        {
+          "id": "drv3",
+          "prompt": "It hurts to ___ , so I am drinking very slowly.",
+          "answers": [
+            "swallow"
+          ],
+          "options": [
+            "swallow",
+            "breathe",
+            "speak"
+          ],
+          "explanation": "Swallowing is what makes a sore throat hurt most."
+        },
+        {
+          "id": "drv4",
+          "prompt": "I came to ___ up a prescription.",
+          "answers": [
+            "pick"
+          ],
+          "options": [
+            "pick",
+            "take",
+            "catch"
+          ],
+          "explanation": "You pick up a prescription at the pharmacy."
+        },
+        {
+          "id": "drv5",
+          "prompt": "Take one ___ twice a day, with food.",
+          "answers": [
+            "tablet"
+          ],
+          "options": [
+            "tablet",
+            "glass",
+            "piece"
+          ],
+          "explanation": "A tablet is the small hard piece of medicine. In Portuguese a tablet is a computer — here it is a pill."
+        }
+      ]
+    },
+    {
+      "type": "true-false",
+      "id": "a2-doctor-truefalse",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the conversations.",
+      "items": [
+        {
+          "id": "drt1",
+          "statement": "The appointment is finally on Thursday morning.",
+          "answer": false,
+          "explanation": "False — Thursday was difficult, so the appointment is at four-fifteen on Friday."
+        },
+        {
+          "id": "drt2",
+          "statement": "The doctor thinks the throat is infected.",
+          "answer": false,
+          "explanation": "False — \"It's red, but it doesn't look like an infection.\""
+        },
+        {
+          "id": "drt3",
+          "statement": "The doctor says you may go to work.",
+          "answer": true,
+          "explanation": "True — \"You can. Drink water, and rest when you get the chance.\""
+        },
+        {
+          "id": "drt4",
+          "statement": "You should stop the medicine as soon as you feel better.",
+          "answer": false,
+          "explanation": "False — the pharmacist says \"Don't stop early, even if you feel better.\""
+        },
+        {
+          "id": "drt5",
+          "statement": "You should not drink alcohol while taking the medicine.",
+          "answer": true,
+          "explanation": "True — \"No alcohol while you're taking it. It says so on the label too.\""
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Role-play situation 1: one of you is the receptionist and has no free time before next week.",
+    "How do you describe pain in your own language? Do you say \"my throat hurts\" or \"I have pain in the throat\"?",
+    "The doctor asks three questions before looking at your throat. What are they, and why does she ask them first?",
+    "Write a short dialogue (about eight lines) at a pharmacy where the medicine the doctor ordered is out of stock."
+  ]
+}

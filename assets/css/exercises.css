@@ -417,8 +417,20 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   bottom: calc(100% + 0.55em);
   /* Centred on the word, then nudged by initVocabTooltips() in main.js when
      that would push the box past the edge of the screen. The custom property
-     defaults to 0, so without JavaScript the behaviour is exactly as before. */
-  transform: translateX(calc(-50% + var(--vt-shift, 0px)));
+     defaults to 0, so without JavaScript the behaviour is exactly as before.
+
+     The scale is what keeps the *hidden* box out of the page's scrollable
+     width. `opacity: 0` and `visibility: hidden` below hide the tooltip but
+     leave it in layout, and an absolutely-positioned descendant still counts
+     towards its ancestors' scrollable overflow -- so every glossary word whose
+     invisible definition box reached past the text column was widening the
+     page. On a phone that is a reading text you can scroll sideways, by up to
+     35px, with nothing out there to look at. A transform IS taken into account
+     for that overflow, so collapsing the box to a point while it is hidden
+     removes the contribution; getComputedStyle(term, "::after").width reports
+     the untransformed used width, so initVocabTooltips() still measures and
+     places the box exactly as before. */
+  transform: translateX(calc(-50% + var(--vt-shift, 0px))) scale(var(--vt-scale, 0));
   z-index: 40;
   width: max-content;
   max-width: min(30ch, 78vw);
@@ -459,6 +471,7 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
 .exercise-block .vocab-term:hover::after,
 .exercise-block .vocab-term:focus-visible::after,
 .exercise-block .vocab-term:focus::after {
+  --vt-scale: 1;
   opacity: 1;
   visibility: visible;
 }

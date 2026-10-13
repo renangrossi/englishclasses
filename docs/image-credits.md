@@ -167,7 +167,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-141 images the gallery could not answer -- flags, maps, photographs and
+145 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything carrying NC or ND. The
 few used under a licence that requires a credit are listed separately below.
@@ -185,6 +185,8 @@ few used under a licence that requires a credit are listed separately below.
 | `a1/taking-the-train` | `01.jpg` | The waiting room of Chicago Union Station, 1943 | `File:Chicago, Illinois. In the waiting room of the Union Station LOC 3548859587.jpg` |
 | `a1/the-american-flag` | `01.jpg` | The flag of 1777: thirteen stripes and thirteen stars, one for each of the first states. | `File:Flag of the United States (1777-1795).svg` |
 | `a1/the-american-flag` | `02.jpg` | The flag today. Same thirteen stripes, fifty stars. | `File:Flag of the United States.svg` |
+| `a2/at-the-doctors-office` | `01.jpg` | The Doctor | `File:Luke Fildes (1891) The Doctor.png` |
+| `a2/at-the-doctors-office` | `02.jpg` | Stewart's Pharmacy, Seattle | `File:Stewart's Pharmacy interior, ca 1900 (SEATTLE 282).jpg` |
 | `a2/boston-tea-party` | `01.jpg` | The Destruction of Tea at Boston Harbor | `File:Boston Tea Party Currier colored.jpg` |
 | `a2/california-gold-rush` | `01.jpg` | Miners washing gravel with a “long tom”, California, around 1850. | `File:California gold miners with long tom.jpg` |
 | `a2/california-gold-rush` | `02.jpg` | Yerba Buena Cove, San Francisco, 1849. | `File:Ships-abandoned-in-Yerba-Buena-Cove-San-Francisco-during-the-California-gold-rush.-1849.jpg` |
@@ -197,6 +199,7 @@ few used under a licence that requires a credit are listed separately below.
 | `a2/saying-and-telling` | `01.jpg` | A Piggly Wiggly store | `File:Interior view of a Piggly Wiggly self-service grocery store showing check out counter with cash registers LCCN92520726.jpg` |
 | `a2/something-wrong-with-the-order` | `01.jpg` | Lunch arriving in a Dominican restaurant. | `File:Dominican Restaurant (Unsplash).jpg` |
 | `a2/st-patricks-day` | `01.jpg` | The Fifth Avenue parade, New York. | `File:New York City St. Patrick's Day Parade DVIDS261048.jpg` |
+| `a2/when-the-trip-goes-wrong` | `02.jpg` | Baggage claim, Salt Lake City International Airport | `File:SLC Airport baggage claim.JPG` |
 | `b1/a-day-in-the-house` | `02.jpg` | A laundry room in an apartment building. | `File:Laundry room in apartment building.png` |
 | `b1/a-day-in-the-office` | `01.jpg` | Interior with a Woman Standing | `File:Interior with a Woman Standing by Vilhelm Hammershøi, 1913.jpg` |
 | `b1/american-flag-symbols` | `01.jpg` | Join, or Die | `File:Benjamin Franklin - Join or Die.jpg` |
@@ -229,6 +232,7 @@ few used under a licence that requires a credit are listed separately below.
 | `b1/nfl` | `01.jpg` | Princeton against Chicago, 1922. | `File:1922 Princeton v. Chicago football game.jpg` |
 | `b1/physical-education` | `01.jpg` | Plates from *Athletic Training for School Boys*, 1910. | `File:Athletic training for school boys (1910) (14598149930).jpg` |
 | `b1/say-speak-talk-tell-02` | `01.jpg` | A radio dealer's window | `File:J. Fred Huber Radio, window LCCN2016826306.jpg` |
+| `b1/saying-it-again-on-a-call` | `01.jpg` | Operators at the "Victory" switchboard, Potsdam Conference | `File:WAC telephone operators operate the Victory switchboard during the Potsdam Conference in their headquarters in... - NARA - 199007.jpg` |
 | `b1/transcontinental-railroad` | `02.jpg` | Promontory Summit, Utah, 10 May 1869. | `File:East and West Shaking hands at the laying of last rail Union Pacific Railroad - Restoration.jpg` |
 | `b1/transcontinental-railroad` | `03.jpg` | Chinese workers on the Central Pacific in the Sierra Nevada. | `File:Chinese railroad workers sierra nevada.jpg` |
 | `b2/civil-war-nation-divided` | `01.jpg` | Pickett's Charge at Gettysburg | `File:Thure de Thulstrup - L. Prang and Co. - Battle of Gettysburg - Restoration by Adam Cuerden.jpg` |
@@ -318,7 +322,7 @@ few used under a licence that requires a credit are listed separately below.
 
 ### Used under a licence that requires credit
 
-70 image(s). The credit is also printed under the picture on
+72 image(s). The credit is also printed under the picture on
 the page itself, which is where the licence requires it to be.
 
 | Page | File | Author | Licence | Source |
@@ -327,6 +331,7 @@ the page itself, which is where the licence requires it to be.
 | `a2/restaurant-dialogue` | `01.jpg` | Jim.henderson | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Joe%27s_Pizza_2022_jeh.jpg) |
 | `a2/two-small-errands` | `01.jpg` | PattayaPatrol | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:DFC_4093_Assorted_mini_cream-topped_pastries_drizzled_with_fruit_sauce_and_chocolate_ready_to_tempt_at_the_bakery_counter.jpg) |
 | `a2/two-very-different-trips` | `02.jpg` | Nawit science | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Temple_of_the_Emerald_Buddha.jpg) |
+| `a2/when-the-trip-goes-wrong` | `01.jpg` | paul_houle | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Departure_And_Arrival_Board_At_Dulles_Airport_(4128589658).jpg) |
 | `b1/a-day-in-the-office` | `02.jpg` | John M | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:A_snowy_view_out_of_the_office_window_-_geograph.org.uk_-_3300587.jpg) |
 | `b1/a-freelance-accounting-assignment` | `02.jpg` | AgnosticPreachersKid | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:22_West_-_home_office.jpg) |
 | `b1/arriving-in-johannesburg` | `01.jpg` | Aleph500Adam | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Johannesburg_in_December.jpg) |
@@ -352,6 +357,7 @@ the page itself, which is where the licence requires it to be.
 | `b1/robot-birds` | `02.jpg` | JoeInQueens from Queens, USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Feeding_Pigeons_in_Washington_Square_Park.jpg) |
 | `b1/santa-catarina` | `01.jpg` | Jeffhollett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cannon_Beach_at_Pacific_Coast_in_Oregon_1.jpg) |
 | `b1/santa-catarina` | `02.jpg` | Jeffhollett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sunset_at_Cannon_Beach_in_Oregon_1.jpg) |
+| `b1/saying-it-again-on-a-call` | `02.jpg` | Maksym Kozlenko | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Underwood_typewriter.jpg) |
 | `b1/southeast-asia-adventure` | `01.jpg` | Satdeep Gill | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Angkor_Wat_with_its_reflection_(cropped).jpg) |
 | `b1/southeast-asia-adventure` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rice_terraces,_Ubud,_Bali.jpg) |
 | `b1/travel-dialogues-02` | `02.jpg` | JIP | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Reception_desk_at_Hotel_Esplanade_in_Stockholm.jpg) |

@@ -1,0 +1,307 @@
+{
+  "id": "a2-reading-when-the-trip-goes-wrong",
+  "level": "A2",
+  "slug": "when-the-trip-goes-wrong",
+  "topic": "travel",
+  "title": "When the Trip Goes Wrong",
+  "subtitle": "Three short situations: the connection you missed, the bag that did not arrive, and the room that is not what you booked.",
+  "description": "An A2 listening and reading page for the part of travel the guidebooks leave out — a missed connection, a lost bag and a wrong hotel room, and the small set of English phrases that gets each of them fixed.",
+  "source": "authored for this site; no source document",
+  "provenance": "new",
+  "grammar": [
+    "past-simple",
+    "present-perfect",
+    "modals",
+    "questions"
+  ],
+  "passage": [
+    "Nothing in travel teaches you English faster than something going wrong. Your lines are written out as models.",
+    "1. The connection you missed",
+    "You: Excuse me. My flight from Dallas landed late and I missed my connection to Denver.",
+    "Agent: Let me see your boarding pass. … Yes, the seven-forty has already left.",
+    "You: Is there another flight tonight?",
+    "Agent: There's one at ten-fifteen, but it's full. I can put you on the first flight tomorrow morning.",
+    "You: I'd rather not spend the night at the airport. Can you check whether another airline has something?",
+    "Agent: One moment. … There is a nine-thirty with a partner airline. Shall I rebook you on that?",
+    "You: Yes, please. And will my bag follow me automatically?",
+    "Agent: It should. Keep this tag in case it doesn't.",
+    "You: Thank you. Could I also have something in writing, for my insurance?",
+    "2. The bag that did not arrive",
+    "You: I waited at the belt for an hour and my suitcase never came.",
+    "Clerk: I'm sorry. Do you have the tag from check-in?",
+    "You: Here it is.",
+    "Clerk: Can you describe the bag?",
+    "You: It's a large gray suitcase with four wheels and a red ribbon on the handle.",
+    "Clerk: Thank you. It's still in Dallas. We'll put it on tonight's flight and deliver it to your hotel tomorrow.",
+    "You: I have nothing with me except hand luggage. Is there anything for that?",
+    "Clerk: You can claim up to a hundred dollars for the first night. Keep the receipts.",
+    "You: And how do I check where the bag is?",
+    "Clerk: With this file number, on our website.",
+    "3. The room that is not what you booked",
+    "You: Good evening. I have a reservation for three nights, under Palmer.",
+    "Clerk: Yes — a double room with a city view.",
+    "You: I booked a quiet room at the back. This one faces the main street.",
+    "Clerk: Let me look. … I'm afraid we're fully booked tonight.",
+    "You: I understand it isn't your fault, but I won't sleep with that noise. What can you do?",
+    "Clerk: I can move you tomorrow morning, and take twenty percent off tonight.",
+    "You: That works. Could you put the new room in writing, so I don't have to explain it again?",
+    "Clerk: Of course. And breakfast is on us.",
+    "You: Thank you. I appreciate it."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 5,
+      "alt": "A large split-flap board listing arrivals and departures in an airport hall",
+      "source": "commons:File:Departure And Arrival Board At Dulles Airport (4128589658).jpg",
+      "licence": "CC BY-SA 2.0",
+      "author": "paul_houle",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Departure_And_Arrival_Board_At_Dulles_Airport_(4128589658).jpg",
+      "caption": "*Departure and arrival board, Dulles International Airport* — paul_houle. Split-flap boards, which announced each change with a clatter of turning letters, were replaced by silent screens through the 2000s."
+    },
+    {
+      "src": "02.jpg",
+      "after": 17,
+      "alt": "Empty baggage carousels in an airport arrivals hall",
+      "source": "commons:File:SLC Airport baggage claim.JPG",
+      "caption": "*Baggage claim, Salt Lake City International Airport* — Intothewoods29. The carousel replaced the long counters where arriving bags were once laid out by hand for collection."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "to miss a connection",
+      "definition": "to arrive too late to get on the next flight, train or bus",
+      "match": "missed my connection"
+    },
+    {
+      "term": "a boarding pass",
+      "definition": "the ticket that lets you onto the plane"
+    },
+    {
+      "term": "to rebook somebody",
+      "definition": "to put somebody on a different flight or date"
+    },
+    {
+      "term": "I'd rather not",
+      "definition": "a polite way of refusing: I would prefer not to"
+    },
+    {
+      "term": "the belt",
+      "definition": "the moving band at an airport where suitcases come out"
+    },
+    {
+      "term": "hand luggage",
+      "definition": "the small bag you carry onto the plane yourself"
+    },
+    {
+      "term": "to claim",
+      "definition": "to officially ask a company to pay money back to you"
+    },
+    {
+      "term": "a receipt",
+      "definition": "the paper that proves you paid"
+    },
+    {
+      "term": "fully booked",
+      "definition": "with nothing left free"
+    },
+    {
+      "term": "it isn't your fault",
+      "definition": "a phrase that keeps a complaint friendly: the problem is not the person you are talking to"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "a2-trouble-phrases",
+      "title": "Getting It Fixed Politely",
+      "instructions": "Choose the form that is both natural and polite.",
+      "items": [
+        {
+          "id": "tw1",
+          "prompt": "The agent offers tomorrow morning. You do not want to sleep at the airport. You say:",
+          "options": [
+            "I'd rather not spend the night here. Can you check another airline?",
+            "No. I don't sleep here.",
+            "That is impossible for me."
+          ],
+          "answerIndex": 0,
+          "explanation": "\"I'd rather not\" refuses softly, and the question gives the agent something to do. A flat \"no\" usually ends the conversation."
+        },
+        {
+          "id": "tw2",
+          "prompt": "Complete: \"My flight landed late and I ___ my connection.\"",
+          "options": [
+            "missed",
+            "lost",
+            "failed"
+          ],
+          "answerIndex": 0,
+          "explanation": "In English you miss a flight, a train or a connection. \"Lost\" is a direct translation that English does not use here."
+        },
+        {
+          "id": "tw3",
+          "prompt": "\"We're fully booked\" means the hotel:",
+          "options": [
+            "has no free rooms",
+            "has closed the restaurant",
+            "needs payment now"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fully booked = nothing left free. The same phrase works for restaurants and flights."
+        },
+        {
+          "id": "tw4",
+          "prompt": "Why is \"I understand it isn't your fault, but…\" useful?",
+          "options": [
+            "It keeps the clerk on your side while you still complain",
+            "It ends the conversation politely",
+            "It means you accept the room"
+          ],
+          "answerIndex": 0,
+          "explanation": "It separates the problem from the person. The clerk can then help you instead of defending themselves."
+        },
+        {
+          "id": "tw5",
+          "prompt": "You want proof of the new arrangement. You ask for it:",
+          "options": [
+            "in writing",
+            "on writing",
+            "by written"
+          ],
+          "answerIndex": 0,
+          "explanation": "The fixed phrase is \"in writing\" — and asking for it is the single most useful habit when a trip goes wrong."
+        },
+        {
+          "id": "tw6",
+          "prompt": "The clerk says \"breakfast is on us.\" This means:",
+          "options": [
+            "the hotel will pay for it",
+            "breakfast is upstairs",
+            "breakfast is already included in the law"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"It's on us\" / \"it's on me\" means the speaker pays."
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "id": "a2-trouble-vocabulary",
+      "title": "Airport and Hotel Words",
+      "instructions": "Choose the word that fits.",
+      "items": [
+        {
+          "id": "twv1",
+          "prompt": "I waited at the ___ for an hour and my suitcase never came.",
+          "answers": [
+            "belt"
+          ],
+          "options": [
+            "belt",
+            "door",
+            "line"
+          ],
+          "explanation": "The belt is the moving band the bags come out on."
+        },
+        {
+          "id": "twv2",
+          "prompt": "Can you ___ me on the nine-thirty flight?",
+          "answers": [
+            "rebook"
+          ],
+          "options": [
+            "rebook",
+            "remark",
+            "repeat"
+          ],
+          "explanation": "To rebook somebody is to move them to another flight."
+        },
+        {
+          "id": "twv3",
+          "prompt": "I have a ___ for three nights, under Palmer.",
+          "answers": [
+            "reservation"
+          ],
+          "options": [
+            "reservation",
+            "reserve",
+            "booking of"
+          ],
+          "explanation": "The noun is a reservation (American English) or a booking (both are used)."
+        },
+        {
+          "id": "twv4",
+          "prompt": "Keep the ___ , because you can claim the money back.",
+          "answers": [
+            "receipts",
+            "receipt"
+          ],
+          "options": [
+            "receipts",
+            "recipes",
+            "tickets"
+          ],
+          "explanation": "A receipt proves you paid. A recipe tells you how to cook — a classic trap."
+        },
+        {
+          "id": "twv5",
+          "prompt": "I only have ___ luggage, because my suitcase is still in Dallas.",
+          "answers": [
+            "hand"
+          ],
+          "options": [
+            "hand",
+            "small",
+            "light"
+          ],
+          "explanation": "Hand luggage is the bag you carry on yourself."
+        }
+      ]
+    },
+    {
+      "type": "true-false",
+      "id": "a2-trouble-truefalse",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the conversations.",
+      "items": [
+        {
+          "id": "twt1",
+          "statement": "The ten-fifteen flight has free seats.",
+          "answer": false,
+          "explanation": "False — \"There's one at ten-fifteen, but it's full.\""
+        },
+        {
+          "id": "twt2",
+          "statement": "The suitcase was never found.",
+          "answer": false,
+          "explanation": "False — it is still in Dallas, and will be delivered to the hotel the next day."
+        },
+        {
+          "id": "twt3",
+          "statement": "The traveler can get money back for the first night without a suitcase.",
+          "answer": true,
+          "explanation": "True — up to a hundred dollars, if the receipts are kept."
+        },
+        {
+          "id": "twt4",
+          "statement": "The hotel moves the traveler to a quiet room the same evening.",
+          "answer": false,
+          "explanation": "False — the hotel is fully booked that night, so the move happens the next morning."
+        },
+        {
+          "id": "twt5",
+          "statement": "The traveler asks for the new arrangement in writing.",
+          "answer": true,
+          "explanation": "True — \"Could you put the new room in writing, so I don't have to explain it again?\""
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Role-play situation 1: one of you is the agent, and there is no seat on any flight until tomorrow night.",
+    "Which of these three problems would be hardest for you in English, and which words would you need?",
+    "The traveler asks for something in writing twice. Why is that a good habit?",
+    "Write a short dialogue (about eight lines) in which a rental car has been given to somebody else."
+  ]
+}

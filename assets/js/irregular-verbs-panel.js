@@ -1,9 +1,11 @@
 /*!
  * Renan the Teacher — Floating Irregular Verbs panel
- * Included only on exercise pages whose grammar point genuinely needs
- * irregular past-simple/past-participle recall (passive voice, perfect
- * tenses, 2nd/3rd conditionals, modal perfect, reported-speech
- * backshifting, etc.) — see each such page's own <script> include.
+ * On the reading library hub and on every one of its texts, where any
+ * passage at any level can put an irregular form in front of a reader,
+ * and on the grammar lessons whose point genuinely needs irregular
+ * past-simple/past-participle recall (passive voice, perfect tenses,
+ * 2nd/3rd conditionals, modal perfect, reported-speech backshifting,
+ * etc.). Injected by site_chrome.with_irregular_verbs().
  *
  * Reuses the single 213-row table already authored in
  * irregular-verbs.html (Extras) instead of keeping a second copy: the

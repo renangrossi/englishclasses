@@ -288,8 +288,8 @@
 
 /* =======================================================================
    FLOATING IRREGULAR VERBS PANEL (assets/js/irregular-verbs-panel.js)
-   Only on exercise pages whose grammar point needs irregular
-   past-simple/past-participle recall — see that file's header comment.
+   On the reading hub, every reading text, and the grammar lessons that
+   need irregular-verb recall — see that file's header comment.
    Right-side stack, grouped with Dictionary rather than the left-side
    AI Teacher button, since the two are both quick-reference lookups a
    student reaches for mid-exercise. Takes the base var(--space-md) row

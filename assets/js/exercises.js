@@ -1108,15 +1108,45 @@
 
     var lastResults = null;
 
+    // A self-check item -- a "typing" item with no answer key, see
+    // renderTyping -- has nothing to be right or wrong about, so its
+    // grade() returns correct:true unconditionally. Counting those
+    // towards a percentage made a block of them report "Excellent --
+    // perfect score! 15 of 15 correct (100%)" over fifteen items the
+    // engine had, on the very same submission, labelled "Not filled
+    // in.". Split the two here: score the graded items, and report the
+    // self-check ones by how many were written -- the same distinction
+    // collectExerciseAnswers already draws when it marks them
+    // "self-check" rather than "correct".
+    function gradedOnly(results) {
+      return results.filter(function (r) { return !r.selfCheck; });
+    }
+
     function showScore(results) {
-      var correctCount = results.filter(function (r) { return r.correct; }).length;
-      var total = results.length;
+      var graded = gradedOnly(results);
+      var selfCheck = results.filter(function (r) { return r.selfCheck; });
+      var written = selfCheck.filter(function (r) { return r.attempted; }).length;
+      var correctCount = graded.filter(function (r) { return r.correct; }).length;
+      var total = graded.length;
       var pct = total ? Math.round((correctCount / total) * 100) : 0;
-      var ringClass = pct < 50 ? "is-low" : pct < 80 ? "is-mid" : "";
-      var headingText = pct === 100 ? "Excellent — perfect score!" : pct >= 80 ? "Well done." : pct >= 50 ? "Good progress." : "Keep practicing.";
-      var subText = correctCount + " of " + total + " correct (" + pct + "%).";
+      var ringClass, ringText, headingText, subText;
+      if (!total && selfCheck.length) {
+        // Nothing here is gradeable: report completion, not correctness.
+        ringText = written + "/" + selfCheck.length;
+        ringClass = written === selfCheck.length ? "" : "is-mid";
+        headingText = written === selfCheck.length ? "All written." : "Keep writing.";
+        subText = written + " of " + selfCheck.length +
+          " written. Compare each with the model answer.";
+      } else {
+        ringText = correctCount + "/" + total;
+        ringClass = pct < 50 ? "is-low" : pct < 80 ? "is-mid" : "";
+        headingText = pct === 100 ? "Excellent — perfect score!" : pct >= 80 ? "Well done." : pct >= 50 ? "Good progress." : "Keep practicing.";
+        subText = correctCount + " of " + total + " correct (" + pct + "%)." +
+          (selfCheck.length ? " " + written + " of " + selfCheck.length +
+            " written answers to compare with the model." : "");
+      }
       scorePanels.forEach(function (sp) {
-        sp.ring.textContent = correctCount + "/" + total;
+        sp.ring.textContent = ringText;
         sp.ring.classList.remove("is-low", "is-mid");
         if (ringClass) sp.ring.classList.add(ringClass);
         sp.textWrap.innerHTML = "";
@@ -1154,9 +1184,17 @@
       // Gamification (assets/js/progress.js) — optional by design: if
       // that script hasn't loaded on a given page, grading above still
       // works exactly the same, nothing here is required for it.
+      // Self-check items are excluded here for the same reason they are
+      // excluded from the score panel: counting them as correct handed
+      // out the "Perfect score" XP bonus, and set the badge-feeding
+      // `perfect` flag, for a block of writing prompts a student could
+      // have submitted completely empty. With no graded item at all,
+      // total is 0 -- recordExerciseResult still credits the submission
+      // itself, it just can't call it perfect.
       if (window.ProgressTracker && typeof window.ProgressTracker.recordExerciseResult === "function") {
-        var correctCount = lastResults.filter(function (r) { return r.correct; }).length;
-        var total = lastResults.length;
+        var gradedResults = gradedOnly(lastResults);
+        var correctCount = gradedResults.filter(function (r) { return r.correct; }).length;
+        var total = gradedResults.length;
         window.ProgressTracker.recordExerciseResult({
           exerciseId: data.id,
           level: document.body.getAttribute("data-level-code") || "",

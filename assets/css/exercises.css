@@ -118,7 +118,17 @@
 .blank-input:focus-visible { background: var(--color-surface-raised); }
 .blank-input.is-correct { border-bottom-color: var(--color-success); background: var(--color-success-bg); }
 .blank-input.is-incorrect { border-bottom-color: var(--color-danger); background: var(--color-danger-bg); text-decoration: line-through; text-decoration-color: var(--color-danger); }
-select.blank-input { cursor: pointer; padding-right: 1.4em; }
+/* A <select> ignores the inherited line-height when it sizes itself, where an
+   <input> does not, so a dropdown blank came out 27px tall next to a 42px text
+   blank in the same sentence -- a small thing to hit on a phone, and visibly
+   two different controls where the point is that they are one. This restates
+   the height the text blank gets for free: .blank-sentence's line-height,
+   plus this rule's own vertical padding, plus the bottom border. */
+select.blank-input {
+  cursor: pointer;
+  padding-right: 1.4em;
+  min-height: calc(2.2em + 0.3em + 2px);
+}
 select.blank-input:disabled { cursor: default; opacity: 0.85; }
 
 /* Typing / correction — single line answers */

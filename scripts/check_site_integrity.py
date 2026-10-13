@@ -21,7 +21,17 @@ Checks
 5. exercise data       every `<script class="exercise-data">` block (and
                        its curriculum source) matches the contract
                        assets/js/exercises.js actually implements, and
-                       item ids are unique per lesson
+                       item ids are unique per lesson. Also that a block
+                       renders as ONE kind of question and that every
+                       question can actually be answered -- the checks
+                       that would have caught the bug where "Fill in the
+                       Blanks (Part 1 of 3)" on the A2 quantifiers
+                       lesson showed four dropdowns and then six text
+                       boxes, because the six items added later were
+                       never given `options`; and the one where the B2
+                       articles lesson asked students to "choose the, a,
+                       or (no article)" in a free-text box that only
+                       accepted the literal string "(no article)"
 6. built-page assets   every css/js reference carries the ?v= stamp
                        stamp_asset_versions.py adds, and each booklet
                        page carries the script set the booklet builder
@@ -36,6 +46,7 @@ Checks
 Usage:
     python3 scripts/check_site_integrity.py            # report, exit 1 on error
     python3 scripts/check_site_integrity.py --warnings # also list warnings
+    python3 scripts/check_site_integrity.py --selftest # check the checks fire
 """
 import glob
 import json
@@ -55,8 +66,16 @@ EXERCISE_TYPES = {
     "correction", "typing", "reading-comprehension", "vocabulary", "writing",
 }
 
+# Answer strings a student has no way to type into a free-text blank.
+UNTYPEABLE = {"-", "--", "–", "—"}
+
 errors: list[str] = []
 warnings: list[str] = []
+
+
+def norm(value) -> str:
+    """Compare answers the way assets/js/exercises.js's norm() does."""
+    return re.sub(r"[.!?]+$", "", re.sub(r"\s+", " ", str(value or "").strip().lower()))
 
 
 def html_pages():
@@ -176,6 +195,44 @@ def check_exercise_block(where, block, seen_ids):
     items = block.get("items") or []
     if not items:
         errors.append(f"{where} {eid}: no items")
+
+    # One section, one kind of question. renderFillBlank gives a blank a
+    # <select> when the item supplies "options" and a free-text <input>
+    # when it doesn't, so a block whose items disagree renders as two
+    # different exercises under one title and one instruction -- which is
+    # exactly what "Fill in the Blanks (Part 1 of 3)" on the A2
+    # quantifiers lesson did: four dropdowns followed by six text boxes.
+    # It happened when a block authored with dropdowns was later padded
+    # out with extra items that nobody gave options to.
+    if etype == "fill-blank":
+        with_options = [i.get("id") for i in items if i.get("options")]
+        without = [i.get("id") for i in items if not i.get("options")]
+        if with_options and without:
+            errors.append(
+                f"{where} {eid}: mixes {len(with_options)} dropdown item(s) with "
+                f"{len(without)} free-text item(s) in one block "
+                f"(no options on: {', '.join(str(i) for i in without[:4])}"
+                f"{'...' if len(without) > 4 else ''})")
+
+    # The same graded question twice in one block: the student answers it
+    # again and the score counts it twice. Self-check items (writing, and
+    # typing with no answer key) repeat legitimately enough that they are
+    # only a warning.
+    graded = etype not in ("writing",) and not (
+        etype == "typing" and not any(i.get("answer") for i in items))
+    signatures: dict[str, str] = {}
+    for item in items:
+        sig = json.dumps({k: item.get(k) for k in
+                          ("prompt", "statement", "incorrect", "words", "options",
+                           "answers", "answer", "answerIndex", "pairs", "modelAnswer")},
+                         sort_keys=True, ensure_ascii=False)
+        if sig in signatures:
+            msg = (f"{where} {eid}: item {item.get('id')!r} is identical to "
+                   f"{signatures[sig]!r} -- the same question twice in one block")
+            (errors if graded else warnings).append(msg)
+        else:
+            signatures[sig] = item.get("id")
+
     for item in items:
         iid = item.get("id")
         if not iid:
@@ -200,6 +257,36 @@ def check_exercise_block(where, block, seen_ids):
                 errors.append(f"{where} {iid}: flat 'options' on a {blanks}-blank item")
             if options and isinstance(options[0], list) and len(options) != blanks:
                 errors.append(f"{where} {iid}: {len(options)} option group(s) for {blanks} blank(s)")
+            # A dropdown whose list doesn't contain any accepted answer
+            # cannot be answered correctly at all, and the same option
+            # listed twice is a copy-paste that shows up verbatim in the
+            # rendered <select>.
+            if options and isinstance(answers, list):
+                groups = (options if isinstance(options[0], list)
+                          else ([options] if blanks == 1 else []))
+                for i, group in enumerate(groups):
+                    accepted = answers[i] if i < len(answers) else []
+                    accepted = accepted if isinstance(accepted, list) else [accepted]
+                    if not ({norm(a) for a in accepted} & {norm(o) for o in group}):
+                        errors.append(f"{where} {iid}: blank {i + 1} offers {group} but "
+                                      f"accepts {accepted} -- no option is a correct answer")
+                    if len({norm(o) for o in group}) != len(group):
+                        errors.append(f"{where} {iid}: blank {i + 1} lists the same "
+                                      f"option twice: {group}")
+            # Without a dropdown the student has to type the answer, so
+            # an answer nobody would type -- "(no article)" was the real
+            # one -- cannot be entered at all. Leaving the blank empty is
+            # a deliberate answer only when "" is itself accepted.
+            if not options and isinstance(answers, list):
+                for i, accepted in enumerate(answers):
+                    accepted = accepted if isinstance(accepted, list) else [accepted]
+                    if any(norm(a) == "" for a in accepted):
+                        continue
+                    untypeable = [a for a in accepted
+                                  if re.search(r"[()\[\]]", str(a)) or str(a).strip() in UNTYPEABLE]
+                    if untypeable and len(untypeable) == len(accepted):
+                        errors.append(f"{where} {iid}: blank {i + 1} is free-text but only "
+                                      f"accepts {untypeable} -- a student cannot type that")
         elif etype in ("multiple-choice", "vocabulary", "reading-comprehension"):
             options = item.get("options") or []
             answer_index = item.get("answerIndex")
@@ -286,7 +373,68 @@ def check_assets(pages):
                 errors.append(f"{rel}: loads dictionary.js, which belongs to "
                               f"dictionary.html and not to a booklet")
 
+# ------------------------------------------------------------------ selftest
+# Each case is a block that once existed in this repo (or a near-enough
+# minimal version of it), so a rule that stops firing is caught here
+# rather than the next time a lesson is padded out.
+SELFTEST = [
+    ("a block that mixes dropdown and free-text items", 1, 0,
+     {"id": "b", "type": "fill-blank", "items": [
+         {"id": "i1", "prompt": "a ___ b", "answers": [["x"]], "options": ["x", "y"]},
+         {"id": "i2", "prompt": "c ___ d", "answers": [["z"]]}]}),
+    ("a dropdown offering no correct answer", 1, 0,
+     {"id": "b", "type": "fill-blank", "items": [
+         {"id": "i1", "prompt": "a ___ b", "answers": [["x"]], "options": ["p", "q"]}]}),
+    ("the same option listed twice", 1, 0,
+     {"id": "b", "type": "fill-blank", "items": [
+         {"id": "i1", "prompt": "a ___ b", "answers": [["x"]], "options": ["x", "y", "x"]}]}),
+    ("a free-text blank that only accepts '(no article)'", 1, 0,
+     {"id": "b", "type": "fill-blank", "items": [
+         {"id": "i1", "prompt": "___ Books are nice.", "answers": [["(no article)"]]}]}),
+    ("the same graded question twice", 1, 0,
+     {"id": "b", "type": "multiple-choice", "items": [
+         {"id": "i1", "prompt": "Which?", "options": ["a", "b"], "answerIndex": 0},
+         {"id": "i2", "prompt": "Which?", "options": ["a", "b"], "answerIndex": 0}]}),
+    ("the same writing prompt twice (a warning, not an error)", 0, 1,
+     {"id": "b", "type": "writing", "items": [
+         {"id": "i1", "prompt": "Write about your week."},
+         {"id": "i2", "prompt": "Write about your week."}]}),
+    ("a blank whose answer is to leave it empty", 0, 0,
+     {"id": "b", "type": "fill-blank", "items": [
+         {"id": "i1", "prompt": "The book ___ you read", "answers": [["—", ""]]}]}),
+    ("a clean block", 0, 0,
+     {"id": "b", "type": "fill-blank", "items": [
+         {"id": "i1", "prompt": "a ___ b", "answers": [["x"]], "options": ["x", "y"]},
+         {"id": "i2", "prompt": "c ___ d", "answers": [["z"]], "options": ["z", "w"]}]}),
+]
+
+
+def selftest():
+    failed = 0
+    for name, want_errors, want_warnings, block in SELFTEST:
+        errors.clear()
+        warnings.clear()
+        check_exercise_block("selftest", block, {})
+        got = (len(errors), len(warnings))
+        ok = got == (want_errors, want_warnings)
+        if not ok:
+            failed += 1
+        print(f"  {'ok  ' if ok else 'FAIL'} {name} "
+              f"-> {got[0]} error(s), {got[1]} warning(s)")
+        if not ok:
+            for e in errors:
+                print(f"         x {e}")
+            for w in warnings:
+                print(f"         ! {w}")
+    errors.clear()
+    warnings.clear()
+    print(f"{len(SELFTEST) - failed}/{len(SELFTEST)} self-test case(s) passed.")
+    return failed
+
+
 def main():
+    if "--selftest" in sys.argv:
+        sys.exit(1 if selftest() else 0)
     pages, anchors = load_pages()
     check_links(pages, anchors)
     check_search_index(anchors)

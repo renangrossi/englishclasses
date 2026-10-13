@@ -1020,6 +1020,48 @@ milestone 16 the folder is gone: its 156 source documents and six `.mp3` recordi
   stamper exists to prevent — GitHub Pages still answers `cache-control: max-age=600` — and it
   was live on 153 of the 283 pages, the whole reading library among them. Stamped.
 
+- ~~**P-10** — one exercise section, two kinds of question.~~ FIXED. "Fill in the Blanks
+  (Part 1 of 3)" on `levels/a2/quantifiers.html` asked its first four questions with a
+  dropdown and its last six with a text box, under one title and one instruction.
+  `renderFillBlank` decides that per *item*: `options` present means `<select>`, absent means
+  free-text `<input>`. The four original items carry `options`; the six added when the A2
+  blocks were tripled and padded (`e3a785e`, `caae282`, `c049ea8`) never got any. Eight more
+  blocks had drifted the same way — nine in all, across seven pages. Every free-text item in
+  them was given the options its block already used, so each section is one exercise again.
+  No answer key was changed and no question removed.
+
+- ~~**P-11** — 23 questions a student could not answer.~~ FIXED. Every gap-fill in
+  `levels/b2/articles-generic-reference.html` says "Choose the, a, or (no article)", but only
+  7 of its 40 items rendered a dropdown. In the other 33, "(no article)" was the literal and
+  only accepted string in a free-text box: typing it is absurd, typing anything else is wrong,
+  and leaving it blank is wrong too (unlike the C2 ellipsis gap-fills, which deliberately
+  accept `""`). All 40 now carry the lesson's own `["The", "A", "(no article)"]`.
+
+- ~~**P-12** — a perfect score for an empty page.~~ FIXED. A self-check `typing` item has no
+  answer key, so its `grade()` returns `correct: true` unconditionally. The score panel
+  counted those, so submitting a block of writing prompts with nothing in them reported
+  "Excellent — perfect score! 15 of 15 correct (100%)" over fifteen items the same submission
+  had just labelled "Not filled in." — and handed `ProgressTracker` a `perfect` result, worth
+  the +5 XP bonus and whatever badges read that flag. 84 blocks across 28 pages did this.
+  `showScore` and the XP call now score the graded items only and report the self-check ones
+  by how many were written.
+
+- ~~**P-13** — reading pages scrolled sideways on a phone.~~ FIXED. `.vocab-term::after` holds
+  the glossary tooltip and is hidden with `opacity: 0; visibility: hidden` — both of which keep
+  the box in layout, and an absolutely-positioned descendant still counts towards its
+  ancestors' scrollable overflow. Every highlighted word whose invisible definition reached
+  past the text column widened the page, by up to 35px depending on viewport width. The hidden
+  state now also carries `scale(0)`, which a transform *does* remove from that overflow;
+  `getComputedStyle(term, "::after").width` reports the untransformed width, so
+  `initVocabTooltips()` measures and places the box exactly as before.
+
+- ~~**P-14** — the six level pages loaded `search.css` twice and `lessons.css` never.~~ FIXED.
+  `levels/{a1,a2,b1,b2,c1,c2}.html` all use `.table-scroll` / `.ref-table` for their vocabulary
+  tables, and `lessons.css` is the only stylesheet that defines them — so `.table-scroll`'s
+  `overflow-x: auto` never applied and the table pushed `levels/b1.html` 56px wider than a
+  360px phone. The duplicate `search.css` link is replaced by `lessons.css`, which is the order
+  `scripts/site_chrome.py` already emits for every other page.
+
 - ~~P-3 — non-ASCII source filenames.~~ Moot: the source files are no longer read by anything,
   and every slug shipped is ASCII and hyphen-only.
 - ~~P-4 — texts existing only to drill a tense.~~ All five rewritten: `capetown`,
@@ -1140,3 +1182,58 @@ the `action`, write the reason into the entry, and say so in the commit.
 Commit per coherent group (e.g. "the KEEP texts for A2 and B1"), not per file and not in one
 giant commit. At each milestone: update `PROJECT_STATUS.md` → run both validators → commit →
 push → merge → record the commit hash here.
+
+---
+
+## Exercise-system audit (2026-10-13)
+
+Out of scope for the reading-library project by D-2, and run as its own separately
+authorised pass. The grammar lessons were audited end to end: all 283 HTML pages, all
+1,782 `exercise-data` blocks, all 13,787 items.
+
+**Method.** Static: every block parsed out of the built pages and checked against the
+contract `assets/js/exercises.js` implements. Live: all 283 pages loaded in headless
+Chrome (puppeteer, in a scratch directory — nothing was added to the repo), then every
+graded block on every page played through with its own answer key and submitted. The
+fixes are recorded as P-10 … P-14 above.
+
+**Results.**
+
+| | |
+|---|---|
+| Pages loaded in a browser | 283 / 283 (274 content pages + 9 redirect stubs) |
+| Exercise blocks played and submitted | 1,770 (all but the 65 ungraded `writing` blocks) |
+| Items answered with the official key | 13,695 |
+| Blocks that marked their own correct answer wrong | **0** |
+| JS errors / failed requests across the site | **0** |
+| Blocks that rendered two kinds of control | 9 → **0** |
+| Questions with no answerable option | 23 → **0** |
+
+A negative control was run alongside: answering four pages deliberately wrong scores
+every block 0/N, so the pass above is the grader working, not the grader accepting
+anything.
+
+**Left alone, deliberately.**
+
+- **83 repeated self-check prompts.** Writing/`typing` prompts that appear twice inside one
+  block ("Rewrite the same idea in legal register…"), nearly all in the C2 lessons, left by
+  the same padding commits as P-10. Nothing is mis-graded — these items have no answer key —
+  so this is repetition, not a defect, and de-duplicating means authoring 83 new prompts,
+  which is editorial work. `check_site_integrity.py` now reports them as warnings so they
+  stay visible; 7 are byte-identical and show up in the default run.
+- **Instruction wording.** 129 gap-fill blocks word their instruction in a way that reads
+  slightly against the control they render ("Complete each sentence with…" over a dropdown,
+  "Choose the simple past or present perfect" over a text box). Both readings are defensible
+  and no answer is affected. The one case where the wording was objectively wrong — a free-text
+  box asking a student to "choose" between options it never showed — was P-11.
+- **The curriculum ⇄ page drift.** `curriculum/a2/quantifiers.json` still holds the 4 original
+  gap-fill items; the page holds 30. This is D-3 restated: the built pages carry enrichment
+  their sources no longer hold. The one item edited here that *does* exist in a source
+  (`inversion-for-emphasis-a7`) was changed in both.
+
+**Regression cover.** `scripts/check_site_integrity.py` grew five rules, each written against
+a bug actually found here: a block that mixes dropdown and free-text items; a dropdown whose
+list contains no accepted answer; the same option listed twice; a free-text blank whose only
+accepted answer cannot be typed; and the same question twice in one block (an error when it is
+graded, a warning when it is self-check). `--selftest` runs all five against known-bad and
+known-good blocks, so a rule that silently stops firing is caught.

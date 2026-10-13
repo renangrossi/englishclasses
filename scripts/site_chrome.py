@@ -357,8 +357,9 @@ def footer(rel):
 def with_irregular_verbs(footer_html, rel=""):
     """Adds the floating Irregular Verbs list under the Dictionary button.
 
-    The grammar lessons that need irregular-verb recall carry this widget, and
-    the three position modifiers below are what stack the buttons: the verbs
+    Carried by the reading library hub, by every one of its texts, and by the
+    grammar lessons that need irregular-verb recall. The three position
+    modifiers below are what stack the buttons: the verbs
     toggle takes the bottom slot, the dictionary moves up one step and
     back-to-top up two. Behaviour comes from the two scripts, which lift the
     213-row table out of irregular-verbs.html and anchor that URL to their own

@@ -553,7 +553,11 @@ def build(level, slug, d):
         page_header(d),
         toc(ids),
         *[s for s in body if s],
-        site_chrome.footer(REL),
+        # Every text carries the floating Irregular Verbs list under the
+        # Dictionary button: a reader meets "went", "taken" or "brought" in
+        # any passage, at any level, and the hub already offers the same
+        # lookup one click earlier. Same widget, one step down.
+        site_chrome.with_irregular_verbs(site_chrome.footer(REL), REL),
     ]
     p = rc.page_path(level, slug)
     p.parent.mkdir(parents=True, exist_ok=True)

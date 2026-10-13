@@ -129,7 +129,8 @@
           "prompt": "Under no circumstances ___ (you / leave) the door unlocked.",
           "answers": [
             [
-              "must you leave (or should you leave)"
+              "must you leave",
+              "should you leave"
             ]
           ],
           "explanation": "“Under no circumstances” fronts the sentence, inverting to modal + subject."

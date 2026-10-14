@@ -38,7 +38,12 @@ Checks
                        vs straight quotes -- the check that would have
                        caught the 97 prompts that repeated word for word
                        inside their own block, 14 of them hidden behind
-                       nothing but a change of quote character
+                       nothing but a change of quote character. A typing
+                       block must also be all graded or all self-check --
+                       the check that would have caught prea1-abc-type
+                       scoring "6 of 6 correct (100%)" over a block of ten
+                       questions, four of which ask the student to spell
+                       their own name
 6. built-page assets   every css/js reference carries the ?v= stamp
                        stamp_asset_versions.py adds, and each booklet
                        page carries the script set the booklet builder
@@ -233,6 +238,24 @@ def check_exercise_block(where, block, seen_ids):
                 f"{len(without)} free-text item(s) in one block "
                 f"(no options on: {', '.join(str(i) for i in without[:4])}"
                 f"{'...' if len(without) > 4 else ''})")
+
+    # One block, one mode. A `typing` item is graded when it carries an
+    # "answer" and self-check when it only carries a "modelAnswer", so a
+    # block holding both grades half its items under one title and one
+    # instruction, and the score panel reports a percentage that covers
+    # only that half. prea1-abc-type reached 6 of 10 that way, because a
+    # padding commit dropped gradeable word-spelling items into a block
+    # whose question is "Spell your first name" -- which has no key and
+    # never can. Those belong in two blocks, not one.
+    if etype == "typing":
+        keyed = [i.get("id") for i in items if i.get("answer")]
+        unkeyed = [i.get("id") for i in items if not i.get("answer")]
+        if keyed and unkeyed:
+            errors.append(
+                f"{where} {eid}: mixes {len(keyed)} graded item(s) with "
+                f"{len(unkeyed)} self-check item(s) in one block "
+                f"(no answer on: {', '.join(str(i) for i in unkeyed[:4])}"
+                f"{'...' if len(unkeyed) > 4 else ''})")
 
     # The same graded question twice in one block: the student answers it
     # again and the score counts it twice.
@@ -451,6 +474,11 @@ SELFTEST = [
          {"id": "i2", "prompt": "Second attempt, with a new example: "
                                 "Rewrite it in legal register.",
           "modelAnswer": "The Buyer shall remit the deposit."}]}),
+    ("a typing block that grades half its items", 1, 0,
+     {"id": "b", "type": "typing", "items": [
+         {"id": "i1", "prompt": "Spell \"cat\".", "answer": ["C-A-T"]},
+         {"id": "i2", "prompt": "Spell your first name.",
+          "modelAnswer": "M-A-R-I-A (if your name is Maria)"}]}),
     ("a blank whose answer is to leave it empty", 0, 0,
      {"id": "b", "type": "fill-blank", "items": [
          {"id": "i1", "prompt": "The book ___ you read", "answers": [["—", ""]]}]}),

@@ -1081,6 +1081,31 @@ milestone 16 the folder is gone: its 156 source documents and six `.mp3` recordi
   14 of the 97 were invisible to the first pass because the two copies differed only in curly
   vs straight quotes, which is why the check now normalises typography before comparing.
 
+- ~~**P-16** — two blocks graded only half of what they asked, and four questions no one could
+  answer.~~ FIXED. A `typing` item is graded when it carries an `answer` and self-check when it
+  only carries a `modelAnswer`, so a block holding both grades half its items under one title:
+  `full-command-of-tenses-and-aspects-transform-p2` was 5 of 10, `prea1-abc-type` 6 of 10.
+  - The C2 block's five unkeyed items are the same five transformations as its five keyed ones,
+    so they were keyed. Each key lists the forms a correct answer actually takes, since `norm()`
+    only trims, lowercases, collapses whitespace and strips trailing `.!?` -- an em dash, a
+    contraction or `6pm` vs `6 pm` is otherwise a miss.
+  - Four items asked for a "scheduled future event" whose official key invented facts the prompt
+    never gave: `b18` wanted "The gallery is opening early tomorrow for the new exhibit" from
+    "The gallery opens at 10am." A student writing "The gallery is opening at 10am tomorrow" was
+    marked wrong, which the pre-fix site demonstrates. Their prompts now ask for the fixed
+    arrangement the lesson teaches, and the key accepts every word order and spacing for it.
+    `b13`, `b18` (Part 2) and `b23`, `b28` (Part 3) all had it.
+  - `b17`, `b19` and `b20` accepted one string where an equally correct contraction or connector
+    was rejected, so each gained the forms it was missing. No accepted answer was removed.
+  - `prea1-abc-type` could not be keyed: "Spell your first name" has no answer. It was a
+    self-check block in `curriculum/pre-a1/the-alphabet-and-sounds.json` until `cfa2117` padded
+    six gradeable word items into it, so the two kinds were split back apart -- `prea1-abc-type`
+    keeps the four personal items, the new `prea1-abc-spell-words` takes the six words. Nothing
+    was deleted and no key was invented.
+
+  Every accepted answer was typed into the live engine and graded correct (85 trials, including
+  26 negative controls that must fail, and do).
+
 - ~~P-3 — non-ASCII source filenames.~~ Moot: the source files are no longer read by anything,
   and every slug shipped is ASCII and hyphen-only.
 - ~~P-4 — texts existing only to drill a tense.~~ All five rewritten: `capetown`,
@@ -1230,6 +1255,8 @@ block by block and turned out to be fixable without authoring new prompts.
 | Blocks that rendered two kinds of control | 9 → **0** |
 | Questions with no answerable option | 23 → **0** |
 | Self-check prompts repeated word for word in their own block | 97 → **0** |
+| Blocks grading only half of what they asked | 2 → **0** |
+| Graded questions whose own key could not be typed | 4 → **0** (66 more documented, see below) |
 | Integrity-check warnings in the default run | 7 → **0** |
 
 A negative control was run alongside: answering four pages deliberately wrong scores
@@ -1238,12 +1265,20 @@ anything.
 
 **Left alone, deliberately.**
 
-- **Two `typing` blocks mix graded and self-check items.**
-  `full-command-of-tenses-and-aspects-transform-p2` (5 of 10 items carry an answer key) and
-  `prea1-abc-type` (6 of 10). Since P-12 the score panel discloses both halves — "5 of 5
-  correct (100%). 0 of 5 written answers to compare with the model." — so nothing is
-  mis-scored, but one title still covers two kinds of item. Levelling them means either
-  writing answer keys for 9 items or dropping 11, both editorial, so neither was guessed at.
+- **66 graded `typing` keys that cannot be produced from their prompt.** Found while writing
+  P-16's keys, and the same shape as the four it fixed: the official answer introduces content
+  the question never supplies. The bulk is the C2 register drills — `mastery-of-register-b2`
+  asks to rewrite "The tenant needs to pay rent by the 1st of the month or else" in legal
+  register and accepts exactly one 24-word clause. A correct rewrite scores zero. Unlike P-16's
+  four, these have no single right answer to key, so each needs an editorial decision: tighten
+  the prompt until one answer is determinate, or move the item to self-check with the current
+  key as its `modelAnswer`. Nothing was guessed at. The list is reproducible — compare each
+  key's content words against its prompt's.
+- **The three parts of `full-command-of-tenses-and-aspects`'s transformation exercise grade
+  differently.** Part 1 is 0 of 10 keyed, Part 2 and Part 3 are now 10 of 10. Each block is
+  internally consistent, so no check fires, but Part 1 drills the same five transformations
+  with deterministic model answers and could be keyed the same way. Whether Part 1 is meant to
+  be ungraded practice before the graded parts is an editorial call, so it was left alone.
 - **Instruction wording.** 129 gap-fill blocks word their instruction in a way that reads
   slightly against the control they render ("Complete each sentence with…" over a dropdown,
   "Choose the simple past or present perfect" over a text box). Both readings are defensible
@@ -1261,4 +1296,7 @@ accepted answer cannot be typed; and the same question twice in one block (an er
 graded, a warning when it is self-check). For a self-check block that last rule compares the
 prompts alone, ignoring curly vs straight quotes, because the prompt is all the student reads —
 that is the rule that found the 14 hidden repeats in P-15. `--selftest` runs all of them against
-known-bad and known-good blocks, so a rule that silently stops firing is caught.
+known-bad and known-good blocks, so a rule that silently stops firing is caught. A seventh rule
+came out of P-16: a `typing` block must be all graded or all self-check. Reverting
+`the-alphabet-and-sounds.html` alone makes the checker name that page's 6-graded/4-self-check
+split, and `--selftest` is now 12 cases.

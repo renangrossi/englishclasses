@@ -31,7 +31,14 @@ Checks
                        never given `options`; and the one where the B2
                        articles lesson asked students to "choose the, a,
                        or (no article)" in a free-text box that only
-                       accepted the literal string "(no article)"
+                       accepted the literal string "(no article)".
+                       In a self-check block (writing, or typing with no
+                       answer key) two items count as the same question
+                       when their prompts read the same, ignoring curly
+                       vs straight quotes -- the check that would have
+                       caught the 97 prompts that repeated word for word
+                       inside their own block, 14 of them hidden behind
+                       nothing but a change of quote character
 6. built-page assets   every css/js reference carries the ?v= stamp
                        stamp_asset_versions.py adds, and each booklet
                        page carries the script set the booklet builder
@@ -76,6 +83,19 @@ warnings: list[str] = []
 def norm(value) -> str:
     """Compare answers the way assets/js/exercises.js's norm() does."""
     return re.sub(r"[.!?]+$", "", re.sub(r"\s+", " ", str(value or "").strip().lower()))
+
+
+# Typography a student never notices: two prompts that differ only in curly
+# vs straight quotes are the same prompt. Fourteen of the repeats this check
+# found were hidden behind exactly that difference.
+TYPOGRAPHY = str.maketrans({"\u201c": '"', "\u201d": '"', "\u2018": "'",
+                            "\u2019": "'", "\u2013": "-", "\u2014": "-",
+                            "\u2026": "..."})
+
+
+def prompt_key(value) -> str:
+    """Compare two prompts the way a student reading the page would."""
+    return re.sub(r"\s+", " ", str(value or "").translate(TYPOGRAPHY).strip().lower())
 
 
 def html_pages():
@@ -215,19 +235,32 @@ def check_exercise_block(where, block, seen_ids):
                 f"{'...' if len(without) > 4 else ''})")
 
     # The same graded question twice in one block: the student answers it
-    # again and the score counts it twice. Self-check items (writing, and
-    # typing with no answer key) repeat legitimately enough that they are
-    # only a warning.
+    # again and the score counts it twice.
+    #
+    # A self-check block (writing, and typing with no answer key) is judged
+    # on the prompt alone, because that is all the student reads. These
+    # blocks drill a skill in rounds on purpose, so a repeat is a warning
+    # rather than an error -- but a round that repeats word for word gives
+    # no hint that a new example is wanted, which is how 97 prompts across
+    # 36 blocks came to read as copy-paste. The fix is per-block: either an
+    # inline anchor ("of this second topic") where a round has a scenario,
+    # or a "Second attempt, with a new example:" prefix where it doesn't.
     graded = etype not in ("writing",) and not (
         etype == "typing" and not any(i.get("answer") for i in items))
     signatures: dict[str, str] = {}
     for item in items:
-        sig = json.dumps({k: item.get(k) for k in
-                          ("prompt", "statement", "incorrect", "words", "options",
-                           "answers", "answer", "answerIndex", "pairs", "modelAnswer")},
-                         sort_keys=True, ensure_ascii=False)
+        if graded:
+            sig = json.dumps({k: item.get(k) for k in
+                              ("prompt", "statement", "incorrect", "words", "options",
+                               "answers", "answer", "answerIndex", "pairs", "modelAnswer")},
+                             sort_keys=True, ensure_ascii=False)
+        else:
+            sig = prompt_key(item.get("prompt"))
+            if not sig:
+                continue
         if sig in signatures:
-            msg = (f"{where} {eid}: item {item.get('id')!r} is identical to "
+            msg = (f"{where} {eid}: item {item.get('id')!r} "
+                   f"{'is identical to' if graded else 'asks the same thing as'} "
                    f"{signatures[sig]!r} -- the same question twice in one block")
             (errors if graded else warnings).append(msg)
         else:
@@ -399,6 +432,25 @@ SELFTEST = [
      {"id": "b", "type": "writing", "items": [
          {"id": "i1", "prompt": "Write about your week."},
          {"id": "i2", "prompt": "Write about your week."}]}),
+    ("a self-check prompt repeated with a different model answer", 0, 1,
+     {"id": "b", "type": "typing", "items": [
+         {"id": "i1", "prompt": "Rewrite it in legal register.",
+          "modelAnswer": "The Tenant shall vacate the Premises."},
+         {"id": "i2", "prompt": "Rewrite it in legal register.",
+          "modelAnswer": "The Buyer shall remit the deposit."}]}),
+    ("a self-check prompt repeated with different quote characters", 0, 1,
+     {"id": "b", "type": "typing", "items": [
+         {"id": "i1", "prompt": "Write one sentence using \u201cdo so.\u201d",
+          "modelAnswer": "She offered to help, and did so at once."},
+         {"id": "i2", "prompt": 'Write one sentence using "do so."',
+          "modelAnswer": "He promised to call, and did so that evening."}]}),
+    ("a self-check block whose rounds are told apart", 0, 0,
+     {"id": "b", "type": "typing", "items": [
+         {"id": "i1", "prompt": "Rewrite it in legal register.",
+          "modelAnswer": "The Tenant shall vacate the Premises."},
+         {"id": "i2", "prompt": "Second attempt, with a new example: "
+                                "Rewrite it in legal register.",
+          "modelAnswer": "The Buyer shall remit the deposit."}]}),
     ("a blank whose answer is to leave it empty", 0, 0,
      {"id": "b", "type": "fill-blank", "items": [
          {"id": "i1", "prompt": "The book ___ you read", "answers": [["—", ""]]}]}),

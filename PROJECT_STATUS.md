@@ -1096,7 +1096,10 @@ milestone 16 the folder is gone: its 156 source documents and six `.mp3` recordi
     arrangement the lesson teaches, and the key accepts every word order and spacing for it.
     `b13`, `b18` (Part 2) and `b23`, `b28` (Part 3) all had it.
   - `b17`, `b19` and `b20` accepted one string where an equally correct contraction or connector
-    was rejected, so each gained the forms it was missing. No accepted answer was removed.
+    was rejected, so each gained the forms it was missing. `b12`, `b17`, `b22` and `b27` are the
+    "continuous + always" items whose only accepted answer joined its two halves with an em dash:
+    they now take an em dash, a spaced hyphen, a semicolon or ", and", with either contraction of
+    the subject — a phone keyboard types a hyphen. No accepted answer was removed anywhere.
   - `prea1-abc-type` could not be keyed: "Spell your first name" has no answer. It was a
     self-check block in `curriculum/pre-a1/the-alphabet-and-sounds.json` until `cfa2117` padded
     six gradeable word items into it, so the two kinds were split back apart -- `prea1-abc-type`

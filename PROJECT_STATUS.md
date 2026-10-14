@@ -1062,6 +1062,25 @@ milestone 16 the folder is gone: its 156 source documents and six `.mp3` recordi
   360px phone. The duplicate `search.css` link is replaced by `lessons.css`, which is the order
   `scripts/site_chrome.py` already emits for every other page.
 
+- ~~**P-15** — 97 self-check prompts that repeated word for word.~~ FIXED. These blocks drill a
+  skill in rounds on purpose, but a round that repeats its prompt verbatim gives the student no
+  hint that a new example is wanted, and the orphaned pair at the top of `speaking-c2-5-impromptu`
+  asked for "the stalling phrase you used" before any item had asked them to speak. The fix is
+  per-block rather than one blanket prefix, because the blocks differ:
+  - where a round opens with its own scenario, the repeat gets the inline anchor the site
+    already uses elsewhere in the same block — `bw2f` said "for this new problem" while `bw2g`
+    did not, so `bw2g`, `b2w2g`, `b2w3f` and `b2w3g` now name their round the same way;
+  - in `mastery-of-register`, "Rewrite **the same idea** in …" repeats four times per part, so
+    each round now names its own news item ("Rewrite **that second piece of news** in …");
+  - in `speaking-c2-5-impromptu` each write-up now names its question ("…about that regret",
+    "…on school uniforms"), the items are reordered so every write-up follows the question it
+    belongs to, and the orphaned pair got a fifth question (`spc2k5`) of its own;
+  - the remaining 77, which are standalone one-sentence tasks, take a
+    `Second attempt, with a new example:` prefix that leaves the original wording intact.
+
+  14 of the 97 were invisible to the first pass because the two copies differed only in curly
+  vs straight quotes, which is why the check now normalises typography before comparing.
+
 - ~~P-3 — non-ASCII source filenames.~~ Moot: the source files are no longer read by anything,
   and every slug shipped is ASCII and hyphen-only.
 - ~~P-4 — texts existing only to drill a tense.~~ All five rewritten: `capetown`,
@@ -1195,7 +1214,9 @@ authorised pass. The grammar lessons were audited end to end: all 283 HTML pages
 contract `assets/js/exercises.js` implements. Live: all 283 pages loaded in headless
 Chrome (puppeteer, in a scratch directory — nothing was added to the repo), then every
 graded block on every page played through with its own answer key and submitted. The
-fixes are recorded as P-10 … P-14 above.
+fixes are recorded as P-10 … P-15 above. P-15 was a second, narrower pass on 2026-10-14,
+after the self-check prompt repeats the first pass had logged as editorial were read
+block by block and turned out to be fixable without authoring new prompts.
 
 **Results.**
 
@@ -1208,6 +1229,8 @@ fixes are recorded as P-10 … P-14 above.
 | JS errors / failed requests across the site | **0** |
 | Blocks that rendered two kinds of control | 9 → **0** |
 | Questions with no answerable option | 23 → **0** |
+| Self-check prompts repeated word for word in their own block | 97 → **0** |
+| Integrity-check warnings in the default run | 7 → **0** |
 
 A negative control was run alongside: answering four pages deliberately wrong scores
 every block 0/N, so the pass above is the grader working, not the grader accepting
@@ -1215,12 +1238,12 @@ anything.
 
 **Left alone, deliberately.**
 
-- **83 repeated self-check prompts.** Writing/`typing` prompts that appear twice inside one
-  block ("Rewrite the same idea in legal register…"), nearly all in the C2 lessons, left by
-  the same padding commits as P-10. Nothing is mis-graded — these items have no answer key —
-  so this is repetition, not a defect, and de-duplicating means authoring 83 new prompts,
-  which is editorial work. `check_site_integrity.py` now reports them as warnings so they
-  stay visible; 7 are byte-identical and show up in the default run.
+- **Two `typing` blocks mix graded and self-check items.**
+  `full-command-of-tenses-and-aspects-transform-p2` (5 of 10 items carry an answer key) and
+  `prea1-abc-type` (6 of 10). Since P-12 the score panel discloses both halves — "5 of 5
+  correct (100%). 0 of 5 written answers to compare with the model." — so nothing is
+  mis-scored, but one title still covers two kinds of item. Levelling them means either
+  writing answer keys for 9 items or dropping 11, both editorial, so neither was guessed at.
 - **Instruction wording.** 129 gap-fill blocks word their instruction in a way that reads
   slightly against the control they render ("Complete each sentence with…" over a dropdown,
   "Choose the simple past or present perfect" over a text box). Both readings are defensible
@@ -1235,5 +1258,7 @@ anything.
 a bug actually found here: a block that mixes dropdown and free-text items; a dropdown whose
 list contains no accepted answer; the same option listed twice; a free-text blank whose only
 accepted answer cannot be typed; and the same question twice in one block (an error when it is
-graded, a warning when it is self-check). `--selftest` runs all five against known-bad and
-known-good blocks, so a rule that silently stops firing is caught.
+graded, a warning when it is self-check). For a self-check block that last rule compares the
+prompts alone, ignoring curly vs straight quotes, because the prompt is all the student reads —
+that is the rule that found the 14 hidden repeats in P-15. `--selftest` runs all of them against
+known-bad and known-good blocks, so a rule that silently stops firing is caught.

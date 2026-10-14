@@ -1109,6 +1109,52 @@ milestone 16 the folder is gone: its 156 source documents and six `.mp3` recordi
   Every accepted answer was typed into the live engine and graded correct (85 trials, including
   26 negative controls that must fail, and do).
 
+- ~~**P-17** — the pending editorial decisions: keys no one could type, and a part that graded
+  nothing.~~ FIXED. Reading all 108 flagged items showed they were not one defect but three,
+  and the heuristic that produced the earlier figure of 66 over-reported: it counted any key
+  word absent from the prompt, including words the grammar itself produces (`saw` → `see`,
+  `strong` → `strength`).
+  - **Thirty items had no single right answer and are now self-check.** `mastery-of-register`'s
+    three transformation blocks ask for a register rewrite -- "The plan didn't work out." into
+    academic register -- and accepted exactly one string each; `b2` accepted one 24-word legal
+    clause. No tightening makes one answer determinate without writing it out, and the lesson's
+    own source already treats the task that way: `mastery-of-register-guided` asks for the same
+    rewrite with a `modelAnswer` and no key. So the keys were kept as model answers, the
+    instruction now says there is no single correct answer, and nothing was deleted.
+  - **Eighteen prompts now name the structure they are marking.** `native-like-modality-and-
+    attitude` asks to "make it tentative/hedged" and marks only "It would seem that…", while
+    four of each block's ten items already name their target ("using "one cannot rule out…"").
+    Extending the block's own convention makes the answer determinate instead of guessable.
+    Two keys also silently swapped the prompt's word (`wrong` → `incorrect`); both now accept
+    the student's.
+  - **Five items had their prompt supply what the key needed.** `complex-noun-phrases-b1`/`b19`
+    wanted "was welcomed by residents" from a prompt that never mentioned residents, so the
+    prompt now gives the second sentence to combine. `high-level-clefts-b23` wanted "Such was
+    the scale" from "so widespread", which has no noun form, so the prompt names the noun --
+    its sibling `b18` ("so strong" → "the strength") is a regular nominalization and was left
+    alone. `csc58`/`csc115` now accept "the hard rain" and "the rain" beside "the heavy rain".
+  - **Part 1 of the C2 tense transformation is keyed, like Parts 2 and 3.** Its instruction was
+    already worded as a graded transformation, word for word the same as its siblings', so a
+    student had no way to know it would score 0 of 10. Its five transformations are
+    deterministic. Two of its prompts carried the P-16 defect -- `b3` asked for a "scheduled
+    future event" and its own model answer conceded the ambiguity ("“The exam finishes at noon”
+    is also acceptable"), `b8` invented "tomorrow, for the special sale" -- so both now ask for
+    the fixed arrangement the lesson teaches. 10 of 10 graded, 67 accepted forms.
+  - **237 keys rejected an answer as correct as their own.** Found while writing the above:
+    `norm()` forgives case, spacing and a trailing period and nothing else, so "He said that he
+    needed help", "You should not have ignored her advice" and "She apologised" were all marked
+    wrong against keys that differ from them by an optional `that`, a contraction or a British
+    spelling. 379 forms were added across 30 files, appended after `answer[0]` so the
+    "Correct answer:" line a student sees is unchanged, and no accepted answer was removed --
+    the patch asserts it. Four graded items also still carried a `modelAnswer` that merely
+    repeated `answer[0]` and is never rendered; those were dropped.
+
+  Every added form was typed into the live engine: 440 answers, 381 of them newly accepted and
+  59 deliberately wrong, with 0 graded wrong. The variant generator was not trusted blind -- all
+  404 forms of its first run were read, which is how `We've our elevator repaired`,
+  `where I'm today`, `is believed that to have escaped` and `cancellllled` were caught and the
+  generator narrowed before anything was written.
+
 - ~~P-3 — non-ASCII source filenames.~~ Moot: the source files are no longer read by anything,
   and every slug shipped is ASCII and hyphen-only.
 - ~~P-4 — texts existing only to drill a tense.~~ All five rewritten: `capetown`,
@@ -1260,28 +1306,20 @@ block by block and turned out to be fixable without authoring new prompts.
 | Self-check prompts repeated word for word in their own block | 97 → **0** |
 | Blocks grading only half of what they asked | 2 → **0** |
 | Graded questions whose own key could not be typed | 4 → **0** (66 more documented, see below) |
+| Graded questions with no single right answer | 30 → **0** (now self-check) |
+| Prompts that marked a structure they never named | 18 → **0** |
+| Keys rejecting an answer as correct as their own | 237 → **0** (379 forms added) |
+| Blocks grading nothing under a graded instruction | 1 → **0** |
 | Integrity-check warnings in the default run | 7 → **0** |
 
 A negative control was run alongside: answering four pages deliberately wrong scores
 every block 0/N, so the pass above is the grader working, not the grader accepting
 anything.
 
-**Left alone, deliberately.**
+**Left alone, deliberately.** The two items this list used to hold open -- the 66 keys that
+could not be produced from their prompt, and Part 1 of the C2 tense transformation grading
+nothing -- were decided and fixed in P-17. What remains is below.
 
-- **66 graded `typing` keys that cannot be produced from their prompt.** Found while writing
-  P-16's keys, and the same shape as the four it fixed: the official answer introduces content
-  the question never supplies. The bulk is the C2 register drills — `mastery-of-register-b2`
-  asks to rewrite "The tenant needs to pay rent by the 1st of the month or else" in legal
-  register and accepts exactly one 24-word clause. A correct rewrite scores zero. Unlike P-16's
-  four, these have no single right answer to key, so each needs an editorial decision: tighten
-  the prompt until one answer is determinate, or move the item to self-check with the current
-  key as its `modelAnswer`. Nothing was guessed at. The list is reproducible — compare each
-  key's content words against its prompt's.
-- **The three parts of `full-command-of-tenses-and-aspects`'s transformation exercise grade
-  differently.** Part 1 is 0 of 10 keyed, Part 2 and Part 3 are now 10 of 10. Each block is
-  internally consistent, so no check fires, but Part 1 drills the same five transformations
-  with deterministic model answers and could be keyed the same way. Whether Part 1 is meant to
-  be ungraded practice before the graded parts is an editorial call, so it was left alone.
 - **Instruction wording.** 129 gap-fill blocks word their instruction in a way that reads
   slightly against the control they render ("Complete each sentence with…" over a dropdown,
   "Choose the simple past or present perfect" over a text box). Both readings are defensible
@@ -1289,8 +1327,10 @@ anything.
   box asking a student to "choose" between options it never showed — was P-11.
 - **The curriculum ⇄ page drift.** `curriculum/a2/quantifiers.json` still holds the 4 original
   gap-fill items; the page holds 30. This is D-3 restated: the built pages carry enrichment
-  their sources no longer hold. The one item edited here that *does* exist in a source
-  (`inversion-for-emphasis-a7`) was changed in both.
+  their sources no longer hold. Every item edited here that *does* exist in a source was
+  changed in both, in 15 curriculum files -- the sources are hand-authored in several layouts,
+  so those edits insert into the array text already there rather than reserialising a file and
+  reformatting it.
 
 **Regression cover.** `scripts/check_site_integrity.py` grew five rules, each written against
 a bug actually found here: a block that mixes dropdown and free-text items; a dropdown whose
@@ -1302,4 +1342,10 @@ that is the rule that found the 14 hidden repeats in P-15. `--selftest` runs all
 known-bad and known-good blocks, so a rule that silently stops firing is caught. A seventh rule
 came out of P-16: a `typing` block must be all graded or all self-check. Reverting
 `the-alphabet-and-sounds.html` alone makes the checker name that page's 6-graded/4-self-check
-split, and `--selftest` is now 12 cases.
+split. P-17 added two more: a graded `typing` key must accept the answers that are as correct
+as itself, and a graded item must not carry a `modelAnswer` that is never rendered. The first
+carries the variant tables with it, so the rule is the same one the 379 forms were generated
+from -- reverting `modality-with-nuance.html` alone makes the checker name 26 of its items,
+starting with `b3`, which rejects "you should not have ignored her advice". Both are warnings,
+because which variants a lesson accepts is an editorial call, and the default run is clean at
+0 errors and 0 warnings. `--selftest` is now 17 cases.

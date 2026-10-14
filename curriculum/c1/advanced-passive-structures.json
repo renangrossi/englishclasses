@@ -198,7 +198,8 @@
           "id": "advanced-passive-structures-b2",
           "prompt": "They believe he escaped through the back door. → He ___",
           "answer": [
-            "He is believed to have escaped through the back door."
+            "He is believed to have escaped through the back door.",
+            "He's believed to have escaped through the back door."
           ],
           "explanation": "“Believe” + an earlier action needs the perfect passive infinitive: believed to have escaped."
         },

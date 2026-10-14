@@ -203,7 +203,8 @@
           "id": "advanced-conditional-forms-b2",
           "prompt": "If I had known about the traffic, I would have left earlier. → Had ___",
           "answer": [
-            "Had I known about the traffic, I would have left earlier."
+            "Had I known about the traffic, I would have left earlier.",
+            "Had I known about the traffic, I'd have left earlier."
           ],
           "explanation": "“Had” inversion replaces “If I had known” with “Had I known.”"
         },
@@ -227,7 +228,10 @@
           "id": "advanced-conditional-forms-b5",
           "prompt": "If she hadn't warned us, we would have walked into the trap. → If it hadn't ___",
           "answer": [
-            "If it hadn't been for her warning, we would have walked into the trap."
+            "If it hadn't been for her warning, we would have walked into the trap.",
+            "If it hadn't been for her warning, we'd have walked into the trap.",
+            "If it had not been for her warning, we would have walked into the trap.",
+            "If it had not been for her warning, we'd have walked into the trap."
           ],
           "explanation": "“If it hadn't been for” + noun phrase (her warning) replaces a clause built around a person's action."
         },
@@ -235,7 +239,8 @@
           "id": "advanced-conditional-forms-b6",
           "prompt": "If you were to ask him, he would probably say yes. → Were ___",
           "answer": [
-            "Were you to ask him, he would probably say yes."
+            "Were you to ask him, he would probably say yes.",
+            "Were you to ask him, he'd probably say yes."
           ],
           "explanation": "“Were…to” inversion replaces “If you were to ask” with “Were you to ask.”"
         },
@@ -243,7 +248,9 @@
           "id": "advanced-conditional-forms-b7",
           "prompt": "If I had left earlier, I wouldn't be stuck in this traffic now. (identify: mixed or standard?) → rewrite keeping the same meaning with \"Had...\"",
           "answer": [
-            "Had I left earlier, I wouldn't be stuck in this traffic now."
+            "Had I left earlier, I wouldn't be stuck in this traffic now.",
+            "Had I left earlier, I would not be stuck in this traffic now.",
+            "Had I left earlier, I'd not be stuck in this traffic now."
           ],
           "explanation": "“Had” inversion replaces “If I had left” with “Had I left,” keeping the mixed-conditional result unchanged."
         }

@@ -193,7 +193,8 @@
           "id": "high-level-clefts-and-inversions-b4",
           "prompt": "Not authority but empathy truly defines a leader. (rewrite as a pseudo-cleft with \"What...\")",
           "answer": [
-            "What truly defines a leader is not authority, but empathy."
+            "What truly defines a leader is not authority, but empathy.",
+            "What truly defines a leader isn't authority, but empathy."
           ],
           "explanation": "The pseudo-cleft “What truly defines a leader is…” moves the emphasized contrast to the end."
         },

@@ -173,9 +173,10 @@
       "items": [
         {
           "id": "complex-noun-phrases-b1",
-          "prompt": "The city decided to build a new stadium. (rewrite starting with \"The city's decision...\")",
+          "prompt": "The city decided to build a new stadium. Residents welcomed it. (combine into one sentence starting with “The city's decision...”)",
           "answer": [
-            "The city's decision to build a new stadium was welcomed by residents."
+            "The city's decision to build a new stadium was welcomed by residents.",
+            "The city's decision to build a new stadium was welcomed by the residents."
           ],
           "explanation": "“Decide” becomes the noun “decision” — nominalization turns the verb into the sentence's subject."
         },

@@ -43,7 +43,13 @@ Checks
                        the check that would have caught prea1-abc-type
                        scoring "6 of 6 correct (100%)" over a block of ten
                        questions, four of which ask the student to spell
-                       their own name
+                       their own name. Finally, a graded typing key must
+                       accept the answers that are as correct as itself --
+                       the check that would have caught 237 items marking
+                       "She said that she needed help", "You should not
+                       have ignored her advice" and "She apologised" wrong
+                       because their key spelled the one variant the
+                       author happened to type
 6. built-page assets   every css/js reference carries the ?v= stamp
                        stamp_asset_versions.py adds, and each booklet
                        page carries the script set the booklet builder
@@ -101,6 +107,165 @@ TYPOGRAPHY = str.maketrans({"\u201c": '"', "\u201d": '"', "\u2018": "'",
 def prompt_key(value) -> str:
     """Compare two prompts the way a student reading the page would."""
     return re.sub(r"\s+", " ", str(value or "").translate(TYPOGRAPHY).strip().lower())
+
+
+# exercises.js grades a typed answer through norm(): trim, lowercase, collapse
+# whitespace, drop a trailing .!? -- and nothing else. So a key that spells
+# "shouldn't" rejects "should not", a key that writes "He said he needed help"
+# rejects "He said that he needed help", and a key that writes "apologized"
+# rejects "apologised". All three are the same answer to a reader and a miss to
+# the grader, which is how 237 graded items came to reject 379 correct forms.
+def answer_key(value) -> str:
+    """Compare a typed answer the way exercises.js norm() does."""
+    return re.sub(r"[.!?]+$", "", re.sub(r"\s+", " ", str(value or "").strip().lower()))
+
+
+# Negative contractions are interchangeable in both directions, always.
+NEGATIVE_FORMS = [
+    ("shouldn't", "should not"), ("couldn't", "could not"), ("wouldn't", "would not"),
+    ("needn't", "need not"), ("mustn't", "must not"), ("mightn't", "might not"),
+    ("didn't", "did not"), ("doesn't", "does not"), ("don't", "do not"),
+    ("isn't", "is not"), ("aren't", "are not"), ("wasn't", "was not"),
+    ("weren't", "were not"), ("hasn't", "has not"), ("haven't", "have not"),
+    ("hadn't", "had not"), ("won't", "will not"), ("can't", "cannot"),
+    ("shan't", "shall not"),
+]
+
+# Expanding a positive contraction is always safe. Contracting one is not --
+# "We have our elevator repaired" is not "We've our elevator repaired", and
+# "where I am today" is not "where I'm today" -- so only the verbs below
+# contract, and only when the sentence runs on for at least two more words.
+EXPANDABLE = [
+    ("it's", "it is"), ("that's", "that is"), ("there's", "there is"),
+    ("he's", "he is"), ("she's", "she is"), ("what's", "what is"),
+    ("who's", "who is"), ("i'm", "i am"), ("they're", "they are"),
+    ("we're", "we are"), ("you're", "you are"), ("i've", "i have"),
+    ("we've", "we have"), ("they've", "they have"), ("you've", "you have"),
+    ("i'll", "i will"), ("he'll", "he will"), ("she'll", "she will"),
+    ("we'll", "we will"), ("they'll", "they will"), ("you'll", "you will"),
+    ("it'll", "it will"), ("i'd", "i would"), ("he'd", "he would"),
+    ("she'd", "she would"), ("they'd", "they would"), ("we'd", "we would"),
+    ("you'd", "you would"),
+]
+CONTRACTABLE = [
+    ("it is", "it's"), ("that is", "that's"), ("there is", "there's"),
+    ("he is", "he's"), ("she is", "she's"), ("they are", "they're"),
+    ("we are", "we're"), ("you are", "you're"), ("i will", "i'll"),
+    ("he will", "he'll"), ("she will", "she'll"), ("we will", "we'll"),
+    ("they will", "they'll"), ("you will", "you'll"), ("it will", "it'll"),
+    ("i would", "i'd"), ("he would", "he'd"), ("she would", "she'd"),
+    ("they would", "they'd"), ("we would", "we'd"), ("you would", "you'd"),
+]
+
+# British <-> American, as whole words. Stems were tried first and were wrong:
+# "criticis/criticiz" reaches into "criticism", "cancell/cancel" re-fires on
+# its own output ("cancelllled"), and cheque/storey/tyre are not variants of
+# check/story/tired at all.
+SPELLING_FORMS = []
+for _bri, _am in [("apologis", "apologiz"), ("organis", "organiz"),
+                  ("realis", "realiz"), ("recognis", "recogniz"),
+                  ("criticis", "criticiz"), ("emphasis", "emphasiz"),
+                  ("prioritis", "prioritiz"), ("specialis", "specializ"),
+                  ("summaris", "summariz"), ("memoris", "memoriz"),
+                  ("minimis", "minimiz"), ("maximis", "maximiz"),
+                  ("authoris", "authoriz"), ("analys", "analyz"),
+                  ("characteris", "characteriz"), ("utilis", "utiliz")]:
+    SPELLING_FORMS += [(_bri + _s, _am + _s) for _s in ("e", "ed", "es", "ing")]
+for _bri, _am in [("colour", "color"), ("behaviour", "behavior"),
+                  ("favour", "favor"), ("labour", "labor"), ("honour", "honor"),
+                  ("humour", "humor"), ("rumour", "rumor"), ("flavour", "flavor"),
+                  ("harbour", "harbor"), ("odour", "odor"),
+                  ("neighbour", "neighbor"), ("endeavour", "endeavor")]:
+    SPELLING_FORMS += [(_bri + _s, _am + _s) for _s in ("", "s", "ed", "ing")]
+SPELLING_FORMS += [
+    ("organisation", "organization"), ("organisations", "organizations"),
+    ("authorisation", "authorization"), ("realisation", "realization"),
+    ("specialisation", "specialization"), ("generalisation", "generalization"),
+    ("cancelled", "canceled"), ("cancelling", "canceling"),
+    ("travelled", "traveled"), ("travelling", "traveling"),
+    ("traveller", "traveler"), ("labelled", "labeled"), ("labelling", "labeling"),
+    ("modelled", "modeled"), ("modelling", "modeling"),
+    ("signalled", "signaled"), ("signalling", "signaling"),
+    ("fuelled", "fueled"), ("fuelling", "fueling"), ("marvelled", "marveled"),
+    ("neighbourhood", "neighborhood"), ("neighbourhoods", "neighborhoods"),
+    ("favourite", "favorite"), ("favourites", "favorites"),
+    ("colourful", "colorful"), ("centre", "center"), ("centres", "centers"),
+    ("metre", "meter"), ("metres", "meters"), ("litre", "liter"),
+    ("litres", "liters"), ("theatre", "theater"), ("theatres", "theaters"),
+    ("fibre", "fiber"), ("fibres", "fibers"), ("programme", "program"),
+    ("programmes", "programs"), ("defence", "defense"), ("offence", "offense"),
+    ("pretence", "pretense"), ("practises", "practices"),
+    ("practised", "practiced"), ("practising", "practicing"),
+    ("grey", "gray"), ("aluminium", "aluminum"), ("enrol", "enroll"),
+    ("fulfil", "fulfill"), ("fulfilment", "fulfillment"),
+    ("skilful", "skillful"), ("judgement", "judgment"), ("ageing", "aging"),
+    ("whilst", "while"), ("towards", "toward"), ("learnt", "learned"),
+    ("spelt", "spelled"), ("dreamt", "dreamed"), ("burnt", "burned"),
+    ("leapt", "leaped"),
+]
+
+SUBJECTS = frozenset("he she it they we i you there".split())
+FINITE = frozenset("""will would is are was were has have had can could may might
+must do does did shall should""".split())
+REPORTING = (r"(said|told me|told her|told him|told them|told us|replied|"
+             r"announced|reported|claimed|argued|believe|believes|believed|"
+             r"explained|added|insisted|agreed|promised|complained|warned|"
+             r"confirmed|mentioned|noted|observed|stated|seem|seems|seemed|"
+             r"suggested|admitted)")
+
+
+def _swap(text, before, after, require_tail=0):
+    """Replace before with after on word boundaries, keeping capitalisation."""
+    out, low = set(), text.lower()
+    for match in re.finditer(re.escape(before), low):
+        i, j = match.start(), match.end()
+        if i and (low[i - 1].isalpha() or low[i - 1] == "'"):
+            continue
+        if j < len(low) and (low[j].isalpha() or low[j] == "'"):
+            continue
+        if require_tail and len(text[j:].split()) < require_tail:
+            continue
+        replacement = after[0].upper() + after[1:] if text[i].isupper() else after
+        out.add(text[:i] + replacement + text[j:])
+    return out
+
+
+def equally_correct(answer):
+    """Forms a student may type instead of this key that are just as correct.
+
+    One substitution deep, not a fixed point: a key that needs two changes at
+    once is still reported for each change on its own, which is enough to name
+    the item, and it keeps the warning short.
+    """
+    out = set()
+    for before, after in NEGATIVE_FORMS:
+        out |= _swap(answer, before, after)
+        out |= _swap(answer, after, before)
+    for before, after in EXPANDABLE:
+        out |= _swap(answer, before, after)
+    for before, after in CONTRACTABLE:
+        out |= _swap(answer, before, after, require_tail=2)
+    for before, after in SPELLING_FORMS:
+        out |= _swap(answer, before, after)
+        out |= _swap(answer, after, before)
+    # the optional "that" after a reporting verb, but only before a real
+    # finite clause: not "is believed to have escaped" (an infinitive) and
+    # not "he never mentioned it" (an object)
+    for match in re.finditer(REPORTING + r" (?!that\b)", answer, re.I):
+        rest = answer[match.end():].split()
+        if len(rest) < 2:
+            continue
+        first = rest[0].lower().strip(",.;:\"'")
+        second = rest[1].lower().strip(",.;:\"'")
+        if first == "to":
+            continue
+        if first in SUBJECTS or second in FINITE:
+            out.add(answer[:match.end()] + "that " + answer[match.end():])
+    for match in re.finditer(REPORTING + r" that\b ?", answer, re.I):
+        out.add(re.sub(r"\s+", " ",
+                       answer[:match.start() + len(match.group(1))] + " "
+                       + answer[match.end():]).strip())
+    return out
 
 
 def html_pages():
@@ -256,6 +421,39 @@ def check_exercise_block(where, block, seen_ids):
                 f"{len(unkeyed)} self-check item(s) in one block "
                 f"(no answer on: {', '.join(str(i) for i in unkeyed[:4])}"
                 f"{'...' if len(unkeyed) > 4 else ''})")
+
+    # A graded typing item's modelAnswer is dead data: exercises.js reads it
+    # only on the self-check path, so it is never shown. Four items in the C2
+    # tense lesson carried one that merely repeated answer[0].
+    if etype == "typing":
+        both = [i.get("id") for i in items if i.get("answer") and i.get("modelAnswer")]
+        if both:
+            warnings.append(
+                f"{where} {eid}: {len(both)} graded item(s) carry a modelAnswer that "
+                f"is never shown ({', '.join(str(i) for i in both[:4])}"
+                f"{'...' if len(both) > 4 else ''})")
+
+    # A key that rejects an answer as correct as itself. The grader only
+    # forgives case, spacing and a trailing period, so "should not have" loses
+    # to "shouldn't have" and "apologised" loses to "apologized". A warning,
+    # not an error, because which variants a lesson wants to accept is an
+    # editorial call -- but silence here is what let 237 items mark correct
+    # English wrong.
+    if etype == "typing":
+        for item in items:
+            answer = item.get("answer")
+            if not answer:
+                continue
+            accepted = [answer] if isinstance(answer, str) else list(answer)
+            keys = {answer_key(a) for a in accepted}
+            missing = sorted({answer_key(v) for a in accepted
+                              for v in equally_correct(a)} - keys)
+            if missing:
+                warnings.append(
+                    f"{where} {eid}: item {item.get('id')!r} rejects "
+                    f"{len(missing)} answer(s) as correct as its own key "
+                    f"({missing[0]!r}"
+                    f"{', ...' if len(missing) > 1 else ''})")
 
     # The same graded question twice in one block: the student answers it
     # again and the score counts it twice.
@@ -482,6 +680,27 @@ SELFTEST = [
     ("a blank whose answer is to leave it empty", 0, 0,
      {"id": "b", "type": "fill-blank", "items": [
          {"id": "i1", "prompt": "The book ___ you read", "answers": [["—", ""]]}]}),
+    ("a key that rejects the uncontracted form of itself", 0, 1,
+     {"id": "b", "type": "typing", "items": [
+         {"id": "i1", "prompt": "It was wrong of you to ignore her. -> You ___",
+          "answer": ["You shouldn't have ignored her."]}]}),
+    ("a key that rejects the optional \"that\" after a reporting verb", 0, 1,
+     {"id": "b", "type": "typing", "items": [
+         {"id": "i1", "prompt": '"I need help," he said.',
+          "answer": ["He said he needed help."]}]}),
+    ("a key that rejects the British spelling of itself", 0, 1,
+     {"id": "b", "type": "typing", "items": [
+         {"id": "i1", "prompt": "It wasn't necessary for you to say sorry. -> You ___",
+          "answer": ["You needn't have apologized."]}]}),
+    ("a key that accepts every form of itself", 0, 0,
+     {"id": "b", "type": "typing", "items": [
+         {"id": "i1", "prompt": '"I need help," he said.',
+          "answer": ["He said he needed help.",
+                     "He said that he needed help."]}]}),
+    ("a graded item carrying a model answer that is never shown", 0, 1,
+     {"id": "b", "type": "typing", "items": [
+         {"id": "i1", "prompt": "Spell \"cat\".", "answer": ["C-A-T"],
+          "modelAnswer": "C-A-T"}]}),
     ("a clean block", 0, 0,
      {"id": "b", "type": "fill-blank", "items": [
          {"id": "i1", "prompt": "a ___ b", "answers": [["x"]], "options": ["x", "y"]},

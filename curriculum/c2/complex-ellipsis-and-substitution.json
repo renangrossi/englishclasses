@@ -182,7 +182,8 @@
           "id": "complex-ellipsis-and-substitution-b2",
           "prompt": "He hasn't decided yet, but he will decide soon.",
           "answer": [
-            "He hasn't decided yet, but he will soon."
+            "He hasn't decided yet, but he will soon.",
+            "He has not decided yet, but he will soon."
           ],
           "explanation": "The bare auxiliary “will” substitutes for “will decide,” avoiding repetition."
         },
@@ -190,7 +191,8 @@
           "id": "complex-ellipsis-and-substitution-b3",
           "prompt": "She was reading while she was waiting for the train.",
           "answer": [
-            "She was reading while waiting for the train."
+            "She was reading while waiting for the train.",
+            "She was reading whilst waiting for the train."
           ],
           "explanation": "Omitting the repeated subject + auxiliary (“she was”) after “while” tightens the sentence."
         },

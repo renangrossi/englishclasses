@@ -192,27 +192,61 @@
         {
           "id": "full-command-of-tenses-and-aspects-b1",
           "prompt": "My uncle told stories every evening. (rewrite with \"would\" for habitual past narrative)",
-          "modelAnswer": "My uncle would tell stories every evening."
+          "answer": [
+            "My uncle would tell stories every evening."
+          ],
+          "explanation": "“Would” narrates a repeated past action."
         },
         {
           "id": "full-command-of-tenses-and-aspects-b2",
           "prompt": "He interrupts people. It's really annoying. (rewrite as one sentence with continuous + \"always,\" showing irritation)",
-          "modelAnswer": "He's always interrupting people — it's really annoying."
+          "answer": [
+            "He's always interrupting people — it's really annoying.",
+            "He's always interrupting people - it's really annoying.",
+            "He's always interrupting people; it's really annoying.",
+            "He's always interrupting people, and it's really annoying.",
+            "He is always interrupting people — it's really annoying.",
+            "He is always interrupting people - it's really annoying.",
+            "He is always interrupting people; it's really annoying.",
+            "He is always interrupting people, and it's really annoying.",
+            "He's always interrupting people — it is really annoying.",
+            "He's always interrupting people - it is really annoying.",
+            "He's always interrupting people; it is really annoying.",
+            "He's always interrupting people, and it is really annoying.",
+            "He is always interrupting people — it is really annoying.",
+            "He is always interrupting people - it is really annoying.",
+            "He is always interrupting people; it is really annoying.",
+            "He is always interrupting people, and it is really annoying."
+          ],
+          "explanation": "Continuous + “always” conveys irritation."
         },
         {
           "id": "full-command-of-tenses-and-aspects-b3",
-          "prompt": "The exam finishes at noon. (rewrite as a scheduled future event using present continuous)",
-          "modelAnswer": "The exam is finishing at noon. (“The exam finishes at noon” is also acceptable; the continuous form emphasizes the fixed arrangement.)"
+          "prompt": "The exam finishes at noon. (rewrite as a fixed arrangement for tomorrow, using present continuous)",
+          "answer": [
+            "The exam is finishing at noon tomorrow.",
+            "Tomorrow the exam is finishing at noon.",
+            "The exam is finishing tomorrow at noon."
+          ],
+          "explanation": "Present continuous can express a fixed future arrangement, so the time stays and a future marker appears."
         },
         {
           "id": "full-command-of-tenses-and-aspects-b4",
           "prompt": "I finished the project before the deadline arrived. (rewrite using future perfect, imagining you're speaking before the deadline)",
-          "modelAnswer": "I will have finished the project before the deadline arrives."
+          "answer": [
+            "I will have finished the project before the deadline arrives.",
+            "I'll have finished the project before the deadline arrives."
+          ],
+          "explanation": "Future perfect shows completion before a future point."
         },
         {
           "id": "full-command-of-tenses-and-aspects-b5",
           "prompt": "Describe a past event as if it's happening now, for dramatic effect: \"I opened the door and saw a stranger standing there.\" (rewrite in the historic present)",
-          "modelAnswer": "I open the door and see a stranger standing there."
+          "answer": [
+            "I open the door and see a stranger standing there.",
+            "I open the door and I see a stranger standing there."
+          ],
+          "explanation": "Historic present makes a past event feel immediate."
         }
       ]
     },

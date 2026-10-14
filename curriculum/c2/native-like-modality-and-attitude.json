@@ -166,23 +166,29 @@
       "items": [
         {
           "id": "native-like-modality-and-attitude-b1",
-          "prompt": "The results are wrong. (make it tentative/hedged)",
+          "prompt": "The results are wrong. (make it tentative/hedged, using “It would seem that...”)",
           "answer": [
-            "It would seem that the results are incorrect."
+            "It would seem that the results are incorrect.",
+            "It would seem that the results are wrong.",
+            "It would seem the results are incorrect.",
+            "It would seem the results are wrong."
           ],
           "explanation": "“It would seem that” softens the direct claim into a hedge."
         },
         {
           "id": "native-like-modality-and-attitude-b2",
-          "prompt": "Costs will definitely rise. (make it a cautious epistemic claim, not a certainty)",
+          "prompt": "Costs will definitely rise. (make it a cautious epistemic claim, not a certainty, using “There is reason to believe...”)",
           "answer": [
-            "There is reason to believe that costs will rise."
+            "There is reason to believe that costs will rise.",
+            "There's reason to believe that costs will rise.",
+            "There is reason to believe costs will rise.",
+            "There's reason to believe costs will rise."
           ],
           "explanation": "“There is reason to believe that” turns the certainty into a cautious epistemic claim."
         },
         {
           "id": "native-like-modality-and-attitude-b3",
-          "prompt": "Can I suggest a different approach? (make it more formal/polite)",
+          "prompt": "Can I suggest a different approach? (make it more formal/polite, using “Might I...?”)",
           "answer": [
             "Might I suggest a different approach?"
           ],
@@ -192,7 +198,8 @@
           "id": "native-like-modality-and-attitude-b4",
           "prompt": "He should have apologized. (add a layer of distance — \"might have been expected to\")",
           "answer": [
-            "He might have been expected to apologize."
+            "He might have been expected to apologize.",
+            "He might have been expected to apologise."
           ],
           "explanation": "“Might have been expected to” adds a layer of distance/uncertainty to the obligation."
         },
@@ -200,7 +207,8 @@
           "id": "native-like-modality-and-attitude-b5",
           "prompt": "Bias affected the results. (rewrite as a possibility that can't be excluded, using \"one cannot rule out...\")",
           "answer": [
-            "One cannot rule out the possibility that bias affected the results."
+            "One cannot rule out the possibility that bias affected the results.",
+            "One can't rule out the possibility that bias affected the results."
           ],
           "explanation": "“One cannot rule out the possibility that” reframes the claim as an unexcluded possibility."
         }

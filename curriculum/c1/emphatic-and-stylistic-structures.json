@@ -210,7 +210,8 @@
           "id": "emphatic-and-stylistic-structures-b6",
           "prompt": "I called to apologize, not to argue. (it-cleft, emphasizing the reason)",
           "answer": [
-            "It was to apologize, not to argue, that I called."
+            "It was to apologize, not to argue, that I called.",
+            "It was to apologise, not to argue, that I called."
           ],
           "explanation": "The it-cleft frame emphasizes the reason: “It was to apologize… that I called.”"
         }

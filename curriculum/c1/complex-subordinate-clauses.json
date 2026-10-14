@@ -74,12 +74,12 @@
       "id": "csc-transform", "type": "typing", "title": "Rewrite / Transformation",
       "instructions": "Rewrite each pair of sentences as one, using the connector given.",
       "items": [
-        { "id": "csc11", "prompt": "He is rich, but he lives very simply. (rewrite with “whereas”)", "answer": ["He is rich, whereas he lives very simply."], "explanation": "“Whereas” replaces “but” to contrast the two facts formally." },
-        { "id": "csc12", "prompt": "She failed the exam, but she didn't lose confidence. (rewrite with “even though”)", "answer": ["Even though she failed the exam, she didn't lose confidence."], "explanation": "“Even though” opens the clause with the surprising fact." },
+        { "id": "csc11", "prompt": "He is rich, but he lives very simply. (rewrite with “whereas”)", "answer": ["He is rich, whereas he lives very simply.", "He's rich, whereas he lives very simply."], "explanation": "“Whereas” replaces “but” to contrast the two facts formally." },
+        { "id": "csc12", "prompt": "She failed the exam, but she didn't lose confidence. (rewrite with “even though”)", "answer": ["Even though she failed the exam, she didn't lose confidence.", "Even though she failed the exam, she did not lose confidence."], "explanation": "“Even though” opens the clause with the surprising fact." },
         { "id": "csc13", "prompt": "He turned down the promotion. He wanted more free time. (join with “in order to”)", "answer": ["He turned down the promotion in order to have more free time."], "explanation": "“In order to” + bare infinitive expresses his purpose." },
         { "id": "csc14", "prompt": "It rained heavily. We still finished the hike. (join with “despite”)", "answer": ["Despite the heavy rain, we still finished the hike."], "explanation": "“Despite” + noun phrase replaces the first sentence." },
         { "id": "csc15", "prompt": "The test was extremely hard. Nobody finished it in time. (join with “so...that”)", "answer": ["The test was so hard that nobody finished it in time."], "explanation": "“So” + adjective + “that” shows the result of the degree." },
-        { "id": "csc16", "prompt": "He apologized publicly. He wanted to repair his reputation. (join with “so that”)", "answer": ["He apologized publicly so that he could repair his reputation."], "explanation": "“So that” + clause with “could” expresses his purpose." },
+        { "id": "csc16", "prompt": "He apologized publicly. He wanted to repair his reputation. (join with “so that”)", "answer": ["He apologized publicly so that he could repair his reputation.", "He apologised publicly so that he could repair his reputation."], "explanation": "“So that” + clause with “could” expresses his purpose." },
         { "id": "csc17", "prompt": "It was a very persuasive speech. It changed several votes. (join with “such...that”)", "answer": ["It was such a persuasive speech that it changed several votes."], "explanation": "“Such” + a + adjective + noun + “that” shows the result." }
       ]
     },

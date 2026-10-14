@@ -142,47 +142,37 @@
       "id": "mastery-of-register-transform",
       "type": "typing",
       "title": "Rewrite / Transformation",
-      "instructions": "Rewrite / Transformation (rewrite the sentence in the register indicated)",
+      "instructions": "Rewrite each sentence in the register indicated. There's no single correct answer — a model answer is shown for comparison after you submit.",
       "items": [
         {
           "id": "mastery-of-register-b1",
           "prompt": "\"The plan didn't work out.\" → Rewrite in academic register.",
-          "answer": [
-            "The plan did not achieve its intended outcomes."
-          ],
-          "explanation": "Academic register replaces the casual verb phrase with a more formal, precise one: did not achieve its intended outcomes."
+          "explanation": "Academic register replaces the casual verb phrase with a more formal, precise one: did not achieve its intended outcomes.",
+          "modelAnswer": "The plan did not achieve its intended outcomes."
         },
         {
           "id": "mastery-of-register-b2",
           "prompt": "\"The tenant needs to pay rent by the 1st of the month or else.\" → Rewrite in legal register.",
-          "answer": [
-            "The Tenant shall remit rent payment no later than the first day of each calendar month; failure to do so shall constitute a breach of this Agreement."
-          ],
-          "explanation": "Legal register uses “shall,” formal defined terms, and explicit consequences for breach."
+          "explanation": "Legal register uses “shall,” formal defined terms, and explicit consequences for breach.",
+          "modelAnswer": "The Tenant shall remit rent payment no later than the first day of each calendar month; failure to do so shall constitute a breach of this Agreement."
         },
         {
           "id": "mastery-of-register-b3",
           "prompt": "\"The mayor said the roads will be fixed soon.\" → Rewrite in journalistic register (add attribution/lead style).",
-          "answer": [
-            "The roads will be repaired soon, the mayor said on Tuesday."
-          ],
-          "explanation": "Journalistic register fronts the key fact and adds clear attribution (“the mayor said”)."
+          "explanation": "Journalistic register fronts the key fact and adds clear attribution (“the mayor said”).",
+          "modelAnswer": "The roads will be repaired soon, the mayor said on Tuesday."
         },
         {
           "id": "mastery-of-register-b4",
           "prompt": "\"One must exercise caution when the device is in operation.\" → Rewrite in casual register.",
-          "answer": [
-            "Careful — this thing's running, so watch out."
-          ],
-          "explanation": "Casual register uses contractions, short clauses and direct address."
+          "explanation": "Casual register uses contractions, short clauses and direct address.",
+          "modelAnswer": "Careful — this thing's running, so watch out."
         },
         {
           "id": "mastery-of-register-b5",
           "prompt": "\"We think the marketing campaign kind of failed.\" → Rewrite in academic register.",
-          "answer": [
-            "It could be argued that the marketing campaign did not meet its objectives."
-          ],
-          "explanation": "Academic register replaces “we think… kind of” with the hedged, impersonal “it could be argued that… did not meet its objectives.”"
+          "explanation": "Academic register replaces “we think… kind of” with the hedged, impersonal “it could be argued that… did not meet its objectives.”",
+          "modelAnswer": "It could be argued that the marketing campaign did not meet its objectives."
         }
       ]
     },

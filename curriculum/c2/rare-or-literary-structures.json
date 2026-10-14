@@ -168,7 +168,8 @@
           "id": "rare-or-literary-structures-b1",
           "prompt": "It's necessary that the manager approves the request. (correct to formal subjunctive)",
           "answer": [
-            "It's necessary that the manager approve the request."
+            "It's necessary that the manager approve the request.",
+            "It is necessary that the manager approve the request."
           ],
           "explanation": "The formal subjunctive after “it's necessary that” uses the bare base form “approve,” not “approves.”"
         },
@@ -184,7 +185,8 @@
           "id": "rare-or-literary-structures-b3",
           "prompt": "If I had known that earlier, I would have changed my plans. (rewrite using \"Had I but known...\")",
           "answer": [
-            "Had I but known that earlier, I would have changed my plans."
+            "Had I but known that earlier, I would have changed my plans.",
+            "Had I but known that earlier, I'd have changed my plans."
           ],
           "explanation": "“Had I but known” fronts the inverted conditional, with “but” as an archaic intensifier meaning “only.”"
         },
@@ -192,7 +194,8 @@
           "id": "rare-or-literary-structures-b4",
           "prompt": "If it weren't for your support, this company wouldn't exist. (rewrite using \"Were it not for...\")",
           "answer": [
-            "Were it not for your support, this company wouldn't exist."
+            "Were it not for your support, this company wouldn't exist.",
+            "Were it not for your support, this company would not exist."
           ],
           "explanation": "“Were it not for” is the fixed formal opening replacing “if it weren't for.”"
         },

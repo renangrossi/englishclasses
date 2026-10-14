@@ -74,10 +74,10 @@
       "id": "b1rsf-transform", "type": "typing", "title": "Report the Sentence",
       "instructions": "Rewrite each quoted sentence as reported speech.",
       "items": [
-        { "id": "b1rsf11", "prompt": "\"I'm working late tonight,\" she said.", "answer": ["She said she was working late that night."], "explanation": "Present continuous → past continuous; \"tonight\" → \"that night.\"" },
-        { "id": "b1rsf12", "prompt": "\"We saw the movie yesterday,\" they told me.", "answer": ["They told me they had seen the movie the day before."], "explanation": "Past simple → past perfect; \"yesterday\" → \"the day before.\"" },
-        { "id": "b1rsf13", "prompt": "\"I can't come to the party,\" he said.", "answer": ["He said he couldn't come to the party."], "explanation": "\"Can't\" → \"couldn't.\"" },
-        { "id": "b1rsf14", "prompt": "\"I'll finish it tomorrow,\" she said.", "answer": ["She said she would finish it the next day."], "explanation": "\"Will\" → \"would\"; \"tomorrow\" → \"the next day.\"" }
+        { "id": "b1rsf11", "prompt": "\"I'm working late tonight,\" she said.", "answer": ["She said she was working late that night.", "She said that she was working late that night."], "explanation": "Present continuous → past continuous; \"tonight\" → \"that night.\"" },
+        { "id": "b1rsf12", "prompt": "\"We saw the movie yesterday,\" they told me.", "answer": ["They told me they had seen the movie the day before.", "They told me that they had seen the movie the day before."], "explanation": "Past simple → past perfect; \"yesterday\" → \"the day before.\"" },
+        { "id": "b1rsf13", "prompt": "\"I can't come to the party,\" he said.", "answer": ["He said he couldn't come to the party.", "He said he could not come to the party.", "He said that he couldn't come to the party.", "He said that he could not come to the party."], "explanation": "\"Can't\" → \"couldn't.\"" },
+        { "id": "b1rsf14", "prompt": "\"I'll finish it tomorrow,\" she said.", "answer": ["She said she would finish it the next day.", "She said she'd finish it the next day.", "She said that she would finish it the next day.", "She said that she'd finish it the next day."], "explanation": "\"Will\" → \"would\"; \"tomorrow\" → \"the next day.\"" }
       ]
     }
   ],

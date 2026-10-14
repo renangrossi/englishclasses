@@ -206,7 +206,8 @@
           "id": "modality-with-nuance-b3",
           "prompt": "It was wrong of you to ignore her advice. → You ___",
           "answer": [
-            "You shouldn't have ignored her advice."
+            "You shouldn't have ignored her advice.",
+            "You should not have ignored her advice."
           ],
           "explanation": "“It was wrong of you” = criticism of a completed action, so “shouldn't have.”"
         },
@@ -214,7 +215,8 @@
           "id": "modality-with-nuance-b4",
           "prompt": "I'm sure they didn't see the sign; it was hidden by a tree. → They ___",
           "answer": [
-            "They can't have seen the sign; it was hidden by a tree."
+            "They can't have seen the sign; it was hidden by a tree.",
+            "They cannot have seen the sign; it was hidden by a tree."
           ],
           "explanation": "“I'm sure they didn't” = confident denial, so “can't have.”"
         },
@@ -230,7 +232,10 @@
           "id": "modality-with-nuance-b6",
           "prompt": "It wasn't necessary for you to apologize. → You ___",
           "answer": [
-            "You needn't have apologized."
+            "You needn't have apologized.",
+            "You need not have apologized.",
+            "You needn't have apologised.",
+            "You need not have apologised."
           ],
           "explanation": "“It wasn't necessary” = an unnecessary action, so “needn't have.”"
         },
@@ -238,7 +243,8 @@
           "id": "modality-with-nuance-b7",
           "prompt": "I'm confident he was telling the truth. → He ___ (use \"can't have been lying\")",
           "answer": [
-            "He can't have been lying."
+            "He can't have been lying.",
+            "He cannot have been lying."
           ],
           "explanation": "“I'm confident” = confident denial of the opposite, so “can't have been.”"
         }

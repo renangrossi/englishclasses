@@ -338,5 +338,8 @@
     "Have you ever stayed quiet on a call instead of asking? What did it cost later?",
     "The text says not to apologize for your English. Do you agree, and what would you say instead?",
     "Write the recap message for your own last meeting, in six lines or fewer. Name who owns what, and give one deadline of your own."
-  ]
+  ],
+  "audio": {
+    "duration_label": "3:39"
+  }
 }

@@ -234,8 +234,7 @@
           "id": "twv4",
           "prompt": "Keep the ___ , because you can claim the money back.",
           "answers": [
-            "receipts",
-            "receipt"
+            "receipts"
           ],
           "options": [
             "receipts",
@@ -303,5 +302,8 @@
     "Which of these three problems would be hardest for you in English, and which words would you need?",
     "The traveler asks for something in writing twice. Why is that a good habit?",
     "Write a short dialogue (about eight lines) in which a rental car has been given to somebody else."
-  ]
+  ],
+  "audio": {
+    "duration_label": "2:59"
+  }
 }

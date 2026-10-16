@@ -693,3 +693,69 @@ body.is-printing-block #print-overlay {
   padding-left: var(--space-sm);
   color: var(--color-text-muted);
 }
+
+/* ---- Moving pictures and source posts ---------------------------------
+   A reading can be about something that happened last night, and then its
+   illustrations are clips and the posts they came in. Both reuse frames the
+   site already has -- .reading-figure for the clip, .lesson-card for the post
+   -- so all that is defined here is the sizing those two shapes need. */
+
+/* A clip sits in the same gold frame as a plate, and obeys the same single
+   height rule, so a text that mixes stills and video still reads as one run
+   of pictures. */
+.reading-figure video {
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  max-height: var(--figure-height, 24rem);
+  padding: 0.5rem;
+  background: var(--color-surface);
+  border: 2px solid var(--color-gold);
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgb(169 129 45 / 35%), var(--shadow-sm);
+}
+
+/* An embedded player has no intrinsic size, so the frame has to hold the
+   16:9 box open for it. */
+.reading-figure__embed {
+  position: relative;
+  width: 100%;
+  max-width: 44rem;
+  margin-inline: auto;
+  aspect-ratio: 16 / 9;
+  padding: 0.5rem;
+  background: var(--color-surface);
+  border: 2px solid var(--color-gold);
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgb(169 129 45 / 35%), var(--shadow-sm);
+}
+.reading-figure__embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* The still from the post, at the head of its card. */
+.post-card__thumb {
+  display: block;
+  width: 100%;
+  height: 9rem;
+  object-fit: cover;
+  border-radius: 2px;
+  margin-bottom: var(--space-xs, 0.5rem);
+}
+.post-card__handle {
+  font-family: var(--font-body, inherit);
+  font-size: var(--step--1);
+  font-weight: 400;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+@media print {
+  /* Nothing plays on paper. The caption stays, so the reader still knows
+     what was there. */
+  .reading-figure video,
+  .reading-figure__embed { display: none; }
+}

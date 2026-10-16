@@ -1,0 +1,511 @@
+{
+  "id": "b1-reading-the-night-a-car-flew",
+  "level": "B1",
+  "slug": "the-night-a-car-flew",
+  "topic": "tech",
+  "title": "The Night a Car Flew",
+  "subtitle": "One demonstration, seven posts, and the English people use when they are telling you what to think about something you can see for yourself.",
+  "description": "A B1 reading and listening text built from the posts that followed Tesla's flying Roadster demonstration on October 16, 2026: breaking-news English, company English, specialist English and fan English, side by side, and the difference between what a video shows and what a sentence claims.",
+  "source": "authored for this site from seven public posts on X, October 16, 2026",
+  "provenance": "new",
+  "narrator": "male",
+  "grammar": [
+    "present-perfect",
+    "passive",
+    "past-simple"
+  ],
+  "passage": [
+    "Just after one in the morning, Greenwich time, on October 16, 2026, a silver Tesla Roadster rolled to the foot of a curved concrete ramp lit along both edges in red. A few seconds later it was in the air. The clip went viral before sunrise: the two biggest posts have been watched more than a hundred million times between them, and almost nobody who watched them had been there.",
+    "The event was streamed live, and anyone who missed it can still watch the whole thing. When a viewer on X asked where the full video was, Grok, the platform's own chatbot, answered that it was on Tesla's YouTube channel under the title *Roadster Event*, and pointed to the original broadcast as well. That is worth noticing on its own. The first useful answer about what had happened came from software.",
+    "What the footage actually shows is easier to describe than what it proves. The car leaves the top of the ramp. Thrusters fire under the floor, four of them, throwing white plumes down into the smoke. A small display in the corner of the stream counts the altitude in feet: 15.0, then 19.3, then 64.4, with the g-force sitting a little above 1.0. Then the car comes down, and it lands in one piece. Whether that was as hard to pull off as it looked is a question the video does not answer.",
+    "The first posts went up within minutes, and two of them could have been written by the same person. ALX, an account with about a million followers, wrote: BREAKING: Elon Musk unveils flying Tesla Roadster at launch event. Five minutes later Watcher.Guru, a financial news account with five million, wrote: JUST IN: Elon Musk's Tesla $TSLA officially unveils new flying Roadster. BREAKING and JUST IN do the same job, which is to make you read the rest. Unveils is the verb a company's own press release would use. And officially is quietly doing nothing at all, because unveil already means in public.",
+    "A third post said more, and claimed more. Pedro Pallotta, a Brazilian space reporter writing in Portuguese for an audience of thirty thousand, told his readers that the car had been built with SpaceX, that suction devices had held it down against the ground with a force of 2G, that it had turned half a loop in the air, and that it had landed in one piece. Four specific statements, none of them confirmed by Tesla that night. Notice the shape they take in English: he says it, his name is on it, and the reader decides what to do with it.",
+    "Then came the two accounts everyone was waiting for, and between them they used eleven words. Musk posted fifteen seconds of video and eight words: Turns out the future does have flying cars. A minute later Tesla posted forty-five seconds of its own and three more: Real life, baby. Neither post explains anything, and neither one has to. The video is the whole argument; the short sentence on top of it is only there to tell you how to feel about what you are already looking at.",
+    "The last voice is the one nobody pays. A fan account with thirteen thousand followers stood on the ground with a phone, filmed the ramp vertically through the smoke and the crowd's lights for nearly three minutes, and wrote: The Tesla Roadster isn't just a supercar. It's a whole new level of performance. No numbers, no sources, and a superlative. That is what hype sounds like in English, and calling it hype is not an insult. It is a register, and it belongs to the fan exactly the way BREAKING belongs to the news account.",
+    "So what happened that night? A car left a ramp with thrusters under it, went up about sixty feet, and came down intact in front of a crowd and a camera. Everything past that sentence was a claim, and every claim arrived with somebody's name attached: a reporter's, a company's, an aggregator's, a fan's. Some of it will eventually turn out to be exact, and some of it will not. A video shows you something. A sentence tells you what it means. The second one is where all the work is, and in English it is where all the useful words are too."
+  ],
+  "images": [
+    {
+      "src": "01.jpg",
+      "after": 2,
+      "wide": true,
+      "alt": "A silver Tesla Roadster in the air at night above a lit platform, four thrusters firing downward in bright blue-white plumes that spread into smoke below it.",
+      "caption": "Four thrusters under the floor, firing down into the smoke. A still from the Roadster event, October 16, 2026.",
+      "source": "x.com/Tesla",
+      "relation": "depicts"
+    }
+  ],
+  "videos": [
+    {
+      "youtube": "qt5p-_tE8d0",
+      "after": 1,
+      "alt": "Tesla's Roadster Event, the full livestream, on YouTube",
+      "caption": "*Roadster Event* — the full stream on Tesla's YouTube channel. This is the video Grok pointed the viewer to."
+    },
+    {
+      "src": "b1/the-night-a-car-flew/flying-car.mp4",
+      "poster": "b1/the-night-a-car-flew/posts/musk.jpg",
+      "after": 5,
+      "alt": "Fifteen seconds filmed at ground level at night: a line of parked Teslas, including a Cybertruck and a Semi, on an open lot, with the ramp lit at the right of the frame.",
+      "caption": "The fifteen seconds Musk posted at 1:57 a.m. UTC, with nine words over the top of it. Clip: @elonmusk on X."
+    }
+  ],
+  "posts": [
+    {
+      "author": "ALX",
+      "handle": "@alx",
+      "when": "1:09 a.m. UTC · 1.0M followers",
+      "text": "BREAKING: Elon Musk unveils flying Tesla Roadster at launch event.",
+      "note": "Breaking-news English: the alert word, the name, the verb, the place. Nineteen seconds of video attached.",
+      "url": "https://x.com/alx/status/2110900843809476871",
+      "thumb": "b1/the-night-a-car-flew/posts/alx.jpg",
+      "alt": "A still from the stream: the Roadster at the foot of the lit ramp, with an altitude reading of 19.3 feet in the corner."
+    },
+    {
+      "author": "Pedro Pallotta",
+      "handle": "@PallottaPedro",
+      "when": "1:09 a.m. UTC · Portuguese",
+      "text": "TESLA ROADSTER SAI VOANDO E POUSA INTEIRO!",
+      "note": "The specialist. A space reporter writing in Portuguese, with four technical claims under the headline and none of them confirmed that night.",
+      "url": "https://x.com/PallottaPedro/status/2110901026735669717",
+      "thumb": "b1/the-night-a-car-flew/posts/pallotta.jpg",
+      "alt": "A frame of the livestream showing the car on the ramp, a g-force reading of 1.0 and an altitude of 15.0 feet, with a LIVE badge and 351.1K viewers."
+    },
+    {
+      "author": "Watcher.Guru",
+      "handle": "@WatcherGuru",
+      "when": "1:14 a.m. UTC · 4.9M followers",
+      "text": "JUST IN: Elon Musk's Tesla $TSLA officially unveils new flying Roadster.",
+      "note": "The aggregator. The same sentence as ALX's, five minutes later, with the stock ticker added for the audience that trades on it.",
+      "url": "https://x.com/WatcherGuru/status/2110902178936500591",
+      "thumb": "b1/the-night-a-car-flew/posts/watcherguru.jpg",
+      "alt": "The tall curved ramp alone against a black sky, lit in red down one edge, with an altitude reading of 64.4 feet."
+    },
+    {
+      "author": "Grok",
+      "handle": "@grok",
+      "when": "1:43 a.m. UTC · in reply to a viewer",
+      "text": "The full Roadster event, flying demo included, is on Tesla's YouTube channel under \"Roadster Event\" — and the original livestream is still up on X.",
+      "note": "The chatbot, answering the one question nobody else answered: where can I watch the whole thing? Paraphrased here; open the post for its own wording.",
+      "url": "https://x.com/grok/status/2110909407454286330"
+    },
+    {
+      "author": "Elon Musk",
+      "handle": "@elonmusk",
+      "when": "1:57 a.m. UTC · 47M views",
+      "text": "Turns out the future does have flying cars",
+      "note": "Nine words, no capital at the end, no punctuation. Turns out is spoken English: it marks something as a surprise the speaker did not arrange.",
+      "url": "https://x.com/elonmusk/status/2110913107094606330",
+      "thumb": "b1/the-night-a-car-flew/posts/musk.jpg",
+      "alt": "A line of parked Teslas at night on an open lot, including a Cybertruck and a Semi, with the lit ramp at the edge of the frame."
+    },
+    {
+      "author": "Tesla",
+      "handle": "@Tesla",
+      "when": "1:59 a.m. UTC · 69M views",
+      "text": "Real life, baby",
+      "note": "The company itself, in three words, answering an objection nobody had made out loud yet: that what you are watching is a rendering.",
+      "url": "https://x.com/Tesla/status/2110913438293647789",
+      "thumb": "b1/the-night-a-car-flew/posts/tesla.jpg",
+      "alt": "The Roadster seen from behind at the foot of the ramp, its full-width rear light bar lit red."
+    },
+    {
+      "author": "ZaxtR",
+      "handle": "@AmX_ZaxTr",
+      "when": "3:20 a.m. UTC · 13K followers",
+      "text": "The Tesla Roadster isn't just a supercar. It's a whole new level of performance.",
+      "note": "The fan: a phone held vertically in the crowd, nearly three minutes long, and a superlative instead of a number. Not just X, it's Y is the shape hype takes in English.",
+      "url": "https://x.com/AmX_ZaxTr/status/2110933845818089479",
+      "thumb": "b1/the-night-a-car-flew/posts/zaxtr.jpg",
+      "alt": "A vertical phone video from the ground: the curved ramp lit along its edge, smoke and stage lights, a white Roadster at its foot and a man watching from the right."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "to unveil",
+      "definition": "to show something new to the public for the first time"
+    },
+    {
+      "term": "footage",
+      "definition": "filmed material of a real event — no plural: two minutes of footage, not two footages"
+    },
+    {
+      "term": "to go viral",
+      "definition": "to spread extremely fast online, from person to person"
+    },
+    {
+      "term": "a claim",
+      "definition": "something said to be true, by somebody who has not proved it"
+    },
+    {
+      "term": "a thruster",
+      "definition": "a small engine that pushes a vehicle in one direction"
+    },
+    {
+      "term": "to hold something down",
+      "definition": "to keep it on the ground, stopping it from rising"
+    },
+    {
+      "term": "to pull something off",
+      "definition": "to succeed in doing something difficult",
+      "match": "pull off"
+    },
+    {
+      "term": "hype",
+      "definition": "loud excitement around a product, usually more than it has earned"
+    },
+    {
+      "term": "a crowd",
+      "definition": "a large group of people gathered in one place to watch something"
+    },
+    {
+      "term": "an aggregator",
+      "definition": "an account or site that collects other people's news and re-posts it"
+    },
+    {
+      "term": "actually",
+      "definition": "in reality, in fact — careful: it is not atualmente, which is currently"
+    },
+    {
+      "term": "eventually",
+      "definition": "in the end, after some time — careful: it is not eventualmente, which is occasionally"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-tncf-comprehension",
+      "type": "reading-comprehension",
+      "title": "Understanding the Text",
+      "instructions": "The options are paraphrased, and more than one question needs information from two different paragraphs.",
+      "items": [
+        {
+          "id": "tn1",
+          "prompt": "According to the text, what is the one thing the videos establish?",
+          "options": [
+            "That the Roadster can be bought next year",
+            "That a car left a ramp with thrusters firing, rose about sixty feet and landed intact",
+            "That the car was built together with SpaceX"
+          ],
+          "answerIndex": 1,
+          "explanation": "That is the sentence the writer is willing to sign: “A car left a ramp with thrusters under it, went up about sixty feet, and came down intact.” The SpaceX detail is one reporter's claim, and nothing in the text mentions a price or a date."
+        },
+        {
+          "id": "tn2",
+          "prompt": "Why does the writer say the word *officially* in Watcher.Guru's post is doing nothing?",
+          "options": [
+            "Because Tesla never confirmed the event",
+            "Because *unveil* already means to show in public",
+            "Because the post was five minutes late"
+          ],
+          "answerIndex": 1,
+          "explanation": "“Officially is quietly doing nothing at all, because unveil already means in public.” It adds weight to the sentence without adding information — which is exactly why headline English likes it."
+        },
+        {
+          "id": "tn3",
+          "prompt": "What does the text find notable about Grok's reply?",
+          "options": [
+            "That the first useful answer about what had happened came from software",
+            "That it contradicted Tesla's own account",
+            "That it was the most-viewed post of the night"
+          ],
+          "answerIndex": 0,
+          "explanation": "“The first useful answer about what had happened came from software.” It was also, by a wide margin, the least-read post quoted here."
+        },
+        {
+          "id": "tn4",
+          "prompt": "How does the text describe the relationship between Musk's video and his nine words?",
+          "options": [
+            "The words explain what the video does not show",
+            "The words correct an error in the video",
+            "The video is the argument; the words only tell you how to feel about it"
+          ],
+          "answerIndex": 2,
+          "explanation": "“The video is the whole argument; the short sentence on top of it is only there to tell you how to feel about what you are already looking at.”"
+        },
+        {
+          "id": "tn5",
+          "prompt": "What is the writer's attitude to the fan's post?",
+          "options": [
+            "It is hype, and hype is a register rather than a fault",
+            "It is dishonest, because it gives no numbers",
+            "It is the most reliable account of the night"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Calling it hype is not an insult. It is a register, and it belongs to the fan exactly the way BREAKING belongs to the news account.”"
+        },
+        {
+          "id": "tn6",
+          "prompt": "Which statement about Pedro Pallotta's post matches the text?",
+          "options": [
+            "He reported four specific claims that Tesla had not confirmed that night",
+            "He was the only reporter present at the event",
+            "He proved that suction devices held the car down"
+          ],
+          "answerIndex": 0,
+          "explanation": "“Four specific statements, none of them confirmed by Tesla that night.” His name is on them, which is what makes them readable as claims rather than as facts."
+        }
+      ]
+    },
+    {
+      "id": "b1-tncf-truefalse",
+      "type": "true-false",
+      "title": "True or False?",
+      "instructions": "Decide whether each statement matches the text. Two of them are the kind of thing a reader assumes without the text ever saying it.",
+      "items": [
+        {
+          "id": "tt1",
+          "statement": "The two biggest posts together were watched more than a hundred million times within hours.",
+          "answer": true,
+          "explanation": "True — “the two biggest posts alone had been watched more than a hundred million times”."
+        },
+        {
+          "id": "tt2",
+          "statement": "The text says the car reached an altitude of 64.4 feet.",
+          "answer": false,
+          "explanation": "False, and this is the careful one. The text says a display on the stream counted 15.0, 19.3 and 64.4 feet, and that the car “went up about sixty feet”. What a number on a screen says and what a car did are two different statements."
+        },
+        {
+          "id": "tt3",
+          "statement": "ALX and Watcher.Guru published almost the same sentence.",
+          "answer": true,
+          "explanation": "True — “two of them could have been written by the same person”."
+        },
+        {
+          "id": "tt4",
+          "statement": "Tesla's post explained how the demonstration worked.",
+          "answer": false,
+          "explanation": "False — Tesla posted three words. “Neither post explains anything, and neither one has to.”"
+        },
+        {
+          "id": "tt5",
+          "statement": "The fan who filmed the ramp has more followers than the reporter writing in Portuguese.",
+          "answer": false,
+          "explanation": "False — thirteen thousand against thirty thousand. The text gives both numbers, two paragraphs apart."
+        }
+      ]
+    },
+    {
+      "id": "b1-tncf-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulary in Use",
+      "instructions": "Choose the word that fits. Two of these are false friends for a Portuguese speaker.",
+      "items": [
+        {
+          "id": "tv1",
+          "prompt": "The company will ___ the new model at an event in March.",
+          "options": [
+            "unveil",
+            "unfold",
+            "uncover"
+          ],
+          "answerIndex": 0,
+          "explanation": "To unveil is to show something new to the public for the first time — it is the verb a press release reaches for."
+        },
+        {
+          "id": "tv2",
+          "prompt": "Nobody was hurt, but there is no ___ of the moment it happened.",
+          "options": [
+            "footage",
+            "footages",
+            "a footage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Footage is uncountable: some footage, two minutes of footage — never two footages."
+        },
+        {
+          "id": "tv3",
+          "prompt": "It looked easy on camera, but almost no team could ___ that landing.",
+          "options": [
+            "pull off",
+            "pull over",
+            "pull up"
+          ],
+          "answerIndex": 0,
+          "explanation": "To pull something off is to succeed at something difficult. Pull over is to stop a car at the side of the road."
+        },
+        {
+          "id": "tv4",
+          "prompt": "The phone is good, but there is a lot of ___ around it right now.",
+          "options": [
+            "hype",
+            "noise",
+            "fame"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hype is excitement around a product, usually more than it has earned."
+        },
+        {
+          "id": "tv5",
+          "prompt": "I thought the meeting was on Friday, but ___ it is on Thursday.",
+          "options": [
+            "actually",
+            "currently",
+            "eventually"
+          ],
+          "answerIndex": 0,
+          "explanation": "Actually corrects a belief: in fact. The Portuguese atualmente is currently — a false friend that changes the sentence completely."
+        },
+        {
+          "id": "tv6",
+          "prompt": "They argued for an hour and ___ agreed on a price.",
+          "options": [
+            "eventually",
+            "actually",
+            "occasionally"
+          ],
+          "answerIndex": 0,
+          "explanation": "Eventually is in the end, after some time. It is not eventualmente, which means occasionally — the other half of the same trap."
+        }
+      ]
+    },
+    {
+      "id": "b1-tncf-reporting",
+      "type": "fill-blank",
+      "title": "Saying Who Says It",
+      "instructions": "This is the grammar the whole text turns on: reporting somebody else's statement so that the reader can tell it is theirs. Complete each sentence.",
+      "items": [
+        {
+          "id": "tr1",
+          "prompt": "The reporter ___ that the car ___ built with SpaceX.",
+          "answers": [
+            "claimed",
+            "had been"
+          ],
+          "options": [
+            [
+              "claimed",
+              "told",
+              "spoke"
+            ],
+            [
+              "had been",
+              "has been",
+              "is"
+            ]
+          ],
+          "explanation": "To claim marks a statement as unproved. After a past reporting verb the earlier event steps back one tense: was built → had been built."
+        },
+        {
+          "id": "tr2",
+          "prompt": "Grok ___ the viewer ___ the full video was on YouTube.",
+          "answers": [
+            "told",
+            "that"
+          ],
+          "options": [
+            [
+              "told",
+              "said",
+              "spoke"
+            ],
+            [
+              "that",
+              "to",
+              "it"
+            ]
+          ],
+          "explanation": "Tell takes a person straight after it: told the viewer. Say does not — he said that the video was on YouTube."
+        },
+        {
+          "id": "tr3",
+          "prompt": "Tesla ___ confirmed any of the technical details that night.",
+          "answers": [
+            "had not"
+          ],
+          "options": [
+            [
+              "had not",
+              "has not been",
+              "did not had"
+            ]
+          ],
+          "explanation": "The whole story is set in the past, so the negative goes in the past perfect: Tesla had not confirmed them by then."
+        },
+        {
+          "id": "tr4",
+          "prompt": "___ to the stream, the altitude ___ 64.4 feet.",
+          "answers": [
+            "According",
+            "reached"
+          ],
+          "options": [
+            [
+              "According",
+              "Following",
+              "Listening"
+            ],
+            [
+              "reached",
+              "arrived",
+              "achieved"
+            ]
+          ],
+          "explanation": "According to X is how English hands responsibility for a figure to its source. A number reaches a value; a person arrives."
+        },
+        {
+          "id": "tr5",
+          "prompt": "The car ___ to have turned half a loop before it landed.",
+          "answers": [
+            "is said"
+          ],
+          "options": [
+            [
+              "is said",
+              "says",
+              "is telling"
+            ]
+          ],
+          "explanation": "X is said to have done Y: the most careful construction English has. It reports the claim and takes no position on it."
+        }
+      ]
+    },
+    {
+      "id": "b1-tncf-match",
+      "type": "matching",
+      "title": "Who Writes Like That?",
+      "instructions": "Match each account with the kind of English it used that night.",
+      "items": [
+        {
+          "id": "tm1",
+          "pairs": [
+            {
+              "left": "Watcher.Guru",
+              "right": "alert word, company name, stock ticker"
+            },
+            {
+              "left": "Pedro Pallotta",
+              "right": "four technical claims and a named author"
+            },
+            {
+              "left": "Tesla",
+              "right": "three words answering an objection nobody had made"
+            },
+            {
+              "left": "Elon Musk",
+              "right": "spoken English — \"turns out\" — over his own footage"
+            },
+            {
+              "left": "ZaxtR",
+              "right": "a superlative instead of a number"
+            },
+            {
+              "left": "Grok",
+              "right": "the only post that answers a question"
+            }
+          ],
+          "explanation": "Six accounts, one event, six registers. None of them is lying and no two are doing the same job — which is why reading the register matters as much as reading the words."
+        }
+      ]
+    }
+  ],
+  "discussion": [
+    "Watch the fifteen seconds Musk posted with the sound off, then read his nine words. How much of what you believe about the clip comes from the words?",
+    "Pedro Pallotta's post makes four claims that Tesla had not confirmed. Is a specialist reporter right to publish them that fast? What would you have left out?",
+    "Write the same news in three versions of your own: a breaking-news post, a company post of no more than five words, and a fan post. Then say which one was hardest.",
+    "The first clear answer about where to watch the event came from a chatbot. Does it matter to you who answers a question like that, as long as the answer is right?",
+    "A video shows you something; a sentence tells you what it means. Think of a story you followed recently. Which did you actually get first?"
+  ],
+  "audio": {
+    "duration_label": "4:20"
+  }
+}

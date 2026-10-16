@@ -119,6 +119,12 @@
   "rate": "-8%",
   "voice": "en-US-MichelleNeural"
  },
+ "a2/at-the-doctors-office": {
+  "bytes": 596160,
+  "fingerprint": "74b1a137457c0f79",
+  "rate": "-8%",
+  "voice": "en-US-BrianNeural"
+ },
  "a2/at-the-hotel": {
   "bytes": 1033056,
   "fingerprint": "821e6bbdcc41263f",
@@ -256,6 +262,12 @@
   "fingerprint": "5196f0142093934d",
   "rate": "-8%",
   "voice": "en-US-JennyNeural"
+ },
+ "a2/when-the-trip-goes-wrong": {
+  "bytes": 1076112,
+  "fingerprint": "d4a6165cc2196cd7",
+  "rate": "-8%",
+  "voice": "en-US-AriaNeural"
  },
  "b1/a-day-in-the-house": {
   "bytes": 1024416,
@@ -485,6 +497,12 @@
   "rate": "-8%",
   "voice": "en-US-GuyNeural"
  },
+ "b1/saying-it-again-on-a-call": {
+  "bytes": 1318032,
+  "fingerprint": "175afe1bf9b83951",
+  "rate": "-8%",
+  "voice": "en-US-MichelleNeural"
+ },
  "b1/snowy-days": {
   "bytes": 1146528,
   "fingerprint": "d7f4715282212b6e",
@@ -502,6 +520,12 @@
   "fingerprint": "8e5bd8d367349dab",
   "rate": "-8%",
   "voice": "en-US-ChristopherNeural"
+ },
+ "b1/the-night-a-car-flew": {
+  "bytes": 1561104,
+  "fingerprint": "9fcf35582efb5b8e",
+  "rate": "-8%",
+  "voice": "en-US-GuyNeural"
  },
  "b1/transcontinental-railroad": {
   "bytes": 1158480,

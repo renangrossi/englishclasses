@@ -70,7 +70,7 @@ Four were excluded for specific reasons:
 
 <!-- gallery:start -->
 
-88 images, imported with `scripts/import_local_artwork.py` from the local
+89 images, imported with `scripts/import_local_artwork.py` from the local
 gallery of painting and print scans. Each one is a work old enough to be free of
 rights; the gallery also holds living and recent artists, and none of that is used.
 
@@ -136,6 +136,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 | `b1/snowy-days` | `02.jpg` | Winter Landscape | `caspar-david-friedrich-winter-landscape.jpg` |
 | `b1/state-fair-food` | `01.jpg` | Village Fair by Night | `hendrik-gerrit-ten-cate-village-fair-by-night-1803-1856.jpeg` |
 | `b1/state-fair-food` | `02.jpg` | Fair in the Oude Beurs, Antwerp | `pierre-jean-van-der-ouderaa-fair-in-the-oude-beurs-in-antwerp-1892.jpeg` |
+| `b1/the-night-a-car-flew` | `01.jpg` | Four thrusters under the floor, firing down into the smoke. | `x.com/Tesla` |
 | `b1/transcontinental-railroad` | `01.jpg` | The Last of the Buffalo | `albert-bierstadt-the-last-of-the-buffalo-1888.jpg` |
 | `b1/travel-dialogues-02` | `01.jpg` | A Scene of Everyday Life at the Nuremberg Town Hall | `heinrich-hansen-a-scene-of-everyday-life-at-the-nuremberg-town-hall.jpeg` |
 | `b1/usa-restaurants` | `01.jpg` | Muddy Alligators | `john-singer-sargent-muddy-alligators.jpeg` |

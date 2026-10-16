@@ -359,7 +359,7 @@ def page_header(d):
 
 
 def toc(ids):
-    labels = {"listen-and-read": "Reading",
+    labels = {"listen-and-read": "Reading", "posts": "The Posts",
               "practice": "Practice", "discussion": "Discussion"}
     links = "".join(f'<a href="#{i}">{labels[i]}</a>' for i in labels if i in ids)
     return f'<div class="level-toc"><div class="level-toc__inner">{links}</div></div>'
@@ -445,6 +445,33 @@ def listen_and_read(d, level, slug):
             f'<figure class="{cls}">'
             f'<img src="{src}" alt="{html.escape(img.get("alt", ""), quote=True)}" loading="lazy">'
             f'{cap}</figure>')
+    # A moving picture, slotted in exactly the way a still one is. Two kinds,
+    # because a text about something that happened last night has two kinds of
+    # source: a clip small enough to keep in the repo and serve ourselves, and
+    # an hour-long stream that belongs where it was published. The first is a
+    # native <video controls> -- the same reasoning as the <audio> above: real
+    # controls, keyboard access, no JavaScript. The second is an iframe, loaded
+    # lazily and only when the reader scrolls to it.
+    for vid in (d.get("videos") or []):
+        cap_text = _caption(vid["caption"]) if vid.get("caption") else ""
+        cap = f"<figcaption>{cap_text}</figcaption>" if cap_text else ""
+        if vid.get("youtube"):
+            # youtube-nocookie: a reading page should not set an advertising
+            # cookie on a student who merely scrolled past the video.
+            media = (f'<div class="reading-figure__embed">'
+                     f'<iframe src="https://www.youtube-nocookie.com/embed/{esc(vid["youtube"])}" '
+                     f'title="{html.escape(vid.get("alt", "Video"), quote=True)}" loading="lazy" '
+                     f'allow="accelerometer; encrypted-media; picture-in-picture" '
+                     f'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>')
+        else:
+            poster = (f' poster="{REL}assets/img/reading/{vid["poster"]}"'
+                      if vid.get("poster") else "")
+            src = f'{REL}assets/video/reading/{vid["src"]}'
+            media = (f'<video controls preload="none" playsinline{poster} src="{src}">'
+                     f'<p>Your browser cannot play this clip. '
+                     f'<a href="{src}">Download the MP4</a> instead.</p></video>')
+        figures.setdefault(int(vid.get("after", 0)), []).append(
+            f'<figure class="reading-figure reading-figure--wide">{media}{cap}</figure>')
     blocks = []
     for i, p in enumerate(marked):
         blocks.append(f"{_ptag(i)}{p}</p>")
@@ -483,6 +510,44 @@ def listen_and_read(d, level, slug):
             </div>
             {gloss_html}
             {source_html}
+        </div>
+    </section>"""
+
+
+def posts(d):
+    """The things the text is about, where a text is about what people posted.
+
+    A reading page normally ends at its own prose. A text built out of public
+    posts cannot: quoting a row of accounts and then not saying which is which
+    teaches the opposite of what it set out to teach. So each post is shown
+    once, with its author, the hour it went up, its own words and a link to
+    it, and the reader can check every quotation in the passage against the
+    thing itself. Reuses .grid and .lesson-card, the cards the hub is built
+    from -- no new component.
+    """
+    rows = d.get("posts") or []
+    if not rows:
+        return ""
+    cards = []
+    for p in rows:
+        thumb = (f'<img class="post-card__thumb" src="{REL}assets/img/reading/{p["thumb"]}" '
+                 f'alt="{html.escape(p.get("alt", ""), quote=True)}" loading="lazy">'
+                 if p.get("thumb") else "")
+        when = f'<span class="lesson-card__meta">{esc(p["when"])}</span>' if p.get("when") else ""
+        note = f'<p class="lesson-card__meta">{esc(p["note"])}</p>' if p.get("note") else ""
+        cards.append(
+            f'<article class="lesson-card">{thumb}'
+            f'<h3>{esc(p["author"])} <span class="post-card__handle">{esc(p["handle"])}</span></h3>'
+            f'{when}<p>&ldquo;{esc(p["text"])}&rdquo;</p>{note}'
+            f'<div class="lesson-card__actions">'
+            f'<a class="btn btn--ghost btn--small" href="{esc(p["url"])}" target="_blank" '
+            f'rel="noopener nofollow">Open the post</a></div></article>')
+    return f"""<section id="posts" class="section section--surface" aria-labelledby="posts-heading">
+        <div class="section__inner">
+            <p class="eyebrow">The Sources</p>
+            <h2 id="posts-heading">The Posts Themselves</h2>
+            <p style="color:var(--color-text-muted);margin-bottom:var(--space-md);max-width:60ch;">Every quotation in the text comes from one of these. Read them in English before you read what the text makes of them &mdash; and notice how differently each account describes the same night.</p>
+            <div class="grid">{''.join(cards)}</div>
         </div>
     </section>"""
 
@@ -542,9 +607,9 @@ def build(level, slug, d):
         f'<li><a href="{REL}levels/{level}.html">{d["level"]}</a></li>'
         f'<li aria-current="page">{esc(d["title"])}</li>'
     )
-    body = [listen_and_read(d, level, slug), practice(d), discussion(d)]
+    body = [listen_and_read(d, level, slug), posts(d), practice(d), discussion(d)]
     ids = [i for i, s in zip(
-        ["listen-and-read", "practice", "discussion"], body) if s]
+        ["listen-and-read", "posts", "practice", "discussion"], body) if s]
 
     out = [
         site_chrome.head(REL, title, description[:300],

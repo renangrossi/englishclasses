@@ -37,8 +37,15 @@
   ],
   "videos": [
     {
+      "src": "b1/the-night-a-car-flew/real-life.mp4",
+      "poster": "b1/the-night-a-car-flew/posts/tesla.jpg",
+      "after": 0,
+      "alt": "Forty-five seconds of the Roadster demonstration, filmed by Tesla: the car on the lit ramp at night, the launch, and the landing.",
+      "caption": "Watch this first, before the text explains it. Forty-five seconds posted by Tesla at 1:59 a.m. UTC under three words: *Real life, baby*. Clip: @Tesla on X."
+    },
+    {
       "youtube": "qt5p-_tE8d0",
-      "after": 1,
+      "after": 7,
       "alt": "Tesla's Roadster Event, the full livestream, on YouTube",
       "caption": "*Roadster Event* — the full stream on Tesla's YouTube channel. This is the video Grok pointed the viewer to."
     },

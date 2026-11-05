@@ -70,14 +70,36 @@
       "match": "agreed on"
     },
     {
+      "term": "to turn (an age)",
+      "definition": "to reach that age on your birthday",
+      "match": "turned thirteen"
+    },
+    {
       "term": "sleepover",
       "definition": "a night a young person spends at a friend's house",
       "match": "sleepovers"
     },
     {
+      "term": "excuse",
+      "definition": "a reason you give for doing something, whether or not it is the true one"
+    },
+    {
+      "term": "to go by",
+      "definition": "to pass (of time)",
+      "match": "went by"
+    },
+    {
       "term": "to drop somebody off",
       "definition": "to take somebody somewhere by car and leave them there",
       "match": "dropped her off"
+    },
+    {
+      "term": "gate",
+      "definition": "the door in a fence or wall in front of a house"
+    },
+    {
+      "term": "couch",
+      "definition": "a sofa (American English)"
     },
     {
       "term": "to buzz",
@@ -99,6 +121,25 @@
       "definition": "with each arm folded over the other, often from cold or fear"
     },
     {
+      "term": "to shake",
+      "definition": "to tremble, from cold or from fear",
+      "match": "shaking"
+    },
+    {
+      "term": "a good deal",
+      "definition": "considerably; much",
+      "match": "a good deal"
+    },
+    {
+      "term": "to lean against",
+      "definition": "to rest your body against a wall or a car",
+      "match": "leaning against"
+    },
+    {
+      "term": "back seat",
+      "definition": "the seat behind the driver"
+    },
+    {
       "term": "rearview mirror",
       "definition": "the mirror a driver uses to see the road, and the back seat, behind them"
     },
@@ -108,8 +149,26 @@
       "match": "leave Megan alone"
     },
     {
+      "term": "scared",
+      "definition": "afraid"
+    },
+    {
+      "term": "to make things worse",
+      "definition": "to cause a bad situation to become worse",
+      "match": "make things worse"
+    },
+    {
       "term": "mad",
       "definition": "angry (American English)"
+    },
+    {
+      "term": "mattress",
+      "definition": "the thick soft part of a bed, here laid straight on the floor"
+    },
+    {
+      "term": "anything but",
+      "definition": "the opposite of; not at all",
+      "match": "anything but"
     },
     {
       "term": "to start in on somebody",
@@ -117,9 +176,38 @@
       "match": "started in on"
     },
     {
+      "term": "engine",
+      "definition": "the motor of a car"
+    },
+    {
       "term": "a way out",
       "definition": "a means of leaving a situation",
       "match": "a way out"
+    },
+    {
+      "term": "to stare at",
+      "definition": "to look at something for a long time without moving your eyes",
+      "match": "staring at"
+    },
+    {
+      "term": "to run your hand over your face",
+      "definition": "to pass your hand slowly over your face, from tiredness or emotion",
+      "match": "ran his hand over his face"
+    },
+    {
+      "term": "to shut",
+      "definition": "to close",
+      "match": "shut"
+    },
+    {
+      "term": "to write back",
+      "definition": "to answer a message",
+      "match": "write back"
+    },
+    {
+      "term": "to pick",
+      "definition": "to choose",
+      "match": "picked it"
     }
   ],
   "exercises": [

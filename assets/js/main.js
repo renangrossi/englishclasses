@@ -430,7 +430,42 @@
     });
   }
 
+  /* Floating buttons step aside on a phone while the reader scrolls
+     down or types, and return on the first scroll up (see "Floating
+     buttons on a phone" in components.css). Small movements are
+     ignored so a resting thumb does not make them flicker, and they
+     are always shown at the very top of the page. */
+  function initFloatingButtons() {
+    if (!window.matchMedia) return;
+    var phone = window.matchMedia("(max-width: 700px)");
+    var root = document.documentElement;
+    var lastY = window.scrollY;
+    var typing = false;
+
+    function set(away) { root.classList.toggle("fabs-away", away && phone.matches); }
+
+    window.addEventListener("scroll", function () {
+      var y = window.scrollY;
+      var delta = y - lastY;
+      if (Math.abs(delta) < 12) return;
+      lastY = y;
+      set(typing || (delta > 0 && y > 120));
+    }, { passive: true });
+
+    function isTextField(node) {
+      return node && node.matches && node.matches("input[type='text'], input:not([type]), textarea") &&
+        !node.closest(".ai-teacher-panel, .dict-widget-panel, .search-overlay");
+    }
+    document.addEventListener("focusin", function (e) {
+      if (isTextField(e.target)) { typing = true; set(true); }
+    });
+    document.addEventListener("focusout", function (e) {
+      if (isTextField(e.target)) { typing = false; set(false); }
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
+    initFloatingButtons();
     initTheme();
     initMobileNav();
     initDropdown();

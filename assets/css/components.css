@@ -1527,3 +1527,36 @@ audio {
   font-size: var(--step--1);
 }
 .topic-list li::before { content: "📘 "; }
+
+/* Floating buttons on a phone
+   ---------------------------------------------------------------
+   Up to four round buttons sit over the bottom of the page (AI
+   teacher, dictionary, irregular verbs, back to top). On a
+   desktop they float in the margin; on a phone there is no margin, so
+   they sat on top of the sentence or the answer option being read.
+   Two things change below 700px: the buttons are smaller and closer
+   together, and they step aside while the reader is moving down the
+   page or typing an answer (main.js sets .fabs-away) and come back the
+   moment the reader scrolls up, which is the gesture people already
+   make when they want a page's controls. */
+@media (max-width: 700px) {
+  :root { --fab-size: 40px; --fab-step: 48px; --fab-edge: 10px; }
+  .ai-teacher-toggle,
+  .dict-widget-toggle,
+  .dict-widget-hint,
+  .irregular-verbs-toggle,
+  .progress-toggle--floating,
+  .back-to-top {
+    transition: opacity 180ms ease, visibility 180ms;
+  }
+  html.fabs-away .ai-teacher-toggle,
+  html.fabs-away .dict-widget-toggle,
+  html.fabs-away .dict-widget-hint,
+  html.fabs-away .irregular-verbs-toggle,
+  html.fabs-away .progress-toggle--floating,
+  html.fabs-away .back-to-top {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+  }
+}

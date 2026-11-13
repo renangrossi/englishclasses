@@ -1,9 +1,10 @@
 /*!
  * Renan the Teacher — Gamification / Progress Tracker
  * ------------------------------------------------------------------
- * Phase 1: fully offline, localStorage-only. No account, no server,
- * works the same on GitHub Pages as anywhere else. Nothing here ever
- * sends data off the student's own browser.
+ * Everything here reads and writes localStorage only, and works with
+ * no account and no server. Saving to an account is a separate,
+ * optional layer -- assets/js/cloud-sync.js -- that copies this
+ * module's state to Supabase for students who sign in with Google.
  *
  * Responsibilities:
  *   1. Award XP for exercise blocks (via the "exercise:submitted"
@@ -22,6 +23,7 @@
  *   recordTestProgress({ type, level })   // "test-yourself" | "placement"
  *   getState()                            // read-only snapshot
  *   resetProgress()                       // wipes local progress (used by progress.html)
+ *   importState(remote, replace)          // merge in / take over the account's copy (cloud-sync.js)
  *   XP, BADGES                            // config, read here or from progress.html
  *
  * See docs/gamification.md for the localStorage schema, how to tune
@@ -318,7 +320,17 @@
     try {
       var raw = window.localStorage.getItem(STORAGE_KEY);
       if (!raw) return defaultState();
-      var parsed = JSON.parse(raw);
+      return normalizeState(JSON.parse(raw));
+    } catch (e) {
+      return defaultState();
+    }
+  }
+
+  // Turns any saved object -- this browser's own, or the copy that
+  // cloud-sync.js fetched from the student's account -- into a complete
+  // state, or a fresh one if it is missing or from another schema.
+  function normalizeState(parsed) {
+    try {
       if (!parsed || parsed.version !== SCHEMA_VERSION) return defaultState();
       // Merge onto a fresh default so any fields added later (or a level
       // added to LEVELS) are always present, even for an older save.
@@ -346,6 +358,100 @@
     } catch (e) {
       // Storage full/blocked — progress just won't persist this run.
     }
+    notify("rt:saved");
+  }
+
+  // cloud-sync.js listens for these to know when to upload; with no
+  // listener (signed out, or sync not configured) they do nothing.
+  function notify(name) {
+    try { document.dispatchEvent(new CustomEvent(name)); } catch (e) { /* ignore */ }
+  }
+
+  /* ------------------------------------------------------------- *
+   * Merging two saves (this browser's and the account's copy).
+   * Nothing is ever lost: exercises, badges, completed pages and
+   * topics are unioned. XP cannot simply be summed -- both sides
+   * usually share most of their history -- so the richer side is the
+   * base and the other side contributes only what the base lacks.
+   * ------------------------------------------------------------- */
+  function mergeStates(a, b) {
+    var base = getStateFrom(a.xp >= b.xp ? a : b);
+    var other = a.xp >= b.xp ? b : a;
+
+    Object.keys(other.exercises).forEach(function (id) {
+      var theirs = other.exercises[id];
+      var mine = base.exercises[id];
+      if (!theirs) return;
+      if (!mine) {
+        var gained = XP.exercise + (theirs.perfect ? XP.perfectBonus : 0);
+        base.exercises[id] = theirs;
+        base.xp += gained;
+        var ls = theirs.level && base.levelStats[theirs.level];
+        if (ls) { ls.exercisesDone += 1; ls.xp += gained; }
+      } else {
+        mine.bestCorrect = Math.max(mine.bestCorrect || 0, theirs.bestCorrect || 0);
+        mine.total = mine.total || theirs.total;
+        mine.perfect = !!(mine.perfect || theirs.perfect);
+      }
+    });
+
+    Object.keys(other.pagesCompleted).forEach(function (key) {
+      if (!other.pagesCompleted[key] || base.pagesCompleted[key]) return;
+      base.pagesCompleted[key] = other.pagesCompleted[key];
+      base.xp += key === "placement" ? XP.placement : XP.testYourself;
+    });
+
+    Object.keys(other.topicsCompleted).forEach(function (id) {
+      if (base.topicsCompleted[id]) return;
+      base.topicsCompleted[id] = other.topicsCompleted[id];
+      base.xp += Math.max(0, badgeXp("topic_complete"));
+    });
+
+    other.badges.forEach(function (id) {
+      if (base.badges.indexOf(id) !== -1) return;
+      base.badges.push(id);
+      var badge = BADGES.filter(function (b) { return b.id === id; })[0];
+      if (badge) grantBadgeXp(base, badge);
+    });
+
+    // Exercises saved before records carried their level could not be
+    // credited above, so a level never ends up below either side's count.
+    LEVELS.forEach(function (l) {
+      var mineL = base.levelStats[l], theirsL = other.levelStats[l];
+      if (!mineL || !theirsL) return;
+      mineL.xp = Math.max(mineL.xp || 0, theirsL.xp || 0);
+      mineL.exercisesDone = Math.max(mineL.exercisesDone || 0, theirsL.exercisesDone || 0);
+    });
+
+    Object.keys(other.timeFlags).forEach(function (k) {
+      if (other.timeFlags[k]) base.timeFlags[k] = true;
+    });
+    base.dictionaryUses = Math.max(base.dictionaryUses, other.dictionaryUses);
+
+    // The streak that was touched most recently is the live one.
+    var s1 = base.streak, s2 = other.streak;
+    var d1 = s1.lastActiveDate || "", d2 = s2.lastActiveDate || "";
+    var brokenOnce = !!(s1.brokenOnce || s2.brokenOnce);
+    if (d2 > d1 || (d2 === d1 && (s2.count || 0) > (s1.count || 0))) {
+      base.streak = { count: s2.count || 0, lastActiveDate: d2, brokenOnce: brokenOnce };
+    } else {
+      s1.brokenOnce = brokenOnce;
+    }
+    return base;
+  }
+
+  // Used by cloud-sync.js. `replace` false: merge the account's copy
+  // into this browser's. `replace` true: this browser takes the
+  // account's copy as it is (another student used this device, or the
+  // progress was reset on another device). Returns what is now saved.
+  function importState(remote, replace) {
+    var incoming = normalizeState(remote);
+    var next = replace ? incoming : mergeStates(loadState(), incoming);
+    if (!replace) evaluateBadges(next);
+    saveState(next);
+    flushUI(next);
+    notify("rt:state-changed");
+    return getStateFrom(next);
   }
 
   /* ------------------------------------------------------------- *
@@ -556,7 +662,9 @@
       // (in this browser) — award XP once, then remember it forever.
       awardXp(state, XP.exercise, level, "Exercise complete");
       if (perfect) awardXp(state, XP.perfectBonus, level, "Perfect score");
-      state.exercises[exerciseId] = { bestCorrect: correct, total: total, xpAwarded: true, perfect: perfect };
+      // `level` is kept so that merging two devices' saves (mergeStates)
+      // can credit the right level's counters.
+      state.exercises[exerciseId] = { bestCorrect: correct, total: total, xpAwarded: true, perfect: perfect, level: level };
       if (level && state.levelStats[level]) state.levelStats[level].exercisesDone += 1;
     } else {
       // Retry: never re-award XP, just keep the best result on file
@@ -637,6 +745,9 @@
     if (window.MasteryTracker && typeof window.MasteryTracker.resetMastery === "function") {
       window.MasteryTracker.resetMastery();
     }
+    // Signed in, the reset has to reach the account too, or the next
+    // sync would merge everything straight back -- see cloud-sync.js.
+    notify("rt:reset");
     flushUI(loadState());
   }
 
@@ -880,7 +991,9 @@
       '<button type="button" class="progress-panel__close" aria-label="Close">' +
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>' +
       "</div>" +
-      '<p class="progress-panel__hint">Progress saves to this browser only — refresh-safe, no account needed.</p>' +
+      (cloudEnabled()
+        ? '<div class="progress-panel__account" data-cloud-account></div>'
+        : '<p class="progress-panel__hint">Progress saves to this browser only — refresh-safe, no account needed.</p>') +
       '<div class="progress-panel__levels">' + levelRows + "</div>" +
       topicSummaryHtml(state) +
       '<p class="progress-panel__badges-label">Badges — ' + earnedCount + " of " + BADGES.length + " earned</p>" +
@@ -892,6 +1005,13 @@
       els.panel.hidden = true;
       els.toggle.setAttribute("aria-expanded", "false");
     });
+    if (cloudEnabled()) window.CloudSync.render();
+  }
+
+  // True once assets/js/cloud-sync.js has a Supabase project to talk
+  // to. Until then everything behaves exactly as it did offline-only.
+  function cloudEnabled() {
+    return !!(window.CloudSync && window.CloudSync.enabled);
   }
 
   function progressPageHref() {
@@ -916,7 +1036,10 @@
     // progress yet" and hides them. Visibility changes here; DOM
     // position never does — the mobile row is always the item right
     // after Dictionary in #primary-nav, whether hidden or shown.
-    var active = hasProgress(state);
+    // With cloud sync configured they are always shown: on a new
+    // device there is no progress yet, and the panel behind them is
+    // where "Sign in with Google" lives.
+    var active = hasProgress(state) || cloudEnabled();
     els.toggle.hidden = !active;
     if (els.menuItem) els.menuItem.hidden = !active;
     if (els.menuStreakEl) els.menuStreakEl.textContent = String(state.streak.count);
@@ -1072,11 +1195,16 @@
     }
 
     render();
+    document.addEventListener("rt:state-changed", render);
 
     var resetBtn = document.getElementById("progress-reset-btn");
     if (resetBtn) {
       resetBtn.addEventListener("click", function () {
-        if (window.confirm("Reset all XP, streak and badges on this device? This can't be undone.")) {
+        var signedIn = cloudEnabled() && window.CloudSync.isSignedIn();
+        var question = signedIn
+          ? "Reset all XP, streak and badges in your account, on every device? This can't be undone."
+          : "Reset all XP, streak and badges on this device? This can't be undone.";
+        if (window.confirm(question)) {
           resetProgress();
           render();
         }
@@ -1105,6 +1233,7 @@
     recordDictionaryUse: recordDictionaryUse,
     getState: getState,
     resetProgress: resetProgress,
+    importState: importState,
     XP: XP,
     BADGES: BADGES,
     LEVELS: LEVELS,

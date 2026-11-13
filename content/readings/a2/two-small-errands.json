@@ -219,7 +219,7 @@
           "prompt": "What does “a job for Saturday morning” mean at the end?",
           "options": [
             "He has to work on Saturday",
-            "He will get the tire repaired at the weekend",
+            "He will get the tire repaired on the weekend",
             "He will return to the gas station"
           ],
           "answerIndex": 1,
@@ -330,8 +330,8 @@
           "options": [
             [
               "kind",
-              "good",
-              "nice"
+              "kindly",
+              "kindness"
             ],
             [
               "No",

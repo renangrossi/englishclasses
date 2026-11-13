@@ -367,7 +367,7 @@
         },
         {
           "id": "chf7",
-          "prompt": "If you fall ___, just catch ___ at the weekend.",
+          "prompt": "If you fall ___, just catch ___ on the weekend.",
           "answers": [
             "behind",
             "up"

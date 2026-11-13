@@ -99,8 +99,12 @@
 .blank-input {
   display: inline-block;
   width: auto;
-  min-width: 6em;
+  min-width: 4em;
+  max-width: 100%;
   font: inherit;
+  /* Never below 16px: iOS Safari zooms the whole page in when a focused
+     control's text is smaller, and does not zoom back out. */
+  font-size: max(1em, 16px);
   font-weight: 600;
   padding: 0.15em 0.5em;
   border: 0;
@@ -136,11 +140,22 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
   width: 100%;
   max-width: 34em;
   font: inherit;
+  font-size: max(1em, 16px);
   padding: 0.6em 0.8em;
   border: var(--border-hairline);
   border-radius: var(--radius-sm);
   background: var(--color-surface);
   color: var(--color-text);
+}
+/* Sentence answers are a one-row textarea that exercises.js grows to fit
+   (see answerField there); field-sizing does the same without script
+   where the browser supports it. */
+textarea.answer-input {
+  display: block;
+  resize: none;
+  overflow: hidden;
+  line-height: 1.45;
+  field-sizing: content;
 }
 .answer-input:focus-visible { outline-offset: 2px; }
 .answer-input.is-correct { border-color: var(--color-success); background: var(--color-success-bg); }
@@ -189,6 +204,10 @@ select.blank-input:disabled { cursor: default; opacity: 0.85; }
 }
 .order-pool { display: flex; flex-wrap: wrap; gap: 0.5em; }
 .word-chip {
+  /* A one-letter word ("I", "a") made a chip 30px wide -- too small a
+     target for a thumb. */
+  min-width: 2.75rem;
+  min-height: 2.5rem;
   font: inherit;
   font-size: var(--step--1);
   font-weight: 600;

@@ -37,7 +37,9 @@ SPELLING = [
     (r"\brecognis(e|ed|es|ing|able)\b", "recogniz"),
     (r"\brealis(e|ed|es|ing|ation)\b", "realiz"),
     (r"\bapologis(e|ed|es|ing)\b", "apologiz"),
-    (r"\bcriticis(e|ed|es|ing|m)\b", "criticiz"),
+    # Not "criticism": that is spelled the same in both, and matching it here
+    # once turned it into "criticizm" in four texts.
+    (r"\bcriticis(e|ed|es|ing)\b", "criticiz"),
     (r"\bemphasis(e|ed|es|ing)\b", "emphasiz"),
     (r"\bmemoris(e|ed|es|ing)\b", "memoriz"),
     (r"\bspecialis(e|ed|es|ing|ation)\b", "specializ"),
@@ -69,7 +71,8 @@ SPELLING = [
     (r"\bfulfil\b", "fulfill"),
     (r"\benrol\b", "enroll"),
     (r"\bmarvellous\b", "marvelous"),
-    (r"\bstorey(s)?\b", "story"),
+    (r"\bstoreys\b", "stories"),
+    (r"\bstorey\b", "story"),
     (r"\bploughed\b", "plowed"),
     (r"\bplough(s|ing)?\b", "plow"),
     (r"\bmoustache(s)?\b", "mustache"),

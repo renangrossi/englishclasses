@@ -266,9 +266,9 @@
         },
         {
           "id": "reported-speech-full-system-c6",
-          "incorrect": "She said that the meeting starts at nine, but by the time we spoke it had already finished.",
+          "incorrect": "She said that the meeting starts at nine every Monday, so I added it to my calendar.",
           "answer": [
-            "She said that the meeting starts at nine, but by the time we spoke it had already finished."
+            "She said that the meeting starts at nine every Monday, so I added it to my calendar."
           ],
           "explanation": "This sentence is already correct — “starts” stays in the present because it reports a scheduled/timetabled fact, even though the reporting verb (“said”) is past."
         }

@@ -1458,8 +1458,19 @@ audio {
 }
 
 @media (max-width: 560px) {
-  .xp-toast-host { left: var(--space-sm); right: var(--space-sm); align-items: stretch; }
-  .xp-toast { justify-content: center; }
+  /* Up to three toasts can arrive together (streak, XP, a badge). At
+     full size they covered the score they were announcing. */
+  .xp-toast-host { left: var(--space-sm); right: var(--space-sm); align-items: flex-end; gap: 0.25em; }
+  .xp-toast { padding: 0.3em 0.75em; font-size: 0.78rem; }
+}
+
+/* The header has room for the brand's full name down to about 420px.
+   Below that it was cut to "Renan t…" beside the three header buttons;
+   the name now wraps onto two lines and the tagline, which was cut to
+   "ENGLISH LA…", gives up its line. */
+@media (max-width: 420px) {
+  .site-header .brand__name { white-space: normal; font-size: 0.95rem; line-height: 1.1; }
+  .site-header .brand__tagline { display: none; }
 }
 
 /* NOTE: the header pill (.progress-toggle--pill) itself is hidden

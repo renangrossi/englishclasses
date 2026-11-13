@@ -55,8 +55,8 @@
     {
       "id": "a2cs-mc", "type": "multiple-choice", "title": "Choose the Correct Form",
       "items": [
-        { "id": "a2cs6", "prompt": "She ___ as her sister. (equal height)", "options": ["is tall", "is as tall", "is taller"], "answerIndex": 1, "explanation": "Equality needs \"as + adjective + as\": is as tall as." },
-        { "id": "a2cs7", "prompt": "He is ___ than his brother. (less young)", "options": ["young", "youngest", "younger"], "answerIndex": 2, "explanation": "Comparative, short adjective: young → younger." }
+        { "id": "a2cs6", "prompt": "She and her sister are both 1.60 m tall. She ___ as her sister.", "options": ["is tall", "is as tall", "is taller"], "answerIndex": 1, "explanation": "Equality needs \"as + adjective + as\": is as tall as." },
+        { "id": "a2cs7", "prompt": "He is 10 years old and his brother is 14. He is ___ than his brother.", "options": ["young", "youngest", "younger"], "answerIndex": 2, "explanation": "Comparative, short adjective: young → younger." }
       ]
     },
     {

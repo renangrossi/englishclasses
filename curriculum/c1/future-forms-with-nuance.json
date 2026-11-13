@@ -176,7 +176,7 @@
         },
         {
           "id": "future-forms-with-nuance-b2",
-          "prompt": "At the time, nobody knew that the invention would change the world. (rewrite with \"would,\" keeping the meaning)",
+          "prompt": "At the time, nobody knew that the invention was going to change the world. (rewrite with \"would,\" keeping the meaning)",
           "answer": [
             "At the time, nobody knew that the invention would change the world."
           ],

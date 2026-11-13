@@ -251,9 +251,9 @@
         },
         {
           "id": "advanced-verb-patterns-c2",
-          "incorrect": "She stopped answering the door — I think she's finally home again.",
+          "incorrect": "She stopped answering the door — I think she has moved away.",
           "answer": [
-            "She stopped answering the door — I think she's finally home again."
+            "She stopped answering the door — I think she has moved away."
           ],
           "explanation": "This sentence is already correct as written — no error to fix; “stopped answering” (gerund) correctly describes a habit that ended."
         },

@@ -1560,3 +1560,28 @@ audio {
     pointer-events: none !important;
   }
 }
+
+/* ---- Account sync (assets/js/cloud-sync.js) --------------------------
+   The "Sign in with Google" / "Signed in as" block, drawn into every
+   [data-cloud-account] element: the progress panel and progress.html. */
+.cloud-account { margin: 0.6em 0 var(--space-sm); font-size: 0.82rem; }
+.cloud-account__text { margin: 0 0 0.5em; color: var(--color-text-muted); overflow-wrap: anywhere; }
+.cloud-account__text strong { color: var(--color-text); font-weight: 600; }
+.cloud-account__google {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.6em;
+  min-height: 40px; padding: 0 1em;
+  border: 1px solid #dadce0; border-radius: 6px;
+  background: #fff; color: #1f1f1f;
+  font: inherit; font-weight: 600; cursor: pointer;
+}
+.cloud-account__google:hover { background: #f6f8fb; }
+.cloud-account__google:disabled { opacity: 0.6; cursor: progress; }
+.cloud-account__g { width: 18px; height: 18px; flex: none; }
+.cloud-account__row { display: flex; align-items: center; justify-content: space-between; gap: 1em; margin: 0; }
+.cloud-account__status { color: var(--color-text-muted); }
+.cloud-account__status--error { color: #b3261e; }
+.cloud-account__signout {
+  flex: none; padding: 0; border: 0; background: none;
+  color: inherit; font: inherit; text-decoration: underline; cursor: pointer;
+}
+.progress-panel .cloud-account__google { width: 100%; }

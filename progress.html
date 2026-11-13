@@ -24,7 +24,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/tokens.css?v=97f5fef7">
 <link rel="stylesheet" href="assets/css/base.css?v=0d51ff3d">
-<link rel="stylesheet" href="assets/css/components.css?v=d0171f9f">
+<link rel="stylesheet" href="assets/css/components.css?v=00407751">
 <link rel="stylesheet" href="assets/css/layout.css?v=603fe8d2">
 <link rel="stylesheet" href="assets/css/dark-mode.css?v=37d8509d">
 <link rel="stylesheet" href="assets/css/ai-teacher.css?v=87b4733c">
@@ -107,7 +107,7 @@
             <div class="page-header__text">
                 <p class="eyebrow hero__eyebrow">Your Progress</p>
                 <h1>My Progress</h1>
-                <p class="page-header__lede">Every exercise you complete, your daily streak and the badges you unlock &mdash; saved privately to this browser. No account, no upload, nothing shared.</p>
+                <p class="page-header__lede">Every exercise you complete, your daily streak and the badges you unlock &mdash; <span data-offline-only>saved privately to this browser. No account, no upload, nothing shared.</span><span data-cloud-only hidden>saved in this browser, and in your account if you sign in with Google.</span></p>
             </div>
             <img class="page-header__badge" src="assets/img/badges/badge-eagle-shield.webp" alt="" width="88" height="88" loading="lazy">
         </div>
@@ -168,14 +168,13 @@
 <section class="section section--surface" aria-labelledby="account-heading">
         <div class="section__inner section__inner--narrow">
             <div class="section__head">
-                <p class="eyebrow">Phase 1 &mdash; Offline</p>
+                <p class="eyebrow">Saving Your Progress</p>
                 <h2 id="account-heading">How this works</h2>
-                <p>All of this lives only in this browser's local storage on this device. Clear your browser data (or switch devices or browsers) and it starts over. There is no login yet, and nothing here is ever sent to a server.</p>
+                <p data-offline-only>All of this lives only in this browser's local storage on this device. Clear your browser data (or switch devices or browsers) and it starts over. There is no login, and nothing here is ever sent to a server.</p>
+                <p data-cloud-only hidden>Without signing in, your progress lives only in this browser: clear your browser data, or switch to another phone or computer, and it starts over. Sign in with Google and it is also saved to your account, so it follows you to any device. Only your XP, streak, badges and exercise results are stored, next to your Google email address &mdash; nobody else can see them. Signing in is optional; the whole course works without it.</p>
             </div>
-            <div class="notice" style="margin-bottom:var(--space-lg);">
-                <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/></svg><strong>Optional cross-device sync is planned</strong> for a future update, using a free login so your XP and badges follow you between your phone and computer. Nothing is required to keep using the course exactly as it is today.
-            </div>
-            <button type="button" class="btn btn--ghost" id="progress-reset-btn">Reset my progress on this device</button>
+            <div data-cloud-account style="margin-bottom:var(--space-lg);"></div>
+            <button type="button" class="btn btn--ghost" id="progress-reset-btn">Reset my progress</button>
         </div>
     </section>
 <button type="button" class="dict-widget-toggle" data-dict-widget-toggle aria-label="Open quick dictionary" aria-expanded="false" aria-haspopup="dialog">
@@ -274,8 +273,8 @@
     <script src="assets/js/search.js?v=75bc093d"></script>
     <script src="assets/js/ai-teacher.js?v=dca26506" data-ai-endpoint="https://ai-teacher.englishclasses.workers.dev"></script>
     <script src="assets/js/dict-widget.js?v=ceb74e20"></script>
-    <script src="assets/js/progress.js?v=428d1dbf"></script>
-    <script src="assets/js/mastery.js?v=5dffaf93"></script>
+    <script src="assets/js/progress.js?v=34ae9b52"></script><script src="assets/js/cloud-sync.js?v=9d42a1ce"></script>
+    <script src="assets/js/mastery.js?v=3cd9003a"></script>
     <script>
     (function () {
       "use strict";

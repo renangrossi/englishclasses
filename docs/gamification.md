@@ -429,51 +429,16 @@ was changed.
     to the tab and confirm both toasts play in order, a beat apart,
     rather than being missed or stacking instantly.
 
-## Phase 2 (optional — not implemented yet)
+## Phase 2 — saving to an account (implemented)
 
-Phase 1 intentionally has **no** login and **no** server, so it stays
-free and fully functional on GitHub Pages alone. Optional
-cross-device sync would need a small backend; Supabase's free tier
-(Postgres + built-in auth) fits this project well because the rest of
-the site is also free-tier-only (Cloudflare Workers for the AI
-Teacher). Sketch, to implement later:
+Optional sign-in with Google, backed by Supabase, lives in
+`assets/js/cloud-sync.js`; setup and behaviour are in
+[`cloud-sync.md`](cloud-sync.md). `progress.js` keeps the same public
+API and the same behaviour for every student who never signs in.
 
-1. **Create a Supabase project** (free tier) and note the project URL
-   + anon public key.
-2. **Auth**: use Supabase's magic-link (passwordless email) auth —
-   no password storage/reset flow to build. Add a small "Save my
-   progress" button to the progress panel that opens an email-only
-   sign-in form.
-3. **Table** `progress` (one row per user):
-   ```sql
-   create table progress (
-     user_id uuid references auth.users primary key,
-     state jsonb not null,
-     updated_at timestamptz not null default now()
-   );
-   alter table progress enable row level security;
-   create policy "own row only" on progress
-     for all using (auth.uid() = user_id);
-   ```
-   Store the exact same JSON shape `getState()` already returns —
-   no separate schema to design.
-4. **Sync logic** (new file, e.g. `assets/js/progress-sync.js`, only
-   loaded once auth is wired up):
-   - On sign-in: fetch the row for `auth.uid()`; if it exists and is
-     newer, merge it into local storage (simplest correct merge: take
-     the higher `xp`, the union of `badges`, the newer `streak`, and
-     per-key `exercises`/`pagesCompleted` union) rather than a naive
-     overwrite, so progress made offline before signing in isn't lost.
-   - After every local write (`saveState` in `progress.js`), if
-     signed in, `upsert` the same JSON to Supabase (debounce a couple
-     of seconds so rapid exercise submissions don't spam requests).
-   - Add a `supabase-js` `<script>` tag (CDN, ~30kb) only on pages
-     where this matters, or lazy-load it on first click of "Save my
-     progress" so it costs nothing for students who never opt in.
-5. **Never required**: keep `progress.js`'s public API and behavior
-   unchanged when signed out — Phase 1 must keep working exactly as it
-   does today for every student who never creates an account.
-6. **Class / weekly leaderboard** (later still, genuinely optional):
+Still only an idea:
+
+- **Class / weekly leaderboard** (later still, genuinely optional):
    a read-only Supabase view aggregating opted-in students' XP for a
    given week, shown on a new page — only meaningful once sync exists,
    and only for students who explicitly opt in (a boolean column on

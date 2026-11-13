@@ -84,6 +84,30 @@
       // Storage full/blocked -- mastery just won't persist this run,
       // same fallback behavior as progress.js.
     }
+    // Tells cloud-sync.js there is something new to upload.
+    try { document.dispatchEvent(new CustomEvent("rt:saved")); } catch (e) { /* ignore */ }
+  }
+
+  // Used by cloud-sync.js, like ProgressTracker.importState(). Merging
+  // keeps, for each item, the record with the later attempt (more
+  // attempts on a tie): one item's history lives on one device at a
+  // time in practice, and the later record carries the current due date.
+  function importState(remote, replace) {
+    var incoming = remote && remote.version === SCHEMA_VERSION && remote.items ? remote : defaultState();
+    var next = incoming;
+    if (!replace) {
+      next = loadState();
+      Object.keys(incoming.items).forEach(function (key) {
+        var theirs = incoming.items[key], mine = next.items[key];
+        if (!theirs) return;
+        var newer = !mine ||
+          (theirs.lastAttemptAt || "") > (mine.lastAttemptAt || "") ||
+          ((theirs.lastAttemptAt || "") === (mine.lastAttemptAt || "") && (theirs.attempts || 0) > (mine.attempts || 0));
+        if (newer) next.items[key] = theirs;
+      });
+    }
+    saveState(next);
+    return next;
   }
 
   function defaultItemRecord() {
@@ -193,5 +217,6 @@
     getItemMastery: getItemMastery,
     getState: getState,
     resetMastery: resetMastery,
+    importState: importState,
   };
 })();

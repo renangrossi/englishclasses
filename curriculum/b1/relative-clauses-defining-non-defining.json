@@ -68,7 +68,7 @@
     {
       "id": "b1rc-correction", "type": "correction", "title": "Correct the Mistakes",
       "items": [
-        { "id": "b1rc7", "incorrect": "My brother that lives in Canada is a doctor.", "answer": ["My brother, who lives in Canada, is a doctor."], "explanation": "Non-defining clause (he has one brother) — needs \"who\" and commas, not \"that.\"" },
+        { "id": "b1rc7", "incorrect": "My mother that lives in Canada is a doctor.", "answer": ["My brother, who lives in Canada, is a doctor."], "explanation": "Non-defining clause (you have only one mother, so the clause adds information rather than identifying her) — it needs \"who\" and commas, not \"that.\"" },
         { "id": "b1rc8", "incorrect": "The man, who I met yesterday, works at the bank.", "answer": ["The man who I met yesterday works at the bank."], "explanation": "This clause identifies which man — it's defining, so no commas." },
         { "id": "b1rc9", "incorrect": "She's the girl who's phone I borrowed.", "answer": ["She's the girl whose phone I borrowed."], "explanation": "\"Whose\" (possession), not \"who's\" (= who is)." },
         { "id": "b1rc10", "incorrect": "This is the topic about that we spoke.", "answer": ["This is the topic that we spoke about.", "This is the topic about which we spoke."], "explanation": "A preposition never goes directly before \"that\" — put it at the end (informal) or before \"which\"/\"whom\" (formal)." }

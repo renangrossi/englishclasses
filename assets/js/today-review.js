@@ -26,6 +26,8 @@
     "typing": "Rewrite / Short Answer",
     "matching": "Matching",
     "ordering": "Word Order",
+    "true-false": "True or False",
+    "vocabulary": "Vocabulary",
   };
 
   function el(tag, attrs, html) {
@@ -85,7 +87,7 @@
       .then(function (index) {
         // Most-overdue first: sort by each item's dueAt (earlier = more overdue).
         var withMastery = dueIds
-          .filter(function (id) { return index[id]; }) // drop ids not in the index (e.g. A1, hand-authored pre-pipeline)
+          .filter(function (id) { return index[id]; }) // ids no longer in the index (an edited or removed item)
           .map(function (id) {
             var m = window.MasteryTracker.getItemMastery(id);
             return { id: id, dueAt: (m && m.dueAt) || "9999-99-99" };
@@ -112,6 +114,10 @@
               clean[k] = item[k];
             }
           });
+          // The index key (block id + item id) goes in as the item's
+          // id, so the result of this review is recorded against the
+          // same history as the lesson it came from.
+          clean.id = entry.id;
           groups[key].push(clean);
         });
 

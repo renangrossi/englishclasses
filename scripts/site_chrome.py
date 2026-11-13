@@ -348,7 +348,7 @@ def footer(rel):
     <script src="{rel}assets/js/search.js"></script>
     <script src="{rel}assets/js/ai-teacher.js" data-ai-endpoint="https://ai-teacher.englishclasses.workers.dev"></script>
     <script src="{rel}assets/js/dict-widget.js"></script>
-    <script src="{rel}assets/js/progress.js"></script><script src="{rel}assets/js/exercises.js"></script>
+    <script src="{rel}assets/js/progress.js"></script><script src="{rel}assets/js/exercises.js"></script><script src="{rel}assets/js/mastery.js"></script>
 </body>
 </html>
 """

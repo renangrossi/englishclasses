@@ -99,10 +99,8 @@
     };
   }
 
-  function recordAttempt(itemId, correct) {
-    if (!itemId) return;
-    var state = loadState();
-    var rec = state.items[itemId] || defaultItemRecord();
+  function applyAttempt(state, key, correct) {
+    var rec = state.items[key] || defaultItemRecord();
     var today = todayStr();
     var wasCorrectBefore = rec.lastCorrect === true && rec.lastAttemptAt !== today;
 
@@ -132,15 +130,40 @@
       rec.masteryStatus = "learning";
     }
 
-    state.items[itemId] = rec;
-    saveState(state);
+    state.items[key] = rec;
+  }
+
+  // An item is identified by its exercise block and its own id together
+  // ("a2cs-mc/a2cs7"). Item ids alone repeat across lessons -- "n12" is
+  // a different question on three A1 pages -- so keying on them mixed
+  // those questions' histories. Today's Review hands items back already
+  // carrying their full key, which is the one case where the id is used
+  // as it comes.
+  function masteryKey(exerciseId, itemId) {
+    return itemId.indexOf("/") !== -1 ? itemId : exerciseId + "/" + itemId;
+  }
+
+  // Only grammar lessons and their tests feed the review queue (see
+  // scripts/build_exercise_index.py); a reading text's questions cannot
+  // be asked again without the text.
+  function isReviewablePage() {
+    return /\/levels\/|today-review\.html/.test(window.location.pathname);
   }
 
   document.addEventListener("exercise:submitted", function (e) {
-    var results = (e.detail && e.detail.results) || [];
+    var detail = e.detail || {};
+    var results = detail.results || [];
+    if (!detail.id || !isReviewablePage()) return;
+    var state = loadState();
+    var changed = false;
     results.forEach(function (r) {
-      if (r && r.itemId) recordAttempt(r.itemId, !!r.correct);
+      // A blank left empty is not a wrong answer, and a self-check
+      // item has no right answer to remember.
+      if (!r || !r.itemId || !r.attempted || r.selfCheck) return;
+      applyAttempt(state, masteryKey(detail.id, String(r.itemId)), !!r.correct);
+      changed = true;
     });
+    if (changed) saveState(state);
   });
 
   function getDueItemIds() {

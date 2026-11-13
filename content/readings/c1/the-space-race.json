@@ -114,7 +114,7 @@
           "id": "sr-c2",
           "prompt": "What does the text say is usually left out of the celebration of rocketry?",
           "options": [
-            "The cost of the programmes",
+            "The cost of the programs",
             "That the V-2 was assembled by prisoners at Mittelbau-Dora",
             "That the Soviets launched first"
           ],
@@ -145,7 +145,7 @@
         },
         {
           "id": "sr-c5",
-          "prompt": "What weakness does the text identify in the Soviet programme?",
+          "prompt": "What weakness does the text identify in the Soviet program?",
           "options": [
             "A shortage of engineers",
             "It was never unified; rival design bureaux competed rather than co-operated",
@@ -163,7 +163,7 @@
             "It won on other measures"
           ],
           "answerIndex": 0,
-          "explanation": "The existence of the Soviet lunar programme was denied until 1989."
+          "explanation": "The existence of the Soviet lunar program was denied until 1989."
         }
       ]
     },
@@ -187,7 +187,7 @@
         },
         {
           "id": "sr-t3",
-          "statement": "Only the American programme lost crew members.",
+          "statement": "Only the American program lost crew members.",
           "answer": false,
           "explanation": "False — Apollo 1 killed three astronauts in January 1967; Komarov died on Soyuz 1 three months later."
         },
@@ -235,14 +235,14 @@
         },
         {
           "id": "sr-v3",
-          "prompt": "Brought together into one organised whole means ___.",
+          "prompt": "Brought together into one organized whole means ___.",
           "options": [
             "unified",
             "uniform",
             "unilateral"
           ],
           "answerIndex": 0,
-          "explanation": "Unified — which the Soviet programme never was."
+          "explanation": "Unified — which the Soviet program never was."
         },
         {
           "id": "sr-v4",

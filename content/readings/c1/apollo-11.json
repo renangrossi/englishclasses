@@ -157,14 +157,14 @@
             "It transmits weather data"
           ],
           "answerIndex": 1,
-          "explanation": "The distance is known to within a few centimetres, and the Moon is receding about 3.8 cm a year."
+          "explanation": "The distance is known to within a few centimeters, and the Moon is receding about 3.8 cm a year."
         },
         {
           "id": "a11-c6",
           "prompt": "What does the final paragraph say the mission really demonstrated?",
           "options": [
             "Exceptional courage",
-            "That a vast organisation could anticipate failure thoroughly enough to have an answer ready for each one",
+            "That a vast organization could anticipate failure thoroughly enough to have an answer ready for each one",
             "The superiority of American engineering"
           ],
           "answerIndex": 1,
@@ -303,7 +303,7 @@
             "Storms",
             "Crises"
           ],
-          "explanation": "The Sea of Tranquillity, about six kilometres off target."
+          "explanation": "The Sea of Tranquillity, about six kilometers off target."
         },
         {
           "id": "a11-b3",

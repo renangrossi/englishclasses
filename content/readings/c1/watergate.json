@@ -50,7 +50,7 @@
       "after": 7,
       "alt": "A typed letter on White House paper reading Dear Mr. Secretary, I hereby resign the Office of President of the United States, signed Richard Nixon",
       "source": "commons:File:Letter of Resignation of Richard M. Nixon, 1974.jpg",
-      "caption": "Nixon's letter of resignation, 9 August 1974. One sentence, addressed to the Secretary of State because that is where the law says such a letter goes; the pen notation in the corner — 11:35 a.m., initialled by Kissinger — is the moment it took effect.",
+      "caption": "Nixon's letter of resignation, 9 August 1974. One sentence, addressed to the Secretary of State because that is where the law says such a letter goes; the pen notation in the corner — 11:35 a.m., initialed by Kissinger — is the moment it took effect.",
       "wide": true
     }
   ],
@@ -246,7 +246,7 @@
             "forfeit"
           ],
           "answerIndex": 0,
-          "explanation": "A felony — as distinct from a misdemeanour."
+          "explanation": "A felony — as distinct from a misdemeanor."
         },
         {
           "id": "wg-v4",

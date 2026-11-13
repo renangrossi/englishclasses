@@ -143,7 +143,7 @@
           "prompt": "What does the writer mean by “a ladder of confidence”?",
           "options": [
             "The order in which facts are checked before publication",
-            "The hierarchy of sources within a news organisation",
+            "The hierarchy of sources within a news organization",
             "The sequence from asserted to attributed to unattributed, which a report moves along deliberately"
           ],
           "answerIndex": 2,
@@ -209,11 +209,11 @@
           "prompt": "Why does the writer reject “everybody has an agenda, so nothing can be known”?",
           "options": [
             "Because most outlets are in fact impartial",
-            "Because it is not scepticism but a way of avoiding the work scepticism requires",
+            "Because it is not skepticism but a way of avoiding the work skepticism requires",
             "Because agendas are usually declared openly"
           ],
           "answerIndex": 1,
-          "explanation": "The distinction between cynicism and scepticism is the text's closing argument."
+          "explanation": "The distinction between cynicism and skepticism is the text's closing argument."
         },
         {
           "id": "nw10",
@@ -347,18 +347,18 @@
           "id": "nwf6",
           "prompt": "___ withholds belief until evidence supports it; ___ assumes bad motives and stops there.",
           "answers": [
-            "Scepticism",
+            "Skepticism",
             "cynicism"
           ],
           "options": [
             [
-              "Scepticism",
+              "Skepticism",
               "Cynicism",
               "Framing"
             ],
             [
               "cynicism",
-              "scepticism",
+              "skepticism",
               "hedging"
             ]
           ],

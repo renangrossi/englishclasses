@@ -107,7 +107,7 @@
           "prompt": "What do the stories about St Nicholas consistently agree on?",
           "options": [
             "That he gave things away, and did it without being seen",
-            "That he travelled widely",
+            "That he traveled widely",
             "That he performed miracles"
           ],
           "answerIndex": 0,
@@ -151,7 +151,7 @@
           "prompt": "Why does the writer say Krampus is “the reason the reward only means something”?",
           "options": [
             "Because he is more popular than St Nicholas in the Alps",
-            "Because a reward for good behaviour needs a consequence for bad behaviour to weigh against",
+            "Because a reward for good behavior needs a consequence for bad behavior to weigh against",
             "Because he arrives first"
           ],
           "answerIndex": 1,
@@ -183,7 +183,7 @@
           "id": "xm8",
           "prompt": "What is the writer's closing point about the three together?",
           "options": [
-            "That the saint rewards, the demon punishes, and the Grinch realises the whole accounting was beside the point",
+            "That the saint rewards, the demon punishes, and the Grinch realizes the whole accounting was beside the point",
             "That all three are versions of the same original figure",
             "That only one of them is worth teaching children about"
           ],

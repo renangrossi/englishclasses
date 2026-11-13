@@ -19,12 +19,12 @@
   ],
   "passage": [
     "A Formula One car is a single-seater built to do two things an ordinary car cannot: accelerate extremely hard in a straight line, and change direction at speeds where a road car would simply leave the track. Almost every design decision follows from the second of those.",
-    "The engine is a hybrid power unit, and the word is accurate rather than marketing. It combines a small turbocharged internal combustion engine — 1.6 litres, which is less than most family cars — with an energy recovery system. The combustion engine converts fuel into the power that drives the rear wheels. The recovery system captures energy that would otherwise be thrown away as heat under braking, stores it, and returns it as a boost the driver can deploy. The combined output is over a thousand horsepower from an engine the size of a suitcase, and the thermal efficiency of these units is higher than any road engine ever built.",
-    "Aerodynamics is where the real difference lies, and the principle is counter-intuitive. An aircraft wing is shaped to produce lift. An F1 wing is the same shape inverted, so it produces the opposite: downforce, pressing the car onto the track. The faster the car goes, the harder it is pressed down, and the more grip the tyres have. This is why these cars corner at speeds that seem impossible — they are not relying on the weight of the car but on air pushing it into the ground. At full speed the downforce exceeds the weight of the car several times over, which is the origin of the often-repeated claim that the car could in theory drive along a ceiling.",
+    "The engine is a hybrid power unit, and the word is accurate rather than marketing. It combines a small turbocharged internal combustion engine — 1.6 liters, which is less than most family cars — with an energy recovery system. The combustion engine converts fuel into the power that drives the rear wheels. The recovery system captures energy that would otherwise be thrown away as heat under braking, stores it, and returns it as a boost the driver can deploy. The combined output is over a thousand horsepower from an engine the size of a suitcase, and the thermal efficiency of these units is higher than any road engine ever built.",
+    "Aerodynamics is where the real difference lies, and the principle is counter-intuitive. An aircraft wing is shaped to produce lift. An F1 wing is the same shape inverted, so it produces the opposite: downforce, pressing the car onto the track. The faster the car goes, the harder it is pressed down, and the more grip the tires have. This is why these cars corner at speeds that seem impossible — they are not relying on the weight of the car but on air pushing it into the ground. At full speed the downforce exceeds the weight of the car several times over, which is the origin of the often-repeated claim that the car could in theory drive along a ceiling.",
     "The consequence is that grip depends on speed, which makes the car behave in a way that takes drivers a long time to trust. Slow corners have relatively little downforce and the car slides; fast corners have enormous downforce and the car holds. The instinct to brake harder in a fast corner is exactly wrong, because slowing down is what removes the grip.",
-    "Suspension keeps the tyres in contact with an uneven surface and, just as importantly, holds the car at the right height and angle for the aerodynamics to work. It is extremely stiff — far stiffer than anything road-legal — because a car that moves on its springs is a car whose wings are constantly at the wrong angle.",
-    "The structure is built from carbon fibre composites, which give a lightweight shell with more strength for its mass than steel. The minimum weight is set by the rules, so teams do not simply build the lightest car possible; they build a car that is under the limit and then add ballast exactly where they want it, which is a way of controlling balance that is not available if the car is already too heavy.",
-    "Finally, the car reports on itself constantly. A modern car carries several hundred sensors feeding telemetry to the pit wall in real time — tyre temperatures, brake temperatures, fuel flow, pressures, the loads going through the suspension. The engineers often know what has failed before the driver has finished the lap, and the strategy decisions that decide most races are made from that data rather than from what anybody can see."
+    "Suspension keeps the tires in contact with an uneven surface and, just as importantly, holds the car at the right height and angle for the aerodynamics to work. It is extremely stiff — far stiffer than anything road-legal — because a car that moves on its springs is a car whose wings are constantly at the wrong angle.",
+    "The structure is built from carbon fiber composites, which give a lightweight shell with more strength for its mass than steel. The minimum weight is set by the rules, so teams do not simply build the lightest car possible; they build a car that is under the limit and then add ballast exactly where they want it, which is a way of controlling balance that is not available if the car is already too heavy.",
+    "Finally, the car reports on itself constantly. A modern car carries several hundred sensors feeding telemetry to the pit wall in real time — tire temperatures, brake temperatures, fuel flow, pressures, the loads going through the suspension. The engineers often know what has failed before the driver has finished the lap, and the strategy decisions that decide most races are made from that data rather than from what anybody can see."
   ],
   "images": [
     {
@@ -92,7 +92,7 @@
     },
     {
       "term": "grip",
-      "definition": "the hold the tyres keep on the surface"
+      "definition": "the hold the tires keep on the surface"
     },
     {
       "term": "to push",
@@ -103,9 +103,9 @@
       "definition": "resisting bending or movement"
     },
     {
-      "term": "carbon fibre composite",
+      "term": "carbon fiber composite",
       "definition": "a material of carbon threads set in resin, very strong for its weight",
-      "match": "carbon fibre composites"
+      "match": "carbon fiber composites"
     },
     {
       "term": "ballast",
@@ -164,7 +164,7 @@
         },
         {
           "id": "f14",
-          "prompt": "The car's ___ system keeps the tyres on an uneven surface and holds the ride height steady.",
+          "prompt": "The car's ___ system keeps the tires on an uneven surface and holds the ride height steady.",
           "answers": [
             "suspension"
           ],
@@ -177,7 +177,7 @@
         },
         {
           "id": "f15",
-          "prompt": "The ___ construction uses carbon fibre composites rather than steel.",
+          "prompt": "The ___ construction uses carbon fiber composites rather than steel.",
           "answers": [
             "lightweight"
           ],
@@ -186,7 +186,7 @@
             "inverted",
             "stiff"
           ],
-          "explanation": "Lightweight means weighing little for its size — carbon fibre gives more strength per kilogram than steel."
+          "explanation": "Lightweight means weighing little for its size — carbon fiber gives more strength per kilogram than steel."
         },
         {
           "id": "f16",
@@ -267,7 +267,7 @@
           "id": "fc4",
           "prompt": "Why do these cars corner at apparently impossible speeds?",
           "options": [
-            "Because their tyres are unusually wide",
+            "Because their tires are unusually wide",
             "Because they are heavier than they look",
             "Because air pressing them into the ground provides the grip, not their weight"
           ],
@@ -294,7 +294,7 @@
             "Because a car moving on its springs has its wings constantly at the wrong angle"
           ],
           "answerIndex": 2,
-          "explanation": "The suspension is serving the aerodynamics as much as the tyres."
+          "explanation": "The suspension is serving the aerodynamics as much as the tires."
         },
         {
           "id": "fc7",
@@ -330,7 +330,7 @@
           "id": "ft1",
           "statement": "An F1 engine is larger than a typical family car engine.",
           "answer": false,
-          "explanation": "False — 1.6 litres, “which is less than most family cars”, yet it produces over a thousand horsepower with the recovery system."
+          "explanation": "False — 1.6 liters, “which is less than most family cars”, yet it produces over a thousand horsepower with the recovery system."
         },
         {
           "id": "ft2",
@@ -352,7 +352,7 @@
         },
         {
           "id": "ft5",
-          "statement": "Carbon fibre is stronger for its weight than steel.",
+          "statement": "Carbon fiber is stronger for its weight than steel.",
           "answer": true,
           "explanation": "True — “more strength for its mass than steel”, which is why the shell is made of it."
         },

@@ -228,7 +228,7 @@
         },
         {
           "id": "ast5",
-          "statement": "The writer says the equipment replaces the farmer's judgement.",
+          "statement": "The writer says the equipment replaces the farmer's judgment.",
           "answer": false,
           "explanation": "False — the opposite: “somebody still has to decide what to do”."
         },
@@ -274,7 +274,7 @@
         },
         {
           "id": "asf3",
-          "prompt": "The system ___ any animal whose behaviour has changed.",
+          "prompt": "The system ___ any animal whose behavior has changed.",
           "answers": [
             "flags"
           ],
@@ -309,7 +309,7 @@
             "portability",
             "rumination"
           ],
-          "explanation": "Guesswork is judgement based on no real evidence."
+          "explanation": "Guesswork is judgment based on no real evidence."
         },
         {
           "id": "asf6",

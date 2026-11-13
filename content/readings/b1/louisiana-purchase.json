@@ -18,7 +18,7 @@
   "passage": [
     "In 1802 the United States had a practical problem. Farmers in the west sent their crops down the Mississippi River to the port of New Orleans, and from there ships carried everything to the east coast and to Europe. Without New Orleans, the whole western economy stopped.",
     "The trouble was that New Orleans did not belong to the United States. Spain had controlled it for years and had allowed American boats to use it. Then Spain quietly gave the territory back to France, and France was now run by Napoleon Bonaparte.",
-    "President Thomas Jefferson sent two men to Paris with instructions to buy the city, or at least to buy the right to use the port. He authorised them to offer up to ten million dollars.",
+    "President Thomas Jefferson sent two men to Paris with instructions to buy the city, or at least to buy the right to use the port. He authorized them to offer up to ten million dollars.",
     "They arrived to find that the French government wanted to talk about something much larger. Napoleon's foreign minister asked what the United States would pay for the whole of Louisiana.",
     "Louisiana, in 1803, did not mean the modern state. It meant a territory of more than two million square kilometers, stretching from the Gulf of Mexico up to today's Canadian border.",
     "Napoleon had reasons to sell. His plan for an American empire had depended on the sugar island of Saint-Domingue, and the enslaved people there had risen against French rule and defeated three armies, one of them destroyed as much by yellow fever as by fighting. Another war with Britain was coming, and France needed money more than it needed a territory it could not defend.",
@@ -106,7 +106,7 @@
             "Declare war on France"
           ],
           "answerIndex": 1,
-          "explanation": "They were authorised to offer up to ten million dollars for the city or the use of the port."
+          "explanation": "They were authorized to offer up to ten million dollars for the city or the use of the port."
         },
         {
           "id": "lp-c3",
@@ -170,7 +170,7 @@
           "id": "lp-t2",
           "statement": "Louisiana in 1803 meant the same area as the modern state of Louisiana.",
           "answer": false,
-          "explanation": "False — it was more than two million square kilometres, from the Gulf of Mexico to today's Canadian border."
+          "explanation": "False — it was more than two million square kilometers, from the Gulf of Mexico to today's Canadian border."
         },
         {
           "id": "lp-t3",
@@ -213,12 +213,12 @@
           "id": "lp-v2",
           "prompt": "To give somebody official permission is to ___ them.",
           "options": [
-            "authorise",
+            "authorize",
             "announce",
             "assume"
           ],
           "answerIndex": 0,
-          "explanation": "To authorise."
+          "explanation": "To authorize."
         },
         {
           "id": "lp-v3",
@@ -272,7 +272,7 @@
             "ten",
             "fifty"
           ],
-          "explanation": "Fifteen million. Jefferson had authorised up to ten million for a city."
+          "explanation": "Fifteen million. Jefferson had authorized up to ten million for a city."
         },
         {
           "id": "lp-b2",

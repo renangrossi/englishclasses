@@ -30,7 +30,7 @@
     "Michael: How long is the drive?",
     "Attendant: Thirty to forty-five minutes normally. Longer in rush hour — and you're arriving right at the start of it.",
     "Michael: Is the shuttle worth waiting for?",
-    "Attendant: It depends what you're optimising for. It's the cheapest if you're traveling alone, but it stops at several hotels, so you may be in the vehicle a good deal longer. For two people the price difference against an Uber is small.",
+    "Attendant: It depends what you're optimizing for. It's the cheapest if you're traveling alone, but it stops at several hotels, so you may be in the vehicle a good deal longer. For two people the price difference against an Uber is small.",
     "Michael: Then we'll take an Uber. Thank you — that was genuinely helpful.",
     "Attendant: You're welcome. The pick-up point is signposted from the exit. Enjoy your stay.",
     "They reach the hotel forty minutes later, check in, and go up to the fourth floor. Michael tries the key card. Nothing happens. He tries it again, more slowly, and the light on the lock stays red.",
@@ -103,9 +103,9 @@
       "definition": "the period when traffic is heaviest, morning and evening"
     },
     {
-      "term": "to optimise for",
+      "term": "to optimize for",
       "definition": "to treat one thing as the priority to be improved",
-      "match": "optimising for"
+      "match": "optimizing for"
     },
     {
       "term": "pick-up point",
@@ -139,7 +139,7 @@
           "id": "jo1",
           "prompt": "Which is the cheapest option, and for whom?",
           "options": [
-            "The shuttle, if you are travelling alone",
+            "The shuttle, if you are traveling alone",
             "The taxi, for two people",
             "The Uber, in all cases"
           ],
@@ -162,7 +162,7 @@
           "prompt": "Why does the attendant mention that they are arriving at the start of rush hour?",
           "options": [
             "To warn that the drive may take longer than the usual thirty to forty-five minutes",
-            "To suggest they wait before travelling",
+            "To suggest they wait before traveling",
             "To explain why the shuttle is not running"
           ],
           "answerIndex": 0,
@@ -170,14 +170,14 @@
         },
         {
           "id": "jo4",
-          "prompt": "What does the attendant mean by “it depends what you're optimising for”?",
+          "prompt": "What does the attendant mean by “it depends what you're optimizing for”?",
           "options": [
             "That the answer depends on whether cost or time matters more to them",
             "That she is not permitted to recommend one option",
             "That the prices change through the day"
           ],
           "answerIndex": 0,
-          "explanation": "She is declining to answer until she knows which thing they want to minimise — which is the genuinely useful response."
+          "explanation": "She is declining to answer until she knows which thing they want to minimize — which is the genuinely useful response."
         },
         {
           "id": "jo5",
@@ -267,7 +267,7 @@
       "id": "b1-joh-functional",
       "type": "fill-blank",
       "title": "Asking and Explaining",
-      "instructions": "Complete each sentence with the phrase a traveller or a member of staff would actually use.",
+      "instructions": "Complete each sentence with the phrase a traveler or a member of staff would actually use.",
       "items": [
         {
           "id": "jof1",
@@ -354,7 +354,7 @@
           "options": [
             "confirm",
             "observe",
-            "optimise"
+            "optimize"
           ],
           "explanation": "To confirm is to check that something already stated is correct — standard at a reception desk."
         },
@@ -375,7 +375,7 @@
     }
   ],
   "discussion": [
-    "The attendant asks what they are optimising for before recommending anything. Is that better service than simply naming the cheapest option?",
+    "The attendant asks what they are optimizing for before recommending anything. Is that better service than simply naming the cheapest option?",
     "Laura's last line suggests the faster choice was not worth it. How do you decide between saving money and saving time when traveling?",
     "The receptionist tells them about the corridor phone before they need it. What is the best example of anticipated help you have received?",
     "Practice the first conversation with a partner, changing the city and the transport options.",

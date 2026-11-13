@@ -20,7 +20,7 @@
     "The Fourteenth Amendment is the one that still runs through American law today. Almost every major civil rights case of the twentieth century was argued on it.",
     "What followed in the south between 1867 and the mid-1870s was remarkable by any standard. Around two thousand Black men held public office, including sixteen in Congress and two United States senators from Mississippi. Black voters turned out in enormous numbers. Freed communities built churches and, above all, schools: the demand for education was so intense that families who had nothing paid teachers in food.",
     "Reconstruction governments also did ordinary, unglamorous work — they established the first public school systems in most southern states, for white and Black children alike, and rebuilt roads and bridges.",
-    "The resistance was violent from the beginning. The Ku Klux Klan, founded in 1866, and groups like it attacked voters, officeholders, teachers and churches. This was not random violence; it was systematic and political, aimed at the specific people who were making the new arrangement work. Federal troops and prosecutions suppressed the Klan in the early 1870s, and new organisations replaced it.",
+    "The resistance was violent from the beginning. The Ku Klux Klan, founded in 1866, and groups like it attacked voters, officeholders, teachers and churches. This was not random violence; it was systematic and political, aimed at the specific people who were making the new arrangement work. Federal troops and prosecutions suppressed the Klan in the early 1870s, and new organizations replaced it.",
     "Northern commitment did not last. The economic crisis of 1873 turned attention to other things. Newspapers that had supported Reconstruction grew tired of it. The Supreme Court narrowed the new amendments in a series of decisions, deciding that the Fourteenth protected rather less than its words suggested.",
     "The end came as a bargain. The presidential election of 1876 was disputed, and the settlement that resolved it involved the withdrawal of the last federal troops from the south. By 1877 the remaining Reconstruction governments collapsed.",
     "What replaced them took about twenty years to complete and was thorough. Poll taxes, literacy tests administered by white registrars, grandfather clauses and plain intimidation removed almost all Black voters from the rolls. In Louisiana, Black registered voters fell from about 130,000 in 1896 to roughly 1,300 in 1904.",
@@ -128,9 +128,9 @@
         },
         {
           "id": "rec-c4",
-          "prompt": "How does the text characterise Klan violence?",
+          "prompt": "How does the text characterize Klan violence?",
           "options": [
-            "Random and disorganised",
+            "Random and disorganized",
             "Systematic and political, aimed at the people making the new arrangement work",
             "Mostly invented later"
           ],

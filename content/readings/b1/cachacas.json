@@ -16,10 +16,10 @@
     "relative-clauses"
   ],
   "passage": [
-    "Cachaça is a Brazilian spirit distilled from sugarcane, and it is the base of the caipirinha. It is often described as a kind of rum, which is close enough to be useful and wrong in one important respect. Most rum is made from molasses, the thick dark syrup left over once sugar has been crystallised out of the cane juice. Cachaça is made from the fresh juice itself, pressed and fermented within hours of cutting. That single difference is why the two taste as unlike each other as they do: cachaça keeps a grassy, vegetal quality that molasses-based spirits lose.",
+    "Cachaça is a Brazilian spirit distilled from sugarcane, and it is the base of the caipirinha. It is often described as a kind of rum, which is close enough to be useful and wrong in one important respect. Most rum is made from molasses, the thick dark syrup left over once sugar has been crystallized out of the cane juice. Cachaça is made from the fresh juice itself, pressed and fermented within hours of cutting. That single difference is why the two taste as unlike each other as they do: cachaça keeps a grassy, vegetal quality that molasses-based spirits lose.",
     "The process has four stages, and the first is the one with the tightest deadline. The cane is cut and crushed, and the juice is filtered. From the moment the cane is cut it begins to deteriorate, so a serious producer presses within a day. The juice is then fermented in tanks for anything from a day to a few days, with yeast converting the sugar into alcohol. Some distilleries use commercial yeast for consistency; others use strains they have cultivated on the farm for generations, which is one of the things that makes a producer's cachaça taste like theirs and nobody else's.",
-    "Third comes distillation, traditionally in copper pot stills. Copper is not decorative: it reacts with sulphur compounds produced during fermentation and removes flavours that would otherwise be unpleasant. The distiller separates the run into three parts — the head, the heart and the tail — and keeps only the heart. The head contains volatile compounds that come off first and taste harsh; the tail turns heavy and oily. Deciding exactly where to make each cut is the distiller's central skill, and it cannot be automated in a small operation because it is done by smell and taste.",
-    "The fourth stage, ageing, is optional, and it is where cachaça becomes genuinely distinctive. Unaged cachaça — branca, white — is bottled straight away and tastes of the cane: fresh, grassy, a little sharp. Aged cachaça is rested in wooden barrels for months or years. Brazilian producers use oak, as the rest of the spirits world does, but they also use native woods that almost nobody else has access to: amburana, which gives a warm, spiced character close to cinnamon and vanilla; jequitibá rosa, which is much more neutral and lets the cane show through; balsam and others. A row of the same spirit aged in five different woods will produce five recognisably different drinks.",
+    "Third comes distillation, traditionally in copper pot stills. Copper is not decorative: it reacts with sulfur compounds produced during fermentation and removes flavors that would otherwise be unpleasant. The distiller separates the run into three parts — the head, the heart and the tail — and keeps only the heart. The head contains volatile compounds that come off first and taste harsh; the tail turns heavy and oily. Deciding exactly where to make each cut is the distiller's central skill, and it cannot be automated in a small operation because it is done by smell and taste.",
+    "The fourth stage, aging, is optional, and it is where cachaça becomes genuinely distinctive. Unaged cachaça — branca, white — is bottled straight away and tastes of the cane: fresh, grassy, a little sharp. Aged cachaça is rested in wooden barrels for months or years. Brazilian producers use oak, as the rest of the spirits world does, but they also use native woods that almost nobody else has access to: amburana, which gives a warm, spiced character close to cinnamon and vanilla; jequitibá rosa, which is much more neutral and lets the cane show through; balsam and others. A row of the same spirit aged in five different woods will produce five recognizably different drinks.",
     "What separates a good bottle from a poor one comes down to a few things. Cane cut at the right ripeness and pressed quickly. A controlled fermentation rather than a rushed one. A careful cut during distillation, which is what removes the harshness people associate with cheap cachaça. And, if it has been aged, decent barrels and enough patience.",
     "As for how to drink it, the caipirinha — cachaça, lime, sugar, ice — is made with branca, and a good branca improves it considerably more than most people expect. Aged cachaça is generally drunk on its own, at room temperature, the way you would drink a whisky. Using a well-aged bottle in a cocktail is not an error exactly, but you will be paying for wood character that the lime then covers up."
   ],
@@ -45,8 +45,8 @@
       "definition": "a strong alcoholic drink made by distillation"
     },
     {
-      "term": "to distil",
-      "definition": "to concentrate alcohol by heating a liquid and condensing the vapour",
+      "term": "to distill",
+      "definition": "to concentrate alcohol by heating a liquid and condensing the vapor",
       "match": "distilled"
     },
     {
@@ -55,7 +55,7 @@
     },
     {
       "term": "molasses",
-      "definition": "the thick dark syrup left after sugar has been crystallised out"
+      "definition": "the thick dark syrup left after sugar has been crystallized out"
     },
     {
       "term": "strain",
@@ -68,7 +68,7 @@
     },
     {
       "term": "pot still",
-      "definition": "a simple copper vessel used to distil in batches",
+      "definition": "a simple copper vessel used to distill in batches",
       "match": "pot stills"
     },
     {
@@ -90,12 +90,12 @@
     },
     {
       "term": "to age",
-      "definition": "to store a spirit in wood so that it develops flavour",
+      "definition": "to store a spirit in wood so that it develops flavor",
       "match": "aged"
     },
     {
       "term": "barrel",
-      "definition": "a curved wooden container used for ageing spirits",
+      "definition": "a curved wooden container used for aging spirits",
       "match": "barrels"
     },
     {
@@ -147,7 +147,7 @@
           "id": "cc4",
           "prompt": "Why is copper used for the stills?",
           "options": [
-            "It reacts with sulphur compounds and removes unpleasant flavours",
+            "It reacts with sulfur compounds and removes unpleasant flavors",
             "It conducts heat more evenly than steel",
             "It is traditional but has no practical effect"
           ],
@@ -180,12 +180,12 @@
           "id": "cc7",
           "prompt": "What effect does amburana have compared with jequitibá rosa?",
           "options": [
-            "Amburana gives warm, spiced flavours; jequitibá rosa is neutral and lets the cane show",
+            "Amburana gives warm, spiced flavors; jequitibá rosa is neutral and lets the cane show",
             "Amburana is neutral; jequitibá rosa adds vanilla",
             "Both produce an identical result"
           ],
           "answerIndex": 0,
-          "explanation": "Which is the point of the sentence that follows: five woods produce five recognisably different drinks."
+          "explanation": "Which is the point of the sentence that follows: five woods produce five recognizably different drinks."
         },
         {
           "id": "cc8",
@@ -210,7 +210,7 @@
           "id": "cct1",
           "statement": "All cachaça is aged in wood.",
           "answer": false,
-          "explanation": "False — ageing is optional. Branca is bottled straight away."
+          "explanation": "False — aging is optional. Branca is bottled straight away."
         },
         {
           "id": "cct2",
@@ -259,7 +259,7 @@
           "options": [
             "fermented",
             "aged",
-            "crystallised"
+            "crystallized"
           ],
           "explanation": "Fermentation is the stage where yeast converts sugar into alcohol; distillation then concentrates it."
         },
@@ -272,7 +272,7 @@
           "options": [
             "deteriorate",
             "cultivate",
-            "distil"
+            "distill"
           ],
           "explanation": "To deteriorate is to get worse in quality."
         },
@@ -295,7 +295,7 @@
               "strains"
             ]
           ],
-          "explanation": "Ageing happens in barrels; a still is where distillation happens."
+          "explanation": "Aging happens in barrels; a still is where distillation happens."
         },
         {
           "id": "ccf4",
@@ -326,7 +326,7 @@
             [
               "cultivated",
               "distilled",
-              "crystallised"
+              "crystallized"
             ]
           ],
           "explanation": "A strain is a particular variety of a microorganism; to cultivate is to grow and maintain it deliberately."

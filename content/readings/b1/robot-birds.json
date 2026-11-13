@@ -116,7 +116,7 @@
             "Doesn't say"
           ],
           "answerIndex": 2,
-          "explanation": "Doesn't say — the text says the problem “is common to most European city centres”, and never compares Liverpool with anywhere else."
+          "explanation": "Doesn't say — the text says the problem “is common to most European city centers”, and never compares Liverpool with anywhere else."
         },
         {
           "id": "rb2",
@@ -149,7 +149,7 @@
             "Doesn't say"
           ],
           "answerIndex": 1,
-          "explanation": "Wrong — the aim was to move them out of the centre into parks, not to get rid of them."
+          "explanation": "Wrong — the aim was to move them out of the center into parks, not to get rid of them."
         },
         {
           "id": "rb5",
@@ -240,7 +240,7 @@
           "id": "rc4",
           "prompt": "What is habituation, as the text describes it?",
           "options": [
-            "Birds learning to recognise individual people",
+            "Birds learning to recognize individual people",
             "Birds returning to the same roof each night",
             "Birds ceasing to react to a threat that never produces a consequence"
           ],

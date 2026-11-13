@@ -18,7 +18,7 @@
     "comparatives"
   ],
   "passage": [
-    "John Snow was born in York in 1813, the eldest of nine children in a family with no money to speak of. At fourteen he was apprenticed to a surgeon, which was how medicine was entered at the time, and he went on to qualify in London. He became one of the best anaesthetists in the country — he gave chloroform to Queen Victoria at two of her births — and that is not what he is remembered for.",
+    "John Snow was born in York in 1813, the eldest of nine children in a family with no money to speak of. At fourteen he was apprenticed to a surgeon, which was how medicine was entered at the time, and he went on to qualify in London. He became one of the best anesthetists in the country — he gave chloroform to Queen Victoria at two of her births — and that is not what he is remembered for.",
     "In the summer of 1854, cholera broke out in Soho, in central London. It killed with a speed that is hard to convey: a person could be well in the morning and dead before the next morning. In the worst week, more than five hundred people died within a few streets.",
     "Nobody knew how the disease traveled. The accepted explanation was miasma — bad air rising from filth and standing water — and it was not a stupid theory. It fitted the observation that outbreaks were worst in the poorest and dirtiest districts, and it was held by almost every serious authority in the country. Snow thought it was wrong. He had argued for years that cholera was swallowed rather than breathed, mainly because it attacked the gut first, which is not what an airborne poison would do.",
     "What he did about it was the part that mattered. He went into the affected streets and recorded every death he could trace — where the person lived, and where their household drew its water. Then he drew a map, marking each death as a bar at its address. The pattern was not subtle once it was on paper. The deaths clustered around a single public water pump in Broad Street, and they thinned out with distance from it.",
@@ -215,7 +215,7 @@
         },
         {
           "id": "sn5",
-          "prompt": "The well ___ ___ within a metre of an old cesspit, which nobody realised at the time.",
+          "prompt": "The well ___ ___ within a meter of an old cesspit, which nobody realized at the time.",
           "answers": [
             "had",
             "been dug"
@@ -350,7 +350,7 @@
       "items": [
         {
           "id": "st1",
-          "statement": "Snow is best remembered for his work as an anaesthetist.",
+          "statement": "Snow is best remembered for his work as an anesthetist.",
           "answer": false,
           "explanation": "False — he was one of the best in the country, “and that is not what he is remembered for”."
         },

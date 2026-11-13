@@ -20,10 +20,10 @@
   ],
   "passage": [
     "Patricia and Christopher have been traveling through Southeast Asia for four months. They are somewhere near the end of it now, and the way they describe the trip has changed — the first calls home were lists of everything they had seen in a day, and the recent ones are mostly about people they have met.",
-    "“We've been in Singapore a week,” Patricia told their son on the phone at the start. “We've done Gardens by the Bay, we've walked all through Chinatown, and last night we went round the zoo after dark, which sounds strange and was the best thing so far.” Christopher added that they had been eating almost entirely in hawker centres — the covered food halls where dozens of small stalls each cook one or two things extremely well — and that a plate of chicken rice had cost about the same as a bottle of water at the airport. They ate chilli crab, which requires both hands and a considerable number of napkins, and laksa, a coconut noodle soup that Patricia has been trying to reproduce ever since.",
+    "“We've been in Singapore a week,” Patricia told their son on the phone at the start. “We've done Gardens by the Bay, we've walked all through Chinatown, and last night we went round the zoo after dark, which sounds strange and was the best thing so far.” Christopher added that they had been eating almost entirely in hawker centres — the covered food halls where dozens of small stalls each cook one or two things extremely well — and that a plate of chicken rice had cost about the same as a bottle of water at the airport. They ate chili crab, which requires both hands and a considerable number of napkins, and laksa, a coconut noodle soup that Patricia has been trying to reproduce ever since.",
     "From Singapore they went to Cambodia. “We've been here three days,” Christopher told his parents, “and we've spent almost all of it at the temples.” Angkor Wat is the one everybody knows, but the complex around it runs for kilometers, and the temples they both remember are the smaller ones where the forest has been left to grow through the stonework. They have been reading about the Khmer Empire in the evenings, partly because the guides kept referring to a history neither of them knew anything about. They ate amok, a fish curry steamed in banana leaf, and lok lak, and drank Khmer coffee, which is strong enough to change the shape of an afternoon.",
     "Vietnam was the part they had planned least and enjoyed most. They hired a motorbike and a guide and spent five days riding through the countryside north of Huế. “We've been going through rice fields and villages all week,” Patricia told her sister. “It's been hard work — I hadn't ridden a motorbike in twenty years — but you see how people actually live, which you don't from a bus.” They also took an overnight boat through Ha Long Bay, among the limestone islands that rise straight out of the water, and ate a great deal of street food: banh mi, pho, and iced coffee made with condensed milk, which Christopher has now had every single day for three months.",
-    "Bali was deliberately last, because they knew they would need it. They have been staying in a small place outside Ubud, and the pace of the trip has dropped to almost nothing. Patricia has been doing yoga in the mornings. They walk through the rice terraces, they have taken a cooking class — mostly so they could keep making nasi goreng and satay when they got home — and Christopher went snorkelling off the coast at Amed and came back talking about turtles for two days.",
+    "Bali was deliberately last, because they knew they would need it. They have been staying in a small place outside Ubud, and the pace of the trip has dropped to almost nothing. Patricia has been doing yoga in the mornings. They walk through the rice terraces, they have taken a cooking class — mostly so they could keep making nasi goreng and satay when they got home — and Christopher went snorkeling off the coast at Amed and came back talking about turtles for two days.",
     "Ask them now what the trip has been about and neither says the temples or the beaches. Patricia says it has been the food, and specifically eating it at a plastic table on a street with people who live there. Christopher says it has been finding out how much of what he was certain about was just what he was used to. They have three weeks left, and they have already started saying “next time”, which is usually a sign that a trip has worked."
   ],
   "images": [
@@ -122,7 +122,7 @@
     {
       "term": "to snorkel",
       "definition": "to swim at the surface with a mask and breathing tube",
-      "match": "snorkelling"
+      "match": "snorkeling"
     },
     {
       "term": "to be certain",
@@ -184,14 +184,14 @@
             "To prepare for the next country"
           ],
           "answerIndex": 1,
-          "explanation": "The reading is a response to realising what they were missing, not preparation."
+          "explanation": "The reading is a response to realizing what they were missing, not preparation."
         },
         {
           "id": "sa5",
           "prompt": "What does Patricia say the motorbike trip gave them?",
           "options": [
             "A cheaper way to cover the distance",
-            "A chance to practise a skill she had lost",
+            "A chance to practice a skill she had lost",
             "A sight of how people actually live, which you do not get from a bus"
           ],
           "answerIndex": 2,
@@ -242,12 +242,12 @@
           "id": "sat1",
           "prompt": "They ___ through Southeast Asia for four months.",
           "answers": [
-            "have been travelling"
+            "have been traveling"
           ],
           "options": [
-            "have been travelling",
-            "have travelled",
-            "travelled"
+            "have been traveling",
+            "have traveled",
+            "traveled"
           ],
           "explanation": "An activity continuing over a stated period up to now takes the continuous."
         },

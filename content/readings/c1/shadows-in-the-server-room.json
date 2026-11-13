@@ -34,7 +34,7 @@
     "Harlan came out anyway.",
     "“What is happening out here? My inbox is on fire. I have just had the VP at Apex on the phone threatening to pull a six-figure contract.” He turned to Jamie. “I signed off on that cooling fix myself. If you had followed the process—”",
     "“The process.” Jamie did not raise his voice, which made it worse. “Harlan, we have been asking for upgrades since June. I sent you a risk assessment in the Q3 review. Thermal throttling. Single points of failure. It is four pages and you have never mentioned it. You cut the hardware budget to pay for the offsite in Tahoe. So no — the clients are offline, we are losing money by the hour, and this is not a mistake I made on Tuesday.”",
-    "Alex stood up. “He's right. We have been limping for months. I can't optimise code around a machine that fails on a warm afternoon, and Sam's whole test cycle just became worthless. We are patching holes in a boat that is still taking on water because nobody will say so upstairs.”",
+    "Alex stood up. “He's right. We have been limping for months. I can't optimize code around a machine that fails on a warm afternoon, and Sam's whole test cycle just became worthless. We are patching holes in a boat that is still taking on water because nobody will say so upstairs.”",
     "Sam, who normally kept the peace, had been quiet long enough to be noticeable. She stood too.",
     "“Shouting will not bring the database back,” she said. “But Harlan — this is the third warning this quarter. Two of them I logged myself. Not acting on them isn't a decision to accept the risk. It's a decision not to look at it.”",
     "The floor went very quiet. People a few desks away typed with great concentration at nothing.",
@@ -43,7 +43,7 @@
     "Nobody said anything, because nobody had prepared for that.",
     "“I've had tunnel vision on the numbers,” he went on. “I've been managing the budget and not the system. This is a wake-up call and I'd rather have it today than in January.” He nodded at the server room door. “We fix it together, and we stop assigning blame until it's back up. Conference room. Now.”",
     "What followed was the most competent hour the department had had in a year, and it was competent because somebody finally wrote things down.",
-    "Harlan drew a line down the whiteboard. On the left he wrote Stabilise. Jamie owned the restore, with a status update every fifteen minutes whether or not there was anything to report. Alex would draft the client communication — an apology, a realistic estimate, and waived fees for the affected period, which Harlan authorised on the spot rather than asking. Sam would verify the restore before anything went live, and Harlan said the words “no shortcuts” in a way that was clearly aimed at himself.",
+    "Harlan drew a line down the whiteboard. On the left he wrote Stabilize. Jamie owned the restore, with a status update every fifteen minutes whether or not there was anything to report. Alex would draft the client communication — an apology, a realistic estimate, and waived fees for the affected period, which Harlan authorized on the spot rather than asking. Sam would verify the restore before anything went live, and Harlan said the words “no shortcuts” in a way that was clearly aimed at himself.",
     "On the right he wrote Prevent. A proposal by the end of the following week, from all of them together rather than from him: redundant cooling, a hybrid cloud migration, whatever the evidence supported. He would take the budget fight upstairs and said so in front of everybody, which is a harder thing to walk back than a promise made privately.",
     "Then he added a third line, and this was the one that mattered. A weekly fifteen-minute stand-up for risks only — no project updates, no status theater, only things that could break. And a quarterly session with the C-suite where those risks are flagged directly rather than filtered through him.",
     "“If I'd read that risk assessment in July,” he said, “we would not be here. That's on me. So now it goes where I can't ignore it.”",
@@ -254,7 +254,7 @@
       "id": "c1-ssr-comprehension",
       "type": "reading-comprehension",
       "title": "Reading the Story",
-      "instructions": "This is a workplace story with an argument at the centre of it. Read for what each person is actually claiming.",
+      "instructions": "This is a workplace story with an argument at the center of it. Read for what each person is actually claiming.",
       "items": [
         {
           "id": "ss1",
@@ -316,7 +316,7 @@
           "prompt": "Why does the writer say the hour that followed was competent?",
           "options": [
             "Because the database came back quickly",
-            "Because Harlan apologised",
+            "Because Harlan apologized",
             "Because somebody finally wrote things down"
           ],
           "answerIndex": 2,
@@ -413,7 +413,7 @@
           "id": "st5",
           "statement": "The waived fees had to be approved by someone above Harlan.",
           "answer": false,
-          "explanation": "False — he “authorised on the spot rather than asking”, which is part of what changes in that hour."
+          "explanation": "False — he “authorized on the spot rather than asking”, which is part of what changes in that hour."
         },
         {
           "id": "st6",

@@ -112,7 +112,7 @@
           "prompt": "Why is the statue green?",
           "options": [
             "Somebody painted it green",
-            "The copper changed colour",
+            "The copper changed color",
             "It is made of grass"
           ],
           "answerIndex": 1,
@@ -163,7 +163,7 @@
           "id": "sl-t1",
           "statement": "The statue was green at the beginning.",
           "answer": false,
-          "explanation": "False — it was brown. The copper changed colour over about thirty years."
+          "explanation": "False — it was brown. The copper changed color over about thirty years."
         },
         {
           "id": "sl-t2",

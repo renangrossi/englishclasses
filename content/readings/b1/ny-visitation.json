@@ -160,7 +160,7 @@
           "prompt": "Why does the clerk recommend the pizzeria?",
           "options": [
             "It is the closest restaurant to the hotel",
-            "It is long-established and where people who live in the neighbourhood actually eat",
+            "It is long-established and where people who live in the neighborhood actually eat",
             "It is the cheapest place in Manhattan"
           ],
           "answerIndex": 1,
@@ -322,7 +322,7 @@
             "lobby",
             "intersection"
           ],
-          "explanation": "A landmark is an easily recognised building or feature."
+          "explanation": "A landmark is an easily recognized building or feature."
         },
         {
           "id": "nyf3",
@@ -362,7 +362,7 @@
               "way"
             ]
           ],
-          "explanation": "The right call is the correct decision, usually recognised afterwards."
+          "explanation": "The right call is the correct decision, usually recognized afterwards."
         },
         {
           "id": "nyf5",

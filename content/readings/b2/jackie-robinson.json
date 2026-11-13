@@ -251,7 +251,7 @@
         },
         {
           "id": "jr-v5",
-          "prompt": "Unfriendly and aggressive behaviour is ___.",
+          "prompt": "Unfriendly and aggressive behavior is ___.",
           "options": [
             "hostile",
             "hospitable",

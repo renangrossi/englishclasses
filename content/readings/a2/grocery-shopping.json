@@ -170,7 +170,7 @@
           "prompt": "What happened at the checkout?",
           "options": [
             "She had forgotten her money",
-            "She realised she had spent more than she meant to",
+            "She realized she had spent more than she meant to",
             "She had to put some things back"
           ],
           "answerIndex": 1,

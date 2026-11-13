@@ -99,7 +99,7 @@
       "id": "b1-sstt-comprehension",
       "type": "reading-comprehension",
       "title": "Understanding the Text",
-      "instructions": "Answer from the sense of the story, including its dry humour.",
+      "instructions": "Answer from the sense of the story, including its dry humor.",
       "items": [
         {
           "id": "ss1",

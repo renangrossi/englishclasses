@@ -338,7 +338,7 @@
           "id": "mc6",
           "prompt": "What is she “slightly afraid of”?",
           "options": [
-            "Travelling alone for six weeks",
+            "Traveling alone for six weeks",
             "Failing the course",
             "The moment when the trip and the course both end and she has to decide what comes next"
           ],
@@ -390,7 +390,7 @@
         },
         {
           "id": "mt5",
-          "statement": "Her course will be finished before she returns from travelling.",
+          "statement": "Her course will be finished before she returns from traveling.",
           "answer": true,
           "explanation": "True — “by the time I come back I will have finished my course”."
         }

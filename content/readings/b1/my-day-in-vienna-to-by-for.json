@@ -109,7 +109,7 @@
         },
         {
           "id": "vi2",
-          "prompt": "Why did they walk into the centre instead of taking the underground?",
+          "prompt": "Why did they walk into the center instead of taking the underground?",
           "options": [
             "It was a clear October morning and taking the train would have felt like a waste",
             "The underground was closed",
@@ -179,7 +179,7 @@
       "id": "b1-vienna-prepositions",
       "type": "fill-blank",
       "title": "To, By or For?",
-      "instructions": "Three prepositions with three jobs. BY shows who did it or how you travelled. FOR shows who benefits, or what you are waiting or paying for. TO shows a direction, a destination, or who receives something.",
+      "instructions": "Three prepositions with three jobs. BY shows who did it or how you traveled. FOR shows who benefits, or what you are waiting or paying for. TO shows a direction, a destination, or who receives something.",
       "items": [
         {
           "id": "vip1",
@@ -209,7 +209,7 @@
         },
         {
           "id": "vip3",
-          "prompt": "We walked ___ the city centre, and later ___ the Hofburg.",
+          "prompt": "We walked ___ the city center, and later ___ the Hofburg.",
           "answers": [
             "to",
             "to"
@@ -312,7 +312,7 @@
         },
         {
           "id": "vit2",
-          "statement": "They took the underground into the centre.",
+          "statement": "They took the underground into the center.",
           "answer": false,
           "explanation": "False — they walked, on foot."
         },

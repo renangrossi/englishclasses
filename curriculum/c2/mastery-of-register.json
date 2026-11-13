@@ -231,7 +231,7 @@
       "items": [
         {
           "id": "mastery-of-register-d1",
-          "prompt": "Take a piece of casual news you'd share with a friend (e.g., \"my flight got cancelled\") and rewrite it in journalistic register.",
+          "prompt": "Take a piece of casual news you'd share with a friend (e.g., \"my flight got canceled\") and rewrite it in journalistic register.",
           "modelAnswer": "Journalistic: Passengers faced significant delays on Tuesday after an unexpected cancellation disrupted several flights, according to airline officials."
         },
         {

@@ -131,17 +131,17 @@
           "options": [
             "Federal unemployment insurance",
             "Local charity, churches, soup kitchens and family",
-            "A national food programme"
+            "A national food program"
           ],
           "answerIndex": 1,
-          "explanation": "The federal programmes did not exist yet — the country had never built them."
+          "explanation": "The federal programs did not exist yet — the country had never built them."
         },
         {
           "id": "gd-c4",
           "prompt": "What caused the Dust Bowl?",
           "options": [
             "A volcanic eruption",
-            "Ploughing unsuitable grassland followed by severe drought",
+            "Plowing unsuitable grassland followed by severe drought",
             "Flooding of the Mississippi"
           ],
           "answerIndex": 1,
@@ -306,7 +306,7 @@
         },
         {
           "id": "gd-b3",
-          "prompt": "Ploughing and drought created the ___ Bowl.",
+          "prompt": "Plowing and drought created the ___ Bowl.",
           "answers": [
             "Dust"
           ],

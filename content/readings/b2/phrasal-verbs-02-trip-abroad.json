@@ -22,7 +22,7 @@
   "passage": [
     "Anna and Mark had been planning their trip to the United States for months, and the day had finally come to set off. They had packed up their suitcases the night before and made sure to check in online for the flight, so that the morning would be one thing less to worry about.",
     "At the airport they checked in their luggage and went through security without any trouble. That left a couple of hours before boarding, so they browsed around the duty-free shops. Anna found a perfume she liked and picked it up as a souvenir.",
-    "Once they had boarded, they settled in for the long flight. Mark pulled out his tablet to watch a film; Anna dozed off almost before the plane had levelled out. The flight was smooth, and they touched down in New York in the early afternoon.",
+    "Once they had boarded, they settled in for the long flight. Mark pulled out his tablet to watch a film; Anna dozed off almost before the plane had leveled out. The flight was smooth, and they touched down in New York in the early afternoon.",
     "After they got through customs they picked up their rental car and headed out to the hotel. They were keen to check out Times Square, so once they had freshened up they headed over to it on foot. The lights and the noise were overwhelming in the best way, and they stood there a while taking in the sights and sounds of the city.",
     "The next day they drove down to Washington, D.C. They set out early to get ahead of the traffic and made good time on the road. When they arrived they checked into their new hotel and set off again to explore the National Mall, walking around the monuments and taking in the history behind each one.",
     "Over the rest of the trip they ate out at one local restaurant after another, picked up a few more souvenirs, and met up with an old friend who had moved to the States some years earlier. When the time came to pack up and head back home they were sorry to go, but they had a great many photographs to look back on.",
@@ -170,7 +170,7 @@
         },
         {
           "id": "pv22",
-          "prompt": "“Anna dozed off almost before the plane had levelled out.” What does this tell us?",
+          "prompt": "“Anna dozed off almost before the plane had leveled out.” What does this tell us?",
           "options": [
             "That she fell asleep very soon after take-off",
             "That she was unwell during the climb",
@@ -225,7 +225,7 @@
         },
         {
           "id": "pv27",
-          "prompt": "How does the text end, in terms of the travellers' feelings?",
+          "prompt": "How does the text end, in terms of the travelers' feelings?",
           "options": [
             "Relieved to be going home after a tiring trip",
             "Sorry to leave, but already anticipating the next journey",
@@ -378,7 +378,7 @@
             },
             {
               "left": "freshen up",
-              "right": "to wash and tidy yourself after travelling"
+              "right": "to wash and tidy yourself after traveling"
             },
             {
               "left": "browse around",
@@ -425,7 +425,7 @@
         },
         {
           "id": "pvs3",
-          "statement": "They travelled from New York to Washington by car.",
+          "statement": "They traveled from New York to Washington by car.",
           "answer": true,
           "explanation": "True — they drove down, having picked up a rental car in New York."
         },

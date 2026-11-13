@@ -168,7 +168,7 @@
           "id": "x1",
           "prompt": "Why does the author say the project went wrong in March rather than May?",
           "options": [
-            "Because the refusal was delivered in March and went unrecognised",
+            "Because the refusal was delivered in March and went unrecognized",
             "Because the budget was set in March",
             "Because the author left the company in April"
           ],
@@ -195,7 +195,7 @@
             "They come from legal English"
           ],
           "answerIndex": 0,
-          "explanation": "“It is the hedge that tells a native listener to invert.” An idiom can be looked up; an inversion signalled by “slightly” cannot."
+          "explanation": "“It is the hedge that tells a native listener to invert.” An idiom can be looked up; an inversion signaled by “slightly” cannot."
         },
         {
           "id": "x4",
@@ -210,7 +210,7 @@
         },
         {
           "id": "x5",
-          "prompt": "How does the text characterise Dutch and German directness?",
+          "prompt": "How does the text characterize Dutch and German directness?",
           "options": [
             "As a professional courtesy rather than rudeness",
             "As a failure of manners",

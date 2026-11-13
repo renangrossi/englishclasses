@@ -21,7 +21,7 @@
     "At Karnak, on the east bank of the Nile at Luxor, two enormous granite obelisks were raised in the fifteenth century BC. One still stands. Around the base of it, at some point after it went up, a wall was built that hid the lower portion from view, and the inscriptions on that hidden section survived in far better condition than those left exposed. The wall was not built to protect them. It was built to conceal whose they were.",
     "The obelisks belonged to Hatshepsut, who ruled Egypt for roughly two decades in the Eighteenth Dynasty. She began as regent for her young stepson Thutmose III after the death of her husband, which was an ordinary enough arrangement. What was not ordinary is that within a few years she was not acting as regent but reigning as pharaoh, with the full titles, and had herself depicted in the conventional royal images — including, in many of them, the ceremonial false beard that was part of the office.",
     "Her reign was, by the evidence that survives, a successful one. It was largely peaceful. She rebuilt trade networks that had lapsed, most famously sending an expedition to a land the Egyptians called Punt, which returned with incense trees, ebony and live animals; the voyage is recorded in relief on the walls of her mortuary temple at Deir el-Bahari, which is itself among the most striking buildings to survive from the ancient world. She built extensively at Karnak. There is no sign of the instability that a disputed succession usually leaves behind.",
-    "Then, decades after her death, somebody set about removing her. Her name was chiselled out of inscriptions. Her statues were broken up and buried in a pit near her temple. Her images were replaced with those of her husband or her father or her stepson. In king lists compiled later, her reign simply does not appear, and the years are quietly attributed to others.",
+    "Then, decades after her death, somebody set about removing her. Her name was chiseled out of inscriptions. Her statues were broken up and buried in a pit near her temple. Her images were replaced with those of her husband or her father or her stepson. In king lists compiled later, her reign simply does not appear, and the years are quietly attributed to others.",
     "For a long time the explanation seemed obvious: Thutmose III, who had waited twenty years for a throne he should have inherited immediately, took revenge on his stepmother as soon as he could. It is a satisfying story and the evidence does not support it. The erasure did not begin at his accession. It began around twenty years into his sole reign, when he was an old and secure king with an unbroken record of military success behind him, and it was carried out selectively rather than furiously — public monuments were targeted, and material in places nobody would see was often left alone.",
     "The explanation historians now generally prefer is less dramatic and more political. Thutmose III was arranging the succession of his own son, and a female pharaoh in the recent record was an awkward precedent — not a personal insult but a constitutional problem. Removing her from the public account made the line of succession look uninterrupted and male. The work was done to the record rather than to her memory, which is why it stopped where nobody was looking.",
     "The irony is that the erasure is now the reason so much survives. The buried statues, smashed and put out of sight, were protected from the weathering and reuse that destroyed other monuments, and archaeologists excavating the pit at Deir el-Bahari in the 1920s recovered enough fragments to reassemble a number of them. The wall built to hide the obelisk base preserved the inscription behind it. An attempt to make somebody disappear turned into one of the better-documented reigns of the period.",
@@ -89,7 +89,7 @@
     {
       "term": "to chisel out",
       "definition": "to cut something away from stone with a sharp tool",
-      "match": "chiselled out"
+      "match": "chiseled out"
     },
     {
       "term": "to attribute",
@@ -289,12 +289,12 @@
           "id": "haf2",
           "prompt": "Her name was ___ ___ of the stone.",
           "answers": [
-            "chiselled",
+            "chiseled",
             "out"
           ],
           "options": [
             [
-              "chiselled",
+              "chiseled",
               "carved",
               "written"
             ],
@@ -335,7 +335,7 @@
             [
               "reassembled",
               "depicted",
-              "chiselled"
+              "chiseled"
             ]
           ],
           "explanation": "To excavate is to dig a site up for study; to reassemble is to put the pieces back together."

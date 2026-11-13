@@ -167,14 +167,14 @@
         },
         {
           "id": "tr4",
-          "prompt": "What was the defence's main argument in the Simpson trial?",
+          "prompt": "What was the defense's main argument in the Simpson trial?",
           "options": [
             "That another named individual had committed the murders",
             "That Simpson had an alibi for the night in question",
             "That the evidence could not be trusted, given how it had been handled"
           ],
           "answerIndex": 2,
-          "explanation": "The text is explicit that the defence “did not principally argue that someone else had done it”."
+          "explanation": "The text is explicit that the defense “did not principally argue that someone else had done it”."
         },
         {
           "id": "tr5",
@@ -222,7 +222,7 @@
         },
         {
           "id": "tr9",
-          "prompt": "How does the writer characterise public frustration with trials?",
+          "prompt": "How does the writer characterize public frustration with trials?",
           "options": [
             "As a reasonable demand for better courts",
             "As evidence that juries should be replaced by judges",
@@ -261,11 +261,11 @@
           "id": "trt4",
           "statement": "The text names an alternative suspect in the Simpson case.",
           "answer": false,
-          "explanation": "False — it says the defence did not principally argue that someone else was responsible, and offers no such theory itself."
+          "explanation": "False — it says the defense did not principally argue that someone else was responsible, and offers no such theory itself."
         },
         {
           "id": "trt5",
-          "statement": "Kilpatrick's conviction was cancelled when he was released.",
+          "statement": "Kilpatrick's conviction was canceled when he was released.",
           "answer": false,
           "explanation": "False — a commutation reduces or ends a sentence without touching the conviction."
         },

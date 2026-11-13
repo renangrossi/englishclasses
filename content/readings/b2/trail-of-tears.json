@@ -21,7 +21,7 @@
     "The background was land, and specifically cotton. The invention of the cotton gin in the 1790s made short-staple cotton enormously profitable, and the best land for it was in the southeast — land held by the Cherokee, Muscogee, Choctaw, Chickasaw and Seminole nations. The discovery of gold in Cherokee territory in Georgia in 1829 removed any remaining patience.",
     "The Cherokee had done, deliberately and successfully, everything that white Americans claimed to want. They had farms, roads, mills and schools. Sequoyah had created a writing system for the Cherokee language in the 1820s, and literacy spread so fast that the nation founded a bilingual newspaper. In 1827 they wrote a constitution modeled on the American one.",
     "None of it helped, and some historians argue it made matters worse: a people who could not be described as wandering hunters was harder to dismiss, and therefore more inconvenient.",
-    "The Indian Removal Act passed Congress in 1830 by a narrow margin after a bitter debate — it is worth remembering that it was contested, and that many Americans opposed it. It authorised the president to negotiate the exchange of eastern land for territory west of the Mississippi.",
+    "The Indian Removal Act passed Congress in 1830 by a narrow margin after a bitter debate — it is worth remembering that it was contested, and that many Americans opposed it. It authorized the president to negotiate the exchange of eastern land for territory west of the Mississippi.",
     "The Cherokee response was to sue. In *Worcester v. Georgia* in 1832, Chief Justice John Marshall ruled that the Cherokee Nation was a distinct community in which the laws of Georgia had no force, and that dealings with it were the business of the federal government alone.",
     "The decision was ignored. President Andrew Jackson is popularly quoted as saying “John Marshall has made his decision; now let him enforce it”, and although the quotation is almost certainly not authentic, it describes what happened accurately enough: nothing was enforced.",
     "Removal was then achieved through a document called the Treaty of New Echota, signed in 1835 by a small faction of about twenty Cherokee men who had no authority to sign anything on the nation's behalf. More than fifteen thousand Cherokee signed a petition against it. The Senate ratified the treaty anyway, by one vote.",
@@ -61,7 +61,7 @@
     },
     {
       "term": "a cotton gin",
-      "definition": "a machine that separates cotton fibre from its seeds"
+      "definition": "a machine that separates cotton fiber from its seeds"
     },
     {
       "term": "literacy",
@@ -101,7 +101,7 @@
       "items": [
         {
           "id": "tot-c1",
-          "prompt": "What does the text emphasise about who carried out the removal?",
+          "prompt": "What does the text emphasize about who carried out the removal?",
           "options": [
             "It was a frontier mob",
             "It was federal policy carried out by the army",
@@ -115,7 +115,7 @@
           "prompt": "Why was Cherokee land so valuable in the 1820s?",
           "options": [
             "It was good for cotton, and gold was found there in 1829",
-            "It had the best harbours",
+            "It had the best harbors",
             "It was near the capital"
           ],
           "answerIndex": 0,
@@ -130,7 +130,7 @@
             "They moved west voluntarily"
           ],
           "answerIndex": 1,
-          "explanation": "Sequoyah's syllabary, a bilingual newspaper, and an 1827 constitution modelled on the American one."
+          "explanation": "Sequoyah's syllabary, a bilingual newspaper, and an 1827 constitution modeled on the American one."
         },
         {
           "id": "tot-c4",
@@ -289,7 +289,7 @@
         },
         {
           "id": "tot-b2",
-          "prompt": "In Worcester v. Georgia the Supreme Court ruled in favour of the ___.",
+          "prompt": "In Worcester v. Georgia the Supreme Court ruled in favor of the ___.",
           "answers": [
             "Cherokee"
           ],
@@ -321,10 +321,10 @@
           ],
           "options": [
             "miles",
-            "metres",
+            "meters",
             "months"
           ],
-          "explanation": "About 1,200 miles, roughly 1,900 kilometres."
+          "explanation": "About 1,200 miles, roughly 1,900 kilometers."
         },
         {
           "id": "tot-b5",

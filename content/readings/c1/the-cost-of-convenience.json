@@ -29,7 +29,7 @@
     "The third is leverage, and this is the one that compounds. Convenience is habitually bought with data, and data creates a relationship that is difficult to leave. The cost of switching away from a service that holds a decade of your documents, contacts and history is not the price of the alternative but the price of the migration, and that cost rises every month you stay. Nobody is deceived by this. It is simply a good deal at the start and a progressively worse one later, which is the shape of most arrangements people regret.",
     "The reflexive response — that one should therefore resist convenience — does not survive contact with how people actually live. A person who refuses navigation, online banking and recommendation systems in order to preserve capability, visibility and independence has spent a large quantity of the only genuinely non-renewable resource they have in order to protect against risks that may never arrive. Inconvenience is not a virtue, and the aesthetic of self-reliance has sold a great many people a worse life.",
     "The usable distinction is between conveniences that are reversible and conveniences that are not. If you can stop using the navigation app tomorrow and find your way with a map, the trade was cheap and you may take it freely. If you cannot leave a platform without losing material you cannot reconstruct, the trade was not really about convenience at all, and it deserved a different kind of attention at the moment you made it — which was years before you noticed.",
-    "The question worth asking of any new convenience is therefore not whether it makes something easier. It will. It is what specifically happens if it disappears, and whether the answer is an inconvenience or a loss. Most of the time it is the first, and the thing should be adopted without agonising. Occasionally it is the second, and that is the case where the five minutes of examination costs less than the decade of dependence."
+    "The question worth asking of any new convenience is therefore not whether it makes something easier. It will. It is what specifically happens if it disappears, and whether the answer is an inconvenience or a loss. Most of the time it is the first, and the thing should be adopted without agonizing. Occasionally it is the second, and that is the case where the five minutes of examination costs less than the decade of dependence."
   ],
   "images": [
     {
@@ -111,9 +111,9 @@
       "definition": "to build again from what remains"
     },
     {
-      "term": "to agonise",
+      "term": "to agonize",
       "definition": "to worry at length over a decision",
-      "match": "agonising"
+      "match": "agonizing"
     },
     {
       "term": "actually",
@@ -153,12 +153,12 @@
           "id": "k3",
           "prompt": "What is the trap in losing a capability?",
           "options": [
-            "You discover you needed it exactly when the system fails and you cannot practise",
+            "You discover you needed it exactly when the system fails and you cannot practice",
             "The skill never returns",
             "It happens without warning signs"
           ],
           "answerIndex": 0,
-          "explanation": "“which is also the moment you cannot practise it.”"
+          "explanation": "“which is also the moment you cannot practice it.”"
         },
         {
           "id": "k4",
@@ -173,7 +173,7 @@
         },
         {
           "id": "k5",
-          "prompt": "How does the author characterise algorithmic opacity in hiring?",
+          "prompt": "How does the author characterize algorithmic opacity in hiring?",
           "options": [
             "A design choice that is cheaper than the alternative, not a side effect of complexity",
             "An unavoidable technical limit",
@@ -230,7 +230,7 @@
           "id": "k10",
           "prompt": "What is the author's advice in the common case?",
           "options": [
-            "Adopt it without agonising",
+            "Adopt it without agonizing",
             "Delay the decision",
             "Seek an alternative first"
           ],

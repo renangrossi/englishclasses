@@ -399,9 +399,9 @@
         },
         {
           "id": "b2pe27",
-          "incorrect": "Either you apologise and you leave.",
+          "incorrect": "Either you apologize and you leave.",
           "answer": [
-            "Either you apologise or you leave."
+            "Either you apologize or you leave."
           ],
           "explanation": "\"Either\" must be answered by \"or\", never by \"and\"."
         },
@@ -432,7 +432,7 @@
         },
         {
           "id": "b2pe31",
-          "incorrect": "We would rather cancelling the trip than risk it.",
+          "incorrect": "We would rather canceling the trip than risk it.",
           "answer": [
             "We would rather cancel the trip than risk it."
           ],
@@ -757,13 +757,13 @@
       "items": [
         {
           "id": "b2pe56",
-          "prompt": "Not only / she / apologise / did / but / also / offered to pay",
+          "prompt": "Not only / she / apologize / did / but / also / offered to pay",
           "words": [
             "Not",
             "only",
             "did",
             "she",
-            "apologise",
+            "apologize",
             "but",
             "she",
             "also",
@@ -771,7 +771,7 @@
             "to",
             "pay"
           ],
-          "explanation": "Not only + inverted auxiliary + bare infinitive (\"did she apologise\"), then \"but … also\" before the second verb."
+          "explanation": "Not only + inverted auxiliary + bare infinitive (\"did she apologize\"), then \"but … also\" before the second verb."
         },
         {
           "id": "b2pe57",

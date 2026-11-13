@@ -32,18 +32,18 @@
     {
       "src": "01.jpg",
       "after": 2,
-      "alt": "A woodblock print of a samurai in full armour leading a white horse down a rocky slope above the sea",
-      "caption": "Utagawa Kuniyoshi, first half of the nineteenth century. The armour the Soma riders wear is the armour in prints like this one — in some cases the same suits, handed down."
+      "alt": "A woodblock print of a samurai in full armor leading a white horse down a rocky slope above the sea",
+      "caption": "Utagawa Kuniyoshi, first half of the nineteenth century. The armor the Soma riders wear is the armor in prints like this one — in some cases the same suits, handed down."
     },
     {
       "src": "02.jpg",
       "after": 4,
-      "alt": "The Soma Nomaoi horse race seen from above: riders in armour galloping along a grass track beside a packed crowd, with more horses and banners waiting on the field beyond",
+      "alt": "The Soma Nomaoi horse race seen from above: riders in armor galloping along a grass track beside a packed crowd, with more horses and banners waiting on the field beyond",
       "source": "commons:File:The Soma Nomaoi 2005-3.jpg",
       "licence": "CC BY-SA 3.0",
       "author": "PekePON",
       "source_url": "https://commons.wikimedia.org/wiki/File:The_Soma_Nomaoi_2005-3.jpg",
-      "caption": "The race on the second day. The armour is not costume in the usual sense — much of it is family property, handed down."
+      "caption": "The race on the second day. The armor is not costume in the usual sense — much of it is family property, handed down."
     }
   ],
   "vocabulary": [
@@ -116,7 +116,7 @@
       "id": "b2-soma-comprehension",
       "type": "reading-comprehension",
       "title": "Understanding the Text",
-      "instructions": "Some of these ask about the meaning the festival has acquired, not only its programme.",
+      "instructions": "Some of these ask about the meaning the festival has acquired, not only its program.",
       "items": [
         {
           "id": "so1",
@@ -124,7 +124,7 @@
           "options": [
             "A religious ceremony that later added horses",
             "A cavalry training exercise in which released horses stood in for enemy troops, with the captured horses then offered to the gods",
-            "A competition between neighbouring clans"
+            "A competition between neighboring clans"
           ],
           "answerIndex": 1,
           "explanation": "Masakado “released wild horses… so that his cavalry could practice pursuing them as though they were enemy troops”, and the horses caught became offerings."

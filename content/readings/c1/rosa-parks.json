@@ -120,7 +120,7 @@
             "Her case was dismissed"
           ],
           "answerIndex": 1,
-          "explanation": "She was young and pregnant. The search for a case that would survive scrutiny shows how organised the work was."
+          "explanation": "She was young and pregnant. The search for a case that would survive scrutiny shows how organized the work was."
         },
         {
           "id": "rp-c3",
@@ -128,7 +128,7 @@
           "options": [
             "He was the city's oldest minister",
             "He was new enough to have no local enemies",
-            "He had organised the leaflets"
+            "He had organized the leaflets"
           ],
           "answerIndex": 1,
           "explanation": "He had been in the city barely a year and was twenty-six."
@@ -153,14 +153,14 @@
             "A city council vote"
           ],
           "answerIndex": 1,
-          "explanation": "The boycott created the pressure and the organisation; the court delivered the legal result. Neither alone would have been enough."
+          "explanation": "The boycott created the pressure and the organization; the court delivered the legal result. Neither alone would have been enough."
         },
         {
           "id": "rp-c6",
           "prompt": "Why, according to the final paragraph, is the simplified story attractive?",
           "options": [
             "It is easier to remember",
-            "It suggests justice arrives when an individual has had enough, rather than through years of organised work",
+            "It suggests justice arrives when an individual has had enough, rather than through years of organized work",
             "It names more people"
           ],
           "answerIndex": 1,
@@ -190,11 +190,11 @@
           "id": "rp-t3",
           "statement": "Insurance for the car pool was eventually arranged through a broker in London.",
           "answer": true,
-          "explanation": "True — after American companies cancelled the policies."
+          "explanation": "True — after American companies canceled the policies."
         },
         {
           "id": "rp-t4",
-          "statement": "Prosecuting the boycott leaders worked in the city's favour.",
+          "statement": "Prosecuting the boycott leaders worked in the city's favor.",
           "answer": false,
           "explanation": "False — the indictments produced exactly the national press coverage the prosecution did not want."
         },

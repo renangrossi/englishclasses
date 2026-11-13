@@ -274,7 +274,7 @@
             "Because each animal stands for a human habit — the dog is somebody who cannot stop comparing"
           ],
           "answerIndex": 2,
-          "explanation": "The fable uses the animal so the reader can see the behaviour without immediately defending themselves."
+          "explanation": "The fable uses the animal so the reader can see the behavior without immediately defending themselves."
         }
       ]
     },
@@ -307,7 +307,7 @@
         },
         {
           "id": "af2",
-          "prompt": "He jumped and ___ ___ by half a metre.",
+          "prompt": "He jumped and ___ ___ by half a meter.",
           "answers": [
             "fell",
             "short"

@@ -111,7 +111,7 @@
           "options": [
             "The first thirteen states",
             "Thirteen presidents",
-            "Thirteen colours"
+            "Thirteen colors"
           ],
           "answerIndex": 0,
           "explanation": "The first thirteen states — the old colonies."
@@ -159,7 +159,7 @@
       "items": [
         {
           "id": "af-t1",
-          "statement": "The flag has four colours.",
+          "statement": "The flag has four colors.",
           "answer": false,
           "explanation": "False — it has three: red, white and blue."
         },
@@ -197,7 +197,7 @@
       "items": [
         {
           "id": "af-v1",
-          "prompt": "A long line of colour is a ___.",
+          "prompt": "A long line of color is a ___.",
           "options": [
             "stripe",
             "star",
@@ -212,7 +212,7 @@
           "options": [
             "corner",
             "middle",
-            "centre"
+            "center"
           ],
           "answerIndex": 0,
           "explanation": "The corner. The stars are in the corner."
@@ -279,7 +279,7 @@
             },
             {
               "left": "3",
-              "right": "colours on the flag"
+              "right": "colors on the flag"
             }
           ],
           "explanation": "All five numbers are in the first three paragraphs. Numbers are often the easiest information to find in a text."

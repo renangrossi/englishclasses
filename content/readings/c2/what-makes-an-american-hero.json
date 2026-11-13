@@ -5,8 +5,8 @@
   "order": 106,
   "topic": "american-history",
   "title": "What Makes an American Hero?",
-  "subtitle": "The template requires one person. Almost everything in this collection was done by organisations, and the gap between those two facts is not an accident.",
-  "description": "A C2 reading and listening text that closes the American History collection by examining the hero template itself: why individuals are remembered and organisations are not, what that costs, and the strongest defense of the simplified story.",
+  "subtitle": "The template requires one person. Almost everything in this collection was done by organizations, and the gap between those two facts is not an accident.",
+  "description": "A C2 reading and listening text that closes the American History collection by examining the hero template itself: why individuals are remembered and organizations are not, what that costs, and the strongest defense of the simplified story.",
   "source": "authored for this site; no source document",
   "provenance": "new",
   "narrator": "female",
@@ -21,9 +21,9 @@
     "Run back over the episodes in this collection and a template becomes visible. There is one person. The person acts at a moment of maximum visibility. The act is a refusal or a step rather than a plan, and it is done without institutional backing, which is what certifies it as courage. The consequences follow from the act as though caused by it directly.",
     "Almost nothing in the record happened that way. The bus boycott was run by an organization with a transport system, a legal strategy and a press operation; the refusal that began it was made by a woman who had been doing documentation work for the association for twelve years, and it was not the first refusal — it was the one the lawyers judged would survive a hostile courtroom. The Moon landing was accomplished by four hundred thousand people, and the decisive engineering was a decision, taken years earlier, about how software should behave when overloaded. Even the fall of a president ran through a security guard, two reporters, a Senate committee, a special prosecutor, a unanimous court and a taping system the president had installed himself.",
     "So the question is not whether the heroic template is accurate. It plainly is not. The question is what it is for, and why it survives so much contrary evidence.",
-    "Part of the answer is that a story needs somebody to want something. Organisations do not want things in a way that narrative can represent; committees have no face, and a decision arrived at over eighteen months by people who disagreed does not produce a scene. The template is not primarily a political distortion. It is a constraint of the medium, and it operates in countries with entirely different politics.",
-    "But the specifically American version adds something, and it is worth naming. In a national story organized around self-making, a hero who succeeds because of an institution is a slightly embarrassing hero. The institution has to be minimised for the achievement to count. This is why the committees get edited out while the moment of personal refusal is enlarged, and it is why Americans find a collective achievement easier to celebrate when it can be attributed to a representative individual standing in for the whole.",
-    "The cost of this is not sentimental, it is practical. If change is made by exceptional individuals at moments of crisis, then the appropriate response to injustice is to wait for such a person and recognize them when they appear. If change is made by organisations, then the appropriate response is to join one, to do unglamorous work for years, and to accept that your name will not be attached to the result. The first story produces admiration. The second produces members. Only one of them is a method, and the template systematically teaches the one that is not.",
+    "Part of the answer is that a story needs somebody to want something. Organizations do not want things in a way that narrative can represent; committees have no face, and a decision arrived at over eighteen months by people who disagreed does not produce a scene. The template is not primarily a political distortion. It is a constraint of the medium, and it operates in countries with entirely different politics.",
+    "But the specifically American version adds something, and it is worth naming. In a national story organized around self-making, a hero who succeeds because of an institution is a slightly embarrassing hero. The institution has to be minimized for the achievement to count. This is why the committees get edited out while the moment of personal refusal is enlarged, and it is why Americans find a collective achievement easier to celebrate when it can be attributed to a representative individual standing in for the whole.",
+    "The cost of this is not sentimental, it is practical. If change is made by exceptional individuals at moments of crisis, then the appropriate response to injustice is to wait for such a person and recognize them when they appear. If change is made by organizations, then the appropriate response is to join one, to do unglamorous work for years, and to accept that your name will not be attached to the result. The first story produces admiration. The second produces members. Only one of them is a method, and the template systematically teaches the one that is not.",
     "The strongest defense of the template deserves a proper statement, because it is better than it looks. Nothing is transmitted that is not remembered, and nothing is remembered that cannot be told. A movement with no face does not get into the schoolbooks at all, and a history that refused all simplification would be read by specialists and nobody else. The individual story is the carrier wave; the organization is the signal, and a signal nobody receives has no advantage over silence. On this view, the template is not a falsification but a compression, and compression is the price of transmission.",
     "That defense succeeds up to a point, and the point is identifiable. A compression is legitimate when it preserves the thing a reader would need in order to act, and illegitimate when it removes exactly that. Telling a child that Rosa Parks refused to move is a compression. Telling a child that she was tired is a falsification, because it deletes the twelve years, the training, the legal strategy and the fifty thousand leaflets, and what it deletes is the part that could be copied.",
     "That is the test this collection has tried to apply throughout, and it is a test rather than a conclusion. Keep the person, because the person is how anybody remembers anything. Keep whatever the person was standing on as well. The useful question to put to any national hero — in any country, including yours — is not whether the story is inspiring but whether, having heard it, you would know what to do next."
@@ -49,7 +49,7 @@
       "after": 2,
       "alt": "The 1963 March on Washington photographed from the Lincoln Memorial: a crowd of hundreds of thousands filling both sides of the reflecting pool, with the Washington Monument beyond",
       "source": "commons:File:View of Crowd at 1963 March on Washington.jpg",
-      "caption": "The March on Washington, 28 August 1963. Organizing it took two years, several organisations and a transport operation of its own."
+      "caption": "The March on Washington, 28 August 1963. Organizing it took two years, several organizations and a transport operation of its own."
     }
   ],
   "vocabulary": [
@@ -132,7 +132,7 @@
       "id": "c2-wmh-comp",
       "type": "reading-comprehension",
       "title": "Testing a Story Form",
-      "instructions": "This essay attacks a narrative template, states the best defence of it, and then finds the limit of that defence.",
+      "instructions": "This essay attacks a narrative template, states the best defense of it, and then finds the limit of that defense.",
       "items": [
         {
           "id": "wmh1",
@@ -160,7 +160,7 @@
           "id": "wmh3",
           "prompt": "What is the author's first explanation for the template's survival?",
           "options": [
-            "Narrative needs somebody to want something, and organisations cannot want things in a representable way",
+            "Narrative needs somebody to want something, and organizations cannot want things in a representable way",
             "Political censorship",
             "A shortage of records"
           ],
@@ -171,18 +171,18 @@
           "id": "wmh4",
           "prompt": "What does the author say the specifically American version adds?",
           "options": [
-            "In a story organised around self-making, a hero helped by an institution is embarrassing",
+            "In a story organized around self-making, a hero helped by an institution is embarrassing",
             "A religious dimension",
             "A preference for military figures"
           ],
           "answerIndex": 0,
-          "explanation": "So the institution is minimised for the achievement to count."
+          "explanation": "So the institution is minimized for the achievement to count."
         },
         {
           "id": "wmh5",
           "prompt": "What practical cost does the template carry?",
           "options": [
-            "It teaches people to wait for an exceptional individual rather than to join an organisation",
+            "It teaches people to wait for an exceptional individual rather than to join an organization",
             "It makes history less enjoyable",
             "It discourages reading"
           ],
@@ -191,18 +191,18 @@
         },
         {
           "id": "wmh6",
-          "prompt": "What is the strongest defence of the template?",
+          "prompt": "What is the strongest defense of the template?",
           "options": [
             "Nothing is transmitted that is not remembered, and a movement with no face is not remembered",
             "That heroes genuinely act alone",
-            "That organisations prefer anonymity"
+            "That organizations prefer anonymity"
           ],
           "answerIndex": 0,
           "explanation": "The individual is \"the carrier wave\"; compression is the price of transmission."
         },
         {
           "id": "wmh7",
-          "prompt": "Where does the author locate the limit of that defence?",
+          "prompt": "Where does the author locate the limit of that defense?",
           "options": [
             "A compression is legitimate unless it removes what a reader would need in order to act",
             "It fails whenever any detail is lost",
@@ -215,7 +215,7 @@
           "id": "wmh8",
           "prompt": "Why is \"she was tired\" a falsification rather than a compression?",
           "options": [
-            "It deletes the training, the strategy and the organisation — the part that could be copied",
+            "It deletes the training, the strategy and the organization — the part that could be copied",
             "It is factually impossible",
             "It is too short"
           ],
@@ -227,7 +227,7 @@
           "prompt": "What does the author recommend keeping?",
           "options": [
             "The person, and whatever the person was standing on",
-            "Only the organisation",
+            "Only the organization",
             "Only the verifiable documents"
           ],
           "answerIndex": 0,
@@ -269,7 +269,7 @@
             },
             {
               "left": "Seventh paragraph",
-              "right": "States the best defence: compression is the price of transmission"
+              "right": "States the best defense: compression is the price of transmission"
             },
             {
               "left": "Eighth paragraph",
@@ -322,12 +322,12 @@
           "id": "wmhv4",
           "prompt": "To make something seem smaller than it is, is to ___ it.",
           "options": [
-            "minimise",
+            "minimize",
             "mitigate",
             "misplace"
           ],
           "answerIndex": 0,
-          "explanation": "The institution has to be minimised for the achievement to count."
+          "explanation": "The institution has to be minimized for the achievement to count."
         },
         {
           "id": "wmhv5",

@@ -194,7 +194,7 @@
           "prompt": "What does the writer mean by “which is how dishes work”?",
           "options": [
             "That dishes are always harder to clean after two days",
-            "That putting them off is the normal and expected behaviour",
+            "That putting them off is the normal and expected behavior",
             "That he shares the kitchen with someone else"
           ],
           "answerIndex": 1,
@@ -205,7 +205,7 @@
           "prompt": "Why does he start the laundry before leaving?",
           "options": [
             "So it will be dry before evening",
-            "Because the machine is shared with neighbours",
+            "Because the machine is shared with neighbors",
             "Because he needs the shirts that afternoon"
           ],
           "answerIndex": 0,

@@ -123,7 +123,7 @@
             "The end of the journey"
           ],
           "answerIndex": 1,
-          "explanation": "The winter camp of 1804, next to towns that were already a major trading centre."
+          "explanation": "The winter camp of 1804, next to towns that were already a major trading center."
         },
         {
           "id": "lcu-c3",
@@ -261,7 +261,7 @@
         },
         {
           "id": "lcu-v5",
-          "prompt": "Travelling against the flow of a river is going ___.",
+          "prompt": "Traveling against the flow of a river is going ___.",
           "options": [
             "upriver",
             "offshore",

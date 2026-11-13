@@ -130,20 +130,20 @@
         },
         {
           "id": "gg3",
-          "prompt": "How was the bridge's colour chosen?",
+          "prompt": "How was the bridge's color chosen?",
           "options": [
             "It was selected to match the surrounding hills",
             "It was required by aviation regulations",
-            "The steel arrived in a reddish primer and the architect argued for keeping that colour"
+            "The steel arrived in a reddish primer and the architect argued for keeping that color"
           ],
           "answerIndex": 2,
-          "explanation": "“The colour was an accident that stuck” — grey and black-and-yellow stripes had been proposed instead."
+          "explanation": "“The color was an accident that stuck” — gray and black-and-yellow stripes had been proposed instead."
         },
         {
           "id": "gg4",
           "prompt": "What practical advantage does International Orange turn out to have?",
           "options": [
-            "It resists salt corrosion better than other colours",
+            "It resists salt corrosion better than other colors",
             "It stays visible in fog",
             "It fades more slowly in sunlight"
           ],
@@ -304,7 +304,7 @@
         },
         {
           "id": "ggt2",
-          "statement": "The orange colour was chosen before the steel arrived.",
+          "statement": "The orange color was chosen before the steel arrived.",
           "answer": false,
           "explanation": "False — the steel arrived in a reddish primer, and the architect argued for keeping it."
         },

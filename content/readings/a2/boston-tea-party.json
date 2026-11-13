@@ -127,7 +127,7 @@
         },
         {
           "id": "btp-c5",
-          "prompt": "What did the men do at the harbour?",
+          "prompt": "What did the men do at the harbor?",
           "options": [
             "They burned the ships",
             "They threw the tea into the water",
@@ -171,7 +171,7 @@
           "id": "btp-t3",
           "statement": "The men covered their faces.",
           "answer": true,
-          "explanation": "True — they used blankets and paint so that nobody would recognise them."
+          "explanation": "True — they used blankets and paint so that nobody would recognize them."
         },
         {
           "id": "btp-t4",
@@ -197,7 +197,7 @@
           "id": "btp-v1",
           "prompt": "A place where ships stop next to a city is a ___.",
           "options": [
-            "harbour",
+            "harbor",
             "highway",
             "hotel"
           ],
@@ -235,7 +235,7 @@
             "fill"
           ],
           "answerIndex": 0,
-          "explanation": "To float. The tea floated all over the harbour."
+          "explanation": "To float. The tea floated all over the harbor."
         },
         {
           "id": "btp-v5",

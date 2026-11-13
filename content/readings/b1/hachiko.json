@@ -20,7 +20,7 @@
   "passage": [
     "In front of Shibuya station in Tokyo, one of the busiest railway stations in the world, there is a life-size bronze statue of a dog. It is small next to the enormous screens and neon signs above it, and it is still the easiest thing in the area to find, because there is always a crowd standing around it. Since the 1930s it has been the place people in Tokyo arrange to meet. You do not look for the statue. You look for the people waiting.",
     "The dog was called Hachiko. He was an Akita, born in 1923 and brought to Tokyo the following year by Professor Ueno, who taught agricultural science at what was then the Imperial University. The two of them were inseparable almost immediately. Every morning Hachiko walked with him to the station and watched him leave for work, and every evening he was there again when the professor came back.",
-    "In 1925, a little over a year after Hachiko arrived, the professor had a brain haemorrhage at the university and died. He did not come home, and he did not come back to the station.",
+    "In 1925, a little over a year after Hachiko arrived, the professor had a brain hemorrhage at the university and died. He did not come home, and he did not come back to the station.",
     "Hachiko kept going. He returned to Shibuya at roughly the same hour, day after day, and waited. He did this for nine years, until his own death in 1935.",
     "It is worth being careful about the story, because it has been retold so many times that the sentimental version has almost replaced the facts. Hachiko did not live at the station the whole time; he was taken in by former gardeners and relatives of the professor, and he came to the station from where he lived. Street vendors and commuters fed him, and some people have argued that the food is the real reason he kept coming back — an argument that is impossible to settle and, to be fair, does not explain the timing, since he tended to arrive around the hour the train had once brought the professor in.",
     "What is certain is that he was there for nine years, that the commuters came to know him, and that a newspaper article in 1932 made him famous across the country. The statue went up in 1934, while he was still alive, and he is said to have attended the unveiling. The original was melted down for metal during the war; the one standing there now was made in 1948 by the son of the sculptor who made the first.",
@@ -58,7 +58,7 @@
       "match": "arrange to meet"
     },
     {
-      "term": "haemorrhage",
+      "term": "hemorrhage",
       "definition": "heavy bleeding, here inside the brain"
     },
     {
@@ -165,7 +165,7 @@
             "Doesn't say"
           ],
           "answerIndex": 0,
-          "explanation": "Right — he had a brain haemorrhage at the university."
+          "explanation": "Right — he had a brain hemorrhage at the university."
         },
         {
           "id": "hr5",
@@ -187,7 +187,7 @@
             "Doesn't say"
           ],
           "answerIndex": 1,
-          "explanation": "Wrong — street vendors and commuters fed him, and that is the basis of the sceptical explanation."
+          "explanation": "Wrong — street vendors and commuters fed him, and that is the basis of the skeptical explanation."
         },
         {
           "id": "hr7",
@@ -254,7 +254,7 @@
         },
         {
           "id": "hc3",
-          "prompt": "What is the sceptical explanation for Hachiko's return, and how does the writer treat it?",
+          "prompt": "What is the skeptical explanation for Hachiko's return, and how does the writer treat it?",
           "options": [
             "That he was fed there — and the writer calls it impossible to settle, while noting it does not explain the timing",
             "That he was lost and could not find his way home",
@@ -283,7 +283,7 @@
             "That a habit built around one person held for nine years in a place full of strangers"
           ],
           "answerIndex": 2,
-          "explanation": "The final paragraph explicitly rejects both the loyalty reading and the sad-film reading in favour of something smaller and stranger."
+          "explanation": "The final paragraph explicitly rejects both the loyalty reading and the sad-film reading in favor of something smaller and stranger."
         }
       ]
     },
@@ -308,7 +308,7 @@
         },
         {
           "id": "hf2",
-          "prompt": "After his owner died, a neighbour ___ him ___.",
+          "prompt": "After his owner died, a neighbor ___ him ___.",
           "answers": [
             "took",
             "in"

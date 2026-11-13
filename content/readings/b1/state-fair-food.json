@@ -151,7 +151,7 @@
           "prompt": "How does the writer treat the dispute over where the corndog was invented?",
           "options": [
             "As unresolvable and mostly enjoyable",
-            "As settled in Texas's favour",
+            "As settled in Texas's favor",
             "As a serious historical question"
           ],
           "answerIndex": 0,
@@ -207,7 +207,7 @@
           "options": [
             "Because most countries adopt foreign foods",
             "Because the rest of the culture was assembled the same way",
-            "Because the fairs are organised nationally"
+            "Because the fairs are organized nationally"
           ],
           "answerIndex": 1,
           "explanation": "The food is treated as a small version of how the country was put together generally."
@@ -359,7 +359,7 @@
               "value"
             ]
           ],
-          "explanation": "To get credit is to be recognised for something you deserve."
+          "explanation": "To get credit is to be recognized for something you deserve."
         },
         {
           "id": "ff6",

@@ -334,7 +334,7 @@
         },
         {
           "id": "fat3",
-          "statement": "The soil is analysed every month.",
+          "statement": "The soil is analyzed every month.",
           "answer": false,
           "explanation": "False — the blood tests are monthly; the soil analysis is once a year."
         },

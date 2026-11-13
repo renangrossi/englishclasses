@@ -109,7 +109,7 @@
             "Four to six years"
           ],
           "answerIndex": 1,
-          "explanation": "Four to six months for about 3,200 kilometres."
+          "explanation": "Four to six months for about 3,200 kilometers."
         },
         {
           "id": "ot-c3",
@@ -167,7 +167,7 @@
           "id": "ot-t1",
           "statement": "Attacks by Native nations were the main danger.",
           "answer": false,
-          "explanation": "False — attacks were rare. In the early years Native people more often sold food to the travellers or helped them cross rivers."
+          "explanation": "False — attacks were rare. In the early years Native people more often sold food to the travelers or helped them cross rivers."
         },
         {
           "id": "ot-t2",
@@ -179,7 +179,7 @@
           "id": "ot-t3",
           "statement": "A day on the trail started at four in the morning.",
           "answer": true,
-          "explanation": "True — and the group covered about twenty-five kilometres."
+          "explanation": "True — and the group covered about twenty-five kilometers."
         },
         {
           "id": "ot-t4",
@@ -269,7 +269,7 @@
           "pairs": [
             {
               "left": "400,000",
-              "right": "people who travelled west"
+              "right": "people who traveled west"
             },
             {
               "left": "3,200 km",
@@ -285,7 +285,7 @@
             },
             {
               "left": "1 in 10",
-              "right": "travellers who died on the way"
+              "right": "travelers who died on the way"
             }
           ],
           "explanation": "Five numbers, five different things. Reading a text for numbers and matching each one to its meaning is a useful exam skill."

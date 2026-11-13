@@ -23,10 +23,10 @@
     "What is happening is simple enough to explain and very hard to avoid. The body stores carbohydrate as glycogen, in the muscles and the liver, and a trained adult holds perhaps two thousand calories of it. A marathon costs somewhere near two thousand six hundred. The arithmetic is the whole problem: at racing pace you run out before the finish.",
     "Fat is the alternative fuel and there is plenty of it — even a lean runner carries enough for several marathons. But fat is metabolised more slowly, and it needs more oxygen for the same energy. When glycogen runs low the body switches over, and the switch is what the runner feels: the same effort now produces a slower pace. Worse, the brain depends on glucose, so the mental symptoms arrive with the physical ones. Runners describe losing the thread of simple arithmetic, misreading their own watch, and in bad cases a strange emotional flatness.",
     "Three things postpone it. The first is pacing. Running the first half too fast burns glycogen disproportionately, because the faster you go the greater the share of energy that comes from carbohydrate rather than fat. Most people who hit the wall at thirty kilometers caused it at ten.",
-    "The second is fuelling during the race. Taking in thirty to sixty grams of carbohydrate an hour does not replace what is being spent, but it extends the supply. The practical difficulty is that the stomach tolerates much less at racing effort than at rest, which is why fuelling has to be rehearsed in training rather than attempted for the first time on the day.",
+    "The second is fueling during the race. Taking in thirty to sixty grams of carbohydrate an hour does not replace what is being spent, but it extends the supply. The practical difficulty is that the stomach tolerates much less at racing effort than at rest, which is why fueling has to be rehearsed in training rather than attempted for the first time on the day.",
     "The third is the training itself. Long slow runs improve the body's ability to use fat at a given pace, which spares glycogen, and they increase how much glycogen can be stored. This adaptation takes months and is the least glamorous part of a training plan.",
     "What does not work is willpower alone. This is the part that surprises people, because the marathon has a century of literature attached to it about mental strength, and at thirty-two kilometers with no glycogen left the mind is simply not the limiting factor. A runner can want it enormously and still slow by fifteen per cent. The useful mental skill is narrower and less romantic: recognizing the early signs, accepting the slower pace immediately rather than fighting it for two kilometers and paying for it, and continuing to take fuel when the stomach has stopped wanting any.",
-    "Elite runners hit the wall less often, and not because they suffer better. They have larger glycogen stores, use fat more efficiently, have practiced their fuelling to the gram, and — most of all — pace the first half with a discipline that looks conservative to anyone watching. The wall is not a test of character. It is a budget, and the people who avoid it are the ones who did the arithmetic beforehand."
+    "Elite runners hit the wall less often, and not because they suffer better. They have larger glycogen stores, use fat more efficiently, have practiced their fueling to the gram, and — most of all — pace the first half with a discipline that looks conservative to anyone watching. The wall is not a test of character. It is a budget, and the people who avoid it are the ones who did the arithmetic beforehand."
   ],
   "images": [
     {
@@ -102,7 +102,7 @@
     {
       "term": "to fuel",
       "definition": "to take in energy during exercise",
-      "match": "fuelling"
+      "match": "fueling"
     },
     {
       "term": "to rehearse",
@@ -131,8 +131,8 @@
           "id": "w1",
           "prompt": "Where does the wall usually arrive?",
           "options": [
-            "Between thirty and thirty-five kilometres",
-            "In the first ten kilometres",
+            "Between thirty and thirty-five kilometers",
+            "In the first ten kilometers",
             "At the halfway point"
           ],
           "answerIndex": 0,
@@ -176,7 +176,7 @@
           "prompt": "What does the author mean by “caused it at ten”?",
           "options": [
             "Going out too fast early burns glycogen disproportionately",
-            "The wall begins at ten kilometres",
+            "The wall begins at ten kilometers",
             "Most runners start too slowly"
           ],
           "answerIndex": 0,
@@ -184,11 +184,11 @@
         },
         {
           "id": "w6",
-          "prompt": "Why must fuelling be practised in training?",
+          "prompt": "Why must fueling be practiced in training?",
           "options": [
             "The stomach tolerates much less at racing effort than at rest",
             "Gels taste unpleasant",
-            "Race organisers require it"
+            "Race organizers require it"
           ],
           "answerIndex": 0,
           "explanation": "“rather than attempted for the first time on the day.”"
@@ -230,7 +230,7 @@
           "id": "w10",
           "prompt": "Why do elite runners hit the wall less often?",
           "options": [
-            "Bigger stores, better fat use, rehearsed fuelling and disciplined early pacing",
+            "Bigger stores, better fat use, rehearsed fueling and disciplined early pacing",
             "They suffer better",
             "They run shorter races"
           ],

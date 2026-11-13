@@ -123,11 +123,11 @@
           "prompt": "What does the text say about “by any means necessary”?",
           "options": [
             "It was an instruction to attack",
-            "It is a statement about self-defence and the legitimacy of options",
+            "It is a statement about self-defense and the legitimacy of options",
             "He never said it"
           ],
           "answerIndex": 1,
-          "explanation": "Self-defence, and the refusal to rule options out in advance."
+          "explanation": "Self-defense, and the refusal to rule options out in advance."
         },
         {
           "id": "mx-c3",
@@ -149,7 +149,7 @@
             "The autobiography and a trip to Africa"
           ],
           "answerIndex": 1,
-          "explanation": "Total disillusionment with the Nation's leader, and praying alongside Muslims of every colour in 1964."
+          "explanation": "Total disillusionment with the Nation's leader, and praying alongside Muslims of every color in 1964."
         },
         {
           "id": "mx-c5",
@@ -157,7 +157,7 @@
           "options": [
             "He abandoned politics",
             "Racism rather than white people became the enemy, and the frame became international human rights",
-            "He joined King's organisation"
+            "He joined King's organization"
           ],
           "answerIndex": 1,
           "explanation": "Plus tentative contact with the mainstream movement."
@@ -195,7 +195,7 @@
         },
         {
           "id": "mx-t3",
-          "statement": "He was killed by members of an organisation he had left.",
+          "statement": "He was killed by members of an organization he had left.",
           "answer": true,
           "explanation": "True — in Harlem on 21 February 1965."
         },

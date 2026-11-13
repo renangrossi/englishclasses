@@ -51,20 +51,255 @@
   /* ------------------------------------------------------------- *
    * Utilities
    * ------------------------------------------------------------- */
+  // Typographic variants of the same character. Phone keyboards type
+  // curly quotes and apostrophes by default ("don’t"), which a plain
+  // string comparison treats as a different answer from "don't".
+  function unifyTypography(s) {
+    return String(s == null ? "" : s)
+      .replace(/[‘’‛ʼ`´]/g, "'")
+      .replace(/[“”„«»]/g, '"')
+      .replace(/[‐-―−]/g, "-")
+      .replace(/…/g, "...")
+      .replace(/[  -  ]/g, " ")
+      .replace(/[​-‍﻿]/g, "");
+  }
+
+  // Strict comparison key: case, spacing, typography and the final
+  // full stop are ignored; nothing else is.
   function norm(s) {
-    return String(s || "")
+    return unifyTypography(s)
       .trim()
       .toLowerCase()
       .replace(/\s+/g, " ")
       .replace(/[.!?]+$/g, "");
   }
 
-  function matchesAny(value, accepted) {
-    var list = Array.isArray(accepted) ? accepted : [accepted];
-    var v = norm(value);
-    return list.some(function (a) {
-      return norm(a) === v;
+  /* ------------------------------------------------------------- *
+   * Tolerant grading for typed answers
+   *
+   * A typed answer is right when it is the same sentence as an
+   * accepted one, not only when it is the same string. Three kinds of
+   * difference are forgiven, in this order:
+   *
+   *   1. punctuation and spelling -- quotation marks, commas, hyphens,
+ *      and British spellings of American words ("travelled")
+   *   2. contractions -- "do not" for "don't", "I am" for "I'm"
+   *   3. an optional "that" -- "the person (that) I know",
+   *      "she said (that) she was tired"
+   *
+   * The one thing leniency must never do is accept the sentence the
+   * exercise asked the student to change. An item that teaches the
+   * contraction itself ("Write the short form: do not") or a comma
+   * rule would be answered by its own prompt if those differences
+   * were ignored, so each item is graded at the most forgiving level
+   * that still rejects its own prompt -- see toleranceFor().
+   * ------------------------------------------------------------- */
+  var NEGATIVE_CONTRACTIONS = {
+    "don't": "do not", "doesn't": "does not", "didn't": "did not",
+    "isn't": "is not", "aren't": "are not", "wasn't": "was not", "weren't": "were not",
+    "haven't": "have not", "hasn't": "has not", "hadn't": "had not",
+    "won't": "will not", "wouldn't": "would not", "can't": "can not", "cannot": "can not",
+    "couldn't": "could not", "shouldn't": "should not", "mustn't": "must not",
+    "needn't": "need not", "mightn't": "might not", "shan't": "shall not",
+    "let's": "let us"
+  };
+  var SIMPLE_SUFFIXES = { "'m": " am", "'re": " are", "'ve": " have", "'ll": " will" };
+  // Past participles that do not end in -ed/-en, for telling "he's
+  // gone" (has) from "he's happy" (is) and "I'd seen" (had) from
+  // "I'd see" (would).
+  var IRREGULAR_PARTICIPLES = (
+    "been begun bought brought built caught done drunk felt found fought flown " +
+    "gone got had heard held kept known laid led left lent lost made meant met " +
+    "paid said seen sent shown slept sold spent stood sung sunk sat swum taught " +
+    "thought told understood won worn"
+  ).split(" ");
+  // Participles spelled like the base form: "I'd come" is either.
+  var AMBIGUOUS_PARTICIPLES = "become come run put cut hit let read set shut hurt cost quit".split(" ");
+  // -ed words that follow "is" far more often than "has": "he's tired"
+  // is never "he has tired".
+  var ED_ADJECTIVES = (
+    "tired bored interested excited married worried scared surprised pleased retired " +
+    "confused embarrassed annoyed exhausted relaxed stressed frightened disappointed " +
+    "satisfied delighted amazed shocked depressed engaged divorced called named " +
+    "supposed allowed located used closed crowded talented experienced"
+  ).split(" ");
+  var SKIPPABLE_ADVERBS = "not never just already always ever also only still really probably".split(" ");
+
+  function nextSignificantWord(tokens, i) {
+    for (var j = i + 1; j < tokens.length; j++) {
+      if (SKIPPABLE_ADVERBS.indexOf(tokens[j]) === -1) return tokens[j];
+    }
+    return "";
+  }
+  function looksLikeParticiple(w) {
+    return /(ed|en|wn)$/.test(w) || IRREGULAR_PARTICIPLES.indexOf(w) !== -1;
+  }
+
+  // Every reading of one token once its contraction is written out.
+  // "'s" and "'d" each stand for two different words, and the token
+  // may also be a possessive, so they return several readings; which
+  // ones depends on the word that follows.
+  function expansionsOf(token, tokens, i) {
+    if (NEGATIVE_CONTRACTIONS.hasOwnProperty(token)) return [NEGATIVE_CONTRACTIONS[token]];
+    var m = token.match(/^(.+)('m|'re|'ve|'ll)$/);
+    if (m) return [m[1] + SIMPLE_SUFFIXES[m[2]]];
+    var next;
+    m = token.match(/^(.+)'s$/);
+    if (m) {
+      next = nextSignificantWord(tokens, i);
+      if (/^(been|got|gotten|had)$/.test(next)) return [m[1] + " has"];
+      if (looksLikeParticiple(next) && ED_ADJECTIVES.indexOf(next) === -1) {
+        return [token, m[1] + " is", m[1] + " has"];
+      }
+      return [token, m[1] + " is"];
+    }
+    m = token.match(/^(.+)'d$/);
+    if (m) {
+      next = nextSignificantWord(tokens, i);
+      if (next === "better" || next === "been") return [m[1] + " had"];
+      if (AMBIGUOUS_PARTICIPLES.indexOf(next) !== -1) return [m[1] + " had", m[1] + " would"];
+      return [m[1] + (looksLikeParticiple(next) ? " had" : " would")];
+    }
+    return [token];
+  }
+
+  // "that" can be left out when it only introduces a clause: before a
+  // subject pronoun ("the film that I saw"), or after a reporting word
+  // and before the start of a noun phrase ("she said that the bus was
+  // late"). It cannot be left out when it is the subject of its clause
+  // ("the man that lives here") or a demonstrative ("I like that
+  // book"), and neither of those is ever followed by a subject pronoun.
+  var SUBJECT_PRONOUNS = "i you he she we they it".split(" ");
+  var CLAUSE_STARTERS = SUBJECT_PRONOUNS.concat(
+    "the a an my your his her our their this these those there".split(" "));
+  var REPORTING_WORDS = (
+    "say says said saying think thinks thought know knows knew believe believes believed " +
+    "hope hopes hoped feel feels felt suppose supposes supposed guess guessed mean means meant " +
+    "wish wishes wished explain explains explained mention mentions mentioned promise promises " +
+    "promised realize realizes realized realise realises realised notice notices noticed " +
+    "understand understands understood agree agrees agreed admit admits admitted claim claims " +
+    "claimed told tell tells me him her us them sure glad sorry afraid happy certain"
+  ).split(" ");
+  // Words after which "that" is doing some other job: "now that",
+  // "so that", "the fact that", "is that you?".
+  var THAT_KEPT_AFTER = (
+    "is was isn't wasn't be now so such fact idea news except given provided in of for " +
+    "with at on about than and but or if like do does did"
+  ).split(" ");
+
+  function dropOptionalThat(tokens) {
+    return tokens.filter(function (t, i) {
+      if (t !== "that" || i === 0 || i === tokens.length - 1) return true;
+      var prev = tokens[i - 1], next = tokens[i + 1];
+      if (THAT_KEPT_AFTER.indexOf(prev) !== -1) return true;
+      if (SUBJECT_PRONOUNS.indexOf(next) !== -1) return false;
+      return !(REPORTING_WORDS.indexOf(prev) !== -1 && CLAUSE_STARTERS.indexOf(next) !== -1);
     });
+  }
+
+  // British and American spellings of the same word. The site teaches
+  // American English, but a student who writes "travelled" or "colour"
+  // has not made a mistake. Each rule rewrites the British form to the
+  // American one; both sides of a comparison go through it.
+  var SPELLING_RULES = [
+    [/^(colo|favo|flavo|hono|humo|labo|neighbo|behavio|harbo|rumo|armo|vapo)u(r\w*)$/, "$1$2"],
+    [/^(organ|real|recogn|apolog|critic|emphas|memor|minim|maxim|optim|author|special|character|final|general|social|stabil|summar|modern|priorit|categor|symbol|util|civil|normal)is(e|ed|es|ing|ation|ations|er|ers)$/, "$1iz$2"],
+    [/^(analy|paraly)s(e|ed|es|ing)$/, "$1z$2"],
+    [/^(travel|cancel|model|label|level|signal|fuel|quarrel|marvel|counsel)l(ed|ing|er|ers|ous)$/, "$1$2"],
+    [/^(cent|met|lit|fib|theat|kilomet|centimet|millimet)re(s?)$/, "$1er$2"],
+    [/^(defen|offen|licen|preten)ce(s?)$/, "$1se$2"],
+    [/^practis(e|ed|es|ing)$/, "practic$1"],
+    [/^programme(s?)$/, "program$1"],
+    [/^grey(s?)$/, "gray$1"],
+    [/^tyre(s?)$/, "tire$1"],
+    [/^judgement(s?)$/, "judgment$1"],
+    [/^ageing$/, "aging"],
+    [/^jewellery$/, "jewelry"],
+    [/^sceptic(\w*)$/, "skeptic$1"],
+    [/^(learn|dream|burn|spell|spoil|smell)t$/, "$1ed"],
+    [/^mum(s?)$/, "mom$1"]
+  ];
+  function americanSpelling(token) {
+    for (var i = 0; i < SPELLING_RULES.length; i++) {
+      if (SPELLING_RULES[i][0].test(token)) return token.replace(SPELLING_RULES[i][0], SPELLING_RULES[i][1]);
+    }
+    return token;
+  }
+
+  var TOLERANCE_STRICT = 0, TOLERANCE_PUNCTUATION = 1, TOLERANCE_CONTRACTIONS = 2, TOLERANCE_FULL = 3;
+  var MAX_READINGS = 16;
+
+  // The comparison keys for one string at one tolerance level. More
+  // than one key only when a contraction has more than one reading.
+  function answerKeys(s, level) {
+    if (level === TOLERANCE_STRICT) return [norm(s)];
+    var tokens = unifyTypography(s)
+      .toLowerCase()
+      .replace(/["()\[\]]/g, " ")
+      .replace(/(^|\s)'+|'+(?=\s|$)/g, " ")   // quote marks, not apostrophes
+      .replace(/[.,;:!?]+(?=\s|$)/g, " ")
+      .replace(/-/g, " ")
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean)
+      .map(americanSpelling);
+    if (!tokens.length) return [""];
+    if (level < TOLERANCE_CONTRACTIONS) return [tokens.join(" ")];
+
+    var readings = [[]];
+    tokens.forEach(function (t, i) {
+      var options = expansionsOf(t, tokens, i);
+      if (readings.length * options.length > MAX_READINGS) options = options.slice(0, 1);
+      var grown = [];
+      readings.forEach(function (r) {
+        options.forEach(function (o) { grown.push(r.concat(o.split(" "))); });
+      });
+      readings = grown;
+    });
+    return readings.map(function (r) {
+      return (level >= TOLERANCE_FULL ? dropOptionalThat(r) : r).join(" ");
+    });
+  }
+
+  function asList(accepted) {
+    if (accepted === undefined || accepted === null) return [];
+    return Array.isArray(accepted) ? accepted : [accepted];
+  }
+
+  function matchesAt(value, accepted, level) {
+    var mine = answerKeys(value, level);
+    return asList(accepted).some(function (a) {
+      return answerKeys(a, level).some(function (k) { return mine.indexOf(k) !== -1; });
+    });
+  }
+
+  // Does `text` (an item's prompt) already contain an accepted answer
+  // at this level? Whole-word containment, so "am" is not found in
+  // "example".
+  function containsAnswerAt(text, accepted, level) {
+    var haystacks = answerKeys(text, level).map(function (k) { return " " + k + " "; });
+    return asList(accepted).some(function (a) {
+      return answerKeys(a, level).some(function (k) {
+        return k !== "" && haystacks.some(function (h) { return h.indexOf(" " + k + " ") !== -1; });
+      });
+    });
+  }
+
+  // The most forgiving level at which the item's own prompt is still a
+  // wrong answer. A prompt that already contains the answer strictly
+  // (a fill-blank whose answer word also appears elsewhere in the
+  // sentence) says nothing about leniency and is ignored.
+  function toleranceFor(promptText, accepted) {
+    if (!promptText || containsAnswerAt(promptText, accepted, TOLERANCE_STRICT)) return TOLERANCE_FULL;
+    var level = TOLERANCE_FULL;
+    while (level > TOLERANCE_STRICT && containsAnswerAt(promptText, accepted, level)) level--;
+    return level;
+  }
+
+  // `promptText` is whatever the student was shown and asked to change
+  // or complete; omit it for answers with nothing to guard against.
+  function matchesAny(value, accepted, promptText) {
+    return matchesAt(value, accepted, toleranceFor(promptText, accepted));
   }
 
   // Some fill-blank items accept an empty blank as a correct answer -- a
@@ -160,6 +395,39 @@
       if (c) node.appendChild(c);
     });
     return node;
+  }
+
+  // A sentence-length answer in a single-line <input> scrolls sideways
+  // on a phone: the student types "this task is more difficult than
+  // the la" and can no longer see the start of what they wrote. A
+  // one-row <textarea> that grows with its content shows the whole
+  // sentence at any width. Enter never adds a line -- an answer is one
+  // sentence -- it just leaves the field, as it would in an <input>.
+  // Autocorrect is off because it silently repairs the very mistakes
+  // the exercise is checking for.
+  function answerField(attrs) {
+    var base = { class: "answer-input", rows: "1", autocomplete: "off", autocorrect: "off", spellcheck: "false" };
+    Object.keys(attrs || {}).forEach(function (k) { base[k] = attrs[k]; });
+    var field = el("textarea", base);
+    function fit() {
+      field.style.height = "auto";
+      if (field.scrollHeight) field.style.height = (field.scrollHeight + 2) + "px";
+    }
+    field.addEventListener("input", fit);
+    field.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") { e.preventDefault(); field.blur(); }
+    });
+    field.fit = fit;
+    return field;
+  }
+
+  // Width of a typed blank, from the longest answer it accepts, in
+  // three coarse steps -- wide enough to show the answer, narrow enough
+  // that a one-word blank no longer takes a whole line on a phone and
+  // pushes the rest of its sentence onto the next.
+  function blankWidth(accepted) {
+    var longest = asList(accepted).reduce(function (n, a) { return Math.max(n, String(a).length); }, 0);
+    return longest <= 7 ? "6em" : longest <= 12 ? "9em" : "12em";
   }
 
   function iconSpan(kind) {
@@ -709,8 +977,10 @@
             "aria-label": "Blank " + (i + 1) + " of " + numBlanks,
             autocomplete: "off",
             autocapitalize: "off",
+            autocorrect: "off",
             spellcheck: "false",
           });
+          control.style.width = blankWidth((item.answers || [])[i]);
         }
         inputs.push(control);
         sentence.appendChild(control);
@@ -744,7 +1014,7 @@
         inputs.forEach(function (inp, i) {
           if (inp.value.trim()) attempted = true;
           if (!blankAnswered(inp.value, answers[i])) allFilled = false;
-          var ok = matchesAny(inp.value, answers[i]);
+          var ok = matchesAny(inp.value, answers[i], item.prompt);
           inp.classList.add(ok ? "is-correct" : "is-incorrect");
           inp.disabled = true;
           if (!ok) allCorrect = false;
@@ -772,7 +1042,7 @@
     label.appendChild(el("span", { class: "exercise-item__number", "aria-hidden": "true", text: String(index + 1) }));
     label.appendChild(document.createTextNode("Write the correct sentence:"));
     wrap.appendChild(label);
-    var input = el("input", { type: "text", id: qid, class: "answer-input", autocomplete: "off", spellcheck: "false" });
+    var input = answerField({ id: qid });
     wrap.appendChild(input);
 
     var fb = feedbackNode(item.explanation || "");
@@ -783,7 +1053,7 @@
     return {
       node: wrap,
       reset: function () {
-        input.value = ""; input.disabled = false;
+        input.value = ""; input.disabled = false; input.fit();
         input.classList.remove("is-correct", "is-incorrect");
         fb.node.classList.remove("is-visible", "is-correct", "is-incorrect", "is-unanswered");
         var ca = fb.body.querySelector(".correct-answer");
@@ -792,7 +1062,7 @@
       },
       grade: function () {
         var attempted = input.value.trim().length > 0;
-        var ok = matchesAny(input.value, item.answer);
+        var ok = matchesAny(input.value, item.answer, item.incorrect);
         input.classList.add(ok ? "is-correct" : "is-incorrect");
         input.disabled = true;
         wrap.classList.add("is-locked");
@@ -807,7 +1077,7 @@
   // ---- typing (short-answer; graded if item.answer given, else self-check) ----
   function renderTyping(item, index) {
     var wrap = itemShell(index, item.prompt);
-    var input = el("input", { type: "text", class: "answer-input", autocomplete: "off", spellcheck: "false", "aria-label": item.prompt || "Your answer" });
+    var input = answerField({ "aria-label": item.prompt || "Your answer" });
     wrap.appendChild(input);
 
     var selfCheck = !item.answer;
@@ -819,7 +1089,7 @@
     return {
       node: wrap,
       reset: function () {
-        input.value = ""; input.disabled = false;
+        input.value = ""; input.disabled = false; input.fit();
         input.classList.remove("is-correct", "is-incorrect");
         fb.node.classList.remove("is-visible", "is-correct", "is-incorrect", "is-unanswered");
         var ma = fb.body.querySelector(".model-answer");
@@ -848,7 +1118,7 @@
           }
           return { correct: true, attempted: attempted, selfCheck: true };
         }
-        var ok = matchesAny(input.value, item.answer);
+        var ok = matchesAny(input.value, item.answer, item.prompt);
         input.classList.add(ok ? "is-correct" : "is-incorrect");
         var correctText = Array.isArray(item.answer) ? item.answer[0] : item.answer;
         setFeedback(fb, ok, ok ? null : correctText, iconWrap, attempted);
@@ -1348,7 +1618,7 @@
       || (values.length > 0 && values.every(function (v, i) {
         return blankAnswered(v, answers[i]);
       }));
-    var allCorrect = values.length > 0 && values.every(function (v, i) { return matchesAny(v, answers[i]); });
+    var allCorrect = values.length > 0 && values.every(function (v, i) { return matchesAny(v, answers[i], item.prompt); });
     var correctText = answers.map(function (a) { return Array.isArray(a) ? a[0] : a; }).join(" · ");
     var userText = values.map(function (v) { return v && v.trim() ? v : "(blank)"; }).join(" / ");
     return {
@@ -1364,7 +1634,7 @@
     var input = itemEl.querySelector(".answer-input");
     var val = input ? input.value : "";
     var attempted = val.trim().length > 0;
-    var ok = attempted && matchesAny(val, item.answer);
+    var ok = attempted && matchesAny(val, item.answer, item.incorrect);
     var correctText = Array.isArray(item.answer) ? item.answer[0] : item.answer;
     return {
       question: "“" + item.incorrect + "”",
@@ -1388,7 +1658,7 @@
         explanation: item.explanation || "",
       };
     }
-    var ok = attempted && matchesAny(val, item.answer);
+    var ok = attempted && matchesAny(val, item.answer, item.prompt);
     var correctText = Array.isArray(item.answer) ? item.answer[0] : item.answer;
     return {
       question: item.prompt || "",
@@ -1882,5 +2152,5 @@
   // the DOM; on a page that has none at load time (today-review.html
   // starts empty and injects its own), this is safe to call as many
   // times as needed with no double-processing risk.
-  window.ExerciseEngine = { init: init };
+  window.ExerciseEngine = { init: init, matchesAny: matchesAny, toleranceFor: toleranceFor };
 })();

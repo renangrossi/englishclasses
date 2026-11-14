@@ -28,8 +28,8 @@
 (function () {
   "use strict";
 
-  var SUPABASE_URL = "";      // e.g. "https://abcdefghijklmnop.supabase.co"
-  var SUPABASE_ANON_KEY = ""; // Project Settings -> API -> anon / publishable key
+  var SUPABASE_URL = "https://ustsqrbceviabupvaaip.supabase.co";      // e.g. "https://abcdefghijklmnop.supabase.co"
+  var SUPABASE_ANON_KEY = "sb_publishable_44AffZ_J0Z2kwbmFgvea_w_rsMibqFF"; // Project Settings -> API -> anon / publishable key
 
   var SDK_URL = "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js";
   var TABLE = "student_progress";

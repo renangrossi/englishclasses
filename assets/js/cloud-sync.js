@@ -40,6 +40,13 @@
 
   var enabled = !!(SUPABASE_URL && SUPABASE_ANON_KEY);
 
+  // The site's root, worked out from this script's own address
+  // (".../assets/js/cloud-sync.js"), so links work at any page depth.
+  var SITE_ROOT = (function () {
+    var me = document.currentScript && document.currentScript.src;
+    return me ? me.replace(/assets\/js\/cloud-sync\.js.*$/, "") : "";
+  })();
+
   var clientPromise = null;
   var user = null;
   var status = "idle";   // idle | signing-in | syncing | synced | error
@@ -357,8 +364,13 @@
         btn.innerHTML = GOOGLE_ICON + "<span>Sign in with Google</span>";
         btn.disabled = waiting;
         btn.addEventListener("click", signIn);
+        var privacy = document.createElement("a");
+        privacy.className = "cloud-account__privacy";
+        privacy.href = SITE_ROOT + "privacy.html";
+        privacy.textContent = "What is stored, and how to delete it";
         slot.appendChild(p);
         slot.appendChild(btn);
+        slot.appendChild(privacy);
         return;
       }
 

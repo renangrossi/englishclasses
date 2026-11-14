@@ -311,7 +311,7 @@ def footer(rel):
             </div>
         </div>
         <div class="site-footer__bottom">
-            <p>&copy; 1776 Renan the Teacher English Course. All rights reserved.</p>
+            <p>&copy; 1776 Renan the Teacher English Course. All rights reserved. &middot; <a href="{rel}privacy.html">Privacy</a></p>
         </div>
     </footer>
     <button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Back to top">

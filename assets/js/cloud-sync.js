@@ -1,16 +1,18 @@
 /*!
- * Renan the Teacher — Account sync (Supabase + Google sign-in)
+ * Renan the Teacher — Account sync (Supabase + Google or email sign-in)
  * ------------------------------------------------------------------
  * Optional layer on top of progress.js and mastery.js. Those two keep
  * working from localStorage exactly as before; this file copies what
  * they save to the student's own row in Supabase once the student has
- * signed in with Google, and brings it back on any other device.
+ * signed in -- with Google, or with a link/code sent by email -- and
+ * brings it back on any other device.
  *
  * Signed out, nothing leaves the browser and the Supabase library is
  * not even downloaded.
  *
  * Setup (one time, see docs/cloud-sync.md): create the Supabase
- * project, run supabase/schema.sql, enable the Google provider, then
+ * project, run supabase/schema.sql, enable the Google provider (and,
+ * for email sign-in, the Email provider plus a custom SMTP sender), then
  * fill in the two constants below. While either is empty this whole
  * file is inert and the site behaves as it did before it existed.
  *
@@ -22,6 +24,8 @@
  *   enabled        // true once the two constants are filled in
  *   isSignedIn()
  *   signIn()       // redirects to Google and back to the same page
+ *   sendEmailLink(email)   // emails a sign-in link + code
+ *   verifyEmailCode(code)  // signs in with the code from that email
  *   signOut()
  *   render()       // (re)draws every [data-cloud-account] element
  * ------------------------------------------------------------------ */
@@ -36,6 +40,8 @@
   var AUTH_STORAGE_KEY = "rt_auth";   // where supabase-js keeps the session
   var META_KEY = "rt_sync_meta";      // { userId, epoch, pendingReset }
   var MASTERY_STORAGE_KEY = "rt_mastery";
+  var PENDING_EMAIL_KEY = "rt_email_pending"; // { email, at } while a code is awaited
+  var EMAIL_CODE_TTL_MS = 60 * 60 * 1000;     // Supabase's default OTP lifetime
   var UPLOAD_DELAY_MS = 1500;         // quiet time after a save before uploading
 
   var enabled = !!(SUPABASE_URL && SUPABASE_ANON_KEY);
@@ -55,6 +61,14 @@
   var currentSync = null; // the round trip in flight, if any
   var applying = false;  // true while we write the account's copy locally
   var uploadTimer = null;
+  var watching = false;  // onAuthStateChange registered
+  // Email sign-in form state. Kept here, not in the DOM, because render()
+  // redraws the form (the panel and progress.html can both show it).
+  var emailDraft = "";
+  var codeDraft = "";
+  var emailBusy = false;
+  var emailError = "";
+  var focusRequest = null; // { slot, selector } to focus after the next render
 
   /* ---------------- small helpers ---------------- */
 
@@ -78,6 +92,25 @@
       }).join(",") + "}";
     }
     return JSON.stringify(value === undefined ? null : value);
+  }
+
+  function loadPendingEmail() {
+    var p = readJson(PENDING_EMAIL_KEY);
+    if (!p || !p.email || !(Date.now() - (p.at || 0) < EMAIL_CODE_TTL_MS)) return null;
+    return p;
+  }
+  function savePendingEmail(email) { writeJson(PENDING_EMAIL_KEY, { email: email, at: Date.now() }); }
+  function clearPendingEmail() {
+    try { window.localStorage.removeItem(PENDING_EMAIL_KEY); } catch (e) { /* ignore */ }
+  }
+
+  function warn(err) {
+    if (window.console) console.warn("[cloud-sync]", err && err.message ? err.message : err);
+  }
+
+  // The page the student is on, so every sign-in route brings them back here.
+  function herePage() {
+    return window.location.origin + window.location.pathname;
   }
 
   function hasStoredSession() {
@@ -239,14 +272,112 @@
     setStatus("signing-in");
     return getClient().then(function (client) {
       // Come back to the page the student was on.
-      var here = window.location.origin + window.location.pathname;
-      return client.auth.signInWithOAuth({ provider: "google", options: { redirectTo: here } });
+      return client.auth.signInWithOAuth({ provider: "google", options: { redirectTo: herePage() } });
     }).then(function (res) {
       if (res && res.error) throw res.error;
     }).catch(function (err) {
       if (window.console) console.warn("[cloud-sync]", err && err.message ? err.message : err);
       setStatus("error");
     });
+  }
+
+  /* Email sign-in. One email carries both a link and a code: the link
+     signs in when it is opened in this same browser (PKCE keeps a secret
+     here); the code works anywhere, e.g. email read on the phone while
+     the course is open on a computer. */
+
+  function sendErrorText(err) {
+    var msg = (err && err.message) || "";
+    if ((err && err.status === 429) || /rate limit|security purposes|seconds/i.test(msg)) {
+      return "Too many emails just now. Please wait a minute and try again.";
+    }
+    if (/not authorized|signups not allowed|provider is not enabled|disabled/i.test(msg)) {
+      return "Email sign-in is not available right now. Please sign in with Google.";
+    }
+    return "The email could not be sent. Check the address and try again.";
+  }
+
+  function sendEmailLink(address, slot) {
+    if (!enabled || emailBusy) return Promise.resolve(false);
+    var email = String(address || "").trim();
+    emailDraft = email;
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      emailError = "Please type your full email address, like name@gmail.com.";
+      focusRequest = { slot: slot, selector: ".cloud-account__input" };
+      render();
+      return Promise.resolve(false);
+    }
+    emailBusy = true;
+    emailError = "";
+    render();
+    var client;
+    return getClient().then(function (c) {
+      client = c;
+      return client.auth.signInWithOtp({
+        email: email,
+        options: { emailRedirectTo: herePage(), shouldCreateUser: true },
+      });
+    }).then(function (res) {
+      if (res && res.error) throw res.error;
+      emailBusy = false;
+      codeDraft = "";
+      savePendingEmail(email);
+      // If the link is opened in another tab of this browser, supabase-js
+      // tells this tab too, and the form here turns into "Signed in as".
+      watchAuth(client);
+      focusRequest = { slot: slot, selector: ".cloud-account__code" };
+      render();
+      return true;
+    }).catch(function (err) {
+      emailBusy = false;
+      warn(err);
+      emailError = sendErrorText(err);
+      focusRequest = { slot: slot, selector: ".cloud-account__input" };
+      render();
+      return false;
+    });
+  }
+
+  function verifyEmailCode(code, slot) {
+    if (!enabled || emailBusy) return Promise.resolve(false);
+    var pending = loadPendingEmail();
+    if (!pending) { emailError = ""; render(); return Promise.resolve(false); }
+    var token = String(code || "").replace(/\s+/g, "");
+    codeDraft = token;
+    if (!/^[0-9]{6,10}$/.test(token)) {
+      emailError = "Type the number from the email (6 digits).";
+      focusRequest = { slot: slot, selector: ".cloud-account__code" };
+      render();
+      return Promise.resolve(false);
+    }
+    emailBusy = true;
+    emailError = "";
+    render();
+    return getClient().then(function (client) {
+      return client.auth.verifyOtp({ email: pending.email, token: token, type: "email" }).then(function (res) {
+        if (res && res.error) throw res.error;
+        emailBusy = false;
+        watchAuth(client);
+        onSession(res && res.data ? res.data.session : null);
+        return !!user;
+      });
+    }).catch(function (err) {
+      emailBusy = false;
+      warn(err);
+      emailError = /expired|invalid|not found/i.test((err && err.message) || "")
+        ? "That code is wrong or has expired. Use the newest email, or send a new one."
+        : "That did not work. Please try again.";
+      focusRequest = { slot: slot, selector: ".cloud-account__code" };
+      render();
+      return false;
+    });
+  }
+
+  function cancelEmail() {
+    clearPendingEmail();
+    emailError = "";
+    codeDraft = "";
+    render();
   }
 
   function signOut() {
@@ -283,6 +414,10 @@
     var changed = (next && next.id) !== (user && user.id);
     user = next;
     if (!user) { setStatus("idle"); return; }
+    clearPendingEmail();
+    emailError = "";
+    emailDraft = "";
+    codeDraft = "";
     if (changed) sync(); else render();
   }
 
@@ -303,23 +438,32 @@
     Array.prototype.forEach.call(document.querySelectorAll("[data-cloud-only]"), function (n) { n.hidden = false; });
   }
 
+  function watchAuth(client) {
+    if (watching) return;
+    watching = true;
+    client.auth.onAuthStateChange(function (event, session) {
+      // Token refreshes arrive here too; only a change of user matters.
+      // Deferred: supabase-js must not be called back into from here.
+      if (event === "SIGNED_OUT" || event === "SIGNED_IN") {
+        setTimeout(function () { onSession(session); }, 0);
+      }
+    });
+  }
+
   function boot() {
     showCloudCopy();
     render();
     if (!hasStoredSession() && !isAuthCallback()) return; // signed out: stay offline
-    var failed = /error_description=/.test(window.location.search + window.location.hash);
+    // Back from Google or an email link but no session: the link expired,
+    // was already used, or was opened in another browser than the one
+    // that asked for it.
+    var returning = isAuthCallback();
     getClient().then(function (client) {
       return client.auth.getSession().then(function (res) {
         cleanCallbackUrl();
         onSession(res && res.data ? res.data.session : null);
-        if (failed && !user) setStatus("error");
-        client.auth.onAuthStateChange(function (event, session) {
-          // Token refreshes arrive here too; only a change of user matters.
-          // Deferred: supabase-js must not be called back into from here.
-          if (event === "SIGNED_OUT" || event === "SIGNED_IN") {
-            setTimeout(function () { onSession(session); }, 0);
-          }
-        });
+        if (returning && !user) setStatus("error");
+        watchAuth(client);
       });
     }).catch(function (err) {
       if (window.console) console.warn("[cloud-sync]", err && err.message ? err.message : err);
@@ -350,30 +494,12 @@
     // the XP display whenever the account state may have changed.
     try { document.dispatchEvent(new CustomEvent("rt:account")); } catch (e) { /* old browser */ }
     var slots = document.querySelectorAll("[data-cloud-account]");
-    Array.prototype.forEach.call(slots, function (slot) {
+    Array.prototype.forEach.call(slots, function (slot, i) {
       slot.textContent = "";
       slot.classList.add("cloud-account");
 
       if (!user) {
-        var waiting = status === "signing-in" || (status === "idle" && hasStoredSession() && !!clientPromise);
-        var p = document.createElement("p");
-        p.className = "cloud-account__text";
-        p.textContent = status === "error"
-          ? "Sign-in did not work. Please try again."
-          : "Sign in to save your progress and pick it up on any phone or computer.";
-        var btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "cloud-account__google";
-        btn.innerHTML = GOOGLE_ICON + "<span>Sign in with Google</span>";
-        btn.disabled = waiting;
-        btn.addEventListener("click", signIn);
-        var privacy = document.createElement("a");
-        privacy.className = "cloud-account__privacy";
-        privacy.href = SITE_ROOT + "privacy.html";
-        privacy.textContent = "What is stored, and how to delete it";
-        slot.appendChild(p);
-        slot.appendChild(btn);
-        slot.appendChild(privacy);
+        renderSignedOut(slot, i);
         return;
       }
 
@@ -381,7 +507,7 @@
       who.className = "cloud-account__text";
       who.appendChild(document.createTextNode("Signed in as "));
       var strong = document.createElement("strong");
-      strong.textContent = user.email || "your Google account";
+      strong.textContent = user.email || "your account";
       who.appendChild(strong);
 
       var row = document.createElement("p");
@@ -401,6 +527,136 @@
       slot.appendChild(who);
       slot.appendChild(row);
     });
+    if (focusRequest) {
+      var req = focusRequest;
+      focusRequest = null;
+      var target = req.slot && req.slot.querySelector ? req.slot.querySelector(req.selector) : null;
+      if (target && target.focus) target.focus();
+    }
+  }
+
+  function el(tag, className, text) {
+    var n = document.createElement(tag);
+    if (className) n.className = className;
+    if (text) n.textContent = text;
+    return n;
+  }
+
+  function errorLine() {
+    var e = el("p", "cloud-account__status cloud-account__status--error cloud-account__msg", emailError);
+    e.setAttribute("role", "alert");
+    return e;
+  }
+
+  // Signed out: Google button, then "or" an email address. Once an email
+  // has gone out, the same spot asks for the code from it instead.
+  function renderSignedOut(slot, i) {
+    var waiting = status === "signing-in" || (status === "idle" && hasStoredSession() && !!clientPromise);
+    var pending = loadPendingEmail();
+
+    if (pending) {
+      var sent = el("p", "cloud-account__text");
+      sent.appendChild(document.createTextNode("We sent a sign-in link to "));
+      var to = el("strong", "", pending.email);
+      sent.appendChild(to);
+      sent.appendChild(document.createTextNode(
+        ". Open it on this device, or type the code from the email here. Not there? Check your spam folder."));
+      slot.appendChild(sent);
+
+      var codeForm = el("form", "cloud-account__email");
+      codeForm.noValidate = true;
+      var codeLabel = el("label", "cloud-account__label", "Code from the email");
+      codeLabel.htmlFor = "cloud-code-" + i;
+      var codeRow = el("div", "cloud-account__field");
+      var code = el("input", "cloud-account__input cloud-account__code");
+      code.id = "cloud-code-" + i;
+      code.type = "text";
+      code.name = "code";
+      code.inputMode = "numeric";
+      code.autocomplete = "one-time-code";
+      code.maxLength = 12;
+      code.placeholder = "123456";
+      code.value = codeDraft;
+      code.disabled = emailBusy;
+      code.addEventListener("input", function () { codeDraft = code.value; });
+      var go = el("button", "cloud-account__send", emailBusy ? "Checking…" : "Sign in");
+      go.type = "submit";
+      go.disabled = emailBusy;
+      codeForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        verifyEmailCode(code.value, slot);
+      });
+      codeRow.appendChild(code);
+      codeRow.appendChild(go);
+      codeForm.appendChild(codeLabel);
+      codeForm.appendChild(codeRow);
+      slot.appendChild(codeForm);
+      if (emailError) slot.appendChild(errorLine());
+
+      var links = el("p", "cloud-account__row cloud-account__links");
+      var again = el("button", "cloud-account__signout", "Send a new email");
+      again.type = "button";
+      again.disabled = emailBusy;
+      again.addEventListener("click", function () { sendEmailLink(pending.email, slot); });
+      var other = el("button", "cloud-account__signout", "Use another email or Google");
+      other.type = "button";
+      other.disabled = emailBusy;
+      other.addEventListener("click", function () {
+        emailDraft = pending.email;
+        focusRequest = { slot: slot, selector: ".cloud-account__input" };
+        cancelEmail();
+      });
+      links.appendChild(again);
+      links.appendChild(other);
+      slot.appendChild(links);
+    } else {
+      var p = el("p", "cloud-account__text", status === "error"
+        ? "Sign-in did not work. Please try again. An email link only works in the browser where you asked for it; anywhere else, type the code from the email."
+        : "Sign in to save your progress and pick it up on any phone or computer.");
+      slot.appendChild(p);
+
+      var btn = el("button", "cloud-account__google");
+      btn.type = "button";
+      btn.innerHTML = GOOGLE_ICON + "<span>Sign in with Google</span>";
+      btn.disabled = waiting || emailBusy;
+      btn.addEventListener("click", signIn);
+      slot.appendChild(btn);
+
+      slot.appendChild(el("p", "cloud-account__or", "or"));
+
+      var form = el("form", "cloud-account__email");
+      form.noValidate = true;
+      var label = el("label", "cloud-account__label", "Get a sign-in link by email");
+      label.htmlFor = "cloud-email-" + i;
+      var fieldRow = el("div", "cloud-account__field");
+      var input = el("input", "cloud-account__input");
+      input.id = "cloud-email-" + i;
+      input.type = "email";
+      input.name = "email";
+      input.autocomplete = "email";
+      input.inputMode = "email";
+      input.placeholder = "you@example.com";
+      input.value = emailDraft;
+      input.disabled = emailBusy || waiting;
+      input.addEventListener("input", function () { emailDraft = input.value; });
+      var send = el("button", "cloud-account__send", emailBusy ? "Sending…" : "Send link");
+      send.type = "submit";
+      send.disabled = emailBusy || waiting;
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        sendEmailLink(input.value, slot);
+      });
+      fieldRow.appendChild(input);
+      fieldRow.appendChild(send);
+      form.appendChild(label);
+      form.appendChild(fieldRow);
+      slot.appendChild(form);
+      if (emailError) slot.appendChild(errorLine());
+    }
+
+    var privacy = el("a", "cloud-account__privacy", "What is stored, and how to delete it");
+    privacy.href = SITE_ROOT + "privacy.html";
+    slot.appendChild(privacy);
   }
 
   /* ---------------- wiring ---------------- */
@@ -415,6 +671,8 @@
     // boot() has exchanged the code and cleaned the address.
     hasSession: function () { return !!user || hasStoredSession() || isAuthCallback(); },
     signIn: signIn,
+    sendEmailLink: function (email) { return sendEmailLink(email, null); },
+    verifyEmailCode: function (code) { return verifyEmailCode(code, null); },
     signOut: signOut,
     render: render,
   };

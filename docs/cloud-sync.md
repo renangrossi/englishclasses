@@ -86,6 +86,13 @@ course is open on a computer). It needs:
 4. Name the email service in `privacy.html` ("If you sign in with your
    email").
 
+**Current setup (Nov 2026):** Brevo free plan, sender
+`renanvg@gmail.com` ("Renan the Teacher"), SMTP `smtp-relay.brevo.com:587`,
+login `c35619001@smtp-brevo.com`, key generated in Brevo → SMTP & API.
+Email OTP length set to 6 (Sign In / Providers → Email). Because the
+sender is a Gmail address, Brevo rewrites it to `@…brevosend.com`; a
+domain of your own would fix that and help deliverability.
+
 The redirect URLs from step 3 already cover the link.
 
 ### 4. Switch it on in the site

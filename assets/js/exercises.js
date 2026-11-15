@@ -1343,15 +1343,18 @@
   }
   window.RomanNumeral = toRoman;
 
+  // On numbered pages the number replaces the type label ("fill blank"):
+  // the title already says what kind of exercise it is.
   function numberLabel(head, container) {
     var n = container.getAttribute("data-exercise-number");
-    if (n) head.appendChild(el("span", { class: "exercise-block__num", text: "Exercise " + toRoman(+n) }));
+    if (!n) return false;
+    head.appendChild(el("span", { class: "exercise-block__type exercise-block__num", text: "Exercise " + toRoman(+n) }));
+    return true;
   }
 
   function buildBlock(container, data) {
     var head = el("div", { class: "exercise-block__head" });
-    numberLabel(head, container);
-    head.appendChild(el("span", { class: "exercise-block__type", text: data.type.replace(/-/g, " ") }));
+    if (!numberLabel(head, container)) head.appendChild(el("span", { class: "exercise-block__type", text: data.type.replace(/-/g, " ") }));
     head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Exercise" }));
     if (data.instructions) head.appendChild(el("p", { class: "exercise-block__instructions", text: data.instructions }));
     container.appendChild(head);
@@ -1533,8 +1536,7 @@
      --------------------------------------------------------------- */
   function buildWritingBlock(container, data) {
     var head = el("div", { class: "exercise-block__head" });
-    numberLabel(head, container);
-    head.appendChild(el("span", { class: "exercise-block__type", text: "writing" }));
+    if (!numberLabel(head, container)) head.appendChild(el("span", { class: "exercise-block__type", text: "writing" }));
     head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Writing" }));
     if (data.instructions) head.appendChild(el("p", { class: "exercise-block__instructions", text: data.instructions }));
     container.appendChild(head);

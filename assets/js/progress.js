@@ -993,14 +993,15 @@
       '<button type="button" class="progress-panel__close" aria-label="Close">' +
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>' +
       "</div>" +
+      // Right above the account block ("Signed in as ...").
+      '<a class="btn btn--ghost btn--small progress-panel__link" href="' + progressPageHref() + '">View full progress</a>' +
       (cloudEnabled()
         ? '<div class="progress-panel__account" data-cloud-account></div>'
         : '<p class="progress-panel__hint">Progress saves to this browser only — refresh-safe, no account needed.</p>') +
       '<div class="progress-panel__levels">' + levelRows + "</div>" +
       topicSummaryHtml(state) +
       '<p class="progress-panel__badges-label">Badges — ' + earnedCount + " of " + BADGES.length + " earned</p>" +
-      '<ul class="badge-grid">' + badgeGridHtml(state) + "</ul>" +
-      '<a class="btn btn--ghost btn--small progress-panel__link" href="' + progressPageHref() + '">View full progress</a>';
+      '<ul class="badge-grid">' + badgeGridHtml(state) + "</ul>";
 
     var closeBtn = els.panel.querySelector(".progress-panel__close");
     if (closeBtn) closeBtn.addEventListener("click", function () {

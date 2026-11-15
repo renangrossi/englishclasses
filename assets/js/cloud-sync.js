@@ -358,7 +358,7 @@
         if (res && res.error) throw res.error;
         emailBusy = false;
         watchAuth(client);
-        onSession(res && res.data ? res.data.session : null);
+        onSession(res && res.data ? res.data.session : null, true);
         return !!user;
       });
     }).catch(function (err) {
@@ -409,7 +409,16 @@
     });
   }
 
-  function onSession(session) {
+  // After a sign-in the student just made (back from Google, an email
+  // link, or a typed code) -- not a session restored on a normal page
+  // load -- take them to Today's Review once their progress is merged.
+  function goToReview() {
+    var target = SITE_ROOT + "today-review.html";
+    if (/\/today-review\.html$/.test(window.location.pathname)) return;
+    window.location.assign(target);
+  }
+
+  function onSession(session, fresh) {
     var next = session && session.user ? session.user : null;
     var changed = (next && next.id) !== (user && user.id);
     user = next;
@@ -418,7 +427,9 @@
     emailError = "";
     emailDraft = "";
     codeDraft = "";
-    if (changed) sync(); else render();
+    if (changed && fresh) sync().then(goToReview, goToReview);
+    else if (changed) sync();
+    else render();
   }
 
   // Supabase leaves ?code=... (or an error) in the address after the
@@ -461,7 +472,7 @@
     getClient().then(function (client) {
       return client.auth.getSession().then(function (res) {
         cleanCallbackUrl();
-        onSession(res && res.data ? res.data.session : null);
+        onSession(res && res.data ? res.data.session : null, returning);
         if (returning && !user) setStatus("error");
         watchAuth(client);
       });

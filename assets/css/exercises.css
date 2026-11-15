@@ -29,6 +29,7 @@
 }
 .exercise-block__title { font-size: var(--step-1); margin-bottom: 0.3em; }
 .exercise-block__instructions { color: var(--color-text-muted); font-size: var(--step--1); }
+.exercise-block__subtitle { color: var(--color-text-muted); font-size: var(--step--1); font-weight: 600; margin: 0 0 0.2em; }
 
 .exercise-item {
   padding: var(--space-md) 0;

@@ -1352,11 +1352,25 @@
     return true;
   }
 
+  // On numbered pages the instruction is what the student needs, so it
+  // is the heading; the title ("Fill in the Blanks (Part 3 of 3)") sits
+  // small above it. Elsewhere, or with no instruction, the title stays
+  // the heading as before.
+  function headTitles(head, container, data, fallback) {
+    var title = data.title || fallback;
+    if (container.hasAttribute("data-exercise-number") && data.instructions) {
+      head.appendChild(el("p", { class: "exercise-block__subtitle", text: title }));
+      head.appendChild(el("h3", { class: "exercise-block__title exercise-block__title--instruction", text: data.instructions }));
+      return;
+    }
+    head.appendChild(el("h3", { class: "exercise-block__title", text: title }));
+    if (data.instructions) head.appendChild(el("p", { class: "exercise-block__instructions", text: data.instructions }));
+  }
+
   function buildBlock(container, data) {
     var head = el("div", { class: "exercise-block__head" });
     if (!numberLabel(head, container)) head.appendChild(el("span", { class: "exercise-block__type", text: data.type.replace(/-/g, " ") }));
-    head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Exercise" }));
-    if (data.instructions) head.appendChild(el("p", { class: "exercise-block__instructions", text: data.instructions }));
+    headTitles(head, container, data, "Exercise");
     container.appendChild(head);
 
     if (data.passage) {
@@ -1537,8 +1551,7 @@
   function buildWritingBlock(container, data) {
     var head = el("div", { class: "exercise-block__head" });
     if (!numberLabel(head, container)) head.appendChild(el("span", { class: "exercise-block__type", text: "writing" }));
-    head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Writing" }));
-    if (data.instructions) head.appendChild(el("p", { class: "exercise-block__instructions", text: data.instructions }));
+    headTitles(head, container, data, "Writing");
     container.appendChild(head);
 
     var itemsWrap = el("div", { class: "exercise-block__items" });

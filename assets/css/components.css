@@ -1273,6 +1273,7 @@ audio {
   padding: var(--space-md);
 }
 .progress-panel[hidden] { display: none; }
+.progress-panel__link[hidden] { display: none; }
 /* Opened from the ☰ menu's Progress row (see progress.js's open()):
    the menu itself closes immediately, so anchoring to that row's
    position (like the header pill's dropdown does) isn't possible —
@@ -1797,3 +1798,103 @@ button.coach-mastery .progress-track__fill { display: block; height: 100%; }
 .coach-bars { display: grid; gap: var(--space-xs); margin-top: 0.4em; }
 
 #coach-improve, #review-queue, #coach-mistakes, #coach-recs { scroll-margin-top: 6rem; }
+
+/* ------------------------------------------------------------------
+   "Log in" welcome overlay (assets/js/cloud-sync.js, showLoginNudge)
+   ------------------------------------------------------------------ */
+.login-nudge {
+  position: fixed;
+  inset: 0;
+  z-index: 1300;
+  animation: login-nudge-in 0.3s ease-out both;
+}
+.login-nudge.is-leaving { animation: login-nudge-out 0.25s ease-in both; }
+.login-nudge--plain { background: rgba(10, 18, 34, 0.74); }
+.login-nudge__spot {
+  position: fixed;
+  border-radius: 12px;
+  box-shadow: 0 0 0 200vmax rgba(10, 18, 34, 0.74);
+  outline: 2px solid var(--gold-300);
+  outline-offset: 2px;
+  pointer-events: none;
+}
+.login-nudge__spot--round { border-radius: 999px; }
+.login-nudge__spot::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  border: 2px solid var(--gold-300);
+  animation: login-nudge-pulse 1.6s ease-out infinite;
+}
+.login-nudge__sky { position: fixed; inset: 0; pointer-events: none; overflow: hidden; }
+.login-nudge__sky-star {
+  position: absolute;
+  width: var(--s, 12px);
+  height: var(--s, 12px);
+  color: var(--gold-300);
+  opacity: 0.5;
+  animation: login-nudge-twinkle 2.4s ease-in-out var(--d, 0s) infinite;
+}
+.login-nudge__card {
+  position: fixed;
+  box-sizing: border-box;
+  padding: 1.1rem 1.25rem 1rem;
+  border-radius: var(--radius-lg);
+  background: var(--navy-900);
+  color: #fbf8f1;
+  border-top: 5px solid var(--color-red);
+  border-image: var(--stripes) 1;
+  box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(228, 200, 135, 0.35);
+  animation: login-nudge-rise 0.35s ease-out both;
+}
+.login-nudge__card:focus { outline: none; }
+.login-nudge__card:focus-visible { box-shadow: 0 0 0 3px var(--gold-300); }
+/* Arrow pointing up at the ringed button. */
+.login-nudge__card::before {
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: calc(var(--arrow-x, 50%) - 9px);
+  border: 9px solid transparent;
+  border-top: 0;
+  border-bottom: 11px solid var(--color-red);
+}
+.login-nudge--plain .login-nudge__card::before { display: none; }
+.login-nudge__stars { display: flex; gap: 0.45rem; color: var(--gold-300); margin-bottom: 0.5rem; }
+.login-nudge__stars svg { width: 13px; height: 13px; }
+.login-nudge__eyebrow {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-300);
+}
+.login-nudge__title {
+  margin: 0.2rem 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: var(--step-2);
+  line-height: 1.15;
+  color: #fbf8f1;
+}
+.login-nudge__text { margin: 0 0 0.9rem; font-size: var(--step--1); color: #d9d2c3; }
+.login-nudge__text b { color: #fbf8f1; }
+.login-nudge__actions { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.login-nudge__actions .btn { flex: 1 1 auto; justify-content: center; }
+.login-nudge__timer { display: flex; align-items: center; gap: 0.7rem; margin-top: 0.9rem; font-size: 0.78rem; color: #b9b2a3; }
+.login-nudge__bar { flex: 1; height: 4px; border-radius: 999px; background: rgba(251, 248, 241, 0.15); overflow: hidden; }
+.login-nudge__bar span { display: block; height: 100%; width: 100%; background: var(--gold-300); transition: width 0.1s linear; }
+.login-nudge.is-paused .login-nudge__count::after { content: " · paused"; }
+
+@keyframes login-nudge-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes login-nudge-out { from { opacity: 1; } to { opacity: 0; } }
+@keyframes login-nudge-rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes login-nudge-pulse { from { opacity: 0.9; transform: scale(1); } to { opacity: 0; transform: scale(1.35); } }
+@keyframes login-nudge-twinkle { 0%, 100% { opacity: 0.2; transform: scale(0.8); } 50% { opacity: 0.85; transform: scale(1); } }
+
+.login-nudge--still, .login-nudge--still *, .login-nudge--still *::after { animation: none !important; transition: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  .login-nudge, .login-nudge *, .login-nudge *::after { animation: none !important; transition: none !important; }
+}
+@media print { .login-nudge { display: none !important; } }

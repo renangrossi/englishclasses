@@ -461,10 +461,182 @@
     });
   }
 
+  /* ---------------- "Log in" welcome overlay ----------------
+   * Signed out, once per browser session: dim the page, ring the LOG IN
+   * pill (or the menu button on phones, where the pill lives inside the
+   * menu), and say why to log in. It closes by itself after a short
+   * countdown -- paused while the pointer or focus is on the card -- or
+   * on "Not now", Escape, or a click outside. "Log in" opens the
+   * progress panel, where the sign-in buttons are.
+   * ---------------------------------------------------------------- */
+  var NUDGE_KEY = "rt_login_nudge_shown";   // sessionStorage: once per browser session
+  var NUDGE_SECONDS = 5;
+  var STAR_PATH = "M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21Z";
+
+  function star(cls, style) {
+    return '<svg class="' + cls + '" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"' +
+      (style ? ' style="' + style + '"' : "") + '><path d="' + STAR_PATH + '"/></svg>';
+  }
+
+  function visibleRect(node) {
+    if (!node || node.hidden) return null;
+    var r = node.getBoundingClientRect();
+    return r.width > 0 && r.height > 0 ? r : null;
+  }
+
+  // What to point at, and what "Log in" should click.
+  function nudgeTarget() {
+    var pill = document.querySelector(".progress-toggle--pill");
+    if (visibleRect(pill)) return { el: pill, opener: pill, round: true, phone: false };
+    var burger = document.querySelector("[data-nav-toggle]");
+    var row = document.querySelector(".progress-menu-toggle");
+    if (visibleRect(burger)) return { el: burger, opener: row || burger, round: false, phone: true };
+    return { el: null, opener: pill || row, round: false, phone: false };
+  }
+
+  function maybeShowLoginNudge() {
+    if (!enabled || user || hasStoredSession() || isAuthCallback() || loadPendingEmail()) return;
+    if (/\/privacy\.html$/.test(window.location.pathname)) return;
+    try {
+      if (window.sessionStorage.getItem(NUDGE_KEY)) return;
+      window.sessionStorage.setItem(NUDGE_KEY, "1");
+    } catch (e) {
+      return; // no session storage: it could not stay at once per session
+    }
+    // Let the header (and the pill progress.js builds) settle first.
+    setTimeout(showLoginNudge, 500);
+  }
+
+  function showLoginNudge() {
+    if (user || hasStoredSession() || document.querySelector(".login-nudge")) return;
+    var target = nudgeTarget();
+    var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var before = document.activeElement;
+
+    var root = document.createElement("div");
+    root.className = "login-nudge" + (target.el ? "" : " login-nudge--plain") + (reduce ? " login-nudge--still" : "");
+    root.setAttribute("role", "dialog");
+    root.setAttribute("aria-modal", "false");
+    root.setAttribute("aria-labelledby", "login-nudge-title");
+    root.setAttribute("aria-describedby", "login-nudge-text");
+
+    // Scattered twinkling stars across the dimmed page.
+    var sky = "";
+    var spots = [[8, 22], [17, 70], [26, 40], [35, 88], [44, 12], [58, 64], [66, 30], [74, 82], [83, 18], [90, 52], [12, 48], [52, 92]];
+    spots.forEach(function (xy, i) {
+      sky += star("login-nudge__sky-star", "top:" + xy[0] + "%;left:" + xy[1] + "%;--d:" + (i % 5) * 0.45 + "s;--s:" + (10 + (i % 4) * 4) + "px");
+    });
+
+    var where = target.phone
+      ? "Open the menu <b>☰</b>, then <b>Progress</b>, to log in any time."
+      : "The <b>LOG IN</b> button is up here, at the top of every page.";
+    root.innerHTML =
+      '<div class="login-nudge__sky" aria-hidden="true">' + sky + "</div>" +
+      (target.el ? '<div class="login-nudge__spot' + (target.round ? " login-nudge__spot--round" : "") + '" aria-hidden="true"></div>' : "") +
+      '<div class="login-nudge__card" tabindex="-1">' +
+        '<div class="login-nudge__stars" aria-hidden="true">' + star("") + star("") + star("") + star("") + star("") + "</div>" +
+        '<p class="login-nudge__eyebrow">Save your progress</p>' +
+        '<h2 class="login-nudge__title" id="login-nudge-title">Log in and never lose a star</h2>' +
+        '<p class="login-nudge__text" id="login-nudge-text">Your XP, streak, badges and reviews are kept in your account, so you can pick up on any phone or computer. ' + where + "</p>" +
+        '<div class="login-nudge__actions">' +
+          '<button type="button" class="btn btn--accent" data-nudge-login>Log in</button>' +
+          '<button type="button" class="btn btn--ghost-inverse" data-nudge-close>Not now</button>' +
+        "</div>" +
+        '<div class="login-nudge__timer"><span class="login-nudge__bar"><span></span></span>' +
+          '<span class="login-nudge__count">Closing in <b>' + NUDGE_SECONDS + "</b>s</span></div>" +
+      "</div>";
+    document.body.appendChild(root);
+
+    var card = root.querySelector(".login-nudge__card");
+    var spot = root.querySelector(".login-nudge__spot");
+    var bar = root.querySelector(".login-nudge__bar span");
+    var count = root.querySelector(".login-nudge__count b");
+
+    function place() {
+      var r = target.el && visibleRect(target.el);
+      var vw = window.innerWidth, gutter = 16;
+      var cardW = Math.min(380, vw - 2 * gutter);
+      card.style.width = cardW + "px";
+      if (!r || !spot) {
+        card.style.left = Math.round((vw - cardW) / 2) + "px";
+        card.style.top = "18vh";
+        return;
+      }
+      var pad = 6;
+      spot.style.left = r.left - pad + "px";
+      spot.style.top = r.top - pad + "px";
+      spot.style.width = r.width + 2 * pad + "px";
+      spot.style.height = r.height + 2 * pad + "px";
+      var centerX = r.left + r.width / 2;
+      var left = Math.min(Math.max(gutter, centerX - cardW + 40), vw - cardW - gutter);
+      card.style.left = Math.round(left) + "px";
+      card.style.top = Math.round(r.bottom + pad + 18) + "px";
+      card.style.setProperty("--arrow-x", Math.round(Math.min(Math.max(centerX - left, 24), cardW - 24)) + "px");
+    }
+    place();
+    window.addEventListener("resize", place);
+
+    // Countdown, paused while the student is reading or using the card.
+    var total = NUDGE_SECONDS * 1000, left = total, paused = false, last = Date.now();
+    var timer = setInterval(function () {
+      var now = Date.now();
+      if (!paused) left -= now - last;
+      last = now;
+      if (left <= 0) { close(); return; }
+      bar.style.width = (left / total) * 100 + "%";
+      count.textContent = String(Math.ceil(left / 1000));
+    }, 100);
+    function pause() { paused = true; root.classList.add("is-paused"); }
+    function resume() {
+      if (card.matches(":hover") || card.contains(document.activeElement)) return;
+      paused = false; root.classList.remove("is-paused");
+    }
+    card.addEventListener("mouseenter", pause);
+    card.addEventListener("mouseleave", resume);
+    card.addEventListener("focusin", pause);
+    card.addEventListener("focusout", function () { setTimeout(resume, 0); });
+
+    var closed = false;
+    function close(thenOpen) {
+      if (closed) return;
+      closed = true;
+      clearInterval(timer);
+      window.removeEventListener("resize", place);
+      document.removeEventListener("keydown", onKey, true);
+      root.classList.add("is-leaving");
+      setTimeout(function () { if (root.parentNode) root.parentNode.removeChild(root); }, reduce ? 0 : 250);
+      if (thenOpen && target.opener) {
+        target.opener.click();
+      } else if (before && before.focus && document.contains(before)) {
+        try { before.focus({ preventScroll: true }); } catch (e) { /* ignore */ }
+      }
+    }
+    function onKey(e) { if (e.key === "Escape") { e.preventDefault(); close(); } }
+    document.addEventListener("keydown", onKey, true);
+
+    root.addEventListener("click", function (e) {
+      if (e.target.closest("[data-nudge-login]")) { close(true); return; }
+      if (e.target.closest("[data-nudge-close]")) { close(); return; }
+      if (card.contains(e.target)) return;
+      // A click on the ringed button itself counts as "Log in".
+      var r = target.el && visibleRect(target.el);
+      var onTarget = r && e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom;
+      close(onTarget);
+    });
+
+    // Focus the card itself (not the button), so the countdown keeps
+    // running until the student actually engages with it.
+    setTimeout(function () {
+      if (closed) return;
+      try { card.focus({ preventScroll: true }); } catch (e) { /* ignore */ }
+      paused = false; root.classList.remove("is-paused");
+    }, 0);
+  }
+
   function boot() {
     showCloudCopy();
     render();
-    if (!hasStoredSession() && !isAuthCallback()) return; // signed out: stay offline
+    if (!hasStoredSession() && !isAuthCallback()) { maybeShowLoginNudge(); return; } // signed out: stay offline
     // Back from Google or an email link but no session: the link expired,
     // was already used, or was opened in another browser than the one
     // that asked for it.

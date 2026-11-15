@@ -16,6 +16,8 @@
  *   - attempts, correctCount, incorrectCount
  *   - consecutiveCorrect (resets to 0 on any miss)
  *   - lastAttemptAt, lastCorrect
+ *   - lastWrongAnswer, lastWrongAt (the student's latest wrong answer,
+ *     when the exercise engine reports it)
  *   - a simple SM-2-lite interval (in days) and the resulting dueAt date
  *   - masteryStatus: "new" | "learning" | "mastered"
  *
@@ -123,7 +125,7 @@
     };
   }
 
-  function applyAttempt(state, key, correct) {
+  function applyAttempt(state, key, correct, response) {
     var rec = state.items[key] || defaultItemRecord();
     var today = todayStr();
     var wasCorrectBefore = rec.lastCorrect === true && rec.lastAttemptAt !== today;
@@ -138,6 +140,12 @@
     } else {
       rec.incorrectCount += 1;
       rec.consecutiveCorrect = 0;
+      // What the student actually answered, so Today's Review can show
+      // it beside the right answer. Only the latest miss is kept.
+      if (response) {
+        rec.lastWrongAnswer = String(response).slice(0, 300);
+        rec.lastWrongAt = today;
+      }
     }
 
     var rung = Math.min(rec.consecutiveCorrect, INTERVAL_LADDER_DAYS.length) - 1;
@@ -184,7 +192,7 @@
       // A blank left empty is not a wrong answer, and a self-check
       // item has no right answer to remember.
       if (!r || !r.itemId || !r.attempted || r.selfCheck) return;
-      applyAttempt(state, masteryKey(detail.id, String(r.itemId)), !!r.correct);
+      applyAttempt(state, masteryKey(detail.id, String(r.itemId)), !!r.correct, r.response);
       changed = true;
     });
     if (changed) saveState(state);

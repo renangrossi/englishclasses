@@ -1632,3 +1632,125 @@ audio {
 .policy ul { list-style: disc; padding-left: 1.3em; margin: 0 0 1em; }
 .policy li { margin-bottom: 0.5em; }
 .policy a { text-decoration: underline; }
+
+/* ------------------------------------------------------------------
+   Today's Review — study coach (assets/js/today-review.js)
+   ------------------------------------------------------------------ */
+.coach-next {
+  padding: var(--space-md);
+  border: var(--border-hairline);
+  border-left: 4px solid var(--color-accent);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface-raised);
+  margin-bottom: var(--space-md);
+}
+.coach-next .eyebrow { margin-bottom: 0.3em; }
+.coach-next__title { font-size: var(--step-2); margin: 0; }
+.coach-next__why { color: var(--color-text-muted); margin: 0.5em 0 var(--space-sm); max-width: 62ch; }
+
+.coach-plan {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-md);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: var(--space-xs);
+  counter-reset: none;
+}
+.coach-plan__step a {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7em;
+  height: 100%;
+  padding: 0.8em 0.9em;
+  border: var(--border-hairline);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-raised);
+  color: var(--color-text);
+  text-decoration: none;
+}
+.coach-plan__step a:hover { border-color: var(--color-border-strong); }
+.coach-plan__num {
+  flex: 0 0 auto;
+  width: 1.9em; height: 1.9em;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  font-weight: 700;
+  font-size: var(--step--1);
+  color: var(--color-text-muted);
+}
+.coach-plan__text { display: flex; flex-direction: column; gap: 0.15em; min-width: 0; }
+.coach-plan__text strong { font-size: var(--step--1); }
+.coach-plan__text span { font-size: var(--step--1); color: var(--color-text-muted); overflow-wrap: anywhere; }
+.coach-plan__step.is-current a { border-color: var(--color-accent); box-shadow: inset 0 0 0 1px var(--color-accent); }
+.coach-plan__step.is-current .coach-plan__num { background: var(--color-accent); border-color: var(--color-accent); color: #fff; }
+.coach-plan__step.is-done a { opacity: 0.75; }
+.coach-plan__step.is-done .coach-plan__num { background: var(--color-success-bg); border-color: var(--color-success); color: var(--color-success); }
+
+.coach-stats { margin-bottom: var(--space-sm); }
+.coach-stats .progress-stat strong { font-size: var(--step-2); }
+.coach-mastery { grid-column: 1 / -1; padding-top: var(--space-xs); }
+.coach-mastery__hint { font-size: var(--step--1); color: var(--color-text-muted); margin: 0.4em 0 0; }
+.coach-note { font-size: var(--step--1); color: var(--color-text-muted); max-width: 70ch; margin: var(--space-sm) 0 0; }
+
+.coach-done {
+  margin-top: var(--space-md);
+  padding: var(--space-md);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-success);
+  background: var(--color-success-bg);
+}
+.coach-done:focus { outline: 2px solid var(--color-focus-ring); outline-offset: 3px; }
+.coach-done__title { font-family: var(--font-display); font-size: var(--step-2); color: var(--color-success); margin: 0 0 0.3em; }
+.coach-done p { margin: 0 0 0.5em; }
+.coach-done__actions { display: flex; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-sm) !important; }
+
+.coach-empty, .coach-lede { color: var(--color-text-muted); max-width: 70ch; }
+.coach-h3 { font-size: var(--step-1); margin: var(--space-md) 0 0.3em; }
+.coach-h3:first-child { margin-top: 0; }
+
+.mistake-list { list-style: none; padding: 0; margin: var(--space-sm) 0 0; display: grid; gap: var(--space-xs); }
+.mistake {
+  padding: var(--space-sm);
+  border: var(--border-hairline);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-raised);
+}
+.mistake--recurring { border-left: 4px solid var(--color-danger); }
+.mistake__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4em 0.6em; font-size: var(--step--1); color: var(--color-text-muted); }
+.mistake__tag { padding: 0.1em 0.6em; border-radius: 999px; border: 1px solid var(--color-border); font-weight: 600; }
+.mistake__tag--recurring { color: var(--color-danger); border-color: var(--color-danger); background: var(--color-danger-bg); }
+.mistake__tag--fixed { color: var(--color-success); border-color: var(--color-success); background: var(--color-success-bg); }
+.mistake__prompt { font-weight: 600; margin: 0.5em 0; overflow-wrap: anywhere; }
+.mistake__answers { margin: 0; display: grid; gap: 0.3em; }
+.mistake__row { display: grid; grid-template-columns: 9.5em 1fr; gap: 0.6em; }
+.mistake__row dt { font-size: var(--step--1); color: var(--color-text-muted); }
+.mistake__row dd { margin: 0; overflow-wrap: anywhere; }
+.mistake__row--wrong dd { color: var(--color-danger); text-decoration: line-through; text-decoration-thickness: 1px; }
+.mistake__row--right dd { color: var(--color-success); font-weight: 600; }
+.mistake__why { font-size: var(--step--1); color: var(--color-text-muted); margin: 0.5em 0 0; }
+.mistake__link { display: inline-block; margin-top: 0.5em; font-size: var(--step--1); font-weight: 600; }
+.mistake-more { margin-top: var(--space-sm); }
+.mistake-more summary { cursor: pointer; font-weight: 600; color: var(--color-accent); }
+
+.rec-list { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--space-xs); }
+.rec a {
+  display: flex; flex-direction: column; gap: 0.2em;
+  padding: 0.8em 1em;
+  border: var(--border-hairline);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-raised);
+  color: var(--color-text);
+  text-decoration: none;
+}
+.rec a:hover { border-color: var(--color-border-strong); }
+.rec__title { font-weight: 700; }
+.rec__meta { font-size: var(--step--1); color: var(--color-text-muted); }
+.rec--next a { border-left: 4px solid var(--color-accent); }
+
+@media (max-width: 560px) {
+  .coach-plan { grid-template-columns: 1fr; }
+  .mistake__row { grid-template-columns: 1fr; gap: 0; }
+  .coach-next__go { width: 100%; justify-content: center; }
+}

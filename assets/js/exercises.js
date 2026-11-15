@@ -857,7 +857,7 @@
         });
         wrap.classList.add("is-locked");
         setFeedback(fb, correct, null, iconWrap, attempted);
-        return { correct: correct, attempted: attempted };
+        return { correct: correct, attempted: attempted, response: attempted ? String((item.options || [])[chosen]) : "" };
       },
     };
   }
@@ -919,7 +919,7 @@
         }
         wrap.classList.add("is-locked");
         setFeedback(fb, correct, null, iconWrap, attempted);
-        return { correct: correct, attempted: attempted };
+        return { correct: correct, attempted: attempted, response: attempted ? (chosen ? "True" : "False") : "" };
       },
     };
   }
@@ -1027,7 +1027,7 @@
         // revealing every blank's answer just because one of several was
         // attempted.
         setFeedback(fb, allCorrect, allCorrect ? null : correctText, iconWrap, allFilled);
-        return { correct: allCorrect, attempted: attempted };
+        return { correct: allCorrect, attempted: attempted, response: inputs.map(function (inp) { return inp.value.trim() || "—"; }).join(" · ") };
       },
     };
   }
@@ -1068,7 +1068,7 @@
         wrap.classList.add("is-locked");
         var correctText = Array.isArray(item.answer) ? item.answer[0] : item.answer;
         setFeedback(fb, ok, ok ? null : correctText, iconWrap, attempted);
-        return { correct: ok, attempted: attempted };
+        return { correct: ok, attempted: attempted, response: input.value.trim() };
       },
     };
   }
@@ -1122,7 +1122,7 @@
         input.classList.add(ok ? "is-correct" : "is-incorrect");
         var correctText = Array.isArray(item.answer) ? item.answer[0] : item.answer;
         setFeedback(fb, ok, ok ? null : correctText, iconWrap, attempted);
-        return { correct: ok, attempted: attempted };
+        return { correct: ok, attempted: attempted, response: input.value.trim() };
       },
     };
   }
@@ -1221,7 +1221,9 @@
         });
         wrap.classList.add("is-locked");
         setFeedback(fb, allCorrect, null, iconWrap, allFilled);
-        return { correct: allCorrect, attempted: attempted };
+        var wrongPairs = [];
+        selects.forEach(function (s, i) { if (s.value && norm(s.value) !== norm(item.pairs[i].right)) wrongPairs.push(item.pairs[i].left + " → " + s.value); });
+        return { correct: allCorrect, attempted: attempted, response: wrongPairs.join("; ") };
       },
     };
   }
@@ -1310,7 +1312,7 @@
         // it gets "Not filled in." rather than revealing the full correct
         // order for a sentence the student never finished building.
         setFeedback(fb, correct, correct ? null : correctText, iconWrap, allPlaced);
-        return { correct: correct, attempted: attempted };
+        return { correct: correct, attempted: attempted, response: userOrder.join(" ") };
       },
     };
   }
@@ -1839,9 +1841,13 @@
   function init() {
     document.querySelectorAll(".exercise-block").forEach(function (container) {
       var dataScript = container.querySelector("script.exercise-data");
-      if (!dataScript) return;
+      if (!dataScript || container.hasAttribute("data-exercise-built")) return;
+      container.setAttribute("data-exercise-built", "");
       try {
         var data = JSON.parse(dataScript.textContent);
+        // An anchor per block ("lesson.html#ex-tobe-fill-p1"), so Today's
+        // Review can send a student straight to the exercise to improve.
+        if (data.id && !container.id && !document.getElementById("ex-" + data.id)) container.id = "ex-" + data.id;
         if (data.type === "writing") {
           buildWritingBlock(container, data);
         } else {
@@ -1855,7 +1861,15 @@
     addTestYourselfSaveButtons();
     addHubSectionSaveButtons();
     addPracticeSaveAllButton();
+    // The block ids above are set by script, after the browser's own
+    // jump to "#ex-..." already found nothing -- so jump now.
+    var hash = window.location.hash;
+    if (/^#ex-/.test(hash) && !scrolledToHash) {
+      var target = document.getElementById(decodeURIComponent(hash.slice(1)));
+      if (target) { scrolledToHash = true; target.scrollIntoView({ block: "start" }); }
+    }
   }
+  var scrolledToHash = false;
 
   // Injects the Test Yourself save buttons -- only on pages that
   // actually have the Test Yourself topic structure (one or more
@@ -2149,8 +2163,8 @@
   // have it graded by the exact same engine as every hand-authored
   // lesson page, instead of a second rendering implementation. Calling
   // init() again only re-scans .exercise-block elements currently in
-  // the DOM; on a page that has none at load time (today-review.html
-  // starts empty and injects its own), this is safe to call as many
-  // times as needed with no double-processing risk.
+  // the DOM and skips blocks it has already built
+  // ([data-exercise-built]), so it is safe to call again after adding
+  // new blocks.
   window.ExerciseEngine = { init: init, matchesAny: matchesAny, toleranceFor: toleranceFor };
 })();

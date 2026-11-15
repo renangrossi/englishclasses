@@ -246,7 +246,6 @@
 
   function steps(a) {
     var remaining = a.overdue.length + a.dueToday.length;
-    var weakTop = a.weak[0];
     return [
       { id: "overdue", label: "Overdue reviews",
         detail: a.overdue.length ? plural(a.overdue.length, "item") + ", oldest " + plural(daysBetween(a.oldestDue, a.today), "day") + " late" : "None",
@@ -256,7 +255,12 @@
         done: a.dueToday.length === 0, href: "#review-queue" },
       { id: "improve", label: "Exercises to improve",
         detail: a.weak.length ? plural(a.weak.length, "exercise") + " under " + Math.round(IMPROVE_BELOW * 100) + "%" : "None",
-        done: a.weak.length === 0, href: weakTop ? "#coach-improve" : "#coach-recs" },
+        done: a.weak.length === 0, href: "#coach-improve" },
+      // Informational only: mistakes stay open until mastered, days later,
+      // so this step is never the "next" one and never blocks step 5.
+      { id: "mistakes", label: "Your mistakes", info: true,
+        detail: a.mistakes.length ? plural(a.mistakes.length, "open mistake") : "None open",
+        done: a.mistakes.length === 0, href: "#coach-mistakes" },
       { id: "new", label: a.next.kind === "lesson" ? "New lesson" : "Next step",
         detail: a.next.title + (a.next.level ? " (" + a.next.level + ")" : ""),
         done: false, href: "#coach-recs", remaining: remaining },
@@ -267,7 +271,7 @@
     var box = document.getElementById("coach-next");
     var plan = document.getElementById("coach-plan");
     var list = steps(a);
-    var current = list.filter(function (s) { return !s.done; })[0];
+    var current = list.filter(function (s) { return !s.done && !s.info; })[0];
 
     plan.innerHTML = list.map(function (s, i) {
       var state = s.done ? "is-done" : s === current ? "is-current" : "";
@@ -500,12 +504,17 @@
 
   // Every exercise under the bar, right under the plan, so the student
   // can pick which one to do. Worst first; each link opens the exercise.
+  // Step 3's own section: every exercise under the bar, worst first,
+  // each opening its exercise, so the student can pick one.
   function renderImprove(a) {
-    var box = document.getElementById("coach-improve");
-    if (!a.weak.length) { box.hidden = true; box.innerHTML = ""; return; }
-    box.hidden = false;
-    box.innerHTML = '<h3 class="coach-h3">Exercises to improve</h3>' +
-      '<p class="coach-lede">Your best score on ' + (a.weak.length === 1 ? "this exercise is" : "these " + a.weak.length + " exercises is") +
+    var box = document.getElementById("improve-body");
+    if (!a.weak.length) {
+      box.innerHTML = '<p class="coach-empty">' + (a.exercisesDone
+        ? "None. Every exercise you've done has a best score of " + Math.round(IMPROVE_BELOW * 100) + "% or more."
+        : "Nothing yet. Exercises you score under " + Math.round(IMPROVE_BELOW * 100) + "% on will be listed here.") + "</p>";
+      return;
+    }
+    box.innerHTML = '<p class="coach-lede">Your best score on ' + (a.weak.length === 1 ? "this exercise is" : "these " + a.weak.length + " exercises is") +
       " under " + Math.round(IMPROVE_BELOW * 100) + "%. Worst first. Pick any one to open it.</p>" +
       '<ul class="rec-list">' + a.weak.map(function (w) {
         var pct = Math.round((w.best / w.total) * 100);

@@ -815,6 +815,7 @@
     toggle.appendChild(streakEl);
     toggle.appendChild(el("span", { class: "progress-toggle__dot", "aria-hidden": "true", text: "·" }));
     toggle.appendChild(xpEl);
+    toggle.appendChild(el("span", { class: "progress-toggle__login", text: "LOG IN" }));
 
     // Mobile menu row — lives inside #primary-nav's own list, right
     // after Dictionary, so on mobile (where the pill above is hidden)
@@ -841,6 +842,7 @@
       stat.appendChild(el("span", { class: "progress-menu-toggle__dot", "aria-hidden": "true", text: "·" }));
       menuXpEl = el("span", { class: "progress-menu-toggle__xp", text: "0 XP" });
       stat.appendChild(menuXpEl);
+      stat.appendChild(el("span", { class: "progress-menu-toggle__login", text: "LOG IN" }));
       menuToggle.appendChild(stat);
 
       menuItem = el("li", { class: "primary-nav__item primary-nav__item--progress" }, [menuToggle]);
@@ -1044,11 +1046,18 @@
     if (els.menuItem) els.menuItem.hidden = !active;
     if (els.menuStreakEl) els.menuStreakEl.textContent = String(state.streak.count);
     if (els.menuXpEl) els.menuXpEl.textContent = state.xp + " XP";
+    // Sign-in available but not signed in: the pill reads "LOG IN"
+    // (it still opens the panel, where the Google button lives).
+    var loginLabel = "Log in to save your progress (opens progress panel)";
+    var showLogin = cloudEnabled() && !(window.CloudSync.hasSession && window.CloudSync.hasSession());
+    els.toggle.classList.toggle("is-login", showLogin);
+    els.toggle.setAttribute("aria-label", showLogin ? loginLabel : "Your progress: XP, streak and badges");
     if (els.menuToggle) {
       els.menuToggle.classList.toggle("has-streak", state.streak.count > 0);
+      els.menuToggle.classList.toggle("is-login", showLogin);
       els.menuToggle.setAttribute(
         "aria-label",
-        "Your progress: " + state.xp + " XP, " + state.streak.count + "-day streak"
+        showLogin ? loginLabel : "Your progress: " + state.xp + " XP, " + state.streak.count + "-day streak"
       );
     }
     if (!active && !els.panel.hidden) els.close();
@@ -1220,6 +1229,9 @@
     renderToggle(loadState());
     renderProgressPage();
   }
+
+  // cloud-sync.js fires this on sign-in, sign-out and status changes.
+  document.addEventListener("rt:account", function () { renderToggle(loadState()); });
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);

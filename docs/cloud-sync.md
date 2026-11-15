@@ -1,6 +1,7 @@
-# Saved progress (Supabase + Google sign-in)
+# Saved progress (Supabase + Google or email sign-in)
 
-Students can sign in with Google and have their XP, streak, badges and
+Students can sign in with Google, or with a link/code sent to their
+email, and have their XP, streak, badges and
 review history saved to an account, so it follows them between devices.
 Signing in is optional: signed out, the site works from `localStorage`
 exactly as before and sends nothing anywhere.
@@ -54,6 +55,38 @@ In Supabase:
      and, for testing on your own machine, `http://localhost:8000/**`.
 
    Students return to the page they signed in from, so the `/**` matters.
+
+### 3b. Email sign-in (link + code)
+
+The sign-in block offers an email box under the Google button. One email
+carries both a **link** (works in the browser that asked for it) and a
+**6-digit code** (works anywhere -- e.g. email read on the phone while the
+course is open on a computer). It needs:
+
+1. **A custom SMTP sender.** Supabase's built-in sender only delivers to
+   members of your Supabase team and allows 2 emails an hour, so students
+   would get nothing. Create an account with an email service (Brevo,
+   Resend, ...), verify the sender address/domain there, and enter its
+   SMTP details in **Authentication → Emails → SMTP Settings**. Then raise
+   the email limit in **Authentication → Rate Limits** if needed.
+2. **Authentication → Sign In / Providers → Email**: enabled. "Confirm
+   email" can stay on; the link/code is the confirmation.
+3. **Authentication → Emails → Templates → Magic Link** must show the
+   code as well as the link, or the code box is useless. For example:
+
+   ```html
+   <h2>Sign in to Renan the Teacher</h2>
+   <p><a href="{{ .ConfirmationURL }}">Sign in</a></p>
+   <p>Or type this code on the page where you asked for it: <strong>{{ .Token }}</strong></p>
+   <p>If you did not ask for this, you can ignore this email.</p>
+   ```
+
+   Do the same in the **Confirm signup** template: a student's first email
+   uses that one.
+4. Name the email service in `privacy.html` ("If you sign in with your
+   email").
+
+The redirect URLs from step 3 already cover the link.
 
 ### 4. Switch it on in the site
 

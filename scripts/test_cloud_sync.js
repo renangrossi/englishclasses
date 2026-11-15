@@ -10,7 +10,7 @@ const cloudSrc = src("cloud-sync.js")
   .replace("var UPLOAD_DELAY_MS = 1500;", "var UPLOAD_DELAY_MS = 5;");
 assert(cloudSrc.includes('"https://x.supabase.co"') && cloudSrc.includes("= 5;"));
 
-const server = { rows: {}, writes: 0, fail: false };
+const server = { rows: {}, writes: 0, fail: false, otpSent: [], otpError: null };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 function device(sessionUser, { mastery = true, initial = {} } = {}) {
@@ -36,6 +36,12 @@ function device(sessionUser, { mastery = true, initial = {} } = {}) {
       getSession: async () => ({ data: { session } }),
       onAuthStateChange() {},
       signOut: async () => { session = null; delete store.rt_auth; return {}; },
+      signInWithOtp: async args => { server.otpSent.push(args); return server.otpError ? { error: server.otpError } : { data: {} }; },
+      verifyOtp: async ({ email, token, type }) => {
+        if (token !== "123456" || type !== "email") return { error: { message: "Token has expired or is invalid" } };
+        session = { user: { id: "cara", email } }; store.rt_auth = "x";
+        return { data: { session } };
+      },
     },
     from: () => ({
       select: () => ({ eq: (_c, id) => ({ maybeSingle: async () => {
@@ -192,4 +198,31 @@ function device(sessionUser, { mastery = true, initial = {} } = {}) {
   vm.runInContext(src("cloud-sync.js").replace(/var SUPABASE_URL = "[^"]*";/, 'var SUPABASE_URL = "";'), plain);
   assert.strictEqual(plain.CloudSync.enabled, false);
   console.log("9 ok  with no project URL the file is inert");
+
+  // 10. Email sign-in: link + code. Signed-out progress goes up after the code.
+  const cara = device(null);
+  cara.submit("ex10", 2, 2);
+  assert.strictEqual(await cara.w.CloudSync.sendEmailLink("not-an-email"), false);
+  assert.strictEqual(server.otpSent.length, 0, "bad address is not sent");
+  assert.strictEqual(await cara.w.CloudSync.sendEmailLink("  cara@example.com "), true);
+  const sent = server.otpSent[0];
+  assert.strictEqual(sent.email, "cara@example.com");
+  assert.strictEqual(sent.options.emailRedirectTo, "https://h/englishclasses/levels/a1/x.html", "link comes back to this page");
+  assert(JSON.parse(cara.store.rt_email_pending).email === "cara@example.com", "pending email remembered");
+  assert.strictEqual(cara.w.CloudSync.isSignedIn(), false);
+  assert.strictEqual(await cara.w.CloudSync.verifyEmailCode("999999"), false, "wrong code");
+  assert.strictEqual(cara.w.CloudSync.isSignedIn(), false);
+  assert.strictEqual(await cara.w.CloudSync.verifyEmailCode("123 456"), true, "code with a space still works");
+  await sleep(60);
+  assert(!cara.store.rt_email_pending, "pending email cleared after sign-in");
+  assert(server.rows.cara && server.rows.cara.progress.exercises.ex10, "progress made before signing in is uploaded");
+  console.log("10 ok email link/code sign-in, then sync");
+
+  // 11. Sending fails (rate limit): nothing remembered, no sign-in.
+  const dan = device(null);
+  server.otpError = { status: 429, message: "email rate limit exceeded" };
+  assert.strictEqual(await dan.w.CloudSync.sendEmailLink("dan@example.com"), false);
+  assert(!dan.store.rt_email_pending);
+  server.otpError = null;
+  console.log("11 ok a failed send leaves no pending code");
 })().catch(e => { console.error("FAIL", e); process.exit(1); });

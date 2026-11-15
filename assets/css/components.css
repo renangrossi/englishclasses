@@ -1593,6 +1593,37 @@ audio {
 }
 .progress-panel .cloud-account__google { width: 100%; }
 .cloud-account__privacy { display: block; margin-top: 0.6em; color: var(--color-text-muted); font-size: 0.78rem; }
+/* "or" between the Google button and the email form, as a thin rule. */
+.cloud-account__or {
+  display: flex; align-items: center; gap: 0.75em;
+  max-width: 22rem; margin: 0.7em 0; color: var(--color-text-muted);
+}
+.cloud-account__or::before, .cloud-account__or::after {
+  content: ""; flex: 1; border-top: 1px solid var(--color-border, #dadce0);
+}
+.cloud-account__email { margin: 0; max-width: 22rem; }
+.cloud-account__label { display: block; margin: 0 0 0.35em; color: var(--color-text-muted); }
+.cloud-account__field { display: flex; gap: 0.5em; }
+.cloud-account__input {
+  flex: 1; min-width: 0; min-height: 40px; padding: 0 0.75em;
+  border: 1px solid #dadce0; border-radius: 6px;
+  background: #fff; color: #1f1f1f; font: inherit;
+}
+.cloud-account__input:focus { outline: 2px solid var(--color-focus-ring, #1a73e8); outline-offset: 1px; }
+.cloud-account__code { letter-spacing: 0.15em; }
+.cloud-account__send {
+  flex: none; min-height: 40px; padding: 0 1em;
+  border: 1px solid #dadce0; border-radius: 6px;
+  background: #fff; color: #1f1f1f;
+  font: inherit; font-weight: 600; cursor: pointer;
+}
+.cloud-account__send:hover { background: #f6f8fb; }
+.cloud-account__send:disabled, .cloud-account__input:disabled { opacity: 0.6; cursor: progress; }
+.cloud-account__msg { margin: 0.5em 0 0; }
+.cloud-account__links { margin-top: 0.6em; flex-wrap: wrap; justify-content: flex-start; }
+.cloud-account__signout:disabled { opacity: 0.6; cursor: progress; }
+.progress-panel .cloud-account__or,
+.progress-panel .cloud-account__email { max-width: none; }
 
 /* ---- Plain text pages (privacy.html) ---------------------------------
    base.css strips list bullets and heading margins for the component

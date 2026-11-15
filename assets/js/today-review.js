@@ -587,9 +587,13 @@
     var ids = [];
     groupOrder.forEach(function (g, i) {
       var parts = g.split("::"), level = parts[0], type = parts[1];
-      var id = "review-" + sessionRound + "-" + i + "-" + g.replace(/[^a-z0-9]/gi, "-");
+      // The block id is what progress.js awards XP for, once per id. It
+      // must not change between sessions or rounds, or every "Practice
+      // again" would pay out XP again: one id per level + type.
+      var dataId = "review-" + g.replace(/[^a-z0-9]/gi, "-");
+      var id = dataId + "-r" + sessionRound; // the element id only needs to be unique
       var data = {
-        id: id, type: type,
+        id: dataId, type: type,
         title: (TYPE_LABELS[type] || type) + " — " + level + " " + label,
         instructions: "Mixed review from " + level + " lessons you've already studied.",
         items: groups[g],

@@ -27,6 +27,16 @@
   color: var(--color-accent);
   margin-bottom: 0.4em;
 }
+.exercise-block__num {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin: 0 0.6em 0.4em 0;
+}
+.exercise-block__num::after { content: "·"; margin-left: 0.6em; }
 .exercise-block__title { font-size: var(--step-1); margin-bottom: 0.3em; }
 .exercise-block__instructions { color: var(--color-text-muted); font-size: var(--step--1); }
 

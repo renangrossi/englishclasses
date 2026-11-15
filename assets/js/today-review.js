@@ -101,6 +101,15 @@
     }
   }
 
+  // "Exercise VI: Fill in the Blanks (Part 1 of 3)" -- the number the
+  // lesson page shows above the exercise (assets/js/exercises.js).
+  function exerciseName(info) {
+    return "Exercise " + toRoman(info.num) + ": " + info.title;
+  }
+  function toRoman(n) {
+    return window.RomanNumeral ? window.RomanNumeral(n) : String(n);
+  }
+
   function weakHref(w) {
     return w.info.url + "#ex-" + encodeURIComponent(w.id);
   }
@@ -250,7 +259,7 @@
         done: a.weak.length === 0, href: weakTop ? "#coach-improve" : "#coach-recs" },
       { id: "new", label: a.next.kind === "lesson" ? "New lesson" : "Next step",
         detail: a.next.title + (a.next.level ? " (" + a.next.level + ")" : ""),
-        done: false, href: a.next.url, remaining: remaining },
+        done: false, href: "#coach-recs", remaining: remaining },
     ];
   }
 
@@ -263,7 +272,7 @@
     plan.innerHTML = list.map(function (s, i) {
       var state = s.done ? "is-done" : s === current ? "is-current" : "";
       return '<li class="coach-plan__step ' + state + '">' +
-        '<a href="' + esc(s.href) + '"' + (s.href === "#coach-improve" ? ' data-toggle-improve aria-controls="coach-improve" aria-expanded="' + improveOpen + '"' : "") + ">" +
+        '<a href="' + esc(s.href) + '">' +
         '<span class="coach-plan__num" aria-hidden="true">' + (s.done ? "✓" : i + 1) + "</span>" +
         '<span class="coach-plan__text"><strong>' + esc(s.label) + "</strong><span>" + esc(s.detail) + "</span></span>" +
         (s.done ? '<span class="visually-hidden"> (done)</span>' : s === current ? '<span class="visually-hidden"> (next)</span>' : "") +
@@ -285,7 +294,7 @@
       isReview = true;
     } else if (current.id === "improve") {
       var w = a.weak[0];
-      title = "Improve “" + w.info.title + "”";
+      title = "Improve " + w.info.lesson + ", " + exerciseName(w.info);
       why = "Your best score is " + w.best + " of " + w.total + " in " + w.info.lesson + " (" + w.info.level + "). " +
         (a.weak.length > 1 ? plural(a.weak.length - 1, "more exercise") + " also scored under " + Math.round(IMPROVE_BELOW * 100) + "%." : "Get it to " + Math.round(IMPROVE_BELOW * 100) + "% or more.");
       action = "Practice this exercise";
@@ -412,7 +421,7 @@
             var r = ex[id], pct = r.total ? Math.round((r.bestCorrect / r.total) * 100) : null;
             var weak = pct !== null && pct < IMPROVE_BELOW * 100;
             return '<li class="' + (weak ? "is-wrong" : "is-right") + '"><span class="coach-items__mark" aria-hidden="true">' + (weak ? "!" : "✓") + "</span>" +
-              '<a href="' + esc(u + "#ex-" + encodeURIComponent(id)) + '">' + esc(exerciseInfo[id].title) + "</a>" +
+              '<a href="' + esc(u + "#ex-" + encodeURIComponent(id)) + '">' + esc(exerciseName(exerciseInfo[id])) + "</a>" +
               '<span class="coach-items__score">' + (pct === null ? "done" : "best " + r.bestCorrect + " of " + r.total + " (" + pct + "%)") + "</span></li>";
           }).join("") + "</ul></div>";
       }).join("") : empty("None yet. Submit any exercise on a lesson page.");
@@ -491,19 +500,18 @@
 
   // Every exercise under the bar, right under the plan, so the student
   // can pick which one to do. Worst first; each link opens the exercise.
-  var improveOpen = false;
   function renderImprove(a) {
     var box = document.getElementById("coach-improve");
     if (!a.weak.length) { box.hidden = true; box.innerHTML = ""; return; }
-    box.hidden = !improveOpen;
+    box.hidden = false;
     box.innerHTML = '<h3 class="coach-h3">Exercises to improve</h3>' +
       '<p class="coach-lede">Your best score on ' + (a.weak.length === 1 ? "this exercise is" : "these " + a.weak.length + " exercises is") +
       " under " + Math.round(IMPROVE_BELOW * 100) + "%. Worst first. Pick any one to open it.</p>" +
       '<ul class="rec-list">' + a.weak.map(function (w) {
         var pct = Math.round((w.best / w.total) * 100);
         return '<li class="rec"><a href="' + esc(weakHref(w)) + '">' +
-          '<span class="rec__title">' + esc(w.info.title) + "</span>" +
-          '<span class="rec__meta">' + esc(w.info.lesson) + " (" + w.info.level + ") · best " + w.best + " of " + w.total + " (" + pct + "%)</span></a></li>";
+          '<span class="rec__title">' + esc(w.info.lesson) + " · " + esc(exerciseName(w.info)) + "</span>" +
+          '<span class="rec__meta">' + w.info.level + " · best " + w.best + " of " + w.total + " (" + pct + "%)</span></a></li>";
       }).join("") + "</ul>";
   }
 
@@ -606,7 +614,7 @@
       (remaining ? " " + plural(remaining, "more item") + " are due; they'll be in your next session." : "") + "</p>";
     html += '<p class="coach-done__actions">' +
       '<a class="btn btn--accent" href="' + esc(a.weak.length ? weakHref(a.weak[0]) : a.next.url) + '">' +
-      esc(!a.weak.length ? "Next: " + a.next.title : "Next: improve “" + a.weak[0].info.title + "”") + "</a>";
+      esc(!a.weak.length ? "Next: " + a.next.title : "Next: improve " + a.weak[0].info.lesson + ", Exercise " + toRoman(a.weak[0].info.num)) + "</a>";
     if (a.missedToday.length) html += ' <button type="button" class="btn btn--ghost" data-retry-missed>Practice today\'s ' + plural(a.missedToday.length, "mistake") + " again</button>";
     if (remaining) html += ' <button type="button" class="btn btn--ghost" data-more-review>Review ' + Math.min(remaining, MAX_ITEMS_PER_SESSION) + " more</button>";
     html += "</p>";
@@ -666,8 +674,8 @@
       order = res[1];
       order.levels.forEach(function (l) {
         l.lessons.forEach(function (lesson) {
-          lesson.exercises.forEach(function (id) {
-            exerciseInfo[id] = { lesson: lesson.title, level: l.code, url: lesson.url, title: id };
+          lesson.exercises.forEach(function (id, i) {
+            exerciseInfo[id] = { lesson: lesson.title, level: l.code, url: lesson.url, title: id, num: i + 1 };
           });
         });
       });
@@ -699,13 +707,6 @@
           var id = tile.getAttribute("data-tile");
           openTile = openTile === id ? null : id;
           refresh();
-          return;
-        }
-        if (t.closest("[data-toggle-improve]")) {
-          e.preventDefault();
-          improveOpen = !improveOpen;
-          refresh();
-          if (improveOpen) document.getElementById("coach-improve").scrollIntoView({ behavior: "smooth", block: "nearest" });
           return;
         }
         if (t.closest("[data-retry-missed]")) {

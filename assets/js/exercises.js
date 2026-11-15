@@ -1331,8 +1331,26 @@
     return { node: panel, ring: ring, textWrap: textWrap };
   }
 
+  // Lesson and Test Yourself pages number their exercises in page order
+  // ("Exercise VI"), so Today's Review can name one the student can find.
+  // The same numbers come from scripts/build_lesson_order.py (block ids
+  // in page order), so both always agree.
+  function toRoman(n) {
+    var map = [[1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90, "XC"], [50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];
+    var out = "";
+    map.forEach(function (p) { while (n >= p[0]) { out += p[1]; n -= p[0]; } });
+    return out;
+  }
+  window.RomanNumeral = toRoman;
+
+  function numberLabel(head, container) {
+    var n = container.getAttribute("data-exercise-number");
+    if (n) head.appendChild(el("span", { class: "exercise-block__num", text: "Exercise " + toRoman(+n) }));
+  }
+
   function buildBlock(container, data) {
     var head = el("div", { class: "exercise-block__head" });
+    numberLabel(head, container);
     head.appendChild(el("span", { class: "exercise-block__type", text: data.type.replace(/-/g, " ") }));
     head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Exercise" }));
     if (data.instructions) head.appendChild(el("p", { class: "exercise-block__instructions", text: data.instructions }));
@@ -1515,6 +1533,7 @@
      --------------------------------------------------------------- */
   function buildWritingBlock(container, data) {
     var head = el("div", { class: "exercise-block__head" });
+    numberLabel(head, container);
     head.appendChild(el("span", { class: "exercise-block__type", text: "writing" }));
     head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Writing" }));
     if (data.instructions) head.appendChild(el("p", { class: "exercise-block__instructions", text: data.instructions }));
@@ -1839,6 +1858,13 @@
   }
 
   function init() {
+    if (/\/levels\/[^/]+\/[^/]+\.html$/.test(window.location.pathname)) {
+      var n = 0;
+      document.querySelectorAll(".exercise-block").forEach(function (c) {
+        if (c.querySelector("script.exercise-data") && !c.hasAttribute("data-exercise-number")) c.setAttribute("data-exercise-number", String(++n));
+        else if (c.hasAttribute("data-exercise-number")) n = +c.getAttribute("data-exercise-number");
+      });
+    }
     document.querySelectorAll(".exercise-block").forEach(function (container) {
       var dataScript = container.querySelector("script.exercise-data");
       if (!dataScript || container.hasAttribute("data-exercise-built")) return;

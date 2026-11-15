@@ -33,7 +33,8 @@
 
   var MAX_ITEMS_PER_SESSION = 20;
   var IMPROVE_BELOW = 0.8;      // best score under 80% = "needs improvement"
-  var MISTAKES_SHOWN = 8;       // the rest sit behind "Show more"
+  var MISTAKES_FIRST = 6;       // mistakes shown at first...
+  var MISTAKES_MORE = 12;       // ...and how many each "Show more" adds
   var TYPE_LABELS = {
     "fill-blank": "Fill in the Blanks",
     "multiple-choice": "Multiple Choice",
@@ -191,6 +192,7 @@
 
     a.exercisesDone = Object.keys(ex).filter(function (id) { return !!exerciseInfo[id]; }).length;
     a.next = nextLesson(ex, rec.progress);
+    a.after = lessonsAfter(a.next, ex, 2);
     a.lessonsTotal = 0; a.lessonsStarted = 0;
     order.levels.forEach(function (l) {
       l.lessons.forEach(function (lesson) {
@@ -199,6 +201,20 @@
       });
     });
     return a;
+  }
+
+  // The `n` lessons not started yet that follow `next` in course order.
+  function lessonsAfter(next, ex, n) {
+    var out = [], seen = false;
+    if (next.kind !== "lesson") return out;
+    order.levels.forEach(function (l) {
+      l.lessons.forEach(function (lesson) {
+        if (out.length >= n) return;
+        if (lesson.url === next.url) { seen = true; return; }
+        if (seen && !lesson.exercises.some(function (id) { return !!ex[id]; })) out.push({ url: lesson.url, title: lesson.title, level: l.code });
+      });
+    });
+    return out;
   }
 
   // The next new step in course order: the first lesson with no
@@ -452,6 +468,8 @@
 
   /* ---------------- mistakes ---------------- */
 
+  // A compact card: lesson + how often, the prompt, then the wrong and
+  // right answers on one line each.
   function mistakeCard(x) {
     var item = x.item, m = x.m;
     var recurring = m.incorrectCount >= 2;
@@ -459,18 +477,21 @@
     return '<li class="mistake' + (recurring ? " mistake--recurring" : "") + '">' +
       '<div class="mistake__meta">' +
         '<span class="mistake__lesson">' + esc(item.level) + " · " + esc(item.lessonTitle) + "</span>" +
-        (recurring ? '<span class="mistake__tag mistake__tag--recurring">Missed ' + m.incorrectCount + " times</span>" : '<span class="mistake__tag">Missed once</span>') +
+        (recurring ? '<span class="mistake__tag mistake__tag--recurring">×' + m.incorrectCount + "</span>" : "") +
         (fixed ? '<span class="mistake__tag mistake__tag--fixed">Right last time</span>' : "") +
       "</div>" +
       '<p class="mistake__prompt">' + esc(promptText(item)) + "</p>" +
-      '<dl class="mistake__answers">' +
-        (m.lastWrongAnswer ? '<div class="mistake__row mistake__row--wrong"><dt>Your answer</dt><dd>' + esc(m.lastWrongAnswer) + "</dd></div>" : "") +
-        '<div class="mistake__row mistake__row--right"><dt>Correct answer</dt><dd>' + esc(answerText(item)) + "</dd></div>" +
-      "</dl>" +
+      (m.lastWrongAnswer ? '<p class="mistake__ans mistake__ans--wrong"><span aria-label="Your answer">✗</span> <s>' + esc(m.lastWrongAnswer) + "</s></p>" : "") +
+      '<p class="mistake__ans mistake__ans--right"><span aria-label="Correct answer">✓</span> ' + esc(answerText(item)) + "</p>" +
       (item.explanation ? '<p class="mistake__why">' + esc(item.explanation) + "</p>" : "") +
-      '<a class="mistake__link" href="' + esc(lessonLink(item)) + '">Revisit this in the lesson →</a>' +
+      '<a class="mistake__link" href="' + esc(lessonLink(item)) + '">Revisit in the lesson →</a>' +
       "</li>";
   }
+
+  // Bounded however many mistakes there are: the first MISTAKES_FIRST,
+  // then MISTAKES_MORE per click, and buttons to show one lesson only.
+  var mistakeFilter = null;     // lesson url, or null for all
+  var mistakeLimit = MISTAKES_FIRST;
 
   function renderMistakes(a) {
     var body = document.getElementById("mistakes-body");
@@ -480,24 +501,27 @@
         : "Nothing yet. Answers you get wrong in lesson exercises will show up here, with the correct answer and why.") + "</p>";
       return;
     }
+    if (mistakeFilter && !a.weakLessons.some(function (l) { return l.url === mistakeFilter; })) mistakeFilter = null;
     var recurring = a.mistakes.filter(function (x) { return x.m.incorrectCount >= 2; }).length;
-    var top = a.weakLessons.slice(0, 3);
-    var html = '<p class="coach-lede">' + plural(a.mistakes.length, "item") + " you've missed and not yet mastered" +
-      (recurring ? ", " + recurring + " of them more than once" : "") + ". " +
-      "They come back in your review until you get them right twice, on different days.</p>";
-    if (top.length) {
-      html += '<p class="coach-lede"><strong>Most missed:</strong> ' + top.map(function (l) {
-        return '<a href="' + esc(l.url) + '">' + esc(l.title) + "</a> (" + l.level + ", " + plural(l.items, "item") + ")";
-      }).join(", ") + ".</p>";
+    var html = '<p class="coach-lede">' + plural(a.mistakes.length, "item") + " missed and not yet mastered" +
+      (recurring ? ", " + recurring + " of them more than once (×)" : "") +
+      ". They come back in your review until you get them right twice, on different days.</p>";
+    if (a.weakLessons.length > 1) {
+      html += '<div class="mistake-filter" role="group" aria-label="Show mistakes from one lesson">' +
+        '<button type="button" class="tag-chip" data-mistake-filter="" aria-pressed="' + !mistakeFilter + '">All (' + a.mistakes.length + ")</button>" +
+        a.weakLessons.slice(0, 8).map(function (l) {
+          return '<button type="button" class="tag-chip" data-mistake-filter="' + esc(l.url) + '" aria-pressed="' + (mistakeFilter === l.url) + '">' +
+            esc(l.title) + " (" + l.items + ")</button>";
+        }).join("") + "</div>";
     }
-    html += '<ul class="mistake-list">' + a.mistakes.slice(0, MISTAKES_SHOWN).map(mistakeCard).join("") + "</ul>";
-    if (a.mistakes.length > MISTAKES_SHOWN) {
-      html += '<details class="mistake-more"><summary>Show ' + plural(a.mistakes.length - MISTAKES_SHOWN, "more mistake") + "</summary>" +
-        '<ul class="mistake-list">' + a.mistakes.slice(MISTAKES_SHOWN).map(mistakeCard).join("") + "</ul></details>";
-    }
-    var openBefore = body.querySelector("details.mistake-more[open]");
+    var list = mistakeFilter ? a.mistakes.filter(function (x) { return x.item.lessonUrl === mistakeFilter; }) : a.mistakes;
+    var shown = list.slice(0, mistakeLimit);
+    html += '<ul class="mistake-list">' + shown.map(mistakeCard).join("") + "</ul>";
+    var rest = list.length - shown.length;
+    html += '<p class="mistake-count">Showing ' + shown.length + " of " + list.length +
+      (rest ? ' <button type="button" class="btn btn--ghost btn--small" data-mistakes-more>Show ' + Math.min(rest, MISTAKES_MORE) + " more</button>" : "") +
+      (mistakeLimit > MISTAKES_FIRST ? ' <button type="button" class="btn btn--ghost btn--small" data-mistakes-less>Show fewer</button>' : "") + "</p>";
     body.innerHTML = html;
-    if (openBefore) { var d = body.querySelector("details.mistake-more"); if (d) d.open = true; }
   }
 
   /* ---------------- recommendations ---------------- */
@@ -524,21 +548,18 @@
       }).join("") + "</ul>";
   }
 
+  // Step 5: new material only -- the next lesson, then the two after it
+  // in course order (lessons not started yet).
   function renderRecs(a) {
     var body = document.getElementById("recs-body");
-    var html = "";
-    if (a.weakLessons.length) {
-      html += '<h3 class="coach-h3">Topics you miss most</h3><p class="coach-lede">Lessons with the most missed items you haven\'t mastered yet. Re-read the explanation, then redo the exercises.</p>' +
-        '<ul class="rec-list">' + a.weakLessons.slice(0, 3).map(function (l) {
-          return '<li class="rec"><a href="' + esc(l.url) + '">' +
-            '<span class="rec__title">' + esc(l.title) + "</span>" +
-            '<span class="rec__meta">' + l.level + " · " + plural(l.items, "missed item") + (l.recurring ? ", " + l.recurring + " missed more than once" : "") + "</span></a></li>";
-        }).join("") + "</ul>";
-    }
-    html += '<h3 class="coach-h3">New material</h3>' +
-      '<ul class="rec-list"><li class="rec rec--next"><a href="' + esc(a.next.url) + '">' +
+    var html = '<p class="coach-lede">New material, in course order. Start with the first.</p>' +
+      '<ol class="rec-list"><li class="rec rec--next"><a href="' + esc(a.next.url) + '">' +
       '<span class="rec__title">' + esc(a.next.title) + (a.next.level ? " (" + a.next.level + ")" : "") + "</span>" +
-      '<span class="rec__meta">' + esc(a.next.why) + "</span></a></li></ul>";
+      '<span class="rec__meta">Next · ' + esc(a.next.why) + "</span></a></li>" +
+      a.after.map(function (l) {
+        return '<li class="rec"><a href="' + esc(l.url) + '"><span class="rec__title">' + esc(l.title) + " (" + l.level + ")</span>" +
+          '<span class="rec__meta">After that</span></a></li>';
+      }).join("") + "</ol>";
     body.innerHTML = html;
   }
 
@@ -711,6 +732,14 @@
         var t = e.target;
         if (!t || !t.closest) return;
         if (t.closest("[data-start-review]")) { e.preventDefault(); startReview(); return; }
+        var mf = t.closest("[data-mistake-filter]");
+        if (mf) { mistakeFilter = mf.getAttribute("data-mistake-filter") || null; mistakeLimit = MISTAKES_FIRST; renderMistakes(analyse()); return; }
+        if (t.closest("[data-mistakes-more]")) { mistakeLimit += MISTAKES_MORE; renderMistakes(analyse()); return; }
+        if (t.closest("[data-mistakes-less]")) {
+          mistakeLimit = MISTAKES_FIRST; renderMistakes(analyse());
+          document.getElementById("coach-mistakes").scrollIntoView({ block: "start" });
+          return;
+        }
         var tile = t.closest("[data-tile]");
         if (tile) {
           var id = tile.getAttribute("data-tile");

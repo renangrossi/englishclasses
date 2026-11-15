@@ -1204,6 +1204,13 @@ audio {
 .progress-toggle__flame svg { width: 100%; height: 100%; }
 .progress-toggle.has-streak .progress-toggle__flame { color: var(--color-gold); }
 .progress-toggle__dot { opacity: 0.5; }
+/* Signed out with sign-in available: "LOG IN" replaces flame/streak/XP. */
+.progress-toggle__login,
+.progress-menu-toggle__login { display: none; letter-spacing: 0.04em; }
+.progress-toggle.is-login > *,
+.progress-menu-toggle.is-login .progress-menu-toggle__stat > * { display: none; }
+.progress-toggle.is-login > .progress-toggle__login,
+.progress-menu-toggle.is-login .progress-menu-toggle__stat > .progress-menu-toggle__login { display: inline; }
 .progress-toggle--floating {
   position: fixed;
   right: var(--fab-edge);

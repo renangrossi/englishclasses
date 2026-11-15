@@ -346,6 +346,9 @@
 
   function render() {
     if (!enabled) return;
+    // Lets the header pill (progress.js) switch between "LOG IN" and
+    // the XP display whenever the account state may have changed.
+    try { document.dispatchEvent(new CustomEvent("rt:account")); } catch (e) { /* old browser */ }
     var slots = document.querySelectorAll("[data-cloud-account]");
     Array.prototype.forEach.call(slots, function (slot) {
       slot.textContent = "";
@@ -405,6 +408,12 @@
   window.CloudSync = {
     enabled: enabled,
     isSignedIn: function () { return !!user; },
+    // Signed in, or a stored session that has not been checked yet
+    // (signed out, the library is never downloaded). Used on first
+    // render so the header pill does not flash the wrong label. Back
+    // from Google (?code=... still in the address) also counts until
+    // boot() has exchanged the code and cleaned the address.
+    hasSession: function () { return !!user || hasStoredSession() || isAuthCallback(); },
     signIn: signIn,
     signOut: signOut,
     render: render,

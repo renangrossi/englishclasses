@@ -235,4 +235,31 @@ function device(sessionUser, { mastery = true, initial = {}, search = "" } = {})
   const again = device(eve, { initial: back.store }); await sleep(60);
   assert.strictEqual(again.w.location.assigned, null, "a restored session stays on the page");
   console.log("12 ok Today's Review opens after a new sign-in only");
+
+  // 13. The account already has progress; this browser has more, made
+  // signed out (some of it the same exercises). Signing in adds what the
+  // account lacks -- the overlap is not counted twice -- and keeps both
+  // sides' review history.
+  const finn = { id: "finn", email: "f@x" };
+  let finnPc = device(finn);
+  await sleep(60);
+  finnPc.submit("f1", 2, 2, [{ itemId: "a", attempted: true, correct: false }]);
+  finnPc.submit("f2", 1, 2);
+  await sleep(60);
+  const accountXp = server.rows.finn.progress.xp;
+  const lab = device(null);
+  lab.submit("f2", 2, 2);                                     // same exercise, better score
+  lab.submit("f3", 2, 2, [{ itemId: "b", attempted: true, correct: true }]); // new exercise
+  const X = lab.w.ProgressTracker.XP;
+  const back13 = device(finn, { initial: lab.store }); await sleep(80);
+  const row = server.rows.finn.progress;
+  assert(row.exercises.f1 && row.exercises.f2 && row.exercises.f3, "exercises from both sides");
+  assert.strictEqual(row.exercises.f2.bestCorrect, 2, "best score kept");
+  assert.strictEqual(row.exercises.f2.perfect, true, "perfect from either side");
+  // f3 is new (exercise + perfect bonus); f2 was perfect only here, so its
+  // perfect bonus is added too. f1, f2 and the shared badges count once.
+  assert.strictEqual(row.xp, accountXp + X.exercise + X.perfectBonus + X.perfectBonus, "XP = union, nothing twice (got " + row.xp + ", account had " + accountXp + ")");
+  assert(server.rows.finn.mastery.items["f1/a"] && server.rows.finn.mastery.items["f3/b"], "review history from both sides");
+  assert.strictEqual(back13.w.ProgressTracker.getState().xp, row.xp, "this browser shows the merged total");
+  console.log("13 ok signing in adds signed-out progress to the account without double counting, xp", accountXp, "->", row.xp);
 })().catch(e => { console.error("FAIL", e); process.exit(1); });

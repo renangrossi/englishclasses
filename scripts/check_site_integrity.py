@@ -76,7 +76,9 @@ from urllib.parse import unquote
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_ORIGIN = "https://renangrossi.github.io/englishclasses/"
-SKIP_DIRS = (".git/", ".claude/", "old/", "students/", "node_modules/", ".wrangler/")
+# supabase/ holds the auth email templates, whose {{ .ConfirmationURL }}
+# links are filled in by Supabase -- not pages of the site.
+SKIP_DIRS = (".git/", ".claude/", "old/", "students/", "node_modules/", ".wrangler/", "supabase/")
 
 # Types assets/js/exercises.js has a renderer for.
 EXERCISE_TYPES = {

@@ -115,6 +115,27 @@
     // Not a BADGES entry (see maybeCompleteTopic() / state.topicsCompleted),
     // but shares this same config object per docs/gamification.md.
     topic_complete: 20,
+    exercises_10: 10,
+    exercises_25: 15,
+    exercises_50: 20,
+    exercises_100: 30,
+    exercises_250: 50,
+    perfect_25: 25,
+    perfect_50: 35,
+    streak_60: 40,
+    streak_100: 60,
+    xp_2500: 35,
+    xp_5000: 50,
+    dictionary_50: 20,
+    tests_3: 25,
+    all_tests: 60,
+    topics_5: 20,
+    topics_20: 40,
+    full_course_tour: 40,
+    weekend_warrior: 10,
+    first_mastered: 10,
+    mastered_50: 25,
+    mastered_250: 40,
   };
   LEVELS.forEach(function (l) { BADGE_XP[l.toLowerCase() + "_explorer"] = 20; });
 
@@ -235,6 +256,113 @@
       desc: "Complete an exercise between 5am and 7am (your device's clock).",
       check: function (s) { return !!(s.timeFlags && s.timeFlags.earlyBird); },
     },
+    {
+      id: "exercises_10", icon: "🚶", name: "Getting Going",
+      desc: "Complete 10 exercises.",
+      check: function (s) { return countExercisesDone(s) >= 10; },
+    },
+    {
+      id: "exercises_25", icon: "🏃", name: "Steady Learner",
+      desc: "Complete 25 exercises.",
+      check: function (s) { return countExercisesDone(s) >= 25; },
+    },
+    {
+      id: "exercises_50", icon: "🚴", name: "Half Century",
+      desc: "Complete 50 exercises.",
+      check: function (s) { return countExercisesDone(s) >= 50; },
+    },
+    {
+      id: "exercises_100", icon: "💯", name: "Century",
+      desc: "Complete 100 exercises.",
+      check: function (s) { return countExercisesDone(s) >= 100; },
+    },
+    {
+      id: "exercises_250", icon: "🏔️", name: "Marathon Learner",
+      desc: "Complete 250 exercises.",
+      check: function (s) { return countExercisesDone(s) >= 250; },
+    },
+    {
+      id: "perfect_25", icon: "✨", name: "Flawless",
+      desc: "Score 100% on 25 different exercises.",
+      check: function (s) { return countPerfect(s) >= 25; },
+    },
+    {
+      id: "perfect_50", icon: "🏹", name: "Precision",
+      desc: "Score 100% on 50 different exercises.",
+      check: function (s) { return countPerfect(s) >= 50; },
+    },
+    {
+      id: "streak_60", icon: "🔥", name: "60-Day Streak",
+      desc: "Practice on 60 days in a row.",
+      check: function (s) { return s.streak.count >= 60; },
+    },
+    {
+      id: "streak_100", icon: "🔥", name: "100-Day Streak",
+      desc: "Practice on 100 days in a row.",
+      check: function (s) { return s.streak.count >= 100; },
+    },
+    {
+      id: "xp_2500", icon: "🏆", name: "2500 XP",
+      desc: "Earn 2500 total XP.",
+      check: function (s) { return s.xp >= 2500; },
+    },
+    {
+      id: "xp_5000", icon: "💎", name: "5000 XP",
+      desc: "Earn 5000 total XP.",
+      check: function (s) { return s.xp >= 5000; },
+    },
+    {
+      id: "dictionary_50", icon: "🗂️", name: "Word Collector",
+      desc: "Look up 50 words in the dictionary.",
+      check: function (s) { return (s.dictionaryUses || 0) >= 50; },
+    },
+    {
+      id: "tests_3", icon: "📋", name: "Test Taker",
+      desc: "Fully complete the Test Yourself page of 3 levels.",
+      check: function (s) { return countTestsDone(s) >= 3; },
+    },
+    {
+      id: "all_tests", icon: "🎓", name: "Exam Ready",
+      desc: "Fully complete the Test Yourself page of every level.",
+      check: function (s) {
+        return LEVELS.every(function (l) { return !!s.pagesCompleted["test-yourself:" + l]; });
+      },
+    },
+    {
+      id: "topics_5", icon: "📗", name: "Topic Hunter",
+      desc: "Complete every exercise on 5 lessons.",
+      check: function (s) { return countTopics(s) >= 5; },
+    },
+    {
+      id: "topics_20", icon: "📚", name: "Topic Master",
+      desc: "Complete every exercise on 20 lessons.",
+      check: function (s) { return countTopics(s) >= 20; },
+    },
+    {
+      id: "full_course_tour", icon: "🗺️", name: "Full Course Tour",
+      desc: "Complete at least one exercise at every level, A1 to C2.",
+      check: function (s) { return countLevelsWithActivity(s) >= LEVELS.length; },
+    },
+    {
+      id: "weekend_warrior", icon: "🛡️", name: "Weekend Warrior",
+      desc: "Complete an exercise on a Saturday or Sunday.",
+      check: function (s) { return !!(s.timeFlags && s.timeFlags.weekend); },
+    },
+    {
+      id: "first_mastered", icon: "🧠", name: "It Stuck!",
+      desc: "Master your first item: answer it right twice, on different days.",
+      check: function () { return countMastered() >= 1; },
+    },
+    {
+      id: "mastered_50", icon: "🧠", name: "Memory Builder",
+      desc: "Master 50 items in your reviews.",
+      check: function () { return countMastered() >= 50; },
+    },
+    {
+      id: "mastered_250", icon: "🏛️", name: "Long-Term Memory",
+      desc: "Master 250 items in your reviews.",
+      check: function () { return countMastered() >= 250; },
+    },
   ].concat(LEVELS.map(function (level) {
     var threshold = explorerThreshold(level);
     return {
@@ -261,6 +389,24 @@
       if (state.exercises.hasOwnProperty(id) && state.exercises[id].perfect) n++;
     }
     return n;
+  }
+
+  function countTestsDone(state) {
+    return Object.keys(state.pagesCompleted).filter(function (k) {
+      return k.indexOf("test-yourself:") === 0 && state.pagesCompleted[k];
+    }).length;
+  }
+  function countTopics(state) {
+    return Object.keys(state.topicsCompleted || {}).length;
+  }
+  // Items mastered in spaced repetition (assets/js/mastery.js): right
+  // twice, on different days. 0 on pages without mastery.js -- a
+  // badge earned elsewhere stays earned.
+  function countMastered() {
+    try {
+      var items = (window.MasteryTracker && window.MasteryTracker.getState().items) || {};
+      return Object.keys(items).filter(function (k) { return items[k].masteryStatus === "mastered"; }).length;
+    } catch (e) { return 0; }
   }
 
   // How many different levels have at least one completed exercise —
@@ -704,6 +850,8 @@
     var hour = new Date().getHours();
     if (hour >= 0 && hour < 5) state.timeFlags.nightOwl = true;
     if (hour >= 5 && hour < 7) state.timeFlags.earlyBird = true;
+    var weekday = new Date().getDay();
+    if (weekday === 0 || weekday === 6) state.timeFlags.weekend = true;
   }
 
   function touchStreakAndDailyBonus(state) {

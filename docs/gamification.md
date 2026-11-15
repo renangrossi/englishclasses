@@ -166,6 +166,16 @@ var BADGE_XP = {
   night_owl: 10,
   early_bird: 10,
   topic_complete: 20, // not a BADGES entry — see "Topic badges" below
+  exercises_10: 10, exercises_25: 15, exercises_50: 20, exercises_100: 30, exercises_250: 50,
+  perfect_25: 25, perfect_50: 35,
+  streak_60: 40, streak_100: 60,
+  xp_2500: 35, xp_5000: 50,
+  dictionary_50: 20,
+  tests_3: 25, all_tests: 60,          // Test Yourself pages fully completed
+  topics_5: 20, topics_20: 40,         // lessons with every exercise done
+  full_course_tour: 40,                // an exercise at every level, A1-C2
+  weekend_warrior: 10,                 // timeFlags.weekend (Saturday/Sunday)
+  first_mastered: 10, mastered_50: 25, mastered_250: 40, // mastery.js items
 };
 // a1_explorer … c2_explorer: 20 each, added automatically for every LEVELS entry
 ```
@@ -186,6 +196,10 @@ var BADGE_XP = {
 - XP-milestone badges (`xp_100`/`xp_250`/`xp_500`/`xp_1000`) are mostly
   recognition of XP the student already has, but still carry a small
   bonus on top rather than 0, per design intent.
+- The mastery badges (`first_mastered`, `mastered_50`, `mastered_250`)
+  count items `assets/js/mastery.js` marks mastered (right twice, on
+  different days). They can only unlock on pages that load mastery.js
+  (lesson pages and Today's Review), which is where items get mastered.
 - Topic completion (`topic_complete`, `maybeCompleteTopic()`) isn't a
   `BADGES` entry, but reads its bonus from this same `BADGE_XP` object
   for consistency — see "Topic badges" below.

@@ -1690,7 +1690,9 @@ audio {
 .coach-plan__step.is-done .coach-plan__num { background: var(--color-success-bg); border-color: var(--color-success); color: var(--color-success); }
 
 .coach-improve { margin-bottom: var(--space-md); }
-.coach-stats { margin-bottom: var(--space-md); }
+.coach-stats { margin-bottom: var(--space-md); grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (min-width: 1000px) { .coach-stats { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .coach-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .coach-stats .progress-stat strong { font-size: var(--step-2); }
 .coach-mastery { grid-column: 1 / -1; padding-top: var(--space-xs); }
 .coach-mastery__hint { font-size: var(--step--1); color: var(--color-text-muted); margin: 0.4em 0 0; }

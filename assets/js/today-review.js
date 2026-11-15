@@ -701,8 +701,10 @@
     }
 
     Promise.all([
-      fetch("assets/data/exercise-items-index.json").then(function (r) { return r.json(); }),
-      fetch("assets/data/lesson-order.json").then(function (r) { return r.json(); }),
+      // GitHub Pages lets browsers reuse these for 10 minutes; "no-cache"
+      // revalidates (a small 304 when unchanged), so edits show at once.
+      fetch("assets/data/exercise-items-index.json", { cache: "no-cache" }).then(function (r) { return r.json(); }),
+      fetch("assets/data/lesson-order.json", { cache: "no-cache" }).then(function (r) { return r.json(); }),
     ]).then(function (res) {
       index = res[0];
       order = res[1];

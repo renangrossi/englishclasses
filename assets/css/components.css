@@ -1688,6 +1688,7 @@ audio {
 .coach-plan__step.is-done a { opacity: 0.75; }
 .coach-plan__step.is-done .coach-plan__num { background: var(--color-success-bg); border-color: var(--color-success); color: var(--color-success); }
 
+.coach-improve { margin-bottom: var(--space-md); }
 .coach-stats { margin-bottom: var(--space-sm); }
 .coach-stats .progress-stat strong { font-size: var(--step-2); }
 .coach-mastery { grid-column: 1 / -1; padding-top: var(--space-xs); }

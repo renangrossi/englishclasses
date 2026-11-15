@@ -101,6 +101,10 @@
     }
   }
 
+  function weakHref(w) {
+    return w.info.url + "#ex-" + encodeURIComponent(w.id);
+  }
+
   function lessonLink(item) {
     return item.lessonUrl + "#ex-" + encodeURIComponent(item.exerciseId);
   }
@@ -243,7 +247,7 @@
         done: a.dueToday.length === 0, href: "#review-queue" },
       { id: "improve", label: "Exercises to improve",
         detail: a.weak.length ? plural(a.weak.length, "exercise") + " under " + Math.round(IMPROVE_BELOW * 100) + "%" : "None",
-        done: a.weak.length === 0, href: weakTop ? weakTop.info.url + "#ex-" + encodeURIComponent(weakTop.id) : "#coach-recs" },
+        done: a.weak.length === 0, href: weakTop ? "#coach-improve" : "#coach-recs" },
       { id: "new", label: a.next.kind === "lesson" ? "New lesson" : "Next step",
         detail: a.next.title + (a.next.level ? " (" + a.next.level + ")" : ""),
         done: false, href: a.next.url, remaining: remaining },
@@ -285,7 +289,7 @@
       why = "Your best score is " + w.best + " of " + w.total + " in " + w.info.lesson + " (" + w.info.level + "). " +
         (a.weak.length > 1 ? plural(a.weak.length - 1, "more exercise") + " also scored under " + Math.round(IMPROVE_BELOW * 100) + "%." : "Get it to " + Math.round(IMPROVE_BELOW * 100) + "% or more.");
       action = "Practice this exercise";
-      href = current.href;
+      href = weakHref(w);
     } else {
       title = (a.next.kind === "lesson" ? "Start “" + a.next.title + "”" : a.next.title) + (a.next.level && a.next.kind === "lesson" ? " (" + a.next.level + ")" : "");
       why = (a.reviewedToday.length ? "Today's review is done. " : "") + a.next.why;
@@ -378,17 +382,26 @@
 
   /* ---------------- recommendations ---------------- */
 
+  // Every exercise under the bar, right under the plan, so the student
+  // can pick which one to do. Worst first; each link opens the exercise.
+  function renderImprove(a) {
+    var box = document.getElementById("coach-improve");
+    if (!a.weak.length) { box.hidden = true; box.innerHTML = ""; return; }
+    box.hidden = false;
+    box.innerHTML = '<h3 class="coach-h3">Exercises to improve</h3>' +
+      '<p class="coach-lede">Your best score on ' + (a.weak.length === 1 ? "this exercise is" : "these " + a.weak.length + " exercises is") +
+      " under " + Math.round(IMPROVE_BELOW * 100) + "%. Worst first. Pick any one to open it.</p>" +
+      '<ul class="rec-list">' + a.weak.map(function (w) {
+        var pct = Math.round((w.best / w.total) * 100);
+        return '<li class="rec"><a href="' + esc(weakHref(w)) + '">' +
+          '<span class="rec__title">' + esc(w.info.title) + "</span>" +
+          '<span class="rec__meta">' + esc(w.info.lesson) + " (" + w.info.level + ") · best " + w.best + " of " + w.total + " (" + pct + "%)</span></a></li>";
+      }).join("") + "</ul>";
+  }
+
   function renderRecs(a) {
     var body = document.getElementById("recs-body");
     var html = "";
-    if (a.weak.length) {
-      html += '<h3 class="coach-h3">Exercises to improve</h3><p class="coach-lede">Your best score on these is under ' + Math.round(IMPROVE_BELOW * 100) + "%. Worst first.</p>" +
-        '<ul class="rec-list">' + a.weak.slice(0, 5).map(function (w) {
-          return '<li class="rec"><a href="' + esc(w.info.url + "#ex-" + encodeURIComponent(w.id)) + '">' +
-            '<span class="rec__title">' + esc(w.info.title) + "</span>" +
-            '<span class="rec__meta">' + esc(w.info.lesson) + " (" + w.info.level + ") · best " + w.best + " of " + w.total + "</span></a></li>";
-        }).join("") + "</ul>";
-    }
     if (a.weakLessons.length) {
       html += '<h3 class="coach-h3">Topics you miss most</h3><p class="coach-lede">Lessons with the most missed items you haven\'t mastered yet. Re-read the explanation, then redo the exercises.</p>' +
         '<ul class="rec-list">' + a.weakLessons.slice(0, 3).map(function (l) {
@@ -484,8 +497,8 @@
       (a.missedToday.length ? " The " + (a.missedToday.length === 1 ? "one" : a.missedToday.length + " items") + " you missed will come back tomorrow, and " + (a.missedToday.length === 1 ? "is" : "are") + " listed under Your mistakes below." : "") +
       (remaining ? " " + plural(remaining, "more item") + " are due; they'll be in your next session." : "") + "</p>";
     html += '<p class="coach-done__actions">' +
-      '<a class="btn btn--accent" href="' + esc(steps(a)[2].done ? a.next.url : steps(a)[2].href) + '">' +
-      esc(steps(a)[2].done ? "Next: " + a.next.title : "Next: improve “" + a.weak[0].info.title + "”") + "</a>";
+      '<a class="btn btn--accent" href="' + esc(a.weak.length ? weakHref(a.weak[0]) : a.next.url) + '">' +
+      esc(!a.weak.length ? "Next: " + a.next.title : "Next: improve “" + a.weak[0].info.title + "”") + "</a>";
     if (a.missedToday.length) html += ' <button type="button" class="btn btn--ghost" data-retry-missed>Practice today\'s ' + plural(a.missedToday.length, "mistake") + " again</button>";
     if (remaining) html += ' <button type="button" class="btn btn--ghost" data-more-review>Review ' + Math.min(remaining, MAX_ITEMS_PER_SESSION) + " more</button>";
     html += "</p>";
@@ -503,6 +516,7 @@
     renderStats(a);
     renderStatus(a);
     renderMistakes(a);
+    renderImprove(a);
     renderRecs(a);
     return a;
   }

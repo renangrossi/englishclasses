@@ -22,7 +22,7 @@
  *   3. exercises scored below IMPROVE_BELOW   4. the next new lesson
  * The first unfinished step is "Your next step".
  *
- * The review session is built from due items not yet practised today,
+ * The review session is built from due items not yet practiced today,
  * most overdue first, capped at MAX_ITEMS_PER_SESSION, and graded by
  * the same engine as every lesson page (window.ExerciseEngine) --
  * nothing here re-implements grading. After each submission the plan,
@@ -218,7 +218,7 @@
       }
     }
     return { kind: "exam", title: "Simulated Exams", url: "simulated-exams.html",
-      why: "You've started every lesson in the course. Practise for an exam." };
+      why: "You've started every lesson in the course. Practice for an exam." };
   }
 
   /* ---------------- next step + plan ---------------- */
@@ -284,7 +284,7 @@
       title = "Improve “" + w.info.title + "”";
       why = "Your best score is " + w.best + " of " + w.total + " in " + w.info.lesson + " (" + w.info.level + "). " +
         (a.weak.length > 1 ? plural(a.weak.length - 1, "more exercise") + " also scored under " + Math.round(IMPROVE_BELOW * 100) + "%." : "Get it to " + Math.round(IMPROVE_BELOW * 100) + "% or more.");
-      action = "Practise this exercise";
+      action = "Practice this exercise";
       href = current.href;
     } else {
       title = (a.next.kind === "lesson" ? "Start “" + a.next.title + "”" : a.next.title) + (a.next.level && a.next.kind === "lesson" ? " (" + a.next.level + ")" : "");
@@ -311,13 +311,13 @@
     var todayRight = a.reviewedToday.length - a.missedToday.length;
     document.getElementById("coach-stats").innerHTML =
       stat(streakNow, streakNow === 1 ? "Day streak" : "Day streak") +
-      stat(a.reviewedToday.length, "Items practised today" + (a.reviewedToday.length ? " · " + todayRight + " right" : "")) +
+      stat(a.reviewedToday.length, "Items practiced today" + (a.reviewedToday.length ? " · " + todayRight + " right" : "")) +
       stat(a.overdue.length + a.dueToday.length, "Reviews left today") +
       stat(accuracy, "Accuracy, all answers" + (a.attempts ? " (" + a.attempts + ")" : "")) +
       stat(a.exercisesDone, "Exercises completed") +
       stat(a.lessonsStarted + " / " + a.lessonsTotal, "Lessons started") +
       '<div class="coach-mastery">' +
-        '<div class="progress-label"><span>Mastered items</span><span>' + a.mastered + " of " + a.tracked + " practised (" + masteredPct + "%)</span></div>" +
+        '<div class="progress-label"><span>Mastered items</span><span>' + a.mastered + " of " + a.tracked + " practiced (" + masteredPct + "%)</span></div>" +
         '<div class="progress-track" role="progressbar" aria-label="Mastered items" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + masteredPct + '"><div class="progress-track__fill" style="width:' + masteredPct + '%"></div></div>' +
         '<p class="coach-mastery__hint">An item is mastered when you get it right twice, on different days.</p>' +
       "</div>";
@@ -475,18 +475,18 @@
     }
 
     // Finished: the session is all submitted, or everything due was
-    // already practised earlier today.
+    // already practiced earlier today.
     box.hidden = true;
     var right = a.reviewedToday.length - a.missedToday.length;
     var remaining = a.overdue.length + a.dueToday.length;
     var html = '<p class="coach-done__title">✓ Today\'s review is done</p>' +
-      "<p>You practised " + plural(a.reviewedToday.length, "item") + " today and got " + right + " right." +
+      "<p>You practiced " + plural(a.reviewedToday.length, "item") + " today and got " + right + " right." +
       (a.missedToday.length ? " The " + (a.missedToday.length === 1 ? "one" : a.missedToday.length + " items") + " you missed will come back tomorrow, and " + (a.missedToday.length === 1 ? "is" : "are") + " listed under Your mistakes below." : "") +
       (remaining ? " " + plural(remaining, "more item") + " are due; they'll be in your next session." : "") + "</p>";
     html += '<p class="coach-done__actions">' +
       '<a class="btn btn--accent" href="' + esc(steps(a)[2].done ? a.next.url : steps(a)[2].href) + '">' +
       esc(steps(a)[2].done ? "Next: " + a.next.title : "Next: improve “" + a.weak[0].info.title + "”") + "</a>";
-    if (a.missedToday.length) html += ' <button type="button" class="btn btn--ghost" data-retry-missed>Practise today\'s ' + plural(a.missedToday.length, "mistake") + " again</button>";
+    if (a.missedToday.length) html += ' <button type="button" class="btn btn--ghost" data-retry-missed>Practice today\'s ' + plural(a.missedToday.length, "mistake") + " again</button>";
     if (remaining) html += ' <button type="button" class="btn btn--ghost" data-more-review>Review ' + Math.min(remaining, MAX_ITEMS_PER_SESSION) + " more</button>";
     html += "</p>";
     var wasHidden = done.hidden;

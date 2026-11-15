@@ -1017,12 +1017,16 @@
     return !!(window.CloudSync && window.CloudSync.enabled);
   }
 
+  // The site's root, worked out from this script's own address
+  // (".../assets/js/progress.js"), so the link works at any page depth:
+  // levels/a1/x.html, reading/a1/x.html, cefr/x.html, ...
+  var SITE_ROOT = (function () {
+    var me = document.currentScript && document.currentScript.src;
+    return me ? me.replace(/assets\/js\/progress\.js.*$/, "") : "";
+  })();
+
   function progressPageHref() {
-    // Works whether this page is at the site root, one level deep
-    // (levels/a1.html) or two levels deep (levels/a1/xyz.html).
-    var depth = (window.location.pathname.match(/\/levels\/[^/]+\/[^/]+$/)) ? 2
-      : (window.location.pathname.match(/\/levels\/[^/]+$/)) ? 1 : 0;
-    return (depth === 2 ? "../../" : depth === 1 ? "../" : "") + "progress.html";
+    return SITE_ROOT + "progress.html";
   }
 
   function renderToggle(state) {

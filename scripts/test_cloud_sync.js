@@ -13,7 +13,7 @@ assert(cloudSrc.includes('"https://x.supabase.co"') && cloudSrc.includes("= 5;")
 const server = { rows: {}, writes: 0, fail: false, otpSent: [], otpError: null };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-function device(sessionUser, { mastery = true, initial = {} } = {}) {
+function device(sessionUser, { mastery = true, initial = {}, search = "" } = {}) {
   const store = Object.assign({}, initial);
   const listeners = {};
   const localStorage = {
@@ -59,7 +59,7 @@ function device(sessionUser, { mastery = true, initial = {} } = {}) {
   };
   const window = {
     localStorage, document, console: { warn() {} },
-    location: { pathname: "/englishclasses/levels/a1/x.html", search: "", hash: "", origin: "https://h", href: "https://h/" },
+    location: { pathname: "/englishclasses/levels/a1/x.html", search, hash: "", origin: "https://h", href: "https://h/", assigned: null, assign(u) { this.assigned = u; } },
     addEventListener() {}, confirm: () => true, matchMedia: () => ({ matches: false }),
     supabase: { createClient: () => client },
     innerWidth: 1000,
@@ -216,7 +216,8 @@ function device(sessionUser, { mastery = true, initial = {} } = {}) {
   await sleep(60);
   assert(!cara.store.rt_email_pending, "pending email cleared after sign-in");
   assert(server.rows.cara && server.rows.cara.progress.exercises.ex10, "progress made before signing in is uploaded");
-  console.log("10 ok email link/code sign-in, then sync");
+  assert(/today-review\.html$/.test(cara.w.location.assigned || ""), "a fresh sign-in opens Today's Review");
+  console.log("10 ok email link/code sign-in, then sync, then Today's Review");
 
   // 11. Sending fails (rate limit): nothing remembered, no sign-in.
   const dan = device(null);
@@ -225,4 +226,13 @@ function device(sessionUser, { mastery = true, initial = {} } = {}) {
   assert(!dan.store.rt_email_pending);
   server.otpError = null;
   console.log("11 ok a failed send leaves no pending code");
+
+  // 12. Today's Review opens after a sign-in made just now (back from
+  // Google / an email link), never for a session restored on page load.
+  const eve = { id: "eve", email: "e@x" };
+  const back = device(eve, { search: "?code=abc" }); await sleep(60);
+  assert(/today-review\.html$/.test(back.w.location.assigned || ""), "back from Google opens Today's Review");
+  const again = device(eve, { initial: back.store }); await sleep(60);
+  assert.strictEqual(again.w.location.assigned, null, "a restored session stays on the page");
+  console.log("12 ok Today's Review opens after a new sign-in only");
 })().catch(e => { console.error("FAIL", e); process.exit(1); });

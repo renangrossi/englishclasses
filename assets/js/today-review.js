@@ -263,7 +263,7 @@
     plan.innerHTML = list.map(function (s, i) {
       var state = s.done ? "is-done" : s === current ? "is-current" : "";
       return '<li class="coach-plan__step ' + state + '">' +
-        '<a href="' + esc(s.href) + '">' +
+        '<a href="' + esc(s.href) + '"' + (s.href === "#coach-improve" ? ' data-toggle-improve aria-controls="coach-improve" aria-expanded="' + improveOpen + '"' : "") + ">" +
         '<span class="coach-plan__num" aria-hidden="true">' + (s.done ? "✓" : i + 1) + "</span>" +
         '<span class="coach-plan__text"><strong>' + esc(s.label) + "</strong><span>" + esc(s.detail) + "</span></span>" +
         (s.done ? '<span class="visually-hidden"> (done)</span>' : s === current ? '<span class="visually-hidden"> (next)</span>' : "") +
@@ -305,6 +305,10 @@
 
   /* ---------------- progress overview ---------------- */
 
+  // The summary at the top. Each box is a button that opens its details
+  // right below the boxes (one at a time; clicking it again closes it).
+  var openTile = null;
+
   function renderStats(a) {
     var p = a.progress || { streak: { count: 0 } };
     var streak = p.streak || { count: 0 };
@@ -313,21 +317,124 @@
     var accuracy = a.attempts ? Math.round((a.correct / a.attempts) * 100) + "%" : "—";
     var masteredPct = a.tracked ? Math.round((a.mastered / a.tracked) * 100) : 0;
     var todayRight = a.reviewedToday.length - a.missedToday.length;
-    document.getElementById("coach-stats").innerHTML =
-      stat(streakNow, streakNow === 1 ? "Day streak" : "Day streak") +
-      stat(a.reviewedToday.length, "Items practiced today" + (a.reviewedToday.length ? " · " + todayRight + " right" : "")) +
-      stat(a.overdue.length + a.dueToday.length, "Reviews left today") +
-      stat(accuracy, "Accuracy, all answers" + (a.attempts ? " (" + a.attempts + ")" : "")) +
-      stat(a.exercisesDone, "Exercises completed") +
-      stat(a.lessonsStarted + " / " + a.lessonsTotal, "Lessons started") +
-      '<div class="coach-mastery">' +
-        '<div class="progress-label"><span>Mastered items</span><span>' + a.mastered + " of " + a.tracked + " practiced (" + masteredPct + "%)</span></div>" +
-        '<div class="progress-track" role="progressbar" aria-label="Mastered items" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + masteredPct + '"><div class="progress-track__fill" style="width:' + masteredPct + '%"></div></div>' +
-        '<p class="coach-mastery__hint">An item is mastered when you get it right twice, on different days.</p>' +
-      "</div>";
-    function stat(value, label) {
-      return '<div class="progress-stat"><strong>' + esc(value) + "</strong><span>" + esc(label) + "</span></div>";
+    var tiles = [
+      { id: "streak", value: streakNow, label: "Day streak" },
+      { id: "today", value: a.reviewedToday.length, label: "Items practiced today" + (a.reviewedToday.length ? " · " + todayRight + " right" : "") },
+      { id: "left", value: a.overdue.length + a.dueToday.length, label: "Reviews left today" },
+      { id: "accuracy", value: accuracy, label: "Accuracy, all answers" + (a.attempts ? " (" + a.attempts + ")" : "") },
+      { id: "exercises", value: a.exercisesDone, label: "Exercises completed" },
+      { id: "lessons", value: a.lessonsStarted + " / " + a.lessonsTotal, label: "Lessons started" },
+    ];
+    var html = tiles.map(function (t) {
+      var open = openTile === t.id;
+      return '<button type="button" class="progress-stat coach-tile' + (open ? " is-open" : "") + '" data-tile="' + t.id + '" aria-expanded="' + open + '" aria-controls="coach-detail">' +
+        "<strong>" + esc(t.value) + "</strong><span>" + esc(t.label) + "</span></button>";
+    }).join("");
+    var mOpen = openTile === "mastery";
+    html += '<button type="button" class="coach-mastery coach-tile' + (mOpen ? " is-open" : "") + '" data-tile="mastery" aria-expanded="' + mOpen + '" aria-controls="coach-detail">' +
+        '<span class="progress-label"><span>Mastered items</span><span>' + a.mastered + " of " + a.tracked + " practiced (" + masteredPct + "%)</span></span>" +
+        '<span class="progress-track" role="presentation"><span class="progress-track__fill" style="width:' + masteredPct + '%"></span></span>' +
+        '<span class="coach-mastery__hint">An item is mastered when you get it right twice, on different days.</span>' +
+      "</button>";
+    document.getElementById("coach-stats").innerHTML = html;
+    renderDetail(a, { streakNow: streakNow, streak: streak });
+  }
+
+  function levelOrder(code) {
+    for (var i = 0; i < order.levels.length; i++) if (order.levels[i].code === code) return i;
+    return 99;
+  }
+
+  function renderDetail(a, ctx) {
+    var box = document.getElementById("coach-detail");
+    if (!openTile) { box.hidden = true; box.innerHTML = ""; return; }
+    var items = window.MasteryTracker.getState().items || {};
+    var ex = (a.progress && a.progress.exercises) || {};
+    var html = "";
+    var empty = function (t) { return '<p class="coach-empty">' + t + "</p>"; };
+
+    if (openTile === "streak") {
+      html = "<h3 class=\"coach-h3\">Day streak</h3>" +
+        (ctx.streakNow
+          ? "<p>You've studied " + plural(ctx.streakNow, "day") + " in a row. Last active: " + (ctx.streak.lastActiveDate === a.today ? "today" : "yesterday") + "." +
+            (ctx.streak.lastActiveDate === a.today ? "" : " Submit one exercise today to keep it going.") + "</p>"
+          : "<p>No streak right now" + (ctx.streak.lastActiveDate ? " (last active " + esc(ctx.streak.lastActiveDate) + ")" : "") + ". Submit an exercise today to start one, and come back tomorrow to grow it.</p>");
+    } else if (openTile === "today") {
+      html = "<h3 class=\"coach-h3\">Items practiced today</h3>";
+      html += a.reviewedToday.length
+        ? '<ul class="coach-items">' + a.reviewedToday.map(function (k) {
+            var it = index[k], ok = items[k].lastCorrect !== false;
+            return '<li class="' + (ok ? "is-right" : "is-wrong") + '"><span class="coach-items__mark" aria-label="' + (ok ? "right" : "wrong") + '">' + (ok ? "✓" : "✗") + "</span>" +
+              '<span><span class="coach-items__prompt">' + esc(promptText(it)) + '</span><span class="coach-items__meta">' + esc(it.level) + " · " + esc(it.lessonTitle) + "</span></span></li>";
+          }).join("") + "</ul>"
+        : empty("Nothing yet today. Answers you submit in lessons or in the review below are counted here.");
+    } else if (openTile === "left") {
+      var n = a.overdue.length + a.dueToday.length;
+      html = "<h3 class=\"coach-h3\">Reviews left today</h3>" + (n
+        ? "<p>" + (a.overdue.length ? plural(a.overdue.length, "item") + " overdue" : "") + (a.overdue.length && a.dueToday.length ? " and " : "") + (a.dueToday.length ? plural(a.dueToday.length, "item") + " due today" : "") + ".</p>" +
+          '<p><a class="btn btn--accent btn--small" href="#review-queue" data-start-review>Start review</a></p>'
+        : empty(a.reviewedToday.length ? "None. Today's review is done." : "None. Items come back here on the day you're about to forget them."));
+    } else if (openTile === "accuracy" || openTile === "mastery") {
+      var by = {};
+      Object.keys(items).forEach(function (k) {
+        if (!index[k]) return;
+        var l = index[k].level, r = items[k];
+        if (!by[l]) by[l] = { attempts: 0, correct: 0, tracked: 0, mastered: 0 };
+        by[l].attempts += r.attempts || 0; by[l].correct += r.correctCount || 0;
+        by[l].tracked++; if (r.masteryStatus === "mastered") by[l].mastered++;
+      });
+      var levels = Object.keys(by).sort(function (x, y) { return levelOrder(x) - levelOrder(y); });
+      var isAcc = openTile === "accuracy";
+      html = "<h3 class=\"coach-h3\">" + (isAcc ? "Accuracy by level" : "Mastered items by level") + "</h3>";
+      html += levels.length ? '<div class="coach-bars">' + levels.map(function (l) {
+        var b = by[l];
+        var pct = isAcc ? Math.round((b.correct / b.attempts) * 100) : Math.round((b.mastered / b.tracked) * 100);
+        var label = isAcc ? b.correct + " of " + plural(b.attempts, "answer") + " right (" + pct + "%)" : b.mastered + " of " + b.tracked + " mastered (" + pct + "%)";
+        return '<div class="progress-panel__level-row"><div class="progress-label"><span>' + esc(l) + "</span><span>" + label + "</span></div>" +
+          '<div class="progress-track"><div class="progress-track__fill" style="width:' + pct + '%"></div></div></div>';
+      }).join("") + "</div>" : empty("No answers recorded yet. Submit an exercise in any lesson.");
+      if (isAcc && a.mistakes.length) html += '<p><a href="#coach-mistakes">See your ' + plural(a.mistakes.length, "open mistake") + " →</a></p>";
+    } else if (openTile === "exercises") {
+      var done = Object.keys(ex).filter(function (id) { return exerciseInfo[id]; });
+      var byLesson = {};
+      done.forEach(function (id) {
+        var info = exerciseInfo[id];
+        (byLesson[info.url] = byLesson[info.url] || { info: info, list: [] }).list.push(id);
+      });
+      var urls = Object.keys(byLesson).sort(function (x, y) {
+        return (levelOrder(byLesson[x].info.level) - levelOrder(byLesson[y].info.level)) || (x < y ? -1 : 1);
+      });
+      html = "<h3 class=\"coach-h3\">Exercises completed</h3>";
+      html += urls.length ? urls.map(function (u) {
+        var g = byLesson[u];
+        return '<div class="coach-group"><p class="coach-group__title"><a href="' + esc(u) + '">' + esc(g.info.lesson) + "</a> (" + g.info.level + ")</p>" +
+          '<ul class="coach-items">' + g.list.map(function (id) {
+            var r = ex[id], pct = r.total ? Math.round((r.bestCorrect / r.total) * 100) : null;
+            var weak = pct !== null && pct < IMPROVE_BELOW * 100;
+            return '<li class="' + (weak ? "is-wrong" : "is-right") + '"><span class="coach-items__mark" aria-hidden="true">' + (weak ? "!" : "✓") + "</span>" +
+              '<a href="' + esc(u + "#ex-" + encodeURIComponent(id)) + '">' + esc(exerciseInfo[id].title) + "</a>" +
+              '<span class="coach-items__score">' + (pct === null ? "done" : "best " + r.bestCorrect + " of " + r.total + " (" + pct + "%)") + "</span></li>";
+          }).join("") + "</ul></div>";
+      }).join("") : empty("None yet. Submit any exercise on a lesson page.");
+    } else if (openTile === "lessons") {
+      html = "<h3 class=\"coach-h3\">Lessons started</h3>";
+      var any = false;
+      html += order.levels.map(function (l) {
+        var started = l.lessons.filter(function (lesson) { return lesson.exercises.some(function (id) { return !!ex[id]; }); });
+        if (!started.length) return "";
+        any = true;
+        return '<div class="coach-group"><p class="coach-group__title">' + esc(l.code) + " · " + started.length + " of " + l.lessons.length + " started</p>" +
+          '<ul class="coach-items">' + started.map(function (lesson) {
+            var n = lesson.exercises.filter(function (id) { return !!ex[id]; }).length;
+            return '<li class="is-right"><span class="coach-items__mark" aria-hidden="true">✓</span><a href="' + esc(lesson.url) + '">' + esc(lesson.title) + "</a>" +
+              '<span class="coach-items__score">' + n + " of " + lesson.exercises.length + " exercises</span></li>";
+          }).join("") + "</ul></div>";
+      }).join("");
+      if (!any) html += empty("None yet.");
+      html += '<p>Next: <a href="' + esc(a.next.url) + '">' + esc(a.next.title) + "</a>" + (a.next.level ? " (" + a.next.level + ")" : "") + "</p>";
     }
+    box.innerHTML = html;
+    box.hidden = false;
   }
 
   /* ---------------- mistakes ---------------- */
@@ -384,10 +491,11 @@
 
   // Every exercise under the bar, right under the plan, so the student
   // can pick which one to do. Worst first; each link opens the exercise.
+  var improveOpen = false;
   function renderImprove(a) {
     var box = document.getElementById("coach-improve");
     if (!a.weak.length) { box.hidden = true; box.innerHTML = ""; return; }
-    box.hidden = false;
+    box.hidden = !improveOpen;
     box.innerHTML = '<h3 class="coach-h3">Exercises to improve</h3>' +
       '<p class="coach-lede">Your best score on ' + (a.weak.length === 1 ? "this exercise is" : "these " + a.weak.length + " exercises is") +
       " under " + Math.round(IMPROVE_BELOW * 100) + "%. Worst first. Pick any one to open it.</p>" +
@@ -586,6 +694,20 @@
         var t = e.target;
         if (!t || !t.closest) return;
         if (t.closest("[data-start-review]")) { e.preventDefault(); startReview(); return; }
+        var tile = t.closest("[data-tile]");
+        if (tile) {
+          var id = tile.getAttribute("data-tile");
+          openTile = openTile === id ? null : id;
+          refresh();
+          return;
+        }
+        if (t.closest("[data-toggle-improve]")) {
+          e.preventDefault();
+          improveOpen = !improveOpen;
+          refresh();
+          if (improveOpen) document.getElementById("coach-improve").scrollIntoView({ behavior: "smooth", block: "nearest" });
+          return;
+        }
         if (t.closest("[data-retry-missed]")) {
           var now = analyse();
           buildSession(now.missedToday.slice(0, MAX_ITEMS_PER_SESSION), "Mistakes Again");

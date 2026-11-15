@@ -1142,7 +1142,7 @@
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>' +
       "</div>" +
       // Right above the account block ("Signed in as ...").
-      '<a class="btn btn--ghost btn--small progress-panel__link" href="' + SITE_ROOT + 'today-review.html">Today\'s Review</a>' +
+      '<a class="btn btn--ghost btn--small progress-panel__link" data-signed-in-only href="' + SITE_ROOT + 'today-review.html"' + (signedInOrNoSync() ? "" : " hidden") + '>Today\'s Review</a>' +
       (cloudEnabled()
         ? '<div class="progress-panel__account" data-cloud-account></div>'
         : '<p class="progress-panel__hint">Progress saves to this browser only — refresh-safe, no account needed.</p>') +
@@ -1162,6 +1162,13 @@
 
   // True once assets/js/cloud-sync.js has a Supabase project to talk
   // to. Until then everything behaves exactly as it did offline-only.
+  // Signed in -- or a stored session not checked yet, so the panel does
+  // not flash -- or no sign-in on this site at all (nothing to wait for).
+  function signedInOrNoSync() {
+    if (!cloudEnabled()) return true;
+    return !!(window.CloudSync.hasSession && window.CloudSync.hasSession());
+  }
+
   function cloudEnabled() {
     return !!(window.CloudSync && window.CloudSync.enabled);
   }
@@ -1385,7 +1392,13 @@
   }
 
   // cloud-sync.js fires this on sign-in, sign-out and status changes.
-  document.addEventListener("rt:account", function () { renderToggle(loadState()); });
+  document.addEventListener("rt:account", function () {
+    renderToggle(loadState());
+    // The panel's Today's Review button follows sign-in / sign-out live.
+    if (els) Array.prototype.forEach.call(els.panel.querySelectorAll("[data-signed-in-only]"), function (n) {
+      n.hidden = !signedInOrNoSync();
+    });
+  });
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);

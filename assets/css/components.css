@@ -1791,3 +1791,5 @@ button.coach-mastery .progress-track__fill { display: block; height: 100%; }
 .coach-group + .coach-group { margin-top: var(--space-sm); }
 .coach-group__title { font-weight: 700; margin: 0; }
 .coach-bars { display: grid; gap: var(--space-xs); margin-top: 0.4em; }
+
+#coach-improve, #review-queue, #coach-mistakes, #coach-recs { scroll-margin-top: 6rem; }

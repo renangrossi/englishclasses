@@ -274,7 +274,8 @@
     if (willOpen) {
       lockBodyScrollForPanel();
       input.focus();
-      messagesBox.scrollTop = messagesBox.scrollHeight;
+      if (pinnedMsg) pinToTop(pinnedMsg);
+      else messagesBox.scrollTop = messagesBox.scrollHeight;
     } else {
       unlockBodyScrollForPanel();
     }
@@ -451,26 +452,42 @@
     return html;
   }
 
-  // Scrolls the messages list so `el` sits at the top of the box --
-  // right where the very first message would normally rest, just
-  // below the box's own top padding. This is the ceiling: it's as far
-  // as a new message is ever allowed to scroll, and nothing scrolls
-  // any further afterward. Used only for the student's own new
-  // question (see addMessage()'s "user" branch below), so that asking
-  // a question pins it to the top of the messages box, leaving the
-  // rest of the box free for the bot's reply to render into below it,
-  // with no further auto-scroll. addMessage()'s "bot" branch, and the
-  // typing indicator in between, never call this, so a long answer
-  // never drags the view down past the question. If there isn't
-  // enough conversation yet to scroll that far (an early, short
-  // exchange), the browser simply clamps the scroll at 0 -- the
-  // question still ends up fully visible, just not literally flush
-  // with the top.
-  function scrollToReveal(el) {
+  // Pins the student's latest question to the top of the messages box
+  // (just below the box's own top padding), so the answer renders into
+  // the visible space below it and nobody has to scroll by hand.
+  //
+  // Early in a conversation there isn't enough content below the
+  // question for the box to scroll that far, so the browser would clamp
+  // the scroll and leave the question halfway down. To avoid that, an
+  // empty spacer sits at the very end of the list and is sized to make
+  // up exactly the missing room. pinToTop() is re-run whenever content
+  // below the question changes (typing indicator, reply, error), which
+  // shrinks the spacer as the reply fills the space -- the question
+  // stays put and a long answer never drags the view past it.
+  var spacer = document.createElement("div");
+  spacer.className = "ai-teacher-panel__spacer";
+  spacer.setAttribute("aria-hidden", "true");
+  spacer.style.flexShrink = "0";
+  spacer.style.height = "0px";
+  messagesBox.appendChild(spacer);
+  var pinnedMsg = null;
+
+  function pinToTop(el) {
+    if (!el || panel.hidden) return;
+    spacer.style.height = "0px";
     var boxRect = messagesBox.getBoundingClientRect();
     var elRect = el.getBoundingClientRect();
     var topPadding = parseFloat(getComputedStyle(messagesBox).paddingTop) || 0;
-    messagesBox.scrollTop += (elRect.top - boxRect.top - topPadding);
+    var target = messagesBox.scrollTop + (elRect.top - boxRect.top - topPadding);
+    var maxScroll = messagesBox.scrollHeight - messagesBox.clientHeight;
+    if (target > maxScroll) spacer.style.height = Math.ceil(target - maxScroll) + "px";
+    messagesBox.scrollTop = target;
+  }
+
+  function appendToLog(msg) {
+    messagesBox.insertBefore(msg, spacer);
+    if (msg.classList.contains("ai-teacher-msg--user")) pinnedMsg = msg;
+    pinToTop(pinnedMsg);
   }
 
   function addMessage(role, text) {
@@ -483,8 +500,7 @@
       p.innerHTML = renderBotText(text);
     }
     msg.appendChild(p);
-    messagesBox.appendChild(msg);
-    if (role === "user") scrollToReveal(msg);
+    appendToLog(msg);
     return msg;
   }
 
@@ -492,7 +508,7 @@
     var msg = document.createElement("div");
     msg.className = "ai-teacher-msg ai-teacher-msg--bot ai-teacher-msg--typing";
     msg.innerHTML = "<p><span></span><span></span><span></span></p>";
-    messagesBox.appendChild(msg);
+    appendToLog(msg);
     return msg;
   }
 

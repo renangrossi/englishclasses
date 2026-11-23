@@ -9,7 +9,7 @@
   "subtitle": "Express regret and unreal wishes about the present and the past.",
   "prerequisites": ["b2-third-conditional", "b1-would"],
   "objectives": [
-    "Use wish/if only + past simple for a present wish",
+    "Use wish/if only + simple past for a present wish",
     "Use wish/if only + past perfect for a past regret",
     "Use wish/if only + would for a complaint about someone else's behavior"
   ],
@@ -17,7 +17,7 @@
     "intro": "\"Wish\" and \"if only\" (a stronger, more emotional version of wish) let you express that reality is different from what you want — in the present, or looking back at the past.",
     "rules": [
       {
-        "heading": "a) Present wish — wish/if only + past simple",
+        "heading": "a) Present wish — wish/if only + simple past",
         "body": "<ul><li>I wish I had more free time. (I don't have much now)</li><li>If only I spoke French. (I don't speak French)</li></ul>"
       },
       {
@@ -38,9 +38,9 @@
       "She wishes she could travel more."
     ],
     "commonMistakes": [
-      { "wrong": "I wish I have more time.", "right": "I wish I had more time.", "why": "A present wish needs the past simple form (had), not the present." },
+      { "wrong": "I wish I have more time.", "right": "I wish I had more time.", "why": "A present wish needs the simple past form (had), not the present." },
       { "wrong": "I wish I studied harder. (regretting a past choice)", "right": "I wish I had studied harder.", "why": "A past regret needs the past perfect (had studied), not the simple past." },
-      { "wrong": "I wish I would speak French.", "right": "I wish I spoke French. / I wish I could speak French.", "why": "\"Wish + would\" isn't used for your own ability/state — use the past simple or \"could\" instead." },
+      { "wrong": "I wish I would speak French.", "right": "I wish I spoke French. / I wish I could speak French.", "why": "\"Wish + would\" isn't used for your own ability/state — use the simple past or \"could\" instead." },
       { "wrong": "I wish you stop interrupting me.", "right": "I wish you would stop interrupting me.", "why": "A complaint about someone else's behavior needs \"wish + would.\"" }
     ]
   },
@@ -49,7 +49,7 @@
       "id": "b2wio-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
       "instructions": "Complete each sentence with the correct form.",
       "items": [
-        { "id": "b2wio1", "prompt": "I wish I ___ (have) more free time. (present wish)", "answers": [["had"]], "explanation": "Present wish — past simple." },
+        { "id": "b2wio1", "prompt": "I wish I ___ (have) more free time. (present wish)", "answers": [["had"]], "explanation": "Present wish — simple past." },
         { "id": "b2wio2", "prompt": "I wish I ___ (study) harder for the exam. (past regret)", "answers": [["had studied"]], "explanation": "Past regret — past perfect." },
         { "id": "b2wio3", "prompt": "If only I ___ (not/say) that to her. (past regret)", "answers": [["hadn't said"]], "explanation": "Past regret, negative — past perfect." },
         { "id": "b2wio4", "prompt": "I wish you ___ (stop) making so much noise. (complaint)", "answers": [["would stop"]], "explanation": "A complaint about someone else's behavior — wish + would." }
@@ -58,20 +58,20 @@
     {
       "id": "b2wio-mc", "type": "multiple-choice", "title": "Choose the Correct Sentence",
       "items": [
-        { "id": "b2wio5", "prompt": "Which sentence expresses a present wish (not a past regret)?", "options": ["I wish I had learned to swim.", "I wish I knew how to swim.", "I wish I had known how to swim."], "answerIndex": 1, "explanation": "\"Knew\" (past simple) expresses a present wish." },
+        { "id": "b2wio5", "prompt": "Which sentence expresses a present wish (not a past regret)?", "options": ["I wish I had learned to swim.", "I wish I knew how to swim.", "I wish I had known how to swim."], "answerIndex": 1, "explanation": "\"Knew\" (simple past) expresses a present wish." },
         { "id": "b2wio6", "prompt": "Which sentence correctly complains about someone else's habit?", "options": ["I wish he stops smoking.", "I wish he would stop smoking.", "I wish he stopped smoking."], "answerIndex": 1, "explanation": "\"Wish + would\" is the standard form for complaining about someone's behavior." }
       ]
     },
     {
       "id": "b2wio-correction", "type": "correction", "title": "Correct the Mistakes",
       "items": [
-        { "id": "b2wio7", "incorrect": "I wish I have a bigger house.", "answer": ["I wish I had a bigger house."], "explanation": "A present wish needs the past simple." },
+        { "id": "b2wio7", "incorrect": "I wish I have a bigger house.", "answer": ["I wish I had a bigger house."], "explanation": "A present wish needs the simple past." },
         { "id": "b2wio8", "incorrect": "If only I studied harder when I was young. (looking back with regret)", "answer": ["If only I had studied harder when I was young."], "explanation": "A past regret needs the past perfect." }
       ]
     }
   ],
   "summary": [
-    "Wish/if only + past simple = a present wish (reality is different now).",
+    "Wish/if only + simple past = a present wish (reality is different now).",
     "Wish/if only + past perfect = a past regret.",
     "Wish + would = a complaint about someone else's behavior — not used for yourself."
   ],

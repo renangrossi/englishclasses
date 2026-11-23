@@ -20,7 +20,7 @@
     "rules": [
       {
         "heading": "Second conditional — unreal present/future",
-        "body": "<p>If + past simple, would + base verb. Used for something imaginary, unlikely, or impossible now.</p><ul><li>If I won the lottery, I would travel the world. (I probably won't win)</li><li>If I were you, I would apologize. (I'm not you — imaginary advice)</li></ul>"
+        "body": "<p>If + simple past, would + base verb. Used for something imaginary, unlikely, or impossible now.</p><ul><li>If I won the lottery, I would travel the world. (I probably won't win)</li><li>If I were you, I would apologize. (I'm not you — imaginary advice)</li></ul>"
       }
     ],
     "examples": [
@@ -32,7 +32,7 @@
       {
         "wrong": "If I win the lottery, I would travel the world.",
         "right": "If I won the lottery, I would travel the world.",
-        "why": "The \"if\" clause of the second conditional needs the past simple, not the present."
+        "why": "The \"if\" clause of the second conditional needs the simple past, not the present."
       },
       {
         "wrong": "If I was you, I would apologize.",
@@ -165,7 +165,7 @@
             "If you are rich, would you travel?"
           ],
           "answerIndex": 0,
-          "explanation": "The if-clause stays in the past simple/perfect even in a question; only the result clause inverts with would."
+          "explanation": "The if-clause stays in the simple past (or past perfect) even in a question; only the result clause inverts with would."
         },
         {
           "id": "b1cond23-103",
@@ -191,7 +191,7 @@
           "answer": [
             "If I won the lottery, I would travel the world."
           ],
-          "explanation": "The second conditional's \"if\" clause needs the past simple."
+          "explanation": "The second conditional's \"if\" clause needs the simple past."
         },
         {
           "id": "b1cond23-21",
@@ -207,7 +207,7 @@
           "answer": [
             "If he studied harder, he would pass."
           ],
-          "explanation": "The second conditional's \"if\" clause needs the past simple, not the present."
+          "explanation": "The second conditional's \"if\" clause needs the simple past, not the present."
         },
         {
           "id": "b1cond23-50",
@@ -215,7 +215,7 @@
           "answer": [
             "If we had more time, we would finish it."
           ],
-          "explanation": "The second conditional's \"if\" clause needs the past simple, not the present."
+          "explanation": "The second conditional's \"if\" clause needs the simple past, not the present."
         },
         {
           "id": "b1cond23-52",
@@ -358,7 +358,7 @@
             "If I had a car, I would have driven to work."
           ],
           "answerIndex": 0,
-          "explanation": "Second conditional: past simple if-clause + would + base verb."
+          "explanation": "Second conditional: simple past if-clause + would + base verb."
         }
       ]
     },
@@ -421,7 +421,7 @@
     }
   ],
   "summary": [
-    "Second conditional: If + past simple, would + base verb — unreal present/future.",
+    "Second conditional: If + simple past, would + base verb — unreal present/future.",
     "\"Were\" (not \"was\") is standard for all subjects in second-conditional \"if I were...\" expressions."
   ],
   "related": [],

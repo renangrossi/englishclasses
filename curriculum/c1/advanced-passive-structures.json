@@ -57,7 +57,7 @@
       {
         "wrong": "The window got broke during the storm.",
         "right": "The window got broken during the storm.",
-        "why": "Get-passive still needs the past participle (broken), not the past simple form (broke)."
+        "why": "Get-passive still needs the past participle (broken), not the simple past form (broke)."
       },
       {
         "wrong": "It is said he was rich, that he owned three houses.",

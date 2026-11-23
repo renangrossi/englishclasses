@@ -50,7 +50,7 @@
       "items": [
         { "id": "b2ife1", "prompt": "Never ___ I ___ (see) such a beautiful sunset.", "answers": [["have"], ["seen"]], "explanation": "Never + auxiliary (have) + subject + past participle." },
         { "id": "b2ife2", "prompt": "Rarely ___ he ___ (arrive) late.", "answers": [["does"], ["arrive"]], "explanation": "No auxiliary in the original — add \"does\" for the inversion." },
-        { "id": "b2ife3", "prompt": "Only after the exam ___ she ___ (relax).", "answers": [["did"], ["relax"]], "explanation": "\"Only after\" triggers inversion — add \"did\" for the past simple." }
+        { "id": "b2ife3", "prompt": "Only after the exam ___ she ___ (relax).", "answers": [["did"], ["relax"]], "explanation": "\"Only after\" triggers inversion — add \"did\" for the simple past." }
       ]
     },
     {

@@ -64,7 +64,7 @@
       "items": [
         { "id": "a2af8", "incorrect": "She always go to the gym on Mondays.", "answer": ["She always goes to the gym on Mondays."], "explanation": "Third person singular still needs -s." },
         { "id": "a2af9", "incorrect": "He usually wake up early in the morning.", "answer": ["He usually wakes up early in the morning."], "explanation": "Third person singular needs -s, regardless of the adverb." },
-        { "id": "a2af10", "incorrect": "We rarely goes to the park on weekdays.", "answer": ["We rarely go to the park on weekdays."], "explanation": "\"We\" doesn't take -s in the present simple." }
+        { "id": "a2af10", "incorrect": "We rarely goes to the park on weekdays.", "answer": ["We rarely go to the park on weekdays."], "explanation": "\"We\" doesn't take -s in the simple present." }
       ]
     }
   ],

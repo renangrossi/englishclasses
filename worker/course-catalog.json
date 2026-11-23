@@ -225,7 +225,7 @@
     },
     {
       "level": "A2",
-      "title": "Present Simple and Continuous Review",
+      "title": "Simple Present and Present Continuous Review",
       "url": "cefr/a2-elementary/a-present-simple-and-continuous-review.pdf",
       "type": "worksheet",
       "format": "pdf"
@@ -338,7 +338,7 @@
     },
     {
       "level": "B1",
-      "title": "Past Simple vs. Past Perfect",
+      "title": "Simple Past vs. Past Perfect",
       "url": "cefr/b1-intermediate/c-past-simple-vs-past-perfect.pdf",
       "type": "worksheet",
       "format": "pdf"
@@ -399,14 +399,14 @@
     },
     {
       "level": "B1",
-      "title": "Past Simple vs. Present Perfect I",
+      "title": "Simple Past vs. Present Perfect I",
       "url": "cefr/b1-intermediate/j-past-simple-vs.-present-perfect-i.pdf",
       "type": "worksheet",
       "format": "pdf"
     },
     {
       "level": "B1",
-      "title": "Past Simple vs. Present Perfect II",
+      "title": "Simple Past vs. Present Perfect II",
       "url": "cefr/b1-intermediate/j-past-simple-vs.-present-perfect-ii.pdf",
       "type": "worksheet",
       "format": "pdf"
@@ -454,7 +454,7 @@
     },
     {
       "level": "A2",
-      "title": "Present Simple and Continuous Review",
+      "title": "Simple Present and Present Continuous Review",
       "url": "levels/a2/present-simple-and-continuous-review.html",
       "type": "lesson"
     },
@@ -556,13 +556,13 @@
     },
     {
       "level": "B1",
-      "title": "Past Simple vs. Present Perfect I",
+      "title": "Simple Past vs. Present Perfect I",
       "url": "levels/b1/past-simple-vs-present-perfect-i.html",
       "type": "lesson"
     },
     {
       "level": "B1",
-      "title": "Past Simple vs. Present Perfect II",
+      "title": "Simple Past vs. Present Perfect II",
       "url": "levels/b1/past-simple-vs-present-perfect-ii.html",
       "type": "lesson"
     },
@@ -580,7 +580,7 @@
     },
     {
       "level": "B1",
-      "title": "Past Simple vs. Past Perfect",
+      "title": "Simple Past vs. Past Perfect",
       "url": "levels/b1/past-simple-vs-past-perfect.html",
       "type": "lesson"
     },

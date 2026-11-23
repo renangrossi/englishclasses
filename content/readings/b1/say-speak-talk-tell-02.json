@@ -376,8 +376,8 @@
     {
       "id": "b1-sstt-choice",
       "type": "multiple-choice",
-      "title": "Past Simple or Present Perfect?",
-      "instructions": "Choose the form that fits. A stated past time forces the past simple; an unfinished period or no stated time allows the present perfect.",
+      "title": "Simple Past or Present Perfect?",
+      "instructions": "Choose the form that fits. A stated past time forces the simple past; an unfinished period or no stated time allows the present perfect.",
       "items": [
         {
           "id": "sm1",
@@ -421,7 +421,7 @@
             "said"
           ],
           "answerIndex": 0,
-          "explanation": "“Yesterday” forces the past simple; “us” forces tell."
+          "explanation": "“Yesterday” forces the simple past; “us” forces tell."
         },
         {
           "id": "sm5",

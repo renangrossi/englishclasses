@@ -199,8 +199,8 @@
     {
       "id": "b1-ggb-presentperfect",
       "type": "fill-blank",
-      "title": "Present Perfect or Past Simple?",
-      "instructions": "Use the past simple for a finished action at a stated past time, and the present perfect for something that runs from the past up to now, or whose time is not stated.",
+      "title": "Present Perfect or Simple Past?",
+      "instructions": "Use the simple past for a finished action at a stated past time, and the present perfect for something that runs from the past up to now, or whose time is not stated.",
       "items": [
         {
           "id": "ggp1",
@@ -226,7 +226,7 @@
             "has opened",
             "was opening"
           ],
-          "explanation": "A finished event at a stated past time takes the past simple. Compare the sentence above."
+          "explanation": "A finished event at a stated past time takes the simple past. Compare the sentence above."
         },
         {
           "id": "ggp3",
@@ -252,7 +252,7 @@
             "has caught",
             "catches"
           ],
-          "explanation": "The construction period is over, so the past simple. The net is no longer catching anyone."
+          "explanation": "The construction period is over, so the simple past. The net is no longer catching anyone."
         },
         {
           "id": "ggp5",
@@ -286,7 +286,7 @@
               "is strengthened"
             ]
           ],
-          "explanation": "The first has no stated time and continues to be true; the second is tied to a specific year, so past simple passive."
+          "explanation": "The first has no stated time and continues to be true; the second is tied to a specific year, so simple past passive."
         }
       ]
     },
@@ -334,6 +334,6 @@
     "The safety net was unusual and expensive, and it saved nineteen lives. How should that cost be weighed when it is being decided?",
     "The color was an accident that turned out to work. Can you think of something in your own life that worked out the same way?",
     "Is there a structure in your country that people photograph in the same spot every time? Why that one?",
-    "Write about 120 words describing a famous structure you have seen, using the present perfect for what it has done and the past simple for when it was built."
+    "Write about 120 words describing a famous structure you have seen, using the present perfect for what it has done and the simple past for when it was built."
   ]
 }

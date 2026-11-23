@@ -50,7 +50,7 @@ Use the reporting passive to distance yourself from a claim (useful in journalis
 
 3. Incorrect: The window got broke during the storm.
    Correct: The window got broken during the storm.
-   Why: Get-passive still needs the past participle (broken), not the past simple form (broke).
+   Why: Get-passive still needs the past participle (broken), not the simple past form (broke).
 
 4. Incorrect: It is said he was rich, that he owned three houses.
    Correct: It is said that he was rich and owned three houses.

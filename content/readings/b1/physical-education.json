@@ -5,7 +5,7 @@
   "topic": "sports",
   "title": "The PE Teacher",
   "subtitle": "Five years of getting children to move, and what she has learned about how to do it.",
-  "description": "A B1 reading and listening text about a physical education teacher, written with a clear tense scheme — present perfect for experience, past simple for events, future for plans — with vocabulary and comprehension exercises.",
+  "description": "A B1 reading and listening text about a physical education teacher, written with a clear tense scheme — present perfect for experience, simple past for events, future for plans — with vocabulary and comprehension exercises.",
   "source": "cefr/texts/physical-education.docx",
   "provenance": "rewritten",
   "narrator": "female",
@@ -216,7 +216,7 @@
       "id": "b1-pe-tenses",
       "type": "fill-blank",
       "title": "Which Tense?",
-      "instructions": "Present perfect for experience over a period up to now. Past simple for a finished event at a stated time. Present continuous or going to for a plan.",
+      "instructions": "Present perfect for experience over a period up to now. Simple past for a finished event at a stated time. Present continuous or going to for a plan.",
       "items": [
         {
           "id": "pet1",
@@ -229,7 +229,7 @@
             "taught",
             "had taught"
           ],
-          "explanation": "“For five years” up to now takes the present perfect. The past simple would mean she no longer teaches there."
+          "explanation": "“For five years” up to now takes the present perfect. The simple past would mean she no longer teaches there."
         },
         {
           "id": "pet2",
@@ -242,7 +242,7 @@
             "has run",
             "had run"
           ],
-          "explanation": "A single finished event at a stated past time — past simple. The source's “had organized” was wrong: a past perfect needs a later past point to sit before."
+          "explanation": "A single finished event at a stated past time — simple past. The source's “had organized” was wrong: a past perfect needs a later past point to sit before."
         },
         {
           "id": "pet3",
@@ -255,7 +255,7 @@
             "ran",
             "runs"
           ],
-          "explanation": "“Since” ties the period to now, so present perfect — the natural follow-up to a past simple event."
+          "explanation": "“Since” ties the period to now, so present perfect — the natural follow-up to a simple past event."
         },
         {
           "id": "pet4",
@@ -358,6 +358,6 @@
     "Were teams picked in front of you at school? What did it feel like, and what would you have changed?",
     "She designed a race that could not be won on speed alone. Is that fair to the fastest children?",
     "“She kept the lesson and threw away the schedule.” Describe something that failed for you because of when, not what.",
-    "Write about 120 words about a teacher who changed how you felt about a subject, using the present perfect for what they have done and the past simple for one specific memory."
+    "Write about 120 words about a teacher who changed how you felt about a subject, using the present perfect for what they have done and the simple past for one specific memory."
   ]
 }

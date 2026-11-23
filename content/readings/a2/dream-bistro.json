@@ -5,7 +5,7 @@
   "topic": "work",
   "title": "Opening a Bistro",
   "subtitle": "One man's plan to open a small restaurant — what he has done, what he is doing now, and what comes next.",
-  "description": "An A2 reading and listening text about someone planning to open a bistro, contrasting present simple, present continuous and simple past, with work and food vocabulary.",
+  "description": "An A2 reading and listening text about someone planning to open a bistro, contrasting simple present, present continuous and simple past, with work and food vocabulary.",
   "source": "cefr/texts/dream-bistro.docx",
   "provenance": "edited",
   "paddingNote": {
@@ -156,7 +156,7 @@
     {
       "id": "a2-bistro-tenses",
       "type": "fill-blank",
-      "title": "Present Simple, Present Continuous or Past?",
+      "title": "Simple Present, Present Continuous or Past?",
       "instructions": "Choose the correct form. Think about whether it is a habit, something happening now, or something finished.",
       "items": [
         {
@@ -170,7 +170,7 @@
             "is trying",
             "tried"
           ],
-          "explanation": "\"Every weekend\" signals a repeated habit, so the present simple is right."
+          "explanation": "\"Every weekend\" signals a repeated habit, so the simple present is right."
         },
         {
           "id": "dbt2",
@@ -235,7 +235,7 @@
             "is getting",
             "got"
           ],
-          "explanation": "This is his current routine — a habit — so the present simple."
+          "explanation": "This is his current routine — a habit — so the simple present."
         }
       ]
     },

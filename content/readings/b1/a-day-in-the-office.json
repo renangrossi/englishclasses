@@ -5,7 +5,7 @@
   "topic": "work",
   "title": "Every Day, and Right Now",
   "subtitle": "Two colleagues, one Tuesday — and the difference between what you do and what you are doing.",
-  "description": "A B1 workplace reading and listening text contrasting routine with the present moment, written to practice the present simple against the present continuous and the prepositions in, on and at.",
+  "description": "A B1 workplace reading and listening text contrasting routine with the present moment, written to practice the simple present against the present continuous and the prepositions in, on and at.",
   "source": "cefr/texts/daily-activities.docx + unfortunate-events.docx + navigating-finance.docx",
   "provenance": "merged",
   "audio": {
@@ -21,7 +21,7 @@
     "That is what they do. What they are doing at this moment is something else entirely.",
     "Right now Emily is standing at the window with a coffee going cold in her hand, looking at a chart on her tablet that she does not believe. One of her positions has moved eleven per cent since yesterday afternoon and nothing in the news explains it. She is not panicking — she does this perhaps four times a year — but she is going to have to call somebody in about ten minutes and say she does not yet know why.",
     "Michael is on the phone, as usual, but he is not advising anyone. He is listening to a client explain, at length, why he wants to sell everything and put it all into one company his brother-in-law has recommended. Michael is saying “mm” at intervals and writing the word NO on a piece of paper and underlining it twice. He will spend the next quarter of an hour talking the man out of it, and he will succeed, and the client will tell people afterwards that it was his own decision.",
-    "This is the difference the two tenses carry. “Emily manages portfolios” tells you her job. “Emily is standing at the window” tells you her Tuesday. The first is true in general and says nothing about today; the second is true now and says nothing about whether it ever happens again. English keeps them apart more strictly than most languages do, which is why learners often describe a photograph in the present simple and sound as if they are reading a job description.",
+    "This is the difference the two tenses carry. “Emily manages portfolios” tells you her job. “Emily is standing at the window” tells you her Tuesday. The first is true in general and says nothing about today; the second is true now and says nothing about whether it ever happens again. English keeps them apart more strictly than most languages do, which is why learners often describe a photograph in the simple present and sound as if they are reading a job description.",
     "There is one more thing worth noticing here. Some verbs resist the continuous altogether. Michael believes the client is wrong; he is not believing it. Emily knows the market is unpredictable; she is not knowing it. Verbs about states of mind — know, believe, understand, mean, want — usually stay in the simple form even when you are talking about this exact moment, and that is the rule that catches people out.",
     "At six, Emily will go home and Michael will stay for another hour, as he does most days. Tomorrow both of them will arrive early, and the routine will describe them again until something happens that it does not cover."
   ],
@@ -105,7 +105,7 @@
     {
       "id": "b1-off-tenses",
       "type": "fill-blank",
-      "title": "Present Simple or Present Continuous?",
+      "title": "Simple Present or Present Continuous?",
       "instructions": "Simple for what is generally true; continuous for what is happening now. Watch for the verbs that refuse the continuous.",
       "items": [
         {
@@ -119,7 +119,7 @@
             "is working",
             "work"
           ],
-          "explanation": "“Every day” marks a routine, so the present simple — with the -s for she."
+          "explanation": "“Every day” marks a routine, so the simple present — with the -s for she."
         },
         {
           "id": "of2",
@@ -391,7 +391,7 @@
             "By saying the amount is small"
           ],
           "answerIndex": 0,
-          "explanation": "“She is not panicking — she does this perhaps four times a year”. Note that the frequency is in the present simple."
+          "explanation": "“She is not panicking — she does this perhaps four times a year”. Note that the frequency is in the simple present."
         },
         {
           "id": "oc3",
@@ -431,7 +431,7 @@
           "prompt": "Why do learners sometimes “sound as if they are reading a job description”?",
           "options": [
             "They use vocabulary that is too formal",
-            "They describe a photograph in the present simple instead of the continuous",
+            "They describe a photograph in the simple present instead of the continuous",
             "They avoid using names"
           ],
           "answerIndex": 1,
@@ -452,7 +452,7 @@
     }
   ],
   "discussion": [
-    "Describe your job in three sentences using the present simple, then describe this exact moment in three using the continuous.",
+    "Describe your job in three sentences using the simple present, then describe this exact moment in three using the continuous.",
     "“The client will tell people afterwards that it was his own decision.” Why does good advice often get remembered that way?",
     "Which state verbs does your own language allow in a continuous form? Where does that cause trouble in English?",
     "Describe a photograph you have on your phone, in the present continuous.",

@@ -22,7 +22,7 @@
       },
       {
         "heading": "b) Complex future reference in narratives — combining future-in-the-past with other tenses to build a timeline within a story, often mixing:",
-        "body": "<ul><li>past simple for the main narrative events,</li><li>past continuous for background,</li><li>future-in-the-past for what was still to come,</li><li>past perfect for what had already happened before the story's \"now.\" By the time she boarded the plane, she had already decided she wasn't coming back. She was going to start a completely new life.</li></ul>"
+        "body": "<ul><li>simple past for the main narrative events,</li><li>past continuous for background,</li><li>future-in-the-past for what was still to come,</li><li>past perfect for what had already happened before the story's \"now.\" By the time she boarded the plane, she had already decided she wasn't coming back. She was going to start a completely new life.</li></ul>"
       },
       {
         "heading": "c) Nuance differences:",
@@ -294,7 +294,7 @@
         },
         {
           "id": "future-forms-with-nuance-d4",
-          "prompt": "Write two connected sentences telling a short story that mixes past simple, past perfect and future-in-the-past.",
+          "prompt": "Write two connected sentences telling a short story that mixes simple past, past perfect and future-in-the-past.",
           "modelAnswer": "By the time the sun rose, she had already packed her bags. She was going to start a new chapter, far from everything she had ever known."
         }
       ]

@@ -127,7 +127,7 @@
       "id": "b2-snow-tenses",
       "type": "fill-blank",
       "title": "Past Tenses",
-      "instructions": "A historical narrative uses the past simple for events, the past perfect for what came before them, and the past continuous for what was going on around them.",
+      "instructions": "A historical narrative uses the simple past for events, the past perfect for what came before them, and the past continuous for what was going on around them.",
       "items": [
         {
           "id": "sn1",
@@ -148,7 +148,7 @@
               "has been"
             ]
           ],
-          "explanation": "A stated past date takes the past simple throughout."
+          "explanation": "A stated past date takes the simple past throughout."
         },
         {
           "id": "sn2",

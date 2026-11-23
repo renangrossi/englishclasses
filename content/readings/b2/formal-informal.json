@@ -26,7 +26,7 @@
     "Following a review of our regional operations, the Board has taken the decision to close the Bristol office with effect from 31 March. All affected colleagues will be offered a role at the Cardiff site or, where relocation is not practicable, a severance package in line with company policy. Individual consultations will commence next week. We recognize that this announcement will be unwelcome, and we are committed to supporting colleagues throughout the transition.",
     "And here is the same news, sent by one of those colleagues to a friend.",
     "So they're shutting Bristol. End of March. Found out this morning. They're saying everyone can move to Cardiff, which is fine if you don't have kids in school here, and otherwise you take the payout. Meetings start next week, one by one, which I'm not looking forward to. Honestly I saw it coming — nobody's replaced anyone here since last summer.",
-    "The facts are identical. Everything else has moved. Look first at the verbs. The formal version prefers nouns where the informal one uses verbs: a decision has been taken rather than they decided, consultations will commence rather than meetings start. This is nominalisation, and its effect is to remove people from sentences. Notice that nobody in the formal version actually does anything — the Board takes a decision, but colleagues are offered, and the announcement will be unwelcome without anyone being said to be unhappy about it.",
+    "The facts are identical. Everything else has moved. Look first at the verbs. The formal version prefers nouns where the informal one uses verbs: a decision has been taken rather than they decided, consultations will commence rather than meetings start. This is nominalization, and its effect is to remove people from sentences. Notice that nobody in the formal version actually does anything — the Board takes a decision, but colleagues are offered, and the announcement will be unwelcome without anyone being said to be unhappy about it.",
     "Then the passive voice, which does the same work. “All affected colleagues will be offered a role” — offered by whom? The sentence declines to say, and that is not laziness; it is the point. Formal institutional writing frequently removes the agent from anything difficult, and once you have noticed the pattern you cannot stop seeing it.",
     "Vocabulary shifts too, and predictably: Latin-derived words move up the register and Anglo-Saxon ones move down. Commence rather than start, terminate rather than end, purchase rather than buy, relocation rather than moving, severance package rather than payout. This is a fairly reliable rule in English, and it is the legacy of the Norman conquest, after which the language of law and administration was French and the language of ordinary life was not.",
     "The informal version is doing things the formal one cannot. It has an opinion — “which is fine if you don't have kids in school here”. It admits a feeling: not looking forward to it. It offers an interpretation the company would never print: nobody has been replaced since last summer. And it uses contractions, sentence fragments and a conversational discourse marker, honestly, to signal that this is one person talking to another rather than an institution addressing a category.",
@@ -145,7 +145,7 @@
         },
         {
           "id": "rg2",
-          "prompt": "What is nominalisation, and what does it do?",
+          "prompt": "What is nominalization, and what does it do?",
           "options": [
             "Using longer words, which makes writing harder to read",
             "Turning verbs into nouns, which removes people from sentences",
@@ -342,7 +342,7 @@
             "made up",
             "chosen"
           ],
-          "explanation": "“Take a decision” is the formal collocation, and the nominalisation is what lets the sentence avoid saying they decided."
+          "explanation": "“Take a decision” is the formal collocation, and the nominalization is what lets the sentence avoid saying they decided."
         },
         {
           "id": "rgf5",

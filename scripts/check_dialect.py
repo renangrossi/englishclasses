@@ -66,7 +66,19 @@ SPELLING = [
     (r"\bmodell(ed|ing)\b", "model"),
     (r"\bprogramme(s)?\b", "program"),
     (r"\bgrey(s|ish)?\b", "gray"),
-    (r"\bsceptic(s|al|ism)?\b", "skeptic"),
+    (r"\bsceptic(s|al|ally|ism)?\b", "skeptic"),
+    # Found by the 2026-11 language audit: forms the rules above never matched.
+    (r"\bmetabolis(e|ed|es|ing)\b", "metaboliz"),
+    (r"\bnominalis(e|ed|es|ing|ation|ations)\b", "nominaliz"),
+    (r"\bwatercolour(s)?\b", "watercolor"),
+    (r"\bcataloguing\b", "cataloging"),
+    (r"\bcatalogued\b", "cataloged"),
+    (r"\bcatalogue(s)?\b", "catalog"),
+    (r"\blicence(s|d)?\b", "license"),
+    (r"\btranquillity\b", "tranquility"),
+    (r"\bspirall(ed|ing)\b", "spiral"),
+    (r"\bpanell(ed|ing)\b", "panel"),
+    (r"\bmartiall(ed|ing)\b", "martial"),
     (r"\bjudgement(s)?\b", "judgment"),
     (r"\bfulfil\b", "fulfill"),
     (r"\benrol\b", "enroll"),
@@ -91,6 +103,13 @@ PROTECTED = [
     r"Centre for [A-Z]",
     r"Theatre Royal",
     r"Ford'?s Theatre",
+    # A title, not a color: the dialect pass once turned "Grey's Anatomy" into
+    # "Gray'S ANATOMY" (it keeps the case of the first letter only).
+    r"Grey'?s Anatomy",
+    r"Open Government Licence",
+    # A note that names the British form is about the difference; rewriting
+    # it once produced "(British spelling: harbor)".
+    r"\([^()]*\bBritish\b[^()]*\)",
 ]
 
 # Word choice, not spelling: reported, never rewritten.

@@ -19,7 +19,7 @@
     "The best-known twelve minutes of the twentieth century were, from inside the spacecraft, a sequence of problems. Nineteen minutes into the descent the guidance computer began raising an alarm — program alarm 1202, then 1201 — which neither Armstrong nor Aldrin recognized. On the ground a twenty-six-year-old engineer named Steve Bales had seconds to decide whether it meant the landing should be abandoned. He said go.",
     "He could say go because of a design decision taken years earlier. The software written by the team under Margaret Hamilton at MIT had been built to assume that it would at some point be given more work than it could do, and to respond by discarding the least important tasks and restarting the essential ones rather than failing altogether. The alarms meant the computer was overloaded and recovering, repeatedly, exactly as designed. The machine doing this had about four kilobytes of memory that could be written to.",
     "Then Armstrong took over manual control, because the computer was steering the craft towards a crater strewn with boulders, and flew on past it looking for level ground. Flying costs fuel. Aldrin read out altitudes while Houston counted down the margin, and the call of sixty seconds, then thirty seconds, became the most quoted part of the transmission. Later reconstruction suggests there was rather more left than the callouts implied, but nobody on the loop knew that at the time.",
-    "They landed at 20:17 UTC on 20 July 1969, in the Sea of Tranquillity, about six kilometers from the intended point. Armstrong's first words from the surface were not the famous ones; they were a confirmation that the engine was off and the craft was down.",
+    "They landed at 20:17 UTC on 20 July 1969, in the Sea of Tranquility, about six kilometers from the intended point. Armstrong's first words from the surface were not the famous ones; they were a confirmation that the engine was off and the craft was down.",
     "A third man was not there. Michael Collins remained in lunar orbit in the command module, alone, losing radio contact with everyone on each pass behind the Moon — forty-eight minutes at a time in which he was, by a common formulation, the most isolated human being who had ever lived. He later wrote that he did not feel lonely so much as aware that if the ascent engine failed he would be going home by himself, and that he had rehearsed that flight.",
     "That possibility had been prepared for on the ground too. William Safire, then a speechwriter in the Nixon White House, had drafted a statement to be read if the crew could not lift off: \"Fate has ordained that the men who went to the Moon in peace will stay on the Moon to rest in peace.\" The plan was that contact would be closed out, a clergyman would commend their souls to the deep, and the President would telephone the widows first. The text was declassified in 1999 and had never been needed.",
     "The walk itself lasted about two and a half hours. They took photographs, planted a flag stiffened with a wire rod because there is no wind, collected twenty-one and a half kilograms of rock and soil, and set out three experiments. One was a sheet of foil to catch particles from the solar wind. One was a seismometer. The third was a panel of corner-cube mirrors, and it is the reason the landing is still, in a narrow sense, in use: observatories on Earth continue to bounce lasers off it, which is how the distance to the Moon is known to within a few centimeters and how we know it is receding at about 3.8 centimeters a year.",
@@ -296,14 +296,14 @@
           "id": "a11-b2",
           "prompt": "They came down in the Sea of ___.",
           "answers": [
-            "Tranquillity"
+            "Tranquility"
           ],
           "options": [
-            "Tranquillity",
+            "Tranquility",
             "Storms",
             "Crises"
           ],
-          "explanation": "The Sea of Tranquillity, about six kilometers off target."
+          "explanation": "The Sea of Tranquility, about six kilometers off target."
         },
         {
           "id": "a11-b3",

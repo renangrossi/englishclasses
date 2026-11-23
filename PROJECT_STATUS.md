@@ -1349,3 +1349,33 @@ from -- reverting `modality-with-nuance.html` alone makes the checker name 26 of
 starting with `b3`, which rejects "you should not have ignored her advice". Both are warnings,
 because which variants a lesson accepts is an editorial call, and the default run is clean at
 0 errors and 0 warnings. `--selftest` is now 17 cases.
+
+---
+
+## Language audit (2026-11-23)
+
+A grammar and language pass over everything a student reads, run as its own pass on the
+branch `audit/language-pass` and merged to `main`. The full report — method, what was
+fixed, and what is left for a decision — is `docs/language-audit.md`.
+
+**Read in full:** every lesson page, the Test Yourself and level overview pages, the root
+pages, the seven grammar booklets, all 2,246 reading-glossary definitions and the interface
+strings. **Machine-checked:** a spell-check of the whole site (623k unique words, including
+10,774 lesson exercise items and the 152 readings), key-against-explanation consistency on
+every multiple-choice and gap-fill item, and grammar heuristics on every keyed sentence.
+
+**Commits:** `174c7a5` lessons (rules that taught the wrong thing, correct English marked as
+mistakes, cards that repeated their own sentence, 17 cut-off C1/C2 subtitles and six broken
+meta descriptions) · `31a95a1` dialect (rules the checker lacked, the booklets added to it,
+and two things an earlier pass had damaged: *Grey's Anatomy* and a *(British spelling:
+harbour)* note) · `ef2b0f8` booklets · `63d70c8` Extras page · `2223aea` reading glossary
+and a credit · `847449f` the eight C1/C2 worksheet PDFs that carried the lesson errors.
+
+**Left open on purpose** (see the report): homepage copy, a privacy statement on the progress
+page that disagrees with the privacy page, A1 Test Yourself topic 20 still being the old
+lesson, *simple past* vs *past simple* (about 50/50 across the lessons), British words in
+narrated passages, 38 readings awaiting re-narration, and the booklets' external source.
+
+Validators after the pass: `check_site_integrity` 289 pages / 71 lessons, 0 errors, 45
+warnings (the baseline); `check_content` 157 sources, no errors; `check_dialect` and
+`normalize_lesson_spelling` nothing outstanding.

@@ -21,15 +21,15 @@
   ],
   "passage": [
     "The sun came through the blinds and woke Sarah before her alarm, which almost never happens and which she decided to treat as a good sign. She stretched, pushed the covers off, and went downstairs.",
-    "Her father John was already in the kitchen. The coffee machine was making the noise it makes — a gurgle and then a long hiss — and the smell had reached the stairs before she did. He had the radio on low and was laying the table: plates, bowls, and a handful of silverware he was distributing without much attention to which side anything went on.",
+    "Her father John was already in the kitchen. The coffee machine was making the noise it makes — a gurgle and then a long hiss — and the smell had reached the stairs before she did. He had the radio on low and was setting the table: plates, bowls, and a handful of silverware he was distributing without much attention to which side anything went on.",
     "Upstairs, her brother Ben was still asleep. His laundry basket had been full for several days and had now reached the stage where clothes were arranged around it rather than in it.",
     "Sarah and John ate scrambled eggs and toast and went through the day. There was a leaky faucet in the upstairs bathroom that had been dripping since Tuesday, and a light bulb in the hallway that had gone and that nobody had replaced because the ceiling there is high and the ladder is in the garage.",
     "Ben came down at half past ten, made a face at the smell of coffee, ate three pieces of toast standing up, and moved to the couch with the remote before anybody could give him a job.",
-    "Sarah started a load of washing, which filled the laundry room with the smell of detergent, and then went to deal with the faucet. She got the toolbox from the garage, turned the water off under the sink, took the faucet apart on a towel so the small parts would not roll away, tightened the screw that had worked loose and replaced the rubber washer, which had gone hard and flat. Then she put it back together and turned the water on and nothing leaked, which she enjoyed more than she expected to.",
+    "Sarah started a load of laundry, which filled the laundry room with the smell of detergent, and then went to deal with the faucet. She got the toolbox from the garage, turned the water off under the sink, took the faucet apart on a towel so the small parts would not roll away, tightened the screw that had worked loose and replaced the rubber washer, which had gone hard and flat. Then she put it back together and turned the water on and nothing leaked, which she enjoyed more than she expected to.",
     "John spent the afternoon in the home office, which is the tidiest room in the house and the only one with a rule about it. Books on the shelves, files in order, and a door he closes.",
     "Ben, having exhausted the television, went out to the yard and threw a ball for the dog for forty minutes. The dog did not get bored before he did.",
-    "Sarah's mother Jane came home at six and the two of them made dinner together, which is the part of the week they both protect: chopping, talking, one of them stirring a pot while the other says something and has to repeat it over the noise of the extractor fan. They made a stew, and it filled the downstairs with the smell of it for the rest of the evening.",
-    "At some point between the washing machine finishing and the stew being ready, Ben carried the ladder in from the garage without being asked and changed the hallway bulb. Nobody saw him do it. Everybody noticed, because the hallway had been dark for a fortnight and suddenly was not, and nobody said anything about it, which in that house counts as a conversation."
+    "Sarah's mother Jane came home at six and the two of them made dinner together, which is the part of the week they both protect: chopping, talking, one of them stirring a pot while the other says something and has to repeat it over the noise of the exhaust fan. They made a stew, and it filled the downstairs with the smell of it for the rest of the evening.",
+    "At some point between the washing machine finishing and the stew being ready, Ben carried the ladder in from the garage without being asked and changed the hallway bulb. Nobody saw him do it. Everybody noticed, because the hallway had been dark for two weeks and suddenly was not, and nobody said anything about it, which in that house counts as a conversation."
   ],
   "images": [
     {
@@ -69,9 +69,9 @@
       "definition": "to make a long sound like escaping steam"
     },
     {
-      "term": "to lay the table",
-      "definition": "to put out the plates and cutlery before a meal",
-      "match": "laying the table"
+      "term": "to set the table",
+      "definition": "to put out the plates and silverware before a meal (British: to lay the table)",
+      "match": "setting the table"
     },
     {
       "term": "silverware",
@@ -108,8 +108,8 @@
       "definition": "the frame with steps you climb to reach something high"
     },
     {
-      "term": "a load of washing",
-      "definition": "one batch of clothes put through the machine"
+      "term": "a load of laundry",
+      "definition": "one batch of clothes put through the machine (British: a load of washing)"
     },
     {
       "term": "detergent",
@@ -143,16 +143,12 @@
       "definition": "the outdoor space behind a house (British: garden)"
     },
     {
-      "term": "extractor fan",
-      "definition": "the fan over a cooker that pulls away steam and smells"
+      "term": "exhaust fan",
+      "definition": "the fan over a stove that pulls away steam and smells (British: extractor fan)"
     },
     {
       "term": "stew",
       "definition": "meat and vegetables cooked slowly in liquid"
-    },
-    {
-      "term": "fortnight",
-      "definition": "two weeks"
     }
   ],
   "exercises": [
@@ -171,7 +167,7 @@
             "Nobody had noticed it"
           ],
           "answerIndex": 1,
-          "explanation": "Two small obstacles, neither serious, which together are enough to stop the job for a fortnight."
+          "explanation": "Two small obstacles, neither serious, which together are enough to stop the job for two weeks."
         },
         {
           "id": "h2",
@@ -283,13 +279,13 @@
           "id": "hf2",
           "prompt": "Could you ___ ___ ___ before dinner?",
           "answers": [
-            "lay",
+            "set",
             "the",
             "table"
           ],
           "options": [
             [
-              "lay",
+              "set",
               "put",
               "make"
             ],
@@ -304,7 +300,7 @@
               "meal"
             ]
           ],
-          "explanation": "To lay the table is to put out the plates and cutlery. “Set the table” is equally common in American English."
+          "explanation": "To set the table is to put out the plates and silverware. British English also says “lay the table.”"
         },
         {
           "id": "hf3",
@@ -313,7 +309,7 @@
             "a",
             "load",
             "of",
-            "washing"
+            "laundry"
           ],
           "options": [
             [
@@ -337,7 +333,7 @@
               "laundry"
             ]
           ],
-          "explanation": "A load of washing is one batch through the machine. “A load of laundry” is the more American form."
+          "explanation": "A load of laundry is one batch through the machine. British English says “a load of washing.”"
         },
         {
           "id": "hf4",
@@ -438,7 +434,7 @@
   "discussion": [
     "Describe your own home room by room, using at least eight words from this text.",
     "Sarah enjoyed fixing the faucet more than she expected. Is there a small repair you have taught yourself?",
-    "The bulb went unchanged for a fortnight because of two small obstacles. What is the equivalent in your house?",
+    "The bulb went unchanged for two weeks because of two small obstacles. What is the equivalent in your house?",
     "The family acknowledges Ben's help by not mentioning it. Does your family do things that way, or the opposite?",
     "Write about 150 words describing a Saturday at home, showing what the people are like through what they do rather than by describing them."
   ]

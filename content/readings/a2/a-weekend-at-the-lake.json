@@ -82,6 +82,15 @@
     {
       "term": "disappointed",
       "definition": "sad because something was not as good as you hoped"
+    },
+    {
+      "term": "on the way",
+      "definition": "during the trip, before you arrive"
+    },
+    {
+      "term": "to go back",
+      "definition": "to return to a place",
+      "match": "going back"
     }
   ],
   "exercises": [

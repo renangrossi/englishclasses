@@ -152,6 +152,25 @@
       "term": "to bell the cat",
       "definition": "to take on the dangerous job everybody agrees is necessary",
       "match": "bell the cat"
+    },
+    {
+      "term": "to let somebody down",
+      "definition": "to fail to help somebody who was relying on you",
+      "match": "lets you down"
+    },
+    {
+      "term": "to climb down",
+      "definition": "to come down from a high place",
+      "match": "climbed down"
+    },
+    {
+      "term": "to take on",
+      "definition": "to accept a difficult job or responsibility",
+      "match": "take on"
+    },
+    {
+      "term": "one by one",
+      "definition": "separately, one after the other"
     }
   ],
   "exercises": [

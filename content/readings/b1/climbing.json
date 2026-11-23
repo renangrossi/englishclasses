@@ -107,6 +107,33 @@
     {
       "term": "etiquette",
       "definition": "the unwritten rules about how to behave in a group"
+    },
+    {
+      "term": "to work on",
+      "definition": "to practice something to get better at it",
+      "match": "worked on"
+    },
+    {
+      "term": "to build up",
+      "definition": "to start small and increase gradually",
+      "match": "build up"
+    },
+    {
+      "term": "to pass on",
+      "definition": "to give something to the next person",
+      "match": "pass on"
+    },
+    {
+      "term": "again and again",
+      "definition": "many times"
+    },
+    {
+      "term": "nuts",
+      "definition": "dry fruits with a hard shell, like almonds or cashews — careful: in slang, nuts also means crazy"
+    },
+    {
+      "term": "a great deal",
+      "definition": "a lot; much — careful: not a business deal"
     }
   ],
   "exercises": [

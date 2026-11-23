@@ -97,6 +97,15 @@
     {
       "term": "stockman",
       "definition": "someone whose job is caring for farm animals"
+    },
+    {
+      "term": "to pick up",
+      "definition": "to detect a signal",
+      "match": "picks up"
+    },
+    {
+      "term": "used to",
+      "definition": "did regularly in the past, but not now"
     }
   ],
   "exercises": [

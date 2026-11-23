@@ -120,6 +120,26 @@
       "term": "stool",
       "definition": "a seat with no back, often at a counter",
       "match": "stools"
+    },
+    {
+      "term": "to grow out of",
+      "definition": "to develop from something",
+      "match": "grew out of"
+    },
+    {
+      "term": "to get out of the way",
+      "definition": "to stop blocking something; here, to let the ingredients speak for themselves",
+      "match": "gets out of"
+    },
+    {
+      "term": "to end up",
+      "definition": "to finally be somewhere you did not plan to be",
+      "match": "end up"
+    },
+    {
+      "term": "to take something seriously",
+      "definition": "to treat something as important",
+      "match": "takes it seriously"
     }
   ],
   "exercises": [

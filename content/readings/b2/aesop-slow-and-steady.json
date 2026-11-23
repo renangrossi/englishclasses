@@ -129,6 +129,34 @@
     {
       "term": "contempt",
       "definition": "the feeling that somebody is beneath your attention"
+    },
+    {
+      "term": "to come up",
+      "definition": "to come near somebody",
+      "match": "came up"
+    },
+    {
+      "term": "to go on with",
+      "definition": "to continue doing something",
+      "match": "went on with"
+    },
+    {
+      "term": "to start somebody off",
+      "definition": "to give the signal for somebody to begin",
+      "match": "started them off"
+    },
+    {
+      "term": "at last",
+      "definition": "finally, after a long time"
+    },
+    {
+      "term": "in time",
+      "definition": "early enough"
+    },
+    {
+      "term": "to take a nap",
+      "definition": "to sleep for a short time during the day",
+      "match": "take a nap"
     }
   ],
   "exercises": [

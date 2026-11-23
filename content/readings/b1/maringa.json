@@ -114,6 +114,25 @@
     {
       "term": "skyline",
       "definition": "the outline a city's buildings make against the sky"
+    },
+    {
+      "term": "to lay out",
+      "definition": "to plan and arrange streets or buildings",
+      "match": "laid out"
+    },
+    {
+      "term": "to go up",
+      "definition": "to be built",
+      "match": "went up"
+    },
+    {
+      "term": "to build something into",
+      "definition": "to make something a fixed part of a system",
+      "match": "built into"
+    },
+    {
+      "term": "a good deal",
+      "definition": "much; a lot — careful: not a business deal"
     }
   ],
   "exercises": [

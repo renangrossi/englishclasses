@@ -87,6 +87,11 @@
     {
       "term": "See you later",
       "definition": "goodbye, until the next time"
+    },
+    {
+      "term": "to come in",
+      "definition": "to enter a room, a shop or a house",
+      "match": "comes in"
     }
   ],
   "exercises": [

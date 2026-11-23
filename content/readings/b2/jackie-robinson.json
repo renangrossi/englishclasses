@@ -84,6 +84,16 @@
     {
       "term": "to retire (a number)",
       "definition": "to take a player's shirt number out of use permanently, in their honor"
+    },
+    {
+      "term": "to fight back",
+      "definition": "to defend yourself when attacked",
+      "match": "fight back"
+    },
+    {
+      "term": "to check in",
+      "definition": "to register when you arrive at a hotel",
+      "match": "checked in"
     }
   ],
   "exercises": [

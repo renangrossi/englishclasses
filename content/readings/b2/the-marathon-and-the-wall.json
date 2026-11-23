@@ -118,6 +118,21 @@
       "term": "limiting factor",
       "definition": "the one thing that decides how far you can go",
       "match": "limiting factor"
+    },
+    {
+      "term": "to run out",
+      "definition": "to have none left",
+      "match": "run out"
+    },
+    {
+      "term": "to take in",
+      "definition": "to eat, drink or absorb something",
+      "match": "Taking in"
+    },
+    {
+      "term": "to hit the wall",
+      "definition": "to reach the point where you suddenly have no energy left (informal)",
+      "match": "hit the wall"
     }
   ],
   "exercises": [

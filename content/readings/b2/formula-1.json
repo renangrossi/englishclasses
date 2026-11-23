@@ -114,6 +114,21 @@
     {
       "term": "pit wall",
       "definition": "where the team's engineers sit and direct the race"
+    },
+    {
+      "term": "to throw away",
+      "definition": "to waste; to lose something useful",
+      "match": "thrown away"
+    },
+    {
+      "term": "to slow down",
+      "definition": "to reduce speed",
+      "match": "slowing down"
+    },
+    {
+      "term": "to press down",
+      "definition": "to push something toward the ground",
+      "match": "pressed down"
     }
   ],
   "exercises": [

@@ -94,6 +94,16 @@
     {
       "term": "self-reliance",
       "definition": "the ability to manage without help from others"
+    },
+    {
+      "term": "to move in together",
+      "definition": "to start living in the same home",
+      "match": "moved in together"
+    },
+    {
+      "term": "to live through",
+      "definition": "to experience a difficult period and survive it",
+      "match": "lived through"
     }
   ],
   "exercises": [

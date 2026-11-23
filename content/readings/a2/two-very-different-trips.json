@@ -76,6 +76,15 @@
     {
       "term": "Don't miss…",
       "definition": "a strong recommendation: make sure you do or see this"
+    },
+    {
+      "term": "to let somebody in",
+      "definition": "to allow somebody to enter",
+      "match": "let you in"
+    },
+    {
+      "term": "rather than",
+      "definition": "and not; instead of"
     }
   ],
   "exercises": [

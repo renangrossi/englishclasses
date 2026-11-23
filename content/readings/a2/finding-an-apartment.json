@@ -92,6 +92,11 @@
     {
       "term": "lease",
       "definition": "the contract you sign to rent a home"
+    },
+    {
+      "term": "to get something back",
+      "definition": "to receive again something that you gave",
+      "match": "get back"
     }
   ],
   "exercises": [

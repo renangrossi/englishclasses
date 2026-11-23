@@ -155,6 +155,16 @@
     {
       "term": "small talk",
       "definition": "light conversation about nothing important"
+    },
+    {
+      "term": "to change your mind",
+      "definition": "to have a new opinion or decision",
+      "match": "change their mind"
+    },
+    {
+      "term": "to go wrong",
+      "definition": "to happen badly; to fail",
+      "match": "gone wrong"
     }
   ],
   "exercises": [

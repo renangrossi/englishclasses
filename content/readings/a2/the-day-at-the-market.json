@@ -62,6 +62,15 @@
     {
       "term": "to stop by / stop at",
       "definition": "to visit a place for a short time"
+    },
+    {
+      "term": "to walk around",
+      "definition": "to walk from place to place with no fixed direction",
+      "match": "walking around"
+    },
+    {
+      "term": "jam",
+      "definition": "fruit cooked with sugar, eaten on bread — careful: a traffic jam is a line of cars that cannot move"
     }
   ],
   "exercises": [

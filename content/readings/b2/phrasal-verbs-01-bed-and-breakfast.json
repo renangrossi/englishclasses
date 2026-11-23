@@ -163,6 +163,30 @@
       "term": "to head out",
       "definition": "to leave, to set off somewhere",
       "match": "head out"
+    },
+    {
+      "term": "Hey",
+      "definition": "hi; a friendly greeting (informal)"
+    },
+    {
+      "term": "How's it going?",
+      "definition": "how are you? (informal)",
+      "match": "how's it going"
+    },
+    {
+      "term": "to take a break",
+      "definition": "to stop working for a short time to rest",
+      "match": "take a break"
+    },
+    {
+      "term": "to be about to",
+      "definition": "to be going to do something very soon",
+      "match": "about to"
+    },
+    {
+      "term": "Mind if I…?",
+      "definition": "do you mind if I…? (informal); a polite way to ask permission",
+      "match": "Mind if I"
     }
   ],
   "exercises": [

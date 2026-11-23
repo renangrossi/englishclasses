@@ -72,6 +72,11 @@
     {
       "term": "to celebrate",
       "definition": "to do something special because of an important day"
+    },
+    {
+      "term": "to take away",
+      "definition": "to remove something that belongs to somebody",
+      "match": "take away"
     }
   ],
   "exercises": [

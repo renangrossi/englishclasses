@@ -75,6 +75,21 @@
     {
       "term": "stargazing",
       "definition": "looking at the stars for pleasure"
+    },
+    {
+      "term": "to turn up",
+      "definition": "to appear, often where you do not expect it",
+      "match": "turn up"
+    },
+    {
+      "term": "to give up",
+      "definition": "to stop having or doing something",
+      "match": "giving up"
+    },
+    {
+      "term": "to be used to",
+      "definition": "to be familiar with something because you do it often",
+      "match": "used to"
     }
   ],
   "exercises": [

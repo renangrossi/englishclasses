@@ -109,6 +109,16 @@
     {
       "term": "actual",
       "definition": "real, genuine — careful: not 'current'"
+    },
+    {
+      "term": "to find out",
+      "definition": "to learn or discover a fact",
+      "match": "finds out"
+    },
+    {
+      "term": "to show up",
+      "definition": "to appear; to become visible",
+      "match": "shows up"
     }
   ],
   "exercises": [

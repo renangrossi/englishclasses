@@ -126,6 +126,21 @@
       "term": "backup",
       "definition": "a spare copy of your files kept in case the original is lost",
       "match": "backups"
+    },
+    {
+      "term": "to switch something on",
+      "definition": "to make a device or a feature start working",
+      "match": "switch it on"
+    },
+    {
+      "term": "to hand over",
+      "definition": "to give something to somebody, often because they ask or force you",
+      "match": "hand over"
+    },
+    {
+      "term": "to move on",
+      "definition": "to go somewhere else; to stop and try another target",
+      "match": "move on"
     }
   ],
   "exercises": [

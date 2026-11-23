@@ -125,6 +125,15 @@
       "term": "to delete",
       "definition": "to remove",
       "match": "deletes"
+    },
+    {
+      "term": "to run back over",
+      "definition": "to review something from the beginning",
+      "match": "Run back over"
+    },
+    {
+      "term": "up to a point",
+      "definition": "partly, but not completely"
     }
   ],
   "exercises": [

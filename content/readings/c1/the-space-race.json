@@ -90,6 +90,26 @@
     {
       "term": "a detour",
       "definition": "a longer, indirect route; by extension, effort that leads away from the goal"
+    },
+    {
+      "term": "to grow out of",
+      "definition": "to develop from something",
+      "match": "grew out of"
+    },
+    {
+      "term": "to leave out",
+      "definition": "not to include",
+      "match": "left out"
+    },
+    {
+      "term": "to leave behind",
+      "definition": "to leave something that lasts after you have gone",
+      "match": "left behind"
+    },
+    {
+      "term": "to shake hands",
+      "definition": "to hold and move somebody's hand as a greeting",
+      "match": "shook hands"
     }
   ],
   "exercises": [

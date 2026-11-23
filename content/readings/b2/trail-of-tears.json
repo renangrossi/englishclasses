@@ -90,6 +90,23 @@
     {
       "term": "to loot",
       "definition": "to steal from homes or shops, especially during disorder"
+    },
+    {
+      "term": "to carry out",
+      "definition": "to do a task or a plan",
+      "match": "carried out"
+    },
+    {
+      "term": "anyway",
+      "definition": "in spite of that"
+    },
+    {
+      "term": "on the way",
+      "definition": "during the journey"
+    },
+    {
+      "term": "deadline",
+      "definition": "the time by which something must be done"
     }
   ],
   "exercises": [

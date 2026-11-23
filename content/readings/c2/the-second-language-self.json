@@ -143,6 +143,20 @@
     {
       "term": "to support",
       "definition": "to back, to take the side of — careful: not to put up with or endure"
+    },
+    {
+      "term": "to strip away",
+      "definition": "to remove a covering layer",
+      "match": "strips away"
+    },
+    {
+      "term": "to switch off",
+      "definition": "to stop something working",
+      "match": "switched off"
+    },
+    {
+      "term": "thin on",
+      "definition": "not having much of something"
     }
   ],
   "exercises": [

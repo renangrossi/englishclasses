@@ -112,6 +112,11 @@
     {
       "term": "control group",
       "definition": "the people in a study who do not receive the treatment"
+    },
+    {
+      "term": "to keep going",
+      "definition": "to continue doing something",
+      "match": "keep going"
     }
   ],
   "exercises": [

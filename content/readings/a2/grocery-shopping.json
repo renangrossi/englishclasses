@@ -101,6 +101,15 @@
     {
       "term": "silly",
       "definition": "foolish; not sensible"
+    },
+    {
+      "term": "in the end",
+      "definition": "finally, after a lot of thinking or trying"
+    },
+    {
+      "term": "to pick up",
+      "definition": "to take something in your hand, from a shelf or a table",
+      "match": "picked up"
     }
   ],
   "exercises": [

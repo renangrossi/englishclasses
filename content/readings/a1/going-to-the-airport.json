@@ -95,6 +95,11 @@
     {
       "term": "tired",
       "definition": "when you need to rest or sleep"
+    },
+    {
+      "term": "to come out",
+      "definition": "to walk out of a place, so people waiting can see you",
+      "match": "coming out"
     }
   ],
   "exercises": [

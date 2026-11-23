@@ -81,6 +81,21 @@
     {
       "term": "sit-down restaurant",
       "definition": "a restaurant where a server brings food to your table"
+    },
+    {
+      "term": "Here you go.",
+      "definition": "what you say when you give something to somebody",
+      "match": "Here you go"
+    },
+    {
+      "term": "to keep coming back",
+      "definition": "to return again and again because you like something",
+      "match": "keep coming back"
+    },
+    {
+      "term": "Sure.",
+      "definition": "yes, of course (informal)",
+      "match": "Sure"
     }
   ],
   "exercises": [

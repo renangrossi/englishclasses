@@ -114,6 +114,20 @@
     {
       "term": "a stranger",
       "definition": "a person you do not know — careful: not a person from another country"
+    },
+    {
+      "term": "to go up",
+      "definition": "to be built",
+      "match": "went up"
+    },
+    {
+      "term": "as it turned out",
+      "definition": "as people discovered later"
+    },
+    {
+      "term": "to keep going",
+      "definition": "to continue without stopping",
+      "match": "kept going"
     }
   ],
   "exercises": [

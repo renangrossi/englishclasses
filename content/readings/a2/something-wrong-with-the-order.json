@@ -103,6 +103,15 @@
     {
       "term": "fault",
       "definition": "responsibility for something bad"
+    },
+    {
+      "term": "to live on",
+      "definition": "to use something as the only money you have to pay for your life",
+      "match": "live on"
+    },
+    {
+      "term": "fries",
+      "definition": "French fries; potatoes cut long and fried"
     }
   ],
   "exercises": [

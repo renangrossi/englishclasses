@@ -113,6 +113,15 @@
       "term": "to suspend",
       "definition": "to stop something temporarily",
       "match": "suspended"
+    },
+    {
+      "term": "That's all.",
+      "definition": "there is nothing more",
+      "match": "That's all"
+    },
+    {
+      "term": "That's why",
+      "definition": "for that reason"
     }
   ],
   "exercises": [

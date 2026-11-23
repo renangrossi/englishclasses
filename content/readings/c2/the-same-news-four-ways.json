@@ -148,6 +148,19 @@
     {
       "term": "packaging",
       "definition": "presentation wrapped around the real content"
+    },
+    {
+      "term": "to find out",
+      "definition": "to learn a fact you did not know",
+      "match": "find out"
+    },
+    {
+      "term": "would rather",
+      "definition": "would prefer to"
+    },
+    {
+      "term": "cheap",
+      "definition": "easy and of little value — careful: not only \"low in price\""
     }
   ],
   "exercises": [

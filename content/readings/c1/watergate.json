@@ -94,6 +94,35 @@
     {
       "term": "to pardon",
       "definition": "to cancel officially the punishment for a crime"
+    },
+    {
+      "term": "to tape over",
+      "definition": "to cover something with sticky tape",
+      "match": "taped over"
+    },
+    {
+      "term": "to turn out",
+      "definition": "to be discovered, in the end",
+      "match": "turned out"
+    },
+    {
+      "term": "to carry out",
+      "definition": "to do a task or an order",
+      "match": "carry out"
+    },
+    {
+      "term": "to hand over",
+      "definition": "to give something to somebody because they demand it",
+      "match": "handed over"
+    },
+    {
+      "term": "to stand back",
+      "definition": "to stay out of something; not to get involved",
+      "match": "stand back"
+    },
+    {
+      "term": "bargain",
+      "definition": "an agreement in which each side gives something — careful: it also means something bought cheap"
     }
   ],
   "exercises": [

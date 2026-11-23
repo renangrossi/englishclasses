@@ -95,6 +95,11 @@
     {
       "term": "enough",
       "definition": "as much as you need"
+    },
+    {
+      "term": "to come in",
+      "definition": "to enter a room",
+      "match": "comes in"
     }
   ],
   "exercises": [

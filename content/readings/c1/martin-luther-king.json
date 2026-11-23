@@ -86,6 +86,21 @@
     {
       "term": "surveillance",
       "definition": "close watching of a person by police or intelligence services"
+    },
+    {
+      "term": "to leave out",
+      "definition": "not to include",
+      "match": "left out"
+    },
+    {
+      "term": "to break with",
+      "definition": "to end your relationship or agreement with somebody",
+      "match": "broke with"
+    },
+    {
+      "term": "to go too far",
+      "definition": "to do more than is acceptable",
+      "match": "gone too far"
     }
   ],
   "exercises": [

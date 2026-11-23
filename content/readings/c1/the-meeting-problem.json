@@ -124,6 +124,21 @@
       "term": "to strip out",
       "definition": "to remove entirely",
       "match": "strip out"
+    },
+    {
+      "term": "to turn out",
+      "definition": "to end in a certain way",
+      "match": "turns out"
+    },
+    {
+      "term": "to set up",
+      "definition": "to organize or arrange",
+      "match": "set up"
+    },
+    {
+      "term": "to set aside",
+      "definition": "to keep time or money for a particular purpose",
+      "match": "set aside"
     }
   ],
   "exercises": [

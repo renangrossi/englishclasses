@@ -123,6 +123,29 @@
       "term": "to be committed to",
       "definition": "to state publicly that you will do something, without promising it",
       "match": "committed to"
+    },
+    {
+      "term": "kids",
+      "definition": "children (informal)"
+    },
+    {
+      "term": "to shut",
+      "definition": "to close a business or office for good (informal)",
+      "match": "shutting"
+    },
+    {
+      "term": "to see something coming",
+      "definition": "to expect something before it happens",
+      "match": "saw it coming"
+    },
+    {
+      "term": "to look forward to",
+      "definition": "to wait for something with pleasure — careful: in the negative, it means you are dreading it",
+      "match": "looking forward to"
+    },
+    {
+      "term": "honestly",
+      "definition": "to tell the truth (informal)"
     }
   ],
   "exercises": [

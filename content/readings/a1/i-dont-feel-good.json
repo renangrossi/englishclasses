@@ -84,6 +84,16 @@
     {
       "term": "better",
       "definition": "not as bad as before"
+    },
+    {
+      "term": "to wake up",
+      "definition": "to stop sleeping",
+      "match": "wake up"
+    },
+    {
+      "term": "to go back to bed",
+      "definition": "to return to bed and sleep or rest again",
+      "match": "go back to bed"
     }
   ],
   "exercises": [

@@ -88,6 +88,15 @@
     {
       "term": "support",
       "definition": "backing, people on your side — careful: not the ability to put up with something"
+    },
+    {
+      "term": "to bring down",
+      "definition": "to make something collapse or fail",
+      "match": "brought down"
+    },
+    {
+      "term": "not by accident",
+      "definition": "deliberately; on purpose"
     }
   ],
   "exercises": [

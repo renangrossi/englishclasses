@@ -111,6 +111,29 @@
     {
       "term": "a refill",
       "definition": "permission to collect the same prescription again without seeing the doctor"
+    },
+    {
+      "term": "What brings you in?",
+      "definition": "a doctor's friendly way to ask why you came",
+      "match": "brings you in"
+    },
+    {
+      "term": "to go down",
+      "definition": "to become lower, said of a fever, a price or a number",
+      "match": "went down"
+    },
+    {
+      "term": "to send something over",
+      "definition": "to send something to another place, here to the pharmacy",
+      "match": "sent it over"
+    },
+    {
+      "term": "sooner or later",
+      "definition": "at some time in the future — you cannot avoid it"
+    },
+    {
+      "term": "even if",
+      "definition": "also in the case that something is true"
     }
   ],
   "exercises": [

@@ -87,6 +87,20 @@
     {
       "term": "a pension",
       "definition": "money paid regularly to somebody after their service or work ends"
+    },
+    {
+      "term": "to go back",
+      "definition": "to return",
+      "match": "went back"
+    },
+    {
+      "term": "to bring out",
+      "definition": "to take people out of a dangerous place",
+      "match": "brought out"
+    },
+    {
+      "term": "no longer",
+      "definition": "not any more"
     }
   ],
   "exercises": [

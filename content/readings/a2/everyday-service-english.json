@@ -98,6 +98,30 @@
     {
       "term": "just in case",
       "definition": "in order to be safe if something goes wrong"
+    },
+    {
+      "term": "Here you go.",
+      "definition": "what you say when you give something to somebody",
+      "match": "Here you go"
+    },
+    {
+      "term": "sooner or later",
+      "definition": "at some time in the future — you cannot avoid it"
+    },
+    {
+      "term": "to come in",
+      "definition": "to be available in a color or a size",
+      "match": "come in"
+    },
+    {
+      "term": "That's very kind of you.",
+      "definition": "a polite way to thank somebody — careful: here kind is an adjective (nice), not \"kind of\" meaning \"a little\"",
+      "match": "kind of you"
+    },
+    {
+      "term": "Sure.",
+      "definition": "yes, of course (informal)",
+      "match": "Sure"
     }
   ],
   "exercises": [

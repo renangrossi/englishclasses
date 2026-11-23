@@ -123,6 +123,29 @@
     {
       "term": "actually",
       "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
+      "term": "to leave behind",
+      "definition": "to cause something to remain afterwards",
+      "match": "leaves behind"
+    },
+    {
+      "term": "to break up",
+      "definition": "to break something into pieces",
+      "match": "broken up"
+    },
+    {
+      "term": "to carry out",
+      "definition": "to do a task or a plan",
+      "match": "carried out"
+    },
+    {
+      "term": "by accident",
+      "definition": "without anybody planning it"
+    },
+    {
+      "term": "as soon as",
+      "definition": "at the moment when; immediately after"
     }
   ],
   "exercises": [

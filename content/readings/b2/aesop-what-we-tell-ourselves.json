@@ -116,6 +116,24 @@
     {
       "term": "actual",
       "definition": "real, genuine — careful: not 'current'"
+    },
+    {
+      "term": "to walk off",
+      "definition": "to walk away from a place",
+      "match": "walked off"
+    },
+    {
+      "term": "in vain",
+      "definition": "without success"
+    },
+    {
+      "term": "to know better",
+      "definition": "to be wise enough not to do something",
+      "match": "known better"
+    },
+    {
+      "term": "bunch",
+      "definition": "a group of fruits growing together, like grapes or bananas; informally, a lot of something"
     }
   ],
   "exercises": [

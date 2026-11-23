@@ -116,6 +116,25 @@
     {
       "term": "in miniature",
       "definition": "on a small scale, showing the same pattern as the larger thing"
+    },
+    {
+      "term": "in a hurry",
+      "definition": "needing to do things fast"
+    },
+    {
+      "term": "to make sense",
+      "definition": "to be clear and easy to understand",
+      "match": "make sense"
+    },
+    {
+      "term": "to step aside",
+      "definition": "to move to one side so somebody can pass",
+      "match": "steps aside"
+    },
+    {
+      "term": "to come off",
+      "definition": "to be removed",
+      "match": "come off"
     }
   ],
   "exercises": [

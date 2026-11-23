@@ -117,6 +117,29 @@
     {
       "term": "to shout",
       "definition": "here, in a message: to tell somebody informally — \"shout if I'm wrong\" means say so"
+    },
+    {
+      "term": "Go ahead.",
+      "definition": "please do it; please continue",
+      "match": "go ahead"
+    },
+    {
+      "term": "to start on",
+      "definition": "to begin working on something",
+      "match": "start on"
+    },
+    {
+      "term": "may as well",
+      "definition": "there is no reason not to; it might as well be"
+    },
+    {
+      "term": "Got it.",
+      "definition": "I understand (informal)",
+      "match": "Got it"
+    },
+    {
+      "term": "in the end",
+      "definition": "finally, when everything is considered"
     }
   ],
   "exercises": [

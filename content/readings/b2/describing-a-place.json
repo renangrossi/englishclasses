@@ -141,6 +141,21 @@
     {
       "term": "to list",
       "definition": "to name one after another without connecting them"
+    },
+    {
+      "term": "to settle into",
+      "definition": "to start to behave in a steady, calm way",
+      "match": "settled into"
+    },
+    {
+      "term": "to turn out to",
+      "definition": "to be found, in the end, to have something",
+      "match": "turns out to"
+    },
+    {
+      "term": "to look up",
+      "definition": "to raise your eyes",
+      "match": "looking up"
     }
   ],
   "exercises": [

@@ -124,6 +124,21 @@
     {
       "term": "roasted",
       "definition": "cooked with dry heat until browned, which deepens flavor"
+    },
+    {
+      "term": "to turn into",
+      "definition": "to become something different",
+      "match": "turns into"
+    },
+    {
+      "term": "to give off",
+      "definition": "to produce something, like a gas or a smell, and send it out",
+      "match": "gives off"
+    },
+    {
+      "term": "to grow up",
+      "definition": "to develop gradually",
+      "match": "grew up"
     }
   ],
   "exercises": [

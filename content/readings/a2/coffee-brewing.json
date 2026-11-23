@@ -70,6 +70,26 @@
     {
       "term": "a tablespoon",
       "definition": "a large spoon used for measuring in cooking"
+    },
+    {
+      "term": "to wash out",
+      "definition": "to remove something with water",
+      "match": "washes out"
+    },
+    {
+      "term": "to warm up",
+      "definition": "to make something a little hot",
+      "match": "warms up"
+    },
+    {
+      "term": "to throw away",
+      "definition": "to put something in the trash",
+      "match": "throw away"
+    },
+    {
+      "term": "to take out",
+      "definition": "to remove something from where it is",
+      "match": "take out"
     }
   ],
   "exercises": [

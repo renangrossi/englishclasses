@@ -135,6 +135,29 @@
       "term": "shopfront",
       "definition": "the public-facing part of a business",
       "match": "shopfront"
+    },
+    {
+      "term": "to turn out to",
+      "definition": "to be found, in the end, to be or have something",
+      "match": "turned out to"
+    },
+    {
+      "term": "to hand over",
+      "definition": "to give something to somebody, often because you are tricked or forced",
+      "match": "handing over"
+    },
+    {
+      "term": "to break into",
+      "definition": "to enter a place or a computer system illegally",
+      "match": "breaking into"
+    },
+    {
+      "term": "let alone",
+      "definition": "and certainly not; used after a negative to show the next thing is even less likely"
+    },
+    {
+      "term": "stretch",
+      "definition": "a continuous period of time"
     }
   ],
   "exercises": [

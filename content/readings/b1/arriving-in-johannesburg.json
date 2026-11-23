@@ -126,6 +126,24 @@
     {
       "term": "to reprogram",
       "definition": "to set an electronic device up again with new instructions"
+    },
+    {
+      "term": "to check in",
+      "definition": "to register when you arrive at a hotel",
+      "match": "check in"
+    },
+    {
+      "term": "rather than",
+      "definition": "and not; instead of"
+    },
+    {
+      "term": "There you are.",
+      "definition": "what you say when you give something to somebody, or when something is ready",
+      "match": "There you are"
+    },
+    {
+      "term": "a good deal",
+      "definition": "much; a lot — careful: not a business deal"
     }
   ],
   "exercises": [

@@ -121,6 +121,19 @@
     {
       "term": "What do you do for a living?",
       "definition": "a natural way to ask someone's occupation"
+    },
+    {
+      "term": "Got it.",
+      "definition": "I understand (informal)",
+      "match": "Got it"
+    },
+    {
+      "term": "at least",
+      "definition": "not less than"
+    },
+    {
+      "term": "on the way",
+      "definition": "while you are traveling to a place"
     }
   ],
   "exercises": [

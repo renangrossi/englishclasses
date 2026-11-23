@@ -134,6 +134,16 @@
     {
       "term": "word of mouth",
       "definition": "recommendation passed personally from one customer to another"
+    },
+    {
+      "term": "to head off",
+      "definition": "to stop a problem before it starts",
+      "match": "heads off"
+    },
+    {
+      "term": "to stay in contact",
+      "definition": "to keep talking to somebody over time",
+      "match": "stay in contact"
     }
   ],
   "exercises": [

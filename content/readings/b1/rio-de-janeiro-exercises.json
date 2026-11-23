@@ -109,6 +109,29 @@
     {
       "term": "slippery",
       "definition": "difficult to stand or walk on without sliding"
+    },
+    {
+      "term": "to slow down",
+      "definition": "to go more slowly",
+      "match": "slowing down"
+    },
+    {
+      "term": "to leave out",
+      "definition": "not to include something",
+      "match": "leave out"
+    },
+    {
+      "term": "to come out on",
+      "definition": "to arrive at a place after passing through something",
+      "match": "come out on"
+    },
+    {
+      "term": "for good reason",
+      "definition": "with a good reason; rightly"
+    },
+    {
+      "term": "would rather",
+      "definition": "would prefer to"
     }
   ],
   "exercises": [

@@ -94,6 +94,21 @@
     {
       "term": "eventually",
       "definition": "in the end, after a long time — careful: not 'from time to time'"
+    },
+    {
+      "term": "to turn out to",
+      "definition": "to be found, in the end, to be or do something",
+      "match": "turned out to"
+    },
+    {
+      "term": "to wait out",
+      "definition": "to wait until something bad is over",
+      "match": "waited out"
+    },
+    {
+      "term": "to bring back",
+      "definition": "to return with something",
+      "match": "brought back"
     }
   ],
   "exercises": [

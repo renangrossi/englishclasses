@@ -135,6 +135,31 @@
     {
       "term": "housekeeping",
       "definition": "the staff who clean and prepare the rooms"
+    },
+    {
+      "term": "to sort out",
+      "definition": "to deal with a problem and solve it",
+      "match": "sorting out"
+    },
+    {
+      "term": "to turn up",
+      "definition": "to arrive, often without warning",
+      "match": "turn up"
+    },
+    {
+      "term": "to find out",
+      "definition": "to get information you do not have yet",
+      "match": "find out"
+    },
+    {
+      "term": "to end up",
+      "definition": "to finally be somewhere you did not plan to be",
+      "match": "ends up"
+    },
+    {
+      "term": "Got it.",
+      "definition": "I understand (informal)",
+      "match": "Got it"
     }
   ],
   "exercises": [

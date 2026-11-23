@@ -101,6 +101,33 @@
     {
       "term": "ripeness",
       "definition": "the stage at which a crop is ready to be harvested"
+    },
+    {
+      "term": "left over",
+      "definition": "remaining after the rest has been used"
+    },
+    {
+      "term": "to come off",
+      "definition": "to separate and leave",
+      "match": "come off"
+    },
+    {
+      "term": "to come down to",
+      "definition": "to depend mainly on",
+      "match": "comes down to"
+    },
+    {
+      "term": "to show through",
+      "definition": "to be noticeable under something else",
+      "match": "show through"
+    },
+    {
+      "term": "on its own",
+      "definition": "alone, with nothing added"
+    },
+    {
+      "term": "deadline",
+      "definition": "the time by which something must be done"
     }
   ],
   "exercises": [

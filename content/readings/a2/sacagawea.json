@@ -70,6 +70,16 @@
     {
       "term": "a coin",
       "definition": "a round piece of metal money"
+    },
+    {
+      "term": "to turn over",
+      "definition": "to turn upside down, said of a boat",
+      "match": "turned over"
+    },
+    {
+      "term": "to take somebody away",
+      "definition": "to take a person from a place by force",
+      "match": "took her away"
     }
   ],
   "exercises": [

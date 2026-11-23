@@ -98,6 +98,16 @@
     {
       "term": "a premise",
       "definition": "an idea accepted as true, on which an argument is built"
+    },
+    {
+      "term": "to run over",
+      "definition": "to hit somebody with a vehicle",
+      "match": "run over"
+    },
+    {
+      "term": "to copy out",
+      "definition": "to write something again exactly",
+      "match": "copying out"
     }
   ],
   "exercises": [

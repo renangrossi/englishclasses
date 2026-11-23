@@ -26,7 +26,7 @@
       "She doesn't like coffee, but she enjoyed the tea this morning.",
       "Did you finish your project last night?",
       "Last week, we visited the museum, and it was very interesting.",
-      "He doesn't understand the lesson, so he asked for help."
+      "He usually understands the lessons, but yesterday he asked for help."
     ],
     "commonMistakes": [
       { "wrong": "Yesterday, I (not go) to the gym because I (feel) tired. → Yesterday, I not go to the gym because I feel tired.", "right": "Yesterday, I didn't go to the gym because I felt tired.", "why": "Both verbs describe yesterday, so both need the past — \"didn't go\" and \"felt,\" not the present forms." },

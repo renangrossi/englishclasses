@@ -35,7 +35,7 @@
     ],
     "commonMistakes": [
       { "wrong": "I have visited Paris last year.", "right": "I visited Paris last year.", "why": "\"Last year\" is a specific, finished time — that always needs the simple past." },
-      { "wrong": "She finished her homework already.", "right": "She has finished her homework already.", "why": "\"Already\" typically signals the present perfect, since no specific time is given." },
+      { "wrong": "I lived here since 2019.", "right": "I have lived here since 2019.", "why": "\"Since 2019\" is a period that is still open — it runs up to now — so it needs the present perfect." },
       { "wrong": "I have read this book yesterday.", "right": "I read this book yesterday.", "why": "\"Yesterday\" is a specific finished time — never combine it with the present perfect." }
     ]
   },

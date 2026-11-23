@@ -19,7 +19,7 @@
     "rules": [
       {
         "heading": "The pattern",
-        "body": "<ul><li><strong>Past continuous</strong> (was/were + verb-ing) = the longer, background action, already in progress</li><li><strong>Simple past</strong> = the shorter action that interrupts it, or happens during it</li><li>While + past continuous, simple past. / Simple past + when + past continuous.</li></ul>"
+        "body": "<ul><li><strong>Past continuous</strong> (was/were + verb-ing) = the longer, background action, already in progress</li><li><strong>Simple past</strong> = the shorter action that interrupts it, or happens during it</li><li>While + past continuous, simple past. / Past continuous + when + simple past.</li></ul>"
       }
     ],
     "examples": [
@@ -66,7 +66,7 @@
   "summary": [
     "Past continuous (was/were + -ing) = the longer, background action.",
     "Simple past = the shorter action that interrupts it.",
-    "While + past continuous, simple past — or simple past + when + past continuous."
+    "While + past continuous, simple past — or past continuous + when + simple past."
   ],
   "related": [],
   "sourceMaterial": { "docx": "cefr/a2-elementary/p-simple-past-vs.-past-continuous.docx", "pdf": "cefr/a2-elementary/p-simple-past-vs.-past-continuous.pdf" }

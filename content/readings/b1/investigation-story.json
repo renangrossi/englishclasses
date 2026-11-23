@@ -259,7 +259,7 @@
     {
       "id": "b1-investigation-pastcontinuous",
       "type": "fill-blank",
-      "title": "Past Continuous & Past Simple",
+      "title": "Past Continuous & Simple Past",
       "instructions": "The interview keeps asking what was in progress and what interrupted it. Complete each sentence with the correct form.",
       "items": [
         {
@@ -294,7 +294,7 @@
             "watched",
             "have watched"
           ],
-          "explanation": "The longer background action takes the past continuous; the sudden one takes the past simple."
+          "explanation": "The longer background action takes the past continuous; the sudden one takes the simple past."
         },
         {
           "id": "inf3",
@@ -354,7 +354,7 @@
               "lock"
             ]
           ],
-          "explanation": "Two completed actions in sequence — both past simple."
+          "explanation": "Two completed actions in sequence — both simple past."
         }
       ]
     }

@@ -57,7 +57,7 @@
       {
         "wrong": "The report wrote last year was inaccurate.",
         "right": "The report written last year was inaccurate.",
-        "why": "For a passive meaning, use the past participle (written), not the past simple (wrote)."
+        "why": "For a passive meaning, use the past participle (written), not the simple past (wrote)."
       },
       {
         "wrong": "His decide to leave shocked the team.",
@@ -241,7 +241,7 @@
           "answer": [
             "The novel written by an unknown author became a bestseller."
           ],
-          "explanation": "Passive meaning (the novel was written) needs the past participle “written,” not the past simple “wrote.”"
+          "explanation": "Passive meaning (the novel was written) needs the past participle “written,” not the simple past “wrote.”"
         },
         {
           "id": "complex-noun-phrases-c3",

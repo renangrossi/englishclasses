@@ -46,7 +46,7 @@ Reduced relative clauses use the -ing form for active meaning (the man standing.
 
 2. Incorrect: The report wrote last year was inaccurate.
    Correct: The report written last year was inaccurate.
-   Why: For a passive meaning, use the past participle (written), not the past simple (wrote).
+   Why: For a passive meaning, use the past participle (written), not the simple past (wrote).
 
 3. Incorrect: His decide to leave shocked the team.
    Correct: His decision to leave shocked the team.

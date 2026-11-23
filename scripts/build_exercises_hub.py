@@ -45,7 +45,7 @@ LEVEL_INFO = {
         "name": "Beginner",
         "blurb": "Short, slow texts about everyday life, built from the few hundred words a beginner "
                  "actually has. Every sentence is one idea.",
-        "practices": "Present simple, <em>to be</em>, basic questions, numbers and times",
+        "practices": "Simple present, <em>to be</em>, basic questions, numbers and times",
         "topics": "Daily routines, family, food and shopping, getting around",
     },
     "a2": {

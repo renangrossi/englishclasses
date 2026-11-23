@@ -240,7 +240,7 @@
       "id": "b2-egypt-tenses",
       "type": "fill-blank",
       "title": "Narrative Tenses",
-      "instructions": "This text is a travel narrative, which uses a particular mix of tenses: past simple for what happened, present simple for what is permanently true. Choose the form that fits.",
+      "instructions": "This text is a travel narrative, which uses a particular mix of tenses: simple past for what happened, simple present for what is permanently true. Choose the form that fits.",
       "items": [
         {
           "id": "egt1",
@@ -261,7 +261,7 @@
               "ends"
             ]
           ],
-          "explanation": "A finished trip at a stated time takes the past simple throughout. The present perfect would wrongly connect it to now."
+          "explanation": "A finished trip at a stated time takes the simple past throughout. The present perfect would wrongly connect it to now."
         },
         {
           "id": "egt2",
@@ -274,7 +274,7 @@
             "has been built",
             "is built"
           ],
-          "explanation": "A completed action at a definite past time, and the pyramid is the thing acted on — so the past simple passive."
+          "explanation": "A completed action at a definite past time, and the pyramid is the thing acted on — so the simple past passive."
         },
         {
           "id": "egt3",
@@ -287,7 +287,7 @@
             "was",
             "has been"
           ],
-          "explanation": "Present simple: a permanent geographical fact, not part of the narrative."
+          "explanation": "Simple present: a permanent geographical fact, not part of the narrative."
         },
         {
           "id": "egt4",
@@ -314,7 +314,7 @@
               "drowned"
             ]
           ],
-          "explanation": "Past simple passive for the move; “would have drowned” for the result that was avoided."
+          "explanation": "Simple past passive for the move; “would have drowned” for the result that was avoided."
         },
         {
           "id": "egt5",
@@ -335,7 +335,7 @@
               "are"
             ]
           ],
-          "explanation": "Present perfect for a state running from the past up to now (“for three millennia”); past simple for the single act of sealing them."
+          "explanation": "Present perfect for a state running from the past up to now (“for three millennia”); simple past for the single act of sealing them."
         },
         {
           "id": "egt6",
@@ -410,6 +410,6 @@
     "The dam secured water and power and displaced tens of thousands of people. How should a country weigh that kind of trade?",
     "The pyramid workers turn out to have been paid, not enslaved. Why do you think the older assumption lasted so long?",
     "A modern library was built where an ancient one stood, as “a gesture rather than a reconstruction”. Is that worth doing?",
-    "Write about 200 words describing a journey you have made, using past simple for the events and present simple for what is permanently true of the place."
+    "Write about 200 words describing a journey you have made, using simple past for the events and simple present for what is permanently true of the place."
   ]
 }

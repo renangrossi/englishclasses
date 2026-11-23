@@ -34,8 +34,8 @@ LABELS = {
     # use the names a course or a coursebook would use -- not linguistic ones.
     # "Continuous aspect" was the worst offender: it is the term a syntax class
     # uses and it means nothing to somebody looking for "-ing".
-    "present-simple": "Present Simple",
-    "past-simple": "Past Simple",
+    "present-simple": "Simple Present",
+    "past-simple": "Simple Past",
     "present-perfect": "Present Perfect",
     "future": "Future (will / going to)",
     "present-continuous": "Present Continuous (-ing)",

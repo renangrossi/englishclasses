@@ -23,7 +23,7 @@
       },
       {
         "heading": "b) Backshifting the verb",
-        "body": "<p>When the reporting verb (said, told) is in the past, the reported verb usually moves one step further into the past too:</p><ul><li>Present simple → past simple: \"I work here.\" → He said he worked there.</li><li>Present continuous → past continuous: \"I'm working.\" → He said he was working.</li><li>Past simple → past perfect: \"I finished.\" → He said he had finished.</li><li>Present perfect → past perfect: \"I have finished.\" → He said he had finished.</li><li>can → could, will → would: \"I can help.\" → He said he could help.</li></ul>"
+        "body": "<p>When the reporting verb (said, told) is in the past, the reported verb usually moves one step further into the past too:</p><ul><li>Simple present → simple past: \"I work here.\" → He said he worked there.</li><li>Present continuous → past continuous: \"I'm working.\" → He said he was working.</li><li>Simple past → past perfect: \"I finished.\" → He said he had finished.</li><li>Present perfect → past perfect: \"I have finished.\" → He said he had finished.</li><li>can → could, will → would: \"I can help.\" → He said he could help.</li></ul>"
       },
       {
         "heading": "c) Changing time, place and pronouns",
@@ -53,9 +53,9 @@
       "id": "b1rsf-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
       "instructions": "Complete each reported sentence with the correct backshifted verb.",
       "items": [
-        { "id": "b1rsf1", "prompt": "\"I am busy,\" he said. → He said he ___ busy.", "answers": [["was"]], "explanation": "Present simple (am) backshifts to past simple (was)." },
+        { "id": "b1rsf1", "prompt": "\"I am busy,\" he said. → He said he ___ busy.", "answers": [["was"]], "explanation": "Simple present (am) backshifts to simple past (was)." },
         { "id": "b1rsf2", "prompt": "\"We are watching a film,\" they said. → They said they ___ watching a film.", "answers": [["were"]], "explanation": "Present continuous backshifts to past continuous." },
-        { "id": "b1rsf3", "prompt": "\"I finished my homework,\" she said. → She said she ___ finished her homework.", "answers": [["had"]], "explanation": "Past simple backshifts to past perfect (had + past participle)." },
+        { "id": "b1rsf3", "prompt": "\"I finished my homework,\" she said. → She said she ___ finished her homework.", "answers": [["had"]], "explanation": "Simple past backshifts to past perfect (had + past participle)." },
         { "id": "b1rsf4", "prompt": "\"I can swim,\" he said. → He said he ___ swim.", "answers": [["could"]], "explanation": "\"Can\" backshifts to \"could.\"" },
         { "id": "b1rsf5", "prompt": "\"I will help you,\" she told me. → She told me she ___ help me.", "answers": [["would"]], "explanation": "\"Will\" backshifts to \"would.\"" },
         { "id": "b1rsf6", "prompt": "\"I have never been to Rio,\" he said. → He said he ___ never been to Rio.", "answers": [["had"]], "explanation": "Present perfect backshifts to past perfect." }
@@ -75,7 +75,7 @@
       "instructions": "Rewrite each quoted sentence as reported speech.",
       "items": [
         { "id": "b1rsf11", "prompt": "\"I'm working late tonight,\" she said.", "answer": ["She said she was working late that night.", "She said that she was working late that night."], "explanation": "Present continuous → past continuous; \"tonight\" → \"that night.\"" },
-        { "id": "b1rsf12", "prompt": "\"We saw the movie yesterday,\" they told me.", "answer": ["They told me they had seen the movie the day before.", "They told me that they had seen the movie the day before."], "explanation": "Past simple → past perfect; \"yesterday\" → \"the day before.\"" },
+        { "id": "b1rsf12", "prompt": "\"We saw the movie yesterday,\" they told me.", "answer": ["They told me they had seen the movie the day before.", "They told me that they had seen the movie the day before."], "explanation": "Simple past → past perfect; \"yesterday\" → \"the day before.\"" },
         { "id": "b1rsf13", "prompt": "\"I can't come to the party,\" he said.", "answer": ["He said he couldn't come to the party.", "He said he could not come to the party.", "He said that he couldn't come to the party.", "He said that he could not come to the party."], "explanation": "\"Can't\" → \"couldn't.\"" },
         { "id": "b1rsf14", "prompt": "\"I'll finish it tomorrow,\" she said.", "answer": ["She said she would finish it the next day.", "She said she'd finish it the next day.", "She said that she would finish it the next day.", "She said that she'd finish it the next day."], "explanation": "\"Will\" → \"would\"; \"tomorrow\" → \"the next day.\"" }
       ]

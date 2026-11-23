@@ -18,7 +18,7 @@
     "rules": [
       {
         "heading": "Form",
-        "body": "<p>to be (in the right tense) + past participle.</p><ul><li>Present simple passive: The cake is baked every Sunday.</li><li>Past simple passive: The house was built in 1990.</li></ul>"
+        "body": "<p>to be (in the right tense) + past participle.</p><ul><li>Simple present passive: The cake is baked every Sunday.</li><li>Simple past passive: The house was built in 1990.</li></ul>"
       },
       {
         "heading": "When to use it",
@@ -45,16 +45,16 @@
       "id": "b1pv-gapfill", "type": "fill-blank", "title": "Fill in the Blanks",
       "instructions": "Complete each sentence with the correct passive form.",
       "items": [
-        { "id": "b1pv1", "prompt": "The cake ___ (bake) by my mother every Sunday.", "answers": [["is baked"]], "explanation": "Present simple passive: is + past participle." },
-        { "id": "b1pv2", "prompt": "The house ___ (build) in 1990.", "answers": [["was built"]], "explanation": "Past simple passive: was + past participle (irregular: build → built)." },
-        { "id": "b1pv3", "prompt": "The letters ___ (send) yesterday.", "answers": [["were sent"]], "explanation": "Past simple passive, plural subject: were + past participle." },
+        { "id": "b1pv1", "prompt": "The cake ___ (bake) by my mother every Sunday.", "answers": [["is baked"]], "explanation": "Simple present passive: is + past participle." },
+        { "id": "b1pv2", "prompt": "The house ___ (build) in 1990.", "answers": [["was built"]], "explanation": "Simple past passive: was + past participle (irregular: build → built)." },
+        { "id": "b1pv3", "prompt": "The letters ___ (send) yesterday.", "answers": [["were sent"]], "explanation": "Simple past passive, plural subject: were + past participle." },
         { "id": "b1pv4", "prompt": "The results ___ (announce) tomorrow.", "answers": [["will be announced"]], "explanation": "Future passive: will be + past participle." }
       ]
     },
     {
       "id": "b1pv-mc", "type": "multiple-choice", "title": "Choose the Correct Passive Form",
       "items": [
-        { "id": "b1pv5", "prompt": "The movie ______ directed by Steven Spielberg.", "options": ["is", "was", "has"], "answerIndex": 1, "explanation": "A finished historical fact — past simple passive, \"was.\"" },
+        { "id": "b1pv5", "prompt": "The movie ______ directed by Steven Spielberg.", "options": ["is", "was", "has"], "answerIndex": 1, "explanation": "A finished historical fact — simple past passive, \"was.\"" },
         { "id": "b1pv6", "prompt": "The car ______ at the moment.", "options": ["is repairing", "is being repaired", "repairs"], "answerIndex": 1, "explanation": "Present continuous passive: is being + past participle." }
       ]
     },

@@ -5,7 +5,7 @@
   "topic": "everyday",
   "title": "A Weekend at the Lake",
   "subtitle": "What happened last Saturday, what is happening now, and what the family will do next time.",
-  "description": "An A2 reading and listening text about a family day at the lake, written to practice the past simple, the present continuous and the future, with vocabulary and comprehension exercises.",
+  "description": "An A2 reading and listening text about a family day at the lake, written to practice the simple past, the present continuous and the future, with vocabulary and comprehension exercises.",
   "source": "cefr/texts/simple-past-+-present-continuous-+-future-1.docx + -2.docx",
   "provenance": "merged",
   "narrator": "female",
@@ -88,8 +88,8 @@
     {
       "id": "a2-lake-past",
       "type": "fill-blank",
-      "title": "Part A — The Past Simple",
-      "instructions": "This part is about last Saturday, so every verb is in the past simple. Careful: several of them are irregular.",
+      "title": "Part A — The Simple Past",
+      "instructions": "This part is about last Saturday, so every verb is in the simple past. Careful: several of them are irregular.",
       "items": [
         {
           "id": "lp1",
@@ -490,10 +490,10 @@
     }
   ],
   "discussion": [
-    "Describe last weekend in five sentences, all in the past simple.",
+    "Describe last weekend in five sentences, all in the simple past.",
     "Now describe what is happening around you at this moment, in three sentences.",
     "What are you doing next weekend? Use a fixed arrangement, an intention and a prediction.",
     "The deer gets bigger every time the brother tells the story. Why do stories change when we retell them?",
-    "Write about 100 words about a day out with your family, using the past simple for what happened."
+    "Write about 100 words about a day out with your family, using the simple past for what happened."
   ]
 }

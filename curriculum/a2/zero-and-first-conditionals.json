@@ -18,11 +18,11 @@
     "rules": [
       {
         "heading": "a) Zero conditional — general truths",
-        "body": "<p>If + present simple, present simple. Used for things that are always true (facts, habits, science).</p><ul><li>If you heat water to 100°C, it boils.</li><li>If it rains, the streets get wet.</li></ul>"
+        "body": "<p>If + simple present, simple present. Used for things that are always true (facts, habits, science).</p><ul><li>If you heat water to 100°C, it boils.</li><li>If it rains, the streets get wet.</li></ul>"
       },
       {
         "heading": "b) First conditional — real future possibility",
-        "body": "<p>If + present simple, will + base verb. Used for something that could realistically happen in the future.</p><ul><li>If it rains tomorrow, we will stay at home.</li><li>If she studies hard, she will pass the exam.</li></ul>"
+        "body": "<p>If + simple present, will + base verb. Used for something that could realistically happen in the future.</p><ul><li>If it rains tomorrow, we will stay at home.</li><li>If she studies hard, she will pass the exam.</li></ul>"
       }
     ],
     "examples": [
@@ -34,7 +34,7 @@
       "If I have time this weekend, I will call you."
     ],
     "commonMistakes": [
-      { "wrong": "If it will rain, we will stay home.", "right": "If it rains, we will stay home.", "why": "The \"if\" clause never uses \"will\" — use the present simple, even though the meaning is future." },
+      { "wrong": "If it will rain, we will stay home.", "right": "If it rains, we will stay home.", "why": "The \"if\" clause never uses \"will\" — use the simple present, even though the meaning is future." },
       { "wrong": "If you heat water, it will boil at 100°C. (as a general fact)", "right": "If you heat water to 100°C, it boils.", "why": "A general, always-true fact needs the zero conditional (present + present), not \"will.\"" },
       { "wrong": "If she study hard, she will pass.", "right": "If she studies hard, she will pass.", "why": "Third person singular (she) still needs -s in the \"if\" clause." }
     ]

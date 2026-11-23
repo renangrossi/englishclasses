@@ -10,12 +10,12 @@ Beyond the four basic conditionals, C1 English uses mixed conditionals, conditio
 a) Mixed conditionals — combine a condition and result from different time frames.
    - Past condition → present result: If + past perfect, ... would + bare infinitive.
      If she had studied medicine, she would be a doctor now.
-   - Present/general condition → past result: If + past simple, ... would have + past participle.
+   - Present/general condition → past result: If + simple past, ... would have + past participle.
      If he weren't so stubborn, he wouldn't have lost his friends.
 
 b) Conditional inversion — in formal/written English, "if" can be dropped and the auxiliary moved before the subject.
    - Had + subject + past participle (= if + past perfect): Had I known, I would have come earlier.
-   - Were + subject (+ to + infinitive) (= if + past simple/were): Were she to accept, the deal would close tomorrow.
+   - Were + subject (+ to + infinitive) (= if + simple past/were): Were she to accept, the deal would close tomorrow.
    - Should + subject + bare infinitive (= if + present, for a less likely future event): Should you need anything, just call me.
 
 c) Alternatives to "if" — "if it hadn't been for" / "but for" + noun phrase, express that something (a person, event, factor) prevented a different outcome.

@@ -71,50 +71,39 @@ British, *Italian* capitalized in a word-order prompt, a circular glossary entry
 line: to wait in a line*), a credit that printed Commons' footnote marker, *November 15,
 2026*.
 
-## Left for a decision
+## Follow-up (same day)
 
-These are real, but each is a choice about content, branding or cost rather than a slip,
-so they were not changed.
+Applied after review: the progress page now says what an account stores, as the privacy
+page does; A1 Test Yourself topic 20 is rebuilt from the current lesson; every lesson,
+booklet, reading exercise and index uses *simple present / simple past / simple future*
+(537 changes; URLs, slugs and ids unchanged); the British words in four narrated readings
+set nowhere in particular are American (*set the table, a load of laundry, exhaust fan, two
+weeks, register, parking lot, study*), with the British form kept as a glossary note; every
+stale narration was re-recorded; and the booklet source
+(`/media/valusia/Documents/English/CEFR/redesign/_source`, backed up beside itself as
+`_source.backup-2026-11-23`) carries the booklet, spelling and tense-name fixes, so a
+rebuild keeps them. `b1/robot-birds` keeps *bin* and *council*: it is set in Liverpool.
 
-1. **Homepage copy.** "Welcome to *teacher Renan's* English Course" uses *teacher* as a title,
-   a Portuguese pattern (*professor Renan*); "Est. *in* 1776" is usually "Est. 1776". The
-   Exercises card says "dozens of … exercises, independent of level" — the library is 152
-   texts, graded A1–C2. Mock Exams promises "answer keys"; the exams page says to ask the
-   instructor where a key is not included.
-2. **The signed-in progress text contradicts the privacy page.** It says only XP, streak,
-   badges and results are stored "next to your email address — nobody else can see them";
-   the privacy page says Google sign-in also stores name and picture, and that the teacher
-   can see progress.
-3. **A1 Test Yourself, topic 20** still holds the old version of *Imperatives (Review and
-   Expand)*: past simple and *will* in a story, where the lesson is now present simple,
-   present continuous and imperatives. Its broken card is fixed; the topic itself needs
-   regenerating from the lesson, including its exercises.
-4. **Test Yourself structure.** A2 lists 15 topics for 14 lessons (topics 7 and 8 are the
+## Still open
+
+1. **Homepage headline.** "Welcome to teacher Renan's English Course" uses *teacher* as a
+   title, a Portuguese pattern; suggested: "Learn English with Renan the Teacher". (The
+   eyebrow now reads "Est. 1776", and the Exercises and Mock Exams cards describe the graded
+   library and the answer keys accurately.)
+2. **Day-first dates.** About 25 readings, most of the American History collection, write
+   "On 4 July 1776", "on 14 June 1777", in passages, exercises and captions; the site's rule
+   is American dates (July 4, 1776). Converting them means re-recording those texts.
+3. **Test Yourself structure.** A2 lists 15 topics for 14 lessons (topics 7 and 8 are the
    same); B2 has three overlapping future-continuous/perfect topics.
-5. **Tense names.** The lessons say *simple past* 262 times and *past simple* 208 times,
-   *present simple* 141 and *simple present* 136, sometimes on one page and in lesson titles.
-   American textbooks use *simple present / simple past*.
-6. **British words in texts set nowhere in particular**, which the site's own rule says
-   should be American: *fortnight*, *lay the table*, *cooker*, *a load of washing*
-   (`b1/a-day-in-the-house`), *till* (`b1/coffee-and-it`, `b2/describing-a-place`), *revise*
-   for study (`b2/intelligence-pills`), *bin* (`b1/robot-birds`). They are in narrated
-   passages, so each change needs re-narration. `c1/apollo-11` also dates the landing
-   "20 July 1969".
-7. **Narration.** 38 readings are listed as stale: 33 from the 2026-11-13 spelling pass and
-   5 from this one. All changed by spelling only and sound the same; regenerate with
-   `scripts/generate_reading_audio.py` when convenient.
-8. **Booklet source.** The booklets are built by an external project; the fixes here need
-   the same edits there, or a rebuild will bring the errors back. A1's sheet also teaches
-   *at Easter / at Christmas*, where American English mostly says *on Easter*.
-9. **Portuguese inside English pages** ("Eu tenho 25 anos", "O café é popular no Brasil") is
-   not marked `lang="pt-BR"`, so screen readers pronounce it as English.
-10. **Unverified.** The Extras card "Lion King with real actors" describes "Red the lion" and
-    "Disney's live-action adaptation" — worth a look at the video. C2 Discourse Devices
-    teaches sentence-initial *On which point, …*, which is rare; *On this point* is the
-    usual form.
-11. **Asset stamps.** `ai-teacher.js` changed in 5efb785 but the 280 pages that load it still
-    carry its old `?v=`; `scripts/stamp_asset_versions.py` fixes it (pre-existing, not part
-    of this pass).
+4. **Portuguese inside English pages** is not marked `lang="pt-BR"`, so screen readers
+   pronounce it as English.
+5. **Unverified.** The Extras card "Lion King with real actors" describes "Red the lion" and
+   "Disney's live-action adaptation"; C2 Discourse Devices teaches sentence-initial *On
+   which point, …* (*On this point* is the usual form).
+6. **Asset stamps.** `ai-teacher.js` changed in 5efb785 but the pages that load it carry its
+   old `?v=`; `scripts/stamp_asset_versions.py` fixes it.
+7. **AI Teacher catalog.** `worker/course-catalog.json` has the new lesson titles; they reach
+   the AI Teacher on the next worker deploy.
 
 ## Tooling
 

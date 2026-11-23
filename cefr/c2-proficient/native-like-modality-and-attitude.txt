@@ -40,7 +40,7 @@ Native-like control means choosing the modal combination that matches exactly ho
 
 1. Incorrect: It would seem the strategy fails.
    Correct: It would seem that the strategy has failed.
-   Why: This hedged structure typically requires "that" before the clause, and the verb tense should match the intended time frame (here, a completed failure).
+   Why: The verb tense should match the intended time frame — here, a completed failure ("has failed"). "That" is optional, but it makes the hedge clearer in formal writing.
 
 2. Incorrect: She might well being right.
    Correct: She might well be right.

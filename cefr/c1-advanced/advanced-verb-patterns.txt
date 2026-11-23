@@ -9,7 +9,7 @@ C1 English requires precise control of complex verb patterns that go beyond simp
 
 a) Verb + object + infinitive/gerund variations — some verbs change meaning depending on the pattern that follows.
    - remember/forget + to-infinitive (a task you need/needed to do) vs. + gerund (a memory of something already done)
-     I remembered to lock the door. (I did it, then remembered.) / I remember locking the door. (I have a memory of doing it.)
+     I remembered to lock the door. (I remembered first, then did it.) / I remember locking the door. (I have a memory of doing it.)
    - stop + to-infinitive (pause in order to do something else) vs. + gerund (quit doing something)
      He stopped to smoke. (paused his activity in order to smoke) / He stopped smoking. (quit the habit)
    - try + to-infinitive (make an effort) vs. + gerund (experiment with something as a possible solution)
@@ -59,9 +59,9 @@ c) Causatives — have/get + object + past participle, used when someone else pe
    Correct: I had my car fixed last week.
    Why: The causative "have something done" uses the past participle, not a to-infinitive.
 
-5. Incorrect: She admitted to lying to the police, before that day.
-   Correct: She admitted to having lied to the police before that day.
-   Why: To show the lying happened earlier than the admission, the perfect gerund is needed after "admitted to."
+5. Incorrect: She admitted to lie to the police.
+   Correct: She admitted to lying to the police. / She admitted to having lied to the police.
+   Why: In "admit to," to is a preposition, so it takes an -ing form — the simple gerund (lying) or the perfect gerund (having lied) — never the infinitive.
 
 4. EXERCISES
 

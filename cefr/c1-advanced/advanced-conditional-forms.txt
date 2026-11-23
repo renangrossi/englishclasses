@@ -51,7 +51,7 @@ d) Hypothetical structures — "suppose/supposing," "what if," "imagine" + past 
 
 3. Incorrect: If it wasn't for him, I would have failed.
    Correct: If it hadn't been for him, I would have failed.
-   Why: "If it hadn't been for" refers to something in the past that prevented a result; "wasn't" is present, which breaks the time logic.
+   Why: "If it hadn't been for" goes with a past result like "would have failed." "If it wasn't for" is the unreal-present form, so it does not match that past result.
 
 4. Incorrect: Were she accept the offer, we would proceed.
    Correct: Were she to accept the offer, we would proceed.

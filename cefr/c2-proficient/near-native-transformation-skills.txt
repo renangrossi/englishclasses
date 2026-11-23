@@ -49,9 +49,9 @@ Near-native fluency means using these tools deliberately and invisibly: the read
    Correct: There may have been some miscommunication.
    Why: After "may," always use "have," not "had."
 
-4. Incorrect: Flying planes are dangerous when badly maintained. (still ambiguous if not intended)
-   Correct (if referring to aircraft): Aircraft that are poorly maintained can be dangerous.
-   Why: Leaving "flying planes" as a modifier keeps the structural ambiguity between "planes that fly" and "the act of flying planes" — clarify explicitly if precision matters.
+4. Incorrect: Flying planes can be dangerous. (if you mean the aircraft)
+   Correct: Planes that are badly maintained can be dangerous.
+   Why: With "can be," nothing shows whether "flying planes" means the aircraft or the act of flying them ("flying planes are…" would mean the aircraft; "flying planes is…" the act). If precision matters, say which you mean.
 
 5. Incorrect: It is not the plan was poorly designed, rather circumstances changed.
    Correct: It is not that the plan was poorly designed; rather, circumstances changed.

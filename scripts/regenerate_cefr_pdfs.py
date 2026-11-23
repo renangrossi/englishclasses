@@ -36,6 +36,9 @@ HEADER_RULE_RE = re.compile(r"^-{5,}$")
 
 CSS = """
 body { font-family: 'Liberation Serif', Georgia, serif; max-width: 720px; margin: 2.5cm auto; line-height: 1.5; color: #1a1a1a; }
+/* Newer LibreOffice imports h1/h2 with its own sans heading style unless
+   told otherwise; name the face so every worksheet keeps serif headings. */
+h1, h2 { font-family: 'Liberation Serif', Georgia, serif; }
 h1 { font-size: 20pt; margin-bottom: 0.1em; }
 .meta { color: #555; font-size: 10pt; margin-bottom: 1.4em; }
 h2 { font-size: 13pt; margin-top: 1.6em; border-bottom: 1px solid #ccc; padding-bottom: 0.2em; }

@@ -53,7 +53,7 @@ Key architectural principles at C2:
    Correct: The decline in trust, which scholars have studied extensively, reshaped politics.
    Why: In a non-defining (comma-separated) relative clause, use "which," not "that."
 
-5. Incorrect: Having reviewed the evidence, the case were dismissed by the judge.
+5. Incorrect: Having reviewed the evidence, the case was dismissed by the judge.
    Correct: Having reviewed the evidence, the judge dismissed the case.
    Why: The subject right after a participle clause ("Having reviewed...") must be the one performing that action — here, the judge, not the case.
 

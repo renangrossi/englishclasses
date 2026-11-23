@@ -10,13 +10,13 @@ These structures are rare in everyday speech but appear in formal writing, legal
 a) Advanced (formal/archaic) subjunctive — the bare base form of the verb (no -s, no "would/should") used after certain verbs/adjectives expressing necessity, demand, or recommendation, especially in formal American English and fixed expressions.
    The committee demanded that he resign immediately. (not "resigns")
    It is essential that every member be present.
-   Fixed expressions: So be it. Suffice it to say. Be that as it may. Come what may. God save the Queen.
+   Fixed expressions: So be it. Suffice it to say. Be that as it may. Come what may. God save the King.
 
 b) Emphatic "do" in literary contexts — "do/does/did" + bare infinitive used not to form a question or negative, but to add emphasis or formality, common in literary and rhetorical prose.
    She did say she would come, but she never showed up. (emphasizing that she really did say it)
-   Little did I know, this decision did shape the rest of my life.
+   I do understand your concern — and I did read the report.
 
-c) Inverted conditionals with an omitted auxiliary — an extremely formal/literary variant where "if" is dropped, the auxiliary is inverted, and sometimes an entire clause is compressed with ellipsis.
+c) Inverted conditionals without "if" — an extremely formal/literary variant where "if" is dropped, the auxiliary is inverted, and sometimes an entire clause is compressed with ellipsis.
    Had I but known, I would have acted differently. ("but" here is an archaic intensifier meaning "only")
    Were it not for your generosity, this project would never have existed.
    Be it ever so humble, there's no place like home. (archaic subjunctive + inversion, fixed literary expression)
@@ -30,7 +30,7 @@ These forms are not required for everyday fluency, but recognizing them is essen
 3. Be that as it may, the decision has already been made.
 4. Suffice it to say, the meeting did not go well.
 5. She did warn us, but nobody listened.
-6. Little did we know, the storm did far more damage than expected.
+6. We did take precautions; the storm was simply stronger than anyone expected.
 7. Had I but known the risks, I would never have agreed.
 8. Were it not for her intervention, the deal would have collapsed entirely.
 9. Come what may, the team will finish what it started.

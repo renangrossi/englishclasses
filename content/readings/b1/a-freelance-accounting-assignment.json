@@ -109,6 +109,28 @@
       "term": "to carry uncertainty",
       "definition": "to continue working without being sure you are right",
       "match": "carry the uncertainty"
+    },
+    {
+      "term": "to turn out to be",
+      "definition": "to be found, in the end, to be something",
+      "match": "turned out to"
+    },
+    {
+      "term": "to look something up",
+      "definition": "to search for information in a book or online",
+      "match": "look it up"
+    },
+    {
+      "term": "would rather",
+      "definition": "would prefer to"
+    },
+    {
+      "term": "used to",
+      "definition": "did regularly in the past, but not now"
+    },
+    {
+      "term": "a great deal",
+      "definition": "a lot; much — careful: not a business deal"
     }
   ],
   "exercises": [

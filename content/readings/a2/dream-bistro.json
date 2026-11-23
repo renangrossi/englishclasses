@@ -65,6 +65,20 @@
     {
       "term": "to be good with customers",
       "definition": "to deal with customers in a friendly, effective way"
+    },
+    {
+      "term": "to write down",
+      "definition": "to write something on paper so you do not forget it",
+      "match": "writes down"
+    },
+    {
+      "term": "to drive out to",
+      "definition": "to drive to a place outside the city",
+      "match": "drives out to"
+    },
+    {
+      "term": "a great deal",
+      "definition": "a lot; much — careful: not a business deal"
     }
   ],
   "exercises": [

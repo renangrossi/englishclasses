@@ -65,6 +65,11 @@
     {
       "term": "enslaved people",
       "definition": "people who were owned by other people and had to work for no money"
+    },
+    {
+      "term": "to go back to",
+      "definition": "to return to a place",
+      "match": "went back to"
     }
   ],
   "exercises": [

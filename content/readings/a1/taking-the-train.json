@@ -87,6 +87,11 @@
       "term": "to laugh",
       "definition": "to make a happy sound when something is funny",
       "match": "laughs"
+    },
+    {
+      "term": "to sit down",
+      "definition": "to move your body down onto a seat",
+      "match": "sit down"
     }
   ],
   "exercises": [

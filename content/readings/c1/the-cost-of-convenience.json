@@ -118,6 +118,16 @@
     {
       "term": "actually",
       "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
+      "term": "to give up",
+      "definition": "to lose or stop having something",
+      "match": "given up"
+    },
+    {
+      "term": "to switch away from",
+      "definition": "to stop using one thing and start using another",
+      "match": "switching away from"
     }
   ],
   "exercises": [

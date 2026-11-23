@@ -139,6 +139,25 @@
     {
       "term": "squeegee",
       "definition": "a rubber blade for wiping water off glass"
+    },
+    {
+      "term": "to pull up",
+      "definition": "to drive to a place and stop",
+      "match": "pulls up"
+    },
+    {
+      "term": "to walk over",
+      "definition": "to walk to the place where somebody is",
+      "match": "walks over"
+    },
+    {
+      "term": "to pull out",
+      "definition": "to drive away from the place where you stopped",
+      "match": "pulls out"
+    },
+    {
+      "term": "a bit",
+      "definition": "a little (informal)"
     }
   ],
   "exercises": [

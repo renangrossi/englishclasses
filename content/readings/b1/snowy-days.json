@@ -97,6 +97,34 @@
     {
       "term": "cabin fever",
       "definition": "the restlessness that comes from being stuck indoors too long"
+    },
+    {
+      "term": "to live off",
+      "definition": "to have something as your only food or support",
+      "match": "live off"
+    },
+    {
+      "term": "to get old",
+      "definition": "to become boring because it goes on too long (informal)",
+      "match": "gets old"
+    },
+    {
+      "term": "to set in",
+      "definition": "to begin and continue, said of something unpleasant",
+      "match": "sets in"
+    },
+    {
+      "term": "honestly",
+      "definition": "to tell the truth"
+    },
+    {
+      "term": "cozy",
+      "definition": "warm, comfortable and safe"
+    },
+    {
+      "term": "to deal with",
+      "definition": "to live with a problem and handle it",
+      "match": "deal with"
     }
   ],
   "exercises": [

@@ -118,6 +118,16 @@
       "term": "to be in touch",
       "definition": "to contact someone",
       "match": "in touch"
+    },
+    {
+      "term": "would rather",
+      "definition": "would prefer to",
+      "match": "I'd rather"
+    },
+    {
+      "term": "to start by",
+      "definition": "to do something as the first step",
+      "match": "start by"
     }
   ],
   "exercises": [

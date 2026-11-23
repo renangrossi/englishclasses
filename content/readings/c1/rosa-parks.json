@@ -91,6 +91,21 @@
     {
       "term": "ordinary",
       "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
+      "term": "to give up",
+      "definition": "to let somebody else have something",
+      "match": "give up"
+    },
+    {
+      "term": "to give in",
+      "definition": "to stop resisting and accept what somebody wants",
+      "match": "giving in"
+    },
+    {
+      "term": "to stay off",
+      "definition": "not to use something",
+      "match": "stayed off"
     }
   ],
   "exercises": [

@@ -86,6 +86,16 @@
       "term": "the point",
       "definition": "the reason why something is good or important",
       "match": "the point"
+    },
+    {
+      "term": "to get up",
+      "definition": "to leave your bed in the morning",
+      "match": "gets up"
+    },
+    {
+      "term": "to go out",
+      "definition": "to leave home to do something you enjoy",
+      "match": "go out"
     }
   ],
   "exercises": [

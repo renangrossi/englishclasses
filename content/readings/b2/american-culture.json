@@ -130,6 +130,11 @@
     {
       "term": "ordinary",
       "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
+      "term": "to hold together",
+      "definition": "to stay united and not fall apart",
+      "match": "holds together"
     }
   ],
   "exercises": [

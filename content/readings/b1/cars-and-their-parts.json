@@ -120,6 +120,21 @@
     {
       "term": "rack and pinion",
       "definition": "the gear arrangement that turns steering-wheel rotation into side-to-side movement"
+    },
+    {
+      "term": "to do away with",
+      "definition": "to remove something completely",
+      "match": "does away with"
+    },
+    {
+      "term": "to pull away",
+      "definition": "to start moving away from a place",
+      "match": "pulling away"
+    },
+    {
+      "term": "to bounce off",
+      "definition": "to hit a surface and jump back from it",
+      "match": "bounces off"
     }
   ],
   "exercises": [

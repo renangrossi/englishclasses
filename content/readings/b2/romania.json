@@ -115,6 +115,24 @@
     {
       "term": "overrun",
       "definition": "spoiled by having far too many visitors"
+    },
+    {
+      "term": "to make up",
+      "definition": "to form something together",
+      "match": "make up"
+    },
+    {
+      "term": "to break into",
+      "definition": "to divide into several parts",
+      "match": "breaks into"
+    },
+    {
+      "term": "at first",
+      "definition": "at the beginning, before you know it better"
+    },
+    {
+      "term": "a good deal",
+      "definition": "much; a lot — careful: not a business deal"
     }
   ],
   "exercises": [

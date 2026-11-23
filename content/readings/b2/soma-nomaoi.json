@@ -109,6 +109,16 @@
       "term": "to bind together",
       "definition": "to join two things so they cannot easily be separated",
       "match": "bound together"
+    },
+    {
+      "term": "to set out",
+      "definition": "to start a journey",
+      "match": "set out"
+    },
+    {
+      "term": "to take part in",
+      "definition": "to join an activity with other people",
+      "match": "take part in"
     }
   ],
   "exercises": [

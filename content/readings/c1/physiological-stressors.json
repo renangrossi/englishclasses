@@ -149,6 +149,15 @@
       "term": "to pace",
       "definition": "to control your speed so that effort lasts the whole distance",
       "match": "pacing"
+    },
+    {
+      "term": "to take in",
+      "definition": "to eat or drink; to absorb",
+      "match": "take in"
+    },
+    {
+      "term": "on an empty stomach",
+      "definition": "without having eaten"
     }
   ],
   "exercises": [

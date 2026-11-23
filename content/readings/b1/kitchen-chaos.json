@@ -154,6 +154,39 @@
       "term": "to ship",
       "definition": "to release software to the people who will use it",
       "match": "shipped"
+    },
+    {
+      "term": "to end up",
+      "definition": "to finally be in a situation you did not plan",
+      "match": "end up"
+    },
+    {
+      "term": "to clean up",
+      "definition": "to make a place clean and tidy again",
+      "match": "clean up"
+    },
+    {
+      "term": "to have something in mind",
+      "definition": "to be thinking of something as a plan",
+      "match": "had in mind"
+    },
+    {
+      "term": "anyway",
+      "definition": "at least, that was the idea"
+    },
+    {
+      "term": "to log back in",
+      "definition": "to sign in to a computer system again",
+      "match": "log back in"
+    },
+    {
+      "term": "to deal with",
+      "definition": "to do what is necessary to solve a problem",
+      "match": "deal with"
+    },
+    {
+      "term": "mess",
+      "definition": "a dirty or untidy state"
     }
   ],
   "exercises": [

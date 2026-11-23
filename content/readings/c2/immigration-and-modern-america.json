@@ -148,6 +148,16 @@
       "term": "to debase",
       "definition": "to lower the quality or dignity of",
       "match": "debased"
+    },
+    {
+      "term": "to leave out",
+      "definition": "not to include",
+      "match": "left out"
+    },
+    {
+      "term": "to set something aside",
+      "definition": "to stop considering something for the moment",
+      "match": "Set that aside"
     }
   ],
   "exercises": [

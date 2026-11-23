@@ -103,6 +103,21 @@
     {
       "term": "regulations",
       "definition": "official rules a business has to follow"
+    },
+    {
+      "term": "to come up",
+      "definition": "to rise, said of the sun or the light",
+      "match": "comes up"
+    },
+    {
+      "term": "to check on",
+      "definition": "to look at something to make sure it is all right",
+      "match": "check on"
+    },
+    {
+      "term": "to get out",
+      "definition": "to escape",
+      "match": "got out"
     }
   ],
   "exercises": [

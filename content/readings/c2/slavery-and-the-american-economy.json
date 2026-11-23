@@ -137,6 +137,11 @@
     {
       "term": "to pretend",
       "definition": "to act as if something is true when it is not — careful: not to intend or plan"
+    },
+    {
+      "term": "to turn on",
+      "definition": "to depend on",
+      "match": "turns on"
     }
   ],
   "exercises": [

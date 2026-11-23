@@ -95,6 +95,36 @@
     {
       "term": "to anticipate",
       "definition": "to expect something and prepare for it"
+    },
+    {
+      "term": "to take over",
+      "definition": "to take control from somebody or something else",
+      "match": "took over"
+    },
+    {
+      "term": "to read out",
+      "definition": "to say aloud something written or shown",
+      "match": "read out"
+    },
+    {
+      "term": "to count down",
+      "definition": "to count the numbers backward to zero",
+      "match": "counted down"
+    },
+    {
+      "term": "to lift off",
+      "definition": "to leave the ground, said of a rocket",
+      "match": "lift off"
+    },
+    {
+      "term": "to set out",
+      "definition": "to put things in position",
+      "match": "set out"
+    },
+    {
+      "term": "to leave behind",
+      "definition": "not to take something with you",
+      "match": "left behind"
     }
   ],
   "exercises": [

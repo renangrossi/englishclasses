@@ -143,6 +143,16 @@
     {
       "term": "to intend",
       "definition": "to plan to do something — careful: not to understand"
+    },
+    {
+      "term": "to come back",
+      "definition": "to return; here, to appear again",
+      "match": "came back"
+    },
+    {
+      "term": "to fit out",
+      "definition": "to give a ship everything it needs for a voyage",
+      "match": "fitted out"
     }
   ],
   "exercises": [

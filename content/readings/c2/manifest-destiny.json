@@ -111,6 +111,25 @@
     {
       "term": "durable",
       "definition": "lasting"
+    },
+    {
+      "term": "to pick out",
+      "definition": "to choose or notice something among many",
+      "match": "picked out of"
+    },
+    {
+      "term": "to tidy up",
+      "definition": "to make neater; here, to make simpler than the truth",
+      "match": "tidied up"
+    },
+    {
+      "term": "to argue somebody out of something",
+      "definition": "to persuade somebody to stop believing or doing something",
+      "match": "argued out of"
+    },
+    {
+      "term": "so much for",
+      "definition": "that is all there is to say about; used to move on"
     }
   ],
   "exercises": [

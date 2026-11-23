@@ -107,6 +107,20 @@
     {
       "term": "actually",
       "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
+      "term": "to come away",
+      "definition": "to leave with a certain idea or feeling",
+      "match": "come away"
+    },
+    {
+      "term": "to leave out",
+      "definition": "not to include",
+      "match": "left out"
+    },
+    {
+      "term": "up and down",
+      "definition": "in both directions, higher and lower"
     }
   ],
   "exercises": [

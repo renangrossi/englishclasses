@@ -127,6 +127,15 @@
     {
       "term": "stake",
       "definition": "a personal interest in how something turns out"
+    },
+    {
+      "term": "so far",
+      "definition": "until now"
+    },
+    {
+      "term": "to move on from",
+      "definition": "to stop discussing one thing and start another",
+      "match": "moved on from"
     }
   ],
   "exercises": [

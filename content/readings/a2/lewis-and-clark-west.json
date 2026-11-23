@@ -75,6 +75,15 @@
     {
       "term": "to reach",
       "definition": "to arrive at a place"
+    },
+    {
+      "term": "to bring back",
+      "definition": "to return with something",
+      "match": "bring back"
+    },
+    {
+      "term": "huge",
+      "definition": "very big"
     }
   ],
   "exercises": [

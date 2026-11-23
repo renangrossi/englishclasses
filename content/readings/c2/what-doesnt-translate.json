@@ -153,6 +153,21 @@
       "term": "false friend",
       "definition": "a word that looks the same in two languages but means something different",
       "match": "false friends"
+    },
+    {
+      "term": "to turn on",
+      "definition": "to depend on",
+      "match": "turns on"
+    },
+    {
+      "term": "to stay behind",
+      "definition": "to remain when others leave",
+      "match": "stays behind"
+    },
+    {
+      "term": "to slow down",
+      "definition": "to go more slowly",
+      "match": "slows down"
     }
   ],
   "exercises": [

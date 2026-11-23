@@ -149,6 +149,11 @@
     {
       "term": "enforcement",
       "definition": "the act of making people obey a law"
+    },
+    {
+      "term": "to hold",
+      "definition": "to decide officially, said of a court",
+      "match": "held in"
     }
   ],
   "exercises": [

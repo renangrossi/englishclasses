@@ -247,6 +247,52 @@
     {
       "term": "overdue",
       "definition": "later than it should have been"
+    },
+    {
+      "term": "That's on me.",
+      "definition": "it is my fault; I take responsibility (informal)",
+      "match": "That's on me"
+    },
+    {
+      "term": "on the spot",
+      "definition": "immediately, at that moment"
+    },
+    {
+      "term": "to be back up",
+      "definition": "to be working again after a failure",
+      "match": "back up"
+    },
+    {
+      "term": "to let out a breath",
+      "definition": "to breathe out, often from relief or stress",
+      "match": "let out a breath"
+    },
+    {
+      "term": "to come up through",
+      "definition": "to rise to a position by working in the jobs below it",
+      "match": "come up through"
+    },
+    {
+      "term": "to go wrong",
+      "definition": "to stop working as it should",
+      "match": "gone wrong"
+    },
+    {
+      "term": "to go on",
+      "definition": "to continue speaking",
+      "match": "went on"
+    },
+    {
+      "term": "on fire",
+      "definition": "burning; here, extremely busy (informal)"
+    },
+    {
+      "term": "for a while",
+      "definition": "for some time"
+    },
+    {
+      "term": "six-figure",
+      "definition": "worth at least 100,000 (dollars), a number with six figures"
     }
   ],
   "exercises": [

@@ -141,7 +141,12 @@ The students are Portuguese speakers, which changes what is worth a line:
   misunderstands a sentence while feeling certain they understood it. House
   style marks them: `"normal, usual — careful: it is not an insult"`.
 - **Prefer the Germanic and the idiomatic** — phrasal verbs, collocations,
-  everyday concrete words — over Latinate abstractions.
+  everyday concrete words — over Latinate abstractions. A phrasal verb is
+  glossed in the sense the passage uses (`to turn out` = to come and vote, not
+  to become), with `match` pinning the inflected form.
+- **Gloss the informal register.** *Got it*, *grab*, *kids*, *guys*, *Sure
+  thing*, *That's on me*, *gets old*: spoken American English that a textbook
+  never taught. Mark it `(informal)` so the reader knows where it belongs.
 
 `scripts/check_vocabulary.py` reports all three for every text.
 
@@ -149,10 +154,11 @@ The students are Portuguese speakers, which changes what is worth a line:
 
 | Level | A1 | A2 | B1 | B2 | C1 | C2 |
 |---|---|---|---|---|---|---|
-| Entries | 5–8 | 6–10 | 8–12 | 10–15 | 10–16 | 10–18 |
+| Entries | 5–8 | 6–12 | 8–16 | 10–18 | 10–20 | 10–22 |
 
-Guidance, not a rule. A text with a genuinely technical subject earns more; no
-text should be padded to reach a number.
+Guidance, not a rule. A longer text earns up to four entries per hundred words,
+to at most three times its level's figure; no text should be padded to reach a
+number.
 
 ## English variety
 

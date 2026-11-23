@@ -132,6 +132,25 @@
     {
       "term": "ordinary",
       "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
+      "term": "to come down to",
+      "definition": "to depend mainly on",
+      "match": "comes down to"
+    },
+    {
+      "term": "to run into",
+      "definition": "to meet a problem or difficulty",
+      "match": "run into"
+    },
+    {
+      "term": "to show up",
+      "definition": "to appear; to become visible",
+      "match": "show up"
+    },
+    {
+      "term": "back on track",
+      "definition": "going in the right direction again"
     }
   ],
   "exercises": [

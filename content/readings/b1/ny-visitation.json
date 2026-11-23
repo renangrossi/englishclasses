@@ -135,6 +135,35 @@
       "term": "block",
       "definition": "the distance between two street corners in an American city",
       "match": "blocks"
+    },
+    {
+      "term": "to turn out to",
+      "definition": "to be found, in the end, to be something",
+      "match": "turned out to"
+    },
+    {
+      "term": "to walk it",
+      "definition": "to go there on foot (informal)",
+      "match": "walk it"
+    },
+    {
+      "term": "to close in",
+      "definition": "to come nearer on all sides",
+      "match": "close in"
+    },
+    {
+      "term": "to open out",
+      "definition": "to become wider or more open",
+      "match": "open out"
+    },
+    {
+      "term": "for as long as somebody can remember",
+      "definition": "for a very long time, as far back as their memory goes",
+      "match": "for as long as he could remember"
+    },
+    {
+      "term": "on the way",
+      "definition": "while going to a place"
     }
   ],
   "exercises": [

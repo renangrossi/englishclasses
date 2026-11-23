@@ -76,6 +76,24 @@
     {
       "term": "refreshing",
       "definition": "making you feel cool and full of energy again"
+    },
+    {
+      "term": "to keep going",
+      "definition": "to continue without stopping",
+      "match": "kept going"
+    },
+    {
+      "term": "worth it",
+      "definition": "good enough to pay you back for the effort"
+    },
+    {
+      "term": "for a while",
+      "definition": "for some time, not very long"
+    },
+    {
+      "term": "to go in for a swim",
+      "definition": "to get into the water to swim",
+      "match": "went in for a swim"
     }
   ],
   "exercises": [

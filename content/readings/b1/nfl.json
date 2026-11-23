@@ -85,6 +85,30 @@
     {
       "term": "game day",
       "definition": "the day a team plays, often treated as a social event"
+    },
+    {
+      "term": "to hold on",
+      "definition": "to keep holding something and not let it go",
+      "match": "held on"
+    },
+    {
+      "term": "to come up",
+      "definition": "to be mentioned",
+      "match": "come up"
+    },
+    {
+      "term": "to keep going",
+      "definition": "to continue",
+      "match": "keep going"
+    },
+    {
+      "term": "at least",
+      "definition": "not less than"
+    },
+    {
+      "term": "to deal with",
+      "definition": "to handle a problem or an opponent",
+      "match": "deal with"
     }
   ],
   "exercises": [

@@ -104,6 +104,21 @@
     {
       "term": "peninsula",
       "definition": "a strip of land almost surrounded by water"
+    },
+    {
+      "term": "to plan around",
+      "definition": "to organize your plans so they fit something",
+      "match": "plan around"
+    },
+    {
+      "term": "to settle on",
+      "definition": "to come down and stay on something",
+      "match": "settles on"
+    },
+    {
+      "term": "to work out",
+      "definition": "to decide or understand after thinking",
+      "match": "working out"
     }
   ],
   "exercises": [

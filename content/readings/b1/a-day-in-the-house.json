@@ -149,6 +149,30 @@
     {
       "term": "stew",
       "definition": "meat and vegetables cooked slowly in liquid"
+    },
+    {
+      "term": "standing up",
+      "definition": "on your feet, not sitting"
+    },
+    {
+      "term": "to put something back together",
+      "definition": "to join the parts of something again",
+      "match": "put it back together"
+    },
+    {
+      "term": "to turn the water off",
+      "definition": "to stop the water with a tap or a valve",
+      "match": "turned the water off"
+    },
+    {
+      "term": "to make a face",
+      "definition": "to move your face to show you do not like something",
+      "match": "made a face"
+    },
+    {
+      "term": "to deal with",
+      "definition": "to do what is necessary to solve a problem",
+      "match": "deal with"
     }
   ],
   "exercises": [

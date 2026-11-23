@@ -120,6 +120,11 @@
     {
       "term": "epidemiology",
       "definition": "the study of how disease spreads through populations"
+    },
+    {
+      "term": "to go on to",
+      "definition": "to do something next, after something else",
+      "match": "went on to"
     }
   ],
   "exercises": [

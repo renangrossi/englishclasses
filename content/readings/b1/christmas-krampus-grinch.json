@@ -93,6 +93,25 @@
     {
       "term": "a costume",
       "definition": "clothes worn to look like somebody or something else — careful: not a habit or custom"
+    },
+    {
+      "term": "to turn up",
+      "definition": "to appear or arrive",
+      "match": "turn up"
+    },
+    {
+      "term": "to give something away",
+      "definition": "to give something for free",
+      "match": "gave things away"
+    },
+    {
+      "term": "to turn into",
+      "definition": "to become something different",
+      "match": "turned into"
+    },
+    {
+      "term": "taken together",
+      "definition": "considered as a group, not one by one"
     }
   ],
   "exercises": [

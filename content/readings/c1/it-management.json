@@ -168,6 +168,11 @@
     {
       "term": "backlog",
       "definition": "the ordered queue of work a team has not yet done"
+    },
+    {
+      "term": "to buy back",
+      "definition": "to get back something by paying for it",
+      "match": "buy back"
     }
   ],
   "exercises": [

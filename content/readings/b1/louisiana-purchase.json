@@ -77,6 +77,28 @@
     {
       "term": "to consult",
       "definition": "to ask somebody for their opinion before deciding"
+    },
+    {
+      "term": "to work out at",
+      "definition": "to come to a certain amount when you calculate it",
+      "match": "worked out at"
+    },
+    {
+      "term": "at least",
+      "definition": "if nothing more; as the minimum"
+    },
+    {
+      "term": "anyway",
+      "definition": "in spite of that"
+    },
+    {
+      "term": "to grow out of",
+      "definition": "to develop from something",
+      "match": "grew out of"
+    },
+    {
+      "term": "deal",
+      "definition": "an agreement to buy or sell something; a bargain"
     }
   ],
   "exercises": [

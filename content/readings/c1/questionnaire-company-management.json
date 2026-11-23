@@ -112,6 +112,16 @@
       "term": "to pay attention to",
       "definition": "to notice and take seriously",
       "match": "pay attention to"
+    },
+    {
+      "term": "to go through",
+      "definition": "to be accepted and completed",
+      "match": "goes through"
+    },
+    {
+      "term": "to turn out",
+      "definition": "to end in a certain way",
+      "match": "turned out"
     }
   ],
   "exercises": [

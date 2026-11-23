@@ -148,6 +148,26 @@
     {
       "term": "to push",
       "definition": "to press or move something forward — careful: it means the opposite of pulling"
+    },
+    {
+      "term": "to put something back together",
+      "definition": "to join the parts of something again",
+      "match": "putting it back together"
+    },
+    {
+      "term": "to work out",
+      "definition": "to find the answer by thinking",
+      "match": "work out"
+    },
+    {
+      "term": "for as long as somebody can remember",
+      "definition": "for a very long time, as far back as their memory goes",
+      "match": "for as long as he could remember"
+    },
+    {
+      "term": "to turn out to",
+      "definition": "to be found, in the end, to be something",
+      "match": "turned out to"
     }
   ],
   "exercises": [

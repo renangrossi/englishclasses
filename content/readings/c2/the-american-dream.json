@@ -149,6 +149,16 @@
     {
       "term": "unexceptional",
       "definition": "ordinary; not out of the common run"
+    },
+    {
+      "term": "to hold on to",
+      "definition": "to keep something and not lose it",
+      "match": "holding on to"
+    },
+    {
+      "term": "to go on doing",
+      "definition": "to continue doing something",
+      "match": "gone on doing"
     }
   ],
   "exercises": [

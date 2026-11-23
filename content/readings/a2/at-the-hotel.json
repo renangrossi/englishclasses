@@ -100,6 +100,16 @@
     {
       "term": "I'm afraid…",
       "definition": "a polite way to introduce bad news"
+    },
+    {
+      "term": "to pay by card",
+      "definition": "to pay with a card, not cash",
+      "match": "pay by card"
+    },
+    {
+      "term": "That's all right.",
+      "definition": "a polite way to say \"no, thank you, it is not necessary\"",
+      "match": "that's all right"
     }
   ],
   "exercises": [

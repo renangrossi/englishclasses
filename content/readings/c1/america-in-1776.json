@@ -126,6 +126,20 @@
     {
       "term": "periphery",
       "definition": "the outer edge of a region or system, away from its centers of power"
+    },
+    {
+      "term": "to draw on",
+      "definition": "to use something as a source of ideas",
+      "match": "Drawing on"
+    },
+    {
+      "term": "to live up to",
+      "definition": "to be as good as something promised or expected",
+      "match": "live up to"
+    },
+    {
+      "term": "at least in part",
+      "definition": "partly, if not completely"
     }
   ],
   "exercises": [

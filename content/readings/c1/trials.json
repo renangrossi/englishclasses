@@ -123,6 +123,20 @@
     {
       "term": "authoritative",
       "definition": "accepted as settling a question"
+    },
+    {
+      "term": "to come out of something well",
+      "definition": "to have a good result from a difficult situation",
+      "match": "come out of it well"
+    },
+    {
+      "term": "to go through",
+      "definition": "to experience something difficult",
+      "match": "gone through"
+    },
+    {
+      "term": "on the books",
+      "definition": "still part of the law"
     }
   ],
   "exercises": [

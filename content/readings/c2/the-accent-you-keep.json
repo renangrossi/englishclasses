@@ -135,6 +135,20 @@
       "term": "to discount",
       "definition": "to treat as worth less than it is",
       "match": "discounts"
+    },
+    {
+      "term": "to rule out",
+      "definition": "to make something impossible",
+      "match": "rule out"
+    },
+    {
+      "term": "to go away",
+      "definition": "to disappear",
+      "match": "going away"
+    },
+    {
+      "term": "so far",
+      "definition": "up to this point"
     }
   ],
   "exercises": [

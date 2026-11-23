@@ -108,6 +108,15 @@
     {
       "term": "it isn't your fault",
       "definition": "a phrase that keeps a complaint friendly: the problem is not the person you are talking to"
+    },
+    {
+      "term": "to put somebody on a flight",
+      "definition": "to book a seat for somebody on that flight",
+      "match": "put you on"
+    },
+    {
+      "term": "in case",
+      "definition": "because something might happen"
     }
   ],
   "exercises": [

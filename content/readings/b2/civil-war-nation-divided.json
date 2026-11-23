@@ -92,6 +92,11 @@
     {
       "term": "actually",
       "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
+      "term": "to make up",
+      "definition": "to form a part or an amount of something",
+      "match": "made up"
     }
   ],
   "exercises": [

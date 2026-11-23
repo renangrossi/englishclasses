@@ -76,6 +76,10 @@
     {
       "term": "welcome",
       "definition": "a happy word for a person who arrives"
+    },
+    {
+      "term": "at first",
+      "definition": "at the beginning, before something changed"
     }
   ],
   "exercises": [

@@ -81,6 +81,11 @@
     {
       "term": "wealth",
       "definition": "a large amount of money or valuable things"
+    },
+    {
+      "term": "to run away",
+      "definition": "to leave a place suddenly or secretly",
+      "match": "run away"
     }
   ],
   "exercises": [

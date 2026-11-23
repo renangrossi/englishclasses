@@ -84,6 +84,20 @@
     {
       "term": "to support",
       "definition": "to back, to take the side of — careful: not to put up with or endure"
+    },
+    {
+      "term": "to turn out",
+      "definition": "to come to an event in large numbers; here, to go and vote",
+      "match": "turned out"
+    },
+    {
+      "term": "to run through",
+      "definition": "to be present in every part of something",
+      "match": "runs through"
+    },
+    {
+      "term": "bargain",
+      "definition": "an agreement in which each side gives something — careful: it also means something bought cheap"
     }
   ],
   "exercises": [

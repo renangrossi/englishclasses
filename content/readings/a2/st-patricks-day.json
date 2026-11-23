@@ -81,6 +81,20 @@
     {
       "term": "No worries.",
       "definition": "a common informal way to say \"that's not a problem\""
+    },
+    {
+      "term": "Here you go.",
+      "definition": "what you say when you give something to somebody",
+      "match": "Here you go"
+    },
+    {
+      "term": "to take off",
+      "definition": "to remove a piece of clothing, like a hat",
+      "match": "took off"
+    },
+    {
+      "term": "tiny",
+      "definition": "very, very small"
     }
   ],
   "exercises": [

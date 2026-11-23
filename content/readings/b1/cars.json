@@ -104,6 +104,26 @@
     {
       "term": "ordinary",
       "definition": "normal, usual — careful: it is not an insult"
+    },
+    {
+      "term": "to run on",
+      "definition": "to use something as power",
+      "match": "run on"
+    },
+    {
+      "term": "to come up",
+      "definition": "to be mentioned or asked",
+      "match": "comes up"
+    },
+    {
+      "term": "to turn into",
+      "definition": "to become something different",
+      "match": "turned into"
+    },
+    {
+      "term": "to work out",
+      "definition": "to calculate or understand after thinking",
+      "match": "work out"
     }
   ],
   "exercises": [

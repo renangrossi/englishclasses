@@ -44,8 +44,8 @@ from build_reading_page import is_heading
 # Glossary size a level can carry before the list stops being a list and starts
 # being a page. Guidance, not a rule -- a text with an unusually technical
 # subject legitimately runs long.
-LEVEL_TARGET = {"A1": (5, 8), "A2": (6, 10), "B1": (8, 12),
-                "B2": (10, 15), "C1": (10, 16), "C2": (10, 18)}
+LEVEL_TARGET = {"A1": (5, 8), "A2": (6, 12), "B1": (8, 16),
+                "B2": (10, 18), "C1": (10, 20), "C2": (10, 22)}
 
 # The band above is absolute, and that was wrong on the two ends of the
 # library. A 1,075-word C1 text with 17 entries is a SPARSE glossary -- one
@@ -53,10 +53,12 @@ LEVEL_TARGET = {"A1": (5, 8), "A2": (6, 10), "B1": (8, 12),
 # flagged by the same rule for something entirely different. What a student
 # actually carries is the density: how often the reading stops to explain a
 # word. So the ceiling grows with the passage, never below the level's own
-# figure and never past 2.5x it, because a list of forty is unreadable however
-# long the text.
-DENSITY_PER_100 = 3.0
-MAX_OVER_LEVEL = 2.5
+# figure and never past 3x it, because a list of fifty is unreadable however
+# long the text. Four in a hundred since 2026-11-23, when the glossaries took
+# on the phrasal verbs, idioms and informal words a Brazilian reader needs and
+# no dictionary-difficulty score would pick.
+DENSITY_PER_100 = 4.0
+MAX_OVER_LEVEL = 3.0
 
 
 def size_band(level, words):

@@ -122,6 +122,11 @@
     {
       "term": "clinician",
       "definition": "a medical professional who treats patients"
+    },
+    {
+      "term": "to win on points",
+      "definition": "to win, but slowly and not decisively — a boxing image",
+      "match": "winning on points"
     }
   ],
   "exercises": [

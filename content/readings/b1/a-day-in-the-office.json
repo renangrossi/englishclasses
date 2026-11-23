@@ -99,6 +99,16 @@
     {
       "term": "routine",
       "definition": "the fixed pattern of what somebody usually does"
+    },
+    {
+      "term": "to go wrong",
+      "definition": "to stop working as it should; to develop a problem",
+      "match": "gone wrong"
+    },
+    {
+      "term": "to keep things apart",
+      "definition": "to keep them separate",
+      "match": "keeps them apart"
     }
   ],
   "exercises": [

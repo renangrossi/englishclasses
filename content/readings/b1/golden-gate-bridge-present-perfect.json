@@ -97,6 +97,29 @@
     {
       "term": "salt air",
       "definition": "sea air, which corrodes metal"
+    },
+    {
+      "term": "to turn out to",
+      "definition": "to be found, in the end, to be or do something",
+      "match": "turned out to"
+    },
+    {
+      "term": "to bring down",
+      "definition": "to make something fall",
+      "match": "brought down"
+    },
+    {
+      "term": "anyway",
+      "definition": "in spite of that"
+    },
+    {
+      "term": "more or less",
+      "definition": "approximately; almost"
+    },
+    {
+      "term": "to stick",
+      "definition": "to stay and become permanent, said of a name, a habit or an idea",
+      "match": "stuck"
     }
   ],
   "exercises": [

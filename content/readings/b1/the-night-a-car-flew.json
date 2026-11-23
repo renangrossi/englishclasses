@@ -187,6 +187,26 @@
     {
       "term": "eventually",
       "definition": "in the end, after some time — careful: it is not eventualmente, which is occasionally"
+    },
+    {
+      "term": "to turn over",
+      "definition": "to turn upside down",
+      "match": "turned over"
+    },
+    {
+      "term": "to lift off",
+      "definition": "to leave the ground and rise into the air",
+      "match": "lifts off"
+    },
+    {
+      "term": "to line up",
+      "definition": "to be in the right position in relation to each other",
+      "match": "line up"
+    },
+    {
+      "term": "to cut short",
+      "definition": "to end something earlier than planned",
+      "match": "cut short"
     }
   ],
   "exercises": [

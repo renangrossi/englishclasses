@@ -111,6 +111,44 @@
     {
       "term": "actually",
       "definition": "in fact, really — careful: not 'at the moment'"
+    },
+    {
+      "term": "Sure thing.",
+      "definition": "of course; certainly (informal)",
+      "match": "Sure thing"
+    },
+    {
+      "term": "Got it.",
+      "definition": "I understand (informal)",
+      "match": "Got it"
+    },
+    {
+      "term": "by the way",
+      "definition": "used to introduce a new subject"
+    },
+    {
+      "term": "to go over",
+      "definition": "to examine or discuss something carefully",
+      "match": "go over"
+    },
+    {
+      "term": "to head off",
+      "definition": "to stop a problem before it happens",
+      "match": "head off"
+    },
+    {
+      "term": "to check in",
+      "definition": "to make contact to share news or ask how things are going",
+      "match": "check in"
+    },
+    {
+      "term": "to cut into",
+      "definition": "to reduce something",
+      "match": "cutting into"
+    },
+    {
+      "term": "deadline",
+      "definition": "the time by which something must be done"
     }
   ],
   "exercises": [

@@ -119,6 +119,30 @@
       "term": "to write up",
       "definition": "to produce the finished written record of something",
       "match": "wrote up"
+    },
+    {
+      "term": "to call somebody out",
+      "definition": "to ask somebody to come to a place to do their job",
+      "match": "called out"
+    },
+    {
+      "term": "to keep in touch",
+      "definition": "to stay in contact",
+      "match": "kept in touch"
+    },
+    {
+      "term": "to turn out",
+      "definition": "to become clear in the end",
+      "match": "turned out"
+    },
+    {
+      "term": "to go through",
+      "definition": "to examine something carefully",
+      "match": "went through"
+    },
+    {
+      "term": "a good deal",
+      "definition": "much; a lot — careful: not a business deal"
     }
   ],
   "exercises": [

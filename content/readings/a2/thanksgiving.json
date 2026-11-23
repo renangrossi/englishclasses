@@ -85,6 +85,11 @@
       "term": "relative",
       "definition": "a person in your family",
       "match": "relatives"
+    },
+    {
+      "term": "to get up",
+      "definition": "to leave your bed in the morning",
+      "match": "gets up"
     }
   ],
   "exercises": [

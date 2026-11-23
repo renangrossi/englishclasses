@@ -92,6 +92,21 @@
     {
       "term": "office suite",
       "definition": "a set of programs for writing, spreadsheets and presentations"
+    },
+    {
+      "term": "to turn on",
+      "definition": "to start working, said of a machine",
+      "match": "turn on"
+    },
+    {
+      "term": "to turn out to",
+      "definition": "to be found, in the end, to be something",
+      "match": "turned out to"
+    },
+    {
+      "term": "to be about to",
+      "definition": "to be going to do something very soon",
+      "match": "about to"
     }
   ],
   "exercises": [

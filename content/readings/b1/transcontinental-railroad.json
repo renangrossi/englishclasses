@@ -90,6 +90,15 @@
     {
       "term": "a herd",
       "definition": "a large group of animals that live and move together"
+    },
+    {
+      "term": "to cut off",
+      "definition": "to stop the supply of something",
+      "match": "cut off"
+    },
+    {
+      "term": "a great deal",
+      "definition": "a lot; much — careful: not a business deal"
     }
   ],
   "exercises": [

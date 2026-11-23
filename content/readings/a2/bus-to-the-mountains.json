@@ -82,6 +82,28 @@
     {
       "term": "cider",
       "definition": "in the US, usually unfiltered apple juice, often sold at farms"
+    },
+    {
+      "term": "to stretch out",
+      "definition": "to continue a long way in front of you, said of a road or land",
+      "match": "stretches out"
+    },
+    {
+      "term": "on board",
+      "definition": "on a bus, train, ship or plane"
+    },
+    {
+      "term": "to grab",
+      "definition": "to take something quickly (informal)",
+      "match": "grab"
+    },
+    {
+      "term": "snack",
+      "definition": "a small amount of food eaten between meals"
+    },
+    {
+      "term": "ride",
+      "definition": "a trip in a car, bus or train, or on a bike or a horse — careful: you ride a bus, but you drive a car only when you are the driver"
     }
   ],
   "exercises": [

@@ -6,7 +6,7 @@
   "skill": "grammar",
   "strand": "advanced-conditional-forms",
   "title": "Advanced Conditional Forms",
-  "subtitle": "Beyond the four basic conditionals, C1 English uses mixed conditionals, conditional inversion, and alternative \"if\" structures to talk about hypothetical situat…",
+  "subtitle": "Beyond the four basic conditionals, C1 English uses mixed conditionals, conditional inversion and alternatives to “if” to talk about hypothetical situations with more precision.",
   "prerequisites": [],
   "objectives": [
     "Understand and use: Mixed conditionals — combine a condition and result from different time frames.",
@@ -62,7 +62,7 @@
       {
         "wrong": "If it wasn't for him, I would have failed.",
         "right": "If it hadn't been for him, I would have failed.",
-        "why": "\"If it hadn't been for\" refers to something in the past that prevented a result; \"wasn't\" is present, which breaks the time logic."
+        "why": "\"If it hadn't been for\" goes with a past result like \"would have failed.\" \"If it wasn't for\" is the unreal-present form, so it does not match that past result."
       },
       {
         "wrong": "Were she accept the offer, we would proceed.",

@@ -49,7 +49,7 @@
       { "wrong": "The man, who called this morning, didn't leave his name.", "right": "The man who called this morning didn't leave his name.", "why": "This clause identifies which man — it's defining, so no commas." },
       { "wrong": "The woman who's car was stolen is my neighbor.", "right": "The woman whose car was stolen is my neighbor.", "why": "\"Whose\" shows possession; \"who's\" is short for \"who is\" — they sound the same but mean different things." },
       { "wrong": "She's the woman about that I told you.", "right": "She's the woman that I told you about. / She's the woman about whom I told you.", "why": "A preposition can go before \"whom\" (formal) or stay at the end with \"that\"/nothing (informal) — never directly before \"that.\"" },
-      { "wrong": "I have two sisters who live in London.", "right": "(only correct if you actually have more than one sister living in London — otherwise: My sister, who lives in London, is visiting.)", "why": "Whether you use commas changes the meaning: without commas, it implies you have several sisters and this identifies which ones." }
+      { "wrong": "My mother who lives in Recife is visiting.", "right": "My mother, who lives in Recife, is visiting.", "why": "You have only one mother, so the clause cannot tell you which one — it just adds a fact, and needs commas. Without them it implies you have several mothers." }
     ]
   },
   "exercises": [

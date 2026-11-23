@@ -6,7 +6,7 @@
   "skill": "grammar",
   "strand": "highly-complex-sentence-architecture",
   "title": "Highly Complex Sentence Architecture",
-  "subtitle": "C2 academic and literary writing often uses long sentences that nest several subordinate clauses, front entire clauses for emphasis, and pack dense noun phrases…",
+  "subtitle": "Long sentences that nest subordinate clauses, front whole clauses for emphasis and pack dense noun phrases — and still read clearly.",
   "prerequisites": [],
   "objectives": [
     "Understand and use: Nested subordinate clauses — a main clause can contain a relative clause, which itself contains another clause, building layers of information.",
@@ -63,7 +63,7 @@
         "why": "In a non-defining (comma-separated) relative clause, use \"which,\" not \"that.\""
       },
       {
-        "wrong": "Having reviewed the evidence, the case were dismissed by the judge.",
+        "wrong": "Having reviewed the evidence, the case was dismissed by the judge.",
         "right": "Having reviewed the evidence, the judge dismissed the case.",
         "why": "The subject right after a participle clause (\"Having reviewed...\") must be the one performing that action — here, the judge, not the case."
       }

@@ -6,26 +6,26 @@
   "skill": "grammar",
   "strand": "rare-or-literary-structures",
   "title": "Rare or Literary Structures",
-  "subtitle": "These structures are rare in everyday speech but appear in formal writing, legal/religious language, literature, and set expressions. Recognizing and occasional…",
+  "subtitle": "Structures that are rare in everyday speech but common in formal writing, legal and religious language, literature and set expressions.",
   "prerequisites": [],
   "objectives": [
     "Understand and use: Advanced (formal/archaic) subjunctive — the bare base form of the verb (no -s, no \"would/should\") used after certain verbs/adjectives expressing necessity, demand, or recommendation, especially in formal American English and fixed expressions.",
     "Understand and use: Emphatic \"do\" in literary contexts — \"do/does/did\" + bare infinitive used not to form a question or negative, but to add emphasis or formality, common in literary and rhetorical prose.",
-    "Understand and use: Inverted conditionals with an omitted auxiliary — an extremely formal/literary variant where \"if\" is dropped, the auxiliary is inverted, and sometimes an entire clause is compressed with ellipsis."
+    "Understand and use: Inverted conditionals without \"if\" — an extremely formal/literary variant where \"if\" is dropped, the auxiliary is inverted, and sometimes an entire clause is compressed with ellipsis."
   ],
   "content": {
     "intro": "These structures are rare in everyday speech but appear in formal writing, legal/religious language, literature, and set expressions. Recognizing and occasionally using them signals command of the language's outer edges.",
     "rules": [
       {
         "heading": "a) Advanced (formal/archaic) subjunctive — the bare base form of the verb (no -s, no \"would/should\") used after certain verbs/adjectives expressing necessity, demand, or recommendation, especially in formal American English and fixed expressions.",
-        "body": "<p>The committee demanded that he resign immediately. (not \"resigns\")</p><p>It is essential that every member be present.</p><p>Fixed expressions: So be it. Suffice it to say. Be that as it may. Come what may. God save the Queen.</p>"
+        "body": "<p>The committee demanded that he resign immediately. (not \"resigns\")</p><p>It is essential that every member be present.</p><p>Fixed expressions: So be it. Suffice it to say. Be that as it may. Come what may. God save the King.</p>"
       },
       {
         "heading": "b) Emphatic \"do\" in literary contexts — \"do/does/did\" + bare infinitive used not to form a question or negative, but to add emphasis or formality, common in literary and rhetorical prose.",
-        "body": "<p>She did say she would come, but she never showed up. (emphasizing that she really did say it)</p><p>Little did I know, this decision did shape the rest of my life.</p>"
+        "body": "<p>She did say she would come, but she never showed up. (emphasizing that she really did say it)</p><p>I do understand your concern — and I did read the report.</p>"
       },
       {
-        "heading": "c) Inverted conditionals with an omitted auxiliary — an extremely formal/literary variant where \"if\" is dropped, the auxiliary is inverted, and sometimes an entire clause is compressed with ellipsis.",
+        "heading": "c) Inverted conditionals without \"if\" — an extremely formal/literary variant where \"if\" is dropped, the auxiliary is inverted, and sometimes an entire clause is compressed with ellipsis.",
         "body": "<p>Had I but known, I would have acted differently. (\"but\" here is an archaic intensifier meaning \"only\")</p><p>Were it not for your generosity, this project would never have existed.</p><p>Be it ever so humble, there's no place like home. (archaic subjunctive + inversion, fixed literary expression)</p><p>These forms are not required for everyday fluency, but recognizing them is essential for reading literature, historical texts, legal documents, and formal ceremonial language — and using one occasionally in writing adds a deliberate note of gravity or formality.</p>"
       }
     ],
@@ -35,7 +35,7 @@
       "Be that as it may, the decision has already been made.",
       "Suffice it to say, the meeting did not go well.",
       "She did warn us, but nobody listened.",
-      "Little did we know, the storm did far more damage than expected.",
+      "We did take precautions; the storm was simply stronger than anyone expected.",
       "Had I but known the risks, I would never have agreed.",
       "Were it not for her intervention, the deal would have collapsed entirely.",
       "Come what may, the team will finish what it started.",
@@ -296,7 +296,7 @@
   "summary": [
     "a) Advanced (formal/archaic) subjunctive — the bare base form of the verb (no -s, no \"would/should\") used after certain verbs/adjectives expressing necessity, demand, or recommendation, especially in formal American English and fixed expressions.",
     "b) Emphatic \"do\" in literary contexts — \"do/does/did\" + bare infinitive used not to form a question or negative, but to add emphasis or formality, common in literary and rhetorical prose.",
-    "c) Inverted conditionals with an omitted auxiliary — an extremely formal/literary variant where \"if\" is dropped, the auxiliary is inverted, and sometimes an entire clause is compressed with ellipsis."
+    "c) Inverted conditionals without \"if\" — an extremely formal/literary variant where \"if\" is dropped, the auxiliary is inverted, and sometimes an entire clause is compressed with ellipsis."
   ],
   "related": [],
   "sourceMaterial": {

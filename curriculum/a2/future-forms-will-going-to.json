@@ -37,9 +37,9 @@
     ],
     "commonMistakes": [
       {
-        "wrong": "I'm going to visit my parents. (decided right now, spontaneously)",
-        "right": "I'll visit my parents. / I'm going to visit my parents.",
-        "why": "A decision made at the moment of speaking uses \"will\"; a plan decided earlier uses \"going to\" — check which situation applies before choosing."
+        "wrong": "The phone's ringing — I'm going to get it.",
+        "right": "The phone's ringing — I'll get it.",
+        "why": "A decision made at the moment of speaking uses \"will\"; \"going to\" is for a plan decided before now."
       },
       {
         "wrong": "Look at those clouds — it will rain.",

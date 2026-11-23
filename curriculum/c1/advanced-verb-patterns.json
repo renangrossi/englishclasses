@@ -18,7 +18,7 @@
     "rules": [
       {
         "heading": "a) Verb + object + infinitive/gerund variations — some verbs change meaning depending on the pattern that follows.",
-        "body": "<ul><li>remember/forget + to-infinitive (a task you need/needed to do) vs. + gerund (a memory of something already done) I remembered to lock the door. (I did it, then remembered.) / I remember locking the door. (I have a memory of doing it.)</li><li>stop + to-infinitive (pause in order to do something else) vs. + gerund (quit doing something) He stopped to smoke. (paused his activity in order to smoke) / He stopped smoking. (quit the habit)</li><li>try + to-infinitive (make an effort) vs. + gerund (experiment with something as a possible solution) I tried to open the jar. (made an effort) / I tried using hot water to open the jar. (experimented with a method)</li></ul>"
+        "body": "<ul><li>remember/forget + to-infinitive (a task you need/needed to do) vs. + gerund (a memory of something already done) I remembered to lock the door. (I remembered first, then did it.) / I remember locking the door. (I have a memory of doing it.)</li><li>stop + to-infinitive (pause in order to do something else) vs. + gerund (quit doing something) He stopped to smoke. (paused his activity in order to smoke) / He stopped smoking. (quit the habit)</li><li>try + to-infinitive (make an effort) vs. + gerund (experiment with something as a possible solution) I tried to open the jar. (made an effort) / I tried using hot water to open the jar. (experimented with a method)</li></ul>"
       },
       {
         "heading": "b) Perfect infinitives and perfect gerunds — used to refer to an earlier action relative to the main verb.",
@@ -65,9 +65,9 @@
         "why": "The causative \"have something done\" uses the past participle, not a to-infinitive."
       },
       {
-        "wrong": "She admitted to lying to the police, before that day.",
-        "right": "She admitted to having lied to the police before that day.",
-        "why": "To show the lying happened earlier than the admission, the perfect gerund is needed after \"admitted to.\""
+        "wrong": "She admitted to lie to the police.",
+        "right": "She admitted to lying to the police. / She admitted to having lied to the police.",
+        "why": "In “admit to,” to is a preposition, so it takes an -ing form — the simple gerund (lying) or the perfect gerund (having lied) — never the infinitive."
       }
     ]
   },

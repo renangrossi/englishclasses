@@ -6,7 +6,7 @@
   "skill": "grammar",
   "strand": "near-native-transformation-skills",
   "title": "Near-Native Transformation Skills",
-  "subtitle": "The final C2 skill is the ability to rewrite entire passages — not just single sentences — while preserving meaning, tone, and logical structure, and to handle …",
+  "subtitle": "Rewrite whole passages while preserving meaning, tone and logical structure, and handle ambiguity and pragmatic nuance through grammatical choices alone.",
   "prerequisites": [],
   "objectives": [
     "Understand and use: Rewriting whole passages while preserving meaning — this requires holding the overall argument/narrative structure in mind while changing sentence boundaries, combining or splitting sentences, switching active/passive, and varying connectors, without losing or distorting the original content.",
@@ -58,9 +58,9 @@
         "why": "After \"may,\" always use \"have,\" not \"had.\""
       },
       {
-        "wrong": "Flying planes are dangerous when badly maintained. (still ambiguous if not intended)",
-        "right": "[if referring to aircraft] Aircraft that are poorly maintained can be dangerous.",
-        "why": "Leaving \"flying planes\" as a modifier keeps the structural ambiguity between \"planes that fly\" and \"the act of flying planes\" — clarify explicitly if precision matters."
+        "wrong": "Flying planes can be dangerous. (if you mean the aircraft)",
+        "right": "Planes that are badly maintained can be dangerous.",
+        "why": "With \"can be,\" nothing shows whether \"flying planes\" means the aircraft or the act of flying them (\"flying planes are…\" would mean the aircraft; \"flying planes is…\" the act). If precision matters, say which you mean."
       },
       {
         "wrong": "It is not the plan was poorly designed, rather circumstances changed.",

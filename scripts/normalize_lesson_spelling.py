@@ -141,7 +141,9 @@ def main():
     cd.SPELLING[:] = [(p, st) for p, st in cd.SPELLING
                       if not any(w in p for w in NOT_SPELLING)]
     report = {"changed": 0, "skipped": [], "passages": 0}
+    # cefr/*.html are the grammar booklets: their text was never normalized.
     files = sorted(ROOT.glob("levels/**/*.html")) + sorted(ROOT.glob("*.html")) \
+        + sorted(ROOT.glob("cefr/*.html")) \
         + sorted(ROOT.glob("curriculum/**/*.json"))
     touched = 0
     for f in files:

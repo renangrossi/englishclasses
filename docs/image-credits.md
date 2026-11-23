@@ -168,7 +168,7 @@ rights; the gallery also holds living and recent artists, and none of that is us
 
 ### From Wikimedia Commons (public domain)
 
-145 images the gallery could not answer -- flags, maps, photographs and
+146 images the gallery could not answer -- flags, maps, photographs and
 portraits of particular people. Fetched with `scripts/add_commons_image.py`, which
 reads the Commons licence metadata and refuses anything carrying NC or ND. The
 few used under a licence that requires a credit are listed separately below.
@@ -234,6 +234,7 @@ few used under a licence that requires a credit are listed separately below.
 | `b1/physical-education` | `01.jpg` | Plates from *Athletic Training for School Boys*, 1910. | `File:Athletic training for school boys (1910) (14598149930).jpg` |
 | `b1/say-speak-talk-tell-02` | `01.jpg` | A radio dealer's window | `File:J. Fred Huber Radio, window LCCN2016826306.jpg` |
 | `b1/saying-it-again-on-a-call` | `01.jpg` | Operators at the "Victory" switchboard, Potsdam Conference | `File:WAC telephone operators operate the Victory switchboard during the Potsdam Conference in their headquarters in... - NARA - 199007.jpg` |
+| `b1/the-bread-code` | `01.jpg` | Bleecker Street, Saturday Night | `File:John Sloan - Bleecker Street, Saturday Night - 2005.1 - Crystal Bridges Museum of American Art.jpg` |
 | `b1/transcontinental-railroad` | `02.jpg` | Promontory Summit, Utah, 10 May 1869. | `File:East and West Shaking hands at the laying of last rail Union Pacific Railroad - Restoration.jpg` |
 | `b1/transcontinental-railroad` | `03.jpg` | Chinese workers on the Central Pacific in the Sierra Nevada. | `File:Chinese railroad workers sierra nevada.jpg` |
 | `b2/civil-war-nation-divided` | `01.jpg` | Pickett's Charge at Gettysburg | `File:Thure de Thulstrup - L. Prang and Co. - Battle of Gettysburg - Restoration by Adam Cuerden.jpg` |
@@ -370,7 +371,7 @@ the page itself, which is where the licence requires it to be.
 | `b2/egypt` | `02.jpg` | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Thebes,_Luxor,_Egypt,_Temple_of_Hatshepsut,_Deir_el-Bahari.jpg) |
 | `b2/formal-informal` | `02.jpg` | Shixart1985 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:In_a_warm_and_inviting_home_office,_a_person_inserts_a_blank_sheet_of_paper_into_a_vintage_typewriter_while_preparing_to_write_a_heartfelt_letter.jpg) |
 | `b2/formula-1` | `02.jpg` | Lukas Raich | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2022_Nr._44_Hamilton.jpg) |
-| `b2/intelligence-pills` | `02.jpg` | MorgueFile : see [1] | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:VariousPills.jpg) |
+| `b2/intelligence-pills` | `02.jpg` | MorgueFile | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:VariousPills.jpg) |
 | `b2/it-and-jiu-jitsu` | `02.jpg` | parhessiastes | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Brazilian_Jiu-Jitsu_Gi_Competition-Armbar.jpg) |
 | `b2/it-interview` | `02.jpg` | Gangulybiswarup | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Audience_Of_Sudeshna_Mukherjee%27s_Talk_On_Gender_Equality_Digital_Rights_And_AI_Ethics_-_WikiConference_India_2026_-_Kochi_2026-09-05_04077.jpg) |
 | `b2/north-sentinel-island` | `01.jpg` | Contains modified Copernicus Sentinel data 2022 (ESA) | Attribution | [Commons](https://commons.wikimedia.org/wiki/File:North_Sentinel_Island_2022-03-06_Sentinel-2_L2A_True_color.jpg) |

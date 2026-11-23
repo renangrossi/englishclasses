@@ -15,7 +15,7 @@ b) Iterative and habitual aspect — the present/past continuous with "always/co
 
 c) Tense-shifting for rhetorical effect — skilled writers and speakers deliberately break "expected" tense sequencing:
    - Historic present: switching to the present tense mid-narrative to make a past event feel vivid and immediate. "So I'm standing there, and suddenly the phone rings."
-   - Future framed as inevitable/already decided: present continuous or simple present for scheduled/fated future events, adding certainty. "The results are announced next week." / "By this time next year, she retires."
+   - Future framed as inevitable/already decided: present continuous or simple present for scheduled/fated future events, adding certainty. "The results are announced next week." / "She retires next spring."
    - Past perfect for retrospective narrative distance, even beyond its normal "earlier action" function, to create a reflective, looking-back tone in memoir-style writing.
 
 Precision here comes from choosing aspect (simple / continuous / perfect / perfect continuous) to signal not just when, but how the speaker frames an event — as a fact, a process, a completed result, or an ongoing/repeated experience.
@@ -31,7 +31,7 @@ Precision here comes from choosing aspect (simple / continuous / perfect / perfe
 7. She used to hate coffee, but now she can't start her day without it.
 8. He's forever losing his phone somewhere in the house.
 9. Looking back, I had never really understood what my father sacrificed for us.
-10. The train departs at platform four in ten minutes.
+10. The train departs from platform four in ten minutes.
 11. They had been arguing for hours before either of them said anything productive.
 12. I'll have finished the report by the time you're back from lunch.
 

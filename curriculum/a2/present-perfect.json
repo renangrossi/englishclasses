@@ -46,7 +46,7 @@
       { "wrong": "I have visited Paris last year.", "right": "I visited Paris last year.", "why": "\"Last year\" is a finished, specific time — that needs the simple past, not the present perfect." },
       { "wrong": "She has went to the store.", "right": "She has gone to the store.", "why": "The present perfect needs the past participle (gone), not the simple past form (went)." },
       { "wrong": "I have finish my homework.", "right": "I have finished my homework.", "why": "The main verb needs the past participle form after \"have.\"" },
-      { "wrong": "Have you finished already?", "right": "Have you finished yet?", "why": "\"Yet\" is used in questions and negatives; \"already\" is more typical in affirmative statements." }
+      { "wrong": "I haven't finished already.", "right": "I haven't finished yet.", "why": "In negatives, use \"yet.\" \"Already\" belongs in affirmative statements — and in questions that show surprise: \"Have you finished already?\"" }
     ]
   },
   "exercises": [

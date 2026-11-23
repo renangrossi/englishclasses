@@ -37,7 +37,7 @@
       { "wrong": "The cake is baking by my mother.", "right": "The cake is baked by my mother.", "why": "The passive needs \"to be + past participle,\" not the -ing form (unless it's also continuous: \"is being baked\")." },
       { "wrong": "The house builded in 1990.", "right": "The house was built in 1990.", "why": "The passive always needs \"to be\" before the past participle." },
       { "wrong": "The letters sent yesterday.", "right": "The letters were sent yesterday.", "why": "Without \"were,\" this isn't a complete passive sentence." },
-      { "wrong": "The book was written by somebody.", "right": "The book was written.", "why": "If the doer isn't known or important, just drop the \"by\" phrase entirely — don't force a vague \"by somebody.\"" }
+      { "wrong": "My wallet was stolen by somebody.", "right": "My wallet was stolen.", "why": "If the doer isn't known or important, just drop the \"by\" phrase entirely — don't force a vague \"by somebody.\"" }
     ]
   },
   "exercises": [

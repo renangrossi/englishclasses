@@ -278,7 +278,7 @@ def main():
                         f"original documents while they are converted.")
 
     title = "Reading & Listening Library — Renan the Teacher"
-    description = ("A CEFR-levelled library of reading and listening texts for English learners — "
+    description = ("A CEFR-leveled library of reading and listening texts for English learners — "
                    "A1 to C2, each with audio, vocabulary and interactive exercises.")
     breadcrumb = ('<li><a href="index.html">Home</a></li>'
                   '<li aria-current="page">Reading Library</li>')

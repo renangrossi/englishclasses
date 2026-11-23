@@ -6,7 +6,7 @@
   "skill": "grammar",
   "strand": "native-like-modality-and-attitude",
   "title": "Native-Like Use of Modality and Attitude",
-  "subtitle": "C2 modality goes beyond certainty/possibility to convey fine shades of tentativeness, concession, politeness and layered epistemic stance — how confident, cauti…",
+  "subtitle": "C2 modality goes beyond certainty and possibility to convey tentativeness, concession, politeness and stance — how confident, cautious or diplomatic you want to sound.",
   "prerequisites": [],
   "objectives": [
     "Understand and use: Subtle modal shading",
@@ -45,7 +45,7 @@
       {
         "wrong": "It would seem the strategy fails.",
         "right": "It would seem that the strategy has failed.",
-        "why": "This hedged structure typically requires \"that\" before the clause, and the verb tense should match the intended time frame (here, a completed failure)."
+        "why": "The verb tense should match the intended time frame — here, a completed failure (\"has failed\"). \"That\" is optional, but it makes the hedge clearer in formal writing."
       },
       {
         "wrong": "She might well being right.",

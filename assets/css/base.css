@@ -8,11 +8,7 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
-  /* Keeps hash-link targets clear of the sticky header (and, where
-     present, the sticky .level-toc sub-nav) so the heading a user
-     jumps to — or is already reading, when the browser re-flows the
-     page on zoom — doesn't end up hidden underneath them. */
-  scroll-padding-top: var(--sticky-offset);
+  /* No scroll-padding-top here, on purpose: see the [id] rule below. */
   /* Reserves the scrollbar's own width permanently (on browsers that
      support it — no-op elsewhere, incl. iOS Safari's overlay
      scrollbars, which never needed this) instead of only when a
@@ -22,6 +18,24 @@ html {
      width wider for as long as it's open, visibly nudging the header/
      content sideways and back — the "width jump" this avoids. */
   scrollbar-gutter: stable;
+}
+
+/* Keeps whatever the page scrolls to — a hash-link target, a block a
+   script scrolls into view, a control reached with the keyboard — clear
+   of the sticky header (and, where present, the sticky .level-toc
+   sub-nav) instead of hidden underneath them.
+   This is scroll-margin on the targets, not scroll-padding-top on <html>:
+   browsers also apply the page's scroll-padding while you drag to select
+   text, treating that top band as off-screen, so selecting a line that sat
+   just under the header scrolled the page up — again and again, selecting
+   everything above it. scroll-margin only applies to scrolling to an
+   element, so selecting text leaves the page where it is.
+   Inside <main> only: the scrolling panels (search, AI Teacher, mobile nav)
+   live outside it and would otherwise keep a header-sized gap of their own.
+   :where() keeps it at zero specificity, so a section's own scroll-margin
+   (components.css) still wins. */
+:where(main[id], main [id], main :focus-visible) {
+  scroll-margin-top: var(--sticky-offset);
 }
 
 @media (prefers-reduced-motion: reduce) {

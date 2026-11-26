@@ -6,7 +6,6 @@
 *, *::before, *::after { box-sizing: border-box; }
 
 html {
-  scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   /* No scroll-padding-top here, on purpose: see the [id] rule below. */
   /* Reserves the scrollbar's own width permanently (on browsers that
@@ -19,6 +18,13 @@ html {
      content sideways and back — the "width jump" this avoids. */
   scrollbar-gutter: stable;
 }
+
+/* Smooth scrolling for in-page jumps, switched on by main.js -- at once,
+   or, on a page opened at a #section, once it has settled there. On from
+   the start, the browser's own jump to that #section animates too, and the
+   animation keeps running while the page is still filling in, so the
+   section ends up somewhere else on every load. */
+html.is-smooth-scroll { scroll-behavior: smooth; }
 
 /* Keeps whatever the page scrolls to — a hash-link target, a block a
    script scrolls into view, a control reached with the keyboard — clear

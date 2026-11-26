@@ -248,12 +248,83 @@
     });
 
     if (window.location.hash) {
+      var id = window.location.hash.substring(1);
+      try { id = decodeURIComponent(id); } catch (e) { /* keep it raw */ }
       window.addEventListener("load", function () {
-        setTimeout(function () {
-          scrollToId(window.location.hash.substring(1));
-        }, 60);
+        setTimeout(function () { holdHashTarget(id); }, 60);
       });
+    } else {
+      smoothScrollOn();
     }
+  }
+
+  function smoothScrollOn() {
+    document.documentElement.classList.add("is-smooth-scroll");
+  }
+
+  /* ---------------------------------------------------------------
+     Arriving with a hash: put the target under the header, and keep
+     it there while the page finishes filling in.
+     Some pages keep drawing after "load" -- Today's Review builds its
+     plan from a 4 MB index that can take seconds to arrive, and draws
+     it again when cloud sync brings the account's progress. Whatever is
+     drawn above the target pushes it down the screen, and the browser's
+     scroll anchoring can't hold it, because the redraw replaces the very
+     elements it anchors to. So for a while, whenever the layout moves
+     the target while the page itself hasn't been scrolled, it is put
+     back -- instantly, so it doesn't visibly slide.
+     The reader always wins: a wheel, touch, key or click, or any scroll
+     not made here (dragging the scrollbar), ends the hold for good.
+     Anchoring is off meanwhile, and smooth scrolling isn't on yet (see
+     base.css), so the page only moves when the reader or this code moves
+     it -- that is what tells the two apart.
+     --------------------------------------------------------------- */
+  var HOLD_MS = 15000;
+  function holdHashTarget(id) {
+    var root = document.documentElement;
+    var inputs = ["wheel", "touchstart", "keydown", "mousedown"];
+    var stopAt = Date.now() + HOLD_MS;
+    var lastY = null;       // where this code last left the page
+    var placedTop = null;   // where that left the target
+    var done = false;
+
+    function release() {
+      if (done) return;
+      done = true;
+      inputs.forEach(function (type) { window.removeEventListener(type, release, true); });
+      root.style.overflowAnchor = "";
+      smoothScrollOn();
+    }
+
+    function place(target) {
+      var top = target.getBoundingClientRect().top + window.pageYOffset - headerOffset();
+      window.scrollTo(window.pageXOffset, top);
+      lastY = window.pageYOffset;
+      placedTop = target.getBoundingClientRect().top;
+    }
+
+    function check() {
+      if (done) return;
+      if (Date.now() > stopAt) { release(); return; }
+      var target = document.getElementById(id);
+      if (target) {
+        if (lastY === null) {
+          place(target);
+        } else if (Math.abs(window.pageYOffset - lastY) > 1) {
+          release();
+          return;
+        } else if (Math.abs(target.getBoundingClientRect().top - placedTop) > 1) {
+          place(target);
+        }
+      }
+      window.requestAnimationFrame(check);
+    }
+
+    inputs.forEach(function (type) {
+      window.addEventListener(type, release, { capture: true, passive: true });
+    });
+    root.style.overflowAnchor = "none";
+    check();
   }
 
   /* ---------------------------------------------------------------
